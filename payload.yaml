@@ -1,0 +1,5 @@
+---
+name: module-aws
+description: provides data collection and reporting for Amazon Web Services
+type: api
+version: 0.0.0.1
