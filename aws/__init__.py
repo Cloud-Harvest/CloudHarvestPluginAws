@@ -4,7 +4,7 @@ from logging import getLogger
 logger = getLogger('harvest')
 
 
-class AwsApiCollector(BaseTask):
+class AwsApiTask(BaseTask):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
 
