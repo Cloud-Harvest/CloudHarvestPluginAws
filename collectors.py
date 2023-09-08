@@ -1,12 +1,12 @@
-from base.tasks import Task
+from base.tasks import BaseTask
 from logging import getLogger
 
 logger = getLogger('harvest')
 
 
-class AwsApiCollector(Task):
-    def __init__(self):
-        super().__init__()
+class AwsApiCollector(BaseTask):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
 
     def run(self):
         pass
