@@ -1,0 +1,18 @@
+services:
+  api-plugin-aws:  &api-plugin-aws-config
+    image: cloud-harvest-api-plugin-aws
+    build:
+      context: .
+      dockerfile: Dockerfile
+      ssh:
+        - default
+    working_dir: /src
+    volumes:
+      - "~/.ssh:/root/.ssh"
+      - "~/.aws:/root/.aws"
+      - "./.harvest:/etc/harvest.d"
+    entrypoint: /setup.sh
+
+  api-plugin-aws-test:
+    <<: *api-plugin-aws-config
+    entrypoint: /src/tests/test.sh
