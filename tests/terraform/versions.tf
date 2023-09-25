@@ -10,3 +10,8 @@ terraform {
 
   required_version = ">= 1.5"
 }
+
+provider "aws" {
+  profile = "cloud-harvest-test"
+  region  = "us-east-1"
+}
