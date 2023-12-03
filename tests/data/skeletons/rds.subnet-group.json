@@ -1,0 +1,10 @@
+[{'DBSubnetGroupArn': 'DBSubnetGroupArn',
+  'DBSubnetGroupDescription': 'DBSubnetGroupDescription',
+  'DBSubnetGroupName': 'DBSubnetGroupName',
+  'SubnetGroupStatus': 'SubnetGroupStatus',
+  'Subnets': [{'SubnetAvailabilityZone': {'Name': 'Name'},
+               'SubnetIdentifier': 'SubnetIdentifier',
+               'SubnetOutpost': {'Arn': 'Arn'},
+               'SubnetStatus': 'SubnetStatus'}],
+  'SupportedNetworkTypes': ['String'],
+  'VpcId': 'VpcId'}]

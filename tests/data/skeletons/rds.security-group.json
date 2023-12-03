@@ -1,0 +1,10 @@
+[{'DBSecurityGroupArn': 'DBSecurityGroupArn',
+  'DBSecurityGroupDescription': 'DBSecurityGroupDescription',
+  'DBSecurityGroupName': 'DBSecurityGroupName',
+  'EC2SecurityGroups': [{'EC2SecurityGroupId': 'EC2SecurityGroupId',
+                         'EC2SecurityGroupName': 'EC2SecurityGroupName',
+                         'EC2SecurityGroupOwnerId': 'EC2SecurityGroupOwnerId',
+                         'Status': 'Status'}],
+  'IPRanges': [{'CIDRIP': 'CIDRIP', 'Status': 'Status'}],
+  'OwnerId': 'OwnerId',
+  'VpcId': 'VpcId'}]
