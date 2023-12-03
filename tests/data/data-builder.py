@@ -65,6 +65,7 @@ def main(services_file: str, count: int, max_workers: int):
             with open(skeleton_file, 'w') as skeleton_stream:
                 from pprint import pformat
                 skeleton_stream.write(pformat(template[result_key]))
+                skeleton_stream.write('\n')
                 print(f'wrote: {skeleton_file}')
 
             if old_skeleton_md5 is not None:
@@ -95,8 +96,7 @@ def main(services_file: str, count: int, max_workers: int):
 
             output_file = f'./outputs/{_service}.{_type}.json'
             with open(output_file, 'w') as output_stream:
-                output_stream.write(pformat(results))
-                output_stream.write('\n')
+                output_stream.writelines([pformat(o) + '\n' for o in results])
 
             print(f'wrote: {output_file}')
 
