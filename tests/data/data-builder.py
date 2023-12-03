@@ -1,3 +1,5 @@
+#!/bin/env python
+
 def main(services_file: str, count: int, max_workers: int):
     """
     Converts API calls into test records and prints them to stdout.
@@ -20,9 +22,14 @@ def main(services_file: str, count: int, max_workers: int):
 
     aws_binary = expanduser(which('aws', path=environ.get('PATH')))
 
+    z = 0
+    s = len(set(['.'.join(f.split('.')[0:2])
+                 for f in flatten(services, separator='.')]))
+
     for _service in services.keys():
         for _type in services[_service].keys():
-            print(f'{_service}.{_type}')
+            z += 1
+            print(f'\nbuild: {_service}.{_type}: {z} / {s}')
 
             service_type = services[_service][_type]
 
@@ -34,7 +41,7 @@ def main(services_file: str, count: int, max_workers: int):
                 '--generate-cli-skeleton output'
             ]))
 
-            print(c)
+            print(f'cmd  : {c}')
 
             process = Popen(args=c.split(' '),
                             stdout=PIPE)
@@ -45,9 +52,26 @@ def main(services_file: str, count: int, max_workers: int):
 
             result_key = [k for k in template.keys() if k != 'Marker'][0]
 
-            with open(f'./skeletons/{_service}.{_type}.json', 'w') as skeleton_stream:
+            skeleton_file = f'./skeletons/{_service}.{_type}.json'
+
+            import hashlib
+            from os.path import exists
+            if exists(skeleton_file):
+                old_skeleton_md5 = hashlib.md5(open(skeleton_file, 'rb').read()).hexdigest()
+
+            else:
+                old_skeleton_md5 = None
+
+            with open(skeleton_file, 'w') as skeleton_stream:
                 from pprint import pformat
                 skeleton_stream.write(pformat(template[result_key]))
+                print(f'wrote: {skeleton_file}')
+
+            if old_skeleton_md5 is not None:
+                new_skeleton_md5 = hashlib.md5(open(skeleton_file, 'rb').read()).hexdigest()
+
+                if new_skeleton_md5 != old_skeleton_md5:
+                    print(f'WARNING: {_service}.{_type} md5 do not match: {skeleton_file}: {old_skeleton_md5} / {new_skeleton_md5}')
 
             if isinstance(template[result_key], list):
                 flat_template = flatten(template[result_key][0], separator='.')
@@ -69,9 +93,12 @@ def main(services_file: str, count: int, max_workers: int):
 
                 results.append(unflatten_list(dc_template, separator='.'))
 
-            with open(f'./outputs/{_service}.{_type}.json', 'w') as output_stream:
+            output_file = f'./outputs/{_service}.{_type}.json'
+            with open(output_file, 'w') as output_stream:
                 output_stream.write(pformat(results))
                 output_stream.write('\n')
+
+            print(f'wrote: {output_file}')
 
 
 if __name__ == '__main__':
