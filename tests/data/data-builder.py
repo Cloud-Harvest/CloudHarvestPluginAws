@@ -2,8 +2,8 @@
 
 from subprocess import Popen, PIPE
 
-invalid_result_keys = ('Marker', 'NextToken')
-data_gathering_command_prefixes = ('describe', 'get', 'list')
+_invalid_result_keys = (s.lower for s in ('Marker', 'NextToken'))
+_data_gathering_command_prefixes = ('describe', 'get', 'list')
 
 
 def main(aws: str, count: int, max_workers: int, no_cache: bool):
@@ -34,8 +34,10 @@ def main(aws: str, count: int, max_workers: int, no_cache: bool):
     [commands.extend(f.result()) for f in futures]
 
     with ThreadPoolExecutor(max_workers=max_workers) as pool:
-        futures = [pool.submit(get_outputs, aws, command, count, no_cache) for command in commands]
-                   # if any([command.split('.')[1].lower().startswith(s) for s in data_gathering_command_prefixes])]
+        futures = [pool.submit(get_outputs, aws, service_command, count, no_cache)
+                   for service_command in commands
+                   if any([service_command.split('.')[1].lower().startswith(s)
+                           for s in _data_gathering_command_prefixes])]
 
         wait(futures, return_when=ALL_COMPLETED)
 
@@ -80,6 +82,7 @@ def get_services(no_cache: bool) -> list:
 
         with open('./cache/services.json', 'w') as services_cache:
             services_cache.write(dumps(services, default=str, indent=4))
+            services_cache.write('\n')
 
     return services
 
@@ -113,10 +116,12 @@ def get_commands(service: str, no_cache: bool) -> list:
                 service_command = f'{service}.{command}'
                 print(service_command)
 
-                result.append(service_command)
+                if any([command.startswith(s) for s in _data_gathering_command_prefixes]):
+                    result.append(service_command)
 
         with open(commands_cache_file, 'w') as commands_cache:
             commands_cache.write(dumps(result, default=str, indent=4))
+            commands_cache.write('\n')
 
     return result
 
@@ -173,8 +178,13 @@ def get_outputs(aws: str, service_command: str, count: int, no_cache: bool) -> t
 
         output_json = loads(output_raw.decode('utf8'))
 
-        result_key = [k for k in output_json.keys() if k not in invalid_result_keys]
+        result_key = [k for k in output_json.keys() if k.lower() not in _invalid_result_keys]
         result_key = result_key[0] if len(result_key) > 0 else None
+
+        boto_command = command.replace('-', '_')
+        from boto3 import Session
+        session = Session(region_name='us-east-1')
+        has_command = hasattr(session.client(service_name=service), boto_command)
 
         print(f'{service_command}: '
               f'{"WARN" if any([len(input_raw) == 0, 
@@ -188,7 +198,9 @@ def get_outputs(aws: str, service_command: str, count: int, no_cache: bool) -> t
             'input': {
                 'template': loads(input_raw.decode('utf8')),
                 'required': input_required,
-                'md5': md5(input_raw).hexdigest()
+                'md5': md5(input_raw).hexdigest(),
+                'boto_command': boto_command,
+                'boto_command_matches': has_command
             },
             'output': {
                 'template': output_json.get(result_key),
@@ -204,7 +216,8 @@ def get_outputs(aws: str, service_command: str, count: int, no_cache: bool) -> t
         }
 
         with open(command_output_file, 'w') as command_output_stream:
-            command_output_stream.write(dumps(result))
+            command_output_stream.write(dumps(result, default=str, indent=4))
+            command_output_stream.write('\n')
 
         print(f'{service}.{command}: done in {result["meta"]["duration"]} seconds -> {command_output_file}')
 
@@ -219,7 +232,7 @@ def create_random_data(template: dict, count: int) -> list:
 
     letters = string.ascii_lowercase
 
-    from flatten_json import flatten
+    from flatten_json import flatten, unflatten_list
     flat_template = flatten(template, separator='.')
 
     for i in range(count):
@@ -231,7 +244,7 @@ def create_random_data(template: dict, count: int) -> list:
             else:
                 r[k] = v
 
-        result.append(r)
+        result.append(unflatten_list(r, separator='.'))
 
     return result
 
