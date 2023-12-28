@@ -139,6 +139,7 @@ def get_outputs(aws: str, service_command: str, count: int, no_cache: bool) -> t
 
     if exists(command_output_file) and no_cache is False:
         with open(command_output_file, 'r') as command_output_stream:
+            print(f'{service_command}: skipped (cached): {command_output_file}')
             return loads(command_output_stream.read())
 
     else:
@@ -194,26 +195,31 @@ def get_outputs(aws: str, service_command: str, count: int, no_cache: bool) -> t
               f'{len(output_raw)} | '
               f'{result_key}')
 
-        result = {
-            'input': {
-                'template': loads(input_raw.decode('utf8')),
-                'required': input_required,
-                'md5': md5(input_raw).hexdigest(),
-                'boto_command': boto_command,
-                'boto_command_matches': has_command
-            },
-            'output': {
-                'template': output_json.get(result_key),
-                'required': output_required,
-                'md5': md5(output_raw).hexdigest(),
-                'randomized': create_random_data(template=output_json[result_key], count=count) if result_key else []
-            },
-            'meta': {
-                'start': start_time,
-                'end': datetime.now(tz=timezone.utc).timestamp(),
-                'duration': datetime.now(tz=timezone.utc).timestamp() - start_time
+        result = {}
+
+        try:
+            result = {
+                'input': {
+                    'template': loads(input_raw.decode('utf8')),
+                    'required': input_required,
+                    'md5': md5(input_raw).hexdigest(),
+                    'boto_command': boto_command,
+                    'boto_command_matches': has_command
+                },
+                'output': {
+                    'template': output_json.get(result_key),
+                    'required': output_required,
+                    'md5': md5(output_raw).hexdigest(),
+                    'randomized': create_random_data(template=output_json[result_key], count=count) if result_key else []
+                },
+                'meta': {
+                    'start': start_time,
+                    'end': datetime.now(tz=timezone.utc).timestamp(),
+                    'duration': datetime.now(tz=timezone.utc).timestamp() - start_time
+                }
             }
-        }
+        except Exception as ex:
+            print(f'{service_command}: ERROR: ' + ' '.join(ex.args))
 
         with open(command_output_file, 'w') as command_output_stream:
             command_output_stream.write(dumps(result, default=str, indent=4))
@@ -233,7 +239,8 @@ def create_random_data(template: dict, count: int) -> list:
     letters = string.ascii_lowercase
 
     from flatten_json import flatten, unflatten_list
-    flat_template = flatten(template, separator='.')
+    # place in {'result': template} because all flatten/unflatten_list inputs must be of the dict type
+    flat_template = flatten({'result': template}, separator='.')
 
     for i in range(count):
         r = {}
@@ -244,7 +251,7 @@ def create_random_data(template: dict, count: int) -> list:
             else:
                 r[k] = v
 
-        result.append(unflatten_list(r, separator='.'))
+        result.append(unflatten_list(r, separator='.')['result'])
 
     return result
 
