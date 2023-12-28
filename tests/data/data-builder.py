@@ -187,14 +187,6 @@ def get_outputs(aws: str, service_command: str, count: int, no_cache: bool) -> t
         session = Session(region_name='us-east-1')
         has_command = hasattr(session.client(service_name=service), boto_command)
 
-        print(f'{service_command}: '
-              f'{"WARN" if any([len(input_raw) == 0, 
-                                len(output_raw) == 0,
-                                result_key is None]) else "INFO"}: '
-              f'{len(input_raw)} | '
-              f'{len(output_raw)} | '
-              f'{result_key}')
-
         result = {}
 
         try:
@@ -210,7 +202,8 @@ def get_outputs(aws: str, service_command: str, count: int, no_cache: bool) -> t
                     'template': output_json.get(result_key),
                     'required': output_required,
                     'md5': md5(output_raw).hexdigest(),
-                    'randomized': create_random_data(template=output_json[result_key], count=count) if result_key else []
+                    'randomized': create_random_data(template=output_json[result_key], count=count) if result_key else [],
+                    'result_key': result_key
                 },
                 'meta': {
                     'start': start_time,
@@ -218,14 +211,27 @@ def get_outputs(aws: str, service_command: str, count: int, no_cache: bool) -> t
                     'duration': datetime.now(tz=timezone.utc).timestamp() - start_time
                 }
             }
+
+            with open(command_output_file, 'w') as command_output_stream:
+                command_output_stream.write(dumps(result, default=str, indent=4))
+                command_output_stream.write('\n')
+
         except Exception as ex:
             print(f'{service_command}: ERROR: ' + ' '.join(ex.args))
 
-        with open(command_output_file, 'w') as command_output_stream:
-            command_output_stream.write(dumps(result, default=str, indent=4))
-            command_output_stream.write('\n')
-
-        print(f'{service}.{command}: done in {result["meta"]["duration"]} seconds -> {command_output_file}')
+        finally:
+            print(f'{service_command}: '
+                  f'{"WARN" if any([len(input_raw) == 0, 
+                                    len(output_raw) == 0,
+                                    result_key is None]) else "INFO"}: ' + \
+                  ' | '.join(
+                [
+                    str(len(input_raw)),
+                    str(len(output_raw)),
+                    result_key,
+                    f'done in {result["meta"]["duration"]} seconds -> {command_output_file}'
+                ])
+            )
 
         return service_command, result
 
