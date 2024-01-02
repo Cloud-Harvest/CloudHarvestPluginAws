@@ -2,7 +2,7 @@
 
 from subprocess import Popen, PIPE
 
-_invalid_result_keys = (s.lower for s in ('Marker', 'NextToken'))
+_invalid_result_keys = [str(s).lower() for s in ('Marker', 'NextToken')]
 _data_gathering_command_prefixes = ('describe', 'get', 'list')
 
 
@@ -136,6 +136,7 @@ def get_outputs(aws: str, service_command: str, count: int, no_cache: bool) -> t
     from os.path import exists
 
     command_output_file = f'./cache/{service}.{command}.output.json'
+    random_output_file = f'./cache/{service}.{command}.random.json'
 
     if exists(command_output_file) and no_cache is False:
         with open(command_output_file, 'r') as command_output_stream:
@@ -216,6 +217,10 @@ def get_outputs(aws: str, service_command: str, count: int, no_cache: bool) -> t
                 command_output_stream.write(dumps(result, default=str, indent=4))
                 command_output_stream.write('\n')
 
+            with open(random_output_file, 'w') as random_output_stream:
+                random_output_stream.write(dumps(result['output']['randomized'], default=str, indent=4))
+                random_output_stream.write('\n')
+
         except Exception as ex:
             print(f'{service_command}: ERROR: ' + ' '.join(ex.args))
 
@@ -257,7 +262,13 @@ def create_random_data(template: dict, count: int) -> list:
             else:
                 r[k] = v
 
-        result.append(unflatten_list(r, separator='.')['result'])
+        unflatten = unflatten_list(r, separator='.')['result']
+
+        if isinstance(unflatten, list):
+            result.extend(unflatten)
+
+        else:
+            result.append(unflatten)
 
     return result
 
