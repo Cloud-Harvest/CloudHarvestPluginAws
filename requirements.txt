@@ -1,4 +1,6 @@
 boto3
+flask
 flatten_json
+pymongo
 pytest
 pyyaml

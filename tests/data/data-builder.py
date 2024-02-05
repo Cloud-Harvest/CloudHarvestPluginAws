@@ -209,7 +209,9 @@ def get_outputs(aws: str, service_command: str, count: int, no_cache: bool) -> t
                 'meta': {
                     'start': start_time,
                     'end': datetime.now(tz=timezone.utc).timestamp(),
-                    'duration': datetime.now(tz=timezone.utc).timestamp() - start_time
+                    'duration': datetime.now(tz=timezone.utc).timestamp() - start_time,
+                    'service': service,
+                    'type': type_from_command(command)
                 }
             }
 
@@ -271,6 +273,12 @@ def create_random_data(template: dict, count: int) -> list:
             result.append(unflatten)
 
     return result
+
+
+def type_from_command(command: str) -> str:
+    for prefix in ['list', 'describe']:
+        if command.startswith(prefix):
+            return command[len(prefix) + 1:].replace('-', '_')
 
 
 if __name__ == '__main__':
