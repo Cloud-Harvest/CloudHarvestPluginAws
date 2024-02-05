@@ -1,36 +1,43 @@
-from configuration import load_configuration
+from configuration import load_configuration_files, load_logger
+from cache import HarvestCacheConnection, HarvestCacheHeartBeatThread
 from flask import Flask, jsonify, Response
-from logging import getLogger
-
-logger = getLogger('harvest')
 
 # load the configuration.yaml file
-configuration = load_configuration()
+api_configuration = load_configuration_files()
+
+# startup the logging system
+logger = load_logger(**api_configuration.get('logging', {}))
+
+# connect to backend database
+cache = HarvestCacheConnection(**api_configuration['cache']['connection'])
+
+# activate the HeartBeatThread
+HarvestCacheHeartBeatThread(cache=cache, version=api_configuration['version'])
 
 # define the application
 app = Flask(__name__)
 
 
-@app.route('/jobs/start', method='PUT')
+@app.route('/jobs/start', methods=['PUT'])
 def jobs_start(service: str, service_type: str, account: str, region: str):
     pass
 
 
-@app.route('/jobs/stop', method='PUT')
-def jobs_start(*job_identifiers: str):
+@app.route('/jobs/stop', methods=['PUT'])
+def jobs_stop(*job_identifiers: str):
     pass
 
 
-@app.route('/jobs/status', method='GET')
-def jobs_start(*job_identifiers: str):
+@app.route('/jobs/status', methods=['GET'])
+def jobs_status(*job_identifiers: str):
     pass
 
 
-@app.route('/cache/credentials/update', method='PUT')
+@app.route('/cache/credentials/update', methods=['PUT'])
 def update_db_credentials(host: str, port: int, username: str, password: str, secrets_manager_secret_name: str, **kwargs):
-    configuration['cache'] = kwargs
+    api_configuration['cache'] = kwargs
     # TODO: drop existing connections and reopen using this configuration
 
 
 if __name__ == '__main__':
-    app.run(**configuration.get('data-collector-aws'))
+    app.run(**api_configuration.get('data-collector-aws'))

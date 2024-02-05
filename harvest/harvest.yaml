@@ -10,3 +10,7 @@ cache:
 data-collector-aws:
   host: 0.0.0.0
   port: 8080
+
+logging:
+  level: debug
+  location: ./.harvest/data-collector-aws/logs/

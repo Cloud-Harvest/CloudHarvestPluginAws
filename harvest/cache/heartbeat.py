@@ -1,4 +1,4 @@
-from cache.connection import HarvestCacheConnection
+from cache import HarvestCacheConnection
 from logging import getLogger
 
 logger = getLogger('harvest')
@@ -27,16 +27,17 @@ class HarvestCacheHeartBeatThread:
             try:
                 self._cache.connect()
 
-                self._cache['harvest']['api_nodes'].update_one(filter={"hostname": getfqdn()},
-                                                               upsert=True,
-                                                               update={"$set": {"hostname": getfqdn(),
+                self._cache['harvest']['collectors'].update_one(filter={"hostname": getfqdn()},
+                                                                upsert=True,
+                                                                update={"$set": {"hostname": getfqdn(),
+                                                                                 "platform": "aws",
                                                                                  "os": platform.system(),
                                                                                  "version": self._version,
                                                                                  "start": start_datetime,
                                                                                  "last": datetime.now(tz=timezone.utc)
                                                                                  }
                                                                         }
-                                                               )
+                                                                )
 
             except Exception as ex:
                 message = ' '.join(ex.args)
@@ -44,5 +45,5 @@ class HarvestCacheHeartBeatThread:
             finally:
                 from time import sleep
 
-                logger.debug(f'{self._cache.log_prefix}: api heartbeat: {message}')
+                logger.debug(f'{self._cache.log_prefix}: data-collector-aws heartbeat: {message}')
                 sleep(5)
