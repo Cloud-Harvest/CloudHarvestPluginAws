@@ -16,7 +16,7 @@ class HarvestCacheHeartBeatThread:
 
     def _run(self):
         import platform
-        from socket import getfqdn
+        from socket import getfqdn, gethostbyname
         from datetime import datetime, timezone
 
         start_datetime = datetime.now(tz=timezone.utc)
@@ -30,6 +30,7 @@ class HarvestCacheHeartBeatThread:
                 self._cache['harvest']['collectors'].update_one(filter={"hostname": getfqdn()},
                                                                 upsert=True,
                                                                 update={"$set": {"hostname": getfqdn(),
+                                                                                 "ip": gethostbyname(getfqdn()),
                                                                                  "platform": "aws",
                                                                                  "os": platform.system(),
                                                                                  "version": self._version,
