@@ -15,7 +15,7 @@ cache = HarvestCacheConnection(**api_configuration['cache']['connection'])
 HarvestCacheHeartBeatThread(cache=cache, version=api_configuration['version'])
 
 # define the application
-app = Flask(__name__)
+app = Flask('cloud-harvest-data-collector-aws')
 
 
 @app.route('/jobs/start', methods=['PUT'])
