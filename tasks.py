@@ -1,4 +1,4 @@
-from harvest.base.tasks import BaseTask
+from base.tasks import BaseTask
 
 
 class AwsTask(BaseTask):
