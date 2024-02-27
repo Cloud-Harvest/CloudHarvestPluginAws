@@ -1,6 +1,6 @@
 boto3
 flask
-flatten_json
+flatten-json
 pymongo
 pytest
 pyyaml
