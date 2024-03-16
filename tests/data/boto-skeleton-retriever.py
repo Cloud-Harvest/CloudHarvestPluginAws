@@ -24,29 +24,41 @@ def map_shape(shape, previous_shape_names: list = None):
         previous_shape_names.append(shape.name)
 
         if shape.type_name == 'structure':
-            return {member_name: map_shape(member_shape, previous_shape_names) for member_name, member_shape in shape.members.items()}
+            return {
+                member_name: map_shape(member_shape, previous_shape_names)
+                for member_name, member_shape
+                in shape.members.items()
+            }
 
         elif shape.type_name == 'list':
-            return [map_shape(shape.member, previous_shape_names)]
+            return [
+                map_shape(shape.member, previous_shape_names)
+            ]
 
         elif shape.type_name == 'map':
-            return {shape.key.type_name: map_shape(shape.value, previous_shape_names)}
+            return {
+                shape.key.type_name: map_shape(shape.value, previous_shape_names)
+            }
 
         else:
             if hasattr(shape, 'enum'):
                 if len(shape.enum) > 0:
-                    return '|'.join(shape.enum)
+                    return f'enum({"|".join(shape.enum)})'
 
                 else:
                     result = shape.type_name
+
                     del shape
                     previous_shape_names.clear()
+
                     return result
 
             else:
                 result = shape.type_name
+
                 del shape
                 previous_shape_names.clear()
+
                 return result
 
     except Exception as ex:
