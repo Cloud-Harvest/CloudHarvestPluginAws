@@ -191,9 +191,11 @@ def get_outputs(aws: str, service_command: str, count: int, no_cache: bool) -> t
         result = {}
 
         try:
+            input_template = loads(input_raw.decode('utf8'))
+
             result = {
                 'input': {
-                    'template': loads(input_raw.decode('utf8')),
+                    'template': input_template,
                     'required': input_required,
                     'md5': md5(input_raw).hexdigest(),
                     'boto_command': boto_command,
@@ -203,7 +205,11 @@ def get_outputs(aws: str, service_command: str, count: int, no_cache: bool) -> t
                     'template': output_json.get(result_key),
                     'required': output_required,
                     'md5': md5(output_raw).hexdigest(),
-                    'randomized': create_random_data(template=output_json[result_key], count=count) if result_key else [],
+                    'randomized': create_random_data(template=output_json[result_key],
+                                                     count=count,
+                                                     primary_template_identifier=input_template.get('primary_template_identifier'),
+                                                     service=service,
+                                                     service_type=type_from_command(command)) if result_key else [],
                     'result_key': result_key
                 },
                 'meta': {
@@ -243,7 +249,7 @@ def get_outputs(aws: str, service_command: str, count: int, no_cache: bool) -> t
         return service_command, result
 
 
-def create_random_data(template: dict, count: int) -> list:
+def create_random_data(template: dict, count: int, service: str, service_type: str, primary_template_identifier: str = None) -> list:
     result = []
 
     import random
@@ -264,6 +270,10 @@ def create_random_data(template: dict, count: int) -> list:
             else:
                 r[k] = v
 
+        r['Harvest.Service'] = service
+        r['Harvest.Type'] = service_type
+        r['Harvest.Module.FilterCriteria.0'] = primary_template_identifier or ''
+
         unflatten = unflatten_list(r, separator='.')['result']
 
         if isinstance(unflatten, list):
@@ -283,8 +293,9 @@ def type_from_command(command: str) -> str:
 
 if __name__ == '__main__':
     from argparse import ArgumentParser
+    from rich_argparse import RawTextRichHelpFormatter
 
-    parser = ArgumentParser()
+    parser = ArgumentParser(formatter_class=RawTextRichHelpFormatter)
     parser.add_argument('-c', '--count', default=10,
                         help='Number of test records to create per service. (default: 10)')
     parser.add_argument('-w', '--max-workers', default=16, type=int,
