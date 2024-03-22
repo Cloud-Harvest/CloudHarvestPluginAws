@@ -1,0 +1,86 @@
+{
+    "input": {
+        "template": {
+            "EngineVersion": "",
+            "ParameterGroupFamily": "",
+            "MaxResults": 0,
+            "NextToken": "",
+            "DefaultOnly": true
+        },
+        "required": [],
+        "md5": "3e4caa2abdddf5d8e4e1fc3972f9a3c1",
+        "boto_command": "describe_engine_versions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "EngineVersion": "EngineVersion",
+                "EnginePatchVersion": "EnginePatchVersion",
+                "ParameterGroupFamily": "ParameterGroupFamily"
+            }
+        ],
+        "required": [],
+        "md5": "58a27ca179e759cd908716423151590e",
+        "randomized": [
+            {
+                "EnginePatchVersion": "fvlzoccungzdbcoy",
+                "EngineVersion": "jpbpqyfmctqumkod",
+                "ParameterGroupFamily": "catdlkzwqwdaiavp"
+            },
+            {
+                "EnginePatchVersion": "kgltqrzffqjjylgw",
+                "EngineVersion": "ahtvwrcvxnakewsf",
+                "ParameterGroupFamily": "ojsjhupmrutpmnhe"
+            },
+            {
+                "EnginePatchVersion": "bvykinhlvckszzjc",
+                "EngineVersion": "ueopahgzgtiaiuak",
+                "ParameterGroupFamily": "ibjccrbmgtcvlkjj"
+            },
+            {
+                "EnginePatchVersion": "xktcxuggnpejjlfs",
+                "EngineVersion": "yfzxguqekkgyowad",
+                "ParameterGroupFamily": "uyxnjamezfxviwjg"
+            },
+            {
+                "EnginePatchVersion": "jssxkuxptyrztcuk",
+                "EngineVersion": "opggkersoymgpnrn",
+                "ParameterGroupFamily": "bzhabdwnzknqfuei"
+            },
+            {
+                "EnginePatchVersion": "ilaietfynczzdbnz",
+                "EngineVersion": "zjkegpbrsuzswvat",
+                "ParameterGroupFamily": "kozxqtnwwpsyxxqo"
+            },
+            {
+                "EnginePatchVersion": "frxqeceaqaeapiee",
+                "EngineVersion": "vtptfegqcetseazs",
+                "ParameterGroupFamily": "lxrailyaeedqloae"
+            },
+            {
+                "EnginePatchVersion": "peckzoxknkottvfx",
+                "EngineVersion": "tyyhojfbmdkdleqp",
+                "ParameterGroupFamily": "isgvvgoqdousgaop"
+            },
+            {
+                "EnginePatchVersion": "xwnbjfxqxiqdfprs",
+                "EngineVersion": "ohnnvzhjuuvhdxvi",
+                "ParameterGroupFamily": "lnctrjqutumxczus"
+            },
+            {
+                "EnginePatchVersion": "tvoxcyrakfbqwwoo",
+                "EngineVersion": "jpdjxolzcrqvfhpj",
+                "ParameterGroupFamily": "wptsgrznzlbgwxpx"
+            }
+        ],
+        "result_key": "EngineVersions"
+    },
+    "meta": {
+        "start": 1711116194.604322,
+        "end": 1711116200.765408,
+        "duration": 6.161096096038818,
+        "service": "memorydb",
+        "type": "engine_versions"
+    }
+}

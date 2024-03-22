@@ -1,0 +1,34 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "describe_account_health",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": 0,
+        "required": [],
+        "md5": "4464f6c621cb7e512887f42757443b8c",
+        "randomized": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "result_key": "OpenReactiveInsights"
+    },
+    "meta": {
+        "start": 1711115556.620638,
+        "end": 1711115565.557754,
+        "duration": 8.937126159667969,
+        "service": "devops-guru",
+        "type": "account_health"
+    }
+}

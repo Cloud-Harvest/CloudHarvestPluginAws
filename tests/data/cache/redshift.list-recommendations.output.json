@@ -1,0 +1,316 @@
+{
+    "input": {
+        "template": {
+            "ClusterIdentifier": "",
+            "NamespaceArn": "",
+            "MaxRecords": 0,
+            "Marker": ""
+        },
+        "required": [],
+        "md5": "7605604981cb23b872735ad93b35b109",
+        "boto_command": "list_recommendations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "Id": "Id",
+                "ClusterIdentifier": "ClusterIdentifier",
+                "NamespaceArn": "NamespaceArn",
+                "CreatedAt": "1970-01-01T00:00:00",
+                "RecommendationType": "RecommendationType",
+                "Title": "Title",
+                "Description": "Description",
+                "Observation": "Observation",
+                "ImpactRanking": "ImpactRanking",
+                "RecommendationText": "RecommendationText",
+                "RecommendedActions": [
+                    {
+                        "Text": "Text",
+                        "Database": "Database",
+                        "Command": "Command",
+                        "Type": "Type"
+                    }
+                ],
+                "ReferenceLinks": [
+                    {
+                        "Text": "Text",
+                        "Link": "Link"
+                    }
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "a295cfe77a556e7c69de054f513f7a23",
+        "randomized": [
+            {
+                "ClusterIdentifier": "rcleyhawgqstohbl",
+                "CreatedAt": "andffnvnluwzetnv",
+                "Description": "olyqqqvywogdwsvp",
+                "Id": "xmxsgdmuvslqxotj",
+                "ImpactRanking": "csxpfqcswllkiiwf",
+                "NamespaceArn": "iswpiefkbgexaimi",
+                "Observation": "yhzvjxmxphpingju",
+                "RecommendationText": "fpgbfzhfutdirlda",
+                "RecommendationType": "uovbjmmlgtzznxna",
+                "RecommendedActions": [
+                    {
+                        "Command": "gszakodrpsepmbad",
+                        "Database": "ipmceuqishtxlwuo",
+                        "Text": "beyxutayiuzqdtwu",
+                        "Type": "eukyoqmjicmnxlvk"
+                    }
+                ],
+                "ReferenceLinks": [
+                    {
+                        "Link": "feamruhxmmllytcs",
+                        "Text": "pohjbvtixyxonikj"
+                    }
+                ],
+                "Title": "xfamgaonpnpkegyr"
+            },
+            {
+                "ClusterIdentifier": "qlblujomhunfcwhn",
+                "CreatedAt": "fgjooelagsqynomj",
+                "Description": "xxmkmdatyejocupu",
+                "Id": "wnxlzrkmnxzdfzwe",
+                "ImpactRanking": "scqpghydivbhzumf",
+                "NamespaceArn": "nfnudqtexwbiholm",
+                "Observation": "anpabueepfuiyxjx",
+                "RecommendationText": "dgjvvxwjekqquwun",
+                "RecommendationType": "qjhtdynarmyuvkls",
+                "RecommendedActions": [
+                    {
+                        "Command": "koayyoicpphdkdyt",
+                        "Database": "yuskbrwjchilpasg",
+                        "Text": "byhjyqajcfadawew",
+                        "Type": "cnpbweslxvpkftyt"
+                    }
+                ],
+                "ReferenceLinks": [
+                    {
+                        "Link": "jnulepemfxsgbpki",
+                        "Text": "ujigxaeymhfzvgrv"
+                    }
+                ],
+                "Title": "fjvzqlbqlxftowbw"
+            },
+            {
+                "ClusterIdentifier": "fgptzgotgtnzeanp",
+                "CreatedAt": "yfjreanpfwlbcagr",
+                "Description": "gkdsbhcouvetoufj",
+                "Id": "hacscyvnxbhgcuea",
+                "ImpactRanking": "hpbrjusfttydyznn",
+                "NamespaceArn": "bunxnbqbvsefonjk",
+                "Observation": "zerkumwfmkmwhimb",
+                "RecommendationText": "zsdsfdtuztmznffg",
+                "RecommendationType": "jyvzscfrazpmpfkx",
+                "RecommendedActions": [
+                    {
+                        "Command": "xlovmgbexyipnulq",
+                        "Database": "hnwwkzhnhwtavmcm",
+                        "Text": "enewhohzvqipunen",
+                        "Type": "rnppbfualgfpaebn"
+                    }
+                ],
+                "ReferenceLinks": [
+                    {
+                        "Link": "skbskygsevsxbdre",
+                        "Text": "riiingeffmvazlka"
+                    }
+                ],
+                "Title": "jlfelcfihfnymwec"
+            },
+            {
+                "ClusterIdentifier": "fhuvdbbymekbzeaa",
+                "CreatedAt": "wqjhhlbhairjqgeu",
+                "Description": "yzkcdbdxricpejxz",
+                "Id": "bruxoniihbppghnn",
+                "ImpactRanking": "pqqabqneqynzcyub",
+                "NamespaceArn": "cegynguwldtvjwpl",
+                "Observation": "wgtmvwmuuqslgdbz",
+                "RecommendationText": "hgqtxngfipgwcgow",
+                "RecommendationType": "sxyuttamphoxertv",
+                "RecommendedActions": [
+                    {
+                        "Command": "neoszbiszhxrvmip",
+                        "Database": "zgynarwjboylwked",
+                        "Text": "uqybgtloiglbyphd",
+                        "Type": "baaiiubhvlomnuro"
+                    }
+                ],
+                "ReferenceLinks": [
+                    {
+                        "Link": "pzzcojntlcypwcse",
+                        "Text": "mrjeogemtcodxtbe"
+                    }
+                ],
+                "Title": "ckpymykbcbdbhzxw"
+            },
+            {
+                "ClusterIdentifier": "aghjytrkorzvqsah",
+                "CreatedAt": "iiwxzabmimdesgvk",
+                "Description": "qppigmalowukcqjv",
+                "Id": "sljzqgiofpsqnlvt",
+                "ImpactRanking": "duriwqhkhfhrurfv",
+                "NamespaceArn": "updglqimamhrrbhe",
+                "Observation": "umbrkkwlzdkkqlwm",
+                "RecommendationText": "htgtffcyhaxylrdj",
+                "RecommendationType": "qmrghqzmybedlxbx",
+                "RecommendedActions": [
+                    {
+                        "Command": "bdtcrhqivrevwemc",
+                        "Database": "jepdzctzwimsbiui",
+                        "Text": "outrrszbbdosrxsu",
+                        "Type": "aarrmssdkqlgsrxf"
+                    }
+                ],
+                "ReferenceLinks": [
+                    {
+                        "Link": "iwcygnfwjqztckhh",
+                        "Text": "akycevejomgnyrzn"
+                    }
+                ],
+                "Title": "wghsqpdvwbjgxmgw"
+            },
+            {
+                "ClusterIdentifier": "mkhccndkcpkrbick",
+                "CreatedAt": "ojqzuodgwqcpfhow",
+                "Description": "uclomgrctfprtzxo",
+                "Id": "zqdhlaqaxlfbydkz",
+                "ImpactRanking": "hjqjfafcproktzgm",
+                "NamespaceArn": "oafjccxpgitmpruf",
+                "Observation": "mdhprvqqqnvqlpoc",
+                "RecommendationText": "nkwmiyhgoswfperv",
+                "RecommendationType": "ugwlwoobibiwpqjb",
+                "RecommendedActions": [
+                    {
+                        "Command": "lcpgohriybwxumub",
+                        "Database": "dqsukauvomdsxjvj",
+                        "Text": "senxvcfjeoznbpvu",
+                        "Type": "ojuhhbjmagassbrc"
+                    }
+                ],
+                "ReferenceLinks": [
+                    {
+                        "Link": "bffwitwtatjehlwc",
+                        "Text": "hpcjgkulocnhioes"
+                    }
+                ],
+                "Title": "defmwrcoynnhctun"
+            },
+            {
+                "ClusterIdentifier": "zlcmvuweemwlggkn",
+                "CreatedAt": "xxemgzabfcueerkw",
+                "Description": "kcjrmqcayvondvxc",
+                "Id": "awbyblwyzutdwltg",
+                "ImpactRanking": "zmyeqfqbhplsxcaq",
+                "NamespaceArn": "kthkdxpncnrykbvr",
+                "Observation": "nmvdvboogdqtfkmw",
+                "RecommendationText": "gwiknthwdcxkmyiz",
+                "RecommendationType": "ehfkqengolthrsuq",
+                "RecommendedActions": [
+                    {
+                        "Command": "pjzklcwqohjnzmkd",
+                        "Database": "qsvtenvwvjhemfon",
+                        "Text": "skwocoivonaptxtf",
+                        "Type": "vdwuivmctdhnfkgx"
+                    }
+                ],
+                "ReferenceLinks": [
+                    {
+                        "Link": "mmljqnbjcarvkzib",
+                        "Text": "pohbvnmkedbfpobf"
+                    }
+                ],
+                "Title": "damnjzzjjeuxsaus"
+            },
+            {
+                "ClusterIdentifier": "bodqzbruvxedbvku",
+                "CreatedAt": "wwenxofjtmnybvpb",
+                "Description": "ygrchbnoghpayxuj",
+                "Id": "zmhesvhnlytfomuk",
+                "ImpactRanking": "qlpfhgduhuuzooaz",
+                "NamespaceArn": "lhoqnhjqbzdxevlj",
+                "Observation": "kiuesjgiymlpxrjx",
+                "RecommendationText": "ledmbanuzieodwfy",
+                "RecommendationType": "arlrllleldtztrtm",
+                "RecommendedActions": [
+                    {
+                        "Command": "wcugbnpfonsrnzff",
+                        "Database": "jjszxpdwzrmahzfc",
+                        "Text": "mxbrraokngdhfpfk",
+                        "Type": "vjswwtukzbwdukih"
+                    }
+                ],
+                "ReferenceLinks": [
+                    {
+                        "Link": "jtplkrkwakwwhaqx",
+                        "Text": "lvucdbcrzdelyuaa"
+                    }
+                ],
+                "Title": "tmffistbwgvjzkxa"
+            },
+            {
+                "ClusterIdentifier": "tcygmgqxncmyvbqz",
+                "CreatedAt": "mibpbsacaucmfrhe",
+                "Description": "cfhsxqjctmlhasbp",
+                "Id": "ilhkhgkjuhcaozzd",
+                "ImpactRanking": "meyhepgpvdlwkqjh",
+                "NamespaceArn": "jwuujmulqnceigsj",
+                "Observation": "nldolkdywjluyyjr",
+                "RecommendationText": "epexidhimktjojyi",
+                "RecommendationType": "pcbaspccnvjbrhls",
+                "RecommendedActions": [
+                    {
+                        "Command": "rigrrnejnzjtlwzn",
+                        "Database": "gnwqzhpngsdtkcua",
+                        "Text": "vwgudkcponnbghbx",
+                        "Type": "qgtcrgvdxuvxoclp"
+                    }
+                ],
+                "ReferenceLinks": [
+                    {
+                        "Link": "kunsoqzasuklfmfy",
+                        "Text": "uvkusndhuhdxauxz"
+                    }
+                ],
+                "Title": "xjlavqukxgbptghn"
+            },
+            {
+                "ClusterIdentifier": "ynbihidwkrlmgqwb",
+                "CreatedAt": "kcaqgxfguyibaser",
+                "Description": "ydvoxvibwgiaakxk",
+                "Id": "jbxkanvjuphydhhb",
+                "ImpactRanking": "yxrpkeetsdgjduij",
+                "NamespaceArn": "ajhfnnilrjqdxlyn",
+                "Observation": "jbijazmysudskjsr",
+                "RecommendationText": "vlozciegkydhjlhu",
+                "RecommendationType": "mjdbgulobpparfeh",
+                "RecommendedActions": [
+                    {
+                        "Command": "nhrrysijeaewtuls",
+                        "Database": "kqsmzfjfwmiapwls",
+                        "Text": "vatnkimpqgldjqmo",
+                        "Type": "hdxyipcjdjqszxew"
+                    }
+                ],
+                "ReferenceLinks": [
+                    {
+                        "Link": "lzrvqalducxjsbqw",
+                        "Text": "hfrmtwhxevtbbnpa"
+                    }
+                ],
+                "Title": "kwaimxlpnaccsysa"
+            }
+        ],
+        "result_key": "Recommendations"
+    },
+    "meta": {
+        "start": 1711116434.325104,
+        "end": 1711116440.384627,
+        "duration": 6.059535026550293,
+        "service": "redshift",
+        "type": "recommendations"
+    }
+}

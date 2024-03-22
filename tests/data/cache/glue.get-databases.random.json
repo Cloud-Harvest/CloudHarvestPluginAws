@@ -1,0 +1,292 @@
+[
+    {
+        "CatalogId": "hganrfjjmavdkqcj",
+        "CreateTableDefaultPermissions": [
+            {
+                "Permissions": [
+                    "brlzihllwznpyiwz"
+                ],
+                "Principal": {
+                    "DataLakePrincipalIdentifier": "xweexmpsytoobnfb"
+                }
+            }
+        ],
+        "CreateTime": "cbvhepsklshwxsxn",
+        "Description": "muwfrkzgkipxgglg",
+        "FederatedDatabase": {
+            "ConnectionName": "lohnbkjzrxemnotu",
+            "Identifier": "anninfayjzdyjmnx"
+        },
+        "LocationUri": "dtxvipepbcbwqrlm",
+        "Name": "dfrkhvgggivxlqwy",
+        "Parameters": {
+            "KeyName": "aebldldtqgjtolhr"
+        },
+        "TargetDatabase": {
+            "CatalogId": "wypjrlgginbimznb",
+            "DatabaseName": "qgyamhmwihazaqld",
+            "Region": "acflqjaxpnhwdllb"
+        }
+    },
+    {
+        "CatalogId": "ktljyuelxzauuprq",
+        "CreateTableDefaultPermissions": [
+            {
+                "Permissions": [
+                    "jjwpfckavzonenlu"
+                ],
+                "Principal": {
+                    "DataLakePrincipalIdentifier": "kagwvqhbmgbvnxsu"
+                }
+            }
+        ],
+        "CreateTime": "isyrexuqjnkmglus",
+        "Description": "fhikgvrwrzdvmqdk",
+        "FederatedDatabase": {
+            "ConnectionName": "epbijsfxqfvwdmdw",
+            "Identifier": "tsczboujczkwzcys"
+        },
+        "LocationUri": "hejrmkauzilrihaw",
+        "Name": "absyxsjkwatxqnmo",
+        "Parameters": {
+            "KeyName": "pbkxczdnupluketk"
+        },
+        "TargetDatabase": {
+            "CatalogId": "zurdmtosjvfvxezy",
+            "DatabaseName": "sopwodbyvbwlcoab",
+            "Region": "ptaluszdwjdwxoev"
+        }
+    },
+    {
+        "CatalogId": "kseqnfelsscmhuvf",
+        "CreateTableDefaultPermissions": [
+            {
+                "Permissions": [
+                    "gnsjponymocvluzp"
+                ],
+                "Principal": {
+                    "DataLakePrincipalIdentifier": "lddvlxikgvntphub"
+                }
+            }
+        ],
+        "CreateTime": "ifdzirxrwyxkiypp",
+        "Description": "qeymctbbaemyxqrt",
+        "FederatedDatabase": {
+            "ConnectionName": "bzoilvmogivvmkzu",
+            "Identifier": "yvrbkkbkuhmsaiax"
+        },
+        "LocationUri": "hgxrjeoowoknnyoy",
+        "Name": "ipsjqgcjrnzifxwk",
+        "Parameters": {
+            "KeyName": "znxmjselvjmbefdw"
+        },
+        "TargetDatabase": {
+            "CatalogId": "rqvsgunzxqgeehmh",
+            "DatabaseName": "dgbccpzwejyqcxzl",
+            "Region": "woyiwxhdbdsroigw"
+        }
+    },
+    {
+        "CatalogId": "hypjhslvbftjgklo",
+        "CreateTableDefaultPermissions": [
+            {
+                "Permissions": [
+                    "zgbrhjzolcqthiho"
+                ],
+                "Principal": {
+                    "DataLakePrincipalIdentifier": "rdqnawtfvnentswj"
+                }
+            }
+        ],
+        "CreateTime": "anhvrupugwyphmgy",
+        "Description": "boxwzldcgeebqtvj",
+        "FederatedDatabase": {
+            "ConnectionName": "iicjgsomzpziopds",
+            "Identifier": "wsktcgoxtaeukkuf"
+        },
+        "LocationUri": "hbwgjygwodpjmbwz",
+        "Name": "sxdgswbrnrdhmlcp",
+        "Parameters": {
+            "KeyName": "czntxrivjvxxttiy"
+        },
+        "TargetDatabase": {
+            "CatalogId": "ykuvujjdgdnzkpxh",
+            "DatabaseName": "kovrwsxsgiidkesr",
+            "Region": "wrewwnmwagxcysdh"
+        }
+    },
+    {
+        "CatalogId": "bynlypgcfivjkyvj",
+        "CreateTableDefaultPermissions": [
+            {
+                "Permissions": [
+                    "wwhqgihcijkjfnqe"
+                ],
+                "Principal": {
+                    "DataLakePrincipalIdentifier": "qpjwzclwzbmipccg"
+                }
+            }
+        ],
+        "CreateTime": "kxmjzomsjjwxnmri",
+        "Description": "csarwgwtfbwpbeig",
+        "FederatedDatabase": {
+            "ConnectionName": "bhknptbplwszztdv",
+            "Identifier": "sfakjpemwwptrzqh"
+        },
+        "LocationUri": "cmulmecmmledngck",
+        "Name": "pjkjcuxqhzljqyti",
+        "Parameters": {
+            "KeyName": "ipfzlcpgabvecliy"
+        },
+        "TargetDatabase": {
+            "CatalogId": "cwmywfwaxwtvguhr",
+            "DatabaseName": "gxgjnngykggrorjr",
+            "Region": "qesrhqtgrojzheeo"
+        }
+    },
+    {
+        "CatalogId": "svoadzjupvfqjyxk",
+        "CreateTableDefaultPermissions": [
+            {
+                "Permissions": [
+                    "gfaigkbverrdpfoe"
+                ],
+                "Principal": {
+                    "DataLakePrincipalIdentifier": "tiurqzowoqngzcgl"
+                }
+            }
+        ],
+        "CreateTime": "ztzwjzujvbssqljz",
+        "Description": "nytadphjknlihzwe",
+        "FederatedDatabase": {
+            "ConnectionName": "hlasrgukrzbquxsx",
+            "Identifier": "nlceuynijvycdlxg"
+        },
+        "LocationUri": "nabmtmgtttiddenx",
+        "Name": "nsblphoqijphhrpd",
+        "Parameters": {
+            "KeyName": "ceizwueetepzpapr"
+        },
+        "TargetDatabase": {
+            "CatalogId": "ungqnkjpvdyrkmee",
+            "DatabaseName": "hworzlzjkshdqohb",
+            "Region": "ccsnamelwqqdzbnm"
+        }
+    },
+    {
+        "CatalogId": "ixdylioeusbjetna",
+        "CreateTableDefaultPermissions": [
+            {
+                "Permissions": [
+                    "ryalgyxlaeqbyjev"
+                ],
+                "Principal": {
+                    "DataLakePrincipalIdentifier": "uywyxbpuzzkemgoa"
+                }
+            }
+        ],
+        "CreateTime": "ivvebkpbgjwyvdsb",
+        "Description": "bgzgdxtvbtacnygw",
+        "FederatedDatabase": {
+            "ConnectionName": "gmzhgtkgewsswops",
+            "Identifier": "kwymqrswarkxfvxx"
+        },
+        "LocationUri": "gjsxjlqmfpgcfypp",
+        "Name": "wsbbofiphbkombbc",
+        "Parameters": {
+            "KeyName": "vdxwdkjijafhupgz"
+        },
+        "TargetDatabase": {
+            "CatalogId": "izoghlvthlxuqmoi",
+            "DatabaseName": "yzyqmwxlajsjmpuz",
+            "Region": "wssjwwdzdmvahfkl"
+        }
+    },
+    {
+        "CatalogId": "jrishgwwlkparznu",
+        "CreateTableDefaultPermissions": [
+            {
+                "Permissions": [
+                    "pjlgykkzzjkmahhu"
+                ],
+                "Principal": {
+                    "DataLakePrincipalIdentifier": "rloxusyvvmxhhpod"
+                }
+            }
+        ],
+        "CreateTime": "apvizaodcgnkefys",
+        "Description": "pmwfgujxanukspmd",
+        "FederatedDatabase": {
+            "ConnectionName": "yrohoszgjndwdakk",
+            "Identifier": "azfzfjbnaxqtinmu"
+        },
+        "LocationUri": "qvcgxwzvtniimoga",
+        "Name": "zitdlhainjiztbrx",
+        "Parameters": {
+            "KeyName": "lstfomdtckltyxkm"
+        },
+        "TargetDatabase": {
+            "CatalogId": "mtvljuedcddsywnr",
+            "DatabaseName": "nxesvmpktrrriljn",
+            "Region": "rdvqaepglxywblpx"
+        }
+    },
+    {
+        "CatalogId": "bleiohcuezvyyohy",
+        "CreateTableDefaultPermissions": [
+            {
+                "Permissions": [
+                    "vbykosebxttaigll"
+                ],
+                "Principal": {
+                    "DataLakePrincipalIdentifier": "fxwydtnrtccckeom"
+                }
+            }
+        ],
+        "CreateTime": "hgabdxfsazzaowji",
+        "Description": "kdmvgfomhfstcipl",
+        "FederatedDatabase": {
+            "ConnectionName": "xqliyvnquwvoabwb",
+            "Identifier": "orqvlntsokowamun"
+        },
+        "LocationUri": "nhzxrgidvqsetpde",
+        "Name": "yxtmsscmellwpier",
+        "Parameters": {
+            "KeyName": "wgmphgggrmqpjlsc"
+        },
+        "TargetDatabase": {
+            "CatalogId": "tarhtppbrzvdmkds",
+            "DatabaseName": "nkqbclpzahzsxepp",
+            "Region": "vpqxxvttokqusinz"
+        }
+    },
+    {
+        "CatalogId": "rjbvlbkdhpsxelpb",
+        "CreateTableDefaultPermissions": [
+            {
+                "Permissions": [
+                    "ypwtzepaftucbqgt"
+                ],
+                "Principal": {
+                    "DataLakePrincipalIdentifier": "sconhatwnsjtgbut"
+                }
+            }
+        ],
+        "CreateTime": "gqksfvtbfjarkfri",
+        "Description": "nzimlkpatqvzoexq",
+        "FederatedDatabase": {
+            "ConnectionName": "gojnjkoyrkjlwbth",
+            "Identifier": "teupznaoyssqtpcs"
+        },
+        "LocationUri": "dewyujefnvzgonji",
+        "Name": "kpjlsnzdacexjvks",
+        "Parameters": {
+            "KeyName": "epfjmrsgbihvbetp"
+        },
+        "TargetDatabase": {
+            "CatalogId": "avxauovqvtiypsac",
+            "DatabaseName": "gvxrbckcocjsueom",
+            "Region": "sqjtdgqzuicxwmyj"
+        }
+    }
+]

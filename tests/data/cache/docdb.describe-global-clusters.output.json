@@ -1,0 +1,257 @@
+{
+    "input": {
+        "template": {
+            "GlobalClusterIdentifier": "",
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxRecords": 0,
+            "Marker": ""
+        },
+        "required": [],
+        "md5": "e1351f14894656cd2afca366903af507",
+        "boto_command": "describe_global_clusters",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "GlobalClusterIdentifier": "GlobalClusterIdentifier",
+                "GlobalClusterResourceId": "GlobalClusterResourceId",
+                "GlobalClusterArn": "GlobalClusterArn",
+                "Status": "Status",
+                "Engine": "Engine",
+                "EngineVersion": "EngineVersion",
+                "DatabaseName": "DatabaseName",
+                "StorageEncrypted": true,
+                "DeletionProtection": true,
+                "GlobalClusterMembers": [
+                    {
+                        "DBClusterArn": "DBClusterArn",
+                        "Readers": [
+                            "String"
+                        ],
+                        "IsWriter": true
+                    }
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "0ca7580689a0fcf9f798816160fedc4c",
+        "randomized": [
+            {
+                "DatabaseName": "iehfqpwwglhhrwgy",
+                "DeletionProtection": true,
+                "Engine": "qqdglpgdgaszhcsw",
+                "EngineVersion": "onstqtelvghroqad",
+                "GlobalClusterArn": "hgaceqtohtoshllz",
+                "GlobalClusterIdentifier": "quevxyqdnofpaeyk",
+                "GlobalClusterMembers": [
+                    {
+                        "DBClusterArn": "kjfpqbenvzombyzj",
+                        "IsWriter": true,
+                        "Readers": [
+                            "rixyyfzvazxkpzhi"
+                        ]
+                    }
+                ],
+                "GlobalClusterResourceId": "xwmdfuthztfxootc",
+                "Status": "zjwyeullwwjuowhl",
+                "StorageEncrypted": true
+            },
+            {
+                "DatabaseName": "rxrqjzgssslhjxar",
+                "DeletionProtection": true,
+                "Engine": "fqcytxylcpoafkfl",
+                "EngineVersion": "parriilpxufewdst",
+                "GlobalClusterArn": "bfmzdcciekoqtiej",
+                "GlobalClusterIdentifier": "fkhslhfklnylxplm",
+                "GlobalClusterMembers": [
+                    {
+                        "DBClusterArn": "bcjeykbjditzrdbs",
+                        "IsWriter": true,
+                        "Readers": [
+                            "szcgkzttqblbgaqq"
+                        ]
+                    }
+                ],
+                "GlobalClusterResourceId": "kjdyzczahwckovmi",
+                "Status": "ltrdfojrnkdepadx",
+                "StorageEncrypted": true
+            },
+            {
+                "DatabaseName": "fmuamsrbpgflmpun",
+                "DeletionProtection": true,
+                "Engine": "etlkeysnapuznrof",
+                "EngineVersion": "pblpdkgnzkcjghyt",
+                "GlobalClusterArn": "eruweulkgjroewrp",
+                "GlobalClusterIdentifier": "lfjewhfshhgvczys",
+                "GlobalClusterMembers": [
+                    {
+                        "DBClusterArn": "kfvpdaezyzjaiqlv",
+                        "IsWriter": true,
+                        "Readers": [
+                            "kmjiqfgxefastvia"
+                        ]
+                    }
+                ],
+                "GlobalClusterResourceId": "aufbptuhwkpaksyk",
+                "Status": "qzrrefntcsyvpsby",
+                "StorageEncrypted": true
+            },
+            {
+                "DatabaseName": "rqqohczrfioxbilz",
+                "DeletionProtection": true,
+                "Engine": "dijubmujbwvizutf",
+                "EngineVersion": "hvadkpfffdhaspga",
+                "GlobalClusterArn": "sqmfacxrppuirtxb",
+                "GlobalClusterIdentifier": "phaalqpvdbrizual",
+                "GlobalClusterMembers": [
+                    {
+                        "DBClusterArn": "fivnymbelobdabxs",
+                        "IsWriter": true,
+                        "Readers": [
+                            "uxiznuufvxlveujd"
+                        ]
+                    }
+                ],
+                "GlobalClusterResourceId": "bnnctksdnbpsghfc",
+                "Status": "ibqfwzalrpqbbuvw",
+                "StorageEncrypted": true
+            },
+            {
+                "DatabaseName": "sdffhbigykbddaml",
+                "DeletionProtection": true,
+                "Engine": "hyudnsutwzpnosdh",
+                "EngineVersion": "aovryhfwudhawbxt",
+                "GlobalClusterArn": "fcvxwurhlpuvatjf",
+                "GlobalClusterIdentifier": "badmpufhmpvtpmal",
+                "GlobalClusterMembers": [
+                    {
+                        "DBClusterArn": "ucysxibmmxzmrazc",
+                        "IsWriter": true,
+                        "Readers": [
+                            "cmqnhvjrpmbsazbi"
+                        ]
+                    }
+                ],
+                "GlobalClusterResourceId": "fafvhtrewiffcvnc",
+                "Status": "zpqxgwhcuwzowuvx",
+                "StorageEncrypted": true
+            },
+            {
+                "DatabaseName": "mmilrhzclmggxhem",
+                "DeletionProtection": true,
+                "Engine": "wohlryzffoegiavt",
+                "EngineVersion": "ircqymxqegmrbipu",
+                "GlobalClusterArn": "hxnzeeftkaqokygu",
+                "GlobalClusterIdentifier": "waxliyrxywittdls",
+                "GlobalClusterMembers": [
+                    {
+                        "DBClusterArn": "nskxbweniouszfzq",
+                        "IsWriter": true,
+                        "Readers": [
+                            "twxxwwjonzqtanad"
+                        ]
+                    }
+                ],
+                "GlobalClusterResourceId": "bjogpaemxwlrwbcv",
+                "Status": "jyiakapzuyxipdem",
+                "StorageEncrypted": true
+            },
+            {
+                "DatabaseName": "kxwohrpjkqrbienj",
+                "DeletionProtection": true,
+                "Engine": "vqlqppkwarrmznyp",
+                "EngineVersion": "dggekgkkkkxqcqdl",
+                "GlobalClusterArn": "ckjbmlhdbxgxgbzw",
+                "GlobalClusterIdentifier": "vvlzutwvgclcmsfg",
+                "GlobalClusterMembers": [
+                    {
+                        "DBClusterArn": "vevetwzrtgadzlru",
+                        "IsWriter": true,
+                        "Readers": [
+                            "ymvsoyplfptlcnnn"
+                        ]
+                    }
+                ],
+                "GlobalClusterResourceId": "juubbbkttizailrs",
+                "Status": "esiymgbdkjodzfdt",
+                "StorageEncrypted": true
+            },
+            {
+                "DatabaseName": "mshcofqnngzcqghg",
+                "DeletionProtection": true,
+                "Engine": "rcdlmdojdkjxohur",
+                "EngineVersion": "vevgeslocxtiupay",
+                "GlobalClusterArn": "ncvlkvibgtjfxidf",
+                "GlobalClusterIdentifier": "eiuspcbgmaeovwwg",
+                "GlobalClusterMembers": [
+                    {
+                        "DBClusterArn": "cicoemaqakggjabe",
+                        "IsWriter": true,
+                        "Readers": [
+                            "ojsddgwnyxofqxbn"
+                        ]
+                    }
+                ],
+                "GlobalClusterResourceId": "wiavbdrsckmarqyj",
+                "Status": "uvutxbuhsmqrgllh",
+                "StorageEncrypted": true
+            },
+            {
+                "DatabaseName": "ucfouecribneuwhx",
+                "DeletionProtection": true,
+                "Engine": "yczzlqwwafsqopho",
+                "EngineVersion": "aykolyjsqtfbbwet",
+                "GlobalClusterArn": "fprevyzxecsllgqk",
+                "GlobalClusterIdentifier": "mhidhhlhpczqrxsk",
+                "GlobalClusterMembers": [
+                    {
+                        "DBClusterArn": "arikceynlawescni",
+                        "IsWriter": true,
+                        "Readers": [
+                            "ouncfvuwogajcehv"
+                        ]
+                    }
+                ],
+                "GlobalClusterResourceId": "ssfroepwtneggulc",
+                "Status": "gxexwanzryigqcvu",
+                "StorageEncrypted": true
+            },
+            {
+                "DatabaseName": "mmspaszdxecritmo",
+                "DeletionProtection": true,
+                "Engine": "itqvkcohnmezunhw",
+                "EngineVersion": "kenpfrmzmjkxanbo",
+                "GlobalClusterArn": "zflzuctktareodew",
+                "GlobalClusterIdentifier": "esvaxwukzeiwfsyp",
+                "GlobalClusterMembers": [
+                    {
+                        "DBClusterArn": "cibgrkbrumfxvrjp",
+                        "IsWriter": true,
+                        "Readers": [
+                            "ceatpuhscqippfrc"
+                        ]
+                    }
+                ],
+                "GlobalClusterResourceId": "rrpiyogrgkpzlqyn",
+                "Status": "voxvmaanoqchgoid",
+                "StorageEncrypted": true
+            }
+        ],
+        "result_key": "GlobalClusters"
+    },
+    "meta": {
+        "start": 1711115589.420219,
+        "end": 1711115595.63782,
+        "duration": 6.217612028121948,
+        "service": "docdb",
+        "type": "global_clusters"
+    }
+}

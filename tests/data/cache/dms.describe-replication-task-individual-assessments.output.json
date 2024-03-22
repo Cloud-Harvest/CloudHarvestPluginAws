@@ -1,0 +1,113 @@
+{
+    "input": {
+        "template": {
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxRecords": 0,
+            "Marker": ""
+        },
+        "required": [],
+        "md5": "0aa6aa583558bbf076489f33024868a2",
+        "boto_command": "describe_replication_task_individual_assessments",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "ReplicationTaskIndividualAssessmentArn": "ReplicationTaskIndividualAssessmentArn",
+                "ReplicationTaskAssessmentRunArn": "ReplicationTaskAssessmentRunArn",
+                "IndividualAssessmentName": "IndividualAssessmentName",
+                "Status": "Status",
+                "ReplicationTaskIndividualAssessmentStartDate": "1970-01-01T00:00:00"
+            }
+        ],
+        "required": [],
+        "md5": "48c30ac962dba9c38a189b24a31ba17a",
+        "randomized": [
+            {
+                "IndividualAssessmentName": "liklqvavzphjgghm",
+                "ReplicationTaskAssessmentRunArn": "tpvptqaqoytwkpxn",
+                "ReplicationTaskIndividualAssessmentArn": "dslveuchpprvngou",
+                "ReplicationTaskIndividualAssessmentStartDate": "qscbxlwoisqkxoat",
+                "Status": "anplpwvuhivgyhch"
+            },
+            {
+                "IndividualAssessmentName": "xpdtvfnmzgtsflcu",
+                "ReplicationTaskAssessmentRunArn": "fuakkzzmwylpvyqc",
+                "ReplicationTaskIndividualAssessmentArn": "vncrwfzzsposzlks",
+                "ReplicationTaskIndividualAssessmentStartDate": "xfxbghrajrfpiflk",
+                "Status": "ymmrzrdarckxgqwf"
+            },
+            {
+                "IndividualAssessmentName": "chbzvfvdpncibqxz",
+                "ReplicationTaskAssessmentRunArn": "cqaonobjbbobqkdi",
+                "ReplicationTaskIndividualAssessmentArn": "qlfminuxihkqulkw",
+                "ReplicationTaskIndividualAssessmentStartDate": "whyzlepxsivaehsx",
+                "Status": "hjitvgoifjxbdqpc"
+            },
+            {
+                "IndividualAssessmentName": "faibdqduxpaovady",
+                "ReplicationTaskAssessmentRunArn": "xebtvlkjcawnjynt",
+                "ReplicationTaskIndividualAssessmentArn": "ypqvltnmiwssyarx",
+                "ReplicationTaskIndividualAssessmentStartDate": "oxzkmnpfopgfzivq",
+                "Status": "elzxnraefpyeuxzs"
+            },
+            {
+                "IndividualAssessmentName": "npynuxbwcxgpkjtq",
+                "ReplicationTaskAssessmentRunArn": "wdsenidltowrkrbb",
+                "ReplicationTaskIndividualAssessmentArn": "effxpyvarladplqm",
+                "ReplicationTaskIndividualAssessmentStartDate": "locqqsrrdferybys",
+                "Status": "gjdtxphnuuqrmxuo"
+            },
+            {
+                "IndividualAssessmentName": "qnilruzfefsutckr",
+                "ReplicationTaskAssessmentRunArn": "azgwexlmrcdyuixk",
+                "ReplicationTaskIndividualAssessmentArn": "xrinlktzywfqsnbp",
+                "ReplicationTaskIndividualAssessmentStartDate": "jnsrjipapefjgzrt",
+                "Status": "gltkaeifegoiwiki"
+            },
+            {
+                "IndividualAssessmentName": "pfrgqwdmgfjhmvyd",
+                "ReplicationTaskAssessmentRunArn": "phcnbjlxkdfqlant",
+                "ReplicationTaskIndividualAssessmentArn": "velwwniudokmepwo",
+                "ReplicationTaskIndividualAssessmentStartDate": "xxuvdvorathzughc",
+                "Status": "wnwncfsuaxldqfbn"
+            },
+            {
+                "IndividualAssessmentName": "upucexlahrmluimt",
+                "ReplicationTaskAssessmentRunArn": "xfjlwhefeoynbmnd",
+                "ReplicationTaskIndividualAssessmentArn": "uwsoruxjhndzzvkj",
+                "ReplicationTaskIndividualAssessmentStartDate": "ymqriqkseibipeob",
+                "Status": "ylkxripjowqpjajq"
+            },
+            {
+                "IndividualAssessmentName": "dqbfkuujcsxmmdnj",
+                "ReplicationTaskAssessmentRunArn": "aiftyvvgnoyogvpl",
+                "ReplicationTaskIndividualAssessmentArn": "iebgqeohgtwmxhnk",
+                "ReplicationTaskIndividualAssessmentStartDate": "pcrcdgikiohynlqp",
+                "Status": "vhaolmtugmtypivd"
+            },
+            {
+                "IndividualAssessmentName": "yljzwjlojmdddtgy",
+                "ReplicationTaskAssessmentRunArn": "hvltdtvvonwngzxq",
+                "ReplicationTaskIndividualAssessmentArn": "qyjtxnnbaasqnfig",
+                "ReplicationTaskIndividualAssessmentStartDate": "vbxqsyxgsntqfdyj",
+                "Status": "qfgpvhvubxpelbrq"
+            }
+        ],
+        "result_key": "ReplicationTaskIndividualAssessments"
+    },
+    "meta": {
+        "start": 1711115583.340281,
+        "end": 1711115590.216438,
+        "duration": 6.876158952713013,
+        "service": "dms",
+        "type": "replication_task_individual_assessments"
+    }
+}

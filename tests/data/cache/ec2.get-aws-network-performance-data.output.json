@@ -1,0 +1,217 @@
+{
+    "input": {
+        "template": {
+            "DataQueries": [
+                {
+                    "Id": "",
+                    "Source": "",
+                    "Destination": "",
+                    "Metric": "aggregate-latency",
+                    "Statistic": "p50",
+                    "Period": "five-minutes"
+                }
+            ],
+            "StartTime": "1970-01-01T00:00:00",
+            "EndTime": "1970-01-01T00:00:00",
+            "MaxResults": 0,
+            "NextToken": "",
+            "DryRun": true
+        },
+        "required": [],
+        "md5": "00a71f5ccb4cb7ac561feb5ec1410635",
+        "boto_command": "get_aws_network_performance_data",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "Id": "Id",
+                "Source": "Source",
+                "Destination": "Destination",
+                "Metric": "Metric",
+                "Statistic": "Statistic",
+                "Period": "Period",
+                "MetricPoints": [
+                    {
+                        "StartDate": "1970-01-01T00:00:00",
+                        "EndDate": "1970-01-01T00:00:00",
+                        "Value": 0.0,
+                        "Status": "Status"
+                    }
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "efa913572c9f3017a76c954d51b77a18",
+        "randomized": [
+            {
+                "Destination": "jljyvmaurmypkrbn",
+                "Id": "iyiyaobbwruppyve",
+                "Metric": "tamsyqqnnynfghir",
+                "MetricPoints": [
+                    {
+                        "EndDate": "xyqplvsttpfnnlft",
+                        "StartDate": "qmigremefrtqagpb",
+                        "Status": "jfcjcbzxwkxgbqih",
+                        "Value": 0.0
+                    }
+                ],
+                "Period": "fygprzutiecdoaxh",
+                "Source": "vuijurvemwhbdukl",
+                "Statistic": "aatjwmgeomyfoecj"
+            },
+            {
+                "Destination": "wlpeurexqzlczdxu",
+                "Id": "jjqbkjcyuxugaurq",
+                "Metric": "tdgswyurlmdsurcw",
+                "MetricPoints": [
+                    {
+                        "EndDate": "inssaauranvcoocg",
+                        "StartDate": "ztikqyymkcfjrjxi",
+                        "Status": "gdwqhkivevczaivv",
+                        "Value": 0.0
+                    }
+                ],
+                "Period": "atxdhyeuenkkqvlu",
+                "Source": "smqjtghacluzvjyp",
+                "Statistic": "mbellmrwkzxgkhra"
+            },
+            {
+                "Destination": "oomrbwhgcvcfddmn",
+                "Id": "jpbvcvknqkwdfsxd",
+                "Metric": "plhtzbgybjnqbynp",
+                "MetricPoints": [
+                    {
+                        "EndDate": "nlvrmqegzhymokol",
+                        "StartDate": "sksieewildoqrzea",
+                        "Status": "bbqfwjjpmpqvlkvs",
+                        "Value": 0.0
+                    }
+                ],
+                "Period": "aoiivilafawkrugp",
+                "Source": "xtgmefybxvwlavyc",
+                "Statistic": "euidoqyelszbxpwe"
+            },
+            {
+                "Destination": "murhosiqajfmhfwx",
+                "Id": "ongltazilhgqchag",
+                "Metric": "iwrtfprkjwimkokk",
+                "MetricPoints": [
+                    {
+                        "EndDate": "lvqncyrcmqxpxcvt",
+                        "StartDate": "yusacjblrmgfzald",
+                        "Status": "cegewzpgimpdtlxe",
+                        "Value": 0.0
+                    }
+                ],
+                "Period": "hpbwfapgpqwnqkyx",
+                "Source": "uomumalvffslejyv",
+                "Statistic": "djmsbhuoiytrdyym"
+            },
+            {
+                "Destination": "dskojbprelsyfkwt",
+                "Id": "vkhoitwjftazgvgq",
+                "Metric": "smmlrebqpederujk",
+                "MetricPoints": [
+                    {
+                        "EndDate": "ijfwtjpajnzixbgn",
+                        "StartDate": "kmlenaakfrsamolt",
+                        "Status": "kfrclokvigtnobar",
+                        "Value": 0.0
+                    }
+                ],
+                "Period": "xnqphcvowsdrgrof",
+                "Source": "zdydvjnymcdlmvep",
+                "Statistic": "jbbcezcqisenoikw"
+            },
+            {
+                "Destination": "vczouvmugtxytfra",
+                "Id": "fouoyaavdtsndjyh",
+                "Metric": "mszizbyqyykhivft",
+                "MetricPoints": [
+                    {
+                        "EndDate": "zkhlshmfqftfyhic",
+                        "StartDate": "imvofvdlyeqgtljv",
+                        "Status": "ynguyobpcjjpcuzz",
+                        "Value": 0.0
+                    }
+                ],
+                "Period": "fagkqxzqsjzndwox",
+                "Source": "jaqwgwszocehkcna",
+                "Statistic": "uhgsdwtccmdyyzki"
+            },
+            {
+                "Destination": "xthrrevwgtpyhxsq",
+                "Id": "whfftucnbanommjo",
+                "Metric": "heilxaofiarcjbzo",
+                "MetricPoints": [
+                    {
+                        "EndDate": "kzxdxbfuznfqrcwr",
+                        "StartDate": "yvxnozsnpiywhvtr",
+                        "Status": "witqufhlentiaots",
+                        "Value": 0.0
+                    }
+                ],
+                "Period": "xhqzuekduhtiduey",
+                "Source": "onptfiydsrxdamnc",
+                "Statistic": "fbeskzxxjxkcxyfi"
+            },
+            {
+                "Destination": "snyoqxabuhutdvly",
+                "Id": "bopprqzeocrhgbpe",
+                "Metric": "fhlmdjylfcdifjji",
+                "MetricPoints": [
+                    {
+                        "EndDate": "jixhilectkjripkq",
+                        "StartDate": "nfausuvahignsvvd",
+                        "Status": "vtnaxzzxsbulsres",
+                        "Value": 0.0
+                    }
+                ],
+                "Period": "pcvdjfxoipgglhah",
+                "Source": "hedfepeegdrmuhuq",
+                "Statistic": "ancsptukkzpeznin"
+            },
+            {
+                "Destination": "mlxjiwqtatfvjqbw",
+                "Id": "heffidtuwzffkxgr",
+                "Metric": "kxtlgsfcxlrmolpb",
+                "MetricPoints": [
+                    {
+                        "EndDate": "yobnkierhdwxwexq",
+                        "StartDate": "smeonnpyxsopjxzi",
+                        "Status": "zpuxphhoagkzvpem",
+                        "Value": 0.0
+                    }
+                ],
+                "Period": "thpjdumrrsvgiuif",
+                "Source": "uanqbznaeoxcaqvg",
+                "Statistic": "yblkxuzofowepigt"
+            },
+            {
+                "Destination": "leggqyqxpqlludff",
+                "Id": "nnoguinavichifeq",
+                "Metric": "abtxxdqonlptqalf",
+                "MetricPoints": [
+                    {
+                        "EndDate": "fvguayemyfpiobzy",
+                        "StartDate": "wzsbtdipxpggwozm",
+                        "Status": "hcdxlyluylqggarn",
+                        "Value": 0.0
+                    }
+                ],
+                "Period": "ykqbkvtvfpdlsxpc",
+                "Source": "gqxrbostbevuquit",
+                "Statistic": "unviejjsprxccuui"
+            }
+        ],
+        "result_key": "DataResponses"
+    },
+    "meta": {
+        "start": 1711115668.829516,
+        "end": 1711115675.146592,
+        "duration": 6.317087173461914,
+        "service": "ec2",
+        "type": null
+    }
+}

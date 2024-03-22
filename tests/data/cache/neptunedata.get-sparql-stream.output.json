@@ -1,0 +1,62 @@
+{
+    "input": {
+        "template": {
+            "limit": 0,
+            "iteratorType": "AT_SEQUENCE_NUMBER",
+            "commitNum": 0,
+            "opNum": 0,
+            "encoding": "gzip"
+        },
+        "required": [],
+        "md5": "df99b2f1b69d708fafe403b41c54aecc",
+        "boto_command": "get_sparql_stream",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": {
+            "KeyName": ""
+        },
+        "required": [],
+        "md5": "2440d58c3f90162ea8caf51ce53ce56b",
+        "randomized": [
+            {
+                "KeyName": "nkszybiwxtucoyei"
+            },
+            {
+                "KeyName": "igmyiuclhuvwdvoe"
+            },
+            {
+                "KeyName": "oxquvxnjznjrmtzk"
+            },
+            {
+                "KeyName": "lzlguiicrgoefenp"
+            },
+            {
+                "KeyName": "mvlkfrqpfdrgyupr"
+            },
+            {
+                "KeyName": "pkqwfegwihtbjtmi"
+            },
+            {
+                "KeyName": "ohsvtzlrcihwbrdr"
+            },
+            {
+                "KeyName": "sibageiepsqvhcft"
+            },
+            {
+                "KeyName": "yqygcwoizoszlumc"
+            },
+            {
+                "KeyName": "uvjrrdpobbporleo"
+            }
+        ],
+        "result_key": "lastEventId"
+    },
+    "meta": {
+        "start": 1711116237.592737,
+        "end": 1711116245.014103,
+        "duration": 7.421376943588257,
+        "service": "neptunedata",
+        "type": null
+    }
+}

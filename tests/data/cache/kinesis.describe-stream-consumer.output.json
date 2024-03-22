@@ -1,0 +1,104 @@
+{
+    "input": {
+        "template": {
+            "StreamARN": "",
+            "ConsumerName": "",
+            "ConsumerARN": ""
+        },
+        "required": [],
+        "md5": "e484a06f0614fa5d5ee765d644bbccb0",
+        "boto_command": "describe_stream_consumer",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": {
+            "ConsumerName": "ConsumerName",
+            "ConsumerARN": "ConsumerARN",
+            "ConsumerStatus": "ConsumerStatus",
+            "ConsumerCreationTimestamp": "1970-01-01T00:00:00",
+            "StreamARN": "StreamARN"
+        },
+        "required": [],
+        "md5": "9d8c69fdb894d0a5b20c52313a49002c",
+        "randomized": [
+            {
+                "ConsumerARN": "xtgxdyayiedwpkke",
+                "ConsumerCreationTimestamp": "njemkjnpukihhcqx",
+                "ConsumerName": "xkgoysevjbkxmbts",
+                "ConsumerStatus": "jvmtmvtsceebqaqp",
+                "StreamARN": "gnjqvkkcxavxjine"
+            },
+            {
+                "ConsumerARN": "stnmlxurymlyqboi",
+                "ConsumerCreationTimestamp": "vvawzidzwtbqznwp",
+                "ConsumerName": "yjxlwbaffulwbwid",
+                "ConsumerStatus": "ftesiiejpobwleou",
+                "StreamARN": "tzufwkydzdoxipuj"
+            },
+            {
+                "ConsumerARN": "giftfdklqdymxoor",
+                "ConsumerCreationTimestamp": "eqfnocdnauhiplij",
+                "ConsumerName": "ymbpsiimlsuomebt",
+                "ConsumerStatus": "ztcvurwqjutvusuc",
+                "StreamARN": "vvzwfswkbroijgrf"
+            },
+            {
+                "ConsumerARN": "sgxmbqkgsdyfqbhz",
+                "ConsumerCreationTimestamp": "ysbiedsenvdhwtjo",
+                "ConsumerName": "hvmmbzjfngpffmny",
+                "ConsumerStatus": "iiykmbmaabohqgnd",
+                "StreamARN": "dnqpdbetcblmswwa"
+            },
+            {
+                "ConsumerARN": "lfudxjjrbkzkyhqa",
+                "ConsumerCreationTimestamp": "bflqtcifnjlognpe",
+                "ConsumerName": "djrngpcirgpntmik",
+                "ConsumerStatus": "ccbwzejrpamogqwi",
+                "StreamARN": "zrqytthwuubfwnfi"
+            },
+            {
+                "ConsumerARN": "qpeafdbrtvikyaly",
+                "ConsumerCreationTimestamp": "kcegkfxfqrhvapxi",
+                "ConsumerName": "padxkpocaiaazqss",
+                "ConsumerStatus": "fflxjrsayhoyzonq",
+                "StreamARN": "gfwypmkgljbnmhod"
+            },
+            {
+                "ConsumerARN": "kduzekrreioewrbl",
+                "ConsumerCreationTimestamp": "pkpcaphctadowahd",
+                "ConsumerName": "eqgwzkgijoxooyim",
+                "ConsumerStatus": "kbckholxlbeejyzn",
+                "StreamARN": "rjeoudzrrsskizes"
+            },
+            {
+                "ConsumerARN": "mtzhohmbyotccdyn",
+                "ConsumerCreationTimestamp": "svtgvhlsqwwwqvrz",
+                "ConsumerName": "jjwbxhjthvmcmsly",
+                "ConsumerStatus": "tfltkvjmoyvayodx",
+                "StreamARN": "jekiytianidrtnmq"
+            },
+            {
+                "ConsumerARN": "uuwauwjgxarkgahh",
+                "ConsumerCreationTimestamp": "nzeyzqqjovakword",
+                "ConsumerName": "otscaeyxypwhufjp",
+                "ConsumerStatus": "dhvkjtonclohlsla",
+                "StreamARN": "dipznrqbopbunvjr"
+            },
+            {
+                "ConsumerARN": "xilcjfqjgyrjykyg",
+                "ConsumerCreationTimestamp": "swfltoiytaxmgwva",
+                "ConsumerName": "svkyfpmfozivrnpi",
+                "ConsumerStatus": "hgzdaajkcubdlcon",
+                "StreamARN": "bqjmmioyvwdcmnhc"
+            }
+        ],
+        "result_key": "ConsumerDescription"
+    },
+    "meta": {
+        "start": 1711116029.479776,
+        "end": 1711116036.09643,
+        "duration": 6.616682052612305,
+        "service": "kinesis",
+        "type": "stream_consumer"
+    }
+}

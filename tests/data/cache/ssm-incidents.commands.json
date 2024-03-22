@@ -1,0 +1,14 @@
+[
+    "ssm-incidents.get-incident-record",
+    "ssm-incidents.get-replication-set",
+    "ssm-incidents.get-resource-policies",
+    "ssm-incidents.get-response-plan",
+    "ssm-incidents.get-timeline-event",
+    "ssm-incidents.list-incident-findings",
+    "ssm-incidents.list-incident-records",
+    "ssm-incidents.list-related-items",
+    "ssm-incidents.list-replication-sets",
+    "ssm-incidents.list-response-plans",
+    "ssm-incidents.list-tags-for-resource",
+    "ssm-incidents.list-timeline-events"
+]

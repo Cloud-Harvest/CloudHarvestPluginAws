@@ -1,0 +1,105 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "required": [],
+        "md5": "2620fedaf24e984a8f801d0beb17a6e7",
+        "boto_command": "list_knowledge_bases",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "knowledgeBaseId": "knowledgeBaseId",
+                "name": "name",
+                "description": "description",
+                "status": "status",
+                "updatedAt": "1970-01-01T00:00:00"
+            }
+        ],
+        "required": [],
+        "md5": "f3e096df5cdbb00da601985d16d88d87",
+        "randomized": [
+            {
+                "description": "icsusheazsabsruc",
+                "knowledgeBaseId": "fkboppwdpyvguqqa",
+                "name": "abgedxzqvpbuwjzq",
+                "status": "lbiczilnexutzpoe",
+                "updatedAt": "osdochdundehsjvr"
+            },
+            {
+                "description": "phfticgithnsudap",
+                "knowledgeBaseId": "paojrxgwjcvetmuo",
+                "name": "wxbnnqsbharprrlw",
+                "status": "hgesomwhsmnauofs",
+                "updatedAt": "okcdaaxoyjbcndfg"
+            },
+            {
+                "description": "vflorkauqamskmzc",
+                "knowledgeBaseId": "msepqcbpzcsqvlhu",
+                "name": "sspfvowosxpylemi",
+                "status": "ftsfuybjexgmugse",
+                "updatedAt": "deiflcybvkrjyrll"
+            },
+            {
+                "description": "uhutvyzwrtxmqlas",
+                "knowledgeBaseId": "cdbywjenzcvbckol",
+                "name": "qnsgojahwncywuml",
+                "status": "sdqsuzwpdntptiys",
+                "updatedAt": "dhkbqxqdczjcvsmn"
+            },
+            {
+                "description": "elfgswpviusmtweg",
+                "knowledgeBaseId": "notrwjcpfyxsfjue",
+                "name": "thrcpcfkbirmpnor",
+                "status": "ukwapbeqkxhmipmp",
+                "updatedAt": "muxhtfdgnaekpdkc"
+            },
+            {
+                "description": "fwmdqlbmixjsrtuy",
+                "knowledgeBaseId": "xloqrwetkmutqptb",
+                "name": "cceidjpnoieuyrtl",
+                "status": "cduwyfpzdyopvgio",
+                "updatedAt": "hnnjqnddnqxvrgge"
+            },
+            {
+                "description": "aflkuveogwgnaiyu",
+                "knowledgeBaseId": "typtrgxhghdriytj",
+                "name": "urttauecsvkgnstb",
+                "status": "nzkrxozorgeqstmm",
+                "updatedAt": "myegdibmpbbrzrki"
+            },
+            {
+                "description": "nfzimbayercznqcg",
+                "knowledgeBaseId": "vtltoeaacfqofncu",
+                "name": "bxrncgukgqnylnta",
+                "status": "oamwkromvwkavxve",
+                "updatedAt": "imtlryasuenorwhr"
+            },
+            {
+                "description": "vjbutqlgmsjdebfb",
+                "knowledgeBaseId": "xjibzwyyuyoavhkn",
+                "name": "rbvsohnxfjpyjssm",
+                "status": "vviaqsobgfodptjj",
+                "updatedAt": "tlxyrumzazclnolu"
+            },
+            {
+                "description": "xgazcdsbbtdaygrc",
+                "knowledgeBaseId": "jrmpddhqnguetgiu",
+                "name": "ypvqzwnzkvktkxdr",
+                "status": "mypwlngdyfwdwxbw",
+                "updatedAt": "ayzlhgtrapufakia"
+            }
+        ],
+        "result_key": "knowledgeBaseSummaries"
+    },
+    "meta": {
+        "start": 1711115299.441259,
+        "end": 1711115305.804336,
+        "duration": 6.363089084625244,
+        "service": "bedrock-agent",
+        "type": "knowledge_bases"
+    }
+}

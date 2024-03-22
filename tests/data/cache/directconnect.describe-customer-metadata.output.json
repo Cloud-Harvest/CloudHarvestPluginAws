@@ -1,0 +1,69 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "describe_customer_metadata",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "agreementName": "agreementName",
+                "status": "status"
+            }
+        ],
+        "required": [],
+        "md5": "2c7308612b7b308fc093e8fcc2d523a1",
+        "randomized": [
+            {
+                "agreementName": "obtojlhfaomgfqxz",
+                "status": "onxrgwagkexnwhqt"
+            },
+            {
+                "agreementName": "oajuoagpnlewdzhb",
+                "status": "mefwwsfeorlhohbs"
+            },
+            {
+                "agreementName": "eniwtlyighqmwckb",
+                "status": "xjncsnunuyfslojz"
+            },
+            {
+                "agreementName": "ltferhrqnrhsnzyd",
+                "status": "rodwqalpspzzwhmu"
+            },
+            {
+                "agreementName": "wddwkvtchjfjxwpe",
+                "status": "ewbyntgiwzojslrq"
+            },
+            {
+                "agreementName": "jdugjkhbsyqmfjzm",
+                "status": "mmrmuofgxtylhatr"
+            },
+            {
+                "agreementName": "siutcqvatyactnia",
+                "status": "ylzlfrveaahxawkp"
+            },
+            {
+                "agreementName": "miovzlnmgvdjeyfq",
+                "status": "nzlpyewigqpwkwwt"
+            },
+            {
+                "agreementName": "zuameqzevqmyfjaa",
+                "status": "skfkyjnelyxbnxcb"
+            },
+            {
+                "agreementName": "sxafbjqpxnxxbgqi",
+                "status": "dxfdbfoofqxikmik"
+            }
+        ],
+        "result_key": "agreements"
+    },
+    "meta": {
+        "start": 1711115564.304541,
+        "end": 1711115570.749918,
+        "duration": 6.4453887939453125,
+        "service": "directconnect",
+        "type": "customer_metadata"
+    }
+}

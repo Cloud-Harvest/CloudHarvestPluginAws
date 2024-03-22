@@ -1,0 +1,180 @@
+{
+    "input": {
+        "template": {
+            "PageSize": "",
+            "Token": ""
+        },
+        "required": [],
+        "md5": "3cc6c835984438fbcf37020bc1f3dc9b",
+        "boto_command": "get_apps",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": {
+            "Item": [
+                {
+                    "Arn": "Arn",
+                    "Id": "Id",
+                    "Name": "Name",
+                    "tags": {
+                        "KeyName": ""
+                    },
+                    "CreationDate": "CreationDate"
+                }
+            ],
+            "NextToken": "NextToken"
+        },
+        "required": [],
+        "md5": "e27056f6f716c5fd09ae2300cb05e53f",
+        "randomized": [
+            {
+                "Item": [
+                    {
+                        "Arn": "uhkggziesjlotjjv",
+                        "CreationDate": "habkemebhuayqzxn",
+                        "Id": "hgkaizeiccrrdgqo",
+                        "Name": "ormcdriccukkjrnd",
+                        "tags": {
+                            "KeyName": "azjnykwxzyhwslas"
+                        }
+                    }
+                ],
+                "NextToken": "lpbghgpjwpmbchok"
+            },
+            {
+                "Item": [
+                    {
+                        "Arn": "sdorabtfljblvbjj",
+                        "CreationDate": "eotdrborpitpgojc",
+                        "Id": "hnwfkcoukuenkcgo",
+                        "Name": "yusshdzpgpxpceuy",
+                        "tags": {
+                            "KeyName": "gsrkhcjhlpxmlvuq"
+                        }
+                    }
+                ],
+                "NextToken": "pegdpubyjpkullde"
+            },
+            {
+                "Item": [
+                    {
+                        "Arn": "naixixradgiesbgx",
+                        "CreationDate": "kdlykkswggpbfazb",
+                        "Id": "fqhxqhzgenihzycd",
+                        "Name": "fmmjwcnbjxpyyqqb",
+                        "tags": {
+                            "KeyName": "rpkrntmjrenigdvq"
+                        }
+                    }
+                ],
+                "NextToken": "fqqabuvhhnqdfmti"
+            },
+            {
+                "Item": [
+                    {
+                        "Arn": "wjsnmdqadcojjpxg",
+                        "CreationDate": "lmlnchkstmwtolsf",
+                        "Id": "glwpqlkxmnfrasuz",
+                        "Name": "meycxsifwedzztas",
+                        "tags": {
+                            "KeyName": "nvmqrpscokocoymu"
+                        }
+                    }
+                ],
+                "NextToken": "xixklxpzkiknvgeg"
+            },
+            {
+                "Item": [
+                    {
+                        "Arn": "scvlilbbeetsvjqk",
+                        "CreationDate": "wkdozhuujvqpggfs",
+                        "Id": "xmtnxwbbxwcoqvbs",
+                        "Name": "mvmgddyrazbwfpuf",
+                        "tags": {
+                            "KeyName": "kfeuffztsioumntt"
+                        }
+                    }
+                ],
+                "NextToken": "wgvejqimivrtgkid"
+            },
+            {
+                "Item": [
+                    {
+                        "Arn": "gvpmplapzhiovups",
+                        "CreationDate": "qvxvvqaxlcwmjeem",
+                        "Id": "iaplsiapgoziijbn",
+                        "Name": "qsuxhxpwhbxuyfup",
+                        "tags": {
+                            "KeyName": "xoxfwticibpshlkk"
+                        }
+                    }
+                ],
+                "NextToken": "zrydnftluhzsiolg"
+            },
+            {
+                "Item": [
+                    {
+                        "Arn": "inkxcszhseotondr",
+                        "CreationDate": "zlhbpraaosqcpvwe",
+                        "Id": "dbzjsevpkznhsckj",
+                        "Name": "axrykjztcnfxymqm",
+                        "tags": {
+                            "KeyName": "fpfbhtktfllxprkz"
+                        }
+                    }
+                ],
+                "NextToken": "jhfamerowahnyymf"
+            },
+            {
+                "Item": [
+                    {
+                        "Arn": "mqalonhoayzlssti",
+                        "CreationDate": "ndhjnrffmduftufv",
+                        "Id": "rwckhzappcdsuvsi",
+                        "Name": "drgfurcwtyikcrcr",
+                        "tags": {
+                            "KeyName": "ukoutlhlrocwrsen"
+                        }
+                    }
+                ],
+                "NextToken": "uazfxndybgdoiexk"
+            },
+            {
+                "Item": [
+                    {
+                        "Arn": "nkltkxbkemloedil",
+                        "CreationDate": "jlbxrgnyljfqidiv",
+                        "Id": "vhuksmeuljvrmmzh",
+                        "Name": "clmpgqiuxteepcxw",
+                        "tags": {
+                            "KeyName": "imfekylzavwetouw"
+                        }
+                    }
+                ],
+                "NextToken": "paelwuhkpxipcqhg"
+            },
+            {
+                "Item": [
+                    {
+                        "Arn": "pkodylpxmsagkpcj",
+                        "CreationDate": "pkpslmmuqwupezea",
+                        "Id": "nuvfuqihvstbskxl",
+                        "Name": "hvumibaihtblyodq",
+                        "tags": {
+                            "KeyName": "chkxdjkpcgkzoefq"
+                        }
+                    }
+                ],
+                "NextToken": "yohowxrlvbbakdpg"
+            }
+        ],
+        "result_key": "ApplicationsResponse"
+    },
+    "meta": {
+        "start": 1711116326.93842,
+        "end": 1711116335.033142,
+        "duration": 8.09473204612732,
+        "service": "pinpoint",
+        "type": null
+    }
+}

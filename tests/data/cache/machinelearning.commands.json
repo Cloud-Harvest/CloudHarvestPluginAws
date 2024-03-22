@@ -1,0 +1,11 @@
+[
+    "machinelearning.describe-batch-predictions",
+    "machinelearning.describe-data-sources",
+    "machinelearning.describe-evaluations",
+    "machinelearning.describe-ml-models",
+    "machinelearning.describe-tags",
+    "machinelearning.get-batch-prediction",
+    "machinelearning.get-data-source",
+    "machinelearning.get-evaluation",
+    "machinelearning.get-ml-model"
+]

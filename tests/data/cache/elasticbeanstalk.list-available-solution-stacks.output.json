@@ -1,0 +1,36 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "list_available_solution_stacks",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            "SolutionStackName"
+        ],
+        "required": [],
+        "md5": "16891ae576966b4c38720cf1047b342b",
+        "randomized": [
+            "urkmhvujrjvdimvc",
+            "keezbftsduzoxjom",
+            "aofbnpxtzokcfcsj",
+            "slfahmdmibqtppyb",
+            "jhrkonfbsjeqcwso",
+            "txnexukmxtejanku",
+            "vqihglgjfhdizyqh",
+            "nvqdaunznqtzuxnw",
+            "osofegpfrpelpugh",
+            "zxggaumvoygjfrqv"
+        ],
+        "result_key": "SolutionStacks"
+    },
+    "meta": {
+        "start": 1711115717.671643,
+        "end": 1711115724.417029,
+        "duration": 6.74539589881897,
+        "service": "elasticbeanstalk",
+        "type": "available_solution_stacks"
+    }
+}

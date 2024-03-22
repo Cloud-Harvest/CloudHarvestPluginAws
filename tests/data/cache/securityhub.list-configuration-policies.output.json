@@ -1,0 +1,116 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "9dece7f85fc1c3f944425b1f68a8e6e1",
+        "boto_command": "list_configuration_policies",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "Arn": "Arn",
+                "Id": "Id",
+                "Name": "Name",
+                "Description": "Description",
+                "UpdatedAt": "1970-01-01T00:00:00",
+                "ServiceEnabled": true
+            }
+        ],
+        "required": [],
+        "md5": "edb6f585b2a7bfe8096da3deb0838c50",
+        "randomized": [
+            {
+                "Arn": "ywqjiqghlietiafj",
+                "Description": "hhhrlkhpbjozfxmk",
+                "Id": "iwsvkciotdlpggnf",
+                "Name": "fzgjaeqnpvzuemto",
+                "ServiceEnabled": true,
+                "UpdatedAt": "xhokxugpolclyert"
+            },
+            {
+                "Arn": "gnolshasypgpjckf",
+                "Description": "eitmlwzyaabejavk",
+                "Id": "fiisemykzjwsucug",
+                "Name": "ijjusznxbqviwamd",
+                "ServiceEnabled": true,
+                "UpdatedAt": "rvesvyumreoejxgz"
+            },
+            {
+                "Arn": "njconhbytpuazlxb",
+                "Description": "ctrkmakjojcbafqr",
+                "Id": "lxovhwmhlkaicnoi",
+                "Name": "wpmexxxseezveaye",
+                "ServiceEnabled": true,
+                "UpdatedAt": "dnixavnyjmiditew"
+            },
+            {
+                "Arn": "pwsdvgliwximufje",
+                "Description": "orfcskdfkdxhdyfw",
+                "Id": "eufsfqcpmxfgzoab",
+                "Name": "slqbdpplfwnefemo",
+                "ServiceEnabled": true,
+                "UpdatedAt": "fcivvzvkggkgcbly"
+            },
+            {
+                "Arn": "uawbphpvyercgjov",
+                "Description": "ebgljqtdatqzbtel",
+                "Id": "omvxogavuujbazoe",
+                "Name": "fwovwgnwiqorwcjq",
+                "ServiceEnabled": true,
+                "UpdatedAt": "pjhcgfsknrfuorvv"
+            },
+            {
+                "Arn": "nqnielzxaxeeufpe",
+                "Description": "ffhjqljggsgksaki",
+                "Id": "xdmeqvolzdpitkhk",
+                "Name": "ggbzsveudpaznmey",
+                "ServiceEnabled": true,
+                "UpdatedAt": "ykqgrfkvlpzhllsq"
+            },
+            {
+                "Arn": "mkwgeyoelflpyzcc",
+                "Description": "nhplmfgvhrmijdbl",
+                "Id": "cngahfnnzvoxlubr",
+                "Name": "yschniqibyhqdzwz",
+                "ServiceEnabled": true,
+                "UpdatedAt": "uqxzwklrohegqilw"
+            },
+            {
+                "Arn": "lvtwqnulhybjvovh",
+                "Description": "wtqkwxwvtbppvrgf",
+                "Id": "jqykbxwmtazdxntv",
+                "Name": "wuyeunqklwoykdft",
+                "ServiceEnabled": true,
+                "UpdatedAt": "suvklgptpijrsdds"
+            },
+            {
+                "Arn": "wwvnupugskoctfbn",
+                "Description": "kxlxidvvgylkxviw",
+                "Id": "rkqmbdsonplpluab",
+                "Name": "kbhqscbgbstrkpfu",
+                "ServiceEnabled": true,
+                "UpdatedAt": "uneqtqlkngabaisr"
+            },
+            {
+                "Arn": "uufgsjxteycfikfx",
+                "Description": "rzzndrejgqlthkrl",
+                "Id": "qrmxumkakrqpiakv",
+                "Name": "ahjfqrmdowsrevsv",
+                "ServiceEnabled": true,
+                "UpdatedAt": "lqfeouewtnvqhmsk"
+            }
+        ],
+        "result_key": "ConfigurationPolicySummaries"
+    },
+    "meta": {
+        "start": 1711116589.827309,
+        "end": 1711116596.098058,
+        "duration": 6.270755052566528,
+        "service": "securityhub",
+        "type": "configuration_policies"
+    }
+}

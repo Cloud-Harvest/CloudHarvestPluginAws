@@ -1,0 +1,39 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "9dece7f85fc1c3f944425b1f68a8e6e1",
+        "boto_command": "list_member_accounts",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            "AWSAccountId"
+        ],
+        "required": [],
+        "md5": "ae190b382aed2a3ffdc3f86edc1774c8",
+        "randomized": [
+            "dyuldcuvqkhscufn",
+            "zpfzgblvbhtwoqbl",
+            "sjdhjspegpswzwra",
+            "ihinngfgaavzmmii",
+            "dpcdptiauamdrzgr",
+            "qfrkfhnlxbbiktes",
+            "sekpqdkcillgjxbt",
+            "qwbiflfpkwpnrpnq",
+            "jnkghwyplwjgzykr",
+            "jxvorxotnqpzjqed"
+        ],
+        "result_key": "MemberAccounts"
+    },
+    "meta": {
+        "start": 1711115774.23852,
+        "end": 1711115781.716984,
+        "duration": 7.478474140167236,
+        "service": "fms",
+        "type": "member_accounts"
+    }
+}

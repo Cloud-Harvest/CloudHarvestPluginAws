@@ -1,0 +1,42 @@
+{
+    "input": {
+        "template": {
+            "cluster": "",
+            "filter": "",
+            "nextToken": "",
+            "maxResults": 0,
+            "status": "ACTIVE"
+        },
+        "required": [],
+        "md5": "59322b73d0a2a49c0794bd326b45ef93",
+        "boto_command": "list_container_instances",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            "String"
+        ],
+        "required": [],
+        "md5": "382ab1622ecf4afaee23205da4ce8e23",
+        "randomized": [
+            "rudanavkedjnzsks",
+            "irfkswshsnxgtugx",
+            "phcgjivhxcsenjgf",
+            "yxitvkcyqgxkdnpb",
+            "vidtktxrvmmaueau",
+            "mwyjmeafnlxwxciy",
+            "ymchbdwgoefhlwew",
+            "atmmnbebhxjntcqh",
+            "mckhbuiuspjyqbky",
+            "mnjlberzhjkkejdf"
+        ],
+        "result_key": "containerInstanceArns"
+    },
+    "meta": {
+        "start": 1711115693.188639,
+        "end": 1711115700.709986,
+        "duration": 7.52135705947876,
+        "service": "ecs",
+        "type": "container_instances"
+    }
+}

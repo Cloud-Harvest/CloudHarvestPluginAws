@@ -1,0 +1,22 @@
+[
+    "appstream.describe-app-block-builder-app-block-associations",
+    "appstream.describe-app-block-builders",
+    "appstream.describe-app-blocks",
+    "appstream.describe-application-fleet-associations",
+    "appstream.describe-applications",
+    "appstream.describe-directory-configs",
+    "appstream.describe-entitlements",
+    "appstream.describe-fleets",
+    "appstream.describe-image-builders",
+    "appstream.describe-image-permissions",
+    "appstream.describe-images",
+    "appstream.describe-sessions",
+    "appstream.describe-stacks",
+    "appstream.describe-usage-report-subscriptions",
+    "appstream.describe-user-stack-associations",
+    "appstream.describe-users",
+    "appstream.list-associated-fleets",
+    "appstream.list-associated-stacks",
+    "appstream.list-entitled-applications",
+    "appstream.list-tags-for-resource"
+]

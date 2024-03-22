@@ -1,0 +1,116 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "9dece7f85fc1c3f944425b1f68a8e6e1",
+        "boto_command": "list_voice_profile_domains",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "VoiceProfileDomainId": "VoiceProfileDomainId",
+                "VoiceProfileDomainArn": "VoiceProfileDomainArn",
+                "Name": "Name",
+                "Description": "Description",
+                "CreatedTimestamp": "1970-01-01T00:00:00",
+                "UpdatedTimestamp": "1970-01-01T00:00:00"
+            }
+        ],
+        "required": [],
+        "md5": "1385866b945c90eb9c316c1d4d01bee7",
+        "randomized": [
+            {
+                "CreatedTimestamp": "fqumniulwiuetjyf",
+                "Description": "rlwsblrethavodow",
+                "Name": "vilroqgcheqaxefm",
+                "UpdatedTimestamp": "lqbwuzbfhfblwmco",
+                "VoiceProfileDomainArn": "mhwfzqpwlogyinyt",
+                "VoiceProfileDomainId": "vomsyruljwkxpnzq"
+            },
+            {
+                "CreatedTimestamp": "dbpsfnstufytigzp",
+                "Description": "suaibkgokanxonuk",
+                "Name": "qmhxvfqaqbixjzsf",
+                "UpdatedTimestamp": "oxvestcqvbydbvrj",
+                "VoiceProfileDomainArn": "beutrlxmyijrsiea",
+                "VoiceProfileDomainId": "zarkbujbibykvukr"
+            },
+            {
+                "CreatedTimestamp": "ykqgceueypvozzne",
+                "Description": "zkgicjbpimywdipw",
+                "Name": "rzfgvzaggfmffujv",
+                "UpdatedTimestamp": "rircynyziwumdqul",
+                "VoiceProfileDomainArn": "krxuhnczqenfhvqf",
+                "VoiceProfileDomainId": "vgfsbplphjuflvhl"
+            },
+            {
+                "CreatedTimestamp": "wlmiqfrczfvcxavb",
+                "Description": "bpqoafdvcuqscfdb",
+                "Name": "zfjqubvqpdgulkgx",
+                "UpdatedTimestamp": "djhnzclzwhfliqdg",
+                "VoiceProfileDomainArn": "bxobgvsgdzfzvmgd",
+                "VoiceProfileDomainId": "uojkxfksxdpyvrbm"
+            },
+            {
+                "CreatedTimestamp": "iwtfmgzuyzmavvby",
+                "Description": "rjqniuggeckvnwrq",
+                "Name": "scftaejnvtrtqtlh",
+                "UpdatedTimestamp": "lvlblbttzngzoovq",
+                "VoiceProfileDomainArn": "bbnqnhjikmuvuhxo",
+                "VoiceProfileDomainId": "cvikcouxuedwssgk"
+            },
+            {
+                "CreatedTimestamp": "mvenlvwmqydbbiuw",
+                "Description": "psvggpuvpcmejhyz",
+                "Name": "jydadgpndemijiva",
+                "UpdatedTimestamp": "vlzusqbrfnildkdk",
+                "VoiceProfileDomainArn": "vqummiayxihyiqdp",
+                "VoiceProfileDomainId": "ttxmcoqmyigczyrk"
+            },
+            {
+                "CreatedTimestamp": "zxkkrnhudxyhelta",
+                "Description": "rnanzbwxljmrhkay",
+                "Name": "cuutctcsoiecyxor",
+                "UpdatedTimestamp": "vcldopnivaiobsny",
+                "VoiceProfileDomainArn": "lglrlctixfdvqocz",
+                "VoiceProfileDomainId": "viabmzthqzfkhvkh"
+            },
+            {
+                "CreatedTimestamp": "aszhxugkwadeiesy",
+                "Description": "nrzlhftlprzmbemt",
+                "Name": "pwwlopxhqdfuxksk",
+                "UpdatedTimestamp": "vvrwnxhriosbcxsz",
+                "VoiceProfileDomainArn": "vvufwedwagvxjyek",
+                "VoiceProfileDomainId": "fzohevfesskwuyal"
+            },
+            {
+                "CreatedTimestamp": "cmxyzchoipvsrvgw",
+                "Description": "vzdktvjqtyeqgpfp",
+                "Name": "nwnvnjavdoyugxxf",
+                "UpdatedTimestamp": "vxjlmefatioqxtij",
+                "VoiceProfileDomainArn": "oqjyizgqzpepqjgf",
+                "VoiceProfileDomainId": "pkyzcykcxoelnbow"
+            },
+            {
+                "CreatedTimestamp": "wygcniqtlyvkkric",
+                "Description": "yofpktgjgfewupms",
+                "Name": "ylzmrbzuljwjmhie",
+                "UpdatedTimestamp": "ekfesdmnfpuhlmyj",
+                "VoiceProfileDomainArn": "loksxugalgomzjsz",
+                "VoiceProfileDomainId": "bbophcaqniqqkwza"
+            }
+        ],
+        "result_key": "VoiceProfileDomains"
+    },
+    "meta": {
+        "start": 1711115337.942948,
+        "end": 1711115345.364968,
+        "duration": 7.422031879425049,
+        "service": "chime-sdk-voice",
+        "type": "voice_profile_domains"
+    }
+}

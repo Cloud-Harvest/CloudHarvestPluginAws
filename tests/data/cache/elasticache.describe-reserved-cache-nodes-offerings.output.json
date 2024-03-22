@@ -1,0 +1,198 @@
+{
+    "input": {
+        "template": {
+            "ReservedCacheNodesOfferingId": "",
+            "CacheNodeType": "",
+            "Duration": "",
+            "ProductDescription": "",
+            "OfferingType": "",
+            "MaxRecords": 0,
+            "Marker": ""
+        },
+        "required": [],
+        "md5": "adabb858b73bdfbc63e9187e4351305c",
+        "boto_command": "describe_reserved_cache_nodes_offerings",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "ReservedCacheNodesOfferingId": "ReservedCacheNodesOfferingId",
+                "CacheNodeType": "CacheNodeType",
+                "Duration": 0,
+                "FixedPrice": 0.0,
+                "UsagePrice": 0.0,
+                "ProductDescription": "ProductDescription",
+                "OfferingType": "OfferingType",
+                "RecurringCharges": [
+                    {
+                        "RecurringChargeAmount": 0.0,
+                        "RecurringChargeFrequency": "RecurringChargeFrequency"
+                    }
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "f1dba612f73711f720cb4d835eff1872",
+        "randomized": [
+            {
+                "CacheNodeType": "xgigdqlqiphqwgza",
+                "Duration": 0,
+                "FixedPrice": 0.0,
+                "OfferingType": "hilsnphostrlvqjm",
+                "ProductDescription": "htdddjmjfnmidqcv",
+                "RecurringCharges": [
+                    {
+                        "RecurringChargeAmount": 0.0,
+                        "RecurringChargeFrequency": "fqtiqcajrqgnnyui"
+                    }
+                ],
+                "ReservedCacheNodesOfferingId": "adbpopckvnfewwrf",
+                "UsagePrice": 0.0
+            },
+            {
+                "CacheNodeType": "uuszsmojqtzibzxc",
+                "Duration": 0,
+                "FixedPrice": 0.0,
+                "OfferingType": "qbggpmqshrvmllwn",
+                "ProductDescription": "zvlkgjpmrbsfxtif",
+                "RecurringCharges": [
+                    {
+                        "RecurringChargeAmount": 0.0,
+                        "RecurringChargeFrequency": "diifolebahenwnzy"
+                    }
+                ],
+                "ReservedCacheNodesOfferingId": "ywsbblzzntticvcs",
+                "UsagePrice": 0.0
+            },
+            {
+                "CacheNodeType": "wqhvzahmjorvvbua",
+                "Duration": 0,
+                "FixedPrice": 0.0,
+                "OfferingType": "sqgiuwvdiggxlmic",
+                "ProductDescription": "rytcbamfzcjzkaak",
+                "RecurringCharges": [
+                    {
+                        "RecurringChargeAmount": 0.0,
+                        "RecurringChargeFrequency": "ibfygryrnbdgqxjg"
+                    }
+                ],
+                "ReservedCacheNodesOfferingId": "qywjbxgpdjganhql",
+                "UsagePrice": 0.0
+            },
+            {
+                "CacheNodeType": "awgvlhectsvmmbaq",
+                "Duration": 0,
+                "FixedPrice": 0.0,
+                "OfferingType": "wskiarunujecsflg",
+                "ProductDescription": "nmzfulymwrubxbex",
+                "RecurringCharges": [
+                    {
+                        "RecurringChargeAmount": 0.0,
+                        "RecurringChargeFrequency": "wrsmzbdvvwzgcifm"
+                    }
+                ],
+                "ReservedCacheNodesOfferingId": "usxfxzowwrlqashl",
+                "UsagePrice": 0.0
+            },
+            {
+                "CacheNodeType": "xrpjudfhykrjdzkr",
+                "Duration": 0,
+                "FixedPrice": 0.0,
+                "OfferingType": "bwkikwqbbndviblo",
+                "ProductDescription": "hnpispgrgwkndqto",
+                "RecurringCharges": [
+                    {
+                        "RecurringChargeAmount": 0.0,
+                        "RecurringChargeFrequency": "wjiuetrfldrnxkkg"
+                    }
+                ],
+                "ReservedCacheNodesOfferingId": "qodnobslsvrsnoub",
+                "UsagePrice": 0.0
+            },
+            {
+                "CacheNodeType": "urevbzoxuejxixkx",
+                "Duration": 0,
+                "FixedPrice": 0.0,
+                "OfferingType": "jutkdjllrezxrbvt",
+                "ProductDescription": "cxhoovhgjcetsxwq",
+                "RecurringCharges": [
+                    {
+                        "RecurringChargeAmount": 0.0,
+                        "RecurringChargeFrequency": "goxcwgwbucamyxmo"
+                    }
+                ],
+                "ReservedCacheNodesOfferingId": "nezxqnjxqtvehmfp",
+                "UsagePrice": 0.0
+            },
+            {
+                "CacheNodeType": "qzxmztjhsqvpwuvb",
+                "Duration": 0,
+                "FixedPrice": 0.0,
+                "OfferingType": "gliwgcvycirffyyu",
+                "ProductDescription": "likylhretrtgxdlz",
+                "RecurringCharges": [
+                    {
+                        "RecurringChargeAmount": 0.0,
+                        "RecurringChargeFrequency": "hjvfbrpecxnfyfsh"
+                    }
+                ],
+                "ReservedCacheNodesOfferingId": "iajbhvfizlkrpbmk",
+                "UsagePrice": 0.0
+            },
+            {
+                "CacheNodeType": "npwnevgiimxmiryd",
+                "Duration": 0,
+                "FixedPrice": 0.0,
+                "OfferingType": "caybuhzqvqxhstbz",
+                "ProductDescription": "uwpphdefrscepkyf",
+                "RecurringCharges": [
+                    {
+                        "RecurringChargeAmount": 0.0,
+                        "RecurringChargeFrequency": "rbioqvsqpajessgz"
+                    }
+                ],
+                "ReservedCacheNodesOfferingId": "tfylzaevlfixclkj",
+                "UsagePrice": 0.0
+            },
+            {
+                "CacheNodeType": "lcrrjkmzrmlwejfi",
+                "Duration": 0,
+                "FixedPrice": 0.0,
+                "OfferingType": "lkvhrxyyzsjpgiim",
+                "ProductDescription": "pszggpzuvigpxhpy",
+                "RecurringCharges": [
+                    {
+                        "RecurringChargeAmount": 0.0,
+                        "RecurringChargeFrequency": "cfnufwmsuqqohnli"
+                    }
+                ],
+                "ReservedCacheNodesOfferingId": "ksvcnajbaxjdywyj",
+                "UsagePrice": 0.0
+            },
+            {
+                "CacheNodeType": "uiyjvpkmsokrmlec",
+                "Duration": 0,
+                "FixedPrice": 0.0,
+                "OfferingType": "jzcdbodqpznloxij",
+                "ProductDescription": "lwlexqfibsbqebiv",
+                "RecurringCharges": [
+                    {
+                        "RecurringChargeAmount": 0.0,
+                        "RecurringChargeFrequency": "psivcsbougjfpkrq"
+                    }
+                ],
+                "ReservedCacheNodesOfferingId": "ufpqwtbpycjrddym",
+                "UsagePrice": 0.0
+            }
+        ],
+        "result_key": "ReservedCacheNodesOfferings"
+    },
+    "meta": {
+        "start": 1711115708.449549,
+        "end": 1711115714.871203,
+        "duration": 6.421663999557495,
+        "service": "elasticache",
+        "type": "reserved_cache_nodes_offerings"
+    }
+}

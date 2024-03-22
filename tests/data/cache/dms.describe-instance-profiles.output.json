@@ -1,0 +1,190 @@
+{
+    "input": {
+        "template": {
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxRecords": 0,
+            "Marker": ""
+        },
+        "required": [],
+        "md5": "0aa6aa583558bbf076489f33024868a2",
+        "boto_command": "describe_instance_profiles",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "InstanceProfileArn": "InstanceProfileArn",
+                "AvailabilityZone": "AvailabilityZone",
+                "KmsKeyArn": "KmsKeyArn",
+                "PubliclyAccessible": true,
+                "NetworkType": "NetworkType",
+                "InstanceProfileName": "InstanceProfileName",
+                "Description": "Description",
+                "InstanceProfileCreationTime": "1970-01-01T00:00:00",
+                "SubnetGroupIdentifier": "SubnetGroupIdentifier",
+                "VpcSecurityGroups": [
+                    "String"
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "87958482d3aa80c487df8f19e8e35b52",
+        "randomized": [
+            {
+                "AvailabilityZone": "efkudjsozqycimme",
+                "Description": "ebnborqsisdxgouv",
+                "InstanceProfileArn": "nifzzithuajoimhe",
+                "InstanceProfileCreationTime": "ifdeifbbavupcinv",
+                "InstanceProfileName": "havizugfxmrrgzwt",
+                "KmsKeyArn": "cyetrdhpjwjzxnrf",
+                "NetworkType": "wbaqbuzsjdeushik",
+                "PubliclyAccessible": true,
+                "SubnetGroupIdentifier": "hvlgclxgrxbucmcx",
+                "VpcSecurityGroups": [
+                    "jrgyzhrjxyvktbgw"
+                ]
+            },
+            {
+                "AvailabilityZone": "cvbrmhicyoqwkvym",
+                "Description": "hfnvwjitqfhnbjvo",
+                "InstanceProfileArn": "zsdxepdvkfqbarld",
+                "InstanceProfileCreationTime": "bbupzwbdqwlpftnd",
+                "InstanceProfileName": "zawzpiamutzimxoa",
+                "KmsKeyArn": "riddiygbcveuzspc",
+                "NetworkType": "horvdahdyfommuyl",
+                "PubliclyAccessible": true,
+                "SubnetGroupIdentifier": "tpdxkhywfatydywy",
+                "VpcSecurityGroups": [
+                    "tauxvwfkmvlwffev"
+                ]
+            },
+            {
+                "AvailabilityZone": "qwfredmuiukaynip",
+                "Description": "faqaaijazqejwedu",
+                "InstanceProfileArn": "tnfzrbvfdpeooyfg",
+                "InstanceProfileCreationTime": "kfjwpnyzfunihyvs",
+                "InstanceProfileName": "dhcpqtctxizvdpqr",
+                "KmsKeyArn": "sszxbxbgqaoigtyu",
+                "NetworkType": "wiefsqrlbutjwgvq",
+                "PubliclyAccessible": true,
+                "SubnetGroupIdentifier": "nrjcpncigcuomxzk",
+                "VpcSecurityGroups": [
+                    "jiqqcqfscrmlgmkj"
+                ]
+            },
+            {
+                "AvailabilityZone": "roxxzadwynouuadk",
+                "Description": "eliclapjaknixyip",
+                "InstanceProfileArn": "ifqmroqbbikuzpzc",
+                "InstanceProfileCreationTime": "razjzacrxedcpkkf",
+                "InstanceProfileName": "xjhmmhrafqxekzem",
+                "KmsKeyArn": "pslfzkswpveeimui",
+                "NetworkType": "lxlsekqbuhokcous",
+                "PubliclyAccessible": true,
+                "SubnetGroupIdentifier": "yiadouqpfmjrkelv",
+                "VpcSecurityGroups": [
+                    "bkrjaoaghoozogrk"
+                ]
+            },
+            {
+                "AvailabilityZone": "rheuujywczpxcckt",
+                "Description": "fbvegkkbrbxwlwmu",
+                "InstanceProfileArn": "bdxrrukymqwfotks",
+                "InstanceProfileCreationTime": "wxamisokssfhlnow",
+                "InstanceProfileName": "baonxirelgfzairg",
+                "KmsKeyArn": "skujxuthkrpdnfbf",
+                "NetworkType": "fzvzxcjaljtxeiev",
+                "PubliclyAccessible": true,
+                "SubnetGroupIdentifier": "txpxszdfrynebzya",
+                "VpcSecurityGroups": [
+                    "uqlyiszhdkuswrun"
+                ]
+            },
+            {
+                "AvailabilityZone": "erjgtmyaowwqjabd",
+                "Description": "dcpskvjntvejsxck",
+                "InstanceProfileArn": "aaqhfoafgfusurvv",
+                "InstanceProfileCreationTime": "ismdmnzctoerukpj",
+                "InstanceProfileName": "exeposzebdwluecr",
+                "KmsKeyArn": "qxhbmpghjjbjohoa",
+                "NetworkType": "ixmcoclkyrupeyio",
+                "PubliclyAccessible": true,
+                "SubnetGroupIdentifier": "nxthfhkiotuflrnp",
+                "VpcSecurityGroups": [
+                    "aleeieiozzujqrie"
+                ]
+            },
+            {
+                "AvailabilityZone": "hgkhtzqgnwdmagaw",
+                "Description": "jylbzlbjzvzejnmk",
+                "InstanceProfileArn": "fzkglokangfxnfkf",
+                "InstanceProfileCreationTime": "vwbuvqznqliecxtu",
+                "InstanceProfileName": "mtxiaojsyjnsejyx",
+                "KmsKeyArn": "nyetzwyfltmeahfu",
+                "NetworkType": "yteckkvzowuivogu",
+                "PubliclyAccessible": true,
+                "SubnetGroupIdentifier": "pulnqqonkpafwgha",
+                "VpcSecurityGroups": [
+                    "zksgrulnqghoqvaz"
+                ]
+            },
+            {
+                "AvailabilityZone": "sbekyomgxkywlhnv",
+                "Description": "kvfepwcqrgntixxm",
+                "InstanceProfileArn": "dtebnmrjsqgjpwmu",
+                "InstanceProfileCreationTime": "zkzavfcpjohpjulw",
+                "InstanceProfileName": "svgomrtjginvjjlz",
+                "KmsKeyArn": "lrrpiobocrmigylv",
+                "NetworkType": "nxpvsqoekidlpwik",
+                "PubliclyAccessible": true,
+                "SubnetGroupIdentifier": "ymxghcjiibnfpjyo",
+                "VpcSecurityGroups": [
+                    "aesusiaodfrowyzv"
+                ]
+            },
+            {
+                "AvailabilityZone": "hlspoqmhtvuyspco",
+                "Description": "mfsbnlpihdloqdub",
+                "InstanceProfileArn": "dufvusmfbjfoehhw",
+                "InstanceProfileCreationTime": "ptzjvmzxutmpbdqk",
+                "InstanceProfileName": "omgwulzupiykflrt",
+                "KmsKeyArn": "ssrwxmtrfxjjoeqd",
+                "NetworkType": "lqubfbslwdicjtfd",
+                "PubliclyAccessible": true,
+                "SubnetGroupIdentifier": "iyqiicgbzinuvgxj",
+                "VpcSecurityGroups": [
+                    "srjlcvgsbwsowldi"
+                ]
+            },
+            {
+                "AvailabilityZone": "eimbxyaznimofkaq",
+                "Description": "clabwkndnezaclfm",
+                "InstanceProfileArn": "dffkcjotkdckvixd",
+                "InstanceProfileCreationTime": "lorxrfiqmzjvsvxy",
+                "InstanceProfileName": "sypqjtjpizklbtjs",
+                "KmsKeyArn": "ppzcixfusvhhyelp",
+                "NetworkType": "zcbgzzadhczcqlbv",
+                "PubliclyAccessible": true,
+                "SubnetGroupIdentifier": "wibbwylpymxshhwh",
+                "VpcSecurityGroups": [
+                    "xcdjjkxisjzjszvt"
+                ]
+            }
+        ],
+        "result_key": "InstanceProfiles"
+    },
+    "meta": {
+        "start": 1711115577.788284,
+        "end": 1711115583.536536,
+        "duration": 5.74826192855835,
+        "service": "dms",
+        "type": "instance_profiles"
+    }
+}

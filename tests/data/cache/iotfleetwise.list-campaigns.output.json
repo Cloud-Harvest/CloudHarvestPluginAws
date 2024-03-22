@@ -1,0 +1,139 @@
+{
+    "input": {
+        "template": {
+            "nextToken": "",
+            "maxResults": 0,
+            "status": ""
+        },
+        "required": [],
+        "md5": "59bf1739cdc9e58397b636b50023824a",
+        "boto_command": "list_campaigns",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "arn": "arn",
+                "name": "name",
+                "description": "description",
+                "signalCatalogArn": "signalCatalogArn",
+                "targetArn": "targetArn",
+                "status": "status",
+                "creationTime": "1970-01-01T00:00:00",
+                "lastModificationTime": "1970-01-01T00:00:00"
+            }
+        ],
+        "required": [],
+        "md5": "b48ee6259e14419bc3cacff8b1120864",
+        "randomized": [
+            {
+                "arn": "wnvinaijumyjtxpt",
+                "creationTime": "vxeoswmeckichgxc",
+                "description": "ojqfyiiclfbhrihm",
+                "lastModificationTime": "wawsjsmlqxzouoja",
+                "name": "eyjgxcmreoopybfb",
+                "signalCatalogArn": "jeotbaysahlluyuq",
+                "status": "ztxamnzcwmsefsrx",
+                "targetArn": "gzwqvivsdzszobka"
+            },
+            {
+                "arn": "zurfupnsbgtajsom",
+                "creationTime": "zsrbflaujiqnufka",
+                "description": "brqanmjhsrstibsq",
+                "lastModificationTime": "hqlemlknbaakpauz",
+                "name": "iyznbmipelwizdza",
+                "signalCatalogArn": "qcjjxtivryequnmj",
+                "status": "dofyvozjiqasxefm",
+                "targetArn": "zzuazujxqhuiqtcw"
+            },
+            {
+                "arn": "boazjcbtnkksboon",
+                "creationTime": "onvpgtaqukhcpjgr",
+                "description": "jnvquhorjrsdsudn",
+                "lastModificationTime": "kcfetporvsjgkrwn",
+                "name": "xfmjzukjcoqvnyao",
+                "signalCatalogArn": "dvxgoehwgpovkacl",
+                "status": "swpxhanpewzcfcot",
+                "targetArn": "fsqvegastzzaiubc"
+            },
+            {
+                "arn": "liaymxhxywazhods",
+                "creationTime": "ezzceyerysiulool",
+                "description": "hqtbtzjmjccekeed",
+                "lastModificationTime": "icjbahgtpwyxdtpq",
+                "name": "kdawvskcwsqwlcwl",
+                "signalCatalogArn": "ytecepzrrrzwvlkv",
+                "status": "wrhybsqkbdxvpihq",
+                "targetArn": "gnqoczgsuwcvzyja"
+            },
+            {
+                "arn": "odyvwpnupkbbyrpe",
+                "creationTime": "waxksphjduhukbrf",
+                "description": "qitszojibbpchoyd",
+                "lastModificationTime": "kmudjsjgvbyfxznd",
+                "name": "mgpokktpyutdxxoi",
+                "signalCatalogArn": "mgwewwyfhfjjkzzr",
+                "status": "uzwkhqcwpgeqqxws",
+                "targetArn": "ssrcxsfrpclttxob"
+            },
+            {
+                "arn": "rldtynivpeiuvbgc",
+                "creationTime": "zhzycnbsjcvayfum",
+                "description": "hbcivtujhnfzktcf",
+                "lastModificationTime": "zdrldmudpkpsvxac",
+                "name": "rbgfoackxhkydkom",
+                "signalCatalogArn": "rurngqsdhexjyduq",
+                "status": "gyqmpeczandnrmam",
+                "targetArn": "xcccsduuyeeczwke"
+            },
+            {
+                "arn": "gswktzqxypovhjgy",
+                "creationTime": "alzrpsrtrcfzyybz",
+                "description": "kjuguqrewyxuhphc",
+                "lastModificationTime": "opsdlrjodlqyatrw",
+                "name": "ukellymgqfjjcrvw",
+                "signalCatalogArn": "bnvavbjqzutquien",
+                "status": "tnzrvrvljrrkoihy",
+                "targetArn": "syocyoxywnatttqc"
+            },
+            {
+                "arn": "wtgggldxdtpzloxt",
+                "creationTime": "yrnteguyqyrxdsue",
+                "description": "nkswnhbrtzkhcdrj",
+                "lastModificationTime": "qsomisaleocldbfy",
+                "name": "bhvqcdsbhyivjymr",
+                "signalCatalogArn": "qwuuikedlkoggkgz",
+                "status": "ygcukdiueubaokkw",
+                "targetArn": "qedchthgvmrvnrue"
+            },
+            {
+                "arn": "nozlxffqkupgfiae",
+                "creationTime": "cglzbiswjmgwkobz",
+                "description": "sxypoiulardqogoa",
+                "lastModificationTime": "kyfjcszsvzbzwrrt",
+                "name": "usyoxadomjyhuybo",
+                "signalCatalogArn": "dftidjolwfssqgfs",
+                "status": "ywgclyalosmrsoxf",
+                "targetArn": "eonzmfsmhnhuuzsa"
+            },
+            {
+                "arn": "axaybzsidmgpzpwi",
+                "creationTime": "mejxfqpynvvnoady",
+                "description": "bmoyzsdbuqezknpe",
+                "lastModificationTime": "xjxibwrtdmmzpbbb",
+                "name": "jtpphbrxfsauyaws",
+                "signalCatalogArn": "zibkmtfdowsxcwxz",
+                "status": "nonsbqeljzqivtpr",
+                "targetArn": "lqkcekhsysmivlsu"
+            }
+        ],
+        "result_key": "campaignSummaries"
+    },
+    "meta": {
+        "start": 1711115971.911975,
+        "end": 1711115980.438612,
+        "duration": 8.526648044586182,
+        "service": "iotfleetwise",
+        "type": "campaigns"
+    }
+}

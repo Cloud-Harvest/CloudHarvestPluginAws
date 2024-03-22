@@ -1,0 +1,39 @@
+{
+    "input": {
+        "template": {
+            "MaxNumberOfDomains": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "490c1fcad47d89533a7e03fc9a57780a",
+        "boto_command": "list_domains",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            "String"
+        ],
+        "required": [],
+        "md5": "04e0269f3bacf11d9f32cbb68ae82756",
+        "randomized": [
+            "uojwguprupodtejy",
+            "dfnupemwppukkwim",
+            "aphaxzsyryoynoox",
+            "bqsfoesdnuwifqnt",
+            "bwfasezvorgdgrkx",
+            "bofbtyxcmybcnsge",
+            "okkbypcktayyweqt",
+            "qsawsltklrequnzy",
+            "wjuxadnsdnrbgzhc",
+            "xfkfwinnhigciqsi"
+        ],
+        "result_key": "DomainNames"
+    },
+    "meta": {
+        "start": 1711116582.987504,
+        "end": 1711116588.831587,
+        "duration": 5.84409499168396,
+        "service": "sdb",
+        "type": "domains"
+    }
+}

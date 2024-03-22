@@ -1,0 +1,107 @@
+{
+    "input": {
+        "template": {
+            "Limit": 0,
+            "NextToken": "",
+            "RegistryNamePrefix": "",
+            "Scope": ""
+        },
+        "required": [],
+        "md5": "e229cd2cdb7add13a59307c5bcd71c43",
+        "boto_command": "list_registries",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "RegistryArn": "RegistryArn",
+                "RegistryName": "RegistryName",
+                "Tags": {
+                    "KeyName": ""
+                }
+            }
+        ],
+        "required": [],
+        "md5": "17ffe893f52476642773e6fde12b8a2c",
+        "randomized": [
+            {
+                "RegistryArn": "aibtdgkwphbuuunl",
+                "RegistryName": "omnhcqxqttwabuid",
+                "Tags": {
+                    "KeyName": "aqtvntyjmazsgdvz"
+                }
+            },
+            {
+                "RegistryArn": "nnzozjcrmktxzqoy",
+                "RegistryName": "cgzqpveygqbvfdor",
+                "Tags": {
+                    "KeyName": "wxnosrjirjvnxtyx"
+                }
+            },
+            {
+                "RegistryArn": "vbxydlfdldxrtist",
+                "RegistryName": "qsucrvroiqawshum",
+                "Tags": {
+                    "KeyName": "qxhnbqwnxizmqqqc"
+                }
+            },
+            {
+                "RegistryArn": "fdqhppnubkjcoqam",
+                "RegistryName": "hbotdwyuaulurlux",
+                "Tags": {
+                    "KeyName": "eqoqpogkwxugyekn"
+                }
+            },
+            {
+                "RegistryArn": "gfnsbjixqldctebt",
+                "RegistryName": "zqanezauljwurmtb",
+                "Tags": {
+                    "KeyName": "nkktersikstefrkh"
+                }
+            },
+            {
+                "RegistryArn": "wvtkemsqhgnjfdme",
+                "RegistryName": "yxrajsuknaxwehfc",
+                "Tags": {
+                    "KeyName": "pfybryflwqtvbcum"
+                }
+            },
+            {
+                "RegistryArn": "ymcqikvtsigyuliq",
+                "RegistryName": "xxxrgywhmdtegusg",
+                "Tags": {
+                    "KeyName": "thfsjsptfmhdumdg"
+                }
+            },
+            {
+                "RegistryArn": "iqjcbnbofqmhwigi",
+                "RegistryName": "emxundvhppfwyxks",
+                "Tags": {
+                    "KeyName": "ematitejmnpispnv"
+                }
+            },
+            {
+                "RegistryArn": "jwwepimiqbibjlfe",
+                "RegistryName": "jykurhyddgeaduvb",
+                "Tags": {
+                    "KeyName": "xpqkpyabqmxnyphq"
+                }
+            },
+            {
+                "RegistryArn": "nyzmpoididcxqjvb",
+                "RegistryName": "oktfwajucfcocnre",
+                "Tags": {
+                    "KeyName": "bfowccpacvnvztnt"
+                }
+            }
+        ],
+        "result_key": "Registries"
+    },
+    "meta": {
+        "start": 1711116582.004104,
+        "end": 1711116587.949261,
+        "duration": 5.945167064666748,
+        "service": "schemas",
+        "type": "registries"
+    }
+}

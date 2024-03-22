@@ -1,0 +1,94 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "required": [],
+        "md5": "2620fedaf24e984a8f801d0beb17a6e7",
+        "boto_command": "list_configs",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "configArn": "configArn",
+                "configId": "configId",
+                "configType": "configType",
+                "name": "name"
+            }
+        ],
+        "required": [],
+        "md5": "d7179b67c3136a44ea537217a6a0800d",
+        "randomized": [
+            {
+                "configArn": "vkuiveftvyidchyr",
+                "configId": "oyszchlbhuucdkwb",
+                "configType": "oqcbzlqykwubuwxg",
+                "name": "lydditscrgesyohn"
+            },
+            {
+                "configArn": "sxkzzjhgllgwzryr",
+                "configId": "zolnqmaybzpczhgt",
+                "configType": "qxjpzbbedwgwbhld",
+                "name": "yvlkerctrhhrfcdk"
+            },
+            {
+                "configArn": "vyketjopavobjeia",
+                "configId": "ksifqvnkuvtgomtu",
+                "configType": "bpmzofwpuisagaup",
+                "name": "kjifqxetvaujarao"
+            },
+            {
+                "configArn": "gvuhlrlvmdiekowq",
+                "configId": "nkcozuionkqrxxjy",
+                "configType": "jxmekaiziqsrozdq",
+                "name": "yoxgymwewnhnmtiq"
+            },
+            {
+                "configArn": "vsmqagutxuqwzsdd",
+                "configId": "fndjkzxjohmmyybq",
+                "configType": "hrfajwzlfvmfdzgj",
+                "name": "ykttjicpdnhgmskv"
+            },
+            {
+                "configArn": "loqyohxegiuejwmx",
+                "configId": "tixshiymxskjqxxf",
+                "configType": "udrnbvwwzcnzhsio",
+                "name": "umsbqwtvchcvcmkt"
+            },
+            {
+                "configArn": "alscpneniurhokip",
+                "configId": "eeqsmedxwjurknpa",
+                "configType": "afqkxrecystlojsi",
+                "name": "jekewgqvrhlytibz"
+            },
+            {
+                "configArn": "rxzoysaedalnysmh",
+                "configId": "usnejyeqvjhzejly",
+                "configType": "lewecbbobhmcvlxx",
+                "name": "nzybcmaifvlsovlv"
+            },
+            {
+                "configArn": "vphgahduwgfmazyk",
+                "configId": "cbmwlezanhlgkmew",
+                "configType": "pdowccifeqvzzpjt",
+                "name": "egycmtesiivediiv"
+            },
+            {
+                "configArn": "lwvffofneryjfrou",
+                "configId": "vazfduhemlyvwarh",
+                "configType": "ahihuxvdugmdiluo",
+                "name": "etugyqyqmvdlpqoi"
+            }
+        ],
+        "result_key": "configList"
+    },
+    "meta": {
+        "start": 1711115860.897334,
+        "end": 1711115869.598082,
+        "duration": 8.70075798034668,
+        "service": "groundstation",
+        "type": "configs"
+    }
+}

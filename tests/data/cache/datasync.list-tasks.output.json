@@ -1,0 +1,92 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": "",
+            "Filters": [
+                {
+                    "Name": "LocationId",
+                    "Values": [
+                        ""
+                    ],
+                    "Operator": "Equals"
+                }
+            ]
+        },
+        "required": [],
+        "md5": "14251060afea29602451fd9d704250f0",
+        "boto_command": "list_tasks",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "TaskArn": "TaskArn",
+                "Status": "Status",
+                "Name": "Name"
+            }
+        ],
+        "required": [],
+        "md5": "b2d5b33498302edfbbfc5b68819a66ad",
+        "randomized": [
+            {
+                "Name": "nmhvryntlmyiuegw",
+                "Status": "yhsroccceifikhyb",
+                "TaskArn": "sxayqgfwvoxrrphh"
+            },
+            {
+                "Name": "nhfjtdqdmzraaeae",
+                "Status": "tcqwmsuhhvbuqfap",
+                "TaskArn": "hmojpsfxbfndauho"
+            },
+            {
+                "Name": "vwtowinmmnrylukd",
+                "Status": "vptjheydjicxlskn",
+                "TaskArn": "ycmnpdstdublqtxk"
+            },
+            {
+                "Name": "jiakjsfzvquhjjte",
+                "Status": "kbpjsnqadnakkfyg",
+                "TaskArn": "laaosxinrnsqzocg"
+            },
+            {
+                "Name": "ppxjsapsmxykqirc",
+                "Status": "mzvsxjpjppuihzhv",
+                "TaskArn": "jlblnlvfwiccdqao"
+            },
+            {
+                "Name": "hhmkcteqkdyxhgfm",
+                "Status": "dxvxxwkfuhjzizne",
+                "TaskArn": "ogmxbyenqgepkqll"
+            },
+            {
+                "Name": "eihgwvvaojpswikn",
+                "Status": "omneplkeochxhbrm",
+                "TaskArn": "toldwzhveifnefqy"
+            },
+            {
+                "Name": "kuqtdlmcpumodchg",
+                "Status": "oqlpxqlyrxgdqivd",
+                "TaskArn": "vybupatuyrfebeds"
+            },
+            {
+                "Name": "alqxfjrwwmbcqzoh",
+                "Status": "cfwwjtirwbhzaytt",
+                "TaskArn": "iaqjhgawwzzjixfg"
+            },
+            {
+                "Name": "zcwahqmmxijbyjgu",
+                "Status": "nfhhxpvusfjvzrrm",
+                "TaskArn": "ekqessztzflwtopz"
+            }
+        ],
+        "result_key": "Tasks"
+    },
+    "meta": {
+        "start": 1711115526.580761,
+        "end": 1711115533.486914,
+        "duration": 6.9061620235443115,
+        "service": "datasync",
+        "type": "tasks"
+    }
+}

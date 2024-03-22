@@ -1,0 +1,39 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "031b56893c6f5a9d0ebe6017c5c080cb",
+        "boto_command": "list_elasticsearch_versions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            "ElasticsearchVersionString"
+        ],
+        "required": [],
+        "md5": "00daddca7509cc96269849aec0c96e4b",
+        "randomized": [
+            "ssloxtbpqosbdzum",
+            "gsnpoqpnivxnresu",
+            "llgqzuxutmlkuvmc",
+            "axgrkfvuhmygvpru",
+            "aaxuwiatxbzdivqo",
+            "pqrfjydsnzclfmjv",
+            "lljuewlsyobjpwgi",
+            "vbbemqykqktctrfp",
+            "wvklpckxsdwujwbg",
+            "zotepdpikjosjgkc"
+        ],
+        "result_key": "ElasticsearchVersions"
+    },
+    "meta": {
+        "start": 1711115749.441014,
+        "end": 1711115757.615894,
+        "duration": 8.174890995025635,
+        "service": "es",
+        "type": "elasticsearch_versions"
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "input": {
+        "template": {
+            "DryRun": true
+        },
+        "required": [],
+        "md5": "fe3857e79c53d9448b6cfb906cf015d1",
+        "boto_command": "get_image_block_public_access_state",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": "ImageBlockPublicAccessState",
+        "required": [],
+        "md5": "883f7c343cfc9b8a7af7a7fd79ce676d",
+        "randomized": [
+            "mlbyvqyhgeikmpmr",
+            "gzqvpcirmmprixch",
+            "fjjexjixknyrsvop",
+            "ohmaytxwpwcugbez",
+            "fmbkacwubnzjcuir",
+            "zzsusbhkiafrcdpi",
+            "pnkeqnfjzwdehckq",
+            "ubhxodvsjoeaznmv",
+            "tdjvbevqeaiwnqym",
+            "vgbuaxvcsirekuzx"
+        ],
+        "result_key": "ImageBlockPublicAccessState"
+    },
+    "meta": {
+        "start": 1711115671.714326,
+        "end": 1711115680.408571,
+        "duration": 8.694257020950317,
+        "service": "ec2",
+        "type": null
+    }
+}

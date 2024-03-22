@@ -1,0 +1,282 @@
+[
+    {
+        "ApplicationArn": "aiscaqfyqxknyapw",
+        "ApplicationName": "jnzwtaovyfmgohly",
+        "ConfigurationTemplates": [
+            "eubyfzdcxdfwxoel"
+        ],
+        "DateCreated": "xreasiyyuuueawjg",
+        "DateUpdated": "hlzsjibprdoynjds",
+        "Description": "bltwxewgqncqmtqv",
+        "ResourceLifecycleConfig": {
+            "ServiceRole": "fnwquvzwjtcpgdxj",
+            "VersionLifecycleConfig": {
+                "MaxAgeRule": {
+                    "DeleteSourceFromS3": true,
+                    "Enabled": true,
+                    "MaxAgeInDays": 0
+                },
+                "MaxCountRule": {
+                    "DeleteSourceFromS3": true,
+                    "Enabled": true,
+                    "MaxCount": 0
+                }
+            }
+        },
+        "Versions": [
+            "swtqzbywyagrfhur"
+        ]
+    },
+    {
+        "ApplicationArn": "nyxxjcomsyeeeexu",
+        "ApplicationName": "tjwywcxcklqqymub",
+        "ConfigurationTemplates": [
+            "lxwqggfdmcezhkry"
+        ],
+        "DateCreated": "qowsvkyvovnjwlea",
+        "DateUpdated": "qvftbvfyislcvprt",
+        "Description": "hzlgfsmmijyceijo",
+        "ResourceLifecycleConfig": {
+            "ServiceRole": "fstrsyvinjitltvf",
+            "VersionLifecycleConfig": {
+                "MaxAgeRule": {
+                    "DeleteSourceFromS3": true,
+                    "Enabled": true,
+                    "MaxAgeInDays": 0
+                },
+                "MaxCountRule": {
+                    "DeleteSourceFromS3": true,
+                    "Enabled": true,
+                    "MaxCount": 0
+                }
+            }
+        },
+        "Versions": [
+            "qxdwbafwtxlfkqfz"
+        ]
+    },
+    {
+        "ApplicationArn": "kxjabwrntupevkjz",
+        "ApplicationName": "fienidxzgpdgiobe",
+        "ConfigurationTemplates": [
+            "tlkrmfvythrnkkdc"
+        ],
+        "DateCreated": "dysxjdjhpfalfjjq",
+        "DateUpdated": "bybqvowgtbcpehou",
+        "Description": "moppdwfjfmkmdgto",
+        "ResourceLifecycleConfig": {
+            "ServiceRole": "viokhfknywetuydv",
+            "VersionLifecycleConfig": {
+                "MaxAgeRule": {
+                    "DeleteSourceFromS3": true,
+                    "Enabled": true,
+                    "MaxAgeInDays": 0
+                },
+                "MaxCountRule": {
+                    "DeleteSourceFromS3": true,
+                    "Enabled": true,
+                    "MaxCount": 0
+                }
+            }
+        },
+        "Versions": [
+            "mqbmxizgaiuhxmuy"
+        ]
+    },
+    {
+        "ApplicationArn": "bydheftxjkogmrml",
+        "ApplicationName": "fsppzauuahnwxyau",
+        "ConfigurationTemplates": [
+            "fmaqsciyrjmfcpzu"
+        ],
+        "DateCreated": "kxrehinulzuricty",
+        "DateUpdated": "tqglvsspngmqxiyn",
+        "Description": "oosuppljsnwaroxb",
+        "ResourceLifecycleConfig": {
+            "ServiceRole": "aposcojpdvweslwf",
+            "VersionLifecycleConfig": {
+                "MaxAgeRule": {
+                    "DeleteSourceFromS3": true,
+                    "Enabled": true,
+                    "MaxAgeInDays": 0
+                },
+                "MaxCountRule": {
+                    "DeleteSourceFromS3": true,
+                    "Enabled": true,
+                    "MaxCount": 0
+                }
+            }
+        },
+        "Versions": [
+            "izdtjkxhxwmqnoxr"
+        ]
+    },
+    {
+        "ApplicationArn": "kghipksoquiscsdd",
+        "ApplicationName": "hracbteazgizabva",
+        "ConfigurationTemplates": [
+            "mzytlmnpmjtlwoik"
+        ],
+        "DateCreated": "sbkthyelerllabhm",
+        "DateUpdated": "ccwobscjmfxbmrvv",
+        "Description": "bkktzokrplidsyro",
+        "ResourceLifecycleConfig": {
+            "ServiceRole": "ugjlvjiwinembybx",
+            "VersionLifecycleConfig": {
+                "MaxAgeRule": {
+                    "DeleteSourceFromS3": true,
+                    "Enabled": true,
+                    "MaxAgeInDays": 0
+                },
+                "MaxCountRule": {
+                    "DeleteSourceFromS3": true,
+                    "Enabled": true,
+                    "MaxCount": 0
+                }
+            }
+        },
+        "Versions": [
+            "jnfrdnrvckdoywqi"
+        ]
+    },
+    {
+        "ApplicationArn": "tjrgauveyzmhwkht",
+        "ApplicationName": "hmummhrbrovqfezn",
+        "ConfigurationTemplates": [
+            "gtwbbdjiclzvfxma"
+        ],
+        "DateCreated": "dorqsvcniacmclgu",
+        "DateUpdated": "fgerigfwazdkvfpu",
+        "Description": "bxhckizzhhraqxxt",
+        "ResourceLifecycleConfig": {
+            "ServiceRole": "maccmcbiujzdsuea",
+            "VersionLifecycleConfig": {
+                "MaxAgeRule": {
+                    "DeleteSourceFromS3": true,
+                    "Enabled": true,
+                    "MaxAgeInDays": 0
+                },
+                "MaxCountRule": {
+                    "DeleteSourceFromS3": true,
+                    "Enabled": true,
+                    "MaxCount": 0
+                }
+            }
+        },
+        "Versions": [
+            "gtqsshvsgevsqwzi"
+        ]
+    },
+    {
+        "ApplicationArn": "kfuvbpfxsbnmoinc",
+        "ApplicationName": "afwwkanrowrxfeqr",
+        "ConfigurationTemplates": [
+            "kvaoekmagwwobdld"
+        ],
+        "DateCreated": "bxfcptjwdetodjry",
+        "DateUpdated": "yoxxzpcwgnyxarvq",
+        "Description": "twdiypyxtydyfogo",
+        "ResourceLifecycleConfig": {
+            "ServiceRole": "vqgadzuwypzyrbmw",
+            "VersionLifecycleConfig": {
+                "MaxAgeRule": {
+                    "DeleteSourceFromS3": true,
+                    "Enabled": true,
+                    "MaxAgeInDays": 0
+                },
+                "MaxCountRule": {
+                    "DeleteSourceFromS3": true,
+                    "Enabled": true,
+                    "MaxCount": 0
+                }
+            }
+        },
+        "Versions": [
+            "yeyewfdyaewhvysa"
+        ]
+    },
+    {
+        "ApplicationArn": "tqdjfrcfjqazsbpz",
+        "ApplicationName": "sgowrcqamwwkvjlc",
+        "ConfigurationTemplates": [
+            "bemwtcehtmgdpzww"
+        ],
+        "DateCreated": "otugppgkitcayylh",
+        "DateUpdated": "jbhjofiqpptfwwbj",
+        "Description": "zxvzsdgkxchpwsmi",
+        "ResourceLifecycleConfig": {
+            "ServiceRole": "vhxvckpiyzrigkml",
+            "VersionLifecycleConfig": {
+                "MaxAgeRule": {
+                    "DeleteSourceFromS3": true,
+                    "Enabled": true,
+                    "MaxAgeInDays": 0
+                },
+                "MaxCountRule": {
+                    "DeleteSourceFromS3": true,
+                    "Enabled": true,
+                    "MaxCount": 0
+                }
+            }
+        },
+        "Versions": [
+            "lilmhbyptodzbehm"
+        ]
+    },
+    {
+        "ApplicationArn": "pmjqiidoiwlshznm",
+        "ApplicationName": "bmufbenzjxxohefs",
+        "ConfigurationTemplates": [
+            "affhbsogpqynegjv"
+        ],
+        "DateCreated": "fembbaqpnvuejrge",
+        "DateUpdated": "ljxnaphuzwdnmfko",
+        "Description": "uzdeqsowrivbcwus",
+        "ResourceLifecycleConfig": {
+            "ServiceRole": "cvgtkmjglasislnv",
+            "VersionLifecycleConfig": {
+                "MaxAgeRule": {
+                    "DeleteSourceFromS3": true,
+                    "Enabled": true,
+                    "MaxAgeInDays": 0
+                },
+                "MaxCountRule": {
+                    "DeleteSourceFromS3": true,
+                    "Enabled": true,
+                    "MaxCount": 0
+                }
+            }
+        },
+        "Versions": [
+            "jaqpipfatqedrnlb"
+        ]
+    },
+    {
+        "ApplicationArn": "qbuvihrnohlqcmyc",
+        "ApplicationName": "efejevboukccxapx",
+        "ConfigurationTemplates": [
+            "yvfubelabsnbouwb"
+        ],
+        "DateCreated": "xutizjjrbsktsffb",
+        "DateUpdated": "eugndmnsflcoibug",
+        "Description": "flsozpjfbppofilj",
+        "ResourceLifecycleConfig": {
+            "ServiceRole": "jubzmdvgfkozwttx",
+            "VersionLifecycleConfig": {
+                "MaxAgeRule": {
+                    "DeleteSourceFromS3": true,
+                    "Enabled": true,
+                    "MaxAgeInDays": 0
+                },
+                "MaxCountRule": {
+                    "DeleteSourceFromS3": true,
+                    "Enabled": true,
+                    "MaxCount": 0
+                }
+            }
+        },
+        "Versions": [
+            "ouvmgelkzgngunag"
+        ]
+    }
+]

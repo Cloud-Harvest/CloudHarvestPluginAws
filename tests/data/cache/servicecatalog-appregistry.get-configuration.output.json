@@ -1,0 +1,78 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "get_configuration",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": {
+            "tagQueryConfiguration": {
+                "tagKey": "tagKey"
+            }
+        },
+        "required": [],
+        "md5": "9bffe9f0b12bc43b5f726b226130e541",
+        "randomized": [
+            {
+                "tagQueryConfiguration": {
+                    "tagKey": "xcjwzjawagwqcedk"
+                }
+            },
+            {
+                "tagQueryConfiguration": {
+                    "tagKey": "fpzmborsptzhwjlz"
+                }
+            },
+            {
+                "tagQueryConfiguration": {
+                    "tagKey": "vjqryqarbeqyjkng"
+                }
+            },
+            {
+                "tagQueryConfiguration": {
+                    "tagKey": "sxpfigfugbsrydcy"
+                }
+            },
+            {
+                "tagQueryConfiguration": {
+                    "tagKey": "lfpzaxdjrckiukiv"
+                }
+            },
+            {
+                "tagQueryConfiguration": {
+                    "tagKey": "lymbzdkvygdzpqgp"
+                }
+            },
+            {
+                "tagQueryConfiguration": {
+                    "tagKey": "oejyyhmkxjzyisto"
+                }
+            },
+            {
+                "tagQueryConfiguration": {
+                    "tagKey": "yqzppbzhtivnzwmd"
+                }
+            },
+            {
+                "tagQueryConfiguration": {
+                    "tagKey": "eftlgmeezhwejzif"
+                }
+            },
+            {
+                "tagQueryConfiguration": {
+                    "tagKey": "vdxuogytcxtqkpdj"
+                }
+            }
+        ],
+        "result_key": "configuration"
+    },
+    "meta": {
+        "start": 1711116610.635245,
+        "end": 1711116617.978159,
+        "duration": 7.3429248332977295,
+        "service": "servicecatalog-appregistry",
+        "type": null
+    }
+}

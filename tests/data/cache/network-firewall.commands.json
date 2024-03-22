@@ -1,0 +1,14 @@
+[
+    "network-firewall.describe-firewall",
+    "network-firewall.describe-firewall-policy",
+    "network-firewall.describe-logging-configuration",
+    "network-firewall.describe-resource-policy",
+    "network-firewall.describe-rule-group",
+    "network-firewall.describe-rule-group-metadata",
+    "network-firewall.describe-tls-inspection-configuration",
+    "network-firewall.list-firewall-policies",
+    "network-firewall.list-firewalls",
+    "network-firewall.list-rule-groups",
+    "network-firewall.list-tags-for-resource",
+    "network-firewall.list-tls-inspection-configurations"
+]

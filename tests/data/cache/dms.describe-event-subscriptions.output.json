@@ -1,0 +1,202 @@
+{
+    "input": {
+        "template": {
+            "SubscriptionName": "",
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxRecords": 0,
+            "Marker": ""
+        },
+        "required": [],
+        "md5": "d04c8da6e82990910a29243ebbeca3a6",
+        "boto_command": "describe_event_subscriptions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "CustomerAwsId": "CustomerAwsId",
+                "CustSubscriptionId": "CustSubscriptionId",
+                "SnsTopicArn": "SnsTopicArn",
+                "Status": "Status",
+                "SubscriptionCreationTime": "SubscriptionCreationTime",
+                "SourceType": "SourceType",
+                "SourceIdsList": [
+                    "String"
+                ],
+                "EventCategoriesList": [
+                    "String"
+                ],
+                "Enabled": true
+            }
+        ],
+        "required": [],
+        "md5": "48a665e10f7f36e590edb32dac212cf6",
+        "randomized": [
+            {
+                "CustSubscriptionId": "sddgwarlbxlydgvl",
+                "CustomerAwsId": "aceijomcdeorpcvz",
+                "Enabled": true,
+                "EventCategoriesList": [
+                    "rdvkjxayjgdqpcvx"
+                ],
+                "SnsTopicArn": "eogkgbccbrwnzqkk",
+                "SourceIdsList": [
+                    "ibqpyzqkxkgrwtgr"
+                ],
+                "SourceType": "wwndetoxrkvsoveq",
+                "Status": "ocgoeacykzzqcqqs",
+                "SubscriptionCreationTime": "psfohmmeqoaryeuu"
+            },
+            {
+                "CustSubscriptionId": "fsqkbfhujnvhlbpe",
+                "CustomerAwsId": "nghgqdipnadyxova",
+                "Enabled": true,
+                "EventCategoriesList": [
+                    "rblreykwowstavyz"
+                ],
+                "SnsTopicArn": "mqewvkuucwombtdt",
+                "SourceIdsList": [
+                    "fonaauucnvxipmwp"
+                ],
+                "SourceType": "gfgdpbsxnumghcpu",
+                "Status": "chbkwalopmnjdekf",
+                "SubscriptionCreationTime": "cmskzlnvbmxjqrgr"
+            },
+            {
+                "CustSubscriptionId": "hzyohbvygjxhjigc",
+                "CustomerAwsId": "gyxewqndpemlwgao",
+                "Enabled": true,
+                "EventCategoriesList": [
+                    "vdmpjxkmcxedmvjg"
+                ],
+                "SnsTopicArn": "mjtexceoofhuvhqw",
+                "SourceIdsList": [
+                    "ewuzyhjhkaxfetup"
+                ],
+                "SourceType": "twxeigsxbcawlezd",
+                "Status": "kjcovaxjnlfnhwkz",
+                "SubscriptionCreationTime": "eftsldpkcdmwfeah"
+            },
+            {
+                "CustSubscriptionId": "xddtazidklobonsz",
+                "CustomerAwsId": "swxbyztouquepuqa",
+                "Enabled": true,
+                "EventCategoriesList": [
+                    "hxlwdjxkwmsckrtb"
+                ],
+                "SnsTopicArn": "rbccunywwsrjwkys",
+                "SourceIdsList": [
+                    "iuufnjlxemhpsfuq"
+                ],
+                "SourceType": "gfxqkpguxqjxysvl",
+                "Status": "iqzyvatdlmqycoyf",
+                "SubscriptionCreationTime": "qevhwgpdlarzjdbr"
+            },
+            {
+                "CustSubscriptionId": "hxuywqwbnunukknp",
+                "CustomerAwsId": "bdpmoyzffxydjbup",
+                "Enabled": true,
+                "EventCategoriesList": [
+                    "guhfpkyrdoqlsyqh"
+                ],
+                "SnsTopicArn": "uaifshxezngwpleh",
+                "SourceIdsList": [
+                    "avehojnyvdcjuflj"
+                ],
+                "SourceType": "laawmykfvsamxrrv",
+                "Status": "mwynoxjjugwhuhex",
+                "SubscriptionCreationTime": "cyitrkyyijkvbqif"
+            },
+            {
+                "CustSubscriptionId": "pffsieblquqfqduz",
+                "CustomerAwsId": "aigwzrozpqyheisf",
+                "Enabled": true,
+                "EventCategoriesList": [
+                    "jhegehydhkxfymxj"
+                ],
+                "SnsTopicArn": "curztjnzxbtirnty",
+                "SourceIdsList": [
+                    "rzjjpnpmhkkauwly"
+                ],
+                "SourceType": "muwdkexszzhutkkx",
+                "Status": "xdopyyaonhgodpbw",
+                "SubscriptionCreationTime": "msjasynoyokhtwag"
+            },
+            {
+                "CustSubscriptionId": "wlszhcmuzjztptuw",
+                "CustomerAwsId": "cqqyxqlnxymvmlda",
+                "Enabled": true,
+                "EventCategoriesList": [
+                    "qhcwyyvolvvqekeo"
+                ],
+                "SnsTopicArn": "buwiuqxgjbsnajif",
+                "SourceIdsList": [
+                    "iadmemegymhrgkfa"
+                ],
+                "SourceType": "hqabpjojmzoiksqx",
+                "Status": "vwazrowuxwcgsvlx",
+                "SubscriptionCreationTime": "bfniobhonypigazz"
+            },
+            {
+                "CustSubscriptionId": "ifobmmascclupkbx",
+                "CustomerAwsId": "pudnwjsofkobhgqv",
+                "Enabled": true,
+                "EventCategoriesList": [
+                    "bvzpzqrpwzurlape"
+                ],
+                "SnsTopicArn": "hegusmfrdcitztsh",
+                "SourceIdsList": [
+                    "hmjwhtvxjvdpwjzd"
+                ],
+                "SourceType": "eopysnxysxldyhle",
+                "Status": "unevtbsxhzxyymlj",
+                "SubscriptionCreationTime": "nvorfgwmufamjrnq"
+            },
+            {
+                "CustSubscriptionId": "nltptxgpvoqcqaiq",
+                "CustomerAwsId": "sbmtnmxcmeewvrfp",
+                "Enabled": true,
+                "EventCategoriesList": [
+                    "lbysivnabhfyrnra"
+                ],
+                "SnsTopicArn": "bybkyrmropkdqmtu",
+                "SourceIdsList": [
+                    "zhcogkiokunfbtxx"
+                ],
+                "SourceType": "ejkiefsvwjrcucld",
+                "Status": "unyudtoqzqbasuvm",
+                "SubscriptionCreationTime": "wxoxfaxvzpzogvyk"
+            },
+            {
+                "CustSubscriptionId": "elwcdlncozdkqfml",
+                "CustomerAwsId": "fmjtfvsbbfkkzpzp",
+                "Enabled": true,
+                "EventCategoriesList": [
+                    "jlkuziqoeuijmhje"
+                ],
+                "SnsTopicArn": "fclvglagceihpcql",
+                "SourceIdsList": [
+                    "acjfdbvsbitnekss"
+                ],
+                "SourceType": "biidmozngfryyjix",
+                "Status": "ktodogbyajogxtme",
+                "SubscriptionCreationTime": "fmbqkpezifqjllvz"
+            }
+        ],
+        "result_key": "EventSubscriptionsList"
+    },
+    "meta": {
+        "start": 1711115575.804448,
+        "end": 1711115583.366486,
+        "duration": 7.562046051025391,
+        "service": "dms",
+        "type": "event_subscriptions"
+    }
+}

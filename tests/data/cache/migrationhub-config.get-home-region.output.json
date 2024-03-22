@@ -1,0 +1,34 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "get_home_region",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": "HomeRegion",
+        "required": [],
+        "md5": "5a727b3dd141fc2d87225c4d73cc8bef",
+        "randomized": [
+            "txmhjmugguqwsgkx",
+            "ijtgzimcapkxovbi",
+            "ljaguffvxdqwxtmw",
+            "mmqvprwghyiitwrs",
+            "ycmtpkrjiavttwoe",
+            "ltdzppsusbtqwoah",
+            "wgzwyruemxpubfpu",
+            "rlxzxlirlqqmylcc",
+            "vsgnwtirllwdmcmy",
+            "fpcusuoluyswogrl"
+        ],
+        "result_key": "HomeRegion"
+    },
+    "meta": {
+        "start": 1711116208.150594,
+        "end": 1711116216.457698,
+        "duration": 8.307117938995361,
+        "service": "migrationhub-config",
+        "type": null
+    }
+}

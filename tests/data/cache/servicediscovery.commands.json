@@ -1,0 +1,12 @@
+[
+    "servicediscovery.get-instance",
+    "servicediscovery.get-instances-health-status",
+    "servicediscovery.get-namespace",
+    "servicediscovery.get-operation",
+    "servicediscovery.get-service",
+    "servicediscovery.list-instances",
+    "servicediscovery.list-namespaces",
+    "servicediscovery.list-operations",
+    "servicediscovery.list-services",
+    "servicediscovery.list-tags-for-resource"
+]

@@ -1,0 +1,140 @@
+{
+    "input": {
+        "template": {
+            "serviceCodeList": [
+                ""
+            ],
+            "language": ""
+        },
+        "required": [],
+        "md5": "b8e27ab46b575a4f9e36355ed8e331dc",
+        "boto_command": "describe_services",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "code": "code",
+                "name": "name",
+                "categories": [
+                    {
+                        "code": "code",
+                        "name": "name"
+                    }
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "55102784bfda5c207e1fab4a2fd8934c",
+        "randomized": [
+            {
+                "categories": [
+                    {
+                        "code": "aevorzbruvsieqtu",
+                        "name": "nvrgcqyiojuosyhw"
+                    }
+                ],
+                "code": "awpzxysmghhlikqo",
+                "name": "bhectyeaonpmfpam"
+            },
+            {
+                "categories": [
+                    {
+                        "code": "qhovaldrwzmezlra",
+                        "name": "tstwrczzisgnfmfm"
+                    }
+                ],
+                "code": "nsnufhexmtzxfrou",
+                "name": "exypmtqbjhrupvqf"
+            },
+            {
+                "categories": [
+                    {
+                        "code": "emiklultexlsgans",
+                        "name": "yhfbkbzdyojmhxai"
+                    }
+                ],
+                "code": "qmfzwvzilcjzeqpm",
+                "name": "vnsafhfhsltrosqp"
+            },
+            {
+                "categories": [
+                    {
+                        "code": "snrumdkhsgofgjsn",
+                        "name": "wukwjfsmxwcqwxqv"
+                    }
+                ],
+                "code": "ceirzxyvofzhtekm",
+                "name": "lyokuslkpjcartuk"
+            },
+            {
+                "categories": [
+                    {
+                        "code": "eesjdlyshxgfraky",
+                        "name": "qeegwjtuvhzprfvq"
+                    }
+                ],
+                "code": "djofeyicjvfqmdcg",
+                "name": "urwtxkbvdvumqxun"
+            },
+            {
+                "categories": [
+                    {
+                        "code": "armhunwvgalsfpkc",
+                        "name": "jmhplxjmrxzdwyjy"
+                    }
+                ],
+                "code": "vrihyfsjyqbmrqxv",
+                "name": "zswmoicuvjrjuhwb"
+            },
+            {
+                "categories": [
+                    {
+                        "code": "nqdopyzdortirsjn",
+                        "name": "oieuhfxybzbmpjbn"
+                    }
+                ],
+                "code": "wtgcycoluzolwccw",
+                "name": "bpxuqheqdabrpcyf"
+            },
+            {
+                "categories": [
+                    {
+                        "code": "vxdwjmobznvmaoue",
+                        "name": "wbkvvoehrmwdawrk"
+                    }
+                ],
+                "code": "uwlaqkgqrtfubiic",
+                "name": "hppxceqwyodwczmg"
+            },
+            {
+                "categories": [
+                    {
+                        "code": "fkewzmdchxnsclge",
+                        "name": "zzetkzsvmuvvkrej"
+                    }
+                ],
+                "code": "zofyqtlqndeaxnqn",
+                "name": "qsnyazlgmbeggpzp"
+            },
+            {
+                "categories": [
+                    {
+                        "code": "rvjuxvadjoiuipjs",
+                        "name": "nwxxrfgzlzmilvpm"
+                    }
+                ],
+                "code": "smtiqncntbdhybca",
+                "name": "zadjtrpmyobhveeg"
+            }
+        ],
+        "result_key": "services"
+    },
+    "meta": {
+        "start": 1711116709.392752,
+        "end": 1711116716.823159,
+        "duration": 7.430417060852051,
+        "service": "support",
+        "type": "services"
+    }
+}

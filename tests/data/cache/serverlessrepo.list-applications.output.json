@@ -1,0 +1,160 @@
+{
+    "input": {
+        "template": {
+            "MaxItems": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "99cb9c6a291d3898913e8254f64a852b",
+        "boto_command": "list_applications",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "ApplicationId": "ApplicationId",
+                "Author": "Author",
+                "CreationTime": "CreationTime",
+                "Description": "Description",
+                "HomePageUrl": "HomePageUrl",
+                "Labels": [
+                    "__string"
+                ],
+                "Name": "Name",
+                "SpdxLicenseId": "SpdxLicenseId"
+            }
+        ],
+        "required": [],
+        "md5": "f8f11a9e4eac85d65916fdadadbf38a1",
+        "randomized": [
+            {
+                "ApplicationId": "gnsfwdxdlhdlrign",
+                "Author": "ejrmwjjznmowwlxx",
+                "CreationTime": "fivazznekykijmwi",
+                "Description": "zwwbkfpdyaquchrk",
+                "HomePageUrl": "matdbznzoaorhdrd",
+                "Labels": [
+                    "nddynnochwgbqgye"
+                ],
+                "Name": "rwhfkwkgrjncjbza",
+                "SpdxLicenseId": "ywbzugjhdtufyard"
+            },
+            {
+                "ApplicationId": "knpbkkeyoepvegjl",
+                "Author": "fhjyjmvnlanbrvvy",
+                "CreationTime": "amizqoipryidpzwa",
+                "Description": "ubqoazosxygsrbqu",
+                "HomePageUrl": "lgkgwyhvgmmqzctk",
+                "Labels": [
+                    "gnfdhfdnyhygsydi"
+                ],
+                "Name": "ujbneeozaljvpkjk",
+                "SpdxLicenseId": "yelpllyygwgxlupb"
+            },
+            {
+                "ApplicationId": "bfgusodnhsxdcaky",
+                "Author": "qzlgrpmgrtvtpdvb",
+                "CreationTime": "ycqswwvypojczdyn",
+                "Description": "fmjqworzbfqncnuu",
+                "HomePageUrl": "ktnigmkyysuptxsi",
+                "Labels": [
+                    "eljcklygpcmsmkwf"
+                ],
+                "Name": "lyxjspgtalacpwtm",
+                "SpdxLicenseId": "ydfvvxyfveqhapqn"
+            },
+            {
+                "ApplicationId": "idqhvexuyhqxmfbn",
+                "Author": "wbptkfvbppiqtgub",
+                "CreationTime": "vkfwqnmzzrzwzpys",
+                "Description": "qkrqvfufdpbzfyts",
+                "HomePageUrl": "fbmyxkqjwlfogzax",
+                "Labels": [
+                    "smxclfwelxwwpayi"
+                ],
+                "Name": "avmufjkyytxsigzv",
+                "SpdxLicenseId": "wrouyuphlkyqczuq"
+            },
+            {
+                "ApplicationId": "bivhodbojrpofwwc",
+                "Author": "shjygwywlpyrzqdd",
+                "CreationTime": "lqurkamdwwmxanns",
+                "Description": "duqczdbboerdewtd",
+                "HomePageUrl": "gzeipsxdcvjtstwf",
+                "Labels": [
+                    "hlqynuhhkqmyaana"
+                ],
+                "Name": "aaieqajhmsbfaxrp",
+                "SpdxLicenseId": "qjjdkuckijwvmwnv"
+            },
+            {
+                "ApplicationId": "hpinbvzrzjlmlghw",
+                "Author": "sljiekvjwefncxel",
+                "CreationTime": "tvnwimyquerasbck",
+                "Description": "tjufryqgvnvhscis",
+                "HomePageUrl": "uramoknunxaygkhy",
+                "Labels": [
+                    "phtyjlyxocrmxwir"
+                ],
+                "Name": "gcinqlqbrvipojfj",
+                "SpdxLicenseId": "rgosvfojstscpthg"
+            },
+            {
+                "ApplicationId": "fygvdeadljsqscts",
+                "Author": "vkqrenlwroqfnnzz",
+                "CreationTime": "tpqsmncymafgjmdv",
+                "Description": "kjfzhjdkkpefdvls",
+                "HomePageUrl": "phkyabgcpspfnatd",
+                "Labels": [
+                    "xpnxezxjsgsdyogi"
+                ],
+                "Name": "dllonhnztxivcmkw",
+                "SpdxLicenseId": "hdrpntmjwpnzsall"
+            },
+            {
+                "ApplicationId": "yxjslierxahntuhq",
+                "Author": "htuhcbtptmcfwvrd",
+                "CreationTime": "lkmrzpystjxebdsa",
+                "Description": "pdtswsrcwgzkvfhb",
+                "HomePageUrl": "sxedajvudmgwitum",
+                "Labels": [
+                    "hohgnkobxghycwny"
+                ],
+                "Name": "eachgvppoxxzsenj",
+                "SpdxLicenseId": "edxncnclhokbznte"
+            },
+            {
+                "ApplicationId": "ztppvappqldyteyg",
+                "Author": "ggntoienyaxubmuz",
+                "CreationTime": "bakltwyricvpjhvn",
+                "Description": "rxrgscpdadjkjltz",
+                "HomePageUrl": "clmmdkwyykdikshp",
+                "Labels": [
+                    "lskiaifrmrrkvlit"
+                ],
+                "Name": "pzynqrfxanzemkfb",
+                "SpdxLicenseId": "pqwhdkufcxndpnny"
+            },
+            {
+                "ApplicationId": "qwngvrnhszragrcs",
+                "Author": "hdoirmezwqaxsfnq",
+                "CreationTime": "hlzkiuntxcexkqec",
+                "Description": "mieamhvijkvisnzh",
+                "HomePageUrl": "ixrdkjxgjwllybtp",
+                "Labels": [
+                    "zvizvgnjfkdihygx"
+                ],
+                "Name": "mxqkzemqewabuftg",
+                "SpdxLicenseId": "swjbhktbnaamfpbg"
+            }
+        ],
+        "result_key": "Applications"
+    },
+    "meta": {
+        "start": 1711116596.820734,
+        "end": 1711116603.251195,
+        "duration": 6.430471897125244,
+        "service": "serverlessrepo",
+        "type": "applications"
+    }
+}

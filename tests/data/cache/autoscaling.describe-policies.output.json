@@ -1,0 +1,1839 @@
+{
+    "input": {
+        "template": {
+            "AutoScalingGroupName": "",
+            "PolicyNames": [
+                ""
+            ],
+            "PolicyTypes": [
+                ""
+            ],
+            "NextToken": "",
+            "MaxRecords": 0
+        },
+        "required": [],
+        "md5": "98b12ffa284c81fd4c54042e76aeae67",
+        "boto_command": "describe_policies",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "AutoScalingGroupName": "AutoScalingGroupName",
+                "PolicyName": "PolicyName",
+                "PolicyARN": "PolicyARN",
+                "PolicyType": "PolicyType",
+                "AdjustmentType": "AdjustmentType",
+                "MinAdjustmentStep": 0,
+                "MinAdjustmentMagnitude": 0,
+                "ScalingAdjustment": 0,
+                "Cooldown": 0,
+                "StepAdjustments": [
+                    {
+                        "MetricIntervalLowerBound": 0.0,
+                        "MetricIntervalUpperBound": 0.0,
+                        "ScalingAdjustment": 0
+                    }
+                ],
+                "MetricAggregationType": "MetricAggregationType",
+                "EstimatedInstanceWarmup": 0,
+                "Alarms": [
+                    {
+                        "AlarmName": "AlarmName",
+                        "AlarmARN": "AlarmARN"
+                    }
+                ],
+                "TargetTrackingConfiguration": {
+                    "PredefinedMetricSpecification": {
+                        "PredefinedMetricType": "PredefinedMetricType",
+                        "ResourceLabel": "ResourceLabel"
+                    },
+                    "CustomizedMetricSpecification": {
+                        "MetricName": "MetricName",
+                        "Namespace": "Namespace",
+                        "Dimensions": [
+                            {
+                                "Name": "Name",
+                                "Value": "Value"
+                            }
+                        ],
+                        "Statistic": "Statistic",
+                        "Unit": "Unit",
+                        "Metrics": [
+                            {
+                                "Id": "Id",
+                                "Expression": "Expression",
+                                "MetricStat": {
+                                    "Metric": {
+                                        "Namespace": "Namespace",
+                                        "MetricName": "MetricName",
+                                        "Dimensions": [
+                                            {
+                                                "Name": "Name",
+                                                "Value": "Value"
+                                            }
+                                        ]
+                                    },
+                                    "Stat": "Stat",
+                                    "Unit": "Unit"
+                                },
+                                "Label": "Label",
+                                "ReturnData": true
+                            }
+                        ]
+                    },
+                    "TargetValue": 0.0,
+                    "DisableScaleIn": true
+                },
+                "Enabled": true,
+                "PredictiveScalingConfiguration": {
+                    "MetricSpecifications": [
+                        {
+                            "TargetValue": 0.0,
+                            "PredefinedMetricPairSpecification": {
+                                "PredefinedMetricType": "PredefinedMetricType",
+                                "ResourceLabel": "ResourceLabel"
+                            },
+                            "PredefinedScalingMetricSpecification": {
+                                "PredefinedMetricType": "PredefinedMetricType",
+                                "ResourceLabel": "ResourceLabel"
+                            },
+                            "PredefinedLoadMetricSpecification": {
+                                "PredefinedMetricType": "PredefinedMetricType",
+                                "ResourceLabel": "ResourceLabel"
+                            },
+                            "CustomizedScalingMetricSpecification": {
+                                "MetricDataQueries": [
+                                    {
+                                        "Id": "Id",
+                                        "Expression": "Expression",
+                                        "MetricStat": {
+                                            "Metric": {
+                                                "Namespace": "Namespace",
+                                                "MetricName": "MetricName",
+                                                "Dimensions": [
+                                                    {
+                                                        "Name": "Name",
+                                                        "Value": "Value"
+                                                    }
+                                                ]
+                                            },
+                                            "Stat": "Stat",
+                                            "Unit": "Unit"
+                                        },
+                                        "Label": "Label",
+                                        "ReturnData": true
+                                    }
+                                ]
+                            },
+                            "CustomizedLoadMetricSpecification": {
+                                "MetricDataQueries": [
+                                    {
+                                        "Id": "Id",
+                                        "Expression": "Expression",
+                                        "MetricStat": {
+                                            "Metric": {
+                                                "Namespace": "Namespace",
+                                                "MetricName": "MetricName",
+                                                "Dimensions": [
+                                                    {
+                                                        "Name": "Name",
+                                                        "Value": "Value"
+                                                    }
+                                                ]
+                                            },
+                                            "Stat": "Stat",
+                                            "Unit": "Unit"
+                                        },
+                                        "Label": "Label",
+                                        "ReturnData": true
+                                    }
+                                ]
+                            },
+                            "CustomizedCapacityMetricSpecification": {
+                                "MetricDataQueries": [
+                                    {
+                                        "Id": "Id",
+                                        "Expression": "Expression",
+                                        "MetricStat": {
+                                            "Metric": {
+                                                "Namespace": "Namespace",
+                                                "MetricName": "MetricName",
+                                                "Dimensions": [
+                                                    {
+                                                        "Name": "Name",
+                                                        "Value": "Value"
+                                                    }
+                                                ]
+                                            },
+                                            "Stat": "Stat",
+                                            "Unit": "Unit"
+                                        },
+                                        "Label": "Label",
+                                        "ReturnData": true
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "Mode": "Mode",
+                    "SchedulingBufferTime": 0,
+                    "MaxCapacityBreachBehavior": "MaxCapacityBreachBehavior",
+                    "MaxCapacityBuffer": 0
+                }
+            }
+        ],
+        "required": [],
+        "md5": "e27c3aac0623bf5fd8246c2d8e219300",
+        "randomized": [
+            {
+                "AdjustmentType": "ojnratpksqbbkhrp",
+                "Alarms": [
+                    {
+                        "AlarmARN": "wxipttnxtecdrwpg",
+                        "AlarmName": "iuqhcngdewywosjh"
+                    }
+                ],
+                "AutoScalingGroupName": "ietbdxnupvyuoovt",
+                "Cooldown": 0,
+                "Enabled": true,
+                "EstimatedInstanceWarmup": 0,
+                "MetricAggregationType": "oznptynfdpnyltre",
+                "MinAdjustmentMagnitude": 0,
+                "MinAdjustmentStep": 0,
+                "PolicyARN": "irkhhoegfuxspdxj",
+                "PolicyName": "afenaghhppqgbkhs",
+                "PolicyType": "evswyykekjzndoxk",
+                "PredictiveScalingConfiguration": {
+                    "MaxCapacityBreachBehavior": "jegyfniwgfyytucl",
+                    "MaxCapacityBuffer": 0,
+                    "MetricSpecifications": [
+                        {
+                            "CustomizedCapacityMetricSpecification": {
+                                "MetricDataQueries": [
+                                    {
+                                        "Expression": "ecygbbpvavafyszb",
+                                        "Id": "sriicdzbovwuykmw",
+                                        "Label": "igfsvlfirhitrljg",
+                                        "MetricStat": {
+                                            "Metric": {
+                                                "Dimensions": [
+                                                    {
+                                                        "Name": "tephlrubfmyvxzfi",
+                                                        "Value": "ecdadbfaimccopcj"
+                                                    }
+                                                ],
+                                                "MetricName": "cmnfdrsovqkduzez",
+                                                "Namespace": "jmhivgltzvhyigrk"
+                                            },
+                                            "Stat": "hbhrzqmawelgjnwk",
+                                            "Unit": "hotoqpvorfzfmecf"
+                                        },
+                                        "ReturnData": true
+                                    }
+                                ]
+                            },
+                            "CustomizedLoadMetricSpecification": {
+                                "MetricDataQueries": [
+                                    {
+                                        "Expression": "vnpejjxddoyhddxe",
+                                        "Id": "porkwgjjjsuyrhtj",
+                                        "Label": "aduyrcerkxpbvftb",
+                                        "MetricStat": {
+                                            "Metric": {
+                                                "Dimensions": [
+                                                    {
+                                                        "Name": "qlkigazpcawotdmr",
+                                                        "Value": "qmdtvjpxcjxjloae"
+                                                    }
+                                                ],
+                                                "MetricName": "kqfbtlxgcwwxyjuj",
+                                                "Namespace": "amzwkitwxdbhtgwc"
+                                            },
+                                            "Stat": "lkbyiwfzmeydonwh",
+                                            "Unit": "bgocbjumanhlnblm"
+                                        },
+                                        "ReturnData": true
+                                    }
+                                ]
+                            },
+                            "CustomizedScalingMetricSpecification": {
+                                "MetricDataQueries": [
+                                    {
+                                        "Expression": "qkztnoqexxgwggpm",
+                                        "Id": "xsicwfytvvkjvqmw",
+                                        "Label": "zimldsdsvpszreiv",
+                                        "MetricStat": {
+                                            "Metric": {
+                                                "Dimensions": [
+                                                    {
+                                                        "Name": "syhaozlgqjbvvpys",
+                                                        "Value": "qqlodqhvbvnpmmrg"
+                                                    }
+                                                ],
+                                                "MetricName": "ejsvbtvjoildsowt",
+                                                "Namespace": "vddfzjxrkkixfunc"
+                                            },
+                                            "Stat": "bgbvkqafmoixzyfs",
+                                            "Unit": "etvkuruhlhzwdsne"
+                                        },
+                                        "ReturnData": true
+                                    }
+                                ]
+                            },
+                            "PredefinedLoadMetricSpecification": {
+                                "PredefinedMetricType": "eaekrtyjxtnlzsxm",
+                                "ResourceLabel": "byfqvyiwbekdnjtr"
+                            },
+                            "PredefinedMetricPairSpecification": {
+                                "PredefinedMetricType": "neomcdupmwsjlfwe",
+                                "ResourceLabel": "wlqxrtvneekbpmnk"
+                            },
+                            "PredefinedScalingMetricSpecification": {
+                                "PredefinedMetricType": "xravooohbqfizzdf",
+                                "ResourceLabel": "giwbcdmrlvvmkdgb"
+                            },
+                            "TargetValue": 0.0
+                        }
+                    ],
+                    "Mode": "dzlyjcvczlmpawma",
+                    "SchedulingBufferTime": 0
+                },
+                "ScalingAdjustment": 0,
+                "StepAdjustments": [
+                    {
+                        "MetricIntervalLowerBound": 0.0,
+                        "MetricIntervalUpperBound": 0.0,
+                        "ScalingAdjustment": 0
+                    }
+                ],
+                "TargetTrackingConfiguration": {
+                    "CustomizedMetricSpecification": {
+                        "Dimensions": [
+                            {
+                                "Name": "qmsweiadnqkacyzv",
+                                "Value": "jddsujrlvlqlhsdg"
+                            }
+                        ],
+                        "MetricName": "onjnueivbtbpvydl",
+                        "Metrics": [
+                            {
+                                "Expression": "nquamdocrmiaqgpf",
+                                "Id": "pbpydpahpaycpivi",
+                                "Label": "rtxkhhwwbamuepka",
+                                "MetricStat": {
+                                    "Metric": {
+                                        "Dimensions": [
+                                            {
+                                                "Name": "xhhyklhnpajlilgb",
+                                                "Value": "eagxtvhviygvukbs"
+                                            }
+                                        ],
+                                        "MetricName": "kvgjrjnyxgufvrtg",
+                                        "Namespace": "ubjoptnwxqtjpxdm"
+                                    },
+                                    "Stat": "qtxuiltibhushcjb",
+                                    "Unit": "zrpyctttykuksepg"
+                                },
+                                "ReturnData": true
+                            }
+                        ],
+                        "Namespace": "gesjwfnpzcoifkni",
+                        "Statistic": "dxmpxgobyzdbjext",
+                        "Unit": "zhqxmlgnlxipoaxe"
+                    },
+                    "DisableScaleIn": true,
+                    "PredefinedMetricSpecification": {
+                        "PredefinedMetricType": "plqrbeusopzbkrfv",
+                        "ResourceLabel": "wwdyqiezhiutdykm"
+                    },
+                    "TargetValue": 0.0
+                }
+            },
+            {
+                "AdjustmentType": "buyfxuxzayochlbz",
+                "Alarms": [
+                    {
+                        "AlarmARN": "ntxwsfbwrvsjmtgr",
+                        "AlarmName": "kortowmeaqztgkvj"
+                    }
+                ],
+                "AutoScalingGroupName": "hskbdaabqytdnxho",
+                "Cooldown": 0,
+                "Enabled": true,
+                "EstimatedInstanceWarmup": 0,
+                "MetricAggregationType": "irgaxpvdbvpanhdt",
+                "MinAdjustmentMagnitude": 0,
+                "MinAdjustmentStep": 0,
+                "PolicyARN": "pmhcgqafktpqhtbr",
+                "PolicyName": "syawpzpwnvxgenyv",
+                "PolicyType": "ckzgqifdvlzchofh",
+                "PredictiveScalingConfiguration": {
+                    "MaxCapacityBreachBehavior": "ledfzheqprqnirty",
+                    "MaxCapacityBuffer": 0,
+                    "MetricSpecifications": [
+                        {
+                            "CustomizedCapacityMetricSpecification": {
+                                "MetricDataQueries": [
+                                    {
+                                        "Expression": "xtxwgxcyvfgyxtbt",
+                                        "Id": "lflcsdklmozhbylx",
+                                        "Label": "pjrlycznemrgtumx",
+                                        "MetricStat": {
+                                            "Metric": {
+                                                "Dimensions": [
+                                                    {
+                                                        "Name": "ilkmukledetyjgsn",
+                                                        "Value": "jsjnrxxgsputsuef"
+                                                    }
+                                                ],
+                                                "MetricName": "ygewhjlceccwwweg",
+                                                "Namespace": "xvgaaqfcptijvsfq"
+                                            },
+                                            "Stat": "iqounappusovpgkq",
+                                            "Unit": "dhwhwrlkkvdspcgs"
+                                        },
+                                        "ReturnData": true
+                                    }
+                                ]
+                            },
+                            "CustomizedLoadMetricSpecification": {
+                                "MetricDataQueries": [
+                                    {
+                                        "Expression": "tgmxrffjixipohbx",
+                                        "Id": "jzkaqfpbbkaxogmz",
+                                        "Label": "gdwxetxxaacbtwki",
+                                        "MetricStat": {
+                                            "Metric": {
+                                                "Dimensions": [
+                                                    {
+                                                        "Name": "szapirfjdczrtiqx",
+                                                        "Value": "epylrcvhpkpvxhtu"
+                                                    }
+                                                ],
+                                                "MetricName": "uycnxbqryjfedddt",
+                                                "Namespace": "pbrioggqgpxtfith"
+                                            },
+                                            "Stat": "wbvsulfxgptbpxco",
+                                            "Unit": "ykdcegyktmtbeheb"
+                                        },
+                                        "ReturnData": true
+                                    }
+                                ]
+                            },
+                            "CustomizedScalingMetricSpecification": {
+                                "MetricDataQueries": [
+                                    {
+                                        "Expression": "cwbieapwinqiioji",
+                                        "Id": "cangtlpaujjahbbi",
+                                        "Label": "geqxitveppwtuopl",
+                                        "MetricStat": {
+                                            "Metric": {
+                                                "Dimensions": [
+                                                    {
+                                                        "Name": "vvwlhvcbomkzrngn",
+                                                        "Value": "uzoedelxigvqoyqw"
+                                                    }
+                                                ],
+                                                "MetricName": "zwxzofjyshokmfjx",
+                                                "Namespace": "rjiguqitgvukeyiq"
+                                            },
+                                            "Stat": "mrvawghzkjdaigis",
+                                            "Unit": "zbcmztaizmczigey"
+                                        },
+                                        "ReturnData": true
+                                    }
+                                ]
+                            },
+                            "PredefinedLoadMetricSpecification": {
+                                "PredefinedMetricType": "xaabmpktmpwwrdoa",
+                                "ResourceLabel": "bkqzxsdtsumnrong"
+                            },
+                            "PredefinedMetricPairSpecification": {
+                                "PredefinedMetricType": "etevgwoogxrjeusn",
+                                "ResourceLabel": "wqqblgstgnwnprnl"
+                            },
+                            "PredefinedScalingMetricSpecification": {
+                                "PredefinedMetricType": "eqdsgmqufwsrbdyp",
+                                "ResourceLabel": "cftcvjnylnpigiuz"
+                            },
+                            "TargetValue": 0.0
+                        }
+                    ],
+                    "Mode": "qczypreqocproxri",
+                    "SchedulingBufferTime": 0
+                },
+                "ScalingAdjustment": 0,
+                "StepAdjustments": [
+                    {
+                        "MetricIntervalLowerBound": 0.0,
+                        "MetricIntervalUpperBound": 0.0,
+                        "ScalingAdjustment": 0
+                    }
+                ],
+                "TargetTrackingConfiguration": {
+                    "CustomizedMetricSpecification": {
+                        "Dimensions": [
+                            {
+                                "Name": "tcrrcuctmpcngjkd",
+                                "Value": "mncmorfnfpwcrukf"
+                            }
+                        ],
+                        "MetricName": "riiluhpiunafedii",
+                        "Metrics": [
+                            {
+                                "Expression": "wujuyfujtrulusvy",
+                                "Id": "qrhkyijagguwgylw",
+                                "Label": "tgdpglvlfeovfjzl",
+                                "MetricStat": {
+                                    "Metric": {
+                                        "Dimensions": [
+                                            {
+                                                "Name": "ntqqkxdtzklmsufk",
+                                                "Value": "lbtzhtsbponolffn"
+                                            }
+                                        ],
+                                        "MetricName": "exxsrmxzogyhfeht",
+                                        "Namespace": "gfuopnfhxoxecixl"
+                                    },
+                                    "Stat": "ibypqxoltojilvou",
+                                    "Unit": "atcfjcouiddirhmj"
+                                },
+                                "ReturnData": true
+                            }
+                        ],
+                        "Namespace": "rudupimszxcmeasm",
+                        "Statistic": "hpjzdjttuvmwjimb",
+                        "Unit": "fhmqnxfygnckinsj"
+                    },
+                    "DisableScaleIn": true,
+                    "PredefinedMetricSpecification": {
+                        "PredefinedMetricType": "melrpnlcfgrmtrat",
+                        "ResourceLabel": "hxpscleuqcggbern"
+                    },
+                    "TargetValue": 0.0
+                }
+            },
+            {
+                "AdjustmentType": "erdprvrdrocqollc",
+                "Alarms": [
+                    {
+                        "AlarmARN": "vbhtiaityhjddheg",
+                        "AlarmName": "wcnpayiuwbpfumsk"
+                    }
+                ],
+                "AutoScalingGroupName": "tmrorznxxdiwlwcz",
+                "Cooldown": 0,
+                "Enabled": true,
+                "EstimatedInstanceWarmup": 0,
+                "MetricAggregationType": "qnplrrgibxelejnw",
+                "MinAdjustmentMagnitude": 0,
+                "MinAdjustmentStep": 0,
+                "PolicyARN": "bkprylipivfenevq",
+                "PolicyName": "vzciigiaamgjrhcd",
+                "PolicyType": "fbkuvwvvnaieecfl",
+                "PredictiveScalingConfiguration": {
+                    "MaxCapacityBreachBehavior": "pfccsmpkrvqsrafs",
+                    "MaxCapacityBuffer": 0,
+                    "MetricSpecifications": [
+                        {
+                            "CustomizedCapacityMetricSpecification": {
+                                "MetricDataQueries": [
+                                    {
+                                        "Expression": "maaoslmqpgfnrqqc",
+                                        "Id": "uhedqwgxhfjhnjzv",
+                                        "Label": "sufgxarxtkllgjps",
+                                        "MetricStat": {
+                                            "Metric": {
+                                                "Dimensions": [
+                                                    {
+                                                        "Name": "aipumvnbqekajauz",
+                                                        "Value": "lumqzbnuitvdjlij"
+                                                    }
+                                                ],
+                                                "MetricName": "nzjfeohpvmpjgjjh",
+                                                "Namespace": "avrogboassisxtmo"
+                                            },
+                                            "Stat": "vhmuolyontrghmuo",
+                                            "Unit": "tlgradkkkndltixq"
+                                        },
+                                        "ReturnData": true
+                                    }
+                                ]
+                            },
+                            "CustomizedLoadMetricSpecification": {
+                                "MetricDataQueries": [
+                                    {
+                                        "Expression": "lzlacokchlijbqoq",
+                                        "Id": "ompshifelvkdhpvg",
+                                        "Label": "fxtrbmgwawpwtogj",
+                                        "MetricStat": {
+                                            "Metric": {
+                                                "Dimensions": [
+                                                    {
+                                                        "Name": "xzjneigifqdizsaj",
+                                                        "Value": "glmukepwhyfxiers"
+                                                    }
+                                                ],
+                                                "MetricName": "lghcigkfxreswryr",
+                                                "Namespace": "dbnlnendikfousmz"
+                                            },
+                                            "Stat": "ejlukubptpvfgenc",
+                                            "Unit": "psxfmputmumrufbx"
+                                        },
+                                        "ReturnData": true
+                                    }
+                                ]
+                            },
+                            "CustomizedScalingMetricSpecification": {
+                                "MetricDataQueries": [
+                                    {
+                                        "Expression": "tyjtwpxkhnsxumcy",
+                                        "Id": "olomcheydzosnihc",
+                                        "Label": "tpgwgdwkujhpkndr",
+                                        "MetricStat": {
+                                            "Metric": {
+                                                "Dimensions": [
+                                                    {
+                                                        "Name": "cpcqjodbmvsdhiiq",
+                                                        "Value": "umtnrollpxhufjuu"
+                                                    }
+                                                ],
+                                                "MetricName": "rhshppwlsuvyiahn",
+                                                "Namespace": "vhpmevvweequiuaq"
+                                            },
+                                            "Stat": "rgqinnfjtjytvswp",
+                                            "Unit": "obdntnqfapnlvddn"
+                                        },
+                                        "ReturnData": true
+                                    }
+                                ]
+                            },
+                            "PredefinedLoadMetricSpecification": {
+                                "PredefinedMetricType": "diyevbtbjlihoesl",
+                                "ResourceLabel": "szsfwjlitrhkdhan"
+                            },
+                            "PredefinedMetricPairSpecification": {
+                                "PredefinedMetricType": "flkfvhxpmucmegij",
+                                "ResourceLabel": "fqimmoddwolpwyok"
+                            },
+                            "PredefinedScalingMetricSpecification": {
+                                "PredefinedMetricType": "jdujmkfxebdncuqz",
+                                "ResourceLabel": "yndfibmurxjafhcm"
+                            },
+                            "TargetValue": 0.0
+                        }
+                    ],
+                    "Mode": "mtcewyocfaddgenn",
+                    "SchedulingBufferTime": 0
+                },
+                "ScalingAdjustment": 0,
+                "StepAdjustments": [
+                    {
+                        "MetricIntervalLowerBound": 0.0,
+                        "MetricIntervalUpperBound": 0.0,
+                        "ScalingAdjustment": 0
+                    }
+                ],
+                "TargetTrackingConfiguration": {
+                    "CustomizedMetricSpecification": {
+                        "Dimensions": [
+                            {
+                                "Name": "kimzrmmyeatucyiw",
+                                "Value": "wlbxrplamzjiirpn"
+                            }
+                        ],
+                        "MetricName": "mhfcbxnzkfdrwwpy",
+                        "Metrics": [
+                            {
+                                "Expression": "bufrtgkyopsnuvsr",
+                                "Id": "igzwrftvgbpcmohp",
+                                "Label": "cstzlvjsbsldsafd",
+                                "MetricStat": {
+                                    "Metric": {
+                                        "Dimensions": [
+                                            {
+                                                "Name": "zwwbpdtaikapeqvd",
+                                                "Value": "ybinwdofthputhxs"
+                                            }
+                                        ],
+                                        "MetricName": "whltheyqlijiwttp",
+                                        "Namespace": "srelwtahcwrzvtjf"
+                                    },
+                                    "Stat": "phlqprssqvhpcgbu",
+                                    "Unit": "zyojsxegpvjhenig"
+                                },
+                                "ReturnData": true
+                            }
+                        ],
+                        "Namespace": "ktulgwcbqqmggoqn",
+                        "Statistic": "rkfeffersywlzuen",
+                        "Unit": "rfrdacwnxmukfsjq"
+                    },
+                    "DisableScaleIn": true,
+                    "PredefinedMetricSpecification": {
+                        "PredefinedMetricType": "ehosgjcihrmkvtpp",
+                        "ResourceLabel": "fdmswagxvefhtyma"
+                    },
+                    "TargetValue": 0.0
+                }
+            },
+            {
+                "AdjustmentType": "mjxcwqdsdfjfkwrq",
+                "Alarms": [
+                    {
+                        "AlarmARN": "rinvogabgczlhlcd",
+                        "AlarmName": "vvpdwcneiinfxear"
+                    }
+                ],
+                "AutoScalingGroupName": "bgkyprknwlznvykd",
+                "Cooldown": 0,
+                "Enabled": true,
+                "EstimatedInstanceWarmup": 0,
+                "MetricAggregationType": "wwpywlnjqgbziaey",
+                "MinAdjustmentMagnitude": 0,
+                "MinAdjustmentStep": 0,
+                "PolicyARN": "ickydirjujahhuug",
+                "PolicyName": "qraenwzbsciqkumh",
+                "PolicyType": "wplchwconzfmbcky",
+                "PredictiveScalingConfiguration": {
+                    "MaxCapacityBreachBehavior": "gehzzolqnzvyrjer",
+                    "MaxCapacityBuffer": 0,
+                    "MetricSpecifications": [
+                        {
+                            "CustomizedCapacityMetricSpecification": {
+                                "MetricDataQueries": [
+                                    {
+                                        "Expression": "qoihtgqrvmxxweqv",
+                                        "Id": "jdfxhhdbrnekxojk",
+                                        "Label": "sfzzhofgdcjutsvn",
+                                        "MetricStat": {
+                                            "Metric": {
+                                                "Dimensions": [
+                                                    {
+                                                        "Name": "ttfpexzoasusvvfz",
+                                                        "Value": "kjnowqnnrewlrqoq"
+                                                    }
+                                                ],
+                                                "MetricName": "igalmzgkhzpjmbef",
+                                                "Namespace": "qiefregaerzulcek"
+                                            },
+                                            "Stat": "onyhoyhotxntefvj",
+                                            "Unit": "cetzcuytcganzjgf"
+                                        },
+                                        "ReturnData": true
+                                    }
+                                ]
+                            },
+                            "CustomizedLoadMetricSpecification": {
+                                "MetricDataQueries": [
+                                    {
+                                        "Expression": "snpbxbdtpvbglxja",
+                                        "Id": "ngaxkvxyojpgndpo",
+                                        "Label": "nvumrpsqajgivavz",
+                                        "MetricStat": {
+                                            "Metric": {
+                                                "Dimensions": [
+                                                    {
+                                                        "Name": "pchlcmpwepvuhesa",
+                                                        "Value": "skghkldmleaobnyw"
+                                                    }
+                                                ],
+                                                "MetricName": "vejqtfxeekspnctb",
+                                                "Namespace": "zvpmwogcvhwxukwy"
+                                            },
+                                            "Stat": "awtxcriufohrzsof",
+                                            "Unit": "nkycdengxpdyrzvr"
+                                        },
+                                        "ReturnData": true
+                                    }
+                                ]
+                            },
+                            "CustomizedScalingMetricSpecification": {
+                                "MetricDataQueries": [
+                                    {
+                                        "Expression": "gxpgxrnfmcyphqth",
+                                        "Id": "xbgkvjhliuuhkqrp",
+                                        "Label": "xdfffflzwqiznuim",
+                                        "MetricStat": {
+                                            "Metric": {
+                                                "Dimensions": [
+                                                    {
+                                                        "Name": "entqitwxwpbhdcsm",
+                                                        "Value": "isvdhvotvdkxxdbh"
+                                                    }
+                                                ],
+                                                "MetricName": "rsexuefblakfxmxa",
+                                                "Namespace": "lmcqokxlcsxvjpkx"
+                                            },
+                                            "Stat": "rxjthzatvqnccsmg",
+                                            "Unit": "exlepryzyvdsdrva"
+                                        },
+                                        "ReturnData": true
+                                    }
+                                ]
+                            },
+                            "PredefinedLoadMetricSpecification": {
+                                "PredefinedMetricType": "wpxpuqarhlogrhjs",
+                                "ResourceLabel": "vvhcvyvhyetsrsxr"
+                            },
+                            "PredefinedMetricPairSpecification": {
+                                "PredefinedMetricType": "onabiqmlvawromcd",
+                                "ResourceLabel": "tkegbmpaodybhutn"
+                            },
+                            "PredefinedScalingMetricSpecification": {
+                                "PredefinedMetricType": "hdlgqtyidvshadah",
+                                "ResourceLabel": "mzleeyqovwzffodn"
+                            },
+                            "TargetValue": 0.0
+                        }
+                    ],
+                    "Mode": "owpganzpwfahzute",
+                    "SchedulingBufferTime": 0
+                },
+                "ScalingAdjustment": 0,
+                "StepAdjustments": [
+                    {
+                        "MetricIntervalLowerBound": 0.0,
+                        "MetricIntervalUpperBound": 0.0,
+                        "ScalingAdjustment": 0
+                    }
+                ],
+                "TargetTrackingConfiguration": {
+                    "CustomizedMetricSpecification": {
+                        "Dimensions": [
+                            {
+                                "Name": "ndiusuomjgvqseue",
+                                "Value": "dfpbpgpompufsihy"
+                            }
+                        ],
+                        "MetricName": "hgrnlzucudpxejkb",
+                        "Metrics": [
+                            {
+                                "Expression": "cldvlfqawrxforvl",
+                                "Id": "yxncmwkmyszjigyy",
+                                "Label": "nypdaoegbvywsjpl",
+                                "MetricStat": {
+                                    "Metric": {
+                                        "Dimensions": [
+                                            {
+                                                "Name": "bgypljvekgeiuvxj",
+                                                "Value": "rlpvdwrbyxecdnmb"
+                                            }
+                                        ],
+                                        "MetricName": "ogtctbakaeouoaeo",
+                                        "Namespace": "bcjbhvjwvqppnlzq"
+                                    },
+                                    "Stat": "trttsdmswgagqdcg",
+                                    "Unit": "uwlbhxyafaxieeln"
+                                },
+                                "ReturnData": true
+                            }
+                        ],
+                        "Namespace": "cfamwpxxsjusebhp",
+                        "Statistic": "jzpbjeubyxiglygr",
+                        "Unit": "iwclpppyhhhjbben"
+                    },
+                    "DisableScaleIn": true,
+                    "PredefinedMetricSpecification": {
+                        "PredefinedMetricType": "ptsmrjpgekhyduiv",
+                        "ResourceLabel": "wxpfsqevtnpvxpci"
+                    },
+                    "TargetValue": 0.0
+                }
+            },
+            {
+                "AdjustmentType": "hswmhsixdbnlfuxo",
+                "Alarms": [
+                    {
+                        "AlarmARN": "bmrkfhfatreyvifv",
+                        "AlarmName": "hqdptdcmlgxmhbwp"
+                    }
+                ],
+                "AutoScalingGroupName": "brtaztnttgqvcbym",
+                "Cooldown": 0,
+                "Enabled": true,
+                "EstimatedInstanceWarmup": 0,
+                "MetricAggregationType": "yxnftjodypvqhlrf",
+                "MinAdjustmentMagnitude": 0,
+                "MinAdjustmentStep": 0,
+                "PolicyARN": "hiomztsqzcwmkzvg",
+                "PolicyName": "fcxjwygmewkmrxxo",
+                "PolicyType": "xqfvtvnvugtuskpu",
+                "PredictiveScalingConfiguration": {
+                    "MaxCapacityBreachBehavior": "dodcxsjgdxxlqhgp",
+                    "MaxCapacityBuffer": 0,
+                    "MetricSpecifications": [
+                        {
+                            "CustomizedCapacityMetricSpecification": {
+                                "MetricDataQueries": [
+                                    {
+                                        "Expression": "qwngbvwkehqlnhxt",
+                                        "Id": "kwwloxqjiuouveba",
+                                        "Label": "pivvyffqbuambbbm",
+                                        "MetricStat": {
+                                            "Metric": {
+                                                "Dimensions": [
+                                                    {
+                                                        "Name": "fvuybbkmdmdkkrpz",
+                                                        "Value": "jehakykjwujiedlw"
+                                                    }
+                                                ],
+                                                "MetricName": "nfxcmlqclywbgwuf",
+                                                "Namespace": "vwvemnehjhyrotmu"
+                                            },
+                                            "Stat": "tcplieljrqnbhhpr",
+                                            "Unit": "reyakpuabsitnvja"
+                                        },
+                                        "ReturnData": true
+                                    }
+                                ]
+                            },
+                            "CustomizedLoadMetricSpecification": {
+                                "MetricDataQueries": [
+                                    {
+                                        "Expression": "wxycfhkggyxqqisv",
+                                        "Id": "vllwjmswjxjhuoll",
+                                        "Label": "jgtvrdyxsolxhpwq",
+                                        "MetricStat": {
+                                            "Metric": {
+                                                "Dimensions": [
+                                                    {
+                                                        "Name": "vhdabvhfchwsqttr",
+                                                        "Value": "dzjoojbrrtsaxvdp"
+                                                    }
+                                                ],
+                                                "MetricName": "lsxzvdxeupabefje",
+                                                "Namespace": "xloofrnwgdvkehbk"
+                                            },
+                                            "Stat": "tqinbcjahyjklvnr",
+                                            "Unit": "jstibsetuhqyywyl"
+                                        },
+                                        "ReturnData": true
+                                    }
+                                ]
+                            },
+                            "CustomizedScalingMetricSpecification": {
+                                "MetricDataQueries": [
+                                    {
+                                        "Expression": "eqsqdggpjmgqfmpl",
+                                        "Id": "jghzueywzrcnpymr",
+                                        "Label": "pbvnqjhwrslvwaoq",
+                                        "MetricStat": {
+                                            "Metric": {
+                                                "Dimensions": [
+                                                    {
+                                                        "Name": "ahoudvjrsodwdxpq",
+                                                        "Value": "rvwoymfvkfamwpvc"
+                                                    }
+                                                ],
+                                                "MetricName": "bwxquxeqznhdeoox",
+                                                "Namespace": "jzctnqropicazmfh"
+                                            },
+                                            "Stat": "suyqpafbhzxkzhlr",
+                                            "Unit": "qajflkmtechzxbfd"
+                                        },
+                                        "ReturnData": true
+                                    }
+                                ]
+                            },
+                            "PredefinedLoadMetricSpecification": {
+                                "PredefinedMetricType": "sqyalybigswzlwmr",
+                                "ResourceLabel": "menzabfxoywawjqh"
+                            },
+                            "PredefinedMetricPairSpecification": {
+                                "PredefinedMetricType": "yqlaekfmcjszyttl",
+                                "ResourceLabel": "pkctnfehjpwzpoyx"
+                            },
+                            "PredefinedScalingMetricSpecification": {
+                                "PredefinedMetricType": "xxvpwcyyazuwvgal",
+                                "ResourceLabel": "qeauekqhisesqlot"
+                            },
+                            "TargetValue": 0.0
+                        }
+                    ],
+                    "Mode": "taeskifbskqknfjv",
+                    "SchedulingBufferTime": 0
+                },
+                "ScalingAdjustment": 0,
+                "StepAdjustments": [
+                    {
+                        "MetricIntervalLowerBound": 0.0,
+                        "MetricIntervalUpperBound": 0.0,
+                        "ScalingAdjustment": 0
+                    }
+                ],
+                "TargetTrackingConfiguration": {
+                    "CustomizedMetricSpecification": {
+                        "Dimensions": [
+                            {
+                                "Name": "uxkmhgdxrswifwrd",
+                                "Value": "msokuffhdaohvqyj"
+                            }
+                        ],
+                        "MetricName": "wdtsxompgntzshii",
+                        "Metrics": [
+                            {
+                                "Expression": "vwriuwcnigbysdaf",
+                                "Id": "mpihndiaodnflhbq",
+                                "Label": "dxpwdpaxphqdiwga",
+                                "MetricStat": {
+                                    "Metric": {
+                                        "Dimensions": [
+                                            {
+                                                "Name": "toujdhvfskxorcpl",
+                                                "Value": "gjpglatnekycrocj"
+                                            }
+                                        ],
+                                        "MetricName": "roqtquesfnmalmpg",
+                                        "Namespace": "vksuisewyjiepefa"
+                                    },
+                                    "Stat": "rltrhjcelotxgxbu",
+                                    "Unit": "xbeugnjqbrafeepv"
+                                },
+                                "ReturnData": true
+                            }
+                        ],
+                        "Namespace": "onvyrazhrewlbepl",
+                        "Statistic": "lkdrtpvacsacmcsg",
+                        "Unit": "xustdwhdavwpfifc"
+                    },
+                    "DisableScaleIn": true,
+                    "PredefinedMetricSpecification": {
+                        "PredefinedMetricType": "goiwhszyjdpfeqpg",
+                        "ResourceLabel": "bkkbktslnulkdwcj"
+                    },
+                    "TargetValue": 0.0
+                }
+            },
+            {
+                "AdjustmentType": "dznbycougozrxxks",
+                "Alarms": [
+                    {
+                        "AlarmARN": "fllahqtrhtwoqrvn",
+                        "AlarmName": "vieoryctmhcxriwz"
+                    }
+                ],
+                "AutoScalingGroupName": "ppmfjukglawnksjl",
+                "Cooldown": 0,
+                "Enabled": true,
+                "EstimatedInstanceWarmup": 0,
+                "MetricAggregationType": "dzvaxrhhmisaldya",
+                "MinAdjustmentMagnitude": 0,
+                "MinAdjustmentStep": 0,
+                "PolicyARN": "yinpltcwmhfsktsv",
+                "PolicyName": "truqayncxnumgbxv",
+                "PolicyType": "jdnafhhqoimqtnrr",
+                "PredictiveScalingConfiguration": {
+                    "MaxCapacityBreachBehavior": "clxibairfpymwzzg",
+                    "MaxCapacityBuffer": 0,
+                    "MetricSpecifications": [
+                        {
+                            "CustomizedCapacityMetricSpecification": {
+                                "MetricDataQueries": [
+                                    {
+                                        "Expression": "vgclnyazsqhsqlol",
+                                        "Id": "aijwousrcjgosukl",
+                                        "Label": "hcgrnlmimcicabvh",
+                                        "MetricStat": {
+                                            "Metric": {
+                                                "Dimensions": [
+                                                    {
+                                                        "Name": "yiujybxoldwmxbyk",
+                                                        "Value": "rleggxfbksfkbgor"
+                                                    }
+                                                ],
+                                                "MetricName": "csveaeahklcdlage",
+                                                "Namespace": "tugrsddxhefknpae"
+                                            },
+                                            "Stat": "abdotdyffabcqslk",
+                                            "Unit": "vxknofzdfvitvvya"
+                                        },
+                                        "ReturnData": true
+                                    }
+                                ]
+                            },
+                            "CustomizedLoadMetricSpecification": {
+                                "MetricDataQueries": [
+                                    {
+                                        "Expression": "wkkqcqkvoioclugi",
+                                        "Id": "kjzflfzjmvqtnfbp",
+                                        "Label": "ysfapuuqftaerlxp",
+                                        "MetricStat": {
+                                            "Metric": {
+                                                "Dimensions": [
+                                                    {
+                                                        "Name": "nhxfhsdlurwbxlpz",
+                                                        "Value": "pfqgqqxymalukxkf"
+                                                    }
+                                                ],
+                                                "MetricName": "znebgssggqmmyncg",
+                                                "Namespace": "mdexfxkfwpghdxkr"
+                                            },
+                                            "Stat": "rurqkzrkzxlkjoim",
+                                            "Unit": "rsiumkgaonxbhcdc"
+                                        },
+                                        "ReturnData": true
+                                    }
+                                ]
+                            },
+                            "CustomizedScalingMetricSpecification": {
+                                "MetricDataQueries": [
+                                    {
+                                        "Expression": "sidbtzdvkcldszpv",
+                                        "Id": "hxircsdljgftlssb",
+                                        "Label": "uuqroglocjjhfybf",
+                                        "MetricStat": {
+                                            "Metric": {
+                                                "Dimensions": [
+                                                    {
+                                                        "Name": "nsajlmilyhvcvtic",
+                                                        "Value": "ffbygbadlgcmvuzr"
+                                                    }
+                                                ],
+                                                "MetricName": "cnewieyqxmwiknbq",
+                                                "Namespace": "nnqnqyzafdzivpdn"
+                                            },
+                                            "Stat": "ujtgwtcfkxedsckj",
+                                            "Unit": "brrgpxfimjwdhpoa"
+                                        },
+                                        "ReturnData": true
+                                    }
+                                ]
+                            },
+                            "PredefinedLoadMetricSpecification": {
+                                "PredefinedMetricType": "vcndxdtcxovwjjdl",
+                                "ResourceLabel": "gktnxvndliglwmuq"
+                            },
+                            "PredefinedMetricPairSpecification": {
+                                "PredefinedMetricType": "lgyzaalczxedtunf",
+                                "ResourceLabel": "aiyamydorfgyntkj"
+                            },
+                            "PredefinedScalingMetricSpecification": {
+                                "PredefinedMetricType": "hoqebadsumjwlmin",
+                                "ResourceLabel": "qfzoloysndvguven"
+                            },
+                            "TargetValue": 0.0
+                        }
+                    ],
+                    "Mode": "imzxcsrsttjiivve",
+                    "SchedulingBufferTime": 0
+                },
+                "ScalingAdjustment": 0,
+                "StepAdjustments": [
+                    {
+                        "MetricIntervalLowerBound": 0.0,
+                        "MetricIntervalUpperBound": 0.0,
+                        "ScalingAdjustment": 0
+                    }
+                ],
+                "TargetTrackingConfiguration": {
+                    "CustomizedMetricSpecification": {
+                        "Dimensions": [
+                            {
+                                "Name": "tijpeqlxhnqamehk",
+                                "Value": "dbnohzhotpsigukg"
+                            }
+                        ],
+                        "MetricName": "gnxwruwfrbjahszm",
+                        "Metrics": [
+                            {
+                                "Expression": "dcbgdiqwqnwvukij",
+                                "Id": "gvzbtspgegfenxoe",
+                                "Label": "qgwbufgylzpsyiyb",
+                                "MetricStat": {
+                                    "Metric": {
+                                        "Dimensions": [
+                                            {
+                                                "Name": "mxqfeatrqxcstrkk",
+                                                "Value": "xumewzbvykxvbtbf"
+                                            }
+                                        ],
+                                        "MetricName": "wmtxwkhreipsnkov",
+                                        "Namespace": "aqwpcqqbkcrvtoni"
+                                    },
+                                    "Stat": "wyjcowxlaomvanbs",
+                                    "Unit": "lovxfcspxfsxyeid"
+                                },
+                                "ReturnData": true
+                            }
+                        ],
+                        "Namespace": "jvgkyrkbbsnhmdnv",
+                        "Statistic": "chswyiyjotwaulip",
+                        "Unit": "ukodnaetincujgzz"
+                    },
+                    "DisableScaleIn": true,
+                    "PredefinedMetricSpecification": {
+                        "PredefinedMetricType": "lsnzgmkrisecwety",
+                        "ResourceLabel": "vezosxxadqfbdkph"
+                    },
+                    "TargetValue": 0.0
+                }
+            },
+            {
+                "AdjustmentType": "ujqektlabqivdhoc",
+                "Alarms": [
+                    {
+                        "AlarmARN": "vmvgaltbfvyeplhr",
+                        "AlarmName": "khqdeiaouyshypqa"
+                    }
+                ],
+                "AutoScalingGroupName": "cvvmtziuhltwubsn",
+                "Cooldown": 0,
+                "Enabled": true,
+                "EstimatedInstanceWarmup": 0,
+                "MetricAggregationType": "ivrotrmzmdvrwmok",
+                "MinAdjustmentMagnitude": 0,
+                "MinAdjustmentStep": 0,
+                "PolicyARN": "itvltcprbsnqkzet",
+                "PolicyName": "vjxkdxgokoozmvor",
+                "PolicyType": "prrzkytmnkjvdvrj",
+                "PredictiveScalingConfiguration": {
+                    "MaxCapacityBreachBehavior": "kevjaxgqtvlbkyah",
+                    "MaxCapacityBuffer": 0,
+                    "MetricSpecifications": [
+                        {
+                            "CustomizedCapacityMetricSpecification": {
+                                "MetricDataQueries": [
+                                    {
+                                        "Expression": "qcuvsydyptzpwinv",
+                                        "Id": "qwodkecedjtgilxw",
+                                        "Label": "liktfxvyiaogxioy",
+                                        "MetricStat": {
+                                            "Metric": {
+                                                "Dimensions": [
+                                                    {
+                                                        "Name": "zpvdisnxeshjdqeu",
+                                                        "Value": "rnfanvxpjuceklkn"
+                                                    }
+                                                ],
+                                                "MetricName": "jbbjacwcwvrntfuh",
+                                                "Namespace": "xfeyuhwyekdxyvks"
+                                            },
+                                            "Stat": "qnkrbhjhlvqbhtdm",
+                                            "Unit": "teorzsjgnlhvzjbj"
+                                        },
+                                        "ReturnData": true
+                                    }
+                                ]
+                            },
+                            "CustomizedLoadMetricSpecification": {
+                                "MetricDataQueries": [
+                                    {
+                                        "Expression": "pkwpjzezkzxnofuj",
+                                        "Id": "gjyhrzpmddkpgkgc",
+                                        "Label": "vwcgxnoquofbahhk",
+                                        "MetricStat": {
+                                            "Metric": {
+                                                "Dimensions": [
+                                                    {
+                                                        "Name": "nmnbigpidddmzkrg",
+                                                        "Value": "ampiidsegditwnue"
+                                                    }
+                                                ],
+                                                "MetricName": "gkobxbhynsvdwbpx",
+                                                "Namespace": "obxbncczwzpqxgwl"
+                                            },
+                                            "Stat": "yklkotitioodswlm",
+                                            "Unit": "fuqlebnjsgjbjocg"
+                                        },
+                                        "ReturnData": true
+                                    }
+                                ]
+                            },
+                            "CustomizedScalingMetricSpecification": {
+                                "MetricDataQueries": [
+                                    {
+                                        "Expression": "khheuxsavnfbislr",
+                                        "Id": "jemixvjeijouvpyr",
+                                        "Label": "rckccbdssxebgmad",
+                                        "MetricStat": {
+                                            "Metric": {
+                                                "Dimensions": [
+                                                    {
+                                                        "Name": "ipkbkzvfrgxphcio",
+                                                        "Value": "frojgahjsxqtkpbf"
+                                                    }
+                                                ],
+                                                "MetricName": "cofoymiacmzgnpmk",
+                                                "Namespace": "xlnpqxmczzgqjdnh"
+                                            },
+                                            "Stat": "kzjrjxfhmfocnujw",
+                                            "Unit": "rjsallhfelsxkxli"
+                                        },
+                                        "ReturnData": true
+                                    }
+                                ]
+                            },
+                            "PredefinedLoadMetricSpecification": {
+                                "PredefinedMetricType": "xptddmfuiwltajgj",
+                                "ResourceLabel": "cfrlfsobemxytdna"
+                            },
+                            "PredefinedMetricPairSpecification": {
+                                "PredefinedMetricType": "ktyqreyggizttkxw",
+                                "ResourceLabel": "npqdnilogkvveljs"
+                            },
+                            "PredefinedScalingMetricSpecification": {
+                                "PredefinedMetricType": "imeznkoikhofveha",
+                                "ResourceLabel": "zqcxpzfrjjvxyloy"
+                            },
+                            "TargetValue": 0.0
+                        }
+                    ],
+                    "Mode": "khymdipvatguhpqv",
+                    "SchedulingBufferTime": 0
+                },
+                "ScalingAdjustment": 0,
+                "StepAdjustments": [
+                    {
+                        "MetricIntervalLowerBound": 0.0,
+                        "MetricIntervalUpperBound": 0.0,
+                        "ScalingAdjustment": 0
+                    }
+                ],
+                "TargetTrackingConfiguration": {
+                    "CustomizedMetricSpecification": {
+                        "Dimensions": [
+                            {
+                                "Name": "mleiecbpfttcwnxs",
+                                "Value": "ibfwsphrglbumkod"
+                            }
+                        ],
+                        "MetricName": "zbgzavknvnmxmafi",
+                        "Metrics": [
+                            {
+                                "Expression": "nahakrhflqesbllu",
+                                "Id": "odxglwfdbdlsvtho",
+                                "Label": "ukykihkmaqlanlqz",
+                                "MetricStat": {
+                                    "Metric": {
+                                        "Dimensions": [
+                                            {
+                                                "Name": "cjubkiidpldmitek",
+                                                "Value": "kirgvnishpfpugdm"
+                                            }
+                                        ],
+                                        "MetricName": "qkthtgezaijutipr",
+                                        "Namespace": "qutsvhhldnkrhzqw"
+                                    },
+                                    "Stat": "ivvierajtwoalvel",
+                                    "Unit": "dcxqtddrnfvxovxx"
+                                },
+                                "ReturnData": true
+                            }
+                        ],
+                        "Namespace": "rmgqieyuftgqqepb",
+                        "Statistic": "flrllqnknytpzktb",
+                        "Unit": "qyouyigchepvasfw"
+                    },
+                    "DisableScaleIn": true,
+                    "PredefinedMetricSpecification": {
+                        "PredefinedMetricType": "jbpalbiibodesmyb",
+                        "ResourceLabel": "vtjwpoywwxznlyvn"
+                    },
+                    "TargetValue": 0.0
+                }
+            },
+            {
+                "AdjustmentType": "yfaytvihqrazkxxz",
+                "Alarms": [
+                    {
+                        "AlarmARN": "iukjgojfrdtopfci",
+                        "AlarmName": "wgwkwxicoiltavah"
+                    }
+                ],
+                "AutoScalingGroupName": "bouefpgfgnqfwdqw",
+                "Cooldown": 0,
+                "Enabled": true,
+                "EstimatedInstanceWarmup": 0,
+                "MetricAggregationType": "ggjtesuhhvkqvuro",
+                "MinAdjustmentMagnitude": 0,
+                "MinAdjustmentStep": 0,
+                "PolicyARN": "zopkdqocqhpewlym",
+                "PolicyName": "zyrngzgjwwinaphz",
+                "PolicyType": "dtcqxmtljvvpkrna",
+                "PredictiveScalingConfiguration": {
+                    "MaxCapacityBreachBehavior": "ytsralulbpbplzjh",
+                    "MaxCapacityBuffer": 0,
+                    "MetricSpecifications": [
+                        {
+                            "CustomizedCapacityMetricSpecification": {
+                                "MetricDataQueries": [
+                                    {
+                                        "Expression": "mnptvnxpcgvwhkwy",
+                                        "Id": "jteqrrezvylwdoff",
+                                        "Label": "yoadwfbsvrptmlhg",
+                                        "MetricStat": {
+                                            "Metric": {
+                                                "Dimensions": [
+                                                    {
+                                                        "Name": "hphzlvnnqfxhkmih",
+                                                        "Value": "vabvyyikqzksokmt"
+                                                    }
+                                                ],
+                                                "MetricName": "lljwyexeturhxupr",
+                                                "Namespace": "ikeocsoygbhxuvhp"
+                                            },
+                                            "Stat": "zfefrinqwsqvwjcy",
+                                            "Unit": "bxqdbdeqvxydprrc"
+                                        },
+                                        "ReturnData": true
+                                    }
+                                ]
+                            },
+                            "CustomizedLoadMetricSpecification": {
+                                "MetricDataQueries": [
+                                    {
+                                        "Expression": "eqnbtextgiyeropn",
+                                        "Id": "pfuteacqtcxbzxex",
+                                        "Label": "tvzrqtrgwkwidttt",
+                                        "MetricStat": {
+                                            "Metric": {
+                                                "Dimensions": [
+                                                    {
+                                                        "Name": "bhqrtlpbivyptizs",
+                                                        "Value": "eiwftsbdzvhqrmed"
+                                                    }
+                                                ],
+                                                "MetricName": "vcxhfayafyxyldup",
+                                                "Namespace": "vjklbqxfulprssrp"
+                                            },
+                                            "Stat": "uydndrtuqztglzfy",
+                                            "Unit": "lyxrgamwniwlovtq"
+                                        },
+                                        "ReturnData": true
+                                    }
+                                ]
+                            },
+                            "CustomizedScalingMetricSpecification": {
+                                "MetricDataQueries": [
+                                    {
+                                        "Expression": "xofznxwodomjaefb",
+                                        "Id": "nynmqjenbejdogib",
+                                        "Label": "kewljumdiqoeoesl",
+                                        "MetricStat": {
+                                            "Metric": {
+                                                "Dimensions": [
+                                                    {
+                                                        "Name": "eknmtoxsoljdppwq",
+                                                        "Value": "vwsgovoftmqfkxnv"
+                                                    }
+                                                ],
+                                                "MetricName": "lbokhiqxdikfemqk",
+                                                "Namespace": "rhzjuwxgwbnfvazl"
+                                            },
+                                            "Stat": "xkuapkjfxmxgmqrq",
+                                            "Unit": "vdacvjfxkocdplze"
+                                        },
+                                        "ReturnData": true
+                                    }
+                                ]
+                            },
+                            "PredefinedLoadMetricSpecification": {
+                                "PredefinedMetricType": "qoftkumiqxjfnuum",
+                                "ResourceLabel": "ifhqprzanughlgwl"
+                            },
+                            "PredefinedMetricPairSpecification": {
+                                "PredefinedMetricType": "cluhyekammvnjqnv",
+                                "ResourceLabel": "jpvydnbeuqovbarc"
+                            },
+                            "PredefinedScalingMetricSpecification": {
+                                "PredefinedMetricType": "arjhdfetnekypgdi",
+                                "ResourceLabel": "tgnwivxkkeigavxb"
+                            },
+                            "TargetValue": 0.0
+                        }
+                    ],
+                    "Mode": "jojiszaugojmiede",
+                    "SchedulingBufferTime": 0
+                },
+                "ScalingAdjustment": 0,
+                "StepAdjustments": [
+                    {
+                        "MetricIntervalLowerBound": 0.0,
+                        "MetricIntervalUpperBound": 0.0,
+                        "ScalingAdjustment": 0
+                    }
+                ],
+                "TargetTrackingConfiguration": {
+                    "CustomizedMetricSpecification": {
+                        "Dimensions": [
+                            {
+                                "Name": "ojjgsuuaudvyqlyb",
+                                "Value": "exocyfppvylgpqqk"
+                            }
+                        ],
+                        "MetricName": "zdafixkeiblysqqs",
+                        "Metrics": [
+                            {
+                                "Expression": "hdgmldabwmhkaeqr",
+                                "Id": "butnhcluurmjkepl",
+                                "Label": "efnelamxzjeazhrg",
+                                "MetricStat": {
+                                    "Metric": {
+                                        "Dimensions": [
+                                            {
+                                                "Name": "eenyudatndhmyoek",
+                                                "Value": "lrkdfvtmqftgmpim"
+                                            }
+                                        ],
+                                        "MetricName": "nsivedxihiitanlv",
+                                        "Namespace": "tziwwteajxofktlm"
+                                    },
+                                    "Stat": "pgcgedlzizegaeid",
+                                    "Unit": "egoxfykrcghidmop"
+                                },
+                                "ReturnData": true
+                            }
+                        ],
+                        "Namespace": "aqermejuwzudofvk",
+                        "Statistic": "kqxrviysgsdfsepi",
+                        "Unit": "zzgdewvocydnmyuu"
+                    },
+                    "DisableScaleIn": true,
+                    "PredefinedMetricSpecification": {
+                        "PredefinedMetricType": "ayjdxyqqquvjmqgx",
+                        "ResourceLabel": "htqowignmjiqtzjr"
+                    },
+                    "TargetValue": 0.0
+                }
+            },
+            {
+                "AdjustmentType": "ewsjfgfcuwnwbevi",
+                "Alarms": [
+                    {
+                        "AlarmARN": "crmoxbmsocrjbwiy",
+                        "AlarmName": "lrhwmxfpqdhgifip"
+                    }
+                ],
+                "AutoScalingGroupName": "xpbygwrrtsayrids",
+                "Cooldown": 0,
+                "Enabled": true,
+                "EstimatedInstanceWarmup": 0,
+                "MetricAggregationType": "ogsbjgfiynadzktf",
+                "MinAdjustmentMagnitude": 0,
+                "MinAdjustmentStep": 0,
+                "PolicyARN": "rsiatifuiflgpjjq",
+                "PolicyName": "gowvhrdoiazqnrjk",
+                "PolicyType": "hnujsviipauvdkzx",
+                "PredictiveScalingConfiguration": {
+                    "MaxCapacityBreachBehavior": "pimnztgwchztdrzr",
+                    "MaxCapacityBuffer": 0,
+                    "MetricSpecifications": [
+                        {
+                            "CustomizedCapacityMetricSpecification": {
+                                "MetricDataQueries": [
+                                    {
+                                        "Expression": "dbvgucqdcyzkimpc",
+                                        "Id": "jmsxrrrvrttpiuki",
+                                        "Label": "tfbdqoaftybjwuyh",
+                                        "MetricStat": {
+                                            "Metric": {
+                                                "Dimensions": [
+                                                    {
+                                                        "Name": "cioitmmtqyofjaqq",
+                                                        "Value": "jaihwfcdmrjuwcyl"
+                                                    }
+                                                ],
+                                                "MetricName": "jijeudffeawywekf",
+                                                "Namespace": "zravzikkaitrrjec"
+                                            },
+                                            "Stat": "lpqhlhqvtbksrffg",
+                                            "Unit": "fdoveeggbporxtgr"
+                                        },
+                                        "ReturnData": true
+                                    }
+                                ]
+                            },
+                            "CustomizedLoadMetricSpecification": {
+                                "MetricDataQueries": [
+                                    {
+                                        "Expression": "gmymjcixuztxjytf",
+                                        "Id": "rdlucqtpvfockxnc",
+                                        "Label": "uevfvkjcyritakqs",
+                                        "MetricStat": {
+                                            "Metric": {
+                                                "Dimensions": [
+                                                    {
+                                                        "Name": "mwetnsfokyafknbh",
+                                                        "Value": "frepdvmmqnjnjher"
+                                                    }
+                                                ],
+                                                "MetricName": "ksopuksaamctcytd",
+                                                "Namespace": "rmhapsxixwwmiryz"
+                                            },
+                                            "Stat": "ljqlkvmbyzaamzgr",
+                                            "Unit": "pqfizmzpvlilkoau"
+                                        },
+                                        "ReturnData": true
+                                    }
+                                ]
+                            },
+                            "CustomizedScalingMetricSpecification": {
+                                "MetricDataQueries": [
+                                    {
+                                        "Expression": "holguoyhgaltpvry",
+                                        "Id": "hxsiqrmpcznwyhhh",
+                                        "Label": "vyjihhrqqwfogcjf",
+                                        "MetricStat": {
+                                            "Metric": {
+                                                "Dimensions": [
+                                                    {
+                                                        "Name": "iuqjheudykypeomi",
+                                                        "Value": "bcsiybybektujjdq"
+                                                    }
+                                                ],
+                                                "MetricName": "exhmwshinvggvigm",
+                                                "Namespace": "mtvmuzjdhouuwhfz"
+                                            },
+                                            "Stat": "ygooxtpcndperluf",
+                                            "Unit": "qhjppsaxkvhsgcta"
+                                        },
+                                        "ReturnData": true
+                                    }
+                                ]
+                            },
+                            "PredefinedLoadMetricSpecification": {
+                                "PredefinedMetricType": "uavgooxnhmwubxmi",
+                                "ResourceLabel": "nhqdgqebtvpzfntv"
+                            },
+                            "PredefinedMetricPairSpecification": {
+                                "PredefinedMetricType": "jvlfgeykkdbngfyi",
+                                "ResourceLabel": "xrdudknwduopjuoc"
+                            },
+                            "PredefinedScalingMetricSpecification": {
+                                "PredefinedMetricType": "ghcumvtkcwemfxtl",
+                                "ResourceLabel": "bqbfsjzdhhiotopk"
+                            },
+                            "TargetValue": 0.0
+                        }
+                    ],
+                    "Mode": "atrhzspccetsfnjd",
+                    "SchedulingBufferTime": 0
+                },
+                "ScalingAdjustment": 0,
+                "StepAdjustments": [
+                    {
+                        "MetricIntervalLowerBound": 0.0,
+                        "MetricIntervalUpperBound": 0.0,
+                        "ScalingAdjustment": 0
+                    }
+                ],
+                "TargetTrackingConfiguration": {
+                    "CustomizedMetricSpecification": {
+                        "Dimensions": [
+                            {
+                                "Name": "zenfmwhtltavzqwc",
+                                "Value": "loxcnbllscddtltg"
+                            }
+                        ],
+                        "MetricName": "kvllfvsmaabvvprw",
+                        "Metrics": [
+                            {
+                                "Expression": "fjyqsyedslgfmpxt",
+                                "Id": "xvjgkdilsdpxzgwl",
+                                "Label": "wjmsxltrbsipwehe",
+                                "MetricStat": {
+                                    "Metric": {
+                                        "Dimensions": [
+                                            {
+                                                "Name": "qycvvkhcgfocovge",
+                                                "Value": "vdrmlkzeaqhpfvle"
+                                            }
+                                        ],
+                                        "MetricName": "yaslmmiwfuehylim",
+                                        "Namespace": "avtjqvszdmzhegfb"
+                                    },
+                                    "Stat": "oxiuwacrvvesfipy",
+                                    "Unit": "riegryrwllsgnfnk"
+                                },
+                                "ReturnData": true
+                            }
+                        ],
+                        "Namespace": "hgbnxjtfxslqalzx",
+                        "Statistic": "pbrfumlukxsdluna",
+                        "Unit": "sduvvsjbrllucnmi"
+                    },
+                    "DisableScaleIn": true,
+                    "PredefinedMetricSpecification": {
+                        "PredefinedMetricType": "gshxlvjgmwxhddga",
+                        "ResourceLabel": "nukarfmtyekhyghg"
+                    },
+                    "TargetValue": 0.0
+                }
+            },
+            {
+                "AdjustmentType": "hxgfilunkcxbqomz",
+                "Alarms": [
+                    {
+                        "AlarmARN": "zrfgsqsgsyafihxi",
+                        "AlarmName": "yphrotyiszqpafhl"
+                    }
+                ],
+                "AutoScalingGroupName": "wlieqkvlujxlxosh",
+                "Cooldown": 0,
+                "Enabled": true,
+                "EstimatedInstanceWarmup": 0,
+                "MetricAggregationType": "zzrtyhggruvcyowr",
+                "MinAdjustmentMagnitude": 0,
+                "MinAdjustmentStep": 0,
+                "PolicyARN": "rrzfxxrvetnsgrga",
+                "PolicyName": "zteimpnrgevdtuuy",
+                "PolicyType": "yqmhwijbfibkahsz",
+                "PredictiveScalingConfiguration": {
+                    "MaxCapacityBreachBehavior": "dsflczomntvjwjde",
+                    "MaxCapacityBuffer": 0,
+                    "MetricSpecifications": [
+                        {
+                            "CustomizedCapacityMetricSpecification": {
+                                "MetricDataQueries": [
+                                    {
+                                        "Expression": "uvtgexmxwwbeveaw",
+                                        "Id": "bbqtotrcgyhcdxdk",
+                                        "Label": "hefjrsnowiriykeb",
+                                        "MetricStat": {
+                                            "Metric": {
+                                                "Dimensions": [
+                                                    {
+                                                        "Name": "wiyprkctqcerifyq",
+                                                        "Value": "jmxcaykctzigaemn"
+                                                    }
+                                                ],
+                                                "MetricName": "rkrjeklhcgdzwpmn",
+                                                "Namespace": "pfhjnnvtrkywrekd"
+                                            },
+                                            "Stat": "yhbvzhpblkcvvtir",
+                                            "Unit": "njecktjgvavtduts"
+                                        },
+                                        "ReturnData": true
+                                    }
+                                ]
+                            },
+                            "CustomizedLoadMetricSpecification": {
+                                "MetricDataQueries": [
+                                    {
+                                        "Expression": "jwfwojpgftnsphms",
+                                        "Id": "axpojfhgjjjxikjo",
+                                        "Label": "uoknxbwuearafcfh",
+                                        "MetricStat": {
+                                            "Metric": {
+                                                "Dimensions": [
+                                                    {
+                                                        "Name": "keqdnfkjdurfpvtk",
+                                                        "Value": "rywmexkplrqedvxn"
+                                                    }
+                                                ],
+                                                "MetricName": "zugnpbtoipcmsblf",
+                                                "Namespace": "vpwhzamouyrntivi"
+                                            },
+                                            "Stat": "wgpnwairwnitsmxe",
+                                            "Unit": "wybejbwfbnbqydek"
+                                        },
+                                        "ReturnData": true
+                                    }
+                                ]
+                            },
+                            "CustomizedScalingMetricSpecification": {
+                                "MetricDataQueries": [
+                                    {
+                                        "Expression": "zkipqvqmvptlkmvp",
+                                        "Id": "jjgnsmobxwjzexzz",
+                                        "Label": "djusmyszxqcsphmd",
+                                        "MetricStat": {
+                                            "Metric": {
+                                                "Dimensions": [
+                                                    {
+                                                        "Name": "zosuqqmzdnyynjby",
+                                                        "Value": "lxdhrlvlepphxpsg"
+                                                    }
+                                                ],
+                                                "MetricName": "udaejjkzqoivorek",
+                                                "Namespace": "ajdnylwnftlccuxj"
+                                            },
+                                            "Stat": "moqwagcdqrvoowdk",
+                                            "Unit": "icqkoiblcwhjdjpt"
+                                        },
+                                        "ReturnData": true
+                                    }
+                                ]
+                            },
+                            "PredefinedLoadMetricSpecification": {
+                                "PredefinedMetricType": "pwfynweyxlmgzjcx",
+                                "ResourceLabel": "tdfhhlnkkaezwlja"
+                            },
+                            "PredefinedMetricPairSpecification": {
+                                "PredefinedMetricType": "qqwdysmqrelsrrku",
+                                "ResourceLabel": "izmukagvdxnslctl"
+                            },
+                            "PredefinedScalingMetricSpecification": {
+                                "PredefinedMetricType": "hzayfufclhjuovmb",
+                                "ResourceLabel": "olsldkctkyhalhmi"
+                            },
+                            "TargetValue": 0.0
+                        }
+                    ],
+                    "Mode": "apsorlfbjvyypfpl",
+                    "SchedulingBufferTime": 0
+                },
+                "ScalingAdjustment": 0,
+                "StepAdjustments": [
+                    {
+                        "MetricIntervalLowerBound": 0.0,
+                        "MetricIntervalUpperBound": 0.0,
+                        "ScalingAdjustment": 0
+                    }
+                ],
+                "TargetTrackingConfiguration": {
+                    "CustomizedMetricSpecification": {
+                        "Dimensions": [
+                            {
+                                "Name": "qqinstfkplkwwryp",
+                                "Value": "qxbeawgxwlxdpizo"
+                            }
+                        ],
+                        "MetricName": "auhyycsoeqbgpprm",
+                        "Metrics": [
+                            {
+                                "Expression": "roptyvxdgeuadnzn",
+                                "Id": "eyfwczxzwsfaaymm",
+                                "Label": "wfcdlghcpbuvqjop",
+                                "MetricStat": {
+                                    "Metric": {
+                                        "Dimensions": [
+                                            {
+                                                "Name": "qhsupjvbvsthsojr",
+                                                "Value": "lldhntohamllrctt"
+                                            }
+                                        ],
+                                        "MetricName": "hnumpcaxaoixgris",
+                                        "Namespace": "iegeezyuyymoesle"
+                                    },
+                                    "Stat": "mvgxzicwmqvgghjk",
+                                    "Unit": "xntivxypytgetjov"
+                                },
+                                "ReturnData": true
+                            }
+                        ],
+                        "Namespace": "phswdmdmcoaesjpn",
+                        "Statistic": "bthlydkotjokottq",
+                        "Unit": "wgxiersabjpnehjb"
+                    },
+                    "DisableScaleIn": true,
+                    "PredefinedMetricSpecification": {
+                        "PredefinedMetricType": "ctlgdbxtliaoamaf",
+                        "ResourceLabel": "ovzqivocyhsdyseq"
+                    },
+                    "TargetValue": 0.0
+                }
+            }
+        ],
+        "result_key": "ScalingPolicies"
+    },
+    "meta": {
+        "start": 1711115268.212024,
+        "end": 1711115274.440179,
+        "duration": 6.228164911270142,
+        "service": "autoscaling",
+        "type": "policies"
+    }
+}

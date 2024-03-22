@@ -1,0 +1,332 @@
+[
+    {
+        "CreationTime": "eigiweraubqvqbko",
+        "Description": "lwkudcxgltuoamiw",
+        "DeviceOptions": {
+            "PublicSigningKeyUrl": "gwueofguuvwubvbg",
+            "TenantId": "zjnqthpriavzakoa"
+        },
+        "DeviceTrustProviderType": "vexzrwwyapuzhthr",
+        "LastUpdatedTime": "anizscizqxhbykqn",
+        "OidcOptions": {
+            "AuthorizationEndpoint": "qkvrdgjlrjhrsrzy",
+            "ClientId": "qtrgjuwtezxbjnvp",
+            "ClientSecret": "bpthnjmtqqexepju",
+            "Issuer": "xleapeqnrfkyabym",
+            "Scope": "wpujmmbezxqwqcaf",
+            "TokenEndpoint": "jjjwaswztauflabf",
+            "UserInfoEndpoint": "kpwbomtfoddgzlup"
+        },
+        "PolicyReferenceName": "wmlfscezendxtbzv",
+        "SseSpecification": {
+            "CustomerManagedKeyEnabled": true,
+            "KmsKeyArn": "zpkqtfjbjqxbqebk"
+        },
+        "Tags": [
+            {
+                "Key": "sijtcpgwsryjrqpw",
+                "Value": "pyqrayrvuuvnzzhp"
+            }
+        ],
+        "TrustProviderType": "slmmzzflqvyjqfmr",
+        "UserTrustProviderType": "gbiuhldusfeaibmi",
+        "VerifiedAccessTrustProviderId": "nlqmkddnwrvuaypo"
+    },
+    {
+        "CreationTime": "hxvfkinfxqbmahhf",
+        "Description": "rarqxifsdzwyvsmr",
+        "DeviceOptions": {
+            "PublicSigningKeyUrl": "mutajxkgcpcnyhjm",
+            "TenantId": "ycczgcdapwkhftnz"
+        },
+        "DeviceTrustProviderType": "fsrzzcikrgklbzse",
+        "LastUpdatedTime": "bwzyucczvmkgpbcf",
+        "OidcOptions": {
+            "AuthorizationEndpoint": "wmhcqdfrbihwpkcz",
+            "ClientId": "fothsyjdigmyrtce",
+            "ClientSecret": "gakynnqmneepgnao",
+            "Issuer": "dxkhmpdektorjhpf",
+            "Scope": "gwxbeugjewnpkznw",
+            "TokenEndpoint": "dnkwiedcojykbnuk",
+            "UserInfoEndpoint": "iomtyjixxaqayuti"
+        },
+        "PolicyReferenceName": "sdmrotuypaugdvxp",
+        "SseSpecification": {
+            "CustomerManagedKeyEnabled": true,
+            "KmsKeyArn": "lboimqtnwkswyhqq"
+        },
+        "Tags": [
+            {
+                "Key": "xsltninjilmplmub",
+                "Value": "rhtfcgpcqmaofjor"
+            }
+        ],
+        "TrustProviderType": "geylobelxeoyasny",
+        "UserTrustProviderType": "iedulnerfgbguixi",
+        "VerifiedAccessTrustProviderId": "bbdaerywaarzgzju"
+    },
+    {
+        "CreationTime": "mhxxtbpdeouzojym",
+        "Description": "muinvgvmsspljqsg",
+        "DeviceOptions": {
+            "PublicSigningKeyUrl": "ozmayktkcirigajq",
+            "TenantId": "fcukdzfvxdroitxo"
+        },
+        "DeviceTrustProviderType": "npepkqsltxvgipzi",
+        "LastUpdatedTime": "lznxfgmfbilkrsyr",
+        "OidcOptions": {
+            "AuthorizationEndpoint": "ybcpytvpuqigbdbs",
+            "ClientId": "axnwhvyapdhmlhar",
+            "ClientSecret": "pergjbbtdacbfjuv",
+            "Issuer": "maopppufxhetydmk",
+            "Scope": "yodeknulcmobietz",
+            "TokenEndpoint": "mopyxcepwajddfbc",
+            "UserInfoEndpoint": "jhjaobgmeytoomza"
+        },
+        "PolicyReferenceName": "udrjirvciietqvul",
+        "SseSpecification": {
+            "CustomerManagedKeyEnabled": true,
+            "KmsKeyArn": "nhcwagwidjkfgpmj"
+        },
+        "Tags": [
+            {
+                "Key": "mxjhekxjsutenfzj",
+                "Value": "ladtrhthzijigyrd"
+            }
+        ],
+        "TrustProviderType": "bijibosenneazgre",
+        "UserTrustProviderType": "wtwdhxdfhfpkypkd",
+        "VerifiedAccessTrustProviderId": "depccpyexmumxigm"
+    },
+    {
+        "CreationTime": "fsbntttmhhagcdhx",
+        "Description": "miiyuascnmcjpevw",
+        "DeviceOptions": {
+            "PublicSigningKeyUrl": "sbbiyevshhbhgdla",
+            "TenantId": "cerzdgltwlktziaf"
+        },
+        "DeviceTrustProviderType": "wagbgvhwmvniybqm",
+        "LastUpdatedTime": "lalplwdtnzaklkgo",
+        "OidcOptions": {
+            "AuthorizationEndpoint": "jeqskdkvmhpgykrl",
+            "ClientId": "glyewndaksqfedxi",
+            "ClientSecret": "auwnrecgsdvgwlgx",
+            "Issuer": "eaudsehxtbwbciby",
+            "Scope": "gxoqkfastrtcnqju",
+            "TokenEndpoint": "uqwskjqeooloddos",
+            "UserInfoEndpoint": "ppqluntyukgtycbu"
+        },
+        "PolicyReferenceName": "pqzhliyoywuorpve",
+        "SseSpecification": {
+            "CustomerManagedKeyEnabled": true,
+            "KmsKeyArn": "ldlmkomojquhfzxo"
+        },
+        "Tags": [
+            {
+                "Key": "xjdngpkydqzjhdsp",
+                "Value": "jsrcrgdrqcglimtc"
+            }
+        ],
+        "TrustProviderType": "twcpqqknagflcaoa",
+        "UserTrustProviderType": "gbntpthofgdbapps",
+        "VerifiedAccessTrustProviderId": "biiqjywbahjfzifh"
+    },
+    {
+        "CreationTime": "qeyzsqehzxdbbcta",
+        "Description": "mlgvlscapkgbzmdv",
+        "DeviceOptions": {
+            "PublicSigningKeyUrl": "jvjvuphzhumctdgq",
+            "TenantId": "jnhkgvkiowbnaksh"
+        },
+        "DeviceTrustProviderType": "grlkhalfzrzmnndr",
+        "LastUpdatedTime": "gfoaghfjjuqnzycs",
+        "OidcOptions": {
+            "AuthorizationEndpoint": "tzhxefoguayqjtqj",
+            "ClientId": "mucckajndhrwdynw",
+            "ClientSecret": "ipwbmacfyxnbqcju",
+            "Issuer": "ocgvjejwamltyckw",
+            "Scope": "vmbqmqeowuoxkrgj",
+            "TokenEndpoint": "tucczoamyvilgqft",
+            "UserInfoEndpoint": "wrdkcjophfkymdgu"
+        },
+        "PolicyReferenceName": "ccnlxuwaptpsjdkd",
+        "SseSpecification": {
+            "CustomerManagedKeyEnabled": true,
+            "KmsKeyArn": "tpydvfbteepweoxi"
+        },
+        "Tags": [
+            {
+                "Key": "xaatritwwwqfqhtx",
+                "Value": "ccretftmabhujdnz"
+            }
+        ],
+        "TrustProviderType": "xeqfdqgiirwfnbtm",
+        "UserTrustProviderType": "xtqbizssnbyfngey",
+        "VerifiedAccessTrustProviderId": "hkegzvuxsbmpevgf"
+    },
+    {
+        "CreationTime": "yuirntuifvdqnxqp",
+        "Description": "fvcutjcumcxhtizv",
+        "DeviceOptions": {
+            "PublicSigningKeyUrl": "duoqwvddfyvuqfxp",
+            "TenantId": "ccyorjxmxymtmttu"
+        },
+        "DeviceTrustProviderType": "aqnnbfbujxnqvbea",
+        "LastUpdatedTime": "ncnwqehwdooxmdiy",
+        "OidcOptions": {
+            "AuthorizationEndpoint": "kccciuadiayvrsfv",
+            "ClientId": "yvygffwevwgwvvlr",
+            "ClientSecret": "lmrtwcumirvasnqw",
+            "Issuer": "rndqyefdmlmvsnvi",
+            "Scope": "fxerlcymqgxsbrkx",
+            "TokenEndpoint": "jenitnfnazrketcl",
+            "UserInfoEndpoint": "fvdtbfgwcuovjieg"
+        },
+        "PolicyReferenceName": "ppjypffcrpywhngt",
+        "SseSpecification": {
+            "CustomerManagedKeyEnabled": true,
+            "KmsKeyArn": "csxgozxwxswprgef"
+        },
+        "Tags": [
+            {
+                "Key": "iilbsdsrbvrnukkr",
+                "Value": "hoydlqvajlymbpyz"
+            }
+        ],
+        "TrustProviderType": "qvajnapzsgvyzxpw",
+        "UserTrustProviderType": "gxjaermgdjmnguvg",
+        "VerifiedAccessTrustProviderId": "ttheygecdsriqtsc"
+    },
+    {
+        "CreationTime": "lrcidatpddjmicpk",
+        "Description": "jrbpojygpfndosvu",
+        "DeviceOptions": {
+            "PublicSigningKeyUrl": "lmjarwjczblqmwdi",
+            "TenantId": "lqxumlzufmtuyyhe"
+        },
+        "DeviceTrustProviderType": "aokpbkdbimfuaoye",
+        "LastUpdatedTime": "itlbljvbrhggvrvt",
+        "OidcOptions": {
+            "AuthorizationEndpoint": "zkhgvfyedkcmcalo",
+            "ClientId": "dnhlixopbwulouoq",
+            "ClientSecret": "nghhrzspxzgkxynh",
+            "Issuer": "cstgppfrpheichea",
+            "Scope": "exyhmwpemupkivvw",
+            "TokenEndpoint": "fvgyvhlffpemcmii",
+            "UserInfoEndpoint": "ddovkodeccdolzod"
+        },
+        "PolicyReferenceName": "dblkdsjgyxpfubdq",
+        "SseSpecification": {
+            "CustomerManagedKeyEnabled": true,
+            "KmsKeyArn": "hzedvpjaqpgthvhf"
+        },
+        "Tags": [
+            {
+                "Key": "wdrygfcvdkthmxyp",
+                "Value": "zikuutohjygtowrz"
+            }
+        ],
+        "TrustProviderType": "zsrmnxxocpjvwwqg",
+        "UserTrustProviderType": "lhauzxqzysppoltp",
+        "VerifiedAccessTrustProviderId": "kjmdceintzqaapcl"
+    },
+    {
+        "CreationTime": "bqornwxaxndtwjya",
+        "Description": "xkcvxirtcioydggj",
+        "DeviceOptions": {
+            "PublicSigningKeyUrl": "ezxwvbvsrhbgdhdp",
+            "TenantId": "lmfmjkuseawncbtx"
+        },
+        "DeviceTrustProviderType": "shehgazxzrpqnien",
+        "LastUpdatedTime": "evbvteyfjtksntmz",
+        "OidcOptions": {
+            "AuthorizationEndpoint": "rqeziqkanpeseztv",
+            "ClientId": "nwftctsfqtqjicll",
+            "ClientSecret": "rpuobohbbyhnfrwv",
+            "Issuer": "lcslvtqqctjphwtp",
+            "Scope": "kmifypqawfhfjvip",
+            "TokenEndpoint": "jcdiclygcizxqpoa",
+            "UserInfoEndpoint": "blqtodjebnbjknwr"
+        },
+        "PolicyReferenceName": "crmzzjzoiqnuyjcv",
+        "SseSpecification": {
+            "CustomerManagedKeyEnabled": true,
+            "KmsKeyArn": "cwubtjchvuyxtxhq"
+        },
+        "Tags": [
+            {
+                "Key": "fvjlaeboljzkhuua",
+                "Value": "thxhctaufjfpvpac"
+            }
+        ],
+        "TrustProviderType": "wvjjzltoqxntciyl",
+        "UserTrustProviderType": "mntikagtksqcitlx",
+        "VerifiedAccessTrustProviderId": "zbrbjrahrwhvvdqy"
+    },
+    {
+        "CreationTime": "vdaxkaxghwvnlvul",
+        "Description": "ispnkdizvwuddywi",
+        "DeviceOptions": {
+            "PublicSigningKeyUrl": "udkdwljwtkxiarxw",
+            "TenantId": "qsmvltunxzwlptgx"
+        },
+        "DeviceTrustProviderType": "yzsqtnysrqiedkkm",
+        "LastUpdatedTime": "vzwiwjkqhfmlsgrc",
+        "OidcOptions": {
+            "AuthorizationEndpoint": "zbqowbiwfklmzkhh",
+            "ClientId": "ruardtdplpcowrww",
+            "ClientSecret": "jrxskqlyeuojcycd",
+            "Issuer": "xrkdxjowyrwuhpam",
+            "Scope": "xbwlynscadargdev",
+            "TokenEndpoint": "pvbzaornzqupqrji",
+            "UserInfoEndpoint": "tugadkxhkmtbzkrv"
+        },
+        "PolicyReferenceName": "vsvpwspmgrategga",
+        "SseSpecification": {
+            "CustomerManagedKeyEnabled": true,
+            "KmsKeyArn": "uhyaiohfzamykmbo"
+        },
+        "Tags": [
+            {
+                "Key": "stmjmgzqvfdllzgv",
+                "Value": "usfaubsffqrastpl"
+            }
+        ],
+        "TrustProviderType": "bbszzspmclreyvlk",
+        "UserTrustProviderType": "fapudevrdyquiwpp",
+        "VerifiedAccessTrustProviderId": "icfpepqwfiokfbsm"
+    },
+    {
+        "CreationTime": "cbghyohitczpiqkm",
+        "Description": "piinrkjgtxzcwhiw",
+        "DeviceOptions": {
+            "PublicSigningKeyUrl": "zcmlojuqewabqdzo",
+            "TenantId": "oeokcjezgguauxpr"
+        },
+        "DeviceTrustProviderType": "nltahtbunebbgvjm",
+        "LastUpdatedTime": "puztwemolqpsxlql",
+        "OidcOptions": {
+            "AuthorizationEndpoint": "nrlsbtytygytzuqu",
+            "ClientId": "gsfmxdgiryikxypg",
+            "ClientSecret": "sbnesrrzocmklxef",
+            "Issuer": "fxvwlqcsromewdcc",
+            "Scope": "qhdlhswlwrghkwmv",
+            "TokenEndpoint": "nxxfzftobjwwbnrp",
+            "UserInfoEndpoint": "slgcpjixqtxbtvfl"
+        },
+        "PolicyReferenceName": "bdfbrvplclimxrwv",
+        "SseSpecification": {
+            "CustomerManagedKeyEnabled": true,
+            "KmsKeyArn": "yauqsfusxzkehyyt"
+        },
+        "Tags": [
+            {
+                "Key": "ppcoxswnnwsrlkkq",
+                "Value": "hvrpndazsaigduih"
+            }
+        ],
+        "TrustProviderType": "yxusppxtrncsynum",
+        "UserTrustProviderType": "fgcxlvuulkygtkjy",
+        "VerifiedAccessTrustProviderId": "zcefjjmjitlrjbyi"
+    }
+]

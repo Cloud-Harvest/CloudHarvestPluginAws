@@ -1,0 +1,34 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "get_traffic_policy_instance_count",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": 0,
+        "required": [],
+        "md5": "f97818a1f9ab91acb9cd2bfb6c41eea5",
+        "randomized": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "result_key": "TrafficPolicyInstanceCount"
+    },
+    "meta": {
+        "start": 1711116475.277524,
+        "end": 1711116481.98588,
+        "duration": 6.708364963531494,
+        "service": "route53",
+        "type": null
+    }
+}

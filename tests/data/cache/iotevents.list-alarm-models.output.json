@@ -1,0 +1,83 @@
+{
+    "input": {
+        "template": {
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "required": [],
+        "md5": "42475be96651ddb5d57c459989595380",
+        "boto_command": "list_alarm_models",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "creationTime": "1970-01-01T00:00:00",
+                "alarmModelDescription": "alarmModelDescription",
+                "alarmModelName": "alarmModelName"
+            }
+        ],
+        "required": [],
+        "md5": "7e09dda3136223c2316eed19fa1cc0a9",
+        "randomized": [
+            {
+                "alarmModelDescription": "lpfoonpryfnlwies",
+                "alarmModelName": "bypjxcxkkzvaurrb",
+                "creationTime": "uegqzskicsrionob"
+            },
+            {
+                "alarmModelDescription": "sbktsetgtjznlzdy",
+                "alarmModelName": "qiuabawqfqigksiz",
+                "creationTime": "fcikbbergnyuvjzp"
+            },
+            {
+                "alarmModelDescription": "wnpkxsiezxfttoxy",
+                "alarmModelName": "dxpzlgwppxqdgbkn",
+                "creationTime": "fntuqzbipfersrsl"
+            },
+            {
+                "alarmModelDescription": "caemdgqutufvvhsg",
+                "alarmModelName": "vgbpxghjqcylyuww",
+                "creationTime": "xleinamwesyjbsyw"
+            },
+            {
+                "alarmModelDescription": "jjjimamaobgxzpfb",
+                "alarmModelName": "kltiweglvauxywrn",
+                "creationTime": "fdcnoztejqczwezj"
+            },
+            {
+                "alarmModelDescription": "rkkdittziwopaasu",
+                "alarmModelName": "tkvpwbultzgpnedj",
+                "creationTime": "rahoxtpqbozzgagr"
+            },
+            {
+                "alarmModelDescription": "hhqcezyrdvqqkymm",
+                "alarmModelName": "tyrgzrunlsfrctfm",
+                "creationTime": "rnjehujtigafgxxe"
+            },
+            {
+                "alarmModelDescription": "sysbhksmsswnszsx",
+                "alarmModelName": "saymexfhxjdfmdmm",
+                "creationTime": "lxyumiezvysxjlox"
+            },
+            {
+                "alarmModelDescription": "maznfeukeptnbuki",
+                "alarmModelName": "uekjntycqcqduyic",
+                "creationTime": "hbtgvbtzrkllturd"
+            },
+            {
+                "alarmModelDescription": "fnrphqcpetxydbvi",
+                "alarmModelName": "evnxnygxsatttjsj",
+                "creationTime": "haguvrxkyxyzgnil"
+            }
+        ],
+        "result_key": "alarmModelSummaries"
+    },
+    "meta": {
+        "start": 1711115964.697875,
+        "end": 1711115971.902489,
+        "duration": 7.204624891281128,
+        "service": "iotevents",
+        "type": "alarm_models"
+    }
+}

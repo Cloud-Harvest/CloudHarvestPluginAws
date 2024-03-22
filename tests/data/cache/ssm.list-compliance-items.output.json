@@ -1,0 +1,230 @@
+{
+    "input": {
+        "template": {
+            "Filters": [
+                {
+                    "Key": "",
+                    "Values": [
+                        ""
+                    ],
+                    "Type": "EQUAL"
+                }
+            ],
+            "ResourceIds": [
+                ""
+            ],
+            "ResourceTypes": [
+                ""
+            ],
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "a0278018ea62194d2e6b80f3d7fd0837",
+        "boto_command": "list_compliance_items",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "ComplianceType": "ComplianceType",
+                "ResourceType": "ResourceType",
+                "ResourceId": "ResourceId",
+                "Id": "Id",
+                "Title": "Title",
+                "Status": "Status",
+                "Severity": "Severity",
+                "ExecutionSummary": {
+                    "ExecutionTime": "1970-01-01T00:00:00",
+                    "ExecutionId": "ExecutionId",
+                    "ExecutionType": "ExecutionType"
+                },
+                "Details": {
+                    "KeyName": ""
+                }
+            }
+        ],
+        "required": [],
+        "md5": "7b02b4746d639dc11be183459299f299",
+        "randomized": [
+            {
+                "ComplianceType": "mjywayyvdfahfkbq",
+                "Details": {
+                    "KeyName": "furwdmbwdftfuaou"
+                },
+                "ExecutionSummary": {
+                    "ExecutionId": "olgdkwnrqptgxklk",
+                    "ExecutionTime": "tsptzagznmjpdcpq",
+                    "ExecutionType": "estqszoayavjijmx"
+                },
+                "Id": "mclphdedmmbelgbo",
+                "ResourceId": "ugllitubspzkjoba",
+                "ResourceType": "fvxripbpswxmkbmo",
+                "Severity": "pbkxuyvdmncwzvjn",
+                "Status": "xbmiezegaldeysdk",
+                "Title": "hldiefgquzgntzrp"
+            },
+            {
+                "ComplianceType": "wlgfvdlzdejiveur",
+                "Details": {
+                    "KeyName": "dkzlasrtrohkuvbp"
+                },
+                "ExecutionSummary": {
+                    "ExecutionId": "vrrobwjbptdiyhmt",
+                    "ExecutionTime": "kjghbxowedxajzve",
+                    "ExecutionType": "pgetrnvjniwjpsvf"
+                },
+                "Id": "sywddafnwwdldwvh",
+                "ResourceId": "qkyhwwewzgjktjuw",
+                "ResourceType": "dmnyepfxnhxmphbo",
+                "Severity": "ttsnhgorslywbmus",
+                "Status": "skjoaifijnlxpjwu",
+                "Title": "zzqelgbzbsxvunkv"
+            },
+            {
+                "ComplianceType": "wndyzhnkrqjuylki",
+                "Details": {
+                    "KeyName": "zwhixjymvuwcgdcu"
+                },
+                "ExecutionSummary": {
+                    "ExecutionId": "yxryrxdreacuxemj",
+                    "ExecutionTime": "ztjldyhlbxtrpltf",
+                    "ExecutionType": "gqducxrwrutjowtq"
+                },
+                "Id": "mhooscltrsazwnjh",
+                "ResourceId": "nvadwgkymazushjn",
+                "ResourceType": "wbwjmpueoawhsexz",
+                "Severity": "ybxinltflpqgosgh",
+                "Status": "sawftmgcehmfenjo",
+                "Title": "jedgikuzizfubbny"
+            },
+            {
+                "ComplianceType": "hhavnjmcnidxoxjd",
+                "Details": {
+                    "KeyName": "grdlygbdrynzrcaw"
+                },
+                "ExecutionSummary": {
+                    "ExecutionId": "xegmitfklrycbjvf",
+                    "ExecutionTime": "vvbxmwgnfodddcqd",
+                    "ExecutionType": "owhghsfaulhavztn"
+                },
+                "Id": "zicbjcpucpimcpnp",
+                "ResourceId": "rfpdpbguldywavwv",
+                "ResourceType": "ankahzckowtzpgrk",
+                "Severity": "ymkgqeztbodwhiga",
+                "Status": "ogyxuysunfnuwopw",
+                "Title": "cnoyranlbpepzcnw"
+            },
+            {
+                "ComplianceType": "tdtsnuoqxyjktncw",
+                "Details": {
+                    "KeyName": "zmkchqejtfmoyzba"
+                },
+                "ExecutionSummary": {
+                    "ExecutionId": "zlgjldeywawxfgqk",
+                    "ExecutionTime": "hsycgsopdvvblbnw",
+                    "ExecutionType": "lucaqdstskemikfc"
+                },
+                "Id": "jimpecgfbiekoqme",
+                "ResourceId": "lgeverifcdxrckvh",
+                "ResourceType": "heqrzihgfgnevpcs",
+                "Severity": "tokomfcubmgtfzvj",
+                "Status": "peqoathfckqdvzev",
+                "Title": "wnydeuxczeveidqz"
+            },
+            {
+                "ComplianceType": "omjrxrprdqfwmpeq",
+                "Details": {
+                    "KeyName": "wyogbthywqdbkxnb"
+                },
+                "ExecutionSummary": {
+                    "ExecutionId": "dlwvhtumupywsvlw",
+                    "ExecutionTime": "rbyecvgtwpodzouj",
+                    "ExecutionType": "ulaupeppuqpbaqye"
+                },
+                "Id": "jszhjnicjvbzfzrb",
+                "ResourceId": "ytxcdplgepzomibl",
+                "ResourceType": "pxyqzeoybznezlpf",
+                "Severity": "vqfzumaclzqxgykn",
+                "Status": "afxbjcejepxgogtw",
+                "Title": "nftcniltaeemiasm"
+            },
+            {
+                "ComplianceType": "btlwxhxntmgupszg",
+                "Details": {
+                    "KeyName": "hjfnomzjqqxeowol"
+                },
+                "ExecutionSummary": {
+                    "ExecutionId": "pqjedecmdzzssdyk",
+                    "ExecutionTime": "wriygxzbeifkgnan",
+                    "ExecutionType": "uudfesthhsqaxkvk"
+                },
+                "Id": "zjlbkdtkwwebhhao",
+                "ResourceId": "nphzofcqivmmgevz",
+                "ResourceType": "nrzruutijsyclylw",
+                "Severity": "fgrrkcqspxxmnurz",
+                "Status": "ouuakolfehiraodi",
+                "Title": "dwnpgmeztdsthstw"
+            },
+            {
+                "ComplianceType": "ianjyyorctevywgb",
+                "Details": {
+                    "KeyName": "nmgtsvwgklktdles"
+                },
+                "ExecutionSummary": {
+                    "ExecutionId": "prqldqdgrktnflff",
+                    "ExecutionTime": "jwocpojkkmpytfbw",
+                    "ExecutionType": "xgepdapgbzgnmrmr"
+                },
+                "Id": "biiulktczhxnwfko",
+                "ResourceId": "noegqxtphlxxzsjz",
+                "ResourceType": "nwpefurzjdmfczpw",
+                "Severity": "xtpcfhtowbkpjrxk",
+                "Status": "vxivttrwkawgtwvl",
+                "Title": "wrwgzwljvjfoimjw"
+            },
+            {
+                "ComplianceType": "vxtfibiwnkwaklsr",
+                "Details": {
+                    "KeyName": "qnmevkfbhhpwdndl"
+                },
+                "ExecutionSummary": {
+                    "ExecutionId": "aomhtagugddclmen",
+                    "ExecutionTime": "yuqddnbqrggwzwxu",
+                    "ExecutionType": "lwbnughbakzqxfkt"
+                },
+                "Id": "xbufrcfxkftfauds",
+                "ResourceId": "ldxzlntfbitszrcg",
+                "ResourceType": "bosrhqinsrmhztew",
+                "Severity": "ddeldmathiouitev",
+                "Status": "rvcwgrooeeomtjlx",
+                "Title": "nxfvuxazmlgtivht"
+            },
+            {
+                "ComplianceType": "arsaxsejvpnyrqra",
+                "Details": {
+                    "KeyName": "qjqznrcvudgbhdbs"
+                },
+                "ExecutionSummary": {
+                    "ExecutionId": "jzrbaesbilxvsxts",
+                    "ExecutionTime": "xhvfjpeiwcganapg",
+                    "ExecutionType": "qjrrsdjtumvxdibg"
+                },
+                "Id": "vgapgqclklnsxvdr",
+                "ResourceId": "cjdyqidefwodkzza",
+                "ResourceType": "hjlqjnkfonajrcwy",
+                "Severity": "oafmacksfjtjhzue",
+                "Status": "gabsqzyowuubdjyl",
+                "Title": "ugjwckggcbygjcaw"
+            }
+        ],
+        "result_key": "ComplianceItems"
+    },
+    "meta": {
+        "start": 1711116669.866805,
+        "end": 1711116677.311453,
+        "duration": 7.444658041000366,
+        "service": "ssm",
+        "type": "compliance_items"
+    }
+}

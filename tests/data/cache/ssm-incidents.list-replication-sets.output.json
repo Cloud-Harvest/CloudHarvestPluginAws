@@ -1,0 +1,39 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "required": [],
+        "md5": "2620fedaf24e984a8f801d0beb17a6e7",
+        "boto_command": "list_replication_sets",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            "Arn"
+        ],
+        "required": [],
+        "md5": "2fe825cf806e3a3aad9727bc0c9efe49",
+        "randomized": [
+            "btewthctqwhquznd",
+            "kbtevjelkyvvhnax",
+            "actcwzhqtsgrumvi",
+            "cskamspltbyhmady",
+            "tjfpodbdpoatppoi",
+            "bswrjcprsneuqgsl",
+            "lntzenrpoieegavd",
+            "unwbkypvalluxbgh",
+            "mhbbriguvaagihun",
+            "opdbqwzshjeygsie"
+        ],
+        "result_key": "replicationSetArns"
+    },
+    "meta": {
+        "start": 1711116680.553813,
+        "end": 1711116687.786856,
+        "duration": 7.233055114746094,
+        "service": "ssm-incidents",
+        "type": "replication_sets"
+    }
+}

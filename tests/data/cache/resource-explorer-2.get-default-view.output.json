@@ -1,0 +1,34 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "get_default_view",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": "ViewArn",
+        "required": [],
+        "md5": "111dfd6986ae255686b8e23e83f59845",
+        "randomized": [
+            "zuyvnbvlaakdeqqj",
+            "gucvtidugyiylrsf",
+            "tvlgkqmmianitjae",
+            "uopphykrdaxsbqhg",
+            "hkndwqhvkesgrkgc",
+            "gtrncilbdrcemzjw",
+            "ancahiacmjdjtewn",
+            "lkghzrkmqqaqrsci",
+            "mmfxiittzvtftaey",
+            "nwnylbmoogxbudda"
+        ],
+        "result_key": "ViewArn"
+    },
+    "meta": {
+        "start": 1711116457.888619,
+        "end": 1711116465.410186,
+        "duration": 7.521573066711426,
+        "service": "resource-explorer-2",
+        "type": null
+    }
+}

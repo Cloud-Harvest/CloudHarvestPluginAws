@@ -1,0 +1,173 @@
+{
+    "input": {
+        "template": {
+            "Engine": "standard",
+            "LanguageCode": "arb",
+            "IncludeAdditionalLanguageCodes": true,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "58d17e511ec5bc541a58024880179897",
+        "boto_command": "describe_voices",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "Gender": "Gender",
+                "Id": "Id",
+                "LanguageCode": "LanguageCode",
+                "LanguageName": "LanguageName",
+                "Name": "Name",
+                "AdditionalLanguageCodes": [
+                    "LanguageCode"
+                ],
+                "SupportedEngines": [
+                    "Engine"
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "07238d5fc2394f72567935ac1eb53edf",
+        "randomized": [
+            {
+                "AdditionalLanguageCodes": [
+                    "rttlgtszisravhla"
+                ],
+                "Gender": "sidgxhzxhwxwnzck",
+                "Id": "gbflptbvdyyxvfyk",
+                "LanguageCode": "zfqzeugqidnyrktt",
+                "LanguageName": "dfrrirzqkatomtss",
+                "Name": "keohzjeqvqsoslso",
+                "SupportedEngines": [
+                    "esuffqebysbzpmsl"
+                ]
+            },
+            {
+                "AdditionalLanguageCodes": [
+                    "tqlmgitlrragikcu"
+                ],
+                "Gender": "ncozqbnphykiakur",
+                "Id": "igyxwhlbgczcbprp",
+                "LanguageCode": "ibjngdhzuhwdsekg",
+                "LanguageName": "nmklkmxeqnpibdmw",
+                "Name": "ywatmevaqmovlogd",
+                "SupportedEngines": [
+                    "mhfmwqbzlbbtcrrc"
+                ]
+            },
+            {
+                "AdditionalLanguageCodes": [
+                    "lmpqbhnpkjpjmpmx"
+                ],
+                "Gender": "eutfpugnolixkxce",
+                "Id": "yadpfhybvdvxbffy",
+                "LanguageCode": "vuramhqrztcoyoen",
+                "LanguageName": "jybwfujnzcnnlhks",
+                "Name": "intlblrdpaxfxkjo",
+                "SupportedEngines": [
+                    "yjjwbwmuvcnfykdo"
+                ]
+            },
+            {
+                "AdditionalLanguageCodes": [
+                    "wklbqqwizscfrpev"
+                ],
+                "Gender": "rrqholqxznyhyktb",
+                "Id": "qkstbozwadhmtrns",
+                "LanguageCode": "hieykylvalahqail",
+                "LanguageName": "lzylmdrryzvzzbhx",
+                "Name": "mdyribbgjhpldnop",
+                "SupportedEngines": [
+                    "awaahhmxnntwpztw"
+                ]
+            },
+            {
+                "AdditionalLanguageCodes": [
+                    "hztsbigikjvmvnsp"
+                ],
+                "Gender": "lfyylowttlhxxzbc",
+                "Id": "ysybdoojlcdruquf",
+                "LanguageCode": "rvvcodwhmndzfdka",
+                "LanguageName": "wnzorynytihaznez",
+                "Name": "bhmcshmwjgxhjosm",
+                "SupportedEngines": [
+                    "euybtomivwtckjfu"
+                ]
+            },
+            {
+                "AdditionalLanguageCodes": [
+                    "ppoyvyrdbynfkbqu"
+                ],
+                "Gender": "yklqokcxzpquhpvw",
+                "Id": "evddujiesigpaxtl",
+                "LanguageCode": "cikmoahbybmkcopv",
+                "LanguageName": "ysuxvvijvieczoby",
+                "Name": "sndohtjxcvjbzche",
+                "SupportedEngines": [
+                    "uicnaeewvaqntbwp"
+                ]
+            },
+            {
+                "AdditionalLanguageCodes": [
+                    "ghjsqmwfnponccza"
+                ],
+                "Gender": "uyolrnkgoykwjedh",
+                "Id": "xhawxpjbuuxfxwfd",
+                "LanguageCode": "itrpmqjmzkoodoxq",
+                "LanguageName": "idqcigiixxaajdmm",
+                "Name": "vjcguumammioczza",
+                "SupportedEngines": [
+                    "tzmyryebspkajfjm"
+                ]
+            },
+            {
+                "AdditionalLanguageCodes": [
+                    "kmyqhsfbzfsjdyao"
+                ],
+                "Gender": "efanwhfanvlwnred",
+                "Id": "nzjwhxfpdogzqopi",
+                "LanguageCode": "avixzvgajaeyxqfy",
+                "LanguageName": "iexrfbsxjbsgkywn",
+                "Name": "vhgpjcembnkfgzhb",
+                "SupportedEngines": [
+                    "uvgqkqfbwwjltqpz"
+                ]
+            },
+            {
+                "AdditionalLanguageCodes": [
+                    "olflxdnfgqtfvwqg"
+                ],
+                "Gender": "lspwlzigwelhocfe",
+                "Id": "xlpnbxqagrspllop",
+                "LanguageCode": "qxzxhptrenravxtj",
+                "LanguageName": "qbxpkiaaujjtlgdy",
+                "Name": "neostyptbqqdbksa",
+                "SupportedEngines": [
+                    "gelxzbupgvciwgik"
+                ]
+            },
+            {
+                "AdditionalLanguageCodes": [
+                    "aepazuftaigmxcow"
+                ],
+                "Gender": "wcliaaujgldfhogt",
+                "Id": "mogunxgvbyzchvwf",
+                "LanguageCode": "ytwypqygswdrqtoa",
+                "LanguageName": "rsmzszzvgymbbgji",
+                "Name": "fottefyehrokezni",
+                "SupportedEngines": [
+                    "synjrtieygatlqvp"
+                ]
+            }
+        ],
+        "result_key": "Voices"
+    },
+    "meta": {
+        "start": 1711116350.679538,
+        "end": 1711116356.764088,
+        "duration": 6.084559917449951,
+        "service": "polly",
+        "type": "voices"
+    }
+}

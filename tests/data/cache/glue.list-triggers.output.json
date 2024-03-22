@@ -1,0 +1,43 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "DependentJobName": "",
+            "MaxResults": 0,
+            "Tags": {
+                "KeyName": ""
+            }
+        },
+        "required": [],
+        "md5": "c8b38b4a441f86950e2fadd0e1e99c35",
+        "boto_command": "list_triggers",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            "NameString"
+        ],
+        "required": [],
+        "md5": "11d254afd0244d06479d242c8b8897d7",
+        "randomized": [
+            "sfvfynlfwmzsdwzv",
+            "krndosqfgoruuyzd",
+            "buredvtworeaihpp",
+            "uncjikuluvkesssc",
+            "pniuxobowwdhepnh",
+            "axlfqeepaacdiiwx",
+            "yvbwoxclklylnnso",
+            "grwcayzehhmrvnnm",
+            "ymhpqopujrzmexzy",
+            "beiftosqgkiathkn"
+        ],
+        "result_key": "TriggerNames"
+    },
+    "meta": {
+        "start": 1711115840.971498,
+        "end": 1711115847.639829,
+        "duration": 6.6683409214019775,
+        "service": "glue",
+        "type": "triggers"
+    }
+}

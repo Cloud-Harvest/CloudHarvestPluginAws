@@ -1,0 +1,149 @@
+{
+    "input": {
+        "template": {
+            "pageToken": "",
+            "includeInactive": true
+        },
+        "required": [],
+        "md5": "e43a6dce588ccdd79707f95b6f03b8ed",
+        "boto_command": "get_relational_database_bundles",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "bundleId": "bundleId",
+                "name": "name",
+                "price": 0.0,
+                "ramSizeInGb": 0.0,
+                "diskSizeInGb": 0,
+                "transferPerMonthInGb": 0,
+                "cpuCount": 0,
+                "isEncrypted": true,
+                "isActive": true
+            }
+        ],
+        "required": [],
+        "md5": "94833853b2f1ad1e3bf853335a903000",
+        "randomized": [
+            {
+                "bundleId": "ehnhpfdxyubddrvz",
+                "cpuCount": 0,
+                "diskSizeInGb": 0,
+                "isActive": true,
+                "isEncrypted": true,
+                "name": "anyzrdnqkfyaxqgq",
+                "price": 0.0,
+                "ramSizeInGb": 0.0,
+                "transferPerMonthInGb": 0
+            },
+            {
+                "bundleId": "ypcjzllbwiebaoyb",
+                "cpuCount": 0,
+                "diskSizeInGb": 0,
+                "isActive": true,
+                "isEncrypted": true,
+                "name": "ucozvtaivqmqkjio",
+                "price": 0.0,
+                "ramSizeInGb": 0.0,
+                "transferPerMonthInGb": 0
+            },
+            {
+                "bundleId": "mytrgggzpukszsux",
+                "cpuCount": 0,
+                "diskSizeInGb": 0,
+                "isActive": true,
+                "isEncrypted": true,
+                "name": "txfuwurrvmyoanga",
+                "price": 0.0,
+                "ramSizeInGb": 0.0,
+                "transferPerMonthInGb": 0
+            },
+            {
+                "bundleId": "mrebdzizsqqyhdea",
+                "cpuCount": 0,
+                "diskSizeInGb": 0,
+                "isActive": true,
+                "isEncrypted": true,
+                "name": "zqofqwwfcqbzgfpr",
+                "price": 0.0,
+                "ramSizeInGb": 0.0,
+                "transferPerMonthInGb": 0
+            },
+            {
+                "bundleId": "zmzhtncggucmcaym",
+                "cpuCount": 0,
+                "diskSizeInGb": 0,
+                "isActive": true,
+                "isEncrypted": true,
+                "name": "dxzyxyvewoeqzvwy",
+                "price": 0.0,
+                "ramSizeInGb": 0.0,
+                "transferPerMonthInGb": 0
+            },
+            {
+                "bundleId": "wpdyfxbzfobwuvqo",
+                "cpuCount": 0,
+                "diskSizeInGb": 0,
+                "isActive": true,
+                "isEncrypted": true,
+                "name": "csfoekpxkfowocks",
+                "price": 0.0,
+                "ramSizeInGb": 0.0,
+                "transferPerMonthInGb": 0
+            },
+            {
+                "bundleId": "aadfivwxwakxgjvk",
+                "cpuCount": 0,
+                "diskSizeInGb": 0,
+                "isActive": true,
+                "isEncrypted": true,
+                "name": "hgoamilxkldtodrm",
+                "price": 0.0,
+                "ramSizeInGb": 0.0,
+                "transferPerMonthInGb": 0
+            },
+            {
+                "bundleId": "qnsanewcgxwoqgza",
+                "cpuCount": 0,
+                "diskSizeInGb": 0,
+                "isActive": true,
+                "isEncrypted": true,
+                "name": "zrgfphszmtraqwvn",
+                "price": 0.0,
+                "ramSizeInGb": 0.0,
+                "transferPerMonthInGb": 0
+            },
+            {
+                "bundleId": "talrxtbmalpqjabz",
+                "cpuCount": 0,
+                "diskSizeInGb": 0,
+                "isActive": true,
+                "isEncrypted": true,
+                "name": "osmpiknhkldjypdo",
+                "price": 0.0,
+                "ramSizeInGb": 0.0,
+                "transferPerMonthInGb": 0
+            },
+            {
+                "bundleId": "pqeegmhpvdjcuoxl",
+                "cpuCount": 0,
+                "diskSizeInGb": 0,
+                "isActive": true,
+                "isEncrypted": true,
+                "name": "uudgjnaeyvahvabh",
+                "price": 0.0,
+                "ramSizeInGb": 0.0,
+                "transferPerMonthInGb": 0
+            }
+        ],
+        "result_key": "bundles"
+    },
+    "meta": {
+        "start": 1711116107.211949,
+        "end": 1711116114.869063,
+        "duration": 7.657124996185303,
+        "service": "lightsail",
+        "type": null
+    }
+}

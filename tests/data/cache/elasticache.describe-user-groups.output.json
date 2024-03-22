@@ -1,0 +1,293 @@
+{
+    "input": {
+        "template": {
+            "UserGroupId": "",
+            "MaxRecords": 0,
+            "Marker": ""
+        },
+        "required": [],
+        "md5": "7d6c8d99ef9abff4ff6941bc857b19bb",
+        "boto_command": "describe_user_groups",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "UserGroupId": "UserGroupId",
+                "Status": "Status",
+                "Engine": "Engine",
+                "UserIds": [
+                    "UserId"
+                ],
+                "MinimumEngineVersion": "MinimumEngineVersion",
+                "PendingChanges": {
+                    "UserIdsToRemove": [
+                        "UserId"
+                    ],
+                    "UserIdsToAdd": [
+                        "UserId"
+                    ]
+                },
+                "ReplicationGroups": [
+                    "String"
+                ],
+                "ServerlessCaches": [
+                    "String"
+                ],
+                "ARN": "ARN"
+            }
+        ],
+        "required": [],
+        "md5": "d4c328a54ae769d93bb4b575b6444608",
+        "randomized": [
+            {
+                "ARN": "okkxpvkaskyzagdk",
+                "Engine": "vkziysunvloyxlbq",
+                "MinimumEngineVersion": "aowhktaqzbelovpe",
+                "PendingChanges": {
+                    "UserIdsToAdd": [
+                        "ylywxiirkbpnlcui"
+                    ],
+                    "UserIdsToRemove": [
+                        "gsabzmvmlrbwxfwy"
+                    ]
+                },
+                "ReplicationGroups": [
+                    "zdrkpepobwopmmbj"
+                ],
+                "ServerlessCaches": [
+                    "tfmyanakjhigqmnx"
+                ],
+                "Status": "zjhzreudzdllshwj",
+                "UserGroupId": "twjbzinbnjjhqmik",
+                "UserIds": [
+                    "wyplcqisvhipkplz"
+                ]
+            },
+            {
+                "ARN": "zfecuavyrkgvgfvg",
+                "Engine": "sfmwhqvysecoawmp",
+                "MinimumEngineVersion": "koheiyflvpgdqrvq",
+                "PendingChanges": {
+                    "UserIdsToAdd": [
+                        "myyeqzwszbavivhk"
+                    ],
+                    "UserIdsToRemove": [
+                        "aqjdyjabkixnabis"
+                    ]
+                },
+                "ReplicationGroups": [
+                    "jvoodfpdmjcwzigw"
+                ],
+                "ServerlessCaches": [
+                    "rsmdfxdfhhuukgnx"
+                ],
+                "Status": "kvhceksmdtwwrlmh",
+                "UserGroupId": "mukifhpxveknuoqb",
+                "UserIds": [
+                    "ufxkbudkkpfceqza"
+                ]
+            },
+            {
+                "ARN": "fmvgiehyergtjgqd",
+                "Engine": "uamzcuhohtcxgcfj",
+                "MinimumEngineVersion": "myunhwaqytqpagns",
+                "PendingChanges": {
+                    "UserIdsToAdd": [
+                        "wyuagqgrdfkwafwu"
+                    ],
+                    "UserIdsToRemove": [
+                        "kddvugidcrpqhvpb"
+                    ]
+                },
+                "ReplicationGroups": [
+                    "urwznbvyatloczub"
+                ],
+                "ServerlessCaches": [
+                    "dbsxsfxqokoyohle"
+                ],
+                "Status": "otwpqrzstsodxbmn",
+                "UserGroupId": "qwrgfredgfpsmrud",
+                "UserIds": [
+                    "leoleiawyjzyfhru"
+                ]
+            },
+            {
+                "ARN": "pzomwqxbzugpnfqc",
+                "Engine": "hqbbiwuvtrwdmfja",
+                "MinimumEngineVersion": "sjlticpkfegjwnby",
+                "PendingChanges": {
+                    "UserIdsToAdd": [
+                        "dsdwmopgjbzsvyvn"
+                    ],
+                    "UserIdsToRemove": [
+                        "kzzembejkzswifdj"
+                    ]
+                },
+                "ReplicationGroups": [
+                    "yloiacautyrmnhac"
+                ],
+                "ServerlessCaches": [
+                    "apcpuhvaptxzntwp"
+                ],
+                "Status": "njdjzsvnageyidlz",
+                "UserGroupId": "cuuffkxcvtmjptxa",
+                "UserIds": [
+                    "vvgmblawbibjucqv"
+                ]
+            },
+            {
+                "ARN": "yjxqcqacluveunqu",
+                "Engine": "hbbzjegpjzspwuak",
+                "MinimumEngineVersion": "oucjlgugjqqbowyw",
+                "PendingChanges": {
+                    "UserIdsToAdd": [
+                        "xafyqieyufwewlys"
+                    ],
+                    "UserIdsToRemove": [
+                        "qvziazzamrtqssmu"
+                    ]
+                },
+                "ReplicationGroups": [
+                    "xypxfvitkgjyawoq"
+                ],
+                "ServerlessCaches": [
+                    "faqalihmmbxxcroh"
+                ],
+                "Status": "mchcaquecqqrepbx",
+                "UserGroupId": "cxzneczmsmldkoxh",
+                "UserIds": [
+                    "unnxnwqrysnyoeru"
+                ]
+            },
+            {
+                "ARN": "sjrafsirnuovjrhk",
+                "Engine": "xzjxctxbprhpbmwm",
+                "MinimumEngineVersion": "tccewryrcpbnpswn",
+                "PendingChanges": {
+                    "UserIdsToAdd": [
+                        "bbkgisrpxsmcjqdd"
+                    ],
+                    "UserIdsToRemove": [
+                        "qdxomycrcynsfskc"
+                    ]
+                },
+                "ReplicationGroups": [
+                    "jleezrfrzvmebbgm"
+                ],
+                "ServerlessCaches": [
+                    "ekmoxtkvjohoreyx"
+                ],
+                "Status": "tmzqcjyirjafbuje",
+                "UserGroupId": "gmvfdewrnvzhffez",
+                "UserIds": [
+                    "tetcfvognnvlnqmy"
+                ]
+            },
+            {
+                "ARN": "nfyiecwuqdxiglbn",
+                "Engine": "sbyblptuntwgjfpl",
+                "MinimumEngineVersion": "jnyhtcuafvncoaxp",
+                "PendingChanges": {
+                    "UserIdsToAdd": [
+                        "pkxywazkomouqtzb"
+                    ],
+                    "UserIdsToRemove": [
+                        "whffqsjepndroumb"
+                    ]
+                },
+                "ReplicationGroups": [
+                    "zxiwafxrnaywtkgf"
+                ],
+                "ServerlessCaches": [
+                    "yesrdyfcqccipfix"
+                ],
+                "Status": "qfbezqzpgxcalxjy",
+                "UserGroupId": "tszwucnuvutluxvu",
+                "UserIds": [
+                    "tchmpwxnvfyxkwug"
+                ]
+            },
+            {
+                "ARN": "osakyanaullwzzlz",
+                "Engine": "dyaytloiclirlrpj",
+                "MinimumEngineVersion": "xouyrqgttqrcwuqn",
+                "PendingChanges": {
+                    "UserIdsToAdd": [
+                        "efecvvfanmrterjx"
+                    ],
+                    "UserIdsToRemove": [
+                        "pwyrxkvhpaaoavds"
+                    ]
+                },
+                "ReplicationGroups": [
+                    "oduxowhhxjrfothd"
+                ],
+                "ServerlessCaches": [
+                    "dtthrvhnvhhliueh"
+                ],
+                "Status": "pnpqfkufnkmiyvqz",
+                "UserGroupId": "ebhixcmpgxniivlb",
+                "UserIds": [
+                    "yezxilsvayddcuhf"
+                ]
+            },
+            {
+                "ARN": "ovrqxinqcejhffgj",
+                "Engine": "chhyniqtntdtuxjy",
+                "MinimumEngineVersion": "tnefnklcsuomkyiy",
+                "PendingChanges": {
+                    "UserIdsToAdd": [
+                        "bnyhtzcccojykzsf"
+                    ],
+                    "UserIdsToRemove": [
+                        "yldefhuskblnnsrm"
+                    ]
+                },
+                "ReplicationGroups": [
+                    "kbytjfialdeggzlr"
+                ],
+                "ServerlessCaches": [
+                    "uyabvqagnqoaojmv"
+                ],
+                "Status": "nykajlftgbqalunc",
+                "UserGroupId": "yciplzowmivbccfc",
+                "UserIds": [
+                    "bndcgtsigotzqunz"
+                ]
+            },
+            {
+                "ARN": "shvjilhykgoehjtk",
+                "Engine": "lifuqkvmtnrtcfxf",
+                "MinimumEngineVersion": "rowydxtgvwtihjix",
+                "PendingChanges": {
+                    "UserIdsToAdd": [
+                        "kxztzfjdizlixfpk"
+                    ],
+                    "UserIdsToRemove": [
+                        "kpmwiolfkdyqveyd"
+                    ]
+                },
+                "ReplicationGroups": [
+                    "xqurfqgfsumwzdho"
+                ],
+                "ServerlessCaches": [
+                    "hmspjyhftbkxfhhc"
+                ],
+                "Status": "dqypbxwldddizqim",
+                "UserGroupId": "sybyyuounpmladmv",
+                "UserIds": [
+                    "qydzwkkelsbcdsay"
+                ]
+            }
+        ],
+        "result_key": "UserGroups"
+    },
+    "meta": {
+        "start": 1711115712.663653,
+        "end": 1711115717.811929,
+        "duration": 5.1482861042022705,
+        "service": "elasticache",
+        "type": "user_groups"
+    }
+}

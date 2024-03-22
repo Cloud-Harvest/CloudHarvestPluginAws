@@ -1,0 +1,237 @@
+{
+    "input": {
+        "template": {
+            "RegistrationTypes": [
+                ""
+            ],
+            "Filters": [
+                {
+                    "Name": "supported-association-resource-type",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "75909802002789ee8891ef1302b11eca",
+        "boto_command": "describe_registration_type_definitions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "RegistrationType": "RegistrationType",
+                "SupportedAssociations": [
+                    {
+                        "ResourceType": "ResourceType",
+                        "IsoCountryCode": "IsoCountryCode",
+                        "AssociationBehavior": "AssociationBehavior",
+                        "DisassociationBehavior": "DisassociationBehavior"
+                    }
+                ],
+                "DisplayHints": {
+                    "Title": "Title",
+                    "ShortDescription": "ShortDescription",
+                    "LongDescription": "LongDescription",
+                    "DocumentationTitle": "DocumentationTitle",
+                    "DocumentationLink": "DocumentationLink"
+                }
+            }
+        ],
+        "required": [],
+        "md5": "0756b387c5ccac7dd21a0998891a79dd",
+        "randomized": [
+            {
+                "DisplayHints": {
+                    "DocumentationLink": "fyqbxmdilyqudwcv",
+                    "DocumentationTitle": "qpinggmlublykrdo",
+                    "LongDescription": "stvvnovlbwilmznq",
+                    "ShortDescription": "ojbdgbjcyroqhshh",
+                    "Title": "niglytdmkwwucshc"
+                },
+                "RegistrationType": "mvqgtecogymucycd",
+                "SupportedAssociations": [
+                    {
+                        "AssociationBehavior": "qldtghimxgxivcgd",
+                        "DisassociationBehavior": "mqkjaxpktpgkempq",
+                        "IsoCountryCode": "svakvckujnscklhr",
+                        "ResourceType": "gmiuddzixlebvikz"
+                    }
+                ]
+            },
+            {
+                "DisplayHints": {
+                    "DocumentationLink": "xsixotgyqcsyxsak",
+                    "DocumentationTitle": "xxwsrloaiibkbtvl",
+                    "LongDescription": "gzxvfxjqmrshyrvz",
+                    "ShortDescription": "xlqhagclinsvamcd",
+                    "Title": "biqzznwcfsoatwwp"
+                },
+                "RegistrationType": "ttuootobjdobhmej",
+                "SupportedAssociations": [
+                    {
+                        "AssociationBehavior": "eiehzljwweylwayf",
+                        "DisassociationBehavior": "vzccggtqcpjbjgup",
+                        "IsoCountryCode": "sekovchgmpmyetcp",
+                        "ResourceType": "gvibsexcrqdqkegc"
+                    }
+                ]
+            },
+            {
+                "DisplayHints": {
+                    "DocumentationLink": "jvbpvxhqfgsroeyq",
+                    "DocumentationTitle": "xucidvncyzydabjf",
+                    "LongDescription": "hlzmbcqworshbsoc",
+                    "ShortDescription": "sdjqkrjclayremhx",
+                    "Title": "lfopazvibczjsuqx"
+                },
+                "RegistrationType": "ssgjbebatibnfyyb",
+                "SupportedAssociations": [
+                    {
+                        "AssociationBehavior": "bqhwsgqxohloowot",
+                        "DisassociationBehavior": "usjdhmqoqkddjaur",
+                        "IsoCountryCode": "ryzsxkaqvwjfglel",
+                        "ResourceType": "lhddvhdxusakajby"
+                    }
+                ]
+            },
+            {
+                "DisplayHints": {
+                    "DocumentationLink": "kpwgsmnmeudakasi",
+                    "DocumentationTitle": "pbijlclvusaptmiv",
+                    "LongDescription": "edmreszkoubfafvg",
+                    "ShortDescription": "wvnewedaivybmevw",
+                    "Title": "ujyujfwagfhpesux"
+                },
+                "RegistrationType": "yyroidqkbxjpmkry",
+                "SupportedAssociations": [
+                    {
+                        "AssociationBehavior": "lxathluxqqfyhhwl",
+                        "DisassociationBehavior": "clnmmbunnnsqwxsz",
+                        "IsoCountryCode": "plwwmyrrecltnjom",
+                        "ResourceType": "iufuynmaiwctwuly"
+                    }
+                ]
+            },
+            {
+                "DisplayHints": {
+                    "DocumentationLink": "dlmbcioxgilijqmm",
+                    "DocumentationTitle": "knlnyydvyryuhodo",
+                    "LongDescription": "jkvjlyqexfbbenca",
+                    "ShortDescription": "ilpqkhwzweufnfxp",
+                    "Title": "sduumrypsqvamurm"
+                },
+                "RegistrationType": "rcoajqvjtmfjkbog",
+                "SupportedAssociations": [
+                    {
+                        "AssociationBehavior": "lztvcwcbtdczpehb",
+                        "DisassociationBehavior": "gfdbahntoqqzgvrs",
+                        "IsoCountryCode": "winpckmrngaambqr",
+                        "ResourceType": "dheldafvjxubkqqi"
+                    }
+                ]
+            },
+            {
+                "DisplayHints": {
+                    "DocumentationLink": "ymfhdjoralctedrh",
+                    "DocumentationTitle": "szxcmyqghukyggsm",
+                    "LongDescription": "sditufzaujcxshjd",
+                    "ShortDescription": "yqqcwopmcbptwxwf",
+                    "Title": "dfdckbhvjohttavn"
+                },
+                "RegistrationType": "amtijvdiercwvvbu",
+                "SupportedAssociations": [
+                    {
+                        "AssociationBehavior": "fljfuierpbdsdkff",
+                        "DisassociationBehavior": "uybrnmxyeiydlegy",
+                        "IsoCountryCode": "ewdwfbtuutnhnrlc",
+                        "ResourceType": "rhesnrphzocyexai"
+                    }
+                ]
+            },
+            {
+                "DisplayHints": {
+                    "DocumentationLink": "jmpvttrbsoxksres",
+                    "DocumentationTitle": "mnxgaxdoytldbjsg",
+                    "LongDescription": "udjjzahhphmkywbb",
+                    "ShortDescription": "xddflunvryxefsid",
+                    "Title": "ucdyenvgozehelnp"
+                },
+                "RegistrationType": "njebhiwsyysddxsu",
+                "SupportedAssociations": [
+                    {
+                        "AssociationBehavior": "cskqfpouirgcdgzn",
+                        "DisassociationBehavior": "cawidpzvcfyxhocd",
+                        "IsoCountryCode": "hlmulbypdntcydym",
+                        "ResourceType": "wqimspqkywuiqvyb"
+                    }
+                ]
+            },
+            {
+                "DisplayHints": {
+                    "DocumentationLink": "zeatrbfwgiphvmic",
+                    "DocumentationTitle": "hxistalvswdeakyw",
+                    "LongDescription": "iiheujtugazpwuqe",
+                    "ShortDescription": "homxazfctxbmaxuc",
+                    "Title": "ikmrdzsiwjyrqzvr"
+                },
+                "RegistrationType": "fmlgicaihrjntfxu",
+                "SupportedAssociations": [
+                    {
+                        "AssociationBehavior": "faakduiqajruriuy",
+                        "DisassociationBehavior": "njcztxvqhjkddoqe",
+                        "IsoCountryCode": "rzutnisdyaodxkya",
+                        "ResourceType": "crfmlnrfsatqnudd"
+                    }
+                ]
+            },
+            {
+                "DisplayHints": {
+                    "DocumentationLink": "awjkylqtipuqozvj",
+                    "DocumentationTitle": "eurzfrqridnhuydc",
+                    "LongDescription": "nncjicdmgprekolx",
+                    "ShortDescription": "lxmanodyaplzorgm",
+                    "Title": "oxcgtwxxmimhbjms"
+                },
+                "RegistrationType": "pvbbewptpewjsvbn",
+                "SupportedAssociations": [
+                    {
+                        "AssociationBehavior": "vnozplntncrallrj",
+                        "DisassociationBehavior": "pzwwuptxvejfkmun",
+                        "IsoCountryCode": "udtsbdfdoiluyhyj",
+                        "ResourceType": "chwngyljapvkzqfv"
+                    }
+                ]
+            },
+            {
+                "DisplayHints": {
+                    "DocumentationLink": "rjlvtgnwrlicuzpb",
+                    "DocumentationTitle": "xuckwsqlrzrotxhr",
+                    "LongDescription": "vzrzsggymqlmpjyg",
+                    "ShortDescription": "oxaywnbahdvlqhwp",
+                    "Title": "wcgxjpdkmcwnkjby"
+                },
+                "RegistrationType": "pnbedgqhhfbxdokx",
+                "SupportedAssociations": [
+                    {
+                        "AssociationBehavior": "tcxyfieuwfpalnsw",
+                        "DisassociationBehavior": "okdmqhppdbdunabr",
+                        "IsoCountryCode": "jkhwmjuaqblhouhq",
+                        "ResourceType": "wdsgsqftzljaporl"
+                    }
+                ]
+            }
+        ],
+        "result_key": "RegistrationTypeDefinitions"
+    },
+    "meta": {
+        "start": 1711116347.699964,
+        "end": 1711116352.94957,
+        "duration": 5.249616861343384,
+        "service": "pinpoint-sms-voice-v2",
+        "type": "registration_type_definitions"
+    }
+}

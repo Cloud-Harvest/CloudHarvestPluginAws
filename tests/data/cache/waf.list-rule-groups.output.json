@@ -1,0 +1,37 @@
+{
+    "input": {
+        "template": {
+            "NextMarker": "",
+            "Limit": 0
+        },
+        "required": [],
+        "md5": "c73edf45b1374dc40afbfb6e5664028f",
+        "boto_command": "list_rule_groups",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": "NextMarker",
+        "required": [],
+        "md5": "a2ab180a2f555b8baf7bdc3ddd110d23",
+        "randomized": [
+            "vpclxxigeiikapdq",
+            "mtfuvojnbzppdtac",
+            "srgbojzrysjgrwka",
+            "qdcxrifhgqcuyanc",
+            "gdplzoccnimzvsol",
+            "iajgivvbhsisllgx",
+            "lqyhyjsluqdwidqp",
+            "anlpmqvqkpfgaeij",
+            "ynmmxyghnmcapqev",
+            "rablrmapooyxrqvd"
+        ],
+        "result_key": "NextMarker"
+    },
+    "meta": {
+        "start": 1711116761.377516,
+        "end": 1711116768.167609,
+        "duration": 6.790103912353516,
+        "service": "waf",
+        "type": "rule_groups"
+    }
+}

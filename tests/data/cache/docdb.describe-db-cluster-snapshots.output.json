@@ -1,0 +1,283 @@
+{
+    "input": {
+        "template": {
+            "DBClusterIdentifier": "",
+            "DBClusterSnapshotIdentifier": "",
+            "SnapshotType": "",
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxRecords": 0,
+            "Marker": "",
+            "IncludeShared": true,
+            "IncludePublic": true
+        },
+        "required": [],
+        "md5": "7eebd275df2e8130ce524fa6a0690194",
+        "boto_command": "describe_db_cluster_snapshots",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "AvailabilityZones": [
+                    "String"
+                ],
+                "DBClusterSnapshotIdentifier": "DBClusterSnapshotIdentifier",
+                "DBClusterIdentifier": "DBClusterIdentifier",
+                "SnapshotCreateTime": "1970-01-01T00:00:00",
+                "Engine": "Engine",
+                "Status": "Status",
+                "Port": 0,
+                "VpcId": "VpcId",
+                "ClusterCreateTime": "1970-01-01T00:00:00",
+                "MasterUsername": "MasterUsername",
+                "EngineVersion": "EngineVersion",
+                "SnapshotType": "SnapshotType",
+                "PercentProgress": 0,
+                "StorageEncrypted": true,
+                "KmsKeyId": "KmsKeyId",
+                "DBClusterSnapshotArn": "DBClusterSnapshotArn",
+                "SourceDBClusterSnapshotArn": "SourceDBClusterSnapshotArn",
+                "StorageType": "StorageType"
+            }
+        ],
+        "required": [],
+        "md5": "5e484ed8792ac6dc26aee3786d66b92b",
+        "randomized": [
+            {
+                "AvailabilityZones": [
+                    "qgcdpigmeekedccu"
+                ],
+                "ClusterCreateTime": "yhvzoopvrjcpgxzi",
+                "DBClusterIdentifier": "gjkqmcxgfwrujxhv",
+                "DBClusterSnapshotArn": "ihnsjoumipnbeefh",
+                "DBClusterSnapshotIdentifier": "uqmxqrrqsceucuch",
+                "Engine": "nhpawnghgbdfkqct",
+                "EngineVersion": "euxnjdtqrwvuicrq",
+                "KmsKeyId": "owyajmamckkhpwbo",
+                "MasterUsername": "wuqelwdvkplayekv",
+                "PercentProgress": 0,
+                "Port": 0,
+                "SnapshotCreateTime": "rvwwsszrmpubrlbe",
+                "SnapshotType": "qewjweyynxeoypjn",
+                "SourceDBClusterSnapshotArn": "xxpenogipodeoqmj",
+                "Status": "ovixyfujtqqrmxeb",
+                "StorageEncrypted": true,
+                "StorageType": "rbzbmmqvwujbkycc",
+                "VpcId": "qijfrjbuauoamoyz"
+            },
+            {
+                "AvailabilityZones": [
+                    "aoejjcetubsjifom"
+                ],
+                "ClusterCreateTime": "ldgdyadqasyfckcu",
+                "DBClusterIdentifier": "lnqlfoodfdzacxgh",
+                "DBClusterSnapshotArn": "ffsbzapcganpeuvx",
+                "DBClusterSnapshotIdentifier": "edttlqipcubolxfr",
+                "Engine": "nvcryxxybqzrupgc",
+                "EngineVersion": "gvsytdowdbrknfpb",
+                "KmsKeyId": "zsdlxshyasaezgqv",
+                "MasterUsername": "cajohsyerwqvtyll",
+                "PercentProgress": 0,
+                "Port": 0,
+                "SnapshotCreateTime": "vjixuiscwklpfhdc",
+                "SnapshotType": "juffffvhzmteyqne",
+                "SourceDBClusterSnapshotArn": "hrpzhlnddtjxkwlf",
+                "Status": "jkwridfmopvgfzvg",
+                "StorageEncrypted": true,
+                "StorageType": "hhsulpzbjmxdqqnl",
+                "VpcId": "xbguvzksqfkiloes"
+            },
+            {
+                "AvailabilityZones": [
+                    "zpdqfvpotwvtwtat"
+                ],
+                "ClusterCreateTime": "jrajyuegjjacpnrj",
+                "DBClusterIdentifier": "isacvnkbgtbvpxbt",
+                "DBClusterSnapshotArn": "mkbfvcjynblfgrox",
+                "DBClusterSnapshotIdentifier": "ustnzeqzmwdyufao",
+                "Engine": "sskmialgewvhdsxz",
+                "EngineVersion": "mmpoqvdyhkbngqpx",
+                "KmsKeyId": "yhykqcsqjfmtxhel",
+                "MasterUsername": "ejwaqmbagtmnnlyh",
+                "PercentProgress": 0,
+                "Port": 0,
+                "SnapshotCreateTime": "ijcevfxgcrziehyt",
+                "SnapshotType": "hccxkrnnclgwkmhi",
+                "SourceDBClusterSnapshotArn": "hluwnuydifihtksu",
+                "Status": "ponozxwttxwfvzlj",
+                "StorageEncrypted": true,
+                "StorageType": "yvkmqqamvgjhuypt",
+                "VpcId": "bbknzfzgwobqnwod"
+            },
+            {
+                "AvailabilityZones": [
+                    "cxktkxmeecfpjdri"
+                ],
+                "ClusterCreateTime": "djggecrlhxtjrsoc",
+                "DBClusterIdentifier": "mneosrmcdgxolssf",
+                "DBClusterSnapshotArn": "zylcpiucxjhbqcdp",
+                "DBClusterSnapshotIdentifier": "bgrqttifclhpqpyn",
+                "Engine": "vemugoitedjoxvnn",
+                "EngineVersion": "vkhgokzuwobbytcv",
+                "KmsKeyId": "ptahcnidwdheopix",
+                "MasterUsername": "qvxmlnhefuzceeap",
+                "PercentProgress": 0,
+                "Port": 0,
+                "SnapshotCreateTime": "jaerybfdkixabaen",
+                "SnapshotType": "pkqtffxmycdkgsvp",
+                "SourceDBClusterSnapshotArn": "bhmiynvjdkjxmzjd",
+                "Status": "hamwmfjfowgxoezd",
+                "StorageEncrypted": true,
+                "StorageType": "yaojscbojxuhvwbd",
+                "VpcId": "sfqsltkuumbewszk"
+            },
+            {
+                "AvailabilityZones": [
+                    "tuuuyhaxtuovfenh"
+                ],
+                "ClusterCreateTime": "uhelmkxfteugjhdc",
+                "DBClusterIdentifier": "bwzwqibajodzhbkb",
+                "DBClusterSnapshotArn": "lnmymrlgtpmsyjsg",
+                "DBClusterSnapshotIdentifier": "maueettolcexlkcs",
+                "Engine": "qtbowlqkegjgjfez",
+                "EngineVersion": "rltxuzmhfnndvpio",
+                "KmsKeyId": "jtiiltnspcyuvwin",
+                "MasterUsername": "efuyuvynjwprcuwd",
+                "PercentProgress": 0,
+                "Port": 0,
+                "SnapshotCreateTime": "xblgrxjnasegecww",
+                "SnapshotType": "nfgdmchwyqwfazfn",
+                "SourceDBClusterSnapshotArn": "bhvmctpqrdbbrgxg",
+                "Status": "wtmpdvxkspjolnrc",
+                "StorageEncrypted": true,
+                "StorageType": "pgqsfchcinrztjzy",
+                "VpcId": "nnmkvqjqialqsvcb"
+            },
+            {
+                "AvailabilityZones": [
+                    "dbyhjwsfprvjuszi"
+                ],
+                "ClusterCreateTime": "usvyjbogjifjtqsi",
+                "DBClusterIdentifier": "oywdduenzvqyzmtj",
+                "DBClusterSnapshotArn": "ksplhkenghlshljb",
+                "DBClusterSnapshotIdentifier": "jxinseetyxfgbhln",
+                "Engine": "lccilssokmqhgqri",
+                "EngineVersion": "tatkbmcdrvmvdooj",
+                "KmsKeyId": "tvnszqtcraobkgln",
+                "MasterUsername": "mogvzkkfsvzyrryc",
+                "PercentProgress": 0,
+                "Port": 0,
+                "SnapshotCreateTime": "jxcbfldrbkuvtylj",
+                "SnapshotType": "pcpxfjhrwbcawhrx",
+                "SourceDBClusterSnapshotArn": "catmvifbvduqskkj",
+                "Status": "zovnisauppaxamfz",
+                "StorageEncrypted": true,
+                "StorageType": "gocldrjdsywcmace",
+                "VpcId": "cipcvdovbkouzwpv"
+            },
+            {
+                "AvailabilityZones": [
+                    "uxniqicezoiazedv"
+                ],
+                "ClusterCreateTime": "chabfgvinugbqvho",
+                "DBClusterIdentifier": "qmzooaizmlruwqkl",
+                "DBClusterSnapshotArn": "ykvdfujkxadibumw",
+                "DBClusterSnapshotIdentifier": "zuvgkebbvxbommky",
+                "Engine": "rpyiczzmarkvpvya",
+                "EngineVersion": "ujesrhwibtjnswlh",
+                "KmsKeyId": "xfoxftfurwqgdfvo",
+                "MasterUsername": "fvsvypsrqolsplxt",
+                "PercentProgress": 0,
+                "Port": 0,
+                "SnapshotCreateTime": "icazvxswjfktopxw",
+                "SnapshotType": "juomixnsbmoyeikm",
+                "SourceDBClusterSnapshotArn": "yyfpcmeooyutzuio",
+                "Status": "zkvzaolqzuunujlg",
+                "StorageEncrypted": true,
+                "StorageType": "mfelkazlzxgyrntn",
+                "VpcId": "yldmblrutqbdgkut"
+            },
+            {
+                "AvailabilityZones": [
+                    "vrtcmmbjwodzogrc"
+                ],
+                "ClusterCreateTime": "bftdkcmwxmuxkqga",
+                "DBClusterIdentifier": "ugzbaaynfphnjidw",
+                "DBClusterSnapshotArn": "ltmcujmzszgazwsb",
+                "DBClusterSnapshotIdentifier": "vjmygzbewtquegtb",
+                "Engine": "ddodmvsrwfduyhgm",
+                "EngineVersion": "yyxliumtaiybsmnh",
+                "KmsKeyId": "jieymyhbtqrzmqux",
+                "MasterUsername": "czeooolorwndyllw",
+                "PercentProgress": 0,
+                "Port": 0,
+                "SnapshotCreateTime": "ejzzwsedtuhmcblk",
+                "SnapshotType": "vkjbqhgwkozyweir",
+                "SourceDBClusterSnapshotArn": "gbettvtazxklahez",
+                "Status": "qubweoqgtwtyboyw",
+                "StorageEncrypted": true,
+                "StorageType": "jywkzykpvufriwfj",
+                "VpcId": "bgeaejogiihdcijq"
+            },
+            {
+                "AvailabilityZones": [
+                    "cocnutynwiatfyli"
+                ],
+                "ClusterCreateTime": "nlkecjacaismbqxp",
+                "DBClusterIdentifier": "kmksqmazbanlifbv",
+                "DBClusterSnapshotArn": "vdhvwbmryppmxfxx",
+                "DBClusterSnapshotIdentifier": "ebwtwgibdeaqjeyi",
+                "Engine": "mzssbrkeenqnekld",
+                "EngineVersion": "uvdulwfuoiaqkjuf",
+                "KmsKeyId": "iibsixnwlhwvkvre",
+                "MasterUsername": "ruidfvsqayqffbzg",
+                "PercentProgress": 0,
+                "Port": 0,
+                "SnapshotCreateTime": "bfgukxmniswccoct",
+                "SnapshotType": "wmopjvzqwsigxajf",
+                "SourceDBClusterSnapshotArn": "wmzqirazgjanvsxe",
+                "Status": "huumohtunmdwddaj",
+                "StorageEncrypted": true,
+                "StorageType": "pezryuqchayjbook",
+                "VpcId": "fjpglhgebdwrusmj"
+            },
+            {
+                "AvailabilityZones": [
+                    "vwspvcbbrxrchwpw"
+                ],
+                "ClusterCreateTime": "virfuczjerijpiqk",
+                "DBClusterIdentifier": "gcuriqgsrjnlwezo",
+                "DBClusterSnapshotArn": "dryukvrmduyztnak",
+                "DBClusterSnapshotIdentifier": "zydenroxzewklyts",
+                "Engine": "oyhgpmembeenfzlm",
+                "EngineVersion": "ftpwkigjedvkaoxs",
+                "KmsKeyId": "suzbewjrkukhokuj",
+                "MasterUsername": "nomtlmxlonasmcxy",
+                "PercentProgress": 0,
+                "Port": 0,
+                "SnapshotCreateTime": "xfmhjsmtnebsmjef",
+                "SnapshotType": "ngglryxiqdozkqrv",
+                "SourceDBClusterSnapshotArn": "fjrcowgpmdgwotxx",
+                "Status": "xzeylzbvvxbgwtrw",
+                "StorageEncrypted": true,
+                "StorageType": "nxvlmoeceafthbxn",
+                "VpcId": "epotmthnblwswtpq"
+            }
+        ],
+        "result_key": "DBClusterSnapshots"
+    },
+    "meta": {
+        "start": 1711115586.34864,
+        "end": 1711115593.279874,
+        "duration": 6.931246042251587,
+        "service": "docdb",
+        "type": "db_cluster_snapshots"
+    }
+}

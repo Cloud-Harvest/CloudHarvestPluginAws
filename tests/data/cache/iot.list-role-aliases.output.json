@@ -1,0 +1,40 @@
+{
+    "input": {
+        "template": {
+            "pageSize": 0,
+            "marker": "",
+            "ascendingOrder": true
+        },
+        "required": [],
+        "md5": "74093a3e71d22b387403881880c6f5b7",
+        "boto_command": "list_role_aliases",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            "RoleAlias"
+        ],
+        "required": [],
+        "md5": "7e3e136cad22fd75db9f83ae37ff4aea",
+        "randomized": [
+            "rrdwgtqingjdfofk",
+            "icvrkgbyhdejlrsr",
+            "gqdxvnhimulwwwcu",
+            "pxxdzxmwbfosobne",
+            "akczuoomofbizmgc",
+            "lrxphtkmtsdkugrj",
+            "icvfxtpekbnwhkas",
+            "mionmsobvkcweohu",
+            "mxvushndhixoljfn",
+            "kwmkiqerfxmczjlo"
+        ],
+        "result_key": "roleAliases"
+    },
+    "meta": {
+        "start": 1711115947.936889,
+        "end": 1711115954.433681,
+        "duration": 6.496802091598511,
+        "service": "iot",
+        "type": "role_aliases"
+    }
+}

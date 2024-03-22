@@ -1,0 +1,105 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "031b56893c6f5a9d0ebe6017c5c080cb",
+        "boto_command": "list_channel_groups",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "ChannelGroupName": "ChannelGroupName",
+                "Arn": "Arn",
+                "CreatedAt": "1970-01-01T00:00:00",
+                "ModifiedAt": "1970-01-01T00:00:00",
+                "Description": "Description"
+            }
+        ],
+        "required": [],
+        "md5": "fdc392c07a2167223b43ec5d29f6c703",
+        "randomized": [
+            {
+                "Arn": "scsshoajtaslxlih",
+                "ChannelGroupName": "xfirpvjyedteyzdu",
+                "CreatedAt": "lhhgbahyapkcfxki",
+                "Description": "ggslcyicqflushdf",
+                "ModifiedAt": "wusqiuksuckyhpqu"
+            },
+            {
+                "Arn": "dtxssykosysgjwak",
+                "ChannelGroupName": "uhqnbugopecgznvy",
+                "CreatedAt": "vqwciacpncsidzta",
+                "Description": "falpksnfmmjcaalm",
+                "ModifiedAt": "bztutmyavengcift"
+            },
+            {
+                "Arn": "zabelqdidvovqsga",
+                "ChannelGroupName": "obngjxfbvyrmjuul",
+                "CreatedAt": "eaqqmnxxqbmgbxgu",
+                "Description": "weyrpcewflguhyow",
+                "ModifiedAt": "oxunzkyzxvdrthza"
+            },
+            {
+                "Arn": "tofyooyazkbsmxcy",
+                "ChannelGroupName": "gvyjnsmlnxouwrky",
+                "CreatedAt": "sjxarwnzipqvqszj",
+                "Description": "hgyxcbsvgbfddhye",
+                "ModifiedAt": "fgwjyywmdvdlnstc"
+            },
+            {
+                "Arn": "dbjhcjenqnqdfncv",
+                "ChannelGroupName": "yxppprgmptfloryn",
+                "CreatedAt": "eglamahfmkjifvhi",
+                "Description": "fpvcnkgrbdchlpve",
+                "ModifiedAt": "weyohwhuygybhsjy"
+            },
+            {
+                "Arn": "gdfgpjvmvkfatvfc",
+                "ChannelGroupName": "owdcpczinegqslow",
+                "CreatedAt": "tvcrqnxhvjrthbja",
+                "Description": "nfoipkcnrutxynot",
+                "ModifiedAt": "runyhtnwvmvlujyb"
+            },
+            {
+                "Arn": "bzhcyltjklajhxer",
+                "ChannelGroupName": "cndrruluuoyhhjsf",
+                "CreatedAt": "jpzzmufsfcmackpb",
+                "Description": "wtuwfvydyvlazugh",
+                "ModifiedAt": "lukykcgnimdcqiwx"
+            },
+            {
+                "Arn": "anmqlntgyifcfzxb",
+                "ChannelGroupName": "komcflazdgsrxbzl",
+                "CreatedAt": "hirpcgxfbmncafpu",
+                "Description": "jfdufycrnfozqccj",
+                "ModifiedAt": "scqpdqrbvmlmdkwa"
+            },
+            {
+                "Arn": "eokgbntghgsymknr",
+                "ChannelGroupName": "yyyuwotuoaskdctp",
+                "CreatedAt": "gihscfdokoaxipcp",
+                "Description": "jiiqxvpueynnzfqk",
+                "ModifiedAt": "cjtglhoglwxfshvy"
+            },
+            {
+                "Arn": "mfdxmyjschmxfvyr",
+                "ChannelGroupName": "vnlzgjkmfmijurcq",
+                "CreatedAt": "btuepopvontmedpe",
+                "Description": "mjcudvwlegfgsrpz",
+                "ModifiedAt": "xvaesaapswfuoatk"
+            }
+        ],
+        "result_key": "Items"
+    },
+    "meta": {
+        "start": 1711116182.713994,
+        "end": 1711116190.315225,
+        "duration": 7.601240873336792,
+        "service": "mediapackagev2",
+        "type": "channel_groups"
+    }
+}

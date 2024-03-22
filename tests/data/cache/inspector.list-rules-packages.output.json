@@ -1,0 +1,39 @@
+{
+    "input": {
+        "template": {
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "required": [],
+        "md5": "42475be96651ddb5d57c459989595380",
+        "boto_command": "list_rules_packages",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            "Arn"
+        ],
+        "required": [],
+        "md5": "063a2f28e55ae67d94ed942e7f62f2cb",
+        "randomized": [
+            "ksowrofsvpuugecc",
+            "qyfxtlsknthqynkk",
+            "nfkpidfuaowdrhih",
+            "nzjpeojuixmdxqxj",
+            "cqbrdfrbyfankihy",
+            "twefjpdhdewotyyw",
+            "mjuvrfkuphnqkeex",
+            "ejalxciflssorsxi",
+            "cnltbmvflydshtbh",
+            "qkmcetaqpsorepof"
+        ],
+        "result_key": "rulesPackageArns"
+    },
+    "meta": {
+        "start": 1711115910.641741,
+        "end": 1711115918.034576,
+        "duration": 7.392845869064331,
+        "service": "inspector",
+        "type": "rules_packages"
+    }
+}

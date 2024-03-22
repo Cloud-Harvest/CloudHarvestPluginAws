@@ -1,0 +1,127 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "required": [],
+        "md5": "2620fedaf24e984a8f801d0beb17a6e7",
+        "boto_command": "list_provisioning_templates",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "templateArn": "templateArn",
+                "templateName": "templateName",
+                "description": "description",
+                "creationDate": "1970-01-01T00:00:00",
+                "lastModifiedDate": "1970-01-01T00:00:00",
+                "enabled": true,
+                "type": "type"
+            }
+        ],
+        "required": [],
+        "md5": "a65a095c7d752cd76564385b6ad0e2e8",
+        "randomized": [
+            {
+                "creationDate": "sgsfyeeainfzlfwy",
+                "description": "butahqyfrlcqmovt",
+                "enabled": true,
+                "lastModifiedDate": "dbcoqmhgnlcncuvp",
+                "templateArn": "tdxonfxtqqkrhtjr",
+                "templateName": "tepmmrafykogfeuq",
+                "type": "gystuhctpoxdfzcu"
+            },
+            {
+                "creationDate": "mxkglnvghbhsymya",
+                "description": "sqtzmqqswsgmfgrs",
+                "enabled": true,
+                "lastModifiedDate": "vittlgonrhzcrujs",
+                "templateArn": "gqppxptfpgnagdth",
+                "templateName": "atsyebxfgvtgndnc",
+                "type": "mistwjjgqlffyurs"
+            },
+            {
+                "creationDate": "kxnggxdyyavvsadk",
+                "description": "csnmmtvmpglzpzty",
+                "enabled": true,
+                "lastModifiedDate": "pvwxattoupgoyktq",
+                "templateArn": "htfpjivhwabchbza",
+                "templateName": "qnmbbfqylxirwhmq",
+                "type": "tidfethtxeptqsry"
+            },
+            {
+                "creationDate": "hzzbjzypnhwekckd",
+                "description": "gpcdaprhvmefbqlf",
+                "enabled": true,
+                "lastModifiedDate": "rugsierssnryomuf",
+                "templateArn": "pmxreawyxnxhfkiv",
+                "templateName": "pftbjhejpqhqhznm",
+                "type": "vmzkcdhllytgunok"
+            },
+            {
+                "creationDate": "mxlrdkfhigujwetr",
+                "description": "chhlkpeyuaqpirlm",
+                "enabled": true,
+                "lastModifiedDate": "tfyvpggrtaspehuz",
+                "templateArn": "imamnuokspeaovit",
+                "templateName": "mwurhvxzqwwuukju",
+                "type": "mawtjwntbhpaktrl"
+            },
+            {
+                "creationDate": "cfgvihrznygyjnjj",
+                "description": "rycobveewgvjsboa",
+                "enabled": true,
+                "lastModifiedDate": "sbstvexktiemcfmq",
+                "templateArn": "fzdbyssoxeozuqri",
+                "templateName": "hioczrqggkmrjuqr",
+                "type": "jepzfjfmyrxtelap"
+            },
+            {
+                "creationDate": "zodisoxbvoiuymjm",
+                "description": "lipogrnjlsknvzbm",
+                "enabled": true,
+                "lastModifiedDate": "gzqwtumlolcygllp",
+                "templateArn": "jfbpdvyishmvyjza",
+                "templateName": "xalvsashcztwyfbq",
+                "type": "uqjruawulhitpfhm"
+            },
+            {
+                "creationDate": "mkzsgtsaicewydvf",
+                "description": "tysfchlptwuukefd",
+                "enabled": true,
+                "lastModifiedDate": "kdpriunfncesyumt",
+                "templateArn": "ycvdmvvtotwcxrbx",
+                "templateName": "seqintjlfzpxbsks",
+                "type": "ramtivayjgxysltt"
+            },
+            {
+                "creationDate": "owytsihrocsehztv",
+                "description": "fagkqdhtwmovbpox",
+                "enabled": true,
+                "lastModifiedDate": "hmdkfsdwdziecxnf",
+                "templateArn": "gszpnvcajqiqurmz",
+                "templateName": "lclewtlmydhtiyns",
+                "type": "kehxzcygrcspzzmb"
+            },
+            {
+                "creationDate": "bxbwxdydkkkcddez",
+                "description": "unrxyaoortywucxh",
+                "enabled": true,
+                "lastModifiedDate": "kboxevosemkftyej",
+                "templateArn": "nkmqzvxflroquitb",
+                "templateName": "unuulvmpxdwzdnlf",
+                "type": "vvdyqgumsbiswtzk"
+            }
+        ],
+        "result_key": "templates"
+    },
+    "meta": {
+        "start": 1711115947.117639,
+        "end": 1711115952.343423,
+        "duration": 5.225795030593872,
+        "service": "iot",
+        "type": "provisioning_templates"
+    }
+}

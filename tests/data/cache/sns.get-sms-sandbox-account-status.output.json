@@ -1,0 +1,34 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "get_sms_sandbox_account_status",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": true,
+        "required": [],
+        "md5": "c096f456c8ebff3a1f055da96a57318f",
+        "randomized": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+        ],
+        "result_key": "IsInSandbox"
+    },
+    "meta": {
+        "start": 1711116649.41683,
+        "end": 1711116656.057997,
+        "duration": 6.6411778926849365,
+        "service": "sns",
+        "type": null
+    }
+}

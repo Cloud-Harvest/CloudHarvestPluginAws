@@ -1,0 +1,82 @@
+[
+    {
+        "destinationKmsKeyId": "naetxvtskllmpulh",
+        "destinationRegion": "xnhsdqssnsdpbhvu",
+        "namespaceName": "qshnqrglfrosunfi",
+        "snapshotCopyConfigurationArn": "myrxzsoyculkiscn",
+        "snapshotCopyConfigurationId": "cxwmuiijtcoicmun",
+        "snapshotRetentionPeriod": 0
+    },
+    {
+        "destinationKmsKeyId": "httifjbcnxredlsc",
+        "destinationRegion": "bdotojpxmdbedjhi",
+        "namespaceName": "dgdzcsekcpsyagpv",
+        "snapshotCopyConfigurationArn": "iqxwzovgrpgqezbm",
+        "snapshotCopyConfigurationId": "xrmqpnbwwppfsabk",
+        "snapshotRetentionPeriod": 0
+    },
+    {
+        "destinationKmsKeyId": "yoevxdqrbfqktcnq",
+        "destinationRegion": "rftxyalpkkcazxrw",
+        "namespaceName": "xebbuqgirgoqaxpl",
+        "snapshotCopyConfigurationArn": "ytyuwirocukrwhlc",
+        "snapshotCopyConfigurationId": "dnvkvzvqylhwhyxf",
+        "snapshotRetentionPeriod": 0
+    },
+    {
+        "destinationKmsKeyId": "dzpkwmmoszcupshy",
+        "destinationRegion": "onotlgidvwinwuin",
+        "namespaceName": "fawaqpshmdpynezn",
+        "snapshotCopyConfigurationArn": "lreodjhfhuuagpiv",
+        "snapshotCopyConfigurationId": "aebubdxhmxipnfhu",
+        "snapshotRetentionPeriod": 0
+    },
+    {
+        "destinationKmsKeyId": "sevocfpuqeotqdtw",
+        "destinationRegion": "zbfhjkomnlcbiaha",
+        "namespaceName": "pnobboxehhakcntv",
+        "snapshotCopyConfigurationArn": "imkwsvervqwihsfh",
+        "snapshotCopyConfigurationId": "fnbgmwqoauyrgxkz",
+        "snapshotRetentionPeriod": 0
+    },
+    {
+        "destinationKmsKeyId": "aifrfcfruzdgfmmb",
+        "destinationRegion": "ulpfexjjxbopyfri",
+        "namespaceName": "cgbdwjjxauerjzsj",
+        "snapshotCopyConfigurationArn": "bqjahsufynzztyzi",
+        "snapshotCopyConfigurationId": "njrdwgszfbomteyk",
+        "snapshotRetentionPeriod": 0
+    },
+    {
+        "destinationKmsKeyId": "pkeeenppyjpatcus",
+        "destinationRegion": "yxwwlxeddxnbqbkh",
+        "namespaceName": "gqrcpqhsztifjjzh",
+        "snapshotCopyConfigurationArn": "dtagotyjpnfmfxkm",
+        "snapshotCopyConfigurationId": "ucfgdopfgbulyvzu",
+        "snapshotRetentionPeriod": 0
+    },
+    {
+        "destinationKmsKeyId": "wucrjjliliejflys",
+        "destinationRegion": "xumjeipgaykzgxff",
+        "namespaceName": "qwnvidalabcdhaqr",
+        "snapshotCopyConfigurationArn": "tcusetzndewpdhdu",
+        "snapshotCopyConfigurationId": "apmnwnjcgravrjpe",
+        "snapshotRetentionPeriod": 0
+    },
+    {
+        "destinationKmsKeyId": "rznvrpwkrgyrmeml",
+        "destinationRegion": "saddykwscsyuosjg",
+        "namespaceName": "ufhbpdkceywtseqp",
+        "snapshotCopyConfigurationArn": "lszrgijpqidohywl",
+        "snapshotCopyConfigurationId": "rzogjbpnewystoed",
+        "snapshotRetentionPeriod": 0
+    },
+    {
+        "destinationKmsKeyId": "ccdbrnalnevjjxcb",
+        "destinationRegion": "idvgdkzzmuiavbzg",
+        "namespaceName": "bziajjphhdtuddbg",
+        "snapshotCopyConfigurationArn": "sbtaqpuauaonlnwk",
+        "snapshotCopyConfigurationId": "nhciimnxavqicdxh",
+        "snapshotRetentionPeriod": 0
+    }
+]

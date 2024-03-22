@@ -1,0 +1,36 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "describe_termination_policy_types",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            "XmlStringMaxLen1600"
+        ],
+        "required": [],
+        "md5": "502ccdb5d763e7ec515d5ad1e7ce503c",
+        "randomized": [
+            "wepfedlogbwsaahj",
+            "quhudfkduiobvqou",
+            "wfjskxqrdjodkxlr",
+            "lnrputemoyemfkfs",
+            "rshiivbifdpreirb",
+            "meqfhpkwvlseeovv",
+            "rvbvnvdqjelakafp",
+            "afqiewvzoucbcobz",
+            "vjjajkrjlmkkrlqr",
+            "emhsazisbgjmywma"
+        ],
+        "result_key": "TerminationPolicyTypes"
+    },
+    "meta": {
+        "start": 1711115269.521404,
+        "end": 1711115275.736452,
+        "duration": 6.215058088302612,
+        "service": "autoscaling",
+        "type": "termination_policy_types"
+    }
+}

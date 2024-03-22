@@ -1,0 +1,129 @@
+{
+    "input": {
+        "template": {
+            "AutoScalingConfigurationName": "",
+            "LatestOnly": true,
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "af767b1373174f026cb5b409c7f60da1",
+        "boto_command": "list_auto_scaling_configurations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "AutoScalingConfigurationArn": "AutoScalingConfigurationArn",
+                "AutoScalingConfigurationName": "AutoScalingConfigurationName",
+                "AutoScalingConfigurationRevision": 0,
+                "Status": "Status",
+                "CreatedAt": "1970-01-01T00:00:00",
+                "HasAssociatedService": true,
+                "IsDefault": true
+            }
+        ],
+        "required": [],
+        "md5": "f5afec11debe4ad4647587c1d30345b6",
+        "randomized": [
+            {
+                "AutoScalingConfigurationArn": "durigzbtaqlerhqy",
+                "AutoScalingConfigurationName": "cqvzxvbpklxrjqzl",
+                "AutoScalingConfigurationRevision": 0,
+                "CreatedAt": "yvthkchopxymjeay",
+                "HasAssociatedService": true,
+                "IsDefault": true,
+                "Status": "vyggtovnafqntwam"
+            },
+            {
+                "AutoScalingConfigurationArn": "zpixyvgpvlggvvgv",
+                "AutoScalingConfigurationName": "sdbtpttgdhhjkabh",
+                "AutoScalingConfigurationRevision": 0,
+                "CreatedAt": "hnmcnltrmeclxbuj",
+                "HasAssociatedService": true,
+                "IsDefault": true,
+                "Status": "ahpifyuauqmmlasz"
+            },
+            {
+                "AutoScalingConfigurationArn": "nyvvvqkkofxuqjfz",
+                "AutoScalingConfigurationName": "doaatrzhafpunhbs",
+                "AutoScalingConfigurationRevision": 0,
+                "CreatedAt": "toxsbezvobwjcgzw",
+                "HasAssociatedService": true,
+                "IsDefault": true,
+                "Status": "jcmqhgipqathnist"
+            },
+            {
+                "AutoScalingConfigurationArn": "mpvxkyuhobhdtscw",
+                "AutoScalingConfigurationName": "gxiirrqqbvngkdon",
+                "AutoScalingConfigurationRevision": 0,
+                "CreatedAt": "tgftzjqwljkuetth",
+                "HasAssociatedService": true,
+                "IsDefault": true,
+                "Status": "lklfcrvrkeasxrte"
+            },
+            {
+                "AutoScalingConfigurationArn": "ejdhojohbebhiaqi",
+                "AutoScalingConfigurationName": "ziuvtzsqmipltael",
+                "AutoScalingConfigurationRevision": 0,
+                "CreatedAt": "tgkgdfilpkvlyaur",
+                "HasAssociatedService": true,
+                "IsDefault": true,
+                "Status": "tjgtzxksvhidvkfb"
+            },
+            {
+                "AutoScalingConfigurationArn": "euipvoqjskglguai",
+                "AutoScalingConfigurationName": "alvjxersicwwleww",
+                "AutoScalingConfigurationRevision": 0,
+                "CreatedAt": "wrhzwrlqomrykayk",
+                "HasAssociatedService": true,
+                "IsDefault": true,
+                "Status": "vgjxtawurcmqcqzl"
+            },
+            {
+                "AutoScalingConfigurationArn": "nvgssqxfxqkuttlo",
+                "AutoScalingConfigurationName": "jvgofrrfkmnxapmi",
+                "AutoScalingConfigurationRevision": 0,
+                "CreatedAt": "dlzrkyjzfmlimdvo",
+                "HasAssociatedService": true,
+                "IsDefault": true,
+                "Status": "vebrqjkbxgtxnvbl"
+            },
+            {
+                "AutoScalingConfigurationArn": "yxjskvriqzcttonb",
+                "AutoScalingConfigurationName": "vehnfgyjycqbcadx",
+                "AutoScalingConfigurationRevision": 0,
+                "CreatedAt": "swkxgnnyerpzurku",
+                "HasAssociatedService": true,
+                "IsDefault": true,
+                "Status": "ejblihepaajxrhqt"
+            },
+            {
+                "AutoScalingConfigurationArn": "ioapyzegkaksopgv",
+                "AutoScalingConfigurationName": "whecwhfjqfpotdsf",
+                "AutoScalingConfigurationRevision": 0,
+                "CreatedAt": "ewreqtertuanmzqm",
+                "HasAssociatedService": true,
+                "IsDefault": true,
+                "Status": "mirkeohtdbnlhyuo"
+            },
+            {
+                "AutoScalingConfigurationArn": "bdmwpyfrthtehdwl",
+                "AutoScalingConfigurationName": "rxjysmulnqpyickf",
+                "AutoScalingConfigurationRevision": 0,
+                "CreatedAt": "oxwltrnrsmndlkqn",
+                "HasAssociatedService": true,
+                "IsDefault": true,
+                "Status": "fdelqggtegnpopke"
+            }
+        ],
+        "result_key": "AutoScalingConfigurationSummaryList"
+    },
+    "meta": {
+        "start": 1711115233.260208,
+        "end": 1711115240.25185,
+        "duration": 6.991650104522705,
+        "service": "apprunner",
+        "type": "auto_scaling_configurations"
+    }
+}

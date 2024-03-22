@@ -1,0 +1,38 @@
+{
+    "input": {
+        "template": {
+            "pageToken": ""
+        },
+        "required": [],
+        "md5": "cd47ffa47286bc2470b22f744f7629ff",
+        "boto_command": "get_active_names",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            "string"
+        ],
+        "required": [],
+        "md5": "c2ce61ca95da96595c75252c514ca669",
+        "randomized": [
+            "nswsnpndcgwrsyli",
+            "okzvdsmpaviwfzmc",
+            "ivcyrmmeyhmbprks",
+            "nmnotbkdlgmhjxjf",
+            "vvrevbayqmmpmdre",
+            "aewcgwuxmahqhfzt",
+            "ouyyxsqfaajqhqah",
+            "poafeajpszqubtzg",
+            "eulryylfxknrlatd",
+            "zolepeaquebfsjus"
+        ],
+        "result_key": "activeNames"
+    },
+    "meta": {
+        "start": 1711116092.949272,
+        "end": 1711116097.276669,
+        "duration": 4.327407121658325,
+        "service": "lightsail",
+        "type": null
+    }
+}

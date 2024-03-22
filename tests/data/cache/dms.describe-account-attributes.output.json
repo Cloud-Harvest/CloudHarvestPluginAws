@@ -1,0 +1,80 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "describe_account_attributes",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "AccountQuotaName": "AccountQuotaName",
+                "Used": 0,
+                "Max": 0
+            }
+        ],
+        "required": [],
+        "md5": "86aea10e294de9e14ab472fa46b20303",
+        "randomized": [
+            {
+                "AccountQuotaName": "uvphrdelarthrxfl",
+                "Max": 0,
+                "Used": 0
+            },
+            {
+                "AccountQuotaName": "wvrqpxnmsslivthx",
+                "Max": 0,
+                "Used": 0
+            },
+            {
+                "AccountQuotaName": "ogtxnpjjxxfwjxoy",
+                "Max": 0,
+                "Used": 0
+            },
+            {
+                "AccountQuotaName": "kppnsbsoykfvbtqt",
+                "Max": 0,
+                "Used": 0
+            },
+            {
+                "AccountQuotaName": "orwghkblzkzvhybr",
+                "Max": 0,
+                "Used": 0
+            },
+            {
+                "AccountQuotaName": "kcdsufnjngwipptu",
+                "Max": 0,
+                "Used": 0
+            },
+            {
+                "AccountQuotaName": "qoyczbfscsmoxupe",
+                "Max": 0,
+                "Used": 0
+            },
+            {
+                "AccountQuotaName": "xgxzeuplckkdgowr",
+                "Max": 0,
+                "Used": 0
+            },
+            {
+                "AccountQuotaName": "puqzjtsrkcyqcslk",
+                "Max": 0,
+                "Used": 0
+            },
+            {
+                "AccountQuotaName": "suryihlfbzergypr",
+                "Max": 0,
+                "Used": 0
+            }
+        ],
+        "result_key": "AccountQuotas"
+    },
+    "meta": {
+        "start": 1711115572.455793,
+        "end": 1711115577.78764,
+        "duration": 5.331857204437256,
+        "service": "dms",
+        "type": "account_attributes"
+    }
+}

@@ -1,0 +1,18 @@
+[
+    "cloudwatch.describe-alarm-history",
+    "cloudwatch.describe-alarms",
+    "cloudwatch.describe-alarms-for-metric",
+    "cloudwatch.describe-anomaly-detectors",
+    "cloudwatch.describe-insight-rules",
+    "cloudwatch.get-dashboard",
+    "cloudwatch.get-insight-rule-report",
+    "cloudwatch.get-metric-data",
+    "cloudwatch.get-metric-statistics",
+    "cloudwatch.get-metric-stream",
+    "cloudwatch.get-metric-widget-image",
+    "cloudwatch.list-dashboards",
+    "cloudwatch.list-managed-insight-rules",
+    "cloudwatch.list-metric-streams",
+    "cloudwatch.list-metrics",
+    "cloudwatch.list-tags-for-resource"
+]

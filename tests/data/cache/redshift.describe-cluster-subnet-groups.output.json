@@ -1,0 +1,354 @@
+{
+    "input": {
+        "template": {
+            "ClusterSubnetGroupName": "",
+            "MaxRecords": 0,
+            "Marker": "",
+            "TagKeys": [
+                ""
+            ],
+            "TagValues": [
+                ""
+            ]
+        },
+        "required": [],
+        "md5": "1acadda0e74a4ef2c9455fe2d23d43d4",
+        "boto_command": "describe_cluster_subnet_groups",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "ClusterSubnetGroupName": "ClusterSubnetGroupName",
+                "Description": "Description",
+                "VpcId": "VpcId",
+                "SubnetGroupStatus": "SubnetGroupStatus",
+                "Subnets": [
+                    {
+                        "SubnetIdentifier": "SubnetIdentifier",
+                        "SubnetAvailabilityZone": {
+                            "Name": "Name",
+                            "SupportedPlatforms": [
+                                {
+                                    "Name": "Name"
+                                }
+                            ]
+                        },
+                        "SubnetStatus": "SubnetStatus"
+                    }
+                ],
+                "Tags": [
+                    {
+                        "Key": "Key",
+                        "Value": "Value"
+                    }
+                ],
+                "SupportedClusterIpAddressTypes": [
+                    "String"
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "69f293f41b5d825f53cd3c46b5143b67",
+        "randomized": [
+            {
+                "ClusterSubnetGroupName": "dgaxecssjsazjyxm",
+                "Description": "mtlwdzwkauevjphe",
+                "SubnetGroupStatus": "rtpdwyqinmoqtvce",
+                "Subnets": [
+                    {
+                        "SubnetAvailabilityZone": {
+                            "Name": "repsukuywciyhqkv",
+                            "SupportedPlatforms": [
+                                {
+                                    "Name": "iqcvleypsndkwckd"
+                                }
+                            ]
+                        },
+                        "SubnetIdentifier": "wvcmdejdafdkpayl",
+                        "SubnetStatus": "wubzbxkasfuznkrs"
+                    }
+                ],
+                "SupportedClusterIpAddressTypes": [
+                    "flkuhrlgzsabtdll"
+                ],
+                "Tags": [
+                    {
+                        "Key": "areeljmhgmdrrtbw",
+                        "Value": "qjpdabnnajfwtjwf"
+                    }
+                ],
+                "VpcId": "ndqglkfmgkochory"
+            },
+            {
+                "ClusterSubnetGroupName": "jpovvmzkwwmmsqsm",
+                "Description": "hejuoqzarnepqojj",
+                "SubnetGroupStatus": "rrhblvqcxrkubwlq",
+                "Subnets": [
+                    {
+                        "SubnetAvailabilityZone": {
+                            "Name": "fqbghxpbjozehefp",
+                            "SupportedPlatforms": [
+                                {
+                                    "Name": "mncxgasmolgacpub"
+                                }
+                            ]
+                        },
+                        "SubnetIdentifier": "gmeribipzcukmvxj",
+                        "SubnetStatus": "ogwdaiudzrbmypsh"
+                    }
+                ],
+                "SupportedClusterIpAddressTypes": [
+                    "xabodueabziwicwn"
+                ],
+                "Tags": [
+                    {
+                        "Key": "eaicorioyzfwhufu",
+                        "Value": "iecidjdqzoddknie"
+                    }
+                ],
+                "VpcId": "hxfdsexifeyolioj"
+            },
+            {
+                "ClusterSubnetGroupName": "uflcmlxqjrwpvvom",
+                "Description": "bciskdscmzwptgzv",
+                "SubnetGroupStatus": "rqxjdbxybjejatwb",
+                "Subnets": [
+                    {
+                        "SubnetAvailabilityZone": {
+                            "Name": "rrgfvvsnklmbhzcr",
+                            "SupportedPlatforms": [
+                                {
+                                    "Name": "jiesesrvdmgmxnln"
+                                }
+                            ]
+                        },
+                        "SubnetIdentifier": "cypbrdkqbmkmeaxk",
+                        "SubnetStatus": "oxvsndmroyozpeki"
+                    }
+                ],
+                "SupportedClusterIpAddressTypes": [
+                    "vufkmgisxrsxgpat"
+                ],
+                "Tags": [
+                    {
+                        "Key": "khzmtpbeyibklasn",
+                        "Value": "jushntwiiknrdmgh"
+                    }
+                ],
+                "VpcId": "rhoesjiynnwaemuw"
+            },
+            {
+                "ClusterSubnetGroupName": "bwrwsqnkpjzlbmdo",
+                "Description": "hxglzqbhzqznfjis",
+                "SubnetGroupStatus": "vjnvsxayykblsfqa",
+                "Subnets": [
+                    {
+                        "SubnetAvailabilityZone": {
+                            "Name": "ycfknahtynljuhin",
+                            "SupportedPlatforms": [
+                                {
+                                    "Name": "dxdmvyepaeqvgajm"
+                                }
+                            ]
+                        },
+                        "SubnetIdentifier": "cxmomfqniqyytrrt",
+                        "SubnetStatus": "qwrzbwhyvndsalhj"
+                    }
+                ],
+                "SupportedClusterIpAddressTypes": [
+                    "popwuufxuzxgduii"
+                ],
+                "Tags": [
+                    {
+                        "Key": "sppsqnrxmfcuuflr",
+                        "Value": "hqskwclxhrpxnbnt"
+                    }
+                ],
+                "VpcId": "byrmqvbnpjponkmc"
+            },
+            {
+                "ClusterSubnetGroupName": "fbreeqmkqdnamyez",
+                "Description": "livsydmoqvjkdven",
+                "SubnetGroupStatus": "lzqbwvkqmjnqffff",
+                "Subnets": [
+                    {
+                        "SubnetAvailabilityZone": {
+                            "Name": "viemmaukdrycomij",
+                            "SupportedPlatforms": [
+                                {
+                                    "Name": "ybxukwjssbawwcdx"
+                                }
+                            ]
+                        },
+                        "SubnetIdentifier": "ewqgvqhrvjphhlzc",
+                        "SubnetStatus": "zitverjqgtwsjhok"
+                    }
+                ],
+                "SupportedClusterIpAddressTypes": [
+                    "qemvzcmmfrmzwinn"
+                ],
+                "Tags": [
+                    {
+                        "Key": "ksupetfntygaydoq",
+                        "Value": "bwnavlijnizzjmmo"
+                    }
+                ],
+                "VpcId": "wtgfokxybdmfslve"
+            },
+            {
+                "ClusterSubnetGroupName": "qqoyvndfgrlwiyxd",
+                "Description": "ftgpblajaodrjkwc",
+                "SubnetGroupStatus": "sgszjrcrhnoeiuxd",
+                "Subnets": [
+                    {
+                        "SubnetAvailabilityZone": {
+                            "Name": "xmmiglvnyzfyojyb",
+                            "SupportedPlatforms": [
+                                {
+                                    "Name": "vqhpqixncsssarqm"
+                                }
+                            ]
+                        },
+                        "SubnetIdentifier": "nniyutsziwicfwvh",
+                        "SubnetStatus": "vewqsnxuhvdrvspg"
+                    }
+                ],
+                "SupportedClusterIpAddressTypes": [
+                    "nuxnsvsqzmcyueot"
+                ],
+                "Tags": [
+                    {
+                        "Key": "bcmynrecyvjikglj",
+                        "Value": "fenfpcycbfytbtgf"
+                    }
+                ],
+                "VpcId": "sztkvsfcetrlkwgs"
+            },
+            {
+                "ClusterSubnetGroupName": "ldjrwclykxanrdxn",
+                "Description": "vcrfwlzdgnzzvcqs",
+                "SubnetGroupStatus": "qzejxttrzusevfqv",
+                "Subnets": [
+                    {
+                        "SubnetAvailabilityZone": {
+                            "Name": "ambgmyumyrhpsmhn",
+                            "SupportedPlatforms": [
+                                {
+                                    "Name": "igcfefpivfvxloul"
+                                }
+                            ]
+                        },
+                        "SubnetIdentifier": "uuafrytfuqantyns",
+                        "SubnetStatus": "fnecvawcvzymylrl"
+                    }
+                ],
+                "SupportedClusterIpAddressTypes": [
+                    "mlvlbvvamzzvkxoy"
+                ],
+                "Tags": [
+                    {
+                        "Key": "uewlzaozcipivgwq",
+                        "Value": "yklhdktbgwvvpwuy"
+                    }
+                ],
+                "VpcId": "mbsssmjuyvzfmjkk"
+            },
+            {
+                "ClusterSubnetGroupName": "qscltccyhuyukkgi",
+                "Description": "pwjapbzddiqhqkyy",
+                "SubnetGroupStatus": "xwdgfokvdskfknqd",
+                "Subnets": [
+                    {
+                        "SubnetAvailabilityZone": {
+                            "Name": "ymvdprkstehkrald",
+                            "SupportedPlatforms": [
+                                {
+                                    "Name": "dqxayknwqclgucoh"
+                                }
+                            ]
+                        },
+                        "SubnetIdentifier": "bqeoehibjwmsergs",
+                        "SubnetStatus": "lyxblphdzsjaejpp"
+                    }
+                ],
+                "SupportedClusterIpAddressTypes": [
+                    "drdddpxfbmdnkrmt"
+                ],
+                "Tags": [
+                    {
+                        "Key": "jsjqzafqlvmghwsx",
+                        "Value": "xpwkfbrmkhvfqtaz"
+                    }
+                ],
+                "VpcId": "glfyoupgxaljjkzo"
+            },
+            {
+                "ClusterSubnetGroupName": "qcmoburqjpxpyipz",
+                "Description": "igniyiwtgawyzzgy",
+                "SubnetGroupStatus": "rbgwbpmnretdbunp",
+                "Subnets": [
+                    {
+                        "SubnetAvailabilityZone": {
+                            "Name": "dldxcduyjzuxqcfz",
+                            "SupportedPlatforms": [
+                                {
+                                    "Name": "werjidyvgbsyarko"
+                                }
+                            ]
+                        },
+                        "SubnetIdentifier": "oeuwlmntnmxnbbis",
+                        "SubnetStatus": "mszqxgcgvwbauglc"
+                    }
+                ],
+                "SupportedClusterIpAddressTypes": [
+                    "dqbrzcizcxngquhu"
+                ],
+                "Tags": [
+                    {
+                        "Key": "wriyqylprgdikdcu",
+                        "Value": "bmhyskcumdbaiqng"
+                    }
+                ],
+                "VpcId": "qpzxlaotfobgbzyl"
+            },
+            {
+                "ClusterSubnetGroupName": "jlpanparfrmtlxfe",
+                "Description": "qqyzjdcwshiwlzsx",
+                "SubnetGroupStatus": "uktskoqukpedldqr",
+                "Subnets": [
+                    {
+                        "SubnetAvailabilityZone": {
+                            "Name": "jnveealpilxplmwk",
+                            "SupportedPlatforms": [
+                                {
+                                    "Name": "frukzerkeimqjrms"
+                                }
+                            ]
+                        },
+                        "SubnetIdentifier": "qfqdamwvudbmwvxd",
+                        "SubnetStatus": "wbznmvrpkhtjfjfu"
+                    }
+                ],
+                "SupportedClusterIpAddressTypes": [
+                    "fppufmelicbptdmv"
+                ],
+                "Tags": [
+                    {
+                        "Key": "ntcwbbsynevdjooj",
+                        "Value": "miholbodlqvlsgju"
+                    }
+                ],
+                "VpcId": "bgrfrpoqukppasyo"
+            }
+        ],
+        "result_key": "ClusterSubnetGroups"
+    },
+    "meta": {
+        "start": 1711116422.167044,
+        "end": 1711116428.886288,
+        "duration": 6.719254970550537,
+        "service": "redshift",
+        "type": "cluster_subnet_groups"
+    }
+}

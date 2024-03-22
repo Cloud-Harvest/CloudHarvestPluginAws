@@ -1,0 +1,11 @@
+[
+    "appfabric.get-app-authorization",
+    "appfabric.get-app-bundle",
+    "appfabric.get-ingestion",
+    "appfabric.get-ingestion-destination",
+    "appfabric.list-app-authorizations",
+    "appfabric.list-app-bundles",
+    "appfabric.list-ingestion-destinations",
+    "appfabric.list-ingestions",
+    "appfabric.list-tags-for-resource"
+]

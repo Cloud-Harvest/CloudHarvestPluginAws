@@ -1,0 +1,34 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "get_notification_channel",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": "SnsTopicArn",
+        "required": [],
+        "md5": "90da5a86d8b41793b9b5a54deb7d5500",
+        "randomized": [
+            "jyfsipuvkdeaqgmn",
+            "qdfmhyfyyucjifsk",
+            "xhiziavwoswcuknc",
+            "mapzvsouwozqdodw",
+            "owbonfitbotwiopb",
+            "mkejbwtkommlkaxd",
+            "cbgonnvuqqdvrvjr",
+            "fzsfkaihotfxfcle",
+            "ecupygvmaumdfsyu",
+            "nenblrtgympvhmkm"
+        ],
+        "result_key": "SnsTopicArn"
+    },
+    "meta": {
+        "start": 1711115770.748339,
+        "end": 1711115778.426086,
+        "duration": 7.677760124206543,
+        "service": "fms",
+        "type": null
+    }
+}

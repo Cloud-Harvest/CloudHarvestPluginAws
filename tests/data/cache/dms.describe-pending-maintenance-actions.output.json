@@ -1,0 +1,180 @@
+{
+    "input": {
+        "template": {
+            "ReplicationInstanceArn": "",
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "Marker": "",
+            "MaxRecords": 0
+        },
+        "required": [],
+        "md5": "670dff2e55da7240acd3a278f294c7c9",
+        "boto_command": "describe_pending_maintenance_actions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "ResourceIdentifier": "ResourceIdentifier",
+                "PendingMaintenanceActionDetails": [
+                    {
+                        "Action": "Action",
+                        "AutoAppliedAfterDate": "1970-01-01T00:00:00",
+                        "ForcedApplyDate": "1970-01-01T00:00:00",
+                        "OptInStatus": "OptInStatus",
+                        "CurrentApplyDate": "1970-01-01T00:00:00",
+                        "Description": "Description"
+                    }
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "c94b3536b065954c9b37e0f643fb6817",
+        "randomized": [
+            {
+                "PendingMaintenanceActionDetails": [
+                    {
+                        "Action": "gzqyqdfwbjijxsbe",
+                        "AutoAppliedAfterDate": "fflfossijfoyuowq",
+                        "CurrentApplyDate": "sjpuljfqzapajtfu",
+                        "Description": "fhurcxevcynacxzi",
+                        "ForcedApplyDate": "rixgkgpwhebuyhwc",
+                        "OptInStatus": "qpfmxvytoycxghxh"
+                    }
+                ],
+                "ResourceIdentifier": "hmokrvrqpbnhlyfg"
+            },
+            {
+                "PendingMaintenanceActionDetails": [
+                    {
+                        "Action": "xjrfyzmwbetasuva",
+                        "AutoAppliedAfterDate": "qtauyxgbqodipqmb",
+                        "CurrentApplyDate": "gdczxxlvcsueuhsk",
+                        "Description": "lxyjvogpkncwbges",
+                        "ForcedApplyDate": "wedrjixgiijhsrrf",
+                        "OptInStatus": "smhhpmcdpseswbps"
+                    }
+                ],
+                "ResourceIdentifier": "lxpwhajhsocdpxwo"
+            },
+            {
+                "PendingMaintenanceActionDetails": [
+                    {
+                        "Action": "nbdmaxseydztefvo",
+                        "AutoAppliedAfterDate": "qpjobnhgylevzlim",
+                        "CurrentApplyDate": "dznnfltjnfjfwgvj",
+                        "Description": "umwjqkftbcblosws",
+                        "ForcedApplyDate": "jmfkcvfktwrbzddr",
+                        "OptInStatus": "vfbfdhtbjlkftdrj"
+                    }
+                ],
+                "ResourceIdentifier": "wqlaegwpykdvyrju"
+            },
+            {
+                "PendingMaintenanceActionDetails": [
+                    {
+                        "Action": "qhwdkrjenmwljjfi",
+                        "AutoAppliedAfterDate": "fbrkhhnjyizhpeiq",
+                        "CurrentApplyDate": "zzhcczbyhckjdtqf",
+                        "Description": "oghcgwknurnbpjww",
+                        "ForcedApplyDate": "dulyommkvkhtvlge",
+                        "OptInStatus": "ckrwwziibemfyhhm"
+                    }
+                ],
+                "ResourceIdentifier": "lamjlcauvuktogha"
+            },
+            {
+                "PendingMaintenanceActionDetails": [
+                    {
+                        "Action": "vxplvjzjkzipgeno",
+                        "AutoAppliedAfterDate": "rtysavtmkfmduvgr",
+                        "CurrentApplyDate": "hbvmismfycqgawzp",
+                        "Description": "qesclfknswgogsrz",
+                        "ForcedApplyDate": "oogqekxjsmdbmyde",
+                        "OptInStatus": "hhbiynawrmqhlcke"
+                    }
+                ],
+                "ResourceIdentifier": "saoymremmefankbb"
+            },
+            {
+                "PendingMaintenanceActionDetails": [
+                    {
+                        "Action": "hfhccvcyczgxcyqw",
+                        "AutoAppliedAfterDate": "bzgmhnzyqbytxxnj",
+                        "CurrentApplyDate": "dxkcdjwlkepkmrxc",
+                        "Description": "wgrthvhbgteayvxv",
+                        "ForcedApplyDate": "pkfwsimninxbpeku",
+                        "OptInStatus": "bthxqchuzeyabcah"
+                    }
+                ],
+                "ResourceIdentifier": "vjggygmivvhkthnn"
+            },
+            {
+                "PendingMaintenanceActionDetails": [
+                    {
+                        "Action": "fjdqeovyafpzeokc",
+                        "AutoAppliedAfterDate": "wsemmuonesdnzsxa",
+                        "CurrentApplyDate": "dadjwedthgvfwhgp",
+                        "Description": "jewcsaalzczomwpr",
+                        "ForcedApplyDate": "mjwdhspevugknlct",
+                        "OptInStatus": "rhaldfafrixzxyuc"
+                    }
+                ],
+                "ResourceIdentifier": "cpciiwtthrtaxaux"
+            },
+            {
+                "PendingMaintenanceActionDetails": [
+                    {
+                        "Action": "svxpaoesejzjxkza",
+                        "AutoAppliedAfterDate": "igiycptbsszpiaom",
+                        "CurrentApplyDate": "grgmazktehfcppjv",
+                        "Description": "vplrxzbecbpncvxi",
+                        "ForcedApplyDate": "ogfgyoitqmuhfkyb",
+                        "OptInStatus": "bhbrfueclqkagnnf"
+                    }
+                ],
+                "ResourceIdentifier": "oogeyopeuumiagqr"
+            },
+            {
+                "PendingMaintenanceActionDetails": [
+                    {
+                        "Action": "yssdjiaefaoywygr",
+                        "AutoAppliedAfterDate": "adczofljyvuoveuf",
+                        "CurrentApplyDate": "wavrfgjwrppjtvps",
+                        "Description": "zdzkxrcxxevntzuk",
+                        "ForcedApplyDate": "oiswgeuncegqallk",
+                        "OptInStatus": "sadianucwxcvqstm"
+                    }
+                ],
+                "ResourceIdentifier": "ifsyqddktwihynpm"
+            },
+            {
+                "PendingMaintenanceActionDetails": [
+                    {
+                        "Action": "nabrvldtjhvarjbl",
+                        "AutoAppliedAfterDate": "dhhmejgqdqwbyxee",
+                        "CurrentApplyDate": "arzgvtvgtcrkfiop",
+                        "Description": "scwhlwpsridaztbx",
+                        "ForcedApplyDate": "emhwvpqyyzgakbhz",
+                        "OptInStatus": "fngznrduabukwima"
+                    }
+                ],
+                "ResourceIdentifier": "lxwguvljpsoghnbl"
+            }
+        ],
+        "result_key": "PendingMaintenanceActions"
+    },
+    "meta": {
+        "start": 1711115580.250409,
+        "end": 1711115586.38797,
+        "duration": 6.1375720500946045,
+        "service": "dms",
+        "type": "pending_maintenance_actions"
+    }
+}

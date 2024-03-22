@@ -1,0 +1,78 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "get_policy",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": {
+            "HttpInputs": "HttpInputs",
+            "HttpsInputs": "HttpsInputs",
+            "S3Inputs": "S3Inputs"
+        },
+        "required": [],
+        "md5": "3bbb9decf1f2a1d5048fc70381d8463c",
+        "randomized": [
+            {
+                "HttpInputs": "vjjqcuhcbpvbzcjp",
+                "HttpsInputs": "fdupyixqjzesjuvk",
+                "S3Inputs": "wlutcovwzglxowhp"
+            },
+            {
+                "HttpInputs": "nykxepdvmoyyblbv",
+                "HttpsInputs": "gjcjkjrlfnewadko",
+                "S3Inputs": "gkdwptznsyphgucw"
+            },
+            {
+                "HttpInputs": "xrifgcjhbbszyarn",
+                "HttpsInputs": "ewuqegutpkqvxwsf",
+                "S3Inputs": "hvgosbrumrtrywfa"
+            },
+            {
+                "HttpInputs": "kmtrcuwzbbahwywr",
+                "HttpsInputs": "jtxuuxihoqlwroap",
+                "S3Inputs": "csdgqudamzxmlfza"
+            },
+            {
+                "HttpInputs": "lwjvplfsdiyfwshd",
+                "HttpsInputs": "irreadnyuizckdvo",
+                "S3Inputs": "lbymjekdlexpizxp"
+            },
+            {
+                "HttpInputs": "gbnmxzmkkuzpfwfm",
+                "HttpsInputs": "lbxseftvwcaxencr",
+                "S3Inputs": "hffbxrstdgrabylf"
+            },
+            {
+                "HttpInputs": "przawtrrrtzefzxy",
+                "HttpsInputs": "guhxhdpvnshbrwte",
+                "S3Inputs": "dtaxihtahxylsihu"
+            },
+            {
+                "HttpInputs": "nydegsvlfeyhveht",
+                "HttpsInputs": "xgeproepgcqtfdhr",
+                "S3Inputs": "mzanmrisiaujstig"
+            },
+            {
+                "HttpInputs": "iprpphrkwpppskir",
+                "HttpsInputs": "rtomimonquguhgzx",
+                "S3Inputs": "qvvwkyhlzamenesa"
+            },
+            {
+                "HttpInputs": "bxndcfkufamajdqm",
+                "HttpsInputs": "lohkjubmobkehjqf",
+                "S3Inputs": "ggbcvkwlwbkoqmvg"
+            }
+        ],
+        "result_key": "Policy"
+    },
+    "meta": {
+        "start": 1711116168.197836,
+        "end": 1711116174.924499,
+        "duration": 6.726673126220703,
+        "service": "mediaconvert",
+        "type": null
+    }
+}

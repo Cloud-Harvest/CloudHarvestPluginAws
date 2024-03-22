@@ -1,0 +1,127 @@
+{
+    "input": {
+        "template": {
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "required": [],
+        "md5": "42475be96651ddb5d57c459989595380",
+        "boto_command": "list_attribute_groups",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "id": "id",
+                "arn": "arn",
+                "name": "name",
+                "description": "description",
+                "creationTime": "1970-01-01T00:00:00",
+                "lastUpdateTime": "1970-01-01T00:00:00",
+                "createdBy": "createdBy"
+            }
+        ],
+        "required": [],
+        "md5": "70a6cae1d35af994f7e6ded763cb42aa",
+        "randomized": [
+            {
+                "arn": "hrdqwfoftfalzyll",
+                "createdBy": "mznrrqxlctmvpbce",
+                "creationTime": "ajziklugilmmwjwj",
+                "description": "kusncvryaoinynbm",
+                "id": "jeuvxaqsfbpjwoeg",
+                "lastUpdateTime": "dctwumykoynaqeuy",
+                "name": "ssjzncrzwpnlbxme"
+            },
+            {
+                "arn": "figynieweqhycpyu",
+                "createdBy": "iyfshimbyiovbhxs",
+                "creationTime": "slsmaaiytznaqqhe",
+                "description": "mmtkdoztojqzihpd",
+                "id": "dilhxdsqovjwafuw",
+                "lastUpdateTime": "juiylgonftgjbvnk",
+                "name": "dojekdriaqrrzoxq"
+            },
+            {
+                "arn": "eahpywbqwswvbnaw",
+                "createdBy": "zqnipjxgfnxxsexo",
+                "creationTime": "umvzzqwodawmixmi",
+                "description": "tvyabcgdcmeacmig",
+                "id": "ywrzkzzfvshxuuhi",
+                "lastUpdateTime": "hxhixtobaobtqctj",
+                "name": "amljqzzwgyhjrcxu"
+            },
+            {
+                "arn": "oljmxwyuvufhxqkd",
+                "createdBy": "elmxzjcilokzxhek",
+                "creationTime": "bsxbhzxlingdhgad",
+                "description": "jesmepfrllxdrihf",
+                "id": "qtldqxkaotoafoeu",
+                "lastUpdateTime": "cxuibwmpghtohhmf",
+                "name": "lcbnfykxyibpknwo"
+            },
+            {
+                "arn": "ecxznxvipvckxuwr",
+                "createdBy": "injsplbgruwdndnk",
+                "creationTime": "cuviausdorrltiup",
+                "description": "qnvkeifpvbqcsglk",
+                "id": "ixugtjokumtdlrhx",
+                "lastUpdateTime": "jeputtaeqhreacfr",
+                "name": "wdakwgxxpzqmcejm"
+            },
+            {
+                "arn": "gvwlfkgdhactjtom",
+                "createdBy": "aymfyuhbmuemlcer",
+                "creationTime": "eeqwmttsitwtcdko",
+                "description": "rsdfmgsgnomxvkpv",
+                "id": "omiotomrboqsinrf",
+                "lastUpdateTime": "yhrtbjimbdqbekbg",
+                "name": "kaghuaxrrhsemlxu"
+            },
+            {
+                "arn": "gsijdpikoudgjoqd",
+                "createdBy": "guexpzzuetjzztsl",
+                "creationTime": "iofqwrobfidilcev",
+                "description": "cvaojvobjrnctvba",
+                "id": "mdigevgvcksofugn",
+                "lastUpdateTime": "xxpbnhbrxbuwvast",
+                "name": "ynlhqaxcjiuxpvum"
+            },
+            {
+                "arn": "werdyitvmxysvmrq",
+                "createdBy": "mdodjlhrgmfpglze",
+                "creationTime": "iyecghsyghodjwah",
+                "description": "ejywztpmpeyoperg",
+                "id": "lldkdvhbaibuarim",
+                "lastUpdateTime": "asxzquycftutyszx",
+                "name": "gvaxsayadcgarfkf"
+            },
+            {
+                "arn": "jmouuzhyixzajawm",
+                "createdBy": "unarqesexymukdsp",
+                "creationTime": "ofyygvegiemwbdzc",
+                "description": "lvwnauzaublgfasn",
+                "id": "xnpuicukxrqbxycp",
+                "lastUpdateTime": "zydyawjzgymxvlrl",
+                "name": "ukvrlotmwsolwtvg"
+            },
+            {
+                "arn": "rlwaircjuyylerxf",
+                "createdBy": "kmrixmfmlvqfpjvn",
+                "creationTime": "jywppbnzuehxefuz",
+                "description": "cdvmmwkxnfpmhmxf",
+                "id": "igyvhewfjubugzqg",
+                "lastUpdateTime": "oikqbhmzzzimblhq",
+                "name": "errvqgdmfxcmgcys"
+            }
+        ],
+        "result_key": "attributeGroups"
+    },
+    "meta": {
+        "start": 1711116610.822453,
+        "end": 1711116617.928185,
+        "duration": 7.105743885040283,
+        "service": "servicecatalog-appregistry",
+        "type": "attribute_groups"
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "required": [],
+        "md5": "2620fedaf24e984a8f801d0beb17a6e7",
+        "boto_command": "list_workloads",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "displayName": "displayName",
+                "workloadName": "workloadName"
+            }
+        ],
+        "required": [],
+        "md5": "6b09186011092deed566000fb7232acf",
+        "randomized": [
+            {
+                "displayName": "gtafdozvravfnxqh",
+                "workloadName": "nuugayhcjnyfrjip"
+            },
+            {
+                "displayName": "ezhjezuvfgdsifgb",
+                "workloadName": "lkwzkyzzqjrdqfpq"
+            },
+            {
+                "displayName": "kuoxwutzdbhwnfje",
+                "workloadName": "badesohbubbdthma"
+            },
+            {
+                "displayName": "lzvuptcceiefmffb",
+                "workloadName": "powsxqszchdrxrtd"
+            },
+            {
+                "displayName": "pzkkydmvgkedwlbz",
+                "workloadName": "dxyaueyxodjjgfqw"
+            },
+            {
+                "displayName": "pftkhwlmkxgpullh",
+                "workloadName": "gqjtwrwsshhvutgy"
+            },
+            {
+                "displayName": "ksfmggyoburxttmq",
+                "workloadName": "gnledfjokywlskjd"
+            },
+            {
+                "displayName": "rmknrvusipialeyf",
+                "workloadName": "ycatopglaylaaxyj"
+            },
+            {
+                "displayName": "dwretpcbnfjphbjc",
+                "workloadName": "grjcqirppmmikvei"
+            },
+            {
+                "displayName": "qxxiglwavqbmxcuh",
+                "workloadName": "doevateodfvnvxoq"
+            }
+        ],
+        "result_key": "workloads"
+    },
+    "meta": {
+        "start": 1711116061.323306,
+        "end": 1711116069.94878,
+        "duration": 8.625485897064209,
+        "service": "launch-wizard",
+        "type": "workloads"
+    }
+}

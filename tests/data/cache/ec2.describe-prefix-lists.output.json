@@ -1,0 +1,117 @@
+{
+    "input": {
+        "template": {
+            "DryRun": true,
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxResults": 0,
+            "NextToken": "",
+            "PrefixListIds": [
+                ""
+            ]
+        },
+        "required": [],
+        "md5": "795f769c1db977bd7d84504726b4379c",
+        "boto_command": "describe_prefix_lists",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "Cidrs": [
+                    "String"
+                ],
+                "PrefixListId": "PrefixListId",
+                "PrefixListName": "PrefixListName"
+            }
+        ],
+        "required": [],
+        "md5": "6402c55964ba266de3a12c3bc36ebd38",
+        "randomized": [
+            {
+                "Cidrs": [
+                    "mucchdmfpudqrpll"
+                ],
+                "PrefixListId": "jhhytndqpewgnqmh",
+                "PrefixListName": "esvovamgknouckqo"
+            },
+            {
+                "Cidrs": [
+                    "ollxyqhgxvwfyhal"
+                ],
+                "PrefixListId": "lbuwizujpkjboofn",
+                "PrefixListName": "dfmaegrsjsodrqul"
+            },
+            {
+                "Cidrs": [
+                    "kdhpmypstiiaqzrh"
+                ],
+                "PrefixListId": "ykllxzeijhgtbzhk",
+                "PrefixListName": "cnrscnxyotgttgjm"
+            },
+            {
+                "Cidrs": [
+                    "oqcurbgpazrtnaxz"
+                ],
+                "PrefixListId": "wifpduhvkradrgeq",
+                "PrefixListName": "gjqurrjgtztcsjol"
+            },
+            {
+                "Cidrs": [
+                    "wntaornqhpxmmaie"
+                ],
+                "PrefixListId": "supeahocsjxwnnfa",
+                "PrefixListName": "gyxhrugrofwkacyv"
+            },
+            {
+                "Cidrs": [
+                    "bwhnsxowlplrsdar"
+                ],
+                "PrefixListId": "qibepfqpkntiookq",
+                "PrefixListName": "okgpkapkoluphxgx"
+            },
+            {
+                "Cidrs": [
+                    "pojhtramhdjrjvuz"
+                ],
+                "PrefixListId": "zmzpelvuffxfgysv",
+                "PrefixListName": "xjejokaiogdxgxxf"
+            },
+            {
+                "Cidrs": [
+                    "tljuifymvwxjotti"
+                ],
+                "PrefixListId": "yvedcyuzlxoyzbis",
+                "PrefixListName": "ttdphwjbetpniqvs"
+            },
+            {
+                "Cidrs": [
+                    "fwioztxssrwyiplt"
+                ],
+                "PrefixListId": "oosgpdfdbbfadqas",
+                "PrefixListName": "rgzfrwgwvkjhzahb"
+            },
+            {
+                "Cidrs": [
+                    "nfpyiasczadvacqy"
+                ],
+                "PrefixListId": "nrnznstpxdqsutcl",
+                "PrefixListName": "qfqoutuyhgfnvcdx"
+            }
+        ],
+        "result_key": "PrefixLists"
+    },
+    "meta": {
+        "start": 1711115642.102881,
+        "end": 1711115647.955146,
+        "duration": 5.85227108001709,
+        "service": "ec2",
+        "type": "prefix_lists"
+    }
+}

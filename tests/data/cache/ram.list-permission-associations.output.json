@@ -1,0 +1,144 @@
+{
+    "input": {
+        "template": {
+            "permissionArn": "",
+            "permissionVersion": 0,
+            "associationStatus": "ASSOCIATING",
+            "resourceType": "",
+            "featureSet": "CREATED_FROM_POLICY",
+            "defaultVersion": true,
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "required": [],
+        "md5": "8d7e7b25c4385cf6a4c0bbb22d7e9d70",
+        "boto_command": "list_permission_associations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "arn": "arn",
+                "permissionVersion": "permissionVersion",
+                "defaultVersion": true,
+                "resourceType": "resourceType",
+                "status": "status",
+                "featureSet": "featureSet",
+                "lastUpdatedTime": "1970-01-01T00:00:00",
+                "resourceShareArn": "resourceShareArn"
+            }
+        ],
+        "required": [],
+        "md5": "e1e0f7728dd2db9b3dc13084acc0269b",
+        "randomized": [
+            {
+                "arn": "sqzhxybhquedsbal",
+                "defaultVersion": true,
+                "featureSet": "gagkgqmctbccutou",
+                "lastUpdatedTime": "hyvfhirklifmqliy",
+                "permissionVersion": "vcnzpzdtflugmequ",
+                "resourceShareArn": "zxidthuqwmvlyiuz",
+                "resourceType": "cjuadkbcietimiwn",
+                "status": "xnkscfdsyxwajnfg"
+            },
+            {
+                "arn": "drvovuyqlgnmmmpg",
+                "defaultVersion": true,
+                "featureSet": "akxpmguqopbkxxqz",
+                "lastUpdatedTime": "ezqltoftknhgaaar",
+                "permissionVersion": "phpvknirupxvslqn",
+                "resourceShareArn": "ttewnegwzxyiicwt",
+                "resourceType": "qxbuovkuwnncwaji",
+                "status": "mgoxfddqnufyhyuc"
+            },
+            {
+                "arn": "locejcvwhaitjctw",
+                "defaultVersion": true,
+                "featureSet": "ubmrxygdctzehfhe",
+                "lastUpdatedTime": "llstaqujoiybnuws",
+                "permissionVersion": "pmwdgupmrdzpjkqa",
+                "resourceShareArn": "bsnvxvtesiopulht",
+                "resourceType": "pfcdxsajsxasqjfr",
+                "status": "baysfeypgkwwodrj"
+            },
+            {
+                "arn": "wdlesgqxyrjlbope",
+                "defaultVersion": true,
+                "featureSet": "lsaerhyfimwtgrzf",
+                "lastUpdatedTime": "vmjjjuhhzotppvgw",
+                "permissionVersion": "yocspkmvachliptg",
+                "resourceShareArn": "hohllazescclfgiu",
+                "resourceType": "pibnbbfnsnrbcerk",
+                "status": "bxodlpyzdkdnvxar"
+            },
+            {
+                "arn": "docnkbgektqhygxq",
+                "defaultVersion": true,
+                "featureSet": "hkkurjkkqdxutams",
+                "lastUpdatedTime": "mfpintjgascexeju",
+                "permissionVersion": "umleszynsjprbgmw",
+                "resourceShareArn": "ozpbaosnzlphqazj",
+                "resourceType": "kekntkoyoypomtgo",
+                "status": "xymnuucepdfimnku"
+            },
+            {
+                "arn": "kzlwbixjxwvwxocj",
+                "defaultVersion": true,
+                "featureSet": "cyzxbenkufvcoxge",
+                "lastUpdatedTime": "thpktjqzvqfkaeks",
+                "permissionVersion": "tpwvptrssqstlxci",
+                "resourceShareArn": "fessfwojhtilyrfl",
+                "resourceType": "ewmlkengjyexuqcw",
+                "status": "syjmjfkypzqhlqck"
+            },
+            {
+                "arn": "pzuqhejadnymxjau",
+                "defaultVersion": true,
+                "featureSet": "maojltqbqgemtgfh",
+                "lastUpdatedTime": "kdkvronnoblrgqsb",
+                "permissionVersion": "owoechydfsrlvzdl",
+                "resourceShareArn": "insuefamuhyvkjgu",
+                "resourceType": "fertmugacptlpntf",
+                "status": "aajzawpxzpisahug"
+            },
+            {
+                "arn": "mordjodigizattkb",
+                "defaultVersion": true,
+                "featureSet": "vzaovqgnaygntwys",
+                "lastUpdatedTime": "wzyhjrnjgawqfpgh",
+                "permissionVersion": "uwkejuaiswhmfpox",
+                "resourceShareArn": "clkwbulfjudhtogw",
+                "resourceType": "nsfcwsbwbcsbntcu",
+                "status": "ifdvxagpclbvetnx"
+            },
+            {
+                "arn": "nduoagixehpinfak",
+                "defaultVersion": true,
+                "featureSet": "sglbzvntayeprwxq",
+                "lastUpdatedTime": "jdrwxvmrixlkglvf",
+                "permissionVersion": "mzzxxzbawxbuxfbw",
+                "resourceShareArn": "sexvyebovgqxbsse",
+                "resourceType": "mgfhrlrsbjvlhqld",
+                "status": "kwskpwkoyzmuqycb"
+            },
+            {
+                "arn": "qduuytlibkfzduma",
+                "defaultVersion": true,
+                "featureSet": "xitjhpwbxdldnvmj",
+                "lastUpdatedTime": "nqmrdtpnavaikvxv",
+                "permissionVersion": "olnyckjrumurpvxq",
+                "resourceShareArn": "kbkxofwawgmduimo",
+                "resourceType": "lckfiydsdxditcrp",
+                "status": "mceelvropuxforlb"
+            }
+        ],
+        "result_key": "permissions"
+    },
+    "meta": {
+        "start": 1711116399.356073,
+        "end": 1711116406.335855,
+        "duration": 6.979793071746826,
+        "service": "ram",
+        "type": "permission_associations"
+    }
+}

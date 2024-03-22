@@ -1,0 +1,72 @@
+{
+    "input": {
+        "template": {
+            "Marker": "",
+            "PageSize": 0
+        },
+        "required": [],
+        "md5": "332df6e89a66d115ca667c10618fba73",
+        "boto_command": "describe_account_limits",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "Name": "Name",
+                "Max": "Max"
+            }
+        ],
+        "required": [],
+        "md5": "3d39a378ba0617c6785d80a2c21bd8a9",
+        "randomized": [
+            {
+                "Max": "fefgmuwlcpnnepuq",
+                "Name": "lhyhvsvvcvnxfumt"
+            },
+            {
+                "Max": "evnaudntnrxdopxz",
+                "Name": "hsvnqbmhtzpecuoo"
+            },
+            {
+                "Max": "fqcmlffgfoewivjd",
+                "Name": "ndykiyulzjkxyqup"
+            },
+            {
+                "Max": "bhtspbdvlabcexlr",
+                "Name": "vqgdfafgqacunfpm"
+            },
+            {
+                "Max": "kqupseelqtaaouyo",
+                "Name": "uhutifawwyrlwgvc"
+            },
+            {
+                "Max": "mnlbmhcktanceqdi",
+                "Name": "fpcdbkqhxlfwrlmf"
+            },
+            {
+                "Max": "ooftnroqfbottomi",
+                "Name": "wkwlugdrammbibxw"
+            },
+            {
+                "Max": "vxmtojryeelltgko",
+                "Name": "qtvexnzznojiegyw"
+            },
+            {
+                "Max": "kiexmaqlzdztebop",
+                "Name": "afmetbosdorwsddn"
+            },
+            {
+                "Max": "ukrvohqlrwroxvod",
+                "Name": "nbixcnhbsizjdqyo"
+            }
+        ],
+        "result_key": "Limits"
+    },
+    "meta": {
+        "start": 1711115724.317943,
+        "end": 1711115732.246745,
+        "duration": 7.92881178855896,
+        "service": "elbv2",
+        "type": "account_limits"
+    }
+}

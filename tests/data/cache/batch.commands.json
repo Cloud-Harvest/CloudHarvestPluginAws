@@ -1,0 +1,10 @@
+[
+    "batch.describe-compute-environments",
+    "batch.describe-job-definitions",
+    "batch.describe-job-queues",
+    "batch.describe-jobs",
+    "batch.describe-scheduling-policies",
+    "batch.list-jobs",
+    "batch.list-scheduling-policies",
+    "batch.list-tags-for-resource"
+]

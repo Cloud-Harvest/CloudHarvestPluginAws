@@ -1,0 +1,84 @@
+{
+    "input": {
+        "template": {
+            "registryIds": [
+                ""
+            ]
+        },
+        "required": [],
+        "md5": "f9261bcbede24ad77cd62a0178869237",
+        "boto_command": "get_authorization_token",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "authorizationToken": "authorizationToken",
+                "expiresAt": "1970-01-01T00:00:00",
+                "proxyEndpoint": "proxyEndpoint"
+            }
+        ],
+        "required": [],
+        "md5": "83df61c1c67cc43db0965b77d11751b8",
+        "randomized": [
+            {
+                "authorizationToken": "xbnmbvtayqvoknrd",
+                "expiresAt": "mvsikheucwzltqkw",
+                "proxyEndpoint": "gxkznjuzndlapcsi"
+            },
+            {
+                "authorizationToken": "hxyiwokxfszvwxaa",
+                "expiresAt": "bqjvhnqihjdcjhpy",
+                "proxyEndpoint": "stvmejkifwaxussh"
+            },
+            {
+                "authorizationToken": "vejabseeiysdstup",
+                "expiresAt": "porundmcsxxexazl",
+                "proxyEndpoint": "lrtnvfuyyxvdfsab"
+            },
+            {
+                "authorizationToken": "gfjbqyuvrsvtveod",
+                "expiresAt": "yalzhpdcenzbrijy",
+                "proxyEndpoint": "bwdgphdpfgofghyc"
+            },
+            {
+                "authorizationToken": "labtquluydwrptrw",
+                "expiresAt": "ejvbktxtogfnjjgj",
+                "proxyEndpoint": "mwirnqnijvtnlxnf"
+            },
+            {
+                "authorizationToken": "qupoqjfmremyodya",
+                "expiresAt": "fxozempxixbcrxzu",
+                "proxyEndpoint": "vdswjwqvvkrdbjrm"
+            },
+            {
+                "authorizationToken": "ebxnbfmmatwgptco",
+                "expiresAt": "cncochpuzjxqukvc",
+                "proxyEndpoint": "pmsbxhdgsqheklaq"
+            },
+            {
+                "authorizationToken": "rowlesjaardzyepr",
+                "expiresAt": "cbwxanlyasjutitw",
+                "proxyEndpoint": "pbrhfyofsbbiwvne"
+            },
+            {
+                "authorizationToken": "hdwmbzntoxstinmr",
+                "expiresAt": "jcqwqiyulejvjykm",
+                "proxyEndpoint": "fbhcobnfrmoucjgj"
+            },
+            {
+                "authorizationToken": "iktmtzpobrvomcjb",
+                "expiresAt": "ezaksexkqjatknrm",
+                "proxyEndpoint": "babbrxmmlbuuvphw"
+            }
+        ],
+        "result_key": "authorizationData"
+    },
+    "meta": {
+        "start": 1711115685.062678,
+        "end": 1711115691.181664,
+        "duration": 6.118996858596802,
+        "service": "ecr",
+        "type": null
+    }
+}

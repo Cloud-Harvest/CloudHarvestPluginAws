@@ -1,0 +1,34 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "get_register_account_status",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": "customerAccountId",
+        "required": [],
+        "md5": "080beddee7e37eb4cd7ec985a7526eff",
+        "randomized": [
+            "jggletfujfrabsbv",
+            "hxsdyabdshmqjfuq",
+            "vxhugiqyicstqeve",
+            "ucfncspbeyvkjtla",
+            "ixyokvtjmvytbitt",
+            "xnchagxmtkahwihh",
+            "cfhacutmjdjamicb",
+            "xyyozdjimgqdepyc",
+            "vsldtxtqiklmnocg",
+            "osrdfjtzbksopijq"
+        ],
+        "result_key": "customerAccountId"
+    },
+    "meta": {
+        "start": 1711115971.124264,
+        "end": 1711115978.072019,
+        "duration": 6.947763919830322,
+        "service": "iotfleetwise",
+        "type": null
+    }
+}

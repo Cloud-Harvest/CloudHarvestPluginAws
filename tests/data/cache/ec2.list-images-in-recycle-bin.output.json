@@ -1,0 +1,109 @@
+{
+    "input": {
+        "template": {
+            "ImageIds": [
+                ""
+            ],
+            "NextToken": "",
+            "MaxResults": 0,
+            "DryRun": true
+        },
+        "required": [],
+        "md5": "b958c850050be5365d56c2fe208e2ea4",
+        "boto_command": "list_images_in_recycle_bin",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "ImageId": "ImageId",
+                "Name": "Name",
+                "Description": "Description",
+                "RecycleBinEnterTime": "1970-01-01T00:00:00",
+                "RecycleBinExitTime": "1970-01-01T00:00:00"
+            }
+        ],
+        "required": [],
+        "md5": "8ee7b3ddd46b04ddde0c1e05401d36e5",
+        "randomized": [
+            {
+                "Description": "yjcpkdjuuowkjdvx",
+                "ImageId": "mcuaoocwentdppbi",
+                "Name": "hrgeqdfbmxoljmby",
+                "RecycleBinEnterTime": "tsuuzfaoyubomkix",
+                "RecycleBinExitTime": "xzdrxnealjvmnvfv"
+            },
+            {
+                "Description": "hvfqlqtixqtnbxib",
+                "ImageId": "dkijrklcqtfvlaox",
+                "Name": "jazhadrhbbaayaxg",
+                "RecycleBinEnterTime": "vwmlonfiykzcmcoc",
+                "RecycleBinExitTime": "yjodfregboeljkne"
+            },
+            {
+                "Description": "vygplnlyimvoyhar",
+                "ImageId": "bufjgebtjseydovk",
+                "Name": "ymnrxpkzwmrpihof",
+                "RecycleBinEnterTime": "uvtizuvuwmjqvjdo",
+                "RecycleBinExitTime": "bruropzrnpxvfiih"
+            },
+            {
+                "Description": "bidsissiusuqmtmp",
+                "ImageId": "dvrfnollsmnfnldq",
+                "Name": "zhejggnxkcektxdd",
+                "RecycleBinEnterTime": "hziktdvskmieqdmj",
+                "RecycleBinExitTime": "vjajuvrixelxjspp"
+            },
+            {
+                "Description": "cnvuvaifpbfsoeft",
+                "ImageId": "ntsttwizuxsakxjc",
+                "Name": "eadkdmucovfxjmcg",
+                "RecycleBinEnterTime": "uuoalpviiicgycrb",
+                "RecycleBinExitTime": "wgnrjiiipramavil"
+            },
+            {
+                "Description": "njcjugttsxxxezli",
+                "ImageId": "xgqiigfbpxgcucsw",
+                "Name": "dihpwzqagzrltqet",
+                "RecycleBinEnterTime": "xejlqkbkvjnvgomp",
+                "RecycleBinExitTime": "mvxwjaejdyxvtoiq"
+            },
+            {
+                "Description": "tbeckfuryjelfsor",
+                "ImageId": "aawumgdindpovazt",
+                "Name": "pmscujlehwbjazfo",
+                "RecycleBinEnterTime": "zaivcecpvglfwikr",
+                "RecycleBinExitTime": "dmvxyoazfbhhpupt"
+            },
+            {
+                "Description": "erxubbyeuwhhbsir",
+                "ImageId": "mxcrmchgiqedxoly",
+                "Name": "fhfqpoaxmdysmgtk",
+                "RecycleBinEnterTime": "bpkraafscldhjgap",
+                "RecycleBinExitTime": "oocgzvblwzkiaumd"
+            },
+            {
+                "Description": "ygygfhfsgbubwffg",
+                "ImageId": "sjmlkyjaiextpeoe",
+                "Name": "jiwwzrvtnvqtryus",
+                "RecycleBinEnterTime": "rpiscrciagukxcef",
+                "RecycleBinExitTime": "nskkcmtwbyfmbhsz"
+            },
+            {
+                "Description": "gkjfpiewpxseyiwm",
+                "ImageId": "eyqulnnyvnctnqso",
+                "Name": "honlbfcwwuklwjah",
+                "RecycleBinEnterTime": "tcuzlinzkrfihboc",
+                "RecycleBinExitTime": "yallgzztxfredgks"
+            }
+        ],
+        "result_key": "Images"
+    },
+    "meta": {
+        "start": 1711115682.042633,
+        "end": 1711115690.792966,
+        "duration": 8.750342845916748,
+        "service": "ec2",
+        "type": "images_in_recycle_bin"
+    }
+}

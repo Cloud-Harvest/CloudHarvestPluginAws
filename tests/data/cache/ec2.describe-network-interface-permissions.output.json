@@ -1,0 +1,160 @@
+{
+    "input": {
+        "template": {
+            "NetworkInterfacePermissionIds": [
+                ""
+            ],
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "0b42cfdd500f2b6d66a28c9a3779e08f",
+        "boto_command": "describe_network_interface_permissions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "NetworkInterfacePermissionId": "NetworkInterfacePermissionId",
+                "NetworkInterfaceId": "NetworkInterfaceId",
+                "AwsAccountId": "AwsAccountId",
+                "AwsService": "AwsService",
+                "Permission": "Permission",
+                "PermissionState": {
+                    "State": "State",
+                    "StatusMessage": "StatusMessage"
+                }
+            }
+        ],
+        "required": [],
+        "md5": "d3f88aaa11aaf9ebfa98aca6d2e94fac",
+        "randomized": [
+            {
+                "AwsAccountId": "zkltwfnaqwxmkoba",
+                "AwsService": "vmuftbjfwcirgmsz",
+                "NetworkInterfaceId": "lguhiazkqxukigka",
+                "NetworkInterfacePermissionId": "jxtroboahnjxyvos",
+                "Permission": "dmqfoyqkftzfjdjx",
+                "PermissionState": {
+                    "State": "fhagiioaujysjauy",
+                    "StatusMessage": "pofweuwtkgjqtmfw"
+                }
+            },
+            {
+                "AwsAccountId": "qdeuapkmcgwkbfdp",
+                "AwsService": "hvyfxmevwfukzors",
+                "NetworkInterfaceId": "wmansnqdxilumeqo",
+                "NetworkInterfacePermissionId": "fstaxnbmnbekfman",
+                "Permission": "acydvpyjrnkpqhfh",
+                "PermissionState": {
+                    "State": "bpyaoytfgaavumtc",
+                    "StatusMessage": "lhmeglkuigzyoepd"
+                }
+            },
+            {
+                "AwsAccountId": "dsibvtrmijwnjpgn",
+                "AwsService": "agpfiesoopioyylf",
+                "NetworkInterfaceId": "nqszdiccpxqwikxu",
+                "NetworkInterfacePermissionId": "qnicovlxvhuvtvih",
+                "Permission": "ksxefbfgthlzpern",
+                "PermissionState": {
+                    "State": "iffzvrcpldbaqpfi",
+                    "StatusMessage": "rfrijankasywrvvq"
+                }
+            },
+            {
+                "AwsAccountId": "hrjpryzyyiqlwshi",
+                "AwsService": "icglakxsmazvpdwz",
+                "NetworkInterfaceId": "gmceldnlciqihtqs",
+                "NetworkInterfacePermissionId": "icnbzvwandqtiwpo",
+                "Permission": "xdebdxbqobuyxchy",
+                "PermissionState": {
+                    "State": "mtefrldiumnamboz",
+                    "StatusMessage": "iqbalbxvetewthpd"
+                }
+            },
+            {
+                "AwsAccountId": "dostahexbsscyebr",
+                "AwsService": "vtubwhfcbibhncmr",
+                "NetworkInterfaceId": "xuyoebrhaapapnbh",
+                "NetworkInterfacePermissionId": "slcrnoysfamkevxx",
+                "Permission": "vgvculncijsdgtsf",
+                "PermissionState": {
+                    "State": "abcfqooaolaioryb",
+                    "StatusMessage": "jseulglotoayhaav"
+                }
+            },
+            {
+                "AwsAccountId": "mqxxoqrfsukwjvzn",
+                "AwsService": "bbwojwdupeewbiqf",
+                "NetworkInterfaceId": "epzbvylnzallcwmj",
+                "NetworkInterfacePermissionId": "rzrmlfirxknnadiy",
+                "Permission": "rdxckgrhxljpjrfg",
+                "PermissionState": {
+                    "State": "twznezmkuoxrvlqd",
+                    "StatusMessage": "llbmyjqxtjjuzasc"
+                }
+            },
+            {
+                "AwsAccountId": "zzqpbjexocdqtgzh",
+                "AwsService": "tuprpkuimpccsqqi",
+                "NetworkInterfaceId": "xqvqhxahbrcfkdcf",
+                "NetworkInterfacePermissionId": "mmiurysnqlsoeivk",
+                "Permission": "xgxgfcvjntuqvubc",
+                "PermissionState": {
+                    "State": "lxfxiegdyggiedjb",
+                    "StatusMessage": "zyenstcsiayuvlgt"
+                }
+            },
+            {
+                "AwsAccountId": "axpxbtaktqwmvklf",
+                "AwsService": "zuzznklkxgyyazpo",
+                "NetworkInterfaceId": "mygyicbncqlrjykw",
+                "NetworkInterfacePermissionId": "cbtbhfythjnnesan",
+                "Permission": "cmbutgxbvmktxmjt",
+                "PermissionState": {
+                    "State": "wrehmwzhijkuymqj",
+                    "StatusMessage": "dqpjoxnwpvwnkque"
+                }
+            },
+            {
+                "AwsAccountId": "fjqhmppxevzhlgim",
+                "AwsService": "xxabaxanxnbsdzbl",
+                "NetworkInterfaceId": "fmpkauqrdfptckmb",
+                "NetworkInterfacePermissionId": "liatzjgmwbthmtsf",
+                "Permission": "cgbsisorroswjiem",
+                "PermissionState": {
+                    "State": "nlutcefvtkgfafst",
+                    "StatusMessage": "dwompegtgapufrod"
+                }
+            },
+            {
+                "AwsAccountId": "qwniavoxhrhqmgbf",
+                "AwsService": "fmbtfoqfbvqlduvm",
+                "NetworkInterfaceId": "ggxwatrydxnwxkox",
+                "NetworkInterfacePermissionId": "ijkhcjzwtdomrxhg",
+                "Permission": "puaevotsjfmccxeg",
+                "PermissionState": {
+                    "State": "zbbmtwtcdixnkucl",
+                    "StatusMessage": "whjklfucswmsdvpc"
+                }
+            }
+        ],
+        "result_key": "NetworkInterfacePermissions"
+    },
+    "meta": {
+        "start": 1711115639.945623,
+        "end": 1711115646.884078,
+        "duration": 6.938465118408203,
+        "service": "ec2",
+        "type": "network_interface_permissions"
+    }
+}

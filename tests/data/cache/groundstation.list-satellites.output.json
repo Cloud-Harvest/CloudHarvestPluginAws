@@ -1,0 +1,182 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "required": [],
+        "md5": "2620fedaf24e984a8f801d0beb17a6e7",
+        "boto_command": "list_satellites",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "currentEphemeris": {
+                    "ephemerisId": "ephemerisId",
+                    "epoch": "1970-01-01T00:00:00",
+                    "name": "name",
+                    "source": "source"
+                },
+                "groundStations": [
+                    "GroundStationName"
+                ],
+                "noradSatelliteID": 0,
+                "satelliteArn": "satelliteArn",
+                "satelliteId": "satelliteId"
+            }
+        ],
+        "required": [],
+        "md5": "20b547d1348adb6b3a915a228996dd5a",
+        "randomized": [
+            {
+                "currentEphemeris": {
+                    "ephemerisId": "sldcqpvrqyuxouzz",
+                    "epoch": "dtkwgvcrfolrhokz",
+                    "name": "jfdcnsndmietgpcl",
+                    "source": "gwbkcmtopdcvvxgn"
+                },
+                "groundStations": [
+                    "rgcuwvaldlanoyif"
+                ],
+                "noradSatelliteID": 0,
+                "satelliteArn": "odghjqqaidgfsrfd",
+                "satelliteId": "cziietusudzhajru"
+            },
+            {
+                "currentEphemeris": {
+                    "ephemerisId": "kclokofqtrvbfmda",
+                    "epoch": "gurhmnvrqbevvply",
+                    "name": "sbiwjmivrnyivqkq",
+                    "source": "upkiryudpyjaeuiw"
+                },
+                "groundStations": [
+                    "hhulshwclqvsoeyo"
+                ],
+                "noradSatelliteID": 0,
+                "satelliteArn": "utvphfvizstquvdv",
+                "satelliteId": "lkvhcjcvxwdfciqj"
+            },
+            {
+                "currentEphemeris": {
+                    "ephemerisId": "ibgpatitrxfdumdw",
+                    "epoch": "hahgugjepdnlpqwv",
+                    "name": "lvxazhlimvbqrjzn",
+                    "source": "kbylckzpnqdtslrj"
+                },
+                "groundStations": [
+                    "miznmsdaexdjibdq"
+                ],
+                "noradSatelliteID": 0,
+                "satelliteArn": "oboxoywxhducqwaj",
+                "satelliteId": "bfycnnmckgmtwiub"
+            },
+            {
+                "currentEphemeris": {
+                    "ephemerisId": "idknoijgfkotuqlz",
+                    "epoch": "fkcgbvqijkosbcgh",
+                    "name": "eqsueoswaimtnkov",
+                    "source": "zbzduffalmpauycs"
+                },
+                "groundStations": [
+                    "qxriaimvzrqgjeji"
+                ],
+                "noradSatelliteID": 0,
+                "satelliteArn": "imbxwjfvcmkcttcz",
+                "satelliteId": "odxwdohjczvsxvza"
+            },
+            {
+                "currentEphemeris": {
+                    "ephemerisId": "fsueyyelitqbqckq",
+                    "epoch": "rzhsyngulsojwjoy",
+                    "name": "epvwxyaosnnrvaeo",
+                    "source": "prbzrqlhdivcfrxx"
+                },
+                "groundStations": [
+                    "rgfbtrfimezrwjgw"
+                ],
+                "noradSatelliteID": 0,
+                "satelliteArn": "mlhcltdynocslcox",
+                "satelliteId": "dtgxejjohnbctesb"
+            },
+            {
+                "currentEphemeris": {
+                    "ephemerisId": "blqflantxbtqrztn",
+                    "epoch": "jemjanczrsokypip",
+                    "name": "toxndepxmgbgmfrg",
+                    "source": "zorcjpoykzivcqwr"
+                },
+                "groundStations": [
+                    "imeycuvgxwulvpam"
+                ],
+                "noradSatelliteID": 0,
+                "satelliteArn": "rojbamuxcntcjeim",
+                "satelliteId": "lzxitvfpyykfwgrx"
+            },
+            {
+                "currentEphemeris": {
+                    "ephemerisId": "idfnfcceqktasspd",
+                    "epoch": "pwniolrtjcpbvxue",
+                    "name": "tedsnxrddalcnkzo",
+                    "source": "zutsflmjgpmuznmr"
+                },
+                "groundStations": [
+                    "nimtqnrvjijtzvpi"
+                ],
+                "noradSatelliteID": 0,
+                "satelliteArn": "tfdfyhfcubrygnko",
+                "satelliteId": "ndblhbflfosnavpi"
+            },
+            {
+                "currentEphemeris": {
+                    "ephemerisId": "lszbxyuedxoewtwq",
+                    "epoch": "jmwltghxoxlrdvua",
+                    "name": "vlqlbexeaojjjepd",
+                    "source": "ayfyszktfazqrfgq"
+                },
+                "groundStations": [
+                    "bmmjwfmfzxbtrrku"
+                ],
+                "noradSatelliteID": 0,
+                "satelliteArn": "dtsvulklqrvwuqwu",
+                "satelliteId": "qaarjvrkemxgrzkn"
+            },
+            {
+                "currentEphemeris": {
+                    "ephemerisId": "rnivzropemlkxzzg",
+                    "epoch": "chgikvvrxadnacsb",
+                    "name": "jdzfrwnllpiavtsh",
+                    "source": "hmwwqcxwzskoiwac"
+                },
+                "groundStations": [
+                    "fnmsudwhoiklodvr"
+                ],
+                "noradSatelliteID": 0,
+                "satelliteArn": "kgfhxxjciuechobd",
+                "satelliteId": "veoideqsymkguatu"
+            },
+            {
+                "currentEphemeris": {
+                    "ephemerisId": "igvsxuuwapnxsute",
+                    "epoch": "ccowaygknmqqbwkl",
+                    "name": "cbqkqqtykadzxvly",
+                    "source": "tsslltryirubaxyp"
+                },
+                "groundStations": [
+                    "veowkrcjpborerxl"
+                ],
+                "noradSatelliteID": 0,
+                "satelliteArn": "vmhxeaojkezzgldx",
+                "satelliteId": "xwstrowijwkkwrag"
+            }
+        ],
+        "result_key": "satellites"
+    },
+    "meta": {
+        "start": 1711115861.443492,
+        "end": 1711115869.593003,
+        "duration": 8.14952301979065,
+        "service": "groundstation",
+        "type": "satellites"
+    }
+}

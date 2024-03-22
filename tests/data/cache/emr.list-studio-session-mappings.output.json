@@ -1,0 +1,117 @@
+{
+    "input": {
+        "template": {
+            "StudioId": "",
+            "IdentityType": "USER",
+            "Marker": ""
+        },
+        "required": [],
+        "md5": "eb410b9258f805c4a97a61c623cc654c",
+        "boto_command": "list_studio_session_mappings",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "StudioId": "StudioId",
+                "IdentityId": "IdentityId",
+                "IdentityName": "IdentityName",
+                "IdentityType": "IdentityType",
+                "SessionPolicyArn": "SessionPolicyArn",
+                "CreationTime": "1970-01-01T00:00:00"
+            }
+        ],
+        "required": [],
+        "md5": "7ac4c813a303b9eccec41b018f02624f",
+        "randomized": [
+            {
+                "CreationTime": "wjriwliklgpiceaf",
+                "IdentityId": "yiwezmlwfanznwnz",
+                "IdentityName": "nktjkupbpefqdrxi",
+                "IdentityType": "dbitmmeqrxscpwdr",
+                "SessionPolicyArn": "ljnvcjxkbpdoatju",
+                "StudioId": "tlmpexyfewpxxxaz"
+            },
+            {
+                "CreationTime": "baqzrwsjyvfmjbrh",
+                "IdentityId": "iddgbxvbhnystqjb",
+                "IdentityName": "fphfkqngevahjrpb",
+                "IdentityType": "bxbsiohpddamevfb",
+                "SessionPolicyArn": "adpvflttcmpgjtbu",
+                "StudioId": "tggpaklmmyxruskm"
+            },
+            {
+                "CreationTime": "gowiqdqqnqyjulwc",
+                "IdentityId": "wseqosbbyfgkulxb",
+                "IdentityName": "vgfhcydegialonde",
+                "IdentityType": "zttgoteupzpomtyg",
+                "SessionPolicyArn": "achvsjidgnujibrv",
+                "StudioId": "grpovewuwlcyipww"
+            },
+            {
+                "CreationTime": "qenjapmryepjuvvn",
+                "IdentityId": "prqvbnqmwnsepwqd",
+                "IdentityName": "dwtkctktpqpkphch",
+                "IdentityType": "wfqtnyuemjrzoqgp",
+                "SessionPolicyArn": "hbhtmvvqgxrvxadv",
+                "StudioId": "reghkptwpjnxbtkr"
+            },
+            {
+                "CreationTime": "yfjelekbzgzhzfmb",
+                "IdentityId": "xbuqekgbtqhmnrkh",
+                "IdentityName": "eiragarjkrqjmlcc",
+                "IdentityType": "wwmmyohwkjhcmgrf",
+                "SessionPolicyArn": "dtkjmvwhqjawwfyr",
+                "StudioId": "xvopwfdwovhdmyox"
+            },
+            {
+                "CreationTime": "fkpfbrgbziqyecws",
+                "IdentityId": "tksidzxsfmheaved",
+                "IdentityName": "trxakxbdtpsbkscr",
+                "IdentityType": "yciqarvsestlefim",
+                "SessionPolicyArn": "fgbuyrkldohzngiw",
+                "StudioId": "maawidzudlzohtow"
+            },
+            {
+                "CreationTime": "xscrzwqylavbexub",
+                "IdentityId": "xyfiywlzkugcukhv",
+                "IdentityName": "uussyexeukzpjcbs",
+                "IdentityType": "puayfsmhybdqsjmh",
+                "SessionPolicyArn": "uavocgnakxlipufk",
+                "StudioId": "lvtgxsuzhvzkpkbw"
+            },
+            {
+                "CreationTime": "idpjduxazteihvas",
+                "IdentityId": "riqzmzrwbtonmhjs",
+                "IdentityName": "ijxfjrudiyjbirob",
+                "IdentityType": "uucbzbdjcsalozkp",
+                "SessionPolicyArn": "eyzxgkvqtleylvbf",
+                "StudioId": "ttveprbgikkkjymu"
+            },
+            {
+                "CreationTime": "icbeueqwkugqmgtu",
+                "IdentityId": "utufzcnkjsmbxmdt",
+                "IdentityName": "wqylibnudrybcfkh",
+                "IdentityType": "ucqigcxwacwvxpqm",
+                "SessionPolicyArn": "gedeggxyyzqrnekc",
+                "StudioId": "mehvynvnoievyxnz"
+            },
+            {
+                "CreationTime": "bctvqqdjmtosvnom",
+                "IdentityId": "gcfocwiwpphkdyty",
+                "IdentityName": "rrcskpispytuhfke",
+                "IdentityType": "czsbsipmqspxoivf",
+                "SessionPolicyArn": "asbmoblxcwoovdkn",
+                "StudioId": "gotbkpwfugwovkxp"
+            }
+        ],
+        "result_key": "SessionMappings"
+    },
+    "meta": {
+        "start": 1711115733.37299,
+        "end": 1711115741.3814,
+        "duration": 8.00841999053955,
+        "service": "emr",
+        "type": "studio_session_mappings"
+    }
+}

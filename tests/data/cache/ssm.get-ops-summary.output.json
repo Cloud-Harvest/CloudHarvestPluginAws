@@ -1,0 +1,208 @@
+{
+    "input": {
+        "template": {
+            "SyncName": "",
+            "Filters": [
+                {
+                    "Key": "",
+                    "Values": [
+                        ""
+                    ],
+                    "Type": "Equal"
+                }
+            ],
+            "Aggregators": [
+                {
+                    "AggregatorType": "",
+                    "TypeName": "",
+                    "AttributeName": "",
+                    "Values": {
+                        "KeyName": ""
+                    },
+                    "Filters": [
+                        {
+                            "Key": "",
+                            "Values": [
+                                ""
+                            ],
+                            "Type": "Equal"
+                        }
+                    ],
+                    "Aggregators": [
+                        {}
+                    ]
+                }
+            ],
+            "ResultAttributes": [
+                {
+                    "TypeName": ""
+                }
+            ],
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "ad91865ed2f346b733a9b2e85ec93814",
+        "boto_command": "get_ops_summary",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "Id": "Id",
+                "Data": {
+                    "KeyName": {
+                        "CaptureTime": "CaptureTime",
+                        "Content": [
+                            {
+                                "KeyName": ""
+                            }
+                        ]
+                    }
+                }
+            }
+        ],
+        "required": [],
+        "md5": "af123c95474cdb178366d2c45df0f62e",
+        "randomized": [
+            {
+                "Data": {
+                    "KeyName": {
+                        "CaptureTime": "agfmclxxcaqkndqo",
+                        "Content": [
+                            {
+                                "KeyName": "wubzzrgqkfuvrope"
+                            }
+                        ]
+                    }
+                },
+                "Id": "tdacfumtuuxwbmnq"
+            },
+            {
+                "Data": {
+                    "KeyName": {
+                        "CaptureTime": "sqbfepbosvqjvexo",
+                        "Content": [
+                            {
+                                "KeyName": "bszqnelkyozrxcyp"
+                            }
+                        ]
+                    }
+                },
+                "Id": "nljfgccrsdmgipjr"
+            },
+            {
+                "Data": {
+                    "KeyName": {
+                        "CaptureTime": "awbeznwacmozmvjd",
+                        "Content": [
+                            {
+                                "KeyName": "gksjexbwuuifbvxl"
+                            }
+                        ]
+                    }
+                },
+                "Id": "jqtdyghwwtbjyxvp"
+            },
+            {
+                "Data": {
+                    "KeyName": {
+                        "CaptureTime": "tppodhbbiosgeesz",
+                        "Content": [
+                            {
+                                "KeyName": "qfxkvizgtaanwtcs"
+                            }
+                        ]
+                    }
+                },
+                "Id": "gxpfhgzhrmuqggfv"
+            },
+            {
+                "Data": {
+                    "KeyName": {
+                        "CaptureTime": "twhabktywcshomcd",
+                        "Content": [
+                            {
+                                "KeyName": "ygiwkyzcgnpnrhss"
+                            }
+                        ]
+                    }
+                },
+                "Id": "nlmkuskkskuzaodh"
+            },
+            {
+                "Data": {
+                    "KeyName": {
+                        "CaptureTime": "ozsnpxkjrrybmgwc",
+                        "Content": [
+                            {
+                                "KeyName": "bbkogyivkzsbmake"
+                            }
+                        ]
+                    }
+                },
+                "Id": "pqpkpwfltmdqwqem"
+            },
+            {
+                "Data": {
+                    "KeyName": {
+                        "CaptureTime": "ueovafbjtzbrhcrs",
+                        "Content": [
+                            {
+                                "KeyName": "vrhjysduzomqnfus"
+                            }
+                        ]
+                    }
+                },
+                "Id": "ihorhakdlkrsibcz"
+            },
+            {
+                "Data": {
+                    "KeyName": {
+                        "CaptureTime": "sgfqjaclggpcxwjd",
+                        "Content": [
+                            {
+                                "KeyName": "chtjerxuhgagtrbp"
+                            }
+                        ]
+                    }
+                },
+                "Id": "yfbogvwohonfhtcg"
+            },
+            {
+                "Data": {
+                    "KeyName": {
+                        "CaptureTime": "enzvvxaccizhpold",
+                        "Content": [
+                            {
+                                "KeyName": "hnjslpltcrgvonen"
+                            }
+                        ]
+                    }
+                },
+                "Id": "ngbuitesgawpdwcf"
+            },
+            {
+                "Data": {
+                    "KeyName": {
+                        "CaptureTime": "gkrkerxbgkumrmiy",
+                        "Content": [
+                            {
+                                "KeyName": "jmzdmhifeqcflvbw"
+                            }
+                        ]
+                    }
+                },
+                "Id": "uydxyutqcvfdydya"
+            }
+        ],
+        "result_key": "Entities"
+    },
+    "meta": {
+        "start": 1711116666.325883,
+        "end": 1711116675.094147,
+        "duration": 8.768275022506714,
+        "service": "ssm",
+        "type": null
+    }
+}

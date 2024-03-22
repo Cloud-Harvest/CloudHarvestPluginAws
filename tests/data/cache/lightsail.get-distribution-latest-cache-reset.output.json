@@ -1,0 +1,36 @@
+{
+    "input": {
+        "template": {
+            "distributionName": ""
+        },
+        "required": [],
+        "md5": "8b72f5bd809677064b35529895ac88ea",
+        "boto_command": "get_distribution_latest_cache_reset",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": "status",
+        "required": [],
+        "md5": "0442d55d46be8f6e1fece00789acbabe",
+        "randomized": [
+            "qgicypzotpwgwcsi",
+            "edubzikbyzyhjhfe",
+            "fumwawwlumxffixx",
+            "urowqlrvaddyraqw",
+            "aqcdtatxsetqvtvc",
+            "xjbirlpnrkeqirkv",
+            "gguazcieuknejfiv",
+            "utbmmdtbafzidvyf",
+            "jtxsgylsgyftprrq",
+            "vzdwiwzbiywwjpho"
+        ],
+        "result_key": "status"
+    },
+    "meta": {
+        "start": 1711116099.419997,
+        "end": 1711116107.211394,
+        "duration": 7.791408061981201,
+        "service": "lightsail",
+        "type": null
+    }
+}

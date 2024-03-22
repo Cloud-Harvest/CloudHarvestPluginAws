@@ -1,0 +1,34 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "get_account_sending_enabled",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": true,
+        "required": [],
+        "md5": "3fd3f53b330e94d5f997da39d90a5952",
+        "randomized": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+        ],
+        "result_key": "Enabled"
+    },
+    "meta": {
+        "start": 1711116614.866732,
+        "end": 1711116621.451295,
+        "duration": 6.584573030471802,
+        "service": "ses",
+        "type": null
+    }
+}

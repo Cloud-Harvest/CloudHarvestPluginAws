@@ -1,0 +1,73 @@
+{
+    "input": {
+        "template": {
+            "logGroupName": "",
+            "time": 0,
+            "logGroupIdentifier": ""
+        },
+        "required": [],
+        "md5": "a5db3775742d600f63a307b3fca694f1",
+        "boto_command": "get_log_group_fields",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "name": "name",
+                "percent": 0
+            }
+        ],
+        "required": [],
+        "md5": "5fcef47a66514d6c970830da278b29fb",
+        "randomized": [
+            {
+                "name": "kboozbbmvzrdcyte",
+                "percent": 0
+            },
+            {
+                "name": "cjzmsmijzjrmqygs",
+                "percent": 0
+            },
+            {
+                "name": "zongzxzzmhusmcqe",
+                "percent": 0
+            },
+            {
+                "name": "cuxlnjadifyzipbl",
+                "percent": 0
+            },
+            {
+                "name": "oajnvspdpyoiaihl",
+                "percent": 0
+            },
+            {
+                "name": "cedjfucvbzsjkkdx",
+                "percent": 0
+            },
+            {
+                "name": "syeqfcmejimhqvuk",
+                "percent": 0
+            },
+            {
+                "name": "pygluyfwjasgorqu",
+                "percent": 0
+            },
+            {
+                "name": "zkdskpxejsaiuaqn",
+                "percent": 0
+            },
+            {
+                "name": "hpkfaqqwqolxntjk",
+                "percent": 0
+            }
+        ],
+        "result_key": "logGroupFields"
+    },
+    "meta": {
+        "start": 1711116124.605501,
+        "end": 1711116131.253209,
+        "duration": 6.647719144821167,
+        "service": "logs",
+        "type": null
+    }
+}

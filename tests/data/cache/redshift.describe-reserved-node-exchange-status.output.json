@@ -1,0 +1,151 @@
+{
+    "input": {
+        "template": {
+            "ReservedNodeId": "",
+            "ReservedNodeExchangeRequestId": "",
+            "MaxRecords": 0,
+            "Marker": ""
+        },
+        "required": [],
+        "md5": "37e1c11a625d9929758c09a85f6bc79c",
+        "boto_command": "describe_reserved_node_exchange_status",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "ReservedNodeExchangeRequestId": "ReservedNodeExchangeRequestId",
+                "Status": "Status",
+                "RequestTime": "1970-01-01T00:00:00",
+                "SourceReservedNodeId": "SourceReservedNodeId",
+                "SourceReservedNodeType": "SourceReservedNodeType",
+                "SourceReservedNodeCount": 0,
+                "TargetReservedNodeOfferingId": "TargetReservedNodeOfferingId",
+                "TargetReservedNodeType": "TargetReservedNodeType",
+                "TargetReservedNodeCount": 0
+            }
+        ],
+        "required": [],
+        "md5": "1e56284c7e32756522d965686a1dbfcc",
+        "randomized": [
+            {
+                "RequestTime": "kseaqcvmbvcjuxbk",
+                "ReservedNodeExchangeRequestId": "syxqoppfvdbshjfx",
+                "SourceReservedNodeCount": 0,
+                "SourceReservedNodeId": "wrzwgkrnmxsmnvlm",
+                "SourceReservedNodeType": "ipzwwfegqkxfzcpa",
+                "Status": "jntnufvnjkjwpaeh",
+                "TargetReservedNodeCount": 0,
+                "TargetReservedNodeOfferingId": "drvbzgfivwvfzyvy",
+                "TargetReservedNodeType": "lqvkelwlubtjjgxz"
+            },
+            {
+                "RequestTime": "fhpzrtddslnodzqh",
+                "ReservedNodeExchangeRequestId": "awfhhfawayxxezcd",
+                "SourceReservedNodeCount": 0,
+                "SourceReservedNodeId": "dnpgpgbczlsqpuxq",
+                "SourceReservedNodeType": "gddcphdisaubveqv",
+                "Status": "leharjoaxytznxfm",
+                "TargetReservedNodeCount": 0,
+                "TargetReservedNodeOfferingId": "nrtijgaizqwcsoim",
+                "TargetReservedNodeType": "xzpgnhctmmjkzcsl"
+            },
+            {
+                "RequestTime": "ijdnnrxqhwvehoxx",
+                "ReservedNodeExchangeRequestId": "htfwwigtdeavlhmj",
+                "SourceReservedNodeCount": 0,
+                "SourceReservedNodeId": "mbczqupfqcnhutdg",
+                "SourceReservedNodeType": "xmqqmmyhdwhclcnb",
+                "Status": "ywouyjtctvooztnc",
+                "TargetReservedNodeCount": 0,
+                "TargetReservedNodeOfferingId": "xkudmrvgwsuvcmbx",
+                "TargetReservedNodeType": "ivmlihsylmzergtk"
+            },
+            {
+                "RequestTime": "xypulexyhhanfghb",
+                "ReservedNodeExchangeRequestId": "kraujapkvfhvuzjz",
+                "SourceReservedNodeCount": 0,
+                "SourceReservedNodeId": "mrvrwozdunaznqvj",
+                "SourceReservedNodeType": "tjjzhilembbzkmlc",
+                "Status": "yzcxrktmktmtgusi",
+                "TargetReservedNodeCount": 0,
+                "TargetReservedNodeOfferingId": "mijudqzjuobvvbaa",
+                "TargetReservedNodeType": "lzlaubhxngoddfnz"
+            },
+            {
+                "RequestTime": "vvbuyoupjyscqypq",
+                "ReservedNodeExchangeRequestId": "jroofzasuzqtyhtx",
+                "SourceReservedNodeCount": 0,
+                "SourceReservedNodeId": "vjzorcludvtzgcbk",
+                "SourceReservedNodeType": "sawzaaqxbiqvzjch",
+                "Status": "ppxzzvlxtdezidjm",
+                "TargetReservedNodeCount": 0,
+                "TargetReservedNodeOfferingId": "gjjxlngybvqdzrwm",
+                "TargetReservedNodeType": "frerjbbdlyoqzmay"
+            },
+            {
+                "RequestTime": "xfrayfhnxjsnbghj",
+                "ReservedNodeExchangeRequestId": "mnjnsdbfjjsmgvmh",
+                "SourceReservedNodeCount": 0,
+                "SourceReservedNodeId": "xzkudixznrtiqpil",
+                "SourceReservedNodeType": "cisejyxuvmbdqmsq",
+                "Status": "atkwkdqhytoquzrt",
+                "TargetReservedNodeCount": 0,
+                "TargetReservedNodeOfferingId": "dznounaneqtufvvf",
+                "TargetReservedNodeType": "gfnawkbxazpfrujd"
+            },
+            {
+                "RequestTime": "tqrdoreybcuggxxe",
+                "ReservedNodeExchangeRequestId": "uacsjqdfnrtjzvhr",
+                "SourceReservedNodeCount": 0,
+                "SourceReservedNodeId": "phhwhxrcqnufqrll",
+                "SourceReservedNodeType": "padxyqpeehrnmrcs",
+                "Status": "yxqafimrmwelqxnf",
+                "TargetReservedNodeCount": 0,
+                "TargetReservedNodeOfferingId": "rwzovhprovgxkvev",
+                "TargetReservedNodeType": "joliloaytltrxpqb"
+            },
+            {
+                "RequestTime": "ehbspzedwcpkgpze",
+                "ReservedNodeExchangeRequestId": "xibamudaybmxnsdq",
+                "SourceReservedNodeCount": 0,
+                "SourceReservedNodeId": "cfxtjgpnhonbocwj",
+                "SourceReservedNodeType": "avgmffactvrovwvv",
+                "Status": "svyzqwtzsablejia",
+                "TargetReservedNodeCount": 0,
+                "TargetReservedNodeOfferingId": "fqntncbbcbxwclxh",
+                "TargetReservedNodeType": "aeqyonllippbjyrc"
+            },
+            {
+                "RequestTime": "bkayfntfgaftatxl",
+                "ReservedNodeExchangeRequestId": "gvvprymtryzeootp",
+                "SourceReservedNodeCount": 0,
+                "SourceReservedNodeId": "nhmyhayszotjnqkw",
+                "SourceReservedNodeType": "ffoixegubarbtaqr",
+                "Status": "ahifmjnryfqyhhpw",
+                "TargetReservedNodeCount": 0,
+                "TargetReservedNodeOfferingId": "bnqhmglmrwkzcswk",
+                "TargetReservedNodeType": "wvgmumtjszbdzcls"
+            },
+            {
+                "RequestTime": "ohzqzzifiolkukfo",
+                "ReservedNodeExchangeRequestId": "zxwrissffmptbemr",
+                "SourceReservedNodeCount": 0,
+                "SourceReservedNodeId": "zqrxuhfdkwibwcag",
+                "SourceReservedNodeType": "qbzpqdpdyvvgkuop",
+                "Status": "hpwwoehcmbbsjlrf",
+                "TargetReservedNodeCount": 0,
+                "TargetReservedNodeOfferingId": "tkydhbezperepumx",
+                "TargetReservedNodeType": "kuwoagrklzkmlnes"
+            }
+        ],
+        "result_key": "ReservedNodeExchangeStatusDetails"
+    },
+    "meta": {
+        "start": 1711116428.888253,
+        "end": 1711116435.200047,
+        "duration": 6.311805009841919,
+        "service": "redshift",
+        "type": "reserved_node_exchange_status"
+    }
+}

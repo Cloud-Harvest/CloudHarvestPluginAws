@@ -1,0 +1,36 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "describe_auto_scaling_notification_types",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            "XmlStringMaxLen255"
+        ],
+        "required": [],
+        "md5": "1d342eb34a3a3da359b608e0f31062af",
+        "randomized": [
+            "xijioirugfunbxos",
+            "xrxvcgczqfjurhjw",
+            "ygvzvtmzwdxmovov",
+            "kjhancqpxfkoeqvu",
+            "tfjukavssibkisml",
+            "fqvlddhuwozzkjpm",
+            "esbgtfbvesnvytre",
+            "aissqtcmfezhkzyc",
+            "pcjmwdjtkppwdhhw",
+            "fftvufqmkmcqelhf"
+        ],
+        "result_key": "AutoScalingNotificationTypes"
+    },
+    "meta": {
+        "start": 1711115266.040496,
+        "end": 1711115273.379065,
+        "duration": 7.3385748863220215,
+        "service": "autoscaling",
+        "type": "auto_scaling_notification_types"
+    }
+}

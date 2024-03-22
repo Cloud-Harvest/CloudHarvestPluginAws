@@ -1,0 +1,100 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "get_account_settings",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": {
+            "TotalCodeSize": 0,
+            "CodeSizeUnzipped": 0,
+            "CodeSizeZipped": 0,
+            "ConcurrentExecutions": 0,
+            "UnreservedConcurrentExecutions": 0
+        },
+        "required": [],
+        "md5": "aaf8c5321c3317dd97f911d814b28658",
+        "randomized": [
+            {
+                "CodeSizeUnzipped": 0,
+                "CodeSizeZipped": 0,
+                "ConcurrentExecutions": 0,
+                "TotalCodeSize": 0,
+                "UnreservedConcurrentExecutions": 0
+            },
+            {
+                "CodeSizeUnzipped": 0,
+                "CodeSizeZipped": 0,
+                "ConcurrentExecutions": 0,
+                "TotalCodeSize": 0,
+                "UnreservedConcurrentExecutions": 0
+            },
+            {
+                "CodeSizeUnzipped": 0,
+                "CodeSizeZipped": 0,
+                "ConcurrentExecutions": 0,
+                "TotalCodeSize": 0,
+                "UnreservedConcurrentExecutions": 0
+            },
+            {
+                "CodeSizeUnzipped": 0,
+                "CodeSizeZipped": 0,
+                "ConcurrentExecutions": 0,
+                "TotalCodeSize": 0,
+                "UnreservedConcurrentExecutions": 0
+            },
+            {
+                "CodeSizeUnzipped": 0,
+                "CodeSizeZipped": 0,
+                "ConcurrentExecutions": 0,
+                "TotalCodeSize": 0,
+                "UnreservedConcurrentExecutions": 0
+            },
+            {
+                "CodeSizeUnzipped": 0,
+                "CodeSizeZipped": 0,
+                "ConcurrentExecutions": 0,
+                "TotalCodeSize": 0,
+                "UnreservedConcurrentExecutions": 0
+            },
+            {
+                "CodeSizeUnzipped": 0,
+                "CodeSizeZipped": 0,
+                "ConcurrentExecutions": 0,
+                "TotalCodeSize": 0,
+                "UnreservedConcurrentExecutions": 0
+            },
+            {
+                "CodeSizeUnzipped": 0,
+                "CodeSizeZipped": 0,
+                "ConcurrentExecutions": 0,
+                "TotalCodeSize": 0,
+                "UnreservedConcurrentExecutions": 0
+            },
+            {
+                "CodeSizeUnzipped": 0,
+                "CodeSizeZipped": 0,
+                "ConcurrentExecutions": 0,
+                "TotalCodeSize": 0,
+                "UnreservedConcurrentExecutions": 0
+            },
+            {
+                "CodeSizeUnzipped": 0,
+                "CodeSizeZipped": 0,
+                "ConcurrentExecutions": 0,
+                "TotalCodeSize": 0,
+                "UnreservedConcurrentExecutions": 0
+            }
+        ],
+        "result_key": "AccountLimit"
+    },
+    "meta": {
+        "start": 1711116051.727226,
+        "end": 1711116058.67608,
+        "duration": 6.948863983154297,
+        "service": "lambda",
+        "type": null
+    }
+}

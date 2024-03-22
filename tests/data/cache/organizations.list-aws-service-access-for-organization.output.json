@@ -1,0 +1,72 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "9dece7f85fc1c3f944425b1f68a8e6e1",
+        "boto_command": "list_aws_service_access_for_organization",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "ServicePrincipal": "ServicePrincipal",
+                "DateEnabled": "1970-01-01T00:00:00"
+            }
+        ],
+        "required": [],
+        "md5": "f119746bc49b0bd472df8505c1dc50a0",
+        "randomized": [
+            {
+                "DateEnabled": "sirftnqujsrhktir",
+                "ServicePrincipal": "pjdhpvbqsagizfnm"
+            },
+            {
+                "DateEnabled": "siabzegpdpshrrvc",
+                "ServicePrincipal": "ehtgsrqieibnqpey"
+            },
+            {
+                "DateEnabled": "dfzokjwieggpvsyn",
+                "ServicePrincipal": "bugrsntzaalwxfru"
+            },
+            {
+                "DateEnabled": "kpghvbveiorayzcf",
+                "ServicePrincipal": "metrlfxxbykjvjib"
+            },
+            {
+                "DateEnabled": "eluohaexxudribvv",
+                "ServicePrincipal": "adaroiazbdwdfakx"
+            },
+            {
+                "DateEnabled": "phiofzzlgxqxgomu",
+                "ServicePrincipal": "wiqpmbungrkzjnxa"
+            },
+            {
+                "DateEnabled": "ipmqkybnmbpmlhrk",
+                "ServicePrincipal": "vvhjhfhvggtlarks"
+            },
+            {
+                "DateEnabled": "lrcoqbjzxclzbdmb",
+                "ServicePrincipal": "uqyhmyvdzyjemhar"
+            },
+            {
+                "DateEnabled": "wagyysvoeoomiqkr",
+                "ServicePrincipal": "tzmsclyvghncnycz"
+            },
+            {
+                "DateEnabled": "erdaapfjtoppstnf",
+                "ServicePrincipal": "qfmowtpdmosksiie"
+            }
+        ],
+        "result_key": "EnabledServicePrincipals"
+    },
+    "meta": {
+        "start": 1711116295.072032,
+        "end": 1711116301.783186,
+        "duration": 6.711164951324463,
+        "service": "organizations",
+        "type": "aws_service_access_for_organization"
+    }
+}

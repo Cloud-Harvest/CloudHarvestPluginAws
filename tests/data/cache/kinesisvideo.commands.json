@@ -1,0 +1,16 @@
+[
+    "kinesisvideo.describe-edge-configuration",
+    "kinesisvideo.describe-image-generation-configuration",
+    "kinesisvideo.describe-mapped-resource-configuration",
+    "kinesisvideo.describe-media-storage-configuration",
+    "kinesisvideo.describe-notification-configuration",
+    "kinesisvideo.describe-signaling-channel",
+    "kinesisvideo.describe-stream",
+    "kinesisvideo.get-data-endpoint",
+    "kinesisvideo.get-signaling-channel-endpoint",
+    "kinesisvideo.list-edge-agent-configurations",
+    "kinesisvideo.list-signaling-channels",
+    "kinesisvideo.list-streams",
+    "kinesisvideo.list-tags-for-resource",
+    "kinesisvideo.list-tags-for-stream"
+]

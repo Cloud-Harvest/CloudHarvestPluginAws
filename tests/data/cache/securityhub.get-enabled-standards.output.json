@@ -1,0 +1,152 @@
+{
+    "input": {
+        "template": {
+            "StandardsSubscriptionArns": [
+                ""
+            ],
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "cb6257cc030bd734ae897762cc1eee97",
+        "boto_command": "get_enabled_standards",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "StandardsSubscriptionArn": "StandardsSubscriptionArn",
+                "StandardsArn": "StandardsArn",
+                "StandardsInput": {
+                    "KeyName": ""
+                },
+                "StandardsStatus": "StandardsStatus",
+                "StandardsStatusReason": {
+                    "StatusReasonCode": "StatusReasonCode"
+                }
+            }
+        ],
+        "required": [],
+        "md5": "fe8ca69b39ba21fee53809c7f81a9e7c",
+        "randomized": [
+            {
+                "StandardsArn": "bdygpetqadtfsepy",
+                "StandardsInput": {
+                    "KeyName": "bnaahuyjsfrrbgba"
+                },
+                "StandardsStatus": "vnrtsrgqdddkkhhi",
+                "StandardsStatusReason": {
+                    "StatusReasonCode": "nzbvuwnbubhufzkb"
+                },
+                "StandardsSubscriptionArn": "qefmhxfzpqhwpguj"
+            },
+            {
+                "StandardsArn": "exbpudgvvcwyeton",
+                "StandardsInput": {
+                    "KeyName": "jcpdprlvdrtslumz"
+                },
+                "StandardsStatus": "teyloksjhrfeubwt",
+                "StandardsStatusReason": {
+                    "StatusReasonCode": "hdxcvdnzipyrexom"
+                },
+                "StandardsSubscriptionArn": "gskqkfizekpvbcod"
+            },
+            {
+                "StandardsArn": "hsoinshorggglzhh",
+                "StandardsInput": {
+                    "KeyName": "unhlthblmyfdlixn"
+                },
+                "StandardsStatus": "ncyakhlzhwduexyx",
+                "StandardsStatusReason": {
+                    "StatusReasonCode": "cvecmymxragsnuws"
+                },
+                "StandardsSubscriptionArn": "yjvygzaehiufzxbr"
+            },
+            {
+                "StandardsArn": "tobcupcdsbkzsbew",
+                "StandardsInput": {
+                    "KeyName": "rolrbbsnvaqudynl"
+                },
+                "StandardsStatus": "xigamyfzuebembre",
+                "StandardsStatusReason": {
+                    "StatusReasonCode": "gczteuavclqnllzd"
+                },
+                "StandardsSubscriptionArn": "tzaasyxbmxstrtzu"
+            },
+            {
+                "StandardsArn": "yrevkseyevossrak",
+                "StandardsInput": {
+                    "KeyName": "sjxehtpouazhwfej"
+                },
+                "StandardsStatus": "irclkxiticuuiujr",
+                "StandardsStatusReason": {
+                    "StatusReasonCode": "gemrxfonwvksmhmx"
+                },
+                "StandardsSubscriptionArn": "pgtgchnufoisnemt"
+            },
+            {
+                "StandardsArn": "tspmgdwfphftmzrq",
+                "StandardsInput": {
+                    "KeyName": "qberkctikvcyplwt"
+                },
+                "StandardsStatus": "ijetxbegwubzsaaw",
+                "StandardsStatusReason": {
+                    "StatusReasonCode": "jpaxqpkrssummpow"
+                },
+                "StandardsSubscriptionArn": "wndroczufwouxajy"
+            },
+            {
+                "StandardsArn": "ynujcpqymayvmswv",
+                "StandardsInput": {
+                    "KeyName": "okgxihzpgmgoybdn"
+                },
+                "StandardsStatus": "akolcccmptsvmept",
+                "StandardsStatusReason": {
+                    "StatusReasonCode": "rcpjhyyypjrkkarf"
+                },
+                "StandardsSubscriptionArn": "hruhzkuvslxsyliz"
+            },
+            {
+                "StandardsArn": "ztixohovdvbplewb",
+                "StandardsInput": {
+                    "KeyName": "aebirquriqdxomxo"
+                },
+                "StandardsStatus": "lxpnmrwlonqzzryw",
+                "StandardsStatusReason": {
+                    "StatusReasonCode": "eqhqihrvlwvbtmmp"
+                },
+                "StandardsSubscriptionArn": "erileuvbmbcmgytr"
+            },
+            {
+                "StandardsArn": "guszbwjttpantgag",
+                "StandardsInput": {
+                    "KeyName": "tnpqkcxrjkwcunyf"
+                },
+                "StandardsStatus": "kpxyusqnantfhmum",
+                "StandardsStatusReason": {
+                    "StatusReasonCode": "gitiazwyxzomygef"
+                },
+                "StandardsSubscriptionArn": "zfgfvubihfhnzlsn"
+            },
+            {
+                "StandardsArn": "bjgwomowapgxfeis",
+                "StandardsInput": {
+                    "KeyName": "egxnumscasbwcyje"
+                },
+                "StandardsStatus": "qlhcgvqzflhqlbvo",
+                "StandardsStatusReason": {
+                    "StatusReasonCode": "vkaovplablpzvpvm"
+                },
+                "StandardsSubscriptionArn": "ryfmumvdurprqqgu"
+            }
+        ],
+        "result_key": "StandardsSubscriptions"
+    },
+    "meta": {
+        "start": 1711116586.948751,
+        "end": 1711116593.112501,
+        "duration": 6.163761138916016,
+        "service": "securityhub",
+        "type": null
+    }
+}

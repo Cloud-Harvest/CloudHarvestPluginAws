@@ -1,0 +1,130 @@
+{
+    "input": {
+        "template": {
+            "FleetIds": [
+                ""
+            ],
+            "Limit": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "fe13f89eb45c5707eae609dcd443cd58",
+        "boto_command": "describe_fleet_utilization",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "FleetId": "FleetId",
+                "FleetArn": "FleetArn",
+                "ActiveServerProcessCount": 0,
+                "ActiveGameSessionCount": 0,
+                "CurrentPlayerSessionCount": 0,
+                "MaximumPlayerSessionCount": 0,
+                "Location": "Location"
+            }
+        ],
+        "required": [],
+        "md5": "151a0f047fdf075df09e541a138b2c0d",
+        "randomized": [
+            {
+                "ActiveGameSessionCount": 0,
+                "ActiveServerProcessCount": 0,
+                "CurrentPlayerSessionCount": 0,
+                "FleetArn": "dhhfhbujzybkrydo",
+                "FleetId": "jkspjwerjrvemnxy",
+                "Location": "eikubdawiahntzrw",
+                "MaximumPlayerSessionCount": 0
+            },
+            {
+                "ActiveGameSessionCount": 0,
+                "ActiveServerProcessCount": 0,
+                "CurrentPlayerSessionCount": 0,
+                "FleetArn": "aufcvzyouzgfensv",
+                "FleetId": "awehwbyqsvtzwead",
+                "Location": "uwrwxsvshsdyucyy",
+                "MaximumPlayerSessionCount": 0
+            },
+            {
+                "ActiveGameSessionCount": 0,
+                "ActiveServerProcessCount": 0,
+                "CurrentPlayerSessionCount": 0,
+                "FleetArn": "dydrhkemviqixvvg",
+                "FleetId": "isyjbkrfdnflwwzr",
+                "Location": "arokhfjatmyhvbkv",
+                "MaximumPlayerSessionCount": 0
+            },
+            {
+                "ActiveGameSessionCount": 0,
+                "ActiveServerProcessCount": 0,
+                "CurrentPlayerSessionCount": 0,
+                "FleetArn": "migwhsoewlblkaoq",
+                "FleetId": "evbsasjmqngcgioo",
+                "Location": "syvkzyvfokkdngpt",
+                "MaximumPlayerSessionCount": 0
+            },
+            {
+                "ActiveGameSessionCount": 0,
+                "ActiveServerProcessCount": 0,
+                "CurrentPlayerSessionCount": 0,
+                "FleetArn": "spcuhzxcdxwvgwyy",
+                "FleetId": "bmepndpnbeeixjhk",
+                "Location": "ezvqciiijemzwibd",
+                "MaximumPlayerSessionCount": 0
+            },
+            {
+                "ActiveGameSessionCount": 0,
+                "ActiveServerProcessCount": 0,
+                "CurrentPlayerSessionCount": 0,
+                "FleetArn": "njrywzcazklhsghm",
+                "FleetId": "zqpblhtfjcudbtqr",
+                "Location": "zjvjajlhgcnpujig",
+                "MaximumPlayerSessionCount": 0
+            },
+            {
+                "ActiveGameSessionCount": 0,
+                "ActiveServerProcessCount": 0,
+                "CurrentPlayerSessionCount": 0,
+                "FleetArn": "yihilwzhiwizjeor",
+                "FleetId": "cpfblfymyqggyfns",
+                "Location": "diarozxxrzdxnisn",
+                "MaximumPlayerSessionCount": 0
+            },
+            {
+                "ActiveGameSessionCount": 0,
+                "ActiveServerProcessCount": 0,
+                "CurrentPlayerSessionCount": 0,
+                "FleetArn": "qqqntwdolyejosys",
+                "FleetId": "eujdpxaosezkcjrk",
+                "Location": "lbupehepoewfljsz",
+                "MaximumPlayerSessionCount": 0
+            },
+            {
+                "ActiveGameSessionCount": 0,
+                "ActiveServerProcessCount": 0,
+                "CurrentPlayerSessionCount": 0,
+                "FleetArn": "yhvkrldvmvokpsac",
+                "FleetId": "fofdqvuzznntcwaa",
+                "Location": "rujicjidyeztpine",
+                "MaximumPlayerSessionCount": 0
+            },
+            {
+                "ActiveGameSessionCount": 0,
+                "ActiveServerProcessCount": 0,
+                "CurrentPlayerSessionCount": 0,
+                "FleetArn": "vaqoaltbvusrpipv",
+                "FleetId": "mptdkkgothmafnxk",
+                "Location": "xsietjizmabuaeye",
+                "MaximumPlayerSessionCount": 0
+            }
+        ],
+        "result_key": "FleetUtilization"
+    },
+    "meta": {
+        "start": 1711115797.27195,
+        "end": 1711115804.99756,
+        "duration": 7.725620985031128,
+        "service": "gamelift",
+        "type": "fleet_utilization"
+    }
+}

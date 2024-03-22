@@ -1,0 +1,18 @@
+[
+    "workdocs.describe-activities",
+    "workdocs.describe-comments",
+    "workdocs.describe-document-versions",
+    "workdocs.describe-folder-contents",
+    "workdocs.describe-groups",
+    "workdocs.describe-notification-subscriptions",
+    "workdocs.describe-resource-permissions",
+    "workdocs.describe-root-folders",
+    "workdocs.describe-users",
+    "workdocs.get-current-user",
+    "workdocs.get-document",
+    "workdocs.get-document-path",
+    "workdocs.get-document-version",
+    "workdocs.get-folder",
+    "workdocs.get-folder-path",
+    "workdocs.get-resources"
+]

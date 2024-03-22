@@ -1,0 +1,91 @@
+{
+    "input": {
+        "template": {
+            "DryRun": true
+        },
+        "required": [],
+        "md5": "fe3857e79c53d9448b6cfb906cf015d1",
+        "boto_command": "describe_instance_event_notification_attributes",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": {
+            "InstanceTagKeys": [
+                "String"
+            ],
+            "IncludeAllTagsOfInstance": true
+        },
+        "required": [],
+        "md5": "a27cebdfa19eb915bdcb830f90253a8a",
+        "randomized": [
+            {
+                "IncludeAllTagsOfInstance": true,
+                "InstanceTagKeys": [
+                    "meaemsqwfqugwkrj"
+                ]
+            },
+            {
+                "IncludeAllTagsOfInstance": true,
+                "InstanceTagKeys": [
+                    "nrchnhevfikancam"
+                ]
+            },
+            {
+                "IncludeAllTagsOfInstance": true,
+                "InstanceTagKeys": [
+                    "ihcctjipqwhiufif"
+                ]
+            },
+            {
+                "IncludeAllTagsOfInstance": true,
+                "InstanceTagKeys": [
+                    "jqeaxfvatzzsarsw"
+                ]
+            },
+            {
+                "IncludeAllTagsOfInstance": true,
+                "InstanceTagKeys": [
+                    "snkbcsnubjnjmhpv"
+                ]
+            },
+            {
+                "IncludeAllTagsOfInstance": true,
+                "InstanceTagKeys": [
+                    "aguuudmvnmdawzty"
+                ]
+            },
+            {
+                "IncludeAllTagsOfInstance": true,
+                "InstanceTagKeys": [
+                    "hvicfttlnzpngvhx"
+                ]
+            },
+            {
+                "IncludeAllTagsOfInstance": true,
+                "InstanceTagKeys": [
+                    "fthaumjtycsljsut"
+                ]
+            },
+            {
+                "IncludeAllTagsOfInstance": true,
+                "InstanceTagKeys": [
+                    "cbubtudxjgmcmeaf"
+                ]
+            },
+            {
+                "IncludeAllTagsOfInstance": true,
+                "InstanceTagKeys": [
+                    "onfdzuvwrbbihzhy"
+                ]
+            }
+        ],
+        "result_key": "InstanceTagAttribute"
+    },
+    "meta": {
+        "start": 1711115626.321666,
+        "end": 1711115633.172815,
+        "duration": 6.85115909576416,
+        "service": "ec2",
+        "type": "instance_event_notification_attributes"
+    }
+}

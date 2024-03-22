@@ -1,0 +1,129 @@
+{
+    "input": {
+        "template": {
+            "connectorProfileName": "",
+            "connectorType": "Salesforce",
+            "entitiesPath": "",
+            "apiVersion": "",
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "required": [],
+        "md5": "43aab733e85916fbcac8fcfbdce14dd0",
+        "boto_command": "list_connector_entities",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": {
+            "KeyName": [
+                {
+                    "name": "name",
+                    "label": "label",
+                    "hasNestedEntities": true
+                }
+            ]
+        },
+        "required": [],
+        "md5": "d544d341742be9f7ae77b65521f4ed5e",
+        "randomized": [
+            {
+                "KeyName": [
+                    {
+                        "hasNestedEntities": true,
+                        "label": "rmivtpefvwhpvjfs",
+                        "name": "qwvraibjmmozrpcu"
+                    }
+                ]
+            },
+            {
+                "KeyName": [
+                    {
+                        "hasNestedEntities": true,
+                        "label": "msfkpaojvlumdkyg",
+                        "name": "puooxucovxjcraya"
+                    }
+                ]
+            },
+            {
+                "KeyName": [
+                    {
+                        "hasNestedEntities": true,
+                        "label": "dwcgdkqqiyamavty",
+                        "name": "wmfjeaqydjuuxfkc"
+                    }
+                ]
+            },
+            {
+                "KeyName": [
+                    {
+                        "hasNestedEntities": true,
+                        "label": "zlschnjthgeyeqme",
+                        "name": "ppvdhhowaueqlelu"
+                    }
+                ]
+            },
+            {
+                "KeyName": [
+                    {
+                        "hasNestedEntities": true,
+                        "label": "ktpohagrovhxdthv",
+                        "name": "gidfqdntpvnpfhnl"
+                    }
+                ]
+            },
+            {
+                "KeyName": [
+                    {
+                        "hasNestedEntities": true,
+                        "label": "nosrelnbnnnfognw",
+                        "name": "zlxnioqzxsyvourq"
+                    }
+                ]
+            },
+            {
+                "KeyName": [
+                    {
+                        "hasNestedEntities": true,
+                        "label": "fomkgvqycfbybdvz",
+                        "name": "goovfekhvwtbognl"
+                    }
+                ]
+            },
+            {
+                "KeyName": [
+                    {
+                        "hasNestedEntities": true,
+                        "label": "gjwuzdrbctkhaukq",
+                        "name": "mqqifdqsmobisqax"
+                    }
+                ]
+            },
+            {
+                "KeyName": [
+                    {
+                        "hasNestedEntities": true,
+                        "label": "stkwhtybhflaffsl",
+                        "name": "rxyeakaedtokkyoe"
+                    }
+                ]
+            },
+            {
+                "KeyName": [
+                    {
+                        "hasNestedEntities": true,
+                        "label": "vxpifyjqozchieqb",
+                        "name": "geavsebzibmziufz"
+                    }
+                ]
+            }
+        ],
+        "result_key": "connectorEntityMap"
+    },
+    "meta": {
+        "start": 1711115220.88002,
+        "end": 1711115227.937194,
+        "duration": 7.057183027267456,
+        "service": "appflow",
+        "type": "connector_entities"
+    }
+}

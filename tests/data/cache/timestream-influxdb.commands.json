@@ -1,0 +1,7 @@
+[
+    "timestream-influxdb.get-db-instance",
+    "timestream-influxdb.get-db-parameter-group",
+    "timestream-influxdb.list-db-instances",
+    "timestream-influxdb.list-db-parameter-groups",
+    "timestream-influxdb.list-tags-for-resource"
+]

@@ -1,0 +1,34 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "get_service_role_for_account",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": "AssociatedAt",
+        "required": [],
+        "md5": "dd5aa34d4e8f08df41cf722711a7e831",
+        "randomized": [
+            "plyplawitdmdkqgp",
+            "myhluabgitpduwxb",
+            "yumdmoqolrstpdwr",
+            "mvrlmgssqbtmqyjs",
+            "ccwiymjudfmcljpy",
+            "scdlquygxpakcvxq",
+            "gbugxfpfkkafqxsg",
+            "bctbcgvfudlygwni",
+            "utsalgpmuepqqmbt",
+            "neprkkaydlpolhww"
+        ],
+        "result_key": "AssociatedAt"
+    },
+    "meta": {
+        "start": 1711115847.643123,
+        "end": 1711115855.865886,
+        "duration": 8.222772121429443,
+        "service": "greengrass",
+        "type": null
+    }
+}

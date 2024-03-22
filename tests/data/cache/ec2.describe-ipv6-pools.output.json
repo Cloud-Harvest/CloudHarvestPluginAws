@@ -1,0 +1,205 @@
+{
+    "input": {
+        "template": {
+            "PoolIds": [
+                ""
+            ],
+            "NextToken": "",
+            "MaxResults": 0,
+            "DryRun": true,
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ]
+        },
+        "required": [],
+        "md5": "8599294c6ef7583f567ee83109c2baa4",
+        "boto_command": "describe_ipv6_pools",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "PoolId": "PoolId",
+                "Description": "Description",
+                "PoolCidrBlocks": [
+                    {
+                        "Cidr": "Cidr"
+                    }
+                ],
+                "Tags": [
+                    {
+                        "Key": "Key",
+                        "Value": "Value"
+                    }
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "666898f73f7e5baa4721ef085d7b7034",
+        "randomized": [
+            {
+                "Description": "spqrhrphdznxojca",
+                "PoolCidrBlocks": [
+                    {
+                        "Cidr": "goemoacoffwpfgct"
+                    }
+                ],
+                "PoolId": "updgyecjeuposnoq",
+                "Tags": [
+                    {
+                        "Key": "lhstlcxumfjsanty",
+                        "Value": "tmwwgvgrndulcjxu"
+                    }
+                ]
+            },
+            {
+                "Description": "uecvucqmyzxjxlit",
+                "PoolCidrBlocks": [
+                    {
+                        "Cidr": "hlbehowuxdkrmtay"
+                    }
+                ],
+                "PoolId": "juceveqyivmcqwcs",
+                "Tags": [
+                    {
+                        "Key": "bjcmlpdummujbwtr",
+                        "Value": "thzruqkqyjbhpqfo"
+                    }
+                ]
+            },
+            {
+                "Description": "yqwvnqqnkgghyhdo",
+                "PoolCidrBlocks": [
+                    {
+                        "Cidr": "yoyodjtibqnlyjwl"
+                    }
+                ],
+                "PoolId": "achbilpjlkhylkli",
+                "Tags": [
+                    {
+                        "Key": "cgtwxircpwoebucx",
+                        "Value": "ledtblahbbxximks"
+                    }
+                ]
+            },
+            {
+                "Description": "tczmjiujvkaxlguj",
+                "PoolCidrBlocks": [
+                    {
+                        "Cidr": "tpgfahutnbvbuowd"
+                    }
+                ],
+                "PoolId": "bsmjnrceddcgbjnv",
+                "Tags": [
+                    {
+                        "Key": "sonfblgcrpbyrvpu",
+                        "Value": "rpitrlhebmoxvqlr"
+                    }
+                ]
+            },
+            {
+                "Description": "brwftrkxrugmzbav",
+                "PoolCidrBlocks": [
+                    {
+                        "Cidr": "qlsurrzqpwoxnulx"
+                    }
+                ],
+                "PoolId": "hdsiuavbqygdmjdk",
+                "Tags": [
+                    {
+                        "Key": "omijwruefsvbsxny",
+                        "Value": "llknlneujyagnobx"
+                    }
+                ]
+            },
+            {
+                "Description": "caejutepyagurghf",
+                "PoolCidrBlocks": [
+                    {
+                        "Cidr": "bumecmxcffunalkr"
+                    }
+                ],
+                "PoolId": "xexcjtbcfukamvwy",
+                "Tags": [
+                    {
+                        "Key": "blkmcrtmsqgqjbjs",
+                        "Value": "wotqggieqqsmsxqb"
+                    }
+                ]
+            },
+            {
+                "Description": "lderubjdpdbdzcgg",
+                "PoolCidrBlocks": [
+                    {
+                        "Cidr": "jkenohmjmalptlqc"
+                    }
+                ],
+                "PoolId": "gkbngftxtvusvizu",
+                "Tags": [
+                    {
+                        "Key": "kylbzhdqigixpcal",
+                        "Value": "iryrxglhpxxfnllm"
+                    }
+                ]
+            },
+            {
+                "Description": "ypbsbvobmznuynws",
+                "PoolCidrBlocks": [
+                    {
+                        "Cidr": "viuqcvofqthghfsy"
+                    }
+                ],
+                "PoolId": "vungaihthjfydzcn",
+                "Tags": [
+                    {
+                        "Key": "ausepdnhglrptcth",
+                        "Value": "cfljkwigkxwemchg"
+                    }
+                ]
+            },
+            {
+                "Description": "mmuripykobtqrbko",
+                "PoolCidrBlocks": [
+                    {
+                        "Cidr": "nnsvnopbamogozcs"
+                    }
+                ],
+                "PoolId": "lrfwztcoaoravczn",
+                "Tags": [
+                    {
+                        "Key": "fczjmbpzfcmtrahd",
+                        "Value": "tfmmuoxonegcvjrm"
+                    }
+                ]
+            },
+            {
+                "Description": "rkrsmgysxyildlrp",
+                "PoolCidrBlocks": [
+                    {
+                        "Cidr": "dgnjqksbbquffgie"
+                    }
+                ],
+                "PoolId": "bqsbznkiprvbicdg",
+                "Tags": [
+                    {
+                        "Key": "iineqwfsemyibgup",
+                        "Value": "cmweoyurchftnlsw"
+                    }
+                ]
+            }
+        ],
+        "result_key": "Ipv6Pools"
+    },
+    "meta": {
+        "start": 1711115633.174251,
+        "end": 1711115639.931538,
+        "duration": 6.757297039031982,
+        "service": "ec2",
+        "type": "ipv6_pools"
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "get_account_settings",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": {
+            "GroupLifecycleEventsDesiredStatus": "GroupLifecycleEventsDesiredStatus",
+            "GroupLifecycleEventsStatus": "GroupLifecycleEventsStatus",
+            "GroupLifecycleEventsStatusMessage": "GroupLifecycleEventsStatusMessage"
+        },
+        "required": [],
+        "md5": "cafafffdb4c2139b691387a8c1daa61f",
+        "randomized": [
+            {
+                "GroupLifecycleEventsDesiredStatus": "zflrwijneptiyyxk",
+                "GroupLifecycleEventsStatus": "kigwuzunbhhbmffa",
+                "GroupLifecycleEventsStatusMessage": "chpirxyygytczuwr"
+            },
+            {
+                "GroupLifecycleEventsDesiredStatus": "afzimewmjsjmwkev",
+                "GroupLifecycleEventsStatus": "ubacvhqhlulgdrcf",
+                "GroupLifecycleEventsStatusMessage": "rhuwskxvdrxrcnly"
+            },
+            {
+                "GroupLifecycleEventsDesiredStatus": "tzqsghqcdfmnlwtm",
+                "GroupLifecycleEventsStatus": "fubddwblwkaaojmj",
+                "GroupLifecycleEventsStatusMessage": "qwswuiwmrbkkookp"
+            },
+            {
+                "GroupLifecycleEventsDesiredStatus": "rpsruxpozzaelmri",
+                "GroupLifecycleEventsStatus": "fndmjmvnvqereyuh",
+                "GroupLifecycleEventsStatusMessage": "lnaoorctpxhqjelu"
+            },
+            {
+                "GroupLifecycleEventsDesiredStatus": "ugycukrlbfhcitho",
+                "GroupLifecycleEventsStatus": "vaadrgalvyffihxr",
+                "GroupLifecycleEventsStatusMessage": "xrbwryxqhjiklcku"
+            },
+            {
+                "GroupLifecycleEventsDesiredStatus": "vrbzqouznrhpjfmj",
+                "GroupLifecycleEventsStatus": "lxnbsaydpqkjnczz",
+                "GroupLifecycleEventsStatusMessage": "jvbcetpeichczdcf"
+            },
+            {
+                "GroupLifecycleEventsDesiredStatus": "ydbbjeupicwurezv",
+                "GroupLifecycleEventsStatus": "jbemajryfsqlfclg",
+                "GroupLifecycleEventsStatusMessage": "iqivazovfbmljcyb"
+            },
+            {
+                "GroupLifecycleEventsDesiredStatus": "pkanhfzjiiyziweb",
+                "GroupLifecycleEventsStatus": "brmddvsfhzuduipp",
+                "GroupLifecycleEventsStatusMessage": "enthjmlkjzjbgqzy"
+            },
+            {
+                "GroupLifecycleEventsDesiredStatus": "yzwmhtpzjityzucm",
+                "GroupLifecycleEventsStatus": "ugzibxejvjxyrmyp",
+                "GroupLifecycleEventsStatusMessage": "isravylvrggoxxar"
+            },
+            {
+                "GroupLifecycleEventsDesiredStatus": "yuykqggbussnxrns",
+                "GroupLifecycleEventsStatus": "uhvuqinergrphaaf",
+                "GroupLifecycleEventsStatusMessage": "ykscyhhzhmljsksp"
+            }
+        ],
+        "result_key": "AccountSettings"
+    },
+    "meta": {
+        "start": 1711116460.327808,
+        "end": 1711116466.801541,
+        "duration": 6.47374415397644,
+        "service": "resource-groups",
+        "type": null
+    }
+}

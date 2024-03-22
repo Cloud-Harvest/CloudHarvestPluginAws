@@ -1,0 +1,23 @@
+[
+    "pinpoint-sms-voice-v2.describe-account-attributes",
+    "pinpoint-sms-voice-v2.describe-account-limits",
+    "pinpoint-sms-voice-v2.describe-configuration-sets",
+    "pinpoint-sms-voice-v2.describe-keywords",
+    "pinpoint-sms-voice-v2.describe-opt-out-lists",
+    "pinpoint-sms-voice-v2.describe-opted-out-numbers",
+    "pinpoint-sms-voice-v2.describe-phone-numbers",
+    "pinpoint-sms-voice-v2.describe-pools",
+    "pinpoint-sms-voice-v2.describe-registration-attachments",
+    "pinpoint-sms-voice-v2.describe-registration-field-definitions",
+    "pinpoint-sms-voice-v2.describe-registration-field-values",
+    "pinpoint-sms-voice-v2.describe-registration-section-definitions",
+    "pinpoint-sms-voice-v2.describe-registration-type-definitions",
+    "pinpoint-sms-voice-v2.describe-registration-versions",
+    "pinpoint-sms-voice-v2.describe-registrations",
+    "pinpoint-sms-voice-v2.describe-sender-ids",
+    "pinpoint-sms-voice-v2.describe-spend-limits",
+    "pinpoint-sms-voice-v2.describe-verified-destination-numbers",
+    "pinpoint-sms-voice-v2.list-pool-origination-identities",
+    "pinpoint-sms-voice-v2.list-registration-associations",
+    "pinpoint-sms-voice-v2.list-tags-for-resource"
+]

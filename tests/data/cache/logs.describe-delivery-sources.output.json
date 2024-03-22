@@ -1,0 +1,160 @@
+{
+    "input": {
+        "template": {
+            "nextToken": "",
+            "limit": 0
+        },
+        "required": [],
+        "md5": "3b0c67236e96e920a798b0999ab7e0ff",
+        "boto_command": "describe_delivery_sources",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "name": "name",
+                "arn": "arn",
+                "resourceArns": [
+                    "Arn"
+                ],
+                "service": "service",
+                "logType": "logType",
+                "tags": {
+                    "KeyName": ""
+                }
+            }
+        ],
+        "required": [],
+        "md5": "82e99f003cc19590dc44956d1b0ff89c",
+        "randomized": [
+            {
+                "arn": "casnkanhhjizpqps",
+                "logType": "sbnconmfudlwwkcm",
+                "name": "wwsugfsysotbbhyl",
+                "resourceArns": [
+                    "mghsgmcuipejysxe"
+                ],
+                "service": "syyzzafzwucqbnzs",
+                "tags": {
+                    "KeyName": "ijnyxrjbohpxjfnw"
+                }
+            },
+            {
+                "arn": "yuueuilitoltktjt",
+                "logType": "nyekyxcxoseylaxa",
+                "name": "uiuabranigwuukqa",
+                "resourceArns": [
+                    "rvaluslszeayrqms"
+                ],
+                "service": "himevgoqququjfar",
+                "tags": {
+                    "KeyName": "jcecueaccdmqsxwz"
+                }
+            },
+            {
+                "arn": "ivvrpfcwmeuvrgdg",
+                "logType": "pspgbasmveyqglrl",
+                "name": "otaxmpbuwqedjirv",
+                "resourceArns": [
+                    "wgbqmgmdqyvfaqyv"
+                ],
+                "service": "npyvazmypazuhptc",
+                "tags": {
+                    "KeyName": "tovfelwyvqwlwyfv"
+                }
+            },
+            {
+                "arn": "mwglktvouxoureeb",
+                "logType": "dczhrroopmgjvoyd",
+                "name": "ognhxncyfibrkxkl",
+                "resourceArns": [
+                    "mqqozhayulgksseu"
+                ],
+                "service": "uvndhbmwvgalqvpz",
+                "tags": {
+                    "KeyName": "zojuagyocnlposls"
+                }
+            },
+            {
+                "arn": "tywhaytxqqwzuhmr",
+                "logType": "otrhjjcerayagruj",
+                "name": "yhdiqihyveuysxbh",
+                "resourceArns": [
+                    "xabpqmrzjlvkusai"
+                ],
+                "service": "gjjmpairvrhrtlbb",
+                "tags": {
+                    "KeyName": "wwemaqsfzmrdffvv"
+                }
+            },
+            {
+                "arn": "lcvzczjuzixhmnbm",
+                "logType": "vmlehqebnumkhmun",
+                "name": "cijxandcwlfidlii",
+                "resourceArns": [
+                    "hkhscjnvolzjrmry"
+                ],
+                "service": "afagiwksxhgpwjxe",
+                "tags": {
+                    "KeyName": "fslcjzrsvmlftezf"
+                }
+            },
+            {
+                "arn": "dlfdjjcngcvzdudz",
+                "logType": "yfkugqhvzhaqnevx",
+                "name": "wrolausugcylesfq",
+                "resourceArns": [
+                    "nbkckvlajzwunfgt"
+                ],
+                "service": "gwfpprhiyvevnqjf",
+                "tags": {
+                    "KeyName": "frinxbloelxoatzq"
+                }
+            },
+            {
+                "arn": "laezpayheojhwfyc",
+                "logType": "gcwmajlucytnjsbl",
+                "name": "mfeuimnfzkntgagw",
+                "resourceArns": [
+                    "howyalcgmpqghyez"
+                ],
+                "service": "qxblwlpccbrdghoc",
+                "tags": {
+                    "KeyName": "oejgqdrzxqgahcln"
+                }
+            },
+            {
+                "arn": "bvotarbeodnjldzz",
+                "logType": "wpchdecxmjswzaxr",
+                "name": "hnvgjfuipyjphqde",
+                "resourceArns": [
+                    "aoeursppghnefabj"
+                ],
+                "service": "eneuxoclnstlweey",
+                "tags": {
+                    "KeyName": "gyeruacvhcqvjuzg"
+                }
+            },
+            {
+                "arn": "opwjqbwfyqgvijtx",
+                "logType": "wncblweauirgmajh",
+                "name": "gnirupeedfqjijxx",
+                "resourceArns": [
+                    "hvaqtjzrwvlstbti"
+                ],
+                "service": "wlcyyccsztaqfqfr",
+                "tags": {
+                    "KeyName": "iwdnfddmynkycjot"
+                }
+            }
+        ],
+        "result_key": "deliverySources"
+    },
+    "meta": {
+        "start": 1711116118.103499,
+        "end": 1711116125.505391,
+        "duration": 7.401904106140137,
+        "service": "logs",
+        "type": "delivery_sources"
+    }
+}

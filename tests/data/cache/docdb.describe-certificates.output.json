@@ -1,0 +1,125 @@
+{
+    "input": {
+        "template": {
+            "CertificateIdentifier": "",
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxRecords": 0,
+            "Marker": ""
+        },
+        "required": [],
+        "md5": "cf31951d642ab0cb19664a6f90f1142c",
+        "boto_command": "describe_certificates",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "CertificateIdentifier": "CertificateIdentifier",
+                "CertificateType": "CertificateType",
+                "Thumbprint": "Thumbprint",
+                "ValidFrom": "1970-01-01T00:00:00",
+                "ValidTill": "1970-01-01T00:00:00",
+                "CertificateArn": "CertificateArn"
+            }
+        ],
+        "required": [],
+        "md5": "9c78d701e4e827c307404c48f863d9c5",
+        "randomized": [
+            {
+                "CertificateArn": "plmcornpipjqbgnx",
+                "CertificateIdentifier": "farsxqylamslalfy",
+                "CertificateType": "nbeqdkowifbvgzuj",
+                "Thumbprint": "qwnosgdvqykmhasn",
+                "ValidFrom": "pwljstazisvsysfm",
+                "ValidTill": "fzndpfleriliefve"
+            },
+            {
+                "CertificateArn": "dvgnvojlltyxbddi",
+                "CertificateIdentifier": "watsobssfhybdnpz",
+                "CertificateType": "szgykgvkdkgrjqyf",
+                "Thumbprint": "vggvjhsrrfawtddm",
+                "ValidFrom": "zczzcuaxgmgtzyiu",
+                "ValidTill": "lukctmopfrnanjrn"
+            },
+            {
+                "CertificateArn": "suarxxitfacryeur",
+                "CertificateIdentifier": "pkeduaazvfnbgajl",
+                "CertificateType": "jchtjusxmrbertuo",
+                "Thumbprint": "wfbwzstwzjgohcpx",
+                "ValidFrom": "ghkgwpshikpalytr",
+                "ValidTill": "weferpcfsndtrrmm"
+            },
+            {
+                "CertificateArn": "yurgvxttwmajfnmx",
+                "CertificateIdentifier": "ykknwxcichckttoi",
+                "CertificateType": "oxeumfungwhekije",
+                "Thumbprint": "hayjtcggkezvyvog",
+                "ValidFrom": "wxvirvodhbpxhreh",
+                "ValidTill": "rwpixxflloqergkq"
+            },
+            {
+                "CertificateArn": "dxyutnwrmhiivjyq",
+                "CertificateIdentifier": "mqtmisxrwngyezqw",
+                "CertificateType": "flkkabkkvwvrjlzs",
+                "Thumbprint": "miqdljhrmdnrmcdv",
+                "ValidFrom": "vmkidtwdwddkuxqe",
+                "ValidTill": "tfmsseboemouddib"
+            },
+            {
+                "CertificateArn": "brexkvkdagflhyde",
+                "CertificateIdentifier": "nvbtwunihcprryid",
+                "CertificateType": "dcntnrtmuccgtrum",
+                "Thumbprint": "avjlrrwthwxqpmds",
+                "ValidFrom": "rjejcbjmecqspkbl",
+                "ValidTill": "xdkukfnhxdaayhmf"
+            },
+            {
+                "CertificateArn": "xkkjnpjbomsgybaq",
+                "CertificateIdentifier": "deawfgsqpbichunj",
+                "CertificateType": "mmyugkoipitfuvfc",
+                "Thumbprint": "tlgghazhvrzlpiof",
+                "ValidFrom": "fzuedajllgtfnxvp",
+                "ValidTill": "tmwglqamhqhhpbdf"
+            },
+            {
+                "CertificateArn": "frofraxbsxttayfd",
+                "CertificateIdentifier": "hxkdzingfhayauhn",
+                "CertificateType": "ittmdevolqvczuus",
+                "Thumbprint": "hsmymjiltorgeqer",
+                "ValidFrom": "nofkhwiqrwavrhkq",
+                "ValidTill": "cudxuhnfpmkmutxs"
+            },
+            {
+                "CertificateArn": "igjrsuhcgilohyob",
+                "CertificateIdentifier": "latwvkjcjqlxnamf",
+                "CertificateType": "pplmaxrhzoeiapkr",
+                "Thumbprint": "poeywumuajhhmqct",
+                "ValidFrom": "iduvhuuawqjjyidz",
+                "ValidTill": "xhrekuimfchrkocu"
+            },
+            {
+                "CertificateArn": "zxsiyvmwjqsxhtam",
+                "CertificateIdentifier": "tiyfevftuwgmlqui",
+                "CertificateType": "vsxcpaxvrureqnft",
+                "Thumbprint": "lmxkkcbsndhxbmqi",
+                "ValidFrom": "frsozsuqnsfleydo",
+                "ValidTill": "rfsjnwulhkhpcfph"
+            }
+        ],
+        "result_key": "Certificates"
+    },
+    "meta": {
+        "start": 1711115585.670511,
+        "end": 1711115591.364312,
+        "duration": 5.693811893463135,
+        "service": "docdb",
+        "type": "certificates"
+    }
+}

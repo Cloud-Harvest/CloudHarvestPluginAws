@@ -1,0 +1,183 @@
+{
+    "input": {
+        "template": {
+            "protocols": [
+                "Email"
+            ]
+        },
+        "required": [],
+        "md5": "e0a6cee564d2d94a21bf378e95cd23fb",
+        "boto_command": "get_contact_methods",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "contactEndpoint": "contactEndpoint",
+                "status": "status",
+                "protocol": "protocol",
+                "name": "name",
+                "arn": "arn",
+                "createdAt": "1970-01-01T00:00:00",
+                "location": {
+                    "availabilityZone": "availabilityZone",
+                    "regionName": "regionName"
+                },
+                "resourceType": "resourceType",
+                "supportCode": "supportCode"
+            }
+        ],
+        "required": [],
+        "md5": "d84454fe12e21c29a23dda0528a06cdd",
+        "randomized": [
+            {
+                "arn": "hbllqaqiwkjurrqs",
+                "contactEndpoint": "xaglsaoukjrnayzj",
+                "createdAt": "ggyjfhxgenfgxdic",
+                "location": {
+                    "availabilityZone": "ywxghxszcxyhcrsr",
+                    "regionName": "lxzlptmvaivpizvx"
+                },
+                "name": "hlibjozmqfjvnuvl",
+                "protocol": "psjxomdpdkkczdta",
+                "resourceType": "oeqxmpkmqytreszz",
+                "status": "tgbplcdkpklggusk",
+                "supportCode": "zvyhdvxwdscfgzue"
+            },
+            {
+                "arn": "jscisydweawyvaff",
+                "contactEndpoint": "gleldndrcbxfmado",
+                "createdAt": "hmbffgyyxmkxdizr",
+                "location": {
+                    "availabilityZone": "wnedmlqckxdhazea",
+                    "regionName": "eybxfogjrnbfuxmn"
+                },
+                "name": "ylhovokmektuxllh",
+                "protocol": "dqhcuhlcjxulpyvb",
+                "resourceType": "gcwasyrpkzonxbvk",
+                "status": "yuojcffyopmmqnjc",
+                "supportCode": "pfbujpmkkguzhxgj"
+            },
+            {
+                "arn": "sgnmysuddqykpehy",
+                "contactEndpoint": "igqdgdaqljxbisqj",
+                "createdAt": "ucbsgxhrnoclxkcq",
+                "location": {
+                    "availabilityZone": "dhmrsehwjosapchv",
+                    "regionName": "lcffsawwdetprvmz"
+                },
+                "name": "wxhhnpbfewfttyov",
+                "protocol": "qsnmghdgywavbloc",
+                "resourceType": "nuamrqvrtnabkjuk",
+                "status": "gkexllmoauxgtblm",
+                "supportCode": "znrvmwukuexzuzcc"
+            },
+            {
+                "arn": "ryyhbxubdgwfbcaz",
+                "contactEndpoint": "snskzbqrqewuhphp",
+                "createdAt": "ssaxxwyexewzsuyy",
+                "location": {
+                    "availabilityZone": "racleswkjrjuqgwq",
+                    "regionName": "aijtrurjwrygnplj"
+                },
+                "name": "ckogogetgrspqatw",
+                "protocol": "hxfndkbrzbwudycm",
+                "resourceType": "hsygjqltarkafqhw",
+                "status": "nqfoleoloxflwrdk",
+                "supportCode": "hfdwjleqgiabhdpe"
+            },
+            {
+                "arn": "dyttuldgpfhigelz",
+                "contactEndpoint": "xnqcjlrtepyfoqzp",
+                "createdAt": "zsdvmkkbjezqabfy",
+                "location": {
+                    "availabilityZone": "weextkfhpcgneuij",
+                    "regionName": "nnviyhwgpfwnmmyi"
+                },
+                "name": "lsagjewahxiowfqk",
+                "protocol": "wnjiircsulivucah",
+                "resourceType": "ubyykkxkxknscycv",
+                "status": "lrxnpgodhyzvpwkh",
+                "supportCode": "gjbfgmylfogcwxge"
+            },
+            {
+                "arn": "cbpkffliiigniqfp",
+                "contactEndpoint": "yscbyjxokpbkljxw",
+                "createdAt": "mkzbhfszeksctkzx",
+                "location": {
+                    "availabilityZone": "mfrdleqsvwuqpjqa",
+                    "regionName": "qwxpiaimqwadjjcr"
+                },
+                "name": "ebctpoqugsehwfwv",
+                "protocol": "pqoygbufnlfczbxk",
+                "resourceType": "soplnuqautmxqllo",
+                "status": "ixmgmkxwoqpiiugv",
+                "supportCode": "smbmpuxndymbalja"
+            },
+            {
+                "arn": "ewbheugyjhjlduzs",
+                "contactEndpoint": "anoawpcknekicbti",
+                "createdAt": "wspueohljpherfrt",
+                "location": {
+                    "availabilityZone": "nofkpwdikpbgsafm",
+                    "regionName": "cnxdpqbojqavffcf"
+                },
+                "name": "wjdnhjefjtxuxavt",
+                "protocol": "jyvbefhjcuatfsdv",
+                "resourceType": "xvvgogtpoilqkysf",
+                "status": "vrvzheodhcoobnsd",
+                "supportCode": "hrcnkwqmsjfaxdki"
+            },
+            {
+                "arn": "dhylbqoonvbfcmdo",
+                "contactEndpoint": "pgocrqabrjlatnxj",
+                "createdAt": "vmspybhejbaakngt",
+                "location": {
+                    "availabilityZone": "kduqilxmgbpbxvwb",
+                    "regionName": "xoghmvtreoyrognl"
+                },
+                "name": "oroycackacwnfydn",
+                "protocol": "wshhqksajeucarht",
+                "resourceType": "lwkzrikjylugpmoh",
+                "status": "wcmeibnjnezfotpw",
+                "supportCode": "zavhkenbmkymyood"
+            },
+            {
+                "arn": "aqsbasperyccfnul",
+                "contactEndpoint": "ppjnemecmwxzyiab",
+                "createdAt": "uehrszezfuuhegwa",
+                "location": {
+                    "availabilityZone": "fdclzakeiuewxnbm",
+                    "regionName": "zcbrjjimwmxkwqag"
+                },
+                "name": "fxbwiwmldihzbzuq",
+                "protocol": "zxvapbbtrcrobtkr",
+                "resourceType": "fftauogzspgtehuv",
+                "status": "qdwzkbelmvnrhhwm",
+                "supportCode": "lgkyjpzmurqxoypi"
+            },
+            {
+                "arn": "kcvtwagutaluvctv",
+                "contactEndpoint": "rqzgbinowadhxdye",
+                "createdAt": "puuhkapjjtzdxttk",
+                "location": {
+                    "availabilityZone": "tulmibmiybxuklvp",
+                    "regionName": "racyikjcksvgcthw"
+                },
+                "name": "utvoljwvqyntsztr",
+                "protocol": "flggsqwhstgzxarg",
+                "resourceType": "gxivjqrnulaibjtx",
+                "status": "umzqfxhzegnabfrm",
+                "supportCode": "idnxszkymjhmxdaz"
+            }
+        ],
+        "result_key": "contactMethods"
+    },
+    "meta": {
+        "start": 1711116095.408318,
+        "end": 1711116103.015954,
+        "duration": 7.6076459884643555,
+        "service": "lightsail",
+        "type": null
+    }
+}

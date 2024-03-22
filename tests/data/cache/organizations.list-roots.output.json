@@ -1,0 +1,149 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "9dece7f85fc1c3f944425b1f68a8e6e1",
+        "boto_command": "list_roots",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "Id": "Id",
+                "Arn": "Arn",
+                "Name": "Name",
+                "PolicyTypes": [
+                    {
+                        "Type": "Type",
+                        "Status": "Status"
+                    }
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "e99f08472bc8e93ff78ce124a4ab2c23",
+        "randomized": [
+            {
+                "Arn": "flliifrjfemmidpl",
+                "Id": "excbwptwlikuyqei",
+                "Name": "rgbjykrgtgilparj",
+                "PolicyTypes": [
+                    {
+                        "Status": "fxyiwjvoldntqyoz",
+                        "Type": "swruufwekpnxdtrm"
+                    }
+                ]
+            },
+            {
+                "Arn": "xhoqbalnfvecezzg",
+                "Id": "xqdmfitsouonxqid",
+                "Name": "yofkkegnfnlcwgyo",
+                "PolicyTypes": [
+                    {
+                        "Status": "fylevarblvondruz",
+                        "Type": "qiynrbejhcjzsqsc"
+                    }
+                ]
+            },
+            {
+                "Arn": "nbrrwjhrpzspeyst",
+                "Id": "tztdveckgajavths",
+                "Name": "xuvugwjeyvixsehs",
+                "PolicyTypes": [
+                    {
+                        "Status": "srtawqfixzjpegku",
+                        "Type": "dkeardhwzzlbrutk"
+                    }
+                ]
+            },
+            {
+                "Arn": "bzzvoeavdpjuqksz",
+                "Id": "lxxgumpqjbynlhui",
+                "Name": "cxlzmuvfhmxgxygr",
+                "PolicyTypes": [
+                    {
+                        "Status": "emxuoaulwgihxhzc",
+                        "Type": "qgwhrkkrbhpkstzv"
+                    }
+                ]
+            },
+            {
+                "Arn": "eqpizlyapqzuobta",
+                "Id": "euetgyrduyaqwvfx",
+                "Name": "xueztonirolvfffr",
+                "PolicyTypes": [
+                    {
+                        "Status": "mcqxjdkdabnmftfc",
+                        "Type": "ojqjqsplitwetaye"
+                    }
+                ]
+            },
+            {
+                "Arn": "siopujfkbahwarrp",
+                "Id": "gtazlxmakmgnasza",
+                "Name": "xfqpkaovkgbcenpl",
+                "PolicyTypes": [
+                    {
+                        "Status": "gfixyxxnahfuqofz",
+                        "Type": "dmyoqxuukkxgwusd"
+                    }
+                ]
+            },
+            {
+                "Arn": "svionnnzvwmclnxx",
+                "Id": "fkvatufuqiwhprtz",
+                "Name": "vyfyvbycujlpjkqa",
+                "PolicyTypes": [
+                    {
+                        "Status": "afuhsaemflfxbtkg",
+                        "Type": "zvophezalpkeiihz"
+                    }
+                ]
+            },
+            {
+                "Arn": "wnkqzkfktcqwrmuu",
+                "Id": "exlfjhkyezllmjcw",
+                "Name": "kbbpezustnltbqch",
+                "PolicyTypes": [
+                    {
+                        "Status": "haaoctzppecqhnwk",
+                        "Type": "kpuaisqtwlgaawzy"
+                    }
+                ]
+            },
+            {
+                "Arn": "feduovspyzhloghj",
+                "Id": "ugmqhviuuzlebpsv",
+                "Name": "dedhyqwasvmxhfyl",
+                "PolicyTypes": [
+                    {
+                        "Status": "sticzidvgaaswmli",
+                        "Type": "hbubkpxhwolthnuc"
+                    }
+                ]
+            },
+            {
+                "Arn": "aylkxmcuukhlyrzv",
+                "Id": "edezopzcuumzonxu",
+                "Name": "wyqdxfjullwemsnc",
+                "PolicyTypes": [
+                    {
+                        "Status": "cdytqglyvkdfuslm",
+                        "Type": "qtlwtyysvwthtztv"
+                    }
+                ]
+            }
+        ],
+        "result_key": "Roots"
+    },
+    "meta": {
+        "start": 1711116297.52954,
+        "end": 1711116304.550926,
+        "duration": 7.021397829055786,
+        "service": "organizations",
+        "type": "roots"
+    }
+}

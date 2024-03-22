@@ -1,0 +1,104 @@
+{
+    "input": {
+        "template": {
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "28fe14adb863d5d0635cac1da3f9b4e4",
+        "boto_command": "list_subscriptions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "SubscriptionArn": "SubscriptionArn",
+                "Owner": "Owner",
+                "Protocol": "Protocol",
+                "Endpoint": "Endpoint",
+                "TopicArn": "TopicArn"
+            }
+        ],
+        "required": [],
+        "md5": "824b751011ff420cd1d58998491d1ea0",
+        "randomized": [
+            {
+                "Endpoint": "modgyglqrltmuiwd",
+                "Owner": "lripxwdhrogkhzsb",
+                "Protocol": "wdrdndylanlplbor",
+                "SubscriptionArn": "mpybqnzowquolimh",
+                "TopicArn": "pqjvkutxykljrojs"
+            },
+            {
+                "Endpoint": "okwffduzzciloixv",
+                "Owner": "htnhbbjvtigsxtzw",
+                "Protocol": "btxwryufvsbgpiew",
+                "SubscriptionArn": "mowanzgwcacdpkdc",
+                "TopicArn": "mwqqscqckoiulkqx"
+            },
+            {
+                "Endpoint": "bfcvsysesopkhnzi",
+                "Owner": "npclgpnubnhykhqf",
+                "Protocol": "amaqitxbpndswarq",
+                "SubscriptionArn": "uelkghoodowtlbpr",
+                "TopicArn": "kexpevylugsvizes"
+            },
+            {
+                "Endpoint": "nluxmdjclxpaksem",
+                "Owner": "ljtyqbksvsolnmuf",
+                "Protocol": "egmpqhrwvbaszipx",
+                "SubscriptionArn": "vsmwutxnulayuhtg",
+                "TopicArn": "ycgdyotmbjfgqusj"
+            },
+            {
+                "Endpoint": "phuixexigmpzjbtl",
+                "Owner": "hikamfvzyakreeuc",
+                "Protocol": "qdevuqjqkoohpkpc",
+                "SubscriptionArn": "wywtmnsrsuktgplq",
+                "TopicArn": "ajpiopzdkruhhpvt"
+            },
+            {
+                "Endpoint": "drffvteoorpqpuof",
+                "Owner": "hbbxuzkvrggeqkhi",
+                "Protocol": "ujllgdkqhlnxuikm",
+                "SubscriptionArn": "jxdbrpxftoseqzdt",
+                "TopicArn": "zpddzrdmgmhodihl"
+            },
+            {
+                "Endpoint": "darhsuhqxcbrktly",
+                "Owner": "sahruxshpfocifbd",
+                "Protocol": "usdbwajsnzpeplbw",
+                "SubscriptionArn": "tyzawdshtfoaqdha",
+                "TopicArn": "ohcpjbcrumjvoexh"
+            },
+            {
+                "Endpoint": "juhwgkhimkfllhdw",
+                "Owner": "krgjmoqmerimwcry",
+                "Protocol": "vcaqsvthnaiymjbb",
+                "SubscriptionArn": "gkqbonxomscygopw",
+                "TopicArn": "lslqxxzrpumuussp"
+            },
+            {
+                "Endpoint": "gvlyawgcehhdxcop",
+                "Owner": "zlqmywaevaxngvca",
+                "Protocol": "dwxisrmancrxriue",
+                "SubscriptionArn": "gqgwodsnfxmhsxnq",
+                "TopicArn": "nmbqoelhkvnrumbp"
+            },
+            {
+                "Endpoint": "agwryntwliszllip",
+                "Owner": "nthnnyvyzjvseuhp",
+                "Protocol": "zbkvynzgqhfeebcr",
+                "SubscriptionArn": "wrdqfnuxhfoahtbe",
+                "TopicArn": "musoxwbmqqmpuyrq"
+            }
+        ],
+        "result_key": "Subscriptions"
+    },
+    "meta": {
+        "start": 1711116651.856121,
+        "end": 1711116658.078513,
+        "duration": 6.2224040031433105,
+        "service": "sns",
+        "type": "subscriptions"
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "input": {
+        "template": {
+            "maxItems": 0,
+            "neptuneIamRoleArn": ""
+        },
+        "required": [],
+        "md5": "32afecf2cd8e2200773589bcf625a89e",
+        "boto_command": "list_ml_model_training_jobs",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            "String"
+        ],
+        "required": [],
+        "md5": "7764e955ad9b9a3cec3f00758aa227bf",
+        "randomized": [
+            "uohfsqbsoueliwvp",
+            "vwxrqzggtdljiwry",
+            "ihlctcqsodrahhvj",
+            "fjtnaoccqcsklqjm",
+            "zobrndeabhgadbts",
+            "xwpnotxivcwmotyn",
+            "kirwoalhxcgdtsll",
+            "pmdesrsucabpahbk",
+            "akxiluddmqsljmhp",
+            "lsyeeewlprvsltji"
+        ],
+        "result_key": "ids"
+    },
+    "meta": {
+        "start": 1711116238.668201,
+        "end": 1711116245.003889,
+        "duration": 6.335698127746582,
+        "service": "neptunedata",
+        "type": "ml_model_training_jobs"
+    }
+}

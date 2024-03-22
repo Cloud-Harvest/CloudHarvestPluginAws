@@ -1,0 +1,119 @@
+{
+    "input": {
+        "template": {
+            "StackId": "",
+            "InstanceId": "",
+            "ServiceErrorIds": [
+                ""
+            ]
+        },
+        "required": [],
+        "md5": "f1f8289c823ec2eb5cd48ce4e03b3b8d",
+        "boto_command": "describe_service_errors",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "ServiceErrorId": "ServiceErrorId",
+                "StackId": "StackId",
+                "InstanceId": "InstanceId",
+                "Type": "Type",
+                "Message": "Message",
+                "CreatedAt": "CreatedAt"
+            }
+        ],
+        "required": [],
+        "md5": "8f9d80dd81eb39ebda4f654a9454a184",
+        "randomized": [
+            {
+                "CreatedAt": "dewlfgxwvihuxjfq",
+                "InstanceId": "zvlzhgxnuaitqafe",
+                "Message": "miudlwwpqbfaxkqt",
+                "ServiceErrorId": "jxdycryywnrdtiic",
+                "StackId": "ljmtsolabxddjrjo",
+                "Type": "rsabpyqegrceghpq"
+            },
+            {
+                "CreatedAt": "mshvvgrozbkxptun",
+                "InstanceId": "jeythqdnxridnzfe",
+                "Message": "gvuclxxwafxtrswf",
+                "ServiceErrorId": "kmryugeliudxuosf",
+                "StackId": "jwregqbfgbadwptm",
+                "Type": "ubylzppdrfevhwrh"
+            },
+            {
+                "CreatedAt": "ataqulgpmcvcrkrv",
+                "InstanceId": "qejpuzdpvpxpship",
+                "Message": "bonkeozfzwsxbprg",
+                "ServiceErrorId": "aymdxytertbhjtee",
+                "StackId": "meaelnlhllljdbmd",
+                "Type": "zfmkwtrwriigukwl"
+            },
+            {
+                "CreatedAt": "volirqetylstnnxj",
+                "InstanceId": "tiiestastugtbdro",
+                "Message": "ychbknimjajwgpwv",
+                "ServiceErrorId": "eltuwnkgwocsstxg",
+                "StackId": "xxxnazhydsdgafcp",
+                "Type": "uvgmpkwmmuzrcbmi"
+            },
+            {
+                "CreatedAt": "joshdughzboyftnf",
+                "InstanceId": "btfteehemaxnqfns",
+                "Message": "rjwywbsgtdmnjevt",
+                "ServiceErrorId": "ekihbysbnytdvett",
+                "StackId": "zvahhrsjvdhpjzpj",
+                "Type": "rehiodxtagaekasu"
+            },
+            {
+                "CreatedAt": "gweepjcgcncxgbrv",
+                "InstanceId": "nvcpzocfjdpvyprf",
+                "Message": "gmpcjjaoylxbhtez",
+                "ServiceErrorId": "fpykcbzlqlkekqvo",
+                "StackId": "pjmdpfkhzkpqtqxz",
+                "Type": "hhsyvjrjloxcvitc"
+            },
+            {
+                "CreatedAt": "gpxbisxjvigxmulh",
+                "InstanceId": "ibnzisydjjvvpsji",
+                "Message": "kksgxoqzgwrojlut",
+                "ServiceErrorId": "kvdvyjiuhevzitpk",
+                "StackId": "rzbowbdifjvqllso",
+                "Type": "rcklqwpahacakuav"
+            },
+            {
+                "CreatedAt": "zwxxqtbuvebxxvyv",
+                "InstanceId": "ntcdfyyxjyhqhbiv",
+                "Message": "pkkpiqlspcwkzhki",
+                "ServiceErrorId": "ttidtdctzcolfcrw",
+                "StackId": "wagatpfrjbvpxnnj",
+                "Type": "bnalvrwkgvrhtkmo"
+            },
+            {
+                "CreatedAt": "ugulpddoreyywoxh",
+                "InstanceId": "rmusgihnbzmxfvvk",
+                "Message": "ckxwwwpuebzhtena",
+                "ServiceErrorId": "jsetcvwcsgnwtwiq",
+                "StackId": "svakahqxieesgrtl",
+                "Type": "oklmjsbqxrnygdoo"
+            },
+            {
+                "CreatedAt": "lprufdynhfbqsiey",
+                "InstanceId": "dwmybjeltluxrucr",
+                "Message": "tdvaulauzrdeanzd",
+                "ServiceErrorId": "ezjhhmsuwwnohjrq",
+                "StackId": "grdxgsrdgoeuxctv",
+                "Type": "njhgnkgdcfjeqzua"
+            }
+        ],
+        "result_key": "ServiceErrors"
+    },
+    "meta": {
+        "start": 1711116287.382071,
+        "end": 1711116292.295765,
+        "duration": 4.913706064224243,
+        "service": "opsworks",
+        "type": "service_errors"
+    }
+}

@@ -1,0 +1,12 @@
+[
+    "comprehendmedical.describe-entities-detection-v2-job",
+    "comprehendmedical.describe-icd10-cm-inference-job",
+    "comprehendmedical.describe-phi-detection-job",
+    "comprehendmedical.describe-rx-norm-inference-job",
+    "comprehendmedical.describe-snomedct-inference-job",
+    "comprehendmedical.list-entities-detection-v2-jobs",
+    "comprehendmedical.list-icd10-cm-inference-jobs",
+    "comprehendmedical.list-phi-detection-jobs",
+    "comprehendmedical.list-rx-norm-inference-jobs",
+    "comprehendmedical.list-snomedct-inference-jobs"
+]

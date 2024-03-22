@@ -1,0 +1,39 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "031b56893c6f5a9d0ebe6017c5c080cb",
+        "boto_command": "list_detectors",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            "DetectorId"
+        ],
+        "required": [],
+        "md5": "92d4b325d32fbf2b3356e2aa3f131a81",
+        "randomized": [
+            "pkjabmudxshbdulg",
+            "rvjjwriqnueyxdwd",
+            "ctwrzbmuubwaovev",
+            "mnudjujcasucfbrv",
+            "zjvpkyacgmaltvpd",
+            "gpofvzyiierwbdzu",
+            "tcaamosjiwucrcua",
+            "ilvtornhavxkihbh",
+            "qzpfsewwysbtshgq",
+            "izperjmioudkexhr"
+        ],
+        "result_key": "DetectorIds"
+    },
+    "meta": {
+        "start": 1711115867.698579,
+        "end": 1711115875.828259,
+        "duration": 8.129690885543823,
+        "service": "guardduty",
+        "type": "detectors"
+    }
+}

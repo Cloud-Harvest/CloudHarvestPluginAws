@@ -1,0 +1,37 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "9dece7f85fc1c3f944425b1f68a8e6e1",
+        "boto_command": "list_worker_blocks",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": 0,
+        "required": [],
+        "md5": "91c1929e273cf34faa33b8217e56cce5",
+        "randomized": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "result_key": "NumResults"
+    },
+    "meta": {
+        "start": 1711116223.676077,
+        "end": 1711116230.897564,
+        "duration": 7.221497058868408,
+        "service": "mturk",
+        "type": "worker_blocks"
+    }
+}

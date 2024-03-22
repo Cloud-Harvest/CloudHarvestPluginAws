@@ -1,0 +1,95 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "nextToken": "",
+            "sort": "ASC"
+        },
+        "required": [],
+        "md5": "0ca8fd68b8e031fe976bb1ac4d4b238e",
+        "boto_command": "list_analyzable_servers",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "hostname": "hostname",
+                "ipAddress": "ipAddress",
+                "source": "source",
+                "vmId": "vmId"
+            }
+        ],
+        "required": [],
+        "md5": "827e4149463a4118d0392a855f6db533",
+        "randomized": [
+            {
+                "hostname": "iwinnymxnkvlznef",
+                "ipAddress": "oaiwduoyflddhesp",
+                "source": "mjtqqpxnrcfndoyx",
+                "vmId": "bmmloluyktavijeo"
+            },
+            {
+                "hostname": "bumhrywqjnpcprhu",
+                "ipAddress": "inergvcizrcovhgd",
+                "source": "qtnfjbbelnxlobdq",
+                "vmId": "dtnjucmxylqgtwbd"
+            },
+            {
+                "hostname": "zfuskrueotwsaark",
+                "ipAddress": "nxqsxjkxbvqnwwhx",
+                "source": "cptvcoujyrwlffoq",
+                "vmId": "rkntezpnsnexggog"
+            },
+            {
+                "hostname": "uwovwubwhggxrgcn",
+                "ipAddress": "awnyvycgpdsyearw",
+                "source": "oravcndmtpdrnuso",
+                "vmId": "tscjsvmvgmwpiofn"
+            },
+            {
+                "hostname": "kldsvgnippzrjqkx",
+                "ipAddress": "qmrjiwegulbertae",
+                "source": "jhjbxwvbhcykzsci",
+                "vmId": "ylapsmwjrrzfkwzc"
+            },
+            {
+                "hostname": "kpmeuyupfphqddyw",
+                "ipAddress": "mxeyaksmksoivcxo",
+                "source": "iipplcuzkspaatcn",
+                "vmId": "houiapolfngoefjt"
+            },
+            {
+                "hostname": "lbqaiasfmxgsannf",
+                "ipAddress": "ovzxzdftsaiiyjyr",
+                "source": "gzehhwnykpzsqrel",
+                "vmId": "ckuyiytggejaolxc"
+            },
+            {
+                "hostname": "lvmnmifigosjzwia",
+                "ipAddress": "cvbjzvfhvdfhwojf",
+                "source": "pzgszuszvgyphesg",
+                "vmId": "yyoyaglfmkuqawrw"
+            },
+            {
+                "hostname": "klvqfeypwapkbitw",
+                "ipAddress": "kxdtrhulxoyqfijn",
+                "source": "fwpufksvjwgvhprj",
+                "vmId": "gbhbfwmlnbrcnxih"
+            },
+            {
+                "hostname": "sisczuvchwscflvn",
+                "ipAddress": "shxsgtmsmuyogjmq",
+                "source": "xusvuumqnyheuwtd",
+                "vmId": "bwkcgmikchpxiiia"
+            }
+        ],
+        "result_key": "analyzableServers"
+    },
+    "meta": {
+        "start": 1711116215.158841,
+        "end": 1711116222.221281,
+        "duration": 7.062451124191284,
+        "service": "migrationhubstrategy",
+        "type": "analyzable_servers"
+    }
+}

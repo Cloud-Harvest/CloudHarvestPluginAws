@@ -1,0 +1,13 @@
+[
+    "detective.describe-organization-configuration",
+    "detective.get-investigation",
+    "detective.get-members",
+    "detective.list-datasource-packages",
+    "detective.list-graphs",
+    "detective.list-indicators",
+    "detective.list-investigations",
+    "detective.list-invitations",
+    "detective.list-members",
+    "detective.list-organization-admin-accounts",
+    "detective.list-tags-for-resource"
+]

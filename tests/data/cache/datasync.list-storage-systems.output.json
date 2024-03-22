@@ -1,0 +1,72 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "031b56893c6f5a9d0ebe6017c5c080cb",
+        "boto_command": "list_storage_systems",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "StorageSystemArn": "StorageSystemArn",
+                "Name": "Name"
+            }
+        ],
+        "required": [],
+        "md5": "d9cdf5dd5547b28df2393b365644b692",
+        "randomized": [
+            {
+                "Name": "xbnxvrqucvwcysta",
+                "StorageSystemArn": "rpvgdebkzonrbjkr"
+            },
+            {
+                "Name": "sqydcznhunirfsmd",
+                "StorageSystemArn": "apgckkzlwdxpbqhk"
+            },
+            {
+                "Name": "imojsnauivzvubok",
+                "StorageSystemArn": "jewpatjvnbhokzjm"
+            },
+            {
+                "Name": "sptmcutbwgsqhghb",
+                "StorageSystemArn": "eupiptborribopoo"
+            },
+            {
+                "Name": "nlpbrfolgqxzvcuj",
+                "StorageSystemArn": "lxwnpwklshomwwnt"
+            },
+            {
+                "Name": "ynoytfngmfsqdvvl",
+                "StorageSystemArn": "qzxkgmbbfyknwwqt"
+            },
+            {
+                "Name": "zvmpdomtfojkqedu",
+                "StorageSystemArn": "ekwwmtqeznihclou"
+            },
+            {
+                "Name": "lgqczcuolmkhxmtc",
+                "StorageSystemArn": "poxrjzcdsfyivdwj"
+            },
+            {
+                "Name": "cbzgdbsgyfnbcgns",
+                "StorageSystemArn": "zifshooicguopwhr"
+            },
+            {
+                "Name": "mguoggbrnhfeibdf",
+                "StorageSystemArn": "abtoittzebkbcfyc"
+            }
+        ],
+        "result_key": "StorageSystems"
+    },
+    "meta": {
+        "start": 1711115526.138501,
+        "end": 1711115533.606533,
+        "duration": 7.468041181564331,
+        "service": "datasync",
+        "type": "storage_systems"
+    }
+}

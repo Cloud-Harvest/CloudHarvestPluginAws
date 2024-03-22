@@ -1,0 +1,436 @@
+{
+    "input": {
+        "template": {
+            "CapacityReservationIds": [
+                ""
+            ],
+            "NextToken": "",
+            "MaxResults": 0,
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "DryRun": true
+        },
+        "required": [],
+        "md5": "65802b2820d78c557b3c709f98ec1715",
+        "boto_command": "describe_capacity_reservations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "CapacityReservationId": "CapacityReservationId",
+                "OwnerId": "OwnerId",
+                "CapacityReservationArn": "CapacityReservationArn",
+                "AvailabilityZoneId": "AvailabilityZoneId",
+                "InstanceType": "InstanceType",
+                "InstancePlatform": "InstancePlatform",
+                "AvailabilityZone": "AvailabilityZone",
+                "Tenancy": "Tenancy",
+                "TotalInstanceCount": 0,
+                "AvailableInstanceCount": 0,
+                "EbsOptimized": true,
+                "EphemeralStorage": true,
+                "State": "State",
+                "StartDate": "1970-01-01T00:00:00",
+                "EndDate": "1970-01-01T00:00:00",
+                "EndDateType": "EndDateType",
+                "InstanceMatchCriteria": "InstanceMatchCriteria",
+                "CreateDate": "1970-01-01T00:00:00",
+                "Tags": [
+                    {
+                        "Key": "Key",
+                        "Value": "Value"
+                    }
+                ],
+                "OutpostArn": "OutpostArn",
+                "CapacityReservationFleetId": "CapacityReservationFleetId",
+                "PlacementGroupArn": "PlacementGroupArn",
+                "CapacityAllocations": [
+                    {
+                        "AllocationType": "AllocationType",
+                        "Count": 0
+                    }
+                ],
+                "ReservationType": "ReservationType"
+            }
+        ],
+        "required": [],
+        "md5": "128eeef7d1b6ec29cbe86dfeaae057d0",
+        "randomized": [
+            {
+                "AvailabilityZone": "ghqiudrcpvhsissy",
+                "AvailabilityZoneId": "qkzozljyigkenvdb",
+                "AvailableInstanceCount": 0,
+                "CapacityAllocations": [
+                    {
+                        "AllocationType": "drkynoihvdyzqwml",
+                        "Count": 0
+                    }
+                ],
+                "CapacityReservationArn": "ycuqqfayyqnosxvq",
+                "CapacityReservationFleetId": "pzoivogdkqiwqfkw",
+                "CapacityReservationId": "xclfyhhagzluxzmi",
+                "CreateDate": "hmbzrvdbhordnwpy",
+                "EbsOptimized": true,
+                "EndDate": "ylhturpqvzanehyd",
+                "EndDateType": "ayehsckdxjgrgaoo",
+                "EphemeralStorage": true,
+                "InstanceMatchCriteria": "ifjssnmvbqlgjxzp",
+                "InstancePlatform": "igrzohdpiihdidgu",
+                "InstanceType": "djsfehmxopchhndg",
+                "OutpostArn": "rkpavuvrqdkelxzx",
+                "OwnerId": "qajbecbeisvycbdd",
+                "PlacementGroupArn": "ewiazewykpozngrr",
+                "ReservationType": "cmcunphlxvqwopar",
+                "StartDate": "wfqtmhharasyzhjg",
+                "State": "jzzdmeicvvycuulr",
+                "Tags": [
+                    {
+                        "Key": "dfvopxjvbfwujfnw",
+                        "Value": "iasbksyhxulrxufu"
+                    }
+                ],
+                "Tenancy": "ijvcswgwymihdblk",
+                "TotalInstanceCount": 0
+            },
+            {
+                "AvailabilityZone": "vlxkwzvjjjiythbe",
+                "AvailabilityZoneId": "shykdqoodypiisex",
+                "AvailableInstanceCount": 0,
+                "CapacityAllocations": [
+                    {
+                        "AllocationType": "agaoltrruvxvuiju",
+                        "Count": 0
+                    }
+                ],
+                "CapacityReservationArn": "poztqqvunzduxdhm",
+                "CapacityReservationFleetId": "xxkubqblukhqaiyb",
+                "CapacityReservationId": "zevcpckelohenowy",
+                "CreateDate": "uiivydfjiihdglmq",
+                "EbsOptimized": true,
+                "EndDate": "zbrmmipqxyoifffz",
+                "EndDateType": "zszohjscbvaloftf",
+                "EphemeralStorage": true,
+                "InstanceMatchCriteria": "dcerolbhpxwvrngi",
+                "InstancePlatform": "qprwxcjxyphlyhyb",
+                "InstanceType": "ceipwolwsvaemnkq",
+                "OutpostArn": "iumkpbgoswjruwct",
+                "OwnerId": "nokioqbfbnpkrtpa",
+                "PlacementGroupArn": "yfxxaqteqnuicccp",
+                "ReservationType": "azwywdimuwgtvlrc",
+                "StartDate": "vcyvhqxwjnicqvsi",
+                "State": "cnmrgvtbbaccxbea",
+                "Tags": [
+                    {
+                        "Key": "udrzmhgngubrpygp",
+                        "Value": "ecitcgipkhyixmbd"
+                    }
+                ],
+                "Tenancy": "tqgwlejmkliewcsv",
+                "TotalInstanceCount": 0
+            },
+            {
+                "AvailabilityZone": "iafisbnnhzbyavhf",
+                "AvailabilityZoneId": "ayamykkzyuuvakkz",
+                "AvailableInstanceCount": 0,
+                "CapacityAllocations": [
+                    {
+                        "AllocationType": "jdjfrwgchbffojoe",
+                        "Count": 0
+                    }
+                ],
+                "CapacityReservationArn": "qqyijbdnpumhddai",
+                "CapacityReservationFleetId": "lbqqyvztbkrgagds",
+                "CapacityReservationId": "cdwidlfngtyidtvo",
+                "CreateDate": "wtbpvnheqfqxcpdt",
+                "EbsOptimized": true,
+                "EndDate": "iqgoycqkddnzpqlm",
+                "EndDateType": "cmbvklncpwkzwejg",
+                "EphemeralStorage": true,
+                "InstanceMatchCriteria": "lvttkexpxnshrwbb",
+                "InstancePlatform": "wgsothjysmgkdloo",
+                "InstanceType": "ayeoftkfxfcayhvt",
+                "OutpostArn": "qnmpimubzkwwukzk",
+                "OwnerId": "yfpxblpkesfrdqfq",
+                "PlacementGroupArn": "cecgwtuqbyvkpwuc",
+                "ReservationType": "tqfjfihlrhcwawvo",
+                "StartDate": "bmfmgzhgzhnjencn",
+                "State": "fhisiiqfuakzrfai",
+                "Tags": [
+                    {
+                        "Key": "ypawoaquybxxdsuv",
+                        "Value": "ojbfjulnwzpltgvg"
+                    }
+                ],
+                "Tenancy": "kstvpiffjmayujnj",
+                "TotalInstanceCount": 0
+            },
+            {
+                "AvailabilityZone": "zabgzywuufxnenhv",
+                "AvailabilityZoneId": "lwsepzdntbxvwozz",
+                "AvailableInstanceCount": 0,
+                "CapacityAllocations": [
+                    {
+                        "AllocationType": "qsnzezezswqbglrn",
+                        "Count": 0
+                    }
+                ],
+                "CapacityReservationArn": "kpnxkwccqitjpkjk",
+                "CapacityReservationFleetId": "gpmihcexwijcmelf",
+                "CapacityReservationId": "dwprqiwyvoupcebo",
+                "CreateDate": "dvseqnvcoojncsly",
+                "EbsOptimized": true,
+                "EndDate": "cofsrkiisjjjvnjb",
+                "EndDateType": "udywjclhavfztcbm",
+                "EphemeralStorage": true,
+                "InstanceMatchCriteria": "zbxalqtiecwshrwn",
+                "InstancePlatform": "qasgsgsqerefjexs",
+                "InstanceType": "vfqowmmleqmfaidu",
+                "OutpostArn": "xhvjhntcsmiaavlh",
+                "OwnerId": "ojmbzhfjdlywsrht",
+                "PlacementGroupArn": "fwzomrmzllaoyosx",
+                "ReservationType": "kxkpqqvfepfjuzac",
+                "StartDate": "ljlqfdnqsyftwixo",
+                "State": "szslbltrkeatlnst",
+                "Tags": [
+                    {
+                        "Key": "idluxryfzggywmse",
+                        "Value": "ifdsbsutnaskvthb"
+                    }
+                ],
+                "Tenancy": "rtuwtpjquemqmrgn",
+                "TotalInstanceCount": 0
+            },
+            {
+                "AvailabilityZone": "osilqvskgoekicpb",
+                "AvailabilityZoneId": "jcxkqiingnileugs",
+                "AvailableInstanceCount": 0,
+                "CapacityAllocations": [
+                    {
+                        "AllocationType": "tjjtfdjwpnnclvrv",
+                        "Count": 0
+                    }
+                ],
+                "CapacityReservationArn": "vzmajhnawixnqdvf",
+                "CapacityReservationFleetId": "xhruhmlerehrbbph",
+                "CapacityReservationId": "vnqdzkoohwcntgnv",
+                "CreateDate": "kxcbuujmiglfnwkz",
+                "EbsOptimized": true,
+                "EndDate": "jpcgdpfnsclhmpjc",
+                "EndDateType": "mfczosuloxebiazc",
+                "EphemeralStorage": true,
+                "InstanceMatchCriteria": "adexkmzafoifffel",
+                "InstancePlatform": "dpebnaanylmidaao",
+                "InstanceType": "vvbtafdgkcywhhik",
+                "OutpostArn": "mgtwpwqsccrzomdz",
+                "OwnerId": "lemfzzrdhmcdzuzt",
+                "PlacementGroupArn": "oswtjhnyrmbjgbav",
+                "ReservationType": "imzlgkbxukedfuos",
+                "StartDate": "rjpncgresimpmnmi",
+                "State": "jqsmewrtgxkazbbp",
+                "Tags": [
+                    {
+                        "Key": "mzeyikwduakkbses",
+                        "Value": "odpsctvwdlmukwjd"
+                    }
+                ],
+                "Tenancy": "sletcrxjjtotclta",
+                "TotalInstanceCount": 0
+            },
+            {
+                "AvailabilityZone": "hazjquujembjqerl",
+                "AvailabilityZoneId": "qqzaqyznqhokdrgf",
+                "AvailableInstanceCount": 0,
+                "CapacityAllocations": [
+                    {
+                        "AllocationType": "gotqbxmdnilmgrau",
+                        "Count": 0
+                    }
+                ],
+                "CapacityReservationArn": "ygaapmldjyppfsax",
+                "CapacityReservationFleetId": "txcjnbzgvewryzsd",
+                "CapacityReservationId": "rxnaferobicnbvgz",
+                "CreateDate": "gybukgvwakqyysnk",
+                "EbsOptimized": true,
+                "EndDate": "ltxehhsxxonkafvj",
+                "EndDateType": "asnindfssrupvmga",
+                "EphemeralStorage": true,
+                "InstanceMatchCriteria": "jwxrahjvdjmsntxk",
+                "InstancePlatform": "autlhlnvjwuetmmr",
+                "InstanceType": "wctkcgmfdqyvjeib",
+                "OutpostArn": "ltqjglhtqnxfhjef",
+                "OwnerId": "xozbhzcvwqwcbqto",
+                "PlacementGroupArn": "zdqlaluzwzgayxiq",
+                "ReservationType": "zudsievpofyvxhto",
+                "StartDate": "xbrukcegkaxkhdsi",
+                "State": "svxsnyzpfcreswlm",
+                "Tags": [
+                    {
+                        "Key": "chyeuwlxnhekrrxt",
+                        "Value": "dhxjkzvkrjhfdbca"
+                    }
+                ],
+                "Tenancy": "tmplnsfcscdmzyar",
+                "TotalInstanceCount": 0
+            },
+            {
+                "AvailabilityZone": "flxkgrtrajpdvmaz",
+                "AvailabilityZoneId": "obrclvlyyvjilqka",
+                "AvailableInstanceCount": 0,
+                "CapacityAllocations": [
+                    {
+                        "AllocationType": "jkfpewggiuibudgx",
+                        "Count": 0
+                    }
+                ],
+                "CapacityReservationArn": "eorjaxwahxkiyjpe",
+                "CapacityReservationFleetId": "iahvdpskoviindhm",
+                "CapacityReservationId": "ivgunvjvwlpbcpvq",
+                "CreateDate": "jjqjddshzdszbriu",
+                "EbsOptimized": true,
+                "EndDate": "stmrfqtoifhnhfdq",
+                "EndDateType": "nkqmtanbnkhtbedd",
+                "EphemeralStorage": true,
+                "InstanceMatchCriteria": "mvqnketsucpjsigm",
+                "InstancePlatform": "ryudkxbokcxmmrvc",
+                "InstanceType": "vrrapxzphcxqsoaq",
+                "OutpostArn": "zqulxwbglizmhrjp",
+                "OwnerId": "xqxbphxjfbyukrnq",
+                "PlacementGroupArn": "lkkqsutbeyhiqhys",
+                "ReservationType": "corvsvawbkyqpwpt",
+                "StartDate": "tqwlmptqfgveascw",
+                "State": "schqrxitgjqorwgt",
+                "Tags": [
+                    {
+                        "Key": "imcheqmuckkkzycv",
+                        "Value": "lcfafakctthgqsgd"
+                    }
+                ],
+                "Tenancy": "sveqazlqfxfaodkf",
+                "TotalInstanceCount": 0
+            },
+            {
+                "AvailabilityZone": "bcsozhcugtaqaukx",
+                "AvailabilityZoneId": "fxwtkwaiqcqkytwv",
+                "AvailableInstanceCount": 0,
+                "CapacityAllocations": [
+                    {
+                        "AllocationType": "ntsahrsnjteidfqx",
+                        "Count": 0
+                    }
+                ],
+                "CapacityReservationArn": "uhgsprrgbditkhdl",
+                "CapacityReservationFleetId": "qpwxrqhbzldwlclv",
+                "CapacityReservationId": "ewvmwhikvrwpbnaq",
+                "CreateDate": "ogtbqvzyoopujrkx",
+                "EbsOptimized": true,
+                "EndDate": "nopqoipqgcgbnoeu",
+                "EndDateType": "vupwgdopehmxumfa",
+                "EphemeralStorage": true,
+                "InstanceMatchCriteria": "hqgcjhlaszwejmoi",
+                "InstancePlatform": "vzlzjdizstlxqfra",
+                "InstanceType": "zfwwjfijgdruigma",
+                "OutpostArn": "vzahkzkjhhaqwnxx",
+                "OwnerId": "mqcxrgelefyzxrmg",
+                "PlacementGroupArn": "wlfplfyowjrgpmhc",
+                "ReservationType": "tdoqqxklrmtykerg",
+                "StartDate": "obxvhopxeixqkbev",
+                "State": "ztgdterbeengghck",
+                "Tags": [
+                    {
+                        "Key": "jedhtdocpkutouwr",
+                        "Value": "ijuaovetennvtwme"
+                    }
+                ],
+                "Tenancy": "javqnrppslfvqlsf",
+                "TotalInstanceCount": 0
+            },
+            {
+                "AvailabilityZone": "qaiukrgpbrcryfka",
+                "AvailabilityZoneId": "zcyvtoxjbwcpgciw",
+                "AvailableInstanceCount": 0,
+                "CapacityAllocations": [
+                    {
+                        "AllocationType": "roasaqoglstafjth",
+                        "Count": 0
+                    }
+                ],
+                "CapacityReservationArn": "hucpnqbrmrljccgo",
+                "CapacityReservationFleetId": "rufwbdigfeufamyi",
+                "CapacityReservationId": "ltlqvtocdtqfvcha",
+                "CreateDate": "mazidmscvfpibymn",
+                "EbsOptimized": true,
+                "EndDate": "cpdgygsofyldahmw",
+                "EndDateType": "eyvmtcwmzgsmdnya",
+                "EphemeralStorage": true,
+                "InstanceMatchCriteria": "zgbxsidiybhxnccg",
+                "InstancePlatform": "zxdmmvooullqcbun",
+                "InstanceType": "crrzzvkvcwlxaqbg",
+                "OutpostArn": "bvwluneejpamxxcf",
+                "OwnerId": "wivoufnnsvpytogn",
+                "PlacementGroupArn": "aeiozravvqwfwuxv",
+                "ReservationType": "gmjfhtdaoeszjujd",
+                "StartDate": "vnpsskjuuqvswaet",
+                "State": "uyrysxafoolknttb",
+                "Tags": [
+                    {
+                        "Key": "vuphrzcnboyvfrxg",
+                        "Value": "pyivithaoswenlpq"
+                    }
+                ],
+                "Tenancy": "hnpkbabrxymzxicu",
+                "TotalInstanceCount": 0
+            },
+            {
+                "AvailabilityZone": "stskdhxsvcgaangy",
+                "AvailabilityZoneId": "kawfldqzvhlwkrww",
+                "AvailableInstanceCount": 0,
+                "CapacityAllocations": [
+                    {
+                        "AllocationType": "qivprmzyqcionndd",
+                        "Count": 0
+                    }
+                ],
+                "CapacityReservationArn": "jomzshyqhbebccje",
+                "CapacityReservationFleetId": "nfqjocfwicrylfdk",
+                "CapacityReservationId": "tferrhhagoqblckq",
+                "CreateDate": "vftagytpubtcaklc",
+                "EbsOptimized": true,
+                "EndDate": "nyhhgmamznszdurb",
+                "EndDateType": "owowypfgfrbcrzqq",
+                "EphemeralStorage": true,
+                "InstanceMatchCriteria": "hzghjubppnmlwrfk",
+                "InstancePlatform": "vgvqlyrmcokdqyfj",
+                "InstanceType": "sjkvsddeykwrvjjr",
+                "OutpostArn": "eswdlarowfxcoyqt",
+                "OwnerId": "tvykuzfhvrjbjuyc",
+                "PlacementGroupArn": "datxkicjzzszjxok",
+                "ReservationType": "wqddfpemdxosmgpg",
+                "StartDate": "fhwxdqpxpyspvmdc",
+                "State": "ycwvvivhmgkacdja",
+                "Tags": [
+                    {
+                        "Key": "wxbrotwfbmrupkoa",
+                        "Value": "agqmbyozywbrkrqq"
+                    }
+                ],
+                "Tenancy": "ueagdmmszuamfvxf",
+                "TotalInstanceCount": 0
+            }
+        ],
+        "result_key": "CapacityReservations"
+    },
+    "meta": {
+        "start": 1711115610.644466,
+        "end": 1711115619.656841,
+        "duration": 9.012380123138428,
+        "service": "ec2",
+        "type": "capacity_reservations"
+    }
+}

@@ -1,0 +1,149 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "031b56893c6f5a9d0ebe6017c5c080cb",
+        "boto_command": "describe_usage_report_subscriptions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "S3BucketName": "S3BucketName",
+                "Schedule": "Schedule",
+                "LastGeneratedReportDate": "1970-01-01T00:00:00",
+                "SubscriptionErrors": [
+                    {
+                        "ErrorCode": "ErrorCode",
+                        "ErrorMessage": "ErrorMessage"
+                    }
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "a9099369571814f7946c88fac5b1de3b",
+        "randomized": [
+            {
+                "LastGeneratedReportDate": "xbiqajxnrxqdrghw",
+                "S3BucketName": "pjizzasmxjhamguj",
+                "Schedule": "ioeolgrciqyjvarh",
+                "SubscriptionErrors": [
+                    {
+                        "ErrorCode": "svcurviqxbxdnvuz",
+                        "ErrorMessage": "exkghlrmdhtlibft"
+                    }
+                ]
+            },
+            {
+                "LastGeneratedReportDate": "qnjsoewcggwdwayc",
+                "S3BucketName": "eaaxlpzgfwuhdahz",
+                "Schedule": "lrpiaunsjusmxwye",
+                "SubscriptionErrors": [
+                    {
+                        "ErrorCode": "wajegxarcjfkfybl",
+                        "ErrorMessage": "dbewvefryfsmvfqp"
+                    }
+                ]
+            },
+            {
+                "LastGeneratedReportDate": "skveiywdvkbkcahn",
+                "S3BucketName": "nywupzxpepeaufkq",
+                "Schedule": "cdqtfeedlucravoe",
+                "SubscriptionErrors": [
+                    {
+                        "ErrorCode": "pfgfrxliblzoatyu",
+                        "ErrorMessage": "jqznmdhegbecervt"
+                    }
+                ]
+            },
+            {
+                "LastGeneratedReportDate": "mahyjpioizvttgka",
+                "S3BucketName": "lpmllfjfutkofbeu",
+                "Schedule": "tewaduargpmhikpv",
+                "SubscriptionErrors": [
+                    {
+                        "ErrorCode": "isunsuknofkkbfra",
+                        "ErrorMessage": "phhdcqonwffuwsfw"
+                    }
+                ]
+            },
+            {
+                "LastGeneratedReportDate": "brorgnuwwqoviruf",
+                "S3BucketName": "jjykgicfkyskjvic",
+                "Schedule": "ovnakhmkvzynorhi",
+                "SubscriptionErrors": [
+                    {
+                        "ErrorCode": "lmfsotxietaglxfp",
+                        "ErrorMessage": "pglfuudomrqnfepb"
+                    }
+                ]
+            },
+            {
+                "LastGeneratedReportDate": "mllcydbaywoenpnp",
+                "S3BucketName": "xhlzixipyyztcpwa",
+                "Schedule": "ozapwwwgtvmmoxyv",
+                "SubscriptionErrors": [
+                    {
+                        "ErrorCode": "oiayehtfxhcdwlnf",
+                        "ErrorMessage": "ufwkpkgezcgydiig"
+                    }
+                ]
+            },
+            {
+                "LastGeneratedReportDate": "gjizirokzjibxzmj",
+                "S3BucketName": "lvhzdtxgoubyisok",
+                "Schedule": "kxnvxflmrypvvkah",
+                "SubscriptionErrors": [
+                    {
+                        "ErrorCode": "lfimqgqmxyzrcqmq",
+                        "ErrorMessage": "nvaasipqrhhtrylv"
+                    }
+                ]
+            },
+            {
+                "LastGeneratedReportDate": "crigrhrornqozhcy",
+                "S3BucketName": "uqafqvhqjeffcylj",
+                "Schedule": "wygdtmndqshghpzp",
+                "SubscriptionErrors": [
+                    {
+                        "ErrorCode": "mqiqmlvwvrnigbes",
+                        "ErrorMessage": "qsmqdqqvfmkemxjg"
+                    }
+                ]
+            },
+            {
+                "LastGeneratedReportDate": "xznaraoeyhvqkfaf",
+                "S3BucketName": "jbkcjbrbuyhylstx",
+                "Schedule": "mlezgretcmsotlef",
+                "SubscriptionErrors": [
+                    {
+                        "ErrorCode": "tqnzbbjaihmvwgxw",
+                        "ErrorMessage": "whsmhuqfpooxptas"
+                    }
+                ]
+            },
+            {
+                "LastGeneratedReportDate": "vtbrbxiwrqgtprjj",
+                "S3BucketName": "asvxuhcaymlesvnh",
+                "Schedule": "jbjtpvnmqylnvzon",
+                "SubscriptionErrors": [
+                    {
+                        "ErrorCode": "pyaumtkonrszivgq",
+                        "ErrorMessage": "rmnvrvcljeytjyjm"
+                    }
+                ]
+            }
+        ],
+        "result_key": "UsageReportSubscriptions"
+    },
+    "meta": {
+        "start": 1711115240.301928,
+        "end": 1711115245.624029,
+        "duration": 5.32210898399353,
+        "service": "appstream",
+        "type": "usage_report_subscriptions"
+    }
+}

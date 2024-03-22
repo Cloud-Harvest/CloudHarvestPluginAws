@@ -1,0 +1,56 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "describe_region_settings",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": {
+            "KeyName": true
+        },
+        "required": [],
+        "md5": "2568ff9e584942a9b29041530ac16a2a",
+        "randomized": [
+            {
+                "KeyName": true
+            },
+            {
+                "KeyName": true
+            },
+            {
+                "KeyName": true
+            },
+            {
+                "KeyName": true
+            },
+            {
+                "KeyName": true
+            },
+            {
+                "KeyName": true
+            },
+            {
+                "KeyName": true
+            },
+            {
+                "KeyName": true
+            },
+            {
+                "KeyName": true
+            },
+            {
+                "KeyName": true
+            }
+        ],
+        "result_key": "ResourceTypeOptInPreference"
+    },
+    "meta": {
+        "start": 1711115275.756621,
+        "end": 1711115282.517386,
+        "duration": 6.760775089263916,
+        "service": "backup",
+        "type": "region_settings"
+    }
+}

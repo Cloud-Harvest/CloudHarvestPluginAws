@@ -1,0 +1,86 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "nextToken": "",
+            "vpcEndpointFilters": {
+                "status": "PENDING"
+            }
+        },
+        "required": [],
+        "md5": "9769cbebbb143180197749ae1a7b0127",
+        "boto_command": "list_vpc_endpoints",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "id": "id",
+                "name": "name",
+                "status": "status"
+            }
+        ],
+        "required": [],
+        "md5": "c93729f698282587d9ef14043c57e044",
+        "randomized": [
+            {
+                "id": "frwugfxaytbowaix",
+                "name": "ywjpofujovtuiwnn",
+                "status": "heswmdsttaxxihfv"
+            },
+            {
+                "id": "ptuncizrknypzith",
+                "name": "uaumvmbkefxjtdnz",
+                "status": "nomxcotccglxogrn"
+            },
+            {
+                "id": "ybjsrakvimgfwjhv",
+                "name": "txnoallibjixcikf",
+                "status": "jmpbscvfzrvtbeev"
+            },
+            {
+                "id": "rnkhynzjtrzmbsmb",
+                "name": "gwdpddstckplovas",
+                "status": "llyvvoobcossiptc"
+            },
+            {
+                "id": "vwzutpeahtwwgskx",
+                "name": "cyudotsayxmzhgig",
+                "status": "cksdfkshomlzrteo"
+            },
+            {
+                "id": "ibcbbxssjpafcwcy",
+                "name": "iluyevcklgcqcxkf",
+                "status": "xvezllwzprvzhslz"
+            },
+            {
+                "id": "hbzjtwoldaqiltqj",
+                "name": "doylfmhdlutwhzjd",
+                "status": "jcrdshpvjvxaaedn"
+            },
+            {
+                "id": "kwnedjfzcyhhwtcg",
+                "name": "khudygdfroincpln",
+                "status": "tsuwqqeakoigmxqy"
+            },
+            {
+                "id": "wfgehrkrorzzttxp",
+                "name": "qnhihmfrkayqpvwy",
+                "status": "ujtnydfvfqxluyis"
+            },
+            {
+                "id": "uigqoauofaklgskt",
+                "name": "njayxvodanayxirn",
+                "status": "dqfednrvsflcjgwd"
+            }
+        ],
+        "result_key": "vpcEndpointSummaries"
+    },
+    "meta": {
+        "start": 1711116282.86786,
+        "end": 1711116290.259291,
+        "duration": 7.3914408683776855,
+        "service": "opensearchserverless",
+        "type": "vpc_endpoints"
+    }
+}

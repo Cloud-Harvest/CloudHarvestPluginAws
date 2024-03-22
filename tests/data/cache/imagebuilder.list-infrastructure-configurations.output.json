@@ -1,0 +1,45 @@
+{
+    "input": {
+        "template": {
+            "filters": [
+                {
+                    "name": "",
+                    "values": [
+                        ""
+                    ]
+                }
+            ],
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "required": [],
+        "md5": "56a72c4f6953d63e6141c8d0e599ee86",
+        "boto_command": "list_infrastructure_configurations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": "requestId",
+        "required": [],
+        "md5": "d8e40b76d40812efaf76c3ff0b8abe00",
+        "randomized": [
+            "jlznwxtrhkdjjzjj",
+            "bzaklawktauuqhub",
+            "jjtofoergxlmkhdi",
+            "dvqntrsttavjqvwx",
+            "suqazoetgcjjbufo",
+            "qphsmysawijnjfxu",
+            "yiozhayqhtmbjako",
+            "wmigozzeqwcxatkx",
+            "zzdoisrkwaouuzuz",
+            "nyzjncrmyidajgkk"
+        ],
+        "result_key": "requestId"
+    },
+    "meta": {
+        "start": 1711115902.301876,
+        "end": 1711115909.440936,
+        "duration": 7.139068841934204,
+        "service": "imagebuilder",
+        "type": "infrastructure_configurations"
+    }
+}

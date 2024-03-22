@@ -1,0 +1,145 @@
+{
+    "input": {
+        "template": {
+            "HsmClientCertificateIdentifier": "",
+            "MaxRecords": 0,
+            "Marker": "",
+            "TagKeys": [
+                ""
+            ],
+            "TagValues": [
+                ""
+            ]
+        },
+        "required": [],
+        "md5": "3989d2b85c251c3f31bc82b356b29cf5",
+        "boto_command": "describe_hsm_client_certificates",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "HsmClientCertificateIdentifier": "HsmClientCertificateIdentifier",
+                "HsmClientCertificatePublicKey": "HsmClientCertificatePublicKey",
+                "Tags": [
+                    {
+                        "Key": "Key",
+                        "Value": "Value"
+                    }
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "57de212976236d0a8ddb3a3a2af130c2",
+        "randomized": [
+            {
+                "HsmClientCertificateIdentifier": "gneueyvdjgpmeojx",
+                "HsmClientCertificatePublicKey": "skjqjdicffzfecas",
+                "Tags": [
+                    {
+                        "Key": "tjefdzxuotydffst",
+                        "Value": "mwcfbaokbmisixxq"
+                    }
+                ]
+            },
+            {
+                "HsmClientCertificateIdentifier": "djcfvtbppjezijqo",
+                "HsmClientCertificatePublicKey": "ffcjrueadaacucmp",
+                "Tags": [
+                    {
+                        "Key": "vzhvaudattivcvpb",
+                        "Value": "akuyfuporldkmdxj"
+                    }
+                ]
+            },
+            {
+                "HsmClientCertificateIdentifier": "skwhodrhkcprsbim",
+                "HsmClientCertificatePublicKey": "johyqcmbmugnbzid",
+                "Tags": [
+                    {
+                        "Key": "umlnmiiqiueeuaze",
+                        "Value": "vsxuenrxjhasuwin"
+                    }
+                ]
+            },
+            {
+                "HsmClientCertificateIdentifier": "xcnsskkltwvvlyvu",
+                "HsmClientCertificatePublicKey": "sqpzueyinmclkxhg",
+                "Tags": [
+                    {
+                        "Key": "rflihousfbmsvvlp",
+                        "Value": "jyewkgpgnfckutwl"
+                    }
+                ]
+            },
+            {
+                "HsmClientCertificateIdentifier": "blxpobgjezmjvlaw",
+                "HsmClientCertificatePublicKey": "jlmydqwahxkjpcjr",
+                "Tags": [
+                    {
+                        "Key": "gyapwzbcoyioerzh",
+                        "Value": "ptwdqrwhsthnmosg"
+                    }
+                ]
+            },
+            {
+                "HsmClientCertificateIdentifier": "lkmmoxpbpmkfimjb",
+                "HsmClientCertificatePublicKey": "cgxweylldbrajwwp",
+                "Tags": [
+                    {
+                        "Key": "uaqwcynwvczampwz",
+                        "Value": "gzknzuoobpovtifh"
+                    }
+                ]
+            },
+            {
+                "HsmClientCertificateIdentifier": "vnvtwxzvjshjwnkg",
+                "HsmClientCertificatePublicKey": "issnsgndtxbxmfkn",
+                "Tags": [
+                    {
+                        "Key": "gdsofbvurolrbyfh",
+                        "Value": "lxlrxpibvqlbqsob"
+                    }
+                ]
+            },
+            {
+                "HsmClientCertificateIdentifier": "pcxeowvfkvyrseeq",
+                "HsmClientCertificatePublicKey": "clulfxulweiphtte",
+                "Tags": [
+                    {
+                        "Key": "znrprqpyghhklwxe",
+                        "Value": "hcsmlmylykoowgue"
+                    }
+                ]
+            },
+            {
+                "HsmClientCertificateIdentifier": "cczwfwywpaqmfjyz",
+                "HsmClientCertificatePublicKey": "mqvpdvvyuupvwrhs",
+                "Tags": [
+                    {
+                        "Key": "drfgxodrcqyocukj",
+                        "Value": "bkxngntkicminlmb"
+                    }
+                ]
+            },
+            {
+                "HsmClientCertificateIdentifier": "wrawqrqcjehfisxx",
+                "HsmClientCertificatePublicKey": "yzranbqpwgibwuda",
+                "Tags": [
+                    {
+                        "Key": "qyuuufksavbmthge",
+                        "Value": "vvnffjbecuounops"
+                    }
+                ]
+            }
+        ],
+        "result_key": "HsmClientCertificates"
+    },
+    "meta": {
+        "start": 1711116424.884745,
+        "end": 1711116431.121502,
+        "duration": 6.236768007278442,
+        "service": "redshift",
+        "type": "hsm_client_certificates"
+    }
+}

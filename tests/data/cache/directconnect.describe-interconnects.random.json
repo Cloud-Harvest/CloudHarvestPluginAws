@@ -1,0 +1,222 @@
+[
+    {
+        "awsDevice": "fxhlwoqnwfxakqso",
+        "awsDeviceV2": "eucdyocyvtodpsee",
+        "awsLogicalDeviceId": "qmlcftepstipgefh",
+        "bandwidth": "walntggwqnzldrex",
+        "hasLogicalRedundancy": "dalkxgvdwfczsmdl",
+        "interconnectId": "xirnidpzvgvrinzx",
+        "interconnectName": "ygfmenesvzbfvvti",
+        "interconnectState": "lwjpugrjfjmkrhrv",
+        "jumboFrameCapable": true,
+        "lagId": "wucjdicbtixzxpxd",
+        "loaIssueTime": "yrneacmlxwmwrxvh",
+        "location": "koomcnscbvhegweh",
+        "providerName": "tmfyyoxyoijrxxkg",
+        "region": "bqpklxicygejolys",
+        "tags": [
+            {
+                "key": "xaganhbwowyxqmtr",
+                "value": "ybpamkbachzsqers"
+            }
+        ]
+    },
+    {
+        "awsDevice": "ajibgvlzmgvslime",
+        "awsDeviceV2": "yisuqxlioqdzhxmv",
+        "awsLogicalDeviceId": "atddinaahliuovzl",
+        "bandwidth": "plkmmxxxyjotxxdw",
+        "hasLogicalRedundancy": "wekwquaawrvablyx",
+        "interconnectId": "xrgnygwotobcuavv",
+        "interconnectName": "ifvikcvjafecuugw",
+        "interconnectState": "gostvaiwkqlxoqio",
+        "jumboFrameCapable": true,
+        "lagId": "chiveolazjxvtaua",
+        "loaIssueTime": "gnubnxwfhejzqkpr",
+        "location": "smcivltgnkriqtrw",
+        "providerName": "erzezbwbogvlgaal",
+        "region": "kaqsmizrrqtaenym",
+        "tags": [
+            {
+                "key": "ngecxyijmfzpeyox",
+                "value": "fqyccsqmdimxluqi"
+            }
+        ]
+    },
+    {
+        "awsDevice": "svbcjdaevnzmtfuw",
+        "awsDeviceV2": "isvnohbzhjkhvron",
+        "awsLogicalDeviceId": "bmmrgfxwesgbioak",
+        "bandwidth": "bdbizmczvwxnvzgq",
+        "hasLogicalRedundancy": "eghnnyluwpsldfdw",
+        "interconnectId": "lwxtbialugtfxtlc",
+        "interconnectName": "bsnfyzrrfebkxtgv",
+        "interconnectState": "ouhhewfadvnnnfca",
+        "jumboFrameCapable": true,
+        "lagId": "zecubyyquqfiaial",
+        "loaIssueTime": "xnbofpuleqkjcvpl",
+        "location": "cndhvsnnflftvikv",
+        "providerName": "cffoxjuwzonqgbys",
+        "region": "cxrqgrukkdfbyskw",
+        "tags": [
+            {
+                "key": "ghzypqifkglqgbei",
+                "value": "wtlffswovdudlqva"
+            }
+        ]
+    },
+    {
+        "awsDevice": "uauykauhksqobuai",
+        "awsDeviceV2": "gftsqkrkrkdthulk",
+        "awsLogicalDeviceId": "ogjdsbwnnobzxgcw",
+        "bandwidth": "zirmjicuilgngjbp",
+        "hasLogicalRedundancy": "bybqdlwurfflzdjy",
+        "interconnectId": "jhaedqidcxxkmbax",
+        "interconnectName": "aoilslisnphrfklw",
+        "interconnectState": "rrqwdndzxoftdubx",
+        "jumboFrameCapable": true,
+        "lagId": "kdtuermqrvtxmjvu",
+        "loaIssueTime": "awyktodmhatdcwbw",
+        "location": "enufscvpxpkcsvrr",
+        "providerName": "htzzbgdhxhaadlju",
+        "region": "sfmjmlisurpvonhd",
+        "tags": [
+            {
+                "key": "chjlefajgfjwyvpn",
+                "value": "swexxgklqbjfsmwy"
+            }
+        ]
+    },
+    {
+        "awsDevice": "xnuzgjoyigwpoznw",
+        "awsDeviceV2": "pbngvufylyybxdpi",
+        "awsLogicalDeviceId": "sfquyzbqhfrjpltc",
+        "bandwidth": "vtafjppsehwbkaqt",
+        "hasLogicalRedundancy": "qzsmovtizgfikqtu",
+        "interconnectId": "clpeqsijhxfjmiqg",
+        "interconnectName": "dixwozudkgzglgfw",
+        "interconnectState": "mjhpkosnymfcwfju",
+        "jumboFrameCapable": true,
+        "lagId": "nouzygglqxiymcsg",
+        "loaIssueTime": "sytwbozuchygvtxv",
+        "location": "yikkcajxcfqyftlv",
+        "providerName": "fwijocacxxvblgsi",
+        "region": "dstdjctlpnxjezzc",
+        "tags": [
+            {
+                "key": "twdwydgrjhvvkvkc",
+                "value": "oxxixnsjhnggeokp"
+            }
+        ]
+    },
+    {
+        "awsDevice": "kyhyjhuuqukylkjr",
+        "awsDeviceV2": "fudaenavwkxpnayf",
+        "awsLogicalDeviceId": "gyrcyrwgmyuhrffr",
+        "bandwidth": "pkbyfdeutvzomimw",
+        "hasLogicalRedundancy": "gasbpwrwsvhvdmel",
+        "interconnectId": "kdoazsbeycjgaayl",
+        "interconnectName": "xsemjogoplbgkaxa",
+        "interconnectState": "askeahauijelgwpy",
+        "jumboFrameCapable": true,
+        "lagId": "wuzfforpexjkqjhb",
+        "loaIssueTime": "tbicrnfyntaigike",
+        "location": "cahytumenackbxyc",
+        "providerName": "ijptuylykqffbihi",
+        "region": "naaebrfzcsfxyfzu",
+        "tags": [
+            {
+                "key": "yjxkbnwulrzpagnu",
+                "value": "nzmwclftnxgvpjfk"
+            }
+        ]
+    },
+    {
+        "awsDevice": "ytizpgrirblcdqei",
+        "awsDeviceV2": "genhoagglgkkadqs",
+        "awsLogicalDeviceId": "xdnhrjkgrbgdhnkt",
+        "bandwidth": "wousmoiucglmtfhj",
+        "hasLogicalRedundancy": "urnguwhzjaydhdye",
+        "interconnectId": "ihdpylfkdsjwseuo",
+        "interconnectName": "wtvgnlaywyeshtrp",
+        "interconnectState": "chagvlssvbjibocy",
+        "jumboFrameCapable": true,
+        "lagId": "gmmkcykkvgxqzjzp",
+        "loaIssueTime": "scwhddtcygsssnrx",
+        "location": "qouxragbfcegzwfg",
+        "providerName": "oareyckvnbcsvbte",
+        "region": "lkvjtjsvhepsorvs",
+        "tags": [
+            {
+                "key": "cqmnsotplcmofxxd",
+                "value": "jvcskaqplqajoytr"
+            }
+        ]
+    },
+    {
+        "awsDevice": "jmbxhqadtqoeofzb",
+        "awsDeviceV2": "cmvmiigggpawgdgf",
+        "awsLogicalDeviceId": "ngezmqfxpxiakeqa",
+        "bandwidth": "gosuhrwyheycbuon",
+        "hasLogicalRedundancy": "scyrntlpuxsofunk",
+        "interconnectId": "lfqilgtgssfqwkdx",
+        "interconnectName": "chlgavguzlwdooye",
+        "interconnectState": "jrynkeqblulcmfre",
+        "jumboFrameCapable": true,
+        "lagId": "fnsbtpysebuqonjb",
+        "loaIssueTime": "vywaqovjomkrvqol",
+        "location": "lkqbltaiakrhddei",
+        "providerName": "wuuqwlahuyctnibp",
+        "region": "ntczjqlvvsdggeel",
+        "tags": [
+            {
+                "key": "aqwmarxaejjkjawi",
+                "value": "itkyuoycsaajcezk"
+            }
+        ]
+    },
+    {
+        "awsDevice": "dbdmorkbhmgsqwys",
+        "awsDeviceV2": "zuqkjsegyanavynu",
+        "awsLogicalDeviceId": "vtrrdsjduaoewofz",
+        "bandwidth": "bosufmelzuzowcdl",
+        "hasLogicalRedundancy": "kffwdxilmmlswlxh",
+        "interconnectId": "cgcjoocazlnyoswb",
+        "interconnectName": "dxojymxgyxbhxcyd",
+        "interconnectState": "yovhaaylgkagotyf",
+        "jumboFrameCapable": true,
+        "lagId": "umdbmblwecekstlm",
+        "loaIssueTime": "ljuypglyximvvpcw",
+        "location": "wasmwgailzdncadr",
+        "providerName": "yzijqwyojxtduuka",
+        "region": "cxscliixlsnzwmtu",
+        "tags": [
+            {
+                "key": "llvmwzbbilupgvcw",
+                "value": "acnriivgcbssshne"
+            }
+        ]
+    },
+    {
+        "awsDevice": "wzuuhodqnepllbjn",
+        "awsDeviceV2": "fdzuavcknmkugzad",
+        "awsLogicalDeviceId": "tqwdlscoetgyzsoe",
+        "bandwidth": "ojyxvxbsbcitepzh",
+        "hasLogicalRedundancy": "niakcceryzpwbhee",
+        "interconnectId": "hisygzwemjzwszrv",
+        "interconnectName": "yfqqhvxhsepyipsr",
+        "interconnectState": "mnaslxlvujobluvm",
+        "jumboFrameCapable": true,
+        "lagId": "pwpsywfivposgebj",
+        "loaIssueTime": "ungmtmcviiddwxlf",
+        "location": "nxgvcvjubralqbrk",
+        "providerName": "vsndgbzfqjphxyoz",
+        "region": "ukeeqjqwededngjt",
+        "tags": [
+            {
+                "key": "rgtqbqefogrwmpsx",
+                "value": "hdieckehsgdtskub"
+            }
+        ]
+    }
+]

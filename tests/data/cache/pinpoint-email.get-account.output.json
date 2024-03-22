@@ -1,0 +1,78 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "get_account",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": {
+            "Max24HourSend": 0.0,
+            "MaxSendRate": 0.0,
+            "SentLast24Hours": 0.0
+        },
+        "required": [],
+        "md5": "c5456953179278ff797d5ad0f6eb7ff5",
+        "randomized": [
+            {
+                "Max24HourSend": 0.0,
+                "MaxSendRate": 0.0,
+                "SentLast24Hours": 0.0
+            },
+            {
+                "Max24HourSend": 0.0,
+                "MaxSendRate": 0.0,
+                "SentLast24Hours": 0.0
+            },
+            {
+                "Max24HourSend": 0.0,
+                "MaxSendRate": 0.0,
+                "SentLast24Hours": 0.0
+            },
+            {
+                "Max24HourSend": 0.0,
+                "MaxSendRate": 0.0,
+                "SentLast24Hours": 0.0
+            },
+            {
+                "Max24HourSend": 0.0,
+                "MaxSendRate": 0.0,
+                "SentLast24Hours": 0.0
+            },
+            {
+                "Max24HourSend": 0.0,
+                "MaxSendRate": 0.0,
+                "SentLast24Hours": 0.0
+            },
+            {
+                "Max24HourSend": 0.0,
+                "MaxSendRate": 0.0,
+                "SentLast24Hours": 0.0
+            },
+            {
+                "Max24HourSend": 0.0,
+                "MaxSendRate": 0.0,
+                "SentLast24Hours": 0.0
+            },
+            {
+                "Max24HourSend": 0.0,
+                "MaxSendRate": 0.0,
+                "SentLast24Hours": 0.0
+            },
+            {
+                "Max24HourSend": 0.0,
+                "MaxSendRate": 0.0,
+                "SentLast24Hours": 0.0
+            }
+        ],
+        "result_key": "SendQuota"
+    },
+    "meta": {
+        "start": 1711116339.22808,
+        "end": 1711116346.713172,
+        "duration": 7.485101938247681,
+        "service": "pinpoint-email",
+        "type": null
+    }
+}

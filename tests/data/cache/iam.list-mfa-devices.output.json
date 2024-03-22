@@ -1,0 +1,84 @@
+{
+    "input": {
+        "template": {
+            "UserName": "",
+            "Marker": "",
+            "MaxItems": 0
+        },
+        "required": [],
+        "md5": "7c50516811177fb6971f23c0aa07f31c",
+        "boto_command": "list_mfa_devices",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "UserName": "UserName",
+                "SerialNumber": "SerialNumber",
+                "EnableDate": "1970-01-01T00:00:00"
+            }
+        ],
+        "required": [],
+        "md5": "f3b6221efd975ca870d2ec0ff1fa9542",
+        "randomized": [
+            {
+                "EnableDate": "freitooaubakjplh",
+                "SerialNumber": "fzvodkidgtriysmi",
+                "UserName": "degugzontmgipych"
+            },
+            {
+                "EnableDate": "quyygcbrhcsijnjg",
+                "SerialNumber": "bykqphmvuoaxvnld",
+                "UserName": "wyjfhurwpsemuoyi"
+            },
+            {
+                "EnableDate": "qfhsgdwpymykmsum",
+                "SerialNumber": "kevpbrirdudcjhnn",
+                "UserName": "zscnwhrsybwobvkp"
+            },
+            {
+                "EnableDate": "dpxhmogysnfimtyr",
+                "SerialNumber": "szgfaopqnyvkhcdx",
+                "UserName": "ptkkwofsusmdizvo"
+            },
+            {
+                "EnableDate": "mcpjjtrxyiqfkrwq",
+                "SerialNumber": "xtzlxoeaowuyfead",
+                "UserName": "hanhrvpfukhwdynv"
+            },
+            {
+                "EnableDate": "todtgiglifhfzdjf",
+                "SerialNumber": "ctggaehabqlaetbf",
+                "UserName": "dgoaetfuegiadlml"
+            },
+            {
+                "EnableDate": "ydlaooyzvanzouis",
+                "SerialNumber": "pbgenvetlbeyujds",
+                "UserName": "jvkizcgyeldgmemj"
+            },
+            {
+                "EnableDate": "xxnzskvlbmgpbgcz",
+                "SerialNumber": "cxndlclmefrupdip",
+                "UserName": "lqkjwruvyzlbebrm"
+            },
+            {
+                "EnableDate": "dayupxmhrgkjpnul",
+                "SerialNumber": "srhxgxovmufspmdg",
+                "UserName": "nkpmdohfacetzela"
+            },
+            {
+                "EnableDate": "jkidgqkuylbjwojz",
+                "SerialNumber": "tcrznymcwhupciom",
+                "UserName": "nukxlscryshvtgpb"
+            }
+        ],
+        "result_key": "MFADevices"
+    },
+    "meta": {
+        "start": 1711115888.003735,
+        "end": 1711115895.05817,
+        "duration": 7.05444598197937,
+        "service": "iam",
+        "type": "mfa_devices"
+    }
+}

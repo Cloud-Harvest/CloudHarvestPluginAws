@@ -1,0 +1,9 @@
+[
+    "mediapackage-vod.describe-asset",
+    "mediapackage-vod.describe-packaging-configuration",
+    "mediapackage-vod.describe-packaging-group",
+    "mediapackage-vod.list-assets",
+    "mediapackage-vod.list-packaging-configurations",
+    "mediapackage-vod.list-packaging-groups",
+    "mediapackage-vod.list-tags-for-resource"
+]

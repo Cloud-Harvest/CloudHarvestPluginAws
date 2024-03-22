@@ -1,0 +1,61 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "required": [],
+        "md5": "2620fedaf24e984a8f801d0beb17a6e7",
+        "boto_command": "list_scheduling_policies",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "arn": "arn"
+            }
+        ],
+        "required": [],
+        "md5": "02a07f35735814e33fdaae4f1c9858cc",
+        "randomized": [
+            {
+                "arn": "dcprbepjtuduuxmr"
+            },
+            {
+                "arn": "uiijnvtavmizaijx"
+            },
+            {
+                "arn": "ncfvtaipkpswzsja"
+            },
+            {
+                "arn": "zjgpujoooohqzzio"
+            },
+            {
+                "arn": "ljmbrsjmamfidudg"
+            },
+            {
+                "arn": "hlxjcwjvpzsgutjt"
+            },
+            {
+                "arn": "ipujknucaklcmmdu"
+            },
+            {
+                "arn": "lilaomzmwqecmmlq"
+            },
+            {
+                "arn": "wgbrjesevukppbeu"
+            },
+            {
+                "arn": "uwpaskomxastllkj"
+            }
+        ],
+        "result_key": "schedulingPolicies"
+    },
+    "meta": {
+        "start": 1711115291.250577,
+        "end": 1711115298.29151,
+        "duration": 7.040941953659058,
+        "service": "batch",
+        "type": "scheduling_policies"
+    }
+}

@@ -1,0 +1,116 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "9dece7f85fc1c3f944425b1f68a8e6e1",
+        "boto_command": "list_databases",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "Arn": "Arn",
+                "DatabaseName": "DatabaseName",
+                "TableCount": 0,
+                "KmsKeyId": "KmsKeyId",
+                "CreationTime": "1970-01-01T00:00:00",
+                "LastUpdatedTime": "1970-01-01T00:00:00"
+            }
+        ],
+        "required": [],
+        "md5": "7906aa648464e222afe809dc72d33769",
+        "randomized": [
+            {
+                "Arn": "vijqctrmwzzoiyew",
+                "CreationTime": "tzmlbfwbhwsqghss",
+                "DatabaseName": "tzjpwhfpxttkusqn",
+                "KmsKeyId": "yhtvhtdgjvlqtdfm",
+                "LastUpdatedTime": "touthaqyscgclhql",
+                "TableCount": 0
+            },
+            {
+                "Arn": "buzkfhlztqnzfkxz",
+                "CreationTime": "xuhcutgrcnoxyndz",
+                "DatabaseName": "lyjnxtcqqdpeebho",
+                "KmsKeyId": "joaklmufivbcpxon",
+                "LastUpdatedTime": "wozioyudqpbkpoln",
+                "TableCount": 0
+            },
+            {
+                "Arn": "bckaftbrlgkpybbq",
+                "CreationTime": "snlbtbdcjuulceqh",
+                "DatabaseName": "hjjreuptgxzkmoyz",
+                "KmsKeyId": "rtqobpnylnjzotgi",
+                "LastUpdatedTime": "kpenofzusiqwivas",
+                "TableCount": 0
+            },
+            {
+                "Arn": "olcydlxlipunrgoj",
+                "CreationTime": "vxjuydqvynvmznna",
+                "DatabaseName": "xlebobmxsbpvknpe",
+                "KmsKeyId": "vyqsglcxggmodmhh",
+                "LastUpdatedTime": "nnmxtizayojopphj",
+                "TableCount": 0
+            },
+            {
+                "Arn": "lxjftfnyoddhdiql",
+                "CreationTime": "gaqzicuikluaniwi",
+                "DatabaseName": "kzjwmfdbefcapibb",
+                "KmsKeyId": "nofohxdditbabhdl",
+                "LastUpdatedTime": "bbyayxfurgxeqjyv",
+                "TableCount": 0
+            },
+            {
+                "Arn": "awimkilkzjnvfzzq",
+                "CreationTime": "tzjxgpieonhoeeyp",
+                "DatabaseName": "kjwzuoezpctumzcp",
+                "KmsKeyId": "zwluxmqeanfdvcvi",
+                "LastUpdatedTime": "avbxezqrifcheqym",
+                "TableCount": 0
+            },
+            {
+                "Arn": "lhdkhirzwondtnvi",
+                "CreationTime": "drbryuhgkizcaqnw",
+                "DatabaseName": "jcwsbpbewflojqsf",
+                "KmsKeyId": "sbhmdugbftafbxcg",
+                "LastUpdatedTime": "kemgskhitmpowxhs",
+                "TableCount": 0
+            },
+            {
+                "Arn": "zdpgmufoxizfqhcz",
+                "CreationTime": "elvynyzomprdaurd",
+                "DatabaseName": "ylfuszajxgtdgxhz",
+                "KmsKeyId": "ifyiuwxynccaqlyc",
+                "LastUpdatedTime": "jpulbpuzwxqboqin",
+                "TableCount": 0
+            },
+            {
+                "Arn": "kaqbeaabprgyfdyi",
+                "CreationTime": "rfakyawnlniberhb",
+                "DatabaseName": "jrpunjevpfzhljon",
+                "KmsKeyId": "dulmhfbelqgstpuw",
+                "LastUpdatedTime": "ccerhvweicujejyh",
+                "TableCount": 0
+            },
+            {
+                "Arn": "daqlhrutpywslunx",
+                "CreationTime": "plzmxgmexxpkqjbo",
+                "DatabaseName": "aaskxliejqriuqex",
+                "KmsKeyId": "dsfvhyyfzfxiulww",
+                "LastUpdatedTime": "gaveouqpkmgzuank",
+                "TableCount": 0
+            }
+        ],
+        "result_key": "Databases"
+    },
+    "meta": {
+        "start": 1711116723.651794,
+        "end": 1711116730.609281,
+        "duration": 6.957495927810669,
+        "service": "timestream-write",
+        "type": "databases"
+    }
+}

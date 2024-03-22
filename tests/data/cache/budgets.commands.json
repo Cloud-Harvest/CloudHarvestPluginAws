@@ -1,0 +1,12 @@
+[
+    "budgets.describe-budget",
+    "budgets.describe-budget-action",
+    "budgets.describe-budget-action-histories",
+    "budgets.describe-budget-actions-for-account",
+    "budgets.describe-budget-actions-for-budget",
+    "budgets.describe-budget-notifications-for-account",
+    "budgets.describe-budget-performance-history",
+    "budgets.describe-budgets",
+    "budgets.describe-notifications-for-budget",
+    "budgets.describe-subscribers-for-notification"
+]

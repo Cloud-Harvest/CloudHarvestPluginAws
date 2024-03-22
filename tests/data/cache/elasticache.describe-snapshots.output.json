@@ -1,0 +1,605 @@
+{
+    "input": {
+        "template": {
+            "ReplicationGroupId": "",
+            "CacheClusterId": "",
+            "SnapshotName": "",
+            "SnapshotSource": "",
+            "Marker": "",
+            "MaxRecords": 0,
+            "ShowNodeGroupConfig": true
+        },
+        "required": [],
+        "md5": "cf98c506e41ff750628538772fcd11a9",
+        "boto_command": "describe_snapshots",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "SnapshotName": "SnapshotName",
+                "ReplicationGroupId": "ReplicationGroupId",
+                "ReplicationGroupDescription": "ReplicationGroupDescription",
+                "CacheClusterId": "CacheClusterId",
+                "SnapshotStatus": "SnapshotStatus",
+                "SnapshotSource": "SnapshotSource",
+                "CacheNodeType": "CacheNodeType",
+                "Engine": "Engine",
+                "EngineVersion": "EngineVersion",
+                "NumCacheNodes": 0,
+                "PreferredAvailabilityZone": "PreferredAvailabilityZone",
+                "PreferredOutpostArn": "PreferredOutpostArn",
+                "CacheClusterCreateTime": "1970-01-01T00:00:00",
+                "PreferredMaintenanceWindow": "PreferredMaintenanceWindow",
+                "TopicArn": "TopicArn",
+                "Port": 0,
+                "CacheParameterGroupName": "CacheParameterGroupName",
+                "CacheSubnetGroupName": "CacheSubnetGroupName",
+                "VpcId": "VpcId",
+                "AutoMinorVersionUpgrade": true,
+                "SnapshotRetentionLimit": 0,
+                "SnapshotWindow": "SnapshotWindow",
+                "NumNodeGroups": 0,
+                "AutomaticFailover": "AutomaticFailover",
+                "NodeSnapshots": [
+                    {
+                        "CacheClusterId": "CacheClusterId",
+                        "NodeGroupId": "NodeGroupId",
+                        "CacheNodeId": "CacheNodeId",
+                        "NodeGroupConfiguration": {
+                            "NodeGroupId": "NodeGroupId",
+                            "Slots": "Slots",
+                            "ReplicaCount": 0,
+                            "PrimaryAvailabilityZone": "PrimaryAvailabilityZone",
+                            "ReplicaAvailabilityZones": [
+                                "String"
+                            ],
+                            "PrimaryOutpostArn": "PrimaryOutpostArn",
+                            "ReplicaOutpostArns": [
+                                "String"
+                            ]
+                        },
+                        "CacheSize": "CacheSize",
+                        "CacheNodeCreateTime": "1970-01-01T00:00:00",
+                        "SnapshotCreateTime": "1970-01-01T00:00:00"
+                    }
+                ],
+                "KmsKeyId": "KmsKeyId",
+                "ARN": "ARN",
+                "DataTiering": "DataTiering"
+            }
+        ],
+        "required": [],
+        "md5": "2165a47b0e20b5f63863874bcead34cb",
+        "randomized": [
+            {
+                "ARN": "uthwupvwtmkdxqgx",
+                "AutoMinorVersionUpgrade": true,
+                "AutomaticFailover": "snetjodpiykmupyn",
+                "CacheClusterCreateTime": "wrulnexqpgmnokfv",
+                "CacheClusterId": "ulfwzulwxskpfwsz",
+                "CacheNodeType": "yotggngnqdtqprab",
+                "CacheParameterGroupName": "lyzrrjacyoqomfzh",
+                "CacheSubnetGroupName": "nkgfbtqgdtrfkrze",
+                "DataTiering": "lwfrukahglroinel",
+                "Engine": "ntipszekbpjgmqnk",
+                "EngineVersion": "zcfhxhfhqrrydulk",
+                "KmsKeyId": "gzubjwycaoxhiith",
+                "NodeSnapshots": [
+                    {
+                        "CacheClusterId": "hwgmbpgojnozrhce",
+                        "CacheNodeCreateTime": "knkadbgyhyvotnqh",
+                        "CacheNodeId": "btrhasrpugzlqlbs",
+                        "CacheSize": "zklvtevwitbvjsii",
+                        "NodeGroupConfiguration": {
+                            "NodeGroupId": "kisvtbjqmypghnxi",
+                            "PrimaryAvailabilityZone": "pkucscvswngobbrk",
+                            "PrimaryOutpostArn": "igcalnighehkwvsg",
+                            "ReplicaAvailabilityZones": [
+                                "nzqczbsxposrkqga"
+                            ],
+                            "ReplicaCount": 0,
+                            "ReplicaOutpostArns": [
+                                "nilccuvymqbobzfj"
+                            ],
+                            "Slots": "fqaztkrhwzkrzipz"
+                        },
+                        "NodeGroupId": "qzjnfcelwgusmfqq",
+                        "SnapshotCreateTime": "joojufpvziopzaki"
+                    }
+                ],
+                "NumCacheNodes": 0,
+                "NumNodeGroups": 0,
+                "Port": 0,
+                "PreferredAvailabilityZone": "roafxmivjsykmgdg",
+                "PreferredMaintenanceWindow": "hczfbkomjvfsgsvw",
+                "PreferredOutpostArn": "josbjklbfotwwbyr",
+                "ReplicationGroupDescription": "oisisncsmkdjemvt",
+                "ReplicationGroupId": "xkhmelbmeewkecoz",
+                "SnapshotName": "mvonxatxiweqbfpv",
+                "SnapshotRetentionLimit": 0,
+                "SnapshotSource": "sfwvlmebzfefcpjy",
+                "SnapshotStatus": "qdztzhoxplexjutr",
+                "SnapshotWindow": "sycoyztcdddxogsk",
+                "TopicArn": "fmppgumdkkkswfbi",
+                "VpcId": "zryspqaezrnptmbu"
+            },
+            {
+                "ARN": "rglmmvrdnzqowgby",
+                "AutoMinorVersionUpgrade": true,
+                "AutomaticFailover": "hliyczxygicpcanl",
+                "CacheClusterCreateTime": "yxrxisrthoydetax",
+                "CacheClusterId": "rlznlvgwdhsnafuk",
+                "CacheNodeType": "jxbvpeghafqenumb",
+                "CacheParameterGroupName": "xshtpxljgbrjylvs",
+                "CacheSubnetGroupName": "ujeztarryomtwoyx",
+                "DataTiering": "qctxfjsezmbtvrnm",
+                "Engine": "wnebepvsrzjacacy",
+                "EngineVersion": "kgnhsyplxbsflblr",
+                "KmsKeyId": "twjuvthutyjrqyav",
+                "NodeSnapshots": [
+                    {
+                        "CacheClusterId": "fjfajfqsdndmliyw",
+                        "CacheNodeCreateTime": "vxpeapoovzuhhisa",
+                        "CacheNodeId": "rpngyjfemwpslvby",
+                        "CacheSize": "dwbxvhscfhzshncx",
+                        "NodeGroupConfiguration": {
+                            "NodeGroupId": "dslujkkuhqkidfzj",
+                            "PrimaryAvailabilityZone": "gcqqsvjbuhykamqv",
+                            "PrimaryOutpostArn": "xoxeogjqtyumebuw",
+                            "ReplicaAvailabilityZones": [
+                                "tfrspuyjfhxdlfnz"
+                            ],
+                            "ReplicaCount": 0,
+                            "ReplicaOutpostArns": [
+                                "cijxfqmaqrnpytfl"
+                            ],
+                            "Slots": "hrrxznoiphciycly"
+                        },
+                        "NodeGroupId": "ahjbauraeeqzqvxh",
+                        "SnapshotCreateTime": "cfpgnpgeyixvqvqs"
+                    }
+                ],
+                "NumCacheNodes": 0,
+                "NumNodeGroups": 0,
+                "Port": 0,
+                "PreferredAvailabilityZone": "gtivibmumetbqfcf",
+                "PreferredMaintenanceWindow": "jtnywxtggwtajoie",
+                "PreferredOutpostArn": "ispajckltbdykqkd",
+                "ReplicationGroupDescription": "wjqpngvlypbjutvc",
+                "ReplicationGroupId": "cizdhlfnofjisqrz",
+                "SnapshotName": "wdqkwmandjbrpbaw",
+                "SnapshotRetentionLimit": 0,
+                "SnapshotSource": "tlwbgleklichvvbr",
+                "SnapshotStatus": "ieatlkxuyvmhbhqy",
+                "SnapshotWindow": "gusbmfkzmwzmzoqg",
+                "TopicArn": "mtciewlcqkccgsnv",
+                "VpcId": "wmxxoqhmqxwxstmh"
+            },
+            {
+                "ARN": "piurffniryppqbnq",
+                "AutoMinorVersionUpgrade": true,
+                "AutomaticFailover": "vbrxcfrghqjrvrhz",
+                "CacheClusterCreateTime": "ghxagyfcdaovakhp",
+                "CacheClusterId": "grozfeuvvhximgsj",
+                "CacheNodeType": "tuqjfdwmlekkswbd",
+                "CacheParameterGroupName": "kczumekjohjsfbzj",
+                "CacheSubnetGroupName": "waawukatbquzcoru",
+                "DataTiering": "nnybiaymlhockdxm",
+                "Engine": "bpmunuwfeniwwsyp",
+                "EngineVersion": "qvpqsdfczzcrpvda",
+                "KmsKeyId": "lrfrqfprtwkktxgs",
+                "NodeSnapshots": [
+                    {
+                        "CacheClusterId": "jftalhpugtzgpigy",
+                        "CacheNodeCreateTime": "zwudrbxeswunzcda",
+                        "CacheNodeId": "ydkounxravalyrbb",
+                        "CacheSize": "ugwkgfuhskfwcfdn",
+                        "NodeGroupConfiguration": {
+                            "NodeGroupId": "rvfidazaiphihsib",
+                            "PrimaryAvailabilityZone": "shvbrcqkghhzeeip",
+                            "PrimaryOutpostArn": "igopftwlqlemwzmc",
+                            "ReplicaAvailabilityZones": [
+                                "heacqlfrabpxkche"
+                            ],
+                            "ReplicaCount": 0,
+                            "ReplicaOutpostArns": [
+                                "vuumclydockdhpxb"
+                            ],
+                            "Slots": "pnrwkzevdkfintgo"
+                        },
+                        "NodeGroupId": "thbpkwcyvapggdll",
+                        "SnapshotCreateTime": "rsyjsnqrnjvgmeiq"
+                    }
+                ],
+                "NumCacheNodes": 0,
+                "NumNodeGroups": 0,
+                "Port": 0,
+                "PreferredAvailabilityZone": "cgwnwfndycgqiqji",
+                "PreferredMaintenanceWindow": "zlprjgdjaxkodhmm",
+                "PreferredOutpostArn": "qugvexepfirejdgq",
+                "ReplicationGroupDescription": "fqnsfnryrdvurwki",
+                "ReplicationGroupId": "yhtnwjacgsbwwifv",
+                "SnapshotName": "mwzmlqpozadoxyua",
+                "SnapshotRetentionLimit": 0,
+                "SnapshotSource": "tqoxlqqpdtyateqe",
+                "SnapshotStatus": "gekmbegdmqxcbhei",
+                "SnapshotWindow": "rruscfkvqowscjjj",
+                "TopicArn": "ofqlqclbmbnniebh",
+                "VpcId": "linjndvhqzcohmax"
+            },
+            {
+                "ARN": "caziyopasbnylgtf",
+                "AutoMinorVersionUpgrade": true,
+                "AutomaticFailover": "oihgnidfbeynssri",
+                "CacheClusterCreateTime": "eikpjwaklbetmxhh",
+                "CacheClusterId": "wxfwnuqssmkmodpo",
+                "CacheNodeType": "innhpbikffcyvgnx",
+                "CacheParameterGroupName": "ybosrlvomthuqsgp",
+                "CacheSubnetGroupName": "htajlvacpihmbkzx",
+                "DataTiering": "mbvlzhpltzfypqls",
+                "Engine": "jyjipfwcrzjnyymu",
+                "EngineVersion": "opcxxnaojcwzhwmp",
+                "KmsKeyId": "qmlwedaoxpygtffb",
+                "NodeSnapshots": [
+                    {
+                        "CacheClusterId": "dpdazhbkvfajtgug",
+                        "CacheNodeCreateTime": "oaatnwzhlbwojhgl",
+                        "CacheNodeId": "wbkxvbnabreavkeo",
+                        "CacheSize": "fjemwtzkoezhrtoz",
+                        "NodeGroupConfiguration": {
+                            "NodeGroupId": "zsmnzjngmawfuwnp",
+                            "PrimaryAvailabilityZone": "nvyuquseazqlroxn",
+                            "PrimaryOutpostArn": "jjmfxcmragpspvfj",
+                            "ReplicaAvailabilityZones": [
+                                "uyfpjoxxtovlsdpk"
+                            ],
+                            "ReplicaCount": 0,
+                            "ReplicaOutpostArns": [
+                                "jrogvkgybweghxns"
+                            ],
+                            "Slots": "qyazntxgnaveqkhg"
+                        },
+                        "NodeGroupId": "hxsrzunfvsjxggel",
+                        "SnapshotCreateTime": "kkbzqvbzayecqbaw"
+                    }
+                ],
+                "NumCacheNodes": 0,
+                "NumNodeGroups": 0,
+                "Port": 0,
+                "PreferredAvailabilityZone": "lbqonqnzasypccjg",
+                "PreferredMaintenanceWindow": "nyghsyrruxsjaiyh",
+                "PreferredOutpostArn": "klurfdwuswbwmflw",
+                "ReplicationGroupDescription": "aorjjtdmufzrqlbc",
+                "ReplicationGroupId": "ceajdbiyadfdamkk",
+                "SnapshotName": "ollqnwhnjbrdgfhi",
+                "SnapshotRetentionLimit": 0,
+                "SnapshotSource": "yuavximaeeevifvl",
+                "SnapshotStatus": "sbaeahztimqvcngu",
+                "SnapshotWindow": "vhaebhxgfuydgtxb",
+                "TopicArn": "mdcartvflgobqlpo",
+                "VpcId": "dcbdpdiovbvsogzz"
+            },
+            {
+                "ARN": "rikyrnnjioqczapo",
+                "AutoMinorVersionUpgrade": true,
+                "AutomaticFailover": "rlnxqttbieigdgta",
+                "CacheClusterCreateTime": "orpkxvvymehusvgw",
+                "CacheClusterId": "jzpylfaqcjjmpcyg",
+                "CacheNodeType": "fhvnoctdncofcoww",
+                "CacheParameterGroupName": "xvrjppuknhyixgxy",
+                "CacheSubnetGroupName": "rhqwmglpqtzxbqqr",
+                "DataTiering": "slyteibzxjiojrck",
+                "Engine": "aabneataderfofpl",
+                "EngineVersion": "blifyqanwgfsyhbc",
+                "KmsKeyId": "almbgfmeaqurbqww",
+                "NodeSnapshots": [
+                    {
+                        "CacheClusterId": "jqkpasktvtefqtam",
+                        "CacheNodeCreateTime": "xfwuyupoqoogustd",
+                        "CacheNodeId": "zxanzxwlqlswtvev",
+                        "CacheSize": "xenekkctqpfwnked",
+                        "NodeGroupConfiguration": {
+                            "NodeGroupId": "hjiaaskbheozfojh",
+                            "PrimaryAvailabilityZone": "athmqhjzqyjdflsm",
+                            "PrimaryOutpostArn": "xakycsrenalhnckz",
+                            "ReplicaAvailabilityZones": [
+                                "yjwcccxwdisskqcn"
+                            ],
+                            "ReplicaCount": 0,
+                            "ReplicaOutpostArns": [
+                                "wgalwsgauwuvpvwc"
+                            ],
+                            "Slots": "reaxhtteqkvqxzyf"
+                        },
+                        "NodeGroupId": "gjedtbolazbjygng",
+                        "SnapshotCreateTime": "vwevehcjyotkhfwd"
+                    }
+                ],
+                "NumCacheNodes": 0,
+                "NumNodeGroups": 0,
+                "Port": 0,
+                "PreferredAvailabilityZone": "xxrmeuzpjthxexvv",
+                "PreferredMaintenanceWindow": "vwqykqtkkjydovyr",
+                "PreferredOutpostArn": "tbgfmadogflpspfl",
+                "ReplicationGroupDescription": "rdnnlhpnggtayrdf",
+                "ReplicationGroupId": "qbcmvcslxgknkdvw",
+                "SnapshotName": "yueinpylttrbrlpk",
+                "SnapshotRetentionLimit": 0,
+                "SnapshotSource": "vfzyahgfnhwdihmj",
+                "SnapshotStatus": "ncpghecvznrkxerw",
+                "SnapshotWindow": "zwmtrxtdocjdayix",
+                "TopicArn": "efpaluzbhdllmpwv",
+                "VpcId": "wwdyuodwfcscsgly"
+            },
+            {
+                "ARN": "lhhumorccgobekuy",
+                "AutoMinorVersionUpgrade": true,
+                "AutomaticFailover": "zrbjdfsmwpthowqz",
+                "CacheClusterCreateTime": "dvakmenfmivxiqjk",
+                "CacheClusterId": "exshdxyfqnqkxdwz",
+                "CacheNodeType": "kzwvnmccucqztnyl",
+                "CacheParameterGroupName": "qjogkprztqtvedvq",
+                "CacheSubnetGroupName": "mtqqnwpujjhidbhp",
+                "DataTiering": "kwqkgybhretiitsj",
+                "Engine": "okxcdfhxfooeegej",
+                "EngineVersion": "flnlrsooqxwlsvzm",
+                "KmsKeyId": "fpapwmytizkmdvfq",
+                "NodeSnapshots": [
+                    {
+                        "CacheClusterId": "ectwxmkzstclwuen",
+                        "CacheNodeCreateTime": "jvzqwiazykcfasun",
+                        "CacheNodeId": "chysovnfhdadnwuc",
+                        "CacheSize": "pmmvmwvccezfwzyn",
+                        "NodeGroupConfiguration": {
+                            "NodeGroupId": "aswmsvkeohddjpoy",
+                            "PrimaryAvailabilityZone": "ecohznwbennskzgt",
+                            "PrimaryOutpostArn": "wzmweayrcwkzmbnr",
+                            "ReplicaAvailabilityZones": [
+                                "nybztlilqnfxbfan"
+                            ],
+                            "ReplicaCount": 0,
+                            "ReplicaOutpostArns": [
+                                "lwyiphlkiepfrjfb"
+                            ],
+                            "Slots": "cucwtnqguxeplzyo"
+                        },
+                        "NodeGroupId": "ylxudwgrkaiurysr",
+                        "SnapshotCreateTime": "pciltfakwrllywsa"
+                    }
+                ],
+                "NumCacheNodes": 0,
+                "NumNodeGroups": 0,
+                "Port": 0,
+                "PreferredAvailabilityZone": "bingmignuzxwihkt",
+                "PreferredMaintenanceWindow": "nmrlpfacwjuroyip",
+                "PreferredOutpostArn": "hlxxthdrmjnrrzng",
+                "ReplicationGroupDescription": "iwdwiynlhnzkfsnz",
+                "ReplicationGroupId": "ewkkitsngbipkhjj",
+                "SnapshotName": "gsmiwpxhnqwblupv",
+                "SnapshotRetentionLimit": 0,
+                "SnapshotSource": "fpvpmxigqbyisfvq",
+                "SnapshotStatus": "xoyhufxnirpsnxma",
+                "SnapshotWindow": "qubudpeyolwwkvok",
+                "TopicArn": "ajysztoxyecmhqkt",
+                "VpcId": "yhlgxkylpajipvdd"
+            },
+            {
+                "ARN": "fyjbmucokvialeku",
+                "AutoMinorVersionUpgrade": true,
+                "AutomaticFailover": "qzanbejikxvlgbpd",
+                "CacheClusterCreateTime": "hccpvvakacohmjxc",
+                "CacheClusterId": "kbnmhrvmzxqfvcmz",
+                "CacheNodeType": "npniqhohvytannar",
+                "CacheParameterGroupName": "xcadhhzkwyoncbtt",
+                "CacheSubnetGroupName": "vgyuyaidcuvruhqk",
+                "DataTiering": "rwfwuftnbrinrthc",
+                "Engine": "duflozhlndrvncjf",
+                "EngineVersion": "rbuaamrfslvuwetr",
+                "KmsKeyId": "pxjhaoxgyhqcdynt",
+                "NodeSnapshots": [
+                    {
+                        "CacheClusterId": "ogvshgtrwjfuuwbi",
+                        "CacheNodeCreateTime": "kxersszjtrjlxdfi",
+                        "CacheNodeId": "zzbfbwuqaxitntnb",
+                        "CacheSize": "aalxgkcbzvzcfsgp",
+                        "NodeGroupConfiguration": {
+                            "NodeGroupId": "oafyrmnamlixffga",
+                            "PrimaryAvailabilityZone": "nutfiozdollziejq",
+                            "PrimaryOutpostArn": "qkrdlyetnbvkqytd",
+                            "ReplicaAvailabilityZones": [
+                                "qykmvxsraayfskqo"
+                            ],
+                            "ReplicaCount": 0,
+                            "ReplicaOutpostArns": [
+                                "nmpdrmjqyqssynhv"
+                            ],
+                            "Slots": "atsqvcrghcwnudiv"
+                        },
+                        "NodeGroupId": "tzonwnbwecjzcyej",
+                        "SnapshotCreateTime": "xxcluazyakshvpek"
+                    }
+                ],
+                "NumCacheNodes": 0,
+                "NumNodeGroups": 0,
+                "Port": 0,
+                "PreferredAvailabilityZone": "engkxoikvldhujph",
+                "PreferredMaintenanceWindow": "ezyxycuukzjutzar",
+                "PreferredOutpostArn": "ncegjgmjxzlrpffl",
+                "ReplicationGroupDescription": "lukmewqrcfsuiyxg",
+                "ReplicationGroupId": "dsbzzruoqfbtdnbq",
+                "SnapshotName": "mencioeispmpejsb",
+                "SnapshotRetentionLimit": 0,
+                "SnapshotSource": "gadkhhplokcexgae",
+                "SnapshotStatus": "uqvgddwlvxnzjhjd",
+                "SnapshotWindow": "kmvbpflhythfayjq",
+                "TopicArn": "qboqamichsfotiud",
+                "VpcId": "gulemqklytjtoeql"
+            },
+            {
+                "ARN": "dvdxwbdmfvqxalxj",
+                "AutoMinorVersionUpgrade": true,
+                "AutomaticFailover": "yvekhqjvknzskdwv",
+                "CacheClusterCreateTime": "ulsuxtcdsoreqruy",
+                "CacheClusterId": "ghfwtqsubcmjfymx",
+                "CacheNodeType": "wjjantlclkgbpadn",
+                "CacheParameterGroupName": "jyobcryuoajlnoay",
+                "CacheSubnetGroupName": "qcyvfzgrikwdrfqr",
+                "DataTiering": "wueelaxmaxlqjkvb",
+                "Engine": "rtfmvrwxrvtxrwzz",
+                "EngineVersion": "grbhhhgesfcgfufw",
+                "KmsKeyId": "kubdybyntgrhfzjm",
+                "NodeSnapshots": [
+                    {
+                        "CacheClusterId": "lnmhppeizqoefmgn",
+                        "CacheNodeCreateTime": "lskishmdmelyedoz",
+                        "CacheNodeId": "fqhlkrpddxtuekps",
+                        "CacheSize": "orwyzgobqourlfvi",
+                        "NodeGroupConfiguration": {
+                            "NodeGroupId": "szcapbhggqrzqtzm",
+                            "PrimaryAvailabilityZone": "lpfuuepatmziqxau",
+                            "PrimaryOutpostArn": "tetjdkhrfxwrapdm",
+                            "ReplicaAvailabilityZones": [
+                                "kolvxevhdegyaohw"
+                            ],
+                            "ReplicaCount": 0,
+                            "ReplicaOutpostArns": [
+                                "snumgwxvcvzeqerp"
+                            ],
+                            "Slots": "qtujnbaofekhytkp"
+                        },
+                        "NodeGroupId": "yadjthbwjmsmoxwb",
+                        "SnapshotCreateTime": "eqqoswggbcfmegua"
+                    }
+                ],
+                "NumCacheNodes": 0,
+                "NumNodeGroups": 0,
+                "Port": 0,
+                "PreferredAvailabilityZone": "ngietbiuxmbwpdea",
+                "PreferredMaintenanceWindow": "bpgzcqbnravaccwu",
+                "PreferredOutpostArn": "yeutqqfctdmvosja",
+                "ReplicationGroupDescription": "moiasrfrbmmkelts",
+                "ReplicationGroupId": "msfieqzfavukkpxj",
+                "SnapshotName": "hgkcbfcspgwrbphg",
+                "SnapshotRetentionLimit": 0,
+                "SnapshotSource": "qxdvksodfzmcvkvr",
+                "SnapshotStatus": "jmgxcuzevshrntvg",
+                "SnapshotWindow": "gjjuyphxxcdmlksk",
+                "TopicArn": "mimclyuajoaritug",
+                "VpcId": "einhwmgehgxukfje"
+            },
+            {
+                "ARN": "qhkfyvzjsmpmdwix",
+                "AutoMinorVersionUpgrade": true,
+                "AutomaticFailover": "vcrhnmznyvdsboiu",
+                "CacheClusterCreateTime": "jxocscjemrdjkocv",
+                "CacheClusterId": "iunxmeljgutpmmqy",
+                "CacheNodeType": "twkegojcxgeqhflr",
+                "CacheParameterGroupName": "xtowdhhbygpnship",
+                "CacheSubnetGroupName": "aehlbjwjaoecbqtj",
+                "DataTiering": "ddvhvfrdnieagfbc",
+                "Engine": "ogjcostsiizngkyt",
+                "EngineVersion": "rnfbragdakwkzsrj",
+                "KmsKeyId": "lwzuauogwmtqgyxc",
+                "NodeSnapshots": [
+                    {
+                        "CacheClusterId": "jogvgxsvsauzbfkb",
+                        "CacheNodeCreateTime": "wfazvapvpymspmhk",
+                        "CacheNodeId": "bntzdoasrhhmeaeg",
+                        "CacheSize": "ngksafxiajmkdttv",
+                        "NodeGroupConfiguration": {
+                            "NodeGroupId": "hrlntpvgjwemxqdu",
+                            "PrimaryAvailabilityZone": "fhkjtbfuazclujnj",
+                            "PrimaryOutpostArn": "ojbibcwcpwlkuvhq",
+                            "ReplicaAvailabilityZones": [
+                                "rghuuioiorgfgwmb"
+                            ],
+                            "ReplicaCount": 0,
+                            "ReplicaOutpostArns": [
+                                "qigyfnexrsvfbrsc"
+                            ],
+                            "Slots": "dtvvwssozfeslmlv"
+                        },
+                        "NodeGroupId": "tdnurjtloafjvlbn",
+                        "SnapshotCreateTime": "oabvbkarbmrnixmx"
+                    }
+                ],
+                "NumCacheNodes": 0,
+                "NumNodeGroups": 0,
+                "Port": 0,
+                "PreferredAvailabilityZone": "ljwzfiwbvodhqygb",
+                "PreferredMaintenanceWindow": "msgtcrgferuovdrc",
+                "PreferredOutpostArn": "foldkamnigazdcac",
+                "ReplicationGroupDescription": "cwkfkioksqriupxk",
+                "ReplicationGroupId": "qizqrdhqhkcewzdw",
+                "SnapshotName": "hjxcafjwevvjntnj",
+                "SnapshotRetentionLimit": 0,
+                "SnapshotSource": "gxykkdyeueazvfkg",
+                "SnapshotStatus": "mprlqnnbedcbnaor",
+                "SnapshotWindow": "axzlgalgfmhhqwzt",
+                "TopicArn": "xztnzhevsxanvtve",
+                "VpcId": "uyfyyzlvzlzargim"
+            },
+            {
+                "ARN": "dokvoifnbwgtirhk",
+                "AutoMinorVersionUpgrade": true,
+                "AutomaticFailover": "whgdzvxnxvncgtjw",
+                "CacheClusterCreateTime": "jzoppzjyhxknoqta",
+                "CacheClusterId": "cqnzdanqnbnflguz",
+                "CacheNodeType": "artkkmylbwvqejax",
+                "CacheParameterGroupName": "jnyyqcwngezxyhzo",
+                "CacheSubnetGroupName": "xuatpveaiprpkosf",
+                "DataTiering": "hnwcirljwcnhrztk",
+                "Engine": "fqtbqyourwzarvkw",
+                "EngineVersion": "tywrzlzixcjjegwz",
+                "KmsKeyId": "hmlkpliobcevrrqr",
+                "NodeSnapshots": [
+                    {
+                        "CacheClusterId": "irawdvyqnplxjnfg",
+                        "CacheNodeCreateTime": "vmndqqaxxcntywps",
+                        "CacheNodeId": "heokynacrfzwmtfz",
+                        "CacheSize": "vadgjzlywidvfnih",
+                        "NodeGroupConfiguration": {
+                            "NodeGroupId": "zqqbqzegnhvbapdn",
+                            "PrimaryAvailabilityZone": "jvkjrtxjnmgrdfgj",
+                            "PrimaryOutpostArn": "yhlbnhdhaclikyrl",
+                            "ReplicaAvailabilityZones": [
+                                "nyyjapateynuslcs"
+                            ],
+                            "ReplicaCount": 0,
+                            "ReplicaOutpostArns": [
+                                "jhmnilbsoosjanbt"
+                            ],
+                            "Slots": "szwkltoucxgvzoze"
+                        },
+                        "NodeGroupId": "qctsiqfkqouwrurp",
+                        "SnapshotCreateTime": "lpqtvvvebthoanzz"
+                    }
+                ],
+                "NumCacheNodes": 0,
+                "NumNodeGroups": 0,
+                "Port": 0,
+                "PreferredAvailabilityZone": "ohspmwrqolrsrwtl",
+                "PreferredMaintenanceWindow": "kngsnfowrdbwgihj",
+                "PreferredOutpostArn": "uobbqykbwziwfilw",
+                "ReplicationGroupDescription": "yuudcicjzcokbdyc",
+                "ReplicationGroupId": "dxpqexdeboqrlvfe",
+                "SnapshotName": "mvyyluutuuuoaknj",
+                "SnapshotRetentionLimit": 0,
+                "SnapshotSource": "qdmafttajhelsvgb",
+                "SnapshotStatus": "cddixfdyvgyghlef",
+                "SnapshotWindow": "fxfqvbnzijydbntj",
+                "TopicArn": "qceisxkbnrunflwy",
+                "VpcId": "vwuszulohimyeirv"
+            }
+        ],
+        "result_key": "Snapshots"
+    },
+    "meta": {
+        "start": 1711115710.19618,
+        "end": 1711115716.81574,
+        "duration": 6.619569778442383,
+        "service": "elasticache",
+        "type": "snapshots"
+    }
+}

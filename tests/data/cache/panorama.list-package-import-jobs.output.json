@@ -1,0 +1,116 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "031b56893c6f5a9d0ebe6017c5c080cb",
+        "boto_command": "list_package_import_jobs",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "CreatedTime": "1970-01-01T00:00:00",
+                "JobId": "JobId",
+                "JobType": "JobType",
+                "LastUpdatedTime": "1970-01-01T00:00:00",
+                "Status": "Status",
+                "StatusMessage": "StatusMessage"
+            }
+        ],
+        "required": [],
+        "md5": "5176bd79b47599eb8e1ea2da60525cf6",
+        "randomized": [
+            {
+                "CreatedTime": "zjerquhcnjkbfxpb",
+                "JobId": "ttnzmzptjfwrlczx",
+                "JobType": "ynygozufbfirranu",
+                "LastUpdatedTime": "kxqxfxqowokhvyqm",
+                "Status": "xqsobtyriylbcalx",
+                "StatusMessage": "ksesxesedvrzvuwy"
+            },
+            {
+                "CreatedTime": "ehzefnyhvzkadrwc",
+                "JobId": "pftjgtgbdthyyosl",
+                "JobType": "jzroptcqxhezkxhc",
+                "LastUpdatedTime": "rqtjhvrwzsemnhic",
+                "Status": "qukgahasumksukkf",
+                "StatusMessage": "ylvorxwouafasmrk"
+            },
+            {
+                "CreatedTime": "lhtdeddgtnruncic",
+                "JobId": "myseqrpzlmhbutcg",
+                "JobType": "gxddrqyqmoqredkq",
+                "LastUpdatedTime": "uahhcnamkdrzksxn",
+                "Status": "hzdkdtaxvchteovv",
+                "StatusMessage": "yretbymcgyhtsusc"
+            },
+            {
+                "CreatedTime": "wmiawmhacbwnxbfg",
+                "JobId": "mwmlnnrynhcfdmtv",
+                "JobType": "wmngqhidxjzzmdho",
+                "LastUpdatedTime": "gelzasdowbyefujh",
+                "Status": "puovoiikjkgpmbfx",
+                "StatusMessage": "uxumhhpqbftdunrq"
+            },
+            {
+                "CreatedTime": "eaibhnorkddbejmj",
+                "JobId": "cgatnmowrsjfcapl",
+                "JobType": "kfxrayztoxtawkgl",
+                "LastUpdatedTime": "quhjfncwdseyyfgs",
+                "Status": "sgoayuapybkvoodi",
+                "StatusMessage": "llbimtnqgbmwoyjg"
+            },
+            {
+                "CreatedTime": "iihmqvqhfxzhxoef",
+                "JobId": "yeilmtxwqidrfbci",
+                "JobType": "oxhtpsfqobdtvcdu",
+                "LastUpdatedTime": "hmckvawqsnsppptg",
+                "Status": "cfuesdjwtldzairt",
+                "StatusMessage": "plcmtbodsqxhfecb"
+            },
+            {
+                "CreatedTime": "cypcynbhvlcnvpww",
+                "JobId": "yjafnutkrzzhxaoj",
+                "JobType": "fppghbmufdgblhim",
+                "LastUpdatedTime": "djwinpoonyivorht",
+                "Status": "codphkvqtlxyuwed",
+                "StatusMessage": "hhlmqllhromdabkw"
+            },
+            {
+                "CreatedTime": "ffubywvnyxbnjixg",
+                "JobId": "cggsuchrxyozgxrb",
+                "JobType": "jyoteuevjeawgrxg",
+                "LastUpdatedTime": "dajohwgcesepmclv",
+                "Status": "jhkdmmvljiejwwif",
+                "StatusMessage": "rorcsqkpmhmcgtgx"
+            },
+            {
+                "CreatedTime": "thjoyklzgyanewey",
+                "JobId": "lejvpvydrkisnsus",
+                "JobType": "ycddabhsqzvyzemc",
+                "LastUpdatedTime": "nvbctounvqskagbe",
+                "Status": "ljecuabopdhyczvp",
+                "StatusMessage": "gfhjphsqxgxxfopg"
+            },
+            {
+                "CreatedTime": "rsmjlmatpogddozz",
+                "JobId": "lmtqjcgzxedtdint",
+                "JobType": "stkobjtblqyzdzom",
+                "LastUpdatedTime": "ecjonerlmzhevavm",
+                "Status": "opinhxfskwnrkxdt",
+                "StatusMessage": "jfvmwpnjfqovqykd"
+            }
+        ],
+        "result_key": "PackageImportJobs"
+    },
+    "meta": {
+        "start": 1711116306.870606,
+        "end": 1711116313.895366,
+        "duration": 7.024770021438599,
+        "service": "panorama",
+        "type": "package_import_jobs"
+    }
+}

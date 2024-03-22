@@ -1,0 +1,92 @@
+{
+    "input": {
+        "template": {
+            "StreamName": "",
+            "StreamARN": ""
+        },
+        "required": [],
+        "md5": "87bc28b6741c4b0047a9c7b762bbfc28",
+        "boto_command": "describe_notification_configuration",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": {
+            "Status": "Status",
+            "DestinationConfig": {
+                "Uri": "Uri"
+            }
+        },
+        "required": [],
+        "md5": "61dc93488b6ae89100f67a11858efafa",
+        "randomized": [
+            {
+                "DestinationConfig": {
+                    "Uri": "xuvadhztvvezspuk"
+                },
+                "Status": "llymvrddxpkzwnfc"
+            },
+            {
+                "DestinationConfig": {
+                    "Uri": "nvrtatmajcakzfit"
+                },
+                "Status": "rilwxarnzcvbvhjn"
+            },
+            {
+                "DestinationConfig": {
+                    "Uri": "rmrlctlehkgfpeyx"
+                },
+                "Status": "tawwzhcnlmuuflgq"
+            },
+            {
+                "DestinationConfig": {
+                    "Uri": "shilcomfmvmqcwsx"
+                },
+                "Status": "xxzusrnagzdzdkqk"
+            },
+            {
+                "DestinationConfig": {
+                    "Uri": "odljrzkdkhwcmuhq"
+                },
+                "Status": "kvzdhouccjckufnh"
+            },
+            {
+                "DestinationConfig": {
+                    "Uri": "wlrkrlavvittbafe"
+                },
+                "Status": "rbgrgsqhpgfctdnu"
+            },
+            {
+                "DestinationConfig": {
+                    "Uri": "jpmdjirnlpunfwfb"
+                },
+                "Status": "haijmljqhtpblbkn"
+            },
+            {
+                "DestinationConfig": {
+                    "Uri": "mkvizzfmbwcgfeic"
+                },
+                "Status": "pnqjmohdiacvjksk"
+            },
+            {
+                "DestinationConfig": {
+                    "Uri": "fjqfxlfedsvumhpy"
+                },
+                "Status": "bbhopwqfafxijxmy"
+            },
+            {
+                "DestinationConfig": {
+                    "Uri": "zegtxetrnykswuxe"
+                },
+                "Status": "jbsxpisxxgdgtrgr"
+            }
+        ],
+        "result_key": "NotificationConfiguration"
+    },
+    "meta": {
+        "start": 1711116038.934393,
+        "end": 1711116046.893845,
+        "duration": 7.959460973739624,
+        "service": "kinesisvideo",
+        "type": "notification_configuration"
+    }
+}

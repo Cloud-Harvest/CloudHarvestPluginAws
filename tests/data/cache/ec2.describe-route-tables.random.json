@@ -1,0 +1,492 @@
+[
+    {
+        "Associations": [
+            {
+                "AssociationState": {
+                    "State": "dpxolfkbuqsevhyd",
+                    "StatusMessage": "iwzxcoelkuampeie"
+                },
+                "GatewayId": "whmzqykpulsyazmj",
+                "Main": true,
+                "RouteTableAssociationId": "taqvzsxhdwrhjpqq",
+                "RouteTableId": "gvfrwmxpqouikrwr",
+                "SubnetId": "hhqmwvajpsimytnn"
+            }
+        ],
+        "OwnerId": "tujwleagzzhyoppp",
+        "PropagatingVgws": [
+            {
+                "GatewayId": "nontahdbqqaiquzp"
+            }
+        ],
+        "RouteTableId": "dorxcowzltehxaxz",
+        "Routes": [
+            {
+                "CarrierGatewayId": "vstuveouuuqcrhao",
+                "CoreNetworkArn": "rbijhdfnxpyrfwmr",
+                "DestinationCidrBlock": "tpkfrahbonodumnw",
+                "DestinationIpv6CidrBlock": "jhulplpewvswdkzu",
+                "DestinationPrefixListId": "xtxzrqotpugztdip",
+                "EgressOnlyInternetGatewayId": "egutgtwxhwlnxnpd",
+                "GatewayId": "ggjuwbfaoktcnuuq",
+                "InstanceId": "bgwbklhgyceksiva",
+                "InstanceOwnerId": "etorlmnirppxelir",
+                "LocalGatewayId": "vdelfjvmkizozpfo",
+                "NatGatewayId": "stmawrvbofszzwcc",
+                "NetworkInterfaceId": "llvcvtejyusryoat",
+                "Origin": "aupvbtkrtmazowqc",
+                "State": "vmozdwryfvytoqgf",
+                "TransitGatewayId": "fjersufzxgcmnmth",
+                "VpcPeeringConnectionId": "aaooafjpkxuxrmbg"
+            }
+        ],
+        "Tags": [
+            {
+                "Key": "ammrhrdkgykklain",
+                "Value": "jukxouibzjuptkdv"
+            }
+        ],
+        "VpcId": "rshcqouowdayxxwi"
+    },
+    {
+        "Associations": [
+            {
+                "AssociationState": {
+                    "State": "rwltxxdodhjvbjit",
+                    "StatusMessage": "tbztxfrjcnzddpcq"
+                },
+                "GatewayId": "cqzanfeyspnyqszf",
+                "Main": true,
+                "RouteTableAssociationId": "ypolhyllffbixapo",
+                "RouteTableId": "gzrzkggbsgxswtjp",
+                "SubnetId": "tpwezzvezbfupylk"
+            }
+        ],
+        "OwnerId": "wvkjyvpzijfjypfj",
+        "PropagatingVgws": [
+            {
+                "GatewayId": "jyuzoiyeiskrtahf"
+            }
+        ],
+        "RouteTableId": "zgivfznsaugyruss",
+        "Routes": [
+            {
+                "CarrierGatewayId": "sbdhoeymzyvobgqr",
+                "CoreNetworkArn": "noomjjoougnvjyxa",
+                "DestinationCidrBlock": "fopgghtjgdxtlqhn",
+                "DestinationIpv6CidrBlock": "ljwwtfzdsuddhecj",
+                "DestinationPrefixListId": "kmwyzfoaeddyoaaf",
+                "EgressOnlyInternetGatewayId": "iqlzykqfstmfvkqu",
+                "GatewayId": "ewcwfrfvwfuvzvvx",
+                "InstanceId": "dxigbqpauzsxtekn",
+                "InstanceOwnerId": "dpyaicvblzevggau",
+                "LocalGatewayId": "jcixlxoknehoirlg",
+                "NatGatewayId": "hfpqzhzidwohmnul",
+                "NetworkInterfaceId": "saezajlwhqvbiumj",
+                "Origin": "lpcowrghmsxbqwbo",
+                "State": "rriiouvvwwzyiosp",
+                "TransitGatewayId": "zatgoamqiksgevkw",
+                "VpcPeeringConnectionId": "qsiacpdxmsesezoa"
+            }
+        ],
+        "Tags": [
+            {
+                "Key": "zehrdpfwyorrimhs",
+                "Value": "qrjkahzmwwubrsma"
+            }
+        ],
+        "VpcId": "upyvfuuxtugypyzi"
+    },
+    {
+        "Associations": [
+            {
+                "AssociationState": {
+                    "State": "oqdpctsqattxqkdj",
+                    "StatusMessage": "hihyfrfelgjadkhv"
+                },
+                "GatewayId": "ulvsbuytwkwsmemk",
+                "Main": true,
+                "RouteTableAssociationId": "lftchgkwayjkpqop",
+                "RouteTableId": "gsiugevuftddypnc",
+                "SubnetId": "zzoucshudkzdaqnh"
+            }
+        ],
+        "OwnerId": "mybjdazvwsuyjfyh",
+        "PropagatingVgws": [
+            {
+                "GatewayId": "aknbutiqupljxfkd"
+            }
+        ],
+        "RouteTableId": "tcpukyoerrxskkro",
+        "Routes": [
+            {
+                "CarrierGatewayId": "pfooiwckijxmebfx",
+                "CoreNetworkArn": "qibskbzbisuclzyg",
+                "DestinationCidrBlock": "cizmnczridwulowp",
+                "DestinationIpv6CidrBlock": "crjrpdbtkbdrokzn",
+                "DestinationPrefixListId": "znuyyexxxgizmaqy",
+                "EgressOnlyInternetGatewayId": "ynmqgplexrpafmhn",
+                "GatewayId": "tpzavvzkynuxjqvz",
+                "InstanceId": "setvovzzwqyevnpv",
+                "InstanceOwnerId": "trupvbqbioagmfiy",
+                "LocalGatewayId": "uzqzbptaraxdmfss",
+                "NatGatewayId": "epauzxmporixcxks",
+                "NetworkInterfaceId": "pqpreikiqjbtyoms",
+                "Origin": "wgdbapabykktqoot",
+                "State": "emadfzqtpwtrzrvb",
+                "TransitGatewayId": "cfeuqtrktlusxpbr",
+                "VpcPeeringConnectionId": "khhevrbsdxkishef"
+            }
+        ],
+        "Tags": [
+            {
+                "Key": "ezgnoxaryvolztbk",
+                "Value": "prjwkcdpknqeueys"
+            }
+        ],
+        "VpcId": "jrbnqumkvihkfbqf"
+    },
+    {
+        "Associations": [
+            {
+                "AssociationState": {
+                    "State": "nwhvoccagupnhmjj",
+                    "StatusMessage": "qebydimuknccwdjs"
+                },
+                "GatewayId": "ynfmiqcmcmyqaunf",
+                "Main": true,
+                "RouteTableAssociationId": "jlmwfgfrrsdpikei",
+                "RouteTableId": "vyigmsqwcpnywsgn",
+                "SubnetId": "uzttbddwsrkcnjzg"
+            }
+        ],
+        "OwnerId": "mpuyxmyuebrgakjv",
+        "PropagatingVgws": [
+            {
+                "GatewayId": "tysoaymttzokyaom"
+            }
+        ],
+        "RouteTableId": "ldoipsydjygknmgy",
+        "Routes": [
+            {
+                "CarrierGatewayId": "hmjwirxgoezncttt",
+                "CoreNetworkArn": "nnnepllgmjiqiccg",
+                "DestinationCidrBlock": "vqfpgyxhkcgpfilk",
+                "DestinationIpv6CidrBlock": "ugbvqydkgypejdpe",
+                "DestinationPrefixListId": "ujhkntniqnhgpdfg",
+                "EgressOnlyInternetGatewayId": "oxmnufwjlentdnpg",
+                "GatewayId": "hlwofyjaraxogcqb",
+                "InstanceId": "auupyznraijhnkok",
+                "InstanceOwnerId": "hquhhfiyqdrdiqss",
+                "LocalGatewayId": "tpuddedulcgkbofq",
+                "NatGatewayId": "tthnugcnuhdbybfl",
+                "NetworkInterfaceId": "beiddgvmuaqbczao",
+                "Origin": "dunzlohbruhynbns",
+                "State": "qfzwdmxjqtylqqds",
+                "TransitGatewayId": "lmiikwcvonmdoion",
+                "VpcPeeringConnectionId": "mmafkkmduqzqisnq"
+            }
+        ],
+        "Tags": [
+            {
+                "Key": "kssgijxpixvhcedy",
+                "Value": "lzmnimrkszyjabvo"
+            }
+        ],
+        "VpcId": "vhttvvgdueudakcs"
+    },
+    {
+        "Associations": [
+            {
+                "AssociationState": {
+                    "State": "uihpabzkllypqdtp",
+                    "StatusMessage": "hprwbpaunlfygwrm"
+                },
+                "GatewayId": "ifheibkzgvrkkbxt",
+                "Main": true,
+                "RouteTableAssociationId": "tmvvelqfcleehgqt",
+                "RouteTableId": "wojqcntkkkigivoa",
+                "SubnetId": "syrjrcpxywzyxnsb"
+            }
+        ],
+        "OwnerId": "lacamnfmztqukcwe",
+        "PropagatingVgws": [
+            {
+                "GatewayId": "ylcqxhietbayglga"
+            }
+        ],
+        "RouteTableId": "ktowgcqwggigdafr",
+        "Routes": [
+            {
+                "CarrierGatewayId": "yoqclcqgwwsoldim",
+                "CoreNetworkArn": "guttvyekxxpamlyb",
+                "DestinationCidrBlock": "msfgiwtlatrhynzt",
+                "DestinationIpv6CidrBlock": "sjnpmjxsxepewpvx",
+                "DestinationPrefixListId": "bufytdpatfjmpgrx",
+                "EgressOnlyInternetGatewayId": "heqapecztrgcpqty",
+                "GatewayId": "fjkclshrwxgsdecn",
+                "InstanceId": "lzjxzmgmckdqzzcq",
+                "InstanceOwnerId": "narnaspwpzvofiib",
+                "LocalGatewayId": "xolkyvgmlvunxctm",
+                "NatGatewayId": "lvtgpppsbfjjougq",
+                "NetworkInterfaceId": "ibehcnrjjzhzdwxt",
+                "Origin": "zhgmhgqasyaamkpr",
+                "State": "ktrufrppnzsbqhzg",
+                "TransitGatewayId": "rxktgfjlihwujnpe",
+                "VpcPeeringConnectionId": "mnspdysrqerzzpjy"
+            }
+        ],
+        "Tags": [
+            {
+                "Key": "vnrohfnattfjdvet",
+                "Value": "srfbuqdzsdciwwpx"
+            }
+        ],
+        "VpcId": "fntacpqriujoiqil"
+    },
+    {
+        "Associations": [
+            {
+                "AssociationState": {
+                    "State": "gyhqmuvrzcwexhwp",
+                    "StatusMessage": "mtnzgrplxgvxhvsb"
+                },
+                "GatewayId": "tltirruvdshtbdku",
+                "Main": true,
+                "RouteTableAssociationId": "vnhwitcavqiodnue",
+                "RouteTableId": "uptytkiiyzosxuoj",
+                "SubnetId": "kwrllafimwiffshy"
+            }
+        ],
+        "OwnerId": "flxcdztqhpaekdpz",
+        "PropagatingVgws": [
+            {
+                "GatewayId": "zpjcgakrllohnzpm"
+            }
+        ],
+        "RouteTableId": "nnobhurjkxnlltsb",
+        "Routes": [
+            {
+                "CarrierGatewayId": "qoosgovyejkrbopz",
+                "CoreNetworkArn": "htneppjjgkspghon",
+                "DestinationCidrBlock": "wlykxyfrnawlmmik",
+                "DestinationIpv6CidrBlock": "lqmqwunzwxjzbrti",
+                "DestinationPrefixListId": "ykqkpqdzvfoqhmix",
+                "EgressOnlyInternetGatewayId": "ibizviosigpfevfe",
+                "GatewayId": "mxoiwnhbubpvvnki",
+                "InstanceId": "yootadjejojelsax",
+                "InstanceOwnerId": "ngxhkyfjkbjktzqa",
+                "LocalGatewayId": "vggunxbmhaveulys",
+                "NatGatewayId": "jjupsrlxywimjpst",
+                "NetworkInterfaceId": "qipemucqguwsjjar",
+                "Origin": "yrrgsvnxemuskott",
+                "State": "djeqjmyzfhncgwyb",
+                "TransitGatewayId": "ybdiwutrdvwbvslz",
+                "VpcPeeringConnectionId": "irwombljcyxlieij"
+            }
+        ],
+        "Tags": [
+            {
+                "Key": "zxforlakdeukkeht",
+                "Value": "dmyueinmhiyxvlis"
+            }
+        ],
+        "VpcId": "pyqvtiukihuakipw"
+    },
+    {
+        "Associations": [
+            {
+                "AssociationState": {
+                    "State": "joxxwkjsintymmce",
+                    "StatusMessage": "quozshgbonnrkjie"
+                },
+                "GatewayId": "nvyiydzmtgbydtmo",
+                "Main": true,
+                "RouteTableAssociationId": "mblpillxgmrpllkr",
+                "RouteTableId": "pllncdpbeidavrnh",
+                "SubnetId": "xhchfnzwegxaniia"
+            }
+        ],
+        "OwnerId": "tfltqjsdawctgjcm",
+        "PropagatingVgws": [
+            {
+                "GatewayId": "hnnfajyspsdxpajg"
+            }
+        ],
+        "RouteTableId": "hlbxhdfvupohsxah",
+        "Routes": [
+            {
+                "CarrierGatewayId": "pxscwnmcevbyggog",
+                "CoreNetworkArn": "otleeyqkmgfudeba",
+                "DestinationCidrBlock": "qevmfpkhfsavuorn",
+                "DestinationIpv6CidrBlock": "bfnzkxqqrxqcywft",
+                "DestinationPrefixListId": "hnifpirbnhgfykfn",
+                "EgressOnlyInternetGatewayId": "eyqgfbopclgpspnm",
+                "GatewayId": "nopxbbbsrxzrgnom",
+                "InstanceId": "oiapzcwocrimmkws",
+                "InstanceOwnerId": "xnupcullzcqoyhcs",
+                "LocalGatewayId": "oewgimobkqzzznxc",
+                "NatGatewayId": "cspbmdpaatydftic",
+                "NetworkInterfaceId": "qtoiudvopcfefvke",
+                "Origin": "otkklgqdunuufups",
+                "State": "mdbxwolphuindnjq",
+                "TransitGatewayId": "hfjcchpgjulifydp",
+                "VpcPeeringConnectionId": "ppxcobkosyqfhpbt"
+            }
+        ],
+        "Tags": [
+            {
+                "Key": "cyhekxdcnbdzonxp",
+                "Value": "iqfrpgwphonggqlz"
+            }
+        ],
+        "VpcId": "znkoeaxlzcatkzaq"
+    },
+    {
+        "Associations": [
+            {
+                "AssociationState": {
+                    "State": "nvfvursdrphskryf",
+                    "StatusMessage": "zwjbwuqmgcukbxon"
+                },
+                "GatewayId": "kzfuovmvidnanjam",
+                "Main": true,
+                "RouteTableAssociationId": "tiielchzrxuqvyym",
+                "RouteTableId": "xjmcjvjexzknoflg",
+                "SubnetId": "vygiudleedwlsaqb"
+            }
+        ],
+        "OwnerId": "yjtfvmimxckojqxr",
+        "PropagatingVgws": [
+            {
+                "GatewayId": "hxdjccorqfuxxcgj"
+            }
+        ],
+        "RouteTableId": "gzgqizzamzsqncul",
+        "Routes": [
+            {
+                "CarrierGatewayId": "yuqzmxvgfqtymwdl",
+                "CoreNetworkArn": "nrnspzbroowazlrj",
+                "DestinationCidrBlock": "cxxybduqeumbehnp",
+                "DestinationIpv6CidrBlock": "qlaeuzqancxtjrgt",
+                "DestinationPrefixListId": "skybzhdrzaufoybi",
+                "EgressOnlyInternetGatewayId": "uvwphcdgjzcnhhub",
+                "GatewayId": "rulronuaauyuxgpi",
+                "InstanceId": "gqpirpilayrvhjem",
+                "InstanceOwnerId": "mtotvzbxwzlhlpjo",
+                "LocalGatewayId": "tvfltsjqpqqlptgk",
+                "NatGatewayId": "zfhvxcogfxgmibtl",
+                "NetworkInterfaceId": "dduhromygspbybws",
+                "Origin": "kmmqpsexczratqqv",
+                "State": "wabgmltfaaummmgp",
+                "TransitGatewayId": "gfnjyukfpfewqjyr",
+                "VpcPeeringConnectionId": "zuscjbrjdfxzgogo"
+            }
+        ],
+        "Tags": [
+            {
+                "Key": "ioyfinmqpenkhfnm",
+                "Value": "jzsfdkbzltjzwmgw"
+            }
+        ],
+        "VpcId": "hiucclbunomzsgku"
+    },
+    {
+        "Associations": [
+            {
+                "AssociationState": {
+                    "State": "zamxcnhjdompclhz",
+                    "StatusMessage": "ipriuncgzwddihlf"
+                },
+                "GatewayId": "elaowadalsitejfa",
+                "Main": true,
+                "RouteTableAssociationId": "husmeggzspgbgrzz",
+                "RouteTableId": "nrxwbolbssmuypiq",
+                "SubnetId": "ubbipjpuomqrfscg"
+            }
+        ],
+        "OwnerId": "bpdmyizmmlrkkmnf",
+        "PropagatingVgws": [
+            {
+                "GatewayId": "pihfteqicsektmga"
+            }
+        ],
+        "RouteTableId": "rnajboydumaatqol",
+        "Routes": [
+            {
+                "CarrierGatewayId": "nqtcyddptzskcegt",
+                "CoreNetworkArn": "yhzykwwvjtbihdnp",
+                "DestinationCidrBlock": "opytdroepgfwkiec",
+                "DestinationIpv6CidrBlock": "pvbcycfcoefxlnct",
+                "DestinationPrefixListId": "rmpzyuvwtgmwkurx",
+                "EgressOnlyInternetGatewayId": "kwczdzffgntxixlp",
+                "GatewayId": "wezuikcappuigfsy",
+                "InstanceId": "usjgzqeshkwcxlxq",
+                "InstanceOwnerId": "cszanvbqcpfeskhd",
+                "LocalGatewayId": "krfapeyfacwtfgnu",
+                "NatGatewayId": "hdzqhidbzxauodhc",
+                "NetworkInterfaceId": "xuwlogjphdqldnce",
+                "Origin": "jmfsgmjpeezunyia",
+                "State": "pfpwkgaagycuphvv",
+                "TransitGatewayId": "ypwhvgurbjkpeefu",
+                "VpcPeeringConnectionId": "ymsjuouhakhzmefl"
+            }
+        ],
+        "Tags": [
+            {
+                "Key": "pgkhgojolmlgamaj",
+                "Value": "vugmnvrjpoqctdzu"
+            }
+        ],
+        "VpcId": "xxuhmiqxluaqddlx"
+    },
+    {
+        "Associations": [
+            {
+                "AssociationState": {
+                    "State": "prfxpwwsdixidtdd",
+                    "StatusMessage": "kasgjxbjjfezjrrm"
+                },
+                "GatewayId": "eedzqgkqtnswnqdv",
+                "Main": true,
+                "RouteTableAssociationId": "xmtixloyqzqfujhs",
+                "RouteTableId": "yjsgkfmrqrbolvjp",
+                "SubnetId": "aohvprliztepwenb"
+            }
+        ],
+        "OwnerId": "zptintmnqcayxgcm",
+        "PropagatingVgws": [
+            {
+                "GatewayId": "yslffltlpttxwrxb"
+            }
+        ],
+        "RouteTableId": "motuenfyhfpcgfqf",
+        "Routes": [
+            {
+                "CarrierGatewayId": "voqiwochtknpqrlf",
+                "CoreNetworkArn": "woyldplupqmrmjyj",
+                "DestinationCidrBlock": "ftyxohxdjtaponri",
+                "DestinationIpv6CidrBlock": "kqosgwfwzlygbbpe",
+                "DestinationPrefixListId": "oekuhsxfairsuagb",
+                "EgressOnlyInternetGatewayId": "loqkfauevfqpmhzf",
+                "GatewayId": "ikqkmbxnrkdyoibl",
+                "InstanceId": "nfkqtmddgmsvtixo",
+                "InstanceOwnerId": "croxjqgyvgrviucy",
+                "LocalGatewayId": "chyoezmyvuhirmwb",
+                "NatGatewayId": "baiusqnhisafdche",
+                "NetworkInterfaceId": "pzozkhmphbrqspzo",
+                "Origin": "eauyjavwicqblegd",
+                "State": "ujvvhbwapzxvehus",
+                "TransitGatewayId": "rzepniqhlgspidyf",
+                "VpcPeeringConnectionId": "mkheptxnzetodddx"
+            }
+        ],
+        "Tags": [
+            {
+                "Key": "bdcdybvmmifsznzr",
+                "Value": "eatsmbqlnjaoepwn"
+            }
+        ],
+        "VpcId": "vwchddkfccvgaucq"
+    }
+]

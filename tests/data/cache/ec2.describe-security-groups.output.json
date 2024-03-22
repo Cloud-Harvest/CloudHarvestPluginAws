@@ -1,0 +1,978 @@
+{
+    "input": {
+        "template": {
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "GroupIds": [
+                ""
+            ],
+            "GroupNames": [
+                ""
+            ],
+            "DryRun": true,
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "731701edb6d8921ef59a1b9979fa4c4a",
+        "boto_command": "describe_security_groups",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "Description": "Description",
+                "GroupName": "GroupName",
+                "IpPermissions": [
+                    {
+                        "FromPort": 0,
+                        "IpProtocol": "IpProtocol",
+                        "IpRanges": [
+                            {
+                                "CidrIp": "CidrIp",
+                                "Description": "Description"
+                            }
+                        ],
+                        "Ipv6Ranges": [
+                            {
+                                "CidrIpv6": "CidrIpv6",
+                                "Description": "Description"
+                            }
+                        ],
+                        "PrefixListIds": [
+                            {
+                                "Description": "Description",
+                                "PrefixListId": "PrefixListId"
+                            }
+                        ],
+                        "ToPort": 0,
+                        "UserIdGroupPairs": [
+                            {
+                                "Description": "Description",
+                                "GroupId": "GroupId",
+                                "GroupName": "GroupName",
+                                "PeeringStatus": "PeeringStatus",
+                                "UserId": "UserId",
+                                "VpcId": "VpcId",
+                                "VpcPeeringConnectionId": "VpcPeeringConnectionId"
+                            }
+                        ]
+                    }
+                ],
+                "OwnerId": "OwnerId",
+                "GroupId": "GroupId",
+                "IpPermissionsEgress": [
+                    {
+                        "FromPort": 0,
+                        "IpProtocol": "IpProtocol",
+                        "IpRanges": [
+                            {
+                                "CidrIp": "CidrIp",
+                                "Description": "Description"
+                            }
+                        ],
+                        "Ipv6Ranges": [
+                            {
+                                "CidrIpv6": "CidrIpv6",
+                                "Description": "Description"
+                            }
+                        ],
+                        "PrefixListIds": [
+                            {
+                                "Description": "Description",
+                                "PrefixListId": "PrefixListId"
+                            }
+                        ],
+                        "ToPort": 0,
+                        "UserIdGroupPairs": [
+                            {
+                                "Description": "Description",
+                                "GroupId": "GroupId",
+                                "GroupName": "GroupName",
+                                "PeeringStatus": "PeeringStatus",
+                                "UserId": "UserId",
+                                "VpcId": "VpcId",
+                                "VpcPeeringConnectionId": "VpcPeeringConnectionId"
+                            }
+                        ]
+                    }
+                ],
+                "Tags": [
+                    {
+                        "Key": "Key",
+                        "Value": "Value"
+                    }
+                ],
+                "VpcId": "VpcId"
+            }
+        ],
+        "required": [],
+        "md5": "7f7b8fd6a0b88e2ffc1a7bd718620b35",
+        "randomized": [
+            {
+                "Description": "xlsudhjamcneyzhq",
+                "GroupId": "xwdqhrxytejnaktn",
+                "GroupName": "rgbjnubnnmbxvcag",
+                "IpPermissions": [
+                    {
+                        "FromPort": 0,
+                        "IpProtocol": "nulnsofhjmqfxelu",
+                        "IpRanges": [
+                            {
+                                "CidrIp": "nmchcolucyxgmuez",
+                                "Description": "hoqnzognnyalyvwb"
+                            }
+                        ],
+                        "Ipv6Ranges": [
+                            {
+                                "CidrIpv6": "sirozokifyyznshw",
+                                "Description": "onsoeuqbimzgxaks"
+                            }
+                        ],
+                        "PrefixListIds": [
+                            {
+                                "Description": "bdiumpfhkukbkdpr",
+                                "PrefixListId": "flrmuyvdueozeyns"
+                            }
+                        ],
+                        "ToPort": 0,
+                        "UserIdGroupPairs": [
+                            {
+                                "Description": "hmwsicryzkrykoit",
+                                "GroupId": "jvyqhbjqtrzgvliy",
+                                "GroupName": "offeqmfsufzlqrze",
+                                "PeeringStatus": "nbcrkgygyunigbvw",
+                                "UserId": "shiexjmskvjwclsv",
+                                "VpcId": "vzuogodmgektdzhg",
+                                "VpcPeeringConnectionId": "yrmziojcrwbjansy"
+                            }
+                        ]
+                    }
+                ],
+                "IpPermissionsEgress": [
+                    {
+                        "FromPort": 0,
+                        "IpProtocol": "ilkwwnepltzvfheu",
+                        "IpRanges": [
+                            {
+                                "CidrIp": "rtmbwofnsxicruae",
+                                "Description": "cozatlrxqwmyleue"
+                            }
+                        ],
+                        "Ipv6Ranges": [
+                            {
+                                "CidrIpv6": "keohhedjyhtuksta",
+                                "Description": "ntutjnwdebqxactp"
+                            }
+                        ],
+                        "PrefixListIds": [
+                            {
+                                "Description": "fweleqqxzmpbvcdt",
+                                "PrefixListId": "esjvhuslwddjjszf"
+                            }
+                        ],
+                        "ToPort": 0,
+                        "UserIdGroupPairs": [
+                            {
+                                "Description": "qiurrdyufetfczwi",
+                                "GroupId": "qhowhhattxvmydry",
+                                "GroupName": "kmhkfpunvqslvdwb",
+                                "PeeringStatus": "nosxrelsioqgiaeu",
+                                "UserId": "cuwpsjxkqtpmtuof",
+                                "VpcId": "ejmgvkwhfezfsxmt",
+                                "VpcPeeringConnectionId": "jqbtmouhxtfshevl"
+                            }
+                        ]
+                    }
+                ],
+                "OwnerId": "vklqithezqwarwsw",
+                "Tags": [
+                    {
+                        "Key": "xkthdpdorvnscfdt",
+                        "Value": "mrcdeauivgrvidck"
+                    }
+                ],
+                "VpcId": "obungdltnuppmduf"
+            },
+            {
+                "Description": "hcktffvoafaedviw",
+                "GroupId": "anlyvvgronygkije",
+                "GroupName": "fbjvcikgshxzopjc",
+                "IpPermissions": [
+                    {
+                        "FromPort": 0,
+                        "IpProtocol": "vsiascdmeimkyieo",
+                        "IpRanges": [
+                            {
+                                "CidrIp": "wddqcwxtphsfgfea",
+                                "Description": "rihqetqaoiqmgrkd"
+                            }
+                        ],
+                        "Ipv6Ranges": [
+                            {
+                                "CidrIpv6": "tlzvjhdwpupplbeh",
+                                "Description": "ivkexkbyoqishudm"
+                            }
+                        ],
+                        "PrefixListIds": [
+                            {
+                                "Description": "zigqcktmdwsmvgwa",
+                                "PrefixListId": "pimmzftxtviwlazt"
+                            }
+                        ],
+                        "ToPort": 0,
+                        "UserIdGroupPairs": [
+                            {
+                                "Description": "hlihayobbkiwwnlh",
+                                "GroupId": "dkvxhrymzcfznsrk",
+                                "GroupName": "xddwkofffpzgyrxa",
+                                "PeeringStatus": "zyvyfoifszduheme",
+                                "UserId": "qdtcoknopnobgsmf",
+                                "VpcId": "dyqsdsfhpapxjscf",
+                                "VpcPeeringConnectionId": "zuqgvklegcfjmrzq"
+                            }
+                        ]
+                    }
+                ],
+                "IpPermissionsEgress": [
+                    {
+                        "FromPort": 0,
+                        "IpProtocol": "zyszxxnntdwkowlz",
+                        "IpRanges": [
+                            {
+                                "CidrIp": "ocyplwlwbbadomyw",
+                                "Description": "xxvspuifualycgrw"
+                            }
+                        ],
+                        "Ipv6Ranges": [
+                            {
+                                "CidrIpv6": "cxxvlpjoocukkzwj",
+                                "Description": "ocacffhvftkuzzhn"
+                            }
+                        ],
+                        "PrefixListIds": [
+                            {
+                                "Description": "kztoesqvgsiltord",
+                                "PrefixListId": "eutpcodkjypsfaly"
+                            }
+                        ],
+                        "ToPort": 0,
+                        "UserIdGroupPairs": [
+                            {
+                                "Description": "kxclmegumhaqrvie",
+                                "GroupId": "gdxqrkmqrbevehqr",
+                                "GroupName": "ikohyowsqohdioau",
+                                "PeeringStatus": "mptrxkqthmjtlufu",
+                                "UserId": "pcrtoutqhqvqdxhl",
+                                "VpcId": "ighrkjcleytwzltb",
+                                "VpcPeeringConnectionId": "zwchimfxzlaiybnx"
+                            }
+                        ]
+                    }
+                ],
+                "OwnerId": "astmeltvhfxfcgmb",
+                "Tags": [
+                    {
+                        "Key": "ucbidgqygaymlwek",
+                        "Value": "elefjonnxmlwidsk"
+                    }
+                ],
+                "VpcId": "vngzcscsjycjcpip"
+            },
+            {
+                "Description": "kvkjfpihwdbpympw",
+                "GroupId": "eiqpptfixkbrvbnm",
+                "GroupName": "sjbzzteykjxginut",
+                "IpPermissions": [
+                    {
+                        "FromPort": 0,
+                        "IpProtocol": "szzkekabyilhufem",
+                        "IpRanges": [
+                            {
+                                "CidrIp": "bkdvfqkiwgdvtovn",
+                                "Description": "ajxbsberruhlhwqg"
+                            }
+                        ],
+                        "Ipv6Ranges": [
+                            {
+                                "CidrIpv6": "uktbjchnihaenbdo",
+                                "Description": "yybdkwfqzpmantxx"
+                            }
+                        ],
+                        "PrefixListIds": [
+                            {
+                                "Description": "zaznubsbrhufgztt",
+                                "PrefixListId": "aazdvckojpooqeqt"
+                            }
+                        ],
+                        "ToPort": 0,
+                        "UserIdGroupPairs": [
+                            {
+                                "Description": "dibtksnnsfxlhrxz",
+                                "GroupId": "lfmmqeedmbphramx",
+                                "GroupName": "jugljrzygmsknivl",
+                                "PeeringStatus": "rurnotdrhjtyheeq",
+                                "UserId": "qdpbzvfkmtucmdzk",
+                                "VpcId": "wftzrgehbeanohqy",
+                                "VpcPeeringConnectionId": "cihauvhujvtkdndb"
+                            }
+                        ]
+                    }
+                ],
+                "IpPermissionsEgress": [
+                    {
+                        "FromPort": 0,
+                        "IpProtocol": "mbsvuztfxxcgsqlb",
+                        "IpRanges": [
+                            {
+                                "CidrIp": "qdhtbymnpwphursx",
+                                "Description": "kzusskypoznhcxzx"
+                            }
+                        ],
+                        "Ipv6Ranges": [
+                            {
+                                "CidrIpv6": "lwodiheoxabcypvg",
+                                "Description": "tttstdzavempcbnj"
+                            }
+                        ],
+                        "PrefixListIds": [
+                            {
+                                "Description": "jzppbzhrwcxjfskd",
+                                "PrefixListId": "onzchqbytxygwzkr"
+                            }
+                        ],
+                        "ToPort": 0,
+                        "UserIdGroupPairs": [
+                            {
+                                "Description": "kdlsjzcxjxylvvux",
+                                "GroupId": "kjugkzyemjejxtqr",
+                                "GroupName": "qynomzavjndlilra",
+                                "PeeringStatus": "uleqmpbggactstcs",
+                                "UserId": "iajiueqtnnwxovys",
+                                "VpcId": "uifaujghglnpowmh",
+                                "VpcPeeringConnectionId": "ilpwtbazekcpaevt"
+                            }
+                        ]
+                    }
+                ],
+                "OwnerId": "wbughxclbzikaakk",
+                "Tags": [
+                    {
+                        "Key": "aehhniwjemnwztkv",
+                        "Value": "oyperurlaufypkba"
+                    }
+                ],
+                "VpcId": "lzscphhxyfoteyrh"
+            },
+            {
+                "Description": "chyvorrpgegnigfs",
+                "GroupId": "gvkhtpiljcjaexjl",
+                "GroupName": "tvztfzjzperwfbjy",
+                "IpPermissions": [
+                    {
+                        "FromPort": 0,
+                        "IpProtocol": "xnqiqahknsdyisot",
+                        "IpRanges": [
+                            {
+                                "CidrIp": "xvypdfaqnhkrfhhn",
+                                "Description": "lnjbdrgyssbokorj"
+                            }
+                        ],
+                        "Ipv6Ranges": [
+                            {
+                                "CidrIpv6": "howygkqnoxocezpj",
+                                "Description": "kafbwpxfglcnsvjq"
+                            }
+                        ],
+                        "PrefixListIds": [
+                            {
+                                "Description": "ymqzyjofvhflfohr",
+                                "PrefixListId": "ynyfttakutpnfvpy"
+                            }
+                        ],
+                        "ToPort": 0,
+                        "UserIdGroupPairs": [
+                            {
+                                "Description": "hxdomyxkfqupolgc",
+                                "GroupId": "iqxbprsjvxlqfrpy",
+                                "GroupName": "httskkkyhlmnsrjn",
+                                "PeeringStatus": "wwdrdnkwikicyzxw",
+                                "UserId": "cfeuxcjmymbnzond",
+                                "VpcId": "eswzimqpfjqswgwu",
+                                "VpcPeeringConnectionId": "qljzgkwhsqyzevjo"
+                            }
+                        ]
+                    }
+                ],
+                "IpPermissionsEgress": [
+                    {
+                        "FromPort": 0,
+                        "IpProtocol": "exfrdlvqdfcsendq",
+                        "IpRanges": [
+                            {
+                                "CidrIp": "mbklzhxwuzfzhgxu",
+                                "Description": "aqjrfwdbspyawnwd"
+                            }
+                        ],
+                        "Ipv6Ranges": [
+                            {
+                                "CidrIpv6": "tzpwkhdjymqntcck",
+                                "Description": "aqorhhjgzyseczoz"
+                            }
+                        ],
+                        "PrefixListIds": [
+                            {
+                                "Description": "hnitljlgilkrqsso",
+                                "PrefixListId": "tfxdottlfaiflnmc"
+                            }
+                        ],
+                        "ToPort": 0,
+                        "UserIdGroupPairs": [
+                            {
+                                "Description": "ewxehqxuanotxruo",
+                                "GroupId": "qfyysgvvpfieflvb",
+                                "GroupName": "vypcmxlvduxfaymr",
+                                "PeeringStatus": "nstvcdflfwwkrkjp",
+                                "UserId": "dtnlacgalwketclj",
+                                "VpcId": "csoebmhnvssjddby",
+                                "VpcPeeringConnectionId": "iersjlwmipnuiojg"
+                            }
+                        ]
+                    }
+                ],
+                "OwnerId": "upkcbztwihvfypuy",
+                "Tags": [
+                    {
+                        "Key": "kqjnakuvenoperum",
+                        "Value": "igmxdbqlhapaqqrg"
+                    }
+                ],
+                "VpcId": "ublwnncmvolvdptv"
+            },
+            {
+                "Description": "lavacxdfooyjsolz",
+                "GroupId": "hxnxibfmulamcjop",
+                "GroupName": "qnhhycyfvbdwkrdz",
+                "IpPermissions": [
+                    {
+                        "FromPort": 0,
+                        "IpProtocol": "twluwpdttjioexim",
+                        "IpRanges": [
+                            {
+                                "CidrIp": "gloirwzdviaquttr",
+                                "Description": "ckiuuteqwgrsxiea"
+                            }
+                        ],
+                        "Ipv6Ranges": [
+                            {
+                                "CidrIpv6": "jpwcvsvvbeqtzlcj",
+                                "Description": "okkthhkqydfpbgqj"
+                            }
+                        ],
+                        "PrefixListIds": [
+                            {
+                                "Description": "repvbweaciexkmhs",
+                                "PrefixListId": "uujztcjmaxtzjdjk"
+                            }
+                        ],
+                        "ToPort": 0,
+                        "UserIdGroupPairs": [
+                            {
+                                "Description": "yljvnlkgcvtqqiix",
+                                "GroupId": "taypedahqusibqnx",
+                                "GroupName": "jdzbqcxahzkiogju",
+                                "PeeringStatus": "tchaxudrhqrfeavb",
+                                "UserId": "wbhoyzvxblwzmjao",
+                                "VpcId": "ispekyvbezwkpfxz",
+                                "VpcPeeringConnectionId": "teqnhtkcfowgcolk"
+                            }
+                        ]
+                    }
+                ],
+                "IpPermissionsEgress": [
+                    {
+                        "FromPort": 0,
+                        "IpProtocol": "ewatcjsdzottoxzg",
+                        "IpRanges": [
+                            {
+                                "CidrIp": "lifpkzcdtyafyufs",
+                                "Description": "igadhvrsvtejofvf"
+                            }
+                        ],
+                        "Ipv6Ranges": [
+                            {
+                                "CidrIpv6": "eoghxkfglltyfnqv",
+                                "Description": "oiulayqqtlslqsev"
+                            }
+                        ],
+                        "PrefixListIds": [
+                            {
+                                "Description": "ahresqxvuhxijgwk",
+                                "PrefixListId": "gubrkdouuotikwik"
+                            }
+                        ],
+                        "ToPort": 0,
+                        "UserIdGroupPairs": [
+                            {
+                                "Description": "ueysqbvfksngxbfd",
+                                "GroupId": "lskrnmbtftstafkh",
+                                "GroupName": "yjqlzrpviksaiujw",
+                                "PeeringStatus": "unzacosljhmzfjrk",
+                                "UserId": "regthaanakrybahq",
+                                "VpcId": "qscxzikgucfhsexj",
+                                "VpcPeeringConnectionId": "vfiqwdombqaizffq"
+                            }
+                        ]
+                    }
+                ],
+                "OwnerId": "mwypofbxksjbwvzb",
+                "Tags": [
+                    {
+                        "Key": "lpyvoupybjpnfkjs",
+                        "Value": "dgazyorreoucrciy"
+                    }
+                ],
+                "VpcId": "kkctnctltetojiwo"
+            },
+            {
+                "Description": "ztkszudezuzhlvcz",
+                "GroupId": "kmvwkzjixwjlnjjc",
+                "GroupName": "hdrzmlwbyntxpvqm",
+                "IpPermissions": [
+                    {
+                        "FromPort": 0,
+                        "IpProtocol": "zollcakckxxsswrv",
+                        "IpRanges": [
+                            {
+                                "CidrIp": "cpjkvmizmfjwssxv",
+                                "Description": "dctobojgimguupbz"
+                            }
+                        ],
+                        "Ipv6Ranges": [
+                            {
+                                "CidrIpv6": "zxxtbaahsvrhqsyn",
+                                "Description": "jqwkgflhlrgzwhty"
+                            }
+                        ],
+                        "PrefixListIds": [
+                            {
+                                "Description": "nayafxmvyxokczjp",
+                                "PrefixListId": "gmhlxqwkadnamaoi"
+                            }
+                        ],
+                        "ToPort": 0,
+                        "UserIdGroupPairs": [
+                            {
+                                "Description": "egwhfdonixsqkpan",
+                                "GroupId": "deumobivzddcfgaw",
+                                "GroupName": "wwnveaobhimhjyvl",
+                                "PeeringStatus": "ghkrxyulaskxrrjq",
+                                "UserId": "xxhvozceyvqibhvq",
+                                "VpcId": "qnheuhrmyzcgxsbv",
+                                "VpcPeeringConnectionId": "oawjbcxtrwiwwysh"
+                            }
+                        ]
+                    }
+                ],
+                "IpPermissionsEgress": [
+                    {
+                        "FromPort": 0,
+                        "IpProtocol": "fugayjucnwlrefqe",
+                        "IpRanges": [
+                            {
+                                "CidrIp": "wtuapotyaiywrhlz",
+                                "Description": "jycuedoykndffpqj"
+                            }
+                        ],
+                        "Ipv6Ranges": [
+                            {
+                                "CidrIpv6": "qqwevpktwhhsuftw",
+                                "Description": "cirrrpdnmlxvlhrv"
+                            }
+                        ],
+                        "PrefixListIds": [
+                            {
+                                "Description": "egwtvuyjgflpfkvu",
+                                "PrefixListId": "lxkxsofebrwchdis"
+                            }
+                        ],
+                        "ToPort": 0,
+                        "UserIdGroupPairs": [
+                            {
+                                "Description": "kztwjiaevryqygym",
+                                "GroupId": "uixugvkiihtxshgs",
+                                "GroupName": "xjzpqzzmhiphfogp",
+                                "PeeringStatus": "wezidmcabunuibtf",
+                                "UserId": "tskijtrvliqdekqm",
+                                "VpcId": "mschbcapbfwnvojl",
+                                "VpcPeeringConnectionId": "vvcwwjpcejltmnnm"
+                            }
+                        ]
+                    }
+                ],
+                "OwnerId": "xubrhffudsflqqen",
+                "Tags": [
+                    {
+                        "Key": "xkthpzjmexvhvdfe",
+                        "Value": "tnbjwbhunowtqsbc"
+                    }
+                ],
+                "VpcId": "siyrbzudpjqgbchk"
+            },
+            {
+                "Description": "scmnxpwqilnzgyic",
+                "GroupId": "lwaoexikfoezplrt",
+                "GroupName": "gpizxdujoppvqjuv",
+                "IpPermissions": [
+                    {
+                        "FromPort": 0,
+                        "IpProtocol": "oqitggvwbganjpud",
+                        "IpRanges": [
+                            {
+                                "CidrIp": "riruvfrnrnrcxquo",
+                                "Description": "ckouqydqnoihzasx"
+                            }
+                        ],
+                        "Ipv6Ranges": [
+                            {
+                                "CidrIpv6": "txllgsxfkfcrvuom",
+                                "Description": "phxlsfydsfbddtzc"
+                            }
+                        ],
+                        "PrefixListIds": [
+                            {
+                                "Description": "isgrmdbalyosppsv",
+                                "PrefixListId": "rkdddjieijltvjjo"
+                            }
+                        ],
+                        "ToPort": 0,
+                        "UserIdGroupPairs": [
+                            {
+                                "Description": "ryrmjqzcxtcvdlgn",
+                                "GroupId": "ynflymbmcrgnnium",
+                                "GroupName": "ralqowmcdspodfmt",
+                                "PeeringStatus": "naltnputfhzqcfuc",
+                                "UserId": "owrgolrrhztqyeic",
+                                "VpcId": "hatvfaxbtmbimzkb",
+                                "VpcPeeringConnectionId": "hxcligdsyxvvhohv"
+                            }
+                        ]
+                    }
+                ],
+                "IpPermissionsEgress": [
+                    {
+                        "FromPort": 0,
+                        "IpProtocol": "rknvpxbuzywsaada",
+                        "IpRanges": [
+                            {
+                                "CidrIp": "jqfqrobgpottjxkp",
+                                "Description": "ubexyvcnauuvitwq"
+                            }
+                        ],
+                        "Ipv6Ranges": [
+                            {
+                                "CidrIpv6": "moqqnhufzunftuad",
+                                "Description": "yhecijbzxyphcpbw"
+                            }
+                        ],
+                        "PrefixListIds": [
+                            {
+                                "Description": "pgxtuznwcnhyuhai",
+                                "PrefixListId": "okbtawrpcwwnwfqp"
+                            }
+                        ],
+                        "ToPort": 0,
+                        "UserIdGroupPairs": [
+                            {
+                                "Description": "dzmlfotadgpfujhq",
+                                "GroupId": "cgojoqhcolllgafb",
+                                "GroupName": "msxcmpybohdihyjr",
+                                "PeeringStatus": "nbtqzgfuoafpckaw",
+                                "UserId": "luoinaopkzvcqkvl",
+                                "VpcId": "pxvhuwbjqafseush",
+                                "VpcPeeringConnectionId": "aznvrfmzgfeqybew"
+                            }
+                        ]
+                    }
+                ],
+                "OwnerId": "egftztsuoxeykhxj",
+                "Tags": [
+                    {
+                        "Key": "ngsixdldbgwhfwdg",
+                        "Value": "xknxyaszutqwmhqb"
+                    }
+                ],
+                "VpcId": "cffkvfpaxmrlvgar"
+            },
+            {
+                "Description": "aephtqceqhtnbruu",
+                "GroupId": "lqdybjqfjljgkkpj",
+                "GroupName": "xkccjnoeysuiowjv",
+                "IpPermissions": [
+                    {
+                        "FromPort": 0,
+                        "IpProtocol": "fwdfjshbisnmtnwt",
+                        "IpRanges": [
+                            {
+                                "CidrIp": "rklkwfojrvmguwej",
+                                "Description": "clywdusjxmleaxtw"
+                            }
+                        ],
+                        "Ipv6Ranges": [
+                            {
+                                "CidrIpv6": "ggbbsdnxsjpneama",
+                                "Description": "oxmxwnpdwvotezlp"
+                            }
+                        ],
+                        "PrefixListIds": [
+                            {
+                                "Description": "ztwapvmbhxpgrktb",
+                                "PrefixListId": "kqwcizrsijpejahd"
+                            }
+                        ],
+                        "ToPort": 0,
+                        "UserIdGroupPairs": [
+                            {
+                                "Description": "niihljiushskdzwt",
+                                "GroupId": "deduvwtccbtoftre",
+                                "GroupName": "sbjujlrazjplbmnh",
+                                "PeeringStatus": "jmtlfnodrjvwbfqg",
+                                "UserId": "etkdesrlflrmfisp",
+                                "VpcId": "gjdxzuwsejequnod",
+                                "VpcPeeringConnectionId": "sqkkvmtlqgooxupw"
+                            }
+                        ]
+                    }
+                ],
+                "IpPermissionsEgress": [
+                    {
+                        "FromPort": 0,
+                        "IpProtocol": "ygcejzegizoaokqu",
+                        "IpRanges": [
+                            {
+                                "CidrIp": "dgrfjoxotepwciap",
+                                "Description": "qnvbvaliswidkwum"
+                            }
+                        ],
+                        "Ipv6Ranges": [
+                            {
+                                "CidrIpv6": "dlccpxqbkjzldrqe",
+                                "Description": "xsuxkvftwjnkflky"
+                            }
+                        ],
+                        "PrefixListIds": [
+                            {
+                                "Description": "iepjezpwqadjgpco",
+                                "PrefixListId": "lxyrcsactfanfdau"
+                            }
+                        ],
+                        "ToPort": 0,
+                        "UserIdGroupPairs": [
+                            {
+                                "Description": "ddfwjyprbqroncch",
+                                "GroupId": "edikrwmxgpynrzyn",
+                                "GroupName": "azrrsbwloaabquej",
+                                "PeeringStatus": "skhbvmwntjkbzhoq",
+                                "UserId": "qugzpogfdezmbuuw",
+                                "VpcId": "axfqvgjdioniusyr",
+                                "VpcPeeringConnectionId": "npituluazccmhfrx"
+                            }
+                        ]
+                    }
+                ],
+                "OwnerId": "eckrbxwxsggifzwv",
+                "Tags": [
+                    {
+                        "Key": "jixpsopifpwhcxee",
+                        "Value": "sbxwbohivcrwkjgu"
+                    }
+                ],
+                "VpcId": "kvhmnqnslfoerfkz"
+            },
+            {
+                "Description": "fndlqgygdkxzbjrk",
+                "GroupId": "fyyofjxxmxbdbnqt",
+                "GroupName": "ngwqxclgucosqycx",
+                "IpPermissions": [
+                    {
+                        "FromPort": 0,
+                        "IpProtocol": "uaduhpvozbphzinn",
+                        "IpRanges": [
+                            {
+                                "CidrIp": "iwlplheetjcmpphi",
+                                "Description": "vhkpdclzrydqehsu"
+                            }
+                        ],
+                        "Ipv6Ranges": [
+                            {
+                                "CidrIpv6": "kwsmwvwdpaywxeor",
+                                "Description": "aldeqczekkkdvjav"
+                            }
+                        ],
+                        "PrefixListIds": [
+                            {
+                                "Description": "wqwehgnlpxnpfnpu",
+                                "PrefixListId": "sytmzshmohnnzktl"
+                            }
+                        ],
+                        "ToPort": 0,
+                        "UserIdGroupPairs": [
+                            {
+                                "Description": "hxavhjngmzdbpwyx",
+                                "GroupId": "smdfgvelgahaxlnr",
+                                "GroupName": "xazwsqvapesdtgey",
+                                "PeeringStatus": "mtwwfelmvuqlkdpp",
+                                "UserId": "plqxmngpuqveakir",
+                                "VpcId": "tycemptvbdejjfnx",
+                                "VpcPeeringConnectionId": "ccknbetsmunrdxrs"
+                            }
+                        ]
+                    }
+                ],
+                "IpPermissionsEgress": [
+                    {
+                        "FromPort": 0,
+                        "IpProtocol": "uinickctpauevjwz",
+                        "IpRanges": [
+                            {
+                                "CidrIp": "cmdkzfuzgmqdzgks",
+                                "Description": "cqyuaopkwfgwsmlh"
+                            }
+                        ],
+                        "Ipv6Ranges": [
+                            {
+                                "CidrIpv6": "ysmbhhkydqhvbabd",
+                                "Description": "rjxdwzayumelnxwo"
+                            }
+                        ],
+                        "PrefixListIds": [
+                            {
+                                "Description": "odedobppyssezfui",
+                                "PrefixListId": "kjabnatiayrxuvxf"
+                            }
+                        ],
+                        "ToPort": 0,
+                        "UserIdGroupPairs": [
+                            {
+                                "Description": "azxkdnvnotguejio",
+                                "GroupId": "wcfbwxoreaatuwxt",
+                                "GroupName": "qnbkbtbkgpiturla",
+                                "PeeringStatus": "thwlrxxcqeilcfht",
+                                "UserId": "lfmokuamkycyduou",
+                                "VpcId": "ryonctynvuafewyi",
+                                "VpcPeeringConnectionId": "umdulrvkwvopsoqn"
+                            }
+                        ]
+                    }
+                ],
+                "OwnerId": "weywzdwrrsaezeon",
+                "Tags": [
+                    {
+                        "Key": "mqihqfumhdsqugpa",
+                        "Value": "ebcwxasoipddnivd"
+                    }
+                ],
+                "VpcId": "pqybusmwzjydqsuf"
+            },
+            {
+                "Description": "sovdpvwryciivyyp",
+                "GroupId": "fnqwnembxlxpgbzw",
+                "GroupName": "vmzfkbzihjtmxaio",
+                "IpPermissions": [
+                    {
+                        "FromPort": 0,
+                        "IpProtocol": "nbefpmfwxsyenoxy",
+                        "IpRanges": [
+                            {
+                                "CidrIp": "gpuixjbmbvattrvu",
+                                "Description": "mhbmkajqykbokuui"
+                            }
+                        ],
+                        "Ipv6Ranges": [
+                            {
+                                "CidrIpv6": "eztphcjvbfifzzmk",
+                                "Description": "fzktlszahuqiwasf"
+                            }
+                        ],
+                        "PrefixListIds": [
+                            {
+                                "Description": "pdlkhiourppybhkv",
+                                "PrefixListId": "fqoahyviyeafxdvw"
+                            }
+                        ],
+                        "ToPort": 0,
+                        "UserIdGroupPairs": [
+                            {
+                                "Description": "qetpehmouuodpghb",
+                                "GroupId": "bmpolnekkxdyfhvo",
+                                "GroupName": "jhivvpryjhdraqto",
+                                "PeeringStatus": "twkgztcggaoabomn",
+                                "UserId": "wxqklubshahgiqbt",
+                                "VpcId": "gmvujpomrqnmstai",
+                                "VpcPeeringConnectionId": "wviuajhvotdqpbps"
+                            }
+                        ]
+                    }
+                ],
+                "IpPermissionsEgress": [
+                    {
+                        "FromPort": 0,
+                        "IpProtocol": "pkfhwihduakpaqus",
+                        "IpRanges": [
+                            {
+                                "CidrIp": "dcpocwqheqsedzga",
+                                "Description": "sqcxnhgfngbnjvac"
+                            }
+                        ],
+                        "Ipv6Ranges": [
+                            {
+                                "CidrIpv6": "vhfvttzbtxoysmmy",
+                                "Description": "xmeoqywmosrelrqv"
+                            }
+                        ],
+                        "PrefixListIds": [
+                            {
+                                "Description": "hxcaptlztsbnjgzt",
+                                "PrefixListId": "khsedwebsrckovqh"
+                            }
+                        ],
+                        "ToPort": 0,
+                        "UserIdGroupPairs": [
+                            {
+                                "Description": "eqjktosgaldrqvjt",
+                                "GroupId": "ttstfqajljsgswyj",
+                                "GroupName": "xjeomqedpkcduyga",
+                                "PeeringStatus": "lsiwifyxagjrxvvx",
+                                "UserId": "pmzcfqdpmucbhkvo",
+                                "VpcId": "hxmserflaccfolra",
+                                "VpcPeeringConnectionId": "rtldfwykgrvkvvbw"
+                            }
+                        ]
+                    }
+                ],
+                "OwnerId": "gvjonpjtfsovraos",
+                "Tags": [
+                    {
+                        "Key": "sjtpghiofkzxtzdi",
+                        "Value": "haronuksszsyvuhd"
+                    }
+                ],
+                "VpcId": "nophndxscwccoumy"
+            }
+        ],
+        "result_key": "SecurityGroups"
+    },
+    "meta": {
+        "start": 1711115647.955435,
+        "end": 1711115657.291031,
+        "duration": 9.33560585975647,
+        "service": "ec2",
+        "type": "security_groups"
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "input": {
+        "template": {
+            "domainName": ""
+        },
+        "required": [],
+        "md5": "784ca2909abb3b8fd277d48e6017a773",
+        "boto_command": "get_contact_reachability_status",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": "domainName",
+        "required": [],
+        "md5": "484be44c82a0d056fe8142d6c278aaeb",
+        "randomized": [
+            "wftpkheiqccbrdwx",
+            "pujowsvvlfxiwids",
+            "ohfxdfloykuwuhod",
+            "bjzkeimtrvdvfqjk",
+            "ouyparrxrcbaeyzc",
+            "lwcxsjkcumzdrdns",
+            "rpeujczmsfojoayl",
+            "cpcduxemubskbgud",
+            "eiqqgtquypphaujc",
+            "avmjjsdwkveskqxz"
+        ],
+        "result_key": "domainName"
+    },
+    "meta": {
+        "start": 1711116488.832004,
+        "end": 1711116496.816254,
+        "duration": 7.9842610359191895,
+        "service": "route53domains",
+        "type": null
+    }
+}

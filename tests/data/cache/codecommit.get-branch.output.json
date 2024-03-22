@@ -1,0 +1,70 @@
+{
+    "input": {
+        "template": {
+            "repositoryName": "",
+            "branchName": ""
+        },
+        "required": [],
+        "md5": "91fa086ffe6736d7e03adc5219bba9a2",
+        "boto_command": "get_branch",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": {
+            "branchName": "branchName",
+            "commitId": "commitId"
+        },
+        "required": [],
+        "md5": "8e28ec097c86c8399f2248baf590c1f8",
+        "randomized": [
+            {
+                "branchName": "qkuqwmykougtlmet",
+                "commitId": "gpcwqslyspduzwdr"
+            },
+            {
+                "branchName": "xbjijnwgoiypfbqc",
+                "commitId": "bknlpcffxvetozbf"
+            },
+            {
+                "branchName": "zxxyafnqozncotej",
+                "commitId": "sjmecgleglhljdah"
+            },
+            {
+                "branchName": "pudaemvritbixnqf",
+                "commitId": "jjqnboicowinaqgx"
+            },
+            {
+                "branchName": "agukluqaqsgmfkbl",
+                "commitId": "rcqoyjmwvonzvtlj"
+            },
+            {
+                "branchName": "rsqswgeoaqbxrlxr",
+                "commitId": "ewiyvwnyparchmcb"
+            },
+            {
+                "branchName": "abcdpelhgjhmayai",
+                "commitId": "euujzpcgmxjyosfe"
+            },
+            {
+                "branchName": "zrtztnkwvjimkayh",
+                "commitId": "krbvmrttcleunmmj"
+            },
+            {
+                "branchName": "uwznmtuxlaidrmzb",
+                "commitId": "affqzmpkcgrnxpgv"
+            },
+            {
+                "branchName": "ssvcrjaeaojgafno",
+                "commitId": "emvzvyxlwadrkobq"
+            }
+        ],
+        "result_key": "branch"
+    },
+    "meta": {
+        "start": 1711115411.596163,
+        "end": 1711115418.089579,
+        "duration": 6.493428945541382,
+        "service": "codecommit",
+        "type": null
+    }
+}

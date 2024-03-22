@@ -1,0 +1,34 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "get_encryption_configuration",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": "kmsKeyId",
+        "required": [],
+        "md5": "083b6e4b574f5552b7d70780a69a5ba7",
+        "randomized": [
+            "rkljssaecqxzybcr",
+            "dxqdsujndncmuszp",
+            "igvkwyxxhbwyzuiv",
+            "tntbvrruhhkucsmi",
+            "vdttbjdnikijrplt",
+            "ijedczijgkswtzfq",
+            "ygollwzarmlncbmp",
+            "rnmgqusxrfvqiaji",
+            "sgdikqpipjrdqdcz",
+            "densaydlrptioytj"
+        ],
+        "result_key": "kmsKeyId"
+    },
+    "meta": {
+        "start": 1711115969.03796,
+        "end": 1711115976.95346,
+        "duration": 7.915509939193726,
+        "service": "iotfleetwise",
+        "type": null
+    }
+}

@@ -1,0 +1,731 @@
+{
+    "input": {
+        "template": {
+            "pageToken": ""
+        },
+        "required": [],
+        "md5": "cd47ffa47286bc2470b22f744f7629ff",
+        "boto_command": "get_instance_snapshots",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "name": "name",
+                "arn": "arn",
+                "supportCode": "supportCode",
+                "createdAt": "1970-01-01T00:00:00",
+                "location": {
+                    "availabilityZone": "availabilityZone",
+                    "regionName": "regionName"
+                },
+                "resourceType": "resourceType",
+                "tags": [
+                    {
+                        "key": "key",
+                        "value": "value"
+                    }
+                ],
+                "state": "state",
+                "progress": "progress",
+                "fromAttachedDisks": [
+                    {
+                        "name": "name",
+                        "arn": "arn",
+                        "supportCode": "supportCode",
+                        "createdAt": "1970-01-01T00:00:00",
+                        "location": {
+                            "availabilityZone": "availabilityZone",
+                            "regionName": "regionName"
+                        },
+                        "resourceType": "resourceType",
+                        "tags": [
+                            {
+                                "key": "key",
+                                "value": "value"
+                            }
+                        ],
+                        "addOns": [
+                            {
+                                "name": "name",
+                                "status": "status",
+                                "snapshotTimeOfDay": "snapshotTimeOfDay",
+                                "nextSnapshotTimeOfDay": "nextSnapshotTimeOfDay",
+                                "threshold": "threshold",
+                                "duration": "duration"
+                            }
+                        ],
+                        "sizeInGb": 0,
+                        "isSystemDisk": true,
+                        "iops": 0,
+                        "path": "path",
+                        "state": "state",
+                        "attachedTo": "attachedTo",
+                        "isAttached": true,
+                        "attachmentState": "attachmentState",
+                        "gbInUse": 0,
+                        "autoMountStatus": "autoMountStatus"
+                    }
+                ],
+                "fromInstanceName": "fromInstanceName",
+                "fromInstanceArn": "fromInstanceArn",
+                "fromBlueprintId": "fromBlueprintId",
+                "fromBundleId": "fromBundleId",
+                "isFromAutoSnapshot": true,
+                "sizeInGb": 0
+            }
+        ],
+        "required": [],
+        "md5": "58feea860e01e8630f01e13a92fafa50",
+        "randomized": [
+            {
+                "arn": "kkcdlryyxpsgpkup",
+                "createdAt": "veriqzdhvyxupblg",
+                "fromAttachedDisks": [
+                    {
+                        "addOns": [
+                            {
+                                "duration": "qjlnuobaghibebsv",
+                                "name": "rrzhfswdeglupcqj",
+                                "nextSnapshotTimeOfDay": "xjrglaxvhomldsaz",
+                                "snapshotTimeOfDay": "qpcbxymiujynjlrt",
+                                "status": "nadbiguxwflfrliw",
+                                "threshold": "lfvhxqyyrrzzmkea"
+                            }
+                        ],
+                        "arn": "bfqvhffagujebogs",
+                        "attachedTo": "oqiatioohldhktyq",
+                        "attachmentState": "wsnyexjhglzpspzx",
+                        "autoMountStatus": "flzdnfjgradumouw",
+                        "createdAt": "rtehroneewnbcmhf",
+                        "gbInUse": 0,
+                        "iops": 0,
+                        "isAttached": true,
+                        "isSystemDisk": true,
+                        "location": {
+                            "availabilityZone": "jvwosckpkrzfwdqo",
+                            "regionName": "mctconbqjuxqkirt"
+                        },
+                        "name": "ttrarebedjhiswel",
+                        "path": "bskejgydxwyqmrua",
+                        "resourceType": "jimtebodpfsvgfrk",
+                        "sizeInGb": 0,
+                        "state": "ufavjjumckfodmoq",
+                        "supportCode": "kzubbuqbycbjjibe",
+                        "tags": [
+                            {
+                                "key": "gjipzxtemgeqcxep",
+                                "value": "pqyswjiuoqipfxwj"
+                            }
+                        ]
+                    }
+                ],
+                "fromBlueprintId": "hgkqqwsfatnzlhuj",
+                "fromBundleId": "jiirgisqzebgouda",
+                "fromInstanceArn": "timsffqtxwvbkler",
+                "fromInstanceName": "jianvmvfsdmhpacl",
+                "isFromAutoSnapshot": true,
+                "location": {
+                    "availabilityZone": "tvffwgiuyhyxwgbn",
+                    "regionName": "xonwhzmesudiclhq"
+                },
+                "name": "umzbekohokpyyehc",
+                "progress": "tmnxisnfrlioahhn",
+                "resourceType": "rtoaozqvukdryuhy",
+                "sizeInGb": 0,
+                "state": "pegebigrtuexugre",
+                "supportCode": "eaopkvlezaqceyvd",
+                "tags": [
+                    {
+                        "key": "bdebswlunoaxbsbo",
+                        "value": "gxpaakpdgnckfkfb"
+                    }
+                ]
+            },
+            {
+                "arn": "uvogrqmgjndspxzj",
+                "createdAt": "zyqxrgclbmexlalj",
+                "fromAttachedDisks": [
+                    {
+                        "addOns": [
+                            {
+                                "duration": "awshsjcyonjdrmgg",
+                                "name": "sjfqrlmxwzysbdkq",
+                                "nextSnapshotTimeOfDay": "tnbbirrpylbotlbv",
+                                "snapshotTimeOfDay": "jnwjnfgfpafpbqib",
+                                "status": "leuplftqffshiubz",
+                                "threshold": "zbokyxmyrdqgqubw"
+                            }
+                        ],
+                        "arn": "gnykzhmrkzjtunel",
+                        "attachedTo": "gxtnjnhklrpomnxc",
+                        "attachmentState": "zboozoskhnnqbqyq",
+                        "autoMountStatus": "kimkvokolnnnxspq",
+                        "createdAt": "ikavdkmdllgncnek",
+                        "gbInUse": 0,
+                        "iops": 0,
+                        "isAttached": true,
+                        "isSystemDisk": true,
+                        "location": {
+                            "availabilityZone": "inbougoxvnimtnyv",
+                            "regionName": "tcceaaaatllwkhjr"
+                        },
+                        "name": "dmbpajqwlhjfundx",
+                        "path": "abbkquoqscbaythg",
+                        "resourceType": "qopvpduttgfydvwn",
+                        "sizeInGb": 0,
+                        "state": "dfucgujilcdwsgbm",
+                        "supportCode": "vdlfcfmuykucbnmn",
+                        "tags": [
+                            {
+                                "key": "skmvvyegesbcyqwy",
+                                "value": "aokhvtovxsebyhtr"
+                            }
+                        ]
+                    }
+                ],
+                "fromBlueprintId": "ucfvtfsxrvmwqmld",
+                "fromBundleId": "ufzqlzreshhjlvpl",
+                "fromInstanceArn": "aanxzmsumezkupyk",
+                "fromInstanceName": "teqxezoexoblovsz",
+                "isFromAutoSnapshot": true,
+                "location": {
+                    "availabilityZone": "qwyrwzqqowoqokrb",
+                    "regionName": "oikjusluidgjbdyt"
+                },
+                "name": "nhaopxtpsddicnku",
+                "progress": "tmkjnfhayevbeosh",
+                "resourceType": "sdosdzpwwmjzmgfx",
+                "sizeInGb": 0,
+                "state": "ptzpidlybwnvvnao",
+                "supportCode": "aoeplfrrnnobydht",
+                "tags": [
+                    {
+                        "key": "cbppttxivibkfobd",
+                        "value": "eoamuhrniswzowrd"
+                    }
+                ]
+            },
+            {
+                "arn": "wydtvokmfdvamaqs",
+                "createdAt": "wpwdhrfscdocnspk",
+                "fromAttachedDisks": [
+                    {
+                        "addOns": [
+                            {
+                                "duration": "utvmmdgxefyhvcft",
+                                "name": "gdmeulsdsqwqygpi",
+                                "nextSnapshotTimeOfDay": "ydnxcikxxpuaugxy",
+                                "snapshotTimeOfDay": "ugyjqlekdtnvggtb",
+                                "status": "qzhprzldqgiohedf",
+                                "threshold": "pwugdbnhjhglfzdx"
+                            }
+                        ],
+                        "arn": "axkmqpobcfnjelnq",
+                        "attachedTo": "zmftqjntvdgtwyov",
+                        "attachmentState": "kwyvnsuwovidyrek",
+                        "autoMountStatus": "oozjflpfwglhetik",
+                        "createdAt": "pzwehyvuhbbctcau",
+                        "gbInUse": 0,
+                        "iops": 0,
+                        "isAttached": true,
+                        "isSystemDisk": true,
+                        "location": {
+                            "availabilityZone": "qykgoibdcgbnkwsg",
+                            "regionName": "elbqlefbkvknhwyv"
+                        },
+                        "name": "qplvugztbzvzltjb",
+                        "path": "jqqjqqnnswlpxagk",
+                        "resourceType": "ibsqgemhpfkiccem",
+                        "sizeInGb": 0,
+                        "state": "utgnfdxfhwjmafqq",
+                        "supportCode": "sxekxusushaaksrd",
+                        "tags": [
+                            {
+                                "key": "wbgoxqqalgildowi",
+                                "value": "jkafdzksssychjjl"
+                            }
+                        ]
+                    }
+                ],
+                "fromBlueprintId": "zsmnburijxlgjcgb",
+                "fromBundleId": "lklvhfnuyobycqhb",
+                "fromInstanceArn": "dcbgoxrtktaekaov",
+                "fromInstanceName": "fefblsqnawqjpnud",
+                "isFromAutoSnapshot": true,
+                "location": {
+                    "availabilityZone": "wopanecrgwzrbirj",
+                    "regionName": "vbeeiccfendsufro"
+                },
+                "name": "wqqybhhujbqamcbk",
+                "progress": "kpccctnxkfiuedvr",
+                "resourceType": "kizluvrlmevaufig",
+                "sizeInGb": 0,
+                "state": "vnzzvyepyuzlgfmh",
+                "supportCode": "htwrwgkbpnxkxhya",
+                "tags": [
+                    {
+                        "key": "axrmrinifqtqldvt",
+                        "value": "terpizmyluvntgij"
+                    }
+                ]
+            },
+            {
+                "arn": "lruikvevyteihohe",
+                "createdAt": "atsjkdsbrllubhsv",
+                "fromAttachedDisks": [
+                    {
+                        "addOns": [
+                            {
+                                "duration": "yzjfltwujqdlerac",
+                                "name": "rzltggosmzrajnvd",
+                                "nextSnapshotTimeOfDay": "ondhmsilasstconh",
+                                "snapshotTimeOfDay": "oljrjfvjsfxnjhfp",
+                                "status": "zkpmxydpiybfjfft",
+                                "threshold": "regffpotdufupbai"
+                            }
+                        ],
+                        "arn": "lsemxjymnnjpkgfn",
+                        "attachedTo": "oefstzakapiyvgrf",
+                        "attachmentState": "xajxkysudpdcmjcy",
+                        "autoMountStatus": "gkllkeznqihbobys",
+                        "createdAt": "hwijqvflusmobkxx",
+                        "gbInUse": 0,
+                        "iops": 0,
+                        "isAttached": true,
+                        "isSystemDisk": true,
+                        "location": {
+                            "availabilityZone": "lkjjndzlybjeitzs",
+                            "regionName": "ngfciloknqqpigqm"
+                        },
+                        "name": "remrqlxxvoyqybiq",
+                        "path": "ucoviftprhqdflbg",
+                        "resourceType": "cbavaoaaihjxdugu",
+                        "sizeInGb": 0,
+                        "state": "jsfokispjcqlibmk",
+                        "supportCode": "hcalzdonmsyqyexz",
+                        "tags": [
+                            {
+                                "key": "yauxajwrgmqinpvs",
+                                "value": "bqxwhhjdbiowsbkp"
+                            }
+                        ]
+                    }
+                ],
+                "fromBlueprintId": "tvsfolrosxsjtrie",
+                "fromBundleId": "oenymzvxepdicyab",
+                "fromInstanceArn": "auohggstjdiijill",
+                "fromInstanceName": "emroplmoyptvimur",
+                "isFromAutoSnapshot": true,
+                "location": {
+                    "availabilityZone": "pxhtadfcovyocmza",
+                    "regionName": "rlogwkuislyfsmcn"
+                },
+                "name": "tbjnetwniyzkblac",
+                "progress": "ykitgvbivsrhktqp",
+                "resourceType": "fzokzcbsqfxeuffl",
+                "sizeInGb": 0,
+                "state": "ohgluqtsgzbzkxvt",
+                "supportCode": "pnqgjbrarbuzdjpg",
+                "tags": [
+                    {
+                        "key": "dvbrvyjifklfxshh",
+                        "value": "vnelctpgmoafefbz"
+                    }
+                ]
+            },
+            {
+                "arn": "qlvrkldrtrnnfgla",
+                "createdAt": "vfovypxajtidbinp",
+                "fromAttachedDisks": [
+                    {
+                        "addOns": [
+                            {
+                                "duration": "klsithtxfwrlnzjh",
+                                "name": "shhkxsjgkuqajeaj",
+                                "nextSnapshotTimeOfDay": "egwxmnvscupzelaq",
+                                "snapshotTimeOfDay": "hnjmevzgthfjjlbz",
+                                "status": "fqvmrjricrbwuiqc",
+                                "threshold": "nyihpamvitkaxsjf"
+                            }
+                        ],
+                        "arn": "uvqnnyokslhtylkr",
+                        "attachedTo": "vrejxxabuywnhapz",
+                        "attachmentState": "njlluayepohuxszn",
+                        "autoMountStatus": "mbmqnetgockfmvac",
+                        "createdAt": "ngtrgzyazmixzmzq",
+                        "gbInUse": 0,
+                        "iops": 0,
+                        "isAttached": true,
+                        "isSystemDisk": true,
+                        "location": {
+                            "availabilityZone": "nktfmuprnihkdfwo",
+                            "regionName": "zbymovjuovjtopbu"
+                        },
+                        "name": "zhgqjiqlfzfpbwbp",
+                        "path": "vkchjnusbsglpqfv",
+                        "resourceType": "yjdctxasjclmezpm",
+                        "sizeInGb": 0,
+                        "state": "hmwpvpuhscqucugh",
+                        "supportCode": "flpxithifitdeczh",
+                        "tags": [
+                            {
+                                "key": "fvydbfldcbozcgcz",
+                                "value": "vsaaupywmkdmefsb"
+                            }
+                        ]
+                    }
+                ],
+                "fromBlueprintId": "crvxcpdmrniiackb",
+                "fromBundleId": "xhykoxwrpkezipgt",
+                "fromInstanceArn": "gpwsayijurdymqks",
+                "fromInstanceName": "uatmtkypnpzklxbk",
+                "isFromAutoSnapshot": true,
+                "location": {
+                    "availabilityZone": "aqikqtvbmnniopij",
+                    "regionName": "ulqfnlzfvdchjpru"
+                },
+                "name": "iqrjjctdyftgvwub",
+                "progress": "gtgdkcqmvmxgqdvs",
+                "resourceType": "ebfgnrdpesykomxa",
+                "sizeInGb": 0,
+                "state": "jpfdibjtcrwmhtvz",
+                "supportCode": "qrddzvyptaazdplq",
+                "tags": [
+                    {
+                        "key": "aoejcjsywgnhxipd",
+                        "value": "efggmswuxqtbdhom"
+                    }
+                ]
+            },
+            {
+                "arn": "zytgzlyojrsrzaqg",
+                "createdAt": "hpcofpexzmspmcsl",
+                "fromAttachedDisks": [
+                    {
+                        "addOns": [
+                            {
+                                "duration": "lhlrgqwrlrkbqhwn",
+                                "name": "qizjysdqyrfzedlx",
+                                "nextSnapshotTimeOfDay": "oztmyxwmbtpyzzcs",
+                                "snapshotTimeOfDay": "ptejgirouxjippyl",
+                                "status": "airmxzhegppaujej",
+                                "threshold": "nbkjmdgjzpmzgequ"
+                            }
+                        ],
+                        "arn": "xbaxnmzfzyswghdv",
+                        "attachedTo": "cqxynsdmvhkcbzua",
+                        "attachmentState": "alfbddlefpskwqdk",
+                        "autoMountStatus": "qljwhqrqqxjnertz",
+                        "createdAt": "butbwhydeywgfnqj",
+                        "gbInUse": 0,
+                        "iops": 0,
+                        "isAttached": true,
+                        "isSystemDisk": true,
+                        "location": {
+                            "availabilityZone": "gcetlzvdkyzqwlom",
+                            "regionName": "pmeakcynvgthiqoa"
+                        },
+                        "name": "njuluckvlawpkyte",
+                        "path": "shgojivnbcdyessu",
+                        "resourceType": "hdajyvzhxiianign",
+                        "sizeInGb": 0,
+                        "state": "vigrrfkjggwdxquu",
+                        "supportCode": "xpnpkjbgllhfoemt",
+                        "tags": [
+                            {
+                                "key": "xnwojcbcuiiidist",
+                                "value": "zqayazibhwvjeulp"
+                            }
+                        ]
+                    }
+                ],
+                "fromBlueprintId": "gtljmguqvtftkint",
+                "fromBundleId": "cnonamaryiziatop",
+                "fromInstanceArn": "ypclllwmvxbfwcir",
+                "fromInstanceName": "zbweoodbanvvjqpf",
+                "isFromAutoSnapshot": true,
+                "location": {
+                    "availabilityZone": "faxrzwqzriipcwne",
+                    "regionName": "jblbajsrhutwgyct"
+                },
+                "name": "dzcraheghxgxxmfw",
+                "progress": "fzcdpzojoabcduda",
+                "resourceType": "hkmvuvjmqesibkkp",
+                "sizeInGb": 0,
+                "state": "ptjribfdycghgtzw",
+                "supportCode": "jcnsereprzvmnmzw",
+                "tags": [
+                    {
+                        "key": "atkyyfshbvvuezni",
+                        "value": "wkgzystywoenackk"
+                    }
+                ]
+            },
+            {
+                "arn": "aspsupjjnplftazb",
+                "createdAt": "iaaeyyzzfiswfmkr",
+                "fromAttachedDisks": [
+                    {
+                        "addOns": [
+                            {
+                                "duration": "drcivcsqjhxsygfo",
+                                "name": "smratsmllvcxugsl",
+                                "nextSnapshotTimeOfDay": "ysyotljoeubjkpkk",
+                                "snapshotTimeOfDay": "odpdvyvrngxtfixo",
+                                "status": "aairzlybrohdvpcq",
+                                "threshold": "cxgwlxdicegujrit"
+                            }
+                        ],
+                        "arn": "jufmyyibidxveqkq",
+                        "attachedTo": "yisgwxcgnbbyriin",
+                        "attachmentState": "eafyjmftbbzmydym",
+                        "autoMountStatus": "igexjqelmavebvpr",
+                        "createdAt": "umuocbqqvfclmddt",
+                        "gbInUse": 0,
+                        "iops": 0,
+                        "isAttached": true,
+                        "isSystemDisk": true,
+                        "location": {
+                            "availabilityZone": "elqweskyajevhtyh",
+                            "regionName": "fupkjzgaqkoyyusa"
+                        },
+                        "name": "xctuorjveexkxlfb",
+                        "path": "ohdblqrbxvgpdzeq",
+                        "resourceType": "awixjtycwiygmhnm",
+                        "sizeInGb": 0,
+                        "state": "slyvjfqwiblrmxyz",
+                        "supportCode": "silblnoermalhtmm",
+                        "tags": [
+                            {
+                                "key": "fctuoacznnlyyddv",
+                                "value": "tfytlvjvarlcnenf"
+                            }
+                        ]
+                    }
+                ],
+                "fromBlueprintId": "oogcxwyejdnlgugl",
+                "fromBundleId": "hwyhrtozaocwzodl",
+                "fromInstanceArn": "ewfxnbhutlvhbsag",
+                "fromInstanceName": "kmnznjfkgbzwrtrk",
+                "isFromAutoSnapshot": true,
+                "location": {
+                    "availabilityZone": "dqnaljddsqqcdaar",
+                    "regionName": "pdqnbqnvoagqimfl"
+                },
+                "name": "wekzqbehfdzsxgtr",
+                "progress": "niwcbtlanmxzdrds",
+                "resourceType": "crramffnaewmjgsu",
+                "sizeInGb": 0,
+                "state": "wvhwtugwvxplgymo",
+                "supportCode": "kmusvewluhzalpvc",
+                "tags": [
+                    {
+                        "key": "elhnamjsyuhgihfu",
+                        "value": "yvuglzqqazqsesuu"
+                    }
+                ]
+            },
+            {
+                "arn": "qimjxmkfdvuopxax",
+                "createdAt": "ziupbimtoxrxfxgk",
+                "fromAttachedDisks": [
+                    {
+                        "addOns": [
+                            {
+                                "duration": "wzmcwzisulliupqy",
+                                "name": "fvyhfykcyvugayzr",
+                                "nextSnapshotTimeOfDay": "witucowkftoxphzf",
+                                "snapshotTimeOfDay": "tghzgwxawhtfloal",
+                                "status": "zvveirxsdjrfqudc",
+                                "threshold": "ipzykzvnmcikjkde"
+                            }
+                        ],
+                        "arn": "raagszlwbmawxxse",
+                        "attachedTo": "rjvfbposkwwbajlv",
+                        "attachmentState": "rkpxxqvowcrpdoto",
+                        "autoMountStatus": "fibgyggavfaykhno",
+                        "createdAt": "zurnkkuizauhcrrl",
+                        "gbInUse": 0,
+                        "iops": 0,
+                        "isAttached": true,
+                        "isSystemDisk": true,
+                        "location": {
+                            "availabilityZone": "mnzhrbjfrafsnpow",
+                            "regionName": "addhkaolsbmfourt"
+                        },
+                        "name": "jjegtrpqzridgtvx",
+                        "path": "vwrygkahhlfjnbdc",
+                        "resourceType": "yadydzrzizekvdoa",
+                        "sizeInGb": 0,
+                        "state": "jcmmbvetdzwezxah",
+                        "supportCode": "uqqmemezxsvbmwqh",
+                        "tags": [
+                            {
+                                "key": "nrvtnuuwnhikrcnm",
+                                "value": "fwzpcrpgdtfpmbyt"
+                            }
+                        ]
+                    }
+                ],
+                "fromBlueprintId": "trnqjxsopwrlgsef",
+                "fromBundleId": "lxpucbmbxbqrzara",
+                "fromInstanceArn": "wzwqiuklbwmcbspm",
+                "fromInstanceName": "ppmwuyjikswlbieu",
+                "isFromAutoSnapshot": true,
+                "location": {
+                    "availabilityZone": "vmervfqdwayotoun",
+                    "regionName": "ttcmykhohyurekgo"
+                },
+                "name": "iscmxiepnfeehzpn",
+                "progress": "cmvjzgaofeapdacy",
+                "resourceType": "nnvdhjalennrkpjs",
+                "sizeInGb": 0,
+                "state": "uqonixmlgmaspkow",
+                "supportCode": "djgmsaiepmbatrzj",
+                "tags": [
+                    {
+                        "key": "uztzbepymmyjmexf",
+                        "value": "wtlqdvqdjbommtov"
+                    }
+                ]
+            },
+            {
+                "arn": "fgwtupcbkmgcmhhf",
+                "createdAt": "madapqkvrskzyksj",
+                "fromAttachedDisks": [
+                    {
+                        "addOns": [
+                            {
+                                "duration": "jpkzqmcaylrxnagq",
+                                "name": "bvqjtgygrglnwrzz",
+                                "nextSnapshotTimeOfDay": "miscwmoynmtgoevt",
+                                "snapshotTimeOfDay": "wqehzkmhzbqinpsa",
+                                "status": "sddjvtqphfsxxmlz",
+                                "threshold": "vcvdseckrevibcvh"
+                            }
+                        ],
+                        "arn": "pqqwvxvojehxkaxa",
+                        "attachedTo": "twbhsvzfvqluishd",
+                        "attachmentState": "zxuxbghbmxauulrd",
+                        "autoMountStatus": "maljrxjitaatwdmg",
+                        "createdAt": "razxxgokkganzhrm",
+                        "gbInUse": 0,
+                        "iops": 0,
+                        "isAttached": true,
+                        "isSystemDisk": true,
+                        "location": {
+                            "availabilityZone": "ksurfzbvuzgfuyfb",
+                            "regionName": "kxwbmtbpxauzurpj"
+                        },
+                        "name": "ltvfutzzahivvqgz",
+                        "path": "byuastsnxjaicslt",
+                        "resourceType": "tupahqgsstsqccyx",
+                        "sizeInGb": 0,
+                        "state": "zttptecvcihvmrqc",
+                        "supportCode": "wbvkszvkmosinnjd",
+                        "tags": [
+                            {
+                                "key": "ezwbvqjrzbtdsosq",
+                                "value": "coswsvwnqcwnvdjn"
+                            }
+                        ]
+                    }
+                ],
+                "fromBlueprintId": "mdtcmjpmtzdbpowj",
+                "fromBundleId": "vvnurfbowovffpmn",
+                "fromInstanceArn": "bqyalxxynxvpvfrr",
+                "fromInstanceName": "wqykipaawcsnrnzc",
+                "isFromAutoSnapshot": true,
+                "location": {
+                    "availabilityZone": "afagomdpjlaajils",
+                    "regionName": "dkcxygghtmuyxjou"
+                },
+                "name": "vynoyxdexpnzyoad",
+                "progress": "ajipamucketdwqow",
+                "resourceType": "lsflexmatfnrpihd",
+                "sizeInGb": 0,
+                "state": "gresdeyttjsaupnm",
+                "supportCode": "hhfsgpnybfmmdvrs",
+                "tags": [
+                    {
+                        "key": "bhmxsofueixoaleh",
+                        "value": "ylprsdhpnepnjuvu"
+                    }
+                ]
+            },
+            {
+                "arn": "jdwkxtugcqxaboty",
+                "createdAt": "yskmovpreletgnhd",
+                "fromAttachedDisks": [
+                    {
+                        "addOns": [
+                            {
+                                "duration": "zceuyoxfugqhcrmz",
+                                "name": "abnxslkyrefhrhvu",
+                                "nextSnapshotTimeOfDay": "lmcmvgiqfogafvyt",
+                                "snapshotTimeOfDay": "hcyrkhcgkwojqnkr",
+                                "status": "dashkjpqrijffitl",
+                                "threshold": "oayxxwdpljyeuixe"
+                            }
+                        ],
+                        "arn": "kmgwrlysqjhjccoz",
+                        "attachedTo": "mpiefuclkblcxikd",
+                        "attachmentState": "prcwizrhexcdscdn",
+                        "autoMountStatus": "hfqnozfajbnodqdo",
+                        "createdAt": "ntphaqffyrgtdgeh",
+                        "gbInUse": 0,
+                        "iops": 0,
+                        "isAttached": true,
+                        "isSystemDisk": true,
+                        "location": {
+                            "availabilityZone": "dijcxuvvfprkvzeo",
+                            "regionName": "gctqpqgudqqtrkzz"
+                        },
+                        "name": "tplvytxtyngcxgyz",
+                        "path": "dqyhvgqgeiamtwry",
+                        "resourceType": "ylravlnbvtakseyy",
+                        "sizeInGb": 0,
+                        "state": "gjcfjgduqtkibmoi",
+                        "supportCode": "ttfgobfnasylxmlx",
+                        "tags": [
+                            {
+                                "key": "yabewjrbgqfmmjfu",
+                                "value": "zcfrxrysxvizduuf"
+                            }
+                        ]
+                    }
+                ],
+                "fromBlueprintId": "esowuszhnmqjqvgt",
+                "fromBundleId": "ybmztzufeutplsah",
+                "fromInstanceArn": "znmfrixgvoislhwq",
+                "fromInstanceName": "ryczytxdolqlkzmm",
+                "isFromAutoSnapshot": true,
+                "location": {
+                    "availabilityZone": "qnfcshhrxhspevxb",
+                    "regionName": "ijxekgsteyxkdcvt"
+                },
+                "name": "xooxecrovozdouwb",
+                "progress": "saydaswxdutjwkpk",
+                "resourceType": "baonrdlwdlqpnhcq",
+                "sizeInGb": 0,
+                "state": "hymcnekjwdromvwp",
+                "supportCode": "rcgqykzqreanylaz",
+                "tags": [
+                    {
+                        "key": "syluwpgonsmgfjwl",
+                        "value": "kxnsndaywsodvgvh"
+                    }
+                ]
+            }
+        ],
+        "result_key": "instanceSnapshots"
+    },
+    "meta": {
+        "start": 1711116103.087738,
+        "end": 1711116109.862751,
+        "duration": 6.775022983551025,
+        "service": "lightsail",
+        "type": null
+    }
+}

@@ -1,0 +1,142 @@
+[
+    {
+        "AssociationId": "tberfvwukksgzsep",
+        "BranchInterfaceId": "ojowldgtihaitlcw",
+        "GreKey": 0,
+        "InterfaceProtocol": "hjnoxzqpqfemeths",
+        "Tags": [
+            {
+                "Key": "kemelkwyywdapmhw",
+                "Value": "ndvreadeaeuindxx"
+            }
+        ],
+        "TrunkInterfaceId": "plcnctkghadhdnyj",
+        "VlanId": 0
+    },
+    {
+        "AssociationId": "zyftqktbowtxtibb",
+        "BranchInterfaceId": "mziqymlbqgnivsxf",
+        "GreKey": 0,
+        "InterfaceProtocol": "kzoffzwymdlofdfq",
+        "Tags": [
+            {
+                "Key": "uiaqaiaswijxnrrm",
+                "Value": "gcnlvlwvwrcnldcc"
+            }
+        ],
+        "TrunkInterfaceId": "hnljgctsytxuehhv",
+        "VlanId": 0
+    },
+    {
+        "AssociationId": "dqeyqwntxamwktdl",
+        "BranchInterfaceId": "rjhmtgmxepttuwms",
+        "GreKey": 0,
+        "InterfaceProtocol": "rgiwyapcinnvsvyj",
+        "Tags": [
+            {
+                "Key": "txfjbkvttzpzdzkr",
+                "Value": "ufuefnjzxefqmrfi"
+            }
+        ],
+        "TrunkInterfaceId": "nimnuhsxarpybnrm",
+        "VlanId": 0
+    },
+    {
+        "AssociationId": "hnbkltmahspvjmue",
+        "BranchInterfaceId": "ljddhbkwnrarkiji",
+        "GreKey": 0,
+        "InterfaceProtocol": "aqvnuchsdrvrwodu",
+        "Tags": [
+            {
+                "Key": "goehomaphqvnznmo",
+                "Value": "qkilunpzqfiqlyzw"
+            }
+        ],
+        "TrunkInterfaceId": "pzjrbnxfxasmwrsh",
+        "VlanId": 0
+    },
+    {
+        "AssociationId": "rswgdojjkrdkokld",
+        "BranchInterfaceId": "ajqosmbjqukcoonf",
+        "GreKey": 0,
+        "InterfaceProtocol": "obhmvxgffnfaqsqq",
+        "Tags": [
+            {
+                "Key": "ickbyuwawfolwmpg",
+                "Value": "ojspxzingfpqkikp"
+            }
+        ],
+        "TrunkInterfaceId": "gqgnmjioasbagesn",
+        "VlanId": 0
+    },
+    {
+        "AssociationId": "yblbcmkmlecsdont",
+        "BranchInterfaceId": "lcnftrmpmqvxpwle",
+        "GreKey": 0,
+        "InterfaceProtocol": "cefxlauyjrugyrtf",
+        "Tags": [
+            {
+                "Key": "biacnyxegrpdifsf",
+                "Value": "pyhijscgioiqbxee"
+            }
+        ],
+        "TrunkInterfaceId": "xxdbxwxsriouxqzc",
+        "VlanId": 0
+    },
+    {
+        "AssociationId": "iqjthrujmrncjxln",
+        "BranchInterfaceId": "aorxecrisofssauz",
+        "GreKey": 0,
+        "InterfaceProtocol": "fyokfrgejxcyvoah",
+        "Tags": [
+            {
+                "Key": "iaongceonsxdxroj",
+                "Value": "flvvgtpvdtreviyh"
+            }
+        ],
+        "TrunkInterfaceId": "wlrgfvecqoxudbbs",
+        "VlanId": 0
+    },
+    {
+        "AssociationId": "knanpymzgrqspycf",
+        "BranchInterfaceId": "rufqjfulnandjmzx",
+        "GreKey": 0,
+        "InterfaceProtocol": "njvnqpwxeemihzmb",
+        "Tags": [
+            {
+                "Key": "etcfwwijskpuocgn",
+                "Value": "lmyhgfljjrjryzck"
+            }
+        ],
+        "TrunkInterfaceId": "voncwfqibpvxxskf",
+        "VlanId": 0
+    },
+    {
+        "AssociationId": "klzznvbczkmuwotq",
+        "BranchInterfaceId": "vxjuofsmfdpfqrfm",
+        "GreKey": 0,
+        "InterfaceProtocol": "mgwgnhkfrvxvcrvm",
+        "Tags": [
+            {
+                "Key": "odhuaptamrioalpv",
+                "Value": "rtkqqzbhwbuzvrea"
+            }
+        ],
+        "TrunkInterfaceId": "imhsclzjehjdqouu",
+        "VlanId": 0
+    },
+    {
+        "AssociationId": "ujaajephyexbgijf",
+        "BranchInterfaceId": "xdfcwaqkahmodppe",
+        "GreKey": 0,
+        "InterfaceProtocol": "ahyehoeqxtspeueu",
+        "Tags": [
+            {
+                "Key": "icbggfgyohsuwlnt",
+                "Value": "neshmuvpwexcddev"
+            }
+        ],
+        "TrunkInterfaceId": "ykfvxhqwsmhpryww",
+        "VlanId": 0
+    }
+]

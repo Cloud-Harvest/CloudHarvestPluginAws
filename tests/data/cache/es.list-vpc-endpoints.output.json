@@ -1,0 +1,93 @@
+{
+    "input": {
+        "template": {
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "28fe14adb863d5d0635cac1da3f9b4e4",
+        "boto_command": "list_vpc_endpoints",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "VpcEndpointId": "VpcEndpointId",
+                "VpcEndpointOwner": "VpcEndpointOwner",
+                "DomainArn": "DomainArn",
+                "Status": "Status"
+            }
+        ],
+        "required": [],
+        "md5": "1a4ec62f13b2f9aa33e1feecdf35854d",
+        "randomized": [
+            {
+                "DomainArn": "lhjnkfccgglcnfvn",
+                "Status": "gcmcbqltbvoiyfno",
+                "VpcEndpointId": "ejcswtklaxisrfpf",
+                "VpcEndpointOwner": "lrnlmdoptzjqduyo"
+            },
+            {
+                "DomainArn": "tgtwlzuaedwvyfkv",
+                "Status": "nwnjglxeshquhnmx",
+                "VpcEndpointId": "jorplcuswuudubeb",
+                "VpcEndpointOwner": "ummunrzakfutrhtz"
+            },
+            {
+                "DomainArn": "ymqpnzuqijbtrtnn",
+                "Status": "iyzlbotofejffjgq",
+                "VpcEndpointId": "tryuaebbirxwelnd",
+                "VpcEndpointOwner": "yxyxjmdcgwkpweka"
+            },
+            {
+                "DomainArn": "jzphsjujembjzhjs",
+                "Status": "ezunbemkpemrnrlk",
+                "VpcEndpointId": "uyzapvvwksldlliy",
+                "VpcEndpointOwner": "lhvctvehhjmvtatx"
+            },
+            {
+                "DomainArn": "jzhsjjychjyzwfhf",
+                "Status": "nteldvkrnhfhkqsu",
+                "VpcEndpointId": "xelnvttwqsvtiryf",
+                "VpcEndpointOwner": "jfletgrqqilvxtoq"
+            },
+            {
+                "DomainArn": "uaraasiufecxudrd",
+                "Status": "swunqtszypdixxbg",
+                "VpcEndpointId": "emekntlhglswkpsl",
+                "VpcEndpointOwner": "zgatijolfolghbqb"
+            },
+            {
+                "DomainArn": "topfryncxjaqzooi",
+                "Status": "rprcpsvjejsxgpuu",
+                "VpcEndpointId": "eqmpncessrfbzypj",
+                "VpcEndpointOwner": "mtdnegoddbmnhxxg"
+            },
+            {
+                "DomainArn": "dxhxnjiihyrstkoo",
+                "Status": "gxdiwcxymisgkgzm",
+                "VpcEndpointId": "alqaopkmpsdjdvvj",
+                "VpcEndpointOwner": "adxcfjhheoewcuvm"
+            },
+            {
+                "DomainArn": "fdvbmpxqjjnhhyhd",
+                "Status": "qivjqnmyhxkgompp",
+                "VpcEndpointId": "ewfewyqznghizmsp",
+                "VpcEndpointOwner": "adqnoemcbbqubumb"
+            },
+            {
+                "DomainArn": "mmqpseiyrrllohko",
+                "Status": "zaegemnxztpzfebd",
+                "VpcEndpointId": "vfzgqkmpuerwcdsw",
+                "VpcEndpointOwner": "xriaavgvorowhcbz"
+            }
+        ],
+        "result_key": "VpcEndpointSummaryList"
+    },
+    "meta": {
+        "start": 1711115749.728096,
+        "end": 1711115757.622358,
+        "duration": 7.894270896911621,
+        "service": "es",
+        "type": "vpc_endpoints"
+    }
+}

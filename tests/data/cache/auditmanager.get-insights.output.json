@@ -1,0 +1,122 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "get_insights",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": {
+            "activeAssessmentsCount": 0,
+            "noncompliantEvidenceCount": 0,
+            "compliantEvidenceCount": 0,
+            "inconclusiveEvidenceCount": 0,
+            "assessmentControlsCountByNoncompliantEvidence": 0,
+            "totalAssessmentControlsCount": 0,
+            "lastUpdated": "1970-01-01T00:00:00"
+        },
+        "required": [],
+        "md5": "ffbbb8c5095907e8f9f476854bd61e73",
+        "randomized": [
+            {
+                "activeAssessmentsCount": 0,
+                "assessmentControlsCountByNoncompliantEvidence": 0,
+                "compliantEvidenceCount": 0,
+                "inconclusiveEvidenceCount": 0,
+                "lastUpdated": "caqyxwzmcalazcep",
+                "noncompliantEvidenceCount": 0,
+                "totalAssessmentControlsCount": 0
+            },
+            {
+                "activeAssessmentsCount": 0,
+                "assessmentControlsCountByNoncompliantEvidence": 0,
+                "compliantEvidenceCount": 0,
+                "inconclusiveEvidenceCount": 0,
+                "lastUpdated": "vgfiipalgfuxsjht",
+                "noncompliantEvidenceCount": 0,
+                "totalAssessmentControlsCount": 0
+            },
+            {
+                "activeAssessmentsCount": 0,
+                "assessmentControlsCountByNoncompliantEvidence": 0,
+                "compliantEvidenceCount": 0,
+                "inconclusiveEvidenceCount": 0,
+                "lastUpdated": "parmxlpxmazjjkfk",
+                "noncompliantEvidenceCount": 0,
+                "totalAssessmentControlsCount": 0
+            },
+            {
+                "activeAssessmentsCount": 0,
+                "assessmentControlsCountByNoncompliantEvidence": 0,
+                "compliantEvidenceCount": 0,
+                "inconclusiveEvidenceCount": 0,
+                "lastUpdated": "kdeqvlbgnakidfxm",
+                "noncompliantEvidenceCount": 0,
+                "totalAssessmentControlsCount": 0
+            },
+            {
+                "activeAssessmentsCount": 0,
+                "assessmentControlsCountByNoncompliantEvidence": 0,
+                "compliantEvidenceCount": 0,
+                "inconclusiveEvidenceCount": 0,
+                "lastUpdated": "pxjiofnnrxaxxhcy",
+                "noncompliantEvidenceCount": 0,
+                "totalAssessmentControlsCount": 0
+            },
+            {
+                "activeAssessmentsCount": 0,
+                "assessmentControlsCountByNoncompliantEvidence": 0,
+                "compliantEvidenceCount": 0,
+                "inconclusiveEvidenceCount": 0,
+                "lastUpdated": "fxgztxshsdttoups",
+                "noncompliantEvidenceCount": 0,
+                "totalAssessmentControlsCount": 0
+            },
+            {
+                "activeAssessmentsCount": 0,
+                "assessmentControlsCountByNoncompliantEvidence": 0,
+                "compliantEvidenceCount": 0,
+                "inconclusiveEvidenceCount": 0,
+                "lastUpdated": "fmzdztlyiqovzzsw",
+                "noncompliantEvidenceCount": 0,
+                "totalAssessmentControlsCount": 0
+            },
+            {
+                "activeAssessmentsCount": 0,
+                "assessmentControlsCountByNoncompliantEvidence": 0,
+                "compliantEvidenceCount": 0,
+                "inconclusiveEvidenceCount": 0,
+                "lastUpdated": "wlcwbwkcghjbhqvg",
+                "noncompliantEvidenceCount": 0,
+                "totalAssessmentControlsCount": 0
+            },
+            {
+                "activeAssessmentsCount": 0,
+                "assessmentControlsCountByNoncompliantEvidence": 0,
+                "compliantEvidenceCount": 0,
+                "inconclusiveEvidenceCount": 0,
+                "lastUpdated": "goaucrihosqmmpvb",
+                "noncompliantEvidenceCount": 0,
+                "totalAssessmentControlsCount": 0
+            },
+            {
+                "activeAssessmentsCount": 0,
+                "assessmentControlsCountByNoncompliantEvidence": 0,
+                "compliantEvidenceCount": 0,
+                "inconclusiveEvidenceCount": 0,
+                "lastUpdated": "aambyhrnmrjflnst",
+                "noncompliantEvidenceCount": 0,
+                "totalAssessmentControlsCount": 0
+            }
+        ],
+        "result_key": "insights"
+    },
+    "meta": {
+        "start": 1711115261.346431,
+        "end": 1711115267.981938,
+        "duration": 6.6355180740356445,
+        "service": "auditmanager",
+        "type": null
+    }
+}

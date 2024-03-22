@@ -1,0 +1,206 @@
+{
+    "input": {
+        "template": {
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "DryRun": true,
+            "GroupNames": [
+                ""
+            ],
+            "GroupIds": [
+                ""
+            ]
+        },
+        "required": [],
+        "md5": "6e7c8b2e339dcf3f7f842d0fb4085a36",
+        "boto_command": "describe_placement_groups",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "GroupName": "GroupName",
+                "State": "State",
+                "Strategy": "Strategy",
+                "PartitionCount": 0,
+                "GroupId": "GroupId",
+                "Tags": [
+                    {
+                        "Key": "Key",
+                        "Value": "Value"
+                    }
+                ],
+                "GroupArn": "GroupArn",
+                "SpreadLevel": "SpreadLevel"
+            }
+        ],
+        "required": [],
+        "md5": "fabbc719ef4d1e02b664bc7a58df08cf",
+        "randomized": [
+            {
+                "GroupArn": "taujqlyyzqknqqpo",
+                "GroupId": "anplibbxfilvwfro",
+                "GroupName": "aivxrwqeaeyvwoji",
+                "PartitionCount": 0,
+                "SpreadLevel": "xumattzemdmddmoi",
+                "State": "dheuewgyzymahlwi",
+                "Strategy": "yegatjqbekxfybxi",
+                "Tags": [
+                    {
+                        "Key": "rekmzxxggnekxdod",
+                        "Value": "eiarjzbqvahohxpq"
+                    }
+                ]
+            },
+            {
+                "GroupArn": "gjkifhiitgrkugvi",
+                "GroupId": "pzebbuwqxcbnnndo",
+                "GroupName": "fzxlcbuoyikbkaur",
+                "PartitionCount": 0,
+                "SpreadLevel": "onqdnvabbtokmbzj",
+                "State": "eqjwtbrmoqzqopqw",
+                "Strategy": "tohntnwaodcoaycb",
+                "Tags": [
+                    {
+                        "Key": "wcshzacmtrpieqox",
+                        "Value": "ksunogzgcezsmlya"
+                    }
+                ]
+            },
+            {
+                "GroupArn": "jaamuvwagdfaekfv",
+                "GroupId": "qfqzjrnxtrciombc",
+                "GroupName": "vilfhfxjwmtupmtq",
+                "PartitionCount": 0,
+                "SpreadLevel": "tcgzxterkiwfldry",
+                "State": "tdyvuaxfhsgoltkr",
+                "Strategy": "vtwhxremtohxxopm",
+                "Tags": [
+                    {
+                        "Key": "sthuaolbvqklbijq",
+                        "Value": "riqmcllfxqjhwwcj"
+                    }
+                ]
+            },
+            {
+                "GroupArn": "anolxthyzytidxro",
+                "GroupId": "ppnjphfeviykaruk",
+                "GroupName": "rpeynjlcigztrblr",
+                "PartitionCount": 0,
+                "SpreadLevel": "vgatyqxfbmscgodj",
+                "State": "xyrfaoeaqppufizo",
+                "Strategy": "fubepfjvkqifkurs",
+                "Tags": [
+                    {
+                        "Key": "wyuayvgkgqvtksma",
+                        "Value": "hqrvsfyvtfetktmx"
+                    }
+                ]
+            },
+            {
+                "GroupArn": "ufrujotegdrcddif",
+                "GroupId": "fyorzetvfwxsvhai",
+                "GroupName": "vkvvsguzpobwnbjy",
+                "PartitionCount": 0,
+                "SpreadLevel": "hgcqqweduusooqdk",
+                "State": "lsxbpntrnjrrzisv",
+                "Strategy": "nttlyfnpjjepkhiw",
+                "Tags": [
+                    {
+                        "Key": "tksaapewpkhmdzgh",
+                        "Value": "qqzpzdrikpsftvnv"
+                    }
+                ]
+            },
+            {
+                "GroupArn": "kzsundqndmplyvfx",
+                "GroupId": "zwnvoqvrvgquxjuk",
+                "GroupName": "wnadchftwotqstmu",
+                "PartitionCount": 0,
+                "SpreadLevel": "bdqptpmwdiphxzkw",
+                "State": "zjhhfoqctdamzmyn",
+                "Strategy": "hsswonbyzitfmuer",
+                "Tags": [
+                    {
+                        "Key": "fxvmvqotqgddrgeu",
+                        "Value": "ekipyflnikptynri"
+                    }
+                ]
+            },
+            {
+                "GroupArn": "dsrqtrwigltwrxiu",
+                "GroupId": "zfoqwwrhvfehlhiy",
+                "GroupName": "mhxxutycschkbpms",
+                "PartitionCount": 0,
+                "SpreadLevel": "vbzydcveabusfvja",
+                "State": "jocqehbujwqvtzpz",
+                "Strategy": "tmcwgmjcynthyfgp",
+                "Tags": [
+                    {
+                        "Key": "fteknyptnxcjydov",
+                        "Value": "iaspppyhmscjpcgx"
+                    }
+                ]
+            },
+            {
+                "GroupArn": "qbinjbbofybntfnv",
+                "GroupId": "ltcnqmlvkeuoggzy",
+                "GroupName": "bxaubojuablfkczf",
+                "PartitionCount": 0,
+                "SpreadLevel": "ndwqszwcpotfrbjk",
+                "State": "pgddesdeaoosrijf",
+                "Strategy": "uueyritpcbxyrowh",
+                "Tags": [
+                    {
+                        "Key": "fgaufcsmeaasdfbv",
+                        "Value": "lvbpumhzhpvxgpnh"
+                    }
+                ]
+            },
+            {
+                "GroupArn": "hzvqpndzlsvzsofe",
+                "GroupId": "dpmigndeefkqxyop",
+                "GroupName": "rqcpidjrptaorauy",
+                "PartitionCount": 0,
+                "SpreadLevel": "bhjjtxebqldjhyvt",
+                "State": "sismdkgyfjhlcpdb",
+                "Strategy": "cmxjscwsdwjoziwn",
+                "Tags": [
+                    {
+                        "Key": "hpdrpztijwkkvzct",
+                        "Value": "xiqhhhdxyqwhljai"
+                    }
+                ]
+            },
+            {
+                "GroupArn": "mbsxydqwukohfnog",
+                "GroupId": "qgalolywomiacuur",
+                "GroupName": "qwiyqqfprvggejdd",
+                "PartitionCount": 0,
+                "SpreadLevel": "gysceiurllrbkvxn",
+                "State": "qeltneojziywbdjn",
+                "Strategy": "ggfjwtpcnyynaekk",
+                "Tags": [
+                    {
+                        "Key": "pbzbudpsjhzhdsyw",
+                        "Value": "iehsfoflovsjwevi"
+                    }
+                ]
+            }
+        ],
+        "result_key": "PlacementGroups"
+    },
+    "meta": {
+        "start": 1711115642.086015,
+        "end": 1711115648.016424,
+        "duration": 5.930419921875,
+        "service": "ec2",
+        "type": "placement_groups"
+    }
+}

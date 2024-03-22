@@ -1,0 +1,238 @@
+{
+    "input": {
+        "template": {
+            "DeletionId": "",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "41d039fc0cb39f61a4e01761846ab5d4",
+        "boto_command": "describe_inventory_deletions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "DeletionId": "DeletionId",
+                "TypeName": "TypeName",
+                "DeletionStartTime": "1970-01-01T00:00:00",
+                "LastStatus": "LastStatus",
+                "LastStatusMessage": "LastStatusMessage",
+                "DeletionSummary": {
+                    "TotalCount": 0,
+                    "RemainingCount": 0,
+                    "SummaryItems": [
+                        {
+                            "Version": "Version",
+                            "Count": 0,
+                            "RemainingCount": 0
+                        }
+                    ]
+                },
+                "LastStatusUpdateTime": "1970-01-01T00:00:00"
+            }
+        ],
+        "required": [],
+        "md5": "22540bd97f00dcfa25d9b15ba19e65bb",
+        "randomized": [
+            {
+                "DeletionId": "jrrmnaizpehmxezn",
+                "DeletionStartTime": "dvyftzolkigzqetq",
+                "DeletionSummary": {
+                    "RemainingCount": 0,
+                    "SummaryItems": [
+                        {
+                            "Count": 0,
+                            "RemainingCount": 0,
+                            "Version": "laxjlxdiiwadudbb"
+                        }
+                    ],
+                    "TotalCount": 0
+                },
+                "LastStatus": "apomcjyyqhkkrhqe",
+                "LastStatusMessage": "azyxulwxcnlkzfst",
+                "LastStatusUpdateTime": "wnlqsnicidvvyfep",
+                "TypeName": "xhvkzctpisntdeey"
+            },
+            {
+                "DeletionId": "vjasdqikgnddzpjp",
+                "DeletionStartTime": "ereknhpmuncovbgq",
+                "DeletionSummary": {
+                    "RemainingCount": 0,
+                    "SummaryItems": [
+                        {
+                            "Count": 0,
+                            "RemainingCount": 0,
+                            "Version": "yiwiwyahmlqwnwuc"
+                        }
+                    ],
+                    "TotalCount": 0
+                },
+                "LastStatus": "ysbpsvyschthrbwi",
+                "LastStatusMessage": "awdzdithxugvqjhd",
+                "LastStatusUpdateTime": "dodwexbzncsrafct",
+                "TypeName": "nzxrerzylvwwzgam"
+            },
+            {
+                "DeletionId": "gohcfztpzmrckwjg",
+                "DeletionStartTime": "vqanxszsdhtvkeva",
+                "DeletionSummary": {
+                    "RemainingCount": 0,
+                    "SummaryItems": [
+                        {
+                            "Count": 0,
+                            "RemainingCount": 0,
+                            "Version": "svpknvnwdoupxctg"
+                        }
+                    ],
+                    "TotalCount": 0
+                },
+                "LastStatus": "ndpmtpkjvguhzylb",
+                "LastStatusMessage": "rwfoqodqnzpiloql",
+                "LastStatusUpdateTime": "qnsdkxclvowjvwvn",
+                "TypeName": "jmexvgtbvenmyuvz"
+            },
+            {
+                "DeletionId": "yytvkewsmyompeck",
+                "DeletionStartTime": "naksspqapgasmbwe",
+                "DeletionSummary": {
+                    "RemainingCount": 0,
+                    "SummaryItems": [
+                        {
+                            "Count": 0,
+                            "RemainingCount": 0,
+                            "Version": "zpjutiucmotzznkf"
+                        }
+                    ],
+                    "TotalCount": 0
+                },
+                "LastStatus": "kkeuiuxiorbnntyq",
+                "LastStatusMessage": "ssorturucfwulaor",
+                "LastStatusUpdateTime": "dvpadjzjttjsjhtg",
+                "TypeName": "kqagullexbznmoeh"
+            },
+            {
+                "DeletionId": "tzjkockngbjkciey",
+                "DeletionStartTime": "dklcyzruxpwhwosa",
+                "DeletionSummary": {
+                    "RemainingCount": 0,
+                    "SummaryItems": [
+                        {
+                            "Count": 0,
+                            "RemainingCount": 0,
+                            "Version": "wxsikwzyfumtorka"
+                        }
+                    ],
+                    "TotalCount": 0
+                },
+                "LastStatus": "wikgcgxxqiwmaffc",
+                "LastStatusMessage": "ialgngjfxeolkskh",
+                "LastStatusUpdateTime": "pgffspzfhizupucx",
+                "TypeName": "dnnlmketpbiyltby"
+            },
+            {
+                "DeletionId": "feajuipndppymuvb",
+                "DeletionStartTime": "yrkmrvamayaczucb",
+                "DeletionSummary": {
+                    "RemainingCount": 0,
+                    "SummaryItems": [
+                        {
+                            "Count": 0,
+                            "RemainingCount": 0,
+                            "Version": "imokkuvdiufqbagj"
+                        }
+                    ],
+                    "TotalCount": 0
+                },
+                "LastStatus": "xnytcpdaxmvylljf",
+                "LastStatusMessage": "zapfimzcwprtpthb",
+                "LastStatusUpdateTime": "olmyevaavfjksqiz",
+                "TypeName": "ugaewerkflqppool"
+            },
+            {
+                "DeletionId": "npvrxyfzwgjqxpma",
+                "DeletionStartTime": "tztqkghcmbrogmgf",
+                "DeletionSummary": {
+                    "RemainingCount": 0,
+                    "SummaryItems": [
+                        {
+                            "Count": 0,
+                            "RemainingCount": 0,
+                            "Version": "bfjghzbyfgzqeemx"
+                        }
+                    ],
+                    "TotalCount": 0
+                },
+                "LastStatus": "wezkoggfoyvmleed",
+                "LastStatusMessage": "pscuvekutbjsrbcy",
+                "LastStatusUpdateTime": "msfdooocouaikyqj",
+                "TypeName": "xuprcvshzcylehrr"
+            },
+            {
+                "DeletionId": "mqhofcyytuqkuvsg",
+                "DeletionStartTime": "ypbhpvtsrkusuuwb",
+                "DeletionSummary": {
+                    "RemainingCount": 0,
+                    "SummaryItems": [
+                        {
+                            "Count": 0,
+                            "RemainingCount": 0,
+                            "Version": "cbepuoawuvjvcwpg"
+                        }
+                    ],
+                    "TotalCount": 0
+                },
+                "LastStatus": "eplcmmrwhpjzmwms",
+                "LastStatusMessage": "vsxabejwnuoqvvha",
+                "LastStatusUpdateTime": "qzpyvztxoweegdgh",
+                "TypeName": "ujzboindhjzecrvl"
+            },
+            {
+                "DeletionId": "bqwmacykxdxrsrpe",
+                "DeletionStartTime": "uozngfqjvrbqmovo",
+                "DeletionSummary": {
+                    "RemainingCount": 0,
+                    "SummaryItems": [
+                        {
+                            "Count": 0,
+                            "RemainingCount": 0,
+                            "Version": "qhavfkcwekfjxqyc"
+                        }
+                    ],
+                    "TotalCount": 0
+                },
+                "LastStatus": "zyltgjnrbtxdefri",
+                "LastStatusMessage": "tcrhxqxzwzgvwfne",
+                "LastStatusUpdateTime": "khgabqiudrhnmrrp",
+                "TypeName": "zvaripkxjubpfefo"
+            },
+            {
+                "DeletionId": "aymqaycmimkvfdqn",
+                "DeletionStartTime": "izkzoipozqjxnjcw",
+                "DeletionSummary": {
+                    "RemainingCount": 0,
+                    "SummaryItems": [
+                        {
+                            "Count": 0,
+                            "RemainingCount": 0,
+                            "Version": "kqzxkfphazurbyzd"
+                        }
+                    ],
+                    "TotalCount": 0
+                },
+                "LastStatus": "jmdibahgbbftovju",
+                "LastStatusMessage": "tggplwflmbuesucb",
+                "LastStatusUpdateTime": "plndwwytlwiemchy",
+                "TypeName": "yonhbqbfcuabmrdw"
+            }
+        ],
+        "result_key": "InventoryDeletions"
+    },
+    "meta": {
+        "start": 1711116658.336445,
+        "end": 1711116664.774126,
+        "duration": 6.437691926956177,
+        "service": "ssm",
+        "type": "inventory_deletions"
+    }
+}

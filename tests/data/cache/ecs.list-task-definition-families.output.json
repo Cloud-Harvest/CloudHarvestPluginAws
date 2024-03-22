@@ -1,0 +1,41 @@
+{
+    "input": {
+        "template": {
+            "familyPrefix": "",
+            "status": "ACTIVE",
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "required": [],
+        "md5": "d1ab0c9cdfdbfe0a6128c3ac50ab3fec",
+        "boto_command": "list_task_definition_families",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            "String"
+        ],
+        "required": [],
+        "md5": "fd4f358298e5de180cf753e26dbd1381",
+        "randomized": [
+            "rkhkeziqtkmjtxgl",
+            "jvoubbnywpxoscli",
+            "zdyplmpwkkilteld",
+            "jmjstocdksgqphut",
+            "aovjanhtsayhbehw",
+            "orhhvmdhldztbemj",
+            "nedgcuvqmpvtvajo",
+            "qywfftcazksryjtm",
+            "kdkyyaoikeltokdv",
+            "pjupasqcbhlmwdro"
+        ],
+        "result_key": "families"
+    },
+    "meta": {
+        "start": 1711115694.182661,
+        "end": 1711115700.663803,
+        "duration": 6.481152057647705,
+        "service": "ecs",
+        "type": "task_definition_families"
+    }
+}

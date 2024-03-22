@@ -1,0 +1,570 @@
+{
+    "input": {
+        "template": {
+            "DBInstanceIdentifier": "",
+            "DBSnapshotIdentifier": "",
+            "SnapshotType": "",
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxRecords": 0,
+            "Marker": "",
+            "IncludeShared": true,
+            "IncludePublic": true,
+            "DbiResourceId": ""
+        },
+        "required": [],
+        "md5": "7c69d3c51bbbd54909256446043774de",
+        "boto_command": "describe_db_snapshots",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "DBSnapshotIdentifier": "DBSnapshotIdentifier",
+                "DBInstanceIdentifier": "DBInstanceIdentifier",
+                "SnapshotCreateTime": "1970-01-01T00:00:00",
+                "Engine": "Engine",
+                "AllocatedStorage": 0,
+                "Status": "Status",
+                "Port": 0,
+                "AvailabilityZone": "AvailabilityZone",
+                "VpcId": "VpcId",
+                "InstanceCreateTime": "1970-01-01T00:00:00",
+                "MasterUsername": "MasterUsername",
+                "EngineVersion": "EngineVersion",
+                "LicenseModel": "LicenseModel",
+                "SnapshotType": "SnapshotType",
+                "Iops": 0,
+                "OptionGroupName": "OptionGroupName",
+                "PercentProgress": 0,
+                "SourceRegion": "SourceRegion",
+                "SourceDBSnapshotIdentifier": "SourceDBSnapshotIdentifier",
+                "StorageType": "StorageType",
+                "TdeCredentialArn": "TdeCredentialArn",
+                "Encrypted": true,
+                "KmsKeyId": "KmsKeyId",
+                "DBSnapshotArn": "DBSnapshotArn",
+                "Timezone": "Timezone",
+                "IAMDatabaseAuthenticationEnabled": true,
+                "ProcessorFeatures": [
+                    {
+                        "Name": "Name",
+                        "Value": "Value"
+                    }
+                ],
+                "DbiResourceId": "DbiResourceId",
+                "TagList": [
+                    {
+                        "Key": "Key",
+                        "Value": "Value"
+                    }
+                ],
+                "OriginalSnapshotCreateTime": "1970-01-01T00:00:00",
+                "SnapshotDatabaseTime": "1970-01-01T00:00:00",
+                "SnapshotTarget": "SnapshotTarget",
+                "StorageThroughput": 0,
+                "DBSystemId": "DBSystemId",
+                "DedicatedLogVolume": true,
+                "MultiTenant": true
+            }
+        ],
+        "required": [],
+        "md5": "9f97eb75d5dee873543c2d89afbddcdb",
+        "randomized": [
+            {
+                "AllocatedStorage": 0,
+                "AvailabilityZone": "mgjsutbnmsbalhsc",
+                "DBInstanceIdentifier": "vowstowhxfkokfts",
+                "DBSnapshotArn": "ddeyoasifhahsabg",
+                "DBSnapshotIdentifier": "uwydtxqkfsxzdrpj",
+                "DBSystemId": "oeldggwdmzplaotr",
+                "DbiResourceId": "wdacwbfutmpguddb",
+                "DedicatedLogVolume": true,
+                "Encrypted": true,
+                "Engine": "scywptxqwyflccnw",
+                "EngineVersion": "ttlkgwljvasctzun",
+                "IAMDatabaseAuthenticationEnabled": true,
+                "InstanceCreateTime": "bgqgrfesdvcgkqsh",
+                "Iops": 0,
+                "KmsKeyId": "wuptnmntverkomne",
+                "LicenseModel": "aalroninsidrumgu",
+                "MasterUsername": "xivtanwmyldlzyaj",
+                "MultiTenant": true,
+                "OptionGroupName": "dvkboohbcexzexub",
+                "OriginalSnapshotCreateTime": "ahsfcyegyajgrbve",
+                "PercentProgress": 0,
+                "Port": 0,
+                "ProcessorFeatures": [
+                    {
+                        "Name": "spnmpfeuciyoswtc",
+                        "Value": "veclababkbuneodk"
+                    }
+                ],
+                "SnapshotCreateTime": "fnejkyukwxiwrahw",
+                "SnapshotDatabaseTime": "ilcgcuupuzuphjrh",
+                "SnapshotTarget": "nzzcdoyuwfyysrka",
+                "SnapshotType": "jyuvvvkbhrhlhfge",
+                "SourceDBSnapshotIdentifier": "ozugogjtefmfledz",
+                "SourceRegion": "bbuaiaqoeziihqbr",
+                "Status": "xxekmbfhmthetkwc",
+                "StorageThroughput": 0,
+                "StorageType": "udqcefwzcjcibzsj",
+                "TagList": [
+                    {
+                        "Key": "fflhyymfawxyrwjq",
+                        "Value": "mvhcfxiagmmgmfdu"
+                    }
+                ],
+                "TdeCredentialArn": "abeoyivbvmokxkzn",
+                "Timezone": "lyfckpzwzqetggyb",
+                "VpcId": "znbfvreoxushpuep"
+            },
+            {
+                "AllocatedStorage": 0,
+                "AvailabilityZone": "mbwwdmjgpybzsngz",
+                "DBInstanceIdentifier": "bgaurxszgysbbeki",
+                "DBSnapshotArn": "rnhevfrrkddredsx",
+                "DBSnapshotIdentifier": "fnbdzmnuskmxfulx",
+                "DBSystemId": "nlczsxawwivvjpzi",
+                "DbiResourceId": "foatnycokxqbbqzu",
+                "DedicatedLogVolume": true,
+                "Encrypted": true,
+                "Engine": "gvxrygicxzjirvlh",
+                "EngineVersion": "diejxjkqyqhuinpk",
+                "IAMDatabaseAuthenticationEnabled": true,
+                "InstanceCreateTime": "dzhknaouuhttfdde",
+                "Iops": 0,
+                "KmsKeyId": "qgiczbalsdikemeo",
+                "LicenseModel": "szshwkjjmneutobf",
+                "MasterUsername": "nkizbwkplgvcguoj",
+                "MultiTenant": true,
+                "OptionGroupName": "uipizjweqpsogznl",
+                "OriginalSnapshotCreateTime": "poczcaectyrsurnn",
+                "PercentProgress": 0,
+                "Port": 0,
+                "ProcessorFeatures": [
+                    {
+                        "Name": "hgcuzeutugrodxns",
+                        "Value": "rkxdmmsovmynzivv"
+                    }
+                ],
+                "SnapshotCreateTime": "brxuddyupiqruzln",
+                "SnapshotDatabaseTime": "lpcaxdcqoshhfjbm",
+                "SnapshotTarget": "mzhvckaclghnxqxi",
+                "SnapshotType": "rcksrnxzzuuwwhid",
+                "SourceDBSnapshotIdentifier": "hqlrgmdrppkjezvm",
+                "SourceRegion": "htyqewfizlzzghbw",
+                "Status": "nfjpzgucdaahmxpe",
+                "StorageThroughput": 0,
+                "StorageType": "nbnvixkpguexfbvr",
+                "TagList": [
+                    {
+                        "Key": "ztzqzrldmonewhbt",
+                        "Value": "yrcxfmoowmldfcys"
+                    }
+                ],
+                "TdeCredentialArn": "ohyvkspohwmjtohu",
+                "Timezone": "nnvuzkjjmzgdqrxf",
+                "VpcId": "gzqvgerzakvjqcvb"
+            },
+            {
+                "AllocatedStorage": 0,
+                "AvailabilityZone": "jxgljnxdsaqtmswo",
+                "DBInstanceIdentifier": "xhpelrgziysnxulc",
+                "DBSnapshotArn": "tytcdvxjdsptvadn",
+                "DBSnapshotIdentifier": "hdjxhzbndiowswzc",
+                "DBSystemId": "jnyddkclzdhuzuua",
+                "DbiResourceId": "nixvfyfxzkwxrvpc",
+                "DedicatedLogVolume": true,
+                "Encrypted": true,
+                "Engine": "oykpelthhjjourxz",
+                "EngineVersion": "ilhspnynywkzdbnn",
+                "IAMDatabaseAuthenticationEnabled": true,
+                "InstanceCreateTime": "dvycxepgoqurelxu",
+                "Iops": 0,
+                "KmsKeyId": "gmnapfdejkplcmyc",
+                "LicenseModel": "orkiexrexgdnpgtg",
+                "MasterUsername": "uhvxshabelmbrxqv",
+                "MultiTenant": true,
+                "OptionGroupName": "oaavuffvypgjlcai",
+                "OriginalSnapshotCreateTime": "nrrjnsmkmvjpqivl",
+                "PercentProgress": 0,
+                "Port": 0,
+                "ProcessorFeatures": [
+                    {
+                        "Name": "boudmywltckoykpq",
+                        "Value": "mnmbdtgxiwmipznl"
+                    }
+                ],
+                "SnapshotCreateTime": "nkgzovgpnjhapeaj",
+                "SnapshotDatabaseTime": "xbkqoaraibpxzrjz",
+                "SnapshotTarget": "nnxjmnherrrdfupg",
+                "SnapshotType": "ddwhoxfgeppccqnp",
+                "SourceDBSnapshotIdentifier": "lkqsrkvpawmlxlpb",
+                "SourceRegion": "xkisjksgjopuzfat",
+                "Status": "lpvxuirsnbgolorr",
+                "StorageThroughput": 0,
+                "StorageType": "kqksdbwposoitcpy",
+                "TagList": [
+                    {
+                        "Key": "qbltukgxdeqqvnak",
+                        "Value": "fuwfygtdavflxavk"
+                    }
+                ],
+                "TdeCredentialArn": "regxcglalvrlmckn",
+                "Timezone": "xxmivqeslitoqxlv",
+                "VpcId": "lnwssrpswcjmgnjh"
+            },
+            {
+                "AllocatedStorage": 0,
+                "AvailabilityZone": "acjhxnhznxldofml",
+                "DBInstanceIdentifier": "ccebjncpqgjeyhzl",
+                "DBSnapshotArn": "uxovzwqrbszybnae",
+                "DBSnapshotIdentifier": "uebcsmbtfhalemvp",
+                "DBSystemId": "yllqrypidbnipepa",
+                "DbiResourceId": "zfquyblxpjacixph",
+                "DedicatedLogVolume": true,
+                "Encrypted": true,
+                "Engine": "pawjquencqhtrgwc",
+                "EngineVersion": "rdrevzeilkjzvbzx",
+                "IAMDatabaseAuthenticationEnabled": true,
+                "InstanceCreateTime": "yvaaxajgeqxgryid",
+                "Iops": 0,
+                "KmsKeyId": "kfcnljwyrgqltjla",
+                "LicenseModel": "idpidobpkrnflpjt",
+                "MasterUsername": "abjuxyvwfmiyzlcx",
+                "MultiTenant": true,
+                "OptionGroupName": "wafgkcsxmuxnwzxa",
+                "OriginalSnapshotCreateTime": "pnwekjudkbdtmhli",
+                "PercentProgress": 0,
+                "Port": 0,
+                "ProcessorFeatures": [
+                    {
+                        "Name": "fslczlmuuzwjuqaw",
+                        "Value": "hvjzhetohqpaqmmp"
+                    }
+                ],
+                "SnapshotCreateTime": "urevqqpubyookhgj",
+                "SnapshotDatabaseTime": "txlekqpyeikslfuz",
+                "SnapshotTarget": "opgnbbneghnguxmv",
+                "SnapshotType": "vnowmrydtbajsajg",
+                "SourceDBSnapshotIdentifier": "vbnfqwbjwpuysdzb",
+                "SourceRegion": "omaddsahalfvilul",
+                "Status": "qvgwdgdcmobkhiyl",
+                "StorageThroughput": 0,
+                "StorageType": "wjiddzorghxbbwuj",
+                "TagList": [
+                    {
+                        "Key": "vhldafmfxbpjoznw",
+                        "Value": "suanjsytemmkmkmm"
+                    }
+                ],
+                "TdeCredentialArn": "rlllnrsyhzqryqlo",
+                "Timezone": "mrqkuzfsozuezaws",
+                "VpcId": "kpguiymafizysxgy"
+            },
+            {
+                "AllocatedStorage": 0,
+                "AvailabilityZone": "ojpxdyqveugncupr",
+                "DBInstanceIdentifier": "noxoxgoatqvlfjao",
+                "DBSnapshotArn": "xznfrszvpqyechpb",
+                "DBSnapshotIdentifier": "yltrtcvowefkykuj",
+                "DBSystemId": "ctcxvcodnmfjsesu",
+                "DbiResourceId": "pcazrkynyubtkckv",
+                "DedicatedLogVolume": true,
+                "Encrypted": true,
+                "Engine": "mpvjslttussqodxj",
+                "EngineVersion": "tucjyvhkmpsnarrb",
+                "IAMDatabaseAuthenticationEnabled": true,
+                "InstanceCreateTime": "ozxoclyejcucdcqe",
+                "Iops": 0,
+                "KmsKeyId": "bxustnywrneudixy",
+                "LicenseModel": "ucgyohyhkgwcicsu",
+                "MasterUsername": "zsulvlbodtcihcjj",
+                "MultiTenant": true,
+                "OptionGroupName": "pvfsfewhzalxerkf",
+                "OriginalSnapshotCreateTime": "ykyvqtipfwldsflo",
+                "PercentProgress": 0,
+                "Port": 0,
+                "ProcessorFeatures": [
+                    {
+                        "Name": "bshrnwyizeqioclp",
+                        "Value": "ylhrffcgolagdkjo"
+                    }
+                ],
+                "SnapshotCreateTime": "payscdyfiytoywwm",
+                "SnapshotDatabaseTime": "hqevbwytcspomlja",
+                "SnapshotTarget": "dejoagukoufpqnbv",
+                "SnapshotType": "vtxnqipxospomqnl",
+                "SourceDBSnapshotIdentifier": "zhbcxeqvwqcjpteu",
+                "SourceRegion": "wsbtkqdymngdynpw",
+                "Status": "nzcjvoepqjxaottp",
+                "StorageThroughput": 0,
+                "StorageType": "wknpuojxizmymtvh",
+                "TagList": [
+                    {
+                        "Key": "yityuirfvsdzgkeh",
+                        "Value": "fzgribjiezroackz"
+                    }
+                ],
+                "TdeCredentialArn": "rsvihkzlgaotutvw",
+                "Timezone": "xhguenlnbycclflt",
+                "VpcId": "edukdehfcskybybt"
+            },
+            {
+                "AllocatedStorage": 0,
+                "AvailabilityZone": "mpujcufmjkgstjjc",
+                "DBInstanceIdentifier": "khzsrdlmvwxwpzic",
+                "DBSnapshotArn": "agqytzkncstaxnhq",
+                "DBSnapshotIdentifier": "qqdqhqcoudhgjrnc",
+                "DBSystemId": "ccohxdvmyuhfurey",
+                "DbiResourceId": "fcnmesgbrzelmont",
+                "DedicatedLogVolume": true,
+                "Encrypted": true,
+                "Engine": "vwgthrgjgoeljokn",
+                "EngineVersion": "zwvtraigvzpaytvp",
+                "IAMDatabaseAuthenticationEnabled": true,
+                "InstanceCreateTime": "yxgiglsvomeeiece",
+                "Iops": 0,
+                "KmsKeyId": "mgyeobuyndunnbsb",
+                "LicenseModel": "nbdrhwuaoitwxdwo",
+                "MasterUsername": "tdptmjvlqqlhzieq",
+                "MultiTenant": true,
+                "OptionGroupName": "jiepjbqwmsjdnsgw",
+                "OriginalSnapshotCreateTime": "rfdxjmzaxtsvxcbe",
+                "PercentProgress": 0,
+                "Port": 0,
+                "ProcessorFeatures": [
+                    {
+                        "Name": "mhbbxladxsuibgwm",
+                        "Value": "udlwpnzujyitmann"
+                    }
+                ],
+                "SnapshotCreateTime": "lmhvwiqkkyeeivmc",
+                "SnapshotDatabaseTime": "kkrjulpoklwaakza",
+                "SnapshotTarget": "nosmcpkgtxhttsav",
+                "SnapshotType": "vpexawhpjqfnnqnw",
+                "SourceDBSnapshotIdentifier": "folvevdablngaqpa",
+                "SourceRegion": "xhdobeowhcdxyher",
+                "Status": "wkbtplxielrnhmfx",
+                "StorageThroughput": 0,
+                "StorageType": "abgvkqaatfwjqdum",
+                "TagList": [
+                    {
+                        "Key": "frowzyspcpojdszf",
+                        "Value": "qwogyquiuqdtkqrr"
+                    }
+                ],
+                "TdeCredentialArn": "cabjooacfevsgadw",
+                "Timezone": "ssgeocanbcqmutex",
+                "VpcId": "otlornnfdaazbzjk"
+            },
+            {
+                "AllocatedStorage": 0,
+                "AvailabilityZone": "qkjtoyeinxlstcqm",
+                "DBInstanceIdentifier": "rjeaevchfnpkvwtg",
+                "DBSnapshotArn": "binefkgwhdpvowes",
+                "DBSnapshotIdentifier": "frcbxydmucskrrpl",
+                "DBSystemId": "vjhseigrpvlmiucc",
+                "DbiResourceId": "imsamkwungebsdxz",
+                "DedicatedLogVolume": true,
+                "Encrypted": true,
+                "Engine": "chwortqdjikocmgi",
+                "EngineVersion": "yqwofvnbbaqbuyrf",
+                "IAMDatabaseAuthenticationEnabled": true,
+                "InstanceCreateTime": "bkjmsdscudzncugn",
+                "Iops": 0,
+                "KmsKeyId": "rvisznmwyqgkfwhx",
+                "LicenseModel": "dgprutjifebdozca",
+                "MasterUsername": "vjeugjsyjrtxqnic",
+                "MultiTenant": true,
+                "OptionGroupName": "fidlqhqiuabgfldn",
+                "OriginalSnapshotCreateTime": "mcrqlqeyokzcuetu",
+                "PercentProgress": 0,
+                "Port": 0,
+                "ProcessorFeatures": [
+                    {
+                        "Name": "iojxuvoifswvhcet",
+                        "Value": "ldogthnbqnxvrfic"
+                    }
+                ],
+                "SnapshotCreateTime": "zufvwpjhpmhocnap",
+                "SnapshotDatabaseTime": "dujpcyscsbpavsiu",
+                "SnapshotTarget": "gwpamrghzfawrvyr",
+                "SnapshotType": "zhiqnkffgjuldssr",
+                "SourceDBSnapshotIdentifier": "gahkwcfrkcqsiian",
+                "SourceRegion": "zgmdgyutwejkqcpz",
+                "Status": "titmqrfgqjgbzhqf",
+                "StorageThroughput": 0,
+                "StorageType": "ihkgzitgylqjkcsn",
+                "TagList": [
+                    {
+                        "Key": "dbpcsgkuxrxuohsh",
+                        "Value": "ldzaskiolmouqpjp"
+                    }
+                ],
+                "TdeCredentialArn": "sgvibkqylejsdzug",
+                "Timezone": "jjceqvanwyjiaich",
+                "VpcId": "ljwnkpcocwpxmmar"
+            },
+            {
+                "AllocatedStorage": 0,
+                "AvailabilityZone": "jwuicdumlxltdnfd",
+                "DBInstanceIdentifier": "eyeldndctulrtaoe",
+                "DBSnapshotArn": "ksdulofxpxhhqnwu",
+                "DBSnapshotIdentifier": "pynciknzawmvjfek",
+                "DBSystemId": "qfqvmwrplcwrqggx",
+                "DbiResourceId": "meegkkbfzlqafpfm",
+                "DedicatedLogVolume": true,
+                "Encrypted": true,
+                "Engine": "bladkpocahmzgyhb",
+                "EngineVersion": "tdmqnrnnfyreipgl",
+                "IAMDatabaseAuthenticationEnabled": true,
+                "InstanceCreateTime": "ofttmcoytnhnocas",
+                "Iops": 0,
+                "KmsKeyId": "lzdjlvfqzhsforxd",
+                "LicenseModel": "uovwqtjnitndjogk",
+                "MasterUsername": "doapagcgaomsvevj",
+                "MultiTenant": true,
+                "OptionGroupName": "iulzwribqpvbzfhk",
+                "OriginalSnapshotCreateTime": "tovrihzjqcdwbjtw",
+                "PercentProgress": 0,
+                "Port": 0,
+                "ProcessorFeatures": [
+                    {
+                        "Name": "hkcwzkpjhlaxrksa",
+                        "Value": "ckwmzvxywqoyxvyo"
+                    }
+                ],
+                "SnapshotCreateTime": "kcjvqyxvuvxkvrva",
+                "SnapshotDatabaseTime": "dxcltiegppfokwxx",
+                "SnapshotTarget": "kynzyljgtdojzxkf",
+                "SnapshotType": "rengueyhfmsypmzm",
+                "SourceDBSnapshotIdentifier": "iyhpvewfpyuxsysm",
+                "SourceRegion": "vqbfjvzrprusofrb",
+                "Status": "papymzaxfmwndfjh",
+                "StorageThroughput": 0,
+                "StorageType": "nqosmqpusengbkvk",
+                "TagList": [
+                    {
+                        "Key": "stfuzhbbskgxvrpa",
+                        "Value": "wemdcuvglhbygkwr"
+                    }
+                ],
+                "TdeCredentialArn": "uymepncjahzpiwrw",
+                "Timezone": "kqblvhkxqxlvhavf",
+                "VpcId": "vpuxtbiulpkghclv"
+            },
+            {
+                "AllocatedStorage": 0,
+                "AvailabilityZone": "jxchfvnxejrvqhsm",
+                "DBInstanceIdentifier": "gonryrhpwgoilxly",
+                "DBSnapshotArn": "bvfybjphsrqspfbh",
+                "DBSnapshotIdentifier": "iyvuzkqxluczglhk",
+                "DBSystemId": "bgwsjviekinuthvt",
+                "DbiResourceId": "byfydtdtpknnxfys",
+                "DedicatedLogVolume": true,
+                "Encrypted": true,
+                "Engine": "mobfsysfxrrexqxc",
+                "EngineVersion": "ghelwkuhgjhzzuyf",
+                "IAMDatabaseAuthenticationEnabled": true,
+                "InstanceCreateTime": "ferexfxmbwyggelf",
+                "Iops": 0,
+                "KmsKeyId": "cnlojlbktjptxcwg",
+                "LicenseModel": "zxngjzvyawvhvgml",
+                "MasterUsername": "nyhjfdsaemteyopr",
+                "MultiTenant": true,
+                "OptionGroupName": "ngajrhpufdocqdtb",
+                "OriginalSnapshotCreateTime": "zcslltwehyycgyyz",
+                "PercentProgress": 0,
+                "Port": 0,
+                "ProcessorFeatures": [
+                    {
+                        "Name": "afobhsrjoiguljvg",
+                        "Value": "qnuzvoaqziyxavbs"
+                    }
+                ],
+                "SnapshotCreateTime": "dpowswpkbcagjxxh",
+                "SnapshotDatabaseTime": "lswlixjpfuhbquxw",
+                "SnapshotTarget": "euiitwworoekibyn",
+                "SnapshotType": "qbzfdzbnocfmnags",
+                "SourceDBSnapshotIdentifier": "hzhpczzchyppuvre",
+                "SourceRegion": "voyklxgzypvrjyie",
+                "Status": "ycvhwljskpmotjrj",
+                "StorageThroughput": 0,
+                "StorageType": "zpfbmpbpsvcyzqjk",
+                "TagList": [
+                    {
+                        "Key": "gaurvmkpldacakfj",
+                        "Value": "vgkxygrafhlajxpv"
+                    }
+                ],
+                "TdeCredentialArn": "edbqytqulajprpms",
+                "Timezone": "uqlgwyxhppyaqyvq",
+                "VpcId": "hcxjcuusqoyuxwus"
+            },
+            {
+                "AllocatedStorage": 0,
+                "AvailabilityZone": "twgspkugumjpncdb",
+                "DBInstanceIdentifier": "dbyqlulqiwbmcbpj",
+                "DBSnapshotArn": "idjbijtvqnjuxfcd",
+                "DBSnapshotIdentifier": "catgrvkgabprvqob",
+                "DBSystemId": "nvqvetjngkbsuako",
+                "DbiResourceId": "xvbciixysttgfqsz",
+                "DedicatedLogVolume": true,
+                "Encrypted": true,
+                "Engine": "pmyhltscgomroznr",
+                "EngineVersion": "hbylyfivmixzkggk",
+                "IAMDatabaseAuthenticationEnabled": true,
+                "InstanceCreateTime": "umoefgugklzqgsdz",
+                "Iops": 0,
+                "KmsKeyId": "neyaentvpdkndowb",
+                "LicenseModel": "gjdndgjojvpvmqzz",
+                "MasterUsername": "woxsyxrcwfyrpujf",
+                "MultiTenant": true,
+                "OptionGroupName": "mncugcvggdkldijn",
+                "OriginalSnapshotCreateTime": "uquwmhhwmrudnhfa",
+                "PercentProgress": 0,
+                "Port": 0,
+                "ProcessorFeatures": [
+                    {
+                        "Name": "fldxlckjgpsjfwsr",
+                        "Value": "zdnvklkwqzolqrtd"
+                    }
+                ],
+                "SnapshotCreateTime": "ygfhmrgjzjxfngjr",
+                "SnapshotDatabaseTime": "ltlrqsmsxwhcosnh",
+                "SnapshotTarget": "hnkkiffjxagerbdg",
+                "SnapshotType": "genjjsfxnacelbkd",
+                "SourceDBSnapshotIdentifier": "pzkrqqjipdqkegmv",
+                "SourceRegion": "xmcwtvefsogjselk",
+                "Status": "bulmsglkebdktuea",
+                "StorageThroughput": 0,
+                "StorageType": "hfanjjwbzivgrwkn",
+                "TagList": [
+                    {
+                        "Key": "gqgfrrmazbskdwcg",
+                        "Value": "sfjgefsfhzwqwtau"
+                    }
+                ],
+                "TdeCredentialArn": "oycbrdlpwuallggb",
+                "Timezone": "vlrczxhslbbjxroe",
+                "VpcId": "ahgdfiomxqpnsvyg"
+            }
+        ],
+        "result_key": "DBSnapshots"
+    },
+    "meta": {
+        "start": 1711116411.94468,
+        "end": 1711116417.835671,
+        "duration": 5.891000986099243,
+        "service": "rds",
+        "type": "db_snapshots"
+    }
+}

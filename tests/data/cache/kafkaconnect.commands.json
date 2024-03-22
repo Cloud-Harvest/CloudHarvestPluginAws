@@ -1,0 +1,9 @@
+[
+    "kafkaconnect.describe-connector",
+    "kafkaconnect.describe-custom-plugin",
+    "kafkaconnect.describe-worker-configuration",
+    "kafkaconnect.list-connectors",
+    "kafkaconnect.list-custom-plugins",
+    "kafkaconnect.list-tags-for-resource",
+    "kafkaconnect.list-worker-configurations"
+]

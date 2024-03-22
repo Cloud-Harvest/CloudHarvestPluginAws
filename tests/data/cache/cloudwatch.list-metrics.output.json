@@ -1,0 +1,148 @@
+{
+    "input": {
+        "template": {
+            "Namespace": "",
+            "MetricName": "",
+            "Dimensions": [
+                {
+                    "Name": "",
+                    "Value": ""
+                }
+            ],
+            "NextToken": "",
+            "RecentlyActive": "PT3H",
+            "IncludeLinkedAccounts": true,
+            "OwningAccount": ""
+        },
+        "required": [],
+        "md5": "ad76554a031363a8fa4aa3d49378a3ac",
+        "boto_command": "list_metrics",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "Namespace": "Namespace",
+                "MetricName": "MetricName",
+                "Dimensions": [
+                    {
+                        "Name": "Name",
+                        "Value": "Value"
+                    }
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "270278f053acb84dc2323db9872ef584",
+        "randomized": [
+            {
+                "Dimensions": [
+                    {
+                        "Name": "wzfedidqjkggokev",
+                        "Value": "bctmuuidwchgetoa"
+                    }
+                ],
+                "MetricName": "vmzzxhytruavilve",
+                "Namespace": "tvcxobwoqdnnluuk"
+            },
+            {
+                "Dimensions": [
+                    {
+                        "Name": "ywjcgdzzfpzgkuic",
+                        "Value": "pxacmwajqrhqyhjm"
+                    }
+                ],
+                "MetricName": "yikvupfsjbdgziis",
+                "Namespace": "rzpnnvkuucngfqec"
+            },
+            {
+                "Dimensions": [
+                    {
+                        "Name": "irgiinzjanaskzzh",
+                        "Value": "ujadyoiclipmlugp"
+                    }
+                ],
+                "MetricName": "xfhiwsndctevkogx",
+                "Namespace": "suthdtggbpxfjzxx"
+            },
+            {
+                "Dimensions": [
+                    {
+                        "Name": "pyrgqomsqtictfju",
+                        "Value": "ykdahfdwixwnbmtg"
+                    }
+                ],
+                "MetricName": "qvsqevamkyjxiicu",
+                "Namespace": "xbogjxfvnwtuoqyh"
+            },
+            {
+                "Dimensions": [
+                    {
+                        "Name": "ptibivrtpjdkgsnw",
+                        "Value": "fitzsdyzzikrsgxo"
+                    }
+                ],
+                "MetricName": "qisfbvcckzfszcsx",
+                "Namespace": "glgcvchmgcsfyfoa"
+            },
+            {
+                "Dimensions": [
+                    {
+                        "Name": "kttketupukaxpfjo",
+                        "Value": "qzcnnwqgfhvipqxk"
+                    }
+                ],
+                "MetricName": "gsvuoidymtzaxoni",
+                "Namespace": "dxphrxmrivqrtwam"
+            },
+            {
+                "Dimensions": [
+                    {
+                        "Name": "ldnsmkmznmhrdhxb",
+                        "Value": "bgpgdrxmbksjvpaw"
+                    }
+                ],
+                "MetricName": "qjribqoabbxcfmou",
+                "Namespace": "rnhzfcustgczeltl"
+            },
+            {
+                "Dimensions": [
+                    {
+                        "Name": "mrtbnacxbrtzjeft",
+                        "Value": "knrbnnsqwofubnmq"
+                    }
+                ],
+                "MetricName": "wuhwqfbfjnoftntm",
+                "Namespace": "iuoybtdjfzitnknx"
+            },
+            {
+                "Dimensions": [
+                    {
+                        "Name": "grfffqymmbeylnao",
+                        "Value": "avokwidipltnxgge"
+                    }
+                ],
+                "MetricName": "caoosadbghmpzpzm",
+                "Namespace": "xonaraxoqtxgxncb"
+            },
+            {
+                "Dimensions": [
+                    {
+                        "Name": "exjaklpfxuxypcfg",
+                        "Value": "shmrdfreistmxcgd"
+                    }
+                ],
+                "MetricName": "qzdowdxzmmmpjefx",
+                "Namespace": "hnqpnocapmrhaycd"
+            }
+        ],
+        "result_key": "Metrics"
+    },
+    "meta": {
+        "start": 1711115395.24312,
+        "end": 1711115403.197546,
+        "duration": 7.954437017440796,
+        "service": "cloudwatch",
+        "type": "metrics"
+    }
+}

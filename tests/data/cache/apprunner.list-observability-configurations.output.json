@@ -1,0 +1,85 @@
+{
+    "input": {
+        "template": {
+            "ObservabilityConfigurationName": "",
+            "LatestOnly": true,
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "581e02984a7799e97e213b325e2c8731",
+        "boto_command": "list_observability_configurations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "ObservabilityConfigurationArn": "ObservabilityConfigurationArn",
+                "ObservabilityConfigurationName": "ObservabilityConfigurationName",
+                "ObservabilityConfigurationRevision": 0
+            }
+        ],
+        "required": [],
+        "md5": "b6c1e57efc2f9f717fc024c58c1b4c5e",
+        "randomized": [
+            {
+                "ObservabilityConfigurationArn": "jtjjuhcfmjjiwfnc",
+                "ObservabilityConfigurationName": "tvwfftaqierchids",
+                "ObservabilityConfigurationRevision": 0
+            },
+            {
+                "ObservabilityConfigurationArn": "xzialdudntguuvrv",
+                "ObservabilityConfigurationName": "antopnogupqxnihu",
+                "ObservabilityConfigurationRevision": 0
+            },
+            {
+                "ObservabilityConfigurationArn": "sgsvoovbrmgfqupc",
+                "ObservabilityConfigurationName": "tiyuifjtrlrhedhm",
+                "ObservabilityConfigurationRevision": 0
+            },
+            {
+                "ObservabilityConfigurationArn": "fktmtvzyroqdcztp",
+                "ObservabilityConfigurationName": "sgcljguitnvhkwwb",
+                "ObservabilityConfigurationRevision": 0
+            },
+            {
+                "ObservabilityConfigurationArn": "zorksslaqzlvsdtc",
+                "ObservabilityConfigurationName": "lraopqbiicvreuaw",
+                "ObservabilityConfigurationRevision": 0
+            },
+            {
+                "ObservabilityConfigurationArn": "nkmqcuhojxklxpxd",
+                "ObservabilityConfigurationName": "umbllxnbtrrfrnzh",
+                "ObservabilityConfigurationRevision": 0
+            },
+            {
+                "ObservabilityConfigurationArn": "fptvocaxgaecdcdy",
+                "ObservabilityConfigurationName": "tbodoudelsfylchd",
+                "ObservabilityConfigurationRevision": 0
+            },
+            {
+                "ObservabilityConfigurationArn": "inhswsobiyukvvhp",
+                "ObservabilityConfigurationName": "fzkaznhjobfgclaq",
+                "ObservabilityConfigurationRevision": 0
+            },
+            {
+                "ObservabilityConfigurationArn": "ymycjomusvoynczq",
+                "ObservabilityConfigurationName": "hojcbggrprrgbruh",
+                "ObservabilityConfigurationRevision": 0
+            },
+            {
+                "ObservabilityConfigurationArn": "rehauziqkjlztwgi",
+                "ObservabilityConfigurationName": "mffhbmxpcqxfxnnm",
+                "ObservabilityConfigurationRevision": 0
+            }
+        ],
+        "result_key": "ObservabilityConfigurationSummaryList"
+    },
+    "meta": {
+        "start": 1711115233.973002,
+        "end": 1711115241.594011,
+        "duration": 7.621017932891846,
+        "service": "apprunner",
+        "type": "observability_configurations"
+    }
+}

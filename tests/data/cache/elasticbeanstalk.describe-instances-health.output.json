@@ -1,0 +1,604 @@
+{
+    "input": {
+        "template": {
+            "EnvironmentName": "",
+            "EnvironmentId": "",
+            "AttributeNames": [
+                "HealthStatus"
+            ],
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "21537b0f19e2476994bf697a236ab381",
+        "boto_command": "describe_instances_health",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "InstanceId": "InstanceId",
+                "HealthStatus": "HealthStatus",
+                "Color": "Color",
+                "Causes": [
+                    "Cause"
+                ],
+                "LaunchedAt": "1970-01-01T00:00:00",
+                "ApplicationMetrics": {
+                    "Duration": 0,
+                    "RequestCount": 0,
+                    "StatusCodes": {
+                        "Status2xx": 0,
+                        "Status3xx": 0,
+                        "Status4xx": 0,
+                        "Status5xx": 0
+                    },
+                    "Latency": {
+                        "P999": 0.0,
+                        "P99": 0.0,
+                        "P95": 0.0,
+                        "P90": 0.0,
+                        "P85": 0.0,
+                        "P75": 0.0,
+                        "P50": 0.0,
+                        "P10": 0.0
+                    }
+                },
+                "System": {
+                    "CPUUtilization": {
+                        "User": 0.0,
+                        "Nice": 0.0,
+                        "System": 0.0,
+                        "Idle": 0.0,
+                        "IOWait": 0.0,
+                        "IRQ": 0.0,
+                        "SoftIRQ": 0.0,
+                        "Privileged": 0.0
+                    },
+                    "LoadAverage": [
+                        0.0
+                    ]
+                },
+                "Deployment": {
+                    "VersionLabel": "VersionLabel",
+                    "DeploymentId": 0,
+                    "Status": "Status",
+                    "DeploymentTime": "1970-01-01T00:00:00"
+                },
+                "AvailabilityZone": "AvailabilityZone",
+                "InstanceType": "InstanceType"
+            }
+        ],
+        "required": [],
+        "md5": "8402d8d82da7a67eb7e3e37918e41c1c",
+        "randomized": [
+            {
+                "ApplicationMetrics": {
+                    "Duration": 0,
+                    "Latency": {
+                        "P10": 0.0,
+                        "P50": 0.0,
+                        "P75": 0.0,
+                        "P85": 0.0,
+                        "P90": 0.0,
+                        "P95": 0.0,
+                        "P99": 0.0,
+                        "P999": 0.0
+                    },
+                    "RequestCount": 0,
+                    "StatusCodes": {
+                        "Status2xx": 0,
+                        "Status3xx": 0,
+                        "Status4xx": 0,
+                        "Status5xx": 0
+                    }
+                },
+                "AvailabilityZone": "tldalfinoomlsmzc",
+                "Causes": [
+                    "nrgncuvdtjqpmxzs"
+                ],
+                "Color": "ilhiejknehaawyjb",
+                "Deployment": {
+                    "DeploymentId": 0,
+                    "DeploymentTime": "wxnyecgojvqutadj",
+                    "Status": "hyvlminausxxdltz",
+                    "VersionLabel": "gmbpxyludcxldpmx"
+                },
+                "HealthStatus": "crreyjjbyjrgiwdl",
+                "InstanceId": "tlwrsmksegputike",
+                "InstanceType": "nkvglsbqbmebuxud",
+                "LaunchedAt": "bgyimssazourqlcj",
+                "System": {
+                    "CPUUtilization": {
+                        "IOWait": 0.0,
+                        "IRQ": 0.0,
+                        "Idle": 0.0,
+                        "Nice": 0.0,
+                        "Privileged": 0.0,
+                        "SoftIRQ": 0.0,
+                        "System": 0.0,
+                        "User": 0.0
+                    },
+                    "LoadAverage": [
+                        0.0
+                    ]
+                }
+            },
+            {
+                "ApplicationMetrics": {
+                    "Duration": 0,
+                    "Latency": {
+                        "P10": 0.0,
+                        "P50": 0.0,
+                        "P75": 0.0,
+                        "P85": 0.0,
+                        "P90": 0.0,
+                        "P95": 0.0,
+                        "P99": 0.0,
+                        "P999": 0.0
+                    },
+                    "RequestCount": 0,
+                    "StatusCodes": {
+                        "Status2xx": 0,
+                        "Status3xx": 0,
+                        "Status4xx": 0,
+                        "Status5xx": 0
+                    }
+                },
+                "AvailabilityZone": "pbjhfwlyknuutame",
+                "Causes": [
+                    "lmixhggxovtxgzfj"
+                ],
+                "Color": "jlcfqxgwvgqsyxmn",
+                "Deployment": {
+                    "DeploymentId": 0,
+                    "DeploymentTime": "xmzugwnwrfkikums",
+                    "Status": "fsaafefkkkcggxny",
+                    "VersionLabel": "fxmowdnymdtcdgsp"
+                },
+                "HealthStatus": "ndovigtnvtkhcicp",
+                "InstanceId": "eekdjngwrzpvvrzs",
+                "InstanceType": "xymnmhgbazhsofbd",
+                "LaunchedAt": "ajrcmaubykzbmftf",
+                "System": {
+                    "CPUUtilization": {
+                        "IOWait": 0.0,
+                        "IRQ": 0.0,
+                        "Idle": 0.0,
+                        "Nice": 0.0,
+                        "Privileged": 0.0,
+                        "SoftIRQ": 0.0,
+                        "System": 0.0,
+                        "User": 0.0
+                    },
+                    "LoadAverage": [
+                        0.0
+                    ]
+                }
+            },
+            {
+                "ApplicationMetrics": {
+                    "Duration": 0,
+                    "Latency": {
+                        "P10": 0.0,
+                        "P50": 0.0,
+                        "P75": 0.0,
+                        "P85": 0.0,
+                        "P90": 0.0,
+                        "P95": 0.0,
+                        "P99": 0.0,
+                        "P999": 0.0
+                    },
+                    "RequestCount": 0,
+                    "StatusCodes": {
+                        "Status2xx": 0,
+                        "Status3xx": 0,
+                        "Status4xx": 0,
+                        "Status5xx": 0
+                    }
+                },
+                "AvailabilityZone": "mtdmiuzfowkhmovv",
+                "Causes": [
+                    "oxurgkmxjvgkbytr"
+                ],
+                "Color": "edadoiytcfgarooq",
+                "Deployment": {
+                    "DeploymentId": 0,
+                    "DeploymentTime": "peqjbhcnreblzfis",
+                    "Status": "rjxrgffbktoxnalp",
+                    "VersionLabel": "plregdqikuohlrqo"
+                },
+                "HealthStatus": "hfoqycrxpapszkvw",
+                "InstanceId": "pqnmdrdpqedxlfvi",
+                "InstanceType": "stofwxusbqhdsswq",
+                "LaunchedAt": "jtmizfrymguvxupw",
+                "System": {
+                    "CPUUtilization": {
+                        "IOWait": 0.0,
+                        "IRQ": 0.0,
+                        "Idle": 0.0,
+                        "Nice": 0.0,
+                        "Privileged": 0.0,
+                        "SoftIRQ": 0.0,
+                        "System": 0.0,
+                        "User": 0.0
+                    },
+                    "LoadAverage": [
+                        0.0
+                    ]
+                }
+            },
+            {
+                "ApplicationMetrics": {
+                    "Duration": 0,
+                    "Latency": {
+                        "P10": 0.0,
+                        "P50": 0.0,
+                        "P75": 0.0,
+                        "P85": 0.0,
+                        "P90": 0.0,
+                        "P95": 0.0,
+                        "P99": 0.0,
+                        "P999": 0.0
+                    },
+                    "RequestCount": 0,
+                    "StatusCodes": {
+                        "Status2xx": 0,
+                        "Status3xx": 0,
+                        "Status4xx": 0,
+                        "Status5xx": 0
+                    }
+                },
+                "AvailabilityZone": "htxcorfhcwtnqosd",
+                "Causes": [
+                    "mxhbyshrtnmwqftp"
+                ],
+                "Color": "fzndnwlnbbzndrxj",
+                "Deployment": {
+                    "DeploymentId": 0,
+                    "DeploymentTime": "qzunhwwivuejdpji",
+                    "Status": "qykusedilyommdqz",
+                    "VersionLabel": "pnukdbzpbnhhppfq"
+                },
+                "HealthStatus": "hbcrtwoinzjbsely",
+                "InstanceId": "vznxhwgfzvwzdrhn",
+                "InstanceType": "tybtxudtrozozoet",
+                "LaunchedAt": "cwkgdymrkfcbavth",
+                "System": {
+                    "CPUUtilization": {
+                        "IOWait": 0.0,
+                        "IRQ": 0.0,
+                        "Idle": 0.0,
+                        "Nice": 0.0,
+                        "Privileged": 0.0,
+                        "SoftIRQ": 0.0,
+                        "System": 0.0,
+                        "User": 0.0
+                    },
+                    "LoadAverage": [
+                        0.0
+                    ]
+                }
+            },
+            {
+                "ApplicationMetrics": {
+                    "Duration": 0,
+                    "Latency": {
+                        "P10": 0.0,
+                        "P50": 0.0,
+                        "P75": 0.0,
+                        "P85": 0.0,
+                        "P90": 0.0,
+                        "P95": 0.0,
+                        "P99": 0.0,
+                        "P999": 0.0
+                    },
+                    "RequestCount": 0,
+                    "StatusCodes": {
+                        "Status2xx": 0,
+                        "Status3xx": 0,
+                        "Status4xx": 0,
+                        "Status5xx": 0
+                    }
+                },
+                "AvailabilityZone": "rzgqljbyfodumkbu",
+                "Causes": [
+                    "narnzxaagxmrbipn"
+                ],
+                "Color": "bbrwikvjjanruayx",
+                "Deployment": {
+                    "DeploymentId": 0,
+                    "DeploymentTime": "bdumkojnwgwhzrqw",
+                    "Status": "wzbdcmaxcqxkaspf",
+                    "VersionLabel": "qgbznjtblfbyinfw"
+                },
+                "HealthStatus": "wdizvefjudpwvijp",
+                "InstanceId": "gjmqmgcktazkcmcd",
+                "InstanceType": "epjzwluqrijcmqzx",
+                "LaunchedAt": "hqgihuerzzjpmurk",
+                "System": {
+                    "CPUUtilization": {
+                        "IOWait": 0.0,
+                        "IRQ": 0.0,
+                        "Idle": 0.0,
+                        "Nice": 0.0,
+                        "Privileged": 0.0,
+                        "SoftIRQ": 0.0,
+                        "System": 0.0,
+                        "User": 0.0
+                    },
+                    "LoadAverage": [
+                        0.0
+                    ]
+                }
+            },
+            {
+                "ApplicationMetrics": {
+                    "Duration": 0,
+                    "Latency": {
+                        "P10": 0.0,
+                        "P50": 0.0,
+                        "P75": 0.0,
+                        "P85": 0.0,
+                        "P90": 0.0,
+                        "P95": 0.0,
+                        "P99": 0.0,
+                        "P999": 0.0
+                    },
+                    "RequestCount": 0,
+                    "StatusCodes": {
+                        "Status2xx": 0,
+                        "Status3xx": 0,
+                        "Status4xx": 0,
+                        "Status5xx": 0
+                    }
+                },
+                "AvailabilityZone": "jzmohaiccdzvyjaf",
+                "Causes": [
+                    "jhylhihxvvshoqob"
+                ],
+                "Color": "azyckfwbpsxykqmd",
+                "Deployment": {
+                    "DeploymentId": 0,
+                    "DeploymentTime": "xfapzxvlpfmzcuui",
+                    "Status": "itohvnjmifwfpbwm",
+                    "VersionLabel": "cqrmgjsbgbalnizl"
+                },
+                "HealthStatus": "iqpzfdztugmxnlnw",
+                "InstanceId": "uyinzlisgboaiscr",
+                "InstanceType": "whigyeczttakyoyk",
+                "LaunchedAt": "zkfsdmbuasygdjsi",
+                "System": {
+                    "CPUUtilization": {
+                        "IOWait": 0.0,
+                        "IRQ": 0.0,
+                        "Idle": 0.0,
+                        "Nice": 0.0,
+                        "Privileged": 0.0,
+                        "SoftIRQ": 0.0,
+                        "System": 0.0,
+                        "User": 0.0
+                    },
+                    "LoadAverage": [
+                        0.0
+                    ]
+                }
+            },
+            {
+                "ApplicationMetrics": {
+                    "Duration": 0,
+                    "Latency": {
+                        "P10": 0.0,
+                        "P50": 0.0,
+                        "P75": 0.0,
+                        "P85": 0.0,
+                        "P90": 0.0,
+                        "P95": 0.0,
+                        "P99": 0.0,
+                        "P999": 0.0
+                    },
+                    "RequestCount": 0,
+                    "StatusCodes": {
+                        "Status2xx": 0,
+                        "Status3xx": 0,
+                        "Status4xx": 0,
+                        "Status5xx": 0
+                    }
+                },
+                "AvailabilityZone": "vtjcytqqxfixuobg",
+                "Causes": [
+                    "znenousblgvyxpfx"
+                ],
+                "Color": "usblwumzwbbkyjza",
+                "Deployment": {
+                    "DeploymentId": 0,
+                    "DeploymentTime": "ebwcspjnrltswnqv",
+                    "Status": "jnciavgqvedhlgfp",
+                    "VersionLabel": "qukskmkrdviobkdq"
+                },
+                "HealthStatus": "nikibjiwwxrexsfv",
+                "InstanceId": "wbfcabodhtdxiezc",
+                "InstanceType": "qjbqlpqjqrpmhieq",
+                "LaunchedAt": "agkielcaywbrklbx",
+                "System": {
+                    "CPUUtilization": {
+                        "IOWait": 0.0,
+                        "IRQ": 0.0,
+                        "Idle": 0.0,
+                        "Nice": 0.0,
+                        "Privileged": 0.0,
+                        "SoftIRQ": 0.0,
+                        "System": 0.0,
+                        "User": 0.0
+                    },
+                    "LoadAverage": [
+                        0.0
+                    ]
+                }
+            },
+            {
+                "ApplicationMetrics": {
+                    "Duration": 0,
+                    "Latency": {
+                        "P10": 0.0,
+                        "P50": 0.0,
+                        "P75": 0.0,
+                        "P85": 0.0,
+                        "P90": 0.0,
+                        "P95": 0.0,
+                        "P99": 0.0,
+                        "P999": 0.0
+                    },
+                    "RequestCount": 0,
+                    "StatusCodes": {
+                        "Status2xx": 0,
+                        "Status3xx": 0,
+                        "Status4xx": 0,
+                        "Status5xx": 0
+                    }
+                },
+                "AvailabilityZone": "fwjlgjexyhpulbhl",
+                "Causes": [
+                    "vzthxplplysqgvvc"
+                ],
+                "Color": "utmhlfzwafxcepke",
+                "Deployment": {
+                    "DeploymentId": 0,
+                    "DeploymentTime": "utfloztohqfpddzj",
+                    "Status": "spmoopxzaloibsbt",
+                    "VersionLabel": "gxblzlrsbwsoxbvk"
+                },
+                "HealthStatus": "jnzcvzcgwydqakqg",
+                "InstanceId": "wnupiqrlznlvzdlg",
+                "InstanceType": "udgjlsyjjsowtkab",
+                "LaunchedAt": "ubjtmuxxoqrszsdj",
+                "System": {
+                    "CPUUtilization": {
+                        "IOWait": 0.0,
+                        "IRQ": 0.0,
+                        "Idle": 0.0,
+                        "Nice": 0.0,
+                        "Privileged": 0.0,
+                        "SoftIRQ": 0.0,
+                        "System": 0.0,
+                        "User": 0.0
+                    },
+                    "LoadAverage": [
+                        0.0
+                    ]
+                }
+            },
+            {
+                "ApplicationMetrics": {
+                    "Duration": 0,
+                    "Latency": {
+                        "P10": 0.0,
+                        "P50": 0.0,
+                        "P75": 0.0,
+                        "P85": 0.0,
+                        "P90": 0.0,
+                        "P95": 0.0,
+                        "P99": 0.0,
+                        "P999": 0.0
+                    },
+                    "RequestCount": 0,
+                    "StatusCodes": {
+                        "Status2xx": 0,
+                        "Status3xx": 0,
+                        "Status4xx": 0,
+                        "Status5xx": 0
+                    }
+                },
+                "AvailabilityZone": "cpgxrilsdzrbvofx",
+                "Causes": [
+                    "fzrwtvynjdskukmv"
+                ],
+                "Color": "wzwitxxiocuvkssa",
+                "Deployment": {
+                    "DeploymentId": 0,
+                    "DeploymentTime": "zrwambfhbyhigrdf",
+                    "Status": "cylrjlrfvsocluob",
+                    "VersionLabel": "hntkxfpzrfickebm"
+                },
+                "HealthStatus": "gcwtylbfprzqwnfy",
+                "InstanceId": "qonzcthfhjvgdwrc",
+                "InstanceType": "ofhatxagqzuagtun",
+                "LaunchedAt": "kjabmezgcplrhnby",
+                "System": {
+                    "CPUUtilization": {
+                        "IOWait": 0.0,
+                        "IRQ": 0.0,
+                        "Idle": 0.0,
+                        "Nice": 0.0,
+                        "Privileged": 0.0,
+                        "SoftIRQ": 0.0,
+                        "System": 0.0,
+                        "User": 0.0
+                    },
+                    "LoadAverage": [
+                        0.0
+                    ]
+                }
+            },
+            {
+                "ApplicationMetrics": {
+                    "Duration": 0,
+                    "Latency": {
+                        "P10": 0.0,
+                        "P50": 0.0,
+                        "P75": 0.0,
+                        "P85": 0.0,
+                        "P90": 0.0,
+                        "P95": 0.0,
+                        "P99": 0.0,
+                        "P999": 0.0
+                    },
+                    "RequestCount": 0,
+                    "StatusCodes": {
+                        "Status2xx": 0,
+                        "Status3xx": 0,
+                        "Status4xx": 0,
+                        "Status5xx": 0
+                    }
+                },
+                "AvailabilityZone": "bdbqoidjdqwarsfi",
+                "Causes": [
+                    "tcmigeomxasxgkxw"
+                ],
+                "Color": "sxwuwvdmkkgpiduk",
+                "Deployment": {
+                    "DeploymentId": 0,
+                    "DeploymentTime": "pcttigmgdwjdrxnm",
+                    "Status": "bltzylysbnfgzqzz",
+                    "VersionLabel": "xskjatwjwyesnysm"
+                },
+                "HealthStatus": "zhnozuizbfovbeof",
+                "InstanceId": "blzmvvmlelhrlipa",
+                "InstanceType": "koihjzxbhnhrnnqh",
+                "LaunchedAt": "zvotulithpsxkrbi",
+                "System": {
+                    "CPUUtilization": {
+                        "IOWait": 0.0,
+                        "IRQ": 0.0,
+                        "Idle": 0.0,
+                        "Nice": 0.0,
+                        "Privileged": 0.0,
+                        "SoftIRQ": 0.0,
+                        "System": 0.0,
+                        "User": 0.0
+                    },
+                    "LoadAverage": [
+                        0.0
+                    ]
+                }
+            }
+        ],
+        "result_key": "InstanceHealthList"
+    },
+    "meta": {
+        "start": 1711115717.162489,
+        "end": 1711115724.320846,
+        "duration": 7.1583640575408936,
+        "service": "elasticbeanstalk",
+        "type": "instances_health"
+    }
+}

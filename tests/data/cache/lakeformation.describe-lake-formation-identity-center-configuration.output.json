@@ -1,0 +1,36 @@
+{
+    "input": {
+        "template": {
+            "CatalogId": ""
+        },
+        "required": [],
+        "md5": "15b04e9ffd02648db7b4efd82ff444bb",
+        "boto_command": "describe_lake_formation_identity_center_configuration",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": "CatalogId",
+        "required": [],
+        "md5": "e8df5d428b3de65394ce91c7b37ad551",
+        "randomized": [
+            "wbvqgjlrcmwmoqgg",
+            "uerqcslauemarrsn",
+            "zdnnabrpuuqcjezv",
+            "pqinnlyuawqocvdv",
+            "oizbrumlnvzblgra",
+            "knoyjaasbfkhvyoc",
+            "nmoynbtxzsmeeswo",
+            "luwpjqjhgpxawlpm",
+            "dhqptfrfwccojxcl",
+            "kyrfzuizwljxbish"
+        ],
+        "result_key": "CatalogId"
+    },
+    "meta": {
+        "start": 1711116044.634935,
+        "end": 1711116051.864777,
+        "duration": 7.22985315322876,
+        "service": "lakeformation",
+        "type": "lake_formation_identity_center_configuration"
+    }
+}

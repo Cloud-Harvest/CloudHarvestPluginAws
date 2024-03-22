@@ -1,0 +1,72 @@
+{
+    "input": {
+        "template": {
+            "nextToken": "",
+            "ascendingOrder": true
+        },
+        "required": [],
+        "md5": "a81ffa3671fe02e4628f7058d88a8ff6",
+        "boto_command": "list_certificate_providers",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "certificateProviderName": "certificateProviderName",
+                "certificateProviderArn": "certificateProviderArn"
+            }
+        ],
+        "required": [],
+        "md5": "7e4c29ae192f5981666e42cb3897fcd5",
+        "randomized": [
+            {
+                "certificateProviderArn": "izbshsbgdqzstqru",
+                "certificateProviderName": "cacytczmphushfva"
+            },
+            {
+                "certificateProviderArn": "zxccceumokkykvzh",
+                "certificateProviderName": "gfisjduicfsrrcaf"
+            },
+            {
+                "certificateProviderArn": "ljyiazwjaekhgkeg",
+                "certificateProviderName": "ipaipckofxpcmdqg"
+            },
+            {
+                "certificateProviderArn": "dobfrhbeuinxjtxj",
+                "certificateProviderName": "vttgvutlchbgwdtp"
+            },
+            {
+                "certificateProviderArn": "fkqqizqsjwsdrwih",
+                "certificateProviderName": "jaaeqrybkntrxhnb"
+            },
+            {
+                "certificateProviderArn": "nkabjocccjfjfohi",
+                "certificateProviderName": "deynavcndumluyiy"
+            },
+            {
+                "certificateProviderArn": "qcodvonmirhqhcqh",
+                "certificateProviderName": "mzfffxicadghijru"
+            },
+            {
+                "certificateProviderArn": "osrgvocfyfsedpcs",
+                "certificateProviderName": "kkvrelksltooxbah"
+            },
+            {
+                "certificateProviderArn": "juiivvfzaacvknev",
+                "certificateProviderName": "xmvsbofcwuohnajt"
+            },
+            {
+                "certificateProviderArn": "qgvuthxyfweyvffb",
+                "certificateProviderName": "woapecgtsrplisib"
+            }
+        ],
+        "result_key": "certificateProviders"
+    },
+    "meta": {
+        "start": 1711115938.241161,
+        "end": 1711115946.298707,
+        "duration": 8.057552814483643,
+        "service": "iot",
+        "type": "certificate_providers"
+    }
+}

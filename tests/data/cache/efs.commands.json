@@ -1,0 +1,12 @@
+[
+    "efs.describe-access-points",
+    "efs.describe-account-preferences",
+    "efs.describe-backup-policy",
+    "efs.describe-file-system-policy",
+    "efs.describe-file-systems",
+    "efs.describe-lifecycle-configuration",
+    "efs.describe-mount-target-security-groups",
+    "efs.describe-mount-targets",
+    "efs.describe-replication-configurations",
+    "efs.list-tags-for-resource"
+]

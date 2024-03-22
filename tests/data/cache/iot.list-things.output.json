@@ -1,0 +1,131 @@
+{
+    "input": {
+        "template": {
+            "nextToken": "",
+            "maxResults": 0,
+            "attributeName": "",
+            "attributeValue": "",
+            "thingTypeName": "",
+            "usePrefixAttributeValue": true
+        },
+        "required": [],
+        "md5": "dc9e088d88e660d3c16ccd464eb70da4",
+        "boto_command": "list_things",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "thingName": "thingName",
+                "thingTypeName": "thingTypeName",
+                "thingArn": "thingArn",
+                "attributes": {
+                    "KeyName": ""
+                },
+                "version": 0
+            }
+        ],
+        "required": [],
+        "md5": "bea7e20fe0a9b338be3bb54a944c532e",
+        "randomized": [
+            {
+                "attributes": {
+                    "KeyName": "wcufypuogjwbsnyh"
+                },
+                "thingArn": "znudzdqhjqichenb",
+                "thingName": "ilxsxwwpubttxaij",
+                "thingTypeName": "wpiitmssvbsmbyiq",
+                "version": 0
+            },
+            {
+                "attributes": {
+                    "KeyName": "jgpawhjnsajtxevd"
+                },
+                "thingArn": "yrsrytkegmvvmubr",
+                "thingName": "bkizsgmygakdqlgo",
+                "thingTypeName": "icjcnoutcpkjbowg",
+                "version": 0
+            },
+            {
+                "attributes": {
+                    "KeyName": "umxqgtanoutyutys"
+                },
+                "thingArn": "rscuamwjsayucgbb",
+                "thingName": "vosrnqgantzkhppy",
+                "thingTypeName": "kahlbdqxfsvzzoyd",
+                "version": 0
+            },
+            {
+                "attributes": {
+                    "KeyName": "xquvvknxmucxipfc"
+                },
+                "thingArn": "jujdlzqkkemzmwdr",
+                "thingName": "gkzytdspdgokzfqj",
+                "thingTypeName": "mmzfuyaagpdkwpcm",
+                "version": 0
+            },
+            {
+                "attributes": {
+                    "KeyName": "cbwojulzovhwqibb"
+                },
+                "thingArn": "ptuevmhwtaiujccu",
+                "thingName": "jvcqmcvufyemrjeo",
+                "thingTypeName": "lizvsqoddgmoghas",
+                "version": 0
+            },
+            {
+                "attributes": {
+                    "KeyName": "vbxprvvlznhyysfs"
+                },
+                "thingArn": "gxwtajzwwagswgmz",
+                "thingName": "gougpaqygwojvjnc",
+                "thingTypeName": "aujfezeaefgmptly",
+                "version": 0
+            },
+            {
+                "attributes": {
+                    "KeyName": "khfuafyhihosypyh"
+                },
+                "thingArn": "wkpzqxwrzzwkcpcn",
+                "thingName": "lkihkikbfhczhkiy",
+                "thingTypeName": "qkshxlbfitjjicxq",
+                "version": 0
+            },
+            {
+                "attributes": {
+                    "KeyName": "fyotbkhvwtuatiop"
+                },
+                "thingArn": "tibdqsujciijbcny",
+                "thingName": "nriphcjrdrdcsbqm",
+                "thingTypeName": "qrwmkyirspijsiol",
+                "version": 0
+            },
+            {
+                "attributes": {
+                    "KeyName": "smzoyzdgtobqiwol"
+                },
+                "thingArn": "gukoeolpitmvmbhg",
+                "thingName": "obvglxavtvyvfgga",
+                "thingTypeName": "pbtqnjinrouhtjfn",
+                "version": 0
+            },
+            {
+                "attributes": {
+                    "KeyName": "ikgmwqhfxobyfwbn"
+                },
+                "thingArn": "csnhnldyhnjmecvf",
+                "thingName": "qykxyrtefjhvrbbd",
+                "thingTypeName": "tjrohhjcmltfjmhj",
+                "version": 0
+            }
+        ],
+        "result_key": "things"
+    },
+    "meta": {
+        "start": 1711115951.728391,
+        "end": 1711115959.206037,
+        "duration": 7.477657079696655,
+        "service": "iot",
+        "type": "things"
+    }
+}

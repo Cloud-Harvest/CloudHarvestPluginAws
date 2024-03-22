@@ -1,0 +1,39 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "PageSize": 0
+        },
+        "required": [],
+        "md5": "6f800abd8ec20d997fbd9890722a00ef",
+        "boto_command": "list_dedicated_ip_pools",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            "PoolName"
+        ],
+        "required": [],
+        "md5": "be70a33262a216cb634b98551c6f89b7",
+        "randomized": [
+            "xvyyfjycngyasnuc",
+            "marmjsexxcjifrqj",
+            "ddimjfxsrahenhwd",
+            "aybyanwknfahdjng",
+            "erkrvedddurmycbc",
+            "tvbvsqhasdvomovq",
+            "revbsbwautomphnp",
+            "kgpnnadhkvbaeoru",
+            "ahxotkgomcsfacjo",
+            "vckdyfcsylnwygzp"
+        ],
+        "result_key": "DedicatedIpPools"
+    },
+    "meta": {
+        "start": 1711116342.45436,
+        "end": 1711116349.966165,
+        "duration": 7.511815071105957,
+        "service": "pinpoint-email",
+        "type": "dedicated_ip_pools"
+    }
+}

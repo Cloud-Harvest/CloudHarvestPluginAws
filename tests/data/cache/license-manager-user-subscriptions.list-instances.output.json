@@ -1,0 +1,134 @@
+{
+    "input": {
+        "template": {
+            "Filters": [
+                {
+                    "Attribute": "",
+                    "Operation": "",
+                    "Value": ""
+                }
+            ],
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "424f87a2dd72092faa43b4f1afca295d",
+        "boto_command": "list_instances",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "InstanceId": "InstanceId",
+                "LastStatusCheckDate": "LastStatusCheckDate",
+                "Products": [
+                    "String"
+                ],
+                "Status": "Status",
+                "StatusMessage": "StatusMessage"
+            }
+        ],
+        "required": [],
+        "md5": "e647c4de250331b575bfb0aa0864c951",
+        "randomized": [
+            {
+                "InstanceId": "nqcuncxonnuiporc",
+                "LastStatusCheckDate": "mwzejfxldrgsackv",
+                "Products": [
+                    "faiqddszicccmril"
+                ],
+                "Status": "gygczomqrcjylanh",
+                "StatusMessage": "xcikqdyftheawvcb"
+            },
+            {
+                "InstanceId": "lnzkbfxdxsiwnhrk",
+                "LastStatusCheckDate": "rszbevovavdlhmwu",
+                "Products": [
+                    "gkzrachqdpjlaqxp"
+                ],
+                "Status": "qwzikaghrffdgase",
+                "StatusMessage": "gtbedijstlsdaioh"
+            },
+            {
+                "InstanceId": "iuhyneiskgyidizf",
+                "LastStatusCheckDate": "ecqbawnetbhlhqko",
+                "Products": [
+                    "sxioauuzfzstejbe"
+                ],
+                "Status": "muvlsjzamvledcan",
+                "StatusMessage": "npmxqtvexgecyljn"
+            },
+            {
+                "InstanceId": "nuvwvqnjxbkpogvl",
+                "LastStatusCheckDate": "mbllgphzhfsgevbf",
+                "Products": [
+                    "agbvhjkaolrucfxd"
+                ],
+                "Status": "mdbjqdrlwhcrqray",
+                "StatusMessage": "evjiaejqvulctshk"
+            },
+            {
+                "InstanceId": "osdduqqxcabrcdfj",
+                "LastStatusCheckDate": "cpqpupqajxykcwqt",
+                "Products": [
+                    "lqruvxwixdgentyv"
+                ],
+                "Status": "duoiwtnbryjokoiv",
+                "StatusMessage": "dfavnzswmssyvnrj"
+            },
+            {
+                "InstanceId": "mgsifcknontnpdir",
+                "LastStatusCheckDate": "pdwveckhweifkbbt",
+                "Products": [
+                    "bnhkajhdgoryujwj"
+                ],
+                "Status": "kovzajedehxcdaqi",
+                "StatusMessage": "pyvyfxjpnbybxgki"
+            },
+            {
+                "InstanceId": "allemtelrydadjop",
+                "LastStatusCheckDate": "qlpmhbmexirhdcmh",
+                "Products": [
+                    "dziflrfdfacbuxvi"
+                ],
+                "Status": "vvgmrkkzxdmzxbkk",
+                "StatusMessage": "pyvizapadtndbmef"
+            },
+            {
+                "InstanceId": "pisxdyhvccpglcdb",
+                "LastStatusCheckDate": "zleauieuxdebeyra",
+                "Products": [
+                    "eeyrstugjktxvbsr"
+                ],
+                "Status": "dkoqeqiaskyenndo",
+                "StatusMessage": "iaaropdlejtdbmpt"
+            },
+            {
+                "InstanceId": "qecstczshqnxjahu",
+                "LastStatusCheckDate": "lbnhuogircftpfyi",
+                "Products": [
+                    "lprxjvziwkozftmt"
+                ],
+                "Status": "jkenyacurgjyiaij",
+                "StatusMessage": "dikcohvmcuybtgmw"
+            },
+            {
+                "InstanceId": "ubthrqhjhkoscwut",
+                "LastStatusCheckDate": "rdiookbjlvtcfibd",
+                "Products": [
+                    "xzfeeghfndigbazn"
+                ],
+                "Status": "kaknrhxilizlqxua",
+                "StatusMessage": "oqvpsefrzxcjfnki"
+            }
+        ],
+        "result_key": "InstanceSummaries"
+    },
+    "meta": {
+        "start": 1711116091.111042,
+        "end": 1711116096.704391,
+        "duration": 5.593358993530273,
+        "service": "license-manager-user-subscriptions",
+        "type": "instances"
+    }
+}

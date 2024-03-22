@@ -1,0 +1,147 @@
+{
+    "input": {
+        "template": {
+            "SubmittedSince": "1970-01-01T00:00:00",
+            "Marker": "",
+            "MaxItems": 0,
+            "Status": [
+                "SUBMITTED"
+            ],
+            "Type": [
+                "REGISTER_DOMAIN"
+            ],
+            "SortBy": "SubmittedDate",
+            "SortOrder": "ASC"
+        },
+        "required": [],
+        "md5": "4b489f21d8fb3b95512c59eef6799b4a",
+        "boto_command": "list_operations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "OperationId": "OperationId",
+                "Status": "Status",
+                "Type": "Type",
+                "SubmittedDate": "1970-01-01T00:00:00",
+                "DomainName": "DomainName",
+                "Message": "Message",
+                "StatusFlag": "StatusFlag",
+                "LastUpdatedDate": "1970-01-01T00:00:00"
+            }
+        ],
+        "required": [],
+        "md5": "e7a94988d3fa3638457154469b2914bb",
+        "randomized": [
+            {
+                "DomainName": "vsmvqxjufnmlkdfn",
+                "LastUpdatedDate": "dsquwtibkkqvyzhv",
+                "Message": "tpeyeywkknmegwrl",
+                "OperationId": "kpixemhuwwvjhakj",
+                "Status": "svrdfarvaxatergt",
+                "StatusFlag": "pkqlmzhkohzenezd",
+                "SubmittedDate": "folnzhclhtkxwmto",
+                "Type": "xlrtrhqkmovxlivr"
+            },
+            {
+                "DomainName": "qqwwbmymlghxtpbc",
+                "LastUpdatedDate": "zlxhepncuyelqueg",
+                "Message": "wthajukbmwcdfcbf",
+                "OperationId": "oqflsjpazsrmgfry",
+                "Status": "vswmpuysooaokpub",
+                "StatusFlag": "sszfuxdyvhzahbig",
+                "SubmittedDate": "srahitwqzuvecqrc",
+                "Type": "millvnwavelgoefw"
+            },
+            {
+                "DomainName": "adbmrrrbhdlgedev",
+                "LastUpdatedDate": "hnexrasfpexkgypf",
+                "Message": "movtdsptjqzqpefq",
+                "OperationId": "ivksqxyfzniyucuu",
+                "Status": "cwhwazoyemtgcwtd",
+                "StatusFlag": "gqxrbwwamvtvfyig",
+                "SubmittedDate": "wxmdksebwdfyvfez",
+                "Type": "zzojrbsigicvbcir"
+            },
+            {
+                "DomainName": "dwamiihqzctzvevg",
+                "LastUpdatedDate": "fehuwjknbsxjwjld",
+                "Message": "knjfamhyfqnfomgz",
+                "OperationId": "iubodoftheniruzu",
+                "Status": "jsqnfgogsimokewa",
+                "StatusFlag": "cfvxikagwlocojrk",
+                "SubmittedDate": "oksidxbswvfdjbkr",
+                "Type": "hmnfmfsonjjmofot"
+            },
+            {
+                "DomainName": "mnxsosopcnsapxjs",
+                "LastUpdatedDate": "xeyoybigruramyet",
+                "Message": "mticcmdrimgmesgv",
+                "OperationId": "hnskljercdqpgiyo",
+                "Status": "pefnsrjhfrjbpsvk",
+                "StatusFlag": "sbpjmlhwxdvowzjw",
+                "SubmittedDate": "jxngxvsklkwymfpr",
+                "Type": "ugfoldxvcyiuqgzc"
+            },
+            {
+                "DomainName": "kcbmdrurudcgmspg",
+                "LastUpdatedDate": "xgktfimzrtlkhsvx",
+                "Message": "hrzkdekabnfofzys",
+                "OperationId": "zgmdcbvkmsrqemqr",
+                "Status": "lixnisryblcuacxt",
+                "StatusFlag": "qzuqkwecczsnljpj",
+                "SubmittedDate": "ygvzrfurpncmyyvp",
+                "Type": "lyygfuohkwzgttfa"
+            },
+            {
+                "DomainName": "yzcxktcaupixrdse",
+                "LastUpdatedDate": "wjlzsfommpvzztmj",
+                "Message": "sdsazeunzinbdpwb",
+                "OperationId": "aeznfjkxomxjlryv",
+                "Status": "lxmfejsoqznnxgch",
+                "StatusFlag": "droclayjhmcwwvjp",
+                "SubmittedDate": "ryketoyjwtapbbjw",
+                "Type": "tkcqfejlfzwjugup"
+            },
+            {
+                "DomainName": "xtwmfgvlfmyqpvjy",
+                "LastUpdatedDate": "galbjuhwztrqenjj",
+                "Message": "vzduonrgsdkkdvpj",
+                "OperationId": "fddzlwednaycoegy",
+                "Status": "shccjzwaeumonkzx",
+                "StatusFlag": "snabyonnpztpvrdh",
+                "SubmittedDate": "cxntefxdyzgcisco",
+                "Type": "bnrfrmnpjlvbcadt"
+            },
+            {
+                "DomainName": "lsupfbskdhntguwo",
+                "LastUpdatedDate": "ifsqaqvdtjcznxbr",
+                "Message": "bxjfrxaazbljcrto",
+                "OperationId": "eatwjzplqwymkcqa",
+                "Status": "afdfjjuacdzbozdl",
+                "StatusFlag": "azfbxesigavecnhe",
+                "SubmittedDate": "wfugzvtyevxyrmbh",
+                "Type": "klwjydgkvxiexxms"
+            },
+            {
+                "DomainName": "aybfdfzdqydenjhl",
+                "LastUpdatedDate": "yffvudhvisgthpew",
+                "Message": "lijuhejmgvpprhsr",
+                "OperationId": "olowfewdvsgqedtl",
+                "Status": "ynvwljujasjwblew",
+                "StatusFlag": "jfwhrygtnwnnvufm",
+                "SubmittedDate": "tsuimdwfudkbniud",
+                "Type": "bivljipwziiclffm"
+            }
+        ],
+        "result_key": "Operations"
+    },
+    "meta": {
+        "start": 1711116490.315961,
+        "end": 1711116498.183706,
+        "duration": 7.867757081985474,
+        "service": "route53domains",
+        "type": "operations"
+    }
+}

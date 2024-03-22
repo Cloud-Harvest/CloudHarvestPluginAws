@@ -1,0 +1,17 @@
+[
+    "mediaconnect.describe-bridge",
+    "mediaconnect.describe-flow",
+    "mediaconnect.describe-flow-source-metadata",
+    "mediaconnect.describe-gateway",
+    "mediaconnect.describe-gateway-instance",
+    "mediaconnect.describe-offering",
+    "mediaconnect.describe-reservation",
+    "mediaconnect.list-bridges",
+    "mediaconnect.list-entitlements",
+    "mediaconnect.list-flows",
+    "mediaconnect.list-gateway-instances",
+    "mediaconnect.list-gateways",
+    "mediaconnect.list-offerings",
+    "mediaconnect.list-reservations",
+    "mediaconnect.list-tags-for-resource"
+]

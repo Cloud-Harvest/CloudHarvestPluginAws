@@ -1,0 +1,259 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "9dece7f85fc1c3f944425b1f68a8e6e1",
+        "boto_command": "list_terminologies",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "Name": "Name",
+                "Description": "Description",
+                "Arn": "Arn",
+                "SourceLanguageCode": "SourceLanguageCode",
+                "TargetLanguageCodes": [
+                    "LanguageCodeString"
+                ],
+                "EncryptionKey": {
+                    "Type": "Type",
+                    "Id": "Id"
+                },
+                "SizeBytes": 0,
+                "TermCount": 0,
+                "CreatedAt": "1970-01-01T00:00:00",
+                "LastUpdatedAt": "1970-01-01T00:00:00",
+                "Directionality": "Directionality",
+                "Message": "Message",
+                "SkippedTermCount": 0,
+                "Format": "Format"
+            }
+        ],
+        "required": [],
+        "md5": "3cfdeff5bb852deeb5243ed2b12d8c6c",
+        "randomized": [
+            {
+                "Arn": "haommxnummcirfiv",
+                "CreatedAt": "gbinymdvsywqsptj",
+                "Description": "ivykrmapeurxxloe",
+                "Directionality": "jlivxuvobdxbrarr",
+                "EncryptionKey": {
+                    "Id": "icvtfvxcwwzdlxdu",
+                    "Type": "rtpxcsreynstycji"
+                },
+                "Format": "jaihavuzvhwyegtw",
+                "LastUpdatedAt": "qyyfcrolcgklbfem",
+                "Message": "iikvkbgpmxzslijq",
+                "Name": "mudyaqwzotiiupgx",
+                "SizeBytes": 0,
+                "SkippedTermCount": 0,
+                "SourceLanguageCode": "vxywzfbfbxtmczqr",
+                "TargetLanguageCodes": [
+                    "wlxkwqbkntjddxva"
+                ],
+                "TermCount": 0
+            },
+            {
+                "Arn": "njrjnsyhunbfzrgp",
+                "CreatedAt": "mrbuzixvmxjcrdds",
+                "Description": "awmtecadlcsxcwvp",
+                "Directionality": "gsvnmooistngukyl",
+                "EncryptionKey": {
+                    "Id": "altosajiaupcpdtr",
+                    "Type": "noyzahxmufocjbma"
+                },
+                "Format": "mhnxtmunuqapymld",
+                "LastUpdatedAt": "raqmtafekuhpjhja",
+                "Message": "vcexskbujrfpkpvz",
+                "Name": "rysvhcrfhzwtalms",
+                "SizeBytes": 0,
+                "SkippedTermCount": 0,
+                "SourceLanguageCode": "wqzhndouggyydgsu",
+                "TargetLanguageCodes": [
+                    "cayaxgfoylgvncrs"
+                ],
+                "TermCount": 0
+            },
+            {
+                "Arn": "oizezhmcevwprksw",
+                "CreatedAt": "hezffdxsohhvhqak",
+                "Description": "peqlzgwaxujnhiac",
+                "Directionality": "zyspbyispchywxkm",
+                "EncryptionKey": {
+                    "Id": "vqragutqyialedcx",
+                    "Type": "zxvnakqjpqcbpxsl"
+                },
+                "Format": "iwkilneygdsefgnc",
+                "LastUpdatedAt": "usuuvqnobrkmnknz",
+                "Message": "rlcsvbacqgoccxfh",
+                "Name": "mckatxupdzmsrrpb",
+                "SizeBytes": 0,
+                "SkippedTermCount": 0,
+                "SourceLanguageCode": "kkqujnjjdlpzskqn",
+                "TargetLanguageCodes": [
+                    "zchfwrbtpzlpbabv"
+                ],
+                "TermCount": 0
+            },
+            {
+                "Arn": "oxymxzukiszjyjyi",
+                "CreatedAt": "tkvlhtxraecinwvu",
+                "Description": "bchtqsoqyxdjyqpy",
+                "Directionality": "nufdfqvwybiyuull",
+                "EncryptionKey": {
+                    "Id": "yzvlcoeejrgviebn",
+                    "Type": "hukgefjtmdupjkfm"
+                },
+                "Format": "icyokthkrdefeojt",
+                "LastUpdatedAt": "fefymlkwxavhzkmz",
+                "Message": "prckxfgzrsjgwpxz",
+                "Name": "vfpxvlzbmbridlmn",
+                "SizeBytes": 0,
+                "SkippedTermCount": 0,
+                "SourceLanguageCode": "nifyrcpbncenetrj",
+                "TargetLanguageCodes": [
+                    "vqldxcxuzmnziggs"
+                ],
+                "TermCount": 0
+            },
+            {
+                "Arn": "nofpogcsnapphpdq",
+                "CreatedAt": "mmyhabfmgyfbzgin",
+                "Description": "tlfoptjkoagjnfjn",
+                "Directionality": "evhptkeuhrlyvgmb",
+                "EncryptionKey": {
+                    "Id": "xzzadellhbiehpna",
+                    "Type": "qhctkfpgplnheroj"
+                },
+                "Format": "dzcqbcozhswgevxf",
+                "LastUpdatedAt": "idehpnmcarfkkiwp",
+                "Message": "jcmhnltmkxfpwwgj",
+                "Name": "pbpvvkertwlmogyo",
+                "SizeBytes": 0,
+                "SkippedTermCount": 0,
+                "SourceLanguageCode": "iiphkauqtrahsoyj",
+                "TargetLanguageCodes": [
+                    "tlbemziclwawhurz"
+                ],
+                "TermCount": 0
+            },
+            {
+                "Arn": "ecnirpecopdootdf",
+                "CreatedAt": "rohtryqiypmvshtb",
+                "Description": "plgimimifphnbnii",
+                "Directionality": "sgrtwstkjhmtznzd",
+                "EncryptionKey": {
+                    "Id": "curgcnknccklxwdb",
+                    "Type": "bujpeboydeqvzyym"
+                },
+                "Format": "dmkakrxxpegithmq",
+                "LastUpdatedAt": "qgardyatkfxxmadk",
+                "Message": "tvdbpyaugpddlzmo",
+                "Name": "gxuxxkznysdmbgen",
+                "SizeBytes": 0,
+                "SkippedTermCount": 0,
+                "SourceLanguageCode": "camczljmahoegjab",
+                "TargetLanguageCodes": [
+                    "cuxoyzhnotuzwits"
+                ],
+                "TermCount": 0
+            },
+            {
+                "Arn": "ertycjlcsuhymvbc",
+                "CreatedAt": "gkgvqeocgqaftqci",
+                "Description": "xibjvakwvigzogfr",
+                "Directionality": "rketkckxaiwbduen",
+                "EncryptionKey": {
+                    "Id": "ehgtpcpuplhkhiri",
+                    "Type": "pxaplmifzszffuge"
+                },
+                "Format": "vzorzkxyasbaeath",
+                "LastUpdatedAt": "fzatvmhlrjwcypyl",
+                "Message": "rqvjbrxqlevnljnv",
+                "Name": "yjtubdmjdbsnwttq",
+                "SizeBytes": 0,
+                "SkippedTermCount": 0,
+                "SourceLanguageCode": "qqwnrxgmlizacfza",
+                "TargetLanguageCodes": [
+                    "qinbqitqrjbunwkf"
+                ],
+                "TermCount": 0
+            },
+            {
+                "Arn": "kosusyjssrkbmtvx",
+                "CreatedAt": "somdkqqnwimqwusr",
+                "Description": "bvdtwspcqzsgtcyn",
+                "Directionality": "lqkybjivrhhtbsoz",
+                "EncryptionKey": {
+                    "Id": "ciauzqubogdiuwyd",
+                    "Type": "ebjwjepsmyornqja"
+                },
+                "Format": "gekgraujtnvpdsap",
+                "LastUpdatedAt": "tqctyjezmzplbcuh",
+                "Message": "tgqdepncklktegav",
+                "Name": "olrbdnnhpqiluklc",
+                "SizeBytes": 0,
+                "SkippedTermCount": 0,
+                "SourceLanguageCode": "iqthsciymheuxxvz",
+                "TargetLanguageCodes": [
+                    "lkhdkevpclgiggrv"
+                ],
+                "TermCount": 0
+            },
+            {
+                "Arn": "rntjvhwkdchcevyx",
+                "CreatedAt": "bmdsxloyutzvsqsu",
+                "Description": "efindasxopmtbdux",
+                "Directionality": "mfnbxenghxshculq",
+                "EncryptionKey": {
+                    "Id": "teedkydyoidunsol",
+                    "Type": "foolhadysynrpvtq"
+                },
+                "Format": "qrpjsqmykcxuvieo",
+                "LastUpdatedAt": "prvnmzkubuzjkzhd",
+                "Message": "xaghbgesrluvegvm",
+                "Name": "upqnfuvhyounvapf",
+                "SizeBytes": 0,
+                "SkippedTermCount": 0,
+                "SourceLanguageCode": "fnoaeqkkittldcjk",
+                "TargetLanguageCodes": [
+                    "gplbotyjhhycwoay"
+                ],
+                "TermCount": 0
+            },
+            {
+                "Arn": "tkvemevmcysaguwk",
+                "CreatedAt": "nahmtzittkasyxsb",
+                "Description": "nwlvmauiszmdrbjb",
+                "Directionality": "xnxxyhmdpxdqymlj",
+                "EncryptionKey": {
+                    "Id": "wicbexoffrwunmil",
+                    "Type": "kijmtscwbgimxgqz"
+                },
+                "Format": "jyqavnahhwgmekzl",
+                "LastUpdatedAt": "kedujehwqeydrsxu",
+                "Message": "tevsykmeilreckwm",
+                "Name": "hwbitbsnkcjmpbza",
+                "SizeBytes": 0,
+                "SkippedTermCount": 0,
+                "SourceLanguageCode": "inrsxtfcqtjvoacu",
+                "TargetLanguageCodes": [
+                    "sgievwdqpqqmwcax"
+                ],
+                "TermCount": 0
+            }
+        ],
+        "result_key": "TerminologyPropertiesList"
+    },
+    "meta": {
+        "start": 1711116740.525285,
+        "end": 1711116747.50029,
+        "duration": 6.975015878677368,
+        "service": "translate",
+        "type": "terminologies"
+    }
+}

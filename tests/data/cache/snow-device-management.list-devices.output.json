@@ -1,0 +1,117 @@
+{
+    "input": {
+        "template": {
+            "jobId": "",
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "required": [],
+        "md5": "a35877e71b846fbc77225ff78606562b",
+        "boto_command": "list_devices",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "associatedWithJob": "associatedWithJob",
+                "managedDeviceArn": "managedDeviceArn",
+                "managedDeviceId": "managedDeviceId",
+                "tags": {
+                    "KeyName": ""
+                }
+            }
+        ],
+        "required": [],
+        "md5": "ba4d3984dab6398a5d30a974334ac2f0",
+        "randomized": [
+            {
+                "associatedWithJob": "toxrrbccnuzcziso",
+                "managedDeviceArn": "olpbyubbsvibrsaz",
+                "managedDeviceId": "zstckffzogfbsnbc",
+                "tags": {
+                    "KeyName": "wlzllihgoztxsjsc"
+                }
+            },
+            {
+                "associatedWithJob": "nxbkzlbfkfbnpixz",
+                "managedDeviceArn": "wmqrmtbuwquzbguw",
+                "managedDeviceId": "taowvdzmaltdepro",
+                "tags": {
+                    "KeyName": "acjfnudogvybtnic"
+                }
+            },
+            {
+                "associatedWithJob": "lxdqsyujjzoiktsd",
+                "managedDeviceArn": "koyopjgnuelgsxls",
+                "managedDeviceId": "xhenqlznaqusgwzt",
+                "tags": {
+                    "KeyName": "mhifhwehjzupifdf"
+                }
+            },
+            {
+                "associatedWithJob": "slegsjgkhtkaiedn",
+                "managedDeviceArn": "bikyilkugtixrscx",
+                "managedDeviceId": "maeadlozxjjkdnhp",
+                "tags": {
+                    "KeyName": "uutygtqiapgbwqdu"
+                }
+            },
+            {
+                "associatedWithJob": "cpoiwfgpcahhhwwt",
+                "managedDeviceArn": "fdafmuoinsziudhp",
+                "managedDeviceId": "vovikgishrqlozba",
+                "tags": {
+                    "KeyName": "dzzlhzvvnbcyjbyt"
+                }
+            },
+            {
+                "associatedWithJob": "ehoxeklzjbnuurwr",
+                "managedDeviceArn": "btnqpmapqezxsvbf",
+                "managedDeviceId": "kibhvrybwsmnyqsx",
+                "tags": {
+                    "KeyName": "tqabbbjndjphadhy"
+                }
+            },
+            {
+                "associatedWithJob": "hrphqsyezqxkmxfk",
+                "managedDeviceArn": "ipemlneghjbgevhk",
+                "managedDeviceId": "uspcdnefkqhouutr",
+                "tags": {
+                    "KeyName": "priqkvjpxrlyqgjk"
+                }
+            },
+            {
+                "associatedWithJob": "iiginfhunfmyseru",
+                "managedDeviceArn": "stypilolxlbzuztu",
+                "managedDeviceId": "zwcoihblgmdmndpz",
+                "tags": {
+                    "KeyName": "qcppeflzxyudmmfm"
+                }
+            },
+            {
+                "associatedWithJob": "ciynjjizhqopubil",
+                "managedDeviceArn": "scjprhtuywgopjpi",
+                "managedDeviceId": "jgcihnjhlddqdrlx",
+                "tags": {
+                    "KeyName": "ykehpmjplgnetaih"
+                }
+            },
+            {
+                "associatedWithJob": "npqqqiuqdapoewxp",
+                "managedDeviceArn": "bnmrregpvfygzntz",
+                "managedDeviceId": "fjutazowhkrfjcxy",
+                "tags": {
+                    "KeyName": "suggfenzyuqrpnrz"
+                }
+            }
+        ],
+        "result_key": "devices"
+    },
+    "meta": {
+        "start": 1711116642.305684,
+        "end": 1711116650.384415,
+        "duration": 8.07874083518982,
+        "service": "snow-device-management",
+        "type": "devices"
+    }
+}

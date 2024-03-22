@@ -1,0 +1,23 @@
+[
+    "elasticache.describe-cache-clusters",
+    "elasticache.describe-cache-engine-versions",
+    "elasticache.describe-cache-parameter-groups",
+    "elasticache.describe-cache-parameters",
+    "elasticache.describe-cache-security-groups",
+    "elasticache.describe-cache-subnet-groups",
+    "elasticache.describe-engine-default-parameters",
+    "elasticache.describe-events",
+    "elasticache.describe-global-replication-groups",
+    "elasticache.describe-replication-groups",
+    "elasticache.describe-reserved-cache-nodes",
+    "elasticache.describe-reserved-cache-nodes-offerings",
+    "elasticache.describe-serverless-cache-snapshots",
+    "elasticache.describe-serverless-caches",
+    "elasticache.describe-service-updates",
+    "elasticache.describe-snapshots",
+    "elasticache.describe-update-actions",
+    "elasticache.describe-user-groups",
+    "elasticache.describe-users",
+    "elasticache.list-allowed-node-type-modifications",
+    "elasticache.list-tags-for-resource"
+]

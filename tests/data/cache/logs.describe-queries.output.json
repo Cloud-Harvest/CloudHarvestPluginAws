@@ -1,0 +1,107 @@
+{
+    "input": {
+        "template": {
+            "logGroupName": "",
+            "status": "Scheduled",
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "required": [],
+        "md5": "78c8aa55e0c84a6b29a19cdfbfb12f27",
+        "boto_command": "describe_queries",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "queryId": "queryId",
+                "queryString": "queryString",
+                "status": "status",
+                "createTime": 0,
+                "logGroupName": "logGroupName"
+            }
+        ],
+        "required": [],
+        "md5": "693c428a00648c499f6d91d65ed0c3a5",
+        "randomized": [
+            {
+                "createTime": 0,
+                "logGroupName": "puypuldkwffdcusi",
+                "queryId": "zgixztbmmlogqubg",
+                "queryString": "eeakpqevokhiporz",
+                "status": "coeajrrdfrjrikuq"
+            },
+            {
+                "createTime": 0,
+                "logGroupName": "evzainwztccvdrbr",
+                "queryId": "aupbfcmobipqlrqs",
+                "queryString": "vkzfoegsjjvqtskm",
+                "status": "fhfwpdomgpbbarkf"
+            },
+            {
+                "createTime": 0,
+                "logGroupName": "buluhntnbrueohjv",
+                "queryId": "gzamczsrlfhldspc",
+                "queryString": "plfwpyyiedfhckry",
+                "status": "xzybenivegctatfk"
+            },
+            {
+                "createTime": 0,
+                "logGroupName": "vrhefqdbfnyaevkc",
+                "queryId": "fzvwvwpjmhzihnbg",
+                "queryString": "tvcffoufuolszeeq",
+                "status": "efvxpnunftotkmra"
+            },
+            {
+                "createTime": 0,
+                "logGroupName": "zyguxziihplddysd",
+                "queryId": "izerixgqjxrfsnbw",
+                "queryString": "wpnnmjxojbafcysx",
+                "status": "zwsphwdyshgnxsvh"
+            },
+            {
+                "createTime": 0,
+                "logGroupName": "eefsrpbrcvfdlkzu",
+                "queryId": "uenkskcawtyysepc",
+                "queryString": "rtkwycyjudfkikdq",
+                "status": "ielrujnoiirvsehk"
+            },
+            {
+                "createTime": 0,
+                "logGroupName": "xlnngjqhzrkmctrs",
+                "queryId": "qdtypkutwtsdqtdq",
+                "queryString": "oyulsubgkzgkjqyh",
+                "status": "kcqbynfruzacjjmt"
+            },
+            {
+                "createTime": 0,
+                "logGroupName": "oxmiksjjkxoodkpt",
+                "queryId": "vcohvluzhffffxzp",
+                "queryString": "ecufrtrhaifnlson",
+                "status": "osgfdungdjrotzhm"
+            },
+            {
+                "createTime": 0,
+                "logGroupName": "yjaegfbjjtddtkcw",
+                "queryId": "nperbyszwzhdigij",
+                "queryString": "zjctnpiehujzietu",
+                "status": "hgigqkknrlbzfncb"
+            },
+            {
+                "createTime": 0,
+                "logGroupName": "wzwtglthdmvhavyd",
+                "queryId": "sdqbmuitmywwiagl",
+                "queryString": "jvmpmulqxojuxcpp",
+                "status": "jihayemkzvmhdkni"
+            }
+        ],
+        "result_key": "queries"
+    },
+    "meta": {
+        "start": 1711116119.667693,
+        "end": 1711116125.517318,
+        "duration": 5.849636077880859,
+        "service": "logs",
+        "type": "queries"
+    }
+}

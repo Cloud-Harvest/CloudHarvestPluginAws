@@ -1,0 +1,95 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": "",
+            "DryRun": true
+        },
+        "required": [],
+        "md5": "caf4e9271d29e19f6283c64186f71533",
+        "boto_command": "get_vpn_connection_device_types",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "VpnConnectionDeviceTypeId": "VpnConnectionDeviceTypeId",
+                "Vendor": "Vendor",
+                "Platform": "Platform",
+                "Software": "Software"
+            }
+        ],
+        "required": [],
+        "md5": "3a0f5147b542436101eea1800a950936",
+        "randomized": [
+            {
+                "Platform": "cppcrjqwjkykeivz",
+                "Software": "jelktpqnwihrbssp",
+                "Vendor": "fysphahsunepbxxy",
+                "VpnConnectionDeviceTypeId": "xqcdabvyngtioqtz"
+            },
+            {
+                "Platform": "ncoetnhteuminrvo",
+                "Software": "vpemrdfhqcbdofwo",
+                "Vendor": "cbkbzfaxknwpsxqr",
+                "VpnConnectionDeviceTypeId": "sgzvadbsvzzcpthp"
+            },
+            {
+                "Platform": "ebkxdxwfralmaxtl",
+                "Software": "ylzjauyzvsbjqztc",
+                "Vendor": "sdearezxxcwxosvn",
+                "VpnConnectionDeviceTypeId": "xfgrpwiicprzsypm"
+            },
+            {
+                "Platform": "evxvmizuyjtwrkym",
+                "Software": "asbbjmbqfdviqmhw",
+                "Vendor": "edaefvwprmcqmjjq",
+                "VpnConnectionDeviceTypeId": "rdrgdcbnkzykpwdt"
+            },
+            {
+                "Platform": "hxgesnmrsnahyaag",
+                "Software": "jcbtdnfobqcrbylt",
+                "Vendor": "srwljqjrxuqoefcl",
+                "VpnConnectionDeviceTypeId": "zoktqehchhqnrnqh"
+            },
+            {
+                "Platform": "gqlwkeioqkcftjfj",
+                "Software": "srkxpfzgucklzgez",
+                "Vendor": "bcachxbcgghwcnfd",
+                "VpnConnectionDeviceTypeId": "dehezgsonwiulgnh"
+            },
+            {
+                "Platform": "dxhmuzrkotjvhxqu",
+                "Software": "cfsoshirddteqabq",
+                "Vendor": "hjhjfzjqpwifzhzn",
+                "VpnConnectionDeviceTypeId": "pogctacddzdmgfbx"
+            },
+            {
+                "Platform": "nhpbygwqmfzqfifv",
+                "Software": "uyzdkyoufwnuszcq",
+                "Vendor": "jmbbjrlgrpibfjsq",
+                "VpnConnectionDeviceTypeId": "txffugdupwbmvxew"
+            },
+            {
+                "Platform": "mfntmxodszfzlwvl",
+                "Software": "uuenhhaujnxodudm",
+                "Vendor": "imseqqbwgfjdcjkj",
+                "VpnConnectionDeviceTypeId": "ccghwqzivgyswdnl"
+            },
+            {
+                "Platform": "bfvqunjnhqvpdgcj",
+                "Software": "pafsokyciigfmqxd",
+                "Vendor": "bqazxovchpvngykw",
+                "VpnConnectionDeviceTypeId": "emmydbiadurllmcm"
+            }
+        ],
+        "result_key": "VpnConnectionDeviceTypes"
+    },
+    "meta": {
+        "start": 1711115680.706822,
+        "end": 1711115688.204143,
+        "duration": 7.497330188751221,
+        "service": "ec2",
+        "type": null
+    }
+}

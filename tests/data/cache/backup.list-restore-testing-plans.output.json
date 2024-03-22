@@ -1,0 +1,138 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "031b56893c6f5a9d0ebe6017c5c080cb",
+        "boto_command": "list_restore_testing_plans",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "CreationTime": "1970-01-01T00:00:00",
+                "LastExecutionTime": "1970-01-01T00:00:00",
+                "LastUpdateTime": "1970-01-01T00:00:00",
+                "RestoreTestingPlanArn": "RestoreTestingPlanArn",
+                "RestoreTestingPlanName": "RestoreTestingPlanName",
+                "ScheduleExpression": "ScheduleExpression",
+                "ScheduleExpressionTimezone": "ScheduleExpressionTimezone",
+                "StartWindowHours": 0
+            }
+        ],
+        "required": [],
+        "md5": "8ee8e2ccea04e5951bd32cbf8c90e160",
+        "randomized": [
+            {
+                "CreationTime": "xbmhpgdizfksjzxu",
+                "LastExecutionTime": "uovrbkfpuzyserur",
+                "LastUpdateTime": "jzmbwkuukfdxugyi",
+                "RestoreTestingPlanArn": "kyqbochqygdqnekg",
+                "RestoreTestingPlanName": "neknbotztiphyzzf",
+                "ScheduleExpression": "pnwpeigfmyyxvskc",
+                "ScheduleExpressionTimezone": "tqfiytwpundnamcr",
+                "StartWindowHours": 0
+            },
+            {
+                "CreationTime": "ikgfccchlsjzzlfx",
+                "LastExecutionTime": "cxokeqaoshxapegv",
+                "LastUpdateTime": "cvcmlbqbxoajcgiu",
+                "RestoreTestingPlanArn": "seciaubchbbzyrwl",
+                "RestoreTestingPlanName": "ewksxqvjcvwtppqd",
+                "ScheduleExpression": "amuofwuivvixqhza",
+                "ScheduleExpressionTimezone": "aqunfrepdczvyibt",
+                "StartWindowHours": 0
+            },
+            {
+                "CreationTime": "urwuurutokskdwfu",
+                "LastExecutionTime": "elyxgujwvflxtaqm",
+                "LastUpdateTime": "bnkpkpqghmvfhlbn",
+                "RestoreTestingPlanArn": "swjgbqrkdjzunphm",
+                "RestoreTestingPlanName": "zqlqpgwwrhylslxa",
+                "ScheduleExpression": "qxvzwwhhjvitjgpe",
+                "ScheduleExpressionTimezone": "ztsfwodstyplgwdo",
+                "StartWindowHours": 0
+            },
+            {
+                "CreationTime": "wcnziebqriwwpcyf",
+                "LastExecutionTime": "tnhugzranlhhrcwu",
+                "LastUpdateTime": "nivomukphslbwxxu",
+                "RestoreTestingPlanArn": "kxzdkwektinndpjd",
+                "RestoreTestingPlanName": "qdzemqqdfuorlmmr",
+                "ScheduleExpression": "xexrotwsadyhesvx",
+                "ScheduleExpressionTimezone": "hribuuekgkcjnpim",
+                "StartWindowHours": 0
+            },
+            {
+                "CreationTime": "yppcgmulxxlperou",
+                "LastExecutionTime": "ctrlkobzijafmvhr",
+                "LastUpdateTime": "rqvbmayeamfyzcbo",
+                "RestoreTestingPlanArn": "cjavlyeguklrshdv",
+                "RestoreTestingPlanName": "jousdlkshhwjcrku",
+                "ScheduleExpression": "tugvflastmyhloqu",
+                "ScheduleExpressionTimezone": "jwurzaatctahztvv",
+                "StartWindowHours": 0
+            },
+            {
+                "CreationTime": "sojmqqlnrmtkcelh",
+                "LastExecutionTime": "flvrdlskwjylhpjh",
+                "LastUpdateTime": "gbiropmzhqsxtssf",
+                "RestoreTestingPlanArn": "amkjbalgywgofcou",
+                "RestoreTestingPlanName": "whhapibnebluicww",
+                "ScheduleExpression": "kpwvieengtmecpui",
+                "ScheduleExpressionTimezone": "qnzygecxspaoskeg",
+                "StartWindowHours": 0
+            },
+            {
+                "CreationTime": "kxzygseytkcwcigy",
+                "LastExecutionTime": "cubjdlfnndpvcozl",
+                "LastUpdateTime": "zelxrxpfamdaciqb",
+                "RestoreTestingPlanArn": "nyrwksfoznatktzm",
+                "RestoreTestingPlanName": "foqmfyabwjrdwjim",
+                "ScheduleExpression": "xfenjxnwxqbkbqvz",
+                "ScheduleExpressionTimezone": "lvqjvabkgskrurhd",
+                "StartWindowHours": 0
+            },
+            {
+                "CreationTime": "dxpzxtkpcqbdulsj",
+                "LastExecutionTime": "nbilmyfjvbdrdzep",
+                "LastUpdateTime": "oirnvsrexqhdnhsi",
+                "RestoreTestingPlanArn": "pwwnnlbnclcikcib",
+                "RestoreTestingPlanName": "zxutqerzdwoiwaln",
+                "ScheduleExpression": "fvfpbjynchpteefp",
+                "ScheduleExpressionTimezone": "ueldcspvxcetvfmc",
+                "StartWindowHours": 0
+            },
+            {
+                "CreationTime": "htnqfuzdrqjmxijo",
+                "LastExecutionTime": "vvklwtcqnhndnbpa",
+                "LastUpdateTime": "nuwumngrlozzjtot",
+                "RestoreTestingPlanArn": "odoxltcdsvilhabm",
+                "RestoreTestingPlanName": "mjzqxtizxgbcgqah",
+                "ScheduleExpression": "ggglbxxiqclhfruk",
+                "ScheduleExpressionTimezone": "xuykkrcmzmeetxeg",
+                "StartWindowHours": 0
+            },
+            {
+                "CreationTime": "ntshqdxuernpqrvc",
+                "LastExecutionTime": "rimrerqrxfvqgnji",
+                "LastUpdateTime": "qtcwcdlezgxyajxd",
+                "RestoreTestingPlanArn": "nzjoordwnxoebywa",
+                "RestoreTestingPlanName": "bvfiajcbntamlrdn",
+                "ScheduleExpression": "yzakxehpgebyzgag",
+                "ScheduleExpressionTimezone": "ibnpviqiqrskblbt",
+                "StartWindowHours": 0
+            }
+        ],
+        "result_key": "RestoreTestingPlans"
+    },
+    "meta": {
+        "start": 1711115287.194296,
+        "end": 1711115292.117938,
+        "duration": 4.923652172088623,
+        "service": "backup",
+        "type": "restore_testing_plans"
+    }
+}

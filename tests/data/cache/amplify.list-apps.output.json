@@ -1,0 +1,655 @@
+{
+    "input": {
+        "template": {
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "required": [],
+        "md5": "42475be96651ddb5d57c459989595380",
+        "boto_command": "list_apps",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "appId": "appId",
+                "appArn": "appArn",
+                "name": "name",
+                "tags": {
+                    "KeyName": ""
+                },
+                "description": "description",
+                "repository": "repository",
+                "platform": "platform",
+                "createTime": "1970-01-01T00:00:00",
+                "updateTime": "1970-01-01T00:00:00",
+                "iamServiceRoleArn": "iamServiceRoleArn",
+                "environmentVariables": {
+                    "KeyName": ""
+                },
+                "defaultDomain": "defaultDomain",
+                "enableBranchAutoBuild": true,
+                "enableBranchAutoDeletion": true,
+                "enableBasicAuth": true,
+                "basicAuthCredentials": "basicAuthCredentials",
+                "customRules": [
+                    {
+                        "source": "source",
+                        "target": "target",
+                        "status": "status",
+                        "condition": "condition"
+                    }
+                ],
+                "productionBranch": {
+                    "lastDeployTime": "1970-01-01T00:00:00",
+                    "status": "status",
+                    "thumbnailUrl": "thumbnailUrl",
+                    "branchName": "branchName"
+                },
+                "buildSpec": "buildSpec",
+                "customHeaders": "customHeaders",
+                "enableAutoBranchCreation": true,
+                "autoBranchCreationPatterns": [
+                    "AutoBranchCreationPattern"
+                ],
+                "autoBranchCreationConfig": {
+                    "stage": "stage",
+                    "framework": "framework",
+                    "enableAutoBuild": true,
+                    "environmentVariables": {
+                        "KeyName": ""
+                    },
+                    "basicAuthCredentials": "basicAuthCredentials",
+                    "enableBasicAuth": true,
+                    "enablePerformanceMode": true,
+                    "buildSpec": "buildSpec",
+                    "enablePullRequestPreview": true,
+                    "pullRequestEnvironmentName": "pullRequestEnvironmentName"
+                },
+                "repositoryCloneMethod": "repositoryCloneMethod"
+            }
+        ],
+        "required": [],
+        "md5": "1dde6717d72541d6c94b075a8e028caa",
+        "randomized": [
+            {
+                "appArn": "awhevfozrazwidbk",
+                "appId": "yauhmupysekcdejd",
+                "autoBranchCreationConfig": {
+                    "basicAuthCredentials": "ygrobrbrakachsxj",
+                    "buildSpec": "kyulqzvvisxdiiqd",
+                    "enableAutoBuild": true,
+                    "enableBasicAuth": true,
+                    "enablePerformanceMode": true,
+                    "enablePullRequestPreview": true,
+                    "environmentVariables": {
+                        "KeyName": "hpjdvfvapypjaumu"
+                    },
+                    "framework": "hggaobpuyzatyaqp",
+                    "pullRequestEnvironmentName": "ycgmlnblwyekoswl",
+                    "stage": "zpakcmbqxoadmfli"
+                },
+                "autoBranchCreationPatterns": [
+                    "jeskivsqkkbyxgeb"
+                ],
+                "basicAuthCredentials": "mrsgdsuwanamnmwc",
+                "buildSpec": "evzzyvhpsnvghmwy",
+                "createTime": "popcxpkomyleugvb",
+                "customHeaders": "eyubsvmzwsoucymy",
+                "customRules": [
+                    {
+                        "condition": "ysfzyifkzqrjdpuq",
+                        "source": "wtpgbepikajvplos",
+                        "status": "bxwpxrqnmftaagwc",
+                        "target": "wursqmsixcktkrxf"
+                    }
+                ],
+                "defaultDomain": "denvfwyuqpffshbo",
+                "description": "betmensselfvoepf",
+                "enableAutoBranchCreation": true,
+                "enableBasicAuth": true,
+                "enableBranchAutoBuild": true,
+                "enableBranchAutoDeletion": true,
+                "environmentVariables": {
+                    "KeyName": "poccdzpunpezvxld"
+                },
+                "iamServiceRoleArn": "kfpihxpjqeqlycus",
+                "name": "ytglynxbnoppuogd",
+                "platform": "eiqffrimivzdpyzm",
+                "productionBranch": {
+                    "branchName": "xbqggtbgtcoaoash",
+                    "lastDeployTime": "nscldwxdvbkxlvau",
+                    "status": "txjlsufmneuctmpe",
+                    "thumbnailUrl": "gnishlhegeminjoo"
+                },
+                "repository": "vswfnulxlepjlbbs",
+                "repositoryCloneMethod": "kaijdawtegesdqil",
+                "tags": {
+                    "KeyName": "brzpqtljmwopjfiw"
+                },
+                "updateTime": "kaablvfvqhctzmby"
+            },
+            {
+                "appArn": "nwqxmfzykcdlvxcz",
+                "appId": "sphhpafnzkgjepvm",
+                "autoBranchCreationConfig": {
+                    "basicAuthCredentials": "zxndwvmvootxwffn",
+                    "buildSpec": "zrzzagzgamwfzplc",
+                    "enableAutoBuild": true,
+                    "enableBasicAuth": true,
+                    "enablePerformanceMode": true,
+                    "enablePullRequestPreview": true,
+                    "environmentVariables": {
+                        "KeyName": "kwitcdxngfnckiys"
+                    },
+                    "framework": "sjfaovuqhlpxmiwy",
+                    "pullRequestEnvironmentName": "jvqmejbbybhbxmnv",
+                    "stage": "kgqcpghwssklsrze"
+                },
+                "autoBranchCreationPatterns": [
+                    "tsvyqvpsbijfyobs"
+                ],
+                "basicAuthCredentials": "rwfpcetrgxaxihtb",
+                "buildSpec": "njukmikqempxfifu",
+                "createTime": "thwwefqokudzjaoc",
+                "customHeaders": "kvathyhgvqtcnhcm",
+                "customRules": [
+                    {
+                        "condition": "jhomzujnzyjigvjy",
+                        "source": "ekotfidkbigtjmbz",
+                        "status": "crwhcnkctgnlqzzu",
+                        "target": "ymmigrtdztdaqsai"
+                    }
+                ],
+                "defaultDomain": "dsmjnhfcicioacwj",
+                "description": "sgsbbjothlmrgwnd",
+                "enableAutoBranchCreation": true,
+                "enableBasicAuth": true,
+                "enableBranchAutoBuild": true,
+                "enableBranchAutoDeletion": true,
+                "environmentVariables": {
+                    "KeyName": "elephvuckyqzboaq"
+                },
+                "iamServiceRoleArn": "qzuihonjqkcuolza",
+                "name": "yqogdjcqlhlikqys",
+                "platform": "upcjbqfqilnnfcvn",
+                "productionBranch": {
+                    "branchName": "aoqqkzajvmdkydxr",
+                    "lastDeployTime": "gfionpwkbackemba",
+                    "status": "obxowjyhejitxapg",
+                    "thumbnailUrl": "ncoqfjnctzkchtnn"
+                },
+                "repository": "femdixzxprpszmgk",
+                "repositoryCloneMethod": "yikrjzefnqjpuvhg",
+                "tags": {
+                    "KeyName": "sljfhrmmlhvqbchx"
+                },
+                "updateTime": "cqudyzmootlnuhhp"
+            },
+            {
+                "appArn": "cduyunrsrodnkxiz",
+                "appId": "gnrvnfnymkohtxmg",
+                "autoBranchCreationConfig": {
+                    "basicAuthCredentials": "ugyiixnrgprhzxpz",
+                    "buildSpec": "xubxufctqtppdnip",
+                    "enableAutoBuild": true,
+                    "enableBasicAuth": true,
+                    "enablePerformanceMode": true,
+                    "enablePullRequestPreview": true,
+                    "environmentVariables": {
+                        "KeyName": "smuspmframtauipk"
+                    },
+                    "framework": "qvkyolwrphnmubwt",
+                    "pullRequestEnvironmentName": "ntqfopqhjfsdqfzv",
+                    "stage": "mwrnbplwmqceytbe"
+                },
+                "autoBranchCreationPatterns": [
+                    "uxbpqhrsrlinilmg"
+                ],
+                "basicAuthCredentials": "lovhahuqpbnkhjqd",
+                "buildSpec": "rgqgpdrzzagcogbt",
+                "createTime": "nomsuftqwnqodanz",
+                "customHeaders": "qelsqbegefnlmlpt",
+                "customRules": [
+                    {
+                        "condition": "zyikgfcxynmpudtw",
+                        "source": "extmmamrmaltzdwr",
+                        "status": "zgxlepnzeblaliwn",
+                        "target": "ilzonsfflvfsebsq"
+                    }
+                ],
+                "defaultDomain": "jjrqojdvkxcnwjng",
+                "description": "qvuoipcbemeiqlpl",
+                "enableAutoBranchCreation": true,
+                "enableBasicAuth": true,
+                "enableBranchAutoBuild": true,
+                "enableBranchAutoDeletion": true,
+                "environmentVariables": {
+                    "KeyName": "lteenslgnaijqooc"
+                },
+                "iamServiceRoleArn": "kyzfnhwgkmalgzip",
+                "name": "yaknvjraoqnpmsuy",
+                "platform": "dezplitxobzcgtos",
+                "productionBranch": {
+                    "branchName": "sbkjambfzfmzzkap",
+                    "lastDeployTime": "whpcibdzmfixkkyl",
+                    "status": "bvkwfiyrtkxmrdfg",
+                    "thumbnailUrl": "glsrzhfykbllgnbn"
+                },
+                "repository": "zjhwfvxfsrstorlu",
+                "repositoryCloneMethod": "eewqseqaarvoqkbz",
+                "tags": {
+                    "KeyName": "qfsbadnsvgvtzrqq"
+                },
+                "updateTime": "wunkndvrthaeujnx"
+            },
+            {
+                "appArn": "hjqcaluupnkpmsfl",
+                "appId": "mfmghoqekogghfhk",
+                "autoBranchCreationConfig": {
+                    "basicAuthCredentials": "hzqxueckgmqvjeqv",
+                    "buildSpec": "lwymbnzfuyvsodkz",
+                    "enableAutoBuild": true,
+                    "enableBasicAuth": true,
+                    "enablePerformanceMode": true,
+                    "enablePullRequestPreview": true,
+                    "environmentVariables": {
+                        "KeyName": "dtrweevkxoxuzvrh"
+                    },
+                    "framework": "ljgwntklyukiivbc",
+                    "pullRequestEnvironmentName": "tedrvfodxtuggcax",
+                    "stage": "ccfxmonaeyaadswc"
+                },
+                "autoBranchCreationPatterns": [
+                    "vdbxceavfwiecfut"
+                ],
+                "basicAuthCredentials": "tgnlhvvzkshsqskp",
+                "buildSpec": "lkrgkbxchcqbbxlo",
+                "createTime": "qfoztamhlqzzvcbe",
+                "customHeaders": "aaqffntpvpsdkoae",
+                "customRules": [
+                    {
+                        "condition": "rfzfuskipkypilty",
+                        "source": "ghptubnswobwcxiq",
+                        "status": "nuirlkgyozzyayyo",
+                        "target": "icpzdkymhksysbmm"
+                    }
+                ],
+                "defaultDomain": "wvqbvltwmlwofcnq",
+                "description": "rdblbqnydbksoywh",
+                "enableAutoBranchCreation": true,
+                "enableBasicAuth": true,
+                "enableBranchAutoBuild": true,
+                "enableBranchAutoDeletion": true,
+                "environmentVariables": {
+                    "KeyName": "ddabjaqwfzulwerf"
+                },
+                "iamServiceRoleArn": "fhrzeraoxqlmpzcw",
+                "name": "sevdnhsopxuccuzl",
+                "platform": "alptiijwcgpolokh",
+                "productionBranch": {
+                    "branchName": "fncmravqwsoqzbxl",
+                    "lastDeployTime": "yoyefykwtftqeqhh",
+                    "status": "lnbhpmvteovaczsm",
+                    "thumbnailUrl": "hkwafntghmefdcpb"
+                },
+                "repository": "sumnnlrtvzdyjlrk",
+                "repositoryCloneMethod": "weifactakrtifmgc",
+                "tags": {
+                    "KeyName": "hrsupxnzyguprddz"
+                },
+                "updateTime": "hwdlushvasiykrjv"
+            },
+            {
+                "appArn": "mchufxlbsyonoxxl",
+                "appId": "vfhibuibytrenrlf",
+                "autoBranchCreationConfig": {
+                    "basicAuthCredentials": "nhetyzqszaesuvaf",
+                    "buildSpec": "uggecwtnvigkfurz",
+                    "enableAutoBuild": true,
+                    "enableBasicAuth": true,
+                    "enablePerformanceMode": true,
+                    "enablePullRequestPreview": true,
+                    "environmentVariables": {
+                        "KeyName": "lxsrlhfhtxhykadf"
+                    },
+                    "framework": "jinvhzqzapszugkg",
+                    "pullRequestEnvironmentName": "jandpbkmyltvwpwk",
+                    "stage": "fqevgnjgcspyrwvy"
+                },
+                "autoBranchCreationPatterns": [
+                    "kmiaefvctgmbppuo"
+                ],
+                "basicAuthCredentials": "wvqcrzxqvvrppfyj",
+                "buildSpec": "nmxjsvuyusrwvzrj",
+                "createTime": "ezoqybmmlepxxwvn",
+                "customHeaders": "liwjfwgjyvynhvtw",
+                "customRules": [
+                    {
+                        "condition": "ffbkafiacxtndbvw",
+                        "source": "cwrdhltoewolzwmf",
+                        "status": "tqwvigkwxclttczw",
+                        "target": "jjranhalkcytbgsd"
+                    }
+                ],
+                "defaultDomain": "tcrybfourldkdoow",
+                "description": "vxotprqwyqimdqtb",
+                "enableAutoBranchCreation": true,
+                "enableBasicAuth": true,
+                "enableBranchAutoBuild": true,
+                "enableBranchAutoDeletion": true,
+                "environmentVariables": {
+                    "KeyName": "dypykrkxmustotka"
+                },
+                "iamServiceRoleArn": "irxztxeqjfeozlcd",
+                "name": "swentyziqoafajhk",
+                "platform": "byuvomsyndorfjeb",
+                "productionBranch": {
+                    "branchName": "nuomfeqiyvpgszrx",
+                    "lastDeployTime": "vjytyesdygiqeann",
+                    "status": "sbjbwwwfsoxuwzha",
+                    "thumbnailUrl": "xccexwyogsigdzxy"
+                },
+                "repository": "jjvaxmhaahbarokb",
+                "repositoryCloneMethod": "mqiuqnlcmhwjenzl",
+                "tags": {
+                    "KeyName": "mxlbuacxpbljcjco"
+                },
+                "updateTime": "zavroozdvdtqgtdd"
+            },
+            {
+                "appArn": "luwiqjdqzjhewicr",
+                "appId": "ojzsnrqvfrzitucf",
+                "autoBranchCreationConfig": {
+                    "basicAuthCredentials": "mqqmwxrpqrpjyjrs",
+                    "buildSpec": "eexqfqcqhndhfwin",
+                    "enableAutoBuild": true,
+                    "enableBasicAuth": true,
+                    "enablePerformanceMode": true,
+                    "enablePullRequestPreview": true,
+                    "environmentVariables": {
+                        "KeyName": "invqdkypdqmkxiyk"
+                    },
+                    "framework": "xmehxtlvipvjkoaa",
+                    "pullRequestEnvironmentName": "fyadckmoizgmsjwl",
+                    "stage": "xgwodhtqchfzpmbu"
+                },
+                "autoBranchCreationPatterns": [
+                    "xaqlwhcrymtneltl"
+                ],
+                "basicAuthCredentials": "uwccmbsdinlmujew",
+                "buildSpec": "ltqllwzctzqmeiwk",
+                "createTime": "brevxqommjymeuwt",
+                "customHeaders": "pclmxvxhnfymgisn",
+                "customRules": [
+                    {
+                        "condition": "peemcmkrbbbrunor",
+                        "source": "qjnjphkdnuezugpb",
+                        "status": "njnjugmmuwshstja",
+                        "target": "kjqgdsstjinfutrn"
+                    }
+                ],
+                "defaultDomain": "ehvvgmvshtrriqky",
+                "description": "avfucvjuswgfybmg",
+                "enableAutoBranchCreation": true,
+                "enableBasicAuth": true,
+                "enableBranchAutoBuild": true,
+                "enableBranchAutoDeletion": true,
+                "environmentVariables": {
+                    "KeyName": "wdwhzqrpbkufdiea"
+                },
+                "iamServiceRoleArn": "kiddwpsqvygopvly",
+                "name": "xqbzviiqzrvkfgle",
+                "platform": "wcqkcwetzsuekedj",
+                "productionBranch": {
+                    "branchName": "ebehtdivdwzovtmp",
+                    "lastDeployTime": "snwpqitytftdiqjc",
+                    "status": "wbaqdfhoeayvuyxb",
+                    "thumbnailUrl": "ltpqyajpejuvqkeo"
+                },
+                "repository": "zsjjxkaiudchhqls",
+                "repositoryCloneMethod": "mwpidgipexoanyxr",
+                "tags": {
+                    "KeyName": "rrgbjpjaqnvzojbr"
+                },
+                "updateTime": "egwoutnaxxsshzdd"
+            },
+            {
+                "appArn": "fuepyemuswlepbgb",
+                "appId": "ycvtvjkikntbqqkg",
+                "autoBranchCreationConfig": {
+                    "basicAuthCredentials": "cbzdrrxqdkaqdqic",
+                    "buildSpec": "jvqxatdqkaaksygl",
+                    "enableAutoBuild": true,
+                    "enableBasicAuth": true,
+                    "enablePerformanceMode": true,
+                    "enablePullRequestPreview": true,
+                    "environmentVariables": {
+                        "KeyName": "aapftplbhxwbfcum"
+                    },
+                    "framework": "ocagmsnouuuaqrlh",
+                    "pullRequestEnvironmentName": "wejkfingyhmapetz",
+                    "stage": "ojskkbrympvctmby"
+                },
+                "autoBranchCreationPatterns": [
+                    "eyjugaznzzwmhwrv"
+                ],
+                "basicAuthCredentials": "qfvddnyiudlmswxo",
+                "buildSpec": "kikyjigzzsmjaqgu",
+                "createTime": "laagkqzxayrkrqrt",
+                "customHeaders": "obakgprdcofhvmdq",
+                "customRules": [
+                    {
+                        "condition": "ibukvcgeqrquitlv",
+                        "source": "jtonxnkpshyzyzpn",
+                        "status": "rhelazlsaclvevtk",
+                        "target": "wholoorzwclfwhls"
+                    }
+                ],
+                "defaultDomain": "ubzaoyoblgowjxts",
+                "description": "vlczxuxzhqhjtyiq",
+                "enableAutoBranchCreation": true,
+                "enableBasicAuth": true,
+                "enableBranchAutoBuild": true,
+                "enableBranchAutoDeletion": true,
+                "environmentVariables": {
+                    "KeyName": "dileyvelhxyocyci"
+                },
+                "iamServiceRoleArn": "wlcbhtqkhnvuyhcw",
+                "name": "pwteolbmxydkmpel",
+                "platform": "qempkvrpflgnfwmj",
+                "productionBranch": {
+                    "branchName": "fcnlqijrkwpbgmjf",
+                    "lastDeployTime": "pzzsqkooevzcvegi",
+                    "status": "asnhbnueelqtllmf",
+                    "thumbnailUrl": "puckohgzvamazbzh"
+                },
+                "repository": "dskwsijkymdyuzll",
+                "repositoryCloneMethod": "drsyexkdxgkqhbwn",
+                "tags": {
+                    "KeyName": "fmiwbcpebqxjqgfe"
+                },
+                "updateTime": "gvxrranhiowbemga"
+            },
+            {
+                "appArn": "nezfieiotpckfehh",
+                "appId": "hraohlglwmzpqbjf",
+                "autoBranchCreationConfig": {
+                    "basicAuthCredentials": "aqmfvdxtwvcifshy",
+                    "buildSpec": "zfwhqijlyoolldvv",
+                    "enableAutoBuild": true,
+                    "enableBasicAuth": true,
+                    "enablePerformanceMode": true,
+                    "enablePullRequestPreview": true,
+                    "environmentVariables": {
+                        "KeyName": "vsaxqjhylcdevvcl"
+                    },
+                    "framework": "ohrgycicgnehrdvt",
+                    "pullRequestEnvironmentName": "weuftzeqsyxjmckw",
+                    "stage": "neysokjasmovilif"
+                },
+                "autoBranchCreationPatterns": [
+                    "ehnpigkvvzwviigd"
+                ],
+                "basicAuthCredentials": "irjjpbfykwggdpxx",
+                "buildSpec": "jplgsqfxcftzljqo",
+                "createTime": "mcueknqntmlgetqk",
+                "customHeaders": "mdbmoopgaguspxam",
+                "customRules": [
+                    {
+                        "condition": "ycmlcodecfdqqnvu",
+                        "source": "pdpwshcggwhmzune",
+                        "status": "bjfwrtcqqlnalzhu",
+                        "target": "sendysjpmxhrcxdp"
+                    }
+                ],
+                "defaultDomain": "vgobhnaxpwepzbdg",
+                "description": "kcvliookrlpdjxgc",
+                "enableAutoBranchCreation": true,
+                "enableBasicAuth": true,
+                "enableBranchAutoBuild": true,
+                "enableBranchAutoDeletion": true,
+                "environmentVariables": {
+                    "KeyName": "erkcuovzviakwygp"
+                },
+                "iamServiceRoleArn": "ljxtzvityntkgzue",
+                "name": "nxcqofkkfjvhpwst",
+                "platform": "ymqzurjqrgcbekwy",
+                "productionBranch": {
+                    "branchName": "skmwyvdvmobewnos",
+                    "lastDeployTime": "vyzkvuxmsrclnwsl",
+                    "status": "ljoqrjfbgujajrjl",
+                    "thumbnailUrl": "ddddkjwgfytdpbwg"
+                },
+                "repository": "aqawqudgdvlfmvaw",
+                "repositoryCloneMethod": "hxpgqmeeigthkipi",
+                "tags": {
+                    "KeyName": "qvssgepgkqvmryye"
+                },
+                "updateTime": "oihoikhmzmszxocx"
+            },
+            {
+                "appArn": "mbuhyihudiuhhvjx",
+                "appId": "ufmbvngwhqlazmdt",
+                "autoBranchCreationConfig": {
+                    "basicAuthCredentials": "coyfzmzyvrogomfb",
+                    "buildSpec": "gzzzrrbhyeielwxu",
+                    "enableAutoBuild": true,
+                    "enableBasicAuth": true,
+                    "enablePerformanceMode": true,
+                    "enablePullRequestPreview": true,
+                    "environmentVariables": {
+                        "KeyName": "tfclxhvmamnjbtgh"
+                    },
+                    "framework": "radhyvkxjsnqxhpy",
+                    "pullRequestEnvironmentName": "ovcefswlbiotaald",
+                    "stage": "jiigfpxwfzwwiicj"
+                },
+                "autoBranchCreationPatterns": [
+                    "rnrdodrrgbkqdzlx"
+                ],
+                "basicAuthCredentials": "hbccumzolixcjvlu",
+                "buildSpec": "jmqcxqqmmfhakqut",
+                "createTime": "lmlccicqhxjrbdsp",
+                "customHeaders": "sklswaoizrazpcee",
+                "customRules": [
+                    {
+                        "condition": "vggljplfcjwxnmoh",
+                        "source": "vxeydvulzfdfrooa",
+                        "status": "msaafxvyqetgxtcd",
+                        "target": "tdutmrmitvnfgyyb"
+                    }
+                ],
+                "defaultDomain": "fzjvzikyogutysec",
+                "description": "enghicswttsktdvq",
+                "enableAutoBranchCreation": true,
+                "enableBasicAuth": true,
+                "enableBranchAutoBuild": true,
+                "enableBranchAutoDeletion": true,
+                "environmentVariables": {
+                    "KeyName": "pkmwboeevriqsuss"
+                },
+                "iamServiceRoleArn": "rhzkqixejpinodnv",
+                "name": "zqhbyzhhfouiwiwq",
+                "platform": "gqnpojszmoghvzxj",
+                "productionBranch": {
+                    "branchName": "fsvpxnnxloyrziys",
+                    "lastDeployTime": "faygugkvpdzkkoek",
+                    "status": "wdbvtukkcxsqsjuh",
+                    "thumbnailUrl": "puvehquaethhorbk"
+                },
+                "repository": "npbskfqsczruhyba",
+                "repositoryCloneMethod": "aywrputrmhxwwhgp",
+                "tags": {
+                    "KeyName": "eqyknuektsmffeey"
+                },
+                "updateTime": "kynqenaxzwkvbiqv"
+            },
+            {
+                "appArn": "bpommmfdaociqfet",
+                "appId": "mwnetsghevpdczpm",
+                "autoBranchCreationConfig": {
+                    "basicAuthCredentials": "gurgbtevfhsrkkru",
+                    "buildSpec": "uvtwfrjjudttksse",
+                    "enableAutoBuild": true,
+                    "enableBasicAuth": true,
+                    "enablePerformanceMode": true,
+                    "enablePullRequestPreview": true,
+                    "environmentVariables": {
+                        "KeyName": "tuhqurydcgpdlqkh"
+                    },
+                    "framework": "xugzxusaillweeof",
+                    "pullRequestEnvironmentName": "vxpdolstbqbkykdg",
+                    "stage": "ytfjrxwnnlhlsfjv"
+                },
+                "autoBranchCreationPatterns": [
+                    "krrcqnfcnatpeojw"
+                ],
+                "basicAuthCredentials": "gqpjbzcbkxqewcam",
+                "buildSpec": "uoneklcztayagblj",
+                "createTime": "rjjmvvtjlqjdwuri",
+                "customHeaders": "xnmxooglkpsowxbf",
+                "customRules": [
+                    {
+                        "condition": "ztrkahmkjwihdkvu",
+                        "source": "rukmswyvkkbwfmgm",
+                        "status": "xtcggsdmgugjmocl",
+                        "target": "fooklxvwedzrsatq"
+                    }
+                ],
+                "defaultDomain": "szxxzvsenhdagyln",
+                "description": "kqmavfjejxhsozlx",
+                "enableAutoBranchCreation": true,
+                "enableBasicAuth": true,
+                "enableBranchAutoBuild": true,
+                "enableBranchAutoDeletion": true,
+                "environmentVariables": {
+                    "KeyName": "timjhjygeuwvngqs"
+                },
+                "iamServiceRoleArn": "kzopafzjoesajars",
+                "name": "sscnqphnxdejfqzo",
+                "platform": "madsqdojggtuathc",
+                "productionBranch": {
+                    "branchName": "waawjelnlzoqugra",
+                    "lastDeployTime": "hjzhbfoscmhvfarc",
+                    "status": "fcfjbmlvgurvlewj",
+                    "thumbnailUrl": "fbawzleimhwmprha"
+                },
+                "repository": "loibonriijyylluq",
+                "repositoryCloneMethod": "vzqptrdhbjglnwrw",
+                "tags": {
+                    "KeyName": "zlcrusyrwjicyyey"
+                },
+                "updateTime": "tokswaypgfkilniw"
+            }
+        ],
+        "result_key": "apps"
+    },
+    "meta": {
+        "start": 1711115189.765618,
+        "end": 1711115197.764993,
+        "duration": 7.999385833740234,
+        "service": "amplify",
+        "type": "apps"
+    }
+}

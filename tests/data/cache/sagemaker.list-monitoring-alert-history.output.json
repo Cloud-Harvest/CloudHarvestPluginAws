@@ -1,0 +1,101 @@
+{
+    "input": {
+        "template": {
+            "MonitoringScheduleName": "",
+            "MonitoringAlertName": "",
+            "SortBy": "CreationTime",
+            "SortOrder": "Ascending",
+            "NextToken": "",
+            "MaxResults": 0,
+            "CreationTimeBefore": "1970-01-01T00:00:00",
+            "CreationTimeAfter": "1970-01-01T00:00:00",
+            "StatusEquals": "InAlert"
+        },
+        "required": [],
+        "md5": "03e09f1353b2d0326d6efeeb91bb8de5",
+        "boto_command": "list_monitoring_alert_history",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "MonitoringScheduleName": "MonitoringScheduleName",
+                "MonitoringAlertName": "MonitoringAlertName",
+                "CreationTime": "1970-01-01T00:00:00",
+                "AlertStatus": "AlertStatus"
+            }
+        ],
+        "required": [],
+        "md5": "dfccbe76a46d02d883f365ee5ebc396d",
+        "randomized": [
+            {
+                "AlertStatus": "hficbloaltkmclbw",
+                "CreationTime": "xavccagbcsxvmjmn",
+                "MonitoringAlertName": "nraiogqfwtjiroxn",
+                "MonitoringScheduleName": "sjxsroqfbcypztuh"
+            },
+            {
+                "AlertStatus": "qwwccqxiviittuyb",
+                "CreationTime": "svtcxiregiedhpxi",
+                "MonitoringAlertName": "dzehyfbrowbdaaqf",
+                "MonitoringScheduleName": "ygjyzeqebjqvqpkd"
+            },
+            {
+                "AlertStatus": "klviyxmzqcicebqb",
+                "CreationTime": "jjrtxmydgeaakgre",
+                "MonitoringAlertName": "rnayayxfuteqmgev",
+                "MonitoringScheduleName": "drqgmhcmfzsfgvve"
+            },
+            {
+                "AlertStatus": "sprrhigdzmcndtxc",
+                "CreationTime": "zbekhxuifkilahvd",
+                "MonitoringAlertName": "yiyzzsogblocsbce",
+                "MonitoringScheduleName": "gifxqvpccsisebtp"
+            },
+            {
+                "AlertStatus": "swysfftgzqkczbom",
+                "CreationTime": "ssbzrqyjnpsikutp",
+                "MonitoringAlertName": "qstpirtdsdnshyts",
+                "MonitoringScheduleName": "buigjlmkqhxrsjop"
+            },
+            {
+                "AlertStatus": "cmejlcuevojsjqed",
+                "CreationTime": "buqsktdylhbehowu",
+                "MonitoringAlertName": "jhbtzzbtpodbkisk",
+                "MonitoringScheduleName": "nfmlvjnvdcjhgrqr"
+            },
+            {
+                "AlertStatus": "ktlgbqoskrtpkxwj",
+                "CreationTime": "uaeizcrlhkoapcwy",
+                "MonitoringAlertName": "nplgxojsqhxtnxfn",
+                "MonitoringScheduleName": "jgznavxasscptbdy"
+            },
+            {
+                "AlertStatus": "icggzvhhlazxxwyu",
+                "CreationTime": "rtpbtyipoevqiikw",
+                "MonitoringAlertName": "lfuebzbnwpkvcitf",
+                "MonitoringScheduleName": "imnbbfeldbktaqxw"
+            },
+            {
+                "AlertStatus": "pbwjuhmhfcuqigbl",
+                "CreationTime": "rignllcujnfmsnqy",
+                "MonitoringAlertName": "abaqlhrovgzlcpzl",
+                "MonitoringScheduleName": "natmlqpqrtkjpdkx"
+            },
+            {
+                "AlertStatus": "assidopzhmdpgqha",
+                "CreationTime": "fbmmtxjzlwegkmbt",
+                "MonitoringAlertName": "xqvjvmrfemykucjd",
+                "MonitoringScheduleName": "horysaggbxcwstif"
+            }
+        ],
+        "result_key": "MonitoringAlertHistory"
+    },
+    "meta": {
+        "start": 1711116563.706978,
+        "end": 1711116572.291847,
+        "duration": 8.584878921508789,
+        "service": "sagemaker",
+        "type": "monitoring_alert_history"
+    }
+}

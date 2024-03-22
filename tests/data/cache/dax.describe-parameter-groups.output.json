@@ -1,0 +1,75 @@
+{
+    "input": {
+        "template": {
+            "ParameterGroupNames": [
+                ""
+            ],
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "0ae72a7e0e475a01b02e942a06db0b6f",
+        "boto_command": "describe_parameter_groups",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "ParameterGroupName": "ParameterGroupName",
+                "Description": "Description"
+            }
+        ],
+        "required": [],
+        "md5": "76c85b76e248236e871d5487e7de884c",
+        "randomized": [
+            {
+                "Description": "htbbzzymmpbxghwa",
+                "ParameterGroupName": "mlpwxexhkyjxxidb"
+            },
+            {
+                "Description": "tsnpumpidvuhendz",
+                "ParameterGroupName": "kkfarlyifzihqqhu"
+            },
+            {
+                "Description": "czzicqiwskzfeljy",
+                "ParameterGroupName": "kxzwnitnixvrpdwx"
+            },
+            {
+                "Description": "kxhcregpfuexhazh",
+                "ParameterGroupName": "adgzwiqchnusfruw"
+            },
+            {
+                "Description": "fgczebamapzlosni",
+                "ParameterGroupName": "fekbwnilebkrpszo"
+            },
+            {
+                "Description": "tutqoacnwrixyjtb",
+                "ParameterGroupName": "qtdpcczgtwxukwau"
+            },
+            {
+                "Description": "oovokveqrbbjqmjj",
+                "ParameterGroupName": "dkvjgstimbbwruxr"
+            },
+            {
+                "Description": "gplnfhbjshssbqiz",
+                "ParameterGroupName": "qtlyrxnttxuhheox"
+            },
+            {
+                "Description": "gakasjtrvcvaxrfb",
+                "ParameterGroupName": "lhakhwavsnrqxkks"
+            },
+            {
+                "Description": "cqkvbppgjtcuvfvi",
+                "ParameterGroupName": "vhphlwgevjunnrdr"
+            }
+        ],
+        "result_key": "ParameterGroups"
+    },
+    "meta": {
+        "start": 1711115537.158539,
+        "end": 1711115544.50907,
+        "duration": 7.35054087638855,
+        "service": "dax",
+        "type": "parameter_groups"
+    }
+}

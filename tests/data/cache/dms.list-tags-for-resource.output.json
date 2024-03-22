@@ -1,0 +1,85 @@
+{
+    "input": {
+        "template": {
+            "ResourceArn": "",
+            "ResourceArnList": [
+                ""
+            ]
+        },
+        "required": [],
+        "md5": "2c92a4d8356ded60cc65d50e9d26068a",
+        "boto_command": "list_tags_for_resource",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "Key": "Key",
+                "Value": "Value",
+                "ResourceArn": "ResourceArn"
+            }
+        ],
+        "required": [],
+        "md5": "eed2715b0abcf7a3e2e308d789e368f7",
+        "randomized": [
+            {
+                "Key": "hwwhmpvdsxqdbrqp",
+                "ResourceArn": "zuosdbvzrnkswhyf",
+                "Value": "hyrfumvvhkhzwukl"
+            },
+            {
+                "Key": "ykkcjlpzuqfmxjzy",
+                "ResourceArn": "bflidxprptwdogud",
+                "Value": "czmujdutppdswnnq"
+            },
+            {
+                "Key": "iejcxmscbkeftkqb",
+                "ResourceArn": "nbzwfmljzkljfein",
+                "Value": "nlqljdxhxorbtswe"
+            },
+            {
+                "Key": "oveobjicxvdphbwc",
+                "ResourceArn": "qsmflokchdrfocag",
+                "Value": "ztilvmdkvkwtvfdc"
+            },
+            {
+                "Key": "wivothvclksfdkuz",
+                "ResourceArn": "lepbbcyhlxxovtgj",
+                "Value": "ewkvlpjvlxgfyhpk"
+            },
+            {
+                "Key": "sbordgcywhlhgbbm",
+                "ResourceArn": "glhigzwrtwynryew",
+                "Value": "aiaqoimnwysukyay"
+            },
+            {
+                "Key": "kyygyxhkeoctvuqr",
+                "ResourceArn": "mycahxjaegzrhtvs",
+                "Value": "mklcpxeeefwuqvkw"
+            },
+            {
+                "Key": "ovklnunecjsgcblj",
+                "ResourceArn": "dstrcmikjscddrpz",
+                "Value": "rvahkqvjbjcggrqd"
+            },
+            {
+                "Key": "ansiaappfahtmtcs",
+                "ResourceArn": "yhbhsfkadlydvesm",
+                "Value": "wmqrxltvhmgowkee"
+            },
+            {
+                "Key": "akxcqwxmnxvdyvqs",
+                "ResourceArn": "xpkkqppzfnhzkfwg",
+                "Value": "qbudmkebrewafmys"
+            }
+        ],
+        "result_key": "TagList"
+    },
+    "meta": {
+        "start": 1711115585.380674,
+        "end": 1711115591.351416,
+        "duration": 5.970751047134399,
+        "service": "dms",
+        "type": "tags_for_resource"
+    }
+}

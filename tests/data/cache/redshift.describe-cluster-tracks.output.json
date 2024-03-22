@@ -1,0 +1,194 @@
+{
+    "input": {
+        "template": {
+            "MaintenanceTrackName": "",
+            "MaxRecords": 0,
+            "Marker": ""
+        },
+        "required": [],
+        "md5": "4c3fde82e9e3c90b8e62ee59433d6831",
+        "boto_command": "describe_cluster_tracks",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "MaintenanceTrackName": "MaintenanceTrackName",
+                "DatabaseVersion": "DatabaseVersion",
+                "UpdateTargets": [
+                    {
+                        "MaintenanceTrackName": "MaintenanceTrackName",
+                        "DatabaseVersion": "DatabaseVersion",
+                        "SupportedOperations": [
+                            {
+                                "OperationName": "OperationName"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "4566126ba03f475614b16c1bc0484d1a",
+        "randomized": [
+            {
+                "DatabaseVersion": "bniddkdvkngcrfpx",
+                "MaintenanceTrackName": "fakaiwqorazxejtp",
+                "UpdateTargets": [
+                    {
+                        "DatabaseVersion": "tvkljsnmagadcanh",
+                        "MaintenanceTrackName": "lpplszhiioknikux",
+                        "SupportedOperations": [
+                            {
+                                "OperationName": "ohqwlmkiltxzpxto"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "DatabaseVersion": "dmygnjnpowqioxgv",
+                "MaintenanceTrackName": "zkycecqdmcoersxo",
+                "UpdateTargets": [
+                    {
+                        "DatabaseVersion": "runjqbqrtmojvnyn",
+                        "MaintenanceTrackName": "mzaamvqelqhuicnj",
+                        "SupportedOperations": [
+                            {
+                                "OperationName": "gbcnwojiwmmthrtn"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "DatabaseVersion": "uqzfvexfggcbueyv",
+                "MaintenanceTrackName": "vlzrlrtjwfwicojp",
+                "UpdateTargets": [
+                    {
+                        "DatabaseVersion": "teiuydyrgrntsqjf",
+                        "MaintenanceTrackName": "dzmsvhwflinjddoz",
+                        "SupportedOperations": [
+                            {
+                                "OperationName": "ftobryqwhrivnmvg"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "DatabaseVersion": "gcekjczujzozkupw",
+                "MaintenanceTrackName": "wknxlivoinlzoamy",
+                "UpdateTargets": [
+                    {
+                        "DatabaseVersion": "jpkwkuogoxqjdmqo",
+                        "MaintenanceTrackName": "kpwvgaxieqqqhkvo",
+                        "SupportedOperations": [
+                            {
+                                "OperationName": "fkfvedkithbkgpht"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "DatabaseVersion": "iifawgouscutptbe",
+                "MaintenanceTrackName": "xntrzoowifkilqwd",
+                "UpdateTargets": [
+                    {
+                        "DatabaseVersion": "dxrshjjcmokznsmi",
+                        "MaintenanceTrackName": "wozshjpvoicmfmkt",
+                        "SupportedOperations": [
+                            {
+                                "OperationName": "gakpwnhfmuxjxtlj"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "DatabaseVersion": "evfhbwoehpgnhifw",
+                "MaintenanceTrackName": "qnmcxhtaslsawgou",
+                "UpdateTargets": [
+                    {
+                        "DatabaseVersion": "cftuacqvdbpzxqjx",
+                        "MaintenanceTrackName": "waspotwgwnzombgp",
+                        "SupportedOperations": [
+                            {
+                                "OperationName": "gwexlshnjcdnzfra"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "DatabaseVersion": "dzwexorcuooybnnf",
+                "MaintenanceTrackName": "koqtqzdicybpdcdz",
+                "UpdateTargets": [
+                    {
+                        "DatabaseVersion": "wnbnouqnfyfpkcwj",
+                        "MaintenanceTrackName": "wzijyncllbhenmav",
+                        "SupportedOperations": [
+                            {
+                                "OperationName": "ugascyejljqnbqib"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "DatabaseVersion": "dxcurnajqfumuruo",
+                "MaintenanceTrackName": "tmxzpmpdhbgrcaic",
+                "UpdateTargets": [
+                    {
+                        "DatabaseVersion": "kduastouikhosiof",
+                        "MaintenanceTrackName": "uzalthkovhzddowa",
+                        "SupportedOperations": [
+                            {
+                                "OperationName": "zxosmxkmqbfzsxmw"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "DatabaseVersion": "rtbjctwouiaueicn",
+                "MaintenanceTrackName": "vebubrnyjjwefldu",
+                "UpdateTargets": [
+                    {
+                        "DatabaseVersion": "ethmxjcgfnvoyfzy",
+                        "MaintenanceTrackName": "dweacgstdlirhikw",
+                        "SupportedOperations": [
+                            {
+                                "OperationName": "tdibvxbtymocedfz"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "DatabaseVersion": "fzludhvsweazyrhv",
+                "MaintenanceTrackName": "fatigzyhugkgyqxq",
+                "UpdateTargets": [
+                    {
+                        "DatabaseVersion": "ebmmypwrluordqec",
+                        "MaintenanceTrackName": "xofbhpupglhcppdb",
+                        "SupportedOperations": [
+                            {
+                                "OperationName": "ymqezpliddiekccm"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "result_key": "MaintenanceTracks"
+    },
+    "meta": {
+        "start": 1711116422.175153,
+        "end": 1711116428.035743,
+        "duration": 5.860598087310791,
+        "service": "redshift",
+        "type": "cluster_tracks"
+    }
+}

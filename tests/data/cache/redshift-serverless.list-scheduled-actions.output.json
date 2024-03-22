@@ -1,0 +1,40 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "namespaceName": "",
+            "nextToken": ""
+        },
+        "required": [],
+        "md5": "40d10ce3b4e5993e9a3bb416599e9efe",
+        "boto_command": "list_scheduled_actions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            "ScheduledActionName"
+        ],
+        "required": [],
+        "md5": "ec7608f45ba59f3b526089f7e26e8876",
+        "randomized": [
+            "pdptpgrehmpqudqw",
+            "kbhlggmfpqzfoxua",
+            "gmspcbcsthvrhglf",
+            "ifdrugudjioqtkbg",
+            "jggpyjxpxpydxdms",
+            "xwlkilyqqhxqweww",
+            "phrauvqvdjeedeqd",
+            "nltdtgaktybmyzxf",
+            "sgopxxypsgzvgnsd",
+            "weqieejgfiauujaa"
+        ],
+        "result_key": "scheduledActions"
+    },
+    "meta": {
+        "start": 1711116439.540507,
+        "end": 1711116447.215399,
+        "duration": 7.67490291595459,
+        "service": "redshift-serverless",
+        "type": "scheduled_actions"
+    }
+}

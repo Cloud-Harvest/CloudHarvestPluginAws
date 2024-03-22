@@ -1,0 +1,100 @@
+{
+    "input": {
+        "template": {
+            "EndpointName": "",
+            "SortBy": "Name",
+            "SortOrder": "Ascending",
+            "NextToken": "",
+            "MaxResults": 0,
+            "NameContains": "",
+            "CreationTimeBefore": "1970-01-01T00:00:00",
+            "CreationTimeAfter": "1970-01-01T00:00:00"
+        },
+        "required": [],
+        "md5": "852ca04b10d490773d3730440dcbf064",
+        "boto_command": "list_model_bias_job_definitions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "MonitoringJobDefinitionName": "MonitoringJobDefinitionName",
+                "MonitoringJobDefinitionArn": "MonitoringJobDefinitionArn",
+                "CreationTime": "1970-01-01T00:00:00",
+                "EndpointName": "EndpointName"
+            }
+        ],
+        "required": [],
+        "md5": "f5930096aa6829195560e89adea9fd5b",
+        "randomized": [
+            {
+                "CreationTime": "catweuzoxrytfjnq",
+                "EndpointName": "dycifktgjwyocnxy",
+                "MonitoringJobDefinitionArn": "gwdugwgkouznqnui",
+                "MonitoringJobDefinitionName": "ouzckmjaqsolwcaw"
+            },
+            {
+                "CreationTime": "jbsnhypycynmsgeg",
+                "EndpointName": "pistajaqjmrfsrca",
+                "MonitoringJobDefinitionArn": "xcudmpopmajdsjoc",
+                "MonitoringJobDefinitionName": "jjxuxaxalakzaycj"
+            },
+            {
+                "CreationTime": "hghpetefmqfvgcpc",
+                "EndpointName": "yzhayimnysszowbx",
+                "MonitoringJobDefinitionArn": "gvhivefpkogeilsh",
+                "MonitoringJobDefinitionName": "zwjwqcgehwoguwwi"
+            },
+            {
+                "CreationTime": "epgrenplncewgodr",
+                "EndpointName": "tqjphglyvhgbmuzl",
+                "MonitoringJobDefinitionArn": "hpisgdduucexgtsk",
+                "MonitoringJobDefinitionName": "yxvkahykgryxutwd"
+            },
+            {
+                "CreationTime": "umiewzcvnqhwmtbp",
+                "EndpointName": "cairyyhufljxivvf",
+                "MonitoringJobDefinitionArn": "cuyirrojzpwpjeqf",
+                "MonitoringJobDefinitionName": "oteogdrjjppksjki"
+            },
+            {
+                "CreationTime": "kzdzzmnxslckiavj",
+                "EndpointName": "zyujdzmvvtemlsqj",
+                "MonitoringJobDefinitionArn": "syequizcmixbwjlw",
+                "MonitoringJobDefinitionName": "nnaevjbkzxjlxufv"
+            },
+            {
+                "CreationTime": "votvronpohyhtwuo",
+                "EndpointName": "hrpitosfmbfpwtpj",
+                "MonitoringJobDefinitionArn": "lgupusadbofpkyro",
+                "MonitoringJobDefinitionName": "cmettxyeflzguwaa"
+            },
+            {
+                "CreationTime": "oqujywwyxdtomjnz",
+                "EndpointName": "xxdrlfwsecbpmqpq",
+                "MonitoringJobDefinitionArn": "qwxwppkslazpkelx",
+                "MonitoringJobDefinitionName": "taqhxytgfxjgrkys"
+            },
+            {
+                "CreationTime": "vnqfihvkepfvjeei",
+                "EndpointName": "crffasfytdlbazxt",
+                "MonitoringJobDefinitionArn": "yrozuekhxdrhnpaz",
+                "MonitoringJobDefinitionName": "hantidqmccpowsux"
+            },
+            {
+                "CreationTime": "psslzptjmcekqwei",
+                "EndpointName": "cbtosvnypsxjwals",
+                "MonitoringJobDefinitionArn": "ilxpqorfclbbjtrz",
+                "MonitoringJobDefinitionName": "srsyzxopfaqqetno"
+            }
+        ],
+        "result_key": "JobDefinitionSummaries"
+    },
+    "meta": {
+        "start": 1711116559.040617,
+        "end": 1711116566.589106,
+        "duration": 7.548500061035156,
+        "service": "sagemaker",
+        "type": "model_bias_job_definitions"
+    }
+}

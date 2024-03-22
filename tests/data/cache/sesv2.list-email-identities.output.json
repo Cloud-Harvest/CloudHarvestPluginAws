@@ -1,0 +1,94 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "PageSize": 0
+        },
+        "required": [],
+        "md5": "6f800abd8ec20d997fbd9890722a00ef",
+        "boto_command": "list_email_identities",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "IdentityType": "IdentityType",
+                "IdentityName": "IdentityName",
+                "SendingEnabled": true,
+                "VerificationStatus": "VerificationStatus"
+            }
+        ],
+        "required": [],
+        "md5": "1a911772f880f5e17401c0e00febc856",
+        "randomized": [
+            {
+                "IdentityName": "axchgrjsxmysowyb",
+                "IdentityType": "qgabinvvlatlveuj",
+                "SendingEnabled": true,
+                "VerificationStatus": "mvnypkwxgfzocfra"
+            },
+            {
+                "IdentityName": "emqewauxscgzricm",
+                "IdentityType": "ucvbzfqupcwnrimi",
+                "SendingEnabled": true,
+                "VerificationStatus": "zoinbvjpoywijdhb"
+            },
+            {
+                "IdentityName": "hwisfcrymkjhavsx",
+                "IdentityType": "djzntgqnukzohjxd",
+                "SendingEnabled": true,
+                "VerificationStatus": "ernvcebjraeolflo"
+            },
+            {
+                "IdentityName": "iredlvsnqyuqomaa",
+                "IdentityType": "yziicyezimxkxghb",
+                "SendingEnabled": true,
+                "VerificationStatus": "lesgyqxviixmnahf"
+            },
+            {
+                "IdentityName": "kqjxxsshntgemdhs",
+                "IdentityType": "bqpnvnzofntthdup",
+                "SendingEnabled": true,
+                "VerificationStatus": "crapevrkgluoijpy"
+            },
+            {
+                "IdentityName": "knerbbgqhbuqozxs",
+                "IdentityType": "wtbwwkjdfwhbqdwf",
+                "SendingEnabled": true,
+                "VerificationStatus": "whocynzsnmtkqlbk"
+            },
+            {
+                "IdentityName": "dyrkegeirnbbzoie",
+                "IdentityType": "ssnqufgrcbgsdznk",
+                "SendingEnabled": true,
+                "VerificationStatus": "rurrmpgpfvcsbzfz"
+            },
+            {
+                "IdentityName": "owsnhuhpiuczkbzm",
+                "IdentityType": "hnyoizqyobwweona",
+                "SendingEnabled": true,
+                "VerificationStatus": "kcwqbjzttyzrkyzl"
+            },
+            {
+                "IdentityName": "dldpzljaojpsjbpy",
+                "IdentityType": "yqorqffqfkohhacw",
+                "SendingEnabled": true,
+                "VerificationStatus": "bpbqvuhhjcbcggol"
+            },
+            {
+                "IdentityName": "amtjqvxheanyvpvv",
+                "IdentityType": "mrhuiejhjkmxbxwt",
+                "SendingEnabled": true,
+                "VerificationStatus": "wtswvdncmqrlkmeu"
+            }
+        ],
+        "result_key": "EmailIdentities"
+    },
+    "meta": {
+        "start": 1711116625.791459,
+        "end": 1711116633.759934,
+        "duration": 7.968479871749878,
+        "service": "sesv2",
+        "type": "email_identities"
+    }
+}

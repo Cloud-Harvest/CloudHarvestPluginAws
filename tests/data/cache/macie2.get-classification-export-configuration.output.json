@@ -1,0 +1,100 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "get_classification_export_configuration",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": {
+            "s3Destination": {
+                "bucketName": "bucketName",
+                "keyPrefix": "keyPrefix",
+                "kmsKeyArn": "kmsKeyArn"
+            }
+        },
+        "required": [],
+        "md5": "b5e209b1a7baa387f35e47a5a7a0dd02",
+        "randomized": [
+            {
+                "s3Destination": {
+                    "bucketName": "ajmqaswgnwojveyu",
+                    "keyPrefix": "iirhnmcwkdgworer",
+                    "kmsKeyArn": "xgrwsyacgefbghxe"
+                }
+            },
+            {
+                "s3Destination": {
+                    "bucketName": "frjedgrwmvgashec",
+                    "keyPrefix": "ayupjtrmfpqfrxum",
+                    "kmsKeyArn": "hsnnaswlncnvcgdk"
+                }
+            },
+            {
+                "s3Destination": {
+                    "bucketName": "clsugoyuwpwkyxmr",
+                    "keyPrefix": "fpjgepbhhjzmitvw",
+                    "kmsKeyArn": "qlfsfdhpkcahstcb"
+                }
+            },
+            {
+                "s3Destination": {
+                    "bucketName": "sdcksdhcpborfrsv",
+                    "keyPrefix": "dzwbbxmdooxprrfp",
+                    "kmsKeyArn": "orkrqrrbzhtivcem"
+                }
+            },
+            {
+                "s3Destination": {
+                    "bucketName": "ecpnlzzmdqaubpis",
+                    "keyPrefix": "cvypitghuvtdrslu",
+                    "kmsKeyArn": "msgwiylncafyxxpd"
+                }
+            },
+            {
+                "s3Destination": {
+                    "bucketName": "wzrhgpqytubemtqc",
+                    "keyPrefix": "dvjjjunjuoagjujr",
+                    "kmsKeyArn": "nlqjyqhreolmvbym"
+                }
+            },
+            {
+                "s3Destination": {
+                    "bucketName": "viryugqfzujckbtu",
+                    "keyPrefix": "zqvzyaumouuhnuww",
+                    "kmsKeyArn": "zlwvugzhqzzdndkm"
+                }
+            },
+            {
+                "s3Destination": {
+                    "bucketName": "rgkmlodipkgjcddr",
+                    "keyPrefix": "djlbjxepkgayrawa",
+                    "kmsKeyArn": "ndjftkofhrmyiajl"
+                }
+            },
+            {
+                "s3Destination": {
+                    "bucketName": "euthszlxcbtvfagq",
+                    "keyPrefix": "fisqerbgmtlvarca",
+                    "kmsKeyArn": "eddjpjxolbhdhshf"
+                }
+            },
+            {
+                "s3Destination": {
+                    "bucketName": "pbbwunpperphytam",
+                    "keyPrefix": "zjlieftyasmkador",
+                    "kmsKeyArn": "hppqgjzcvdnoqotq"
+                }
+            }
+        ],
+        "result_key": "configuration"
+    },
+    "meta": {
+        "start": 1711116146.307457,
+        "end": 1711116152.749825,
+        "duration": 6.442378044128418,
+        "service": "macie2",
+        "type": null
+    }
+}

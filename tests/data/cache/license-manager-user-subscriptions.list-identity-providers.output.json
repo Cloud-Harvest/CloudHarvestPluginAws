@@ -1,0 +1,204 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "031b56893c6f5a9d0ebe6017c5c080cb",
+        "boto_command": "list_identity_providers",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "FailureMessage": "FailureMessage",
+                "IdentityProvider": {
+                    "ActiveDirectoryIdentityProvider": {
+                        "DirectoryId": "DirectoryId"
+                    }
+                },
+                "Product": "Product",
+                "Settings": {
+                    "SecurityGroupId": "SecurityGroupId",
+                    "Subnets": [
+                        "Subnet"
+                    ]
+                },
+                "Status": "Status"
+            }
+        ],
+        "required": [],
+        "md5": "377dfdb85495f3296282f06e72b3204d",
+        "randomized": [
+            {
+                "FailureMessage": "yqxblgtsceqhemwj",
+                "IdentityProvider": {
+                    "ActiveDirectoryIdentityProvider": {
+                        "DirectoryId": "bhmcqscugojxgqfk"
+                    }
+                },
+                "Product": "nbvnqghrwtqbfprt",
+                "Settings": {
+                    "SecurityGroupId": "oqvpymdkmvcjgruv",
+                    "Subnets": [
+                        "pppvkgtiaxjcudkd"
+                    ]
+                },
+                "Status": "lsywgippcemztvas"
+            },
+            {
+                "FailureMessage": "gxudfvueipymfdlt",
+                "IdentityProvider": {
+                    "ActiveDirectoryIdentityProvider": {
+                        "DirectoryId": "ocxbpohnsqodsnan"
+                    }
+                },
+                "Product": "cvmemcwemxkmirrf",
+                "Settings": {
+                    "SecurityGroupId": "juqzkfaowaupwiyf",
+                    "Subnets": [
+                        "curwrrdgkbubmssy"
+                    ]
+                },
+                "Status": "wfbetksoojfbnchj"
+            },
+            {
+                "FailureMessage": "abpqrqjmlvvhdamo",
+                "IdentityProvider": {
+                    "ActiveDirectoryIdentityProvider": {
+                        "DirectoryId": "gewrhipqhcjpaduj"
+                    }
+                },
+                "Product": "nwlnthyclkakanxd",
+                "Settings": {
+                    "SecurityGroupId": "poxtqewukmqygawm",
+                    "Subnets": [
+                        "woaeczbxcmauvqtp"
+                    ]
+                },
+                "Status": "cxlfqlgmwcrjgdkl"
+            },
+            {
+                "FailureMessage": "ikgjuoulnsrjovxu",
+                "IdentityProvider": {
+                    "ActiveDirectoryIdentityProvider": {
+                        "DirectoryId": "jxwqspgwbqaaqamr"
+                    }
+                },
+                "Product": "dzdflreswkzefsoh",
+                "Settings": {
+                    "SecurityGroupId": "yextvfucxczrekmm",
+                    "Subnets": [
+                        "gbwrieosfreqpqij"
+                    ]
+                },
+                "Status": "sszioqepktqgitjn"
+            },
+            {
+                "FailureMessage": "fbvordbmlyimvzkp",
+                "IdentityProvider": {
+                    "ActiveDirectoryIdentityProvider": {
+                        "DirectoryId": "pgxdoprpzgiwvowu"
+                    }
+                },
+                "Product": "hslzbhrewfcbuplr",
+                "Settings": {
+                    "SecurityGroupId": "xdorjascdrabsgak",
+                    "Subnets": [
+                        "zalihsshtxxemjho"
+                    ]
+                },
+                "Status": "smdyumroiyddiqle"
+            },
+            {
+                "FailureMessage": "tazgyhllramitykc",
+                "IdentityProvider": {
+                    "ActiveDirectoryIdentityProvider": {
+                        "DirectoryId": "tcdndkyfvpswaohs"
+                    }
+                },
+                "Product": "bgatthwvzkzhwawb",
+                "Settings": {
+                    "SecurityGroupId": "gscvbhbhhosantzp",
+                    "Subnets": [
+                        "vwheeqaccawtehfv"
+                    ]
+                },
+                "Status": "oftpjhhxvdgaaeei"
+            },
+            {
+                "FailureMessage": "xettzpoxjdjnahzn",
+                "IdentityProvider": {
+                    "ActiveDirectoryIdentityProvider": {
+                        "DirectoryId": "plnubrzdterxeowx"
+                    }
+                },
+                "Product": "ffaxuexfscwrfvrx",
+                "Settings": {
+                    "SecurityGroupId": "qsbygvpdnbsjqbwc",
+                    "Subnets": [
+                        "ujragzrpfmqvsdwb"
+                    ]
+                },
+                "Status": "izigrqmglhvskrym"
+            },
+            {
+                "FailureMessage": "akfnaeggspqubfvd",
+                "IdentityProvider": {
+                    "ActiveDirectoryIdentityProvider": {
+                        "DirectoryId": "izakvqfjnhctpjfr"
+                    }
+                },
+                "Product": "drasrdliigchmxou",
+                "Settings": {
+                    "SecurityGroupId": "dmlopjqpyimbvujx",
+                    "Subnets": [
+                        "omvotdjubfkchpfx"
+                    ]
+                },
+                "Status": "ncqlvnhpqpszhpno"
+            },
+            {
+                "FailureMessage": "ikasehafspcxnssx",
+                "IdentityProvider": {
+                    "ActiveDirectoryIdentityProvider": {
+                        "DirectoryId": "ifgqzngxppopcbsr"
+                    }
+                },
+                "Product": "twrgimgzbnhhnssg",
+                "Settings": {
+                    "SecurityGroupId": "sxwepwdekaxctovs",
+                    "Subnets": [
+                        "srpyslshcvcyocnc"
+                    ]
+                },
+                "Status": "yyadlqryiiydobuo"
+            },
+            {
+                "FailureMessage": "bgiyzcqiexzywrta",
+                "IdentityProvider": {
+                    "ActiveDirectoryIdentityProvider": {
+                        "DirectoryId": "ovcdpiwerkxsrvlf"
+                    }
+                },
+                "Product": "qnrglxfdvydlprrp",
+                "Settings": {
+                    "SecurityGroupId": "llidgbwoezswingn",
+                    "Subnets": [
+                        "thuirmwncfbuwosi"
+                    ]
+                },
+                "Status": "zbdkvjpvarmutrox"
+            }
+        ],
+        "result_key": "IdentityProviderSummaries"
+    },
+    "meta": {
+        "start": 1711116091.074165,
+        "end": 1711116096.723364,
+        "duration": 5.649209976196289,
+        "service": "license-manager-user-subscriptions",
+        "type": "identity_providers"
+    }
+}

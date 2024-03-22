@@ -1,0 +1,36 @@
+{
+    "input": {
+        "template": {
+            "mode": "basic"
+        },
+        "required": [],
+        "md5": "8d341405355783edef75165a5945766a",
+        "boto_command": "get_rdf_graph_summary",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": 0,
+        "required": [],
+        "md5": "f81809ef743c7403289f64e49d20dae1",
+        "randomized": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "result_key": "statusCode"
+    },
+    "meta": {
+        "start": 1711116237.208844,
+        "end": 1711116244.951719,
+        "duration": 7.742882966995239,
+        "service": "neptunedata",
+        "type": null
+    }
+}

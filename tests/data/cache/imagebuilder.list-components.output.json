@@ -1,0 +1,47 @@
+{
+    "input": {
+        "template": {
+            "owner": "Self",
+            "filters": [
+                {
+                    "name": "",
+                    "values": [
+                        ""
+                    ]
+                }
+            ],
+            "byName": true,
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "required": [],
+        "md5": "b0a85382d3f15f4050b20c96a1fabffb",
+        "boto_command": "list_components",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": "requestId",
+        "required": [],
+        "md5": "2e4b310bde65587f9fa2492ea4240f20",
+        "randomized": [
+            "zkkmkckjryxdxvka",
+            "rwyoqoqmgkrwqsee",
+            "sxyivjcnslmskzxd",
+            "bgfuimoocgcbemcs",
+            "awhclxzsmzpkgxck",
+            "xpbglcljeqpexppq",
+            "ulrrifbzamjouhxo",
+            "vafvxhscnoccfvyw",
+            "rvlvsnjbebsmpgkr",
+            "mfivisjjxudkaaqd"
+        ],
+        "result_key": "requestId"
+    },
+    "meta": {
+        "start": 1711115898.854704,
+        "end": 1711115906.32932,
+        "duration": 7.4746270179748535,
+        "service": "imagebuilder",
+        "type": "components"
+    }
+}

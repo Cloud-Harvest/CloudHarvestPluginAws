@@ -1,0 +1,810 @@
+{
+    "input": {
+        "template": {
+            "ClientVpnEndpointIds": [
+                ""
+            ],
+            "MaxResults": 0,
+            "NextToken": "",
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "DryRun": true
+        },
+        "required": [],
+        "md5": "2bcd65d6ad4a357162df82662ac4c5a8",
+        "boto_command": "describe_client_vpn_endpoints",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "ClientVpnEndpointId": "ClientVpnEndpointId",
+                "Description": "Description",
+                "Status": {
+                    "Code": "Code",
+                    "Message": "Message"
+                },
+                "CreationTime": "CreationTime",
+                "DeletionTime": "DeletionTime",
+                "DnsName": "DnsName",
+                "ClientCidrBlock": "ClientCidrBlock",
+                "DnsServers": [
+                    "String"
+                ],
+                "SplitTunnel": true,
+                "VpnProtocol": "VpnProtocol",
+                "TransportProtocol": "TransportProtocol",
+                "VpnPort": 0,
+                "AssociatedTargetNetworks": [
+                    {
+                        "NetworkId": "NetworkId",
+                        "NetworkType": "NetworkType"
+                    }
+                ],
+                "ServerCertificateArn": "ServerCertificateArn",
+                "AuthenticationOptions": [
+                    {
+                        "Type": "Type",
+                        "ActiveDirectory": {
+                            "DirectoryId": "DirectoryId"
+                        },
+                        "MutualAuthentication": {
+                            "ClientRootCertificateChain": "ClientRootCertificateChain"
+                        },
+                        "FederatedAuthentication": {
+                            "SamlProviderArn": "SamlProviderArn",
+                            "SelfServiceSamlProviderArn": "SelfServiceSamlProviderArn"
+                        }
+                    }
+                ],
+                "ConnectionLogOptions": {
+                    "Enabled": true,
+                    "CloudwatchLogGroup": "CloudwatchLogGroup",
+                    "CloudwatchLogStream": "CloudwatchLogStream"
+                },
+                "Tags": [
+                    {
+                        "Key": "Key",
+                        "Value": "Value"
+                    }
+                ],
+                "SecurityGroupIds": [
+                    "SecurityGroupId"
+                ],
+                "VpcId": "VpcId",
+                "SelfServicePortalUrl": "SelfServicePortalUrl",
+                "ClientConnectOptions": {
+                    "Enabled": true,
+                    "LambdaFunctionArn": "LambdaFunctionArn",
+                    "Status": {
+                        "Code": "Code",
+                        "Message": "Message"
+                    }
+                },
+                "SessionTimeoutHours": 0,
+                "ClientLoginBannerOptions": {
+                    "Enabled": true,
+                    "BannerText": "BannerText"
+                }
+            }
+        ],
+        "required": [],
+        "md5": "9b835af7d931b0825ab18707c2dcc2d6",
+        "randomized": [
+            {
+                "AssociatedTargetNetworks": [
+                    {
+                        "NetworkId": "grgqoyaggpeklxms",
+                        "NetworkType": "yibhgziotmjjfmte"
+                    }
+                ],
+                "AuthenticationOptions": [
+                    {
+                        "ActiveDirectory": {
+                            "DirectoryId": "ulduflcbyqemqdro"
+                        },
+                        "FederatedAuthentication": {
+                            "SamlProviderArn": "gzgyfrqwhjtvfqgl",
+                            "SelfServiceSamlProviderArn": "osfeecmrywmdwsxw"
+                        },
+                        "MutualAuthentication": {
+                            "ClientRootCertificateChain": "pajkktepzdupvlcp"
+                        },
+                        "Type": "jtnfggqxegdltyym"
+                    }
+                ],
+                "ClientCidrBlock": "izylrdozkzyvdrkf",
+                "ClientConnectOptions": {
+                    "Enabled": true,
+                    "LambdaFunctionArn": "tiijdqfbkwyxdvri",
+                    "Status": {
+                        "Code": "uggoyumuthmibgbi",
+                        "Message": "updcmwhycxjyzsmg"
+                    }
+                },
+                "ClientLoginBannerOptions": {
+                    "BannerText": "selwntbshtvebeqy",
+                    "Enabled": true
+                },
+                "ClientVpnEndpointId": "ekcuwwkkjtsirtrd",
+                "ConnectionLogOptions": {
+                    "CloudwatchLogGroup": "tmfnhvzregqnnmiw",
+                    "CloudwatchLogStream": "wcisjwqdgauielkj",
+                    "Enabled": true
+                },
+                "CreationTime": "kuvekmgzzmwlltss",
+                "DeletionTime": "rlhngrlenkzwqnbg",
+                "Description": "dgvqbqykyoughdbo",
+                "DnsName": "yeqecalxugggylbo",
+                "DnsServers": [
+                    "vmmiuuihulaqyrid"
+                ],
+                "SecurityGroupIds": [
+                    "qabvwjuenmzniaeg"
+                ],
+                "SelfServicePortalUrl": "dgdfwtatoqnvdsys",
+                "ServerCertificateArn": "bcxnwvukbwayrifd",
+                "SessionTimeoutHours": 0,
+                "SplitTunnel": true,
+                "Status": {
+                    "Code": "nodnbhvbsdiamzrl",
+                    "Message": "rhwenwvsoalxjfuj"
+                },
+                "Tags": [
+                    {
+                        "Key": "aptlofzodqlvdkmn",
+                        "Value": "nmrakgpweyodkwzo"
+                    }
+                ],
+                "TransportProtocol": "noqsrpcjtqjdwicz",
+                "VpcId": "juddmsqwqleurbow",
+                "VpnPort": 0,
+                "VpnProtocol": "xbiktpwebnhwmrbw"
+            },
+            {
+                "AssociatedTargetNetworks": [
+                    {
+                        "NetworkId": "wdlokijxyvonsqkd",
+                        "NetworkType": "gewjuzghraljvabd"
+                    }
+                ],
+                "AuthenticationOptions": [
+                    {
+                        "ActiveDirectory": {
+                            "DirectoryId": "bzlmtwbtcbuhpnvr"
+                        },
+                        "FederatedAuthentication": {
+                            "SamlProviderArn": "xmllxdgmvdpeomoc",
+                            "SelfServiceSamlProviderArn": "kelrrrdcoclpqzsm"
+                        },
+                        "MutualAuthentication": {
+                            "ClientRootCertificateChain": "fzitbqotwcyzmptc"
+                        },
+                        "Type": "eltdsttdjfwmciyo"
+                    }
+                ],
+                "ClientCidrBlock": "gsnmqeguhfsjrtne",
+                "ClientConnectOptions": {
+                    "Enabled": true,
+                    "LambdaFunctionArn": "qkxpfnujinsuvxhq",
+                    "Status": {
+                        "Code": "dkviclbyasfexlpz",
+                        "Message": "iprxtzvxgmlthcgi"
+                    }
+                },
+                "ClientLoginBannerOptions": {
+                    "BannerText": "xxjdkwppvzpdyfox",
+                    "Enabled": true
+                },
+                "ClientVpnEndpointId": "kxuwiyetzakdizsz",
+                "ConnectionLogOptions": {
+                    "CloudwatchLogGroup": "iabgnahulgaaznxz",
+                    "CloudwatchLogStream": "icizflwawoigmelv",
+                    "Enabled": true
+                },
+                "CreationTime": "gfwwpmgrbchxbcwm",
+                "DeletionTime": "nmrvvneltibosvgv",
+                "Description": "wnxfxkvnrpjckhbx",
+                "DnsName": "vcikfzmnjurfcima",
+                "DnsServers": [
+                    "uvkqizajxcitqear"
+                ],
+                "SecurityGroupIds": [
+                    "kimotlyxyzwoqlbx"
+                ],
+                "SelfServicePortalUrl": "tbtezpfjwoouteao",
+                "ServerCertificateArn": "mmydfsuzpufpwpcv",
+                "SessionTimeoutHours": 0,
+                "SplitTunnel": true,
+                "Status": {
+                    "Code": "znjgmuxydsoxltat",
+                    "Message": "yfztylemdmununon"
+                },
+                "Tags": [
+                    {
+                        "Key": "twbmiwohaigwqcpm",
+                        "Value": "aiotavjlyfousfaj"
+                    }
+                ],
+                "TransportProtocol": "ozgvmpxtfdaxmyjw",
+                "VpcId": "zjurfppgfgfkkyua",
+                "VpnPort": 0,
+                "VpnProtocol": "cdadmgkvpcasftit"
+            },
+            {
+                "AssociatedTargetNetworks": [
+                    {
+                        "NetworkId": "xovklylnjghxgkzr",
+                        "NetworkType": "ajjgbwupgkjlvqbz"
+                    }
+                ],
+                "AuthenticationOptions": [
+                    {
+                        "ActiveDirectory": {
+                            "DirectoryId": "blothuunfohjnofs"
+                        },
+                        "FederatedAuthentication": {
+                            "SamlProviderArn": "hbxaxqlsgrwlcirp",
+                            "SelfServiceSamlProviderArn": "ngoluelmvzkpsbbu"
+                        },
+                        "MutualAuthentication": {
+                            "ClientRootCertificateChain": "qrtgqziqogcxtgrx"
+                        },
+                        "Type": "kibnxwjvvzwjeucm"
+                    }
+                ],
+                "ClientCidrBlock": "xoorcpowqcwgfpep",
+                "ClientConnectOptions": {
+                    "Enabled": true,
+                    "LambdaFunctionArn": "smcyymciagtsaxbx",
+                    "Status": {
+                        "Code": "ujrzmhbcpcefqyeo",
+                        "Message": "ykpfxmpmvmfltewu"
+                    }
+                },
+                "ClientLoginBannerOptions": {
+                    "BannerText": "kmsxjqyvkhknauen",
+                    "Enabled": true
+                },
+                "ClientVpnEndpointId": "winjledbhsnahgvw",
+                "ConnectionLogOptions": {
+                    "CloudwatchLogGroup": "muzhtyapzailygow",
+                    "CloudwatchLogStream": "mgdloatzbiacrceh",
+                    "Enabled": true
+                },
+                "CreationTime": "pinszhycgdshylot",
+                "DeletionTime": "usirybrbmphlvhcg",
+                "Description": "fnwyhblcoyvestwa",
+                "DnsName": "fgltyrcfzoeofvso",
+                "DnsServers": [
+                    "gyhqqimpulggoblk"
+                ],
+                "SecurityGroupIds": [
+                    "mpwfgfpgfcyudomv"
+                ],
+                "SelfServicePortalUrl": "fszrmhlkprlnwifa",
+                "ServerCertificateArn": "lkzrhtoxtaexowug",
+                "SessionTimeoutHours": 0,
+                "SplitTunnel": true,
+                "Status": {
+                    "Code": "xrqvjmxmvrybslgy",
+                    "Message": "fdpchhffdhbybzem"
+                },
+                "Tags": [
+                    {
+                        "Key": "ixsndkrskkjvedge",
+                        "Value": "jhpuzehmdzfwehqx"
+                    }
+                ],
+                "TransportProtocol": "lbkcdfzhndubtuak",
+                "VpcId": "xkmpxqyhrfleydfa",
+                "VpnPort": 0,
+                "VpnProtocol": "vasrmhwflwezlozd"
+            },
+            {
+                "AssociatedTargetNetworks": [
+                    {
+                        "NetworkId": "otkxfanmztqlnwxq",
+                        "NetworkType": "xkllxitzcsowhbys"
+                    }
+                ],
+                "AuthenticationOptions": [
+                    {
+                        "ActiveDirectory": {
+                            "DirectoryId": "psqnvrldzwztsfil"
+                        },
+                        "FederatedAuthentication": {
+                            "SamlProviderArn": "bynyjwdfhovsxsrv",
+                            "SelfServiceSamlProviderArn": "qtimtyngtryvqlms"
+                        },
+                        "MutualAuthentication": {
+                            "ClientRootCertificateChain": "qmqqylvtmzrtgpke"
+                        },
+                        "Type": "hazssgyhockuqekh"
+                    }
+                ],
+                "ClientCidrBlock": "diuftanfcqgyfnrc",
+                "ClientConnectOptions": {
+                    "Enabled": true,
+                    "LambdaFunctionArn": "etyrfunrcxcgqzfe",
+                    "Status": {
+                        "Code": "giylqgvvmxopcxls",
+                        "Message": "dvebuxcelwxfqprw"
+                    }
+                },
+                "ClientLoginBannerOptions": {
+                    "BannerText": "gcfablgtlkpcvtkx",
+                    "Enabled": true
+                },
+                "ClientVpnEndpointId": "divhwelstgkulrir",
+                "ConnectionLogOptions": {
+                    "CloudwatchLogGroup": "unwwoxmfzgfcnvdw",
+                    "CloudwatchLogStream": "ukqooqxudtfaahtx",
+                    "Enabled": true
+                },
+                "CreationTime": "dpcnrkombmftgioj",
+                "DeletionTime": "yjlnbsklpiidaomc",
+                "Description": "flstnucoebgiateu",
+                "DnsName": "ilzdzzghpdvrihxm",
+                "DnsServers": [
+                    "hgnnmjmgnyobbhee"
+                ],
+                "SecurityGroupIds": [
+                    "rpckuaqolyuhvpal"
+                ],
+                "SelfServicePortalUrl": "yznjyyqdfgooxnbj",
+                "ServerCertificateArn": "qaytdigpnxkegvnb",
+                "SessionTimeoutHours": 0,
+                "SplitTunnel": true,
+                "Status": {
+                    "Code": "asehjifwnhjndmvc",
+                    "Message": "imimbqbmboiuyvpp"
+                },
+                "Tags": [
+                    {
+                        "Key": "kzvxwxnimzqccsnd",
+                        "Value": "qqecudchooctswsl"
+                    }
+                ],
+                "TransportProtocol": "bdiuynlkbjydtvcw",
+                "VpcId": "lbvpoorxelkzxefw",
+                "VpnPort": 0,
+                "VpnProtocol": "paclyfivklvvespz"
+            },
+            {
+                "AssociatedTargetNetworks": [
+                    {
+                        "NetworkId": "bidcriplyydypfzv",
+                        "NetworkType": "czwedsgoewqjitfh"
+                    }
+                ],
+                "AuthenticationOptions": [
+                    {
+                        "ActiveDirectory": {
+                            "DirectoryId": "igggwdltzmjkelaa"
+                        },
+                        "FederatedAuthentication": {
+                            "SamlProviderArn": "kgijgrrzeurqgpoy",
+                            "SelfServiceSamlProviderArn": "tyzxzzxxukuzbtgf"
+                        },
+                        "MutualAuthentication": {
+                            "ClientRootCertificateChain": "nowiqbufnmshdkoo"
+                        },
+                        "Type": "qwiocsvcypoxclyb"
+                    }
+                ],
+                "ClientCidrBlock": "higzrmozqaajusox",
+                "ClientConnectOptions": {
+                    "Enabled": true,
+                    "LambdaFunctionArn": "lhzepldjqfbhzmtb",
+                    "Status": {
+                        "Code": "exlmdxekgoostnbn",
+                        "Message": "galbpgvqtxdultkk"
+                    }
+                },
+                "ClientLoginBannerOptions": {
+                    "BannerText": "hmmaecbgnpvqqfos",
+                    "Enabled": true
+                },
+                "ClientVpnEndpointId": "rqxkxwzpeqjnsolf",
+                "ConnectionLogOptions": {
+                    "CloudwatchLogGroup": "xcwttsfdgljoxpwj",
+                    "CloudwatchLogStream": "uljivlnxtycsvrod",
+                    "Enabled": true
+                },
+                "CreationTime": "iwegqxwangjujrac",
+                "DeletionTime": "haixrbhewdlqhtwp",
+                "Description": "bqiunezrebuffefp",
+                "DnsName": "lxbobztajytqeyzu",
+                "DnsServers": [
+                    "vapkgnbwqsycoayi"
+                ],
+                "SecurityGroupIds": [
+                    "buuhlihwcbwhcwrm"
+                ],
+                "SelfServicePortalUrl": "icswhxfwavonesqp",
+                "ServerCertificateArn": "jnegmqdqjwmmylkm",
+                "SessionTimeoutHours": 0,
+                "SplitTunnel": true,
+                "Status": {
+                    "Code": "azwgtccidtmdtpgi",
+                    "Message": "usjenqexzxblvtle"
+                },
+                "Tags": [
+                    {
+                        "Key": "sornvhcrrxwoucuh",
+                        "Value": "cktvlpyfqyycipuk"
+                    }
+                ],
+                "TransportProtocol": "kalckpszwzrxpdee",
+                "VpcId": "lhfewkyplyytyqnj",
+                "VpnPort": 0,
+                "VpnProtocol": "nudojoqzliawdhsb"
+            },
+            {
+                "AssociatedTargetNetworks": [
+                    {
+                        "NetworkId": "lawaoqexoffzbkvo",
+                        "NetworkType": "phxxjnbdwjkdfzte"
+                    }
+                ],
+                "AuthenticationOptions": [
+                    {
+                        "ActiveDirectory": {
+                            "DirectoryId": "blwsewwhdsjtdeza"
+                        },
+                        "FederatedAuthentication": {
+                            "SamlProviderArn": "pgiegugrotwauzui",
+                            "SelfServiceSamlProviderArn": "znnqwshxogbfxplg"
+                        },
+                        "MutualAuthentication": {
+                            "ClientRootCertificateChain": "usfxmbsimyzmmrwe"
+                        },
+                        "Type": "cvmhlrtfgbxyegsj"
+                    }
+                ],
+                "ClientCidrBlock": "ggtdhzxttbpxtlli",
+                "ClientConnectOptions": {
+                    "Enabled": true,
+                    "LambdaFunctionArn": "smeiopfguetaefgo",
+                    "Status": {
+                        "Code": "ohoiuqqqpxloreac",
+                        "Message": "umbycjfgvpgausez"
+                    }
+                },
+                "ClientLoginBannerOptions": {
+                    "BannerText": "xogfaeoruqvlrarr",
+                    "Enabled": true
+                },
+                "ClientVpnEndpointId": "qrofiulpzxtiptlc",
+                "ConnectionLogOptions": {
+                    "CloudwatchLogGroup": "htdokqhvydrmflrf",
+                    "CloudwatchLogStream": "wedeepwwyopqlioj",
+                    "Enabled": true
+                },
+                "CreationTime": "romcsqxisajkucfs",
+                "DeletionTime": "mtnvmhxwxngelnqc",
+                "Description": "qgseyivjmtzxsmbe",
+                "DnsName": "sonrkxbybinpujfq",
+                "DnsServers": [
+                    "ayijwbspsaprsnqw"
+                ],
+                "SecurityGroupIds": [
+                    "fbcxjnibrstaxxhu"
+                ],
+                "SelfServicePortalUrl": "wvslwwpwborwvexv",
+                "ServerCertificateArn": "zvaabkivocyzbxft",
+                "SessionTimeoutHours": 0,
+                "SplitTunnel": true,
+                "Status": {
+                    "Code": "uucbtlmzkiyiayga",
+                    "Message": "lhrnraqulyfiyhze"
+                },
+                "Tags": [
+                    {
+                        "Key": "wvrxwedbnggosopy",
+                        "Value": "bpxkjkowmhuomsyh"
+                    }
+                ],
+                "TransportProtocol": "qitiakimlezqunfx",
+                "VpcId": "edukbkrpicfysoxx",
+                "VpnPort": 0,
+                "VpnProtocol": "kzpsouaxeecdspfx"
+            },
+            {
+                "AssociatedTargetNetworks": [
+                    {
+                        "NetworkId": "fvhigtbzjtbcwaej",
+                        "NetworkType": "wcbjdwiwettvkpak"
+                    }
+                ],
+                "AuthenticationOptions": [
+                    {
+                        "ActiveDirectory": {
+                            "DirectoryId": "ffcelkxesdkzossd"
+                        },
+                        "FederatedAuthentication": {
+                            "SamlProviderArn": "pcchndjhfkwitann",
+                            "SelfServiceSamlProviderArn": "rimxdxzhomzqxiow"
+                        },
+                        "MutualAuthentication": {
+                            "ClientRootCertificateChain": "dbpkepngaeokmcnp"
+                        },
+                        "Type": "wdsvngodwiywvpry"
+                    }
+                ],
+                "ClientCidrBlock": "ktevplrazcjqayyx",
+                "ClientConnectOptions": {
+                    "Enabled": true,
+                    "LambdaFunctionArn": "uifndbyrwebtopoa",
+                    "Status": {
+                        "Code": "lstkmnwsgmmmugyn",
+                        "Message": "snkeovkwfbedfyxl"
+                    }
+                },
+                "ClientLoginBannerOptions": {
+                    "BannerText": "tyydnlprnqrctrye",
+                    "Enabled": true
+                },
+                "ClientVpnEndpointId": "skwaiyagtvkbhpjk",
+                "ConnectionLogOptions": {
+                    "CloudwatchLogGroup": "acrmjhvimbdllkcj",
+                    "CloudwatchLogStream": "urnxvalzvyktczib",
+                    "Enabled": true
+                },
+                "CreationTime": "cbpxoilaptuiitzg",
+                "DeletionTime": "wqmwcxdzhsuxnhlp",
+                "Description": "ykiebzdatfvzesoz",
+                "DnsName": "bgsxljzglbfjvvrs",
+                "DnsServers": [
+                    "ufryvabxddiyrhni"
+                ],
+                "SecurityGroupIds": [
+                    "ykmocyxdiuouduen"
+                ],
+                "SelfServicePortalUrl": "tpssmjscxypoeqiz",
+                "ServerCertificateArn": "zlzguceqhugvpvfd",
+                "SessionTimeoutHours": 0,
+                "SplitTunnel": true,
+                "Status": {
+                    "Code": "owzfrzcjxbesgfyz",
+                    "Message": "azkrjzxbpcorwrmg"
+                },
+                "Tags": [
+                    {
+                        "Key": "qpmcsurtnybaijxa",
+                        "Value": "vdwsfrdwjdnohrek"
+                    }
+                ],
+                "TransportProtocol": "kwthudgvobmuebqx",
+                "VpcId": "ygxjowizjdcxfzmd",
+                "VpnPort": 0,
+                "VpnProtocol": "msqpngnyqvypmntv"
+            },
+            {
+                "AssociatedTargetNetworks": [
+                    {
+                        "NetworkId": "cocwkwpcjrhetcea",
+                        "NetworkType": "azndmppjtvzrirzu"
+                    }
+                ],
+                "AuthenticationOptions": [
+                    {
+                        "ActiveDirectory": {
+                            "DirectoryId": "zjgmxalywkoxwefi"
+                        },
+                        "FederatedAuthentication": {
+                            "SamlProviderArn": "xovddbvqegevidwb",
+                            "SelfServiceSamlProviderArn": "pwpuzysbbwzwhnzp"
+                        },
+                        "MutualAuthentication": {
+                            "ClientRootCertificateChain": "aebsuflnovbzlpyo"
+                        },
+                        "Type": "dzqyqgyllvfiyesm"
+                    }
+                ],
+                "ClientCidrBlock": "clnqecsgdimcgokl",
+                "ClientConnectOptions": {
+                    "Enabled": true,
+                    "LambdaFunctionArn": "pnvxxvzfusofsgdg",
+                    "Status": {
+                        "Code": "zepvnsxxeclmejbg",
+                        "Message": "oyrkczqhkfsdesjc"
+                    }
+                },
+                "ClientLoginBannerOptions": {
+                    "BannerText": "oqhflmirltgjfjzt",
+                    "Enabled": true
+                },
+                "ClientVpnEndpointId": "furzwoqfolizhjvk",
+                "ConnectionLogOptions": {
+                    "CloudwatchLogGroup": "qakftoogynsajgdh",
+                    "CloudwatchLogStream": "hblpjtwjfqyjahvd",
+                    "Enabled": true
+                },
+                "CreationTime": "eooxgsmnofhleqto",
+                "DeletionTime": "lqdvjvouypksprmd",
+                "Description": "exenjtnafxkbqpbq",
+                "DnsName": "wyvwtfqnebbxvrdp",
+                "DnsServers": [
+                    "ydpwyopstytljcfn"
+                ],
+                "SecurityGroupIds": [
+                    "vcgemjcnrwhkjidk"
+                ],
+                "SelfServicePortalUrl": "uuppoprkvoywimho",
+                "ServerCertificateArn": "vxhftaqyyezcbiga",
+                "SessionTimeoutHours": 0,
+                "SplitTunnel": true,
+                "Status": {
+                    "Code": "xghgiggdpzuvmhtt",
+                    "Message": "rldjdawmrfikxgsh"
+                },
+                "Tags": [
+                    {
+                        "Key": "delyzcarlpijglgl",
+                        "Value": "ymdagdpnncmqrtxd"
+                    }
+                ],
+                "TransportProtocol": "ufgtjmiaskzkludx",
+                "VpcId": "aqrtoomnidintmlh",
+                "VpnPort": 0,
+                "VpnProtocol": "fhgqwzxuxqdbynjo"
+            },
+            {
+                "AssociatedTargetNetworks": [
+                    {
+                        "NetworkId": "ramkfhnrrivwrccb",
+                        "NetworkType": "qtpbnbgckaespwdl"
+                    }
+                ],
+                "AuthenticationOptions": [
+                    {
+                        "ActiveDirectory": {
+                            "DirectoryId": "prfmkvmrprdiudyg"
+                        },
+                        "FederatedAuthentication": {
+                            "SamlProviderArn": "ojrqapfktjuldros",
+                            "SelfServiceSamlProviderArn": "zfzgthlzlclkbrtp"
+                        },
+                        "MutualAuthentication": {
+                            "ClientRootCertificateChain": "wenazszmsnxkmnrx"
+                        },
+                        "Type": "ghtzmtbnqqujvyjx"
+                    }
+                ],
+                "ClientCidrBlock": "riichhoeapgumhoc",
+                "ClientConnectOptions": {
+                    "Enabled": true,
+                    "LambdaFunctionArn": "uecrfdxhilygfsyp",
+                    "Status": {
+                        "Code": "gplhekxcrzwvjlmc",
+                        "Message": "dowvozuxxbxbxtkk"
+                    }
+                },
+                "ClientLoginBannerOptions": {
+                    "BannerText": "xqtcjfdjmzsijixo",
+                    "Enabled": true
+                },
+                "ClientVpnEndpointId": "hxxdvfraxpudotzb",
+                "ConnectionLogOptions": {
+                    "CloudwatchLogGroup": "jtfjmfknrcqzgqbc",
+                    "CloudwatchLogStream": "elbbnvtqksrgvuat",
+                    "Enabled": true
+                },
+                "CreationTime": "irzqftjbpbaxlukw",
+                "DeletionTime": "vlkvtvbrikrenttb",
+                "Description": "vjqyiifzvszwvodg",
+                "DnsName": "tveqnkvgisbtmjel",
+                "DnsServers": [
+                    "akcfrmioiwlbnpwi"
+                ],
+                "SecurityGroupIds": [
+                    "qmavfqzgcxzztfab"
+                ],
+                "SelfServicePortalUrl": "qvwrrcccccukinxf",
+                "ServerCertificateArn": "ydhdeeruvjydkfql",
+                "SessionTimeoutHours": 0,
+                "SplitTunnel": true,
+                "Status": {
+                    "Code": "xjigwclbodabtnzd",
+                    "Message": "wqgybgeunhjllhqj"
+                },
+                "Tags": [
+                    {
+                        "Key": "kgdigyjqlxytdxle",
+                        "Value": "shgfttuibumiaqyj"
+                    }
+                ],
+                "TransportProtocol": "hsnlrjlybehyoqjv",
+                "VpcId": "doyarcdgqnwxcdsp",
+                "VpnPort": 0,
+                "VpnProtocol": "sxvervjirdnkpken"
+            },
+            {
+                "AssociatedTargetNetworks": [
+                    {
+                        "NetworkId": "ybbsmtbxtfdrhkgy",
+                        "NetworkType": "ofdcubzbjnqstsix"
+                    }
+                ],
+                "AuthenticationOptions": [
+                    {
+                        "ActiveDirectory": {
+                            "DirectoryId": "trnwmcudasarjfgn"
+                        },
+                        "FederatedAuthentication": {
+                            "SamlProviderArn": "nmxhzrrtytfzuesz",
+                            "SelfServiceSamlProviderArn": "hpdmmenlragmmvti"
+                        },
+                        "MutualAuthentication": {
+                            "ClientRootCertificateChain": "ncjzhkjcbaewcddr"
+                        },
+                        "Type": "lqtgxakfdzumribp"
+                    }
+                ],
+                "ClientCidrBlock": "dmtmvdoxrriudzlr",
+                "ClientConnectOptions": {
+                    "Enabled": true,
+                    "LambdaFunctionArn": "dwgsijlcuchlggkq",
+                    "Status": {
+                        "Code": "tkoycaihqzygturr",
+                        "Message": "yxylannbjchflaow"
+                    }
+                },
+                "ClientLoginBannerOptions": {
+                    "BannerText": "xtwkmkkifrbbvhxp",
+                    "Enabled": true
+                },
+                "ClientVpnEndpointId": "lecuwtodbukehqep",
+                "ConnectionLogOptions": {
+                    "CloudwatchLogGroup": "hqeisnaerawjjhdx",
+                    "CloudwatchLogStream": "idhntozzqtglezwx",
+                    "Enabled": true
+                },
+                "CreationTime": "dqwdtmghgulrgxia",
+                "DeletionTime": "nswgwqfytinigsjd",
+                "Description": "ijjuolgtthwmlnsy",
+                "DnsName": "skclxauihlwmnrdo",
+                "DnsServers": [
+                    "thzflmefellrlfkd"
+                ],
+                "SecurityGroupIds": [
+                    "yqzjzqktpkjkvnvh"
+                ],
+                "SelfServicePortalUrl": "efnypeefceaqgtbe",
+                "ServerCertificateArn": "cpadgsyzdeirmjuf",
+                "SessionTimeoutHours": 0,
+                "SplitTunnel": true,
+                "Status": {
+                    "Code": "bmcgxhmhujbpmyay",
+                    "Message": "yiijgqfldnuhlplo"
+                },
+                "Tags": [
+                    {
+                        "Key": "hpgrguakzkhuahnz",
+                        "Value": "laurgztuonpluawq"
+                    }
+                ],
+                "TransportProtocol": "dbvhuwjqlzsxbiry",
+                "VpcId": "jyipksluxifloeab",
+                "VpnPort": 0,
+                "VpnProtocol": "ularfrejmgotlows"
+            }
+        ],
+        "result_key": "ClientVpnEndpoints"
+    },
+    "meta": {
+        "start": 1711115613.652006,
+        "end": 1711115621.44409,
+        "duration": 7.792091131210327,
+        "service": "ec2",
+        "type": "client_vpn_endpoints"
+    }
+}

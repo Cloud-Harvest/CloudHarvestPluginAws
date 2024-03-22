@@ -1,0 +1,152 @@
+[
+    {
+        "FleetArn": "ihcwzlhosewrbcjt",
+        "FleetId": "ehdmlzfoevdwiazq",
+        "InstanceCounts": {
+            "ACTIVE": 0,
+            "DESIRED": 0,
+            "IDLE": 0,
+            "MAXIMUM": 0,
+            "MINIMUM": 0,
+            "PENDING": 0,
+            "TERMINATING": 0
+        },
+        "InstanceType": "gbnnxiaacniplriq",
+        "Location": "xocqhcmvkyhkdqyb"
+    },
+    {
+        "FleetArn": "xhyfvxggeweydrdh",
+        "FleetId": "ianzpzskfzgoiarr",
+        "InstanceCounts": {
+            "ACTIVE": 0,
+            "DESIRED": 0,
+            "IDLE": 0,
+            "MAXIMUM": 0,
+            "MINIMUM": 0,
+            "PENDING": 0,
+            "TERMINATING": 0
+        },
+        "InstanceType": "uhimxmsofnlbjopa",
+        "Location": "rsylvlworfchogjr"
+    },
+    {
+        "FleetArn": "sdphpxtghjsfavjg",
+        "FleetId": "ysknswrsmrvdqyux",
+        "InstanceCounts": {
+            "ACTIVE": 0,
+            "DESIRED": 0,
+            "IDLE": 0,
+            "MAXIMUM": 0,
+            "MINIMUM": 0,
+            "PENDING": 0,
+            "TERMINATING": 0
+        },
+        "InstanceType": "iienznvzsjrmwgjb",
+        "Location": "jiyurlslqgkkfzqc"
+    },
+    {
+        "FleetArn": "ezgznbigztgjrmwo",
+        "FleetId": "ilbraqqmspqsnsfq",
+        "InstanceCounts": {
+            "ACTIVE": 0,
+            "DESIRED": 0,
+            "IDLE": 0,
+            "MAXIMUM": 0,
+            "MINIMUM": 0,
+            "PENDING": 0,
+            "TERMINATING": 0
+        },
+        "InstanceType": "zrkklmqyeamcevqo",
+        "Location": "ajikhhrzkzbpyqkn"
+    },
+    {
+        "FleetArn": "pmbpuveplgosqjhe",
+        "FleetId": "rvkbhazcstqxomkg",
+        "InstanceCounts": {
+            "ACTIVE": 0,
+            "DESIRED": 0,
+            "IDLE": 0,
+            "MAXIMUM": 0,
+            "MINIMUM": 0,
+            "PENDING": 0,
+            "TERMINATING": 0
+        },
+        "InstanceType": "umddguezkkpkqesk",
+        "Location": "xnrkkkbtcrhchguo"
+    },
+    {
+        "FleetArn": "qygnsumzskvkblmi",
+        "FleetId": "djxkshwxbvztudhr",
+        "InstanceCounts": {
+            "ACTIVE": 0,
+            "DESIRED": 0,
+            "IDLE": 0,
+            "MAXIMUM": 0,
+            "MINIMUM": 0,
+            "PENDING": 0,
+            "TERMINATING": 0
+        },
+        "InstanceType": "jifuhlxyaewrvawg",
+        "Location": "hkyjilluqfxzhbgl"
+    },
+    {
+        "FleetArn": "iuampcoyhlwbzvde",
+        "FleetId": "zyjzjowazdiowfyk",
+        "InstanceCounts": {
+            "ACTIVE": 0,
+            "DESIRED": 0,
+            "IDLE": 0,
+            "MAXIMUM": 0,
+            "MINIMUM": 0,
+            "PENDING": 0,
+            "TERMINATING": 0
+        },
+        "InstanceType": "kjefwmiuuypkbqfw",
+        "Location": "fhghasvxtdqyfzqg"
+    },
+    {
+        "FleetArn": "quojxyqcrqbzjrth",
+        "FleetId": "szctfompgcgylikv",
+        "InstanceCounts": {
+            "ACTIVE": 0,
+            "DESIRED": 0,
+            "IDLE": 0,
+            "MAXIMUM": 0,
+            "MINIMUM": 0,
+            "PENDING": 0,
+            "TERMINATING": 0
+        },
+        "InstanceType": "vgeytogqwraxzuqw",
+        "Location": "nihkvmpxurpsylcs"
+    },
+    {
+        "FleetArn": "qjepnpyzbucxqhmu",
+        "FleetId": "mjoqfahegrmbwppv",
+        "InstanceCounts": {
+            "ACTIVE": 0,
+            "DESIRED": 0,
+            "IDLE": 0,
+            "MAXIMUM": 0,
+            "MINIMUM": 0,
+            "PENDING": 0,
+            "TERMINATING": 0
+        },
+        "InstanceType": "typgiovpmgdgusaz",
+        "Location": "kdzxxeqkfevmunlr"
+    },
+    {
+        "FleetArn": "rrqlfcmfrwmkadfy",
+        "FleetId": "qtaxnhfcaiqfmdkh",
+        "InstanceCounts": {
+            "ACTIVE": 0,
+            "DESIRED": 0,
+            "IDLE": 0,
+            "MAXIMUM": 0,
+            "MINIMUM": 0,
+            "PENDING": 0,
+            "TERMINATING": 0
+        },
+        "InstanceType": "asjbmuhlogqvszcz",
+        "Location": "yvcuubhnynfcjnsk"
+    }
+]

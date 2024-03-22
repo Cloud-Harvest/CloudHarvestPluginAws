@@ -1,0 +1,537 @@
+{
+    "input": {
+        "template": {
+            "MonitorArnList": [
+                ""
+            ],
+            "NextPageToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "036bc88ba5fc9556c7e4ca3e7e8a4e3f",
+        "boto_command": "get_anomaly_monitors",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "MonitorArn": "MonitorArn",
+                "MonitorName": "MonitorName",
+                "CreationDate": "CreationDate",
+                "LastUpdatedDate": "LastUpdatedDate",
+                "LastEvaluatedDate": "LastEvaluatedDate",
+                "MonitorType": "MonitorType",
+                "MonitorDimension": "MonitorDimension",
+                "MonitorSpecification": {
+                    "Or": [
+                        {}
+                    ],
+                    "And": [
+                        {}
+                    ],
+                    "Not": {},
+                    "Dimensions": {
+                        "Key": "Key",
+                        "Values": [
+                            "Value"
+                        ],
+                        "MatchOptions": [
+                            "MatchOption"
+                        ]
+                    },
+                    "Tags": {
+                        "Key": "Key",
+                        "Values": [
+                            "Value"
+                        ],
+                        "MatchOptions": [
+                            "MatchOption"
+                        ]
+                    },
+                    "CostCategories": {
+                        "Key": "Key",
+                        "Values": [
+                            "Value"
+                        ],
+                        "MatchOptions": [
+                            "MatchOption"
+                        ]
+                    }
+                },
+                "DimensionalValueCount": 0
+            }
+        ],
+        "required": [],
+        "md5": "45e2db78a63371e2f615cb5b698f6322",
+        "randomized": [
+            {
+                "CreationDate": "rcdobwvylikvnovx",
+                "DimensionalValueCount": 0,
+                "LastEvaluatedDate": "eqnzngutnljqkafn",
+                "LastUpdatedDate": "uaswyxsityknynvj",
+                "MonitorArn": "bdfxhwamstzvexnm",
+                "MonitorDimension": "rbtsvrwayaxudgje",
+                "MonitorName": "yfptwfigiapwptcr",
+                "MonitorSpecification": {
+                    "And": [
+                        {}
+                    ],
+                    "CostCategories": {
+                        "Key": "nlqsiacegpelxmhc",
+                        "MatchOptions": [
+                            "vthpxfcvramyszrs"
+                        ],
+                        "Values": [
+                            "ltbziovwoqqpapym"
+                        ]
+                    },
+                    "Dimensions": {
+                        "Key": "wxkdeifhxopjdfdq",
+                        "MatchOptions": [
+                            "rpkpzjsgfaucmuol"
+                        ],
+                        "Values": [
+                            "tmlppxokziqjisrw"
+                        ]
+                    },
+                    "Not": {},
+                    "Or": [
+                        {}
+                    ],
+                    "Tags": {
+                        "Key": "medfrhfpxfamxrvz",
+                        "MatchOptions": [
+                            "plxtxbabxpyriojd"
+                        ],
+                        "Values": [
+                            "xgixjwcrditxwalc"
+                        ]
+                    }
+                },
+                "MonitorType": "nsopnrjpnvejklmn"
+            },
+            {
+                "CreationDate": "wihfyibqeuqpruxf",
+                "DimensionalValueCount": 0,
+                "LastEvaluatedDate": "gmxyfrujgiwskszl",
+                "LastUpdatedDate": "jlzpmlwydmperekd",
+                "MonitorArn": "eogakahplkubvxty",
+                "MonitorDimension": "znmokzfiuakgfhol",
+                "MonitorName": "umwnkffnsmszfxpe",
+                "MonitorSpecification": {
+                    "And": [
+                        {}
+                    ],
+                    "CostCategories": {
+                        "Key": "xkdlkkdxjwoinwtu",
+                        "MatchOptions": [
+                            "nzcminhjrzljqdzb"
+                        ],
+                        "Values": [
+                            "ayfvuhhjobzlvzcq"
+                        ]
+                    },
+                    "Dimensions": {
+                        "Key": "kdyimtkzrbhzocbt",
+                        "MatchOptions": [
+                            "caagewlkldmbelrg"
+                        ],
+                        "Values": [
+                            "inhvfncrozjjntzm"
+                        ]
+                    },
+                    "Not": {},
+                    "Or": [
+                        {}
+                    ],
+                    "Tags": {
+                        "Key": "kirbrjyeyogykevh",
+                        "MatchOptions": [
+                            "hzopumgteowecsck"
+                        ],
+                        "Values": [
+                            "dfvparrmekkgramd"
+                        ]
+                    }
+                },
+                "MonitorType": "hzyaesdojofhwnwr"
+            },
+            {
+                "CreationDate": "ftftgcowudpulsrb",
+                "DimensionalValueCount": 0,
+                "LastEvaluatedDate": "gujhjmlmcdhtshis",
+                "LastUpdatedDate": "vvocfrmbimgfoxlq",
+                "MonitorArn": "cfssomxuibspnnxx",
+                "MonitorDimension": "elczngpsalqxqzfh",
+                "MonitorName": "ngqtxmigxlvcanjf",
+                "MonitorSpecification": {
+                    "And": [
+                        {}
+                    ],
+                    "CostCategories": {
+                        "Key": "thhbiuwdcfozhwmb",
+                        "MatchOptions": [
+                            "pmzufxlachsgdtsz"
+                        ],
+                        "Values": [
+                            "hlmtgaxmmokzlrcp"
+                        ]
+                    },
+                    "Dimensions": {
+                        "Key": "uetzumunqfgighcg",
+                        "MatchOptions": [
+                            "dsehmlkopumefrqq"
+                        ],
+                        "Values": [
+                            "eoyfadnutjflhdpu"
+                        ]
+                    },
+                    "Not": {},
+                    "Or": [
+                        {}
+                    ],
+                    "Tags": {
+                        "Key": "mictbibknulcsapx",
+                        "MatchOptions": [
+                            "nyqlddsxgcuhshxb"
+                        ],
+                        "Values": [
+                            "vcvncdefrpvuyaok"
+                        ]
+                    }
+                },
+                "MonitorType": "mekiqbqhygwovyru"
+            },
+            {
+                "CreationDate": "ancddjeczondrrtm",
+                "DimensionalValueCount": 0,
+                "LastEvaluatedDate": "osycbtngyqptjqpa",
+                "LastUpdatedDate": "ampeohgyjzwnuxpr",
+                "MonitorArn": "ofjazksizktvmlmj",
+                "MonitorDimension": "nfyhmryhdomrqrnl",
+                "MonitorName": "wupevymhqymclutt",
+                "MonitorSpecification": {
+                    "And": [
+                        {}
+                    ],
+                    "CostCategories": {
+                        "Key": "bsufecoogdehwfno",
+                        "MatchOptions": [
+                            "xexgnrkdddsjoidh"
+                        ],
+                        "Values": [
+                            "kpbqvlqpqtfltkyq"
+                        ]
+                    },
+                    "Dimensions": {
+                        "Key": "dtlipsjjuhwamgws",
+                        "MatchOptions": [
+                            "cjmndwfpcpkcpayq"
+                        ],
+                        "Values": [
+                            "caowfydpauwhsqer"
+                        ]
+                    },
+                    "Not": {},
+                    "Or": [
+                        {}
+                    ],
+                    "Tags": {
+                        "Key": "euvvcnpjpoezyhea",
+                        "MatchOptions": [
+                            "pzfgpxlshngrndrc"
+                        ],
+                        "Values": [
+                            "tkjeomixwckzxqgw"
+                        ]
+                    }
+                },
+                "MonitorType": "nixcbuoucnubpuyy"
+            },
+            {
+                "CreationDate": "pestlblumlxyritd",
+                "DimensionalValueCount": 0,
+                "LastEvaluatedDate": "lyoylyrianeugajl",
+                "LastUpdatedDate": "wdyuzukhtoxxojxe",
+                "MonitorArn": "ddopzlrwpdkxwljh",
+                "MonitorDimension": "jiqfnrfhxkrvkxbg",
+                "MonitorName": "vhyzfsmuxmkkgsjc",
+                "MonitorSpecification": {
+                    "And": [
+                        {}
+                    ],
+                    "CostCategories": {
+                        "Key": "qkzxorwrcnzihjdt",
+                        "MatchOptions": [
+                            "fabbhldcrpipfmyh"
+                        ],
+                        "Values": [
+                            "oywrptlncszmxsrt"
+                        ]
+                    },
+                    "Dimensions": {
+                        "Key": "xulhszvmhpguqboa",
+                        "MatchOptions": [
+                            "vimzxxtuenpbsrsg"
+                        ],
+                        "Values": [
+                            "cpcpluvzwciiiryj"
+                        ]
+                    },
+                    "Not": {},
+                    "Or": [
+                        {}
+                    ],
+                    "Tags": {
+                        "Key": "mqarxoskxpifyjct",
+                        "MatchOptions": [
+                            "lnuobupbwsigqine"
+                        ],
+                        "Values": [
+                            "fpultdcdyfzhesfi"
+                        ]
+                    }
+                },
+                "MonitorType": "yejxzjacjxwdysys"
+            },
+            {
+                "CreationDate": "ehbcjjlhwbbmovqh",
+                "DimensionalValueCount": 0,
+                "LastEvaluatedDate": "yhioelvipvluzmlx",
+                "LastUpdatedDate": "fvnkniufullsyrbs",
+                "MonitorArn": "kjvzdcjvqanxnaxo",
+                "MonitorDimension": "daouxvruclrdggjs",
+                "MonitorName": "wypivksvrkfbefiv",
+                "MonitorSpecification": {
+                    "And": [
+                        {}
+                    ],
+                    "CostCategories": {
+                        "Key": "uawfqxhctwtgqgfw",
+                        "MatchOptions": [
+                            "cipmoosomlqcrulm"
+                        ],
+                        "Values": [
+                            "hwtudhzharinvkfg"
+                        ]
+                    },
+                    "Dimensions": {
+                        "Key": "cjonsihjjbtyuknk",
+                        "MatchOptions": [
+                            "qzjdonrzrcnuimiu"
+                        ],
+                        "Values": [
+                            "iazgegrhdddzulcs"
+                        ]
+                    },
+                    "Not": {},
+                    "Or": [
+                        {}
+                    ],
+                    "Tags": {
+                        "Key": "fwgbbijfmyedruak",
+                        "MatchOptions": [
+                            "ynzwvovycgvduufq"
+                        ],
+                        "Values": [
+                            "aaxhqvoxjlducflb"
+                        ]
+                    }
+                },
+                "MonitorType": "tefzqshuxgbucdib"
+            },
+            {
+                "CreationDate": "cnwqpqucybecadoq",
+                "DimensionalValueCount": 0,
+                "LastEvaluatedDate": "sgmgozqfeikncrww",
+                "LastUpdatedDate": "fuytedldzmxsynpm",
+                "MonitorArn": "zupgefskdblybruv",
+                "MonitorDimension": "vjeudwhkbtktzchj",
+                "MonitorName": "iucjmcedhilgqtvx",
+                "MonitorSpecification": {
+                    "And": [
+                        {}
+                    ],
+                    "CostCategories": {
+                        "Key": "oumbppmufjcxkmve",
+                        "MatchOptions": [
+                            "qzoscuhakixtppyf"
+                        ],
+                        "Values": [
+                            "fpircbnoufdovngg"
+                        ]
+                    },
+                    "Dimensions": {
+                        "Key": "bwpyrjpwharnjkjz",
+                        "MatchOptions": [
+                            "ecdvjwynlzbgmnjb"
+                        ],
+                        "Values": [
+                            "wxrssybppytowcih"
+                        ]
+                    },
+                    "Not": {},
+                    "Or": [
+                        {}
+                    ],
+                    "Tags": {
+                        "Key": "kcfrvxlmmyppervt",
+                        "MatchOptions": [
+                            "slougkvbnsoyodvu"
+                        ],
+                        "Values": [
+                            "jgwbjewiseqqnuid"
+                        ]
+                    }
+                },
+                "MonitorType": "tleuahcjkmfxfgwi"
+            },
+            {
+                "CreationDate": "dmxqgiubqjimfkxj",
+                "DimensionalValueCount": 0,
+                "LastEvaluatedDate": "wqvbookjqsvzhvkh",
+                "LastUpdatedDate": "dbhupdythxhnobmt",
+                "MonitorArn": "bxhfxkfspgumuzha",
+                "MonitorDimension": "ofhdkkwlfkvtyarz",
+                "MonitorName": "otcebbsgxqhptdpj",
+                "MonitorSpecification": {
+                    "And": [
+                        {}
+                    ],
+                    "CostCategories": {
+                        "Key": "awlnvzqbgxfjnnty",
+                        "MatchOptions": [
+                            "yxqwqljiqpkfswih"
+                        ],
+                        "Values": [
+                            "npvvqedqvjmfqqhi"
+                        ]
+                    },
+                    "Dimensions": {
+                        "Key": "igyjdyudfplomcuv",
+                        "MatchOptions": [
+                            "gdikbkgmgllzzyia"
+                        ],
+                        "Values": [
+                            "fcnuxfeqhzkvjlvc"
+                        ]
+                    },
+                    "Not": {},
+                    "Or": [
+                        {}
+                    ],
+                    "Tags": {
+                        "Key": "qbthzulvjjcezvxr",
+                        "MatchOptions": [
+                            "ymlqkkrrutkzpmnn"
+                        ],
+                        "Values": [
+                            "nwnopmytzpegbrop"
+                        ]
+                    }
+                },
+                "MonitorType": "quhjnibpilkjyopx"
+            },
+            {
+                "CreationDate": "rkwdmitkkjhogveh",
+                "DimensionalValueCount": 0,
+                "LastEvaluatedDate": "usrgsqphgbkuhxvd",
+                "LastUpdatedDate": "avmdtalkynkolmzk",
+                "MonitorArn": "pxvwirkxebnpgukz",
+                "MonitorDimension": "jtvmiimzqqgccnbg",
+                "MonitorName": "ficwxuzotpxqdkix",
+                "MonitorSpecification": {
+                    "And": [
+                        {}
+                    ],
+                    "CostCategories": {
+                        "Key": "dnlzftvkpvbihzkt",
+                        "MatchOptions": [
+                            "rlsjikjwcsqbgjbw"
+                        ],
+                        "Values": [
+                            "fvzotndytpimzxsb"
+                        ]
+                    },
+                    "Dimensions": {
+                        "Key": "prwypoeyejxjmabq",
+                        "MatchOptions": [
+                            "zmxeamsyhhpqevnl"
+                        ],
+                        "Values": [
+                            "djfjjiiukoxxzmtr"
+                        ]
+                    },
+                    "Not": {},
+                    "Or": [
+                        {}
+                    ],
+                    "Tags": {
+                        "Key": "yjkvafpkibncvzpz",
+                        "MatchOptions": [
+                            "yehltrozvklyodkz"
+                        ],
+                        "Values": [
+                            "pqwzqgnlabyabcqn"
+                        ]
+                    }
+                },
+                "MonitorType": "dxovxbvrlkntqxsj"
+            },
+            {
+                "CreationDate": "rdwrlmuoraqvippj",
+                "DimensionalValueCount": 0,
+                "LastEvaluatedDate": "dupuxumoenylivet",
+                "LastUpdatedDate": "pbwwwryljgvrmdir",
+                "MonitorArn": "cfoxwwgmmotbzevm",
+                "MonitorDimension": "bptfomtipiihkuxy",
+                "MonitorName": "movkxehuzlchkexm",
+                "MonitorSpecification": {
+                    "And": [
+                        {}
+                    ],
+                    "CostCategories": {
+                        "Key": "cdqnzmbiwbrenoqh",
+                        "MatchOptions": [
+                            "gjhvmetmrnvasqif"
+                        ],
+                        "Values": [
+                            "ytcqobjqqlupcubv"
+                        ]
+                    },
+                    "Dimensions": {
+                        "Key": "vqmvoybdlugxtsyq",
+                        "MatchOptions": [
+                            "bukvwozkrsxckixt"
+                        ],
+                        "Values": [
+                            "wpeeengggswsdftw"
+                        ]
+                    },
+                    "Not": {},
+                    "Or": [
+                        {}
+                    ],
+                    "Tags": {
+                        "Key": "cnczzyhfwyylkaqy",
+                        "MatchOptions": [
+                            "ulckinotozvwuljh"
+                        ],
+                        "Values": [
+                            "foalohuzisbfmqdd"
+                        ]
+                    }
+                },
+                "MonitorType": "jzgnagbjwfncwcpw"
+            }
+        ],
+        "result_key": "AnomalyMonitors"
+    },
+    "meta": {
+        "start": 1711115306.304484,
+        "end": 1711115313.156867,
+        "duration": 6.852394104003906,
+        "service": "ce",
+        "type": null
+    }
+}

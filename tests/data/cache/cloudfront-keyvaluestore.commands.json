@@ -1,0 +1,5 @@
+[
+    "cloudfront-keyvaluestore.describe-key-value-store",
+    "cloudfront-keyvaluestore.get-key",
+    "cloudfront-keyvaluestore.list-keys"
+]

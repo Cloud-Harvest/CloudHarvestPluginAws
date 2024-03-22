@@ -1,0 +1,42 @@
+{
+    "input": {
+        "template": {
+            "cluster": "",
+            "nextToken": "",
+            "maxResults": 0,
+            "launchType": "EC2",
+            "schedulingStrategy": "REPLICA"
+        },
+        "required": [],
+        "md5": "bb50481c06f0a986e167deb7311422ed",
+        "boto_command": "list_services",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            "String"
+        ],
+        "required": [],
+        "md5": "3f1455081fe8508e8281615558258f6b",
+        "randomized": [
+            "ofwajxkvrgaptmtx",
+            "gvfuhegkynniyuse",
+            "kxzhffmodgohauvx",
+            "xmfkbquuqbsxoqat",
+            "vgzcbdhgtrdltxos",
+            "hstucyxsdoaprwru",
+            "pjjfiupzbnfpoida",
+            "bklgnivcqabdxrax",
+            "asxklthtncjspiih",
+            "wfqhiqvqeylbipmn"
+        ],
+        "result_key": "serviceArns"
+    },
+    "meta": {
+        "start": 1711115693.397013,
+        "end": 1711115700.700538,
+        "duration": 7.303529977798462,
+        "service": "ecs",
+        "type": "services"
+    }
+}

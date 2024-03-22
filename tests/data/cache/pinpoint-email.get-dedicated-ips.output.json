@@ -1,0 +1,95 @@
+{
+    "input": {
+        "template": {
+            "PoolName": "",
+            "NextToken": "",
+            "PageSize": 0
+        },
+        "required": [],
+        "md5": "587367f94ba677ab8114d076b4441a62",
+        "boto_command": "get_dedicated_ips",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "Ip": "Ip",
+                "WarmupStatus": "WarmupStatus",
+                "WarmupPercentage": 0,
+                "PoolName": "PoolName"
+            }
+        ],
+        "required": [],
+        "md5": "aeff37c6dea0031b05173ed8663cd939",
+        "randomized": [
+            {
+                "Ip": "gfjlqluiiulkqupe",
+                "PoolName": "pnleieemgcwfflvq",
+                "WarmupPercentage": 0,
+                "WarmupStatus": "tjrzeotgzdxudzhn"
+            },
+            {
+                "Ip": "rtndxujvangrmxwy",
+                "PoolName": "crygbsrrxzckiclh",
+                "WarmupPercentage": 0,
+                "WarmupStatus": "azgmpawqplqlriga"
+            },
+            {
+                "Ip": "bjkotjwddnytjbks",
+                "PoolName": "vryxuzjxijaothtg",
+                "WarmupPercentage": 0,
+                "WarmupStatus": "rfslvuibjgfsrefx"
+            },
+            {
+                "Ip": "hetjauvtniqkdehb",
+                "PoolName": "ijfsxtsicczggaww",
+                "WarmupPercentage": 0,
+                "WarmupStatus": "ospzfryjvlzhleye"
+            },
+            {
+                "Ip": "wmeiywajmcewerpe",
+                "PoolName": "fpgsfothzjefrmiu",
+                "WarmupPercentage": 0,
+                "WarmupStatus": "sfzvyyfckdmuohbk"
+            },
+            {
+                "Ip": "legotntjffnhhxlp",
+                "PoolName": "axrqriihschfostq",
+                "WarmupPercentage": 0,
+                "WarmupStatus": "ljvbrlhsizcsykpt"
+            },
+            {
+                "Ip": "whoomqwxluwdlagw",
+                "PoolName": "ispwpmmwookjypjr",
+                "WarmupPercentage": 0,
+                "WarmupStatus": "eoosytjofryvxgye"
+            },
+            {
+                "Ip": "jwfbxjgazxqwxkqp",
+                "PoolName": "imrvdzmqtuwrdsyv",
+                "WarmupPercentage": 0,
+                "WarmupStatus": "mdvfnpydkxbaywaz"
+            },
+            {
+                "Ip": "mqsjmebdiggmayke",
+                "PoolName": "kycvartkusynzeig",
+                "WarmupPercentage": 0,
+                "WarmupStatus": "lngiuehfvrtlopes"
+            },
+            {
+                "Ip": "smubvardmdsitgqu",
+                "PoolName": "ftqcrplffryxkrtu",
+                "WarmupPercentage": 0,
+                "WarmupStatus": "pphtqckyqfhjtiqt"
+            }
+        ],
+        "result_key": "DedicatedIps"
+    },
+    "meta": {
+        "start": 1711116340.963866,
+        "end": 1711116347.699311,
+        "duration": 6.735454082489014,
+        "service": "pinpoint-email",
+        "type": null
+    }
+}

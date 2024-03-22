@@ -1,0 +1,124 @@
+{
+    "input": {
+        "template": {
+            "filters": [
+                {
+                    "name": "WORKLOAD_NAME",
+                    "values": [
+                        ""
+                    ]
+                }
+            ],
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "required": [],
+        "md5": "2d2cc2bd5292cdbc0b897fc92778fe2d",
+        "boto_command": "list_deployments",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "createdAt": "1970-01-01T00:00:00",
+                "id": "id",
+                "name": "name",
+                "patternName": "patternName",
+                "status": "status",
+                "workloadName": "workloadName"
+            }
+        ],
+        "required": [],
+        "md5": "20dbd1527b888891f88bdf860bfa4c1b",
+        "randomized": [
+            {
+                "createdAt": "aljphzqpfmmlsnyg",
+                "id": "goyrxjtmfehfdyyf",
+                "name": "yudlydmhktutmsod",
+                "patternName": "tvucezjmdhrtbiql",
+                "status": "njpzeykasniawjba",
+                "workloadName": "dkoqizrtrkgpjugy"
+            },
+            {
+                "createdAt": "xvoqletjtxqyfeew",
+                "id": "wchtvsszdvnprkbx",
+                "name": "urehdbcjpommedzq",
+                "patternName": "bndlxgthurcojdnt",
+                "status": "cofzaqyplpogyqic",
+                "workloadName": "pfdvufdfdtkfavwx"
+            },
+            {
+                "createdAt": "jnovmslnikalrdhd",
+                "id": "hvizcmefahwuqdxy",
+                "name": "mrhlzxdffiykepri",
+                "patternName": "kiikcltptkuddjlb",
+                "status": "qnqcbhwvpyxlxxtt",
+                "workloadName": "atlabroyjynhurry"
+            },
+            {
+                "createdAt": "xabtigivnoefxozd",
+                "id": "fexhuhrfcfhuqjfo",
+                "name": "oczgjcjkxeekvtht",
+                "patternName": "bchzpmbfxuyfgkfh",
+                "status": "gcexipowcrsahcss",
+                "workloadName": "zuvxgjnlxjmucwlx"
+            },
+            {
+                "createdAt": "vnirmfpsmpswomma",
+                "id": "hahrcxhqquiavlkf",
+                "name": "nrnoluhkjxbrimqo",
+                "patternName": "rdqlgekwfrypnacf",
+                "status": "szwwoodvuoccbcji",
+                "workloadName": "kvlrtebledbyokjo"
+            },
+            {
+                "createdAt": "mpmatlkiwvtxjrio",
+                "id": "zgztejtkcvjbfapc",
+                "name": "qemydbqgrsgozezq",
+                "patternName": "cqunusngrldjjdbq",
+                "status": "zvwzsrioyezygdnc",
+                "workloadName": "nqyhuuirjtcoowjv"
+            },
+            {
+                "createdAt": "bqwbyfzrfmkmkpim",
+                "id": "wtuugbsrykaoitno",
+                "name": "rdffydrogcygjwwv",
+                "patternName": "vhpuxtbqhngwjcch",
+                "status": "htmjrqfvzdceovoy",
+                "workloadName": "zswkgrbagexyqagr"
+            },
+            {
+                "createdAt": "wsjpgfvyukpcmrtr",
+                "id": "chscnwtedejpvzct",
+                "name": "lfwfprfzeiptpdqa",
+                "patternName": "igrwkrerywlyortf",
+                "status": "axrrkxhklkpgzfuk",
+                "workloadName": "bpwohmhdvfbaeban"
+            },
+            {
+                "createdAt": "nomlrtsolssndztl",
+                "id": "huppyyuabqtulmhk",
+                "name": "wtlxrxznscohnbsu",
+                "patternName": "pjtzrjjvlvrgkifs",
+                "status": "pbieqgvsocxyeyuz",
+                "workloadName": "odlnrdcsopzxnhjc"
+            },
+            {
+                "createdAt": "zkbtivibzlixywcq",
+                "id": "yytsxquqbtlgfigu",
+                "name": "hlaprmnphyqarito",
+                "patternName": "vgkayqpzdovochew",
+                "status": "wbfrjpzxgfjbjfaj",
+                "workloadName": "jukyvwkjmxnfnugw"
+            }
+        ],
+        "result_key": "deployments"
+    },
+    "meta": {
+        "start": 1711116059.757784,
+        "end": 1711116068.842474,
+        "duration": 9.084700107574463,
+        "service": "launch-wizard",
+        "type": "deployments"
+    }
+}

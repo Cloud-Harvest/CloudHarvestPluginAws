@@ -1,0 +1,36 @@
+{
+    "input": {
+        "template": {
+            "PublisherId": ""
+        },
+        "required": [],
+        "md5": "27b0a2c60bae9ef45908382e888956a2",
+        "boto_command": "describe_publisher",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": "PublisherId",
+        "required": [],
+        "md5": "181828a88081cdb89dc75c73855fbe90",
+        "randomized": [
+            "yypvhdmocejumjus",
+            "yxvsbnkjztyjtkup",
+            "iikzgekpkxwndpcm",
+            "wipqrnjqgcvgkwwa",
+            "chbjkeftihbzvjah",
+            "iektfvwujkhhrpyo",
+            "xxaovjbnmanxvoyn",
+            "dllhkfctiasgjyrf",
+            "zcprilfmakuiqspf",
+            "rsvhupakrlmrdwgt"
+        ],
+        "result_key": "PublisherId"
+    },
+    "meta": {
+        "start": 1711115359.87276,
+        "end": 1711115367.311143,
+        "duration": 7.438393831253052,
+        "service": "cloudformation",
+        "type": "publisher"
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "get_preferences",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": "memberAccountDiscountVisibility",
+        "required": [],
+        "md5": "b703e5340e8b2b2ab8fc18c316a797f4",
+        "randomized": [
+            "uolobkumfinbddgy",
+            "jrdibcpnnbqsorag",
+            "hktegdbcpcdiouxt",
+            "ugmyoytkrznegjna",
+            "flurmkpkharxjhli",
+            "zqshdlhghyiqxpld",
+            "vzqxobvxzlbxoiyl",
+            "weihwvbgdkvgwmko",
+            "xhuuqwplbztffsmd",
+            "ekpfqhrowsuyimfj"
+        ],
+        "result_key": "memberAccountDiscountVisibility"
+    },
+    "meta": {
+        "start": 1711115504.640135,
+        "end": 1711115513.080615,
+        "duration": 8.440490961074829,
+        "service": "cost-optimization-hub",
+        "type": null
+    }
+}

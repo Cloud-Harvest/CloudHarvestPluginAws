@@ -1,0 +1,141 @@
+{
+    "input": {
+        "template": {
+            "NamePrefix": "",
+            "EventSourceArn": "",
+            "State": "ENABLED",
+            "NextToken": "",
+            "Limit": 0
+        },
+        "required": [],
+        "md5": "6f093059610ce90cdb086e38cdd45ae9",
+        "boto_command": "list_archives",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "ArchiveName": "ArchiveName",
+                "EventSourceArn": "EventSourceArn",
+                "State": "State",
+                "StateReason": "StateReason",
+                "RetentionDays": 0,
+                "SizeBytes": 0,
+                "EventCount": 0,
+                "CreationTime": "1970-01-01T00:00:00"
+            }
+        ],
+        "required": [],
+        "md5": "d607eab00b3c5ad672287d79a3d45b62",
+        "randomized": [
+            {
+                "ArchiveName": "wjvlomkmwwdslfba",
+                "CreationTime": "fzecgnzkrceesxkm",
+                "EventCount": 0,
+                "EventSourceArn": "zurxcgccgvcpscpz",
+                "RetentionDays": 0,
+                "SizeBytes": 0,
+                "State": "tgizqztcbwejqplc",
+                "StateReason": "hnpqbrqlzdrabaza"
+            },
+            {
+                "ArchiveName": "mggijmxutlpidwwt",
+                "CreationTime": "hjimkaecqwxcdekk",
+                "EventCount": 0,
+                "EventSourceArn": "ghritthjprnqzvih",
+                "RetentionDays": 0,
+                "SizeBytes": 0,
+                "State": "juzjakycknxxhsua",
+                "StateReason": "vzjzljhsyyhoenxz"
+            },
+            {
+                "ArchiveName": "vgyzwmvnzireuzox",
+                "CreationTime": "vcdgizfqcrjhjlni",
+                "EventCount": 0,
+                "EventSourceArn": "idcncjrskdvumjqe",
+                "RetentionDays": 0,
+                "SizeBytes": 0,
+                "State": "ttakyccvqmpyvvpl",
+                "StateReason": "yvwbllgnwgwikzzw"
+            },
+            {
+                "ArchiveName": "todhuloljqostvqq",
+                "CreationTime": "hmybympcgbdmzxby",
+                "EventCount": 0,
+                "EventSourceArn": "bcvkivfqqkbxpugz",
+                "RetentionDays": 0,
+                "SizeBytes": 0,
+                "State": "ferbriglpogsinip",
+                "StateReason": "knmxgkarbhcodklx"
+            },
+            {
+                "ArchiveName": "nlwajacvdxfmgkqh",
+                "CreationTime": "qbwafuilwvjtliwo",
+                "EventCount": 0,
+                "EventSourceArn": "hblyvaqwywwosfdd",
+                "RetentionDays": 0,
+                "SizeBytes": 0,
+                "State": "kvindgejzgjsjlxt",
+                "StateReason": "kwojnyautgzuiemj"
+            },
+            {
+                "ArchiveName": "hzcjuibvwhliihar",
+                "CreationTime": "aedkqmzoivggiuwb",
+                "EventCount": 0,
+                "EventSourceArn": "dzaagkzjcngvwhok",
+                "RetentionDays": 0,
+                "SizeBytes": 0,
+                "State": "survavpypxdbauaw",
+                "StateReason": "mjadeagvdfqhpzsa"
+            },
+            {
+                "ArchiveName": "bxpwkjdiftdioexr",
+                "CreationTime": "gjzelcfgzgyrlfkr",
+                "EventCount": 0,
+                "EventSourceArn": "dgcsdrjtgjyuanpj",
+                "RetentionDays": 0,
+                "SizeBytes": 0,
+                "State": "cgxbirnhzlistbgz",
+                "StateReason": "ofdpovsvcbsfvpfg"
+            },
+            {
+                "ArchiveName": "ehslwkfufvsfutqa",
+                "CreationTime": "jvhnfkqymnuueblo",
+                "EventCount": 0,
+                "EventSourceArn": "whaekalsocoeqdrm",
+                "RetentionDays": 0,
+                "SizeBytes": 0,
+                "State": "ajksnptpwxvanwzg",
+                "StateReason": "fkhunpxcstfpshib"
+            },
+            {
+                "ArchiveName": "zkwasglwzalopurv",
+                "CreationTime": "omykjlwdkgzwmknd",
+                "EventCount": 0,
+                "EventSourceArn": "mbvehamnxvtxuuky",
+                "RetentionDays": 0,
+                "SizeBytes": 0,
+                "State": "wluyhenjzuvraodk",
+                "StateReason": "iakrqpumarmtqijg"
+            },
+            {
+                "ArchiveName": "edrhwrisoltzssvi",
+                "CreationTime": "uscsodwcuukwfuxd",
+                "EventCount": 0,
+                "EventSourceArn": "tgfgafqpgebqioyv",
+                "RetentionDays": 0,
+                "SizeBytes": 0,
+                "State": "troamobzwhseginm",
+                "StateReason": "dzxsxzvyizsnrwlg"
+            }
+        ],
+        "result_key": "Archives"
+    },
+    "meta": {
+        "start": 1711115753.998817,
+        "end": 1711115760.934365,
+        "duration": 6.935558080673218,
+        "service": "events",
+        "type": "archives"
+    }
+}

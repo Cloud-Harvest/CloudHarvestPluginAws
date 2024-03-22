@@ -1,0 +1,116 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "9dece7f85fc1c3f944425b1f68a8e6e1",
+        "boto_command": "list_resource_scans",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "ResourceScanId": "ResourceScanId",
+                "Status": "Status",
+                "StatusReason": "StatusReason",
+                "StartTime": "1970-01-01T00:00:00",
+                "EndTime": "1970-01-01T00:00:00",
+                "PercentageCompleted": 0.0
+            }
+        ],
+        "required": [],
+        "md5": "c0017595d03a8fcc5938a9176abf1a29",
+        "randomized": [
+            {
+                "EndTime": "cjpduieqegdbvkxx",
+                "PercentageCompleted": 0.0,
+                "ResourceScanId": "zdgyuigebpvwkljo",
+                "StartTime": "tcjoxaxougczffcb",
+                "Status": "jlspeaetdnbkgfap",
+                "StatusReason": "zffzywcksmqpbclh"
+            },
+            {
+                "EndTime": "nnbqlvftkgjkvryq",
+                "PercentageCompleted": 0.0,
+                "ResourceScanId": "kfuntrspbhwsdadj",
+                "StartTime": "cbldbiskagitumkc",
+                "Status": "kpzifnubsaudttth",
+                "StatusReason": "jezobfmxsufesrwg"
+            },
+            {
+                "EndTime": "rrjqpaniuhmkcxfh",
+                "PercentageCompleted": 0.0,
+                "ResourceScanId": "vmeggooaojuxexxi",
+                "StartTime": "jalrsugnyzuhebld",
+                "Status": "sduhtdcpymrqjept",
+                "StatusReason": "kqkgauiodhjmioec"
+            },
+            {
+                "EndTime": "tahszpgoirkyvora",
+                "PercentageCompleted": 0.0,
+                "ResourceScanId": "yyitqpjnuihybggt",
+                "StartTime": "sssppkzuvpynxiet",
+                "Status": "jusnfnihnionklps",
+                "StatusReason": "dwomilzqatsplsaw"
+            },
+            {
+                "EndTime": "tibqatzczshgzaxg",
+                "PercentageCompleted": 0.0,
+                "ResourceScanId": "bpdkdcbwrwqliaik",
+                "StartTime": "wmfpylwiajcbemyy",
+                "Status": "pbuftjdxxcdmgnpg",
+                "StatusReason": "haqasljwpphdvcui"
+            },
+            {
+                "EndTime": "tfsgwwrmiytsrzeq",
+                "PercentageCompleted": 0.0,
+                "ResourceScanId": "zvxvotggulgrypns",
+                "StartTime": "nseawnzozfvhotwe",
+                "Status": "mgyyuomhqhikepuk",
+                "StatusReason": "ajvabcwuirphweto"
+            },
+            {
+                "EndTime": "izmlrjgwwqjsikat",
+                "PercentageCompleted": 0.0,
+                "ResourceScanId": "ppyccihuvsleabag",
+                "StartTime": "ciztzvoejyqbkttm",
+                "Status": "vdptiqfpqlercuqz",
+                "StatusReason": "svtmwdbowzhvuahr"
+            },
+            {
+                "EndTime": "amxerxhhfwfwwkym",
+                "PercentageCompleted": 0.0,
+                "ResourceScanId": "zofhfdaiprzcrxfx",
+                "StartTime": "cobjhizcnqcegjwe",
+                "Status": "updgczevkymcczwt",
+                "StatusReason": "xtgkdrcpnijkakxz"
+            },
+            {
+                "EndTime": "xynyjvtrkqgskehp",
+                "PercentageCompleted": 0.0,
+                "ResourceScanId": "dbueeqvxqxgyhrgv",
+                "StartTime": "hyzljfxlqjomqxpi",
+                "Status": "qozitsvjycprceva",
+                "StatusReason": "uvornqdqyfgvbpfj"
+            },
+            {
+                "EndTime": "pznzjbdkmiwwqbqx",
+                "PercentageCompleted": 0.0,
+                "ResourceScanId": "giskdgmmddlxybwb",
+                "StartTime": "gipjgylodyhtpyaz",
+                "Status": "akaicampudynxfzz",
+                "StatusReason": "xtyfzippwzbxqlek"
+            }
+        ],
+        "result_key": "ResourceScanSummaries"
+    },
+    "meta": {
+        "start": 1711115366.017217,
+        "end": 1711115372.627642,
+        "duration": 6.610435962677002,
+        "service": "cloudformation",
+        "type": "resource_scans"
+    }
+}

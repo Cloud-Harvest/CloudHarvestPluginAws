@@ -1,0 +1,8 @@
+[
+    "opsworks-cm.describe-account-attributes",
+    "opsworks-cm.describe-backups",
+    "opsworks-cm.describe-events",
+    "opsworks-cm.describe-node-association-status",
+    "opsworks-cm.describe-servers",
+    "opsworks-cm.list-tags-for-resource"
+]

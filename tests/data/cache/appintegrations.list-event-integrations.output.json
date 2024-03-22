@@ -1,0 +1,160 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "9dece7f85fc1c3f944425b1f68a8e6e1",
+        "boto_command": "list_event_integrations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "EventIntegrationArn": "EventIntegrationArn",
+                "Name": "Name",
+                "Description": "Description",
+                "EventFilter": {
+                    "Source": "Source"
+                },
+                "EventBridgeBus": "EventBridgeBus",
+                "Tags": {
+                    "KeyName": ""
+                }
+            }
+        ],
+        "required": [],
+        "md5": "086db74d7fca6fa8b25999e11b9de5f9",
+        "randomized": [
+            {
+                "Description": "vbegoweigpkugdua",
+                "EventBridgeBus": "jtmavnbesaknjfmu",
+                "EventFilter": {
+                    "Source": "sovvrfzkqnmgtbjm"
+                },
+                "EventIntegrationArn": "lzgpwqugbfqyamnu",
+                "Name": "lxodhhsrikpmdhug",
+                "Tags": {
+                    "KeyName": "ndnrysnsblmrswph"
+                }
+            },
+            {
+                "Description": "ajuothbdacwajrjj",
+                "EventBridgeBus": "unctyzjbqjwwczhz",
+                "EventFilter": {
+                    "Source": "sevactubgcfvonlk"
+                },
+                "EventIntegrationArn": "dbwyqxakdcmyffom",
+                "Name": "njapoxwgltnotivw",
+                "Tags": {
+                    "KeyName": "xjjyzeqxjvwvqrsp"
+                }
+            },
+            {
+                "Description": "okvoopcdcpfjbujg",
+                "EventBridgeBus": "mzoaznqzxxrorscd",
+                "EventFilter": {
+                    "Source": "jgnwcvoaghifdbmc"
+                },
+                "EventIntegrationArn": "dpkdkewguivtgerm",
+                "Name": "peugwxlzyocngmbf",
+                "Tags": {
+                    "KeyName": "ajviqhkqwycaycbd"
+                }
+            },
+            {
+                "Description": "dcrrwbfzhoxiixsc",
+                "EventBridgeBus": "vsaxfvmebkipcjgq",
+                "EventFilter": {
+                    "Source": "upmpztnqtvgpvoga"
+                },
+                "EventIntegrationArn": "wypfevhdamhoubct",
+                "Name": "vohmykiwfljsarfh",
+                "Tags": {
+                    "KeyName": "atgowazmhlmrdptf"
+                }
+            },
+            {
+                "Description": "tjwgoyusbitfmexz",
+                "EventBridgeBus": "ptplhsmlglevlnub",
+                "EventFilter": {
+                    "Source": "vfyxjjxvjiyekltn"
+                },
+                "EventIntegrationArn": "dlzdupeigbnonnil",
+                "Name": "brmigciiirndxgwf",
+                "Tags": {
+                    "KeyName": "kgjbelysvhkfszlr"
+                }
+            },
+            {
+                "Description": "yaqqkqdgytcpfljw",
+                "EventBridgeBus": "bilzwdqvigulwsnz",
+                "EventFilter": {
+                    "Source": "gtpnvkvuzdbrkrkq"
+                },
+                "EventIntegrationArn": "qjtdbkwpywxodeks",
+                "Name": "jmlvresigkxvkzgu",
+                "Tags": {
+                    "KeyName": "kjcinjyhrdchsmnn"
+                }
+            },
+            {
+                "Description": "jmopbfseyoywdlne",
+                "EventBridgeBus": "vfkqlmxkxdjoxrmw",
+                "EventFilter": {
+                    "Source": "qenbiyjuzpqddekc"
+                },
+                "EventIntegrationArn": "czcalsdpncufdhxm",
+                "Name": "qgxqnbdlwlkaiosx",
+                "Tags": {
+                    "KeyName": "jdxvczpjmtmdhfqq"
+                }
+            },
+            {
+                "Description": "hlwlwmdmsmxpsxwp",
+                "EventBridgeBus": "iqjgcbonodtlelse",
+                "EventFilter": {
+                    "Source": "pdxgokkudursqgvx"
+                },
+                "EventIntegrationArn": "vybkmtrezzntfwbh",
+                "Name": "ngsrvfluleoxxwmv",
+                "Tags": {
+                    "KeyName": "ztgenrlsdoswrsgz"
+                }
+            },
+            {
+                "Description": "nvlodrxyorkzaqvx",
+                "EventBridgeBus": "cjinutgzpbninfcr",
+                "EventFilter": {
+                    "Source": "rxeraqfyzbzgnhhx"
+                },
+                "EventIntegrationArn": "ejidomlvnwyjpetx",
+                "Name": "fvelcbceiheecysb",
+                "Tags": {
+                    "KeyName": "yzsxmlxnsepceuwv"
+                }
+            },
+            {
+                "Description": "hqpxqxuuvztffnbi",
+                "EventBridgeBus": "chnsmnrtjiiuyqbj",
+                "EventFilter": {
+                    "Source": "bmqecxmyzamcnnlp"
+                },
+                "EventIntegrationArn": "heonvokobrgmvkif",
+                "Name": "egnbscqzhgibogvs",
+                "Tags": {
+                    "KeyName": "gpdbutmzkfvvzxmz"
+                }
+            }
+        ],
+        "result_key": "EventIntegrations"
+    },
+    "meta": {
+        "start": 1711115223.542581,
+        "end": 1711115230.008432,
+        "duration": 6.465862989425659,
+        "service": "appintegrations",
+        "type": "event_integrations"
+    }
+}

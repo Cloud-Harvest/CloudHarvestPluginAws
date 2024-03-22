@@ -1,0 +1,172 @@
+{
+    "input": {
+        "template": {
+            "DeviceType": "",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "9b8265b96afd8713a9734382fa193e7b",
+        "boto_command": "list_devices",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "Arn": "Arn",
+                "Attributes": {
+                    "KeyName": ""
+                },
+                "DeviceId": "DeviceId",
+                "Enabled": true,
+                "RemainingLife": 0.0,
+                "Type": "Type",
+                "Tags": {
+                    "KeyName": ""
+                }
+            }
+        ],
+        "required": [],
+        "md5": "30046b1c8c11fc66e2813101cf97452b",
+        "randomized": [
+            {
+                "Arn": "jjanbltlmqbrbgxj",
+                "Attributes": {
+                    "KeyName": "ygjhwafyyvqqlybi"
+                },
+                "DeviceId": "eezwgglcplspwqvb",
+                "Enabled": true,
+                "RemainingLife": 0.0,
+                "Tags": {
+                    "KeyName": "fhjlaxoproelzpam"
+                },
+                "Type": "cincpumhkxecldoi"
+            },
+            {
+                "Arn": "scinstlbuwmuvmgi",
+                "Attributes": {
+                    "KeyName": "dzxgsyvpiyhcnntw"
+                },
+                "DeviceId": "svluvhpcifaqwhjb",
+                "Enabled": true,
+                "RemainingLife": 0.0,
+                "Tags": {
+                    "KeyName": "lbguodpkfgejaerq"
+                },
+                "Type": "mkmalpzdueaxidat"
+            },
+            {
+                "Arn": "cwqipempcoeozvhb",
+                "Attributes": {
+                    "KeyName": "euzifczjfylivwrc"
+                },
+                "DeviceId": "bmthyupyayzsdkum",
+                "Enabled": true,
+                "RemainingLife": 0.0,
+                "Tags": {
+                    "KeyName": "bkyzndequxrctgyk"
+                },
+                "Type": "wmkupymohatqzksq"
+            },
+            {
+                "Arn": "vvjlpzbyfvmhgtok",
+                "Attributes": {
+                    "KeyName": "htaiaelkbaxsjplr"
+                },
+                "DeviceId": "prfodiijnhwpulgq",
+                "Enabled": true,
+                "RemainingLife": 0.0,
+                "Tags": {
+                    "KeyName": "ligieejsbzozlhrm"
+                },
+                "Type": "siwrapueetrbgylt"
+            },
+            {
+                "Arn": "fpntwvydncyrqoeo",
+                "Attributes": {
+                    "KeyName": "fnmtsjozedeppcik"
+                },
+                "DeviceId": "avuwjijjwvadkuen",
+                "Enabled": true,
+                "RemainingLife": 0.0,
+                "Tags": {
+                    "KeyName": "igtuadcivswemdgb"
+                },
+                "Type": "plvwuazunehrbfcw"
+            },
+            {
+                "Arn": "satoeuwuyxnugpsy",
+                "Attributes": {
+                    "KeyName": "nornfzuyessggstp"
+                },
+                "DeviceId": "rawhhxumlitxsyvv",
+                "Enabled": true,
+                "RemainingLife": 0.0,
+                "Tags": {
+                    "KeyName": "hsmugrekhqkkrjzv"
+                },
+                "Type": "wexcapmsgyptyprd"
+            },
+            {
+                "Arn": "tkyxcwlufjnbpest",
+                "Attributes": {
+                    "KeyName": "tzdhoozacexekuna"
+                },
+                "DeviceId": "poroivrgrahrzarp",
+                "Enabled": true,
+                "RemainingLife": 0.0,
+                "Tags": {
+                    "KeyName": "kgzuzbaqleiiakpd"
+                },
+                "Type": "vkxdlsphauxuwetm"
+            },
+            {
+                "Arn": "nrnlvoucudmprkhk",
+                "Attributes": {
+                    "KeyName": "yskupsdfjflrwiwf"
+                },
+                "DeviceId": "tenhpgxufnrrzhdw",
+                "Enabled": true,
+                "RemainingLife": 0.0,
+                "Tags": {
+                    "KeyName": "xeqjikhmzwdiyzlf"
+                },
+                "Type": "wasrmtwvxhtcvqyv"
+            },
+            {
+                "Arn": "enhudzciadldtgqf",
+                "Attributes": {
+                    "KeyName": "jexxftkxjlzircpq"
+                },
+                "DeviceId": "cwanglcwehnkoeef",
+                "Enabled": true,
+                "RemainingLife": 0.0,
+                "Tags": {
+                    "KeyName": "aqdnbwjaqurkmjkw"
+                },
+                "Type": "rajimzcwuqqxzpwr"
+            },
+            {
+                "Arn": "eybnvzruajkjuuyt",
+                "Attributes": {
+                    "KeyName": "qrmlbierjxgubnmy"
+                },
+                "DeviceId": "pxpqluykntwlhtpc",
+                "Enabled": true,
+                "RemainingLife": 0.0,
+                "Tags": {
+                    "KeyName": "jemszajybryppqhg"
+                },
+                "Type": "kdithydfjbcrcdsi"
+            }
+        ],
+        "result_key": "Devices"
+    },
+    "meta": {
+        "start": 1711115955.88698,
+        "end": 1711115961.450868,
+        "duration": 5.563896894454956,
+        "service": "iot1click-devices",
+        "type": "devices"
+    }
+}

@@ -1,0 +1,137 @@
+{
+    "input": {
+        "template": {
+            "GroupName": "",
+            "Group": "",
+            "Filters": [
+                {
+                    "Name": "resource-type",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "b395f9346d9b432ae4744adf6594860c",
+        "boto_command": "list_group_resources",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "Identifier": {
+                    "ResourceArn": "ResourceArn",
+                    "ResourceType": "ResourceType"
+                },
+                "Status": {
+                    "Name": "Name"
+                }
+            }
+        ],
+        "required": [],
+        "md5": "bd2983e1574d4a02bb8e1f1569ff56e6",
+        "randomized": [
+            {
+                "Identifier": {
+                    "ResourceArn": "krthpmsfpgvsvhkx",
+                    "ResourceType": "lputsnutkobrqtgz"
+                },
+                "Status": {
+                    "Name": "trpkdwjwxuwbatcd"
+                }
+            },
+            {
+                "Identifier": {
+                    "ResourceArn": "njxjaqusbcpotuwy",
+                    "ResourceType": "ppcteavmhzogpepl"
+                },
+                "Status": {
+                    "Name": "iktzyazysatlwbdx"
+                }
+            },
+            {
+                "Identifier": {
+                    "ResourceArn": "fqhuprpkmiyvdisy",
+                    "ResourceType": "uqihnsfumcxsholl"
+                },
+                "Status": {
+                    "Name": "untiazcyhwhtdjab"
+                }
+            },
+            {
+                "Identifier": {
+                    "ResourceArn": "mplydbraywlgtxvd",
+                    "ResourceType": "nfaoqvfveimdikof"
+                },
+                "Status": {
+                    "Name": "vsxevmnndsdawchc"
+                }
+            },
+            {
+                "Identifier": {
+                    "ResourceArn": "mhefmlthbvjzdbwj",
+                    "ResourceType": "behjwzyggayjxeko"
+                },
+                "Status": {
+                    "Name": "thaivqjnfzvwougv"
+                }
+            },
+            {
+                "Identifier": {
+                    "ResourceArn": "mypqzpobvnofmxxo",
+                    "ResourceType": "dxzyxhpterlejgdw"
+                },
+                "Status": {
+                    "Name": "uaxkwocbbhhojdtl"
+                }
+            },
+            {
+                "Identifier": {
+                    "ResourceArn": "bbtyzhugfclefjho",
+                    "ResourceType": "edfqiwsmovzupbdp"
+                },
+                "Status": {
+                    "Name": "nshypjkicthzkgjg"
+                }
+            },
+            {
+                "Identifier": {
+                    "ResourceArn": "zyufjnoksaaioqiu",
+                    "ResourceType": "xbtlseuxoalwzhub"
+                },
+                "Status": {
+                    "Name": "xzyptkifanivoaos"
+                }
+            },
+            {
+                "Identifier": {
+                    "ResourceArn": "qwbsjhachbavnfzu",
+                    "ResourceType": "erxjjyqnjjzvevwg"
+                },
+                "Status": {
+                    "Name": "ovohupyfllvirbyo"
+                }
+            },
+            {
+                "Identifier": {
+                    "ResourceArn": "qroidpujcqrqsvzv",
+                    "ResourceType": "viauxacaikbgligm"
+                },
+                "Status": {
+                    "Name": "oazhftaboybewuhp"
+                }
+            }
+        ],
+        "result_key": "Resources"
+    },
+    "meta": {
+        "start": 1711116461.915555,
+        "end": 1711116468.042726,
+        "duration": 6.127181053161621,
+        "service": "resource-groups",
+        "type": "group_resources"
+    }
+}

@@ -1,0 +1,213 @@
+{
+    "input": {
+        "template": {
+            "Marker": "",
+            "MaxItems": ""
+        },
+        "required": [],
+        "md5": "c2749a3fe3ba8f6c4734d13b11c019a0",
+        "boto_command": "list_origin_access_controls",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": {
+            "Marker": "Marker",
+            "NextMarker": "NextMarker",
+            "MaxItems": 0,
+            "IsTruncated": true,
+            "Quantity": 0,
+            "Items": [
+                {
+                    "Id": "Id",
+                    "Description": "Description",
+                    "Name": "Name",
+                    "SigningProtocol": "SigningProtocol",
+                    "SigningBehavior": "SigningBehavior",
+                    "OriginAccessControlOriginType": "OriginAccessControlOriginType"
+                }
+            ]
+        },
+        "required": [],
+        "md5": "977fe63e0e62c33744e8ae99834fdd7b",
+        "randomized": [
+            {
+                "IsTruncated": true,
+                "Items": [
+                    {
+                        "Description": "pdptsgmimzidfqei",
+                        "Id": "gzbwqsfcwsjodzoq",
+                        "Name": "cgdxabtigaykzdtt",
+                        "OriginAccessControlOriginType": "ppwelziwpbfvguej",
+                        "SigningBehavior": "cfrotmptgwdxuvnq",
+                        "SigningProtocol": "tuczgdixyptaybzy"
+                    }
+                ],
+                "Marker": "itqzqftvgcxmdezx",
+                "MaxItems": 0,
+                "NextMarker": "lifxagfktfwqvpzz",
+                "Quantity": 0
+            },
+            {
+                "IsTruncated": true,
+                "Items": [
+                    {
+                        "Description": "ccdocyyzhlrquusp",
+                        "Id": "htsqqjqbaivkfxun",
+                        "Name": "mypmhoyndjvgptae",
+                        "OriginAccessControlOriginType": "aqiqbgbuighymzeg",
+                        "SigningBehavior": "vjmprkeesbrbkyib",
+                        "SigningProtocol": "fpdnuauvasnjznxs"
+                    }
+                ],
+                "Marker": "mavgezzewpknwoam",
+                "MaxItems": 0,
+                "NextMarker": "bjusxlwdnyvmovaf",
+                "Quantity": 0
+            },
+            {
+                "IsTruncated": true,
+                "Items": [
+                    {
+                        "Description": "kqjaaprmjkiihnkt",
+                        "Id": "ybniylewxygcloza",
+                        "Name": "dmkeqtuydwkhouck",
+                        "OriginAccessControlOriginType": "tdohenuwnumlpxig",
+                        "SigningBehavior": "peisqjblnpsdzdkr",
+                        "SigningProtocol": "osvfpjpqypemmilu"
+                    }
+                ],
+                "Marker": "vkdpjvucefljlmnh",
+                "MaxItems": 0,
+                "NextMarker": "yohfhnappepdrhxv",
+                "Quantity": 0
+            },
+            {
+                "IsTruncated": true,
+                "Items": [
+                    {
+                        "Description": "behvooilkktdxpbr",
+                        "Id": "klckxhureoqmgoso",
+                        "Name": "dwasrzllgtmffwbh",
+                        "OriginAccessControlOriginType": "jvonyedxogmbybsq",
+                        "SigningBehavior": "evwtvlltlklflmil",
+                        "SigningProtocol": "aybdgrydoffqjlqo"
+                    }
+                ],
+                "Marker": "udmxnoydprcavtwo",
+                "MaxItems": 0,
+                "NextMarker": "uyadfuqcuigjbeul",
+                "Quantity": 0
+            },
+            {
+                "IsTruncated": true,
+                "Items": [
+                    {
+                        "Description": "xgkdbxsqaxgyaiga",
+                        "Id": "ppaamxpsheaaeuas",
+                        "Name": "ojirkozliuuizenk",
+                        "OriginAccessControlOriginType": "ytszhenslbatzwbr",
+                        "SigningBehavior": "pdbtgeqyfgbtedvg",
+                        "SigningProtocol": "rflfuhuhtqaavivb"
+                    }
+                ],
+                "Marker": "ogbxvglhkhpanesg",
+                "MaxItems": 0,
+                "NextMarker": "awbwyntuinsmndug",
+                "Quantity": 0
+            },
+            {
+                "IsTruncated": true,
+                "Items": [
+                    {
+                        "Description": "tfosaybwwkyebdnp",
+                        "Id": "pzkoekuzutiffykr",
+                        "Name": "gygvspsmuahdqzbt",
+                        "OriginAccessControlOriginType": "aqfebcmiyeftpqlf",
+                        "SigningBehavior": "avbgzrokxtayhfxr",
+                        "SigningProtocol": "xfjleklptncamuvd"
+                    }
+                ],
+                "Marker": "acnvynhonmhairqp",
+                "MaxItems": 0,
+                "NextMarker": "izqlezsxhourhnqk",
+                "Quantity": 0
+            },
+            {
+                "IsTruncated": true,
+                "Items": [
+                    {
+                        "Description": "qezxkpzdllapdaha",
+                        "Id": "dkfjjqlojlcpitmx",
+                        "Name": "yxokuknjwgiiwdej",
+                        "OriginAccessControlOriginType": "pttsldwjhncvqavs",
+                        "SigningBehavior": "kjqhxvlxjbcnwzrg",
+                        "SigningProtocol": "tphedcgnguuoihoy"
+                    }
+                ],
+                "Marker": "johnynicqsccvopa",
+                "MaxItems": 0,
+                "NextMarker": "fzltphlczsyigjlt",
+                "Quantity": 0
+            },
+            {
+                "IsTruncated": true,
+                "Items": [
+                    {
+                        "Description": "tpnaaepormchmipm",
+                        "Id": "cqfdppzmhinpgart",
+                        "Name": "opmedwdlzavzuwqx",
+                        "OriginAccessControlOriginType": "fyqxcuvheyhszbro",
+                        "SigningBehavior": "huakobigamolispa",
+                        "SigningProtocol": "sddqokyztsdqxfbj"
+                    }
+                ],
+                "Marker": "jxzlparvsnmpyjcn",
+                "MaxItems": 0,
+                "NextMarker": "iqowzwhjsspkpbsn",
+                "Quantity": 0
+            },
+            {
+                "IsTruncated": true,
+                "Items": [
+                    {
+                        "Description": "olpvvxawwifhqjid",
+                        "Id": "zwbyzpldtcoalkuf",
+                        "Name": "rpgmpexjsptoibuj",
+                        "OriginAccessControlOriginType": "nzhaczmertwsxjmz",
+                        "SigningBehavior": "wqufvyizytfzkvwb",
+                        "SigningProtocol": "ysqrofavotcwlejo"
+                    }
+                ],
+                "Marker": "rdhhpcqkfhdfedkx",
+                "MaxItems": 0,
+                "NextMarker": "cqcsnpzygidmbrtq",
+                "Quantity": 0
+            },
+            {
+                "IsTruncated": true,
+                "Items": [
+                    {
+                        "Description": "swtodxultvkvzqqi",
+                        "Id": "szzzifnqofjtjrmx",
+                        "Name": "haranlzjubtculkk",
+                        "OriginAccessControlOriginType": "puklczzwtwfoxbht",
+                        "SigningBehavior": "mrgqbvcygrvydoqp",
+                        "SigningProtocol": "bzocbyxleaqddwvn"
+                    }
+                ],
+                "Marker": "axosbpzmiukupwuw",
+                "MaxItems": 0,
+                "NextMarker": "tbgjcvqoikbcczak",
+                "Quantity": 0
+            }
+        ],
+        "result_key": "OriginAccessControlList"
+    },
+    "meta": {
+        "start": 1711115380.36538,
+        "end": 1711115386.070146,
+        "duration": 5.704777002334595,
+        "service": "cloudfront",
+        "type": "origin_access_controls"
+    }
+}

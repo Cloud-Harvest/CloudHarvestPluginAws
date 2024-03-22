@@ -1,0 +1,39 @@
+{
+    "input": {
+        "template": {
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "required": [],
+        "md5": "42475be96651ddb5d57c459989595380",
+        "boto_command": "list_environments",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            "EnvironmentId"
+        ],
+        "required": [],
+        "md5": "f4657ef0c357974f7838453c074d447c",
+        "randomized": [
+            "jibkyodbntyfljkn",
+            "fmsuwjoxikqfirfp",
+            "owbmakrkbonhxpba",
+            "gngvxaxtejccmqxo",
+            "ikobixpexgbceqwn",
+            "pneqfggpwtxyhgsr",
+            "ehhztsbbufoblswg",
+            "ozuedhiukouxcspo",
+            "oilundslqjgmejrh",
+            "butkcchupfuqhjxv"
+        ],
+        "result_key": "environmentIds"
+    },
+    "meta": {
+        "start": 1711115348.776925,
+        "end": 1711115356.791053,
+        "duration": 8.014137983322144,
+        "service": "cloud9",
+        "type": "environments"
+    }
+}

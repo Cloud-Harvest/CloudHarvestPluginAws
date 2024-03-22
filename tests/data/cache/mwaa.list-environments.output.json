@@ -1,0 +1,39 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "031b56893c6f5a9d0ebe6017c5c080cb",
+        "boto_command": "list_environments",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            "EnvironmentName"
+        ],
+        "required": [],
+        "md5": "f974150a6561501fbc73eb4a4369d7a2",
+        "randomized": [
+            "gwsmsgrhaoauovxm",
+            "uhsnjtarmltkimxg",
+            "cameyqlyznkvwzpv",
+            "ettejhxicamklevb",
+            "taxqhpycnptmdyqq",
+            "uskoymnpmgyhywgf",
+            "hlecwgeynxvgoooh",
+            "idbyyhbchkkmbmig",
+            "bspwsckljaedijsc",
+            "hmzjmfphndypjeig"
+        ],
+        "result_key": "Environments"
+    },
+    "meta": {
+        "start": 1711116224.965806,
+        "end": 1711116233.244272,
+        "duration": 8.278475046157837,
+        "service": "mwaa",
+        "type": "environments"
+    }
+}

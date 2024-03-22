@@ -1,0 +1,89 @@
+{
+    "input": {
+        "template": {
+            "AcceptLanguage": "",
+            "ProvisionedProductId": "",
+            "ProvisionedProductName": "",
+            "OutputKeys": [
+                ""
+            ],
+            "PageSize": 0,
+            "PageToken": ""
+        },
+        "required": [],
+        "md5": "5f29687bca1054f402d1433adf97bf86",
+        "boto_command": "get_provisioned_product_outputs",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "OutputKey": "OutputKey",
+                "OutputValue": "OutputValue",
+                "Description": "Description"
+            }
+        ],
+        "required": [],
+        "md5": "8ca967677059797ae110ee35efafef95",
+        "randomized": [
+            {
+                "Description": "vcpjfqaztobpgiwl",
+                "OutputKey": "uqflrtkyftfkslmx",
+                "OutputValue": "dqvwjyddsuymeecu"
+            },
+            {
+                "Description": "pwkrgkgsvwftnivp",
+                "OutputKey": "svzrohtkonnluiou",
+                "OutputValue": "athfqamdtqyfzdwu"
+            },
+            {
+                "Description": "kdhcqyjfekhjiyjf",
+                "OutputKey": "hvvninxupdnvnsji",
+                "OutputValue": "erdmfjdorclpsrff"
+            },
+            {
+                "Description": "fvawlknvebaobszm",
+                "OutputKey": "avilrrgxotixuoii",
+                "OutputValue": "jcektzsiwtyxdghe"
+            },
+            {
+                "Description": "yfioskajwwifnfwp",
+                "OutputKey": "uzwligiplutpvuld",
+                "OutputValue": "ofoqcqsicyzuizqp"
+            },
+            {
+                "Description": "vhhrkxpswkujybvv",
+                "OutputKey": "wprhjemshegpotpt",
+                "OutputValue": "fcizdeufgnopxkca"
+            },
+            {
+                "Description": "nkinqkezjgmuzmkc",
+                "OutputKey": "voifkktzdqfpzxmy",
+                "OutputValue": "aocddkiuxsqwmylf"
+            },
+            {
+                "Description": "olwzafotjyvfarrz",
+                "OutputKey": "iggjcmhzudkpjleq",
+                "OutputValue": "atluhjwguvrgunyr"
+            },
+            {
+                "Description": "pxkjpxohttkvdyah",
+                "OutputKey": "bksczokfdazcpbwx",
+                "OutputValue": "matrnqnwhqovhxbi"
+            },
+            {
+                "Description": "qljaxijcvocunpci",
+                "OutputKey": "flwiatlmmputpnom",
+                "OutputValue": "pfxleplfoainjpyl"
+            }
+        ],
+        "result_key": "Outputs"
+    },
+    "meta": {
+        "start": 1711116604.126615,
+        "end": 1711116610.770227,
+        "duration": 6.6436378955841064,
+        "service": "servicecatalog",
+        "type": null
+    }
+}

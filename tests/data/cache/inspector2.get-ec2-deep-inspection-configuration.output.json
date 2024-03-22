@@ -1,0 +1,34 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "get_ec2_deep_inspection_configuration",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": "errorMessage",
+        "required": [],
+        "md5": "f1cadf85633c4a691940919a085dc1a0",
+        "randomized": [
+            "nzihkbyhecauzdzy",
+            "dcsvlyiwgloppiot",
+            "ouscihwomjtexrtg",
+            "zaunlgrdewqwbrbr",
+            "omxmonebhknnezqx",
+            "sydmhfqhoygegtia",
+            "veydcuestsxxwqwi",
+            "apqmqqavvttwttfw",
+            "pkznecqqrtmletph",
+            "uqbzuswibgouvtdi"
+        ],
+        "result_key": "errorMessage"
+    },
+    "meta": {
+        "start": 1711115913.073761,
+        "end": 1711115920.187403,
+        "duration": 7.113647937774658,
+        "service": "inspector2",
+        "type": null
+    }
+}

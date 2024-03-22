@@ -1,0 +1,12 @@
+[
+    "emr-containers.describe-job-run",
+    "emr-containers.describe-job-template",
+    "emr-containers.describe-managed-endpoint",
+    "emr-containers.describe-virtual-cluster",
+    "emr-containers.get-managed-endpoint-session-credentials",
+    "emr-containers.list-job-runs",
+    "emr-containers.list-job-templates",
+    "emr-containers.list-managed-endpoints",
+    "emr-containers.list-tags-for-resource",
+    "emr-containers.list-virtual-clusters"
+]

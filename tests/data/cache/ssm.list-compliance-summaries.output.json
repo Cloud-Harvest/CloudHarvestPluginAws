@@ -1,0 +1,312 @@
+{
+    "input": {
+        "template": {
+            "Filters": [
+                {
+                    "Key": "",
+                    "Values": [
+                        ""
+                    ],
+                    "Type": "EQUAL"
+                }
+            ],
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "bf4532c099a01a00507e8e2b5d3e7abc",
+        "boto_command": "list_compliance_summaries",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "ComplianceType": "ComplianceType",
+                "CompliantSummary": {
+                    "CompliantCount": 0,
+                    "SeveritySummary": {
+                        "CriticalCount": 0,
+                        "HighCount": 0,
+                        "MediumCount": 0,
+                        "LowCount": 0,
+                        "InformationalCount": 0,
+                        "UnspecifiedCount": 0
+                    }
+                },
+                "NonCompliantSummary": {
+                    "NonCompliantCount": 0,
+                    "SeveritySummary": {
+                        "CriticalCount": 0,
+                        "HighCount": 0,
+                        "MediumCount": 0,
+                        "LowCount": 0,
+                        "InformationalCount": 0,
+                        "UnspecifiedCount": 0
+                    }
+                }
+            }
+        ],
+        "required": [],
+        "md5": "e2fa145ace63892b865b06e865f642a5",
+        "randomized": [
+            {
+                "ComplianceType": "ojqxgumheijdecrb",
+                "CompliantSummary": {
+                    "CompliantCount": 0,
+                    "SeveritySummary": {
+                        "CriticalCount": 0,
+                        "HighCount": 0,
+                        "InformationalCount": 0,
+                        "LowCount": 0,
+                        "MediumCount": 0,
+                        "UnspecifiedCount": 0
+                    }
+                },
+                "NonCompliantSummary": {
+                    "NonCompliantCount": 0,
+                    "SeveritySummary": {
+                        "CriticalCount": 0,
+                        "HighCount": 0,
+                        "InformationalCount": 0,
+                        "LowCount": 0,
+                        "MediumCount": 0,
+                        "UnspecifiedCount": 0
+                    }
+                }
+            },
+            {
+                "ComplianceType": "dsyzyauvtuxittus",
+                "CompliantSummary": {
+                    "CompliantCount": 0,
+                    "SeveritySummary": {
+                        "CriticalCount": 0,
+                        "HighCount": 0,
+                        "InformationalCount": 0,
+                        "LowCount": 0,
+                        "MediumCount": 0,
+                        "UnspecifiedCount": 0
+                    }
+                },
+                "NonCompliantSummary": {
+                    "NonCompliantCount": 0,
+                    "SeveritySummary": {
+                        "CriticalCount": 0,
+                        "HighCount": 0,
+                        "InformationalCount": 0,
+                        "LowCount": 0,
+                        "MediumCount": 0,
+                        "UnspecifiedCount": 0
+                    }
+                }
+            },
+            {
+                "ComplianceType": "itaqrznejcoeiekw",
+                "CompliantSummary": {
+                    "CompliantCount": 0,
+                    "SeveritySummary": {
+                        "CriticalCount": 0,
+                        "HighCount": 0,
+                        "InformationalCount": 0,
+                        "LowCount": 0,
+                        "MediumCount": 0,
+                        "UnspecifiedCount": 0
+                    }
+                },
+                "NonCompliantSummary": {
+                    "NonCompliantCount": 0,
+                    "SeveritySummary": {
+                        "CriticalCount": 0,
+                        "HighCount": 0,
+                        "InformationalCount": 0,
+                        "LowCount": 0,
+                        "MediumCount": 0,
+                        "UnspecifiedCount": 0
+                    }
+                }
+            },
+            {
+                "ComplianceType": "hipjwskwkzqlwhvy",
+                "CompliantSummary": {
+                    "CompliantCount": 0,
+                    "SeveritySummary": {
+                        "CriticalCount": 0,
+                        "HighCount": 0,
+                        "InformationalCount": 0,
+                        "LowCount": 0,
+                        "MediumCount": 0,
+                        "UnspecifiedCount": 0
+                    }
+                },
+                "NonCompliantSummary": {
+                    "NonCompliantCount": 0,
+                    "SeveritySummary": {
+                        "CriticalCount": 0,
+                        "HighCount": 0,
+                        "InformationalCount": 0,
+                        "LowCount": 0,
+                        "MediumCount": 0,
+                        "UnspecifiedCount": 0
+                    }
+                }
+            },
+            {
+                "ComplianceType": "dwzjlugcbptbjklf",
+                "CompliantSummary": {
+                    "CompliantCount": 0,
+                    "SeveritySummary": {
+                        "CriticalCount": 0,
+                        "HighCount": 0,
+                        "InformationalCount": 0,
+                        "LowCount": 0,
+                        "MediumCount": 0,
+                        "UnspecifiedCount": 0
+                    }
+                },
+                "NonCompliantSummary": {
+                    "NonCompliantCount": 0,
+                    "SeveritySummary": {
+                        "CriticalCount": 0,
+                        "HighCount": 0,
+                        "InformationalCount": 0,
+                        "LowCount": 0,
+                        "MediumCount": 0,
+                        "UnspecifiedCount": 0
+                    }
+                }
+            },
+            {
+                "ComplianceType": "rbdkipoeogaatcmu",
+                "CompliantSummary": {
+                    "CompliantCount": 0,
+                    "SeveritySummary": {
+                        "CriticalCount": 0,
+                        "HighCount": 0,
+                        "InformationalCount": 0,
+                        "LowCount": 0,
+                        "MediumCount": 0,
+                        "UnspecifiedCount": 0
+                    }
+                },
+                "NonCompliantSummary": {
+                    "NonCompliantCount": 0,
+                    "SeveritySummary": {
+                        "CriticalCount": 0,
+                        "HighCount": 0,
+                        "InformationalCount": 0,
+                        "LowCount": 0,
+                        "MediumCount": 0,
+                        "UnspecifiedCount": 0
+                    }
+                }
+            },
+            {
+                "ComplianceType": "dfaeezfwnzavszub",
+                "CompliantSummary": {
+                    "CompliantCount": 0,
+                    "SeveritySummary": {
+                        "CriticalCount": 0,
+                        "HighCount": 0,
+                        "InformationalCount": 0,
+                        "LowCount": 0,
+                        "MediumCount": 0,
+                        "UnspecifiedCount": 0
+                    }
+                },
+                "NonCompliantSummary": {
+                    "NonCompliantCount": 0,
+                    "SeveritySummary": {
+                        "CriticalCount": 0,
+                        "HighCount": 0,
+                        "InformationalCount": 0,
+                        "LowCount": 0,
+                        "MediumCount": 0,
+                        "UnspecifiedCount": 0
+                    }
+                }
+            },
+            {
+                "ComplianceType": "gvrxizpzmidexpvs",
+                "CompliantSummary": {
+                    "CompliantCount": 0,
+                    "SeveritySummary": {
+                        "CriticalCount": 0,
+                        "HighCount": 0,
+                        "InformationalCount": 0,
+                        "LowCount": 0,
+                        "MediumCount": 0,
+                        "UnspecifiedCount": 0
+                    }
+                },
+                "NonCompliantSummary": {
+                    "NonCompliantCount": 0,
+                    "SeveritySummary": {
+                        "CriticalCount": 0,
+                        "HighCount": 0,
+                        "InformationalCount": 0,
+                        "LowCount": 0,
+                        "MediumCount": 0,
+                        "UnspecifiedCount": 0
+                    }
+                }
+            },
+            {
+                "ComplianceType": "qacectgbdjfxyunk",
+                "CompliantSummary": {
+                    "CompliantCount": 0,
+                    "SeveritySummary": {
+                        "CriticalCount": 0,
+                        "HighCount": 0,
+                        "InformationalCount": 0,
+                        "LowCount": 0,
+                        "MediumCount": 0,
+                        "UnspecifiedCount": 0
+                    }
+                },
+                "NonCompliantSummary": {
+                    "NonCompliantCount": 0,
+                    "SeveritySummary": {
+                        "CriticalCount": 0,
+                        "HighCount": 0,
+                        "InformationalCount": 0,
+                        "LowCount": 0,
+                        "MediumCount": 0,
+                        "UnspecifiedCount": 0
+                    }
+                }
+            },
+            {
+                "ComplianceType": "lthhynuvokbqajug",
+                "CompliantSummary": {
+                    "CompliantCount": 0,
+                    "SeveritySummary": {
+                        "CriticalCount": 0,
+                        "HighCount": 0,
+                        "InformationalCount": 0,
+                        "LowCount": 0,
+                        "MediumCount": 0,
+                        "UnspecifiedCount": 0
+                    }
+                },
+                "NonCompliantSummary": {
+                    "NonCompliantCount": 0,
+                    "SeveritySummary": {
+                        "CriticalCount": 0,
+                        "HighCount": 0,
+                        "InformationalCount": 0,
+                        "LowCount": 0,
+                        "MediumCount": 0,
+                        "UnspecifiedCount": 0
+                    }
+                }
+            }
+        ],
+        "result_key": "ComplianceSummaryItems"
+    },
+    "meta": {
+        "start": 1711116670.448366,
+        "end": 1711116677.359923,
+        "duration": 6.9115681648254395,
+        "service": "ssm",
+        "type": "compliance_summaries"
+    }
+}

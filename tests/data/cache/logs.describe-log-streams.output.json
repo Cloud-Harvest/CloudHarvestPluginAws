@@ -1,0 +1,143 @@
+{
+    "input": {
+        "template": {
+            "logGroupName": "",
+            "logGroupIdentifier": "",
+            "logStreamNamePrefix": "",
+            "orderBy": "LogStreamName",
+            "descending": true,
+            "nextToken": "",
+            "limit": 0
+        },
+        "required": [],
+        "md5": "7f4468daf2ab7b586504c31ae19676a9",
+        "boto_command": "describe_log_streams",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "logStreamName": "logStreamName",
+                "creationTime": 0,
+                "firstEventTimestamp": 0,
+                "lastEventTimestamp": 0,
+                "lastIngestionTime": 0,
+                "uploadSequenceToken": "uploadSequenceToken",
+                "arn": "arn",
+                "storedBytes": 0
+            }
+        ],
+        "required": [],
+        "md5": "e7ebdc08ab7b06a2bf9043a6fc229050",
+        "randomized": [
+            {
+                "arn": "ezzodtguuvojjcmd",
+                "creationTime": 0,
+                "firstEventTimestamp": 0,
+                "lastEventTimestamp": 0,
+                "lastIngestionTime": 0,
+                "logStreamName": "nikxafdpcuxdbwoj",
+                "storedBytes": 0,
+                "uploadSequenceToken": "obmaxaqxyskopysy"
+            },
+            {
+                "arn": "glnunmmwddjwoous",
+                "creationTime": 0,
+                "firstEventTimestamp": 0,
+                "lastEventTimestamp": 0,
+                "lastIngestionTime": 0,
+                "logStreamName": "mzvwydvuekjfnxkc",
+                "storedBytes": 0,
+                "uploadSequenceToken": "wwlknlmngvhxdkde"
+            },
+            {
+                "arn": "wslcfwfsfukjdmvi",
+                "creationTime": 0,
+                "firstEventTimestamp": 0,
+                "lastEventTimestamp": 0,
+                "lastIngestionTime": 0,
+                "logStreamName": "euuqqeqaehbjtifj",
+                "storedBytes": 0,
+                "uploadSequenceToken": "clkvxedqqnxvgdtx"
+            },
+            {
+                "arn": "mcyafbwznbpydexi",
+                "creationTime": 0,
+                "firstEventTimestamp": 0,
+                "lastEventTimestamp": 0,
+                "lastIngestionTime": 0,
+                "logStreamName": "cgghdomdilvsymit",
+                "storedBytes": 0,
+                "uploadSequenceToken": "fnctkanpcceqjbly"
+            },
+            {
+                "arn": "amtnwbzdrpokupwx",
+                "creationTime": 0,
+                "firstEventTimestamp": 0,
+                "lastEventTimestamp": 0,
+                "lastIngestionTime": 0,
+                "logStreamName": "yfeetqolumrxwqwz",
+                "storedBytes": 0,
+                "uploadSequenceToken": "jwbiccgeeycccylg"
+            },
+            {
+                "arn": "epwputtzffhshlck",
+                "creationTime": 0,
+                "firstEventTimestamp": 0,
+                "lastEventTimestamp": 0,
+                "lastIngestionTime": 0,
+                "logStreamName": "zabalmdfvtduigor",
+                "storedBytes": 0,
+                "uploadSequenceToken": "ctcdpsqvpclwcvxm"
+            },
+            {
+                "arn": "ryshwhftvzecgchm",
+                "creationTime": 0,
+                "firstEventTimestamp": 0,
+                "lastEventTimestamp": 0,
+                "lastIngestionTime": 0,
+                "logStreamName": "mwcdxowcmxnxqlgx",
+                "storedBytes": 0,
+                "uploadSequenceToken": "bslpqdzfbwvqbzdg"
+            },
+            {
+                "arn": "pcnmbppawbesysyh",
+                "creationTime": 0,
+                "firstEventTimestamp": 0,
+                "lastEventTimestamp": 0,
+                "lastIngestionTime": 0,
+                "logStreamName": "fnurlxhwgvrseqfd",
+                "storedBytes": 0,
+                "uploadSequenceToken": "gkgjxidvjlkuwimn"
+            },
+            {
+                "arn": "wbjpzuhznawawlrz",
+                "creationTime": 0,
+                "firstEventTimestamp": 0,
+                "lastEventTimestamp": 0,
+                "lastIngestionTime": 0,
+                "logStreamName": "uuhslvfkgsjiomzq",
+                "storedBytes": 0,
+                "uploadSequenceToken": "gqlxpfczaccgfdzo"
+            },
+            {
+                "arn": "kqiuijeeqwbugdpb",
+                "creationTime": 0,
+                "firstEventTimestamp": 0,
+                "lastEventTimestamp": 0,
+                "lastIngestionTime": 0,
+                "logStreamName": "nujbwaqcndukkqwv",
+                "storedBytes": 0,
+                "uploadSequenceToken": "aqmgjfqgfoqmdeia"
+            }
+        ],
+        "result_key": "logStreams"
+    },
+    "meta": {
+        "start": 1711116118.1286,
+        "end": 1711116125.570938,
+        "duration": 7.442348003387451,
+        "service": "logs",
+        "type": "log_streams"
+    }
+}

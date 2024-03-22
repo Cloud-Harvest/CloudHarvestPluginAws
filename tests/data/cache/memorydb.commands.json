@@ -1,0 +1,16 @@
+[
+    "memorydb.describe-acls",
+    "memorydb.describe-clusters",
+    "memorydb.describe-engine-versions",
+    "memorydb.describe-events",
+    "memorydb.describe-parameter-groups",
+    "memorydb.describe-parameters",
+    "memorydb.describe-reserved-nodes",
+    "memorydb.describe-reserved-nodes-offerings",
+    "memorydb.describe-service-updates",
+    "memorydb.describe-snapshots",
+    "memorydb.describe-subnet-groups",
+    "memorydb.describe-users",
+    "memorydb.list-allowed-node-type-updates",
+    "memorydb.list-tags"
+]

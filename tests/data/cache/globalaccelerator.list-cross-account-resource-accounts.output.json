@@ -1,0 +1,36 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "list_cross_account_resource_accounts",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            "AwsAccountId"
+        ],
+        "required": [],
+        "md5": "7733a6d02b0c4d59ccd833090457a67a",
+        "randomized": [
+            "jatnkmqzmcedviqa",
+            "xifrysmtynuixzhp",
+            "iskabgpojkxdpcaw",
+            "ztpkqnotdqrhbyye",
+            "tlgdyiuwbtcgvwyu",
+            "tdglqixjrhsdbozk",
+            "mrizwpsrralyfttp",
+            "sfxkbjumsavepwjk",
+            "tqxmzsjgsjexsknn",
+            "owkldjztmwexfylg"
+        ],
+        "result_key": "ResourceOwnerAwsAccountIds"
+    },
+    "meta": {
+        "start": 1711115812.344699,
+        "end": 1711115821.058462,
+        "duration": 8.71377420425415,
+        "service": "globalaccelerator",
+        "type": "cross_account_resource_accounts"
+    }
+}

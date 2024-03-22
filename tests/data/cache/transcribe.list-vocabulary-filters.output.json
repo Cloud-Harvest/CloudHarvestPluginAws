@@ -1,0 +1,84 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0,
+            "NameContains": ""
+        },
+        "required": [],
+        "md5": "98ca91d849aa90ffe75fee6bf4edbefa",
+        "boto_command": "list_vocabulary_filters",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "VocabularyFilterName": "VocabularyFilterName",
+                "LanguageCode": "LanguageCode",
+                "LastModifiedTime": "1970-01-01T00:00:00"
+            }
+        ],
+        "required": [],
+        "md5": "e49868d3ffa92cbf47f2100724adfc08",
+        "randomized": [
+            {
+                "LanguageCode": "qbuuebepwdscnduo",
+                "LastModifiedTime": "xpaerttcrvxvmboa",
+                "VocabularyFilterName": "vfeaxyutdefjzqpr"
+            },
+            {
+                "LanguageCode": "eutcxntaexnsmhut",
+                "LastModifiedTime": "skyplpcpjtuofjvy",
+                "VocabularyFilterName": "nvuojbtlocaevmjg"
+            },
+            {
+                "LanguageCode": "bsgjozbtqynjkasb",
+                "LastModifiedTime": "asmdlljlouugwbng",
+                "VocabularyFilterName": "piqwdgkpzmrybfgg"
+            },
+            {
+                "LanguageCode": "vhqlylimitrfthja",
+                "LastModifiedTime": "njpomitapyftdveb",
+                "VocabularyFilterName": "wkahspdknxoijarp"
+            },
+            {
+                "LanguageCode": "rbcyezewqqgowxcl",
+                "LastModifiedTime": "owszxnwdxjaosigi",
+                "VocabularyFilterName": "aptastlhzgdivtcs"
+            },
+            {
+                "LanguageCode": "glarcdtrczycuiqe",
+                "LastModifiedTime": "mztzhkzxiirmtjnh",
+                "VocabularyFilterName": "ojbmymjyfkbrakcs"
+            },
+            {
+                "LanguageCode": "ndwlgljprwfztphu",
+                "LastModifiedTime": "ypjgbmzeewkujkvt",
+                "VocabularyFilterName": "xlmxxpfwazxvrqbh"
+            },
+            {
+                "LanguageCode": "qrqgelvthpupiinz",
+                "LastModifiedTime": "rjsploeiojnbosos",
+                "VocabularyFilterName": "pslpsrbkuvfrwcpd"
+            },
+            {
+                "LanguageCode": "cktgkrcfaiqlmctc",
+                "LastModifiedTime": "azexkzpblsmfjiju",
+                "VocabularyFilterName": "svfwvadkbjewtyiu"
+            },
+            {
+                "LanguageCode": "nsrxndejhgqsptfn",
+                "LastModifiedTime": "rdufmfcljegyrwll",
+                "VocabularyFilterName": "tkhgzqwdmpvgytzd"
+            }
+        ],
+        "result_key": "VocabularyFilters"
+    },
+    "meta": {
+        "start": 1711116733.167379,
+        "end": 1711116739.656231,
+        "duration": 6.488862991333008,
+        "service": "transcribe",
+        "type": "vocabulary_filters"
+    }
+}

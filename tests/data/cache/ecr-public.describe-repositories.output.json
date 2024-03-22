@@ -1,0 +1,109 @@
+{
+    "input": {
+        "template": {
+            "registryId": "",
+            "repositoryNames": [
+                ""
+            ],
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "required": [],
+        "md5": "d09e2f76b49967ebe9e5d8235d2e3e87",
+        "boto_command": "describe_repositories",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "repositoryArn": "repositoryArn",
+                "registryId": "registryId",
+                "repositoryName": "repositoryName",
+                "repositoryUri": "repositoryUri",
+                "createdAt": "1970-01-01T00:00:00"
+            }
+        ],
+        "required": [],
+        "md5": "3e5bbacfc4af8dd2d2cae094f5bfd450",
+        "randomized": [
+            {
+                "createdAt": "jjnkguiyasfojenk",
+                "registryId": "fguxswwcvnyohccb",
+                "repositoryArn": "skhjknpsamejbwni",
+                "repositoryName": "vvitonytwvdaqwyb",
+                "repositoryUri": "fgmrwbwwbwtvraxr"
+            },
+            {
+                "createdAt": "oumokshuewlxxaag",
+                "registryId": "jcsqzesxefmzcfdo",
+                "repositoryArn": "epwmyqqyvsytfrts",
+                "repositoryName": "nwjstxlzqresiulm",
+                "repositoryUri": "cznwiqybeeocrkmd"
+            },
+            {
+                "createdAt": "mifbpskxfckpoxfc",
+                "registryId": "guucxsineswxuaoc",
+                "repositoryArn": "qbyczgpgqinocfuj",
+                "repositoryName": "bcqogladgdhtskds",
+                "repositoryUri": "bklyivlwwxgjrtut"
+            },
+            {
+                "createdAt": "tbzhgwjnisetcyya",
+                "registryId": "ophklyhqzohlxtlf",
+                "repositoryArn": "jeittjzlfoyvjohz",
+                "repositoryName": "bteqqokphqmyujmm",
+                "repositoryUri": "fxaysmfwbccgpzyr"
+            },
+            {
+                "createdAt": "bqqrcylykcbszaaz",
+                "registryId": "lnsouhurxarikbnh",
+                "repositoryArn": "atgwqoyutwctookv",
+                "repositoryName": "swylojuvlgxrsbzl",
+                "repositoryUri": "qjysjeqlftqgtxdg"
+            },
+            {
+                "createdAt": "uenbdgtoozqaaomi",
+                "registryId": "ygmfekjftvdmdfzw",
+                "repositoryArn": "ylxfvnhsveprzeqw",
+                "repositoryName": "szoutyafsluihnvl",
+                "repositoryUri": "jfsjczeniqoxdwva"
+            },
+            {
+                "createdAt": "frfayjgzhumqmtnx",
+                "registryId": "kqtmpmjgjtwwwisa",
+                "repositoryArn": "mkglairklmmjynzu",
+                "repositoryName": "pbsunjagonneciyx",
+                "repositoryUri": "xtjzukbybicxnvxy"
+            },
+            {
+                "createdAt": "pcvcopoanygadirm",
+                "registryId": "drtaxqgtahuhincc",
+                "repositoryArn": "ojbbyewlqrowfvnz",
+                "repositoryName": "lehnymbggvorfkjf",
+                "repositoryUri": "ooiknibrqbmndpls"
+            },
+            {
+                "createdAt": "muauvhbzbevdwada",
+                "registryId": "phwvyduacjwapega",
+                "repositoryArn": "vgqudcrlcwgneaki",
+                "repositoryName": "byebwqatdgzforod",
+                "repositoryUri": "begihkvysbiodehw"
+            },
+            {
+                "createdAt": "orjkbwzpzowcvmru",
+                "registryId": "mqbeuvqbheptmzfo",
+                "repositoryArn": "lxhnicpbqbatdeos",
+                "repositoryName": "wvcqbthkaklzqtbv",
+                "repositoryUri": "jcmwmsapjdrbksdx"
+            }
+        ],
+        "result_key": "repositories"
+    },
+    "meta": {
+        "start": 1711115688.580071,
+        "end": 1711115695.265864,
+        "duration": 6.685801029205322,
+        "service": "ecr-public",
+        "type": "repositories"
+    }
+}

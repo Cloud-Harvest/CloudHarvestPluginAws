@@ -1,0 +1,37 @@
+{
+    "input": {
+        "template": {
+            "TrailName": "",
+            "EventDataStore": ""
+        },
+        "required": [],
+        "md5": "da96be1f0951052c3a2cf9dab1230b9b",
+        "boto_command": "get_insight_selectors",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": "TrailARN",
+        "required": [],
+        "md5": "5e09300c990375b52d05c9eb0988c539",
+        "randomized": [
+            "ofdcgtakjchjlkvt",
+            "gtxjvgpnayegbsay",
+            "dzmezamkvuypagmo",
+            "kcnstriciprqgegp",
+            "bfgvbufoiyhdzing",
+            "sarkponvybkpvpcq",
+            "ktgwjxhtjcfuhltg",
+            "kgctvyadcuvrzcmb",
+            "xqddzxvniwbbavih",
+            "bxeyahjnomcsyfqf"
+        ],
+        "result_key": "TrailARN"
+    },
+    "meta": {
+        "start": 1711115387.273361,
+        "end": 1711115393.878908,
+        "duration": 6.605556964874268,
+        "service": "cloudtrail",
+        "type": null
+    }
+}

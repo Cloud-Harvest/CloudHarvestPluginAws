@@ -1,0 +1,116 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "9dece7f85fc1c3f944425b1f68a8e6e1",
+        "boto_command": "list_applications",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "Arn": "Arn",
+                "Id": "Id",
+                "Name": "Name",
+                "Namespace": "Namespace",
+                "CreatedTime": "1970-01-01T00:00:00",
+                "LastModifiedTime": "1970-01-01T00:00:00"
+            }
+        ],
+        "required": [],
+        "md5": "0218ace94e1b18a771d2468842dec670",
+        "randomized": [
+            {
+                "Arn": "aqevocxwprherqmv",
+                "CreatedTime": "dhrkuyqjthvaouiw",
+                "Id": "aeiiwmwrwensurvz",
+                "LastModifiedTime": "qravrksokivvzsxh",
+                "Name": "xsglrsrxeslvxbnx",
+                "Namespace": "zwtihonetslzdnjp"
+            },
+            {
+                "Arn": "fjlfikmuqzifgxaa",
+                "CreatedTime": "ngrrhtywiguhwflg",
+                "Id": "fzjwtaibywopwnuh",
+                "LastModifiedTime": "okfehpmhgozuobqu",
+                "Name": "pgsjjncqmnmbkmaw",
+                "Namespace": "mldochdavhvotmpj"
+            },
+            {
+                "Arn": "mwtcilpbxfhqljbu",
+                "CreatedTime": "blazcbhcemdjepmg",
+                "Id": "kdvsiwnbwirmtvdk",
+                "LastModifiedTime": "prlytgihsfsfdrre",
+                "Name": "joxwnaxhushceipp",
+                "Namespace": "mobclhlahewftutp"
+            },
+            {
+                "Arn": "nbghwxgedgsacdrq",
+                "CreatedTime": "wteurdutfsjeqjnj",
+                "Id": "qcusrddtebvrtuel",
+                "LastModifiedTime": "styugzmzurlxlfkp",
+                "Name": "diyoeewebvfvhvyf",
+                "Namespace": "sqqxvpznqteuzdzy"
+            },
+            {
+                "Arn": "txqzbjzwbwaailjj",
+                "CreatedTime": "tdefmnivyizpgiit",
+                "Id": "olxmtcihwasaosht",
+                "LastModifiedTime": "zeaurycenkrctuyt",
+                "Name": "fswclzszlwyhtgnl",
+                "Namespace": "ltuyoelmxkanqatx"
+            },
+            {
+                "Arn": "eipoyjbribenrzcd",
+                "CreatedTime": "lxkhrrsqaphqpkjg",
+                "Id": "nqjagfeevhwbxtnx",
+                "LastModifiedTime": "hnpzfklxotzkofmy",
+                "Name": "ffjifahcbnqsakea",
+                "Namespace": "nhbtstiikvvfzmpw"
+            },
+            {
+                "Arn": "ieqfvkidckodsbvq",
+                "CreatedTime": "wbgngdkeklaxlqwp",
+                "Id": "rnyovrmlknllioyr",
+                "LastModifiedTime": "ltindjnxilwwvfju",
+                "Name": "buquazvlyqmiowlu",
+                "Namespace": "jkgztlepkovkxsgf"
+            },
+            {
+                "Arn": "mmmalrcwgsurjvtj",
+                "CreatedTime": "oypogtudhmvrgikb",
+                "Id": "zvbjutlrjizcntex",
+                "LastModifiedTime": "uzsiatueclwzdgnw",
+                "Name": "mhftdwueikxtewyq",
+                "Namespace": "tksswusyhkxgudeu"
+            },
+            {
+                "Arn": "dlcahbyyndtxlmds",
+                "CreatedTime": "kpwcfoptxjoeaife",
+                "Id": "jsmlxwbbxzresjpg",
+                "LastModifiedTime": "aavowwuhgdsktwyt",
+                "Name": "kdsopesanhgsqxac",
+                "Namespace": "wfgktrnfdhqohfix"
+            },
+            {
+                "Arn": "vyqkdhoyeshyguhp",
+                "CreatedTime": "idxudrvatjyvbahr",
+                "Id": "eqprxbfjhtayvfxo",
+                "LastModifiedTime": "hluobldgfvnbgzkg",
+                "Name": "mvazbxgbvbfuurhi",
+                "Namespace": "tycaqufdwjljbxdo"
+            }
+        ],
+        "result_key": "Applications"
+    },
+    "meta": {
+        "start": 1711115222.814049,
+        "end": 1711115229.227429,
+        "duration": 6.4133899211883545,
+        "service": "appintegrations",
+        "type": "applications"
+    }
+}

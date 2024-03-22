@@ -1,0 +1,38 @@
+{
+    "input": {
+        "template": {
+            "StackName": "",
+            "ChangeSetName": "",
+            "TemplateStage": "Original"
+        },
+        "required": [],
+        "md5": "899b497ae13d1f3ed4db0a34c3aecfc8",
+        "boto_command": "get_template",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": "TemplateBody",
+        "required": [],
+        "md5": "e17ad0f64b54964edda18ae6079e8027",
+        "randomized": [
+            "lewtldjqkepxbqoe",
+            "ulcrnqzbpxgmpvzm",
+            "gyqwaeqqziaosxhx",
+            "wulgxrrnhnmjucqq",
+            "qujysubnefxdztlr",
+            "rjelhhzscauocnoo",
+            "vrnlqvkdralbnslc",
+            "kprbbclcihovzjpy",
+            "pykoehrkgswneegb",
+            "jwtzjygjwxrbxaly"
+        ],
+        "result_key": "TemplateBody"
+    },
+    "meta": {
+        "start": 1711115363.869191,
+        "end": 1711115370.981806,
+        "duration": 7.1126251220703125,
+        "service": "cloudformation",
+        "type": null
+    }
+}

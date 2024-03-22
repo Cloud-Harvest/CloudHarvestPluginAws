@@ -1,0 +1,193 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0,
+            "SortBy": "Name",
+            "SortOrder": "Ascending",
+            "NameContains": "",
+            "CreationTimeBefore": "1970-01-01T00:00:00",
+            "CreationTimeAfter": "1970-01-01T00:00:00",
+            "LastModifiedTimeBefore": "1970-01-01T00:00:00",
+            "LastModifiedTimeAfter": "1970-01-01T00:00:00",
+            "StatusEquals": "Pending",
+            "NotebookInstanceLifecycleConfigNameContains": "",
+            "DefaultCodeRepositoryContains": "",
+            "AdditionalCodeRepositoryEquals": ""
+        },
+        "required": [],
+        "md5": "40f3fdbbec47eff7038e3511b04ee662",
+        "boto_command": "list_notebook_instances",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "NotebookInstanceName": "NotebookInstanceName",
+                "NotebookInstanceArn": "NotebookInstanceArn",
+                "NotebookInstanceStatus": "NotebookInstanceStatus",
+                "Url": "Url",
+                "InstanceType": "InstanceType",
+                "CreationTime": "1970-01-01T00:00:00",
+                "LastModifiedTime": "1970-01-01T00:00:00",
+                "NotebookInstanceLifecycleConfigName": "NotebookInstanceLifecycleConfigName",
+                "DefaultCodeRepository": "DefaultCodeRepository",
+                "AdditionalCodeRepositories": [
+                    "CodeRepositoryNameOrUrl"
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "6e746e1c20e5318655b9409c86aa50f3",
+        "randomized": [
+            {
+                "AdditionalCodeRepositories": [
+                    "sfzgkonzvkthzvcq"
+                ],
+                "CreationTime": "ttscqsarctaimxvo",
+                "DefaultCodeRepository": "djolfjnajinunovp",
+                "InstanceType": "bjhylunrivtvsdmp",
+                "LastModifiedTime": "aobxonlfhirckrsx",
+                "NotebookInstanceArn": "awwibfkaloqactlk",
+                "NotebookInstanceLifecycleConfigName": "tyaftaeamkvtvpew",
+                "NotebookInstanceName": "tsnwxqispnubcyli",
+                "NotebookInstanceStatus": "ljgdxkvojzzkjdwu",
+                "Url": "wxjcpbfgojsyzvat"
+            },
+            {
+                "AdditionalCodeRepositories": [
+                    "kvcsrzbheywzdvop"
+                ],
+                "CreationTime": "cyxjdssmgqmgwbnc",
+                "DefaultCodeRepository": "jtvbviyjswrvgrhf",
+                "InstanceType": "qfgxgmmjxvzmiuvx",
+                "LastModifiedTime": "uhsnsgnxcxhrtebt",
+                "NotebookInstanceArn": "vzghtlinmmmezqet",
+                "NotebookInstanceLifecycleConfigName": "dqnvdrqjuelmxyoo",
+                "NotebookInstanceName": "epysezsvsivwgdqx",
+                "NotebookInstanceStatus": "hcgzpsnondntlcik",
+                "Url": "cgiwewtlvzepoyhu"
+            },
+            {
+                "AdditionalCodeRepositories": [
+                    "uemmkijefhmtztyo"
+                ],
+                "CreationTime": "pttcgliixvfcpnmb",
+                "DefaultCodeRepository": "kpzwqigpoplsuphf",
+                "InstanceType": "rakxakiynktvsajv",
+                "LastModifiedTime": "clqiilyighnbwvoc",
+                "NotebookInstanceArn": "axxfyurobshchbyo",
+                "NotebookInstanceLifecycleConfigName": "avcxfvvinsrkzffk",
+                "NotebookInstanceName": "rxpmcgqvlipzxstq",
+                "NotebookInstanceStatus": "iqwbmtzldnhrlwmo",
+                "Url": "dgjuvjwlmxfznlze"
+            },
+            {
+                "AdditionalCodeRepositories": [
+                    "vrjvvakoowmdqkut"
+                ],
+                "CreationTime": "igttbgdsjacgqqev",
+                "DefaultCodeRepository": "zdnfnlghwmlfdwdv",
+                "InstanceType": "nnewdddtpkfiblxh",
+                "LastModifiedTime": "wwkvyioruaqkopko",
+                "NotebookInstanceArn": "bhwpqctptyqegnif",
+                "NotebookInstanceLifecycleConfigName": "uhigompnlqvegdlf",
+                "NotebookInstanceName": "qocgxjjdvxartdkt",
+                "NotebookInstanceStatus": "gmbioqfinearhziz",
+                "Url": "fvpzxkhzmqlcmodq"
+            },
+            {
+                "AdditionalCodeRepositories": [
+                    "sxxpwlnmuszvhtud"
+                ],
+                "CreationTime": "vlpfnzdvpamibwqx",
+                "DefaultCodeRepository": "baztuistuobodwwq",
+                "InstanceType": "pqdeqhobfxwbrwce",
+                "LastModifiedTime": "ypkkfugkubrzfewe",
+                "NotebookInstanceArn": "endhmepkwehoinrq",
+                "NotebookInstanceLifecycleConfigName": "wursyxyngffklepj",
+                "NotebookInstanceName": "wbhksthgfdschqln",
+                "NotebookInstanceStatus": "vuqmvsmkrgrlvmch",
+                "Url": "zfxgvujghmvkwaoa"
+            },
+            {
+                "AdditionalCodeRepositories": [
+                    "spyxigrndmbaozfk"
+                ],
+                "CreationTime": "qlargjsaltbyelvz",
+                "DefaultCodeRepository": "llpbkhsuuvplmasn",
+                "InstanceType": "pfkzttwnqjfnioec",
+                "LastModifiedTime": "ccbcbcugoejznoev",
+                "NotebookInstanceArn": "bfsokasaccigtaqi",
+                "NotebookInstanceLifecycleConfigName": "zdwjvgusvsqyqhvt",
+                "NotebookInstanceName": "kodosuzgenuglmqq",
+                "NotebookInstanceStatus": "vgfvnekatuzmueju",
+                "Url": "addkcxrpjuctxipi"
+            },
+            {
+                "AdditionalCodeRepositories": [
+                    "lzadsmzcdssguigt"
+                ],
+                "CreationTime": "anweclmaksoilkpl",
+                "DefaultCodeRepository": "iairajxggtjxnkan",
+                "InstanceType": "mtitcyubvpiztdfb",
+                "LastModifiedTime": "jpoywuuqphkvrulq",
+                "NotebookInstanceArn": "hpqgsfkjgbgadxci",
+                "NotebookInstanceLifecycleConfigName": "rtnaaglvciaxywfz",
+                "NotebookInstanceName": "mbmnuncwqmjvczhw",
+                "NotebookInstanceStatus": "densjypnxtuwaizv",
+                "Url": "zpekagxtodmbiodc"
+            },
+            {
+                "AdditionalCodeRepositories": [
+                    "pegywddwdsiancyj"
+                ],
+                "CreationTime": "dhaavvxjfaaeoawq",
+                "DefaultCodeRepository": "yqwhjslljxgsutgo",
+                "InstanceType": "xweypcfzfnszariv",
+                "LastModifiedTime": "zqeqlmbnbvczkvcz",
+                "NotebookInstanceArn": "guqhdirnnzjhnsqz",
+                "NotebookInstanceLifecycleConfigName": "hzqwizpmcyjsgkjs",
+                "NotebookInstanceName": "kogpcfonrpfolfut",
+                "NotebookInstanceStatus": "qawiqsdgjvnujuox",
+                "Url": "qgynmbpdmgxedtcp"
+            },
+            {
+                "AdditionalCodeRepositories": [
+                    "chhvxxvbzbraxxct"
+                ],
+                "CreationTime": "tfdecixeltblrmpe",
+                "DefaultCodeRepository": "vasgovmoflwdpkmc",
+                "InstanceType": "esaoetkvuvusdcbw",
+                "LastModifiedTime": "mviswqmnuibsbvzh",
+                "NotebookInstanceArn": "pcqlulndaxjmyfty",
+                "NotebookInstanceLifecycleConfigName": "dshwcxsfpgxofaoc",
+                "NotebookInstanceName": "bqyzbivikzlpezqw",
+                "NotebookInstanceStatus": "eirhnqdgefzsxxsn",
+                "Url": "tnnnugyxxcpawqnc"
+            },
+            {
+                "AdditionalCodeRepositories": [
+                    "opdyqpsxjjvedhnn"
+                ],
+                "CreationTime": "kfyouqtpjdzvulgw",
+                "DefaultCodeRepository": "ayllgssmxxpwwyde",
+                "InstanceType": "twgsqgmrhphbnycj",
+                "LastModifiedTime": "uyaujjpocqsrdold",
+                "NotebookInstanceArn": "khkdbjfrhzrhafxv",
+                "NotebookInstanceLifecycleConfigName": "eekyqyrlancdeppy",
+                "NotebookInstanceName": "ctzzubudbuyuhtee",
+                "NotebookInstanceStatus": "slmzfiydddnjoyip",
+                "Url": "nkxpictsbkxjkdil"
+            }
+        ],
+        "result_key": "NotebookInstances"
+    },
+    "meta": {
+        "start": 1711116564.019715,
+        "end": 1711116572.37631,
+        "duration": 8.356606006622314,
+        "service": "sagemaker",
+        "type": "notebook_instances"
+    }
+}

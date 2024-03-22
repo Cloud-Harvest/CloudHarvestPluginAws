@@ -1,0 +1,6 @@
+[
+    "networkmonitor.get-monitor",
+    "networkmonitor.get-probe",
+    "networkmonitor.list-monitors",
+    "networkmonitor.list-tags-for-resource"
+]

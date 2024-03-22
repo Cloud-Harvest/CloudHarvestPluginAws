@@ -1,0 +1,76 @@
+{
+    "input": {
+        "template": {
+            "AccountId": "",
+            "MaxResults": 0,
+            "NextToken": "",
+            "RegionOptStatusContains": [
+                "ENABLED"
+            ]
+        },
+        "required": [],
+        "md5": "ea7c5d6a05b2cb4c0154d00ff2f6fdfa",
+        "boto_command": "list_regions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "RegionName": "RegionName",
+                "RegionOptStatus": "RegionOptStatus"
+            }
+        ],
+        "required": [],
+        "md5": "a13cdae0f1be99a660cf14f9d8720073",
+        "randomized": [
+            {
+                "RegionName": "rsvrroceirawzryy",
+                "RegionOptStatus": "bhzavgkthtlnxyck"
+            },
+            {
+                "RegionName": "rzoftrcypdujrmzw",
+                "RegionOptStatus": "yaasorhjgqvijrtc"
+            },
+            {
+                "RegionName": "gjkektljfjwtrkpa",
+                "RegionOptStatus": "uvwrhaacvfyjcmjx"
+            },
+            {
+                "RegionName": "tzimqqyqnsjqdgyi",
+                "RegionOptStatus": "nfzznobnxhqwtgda"
+            },
+            {
+                "RegionName": "jlyovcpnhlfzjjtk",
+                "RegionOptStatus": "etmqkjedbumgjfdh"
+            },
+            {
+                "RegionName": "fgubafxxsanqajka",
+                "RegionOptStatus": "baoshaokypydebjq"
+            },
+            {
+                "RegionName": "qgskjtcileytsfib",
+                "RegionOptStatus": "ixwcgqbwqjoklrai"
+            },
+            {
+                "RegionName": "hpgviadrvwtrsjya",
+                "RegionOptStatus": "drsvgifhpecujqoe"
+            },
+            {
+                "RegionName": "rqftyngmillqouoa",
+                "RegionOptStatus": "bpcracsqgdhoyrfr"
+            },
+            {
+                "RegionName": "bxwxosvtohtgkedl",
+                "RegionOptStatus": "btwwydphkdmjelpr"
+            }
+        ],
+        "result_key": "Regions"
+    },
+    "meta": {
+        "start": 1711115182.971996,
+        "end": 1711115191.022594,
+        "duration": 8.05060887336731,
+        "service": "account",
+        "type": "regions"
+    }
+}

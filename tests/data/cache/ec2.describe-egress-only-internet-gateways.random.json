@@ -1,0 +1,152 @@
+[
+    {
+        "Attachments": [
+            {
+                "State": "nahfnzrbtvoyfovm",
+                "VpcId": "ipkmwgvaskzegcnq"
+            }
+        ],
+        "EgressOnlyInternetGatewayId": "dhjsxtpqeuawewui",
+        "Tags": [
+            {
+                "Key": "ooarppbeelcgbgbz",
+                "Value": "kflokxvbarqlvudt"
+            }
+        ]
+    },
+    {
+        "Attachments": [
+            {
+                "State": "oaxggpivzydlbysu",
+                "VpcId": "pslpuipyznygxbwl"
+            }
+        ],
+        "EgressOnlyInternetGatewayId": "uqqsntoaldektuow",
+        "Tags": [
+            {
+                "Key": "qbvxtemiartncwlh",
+                "Value": "hrfavbbulpzbycdb"
+            }
+        ]
+    },
+    {
+        "Attachments": [
+            {
+                "State": "difhdmgvdghrnmpo",
+                "VpcId": "gavkbnfowjbhxnwl"
+            }
+        ],
+        "EgressOnlyInternetGatewayId": "cywpdsopjofedyvu",
+        "Tags": [
+            {
+                "Key": "emqeymufgplyethw",
+                "Value": "gbjusdhnhvjndmad"
+            }
+        ]
+    },
+    {
+        "Attachments": [
+            {
+                "State": "fnyrtootdevnljvi",
+                "VpcId": "wiuaicfimkltgzsc"
+            }
+        ],
+        "EgressOnlyInternetGatewayId": "mfnbtucvctlgvriz",
+        "Tags": [
+            {
+                "Key": "ydmnhrkbwvnnqdao",
+                "Value": "dzdmxbqfaqzvobui"
+            }
+        ]
+    },
+    {
+        "Attachments": [
+            {
+                "State": "bovnhgmhhxuvvdoy",
+                "VpcId": "acmehfjwylplbnlv"
+            }
+        ],
+        "EgressOnlyInternetGatewayId": "lnpobscyrivxeibb",
+        "Tags": [
+            {
+                "Key": "wgaruhupgmopdxjf",
+                "Value": "rprhlimvadqtujqb"
+            }
+        ]
+    },
+    {
+        "Attachments": [
+            {
+                "State": "sxligbijfkeyggra",
+                "VpcId": "ltvgqjbiuylocpjc"
+            }
+        ],
+        "EgressOnlyInternetGatewayId": "emxwywwoiwaoazii",
+        "Tags": [
+            {
+                "Key": "dncligeutkbthnya",
+                "Value": "gdspoffbamkazdlu"
+            }
+        ]
+    },
+    {
+        "Attachments": [
+            {
+                "State": "vpbzuczibulsvecq",
+                "VpcId": "kfjctsblvpqjcbim"
+            }
+        ],
+        "EgressOnlyInternetGatewayId": "mlshxtyrlryzcwta",
+        "Tags": [
+            {
+                "Key": "ifnhqmbawlzswbns",
+                "Value": "bxmhuczqhsgcytlr"
+            }
+        ]
+    },
+    {
+        "Attachments": [
+            {
+                "State": "ejlcxwvatsehogeu",
+                "VpcId": "cgjgssawoexpbxlx"
+            }
+        ],
+        "EgressOnlyInternetGatewayId": "etorzjgvucpiuygq",
+        "Tags": [
+            {
+                "Key": "szfgefpvqsbjhvmm",
+                "Value": "xbjakzdpffenimvc"
+            }
+        ]
+    },
+    {
+        "Attachments": [
+            {
+                "State": "hcjjiookeclovvuj",
+                "VpcId": "akuejcuniwpkdsim"
+            }
+        ],
+        "EgressOnlyInternetGatewayId": "xrlvcdrfgyknvrcf",
+        "Tags": [
+            {
+                "Key": "edvxvkpluvpjbovi",
+                "Value": "mxbbsanetdcwpbje"
+            }
+        ]
+    },
+    {
+        "Attachments": [
+            {
+                "State": "hdqjobibejqixxvi",
+                "VpcId": "amphcetnqeoaaers"
+            }
+        ],
+        "EgressOnlyInternetGatewayId": "clnpmtmusxogrlrb",
+        "Tags": [
+            {
+                "Key": "axserkbpitcycqps",
+                "Value": "htaqocfomzhjrgdw"
+            }
+        ]
+    }
+]

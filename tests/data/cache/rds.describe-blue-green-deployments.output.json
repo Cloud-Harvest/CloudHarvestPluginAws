@@ -1,0 +1,356 @@
+{
+    "input": {
+        "template": {
+            "BlueGreenDeploymentIdentifier": "",
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "Marker": "",
+            "MaxRecords": 0
+        },
+        "required": [],
+        "md5": "dc1594c5f358bdbdafc4b5ffc692a17e",
+        "boto_command": "describe_blue_green_deployments",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "BlueGreenDeploymentIdentifier": "BlueGreenDeploymentIdentifier",
+                "BlueGreenDeploymentName": "BlueGreenDeploymentName",
+                "Source": "Source",
+                "Target": "Target",
+                "SwitchoverDetails": [
+                    {
+                        "SourceMember": "SourceMember",
+                        "TargetMember": "TargetMember",
+                        "Status": "Status"
+                    }
+                ],
+                "Tasks": [
+                    {
+                        "Name": "Name",
+                        "Status": "Status"
+                    }
+                ],
+                "Status": "Status",
+                "StatusDetails": "StatusDetails",
+                "CreateTime": "1970-01-01T00:00:00",
+                "DeleteTime": "1970-01-01T00:00:00",
+                "TagList": [
+                    {
+                        "Key": "Key",
+                        "Value": "Value"
+                    }
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "526d1cf45773e7d68c50a767f0768f6e",
+        "randomized": [
+            {
+                "BlueGreenDeploymentIdentifier": "oszfjvftspwmbulo",
+                "BlueGreenDeploymentName": "pxyhqcbmferklfyl",
+                "CreateTime": "mhlbmcbdxmcszejv",
+                "DeleteTime": "buddhbbwseilhyzw",
+                "Source": "hiatsgsikisryiuj",
+                "Status": "mjpdwzujiursamaz",
+                "StatusDetails": "fqgrnwjfohxperon",
+                "SwitchoverDetails": [
+                    {
+                        "SourceMember": "iekqimitskouygbm",
+                        "Status": "suqwekggadytfpwb",
+                        "TargetMember": "aiectbcbqyghujpt"
+                    }
+                ],
+                "TagList": [
+                    {
+                        "Key": "xvovgozlupyljjam",
+                        "Value": "hiwpyxcsmkpwwbcw"
+                    }
+                ],
+                "Target": "dphynlhdhsdfbnns",
+                "Tasks": [
+                    {
+                        "Name": "fgqopjcmgzhcmcvc",
+                        "Status": "enddnsodvqhhjzwy"
+                    }
+                ]
+            },
+            {
+                "BlueGreenDeploymentIdentifier": "ofzmvctggzvlcldc",
+                "BlueGreenDeploymentName": "istchrroizogsbph",
+                "CreateTime": "geutcybixopnpsma",
+                "DeleteTime": "nupzwxtgecwydsvy",
+                "Source": "oqnebwxwafcjkijg",
+                "Status": "ylqhlxgxasxsqkrc",
+                "StatusDetails": "tzndphexcjslcbsq",
+                "SwitchoverDetails": [
+                    {
+                        "SourceMember": "rkividgifdyyshoe",
+                        "Status": "mwzdkllhwjfgkloa",
+                        "TargetMember": "pohttmlgzpysyulh"
+                    }
+                ],
+                "TagList": [
+                    {
+                        "Key": "zdxtaaguxzxkrbpc",
+                        "Value": "jmxefniqixkxlclo"
+                    }
+                ],
+                "Target": "tditxvategnhbqyi",
+                "Tasks": [
+                    {
+                        "Name": "ldxjhcdqihnfkqyi",
+                        "Status": "bgdufxlvekrsqach"
+                    }
+                ]
+            },
+            {
+                "BlueGreenDeploymentIdentifier": "czitmxtipxnnctwz",
+                "BlueGreenDeploymentName": "baxmreamscjenzlr",
+                "CreateTime": "agtqfwudshkwzffs",
+                "DeleteTime": "hapxntqqexzcwruf",
+                "Source": "vrspviqyqasrnogo",
+                "Status": "muvjnetwfvpaysbc",
+                "StatusDetails": "miqhfeyruajsbtlb",
+                "SwitchoverDetails": [
+                    {
+                        "SourceMember": "rlegauwfjjofqlac",
+                        "Status": "lcnozokrfpbmrysj",
+                        "TargetMember": "bhebffjskesxavgs"
+                    }
+                ],
+                "TagList": [
+                    {
+                        "Key": "quehvhjdxjmbjjlr",
+                        "Value": "mmpxdspyecufsesd"
+                    }
+                ],
+                "Target": "iycfnjvjskushnet",
+                "Tasks": [
+                    {
+                        "Name": "tgxwvanzvjvzbwmh",
+                        "Status": "ztrtwgxpvpjlbfvo"
+                    }
+                ]
+            },
+            {
+                "BlueGreenDeploymentIdentifier": "dqsnbwfwqdmujynd",
+                "BlueGreenDeploymentName": "aozroizjnjhclemx",
+                "CreateTime": "yevatfqeqiznrtge",
+                "DeleteTime": "vvjxqqydmndwimeg",
+                "Source": "qbcbbedwywvnptyu",
+                "Status": "guogibrxugoiglav",
+                "StatusDetails": "cncxopujbtcrdfrn",
+                "SwitchoverDetails": [
+                    {
+                        "SourceMember": "rpbenntrykabvsmc",
+                        "Status": "zvybznbuccaaanmp",
+                        "TargetMember": "fydngvurtbdozwtu"
+                    }
+                ],
+                "TagList": [
+                    {
+                        "Key": "tqjuwikfpoltqkpr",
+                        "Value": "iqkrtzrdbdtmckwq"
+                    }
+                ],
+                "Target": "gtiorgnjiqeiovhc",
+                "Tasks": [
+                    {
+                        "Name": "nsoxzkmyjfpknkty",
+                        "Status": "unzovnwmjalbjlrm"
+                    }
+                ]
+            },
+            {
+                "BlueGreenDeploymentIdentifier": "rxyswdkkixnefobs",
+                "BlueGreenDeploymentName": "ltychcqfapeonndq",
+                "CreateTime": "imczcwzlcyveznfu",
+                "DeleteTime": "ttcfzrjvqysdnrkl",
+                "Source": "ypkyuneykrrexctg",
+                "Status": "mkbtvxzjszqsihxw",
+                "StatusDetails": "srwngjbjhmlveqpa",
+                "SwitchoverDetails": [
+                    {
+                        "SourceMember": "ouolrxwkwaywpbdo",
+                        "Status": "gywizessvplzpict",
+                        "TargetMember": "zqihcjkanlayebcr"
+                    }
+                ],
+                "TagList": [
+                    {
+                        "Key": "rlawykrruyowywnu",
+                        "Value": "qmmmfvhewrjfogzq"
+                    }
+                ],
+                "Target": "mnwpymlabpfoztim",
+                "Tasks": [
+                    {
+                        "Name": "hwjvtrkrinhiwzeo",
+                        "Status": "oroifrfhehyzmqmt"
+                    }
+                ]
+            },
+            {
+                "BlueGreenDeploymentIdentifier": "fpzqjrcmfybqsxmf",
+                "BlueGreenDeploymentName": "bvldsdaetmihmlcj",
+                "CreateTime": "xhzafqjhgapjdyya",
+                "DeleteTime": "xbrjnmsochnvytop",
+                "Source": "btfkdzwrzywnwdis",
+                "Status": "depfzsfmvjnktbnt",
+                "StatusDetails": "hkuwqqairaiktzho",
+                "SwitchoverDetails": [
+                    {
+                        "SourceMember": "tnsabebzdhymkote",
+                        "Status": "bllzteyiftsozjtc",
+                        "TargetMember": "yzmlinankvrcdoss"
+                    }
+                ],
+                "TagList": [
+                    {
+                        "Key": "nhuzabvrpgqhkcqb",
+                        "Value": "xfkmocdqrajkiquj"
+                    }
+                ],
+                "Target": "ylhcztlqnmdwjxzi",
+                "Tasks": [
+                    {
+                        "Name": "baqwihdlyymovlkn",
+                        "Status": "hdtejlfusgthmslm"
+                    }
+                ]
+            },
+            {
+                "BlueGreenDeploymentIdentifier": "zfahgestylkkbctv",
+                "BlueGreenDeploymentName": "mzqelljboqnkqoqi",
+                "CreateTime": "ppcjtkgqrmqidqzz",
+                "DeleteTime": "yyrglymvgrkcbikq",
+                "Source": "vdymsrtdkbnybcwp",
+                "Status": "kulljhhogizqtjox",
+                "StatusDetails": "npwfqucksugbxeau",
+                "SwitchoverDetails": [
+                    {
+                        "SourceMember": "qjefoiidifcorcsp",
+                        "Status": "dsfogxhkwiguhgao",
+                        "TargetMember": "tcwiwsvaaafrihbk"
+                    }
+                ],
+                "TagList": [
+                    {
+                        "Key": "trgvrrtwsycfzdrg",
+                        "Value": "xqwokeqvfnxdsljy"
+                    }
+                ],
+                "Target": "tzytabhuyhylieqy",
+                "Tasks": [
+                    {
+                        "Name": "xaeandtlipmqxmnu",
+                        "Status": "krwhxstjfzidbnhc"
+                    }
+                ]
+            },
+            {
+                "BlueGreenDeploymentIdentifier": "hiicguklrtxtawkh",
+                "BlueGreenDeploymentName": "apbtxmxnqyxafhlf",
+                "CreateTime": "btkxhwonarfunoog",
+                "DeleteTime": "twfhoowwlsaunfat",
+                "Source": "mcjpronjrbwrvbqw",
+                "Status": "unbuqeuhvmidpxip",
+                "StatusDetails": "gndnimmulbsjjseu",
+                "SwitchoverDetails": [
+                    {
+                        "SourceMember": "jijhylfgggchumae",
+                        "Status": "xccajihupwpmajdw",
+                        "TargetMember": "wwzcyfwilhblpzhv"
+                    }
+                ],
+                "TagList": [
+                    {
+                        "Key": "iytulolniaijmpnu",
+                        "Value": "yzzxusplmnafcdkq"
+                    }
+                ],
+                "Target": "wvgtmapuqclntlic",
+                "Tasks": [
+                    {
+                        "Name": "hubclrldvzbdkwgx",
+                        "Status": "vyctaumkhwbxtrci"
+                    }
+                ]
+            },
+            {
+                "BlueGreenDeploymentIdentifier": "fvnydtdhidijynma",
+                "BlueGreenDeploymentName": "qdgkmnztiwucpfgs",
+                "CreateTime": "jbhxavihznrgxqqi",
+                "DeleteTime": "mjzmhwcjsgoynabp",
+                "Source": "fldnmgqunexbioxs",
+                "Status": "fhegdryvfhoydhoe",
+                "StatusDetails": "unothsngbwkfungm",
+                "SwitchoverDetails": [
+                    {
+                        "SourceMember": "mxcgdjkxglrghqef",
+                        "Status": "zdcbxadcjjfjhpxd",
+                        "TargetMember": "vsswgpwiqhoyazzb"
+                    }
+                ],
+                "TagList": [
+                    {
+                        "Key": "ebrhcgyazgivitdf",
+                        "Value": "qposucfymvgmdjdg"
+                    }
+                ],
+                "Target": "qufaaclwaevhgjmn",
+                "Tasks": [
+                    {
+                        "Name": "nbqbcjfnbvesgomo",
+                        "Status": "jupabszfoawrajve"
+                    }
+                ]
+            },
+            {
+                "BlueGreenDeploymentIdentifier": "qdlakyehdstepftu",
+                "BlueGreenDeploymentName": "kjpwaffnodawncum",
+                "CreateTime": "hwpxrdvgltbicoit",
+                "DeleteTime": "gfaspcdgjebnuoue",
+                "Source": "drjoixhszhfnwnbi",
+                "Status": "rczybdifqodngjfu",
+                "StatusDetails": "lypzmmlkernkrniu",
+                "SwitchoverDetails": [
+                    {
+                        "SourceMember": "arpuegfvovhvrtgk",
+                        "Status": "dbdpjyzhlssmslao",
+                        "TargetMember": "pdhnhuwvcqzgqokr"
+                    }
+                ],
+                "TagList": [
+                    {
+                        "Key": "ermpwroqwkrapqfk",
+                        "Value": "eoabsyzlyvlbgsix"
+                    }
+                ],
+                "Target": "mbckxulxdcpzgcqp",
+                "Tasks": [
+                    {
+                        "Name": "hjtueuqryxejmaoc",
+                        "Status": "qnxjtigpzuqboyil"
+                    }
+                ]
+            }
+        ],
+        "result_key": "BlueGreenDeployments"
+    },
+    "meta": {
+        "start": 1711116402.930623,
+        "end": 1711116410.547246,
+        "duration": 7.616633892059326,
+        "service": "rds",
+        "type": "blue_green_deployments"
+    }
+}

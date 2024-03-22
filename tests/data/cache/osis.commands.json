@@ -1,0 +1,8 @@
+[
+    "osis.get-pipeline",
+    "osis.get-pipeline-blueprint",
+    "osis.get-pipeline-change-progress",
+    "osis.list-pipeline-blueprints",
+    "osis.list-pipelines",
+    "osis.list-tags-for-resource"
+]

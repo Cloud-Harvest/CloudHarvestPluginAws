@@ -1,0 +1,71 @@
+{
+    "input": {
+        "template": {
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "28fe14adb863d5d0635cac1da3f9b4e4",
+        "boto_command": "list_s3_buckets",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "CreationDate": "CreationDate",
+                "Name": "Name"
+            }
+        ],
+        "required": [],
+        "md5": "7238aa74bc1fa3c1df8ac8004a299000",
+        "randomized": [
+            {
+                "CreationDate": "qogtvkogsotfgbiz",
+                "Name": "tliuahxucaumkvqu"
+            },
+            {
+                "CreationDate": "sxboxqdprragqurb",
+                "Name": "zfscggztzqewkpem"
+            },
+            {
+                "CreationDate": "ofihnuyiopofikdt",
+                "Name": "hprlmzfnopwccwkz"
+            },
+            {
+                "CreationDate": "ewgqrnrrfltxqyhi",
+                "Name": "dwzjbsxxzoemxuev"
+            },
+            {
+                "CreationDate": "bqvvikxsfhwlaqgu",
+                "Name": "nhkevrhemevoykbk"
+            },
+            {
+                "CreationDate": "qekuadbmgdpaaeia",
+                "Name": "sqkycjhztlfyxrck"
+            },
+            {
+                "CreationDate": "vmvsztxuqxjsvpjx",
+                "Name": "kpptfhvzvczenmod"
+            },
+            {
+                "CreationDate": "egfhkosvjhyhnszk",
+                "Name": "wgxdfufbqkcxmtwh"
+            },
+            {
+                "CreationDate": "ylmfkojenoqogxzf",
+                "Name": "icbuoewuinwdwsey"
+            },
+            {
+                "CreationDate": "adutvfdvnuqqtems",
+                "Name": "hhigqsmbysaxnopj"
+            }
+        ],
+        "result_key": "Buckets"
+    },
+    "meta": {
+        "start": 1711115194.087791,
+        "end": 1711115201.768823,
+        "duration": 7.6810431480407715,
+        "service": "amplifybackend",
+        "type": "s3_buckets"
+    }
+}

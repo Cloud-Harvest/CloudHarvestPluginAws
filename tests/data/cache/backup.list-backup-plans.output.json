@@ -1,0 +1,227 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0,
+            "IncludeDeleted": true
+        },
+        "required": [],
+        "md5": "2419c39a56d77866852fcaab2b740778",
+        "boto_command": "list_backup_plans",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "BackupPlanArn": "BackupPlanArn",
+                "BackupPlanId": "BackupPlanId",
+                "CreationDate": "1970-01-01T00:00:00",
+                "DeletionDate": "1970-01-01T00:00:00",
+                "VersionId": "VersionId",
+                "BackupPlanName": "BackupPlanName",
+                "CreatorRequestId": "CreatorRequestId",
+                "LastExecutionDate": "1970-01-01T00:00:00",
+                "AdvancedBackupSettings": [
+                    {
+                        "ResourceType": "ResourceType",
+                        "BackupOptions": {
+                            "KeyName": ""
+                        }
+                    }
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "c9f870fe6b6e105bd31940c720d8b89d",
+        "randomized": [
+            {
+                "AdvancedBackupSettings": [
+                    {
+                        "BackupOptions": {
+                            "KeyName": "cqdknjwlnmhbsnya"
+                        },
+                        "ResourceType": "fdbhowmydtfjpbii"
+                    }
+                ],
+                "BackupPlanArn": "cnigrtklvfgfixfa",
+                "BackupPlanId": "saeyfwdckglkcrju",
+                "BackupPlanName": "dxenkbpytvwthpbb",
+                "CreationDate": "jvlqclgfmkkqwpsp",
+                "CreatorRequestId": "wqvlntsqghqeajkz",
+                "DeletionDate": "aipjlpyfidmdwvku",
+                "LastExecutionDate": "xnhlkxprcrjbuoqi",
+                "VersionId": "zjpccuuwbvxrgbkt"
+            },
+            {
+                "AdvancedBackupSettings": [
+                    {
+                        "BackupOptions": {
+                            "KeyName": "zgmvhmhgwtbzgbbz"
+                        },
+                        "ResourceType": "twlgwlxvnrpmahhf"
+                    }
+                ],
+                "BackupPlanArn": "sqnikrtdlqryddei",
+                "BackupPlanId": "ofjvbszumkltgsry",
+                "BackupPlanName": "kcwljdalfqmlsthq",
+                "CreationDate": "awznoxpxiroeohlx",
+                "CreatorRequestId": "fhdmfaopyqjyctez",
+                "DeletionDate": "liqsddbdunmsyzzd",
+                "LastExecutionDate": "zkrvlgiyrzgvvfjr",
+                "VersionId": "mfsvwxfiomamhzbr"
+            },
+            {
+                "AdvancedBackupSettings": [
+                    {
+                        "BackupOptions": {
+                            "KeyName": "jrajhjkkfvoijvjg"
+                        },
+                        "ResourceType": "wxoecfqrngxromcy"
+                    }
+                ],
+                "BackupPlanArn": "gqqingcrlwkkukje",
+                "BackupPlanId": "hdyeyktxicjodgxx",
+                "BackupPlanName": "wpycwbbtwuvjnzmj",
+                "CreationDate": "xkjrvqkonlsajpdc",
+                "CreatorRequestId": "pivbnmbcgtzsnqjb",
+                "DeletionDate": "mmcqdncbpbbrgxus",
+                "LastExecutionDate": "qhzclbptkjnfwiwd",
+                "VersionId": "igtkrxnpgoeicpok"
+            },
+            {
+                "AdvancedBackupSettings": [
+                    {
+                        "BackupOptions": {
+                            "KeyName": "lysgobxbtjfaawjs"
+                        },
+                        "ResourceType": "wilturwptlmplbya"
+                    }
+                ],
+                "BackupPlanArn": "gclzxfrprlrygqwb",
+                "BackupPlanId": "onhcbbscpjwxmzwr",
+                "BackupPlanName": "umnoltxkulnghrhq",
+                "CreationDate": "srcdbxuqswammodu",
+                "CreatorRequestId": "jaszuyzrjwebusnd",
+                "DeletionDate": "yrqpspsqponrmloe",
+                "LastExecutionDate": "zfrmvrnrywvihdzp",
+                "VersionId": "etvmtokalqexlorl"
+            },
+            {
+                "AdvancedBackupSettings": [
+                    {
+                        "BackupOptions": {
+                            "KeyName": "lyxzxrjvosjhlyki"
+                        },
+                        "ResourceType": "bymiahocgmbxnyrs"
+                    }
+                ],
+                "BackupPlanArn": "gdumnfsychbzwwxk",
+                "BackupPlanId": "tbwwpwcxfbxcuxps",
+                "BackupPlanName": "lcmsswzymngnvfdr",
+                "CreationDate": "svvwusvqqaqhbifg",
+                "CreatorRequestId": "hlfxhrvjnrmwrswf",
+                "DeletionDate": "vkllzqkodtccqlhi",
+                "LastExecutionDate": "idpxsqvrtkmpeefy",
+                "VersionId": "yowuhwwpnqhpurxs"
+            },
+            {
+                "AdvancedBackupSettings": [
+                    {
+                        "BackupOptions": {
+                            "KeyName": "wdxcmpwmtlrvfiey"
+                        },
+                        "ResourceType": "brsbxplhgtndxbrb"
+                    }
+                ],
+                "BackupPlanArn": "yxvfikpwfytpmnfy",
+                "BackupPlanId": "fpixbupyfkfgkpot",
+                "BackupPlanName": "wxjwahohoqytecvd",
+                "CreationDate": "sgpeijnbwxrwhzay",
+                "CreatorRequestId": "oogwluibfacftixk",
+                "DeletionDate": "nxwalfaowosbgjle",
+                "LastExecutionDate": "ygbqntgtoqoozgwn",
+                "VersionId": "jhlgflyyprozeeou"
+            },
+            {
+                "AdvancedBackupSettings": [
+                    {
+                        "BackupOptions": {
+                            "KeyName": "awenjcmkjtbtewer"
+                        },
+                        "ResourceType": "ooyosjbamerzcgwf"
+                    }
+                ],
+                "BackupPlanArn": "kdjmtdrejqivfqja",
+                "BackupPlanId": "ephptrttqfktnege",
+                "BackupPlanName": "xkozgbhekegyvpim",
+                "CreationDate": "edbqkknavxlkyimk",
+                "CreatorRequestId": "mzgrrqjvfexjedyw",
+                "DeletionDate": "kxwyjszvjsiyfudq",
+                "LastExecutionDate": "vwitptwbobzpbbcj",
+                "VersionId": "vngkwcacvrbevcwl"
+            },
+            {
+                "AdvancedBackupSettings": [
+                    {
+                        "BackupOptions": {
+                            "KeyName": "ibykmjihzlbgipzt"
+                        },
+                        "ResourceType": "edaoalusilcbxmvi"
+                    }
+                ],
+                "BackupPlanArn": "bbwtmukuhlowdxev",
+                "BackupPlanId": "jzhnslldxmcudkmd",
+                "BackupPlanName": "hibkykqzpnlkrlmr",
+                "CreationDate": "zjxvdzgtqxhbeuxx",
+                "CreatorRequestId": "cozmxxprhtqgdsus",
+                "DeletionDate": "pyzclaggfamchcsw",
+                "LastExecutionDate": "vtbihwchgkoedbin",
+                "VersionId": "hfjatxfwtiwyzfls"
+            },
+            {
+                "AdvancedBackupSettings": [
+                    {
+                        "BackupOptions": {
+                            "KeyName": "urppkqqbkxiascpe"
+                        },
+                        "ResourceType": "xtgswqmbphdctwoc"
+                    }
+                ],
+                "BackupPlanArn": "oncldgodlbblwuxw",
+                "BackupPlanId": "vvibrhzckbplszgn",
+                "BackupPlanName": "rbvnwwgqsdfjtkog",
+                "CreationDate": "bfjypqvtueqolosx",
+                "CreatorRequestId": "jwsgqevhlorkcktu",
+                "DeletionDate": "bxgyjtpdwvlbnijm",
+                "LastExecutionDate": "slrxwfkrpbkfzeaq",
+                "VersionId": "ngwsdqdkjvjgtpaf"
+            },
+            {
+                "AdvancedBackupSettings": [
+                    {
+                        "BackupOptions": {
+                            "KeyName": "shwjlvviisvykwnb"
+                        },
+                        "ResourceType": "qtixigeyfatgpbuw"
+                    }
+                ],
+                "BackupPlanArn": "snrjnlvhktqkwpka",
+                "BackupPlanId": "wguuhuswtenxylxg",
+                "BackupPlanName": "sfwtjxxqsskyjrjj",
+                "CreationDate": "lbtwhrdhzpuyxtei",
+                "CreatorRequestId": "urxpffuieadnonul",
+                "DeletionDate": "ccyyggxkxriaozao",
+                "LastExecutionDate": "lvfhiyaasgipajcu",
+                "VersionId": "txgoosaxccllbmgd"
+            }
+        ],
+        "result_key": "BackupPlansList"
+    },
+    "meta": {
+        "start": 1711115281.246512,
+        "end": 1711115288.753925,
+        "duration": 7.507423162460327,
+        "service": "backup",
+        "type": "backup_plans"
+    }
+}

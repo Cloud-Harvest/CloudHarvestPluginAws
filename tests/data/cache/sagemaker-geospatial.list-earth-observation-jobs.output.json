@@ -1,0 +1,152 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": "",
+            "SortBy": "",
+            "SortOrder": "ASCENDING",
+            "StatusEquals": "INITIALIZING"
+        },
+        "required": [],
+        "md5": "cfcd1ab2f5405053c9235cf16de36609",
+        "boto_command": "list_earth_observation_jobs",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "Arn": "Arn",
+                "CreationTime": "1970-01-01T00:00:00",
+                "DurationInSeconds": 0,
+                "Name": "Name",
+                "OperationType": "OperationType",
+                "Status": "Status",
+                "Tags": {
+                    "KeyName": ""
+                }
+            }
+        ],
+        "required": [],
+        "md5": "5796a2a1f9f051086b7aa8d82a3f447b",
+        "randomized": [
+            {
+                "Arn": "uuxzfmikceoyqpgg",
+                "CreationTime": "gxlhxrnmnvdjprwb",
+                "DurationInSeconds": 0,
+                "Name": "pnlswrgcvjlfhzel",
+                "OperationType": "qnwmikftfsdjetcp",
+                "Status": "wbmjhiqrfwlotsqb",
+                "Tags": {
+                    "KeyName": "htlheclhhbdniyaq"
+                }
+            },
+            {
+                "Arn": "ytnqbltmvwadwycz",
+                "CreationTime": "rdhpdnawmzotrdqx",
+                "DurationInSeconds": 0,
+                "Name": "qyvnfbaxmzarrphh",
+                "OperationType": "edfcyommjwfdpvtc",
+                "Status": "vjnypoogvjfclgla",
+                "Tags": {
+                    "KeyName": "ilgbwmpiavahjurq"
+                }
+            },
+            {
+                "Arn": "nhobsekqlfekgpnz",
+                "CreationTime": "gqkxyjghejujpktz",
+                "DurationInSeconds": 0,
+                "Name": "doixkjlpscdzugfz",
+                "OperationType": "rjsieollbvpgprfa",
+                "Status": "ltphkjvvwpaoxjnd",
+                "Tags": {
+                    "KeyName": "mrbandtgqetbluuh"
+                }
+            },
+            {
+                "Arn": "rsejanyahakwwylt",
+                "CreationTime": "jfkzxlcxejkdsnpa",
+                "DurationInSeconds": 0,
+                "Name": "wqtgtxlcqkhatqio",
+                "OperationType": "fvbbqxbycgemhrky",
+                "Status": "buobxxoalsnemwyw",
+                "Tags": {
+                    "KeyName": "lytitwfdnybhohfa"
+                }
+            },
+            {
+                "Arn": "wvsorlztldgwbzff",
+                "CreationTime": "zbrbhmmmooumyalf",
+                "DurationInSeconds": 0,
+                "Name": "ghnlijiomyfbsdmj",
+                "OperationType": "dbcgcwdgygqyhfdu",
+                "Status": "gdxogabncantosho",
+                "Tags": {
+                    "KeyName": "inbfumbzncllycvw"
+                }
+            },
+            {
+                "Arn": "mupcselcrbieiqtt",
+                "CreationTime": "oiwytxchmwtoufpn",
+                "DurationInSeconds": 0,
+                "Name": "csxxolepufklrhcv",
+                "OperationType": "njoybryvswnnscpw",
+                "Status": "veymergoycvmjauk",
+                "Tags": {
+                    "KeyName": "ioiddfohbpuxighq"
+                }
+            },
+            {
+                "Arn": "kyhoxhdenozfpfiz",
+                "CreationTime": "wokyngqvjopdaaob",
+                "DurationInSeconds": 0,
+                "Name": "xcyrvyiubobwatfv",
+                "OperationType": "efwwaasatuovezrj",
+                "Status": "rdwcegisoiyoxlsu",
+                "Tags": {
+                    "KeyName": "yskrwowjphilpwlc"
+                }
+            },
+            {
+                "Arn": "uhvbwldcjwkzhyei",
+                "CreationTime": "ujtmzpwjdpgtwpdx",
+                "DurationInSeconds": 0,
+                "Name": "caczznlckfsoobhj",
+                "OperationType": "zeslsrydodcywxim",
+                "Status": "nxqqpthufatdbmak",
+                "Tags": {
+                    "KeyName": "fzlzuaucmaarbtxh"
+                }
+            },
+            {
+                "Arn": "oebekoebzhpqpdjs",
+                "CreationTime": "dvzzvvxnixbbyueb",
+                "DurationInSeconds": 0,
+                "Name": "qlntmilfapbqjqgh",
+                "OperationType": "ttevzltxartumcxb",
+                "Status": "qtpfjoobjodgjljm",
+                "Tags": {
+                    "KeyName": "zbrhqdgsudrmlvow"
+                }
+            },
+            {
+                "Arn": "lihqtaqawwqcwjcx",
+                "CreationTime": "wdgepqmachlnrfzb",
+                "DurationInSeconds": 0,
+                "Name": "ksinrzpkjzmyuxbb",
+                "OperationType": "emylbbzvpkxxbhhv",
+                "Status": "uqwblcifatsthaev",
+                "Tags": {
+                    "KeyName": "gfefomkffwalsrwn"
+                }
+            }
+        ],
+        "result_key": "EarthObservationJobSummaries"
+    },
+    "meta": {
+        "start": 1711116575.861838,
+        "end": 1711116583.047135,
+        "duration": 7.18530797958374,
+        "service": "sagemaker-geospatial",
+        "type": "earth_observation_jobs"
+    }
+}

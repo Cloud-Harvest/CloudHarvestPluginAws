@@ -1,0 +1,5 @@
+[
+    "kinesisanalytics.describe-application",
+    "kinesisanalytics.list-applications",
+    "kinesisanalytics.list-tags-for-resource"
+]

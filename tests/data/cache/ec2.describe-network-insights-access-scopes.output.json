@@ -1,0 +1,172 @@
+{
+    "input": {
+        "template": {
+            "NetworkInsightsAccessScopeIds": [
+                ""
+            ],
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxResults": 0,
+            "DryRun": true,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "d9dc185e68e5d37b1096f591560758db",
+        "boto_command": "describe_network_insights_access_scopes",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "NetworkInsightsAccessScopeId": "NetworkInsightsAccessScopeId",
+                "NetworkInsightsAccessScopeArn": "NetworkInsightsAccessScopeArn",
+                "CreatedDate": "1970-01-01T00:00:00",
+                "UpdatedDate": "1970-01-01T00:00:00",
+                "Tags": [
+                    {
+                        "Key": "Key",
+                        "Value": "Value"
+                    }
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "c08e28350a0d6b88fa949789934e1834",
+        "randomized": [
+            {
+                "CreatedDate": "axznlysihpbzrdlt",
+                "NetworkInsightsAccessScopeArn": "imuqihisgamdzgxl",
+                "NetworkInsightsAccessScopeId": "nvyxnqjbxlkbskau",
+                "Tags": [
+                    {
+                        "Key": "tjyrkwpscmwurrpm",
+                        "Value": "togpvqsgfjkbgckk"
+                    }
+                ],
+                "UpdatedDate": "xikydfxqedsvkzte"
+            },
+            {
+                "CreatedDate": "jaxyagfncfqkvhdd",
+                "NetworkInsightsAccessScopeArn": "yqlgniafglytqsox",
+                "NetworkInsightsAccessScopeId": "yfvrjjkcswhyuban",
+                "Tags": [
+                    {
+                        "Key": "embbhqofflursgjk",
+                        "Value": "zkguqgcuhjuwwvxg"
+                    }
+                ],
+                "UpdatedDate": "oidrvcppfdowlolm"
+            },
+            {
+                "CreatedDate": "ijblcgrzsxwnwqnz",
+                "NetworkInsightsAccessScopeArn": "cdwekyvbzbirncvv",
+                "NetworkInsightsAccessScopeId": "rviaargbbnmzkxxd",
+                "Tags": [
+                    {
+                        "Key": "mqxbnasnuzznlqgu",
+                        "Value": "bmrnnkhasbopwxrq"
+                    }
+                ],
+                "UpdatedDate": "oayjerehqhvgwvnm"
+            },
+            {
+                "CreatedDate": "ornlixixktznhcxz",
+                "NetworkInsightsAccessScopeArn": "oyqyjpcounnmzjlk",
+                "NetworkInsightsAccessScopeId": "drhjtqfrzxxbrokl",
+                "Tags": [
+                    {
+                        "Key": "lqtmwkphojolopyj",
+                        "Value": "stczhmbspggmysak"
+                    }
+                ],
+                "UpdatedDate": "uxaelorgxiajvryv"
+            },
+            {
+                "CreatedDate": "iwhftgumlzmjhlmk",
+                "NetworkInsightsAccessScopeArn": "ykpmodnjqbzguqaa",
+                "NetworkInsightsAccessScopeId": "qygdqblskhwpdyqg",
+                "Tags": [
+                    {
+                        "Key": "cijslgwzoboarcfj",
+                        "Value": "dimgrjxdsdbnjkxa"
+                    }
+                ],
+                "UpdatedDate": "elrtravfcifvbsag"
+            },
+            {
+                "CreatedDate": "xsfwnxavnhbvumsd",
+                "NetworkInsightsAccessScopeArn": "wcyrwawjjenitjcb",
+                "NetworkInsightsAccessScopeId": "pqpswkosdpnepfwt",
+                "Tags": [
+                    {
+                        "Key": "ipggttwzqcodbuif",
+                        "Value": "jbqnzpnymnzvhpdq"
+                    }
+                ],
+                "UpdatedDate": "hqybitjdgpldqlqf"
+            },
+            {
+                "CreatedDate": "jollxfzdwevsosxy",
+                "NetworkInsightsAccessScopeArn": "qyeqeuwyqrvlndks",
+                "NetworkInsightsAccessScopeId": "tivkvynxijumubft",
+                "Tags": [
+                    {
+                        "Key": "tkguystoqqudbxuq",
+                        "Value": "sikzcuroarfqwbwg"
+                    }
+                ],
+                "UpdatedDate": "xbekvdtoqcoodxrt"
+            },
+            {
+                "CreatedDate": "ndounqhwpgmzyywv",
+                "NetworkInsightsAccessScopeArn": "cfaobbjjakebdcyd",
+                "NetworkInsightsAccessScopeId": "qalorvapyskmdgfw",
+                "Tags": [
+                    {
+                        "Key": "dspzecgykiywltfg",
+                        "Value": "eexqpzcucqtxyhih"
+                    }
+                ],
+                "UpdatedDate": "bppiyzirwoptpjds"
+            },
+            {
+                "CreatedDate": "ffpjxpooexsaxtpt",
+                "NetworkInsightsAccessScopeArn": "dmlnknksviltvhlc",
+                "NetworkInsightsAccessScopeId": "onwxdtazgzkxdetp",
+                "Tags": [
+                    {
+                        "Key": "owtwgiendbtipcxa",
+                        "Value": "rkrslrakhxgqqtoh"
+                    }
+                ],
+                "UpdatedDate": "xtxwghiftnciwzdy"
+            },
+            {
+                "CreatedDate": "bticgsxmvwyiphdc",
+                "NetworkInsightsAccessScopeArn": "hkksnrauawzrbrja",
+                "NetworkInsightsAccessScopeId": "uvtsgarvkswvofqi",
+                "Tags": [
+                    {
+                        "Key": "syhgxfbdgjjajjxu",
+                        "Value": "etrlqynbiwbktdup"
+                    }
+                ],
+                "UpdatedDate": "mikezvigfcmdipyf"
+            }
+        ],
+        "result_key": "NetworkInsightsAccessScopes"
+    },
+    "meta": {
+        "start": 1711115637.970104,
+        "end": 1711115644.650951,
+        "duration": 6.680854082107544,
+        "service": "ec2",
+        "type": "network_insights_access_scopes"
+    }
+}

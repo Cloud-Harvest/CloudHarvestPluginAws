@@ -1,0 +1,39 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "031b56893c6f5a9d0ebe6017c5c080cb",
+        "boto_command": "list_column_statistics_task_runs",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            "HashString"
+        ],
+        "required": [],
+        "md5": "27bd14dc7042fcfc00df5fb31ccdfde2",
+        "randomized": [
+            "nmxppkxxgjbmmntw",
+            "bifucsgwjopkpeti",
+            "hpfzxwscimtiiaih",
+            "drebpphfxkyaxian",
+            "emcyszsvfsqsrodu",
+            "nhqqoykvwnxpdzvx",
+            "qgtruheuuybpmuyw",
+            "guneyauruoytuacv",
+            "hdprmuhlmulyyohh",
+            "dmtbswskkwmkafvk"
+        ],
+        "result_key": "ColumnStatisticsTaskRunIds"
+    },
+    "meta": {
+        "start": 1711115834.586151,
+        "end": 1711115840.966199,
+        "duration": 6.38005518913269,
+        "service": "glue",
+        "type": "column_statistics_task_runs"
+    }
+}

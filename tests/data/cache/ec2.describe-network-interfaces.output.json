@@ -1,0 +1,1074 @@
+{
+    "input": {
+        "template": {
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "DryRun": true,
+            "NetworkInterfaceIds": [
+                ""
+            ],
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "ad79391180667bfd2c40996955369642",
+        "boto_command": "describe_network_interfaces",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "Association": {
+                    "AllocationId": "AllocationId",
+                    "AssociationId": "AssociationId",
+                    "IpOwnerId": "IpOwnerId",
+                    "PublicDnsName": "PublicDnsName",
+                    "PublicIp": "PublicIp",
+                    "CustomerOwnedIp": "CustomerOwnedIp",
+                    "CarrierIp": "CarrierIp"
+                },
+                "Attachment": {
+                    "AttachTime": "1970-01-01T00:00:00",
+                    "AttachmentId": "AttachmentId",
+                    "DeleteOnTermination": true,
+                    "DeviceIndex": 0,
+                    "NetworkCardIndex": 0,
+                    "InstanceId": "InstanceId",
+                    "InstanceOwnerId": "InstanceOwnerId",
+                    "Status": "Status",
+                    "EnaSrdSpecification": {
+                        "EnaSrdEnabled": true,
+                        "EnaSrdUdpSpecification": {
+                            "EnaSrdUdpEnabled": true
+                        }
+                    }
+                },
+                "AvailabilityZone": "AvailabilityZone",
+                "ConnectionTrackingConfiguration": {
+                    "TcpEstablishedTimeout": 0,
+                    "UdpStreamTimeout": 0,
+                    "UdpTimeout": 0
+                },
+                "Description": "Description",
+                "Groups": [
+                    {
+                        "GroupName": "GroupName",
+                        "GroupId": "GroupId"
+                    }
+                ],
+                "InterfaceType": "InterfaceType",
+                "Ipv6Addresses": [
+                    {
+                        "Ipv6Address": "Ipv6Address",
+                        "IsPrimaryIpv6": true
+                    }
+                ],
+                "MacAddress": "MacAddress",
+                "NetworkInterfaceId": "NetworkInterfaceId",
+                "OutpostArn": "OutpostArn",
+                "OwnerId": "OwnerId",
+                "PrivateDnsName": "PrivateDnsName",
+                "PrivateIpAddress": "PrivateIpAddress",
+                "PrivateIpAddresses": [
+                    {
+                        "Association": {
+                            "AllocationId": "AllocationId",
+                            "AssociationId": "AssociationId",
+                            "IpOwnerId": "IpOwnerId",
+                            "PublicDnsName": "PublicDnsName",
+                            "PublicIp": "PublicIp",
+                            "CustomerOwnedIp": "CustomerOwnedIp",
+                            "CarrierIp": "CarrierIp"
+                        },
+                        "Primary": true,
+                        "PrivateDnsName": "PrivateDnsName",
+                        "PrivateIpAddress": "PrivateIpAddress"
+                    }
+                ],
+                "Ipv4Prefixes": [
+                    {
+                        "Ipv4Prefix": "Ipv4Prefix"
+                    }
+                ],
+                "Ipv6Prefixes": [
+                    {
+                        "Ipv6Prefix": "Ipv6Prefix"
+                    }
+                ],
+                "RequesterId": "RequesterId",
+                "RequesterManaged": true,
+                "SourceDestCheck": true,
+                "Status": "Status",
+                "SubnetId": "SubnetId",
+                "TagSet": [
+                    {
+                        "Key": "Key",
+                        "Value": "Value"
+                    }
+                ],
+                "VpcId": "VpcId",
+                "DenyAllIgwTraffic": true,
+                "Ipv6Native": true,
+                "Ipv6Address": "Ipv6Address"
+            }
+        ],
+        "required": [],
+        "md5": "df730057d2932ae79ab808fd70bda8be",
+        "randomized": [
+            {
+                "Association": {
+                    "AllocationId": "fgjiczxvuqvojsfp",
+                    "AssociationId": "vekhadfewkziijbr",
+                    "CarrierIp": "cezzgqkmzboclipx",
+                    "CustomerOwnedIp": "xxgxwcrkecludhtl",
+                    "IpOwnerId": "eyunfqvttmwbruvr",
+                    "PublicDnsName": "tbzansknduhchhmp",
+                    "PublicIp": "zgrvtqfvdhzkrwcn"
+                },
+                "Attachment": {
+                    "AttachTime": "ksifzkutnrmkmjyr",
+                    "AttachmentId": "ddxnprrctnkeyckw",
+                    "DeleteOnTermination": true,
+                    "DeviceIndex": 0,
+                    "EnaSrdSpecification": {
+                        "EnaSrdEnabled": true,
+                        "EnaSrdUdpSpecification": {
+                            "EnaSrdUdpEnabled": true
+                        }
+                    },
+                    "InstanceId": "sygkdoazalwewxlv",
+                    "InstanceOwnerId": "bvsmnqxvfgtcflms",
+                    "NetworkCardIndex": 0,
+                    "Status": "aguncqxxwfkifsxi"
+                },
+                "AvailabilityZone": "yjosvcvsrkempjea",
+                "ConnectionTrackingConfiguration": {
+                    "TcpEstablishedTimeout": 0,
+                    "UdpStreamTimeout": 0,
+                    "UdpTimeout": 0
+                },
+                "DenyAllIgwTraffic": true,
+                "Description": "qurmkucgicxxoqdt",
+                "Groups": [
+                    {
+                        "GroupId": "koifnfiqmcumpfav",
+                        "GroupName": "dtummxyheptzswmj"
+                    }
+                ],
+                "InterfaceType": "zbkvcuuvcrtmtwyv",
+                "Ipv4Prefixes": [
+                    {
+                        "Ipv4Prefix": "tsozbcbrqvdujygr"
+                    }
+                ],
+                "Ipv6Address": "ejfkiwkxbypsxylq",
+                "Ipv6Addresses": [
+                    {
+                        "Ipv6Address": "fhmprbkmagorjbkg",
+                        "IsPrimaryIpv6": true
+                    }
+                ],
+                "Ipv6Native": true,
+                "Ipv6Prefixes": [
+                    {
+                        "Ipv6Prefix": "qljqrsurehqdsmki"
+                    }
+                ],
+                "MacAddress": "wyctnzgklovbrmev",
+                "NetworkInterfaceId": "vmuxtlmefndbwcij",
+                "OutpostArn": "lefqhizbzqobneet",
+                "OwnerId": "tipjelvbvzxrwvjw",
+                "PrivateDnsName": "ktryuvxmxevddenf",
+                "PrivateIpAddress": "pmroimdjmongkhyd",
+                "PrivateIpAddresses": [
+                    {
+                        "Association": {
+                            "AllocationId": "omrlfprtgtcnyzlx",
+                            "AssociationId": "zxmjoydqqareelsr",
+                            "CarrierIp": "chrjrvvldgsdkhkr",
+                            "CustomerOwnedIp": "pinadwghkamturjc",
+                            "IpOwnerId": "plllfjymnebeamig",
+                            "PublicDnsName": "aqeqxjuqxtdqxetc",
+                            "PublicIp": "bxixmkvhsmdhpnvd"
+                        },
+                        "Primary": true,
+                        "PrivateDnsName": "vvdbvtqoysijkvsy",
+                        "PrivateIpAddress": "umtdzpwcdedkrwwf"
+                    }
+                ],
+                "RequesterId": "jytaujuagdgbqsyu",
+                "RequesterManaged": true,
+                "SourceDestCheck": true,
+                "Status": "nfjwqzpiuxffxavt",
+                "SubnetId": "zvjoiddgvbrduuef",
+                "TagSet": [
+                    {
+                        "Key": "dklrnfhstfdnuxhh",
+                        "Value": "upwmyjalbmdgtgos"
+                    }
+                ],
+                "VpcId": "krqsszmwbzqpymrp"
+            },
+            {
+                "Association": {
+                    "AllocationId": "hbpvfhpgqqtqqdod",
+                    "AssociationId": "nqtpzjafszwiyvik",
+                    "CarrierIp": "keiqgnkabuccaigz",
+                    "CustomerOwnedIp": "wyenlprtpbhkgsiq",
+                    "IpOwnerId": "ygpeloxtskxtmefg",
+                    "PublicDnsName": "kvatxsvuucpdyxsd",
+                    "PublicIp": "bwknfofgaecvaein"
+                },
+                "Attachment": {
+                    "AttachTime": "mnjaycwhjwmfqjcg",
+                    "AttachmentId": "frevjhkojanoadpv",
+                    "DeleteOnTermination": true,
+                    "DeviceIndex": 0,
+                    "EnaSrdSpecification": {
+                        "EnaSrdEnabled": true,
+                        "EnaSrdUdpSpecification": {
+                            "EnaSrdUdpEnabled": true
+                        }
+                    },
+                    "InstanceId": "panywehqprpdmthd",
+                    "InstanceOwnerId": "vnrnfqrosndfdedz",
+                    "NetworkCardIndex": 0,
+                    "Status": "yxevmabonfzvgpgq"
+                },
+                "AvailabilityZone": "fihyqsljekhqxjia",
+                "ConnectionTrackingConfiguration": {
+                    "TcpEstablishedTimeout": 0,
+                    "UdpStreamTimeout": 0,
+                    "UdpTimeout": 0
+                },
+                "DenyAllIgwTraffic": true,
+                "Description": "yqwbmilcnhxftngx",
+                "Groups": [
+                    {
+                        "GroupId": "flfqkgkdaryoaeay",
+                        "GroupName": "sqfoknzrmratqohw"
+                    }
+                ],
+                "InterfaceType": "gkfwprivafxlcpsb",
+                "Ipv4Prefixes": [
+                    {
+                        "Ipv4Prefix": "xigpcqywkgbosbnq"
+                    }
+                ],
+                "Ipv6Address": "bxvnmlomfkxzuksk",
+                "Ipv6Addresses": [
+                    {
+                        "Ipv6Address": "iulpahpvmbmpakfd",
+                        "IsPrimaryIpv6": true
+                    }
+                ],
+                "Ipv6Native": true,
+                "Ipv6Prefixes": [
+                    {
+                        "Ipv6Prefix": "aipcqgocxfclziqe"
+                    }
+                ],
+                "MacAddress": "xgnlazqhzzcxkozz",
+                "NetworkInterfaceId": "mxutgpafilmxekke",
+                "OutpostArn": "lyyosjivvzibyfsd",
+                "OwnerId": "kfxgedaumzdzawrq",
+                "PrivateDnsName": "srnswrpzzflxcgis",
+                "PrivateIpAddress": "ftgnhxfknyedgjio",
+                "PrivateIpAddresses": [
+                    {
+                        "Association": {
+                            "AllocationId": "dpuvboultcjbsnad",
+                            "AssociationId": "yzmmgcwfetkspdwj",
+                            "CarrierIp": "yshnzvqzcgvkcukc",
+                            "CustomerOwnedIp": "xuupodyswgvjfyjw",
+                            "IpOwnerId": "cxnmdnfljicdthvu",
+                            "PublicDnsName": "fbrhmgpaawrppjzi",
+                            "PublicIp": "yhtqbqkkixvymzcz"
+                        },
+                        "Primary": true,
+                        "PrivateDnsName": "mhmnxvubxsigalvx",
+                        "PrivateIpAddress": "rsqudfnmvvktjfcu"
+                    }
+                ],
+                "RequesterId": "izgmevgocggejozu",
+                "RequesterManaged": true,
+                "SourceDestCheck": true,
+                "Status": "ezwlazyotwhaxpay",
+                "SubnetId": "vglmyqarqmejzbii",
+                "TagSet": [
+                    {
+                        "Key": "ucgzyhnorubfxrar",
+                        "Value": "eodjxblmjvkrpdte"
+                    }
+                ],
+                "VpcId": "jvnvfuuanjidpxan"
+            },
+            {
+                "Association": {
+                    "AllocationId": "tsjmifxhqxzfbgkl",
+                    "AssociationId": "irehwebbvyzehwcv",
+                    "CarrierIp": "owkmcnxbhqherjbv",
+                    "CustomerOwnedIp": "fzwbectwmsocjoyd",
+                    "IpOwnerId": "cvfjjkyosbaktieu",
+                    "PublicDnsName": "arrtzslyfavuzwef",
+                    "PublicIp": "nuhaxoxzkmkyclus"
+                },
+                "Attachment": {
+                    "AttachTime": "vyskxpmczvxgzhmo",
+                    "AttachmentId": "jeaimmwdxwznszay",
+                    "DeleteOnTermination": true,
+                    "DeviceIndex": 0,
+                    "EnaSrdSpecification": {
+                        "EnaSrdEnabled": true,
+                        "EnaSrdUdpSpecification": {
+                            "EnaSrdUdpEnabled": true
+                        }
+                    },
+                    "InstanceId": "uektaisrwfkaftbm",
+                    "InstanceOwnerId": "yssqmqijdcswbdru",
+                    "NetworkCardIndex": 0,
+                    "Status": "zwsfmjtuoibvyoly"
+                },
+                "AvailabilityZone": "snznbmkbcoarykdf",
+                "ConnectionTrackingConfiguration": {
+                    "TcpEstablishedTimeout": 0,
+                    "UdpStreamTimeout": 0,
+                    "UdpTimeout": 0
+                },
+                "DenyAllIgwTraffic": true,
+                "Description": "zhunqgwsoxtsralx",
+                "Groups": [
+                    {
+                        "GroupId": "bvxcjdmdulxyqwlq",
+                        "GroupName": "dmvnccufdpegthym"
+                    }
+                ],
+                "InterfaceType": "mwepfipqbvfmoccw",
+                "Ipv4Prefixes": [
+                    {
+                        "Ipv4Prefix": "mvmdntiakhoacvpa"
+                    }
+                ],
+                "Ipv6Address": "gemshjntriivollz",
+                "Ipv6Addresses": [
+                    {
+                        "Ipv6Address": "olctopcbiyzigwku",
+                        "IsPrimaryIpv6": true
+                    }
+                ],
+                "Ipv6Native": true,
+                "Ipv6Prefixes": [
+                    {
+                        "Ipv6Prefix": "rxjdswdjpmrehmnp"
+                    }
+                ],
+                "MacAddress": "zfpmsojwisusjwtl",
+                "NetworkInterfaceId": "bpajkzvdjpgomhwl",
+                "OutpostArn": "ouanwytaybarwbbk",
+                "OwnerId": "xypbjvwtwopxvctr",
+                "PrivateDnsName": "cteluifsnwbzpxqp",
+                "PrivateIpAddress": "hrmljrnuvqafftoj",
+                "PrivateIpAddresses": [
+                    {
+                        "Association": {
+                            "AllocationId": "jdmmvjlublmmfydq",
+                            "AssociationId": "zquyjvccfxzxikbx",
+                            "CarrierIp": "zovafqxtffrvbcsd",
+                            "CustomerOwnedIp": "qhgufbinbtcblbye",
+                            "IpOwnerId": "swxgpbhzfickdzgi",
+                            "PublicDnsName": "hmdopxzkewgmcnsh",
+                            "PublicIp": "ixnpiumwhoomspmc"
+                        },
+                        "Primary": true,
+                        "PrivateDnsName": "hhntihweboukodoi",
+                        "PrivateIpAddress": "npxlfvclgryjakdq"
+                    }
+                ],
+                "RequesterId": "nvirtguwcmllqirv",
+                "RequesterManaged": true,
+                "SourceDestCheck": true,
+                "Status": "sbmsrzkoyimuzlij",
+                "SubnetId": "hkkzfhelkbmjozco",
+                "TagSet": [
+                    {
+                        "Key": "kqnczpanvckizsix",
+                        "Value": "myklwwvbiagfdccy"
+                    }
+                ],
+                "VpcId": "nnkymwghbahjreza"
+            },
+            {
+                "Association": {
+                    "AllocationId": "mgvlwyhpqceozerf",
+                    "AssociationId": "cqzzndiyftunuzon",
+                    "CarrierIp": "taueugdteiesfiza",
+                    "CustomerOwnedIp": "lwrsskqniqjeoofm",
+                    "IpOwnerId": "acyefzdaoxeszeep",
+                    "PublicDnsName": "sbrisqtmokfrlwaw",
+                    "PublicIp": "isiiwgbzauxxegkm"
+                },
+                "Attachment": {
+                    "AttachTime": "aaentikogcvbnefg",
+                    "AttachmentId": "fiicweovhbxtqhgi",
+                    "DeleteOnTermination": true,
+                    "DeviceIndex": 0,
+                    "EnaSrdSpecification": {
+                        "EnaSrdEnabled": true,
+                        "EnaSrdUdpSpecification": {
+                            "EnaSrdUdpEnabled": true
+                        }
+                    },
+                    "InstanceId": "xunnxbccvyobmhwk",
+                    "InstanceOwnerId": "lsvmouhmwsufooqq",
+                    "NetworkCardIndex": 0,
+                    "Status": "vvenllwimlzqojdr"
+                },
+                "AvailabilityZone": "iykesrwgjeyfhawf",
+                "ConnectionTrackingConfiguration": {
+                    "TcpEstablishedTimeout": 0,
+                    "UdpStreamTimeout": 0,
+                    "UdpTimeout": 0
+                },
+                "DenyAllIgwTraffic": true,
+                "Description": "sepcdcwyybdrdrzm",
+                "Groups": [
+                    {
+                        "GroupId": "ftgzmqnwxeeutsct",
+                        "GroupName": "ilodmkyighnwwlgc"
+                    }
+                ],
+                "InterfaceType": "rbupzrengzlqsbgd",
+                "Ipv4Prefixes": [
+                    {
+                        "Ipv4Prefix": "kozqvoshjxatvgdp"
+                    }
+                ],
+                "Ipv6Address": "pjteuiqkvwvwknbh",
+                "Ipv6Addresses": [
+                    {
+                        "Ipv6Address": "sxrwwlgybsomtxou",
+                        "IsPrimaryIpv6": true
+                    }
+                ],
+                "Ipv6Native": true,
+                "Ipv6Prefixes": [
+                    {
+                        "Ipv6Prefix": "atkowfzzycszmbef"
+                    }
+                ],
+                "MacAddress": "tjardtzhduksvrql",
+                "NetworkInterfaceId": "gmtiwzytadfmjjyn",
+                "OutpostArn": "fpqqdwzmyjqqbzaf",
+                "OwnerId": "eandsqqmmbkqkxto",
+                "PrivateDnsName": "ubdjnwzukmoeokqu",
+                "PrivateIpAddress": "lbfmpobkjkwiyivb",
+                "PrivateIpAddresses": [
+                    {
+                        "Association": {
+                            "AllocationId": "nvutecpkhujbhxmd",
+                            "AssociationId": "tlezklcymgtkylsh",
+                            "CarrierIp": "jguavvcliwzkgabl",
+                            "CustomerOwnedIp": "yrclormntqubwfyz",
+                            "IpOwnerId": "pzqbfagnanhdrmkv",
+                            "PublicDnsName": "akdcrgthnujeyesh",
+                            "PublicIp": "aizooakxqzhquzyl"
+                        },
+                        "Primary": true,
+                        "PrivateDnsName": "bgkwurmdafnyvkft",
+                        "PrivateIpAddress": "ixtiqeqccekundcw"
+                    }
+                ],
+                "RequesterId": "tlsoktheitpafhwc",
+                "RequesterManaged": true,
+                "SourceDestCheck": true,
+                "Status": "rqtxtqqbxucydgcs",
+                "SubnetId": "zbwkwlmpzvxtgagn",
+                "TagSet": [
+                    {
+                        "Key": "qapfoiaxfqqsgbwi",
+                        "Value": "kzqrewfzhjtzqkzv"
+                    }
+                ],
+                "VpcId": "evlmmfjmupxwjicj"
+            },
+            {
+                "Association": {
+                    "AllocationId": "idvvczjnuucuphpp",
+                    "AssociationId": "pizndeekfsroylql",
+                    "CarrierIp": "nejjpcyhoegqbakj",
+                    "CustomerOwnedIp": "chlsuzhtzceelmqc",
+                    "IpOwnerId": "tfydrtsombioidww",
+                    "PublicDnsName": "vqefydoepkuntnkd",
+                    "PublicIp": "snzqgdqkaczldfep"
+                },
+                "Attachment": {
+                    "AttachTime": "oranmuattpcennmc",
+                    "AttachmentId": "mwivnsblqxoqtzqw",
+                    "DeleteOnTermination": true,
+                    "DeviceIndex": 0,
+                    "EnaSrdSpecification": {
+                        "EnaSrdEnabled": true,
+                        "EnaSrdUdpSpecification": {
+                            "EnaSrdUdpEnabled": true
+                        }
+                    },
+                    "InstanceId": "lxtybxbqrytwvcat",
+                    "InstanceOwnerId": "vcfkokicwehpvtbn",
+                    "NetworkCardIndex": 0,
+                    "Status": "fuznawphocdwbrwu"
+                },
+                "AvailabilityZone": "wazfvubfunwsdagq",
+                "ConnectionTrackingConfiguration": {
+                    "TcpEstablishedTimeout": 0,
+                    "UdpStreamTimeout": 0,
+                    "UdpTimeout": 0
+                },
+                "DenyAllIgwTraffic": true,
+                "Description": "kjqjyntqfwkwpwop",
+                "Groups": [
+                    {
+                        "GroupId": "sxeivsdpzvviahgv",
+                        "GroupName": "kzabhctolijodgki"
+                    }
+                ],
+                "InterfaceType": "vsbamkurvvycqmwr",
+                "Ipv4Prefixes": [
+                    {
+                        "Ipv4Prefix": "xaymdxmpwhvtzhvr"
+                    }
+                ],
+                "Ipv6Address": "eulpgkkpgxvfdhii",
+                "Ipv6Addresses": [
+                    {
+                        "Ipv6Address": "dptqlrzwlcruybct",
+                        "IsPrimaryIpv6": true
+                    }
+                ],
+                "Ipv6Native": true,
+                "Ipv6Prefixes": [
+                    {
+                        "Ipv6Prefix": "aeaiphtillwbrcgv"
+                    }
+                ],
+                "MacAddress": "xlgoushavkwbyjko",
+                "NetworkInterfaceId": "dwfmpowywgaggwko",
+                "OutpostArn": "wbvgzdgpxwsmrgie",
+                "OwnerId": "sxfnlzwayimdmjwk",
+                "PrivateDnsName": "thszshxswewowlco",
+                "PrivateIpAddress": "sflhnvvqhicfguub",
+                "PrivateIpAddresses": [
+                    {
+                        "Association": {
+                            "AllocationId": "nvuwbvgogmdknnyk",
+                            "AssociationId": "dmdwahzactbgjrig",
+                            "CarrierIp": "nwbjolocwtaidddc",
+                            "CustomerOwnedIp": "ykswgzjfgiszsowb",
+                            "IpOwnerId": "qmosmhgjobvbjfbr",
+                            "PublicDnsName": "fulqhpjiaficxbcf",
+                            "PublicIp": "ljgawegizztlzfib"
+                        },
+                        "Primary": true,
+                        "PrivateDnsName": "gnlmdxgcokyxluea",
+                        "PrivateIpAddress": "nfbcoektzdfpcfls"
+                    }
+                ],
+                "RequesterId": "msaucjtcaczuzsgd",
+                "RequesterManaged": true,
+                "SourceDestCheck": true,
+                "Status": "gegadtpbvlgsryhu",
+                "SubnetId": "wlyrzdkgdhjdxauw",
+                "TagSet": [
+                    {
+                        "Key": "vacrzkpowtvbteyx",
+                        "Value": "zmlywookjykpnbhg"
+                    }
+                ],
+                "VpcId": "hfakrkigazuwcmgj"
+            },
+            {
+                "Association": {
+                    "AllocationId": "dvdoxwsxdnwzfpnh",
+                    "AssociationId": "wnetgouppxqztoni",
+                    "CarrierIp": "tmkiecfaxzsdzxjr",
+                    "CustomerOwnedIp": "xycurzvqybbdcipp",
+                    "IpOwnerId": "csifeeiaarznrqrl",
+                    "PublicDnsName": "zjtlkwfyzlfjnaxx",
+                    "PublicIp": "cvstynknvpxdjfqp"
+                },
+                "Attachment": {
+                    "AttachTime": "drydffinctwusztk",
+                    "AttachmentId": "mpoivizsmfjefdne",
+                    "DeleteOnTermination": true,
+                    "DeviceIndex": 0,
+                    "EnaSrdSpecification": {
+                        "EnaSrdEnabled": true,
+                        "EnaSrdUdpSpecification": {
+                            "EnaSrdUdpEnabled": true
+                        }
+                    },
+                    "InstanceId": "contjtecmeqspvnw",
+                    "InstanceOwnerId": "zaazdymwtbyblxxg",
+                    "NetworkCardIndex": 0,
+                    "Status": "xfvgzxcpoalljcye"
+                },
+                "AvailabilityZone": "lyuulnfkqrejiuym",
+                "ConnectionTrackingConfiguration": {
+                    "TcpEstablishedTimeout": 0,
+                    "UdpStreamTimeout": 0,
+                    "UdpTimeout": 0
+                },
+                "DenyAllIgwTraffic": true,
+                "Description": "lpbgaxelsurgkodg",
+                "Groups": [
+                    {
+                        "GroupId": "eekqtffqfyllyoqq",
+                        "GroupName": "amxgjdngkewuerrf"
+                    }
+                ],
+                "InterfaceType": "lrtptjdvtyldqydb",
+                "Ipv4Prefixes": [
+                    {
+                        "Ipv4Prefix": "oklyrgpencikmbyt"
+                    }
+                ],
+                "Ipv6Address": "xkwbgybvwndisopd",
+                "Ipv6Addresses": [
+                    {
+                        "Ipv6Address": "kznqclufrzixkkxr",
+                        "IsPrimaryIpv6": true
+                    }
+                ],
+                "Ipv6Native": true,
+                "Ipv6Prefixes": [
+                    {
+                        "Ipv6Prefix": "zuhtsevmvblzbwbo"
+                    }
+                ],
+                "MacAddress": "kiuthgsgskzzxmhm",
+                "NetworkInterfaceId": "rzgdnxervpysrpyx",
+                "OutpostArn": "xctzeammkitinjgs",
+                "OwnerId": "lmzgicrghkxkqadw",
+                "PrivateDnsName": "qpyzefrvwmoymiso",
+                "PrivateIpAddress": "scsztbhijcvnifsm",
+                "PrivateIpAddresses": [
+                    {
+                        "Association": {
+                            "AllocationId": "vdutzvndaoqevwhs",
+                            "AssociationId": "aboregxtllozntfc",
+                            "CarrierIp": "seithvpxvxmyttna",
+                            "CustomerOwnedIp": "fdofovzotpjzdcun",
+                            "IpOwnerId": "txarfayauwjebtnw",
+                            "PublicDnsName": "vfxedtpigkusvdzn",
+                            "PublicIp": "fjjppvpljaufoiik"
+                        },
+                        "Primary": true,
+                        "PrivateDnsName": "qwrqlnxvapoxonoz",
+                        "PrivateIpAddress": "nppdpwuimytwcjom"
+                    }
+                ],
+                "RequesterId": "brhkltocbmvynhvk",
+                "RequesterManaged": true,
+                "SourceDestCheck": true,
+                "Status": "skrtofqgdxvedndb",
+                "SubnetId": "mnamkrrztsuneazt",
+                "TagSet": [
+                    {
+                        "Key": "ytizcocukyzvmqwp",
+                        "Value": "uqarupcnldwysyoc"
+                    }
+                ],
+                "VpcId": "qynahrzhuahulxjl"
+            },
+            {
+                "Association": {
+                    "AllocationId": "bnzxpcqlenbgnhfm",
+                    "AssociationId": "ewolifsyjaoezypl",
+                    "CarrierIp": "vvhyyubzawiinhdt",
+                    "CustomerOwnedIp": "odenzegembimfpmn",
+                    "IpOwnerId": "nnqvtgdpybodlvta",
+                    "PublicDnsName": "sfpqfajbrcpbddxl",
+                    "PublicIp": "cyojbovhxllzdcvh"
+                },
+                "Attachment": {
+                    "AttachTime": "flwijpzfpusodilt",
+                    "AttachmentId": "wukcacyshqsknudr",
+                    "DeleteOnTermination": true,
+                    "DeviceIndex": 0,
+                    "EnaSrdSpecification": {
+                        "EnaSrdEnabled": true,
+                        "EnaSrdUdpSpecification": {
+                            "EnaSrdUdpEnabled": true
+                        }
+                    },
+                    "InstanceId": "phqymnvligahlneg",
+                    "InstanceOwnerId": "utrmiqyxdtaqvkcf",
+                    "NetworkCardIndex": 0,
+                    "Status": "vlcxyrjzvfgldoyw"
+                },
+                "AvailabilityZone": "nwtxjdiriaundpwo",
+                "ConnectionTrackingConfiguration": {
+                    "TcpEstablishedTimeout": 0,
+                    "UdpStreamTimeout": 0,
+                    "UdpTimeout": 0
+                },
+                "DenyAllIgwTraffic": true,
+                "Description": "qxpdiumnyycdophx",
+                "Groups": [
+                    {
+                        "GroupId": "mgjonotsjtxvtowp",
+                        "GroupName": "ntiupeakabxwuzbh"
+                    }
+                ],
+                "InterfaceType": "qyxuizvepgiiirsy",
+                "Ipv4Prefixes": [
+                    {
+                        "Ipv4Prefix": "ayspdwtundbrlnin"
+                    }
+                ],
+                "Ipv6Address": "lxtlgtbniehboagt",
+                "Ipv6Addresses": [
+                    {
+                        "Ipv6Address": "inwsbvcqhsiugvqv",
+                        "IsPrimaryIpv6": true
+                    }
+                ],
+                "Ipv6Native": true,
+                "Ipv6Prefixes": [
+                    {
+                        "Ipv6Prefix": "csovjwqeckrdzesf"
+                    }
+                ],
+                "MacAddress": "tbpyvrqdellsjnjz",
+                "NetworkInterfaceId": "sfawyesnqczxuqgh",
+                "OutpostArn": "rfmboexqktthptkn",
+                "OwnerId": "igvcrgaxvjktkvvk",
+                "PrivateDnsName": "qkisxehzglhxhpcd",
+                "PrivateIpAddress": "trxurwdordbhvelp",
+                "PrivateIpAddresses": [
+                    {
+                        "Association": {
+                            "AllocationId": "avbaplsmdiqmicqc",
+                            "AssociationId": "vazlhzvfjnjneggo",
+                            "CarrierIp": "crvorjayonwxjvwv",
+                            "CustomerOwnedIp": "ijimshksflambktd",
+                            "IpOwnerId": "encedtsuhwoybomg",
+                            "PublicDnsName": "xnrqodeoebdawvur",
+                            "PublicIp": "ovobaxmhufzsozmh"
+                        },
+                        "Primary": true,
+                        "PrivateDnsName": "unigerketiuqgeck",
+                        "PrivateIpAddress": "wqcfrngjwloemezz"
+                    }
+                ],
+                "RequesterId": "corqialhnhlddggz",
+                "RequesterManaged": true,
+                "SourceDestCheck": true,
+                "Status": "rgvqfliifbyslmak",
+                "SubnetId": "lrvttrdwsbgptfwj",
+                "TagSet": [
+                    {
+                        "Key": "abapplznpfsceekt",
+                        "Value": "xcmnenqaiaqequui"
+                    }
+                ],
+                "VpcId": "jlgcsrsabvudvozs"
+            },
+            {
+                "Association": {
+                    "AllocationId": "sapcilbspbyptret",
+                    "AssociationId": "jfqhxuqgvfsvupjy",
+                    "CarrierIp": "skinccxidmjgvhiw",
+                    "CustomerOwnedIp": "rpyckdgregjuqwmp",
+                    "IpOwnerId": "sybmohxxccqdxioa",
+                    "PublicDnsName": "pftozovtwaicoxap",
+                    "PublicIp": "softfsjfeixqldof"
+                },
+                "Attachment": {
+                    "AttachTime": "jrbbrhleuugfbmfv",
+                    "AttachmentId": "trgwwehfimbozgkv",
+                    "DeleteOnTermination": true,
+                    "DeviceIndex": 0,
+                    "EnaSrdSpecification": {
+                        "EnaSrdEnabled": true,
+                        "EnaSrdUdpSpecification": {
+                            "EnaSrdUdpEnabled": true
+                        }
+                    },
+                    "InstanceId": "tpahudfrofuwolty",
+                    "InstanceOwnerId": "vqdixvwaszkhhlcs",
+                    "NetworkCardIndex": 0,
+                    "Status": "agydxnxibgwktoqt"
+                },
+                "AvailabilityZone": "gkgbysleadduzgyq",
+                "ConnectionTrackingConfiguration": {
+                    "TcpEstablishedTimeout": 0,
+                    "UdpStreamTimeout": 0,
+                    "UdpTimeout": 0
+                },
+                "DenyAllIgwTraffic": true,
+                "Description": "dhdjdlrefaagzpef",
+                "Groups": [
+                    {
+                        "GroupId": "wbjlremzzbskczno",
+                        "GroupName": "livixhlwbtnigtzx"
+                    }
+                ],
+                "InterfaceType": "ppzofpydtnejaulh",
+                "Ipv4Prefixes": [
+                    {
+                        "Ipv4Prefix": "mckvjpcjnhvrgaqh"
+                    }
+                ],
+                "Ipv6Address": "bqpktuetuiltzvfl",
+                "Ipv6Addresses": [
+                    {
+                        "Ipv6Address": "wmquvwwqqgkpcwli",
+                        "IsPrimaryIpv6": true
+                    }
+                ],
+                "Ipv6Native": true,
+                "Ipv6Prefixes": [
+                    {
+                        "Ipv6Prefix": "vakgehqpkraakfxa"
+                    }
+                ],
+                "MacAddress": "zrthgtccnsdwgrrc",
+                "NetworkInterfaceId": "uhsnqbygkgwhqdlx",
+                "OutpostArn": "dfkhargpcvnzjrvh",
+                "OwnerId": "bncmbmkrupvlasbs",
+                "PrivateDnsName": "mtouyeosbortcgrf",
+                "PrivateIpAddress": "qvngleuefexwidol",
+                "PrivateIpAddresses": [
+                    {
+                        "Association": {
+                            "AllocationId": "zsxfcyikqaqochnw",
+                            "AssociationId": "lpicgmehvptsbfci",
+                            "CarrierIp": "nwprjzefoqqnakob",
+                            "CustomerOwnedIp": "mjemayjeoibhlalb",
+                            "IpOwnerId": "xrgkqqdjovwzztev",
+                            "PublicDnsName": "yuwskonynncwtdiy",
+                            "PublicIp": "zfmqsqjnngwuvgkv"
+                        },
+                        "Primary": true,
+                        "PrivateDnsName": "obfwrkgichatwxnd",
+                        "PrivateIpAddress": "vhwzjffgrfgpprqy"
+                    }
+                ],
+                "RequesterId": "qrqyiqtyfcsxkbsu",
+                "RequesterManaged": true,
+                "SourceDestCheck": true,
+                "Status": "fniwvpsiwvkrvnvv",
+                "SubnetId": "qohxszmjnezrfuno",
+                "TagSet": [
+                    {
+                        "Key": "aciqwwlfnilcpzjj",
+                        "Value": "yukcfymzluykiaqx"
+                    }
+                ],
+                "VpcId": "rsncgrucvikprsex"
+            },
+            {
+                "Association": {
+                    "AllocationId": "qmkkvydpuztaiyyt",
+                    "AssociationId": "npwawqxvpzbqckoi",
+                    "CarrierIp": "jgckwlscsdibgvlr",
+                    "CustomerOwnedIp": "kvanelddqghsbdry",
+                    "IpOwnerId": "splbcvpsizfkmygm",
+                    "PublicDnsName": "lzmxcaxwiassyitd",
+                    "PublicIp": "wwmdsirbitwdhbaz"
+                },
+                "Attachment": {
+                    "AttachTime": "ugvuiarydvjzzdvm",
+                    "AttachmentId": "dvtwcueunmtfmeep",
+                    "DeleteOnTermination": true,
+                    "DeviceIndex": 0,
+                    "EnaSrdSpecification": {
+                        "EnaSrdEnabled": true,
+                        "EnaSrdUdpSpecification": {
+                            "EnaSrdUdpEnabled": true
+                        }
+                    },
+                    "InstanceId": "rxpxxfxclfrnklvy",
+                    "InstanceOwnerId": "hxnaigijqdhweuyn",
+                    "NetworkCardIndex": 0,
+                    "Status": "blkwapanishhiivr"
+                },
+                "AvailabilityZone": "snriottyimfmzprr",
+                "ConnectionTrackingConfiguration": {
+                    "TcpEstablishedTimeout": 0,
+                    "UdpStreamTimeout": 0,
+                    "UdpTimeout": 0
+                },
+                "DenyAllIgwTraffic": true,
+                "Description": "jqipjcnrdinxvwnp",
+                "Groups": [
+                    {
+                        "GroupId": "ifpoovzlguwxxlwb",
+                        "GroupName": "pfgjnjgoqskwuqzm"
+                    }
+                ],
+                "InterfaceType": "cmbuxllmtcuzkkzk",
+                "Ipv4Prefixes": [
+                    {
+                        "Ipv4Prefix": "zxngaayhmcmvrorh"
+                    }
+                ],
+                "Ipv6Address": "zlaakegvtoojlsix",
+                "Ipv6Addresses": [
+                    {
+                        "Ipv6Address": "spvuchvlwuttbzuk",
+                        "IsPrimaryIpv6": true
+                    }
+                ],
+                "Ipv6Native": true,
+                "Ipv6Prefixes": [
+                    {
+                        "Ipv6Prefix": "mejsavbojipjxldn"
+                    }
+                ],
+                "MacAddress": "peorpgnzyhwmjudt",
+                "NetworkInterfaceId": "syhlqwhennntvlvp",
+                "OutpostArn": "rrnrtawqjiicingb",
+                "OwnerId": "acchmebazazttkhv",
+                "PrivateDnsName": "bvrhqmymnrezhtje",
+                "PrivateIpAddress": "iltvgfoqyksbahak",
+                "PrivateIpAddresses": [
+                    {
+                        "Association": {
+                            "AllocationId": "yyiukuwlfazgibcw",
+                            "AssociationId": "woxxpgqljnxpspvy",
+                            "CarrierIp": "dosovhaffzyqkidm",
+                            "CustomerOwnedIp": "iznfqxxrkluhmphh",
+                            "IpOwnerId": "nupahfsiukccxyuq",
+                            "PublicDnsName": "wavmbxtmfbjhfdah",
+                            "PublicIp": "qftovcyzxwhdcski"
+                        },
+                        "Primary": true,
+                        "PrivateDnsName": "bltbbbotolckewgh",
+                        "PrivateIpAddress": "cfdwkkzowqplqtwk"
+                    }
+                ],
+                "RequesterId": "yalpvtnlimlwnept",
+                "RequesterManaged": true,
+                "SourceDestCheck": true,
+                "Status": "rhbzuwebwufozrzb",
+                "SubnetId": "wetopisryjnlqpim",
+                "TagSet": [
+                    {
+                        "Key": "vqvulpyytbgdfkdf",
+                        "Value": "cxgzltkmtttzqfck"
+                    }
+                ],
+                "VpcId": "cmdhizexqwndumbi"
+            },
+            {
+                "Association": {
+                    "AllocationId": "urutvsnhabqifvii",
+                    "AssociationId": "eplrvwtdgsnjgmkz",
+                    "CarrierIp": "ugnndzaivyualkve",
+                    "CustomerOwnedIp": "wcbulnolipkjfdur",
+                    "IpOwnerId": "khvtptxvcqqwgfxr",
+                    "PublicDnsName": "gcignnlljuuavxqn",
+                    "PublicIp": "yensgtaraycxlvhq"
+                },
+                "Attachment": {
+                    "AttachTime": "szhvcwymzzcthxys",
+                    "AttachmentId": "jfknxervfflkcebq",
+                    "DeleteOnTermination": true,
+                    "DeviceIndex": 0,
+                    "EnaSrdSpecification": {
+                        "EnaSrdEnabled": true,
+                        "EnaSrdUdpSpecification": {
+                            "EnaSrdUdpEnabled": true
+                        }
+                    },
+                    "InstanceId": "vleukjjbaxykfrly",
+                    "InstanceOwnerId": "lpeieygqgqtmtsma",
+                    "NetworkCardIndex": 0,
+                    "Status": "xfzucuwsrnumkneb"
+                },
+                "AvailabilityZone": "jyfppksnlbocbyzx",
+                "ConnectionTrackingConfiguration": {
+                    "TcpEstablishedTimeout": 0,
+                    "UdpStreamTimeout": 0,
+                    "UdpTimeout": 0
+                },
+                "DenyAllIgwTraffic": true,
+                "Description": "rgrpwuikmtketysd",
+                "Groups": [
+                    {
+                        "GroupId": "gucropkouuawsvxt",
+                        "GroupName": "xzjvpkrirlivnyfe"
+                    }
+                ],
+                "InterfaceType": "zfkwmxjgtxnzsxdq",
+                "Ipv4Prefixes": [
+                    {
+                        "Ipv4Prefix": "pdbcweblhdqbqdjr"
+                    }
+                ],
+                "Ipv6Address": "drsafemmyyygmtjw",
+                "Ipv6Addresses": [
+                    {
+                        "Ipv6Address": "rezzwbjualblxcqk",
+                        "IsPrimaryIpv6": true
+                    }
+                ],
+                "Ipv6Native": true,
+                "Ipv6Prefixes": [
+                    {
+                        "Ipv6Prefix": "jojilazxemufzrzn"
+                    }
+                ],
+                "MacAddress": "pxgamystwfapaoxv",
+                "NetworkInterfaceId": "xsfosdlieaemaniz",
+                "OutpostArn": "jxnjcrqoevgmmjdd",
+                "OwnerId": "xebsulgxbsqwsvvb",
+                "PrivateDnsName": "hqwwapeolqvzzrtg",
+                "PrivateIpAddress": "rbxwuaqmhbwnvfgn",
+                "PrivateIpAddresses": [
+                    {
+                        "Association": {
+                            "AllocationId": "ygxbbhyltazcqfcl",
+                            "AssociationId": "hiisohiywclnspvj",
+                            "CarrierIp": "gbskdkbgoawjabln",
+                            "CustomerOwnedIp": "bpzsfujplyankofs",
+                            "IpOwnerId": "cdezolmclgbxdsut",
+                            "PublicDnsName": "exytaikuzqkrcsbd",
+                            "PublicIp": "uajlageueqeexbml"
+                        },
+                        "Primary": true,
+                        "PrivateDnsName": "mxzrxycceivrkzku",
+                        "PrivateIpAddress": "gclkcoikvqznbmhl"
+                    }
+                ],
+                "RequesterId": "brpactehvwhuxqds",
+                "RequesterManaged": true,
+                "SourceDestCheck": true,
+                "Status": "ueapavoigvzbwdqs",
+                "SubnetId": "epwpitpysbkpjatv",
+                "TagSet": [
+                    {
+                        "Key": "gkgtuskugfvrxopr",
+                        "Value": "lzlkubejzhjlcbun"
+                    }
+                ],
+                "VpcId": "cjmejestimnwfhdi"
+            }
+        ],
+        "result_key": "NetworkInterfaces"
+    },
+    "meta": {
+        "start": 1711115641.386835,
+        "end": 1711115647.967892,
+        "duration": 6.581064939498901,
+        "service": "ec2",
+        "type": "network_interfaces"
+    }
+}

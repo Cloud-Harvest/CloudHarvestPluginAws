@@ -1,0 +1,102 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "list_receipt_filters",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "Name": "Name",
+                "IpFilter": {
+                    "Policy": "Policy",
+                    "Cidr": "Cidr"
+                }
+            }
+        ],
+        "required": [],
+        "md5": "9e9e891e357f9c51a7d88ec737f06dbe",
+        "randomized": [
+            {
+                "IpFilter": {
+                    "Cidr": "chcagwqymasqaxix",
+                    "Policy": "ocfisvpjvkmssowi"
+                },
+                "Name": "frqtiqhimjfjjdxy"
+            },
+            {
+                "IpFilter": {
+                    "Cidr": "ncbmruloxilghzee",
+                    "Policy": "dcbbtvnlnhwzagjo"
+                },
+                "Name": "onduujfxzlxryffk"
+            },
+            {
+                "IpFilter": {
+                    "Cidr": "obucnbmrafcjjubn",
+                    "Policy": "ginqsdnqdayabdaq"
+                },
+                "Name": "uvhtovjddwsoruvb"
+            },
+            {
+                "IpFilter": {
+                    "Cidr": "utsnqyykmyglupwp",
+                    "Policy": "frjpsrwruydcxium"
+                },
+                "Name": "smhcdomehawxzbix"
+            },
+            {
+                "IpFilter": {
+                    "Cidr": "ezjwvllqnavlkelb",
+                    "Policy": "hrdikklvrsgmqint"
+                },
+                "Name": "ycvzsqwiicblzjnw"
+            },
+            {
+                "IpFilter": {
+                    "Cidr": "gmovdfzfvsrwvbec",
+                    "Policy": "inxfygqwwrgynvui"
+                },
+                "Name": "voqeoerbrysgreal"
+            },
+            {
+                "IpFilter": {
+                    "Cidr": "jkjpakidblfwiger",
+                    "Policy": "bfzxohspvvjtljdf"
+                },
+                "Name": "xylyjlysffrfercu"
+            },
+            {
+                "IpFilter": {
+                    "Cidr": "dpblbqlnxqfgbfdw",
+                    "Policy": "slplmeboflvxjrvs"
+                },
+                "Name": "dayroubelpqlbzqz"
+            },
+            {
+                "IpFilter": {
+                    "Cidr": "gyntybsyialaqajg",
+                    "Policy": "fqrnnkowhghozxkd"
+                },
+                "Name": "xrhgxycycsmksaae"
+            },
+            {
+                "IpFilter": {
+                    "Cidr": "phajgwdrhpfzsixo",
+                    "Policy": "fipaiqkdxjhgtjth"
+                },
+                "Name": "aavmcspgbabnhiog"
+            }
+        ],
+        "result_key": "Filters"
+    },
+    "meta": {
+        "start": 1711116618.461846,
+        "end": 1711116625.671552,
+        "duration": 7.209716796875,
+        "service": "ses",
+        "type": "receipt_filters"
+    }
+}

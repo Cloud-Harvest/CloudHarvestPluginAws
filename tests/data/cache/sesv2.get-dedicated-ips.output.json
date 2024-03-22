@@ -1,0 +1,95 @@
+{
+    "input": {
+        "template": {
+            "PoolName": "",
+            "NextToken": "",
+            "PageSize": 0
+        },
+        "required": [],
+        "md5": "587367f94ba677ab8114d076b4441a62",
+        "boto_command": "get_dedicated_ips",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "Ip": "Ip",
+                "WarmupStatus": "WarmupStatus",
+                "WarmupPercentage": 0,
+                "PoolName": "PoolName"
+            }
+        ],
+        "required": [],
+        "md5": "aeff37c6dea0031b05173ed8663cd939",
+        "randomized": [
+            {
+                "Ip": "gzjdhayuiuvcboal",
+                "PoolName": "bggdfbuykhdlrnyp",
+                "WarmupPercentage": 0,
+                "WarmupStatus": "pheynqodcvijgzzg"
+            },
+            {
+                "Ip": "xmbxrqkrdbiwjbax",
+                "PoolName": "ebzyynxgmnbdvibl",
+                "WarmupPercentage": 0,
+                "WarmupStatus": "ppvywmaaavrmnfsb"
+            },
+            {
+                "Ip": "ydgwtqhestqhhakq",
+                "PoolName": "psvssicjlitcwmav",
+                "WarmupPercentage": 0,
+                "WarmupStatus": "gcgjctjzlkcuxpjf"
+            },
+            {
+                "Ip": "fpdxmxatxruprzfk",
+                "PoolName": "pmwbmgnpammsrsuc",
+                "WarmupPercentage": 0,
+                "WarmupStatus": "yzrflcanssfxhqhu"
+            },
+            {
+                "Ip": "dmvdhfpajmwwqybk",
+                "PoolName": "rpylwpgrhgcgkxfl",
+                "WarmupPercentage": 0,
+                "WarmupStatus": "qetdmqzqnwlmbywq"
+            },
+            {
+                "Ip": "clxwriwhvahpmtyq",
+                "PoolName": "hpqmmjemliyclsur",
+                "WarmupPercentage": 0,
+                "WarmupStatus": "monpfpgbmnqouxqm"
+            },
+            {
+                "Ip": "siaeknjfuytlvvcf",
+                "PoolName": "wtzeuyyulxneqywd",
+                "WarmupPercentage": 0,
+                "WarmupStatus": "fptyboxvwyezgcxq"
+            },
+            {
+                "Ip": "geulezaogczhdaci",
+                "PoolName": "rjpaidollinplwgr",
+                "WarmupPercentage": 0,
+                "WarmupStatus": "kwiapjqfimphuvso"
+            },
+            {
+                "Ip": "vmagexsyptzxjpwr",
+                "PoolName": "iivjvpbucjjnltnj",
+                "WarmupPercentage": 0,
+                "WarmupStatus": "knbpitogeyltetdg"
+            },
+            {
+                "Ip": "lmcyxbymlxgqisbl",
+                "PoolName": "jpdkzsgunblpyrtq",
+                "WarmupPercentage": 0,
+                "WarmupStatus": "ltdloekbsqnhrwcx"
+            }
+        ],
+        "result_key": "DedicatedIps"
+    },
+    "meta": {
+        "start": 1711116622.686153,
+        "end": 1711116628.350855,
+        "duration": 5.664713144302368,
+        "service": "sesv2",
+        "type": null
+    }
+}

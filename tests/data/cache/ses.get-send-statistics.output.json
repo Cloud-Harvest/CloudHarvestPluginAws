@@ -1,0 +1,102 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "get_send_statistics",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "Timestamp": "1970-01-01T00:00:00",
+                "DeliveryAttempts": 0,
+                "Bounces": 0,
+                "Complaints": 0,
+                "Rejects": 0
+            }
+        ],
+        "required": [],
+        "md5": "107813ce7329a12d0fdb5c039587ad54",
+        "randomized": [
+            {
+                "Bounces": 0,
+                "Complaints": 0,
+                "DeliveryAttempts": 0,
+                "Rejects": 0,
+                "Timestamp": "volqfnlgydauilge"
+            },
+            {
+                "Bounces": 0,
+                "Complaints": 0,
+                "DeliveryAttempts": 0,
+                "Rejects": 0,
+                "Timestamp": "gvhczdubefgtkhpa"
+            },
+            {
+                "Bounces": 0,
+                "Complaints": 0,
+                "DeliveryAttempts": 0,
+                "Rejects": 0,
+                "Timestamp": "drhdpylmjkbufnwz"
+            },
+            {
+                "Bounces": 0,
+                "Complaints": 0,
+                "DeliveryAttempts": 0,
+                "Rejects": 0,
+                "Timestamp": "phaqgvoywijkaymc"
+            },
+            {
+                "Bounces": 0,
+                "Complaints": 0,
+                "DeliveryAttempts": 0,
+                "Rejects": 0,
+                "Timestamp": "oqjnvkgeralvfghu"
+            },
+            {
+                "Bounces": 0,
+                "Complaints": 0,
+                "DeliveryAttempts": 0,
+                "Rejects": 0,
+                "Timestamp": "jmavjvmreonfrruy"
+            },
+            {
+                "Bounces": 0,
+                "Complaints": 0,
+                "DeliveryAttempts": 0,
+                "Rejects": 0,
+                "Timestamp": "dcvjxctssmqsutyp"
+            },
+            {
+                "Bounces": 0,
+                "Complaints": 0,
+                "DeliveryAttempts": 0,
+                "Rejects": 0,
+                "Timestamp": "lbqmnpohagwhjwfv"
+            },
+            {
+                "Bounces": 0,
+                "Complaints": 0,
+                "DeliveryAttempts": 0,
+                "Rejects": 0,
+                "Timestamp": "ecbgcotkpupdtcrj"
+            },
+            {
+                "Bounces": 0,
+                "Complaints": 0,
+                "DeliveryAttempts": 0,
+                "Rejects": 0,
+                "Timestamp": "qxxggbbotkdoybdn"
+            }
+        ],
+        "result_key": "SendDataPoints"
+    },
+    "meta": {
+        "start": 1711116617.797072,
+        "end": 1711116624.275094,
+        "duration": 6.478032112121582,
+        "service": "ses",
+        "type": null
+    }
+}

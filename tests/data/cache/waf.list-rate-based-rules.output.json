@@ -1,0 +1,37 @@
+{
+    "input": {
+        "template": {
+            "NextMarker": "",
+            "Limit": 0
+        },
+        "required": [],
+        "md5": "c73edf45b1374dc40afbfb6e5664028f",
+        "boto_command": "list_rate_based_rules",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": "NextMarker",
+        "required": [],
+        "md5": "68ad576d49e914521276503de3236e88",
+        "randomized": [
+            "qafcjsytpznddjov",
+            "pmllsprmwwqrnwel",
+            "xdveltcselcwstxv",
+            "ywqjqhlqthwzqgrl",
+            "zadtvnsjobbwlyfn",
+            "iihtiqpnjuudcvao",
+            "ccutxuazkxqcnfwa",
+            "xjgfywgvmxzriiuv",
+            "dnimwauvyfyheaup",
+            "hhialbwqgxzwdisn"
+        ],
+        "result_key": "NextMarker"
+    },
+    "meta": {
+        "start": 1711116759.638985,
+        "end": 1711116767.186265,
+        "duration": 7.547285079956055,
+        "service": "waf",
+        "type": "rate_based_rules"
+    }
+}

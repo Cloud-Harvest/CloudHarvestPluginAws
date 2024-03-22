@@ -1,0 +1,94 @@
+{
+    "input": {
+        "template": {
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "required": [],
+        "md5": "42475be96651ddb5d57c459989595380",
+        "boto_command": "list_retained_messages",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "topic": "topic",
+                "payloadSize": 0,
+                "qos": 0,
+                "lastModifiedTime": 0
+            }
+        ],
+        "required": [],
+        "md5": "30874c3272126f0c71f8209a800998f2",
+        "randomized": [
+            {
+                "lastModifiedTime": 0,
+                "payloadSize": 0,
+                "qos": 0,
+                "topic": "vfrwbhvtuywnkkse"
+            },
+            {
+                "lastModifiedTime": 0,
+                "payloadSize": 0,
+                "qos": 0,
+                "topic": "bfzmoemhsupzkhdc"
+            },
+            {
+                "lastModifiedTime": 0,
+                "payloadSize": 0,
+                "qos": 0,
+                "topic": "sejctoldxzwipbsu"
+            },
+            {
+                "lastModifiedTime": 0,
+                "payloadSize": 0,
+                "qos": 0,
+                "topic": "atxxigprygazkpwy"
+            },
+            {
+                "lastModifiedTime": 0,
+                "payloadSize": 0,
+                "qos": 0,
+                "topic": "zmlmmiprlzufbkjx"
+            },
+            {
+                "lastModifiedTime": 0,
+                "payloadSize": 0,
+                "qos": 0,
+                "topic": "vngilcqpbbevwftl"
+            },
+            {
+                "lastModifiedTime": 0,
+                "payloadSize": 0,
+                "qos": 0,
+                "topic": "ykuhockxzefddewm"
+            },
+            {
+                "lastModifiedTime": 0,
+                "payloadSize": 0,
+                "qos": 0,
+                "topic": "mbxwxautzxuaboug"
+            },
+            {
+                "lastModifiedTime": 0,
+                "payloadSize": 0,
+                "qos": 0,
+                "topic": "xgesnjzxqggxeapg"
+            },
+            {
+                "lastModifiedTime": 0,
+                "payloadSize": 0,
+                "qos": 0,
+                "topic": "snsiiwxgfazklhph"
+            }
+        ],
+        "result_key": "retainedTopics"
+    },
+    "meta": {
+        "start": 1711115954.739432,
+        "end": 1711115960.898307,
+        "duration": 6.1588850021362305,
+        "service": "iot-data",
+        "type": "retained_messages"
+    }
+}

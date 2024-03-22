@@ -1,0 +1,75 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0,
+            "Scope": "MANAGED",
+            "ManagedType": "AWS_MANAGED_THREAT_SIGNATURES",
+            "Type": "STATELESS"
+        },
+        "required": [],
+        "md5": "791173a390553e80e951f4ecf481fde6",
+        "boto_command": "list_rule_groups",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "Name": "Name",
+                "Arn": "Arn"
+            }
+        ],
+        "required": [],
+        "md5": "973dc722d1a6cfb5ac622a6799d16c18",
+        "randomized": [
+            {
+                "Arn": "myrlmnrlzmtwwxlr",
+                "Name": "jknwukxcbvhaodxd"
+            },
+            {
+                "Arn": "pseupaiyxqmbfznp",
+                "Name": "czsgnbnaydplxcsx"
+            },
+            {
+                "Arn": "yqmctnehaaojwxqr",
+                "Name": "nouooegpmqsmatyl"
+            },
+            {
+                "Arn": "fllaklbhgxfzmhhp",
+                "Name": "dfvebkjeieexpojy"
+            },
+            {
+                "Arn": "myglahuoyznkpclm",
+                "Name": "djfhfsrmkcgelsny"
+            },
+            {
+                "Arn": "evyvshekpmfzrqhk",
+                "Name": "ufvbksggnlfvmfmk"
+            },
+            {
+                "Arn": "bufzhnupwexpgmbj",
+                "Name": "csebmyelbkjvzoev"
+            },
+            {
+                "Arn": "hfehhehyrqoykwsn",
+                "Name": "wixevgfaanstigpj"
+            },
+            {
+                "Arn": "hizwvtvygjptlejm",
+                "Name": "sqyqbbdwtxhnetsf"
+            },
+            {
+                "Arn": "blwqmsrrynunopqz",
+                "Name": "ykvjaiwvulrcwivq"
+            }
+        ],
+        "result_key": "RuleGroups"
+    },
+    "meta": {
+        "start": 1711116244.204791,
+        "end": 1711116249.826743,
+        "duration": 5.621963024139404,
+        "service": "network-firewall",
+        "type": "rule_groups"
+    }
+}

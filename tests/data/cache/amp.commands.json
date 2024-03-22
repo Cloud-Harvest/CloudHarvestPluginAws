@@ -1,0 +1,12 @@
+[
+    "amp.describe-alert-manager-definition",
+    "amp.describe-logging-configuration",
+    "amp.describe-rule-groups-namespace",
+    "amp.describe-scraper",
+    "amp.describe-workspace",
+    "amp.get-default-scraper-configuration",
+    "amp.list-rule-groups-namespaces",
+    "amp.list-scrapers",
+    "amp.list-tags-for-resource",
+    "amp.list-workspaces"
+]

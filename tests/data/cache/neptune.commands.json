@@ -1,0 +1,23 @@
+[
+    "neptune.describe-db-cluster-endpoints",
+    "neptune.describe-db-cluster-parameter-groups",
+    "neptune.describe-db-cluster-parameters",
+    "neptune.describe-db-cluster-snapshot-attributes",
+    "neptune.describe-db-cluster-snapshots",
+    "neptune.describe-db-clusters",
+    "neptune.describe-db-engine-versions",
+    "neptune.describe-db-instances",
+    "neptune.describe-db-parameter-groups",
+    "neptune.describe-db-parameters",
+    "neptune.describe-db-subnet-groups",
+    "neptune.describe-engine-default-cluster-parameters",
+    "neptune.describe-engine-default-parameters",
+    "neptune.describe-event-categories",
+    "neptune.describe-event-subscriptions",
+    "neptune.describe-events",
+    "neptune.describe-global-clusters",
+    "neptune.describe-orderable-db-instance-options",
+    "neptune.describe-pending-maintenance-actions",
+    "neptune.describe-valid-db-instance-modifications",
+    "neptune.list-tags-for-resource"
+]

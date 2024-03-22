@@ -1,0 +1,74 @@
+{
+    "input": {
+        "template": {
+            "FleetName": "",
+            "ApplicationArn": "",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "3fc969aa24dd4e6be3529866805d1a52",
+        "boto_command": "describe_application_fleet_associations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "FleetName": "FleetName",
+                "ApplicationArn": "ApplicationArn"
+            }
+        ],
+        "required": [],
+        "md5": "d1d6002e84e160e6cd9c061df9679ed7",
+        "randomized": [
+            {
+                "ApplicationArn": "ctdbehiwhmzqarow",
+                "FleetName": "kmdwklbahinlgaki"
+            },
+            {
+                "ApplicationArn": "vlfiskmppukzzwig",
+                "FleetName": "yxjzxdewdlmdkqjg"
+            },
+            {
+                "ApplicationArn": "jknwnpgknkswtikk",
+                "FleetName": "twtoomwasszidbai"
+            },
+            {
+                "ApplicationArn": "tytgfcsbdmetihib",
+                "FleetName": "jsemootaolwwlkjr"
+            },
+            {
+                "ApplicationArn": "lmojehedzqaidxoy",
+                "FleetName": "ipyubnpikcgjmbxm"
+            },
+            {
+                "ApplicationArn": "mntivmgquxymwqqo",
+                "FleetName": "jjkvklybqihlnwax"
+            },
+            {
+                "ApplicationArn": "jcuqlfwamyiqgalh",
+                "FleetName": "wwcympghigztmttf"
+            },
+            {
+                "ApplicationArn": "senzktxbnrwfwpqw",
+                "FleetName": "rcutftydujrnxaso"
+            },
+            {
+                "ApplicationArn": "hwboaoljcnikneux",
+                "FleetName": "rupoeqvnvqwyrhpb"
+            },
+            {
+                "ApplicationArn": "nhsbgeyxvgwdmjgr",
+                "FleetName": "wxzubpdjeuyjvdvn"
+            }
+        ],
+        "result_key": "ApplicationFleetAssociations"
+    },
+    "meta": {
+        "start": 1711115236.299537,
+        "end": 1711115244.269908,
+        "duration": 7.970379114151001,
+        "service": "appstream",
+        "type": "application_fleet_associations"
+    }
+}

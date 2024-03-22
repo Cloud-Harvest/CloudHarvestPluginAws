@@ -1,0 +1,34 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "get_deliverability_dashboard_options",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": true,
+        "required": [],
+        "md5": "7622976f0c7f45964b69da4bea7002de",
+        "randomized": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+        ],
+        "result_key": "DashboardEnabled"
+    },
+    "meta": {
+        "start": 1711116340.965488,
+        "end": 1711116347.696228,
+        "duration": 6.730749130249023,
+        "service": "pinpoint-email",
+        "type": null
+    }
+}

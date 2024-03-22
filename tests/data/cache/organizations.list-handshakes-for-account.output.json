@@ -1,0 +1,285 @@
+{
+    "input": {
+        "template": {
+            "Filter": {
+                "ActionType": "INVITE",
+                "ParentHandshakeId": ""
+            },
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "b6b25608813816c0ecadf538e366c653",
+        "boto_command": "list_handshakes_for_account",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "Id": "Id",
+                "Arn": "Arn",
+                "Parties": [
+                    {
+                        "Id": "Id",
+                        "Type": "Type"
+                    }
+                ],
+                "State": "State",
+                "RequestedTimestamp": "1970-01-01T00:00:00",
+                "ExpirationTimestamp": "1970-01-01T00:00:00",
+                "Action": "Action",
+                "Resources": [
+                    {
+                        "Value": "Value",
+                        "Type": "Type",
+                        "Resources": [
+                            {}
+                        ]
+                    }
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "b0d12f620724ab0c62160a4cbc34db04",
+        "randomized": [
+            {
+                "Action": "nettzawpfsqqzyvo",
+                "Arn": "vephcjyaovhnzozf",
+                "ExpirationTimestamp": "vsnjldlexmhegjpb",
+                "Id": "oitpckgvpimgorde",
+                "Parties": [
+                    {
+                        "Id": "jpverlerczmulssy",
+                        "Type": "aulpffefpsvmonlm"
+                    }
+                ],
+                "RequestedTimestamp": "qxjwjwlbqgxijpvv",
+                "Resources": [
+                    {
+                        "Resources": [
+                            {}
+                        ],
+                        "Type": "gohnplpnbrtteaad",
+                        "Value": "gubbsaihhaqeypbo"
+                    }
+                ],
+                "State": "yxtpakskatnuskey"
+            },
+            {
+                "Action": "ncxkoedrnlfoxvkz",
+                "Arn": "mcuhjxwojvukmjae",
+                "ExpirationTimestamp": "gyccfodoavuvipyq",
+                "Id": "mhwslukjkvlhtqda",
+                "Parties": [
+                    {
+                        "Id": "ioauwumcmztcgldw",
+                        "Type": "mlhozbxzcdtohdqe"
+                    }
+                ],
+                "RequestedTimestamp": "wrpmmtpvmtzwdcbl",
+                "Resources": [
+                    {
+                        "Resources": [
+                            {}
+                        ],
+                        "Type": "vsgwytymxhqhqvdq",
+                        "Value": "ipkzqpixkjgedind"
+                    }
+                ],
+                "State": "xzzxkztpeqcchtsi"
+            },
+            {
+                "Action": "lfwpcprcndcynrfm",
+                "Arn": "bynwxcdxciqcwmwm",
+                "ExpirationTimestamp": "nsskvrixamowvlvs",
+                "Id": "rdviilwwnepcxuhi",
+                "Parties": [
+                    {
+                        "Id": "ntlmznvmbehkjnae",
+                        "Type": "yvnyzbggjscqdvyj"
+                    }
+                ],
+                "RequestedTimestamp": "xuhdcordbipmbcpq",
+                "Resources": [
+                    {
+                        "Resources": [
+                            {}
+                        ],
+                        "Type": "sbqwojusazfzvswj",
+                        "Value": "dswtpixzybwcmxfo"
+                    }
+                ],
+                "State": "tfpfwxjlpvoiilyt"
+            },
+            {
+                "Action": "svwadigfhznwgmyu",
+                "Arn": "xmebwpqqnqeomrkc",
+                "ExpirationTimestamp": "zaahwjxizxfmgnqj",
+                "Id": "hgnkohiojcgypjwf",
+                "Parties": [
+                    {
+                        "Id": "mvnqizitoflpxfui",
+                        "Type": "ihbzjrbrplgopnrg"
+                    }
+                ],
+                "RequestedTimestamp": "mhrvdghnourvgujm",
+                "Resources": [
+                    {
+                        "Resources": [
+                            {}
+                        ],
+                        "Type": "mfhsushkbnkanesz",
+                        "Value": "exanchzjtddceoam"
+                    }
+                ],
+                "State": "rqbmpmypkaonhgwh"
+            },
+            {
+                "Action": "bmiwvucmrqdelujw",
+                "Arn": "lvjbzmcnhiecsrgg",
+                "ExpirationTimestamp": "pyntpjinkqirxytr",
+                "Id": "msytuabtbovizmuo",
+                "Parties": [
+                    {
+                        "Id": "yirrrndenhdadbhb",
+                        "Type": "efzgnnsixemqcomh"
+                    }
+                ],
+                "RequestedTimestamp": "alvcnsndcxxlqabi",
+                "Resources": [
+                    {
+                        "Resources": [
+                            {}
+                        ],
+                        "Type": "vmwyqnylpsoawyxd",
+                        "Value": "zonefiwuyfsjyehe"
+                    }
+                ],
+                "State": "hrkkjsazgonahyet"
+            },
+            {
+                "Action": "gismyymaxmdrdasl",
+                "Arn": "zjugxcrmultqrwqu",
+                "ExpirationTimestamp": "cuqatwckuawbyriv",
+                "Id": "nckhoeqbfbopsvhd",
+                "Parties": [
+                    {
+                        "Id": "cradajllbcejyihi",
+                        "Type": "mrwtbdjhxfjzrayl"
+                    }
+                ],
+                "RequestedTimestamp": "wkhbtunfhtjsppim",
+                "Resources": [
+                    {
+                        "Resources": [
+                            {}
+                        ],
+                        "Type": "gwwlcostyvlorerd",
+                        "Value": "qcaxilklikpufikt"
+                    }
+                ],
+                "State": "hukcwfnvowtvclxk"
+            },
+            {
+                "Action": "oicitcacpdwjtutx",
+                "Arn": "jsnutscjyfmyhkrl",
+                "ExpirationTimestamp": "pajhwzdxfjrdsmut",
+                "Id": "dbxzfawmkepoyfca",
+                "Parties": [
+                    {
+                        "Id": "qurhhruyhifaacob",
+                        "Type": "mgvdymmgymsanvqv"
+                    }
+                ],
+                "RequestedTimestamp": "hwpyerqjdirvjqtl",
+                "Resources": [
+                    {
+                        "Resources": [
+                            {}
+                        ],
+                        "Type": "lppkwtrqskjjxitc",
+                        "Value": "rlptyuoozjvmqqos"
+                    }
+                ],
+                "State": "ggmmrhavltnlyglq"
+            },
+            {
+                "Action": "waexlywtyqshxjhb",
+                "Arn": "qxztzwmbfeloybsr",
+                "ExpirationTimestamp": "ycxpcmdqqiiigeti",
+                "Id": "wkuazbdfetnisygx",
+                "Parties": [
+                    {
+                        "Id": "cuwaxkzscvczoera",
+                        "Type": "hxyzbhplmtxfljnq"
+                    }
+                ],
+                "RequestedTimestamp": "umucpsjdcaxvkspo",
+                "Resources": [
+                    {
+                        "Resources": [
+                            {}
+                        ],
+                        "Type": "cruulxsrbxqyxwfi",
+                        "Value": "vpwcfunmdkulafpe"
+                    }
+                ],
+                "State": "iyhlyarexvaoouzn"
+            },
+            {
+                "Action": "xjnppmvdbtxfgppw",
+                "Arn": "xdpauoyrfnbvywnr",
+                "ExpirationTimestamp": "kcdzxkrmwomsxstw",
+                "Id": "xjbeqpkdaurblovp",
+                "Parties": [
+                    {
+                        "Id": "yigeqrpauriuqjpj",
+                        "Type": "tqgtjftulrfacqao"
+                    }
+                ],
+                "RequestedTimestamp": "vhfjdhkebbgjnupw",
+                "Resources": [
+                    {
+                        "Resources": [
+                            {}
+                        ],
+                        "Type": "opyswbfvuledpyjs",
+                        "Value": "slhlgafrjvxlpknx"
+                    }
+                ],
+                "State": "tpuavybfsvqnhgpz"
+            },
+            {
+                "Action": "aczqcdqafqlxpcjs",
+                "Arn": "epztedlpiglwumca",
+                "ExpirationTimestamp": "yzplrsauobiqxivj",
+                "Id": "zycvxikdajjeccgd",
+                "Parties": [
+                    {
+                        "Id": "sdufiiyrbpwsmddm",
+                        "Type": "xbmummwqhifqmpxi"
+                    }
+                ],
+                "RequestedTimestamp": "acscyxebeuyyvuny",
+                "Resources": [
+                    {
+                        "Resources": [
+                            {}
+                        ],
+                        "Type": "hyjvbaihfpvmmpgr",
+                        "Value": "kcgkzayskkzvkwaz"
+                    }
+                ],
+                "State": "rzfcxitbrbwrqnax"
+            }
+        ],
+        "result_key": "Handshakes"
+    },
+    "meta": {
+        "start": 1711116295.492149,
+        "end": 1711116301.793754,
+        "duration": 6.301615953445435,
+        "service": "organizations",
+        "type": "handshakes_for_account"
+    }
+}

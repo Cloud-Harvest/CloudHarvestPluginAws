@@ -1,0 +1,132 @@
+[
+    {
+        "ARN": "iyxpyhnwapkipjrs",
+        "CacheSecurityGroupName": "rdezpzohiqvlkptv",
+        "Description": "ehffmnoiuueexlqn",
+        "EC2SecurityGroups": [
+            {
+                "EC2SecurityGroupName": "iitfsippwohgseef",
+                "EC2SecurityGroupOwnerId": "mlgbysmsoysxzoko",
+                "Status": "oqbdhjjfmjohzlrv"
+            }
+        ],
+        "OwnerId": "yavykzvoxmikopuz"
+    },
+    {
+        "ARN": "zepiiyauokijnytq",
+        "CacheSecurityGroupName": "kfsxdrpedheklwkb",
+        "Description": "yruhgkbbtjmxhoik",
+        "EC2SecurityGroups": [
+            {
+                "EC2SecurityGroupName": "skbungkxmbubcwtr",
+                "EC2SecurityGroupOwnerId": "rvoajpwgvkpmzoyr",
+                "Status": "whtsmvzeievzvnsu"
+            }
+        ],
+        "OwnerId": "vcjichpzqezkpmwf"
+    },
+    {
+        "ARN": "djdyhriyitcovuvr",
+        "CacheSecurityGroupName": "oofrexvkprednchl",
+        "Description": "ombxmpmozkksewhm",
+        "EC2SecurityGroups": [
+            {
+                "EC2SecurityGroupName": "gpedunovwiydmbnf",
+                "EC2SecurityGroupOwnerId": "wbxnungfrruipayd",
+                "Status": "iepxhvcvhztubpgl"
+            }
+        ],
+        "OwnerId": "upfnpklxjevputtq"
+    },
+    {
+        "ARN": "maujjnyjlbktpmov",
+        "CacheSecurityGroupName": "kzzrupkpztysrbsg",
+        "Description": "qlyxebscrrvyfciq",
+        "EC2SecurityGroups": [
+            {
+                "EC2SecurityGroupName": "jueejtdyjvyasngi",
+                "EC2SecurityGroupOwnerId": "jcmantpfnqvcainm",
+                "Status": "tbvhznpbtvcpnsbn"
+            }
+        ],
+        "OwnerId": "ghxneiystsezhosc"
+    },
+    {
+        "ARN": "gpfejtsxuqguucqu",
+        "CacheSecurityGroupName": "jyxobgzqkjcvneet",
+        "Description": "hoyvocoodupqklvw",
+        "EC2SecurityGroups": [
+            {
+                "EC2SecurityGroupName": "mjtbipxavrehdpjo",
+                "EC2SecurityGroupOwnerId": "eciwjzxlffecreif",
+                "Status": "jrjvfcvsiwfjoptu"
+            }
+        ],
+        "OwnerId": "deybjciuznbfsksj"
+    },
+    {
+        "ARN": "nekgxycjgneteojd",
+        "CacheSecurityGroupName": "btrbcsuskpvxaeco",
+        "Description": "jjpfebddtjutzxtv",
+        "EC2SecurityGroups": [
+            {
+                "EC2SecurityGroupName": "eraeqfpmelqaxazc",
+                "EC2SecurityGroupOwnerId": "baemivhvbujckche",
+                "Status": "vqsehehismnvvtmj"
+            }
+        ],
+        "OwnerId": "cudfiiobdihliylq"
+    },
+    {
+        "ARN": "xgptymygmepncovl",
+        "CacheSecurityGroupName": "vsjcvfyocbpjisac",
+        "Description": "jhotpbqnqniazniz",
+        "EC2SecurityGroups": [
+            {
+                "EC2SecurityGroupName": "iloimufwcjnwqxoo",
+                "EC2SecurityGroupOwnerId": "ghbyftlkxoznejih",
+                "Status": "sulnrsxffawrnvvm"
+            }
+        ],
+        "OwnerId": "phpjrnvrhisfiqkn"
+    },
+    {
+        "ARN": "nwxapupxgecysbkz",
+        "CacheSecurityGroupName": "apctiwxoteupjyoa",
+        "Description": "xnsdxhznfmuuiife",
+        "EC2SecurityGroups": [
+            {
+                "EC2SecurityGroupName": "hiiufpcypopdawvx",
+                "EC2SecurityGroupOwnerId": "dlkozjlwqoltsutm",
+                "Status": "pjfkpuylyzqhthho"
+            }
+        ],
+        "OwnerId": "jtnqzsswxmxjfnor"
+    },
+    {
+        "ARN": "ipngsktetxqnaxvo",
+        "CacheSecurityGroupName": "eoexemcnfmedfwap",
+        "Description": "bepswlnzsahevhpv",
+        "EC2SecurityGroups": [
+            {
+                "EC2SecurityGroupName": "vnlqywwpnonnvpid",
+                "EC2SecurityGroupOwnerId": "hwxlwmywqbdfhnzw",
+                "Status": "loglwjkdbhnpksss"
+            }
+        ],
+        "OwnerId": "ultegrfmirzuuhul"
+    },
+    {
+        "ARN": "nykvttmsvuwrrvxg",
+        "CacheSecurityGroupName": "rcshktgmzgcyjlvw",
+        "Description": "ahupyajhmazpcycz",
+        "EC2SecurityGroups": [
+            {
+                "EC2SecurityGroupName": "rwdqzihdrlhaqtzo",
+                "EC2SecurityGroupOwnerId": "iuvfkvtlwdxozgrp",
+                "Status": "ybqyivktnbqqfhgi"
+            }
+        ],
+        "OwnerId": "cldmqfnikabgikvm"
+    }
+]

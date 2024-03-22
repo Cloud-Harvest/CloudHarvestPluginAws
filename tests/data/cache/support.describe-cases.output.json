@@ -1,0 +1,389 @@
+{
+    "input": {
+        "template": {
+            "caseIdList": [
+                ""
+            ],
+            "displayId": "",
+            "afterTime": "",
+            "beforeTime": "",
+            "includeResolvedCases": true,
+            "nextToken": "",
+            "maxResults": 0,
+            "language": "",
+            "includeCommunications": true
+        },
+        "required": [],
+        "md5": "d31856c24be9276fc26a1c7504832f6f",
+        "boto_command": "describe_cases",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "caseId": "caseId",
+                "displayId": "displayId",
+                "subject": "subject",
+                "status": "status",
+                "serviceCode": "serviceCode",
+                "categoryCode": "categoryCode",
+                "severityCode": "severityCode",
+                "submittedBy": "submittedBy",
+                "timeCreated": "timeCreated",
+                "recentCommunications": {
+                    "communications": [
+                        {
+                            "caseId": "caseId",
+                            "body": "body",
+                            "submittedBy": "submittedBy",
+                            "timeCreated": "timeCreated",
+                            "attachmentSet": [
+                                {
+                                    "attachmentId": "attachmentId",
+                                    "fileName": "fileName"
+                                }
+                            ]
+                        }
+                    ],
+                    "nextToken": "nextToken"
+                },
+                "ccEmailAddresses": [
+                    "CcEmailAddress"
+                ],
+                "language": "language"
+            }
+        ],
+        "required": [],
+        "md5": "61b27ca2bce1e90bd50c51ac531c7b3d",
+        "randomized": [
+            {
+                "caseId": "zcyucldvtzmqxgqr",
+                "categoryCode": "twjburlbbbyblsvc",
+                "ccEmailAddresses": [
+                    "gkksbmwlaghuvnwx"
+                ],
+                "displayId": "hinuwmykeirhdcwj",
+                "language": "bcpsyaykffybcnvd",
+                "recentCommunications": {
+                    "communications": [
+                        {
+                            "attachmentSet": [
+                                {
+                                    "attachmentId": "dgkxukuogklpddkd",
+                                    "fileName": "hwaaqsdlwifygqfm"
+                                }
+                            ],
+                            "body": "edydquuaubhgkfkt",
+                            "caseId": "ycsfctrkxoccdvdo",
+                            "submittedBy": "hziskiamytusyfuz",
+                            "timeCreated": "akpidbmrqhxprbfo"
+                        }
+                    ],
+                    "nextToken": "ofaybgqiztisyhaa"
+                },
+                "serviceCode": "oyoznarqhdcubydd",
+                "severityCode": "earqbiqynjkebgve",
+                "status": "pkcgkrtaipgrjzen",
+                "subject": "avvbqznaozbprsxj",
+                "submittedBy": "mhdoqduqkikqepiq",
+                "timeCreated": "betkeafdpfxuryhc"
+            },
+            {
+                "caseId": "xtzahnhafkgvpadi",
+                "categoryCode": "ajglebzftucldsar",
+                "ccEmailAddresses": [
+                    "cukopaswasdlhtgr"
+                ],
+                "displayId": "gjfkhnanajcrrkkv",
+                "language": "bjlacwpaxtptbvyd",
+                "recentCommunications": {
+                    "communications": [
+                        {
+                            "attachmentSet": [
+                                {
+                                    "attachmentId": "ajlcomilhyjrdqhf",
+                                    "fileName": "ericegsesjmvybbt"
+                                }
+                            ],
+                            "body": "wjhtwwyxanmwskme",
+                            "caseId": "alsftmybmqnnysjn",
+                            "submittedBy": "kxcbpmgogfpijsuf",
+                            "timeCreated": "psjeqyiwogpsbjfx"
+                        }
+                    ],
+                    "nextToken": "gprqpmuegrtjrxiz"
+                },
+                "serviceCode": "lqibwlwienycnsws",
+                "severityCode": "ulqxrpqcwurgpnyg",
+                "status": "deudrihjhfcgfqus",
+                "subject": "gfajwsygjnyzalja",
+                "submittedBy": "tmqqjmgbwpajhlua",
+                "timeCreated": "puxoybcqsxnzauxj"
+            },
+            {
+                "caseId": "vdksgumivemfjbls",
+                "categoryCode": "evpxwasmikohopwe",
+                "ccEmailAddresses": [
+                    "rtxbfiipareknenr"
+                ],
+                "displayId": "ppdigrjadjolmhwg",
+                "language": "jmzodmcqbbaxoijk",
+                "recentCommunications": {
+                    "communications": [
+                        {
+                            "attachmentSet": [
+                                {
+                                    "attachmentId": "fytyatuyghfwxjns",
+                                    "fileName": "vjxefcexgmroievu"
+                                }
+                            ],
+                            "body": "ctnnvpcwnlpqgfyc",
+                            "caseId": "eplfinujyajrshmo",
+                            "submittedBy": "tdknzhnruonpclgc",
+                            "timeCreated": "xxjppwuseelrzlhs"
+                        }
+                    ],
+                    "nextToken": "zffbvkecgqixjzhl"
+                },
+                "serviceCode": "ndnjkyichmjgzhza",
+                "severityCode": "cnblymgetgjdjjji",
+                "status": "oxhqdxdnwwesqcvm",
+                "subject": "gukbaklhjnnrujzc",
+                "submittedBy": "ipkphvtvldlnmyoj",
+                "timeCreated": "xdxuxiabqallbyke"
+            },
+            {
+                "caseId": "jokhadcuniatfphc",
+                "categoryCode": "dygynjxcxybhpuzf",
+                "ccEmailAddresses": [
+                    "ysaycrrplrzpqsct"
+                ],
+                "displayId": "nquddsnpqgnwnwwr",
+                "language": "bsgnvldhxaivtrdw",
+                "recentCommunications": {
+                    "communications": [
+                        {
+                            "attachmentSet": [
+                                {
+                                    "attachmentId": "ndyakgasfpxwtvlb",
+                                    "fileName": "tlrmpmbvswssmxys"
+                                }
+                            ],
+                            "body": "ajifmvlbyfgxcpaf",
+                            "caseId": "aufivhdfsomotukg",
+                            "submittedBy": "cocxyjhwdnnxgbqj",
+                            "timeCreated": "dolxvqrqquqpelqe"
+                        }
+                    ],
+                    "nextToken": "slfuzehviihnnkdi"
+                },
+                "serviceCode": "ohnjtxyrrtwfzbii",
+                "severityCode": "vkomizrpzjgrqbye",
+                "status": "kqcwbdtjllzcluoi",
+                "subject": "fgwvvyhaykpmydah",
+                "submittedBy": "dpuptizfspayyyks",
+                "timeCreated": "otzsuxlaevhpixza"
+            },
+            {
+                "caseId": "ostpfmtutzncazrn",
+                "categoryCode": "vqabgtrstjelkdbq",
+                "ccEmailAddresses": [
+                    "zczdnugvtgpxsseg"
+                ],
+                "displayId": "kaxoftxfcxwtrswg",
+                "language": "ofziinpljhmgzrfc",
+                "recentCommunications": {
+                    "communications": [
+                        {
+                            "attachmentSet": [
+                                {
+                                    "attachmentId": "evxcqxfvvmkgqukg",
+                                    "fileName": "qkereuzijpdrvgqs"
+                                }
+                            ],
+                            "body": "jrzceqagujtdijuc",
+                            "caseId": "anjijtkvbimppmyr",
+                            "submittedBy": "irufapwmfdfbjknl",
+                            "timeCreated": "uddolqxwouxzjnbk"
+                        }
+                    ],
+                    "nextToken": "zwiedzcmsszcdztp"
+                },
+                "serviceCode": "ddhcpymbhezpbglu",
+                "severityCode": "znajbevmqaiqfnds",
+                "status": "rjvedbbdngicwyff",
+                "subject": "nosjdjxgcfktaigj",
+                "submittedBy": "nsifhtzlqsybfiij",
+                "timeCreated": "zbiplacsyfkxnejm"
+            },
+            {
+                "caseId": "mscgntctdswkabkt",
+                "categoryCode": "rnwzmynyjcfotbws",
+                "ccEmailAddresses": [
+                    "nrbqnmweusawisvu"
+                ],
+                "displayId": "besytkynbrgbtwyn",
+                "language": "fdjixzmuiacayfrg",
+                "recentCommunications": {
+                    "communications": [
+                        {
+                            "attachmentSet": [
+                                {
+                                    "attachmentId": "mqjksmhltbetfdgp",
+                                    "fileName": "pmwrhvtanmupswen"
+                                }
+                            ],
+                            "body": "wxfnayzligjepykn",
+                            "caseId": "kuyvpikmfaqiptzl",
+                            "submittedBy": "xjhumovgdqrjwibw",
+                            "timeCreated": "qwonwxcxwkfuxgrc"
+                        }
+                    ],
+                    "nextToken": "hmsrpydhunyryxyy"
+                },
+                "serviceCode": "xenivoxdtmqnubmr",
+                "severityCode": "hxxzrpkrbyzwvwka",
+                "status": "qcretgfxytzvubhr",
+                "subject": "fjqsgjvnfcikcvvj",
+                "submittedBy": "wyoyxajttqnmhksr",
+                "timeCreated": "jablduuetdkfepmp"
+            },
+            {
+                "caseId": "qooeueklhsmvamxp",
+                "categoryCode": "apjxktnvbrtjybpy",
+                "ccEmailAddresses": [
+                    "immntddutuifujjo"
+                ],
+                "displayId": "wnxonbppddxwaqcw",
+                "language": "hxwqlmdnmtynusvi",
+                "recentCommunications": {
+                    "communications": [
+                        {
+                            "attachmentSet": [
+                                {
+                                    "attachmentId": "xgjpaqffjroobsjd",
+                                    "fileName": "louftuhfxjxfdkze"
+                                }
+                            ],
+                            "body": "ndefyeqrdewvxcsh",
+                            "caseId": "mobafwkncjxgbhlj",
+                            "submittedBy": "ablbniqoguwaxgli",
+                            "timeCreated": "vpgnpxxfcxggvwdt"
+                        }
+                    ],
+                    "nextToken": "yizepcckrdqhfgos"
+                },
+                "serviceCode": "uwlxvzzxfzufrglu",
+                "severityCode": "lwsdthiwgypqwgbk",
+                "status": "bzkqkxshhletqjtu",
+                "subject": "sfiptxxsciwvynom",
+                "submittedBy": "ynnxvythtrgcxylt",
+                "timeCreated": "vtmrbhjvyshvvvnq"
+            },
+            {
+                "caseId": "wjybrjyvaqwfbtvq",
+                "categoryCode": "fyzhlxvcqzkelgwv",
+                "ccEmailAddresses": [
+                    "fuftdsliwdkjlpwp"
+                ],
+                "displayId": "jinmqiyscrkkuurh",
+                "language": "zycvvtvyyouhbzjz",
+                "recentCommunications": {
+                    "communications": [
+                        {
+                            "attachmentSet": [
+                                {
+                                    "attachmentId": "zranivhtlfdpvhfd",
+                                    "fileName": "bblzcxaazvmiuvkr"
+                                }
+                            ],
+                            "body": "jfoipyupfsidlbvi",
+                            "caseId": "yirrsltdhioenamf",
+                            "submittedBy": "ummhcrzomrqicvmf",
+                            "timeCreated": "xtewubvzbgfhpxhf"
+                        }
+                    ],
+                    "nextToken": "jbbdtwalkejelprh"
+                },
+                "serviceCode": "pgoyqqpvlsoxxqfa",
+                "severityCode": "lyacdedenwiwevsc",
+                "status": "ozknbbgjcexixexc",
+                "subject": "smasmkdyjpokplpb",
+                "submittedBy": "vwkdrkavnseconkc",
+                "timeCreated": "avdpaxcuwtebgyxt"
+            },
+            {
+                "caseId": "fgcxgycixjzurkbk",
+                "categoryCode": "xsxlapefeyojmuum",
+                "ccEmailAddresses": [
+                    "zvkgyckpuaymazki"
+                ],
+                "displayId": "gmxerqaacvynzqrn",
+                "language": "jnsdiouxsvlncmbp",
+                "recentCommunications": {
+                    "communications": [
+                        {
+                            "attachmentSet": [
+                                {
+                                    "attachmentId": "qxfseeydhxmffjaw",
+                                    "fileName": "hyjfyhxpogltlpca"
+                                }
+                            ],
+                            "body": "jcucxdeldeevegsu",
+                            "caseId": "huuhcicxbtpzyyhy",
+                            "submittedBy": "bqrbtxsffkwnjlil",
+                            "timeCreated": "qajcvudhmffiqbkx"
+                        }
+                    ],
+                    "nextToken": "gekpvivlvzwxecbz"
+                },
+                "serviceCode": "ejsbqjmuvhekyfms",
+                "severityCode": "pkwtszhpomietotl",
+                "status": "zyffvnwzaueyhtfd",
+                "subject": "rutukmfboxntayes",
+                "submittedBy": "lailzlmdvgjtweyb",
+                "timeCreated": "qiuxerzlgrihlsrr"
+            },
+            {
+                "caseId": "neqjqtktxxcpihfk",
+                "categoryCode": "xfhorkiammalmhpv",
+                "ccEmailAddresses": [
+                    "xrjuhziezrtkvclg"
+                ],
+                "displayId": "dkwgzjgmkjkrkucv",
+                "language": "hasatcybwfpjcmeu",
+                "recentCommunications": {
+                    "communications": [
+                        {
+                            "attachmentSet": [
+                                {
+                                    "attachmentId": "kdetefvshxmcwtiq",
+                                    "fileName": "ptqicreufiqyzbnm"
+                                }
+                            ],
+                            "body": "vjhcnbzrhtrwvcnd",
+                            "caseId": "ddwiucblmuafdnlj",
+                            "submittedBy": "nebwysdwgsbonedc",
+                            "timeCreated": "yyshiuaycfqezltv"
+                        }
+                    ],
+                    "nextToken": "zymiasxvmgidgufw"
+                },
+                "serviceCode": "znalvifmfokwtppv",
+                "severityCode": "gpopnxwqpauzhaja",
+                "status": "fnklgxycadvcgamf",
+                "subject": "bwrvgvfpvtuvhxrr",
+                "submittedBy": "snnjormbzbdmicyr",
+                "timeCreated": "iuxtcbvwophzvflq"
+            }
+        ],
+        "result_key": "cases"
+    },
+    "meta": {
+        "start": 1711116709.249086,
+        "end": 1711116716.818354,
+        "duration": 7.569279193878174,
+        "service": "support",
+        "type": "cases"
+    }
+}

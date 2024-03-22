@@ -1,0 +1,128 @@
+{
+    "input": {
+        "template": {
+            "templateName": "",
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "required": [],
+        "md5": "4590c153d7e50d76c66797ae01ab1ae1",
+        "boto_command": "list_managed_job_templates",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "templateArn": "templateArn",
+                "templateName": "templateName",
+                "description": "description",
+                "environments": [
+                    "Environment"
+                ],
+                "templateVersion": "templateVersion"
+            }
+        ],
+        "required": [],
+        "md5": "a4a3249712b4d21cf66f3179185f389d",
+        "randomized": [
+            {
+                "description": "eizghrljlzjxjttr",
+                "environments": [
+                    "xanopbuyjdjwhszv"
+                ],
+                "templateArn": "kzgkokrehwcoecgq",
+                "templateName": "heatzemxelqdqwbi",
+                "templateVersion": "zjplvcdnahwclqta"
+            },
+            {
+                "description": "tpzwlpekhfdwoogs",
+                "environments": [
+                    "hnxsirmexpwfqqep"
+                ],
+                "templateArn": "ftjynzkoaiakqbfy",
+                "templateName": "horefhhxtfonzopv",
+                "templateVersion": "ufwffxpvrystwpef"
+            },
+            {
+                "description": "yqlxgzegfcsmemav",
+                "environments": [
+                    "ndplnofpzrmxaldb"
+                ],
+                "templateArn": "gdwyblgwxxxxuquc",
+                "templateName": "znooedkmtzfhkgtq",
+                "templateVersion": "epedsjgtnbfyppgz"
+            },
+            {
+                "description": "wlplftqgerhrzlpu",
+                "environments": [
+                    "jkxcmcnokbgyyhpj"
+                ],
+                "templateArn": "wvpymbutidasyibr",
+                "templateName": "udxuzdhyardzjyck",
+                "templateVersion": "rfldgskvqqulaknk"
+            },
+            {
+                "description": "cmyhsihnpecnlrjf",
+                "environments": [
+                    "zftvbywhaltthmrl"
+                ],
+                "templateArn": "fwngcpxataitfluv",
+                "templateName": "rcwjfeqwwiqktxeb",
+                "templateVersion": "uuotxbkolbszkmch"
+            },
+            {
+                "description": "vxeshojxddlwroox",
+                "environments": [
+                    "jvzxtxjvequboboj"
+                ],
+                "templateArn": "rtufkwefhnbowyxm",
+                "templateName": "txwwoobmzilkrftr",
+                "templateVersion": "fxleaxlnrkokhzid"
+            },
+            {
+                "description": "dfxqowvcpfhhvxar",
+                "environments": [
+                    "wvyepyfhcasctrns"
+                ],
+                "templateArn": "nrrgafvpdjurslvf",
+                "templateName": "qvtkhkcbigizwbdu",
+                "templateVersion": "jlcxtttdnkczgues"
+            },
+            {
+                "description": "nahriumoqputaaga",
+                "environments": [
+                    "owiosblmjbmkdxky"
+                ],
+                "templateArn": "wdrhnokhvcmzbxlo",
+                "templateName": "pjhougaruexgjyjh",
+                "templateVersion": "apxmbmtrzbvbpkct"
+            },
+            {
+                "description": "mzybkncbqypiouao",
+                "environments": [
+                    "nitbfxadlkoayuyt"
+                ],
+                "templateArn": "acomlqkibaaccqud",
+                "templateName": "xcopplzgigvmdlgs",
+                "templateVersion": "upmymgfsypthyzet"
+            },
+            {
+                "description": "dcdjmcyedfcfhycn",
+                "environments": [
+                    "imajiofjfxdkacqr"
+                ],
+                "templateArn": "wdacdydrdioxztim",
+                "templateName": "xmzrzjcofafnlgme",
+                "templateVersion": "hcrznazvluqetdyb"
+            }
+        ],
+        "result_key": "managedJobTemplates"
+    },
+    "meta": {
+        "start": 1711115943.207097,
+        "end": 1711115949.255692,
+        "duration": 6.048605918884277,
+        "service": "iot",
+        "type": "managed_job_templates"
+    }
+}

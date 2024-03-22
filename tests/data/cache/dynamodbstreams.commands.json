@@ -1,0 +1,6 @@
+[
+    "dynamodbstreams.describe-stream",
+    "dynamodbstreams.get-records",
+    "dynamodbstreams.get-shard-iterator",
+    "dynamodbstreams.list-streams"
+]

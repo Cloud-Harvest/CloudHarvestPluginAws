@@ -1,0 +1,103 @@
+{
+    "input": {
+        "template": {
+            "DBClusterParameterGroupName": "",
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxRecords": 0,
+            "Marker": ""
+        },
+        "required": [],
+        "md5": "cce0ac9c5d89765f74929741972568fb",
+        "boto_command": "describe_db_cluster_parameter_groups",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "DBClusterParameterGroupName": "DBClusterParameterGroupName",
+                "DBParameterGroupFamily": "DBParameterGroupFamily",
+                "Description": "Description",
+                "DBClusterParameterGroupArn": "DBClusterParameterGroupArn"
+            }
+        ],
+        "required": [],
+        "md5": "253242271819731c67e9359444d12655",
+        "randomized": [
+            {
+                "DBClusterParameterGroupArn": "onwjixqafxkysohw",
+                "DBClusterParameterGroupName": "ygmijjvoerjstuob",
+                "DBParameterGroupFamily": "ktpdwbuzmzjgkmkm",
+                "Description": "gbkjkrydxnoimuak"
+            },
+            {
+                "DBClusterParameterGroupArn": "hgvnxwizdxrlxvum",
+                "DBClusterParameterGroupName": "yrmxozwzdjplzrcu",
+                "DBParameterGroupFamily": "qobfcmspijdiwdmp",
+                "Description": "wdfnsnavesolqfek"
+            },
+            {
+                "DBClusterParameterGroupArn": "wdpbnfjywcradrkr",
+                "DBClusterParameterGroupName": "duzzcrzqjlblhfal",
+                "DBParameterGroupFamily": "kmoawsrvvnvapvuc",
+                "Description": "tvsbioobupytulzd"
+            },
+            {
+                "DBClusterParameterGroupArn": "kgpoozzmpqmwhkds",
+                "DBClusterParameterGroupName": "loqgkvhnlwspyozv",
+                "DBParameterGroupFamily": "mszvubjdfovqraie",
+                "Description": "vljlinfbjfvtvhai"
+            },
+            {
+                "DBClusterParameterGroupArn": "pjtsmgegjddjjcti",
+                "DBClusterParameterGroupName": "gddllffhtvgwdmnl",
+                "DBParameterGroupFamily": "oguuctspnhuhvcwc",
+                "Description": "ysidcmkboskhmcug"
+            },
+            {
+                "DBClusterParameterGroupArn": "jdmbympepiddvsam",
+                "DBClusterParameterGroupName": "peahtmpkdoufughv",
+                "DBParameterGroupFamily": "mxjportbbrfiknhz",
+                "Description": "gbowengyqnfhddui"
+            },
+            {
+                "DBClusterParameterGroupArn": "bdtxthuhiriopbrf",
+                "DBClusterParameterGroupName": "dtsqhlmtaovbzhtg",
+                "DBParameterGroupFamily": "itvqdlifnntcghsl",
+                "Description": "ldriumrpvuczjomf"
+            },
+            {
+                "DBClusterParameterGroupArn": "ziygikrgnzmvdlle",
+                "DBClusterParameterGroupName": "ovephnqdgnqmwewd",
+                "DBParameterGroupFamily": "nkdhamsufkrcunjp",
+                "Description": "glresohrdvfhwvgu"
+            },
+            {
+                "DBClusterParameterGroupArn": "olyxxcqxxifcxpjw",
+                "DBClusterParameterGroupName": "qimpwifnkdwgbicw",
+                "DBParameterGroupFamily": "uxlajfmlvxyyrmix",
+                "Description": "dnmgceztqsfevoba"
+            },
+            {
+                "DBClusterParameterGroupArn": "quedahfarsfkvidr",
+                "DBClusterParameterGroupName": "fblbenkfhdijmwwj",
+                "DBParameterGroupFamily": "fjfaurpwjsdqkudz",
+                "Description": "retfsnrzemtsaoiu"
+            }
+        ],
+        "result_key": "DBClusterParameterGroups"
+    },
+    "meta": {
+        "start": 1711116225.421518,
+        "end": 1711116232.187053,
+        "duration": 6.765542030334473,
+        "service": "neptune",
+        "type": "db_cluster_parameter_groups"
+    }
+}

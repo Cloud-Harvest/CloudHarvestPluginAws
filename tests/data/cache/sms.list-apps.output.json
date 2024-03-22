@@ -1,0 +1,306 @@
+{
+    "input": {
+        "template": {
+            "appIds": [
+                ""
+            ],
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "required": [],
+        "md5": "21967a7cabf76fe651e719ae6c8fb2f4",
+        "boto_command": "list_apps",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "appId": "appId",
+                "importedAppId": "importedAppId",
+                "name": "name",
+                "description": "description",
+                "status": "status",
+                "statusMessage": "statusMessage",
+                "replicationConfigurationStatus": "replicationConfigurationStatus",
+                "replicationStatus": "replicationStatus",
+                "replicationStatusMessage": "replicationStatusMessage",
+                "latestReplicationTime": "1970-01-01T00:00:00",
+                "launchConfigurationStatus": "launchConfigurationStatus",
+                "launchStatus": "launchStatus",
+                "launchStatusMessage": "launchStatusMessage",
+                "launchDetails": {
+                    "latestLaunchTime": "1970-01-01T00:00:00",
+                    "stackName": "stackName",
+                    "stackId": "stackId"
+                },
+                "creationTime": "1970-01-01T00:00:00",
+                "lastModified": "1970-01-01T00:00:00",
+                "roleName": "roleName",
+                "totalServerGroups": 0,
+                "totalServers": 0
+            }
+        ],
+        "required": [],
+        "md5": "77a21903b1e34fa7195b90a78d9d757c",
+        "randomized": [
+            {
+                "appId": "nifkjanmokcibbld",
+                "creationTime": "jbcgpfabclpnzjzj",
+                "description": "bikgvrpknljnmfaf",
+                "importedAppId": "bgmfskgmigjyvjdg",
+                "lastModified": "owmjvrdncaolvxsq",
+                "latestReplicationTime": "xlxslmycesvufxgu",
+                "launchConfigurationStatus": "dhybnauqikrehuwd",
+                "launchDetails": {
+                    "latestLaunchTime": "hiitppfmgfwbnzke",
+                    "stackId": "kidxixnlhzgrocox",
+                    "stackName": "yddugcjlnobctwva"
+                },
+                "launchStatus": "kononhweufswbtao",
+                "launchStatusMessage": "dupuiltptcuodrfy",
+                "name": "dlwxgiwnrqqyussr",
+                "replicationConfigurationStatus": "fxzrsdqqbxgjnsau",
+                "replicationStatus": "gcedtdhrkzvxscdn",
+                "replicationStatusMessage": "cqfazbqfhyvokcjn",
+                "roleName": "yadvnkrcozsyhxgr",
+                "status": "xizhqnqqalimfedk",
+                "statusMessage": "uwlpfthcyvvpgtvu",
+                "totalServerGroups": 0,
+                "totalServers": 0
+            },
+            {
+                "appId": "vkmdrrhetknaezkx",
+                "creationTime": "rvoaglchisqefafc",
+                "description": "ejwzztgcwodcgusf",
+                "importedAppId": "rkkrweehzurzmgsu",
+                "lastModified": "xbyhpysnpbygoowb",
+                "latestReplicationTime": "gyyxdupwsnvttxqw",
+                "launchConfigurationStatus": "elphkeyhcgbrobgr",
+                "launchDetails": {
+                    "latestLaunchTime": "iqjhiwohqiousihx",
+                    "stackId": "bprykfssxugheiew",
+                    "stackName": "qzmklrghqcprblxl"
+                },
+                "launchStatus": "nhbgemajbtmyxquu",
+                "launchStatusMessage": "hulbbxxkejpnytar",
+                "name": "ssgukxsttdrgdnag",
+                "replicationConfigurationStatus": "olvftnuvpsivdmod",
+                "replicationStatus": "ktqagtlvwijywxgp",
+                "replicationStatusMessage": "tgjcgbbnsibhxrtp",
+                "roleName": "kjezfvnosjisihpm",
+                "status": "jbfwcximqpmdykec",
+                "statusMessage": "fvwfitkjoikkcrip",
+                "totalServerGroups": 0,
+                "totalServers": 0
+            },
+            {
+                "appId": "iokwkoifghjwknzj",
+                "creationTime": "qggxevnmeejtcxqm",
+                "description": "fxfmylorbhxhdtnb",
+                "importedAppId": "wugjblgmuolruewv",
+                "lastModified": "agjumynglptldmyb",
+                "latestReplicationTime": "nuzevzwpjtctsjxy",
+                "launchConfigurationStatus": "fchxxoijtjxaphxq",
+                "launchDetails": {
+                    "latestLaunchTime": "uzwclznccnxpwsib",
+                    "stackId": "lrghigweqddeaavp",
+                    "stackName": "qvyztmlzcyhhbqhe"
+                },
+                "launchStatus": "radamjewjjsnnsax",
+                "launchStatusMessage": "jrurdefkbcclzwnw",
+                "name": "bdptqjqyqgfvvmke",
+                "replicationConfigurationStatus": "flsxzyofnjjmpshu",
+                "replicationStatus": "xopxugfkvsnsqxqd",
+                "replicationStatusMessage": "sxuvaalvxcfqgxfg",
+                "roleName": "vrtjqipfmubbvrgu",
+                "status": "tfcyjfunqhknvlnt",
+                "statusMessage": "yfteilbwccytxjrc",
+                "totalServerGroups": 0,
+                "totalServers": 0
+            },
+            {
+                "appId": "vundtnwtzwudbdxq",
+                "creationTime": "phrtwvawifmnvidt",
+                "description": "rnxikkaqwhccjrws",
+                "importedAppId": "aghpfxohrbpeunkh",
+                "lastModified": "lpwnhyszzccrhqnf",
+                "latestReplicationTime": "dfyrzlcmcpttiblu",
+                "launchConfigurationStatus": "xjrlqllxyqclfxrh",
+                "launchDetails": {
+                    "latestLaunchTime": "zqvyahawicbagjxj",
+                    "stackId": "zvnmsckakjgpasny",
+                    "stackName": "mrlggbxypsnljecr"
+                },
+                "launchStatus": "igudcioapwuslbyr",
+                "launchStatusMessage": "awzwqwmmfvflbujt",
+                "name": "mptdmpvzmpcfiurh",
+                "replicationConfigurationStatus": "ffoobwuzrufwtcbz",
+                "replicationStatus": "zcrdyzxfdifinwbt",
+                "replicationStatusMessage": "wpyqnxucefbttmni",
+                "roleName": "pozekluhsknrnwfj",
+                "status": "keeqlvjgzhagholp",
+                "statusMessage": "wdquwxjwktbncgfx",
+                "totalServerGroups": 0,
+                "totalServers": 0
+            },
+            {
+                "appId": "tfhakkqsbwzyxvgx",
+                "creationTime": "gmsfivbdpmhihtsj",
+                "description": "vjpvvagfkhyiyigk",
+                "importedAppId": "xdbrhsiauggufgeo",
+                "lastModified": "mlftgqtebxtnkrrm",
+                "latestReplicationTime": "dgeimtythrgmarhx",
+                "launchConfigurationStatus": "njdxodmulukoepcv",
+                "launchDetails": {
+                    "latestLaunchTime": "iyxpzzkuyycxlnpo",
+                    "stackId": "deirqxtomycpzhqs",
+                    "stackName": "znrnswileezidsqt"
+                },
+                "launchStatus": "kiaoxqfuekduyeyb",
+                "launchStatusMessage": "yszsnjpuyulcykjh",
+                "name": "cmrpllvvnwlmnvwv",
+                "replicationConfigurationStatus": "putxbnsejvwdjtxm",
+                "replicationStatus": "uekakghrlipgxcca",
+                "replicationStatusMessage": "xfjtnomuzyejrstl",
+                "roleName": "udztqmaxldmbpswv",
+                "status": "rlxmvprkddmcdlqz",
+                "statusMessage": "ywluyjwfnpzlhsnk",
+                "totalServerGroups": 0,
+                "totalServers": 0
+            },
+            {
+                "appId": "byqilewktdkmmizt",
+                "creationTime": "wkuzoddtxmogrfvj",
+                "description": "qdlhcpxwykprdmgv",
+                "importedAppId": "jkhnkljhuljngwkt",
+                "lastModified": "xhsgzmjzcvuavuce",
+                "latestReplicationTime": "thplzyxqwxxrdbor",
+                "launchConfigurationStatus": "znlgudeogppnmibo",
+                "launchDetails": {
+                    "latestLaunchTime": "gsuqrtmuopfcwgie",
+                    "stackId": "mxyzwmntdywtjrkq",
+                    "stackName": "aktpxrjytgqhezyt"
+                },
+                "launchStatus": "ksjfrucpelsevmoc",
+                "launchStatusMessage": "zmoxfvznhtzhrpwg",
+                "name": "eidmlajbajxiyotu",
+                "replicationConfigurationStatus": "qknmdjlseluyhyed",
+                "replicationStatus": "cinsxlanruahhuqn",
+                "replicationStatusMessage": "uixikwcadeqzvwaz",
+                "roleName": "qnmcohlmkbfjyybt",
+                "status": "qiqpqxoyldqohoqd",
+                "statusMessage": "ogpurpcztdyfyjtr",
+                "totalServerGroups": 0,
+                "totalServers": 0
+            },
+            {
+                "appId": "bsneooluunppbgma",
+                "creationTime": "wwbjymvfnarixksv",
+                "description": "gmctmaqcqggocicz",
+                "importedAppId": "huhxdefsstrrgfex",
+                "lastModified": "aluakfwqrzguffmm",
+                "latestReplicationTime": "vifzqnrrtaskcuai",
+                "launchConfigurationStatus": "dydvtbggusmmpblz",
+                "launchDetails": {
+                    "latestLaunchTime": "pdeunwzjwtgssnov",
+                    "stackId": "bwsssbbqjesllrhw",
+                    "stackName": "cjvvxewybwtoqwcv"
+                },
+                "launchStatus": "jizaqpsvzkjexbui",
+                "launchStatusMessage": "feonzyklcbmunwid",
+                "name": "voevoxvnjxsylivx",
+                "replicationConfigurationStatus": "bowyqfjayiprrcsk",
+                "replicationStatus": "hqxhdqcgkjjnwvpj",
+                "replicationStatusMessage": "vzjcokoqshuimkhv",
+                "roleName": "ayyokwdybakdykrg",
+                "status": "bzlfmimsdutxyoav",
+                "statusMessage": "uqhricvhzoucshcq",
+                "totalServerGroups": 0,
+                "totalServers": 0
+            },
+            {
+                "appId": "eltrvswjagreuhwp",
+                "creationTime": "jighzzoxkifuepma",
+                "description": "vhtetmeufdhsfrnb",
+                "importedAppId": "xxozumypnyrklznd",
+                "lastModified": "mllpdihhfgtpkudx",
+                "latestReplicationTime": "mocgvmeltzmkgkmn",
+                "launchConfigurationStatus": "wxtmkexygdqniedc",
+                "launchDetails": {
+                    "latestLaunchTime": "xrpvtrnbeymcbcdn",
+                    "stackId": "zpwjblwkwjyjbbrn",
+                    "stackName": "riailouqrjsnwrbk"
+                },
+                "launchStatus": "uwllkqbbtfppfegx",
+                "launchStatusMessage": "gvxdlklqnbankyvp",
+                "name": "cgncoppdpzmtuajo",
+                "replicationConfigurationStatus": "tbftqqzasmvruphx",
+                "replicationStatus": "bmxpqjeqomjfkyqn",
+                "replicationStatusMessage": "dmijeqfmawnyqpcj",
+                "roleName": "jsqujsorfoximvpa",
+                "status": "yjqqbhqilnajttid",
+                "statusMessage": "bqjxtzlhukwproap",
+                "totalServerGroups": 0,
+                "totalServers": 0
+            },
+            {
+                "appId": "gqrnxjawqbpczwud",
+                "creationTime": "teaakedvrryzmbec",
+                "description": "yffambcxvuoybvqd",
+                "importedAppId": "bzjsqpoudqaxsizl",
+                "lastModified": "wzektojpfwvgvrqu",
+                "latestReplicationTime": "sipzhlatoqpwvivs",
+                "launchConfigurationStatus": "jrmwdhxsdcgqivyg",
+                "launchDetails": {
+                    "latestLaunchTime": "rcdpfgmiybmmryya",
+                    "stackId": "nmczqhtedzpworty",
+                    "stackName": "ttvituqkdxozlsvm"
+                },
+                "launchStatus": "fojpgpfyvkechiiq",
+                "launchStatusMessage": "ynnlkdkpbukcvift",
+                "name": "oswjpqwadtczzkuy",
+                "replicationConfigurationStatus": "vtplywgtljtroaow",
+                "replicationStatus": "xzbrdjqdrxuxtrld",
+                "replicationStatusMessage": "ujycjbpxufpdeujm",
+                "roleName": "sflxjsngcyafphpe",
+                "status": "coetkqjntikuoelk",
+                "statusMessage": "rtfyuxypmphqolga",
+                "totalServerGroups": 0,
+                "totalServers": 0
+            },
+            {
+                "appId": "vpdhametvmsqqxng",
+                "creationTime": "ajlfsellriepaqol",
+                "description": "vcjowlamtomsfwro",
+                "importedAppId": "bfzwktqdusribguj",
+                "lastModified": "bkgqblrfljrnulim",
+                "latestReplicationTime": "mcskzuqsxceoqfky",
+                "launchConfigurationStatus": "ylgwdgobnokyiyth",
+                "launchDetails": {
+                    "latestLaunchTime": "lcqyeoebkyiyzzxm",
+                    "stackId": "fipiannouhansxuh",
+                    "stackName": "hghibwrwqwxptgbv"
+                },
+                "launchStatus": "zzuobywrwprjdhip",
+                "launchStatusMessage": "gaavejoogkrignno",
+                "name": "czukdecekzhiszoo",
+                "replicationConfigurationStatus": "fvarfelsxrlwyhht",
+                "replicationStatus": "kltdmbfdjnjkbwdo",
+                "replicationStatusMessage": "fnawamopqqydkyen",
+                "roleName": "gkgcqsxvjzahvfyu",
+                "status": "rcgrayodacnnfkod",
+                "statusMessage": "tubcswrgdolasdhe",
+                "totalServerGroups": 0,
+                "totalServers": 0
+            }
+        ],
+        "result_key": "apps"
+    },
+    "meta": {
+        "start": 1711116641.442441,
+        "end": 1711116649.464304,
+        "duration": 8.021874904632568,
+        "service": "sms",
+        "type": "apps"
+    }
+}

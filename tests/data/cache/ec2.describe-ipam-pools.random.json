@@ -1,0 +1,412 @@
+[
+    {
+        "AddressFamily": "chkzlrbgzqkswrti",
+        "AllocationDefaultNetmaskLength": 0,
+        "AllocationMaxNetmaskLength": 0,
+        "AllocationMinNetmaskLength": 0,
+        "AllocationResourceTags": [
+            {
+                "Key": "ctoysxflccxqwnnm",
+                "Value": "icgceuwtzbvmqbth"
+            }
+        ],
+        "AutoImport": true,
+        "AwsService": "hvswimhuxgnydzxu",
+        "Description": "gjetkivxlgnpymtd",
+        "IpamArn": "btfjsanwhlavpzee",
+        "IpamPoolArn": "fuilguftqknynlwo",
+        "IpamPoolId": "pyauxmyexfuarmha",
+        "IpamRegion": "pofskcaytmkojwfq",
+        "IpamScopeArn": "xaiktuvvxecbjmlm",
+        "IpamScopeType": "vicxqoudmwuibabk",
+        "Locale": "nsciizqgyhquulng",
+        "OwnerId": "dhuhdxbjbmtedpfl",
+        "PoolDepth": 0,
+        "PublicIpSource": "tizcxhjuluowehpf",
+        "PubliclyAdvertisable": true,
+        "SourceIpamPoolId": "lbnfkcyvpkmnxode",
+        "SourceResource": {
+            "ResourceId": "xpwrprxpwtidgjrd",
+            "ResourceOwner": "tgklmzanlrhbdawe",
+            "ResourceRegion": "xdrvscwurblgcijl",
+            "ResourceType": "ylqdyvgfciepivwc"
+        },
+        "State": "sygkowqcscenzelm",
+        "StateMessage": "gsbqtofvqkmsmker",
+        "Tags": [
+            {
+                "Key": "hkylxtebxaooseya",
+                "Value": "jncfjflgyonebydn"
+            }
+        ]
+    },
+    {
+        "AddressFamily": "rwbkpcajcyuwedwg",
+        "AllocationDefaultNetmaskLength": 0,
+        "AllocationMaxNetmaskLength": 0,
+        "AllocationMinNetmaskLength": 0,
+        "AllocationResourceTags": [
+            {
+                "Key": "nqqzlhafvjulalni",
+                "Value": "opyrlzannwwojfuo"
+            }
+        ],
+        "AutoImport": true,
+        "AwsService": "ncldaqizjfhvflhb",
+        "Description": "qzjqwzkrdblcaoob",
+        "IpamArn": "hrkgpppnmwhynkwv",
+        "IpamPoolArn": "aymnegdrinfaznqv",
+        "IpamPoolId": "acebzlqcymtqmqhy",
+        "IpamRegion": "urszsaglblfyvqij",
+        "IpamScopeArn": "rgcjcsvdvyvupplw",
+        "IpamScopeType": "nrfkjhllstpvmose",
+        "Locale": "zmocwpearxwqaqrr",
+        "OwnerId": "wckhvicxdjwlkufy",
+        "PoolDepth": 0,
+        "PublicIpSource": "mwqtakrwmvccqzmx",
+        "PubliclyAdvertisable": true,
+        "SourceIpamPoolId": "cntwvkprmuwqtwsk",
+        "SourceResource": {
+            "ResourceId": "xwwfbybuvizlswkw",
+            "ResourceOwner": "ttkurvuhctxlkinn",
+            "ResourceRegion": "btcleihyktntlltp",
+            "ResourceType": "iohxeuenqulavvag"
+        },
+        "State": "ufefecskvtclavos",
+        "StateMessage": "nhiusexjhksfubmo",
+        "Tags": [
+            {
+                "Key": "yomcwvakbutfawoo",
+                "Value": "ixhdtdkcendbdgxo"
+            }
+        ]
+    },
+    {
+        "AddressFamily": "vcnwetjffgujpeqq",
+        "AllocationDefaultNetmaskLength": 0,
+        "AllocationMaxNetmaskLength": 0,
+        "AllocationMinNetmaskLength": 0,
+        "AllocationResourceTags": [
+            {
+                "Key": "ykmbgqfabfbqewfp",
+                "Value": "zjvtsjyedudeccez"
+            }
+        ],
+        "AutoImport": true,
+        "AwsService": "uyxtjmgloyxreymr",
+        "Description": "szsklvoomibenger",
+        "IpamArn": "tprulxtndkrpmjpu",
+        "IpamPoolArn": "mavfrynrggjqyhxs",
+        "IpamPoolId": "ktsqhicxsjoewzlr",
+        "IpamRegion": "ktgqgvgnwhabzgoq",
+        "IpamScopeArn": "mgbqsdbhiavidivp",
+        "IpamScopeType": "zoamkfntjyjmbqxp",
+        "Locale": "qkfwxbqkgfhrdmrr",
+        "OwnerId": "veyaptwwhjlkjhno",
+        "PoolDepth": 0,
+        "PublicIpSource": "ioaglmupqlhxjoms",
+        "PubliclyAdvertisable": true,
+        "SourceIpamPoolId": "jngffvpucbubvsfj",
+        "SourceResource": {
+            "ResourceId": "dfwfbqcjsfvfhugw",
+            "ResourceOwner": "qdhgoexeuwjdpnjh",
+            "ResourceRegion": "hrgbkrubtlbhwplx",
+            "ResourceType": "teeymgylkjapyjie"
+        },
+        "State": "fqoxqncgwyshgmaj",
+        "StateMessage": "abvwqcostjakttqx",
+        "Tags": [
+            {
+                "Key": "qrfbfcopnfmobjnl",
+                "Value": "vsmdnljzmivnbkzf"
+            }
+        ]
+    },
+    {
+        "AddressFamily": "tuypirvfycwxugse",
+        "AllocationDefaultNetmaskLength": 0,
+        "AllocationMaxNetmaskLength": 0,
+        "AllocationMinNetmaskLength": 0,
+        "AllocationResourceTags": [
+            {
+                "Key": "enlqzvggfrikvgaj",
+                "Value": "lkftyvuhxnnchfiz"
+            }
+        ],
+        "AutoImport": true,
+        "AwsService": "jmqpvpmgguaphznb",
+        "Description": "txtgxqnfaytgxctq",
+        "IpamArn": "jyceguwnnfcylxuq",
+        "IpamPoolArn": "wfxverpismmrcygd",
+        "IpamPoolId": "qfusuzbrsfooxiop",
+        "IpamRegion": "wxknqmagkwuepnfw",
+        "IpamScopeArn": "jviwxvzvjpbumnmu",
+        "IpamScopeType": "gynxgripefhnhstb",
+        "Locale": "sqziyhhuzmoaahwn",
+        "OwnerId": "ddfaqwwedlticroo",
+        "PoolDepth": 0,
+        "PublicIpSource": "otqxyximkgsijejz",
+        "PubliclyAdvertisable": true,
+        "SourceIpamPoolId": "wednwrssoiakjoad",
+        "SourceResource": {
+            "ResourceId": "bakabnfhaajfypav",
+            "ResourceOwner": "gxbgrvldgnrommir",
+            "ResourceRegion": "pugxdzpfisovptra",
+            "ResourceType": "zmemjhdjhxxivpga"
+        },
+        "State": "ivsgrcoxewtwnxbd",
+        "StateMessage": "tidgfeevlriceuey",
+        "Tags": [
+            {
+                "Key": "jwohrzwevlofjods",
+                "Value": "gavogyenchsemazm"
+            }
+        ]
+    },
+    {
+        "AddressFamily": "hkaotntqglejncki",
+        "AllocationDefaultNetmaskLength": 0,
+        "AllocationMaxNetmaskLength": 0,
+        "AllocationMinNetmaskLength": 0,
+        "AllocationResourceTags": [
+            {
+                "Key": "vqrpvpzjkkbukyro",
+                "Value": "nauluxyzkrpxdfms"
+            }
+        ],
+        "AutoImport": true,
+        "AwsService": "owtztwarcfxbtugw",
+        "Description": "rzulsfwjzavheyun",
+        "IpamArn": "yhuisneqldaqoeor",
+        "IpamPoolArn": "lofsjrfqgxffrtzz",
+        "IpamPoolId": "jxzbdzqgzlpinous",
+        "IpamRegion": "cogtfmfmalteorjv",
+        "IpamScopeArn": "llggtzurpxjyqise",
+        "IpamScopeType": "ilmccoyknjehmcsf",
+        "Locale": "lbhdeixrwciwklgi",
+        "OwnerId": "puhkrjsloktbyvhb",
+        "PoolDepth": 0,
+        "PublicIpSource": "btcrctfgyevdweei",
+        "PubliclyAdvertisable": true,
+        "SourceIpamPoolId": "sxpsjqtuvhdttcax",
+        "SourceResource": {
+            "ResourceId": "khxpipmuatjbqzfs",
+            "ResourceOwner": "jszykrafjeywjjzh",
+            "ResourceRegion": "majcfmvhwxggyabj",
+            "ResourceType": "agajcxgjlvojarqp"
+        },
+        "State": "ktdaadbflvvzrkzi",
+        "StateMessage": "ynailfqzsuailxau",
+        "Tags": [
+            {
+                "Key": "lneznkiyhkvgskmn",
+                "Value": "yrjhsckisbkelnjf"
+            }
+        ]
+    },
+    {
+        "AddressFamily": "htkgbpsbqnxuqijd",
+        "AllocationDefaultNetmaskLength": 0,
+        "AllocationMaxNetmaskLength": 0,
+        "AllocationMinNetmaskLength": 0,
+        "AllocationResourceTags": [
+            {
+                "Key": "cdbxykrrldlazuyu",
+                "Value": "zsvsxelglfskgxog"
+            }
+        ],
+        "AutoImport": true,
+        "AwsService": "hxaxalmhbaklzaec",
+        "Description": "ttbgyeavgfjtxezk",
+        "IpamArn": "ajillhhbditxocum",
+        "IpamPoolArn": "zidqkwmoexjlppkf",
+        "IpamPoolId": "rzkxwuvsyhnfeqze",
+        "IpamRegion": "rjvimngzvvjqxmvn",
+        "IpamScopeArn": "akfblibsbjgjvpdm",
+        "IpamScopeType": "vnftnvohhdysrvei",
+        "Locale": "kzflqumlpawxqtdy",
+        "OwnerId": "cxtcybafbikkixke",
+        "PoolDepth": 0,
+        "PublicIpSource": "hbkwgllymqxgouym",
+        "PubliclyAdvertisable": true,
+        "SourceIpamPoolId": "hzrmwmpjfznvyoyk",
+        "SourceResource": {
+            "ResourceId": "ayffqmrrvniipanv",
+            "ResourceOwner": "twkxqebjrmwezswn",
+            "ResourceRegion": "dpqzzhwvblsqxyvd",
+            "ResourceType": "zvbdayoxsvwgizic"
+        },
+        "State": "zquozndnbhvknitu",
+        "StateMessage": "pevjzzjihdgqasyv",
+        "Tags": [
+            {
+                "Key": "liufhhegiklyiawt",
+                "Value": "wzdxvdhducktmjlb"
+            }
+        ]
+    },
+    {
+        "AddressFamily": "zygvuzlmoniduscz",
+        "AllocationDefaultNetmaskLength": 0,
+        "AllocationMaxNetmaskLength": 0,
+        "AllocationMinNetmaskLength": 0,
+        "AllocationResourceTags": [
+            {
+                "Key": "fozdwxbkuqxthczc",
+                "Value": "bugsnsupdadrpjlv"
+            }
+        ],
+        "AutoImport": true,
+        "AwsService": "mkhhynvspqvkivnd",
+        "Description": "htjrmbzbczebvrex",
+        "IpamArn": "xyhpeksqhbkebxpg",
+        "IpamPoolArn": "bnrrvrhghbfvpdcq",
+        "IpamPoolId": "nhoyquycwsyjptay",
+        "IpamRegion": "fxfgeooaythsunqe",
+        "IpamScopeArn": "bqmyqdehhsuexwde",
+        "IpamScopeType": "whewpagkakjvfmkn",
+        "Locale": "axvbpokfsohmmtfv",
+        "OwnerId": "ludpjqvoiantraha",
+        "PoolDepth": 0,
+        "PublicIpSource": "ucprlwwlymvmbknh",
+        "PubliclyAdvertisable": true,
+        "SourceIpamPoolId": "zukdwgiqrrfelssq",
+        "SourceResource": {
+            "ResourceId": "joekivrmzjccapvv",
+            "ResourceOwner": "iwtvlicpbkvxannb",
+            "ResourceRegion": "omgdsffusnbvjfar",
+            "ResourceType": "pgwknevurxnhmodx"
+        },
+        "State": "xnhiadfyuajksiix",
+        "StateMessage": "rpaxzmlygalyaodo",
+        "Tags": [
+            {
+                "Key": "keyxieielwvckpfk",
+                "Value": "rnxzfoskatrycpow"
+            }
+        ]
+    },
+    {
+        "AddressFamily": "zwijdipdzofyblrw",
+        "AllocationDefaultNetmaskLength": 0,
+        "AllocationMaxNetmaskLength": 0,
+        "AllocationMinNetmaskLength": 0,
+        "AllocationResourceTags": [
+            {
+                "Key": "xsyhewrmzszhcaqd",
+                "Value": "ccyxwsvwjhrifetd"
+            }
+        ],
+        "AutoImport": true,
+        "AwsService": "knlwwquyiqobuxco",
+        "Description": "fyxmbqldlraeqwke",
+        "IpamArn": "wapzxvhrpfpasmwj",
+        "IpamPoolArn": "ojnfdwalecpgukuu",
+        "IpamPoolId": "jqxzmmdezcynyvqi",
+        "IpamRegion": "aqrtkdcuzuupkutp",
+        "IpamScopeArn": "lrbgslkxjojufavl",
+        "IpamScopeType": "qmsilutcxthtsjnk",
+        "Locale": "odtmkatktlmawrlp",
+        "OwnerId": "dgehjgiwqdhmtovm",
+        "PoolDepth": 0,
+        "PublicIpSource": "zbdiqexbfgpcspfg",
+        "PubliclyAdvertisable": true,
+        "SourceIpamPoolId": "inriqouydwwgkbyl",
+        "SourceResource": {
+            "ResourceId": "vwdzrzsnsvsehxsv",
+            "ResourceOwner": "axhdudkllwczvjnr",
+            "ResourceRegion": "yvslsotvvbkysytm",
+            "ResourceType": "grabwxstxyscsjqu"
+        },
+        "State": "rzoenlnlqepnxpzk",
+        "StateMessage": "bwyuwflnwfyazjlu",
+        "Tags": [
+            {
+                "Key": "xajsnvysghwhytcr",
+                "Value": "rzlmhtgdvzrlnocs"
+            }
+        ]
+    },
+    {
+        "AddressFamily": "xaphfywykhxubqpr",
+        "AllocationDefaultNetmaskLength": 0,
+        "AllocationMaxNetmaskLength": 0,
+        "AllocationMinNetmaskLength": 0,
+        "AllocationResourceTags": [
+            {
+                "Key": "tjuueyfdbngtlslc",
+                "Value": "sisimfaxgwesitqq"
+            }
+        ],
+        "AutoImport": true,
+        "AwsService": "zprvrwokeqonahsz",
+        "Description": "tferylelrwtjypga",
+        "IpamArn": "xgphobmeelxsuust",
+        "IpamPoolArn": "wravwvqtslacxtxe",
+        "IpamPoolId": "zutxrjhkdhieckme",
+        "IpamRegion": "jaofaufvidzntjur",
+        "IpamScopeArn": "dcknbbpeprsvhgiy",
+        "IpamScopeType": "bmderjvldsdsyiqq",
+        "Locale": "hkdmjvmjrstrmbiu",
+        "OwnerId": "hsohylvhodakcwtl",
+        "PoolDepth": 0,
+        "PublicIpSource": "swhgyrfyxvzvpwdu",
+        "PubliclyAdvertisable": true,
+        "SourceIpamPoolId": "wklziwqpxowznbqh",
+        "SourceResource": {
+            "ResourceId": "kvnausmqjbdunexk",
+            "ResourceOwner": "qotljtdubzlwgmjs",
+            "ResourceRegion": "varnklrxudukpkog",
+            "ResourceType": "szqmonesupbcnusn"
+        },
+        "State": "gczamkoazfskgzgi",
+        "StateMessage": "grhjmkiidcgefkou",
+        "Tags": [
+            {
+                "Key": "pwwrppeosxrejuzl",
+                "Value": "nlmrqmvnaoeqbqii"
+            }
+        ]
+    },
+    {
+        "AddressFamily": "hajqbtgxdmdkyzjo",
+        "AllocationDefaultNetmaskLength": 0,
+        "AllocationMaxNetmaskLength": 0,
+        "AllocationMinNetmaskLength": 0,
+        "AllocationResourceTags": [
+            {
+                "Key": "lpgxbambrysvvsvb",
+                "Value": "vdwvefotcozuwrcs"
+            }
+        ],
+        "AutoImport": true,
+        "AwsService": "xkjimzgnwrxfserb",
+        "Description": "xrgyoftxfrmluvmi",
+        "IpamArn": "dyddhpwwteyijwri",
+        "IpamPoolArn": "zglruifhgumijqll",
+        "IpamPoolId": "cjklrcwsjemxkrvf",
+        "IpamRegion": "qzkqfrdpufvldnim",
+        "IpamScopeArn": "cjusxozmllscopyw",
+        "IpamScopeType": "yfhjbpntxqselebf",
+        "Locale": "bwvxjtcbufujflxr",
+        "OwnerId": "dalgwcuxaamndzlw",
+        "PoolDepth": 0,
+        "PublicIpSource": "aowxykmmjxdikqam",
+        "PubliclyAdvertisable": true,
+        "SourceIpamPoolId": "hjkrkfyddrncfpyp",
+        "SourceResource": {
+            "ResourceId": "oqpqwrazvcbtbamo",
+            "ResourceOwner": "nlvehzydocldjgxn",
+            "ResourceRegion": "dsnnnevgrgxtwmsz",
+            "ResourceType": "lkhjdyaeliawgqqw"
+        },
+        "State": "nskfjbsgtkybboaw",
+        "StateMessage": "kamievfveeynnppw",
+        "Tags": [
+            {
+                "Key": "asavuwxcwtusfayw",
+                "Value": "ckvoiyjlewtygckr"
+            }
+        ]
+    }
+]

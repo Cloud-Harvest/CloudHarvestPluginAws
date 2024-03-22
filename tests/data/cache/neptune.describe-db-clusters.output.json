@@ -1,0 +1,1082 @@
+{
+    "input": {
+        "template": {
+            "DBClusterIdentifier": "",
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxRecords": 0,
+            "Marker": ""
+        },
+        "required": [],
+        "md5": "e2990bf17afa1400a70a5b6664d0913a",
+        "boto_command": "describe_db_clusters",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "AllocatedStorage": 0,
+                "AvailabilityZones": [
+                    "String"
+                ],
+                "BackupRetentionPeriod": 0,
+                "CharacterSetName": "CharacterSetName",
+                "DatabaseName": "DatabaseName",
+                "DBClusterIdentifier": "DBClusterIdentifier",
+                "DBClusterParameterGroup": "DBClusterParameterGroup",
+                "DBSubnetGroup": "DBSubnetGroup",
+                "Status": "Status",
+                "PercentProgress": "PercentProgress",
+                "EarliestRestorableTime": "1970-01-01T00:00:00",
+                "Endpoint": "Endpoint",
+                "ReaderEndpoint": "ReaderEndpoint",
+                "MultiAZ": true,
+                "Engine": "Engine",
+                "EngineVersion": "EngineVersion",
+                "LatestRestorableTime": "1970-01-01T00:00:00",
+                "Port": 0,
+                "MasterUsername": "MasterUsername",
+                "DBClusterOptionGroupMemberships": [
+                    {
+                        "DBClusterOptionGroupName": "DBClusterOptionGroupName",
+                        "Status": "Status"
+                    }
+                ],
+                "PreferredBackupWindow": "PreferredBackupWindow",
+                "PreferredMaintenanceWindow": "PreferredMaintenanceWindow",
+                "ReplicationSourceIdentifier": "ReplicationSourceIdentifier",
+                "ReadReplicaIdentifiers": [
+                    "String"
+                ],
+                "DBClusterMembers": [
+                    {
+                        "DBInstanceIdentifier": "DBInstanceIdentifier",
+                        "IsClusterWriter": true,
+                        "DBClusterParameterGroupStatus": "DBClusterParameterGroupStatus",
+                        "PromotionTier": 0
+                    }
+                ],
+                "VpcSecurityGroups": [
+                    {
+                        "VpcSecurityGroupId": "VpcSecurityGroupId",
+                        "Status": "Status"
+                    }
+                ],
+                "HostedZoneId": "HostedZoneId",
+                "StorageEncrypted": true,
+                "KmsKeyId": "KmsKeyId",
+                "DbClusterResourceId": "DbClusterResourceId",
+                "DBClusterArn": "DBClusterArn",
+                "AssociatedRoles": [
+                    {
+                        "RoleArn": "RoleArn",
+                        "Status": "Status",
+                        "FeatureName": "FeatureName"
+                    }
+                ],
+                "IAMDatabaseAuthenticationEnabled": true,
+                "CloneGroupId": "CloneGroupId",
+                "ClusterCreateTime": "1970-01-01T00:00:00",
+                "CopyTagsToSnapshot": true,
+                "EnabledCloudwatchLogsExports": [
+                    "String"
+                ],
+                "PendingModifiedValues": {
+                    "PendingCloudwatchLogsExports": {
+                        "LogTypesToEnable": [
+                            "String"
+                        ],
+                        "LogTypesToDisable": [
+                            "String"
+                        ]
+                    },
+                    "DBClusterIdentifier": "DBClusterIdentifier",
+                    "IAMDatabaseAuthenticationEnabled": true,
+                    "EngineVersion": "EngineVersion",
+                    "BackupRetentionPeriod": 0,
+                    "StorageType": "StorageType",
+                    "AllocatedStorage": 0,
+                    "Iops": 0
+                },
+                "DeletionProtection": true,
+                "CrossAccountClone": true,
+                "AutomaticRestartTime": "1970-01-01T00:00:00",
+                "ServerlessV2ScalingConfiguration": {
+                    "MinCapacity": 0.0,
+                    "MaxCapacity": 0.0
+                },
+                "GlobalClusterIdentifier": "GlobalClusterIdentifier",
+                "IOOptimizedNextAllowedModificationTime": "1970-01-01T00:00:00",
+                "StorageType": "StorageType"
+            }
+        ],
+        "required": [],
+        "md5": "eb8d672aee65db21ba51ac65c28a06af",
+        "randomized": [
+            {
+                "AllocatedStorage": 0,
+                "AssociatedRoles": [
+                    {
+                        "FeatureName": "gxukcytmvoahuqsy",
+                        "RoleArn": "aiqmgjhdyruoqyjm",
+                        "Status": "vwbqxljyuaiglojh"
+                    }
+                ],
+                "AutomaticRestartTime": "jgpbrumswrpgvluz",
+                "AvailabilityZones": [
+                    "jvvubbhblhcwdghh"
+                ],
+                "BackupRetentionPeriod": 0,
+                "CharacterSetName": "fkvjtkeqscpeupkj",
+                "CloneGroupId": "qkfxeieihsqafjmn",
+                "ClusterCreateTime": "hzikmbqhrpnnrvwr",
+                "CopyTagsToSnapshot": true,
+                "CrossAccountClone": true,
+                "DBClusterArn": "xpjcbvxeovcqhctq",
+                "DBClusterIdentifier": "ixngcwwlmpmrjvtf",
+                "DBClusterMembers": [
+                    {
+                        "DBClusterParameterGroupStatus": "ggnpjwkahfwdprho",
+                        "DBInstanceIdentifier": "vyiroggkovxdynyy",
+                        "IsClusterWriter": true,
+                        "PromotionTier": 0
+                    }
+                ],
+                "DBClusterOptionGroupMemberships": [
+                    {
+                        "DBClusterOptionGroupName": "jjqzrpixisnacbra",
+                        "Status": "jbfqllcvsgeganmv"
+                    }
+                ],
+                "DBClusterParameterGroup": "imexymlhocknursh",
+                "DBSubnetGroup": "tzyqfgevzkuccmrp",
+                "DatabaseName": "envgwfijvutgusor",
+                "DbClusterResourceId": "azmelzjmfidcvbjb",
+                "DeletionProtection": true,
+                "EarliestRestorableTime": "cjsonxavrqzzanxw",
+                "EnabledCloudwatchLogsExports": [
+                    "oceqlxedoxilqtpk"
+                ],
+                "Endpoint": "tcpgcfyighlgjyrc",
+                "Engine": "pwvwyydoaxfjbnzv",
+                "EngineVersion": "owsgxbuixjvrilqw",
+                "GlobalClusterIdentifier": "jszeqcdtugdmsstp",
+                "HostedZoneId": "lfszevnibcajlqnu",
+                "IAMDatabaseAuthenticationEnabled": true,
+                "IOOptimizedNextAllowedModificationTime": "aulbfpdwtloddrgg",
+                "KmsKeyId": "qlqoamvlmkohmaub",
+                "LatestRestorableTime": "dgfwbscgalxbnrgs",
+                "MasterUsername": "jklnnhmlbhupzmrz",
+                "MultiAZ": true,
+                "PendingModifiedValues": {
+                    "AllocatedStorage": 0,
+                    "BackupRetentionPeriod": 0,
+                    "DBClusterIdentifier": "oddlkvgezjqwtzrl",
+                    "EngineVersion": "hshyfudzglncabci",
+                    "IAMDatabaseAuthenticationEnabled": true,
+                    "Iops": 0,
+                    "PendingCloudwatchLogsExports": {
+                        "LogTypesToDisable": [
+                            "fjbzulqrucubqqcn"
+                        ],
+                        "LogTypesToEnable": [
+                            "tgngxmwiygguxniz"
+                        ]
+                    },
+                    "StorageType": "ymndmnxtwclhvelk"
+                },
+                "PercentProgress": "mnlbsdtcafwhgkha",
+                "Port": 0,
+                "PreferredBackupWindow": "vurwvbvljxoqxbdw",
+                "PreferredMaintenanceWindow": "hzvxclxqqrympjnz",
+                "ReadReplicaIdentifiers": [
+                    "sewgpvuqwrwioclt"
+                ],
+                "ReaderEndpoint": "nmyokddfzswehscl",
+                "ReplicationSourceIdentifier": "xkaystwyrrofgxqr",
+                "ServerlessV2ScalingConfiguration": {
+                    "MaxCapacity": 0.0,
+                    "MinCapacity": 0.0
+                },
+                "Status": "vkwcjzaunurnllsm",
+                "StorageEncrypted": true,
+                "StorageType": "wwfgxwmyllpygmqt",
+                "VpcSecurityGroups": [
+                    {
+                        "Status": "ayqfwqmvwqjroybv",
+                        "VpcSecurityGroupId": "ghuifchucbasfqjf"
+                    }
+                ]
+            },
+            {
+                "AllocatedStorage": 0,
+                "AssociatedRoles": [
+                    {
+                        "FeatureName": "myqyryjvkfwatwed",
+                        "RoleArn": "dmpftmwjbtgwwrre",
+                        "Status": "gctasabvypycxgwb"
+                    }
+                ],
+                "AutomaticRestartTime": "pqbmnljagaepuzyq",
+                "AvailabilityZones": [
+                    "gbciapnaaawunfld"
+                ],
+                "BackupRetentionPeriod": 0,
+                "CharacterSetName": "wtaduwrbdjgncywt",
+                "CloneGroupId": "gcbrixjqckrieipa",
+                "ClusterCreateTime": "hqexwnfurzopwpoi",
+                "CopyTagsToSnapshot": true,
+                "CrossAccountClone": true,
+                "DBClusterArn": "yqnmhtrqpkcmanje",
+                "DBClusterIdentifier": "wwqzdksgxjfpgytq",
+                "DBClusterMembers": [
+                    {
+                        "DBClusterParameterGroupStatus": "ttolfogigjvpxpta",
+                        "DBInstanceIdentifier": "fxldztblicphyoiz",
+                        "IsClusterWriter": true,
+                        "PromotionTier": 0
+                    }
+                ],
+                "DBClusterOptionGroupMemberships": [
+                    {
+                        "DBClusterOptionGroupName": "ltdedjfzqdgjlcsn",
+                        "Status": "pdfuncsoifiydros"
+                    }
+                ],
+                "DBClusterParameterGroup": "opdzqrejtstoswfn",
+                "DBSubnetGroup": "ksyhgixwpbscbbjg",
+                "DatabaseName": "joqcyawmewhlpmvp",
+                "DbClusterResourceId": "tnysfpeqanrindkm",
+                "DeletionProtection": true,
+                "EarliestRestorableTime": "njmqnvtunncafmqo",
+                "EnabledCloudwatchLogsExports": [
+                    "ikafiejpxzjoykxu"
+                ],
+                "Endpoint": "ffxqrxpnjuadfcis",
+                "Engine": "pfpeecukpcmorlbf",
+                "EngineVersion": "jeiqiieityassiyz",
+                "GlobalClusterIdentifier": "wzpbqbeokyafliiw",
+                "HostedZoneId": "biqeuzbhjzrzldoe",
+                "IAMDatabaseAuthenticationEnabled": true,
+                "IOOptimizedNextAllowedModificationTime": "ejnkqdikyrotuijt",
+                "KmsKeyId": "vcvbpeatiagezzyw",
+                "LatestRestorableTime": "dmbmkoxqyfvddmsi",
+                "MasterUsername": "mqnycsnfclxqaprl",
+                "MultiAZ": true,
+                "PendingModifiedValues": {
+                    "AllocatedStorage": 0,
+                    "BackupRetentionPeriod": 0,
+                    "DBClusterIdentifier": "oarjcaopqfblpbvi",
+                    "EngineVersion": "ezlblheismqligwb",
+                    "IAMDatabaseAuthenticationEnabled": true,
+                    "Iops": 0,
+                    "PendingCloudwatchLogsExports": {
+                        "LogTypesToDisable": [
+                            "bpzbhiyptlwrzqsc"
+                        ],
+                        "LogTypesToEnable": [
+                            "frieqgdvxwavuzgf"
+                        ]
+                    },
+                    "StorageType": "kzhgihklmxjdsrsc"
+                },
+                "PercentProgress": "eifjkctqkqdhaadf",
+                "Port": 0,
+                "PreferredBackupWindow": "aintjgynotiqmlvc",
+                "PreferredMaintenanceWindow": "gtshzijbvoexgygt",
+                "ReadReplicaIdentifiers": [
+                    "phunpbqsihhruqrx"
+                ],
+                "ReaderEndpoint": "zubxkpguzpsihjbz",
+                "ReplicationSourceIdentifier": "kihrqczizujdvlmn",
+                "ServerlessV2ScalingConfiguration": {
+                    "MaxCapacity": 0.0,
+                    "MinCapacity": 0.0
+                },
+                "Status": "npzoqmxriwmooapu",
+                "StorageEncrypted": true,
+                "StorageType": "gahmoktvjtafipht",
+                "VpcSecurityGroups": [
+                    {
+                        "Status": "shzqxpjykvksazga",
+                        "VpcSecurityGroupId": "regwlnngatyyovpg"
+                    }
+                ]
+            },
+            {
+                "AllocatedStorage": 0,
+                "AssociatedRoles": [
+                    {
+                        "FeatureName": "zraeviwsftqfdtmy",
+                        "RoleArn": "bzljpidpcgogrtdh",
+                        "Status": "oxeccexlvcnenoxg"
+                    }
+                ],
+                "AutomaticRestartTime": "llxhwxzqkzofvunx",
+                "AvailabilityZones": [
+                    "qvbxwochrtmjkrba"
+                ],
+                "BackupRetentionPeriod": 0,
+                "CharacterSetName": "cawykfiiomtzmkod",
+                "CloneGroupId": "djkgvnqjvrmylnsg",
+                "ClusterCreateTime": "mcjeiefmfofdmkrt",
+                "CopyTagsToSnapshot": true,
+                "CrossAccountClone": true,
+                "DBClusterArn": "nczarpjqyxuhaadm",
+                "DBClusterIdentifier": "ghgqaelwwjjyyjse",
+                "DBClusterMembers": [
+                    {
+                        "DBClusterParameterGroupStatus": "szqrkgjgpcfxmvms",
+                        "DBInstanceIdentifier": "zwzumrxdlhnaydbs",
+                        "IsClusterWriter": true,
+                        "PromotionTier": 0
+                    }
+                ],
+                "DBClusterOptionGroupMemberships": [
+                    {
+                        "DBClusterOptionGroupName": "xmhrdggcpzznimau",
+                        "Status": "ewmtltokimqhaksv"
+                    }
+                ],
+                "DBClusterParameterGroup": "jqplmhhjcowwwfpt",
+                "DBSubnetGroup": "vlthktngnwzbeovz",
+                "DatabaseName": "sobfbipuvdxskqpt",
+                "DbClusterResourceId": "uabqxbwgvacbxyvq",
+                "DeletionProtection": true,
+                "EarliestRestorableTime": "fbpeduavjzwvbhpo",
+                "EnabledCloudwatchLogsExports": [
+                    "jlimypppbhiympyl"
+                ],
+                "Endpoint": "dbskuabmzwkitage",
+                "Engine": "ebfqkamnmfcvfxvm",
+                "EngineVersion": "zyvehirwxuychqaj",
+                "GlobalClusterIdentifier": "vrozodrmhencphiz",
+                "HostedZoneId": "mrzmgmcapcwtlwqm",
+                "IAMDatabaseAuthenticationEnabled": true,
+                "IOOptimizedNextAllowedModificationTime": "hulfahunfmxhttzc",
+                "KmsKeyId": "auxxvsbsqzjpqjhy",
+                "LatestRestorableTime": "kpxdqmnxvhwkqnjt",
+                "MasterUsername": "hvcitmuucohgrtxh",
+                "MultiAZ": true,
+                "PendingModifiedValues": {
+                    "AllocatedStorage": 0,
+                    "BackupRetentionPeriod": 0,
+                    "DBClusterIdentifier": "viqwbyjwixqaxudi",
+                    "EngineVersion": "leappmpqnqgkkxrh",
+                    "IAMDatabaseAuthenticationEnabled": true,
+                    "Iops": 0,
+                    "PendingCloudwatchLogsExports": {
+                        "LogTypesToDisable": [
+                            "qaknowxchdhrfatv"
+                        ],
+                        "LogTypesToEnable": [
+                            "jahikcnfynfnnizk"
+                        ]
+                    },
+                    "StorageType": "zaqpudjvsxqyymws"
+                },
+                "PercentProgress": "ifjzaeqwnhxwkjej",
+                "Port": 0,
+                "PreferredBackupWindow": "iyloobpwxfpubrwh",
+                "PreferredMaintenanceWindow": "xcscvvznttgzjmur",
+                "ReadReplicaIdentifiers": [
+                    "bfbdgrnstyerrwqz"
+                ],
+                "ReaderEndpoint": "bnmptmaucgwunwyr",
+                "ReplicationSourceIdentifier": "wzqownzjtywkwoqe",
+                "ServerlessV2ScalingConfiguration": {
+                    "MaxCapacity": 0.0,
+                    "MinCapacity": 0.0
+                },
+                "Status": "mmqwvqkfrupaedmh",
+                "StorageEncrypted": true,
+                "StorageType": "kshnoxupoeolulyr",
+                "VpcSecurityGroups": [
+                    {
+                        "Status": "ujmgshmlxyrwvvxt",
+                        "VpcSecurityGroupId": "dbncsvkwglehatbl"
+                    }
+                ]
+            },
+            {
+                "AllocatedStorage": 0,
+                "AssociatedRoles": [
+                    {
+                        "FeatureName": "jrrbpzugvvrypwpf",
+                        "RoleArn": "pvdvrmqpygeyfyob",
+                        "Status": "wscnsdxgsyfycsas"
+                    }
+                ],
+                "AutomaticRestartTime": "mlnfyxcblqxeycus",
+                "AvailabilityZones": [
+                    "gdnwwgvyfwqmpfcd"
+                ],
+                "BackupRetentionPeriod": 0,
+                "CharacterSetName": "hvxwgqtlqqwvgord",
+                "CloneGroupId": "yyfbueakztocmqba",
+                "ClusterCreateTime": "vcvluncpdmfvarhd",
+                "CopyTagsToSnapshot": true,
+                "CrossAccountClone": true,
+                "DBClusterArn": "nvkwjgttadihuxvy",
+                "DBClusterIdentifier": "lnlvxcwkcjomzqqp",
+                "DBClusterMembers": [
+                    {
+                        "DBClusterParameterGroupStatus": "fcardrnhuhmgxygc",
+                        "DBInstanceIdentifier": "rcngedbkirnqfwih",
+                        "IsClusterWriter": true,
+                        "PromotionTier": 0
+                    }
+                ],
+                "DBClusterOptionGroupMemberships": [
+                    {
+                        "DBClusterOptionGroupName": "fnlreddqmiwrhheb",
+                        "Status": "pvtieunjgjvssokg"
+                    }
+                ],
+                "DBClusterParameterGroup": "bupcgomddcgvfnse",
+                "DBSubnetGroup": "amxjbgmkgpcspoug",
+                "DatabaseName": "vbzfhiqlxueoppui",
+                "DbClusterResourceId": "muflmbwcmsqduvsd",
+                "DeletionProtection": true,
+                "EarliestRestorableTime": "srsbdmcdyweweqxv",
+                "EnabledCloudwatchLogsExports": [
+                    "yjflrtderndbpuve"
+                ],
+                "Endpoint": "eiuvcehqyqrlrdyy",
+                "Engine": "lbykcsxlwxbjhmxm",
+                "EngineVersion": "oehubuyxeuvaeamp",
+                "GlobalClusterIdentifier": "cbolxeznnxaandzn",
+                "HostedZoneId": "zwpxahstmsdjcuzx",
+                "IAMDatabaseAuthenticationEnabled": true,
+                "IOOptimizedNextAllowedModificationTime": "fpatvmkojdrftkvz",
+                "KmsKeyId": "ihsghowsmmqvxhal",
+                "LatestRestorableTime": "jazkjtwggmkopiuu",
+                "MasterUsername": "awpvjwflvzhsyjju",
+                "MultiAZ": true,
+                "PendingModifiedValues": {
+                    "AllocatedStorage": 0,
+                    "BackupRetentionPeriod": 0,
+                    "DBClusterIdentifier": "vqgybsiekujsscrc",
+                    "EngineVersion": "egndgtbynzjifpsj",
+                    "IAMDatabaseAuthenticationEnabled": true,
+                    "Iops": 0,
+                    "PendingCloudwatchLogsExports": {
+                        "LogTypesToDisable": [
+                            "zhemiguesfluzdjv"
+                        ],
+                        "LogTypesToEnable": [
+                            "beqkuopkmoupqxie"
+                        ]
+                    },
+                    "StorageType": "odisktnffzhymkpc"
+                },
+                "PercentProgress": "nbzzsdthnskkmyku",
+                "Port": 0,
+                "PreferredBackupWindow": "osqksvxlicctdsnm",
+                "PreferredMaintenanceWindow": "oqrgcpdbiwugfani",
+                "ReadReplicaIdentifiers": [
+                    "xygafuvsztaofcap"
+                ],
+                "ReaderEndpoint": "mqbynzfcvfoqpwix",
+                "ReplicationSourceIdentifier": "vqxtlxyrlvehuuln",
+                "ServerlessV2ScalingConfiguration": {
+                    "MaxCapacity": 0.0,
+                    "MinCapacity": 0.0
+                },
+                "Status": "khsvsrcwavyyroqi",
+                "StorageEncrypted": true,
+                "StorageType": "gemrqynuajwewxfz",
+                "VpcSecurityGroups": [
+                    {
+                        "Status": "nyzwodhdxbhviowf",
+                        "VpcSecurityGroupId": "gmwieunuzzuydohh"
+                    }
+                ]
+            },
+            {
+                "AllocatedStorage": 0,
+                "AssociatedRoles": [
+                    {
+                        "FeatureName": "fdtrrcjtlznwblba",
+                        "RoleArn": "ooitxzwyzvojsmkg",
+                        "Status": "cdrafpxnqkcanzou"
+                    }
+                ],
+                "AutomaticRestartTime": "vescjuqgsvxopeqq",
+                "AvailabilityZones": [
+                    "wisgnlbtpnkgzjwf"
+                ],
+                "BackupRetentionPeriod": 0,
+                "CharacterSetName": "oyrddtaaspuoymks",
+                "CloneGroupId": "ewpaskseikewnazt",
+                "ClusterCreateTime": "znsuolwdqlyceqsr",
+                "CopyTagsToSnapshot": true,
+                "CrossAccountClone": true,
+                "DBClusterArn": "tabitdnqkhubixtd",
+                "DBClusterIdentifier": "vcchwxzryexwqdbu",
+                "DBClusterMembers": [
+                    {
+                        "DBClusterParameterGroupStatus": "lwjgkfpfefbomzve",
+                        "DBInstanceIdentifier": "juwvaulnmooekjjn",
+                        "IsClusterWriter": true,
+                        "PromotionTier": 0
+                    }
+                ],
+                "DBClusterOptionGroupMemberships": [
+                    {
+                        "DBClusterOptionGroupName": "qfnrvfjfqcnjoueh",
+                        "Status": "aovsimkmajegoptl"
+                    }
+                ],
+                "DBClusterParameterGroup": "qxkslcxzaaacsmai",
+                "DBSubnetGroup": "kcsiaokndvgisplb",
+                "DatabaseName": "tqdgphsymjybcbkw",
+                "DbClusterResourceId": "jukosvpsdnnyyrfp",
+                "DeletionProtection": true,
+                "EarliestRestorableTime": "cbtlkelktrlficvm",
+                "EnabledCloudwatchLogsExports": [
+                    "kaqestcftzgbgtlp"
+                ],
+                "Endpoint": "kichfenytthideme",
+                "Engine": "ornsijyhfhrwnckk",
+                "EngineVersion": "vbbwaddxmazyoixu",
+                "GlobalClusterIdentifier": "uyfahhyobqjrpodj",
+                "HostedZoneId": "vcvdpqxvigqvsczh",
+                "IAMDatabaseAuthenticationEnabled": true,
+                "IOOptimizedNextAllowedModificationTime": "hnvhjubbecztskjq",
+                "KmsKeyId": "pejpomgqpsdxsyxs",
+                "LatestRestorableTime": "yfrkvjvkuwiicsvc",
+                "MasterUsername": "kiwkpqiwtzdeijia",
+                "MultiAZ": true,
+                "PendingModifiedValues": {
+                    "AllocatedStorage": 0,
+                    "BackupRetentionPeriod": 0,
+                    "DBClusterIdentifier": "quzxjmcpyrkohrbw",
+                    "EngineVersion": "txvfuahwayhwjrug",
+                    "IAMDatabaseAuthenticationEnabled": true,
+                    "Iops": 0,
+                    "PendingCloudwatchLogsExports": {
+                        "LogTypesToDisable": [
+                            "nslhwujgtpvomzxh"
+                        ],
+                        "LogTypesToEnable": [
+                            "noxoeplgahcstvoj"
+                        ]
+                    },
+                    "StorageType": "mrraebxrldvhzctu"
+                },
+                "PercentProgress": "zyurbpixrynpcmor",
+                "Port": 0,
+                "PreferredBackupWindow": "egyffzofybhoewjh",
+                "PreferredMaintenanceWindow": "ggccxbuklfmuqgoo",
+                "ReadReplicaIdentifiers": [
+                    "xyxwhzhwabrdivis"
+                ],
+                "ReaderEndpoint": "vkotcgxlpgpvqxkd",
+                "ReplicationSourceIdentifier": "grokzwowiafwvehs",
+                "ServerlessV2ScalingConfiguration": {
+                    "MaxCapacity": 0.0,
+                    "MinCapacity": 0.0
+                },
+                "Status": "piooftnpebaktmai",
+                "StorageEncrypted": true,
+                "StorageType": "pgkbnzlhsmphdisr",
+                "VpcSecurityGroups": [
+                    {
+                        "Status": "atkkpgjzqknloveb",
+                        "VpcSecurityGroupId": "ljofzuunotzmmwrb"
+                    }
+                ]
+            },
+            {
+                "AllocatedStorage": 0,
+                "AssociatedRoles": [
+                    {
+                        "FeatureName": "gnfrdynzaboshpva",
+                        "RoleArn": "djayjixcubnhaqcu",
+                        "Status": "sznhntqairllknti"
+                    }
+                ],
+                "AutomaticRestartTime": "huhphcsxtrckugvi",
+                "AvailabilityZones": [
+                    "duyexindhktwzeda"
+                ],
+                "BackupRetentionPeriod": 0,
+                "CharacterSetName": "eawfyddopyfsadvr",
+                "CloneGroupId": "osfjzudtvykqqwup",
+                "ClusterCreateTime": "zoewaqqofjgalyyr",
+                "CopyTagsToSnapshot": true,
+                "CrossAccountClone": true,
+                "DBClusterArn": "gwphyatrbvqxyyqj",
+                "DBClusterIdentifier": "ffzvtlftogzeskpc",
+                "DBClusterMembers": [
+                    {
+                        "DBClusterParameterGroupStatus": "mjcbdikgyjmzjdrj",
+                        "DBInstanceIdentifier": "ffegsknzqaeqvucq",
+                        "IsClusterWriter": true,
+                        "PromotionTier": 0
+                    }
+                ],
+                "DBClusterOptionGroupMemberships": [
+                    {
+                        "DBClusterOptionGroupName": "kuagsriykkelzsdo",
+                        "Status": "qjxlcrpkmtigcndr"
+                    }
+                ],
+                "DBClusterParameterGroup": "qbyvmfknepjlipss",
+                "DBSubnetGroup": "uryffaortkxejzta",
+                "DatabaseName": "wxrzdinlttdgjarp",
+                "DbClusterResourceId": "hqyuufjgxrqltirs",
+                "DeletionProtection": true,
+                "EarliestRestorableTime": "mcnamjwqhvvzxelf",
+                "EnabledCloudwatchLogsExports": [
+                    "ughpgnapoducnmrz"
+                ],
+                "Endpoint": "qdphhzolgpgcqcgu",
+                "Engine": "oggdlnbmkburvxgx",
+                "EngineVersion": "wemwklfjgolustnt",
+                "GlobalClusterIdentifier": "klxgrzezkhswghpe",
+                "HostedZoneId": "knjjpijpgjggqldp",
+                "IAMDatabaseAuthenticationEnabled": true,
+                "IOOptimizedNextAllowedModificationTime": "xoxgotncpbeigfeh",
+                "KmsKeyId": "efimsocbarjqnqqv",
+                "LatestRestorableTime": "dfhtgmtmchhphiir",
+                "MasterUsername": "nctcdudpxygajufd",
+                "MultiAZ": true,
+                "PendingModifiedValues": {
+                    "AllocatedStorage": 0,
+                    "BackupRetentionPeriod": 0,
+                    "DBClusterIdentifier": "oaggylngzdgdyonc",
+                    "EngineVersion": "rwpjjuahioqqcazb",
+                    "IAMDatabaseAuthenticationEnabled": true,
+                    "Iops": 0,
+                    "PendingCloudwatchLogsExports": {
+                        "LogTypesToDisable": [
+                            "crsyhjzdtasbmseu"
+                        ],
+                        "LogTypesToEnable": [
+                            "fahiewfsoudhkfvz"
+                        ]
+                    },
+                    "StorageType": "lbrhipqeehaziddy"
+                },
+                "PercentProgress": "clzeshtilbpwvmqj",
+                "Port": 0,
+                "PreferredBackupWindow": "olmzalimdocpbrra",
+                "PreferredMaintenanceWindow": "vsgkpmccujhruwyq",
+                "ReadReplicaIdentifiers": [
+                    "peqamholbehtuaxo"
+                ],
+                "ReaderEndpoint": "zzojiwvcbytbgamw",
+                "ReplicationSourceIdentifier": "xenknsqkazbwdxyh",
+                "ServerlessV2ScalingConfiguration": {
+                    "MaxCapacity": 0.0,
+                    "MinCapacity": 0.0
+                },
+                "Status": "xlbuoqykrbrlouzl",
+                "StorageEncrypted": true,
+                "StorageType": "fbiruasgcufcraqr",
+                "VpcSecurityGroups": [
+                    {
+                        "Status": "egmnxglabaplyley",
+                        "VpcSecurityGroupId": "igaklrrygdkyspzu"
+                    }
+                ]
+            },
+            {
+                "AllocatedStorage": 0,
+                "AssociatedRoles": [
+                    {
+                        "FeatureName": "zelogtjfglyczmsh",
+                        "RoleArn": "ujuxufympbuesggx",
+                        "Status": "fembsrkgvlxbgcjg"
+                    }
+                ],
+                "AutomaticRestartTime": "rmovkijwfggpnwnl",
+                "AvailabilityZones": [
+                    "vecvmvbxvmicuwra"
+                ],
+                "BackupRetentionPeriod": 0,
+                "CharacterSetName": "gyzdrcejnberuasa",
+                "CloneGroupId": "ajgvbogpkrvqmgao",
+                "ClusterCreateTime": "tayqpzyisjbdywup",
+                "CopyTagsToSnapshot": true,
+                "CrossAccountClone": true,
+                "DBClusterArn": "qkfeqewqsogzzdrs",
+                "DBClusterIdentifier": "hukfsnivsadvbiin",
+                "DBClusterMembers": [
+                    {
+                        "DBClusterParameterGroupStatus": "rshxydkwjwjswcbn",
+                        "DBInstanceIdentifier": "zlkvqlzqwsocxflq",
+                        "IsClusterWriter": true,
+                        "PromotionTier": 0
+                    }
+                ],
+                "DBClusterOptionGroupMemberships": [
+                    {
+                        "DBClusterOptionGroupName": "kfrhtgsqdacljahi",
+                        "Status": "zsvucwqlgvmfxyro"
+                    }
+                ],
+                "DBClusterParameterGroup": "uwybktyijjmsszzg",
+                "DBSubnetGroup": "xkmmdfvpxrwcxlaa",
+                "DatabaseName": "qqucowixqypscitx",
+                "DbClusterResourceId": "zbcfqxofkclfwyog",
+                "DeletionProtection": true,
+                "EarliestRestorableTime": "ykaigckfrwwuruun",
+                "EnabledCloudwatchLogsExports": [
+                    "ponelynanraxsedw"
+                ],
+                "Endpoint": "enggbrabfgaolclm",
+                "Engine": "foittnokthfxxbgz",
+                "EngineVersion": "qyeuigtygiqgxqre",
+                "GlobalClusterIdentifier": "utbpacyqbuzbwdkx",
+                "HostedZoneId": "tkqtsivnzrcckudq",
+                "IAMDatabaseAuthenticationEnabled": true,
+                "IOOptimizedNextAllowedModificationTime": "cbpxbqtbwedknerq",
+                "KmsKeyId": "dznuuwvrnzgliupa",
+                "LatestRestorableTime": "jlmqxqxavommkmra",
+                "MasterUsername": "ipaiwfrojfvtflea",
+                "MultiAZ": true,
+                "PendingModifiedValues": {
+                    "AllocatedStorage": 0,
+                    "BackupRetentionPeriod": 0,
+                    "DBClusterIdentifier": "lsufpztswneovuwb",
+                    "EngineVersion": "ogzffdjlbhypqdjv",
+                    "IAMDatabaseAuthenticationEnabled": true,
+                    "Iops": 0,
+                    "PendingCloudwatchLogsExports": {
+                        "LogTypesToDisable": [
+                            "gidgombwlycotijr"
+                        ],
+                        "LogTypesToEnable": [
+                            "ybehjdbigdttnibk"
+                        ]
+                    },
+                    "StorageType": "ptiftbqmnszmgdue"
+                },
+                "PercentProgress": "akvuvmrhdgqcfrtz",
+                "Port": 0,
+                "PreferredBackupWindow": "rebuetgboewxiazr",
+                "PreferredMaintenanceWindow": "uvzcvpbstatljzun",
+                "ReadReplicaIdentifiers": [
+                    "bagbsiszqxjapvgi"
+                ],
+                "ReaderEndpoint": "mfpmsyhqysblvsmo",
+                "ReplicationSourceIdentifier": "apeqezxqkgjpzlqg",
+                "ServerlessV2ScalingConfiguration": {
+                    "MaxCapacity": 0.0,
+                    "MinCapacity": 0.0
+                },
+                "Status": "pfykviiyxkklstct",
+                "StorageEncrypted": true,
+                "StorageType": "zcuqqvumskadlmue",
+                "VpcSecurityGroups": [
+                    {
+                        "Status": "joeltyfwdlsxkgqu",
+                        "VpcSecurityGroupId": "lycuwusjnpdrmbso"
+                    }
+                ]
+            },
+            {
+                "AllocatedStorage": 0,
+                "AssociatedRoles": [
+                    {
+                        "FeatureName": "hterlqiidpdxstch",
+                        "RoleArn": "enjxnwmrtxyjaxuj",
+                        "Status": "raxhjdsorocdwsoi"
+                    }
+                ],
+                "AutomaticRestartTime": "qmejdytxokqpeldx",
+                "AvailabilityZones": [
+                    "jghcqhseeldyfrsw"
+                ],
+                "BackupRetentionPeriod": 0,
+                "CharacterSetName": "gsukhpabhjmhbusa",
+                "CloneGroupId": "exffdkizocpesphn",
+                "ClusterCreateTime": "pqeleqtwtlkhnjuo",
+                "CopyTagsToSnapshot": true,
+                "CrossAccountClone": true,
+                "DBClusterArn": "xswcgzodybuzslta",
+                "DBClusterIdentifier": "lbmzbqvknwzmeqtd",
+                "DBClusterMembers": [
+                    {
+                        "DBClusterParameterGroupStatus": "jfmnhmudtmikgivq",
+                        "DBInstanceIdentifier": "zqtqqdtinonjanwd",
+                        "IsClusterWriter": true,
+                        "PromotionTier": 0
+                    }
+                ],
+                "DBClusterOptionGroupMemberships": [
+                    {
+                        "DBClusterOptionGroupName": "wzevtabzuftdjseb",
+                        "Status": "srbfnwakuhiqjxmo"
+                    }
+                ],
+                "DBClusterParameterGroup": "xchzuksqfonfgqez",
+                "DBSubnetGroup": "sblwelfhiahwetgv",
+                "DatabaseName": "fhzaaqqypnlaggur",
+                "DbClusterResourceId": "lcrcdegsccqymddt",
+                "DeletionProtection": true,
+                "EarliestRestorableTime": "pfkyxsflpskyqfpr",
+                "EnabledCloudwatchLogsExports": [
+                    "pvlsjeenbalgumgu"
+                ],
+                "Endpoint": "tlonwfkfpbjnqkdj",
+                "Engine": "lwnutgtuvrsdqwvl",
+                "EngineVersion": "xqqjeucopwojtusq",
+                "GlobalClusterIdentifier": "yxnocfxfwdohvjdb",
+                "HostedZoneId": "cgfhkvnxbczdtluz",
+                "IAMDatabaseAuthenticationEnabled": true,
+                "IOOptimizedNextAllowedModificationTime": "vwpwvhalbmbclxph",
+                "KmsKeyId": "dvkjfeqixuitlrbf",
+                "LatestRestorableTime": "htzuzjrhvngozxky",
+                "MasterUsername": "ilotwiwjkwwqzkle",
+                "MultiAZ": true,
+                "PendingModifiedValues": {
+                    "AllocatedStorage": 0,
+                    "BackupRetentionPeriod": 0,
+                    "DBClusterIdentifier": "zgbutlmunqnvlvrl",
+                    "EngineVersion": "jjdoipgdlsdyxwom",
+                    "IAMDatabaseAuthenticationEnabled": true,
+                    "Iops": 0,
+                    "PendingCloudwatchLogsExports": {
+                        "LogTypesToDisable": [
+                            "lnywejkfcqwrhdxv"
+                        ],
+                        "LogTypesToEnable": [
+                            "kdguyfgiplijqwwo"
+                        ]
+                    },
+                    "StorageType": "ozhxaukhhfrgmqdm"
+                },
+                "PercentProgress": "evjjpseldajjgzcq",
+                "Port": 0,
+                "PreferredBackupWindow": "nbxzhypgpeihaacf",
+                "PreferredMaintenanceWindow": "njigqeiaxqqiregm",
+                "ReadReplicaIdentifiers": [
+                    "wygpcwlwxijejrnj"
+                ],
+                "ReaderEndpoint": "nblmeienpqehjajq",
+                "ReplicationSourceIdentifier": "wosaydlwersvfzqk",
+                "ServerlessV2ScalingConfiguration": {
+                    "MaxCapacity": 0.0,
+                    "MinCapacity": 0.0
+                },
+                "Status": "xjrdovcdwsprhahl",
+                "StorageEncrypted": true,
+                "StorageType": "tvhsybikohngpwwp",
+                "VpcSecurityGroups": [
+                    {
+                        "Status": "hexsvdisnfjiswui",
+                        "VpcSecurityGroupId": "pjfxautdyydynvxs"
+                    }
+                ]
+            },
+            {
+                "AllocatedStorage": 0,
+                "AssociatedRoles": [
+                    {
+                        "FeatureName": "kqumuabutzgfzhqu",
+                        "RoleArn": "hpsnzijccjgfiolt",
+                        "Status": "xxowcriveydtvand"
+                    }
+                ],
+                "AutomaticRestartTime": "jogrsrnzoevvyzdr",
+                "AvailabilityZones": [
+                    "lgqfayexoeqvypoe"
+                ],
+                "BackupRetentionPeriod": 0,
+                "CharacterSetName": "oyfzrbvawrmddcqa",
+                "CloneGroupId": "dgealcvudblxlbkz",
+                "ClusterCreateTime": "zrkdopzinefznxvm",
+                "CopyTagsToSnapshot": true,
+                "CrossAccountClone": true,
+                "DBClusterArn": "spawpdoveqlxgijs",
+                "DBClusterIdentifier": "stuqtcqrblpxuygm",
+                "DBClusterMembers": [
+                    {
+                        "DBClusterParameterGroupStatus": "bwjwbimivboianmy",
+                        "DBInstanceIdentifier": "vszibzftawrpfsjs",
+                        "IsClusterWriter": true,
+                        "PromotionTier": 0
+                    }
+                ],
+                "DBClusterOptionGroupMemberships": [
+                    {
+                        "DBClusterOptionGroupName": "akhzvnyfxvberhwd",
+                        "Status": "tmfadjcngqjrynyr"
+                    }
+                ],
+                "DBClusterParameterGroup": "whnfhxgbwycbshvm",
+                "DBSubnetGroup": "csvsigjjjcohvwqz",
+                "DatabaseName": "jfmqorfhqxvvzljc",
+                "DbClusterResourceId": "qowznwigusoaoyza",
+                "DeletionProtection": true,
+                "EarliestRestorableTime": "eothwtpkwspjridd",
+                "EnabledCloudwatchLogsExports": [
+                    "eawwuupuinwczowm"
+                ],
+                "Endpoint": "lcwlksnmzcwmyppr",
+                "Engine": "ulurrehmvynysqcg",
+                "EngineVersion": "driiivurtpialeqx",
+                "GlobalClusterIdentifier": "mphpmvfclproygjt",
+                "HostedZoneId": "nbmpscbkswxkonpd",
+                "IAMDatabaseAuthenticationEnabled": true,
+                "IOOptimizedNextAllowedModificationTime": "dtjvbhjgayxmmsim",
+                "KmsKeyId": "woygnfyrldpqrjpv",
+                "LatestRestorableTime": "fpuarpodvyzkbrzp",
+                "MasterUsername": "nizfwbjpcisaooxg",
+                "MultiAZ": true,
+                "PendingModifiedValues": {
+                    "AllocatedStorage": 0,
+                    "BackupRetentionPeriod": 0,
+                    "DBClusterIdentifier": "qsulwbtaybwpoxtj",
+                    "EngineVersion": "obhpngguaqddmciz",
+                    "IAMDatabaseAuthenticationEnabled": true,
+                    "Iops": 0,
+                    "PendingCloudwatchLogsExports": {
+                        "LogTypesToDisable": [
+                            "ydlxyobgecydnhca"
+                        ],
+                        "LogTypesToEnable": [
+                            "ldfnddanvxvtnqya"
+                        ]
+                    },
+                    "StorageType": "twfrnaeeztliajwh"
+                },
+                "PercentProgress": "hxkwxtqlgsqvnjen",
+                "Port": 0,
+                "PreferredBackupWindow": "kpwsiutsfpegedbo",
+                "PreferredMaintenanceWindow": "quendudrlkuhjgrd",
+                "ReadReplicaIdentifiers": [
+                    "lpkmjulsdehdomyo"
+                ],
+                "ReaderEndpoint": "vsjpwbmcwvcudubz",
+                "ReplicationSourceIdentifier": "hqalrsgrxgtxtunt",
+                "ServerlessV2ScalingConfiguration": {
+                    "MaxCapacity": 0.0,
+                    "MinCapacity": 0.0
+                },
+                "Status": "pvfilgygmneqopbe",
+                "StorageEncrypted": true,
+                "StorageType": "rdvorxydtkftwaey",
+                "VpcSecurityGroups": [
+                    {
+                        "Status": "zyxwfwdoohhoyhxm",
+                        "VpcSecurityGroupId": "alnghisrcyrsofgl"
+                    }
+                ]
+            },
+            {
+                "AllocatedStorage": 0,
+                "AssociatedRoles": [
+                    {
+                        "FeatureName": "cwuuijcwpqvajibw",
+                        "RoleArn": "bfncylkndzfobaja",
+                        "Status": "npwcqnabueoofwvr"
+                    }
+                ],
+                "AutomaticRestartTime": "rltzazttwsltplps",
+                "AvailabilityZones": [
+                    "smmyrardfqbetauq"
+                ],
+                "BackupRetentionPeriod": 0,
+                "CharacterSetName": "mtvgiuauaglupyfs",
+                "CloneGroupId": "ehjlophsnamydzfs",
+                "ClusterCreateTime": "utbtbuwtnjppenvt",
+                "CopyTagsToSnapshot": true,
+                "CrossAccountClone": true,
+                "DBClusterArn": "boeseroibhgajrjl",
+                "DBClusterIdentifier": "mcwgukzlujiensod",
+                "DBClusterMembers": [
+                    {
+                        "DBClusterParameterGroupStatus": "juhyalhaqbjrqqqg",
+                        "DBInstanceIdentifier": "lsfudbxblfrytcyo",
+                        "IsClusterWriter": true,
+                        "PromotionTier": 0
+                    }
+                ],
+                "DBClusterOptionGroupMemberships": [
+                    {
+                        "DBClusterOptionGroupName": "xczgfurenjqyigyl",
+                        "Status": "syvyzlfmkgtakpqk"
+                    }
+                ],
+                "DBClusterParameterGroup": "czkwltaznarfnnzw",
+                "DBSubnetGroup": "docbonkmyfgmzrrq",
+                "DatabaseName": "hkxkyrucqmmijajt",
+                "DbClusterResourceId": "jmzczaaiwcksrucn",
+                "DeletionProtection": true,
+                "EarliestRestorableTime": "djwahvqnxtmcaabo",
+                "EnabledCloudwatchLogsExports": [
+                    "nrsvoshwvphivcfj"
+                ],
+                "Endpoint": "lkydqggfpkilpyrw",
+                "Engine": "mfjkbdemrylguoxg",
+                "EngineVersion": "hpnborpgcdxczrdr",
+                "GlobalClusterIdentifier": "qyhuzbeuksahzmhm",
+                "HostedZoneId": "glbiusmmpwnkypka",
+                "IAMDatabaseAuthenticationEnabled": true,
+                "IOOptimizedNextAllowedModificationTime": "qypgkubrgdeepubv",
+                "KmsKeyId": "lmdnltrdxnyrkpta",
+                "LatestRestorableTime": "ytrsdtbaxhjqgscv",
+                "MasterUsername": "jqfyuxnoxoryhoim",
+                "MultiAZ": true,
+                "PendingModifiedValues": {
+                    "AllocatedStorage": 0,
+                    "BackupRetentionPeriod": 0,
+                    "DBClusterIdentifier": "atgawoodrnqaqdci",
+                    "EngineVersion": "hhjuuykheoqgleyk",
+                    "IAMDatabaseAuthenticationEnabled": true,
+                    "Iops": 0,
+                    "PendingCloudwatchLogsExports": {
+                        "LogTypesToDisable": [
+                            "bhceuaundftrjqeo"
+                        ],
+                        "LogTypesToEnable": [
+                            "nkqobgfoelppzpgy"
+                        ]
+                    },
+                    "StorageType": "mytxukshnupelibq"
+                },
+                "PercentProgress": "ckpmdkgzcpozkfrv",
+                "Port": 0,
+                "PreferredBackupWindow": "xilvwutsmdkphjsa",
+                "PreferredMaintenanceWindow": "pkpmknmmddfnbujq",
+                "ReadReplicaIdentifiers": [
+                    "ujrrsdxftzayfstj"
+                ],
+                "ReaderEndpoint": "jhynxcecbiahljjz",
+                "ReplicationSourceIdentifier": "zgztnzvygxzwlqqv",
+                "ServerlessV2ScalingConfiguration": {
+                    "MaxCapacity": 0.0,
+                    "MinCapacity": 0.0
+                },
+                "Status": "yftbcvfdqafzmzig",
+                "StorageEncrypted": true,
+                "StorageType": "bnkngmhwgrffofsi",
+                "VpcSecurityGroups": [
+                    {
+                        "Status": "lcseoqqfpipbxopz",
+                        "VpcSecurityGroupId": "kpkmgfrdkdzidzgi"
+                    }
+                ]
+            }
+        ],
+        "result_key": "DBClusters"
+    },
+    "meta": {
+        "start": 1711116225.780809,
+        "end": 1711116232.151783,
+        "duration": 6.3709821701049805,
+        "service": "neptune",
+        "type": "db_clusters"
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "input": {
+        "template": {
+            "RegistryName": ""
+        },
+        "required": [],
+        "md5": "a0acf43857ae74b18599165b4107d9ef",
+        "boto_command": "get_resource_policy",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": "Policy",
+        "required": [],
+        "md5": "414ad1f1320841504108218ed1b11a61",
+        "randomized": [
+            "ivsapugpjksiczmt",
+            "esdjayjgrtnhktyx",
+            "yqiezqcsoplnbbjv",
+            "roevgzcuupptrrio",
+            "tgxjdalqsebmcjgy",
+            "ycdvyfwiqiccyxni",
+            "lfsbsqbmzzpbnvvk",
+            "jdtcbtozcgzxoewj",
+            "tlwkpojbjwdiqgqv",
+            "zawiawyvmkbafyvi"
+        ],
+        "result_key": "Policy"
+    },
+    "meta": {
+        "start": 1711116581.008434,
+        "end": 1711116587.211456,
+        "duration": 6.20303201675415,
+        "service": "schemas",
+        "type": null
+    }
+}

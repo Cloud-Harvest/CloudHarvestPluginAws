@@ -1,0 +1,61 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "9dece7f85fc1c3f944425b1f68a8e6e1",
+        "boto_command": "list_finding_aggregators",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "FindingAggregatorArn": "FindingAggregatorArn"
+            }
+        ],
+        "required": [],
+        "md5": "a248d0d6ac6d71087e079433c204b21f",
+        "randomized": [
+            {
+                "FindingAggregatorArn": "vyuhqsqbeytryanj"
+            },
+            {
+                "FindingAggregatorArn": "qdwbwpwbzpnvvmwk"
+            },
+            {
+                "FindingAggregatorArn": "gecifdximqnjquuf"
+            },
+            {
+                "FindingAggregatorArn": "numktikqrbuievzs"
+            },
+            {
+                "FindingAggregatorArn": "rqvfptflhtuvzqpt"
+            },
+            {
+                "FindingAggregatorArn": "ajnkrynsmkakhmab"
+            },
+            {
+                "FindingAggregatorArn": "kdkfdufwksshnqfb"
+            },
+            {
+                "FindingAggregatorArn": "hysoccbfnrtlhubq"
+            },
+            {
+                "FindingAggregatorArn": "tmpkgsgdnhlngzly"
+            },
+            {
+                "FindingAggregatorArn": "bijumsgwaclrvepq"
+            }
+        ],
+        "result_key": "FindingAggregators"
+    },
+    "meta": {
+        "start": 1711116590.701659,
+        "end": 1711116596.820008,
+        "duration": 6.118359088897705,
+        "service": "securityhub",
+        "type": "finding_aggregators"
+    }
+}

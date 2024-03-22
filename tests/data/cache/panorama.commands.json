@@ -1,0 +1,21 @@
+[
+    "panorama.describe-application-instance",
+    "panorama.describe-application-instance-details",
+    "panorama.describe-device",
+    "panorama.describe-device-job",
+    "panorama.describe-node",
+    "panorama.describe-node-from-template-job",
+    "panorama.describe-package",
+    "panorama.describe-package-import-job",
+    "panorama.describe-package-version",
+    "panorama.list-application-instance-dependencies",
+    "panorama.list-application-instance-node-instances",
+    "panorama.list-application-instances",
+    "panorama.list-devices",
+    "panorama.list-devices-jobs",
+    "panorama.list-node-from-template-jobs",
+    "panorama.list-nodes",
+    "panorama.list-package-import-jobs",
+    "panorama.list-packages",
+    "panorama.list-tags-for-resource"
+]

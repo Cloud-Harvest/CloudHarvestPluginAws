@@ -1,0 +1,163 @@
+{
+    "input": {
+        "template": {
+            "exportIds": [
+                ""
+            ],
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "required": [],
+        "md5": "b7c1f1e169d510421b389a027dcc2db0",
+        "boto_command": "describe_continuous_exports",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "exportId": "exportId",
+                "status": "status",
+                "statusDetail": "statusDetail",
+                "s3Bucket": "s3Bucket",
+                "startTime": "1970-01-01T00:00:00",
+                "stopTime": "1970-01-01T00:00:00",
+                "dataSource": "dataSource",
+                "schemaStorageConfig": {
+                    "KeyName": ""
+                }
+            }
+        ],
+        "required": [],
+        "md5": "ab22b232529192093b637d64f5af8c35",
+        "randomized": [
+            {
+                "dataSource": "zudlgzawqcewedjk",
+                "exportId": "bmqbindphhajgeuh",
+                "s3Bucket": "hualuvktchnwdbdt",
+                "schemaStorageConfig": {
+                    "KeyName": "gsbmsffxcnbyvgym"
+                },
+                "startTime": "dqculgjxwrqkcdfe",
+                "status": "ddkxigjcikyyinla",
+                "statusDetail": "grkkgnqkwbjhkhyw",
+                "stopTime": "zrpuwyzoxktfqdhh"
+            },
+            {
+                "dataSource": "mxikhhwynyjnfsjo",
+                "exportId": "zogyctfebjhufrys",
+                "s3Bucket": "ukbziriszruswtch",
+                "schemaStorageConfig": {
+                    "KeyName": "xaolopvwgwajdmuj"
+                },
+                "startTime": "flpftzvmhxpasrbr",
+                "status": "vmqofjwfgemkewuu",
+                "statusDetail": "xamaduxjazwflvgk",
+                "stopTime": "xejpuxinzpdbjmtv"
+            },
+            {
+                "dataSource": "hhzlbdliixdgpjuq",
+                "exportId": "lewepjhxitofhyiq",
+                "s3Bucket": "mklbfychishyjfbu",
+                "schemaStorageConfig": {
+                    "KeyName": "tacgimebfyawlbab"
+                },
+                "startTime": "ggcclvpcfdkzypfs",
+                "status": "wwiirfcleaijiwnl",
+                "statusDetail": "emtjfvwxuzflhujq",
+                "stopTime": "yqpcbhppevnkadgn"
+            },
+            {
+                "dataSource": "wggnoytvagsiqamg",
+                "exportId": "xlifrpnbyqoprldd",
+                "s3Bucket": "sficcrzbcrojvfoy",
+                "schemaStorageConfig": {
+                    "KeyName": "bdeoiuznsugkhazz"
+                },
+                "startTime": "mvndyilqqlcpkciz",
+                "status": "sfjsgdzwxruzsjbm",
+                "statusDetail": "ycjhggsrfdxppvjy",
+                "stopTime": "hbjgidkzlfouathk"
+            },
+            {
+                "dataSource": "whiqwqiajqfbkbhl",
+                "exportId": "thxkrnyzxkfuocnb",
+                "s3Bucket": "fmigfxqwntapapix",
+                "schemaStorageConfig": {
+                    "KeyName": "fjfeavobquzzqdbu"
+                },
+                "startTime": "tzmscqfgrrsmqjtb",
+                "status": "wdahxmbchdgbbcfk",
+                "statusDetail": "ctdrrlzdpeazgcog",
+                "stopTime": "bypgnmupvhxpyruj"
+            },
+            {
+                "dataSource": "knahlwddyqkugdom",
+                "exportId": "jpvhspcblaxjjbhp",
+                "s3Bucket": "iikukdsfzrubqahn",
+                "schemaStorageConfig": {
+                    "KeyName": "ukztnqejibjbtmgy"
+                },
+                "startTime": "qskkgaumjyoowblv",
+                "status": "rjofbexrzeczbhut",
+                "statusDetail": "asvqyssxobdyyogs",
+                "stopTime": "acsswsrftnpiakml"
+            },
+            {
+                "dataSource": "fpeqshxwbqyjrlii",
+                "exportId": "xrdepriepiqcrpnr",
+                "s3Bucket": "ylofjevladiiufiw",
+                "schemaStorageConfig": {
+                    "KeyName": "qxjxshvgnvrtsvkb"
+                },
+                "startTime": "rngmjydutlzdtfck",
+                "status": "pmoqezcbboryhfsv",
+                "statusDetail": "vyneigtyedqhtwfz",
+                "stopTime": "tpakeshqwccaxnpn"
+            },
+            {
+                "dataSource": "eoptplmmmrltlmvi",
+                "exportId": "uvjxszuywvbpguqg",
+                "s3Bucket": "bamnnuxzlkcfxcey",
+                "schemaStorageConfig": {
+                    "KeyName": "jttpwenvxsnputlo"
+                },
+                "startTime": "tzxivwjtzqobhosi",
+                "status": "mfyhvswycoapwdoo",
+                "statusDetail": "jsavvnaoitofflym",
+                "stopTime": "voktxlslfgbjfgsu"
+            },
+            {
+                "dataSource": "xtucquyzxukktneg",
+                "exportId": "trgqdkczrchnmdcs",
+                "s3Bucket": "mupgpdhombvlloil",
+                "schemaStorageConfig": {
+                    "KeyName": "ivxyvxvslcppaqvz"
+                },
+                "startTime": "bkefogytjdyaluno",
+                "status": "nhxgykosljjwmcnh",
+                "statusDetail": "yagywtawxvukerqa",
+                "stopTime": "djeumbfwbuxkczwh"
+            },
+            {
+                "dataSource": "cezffdqygkknjlqq",
+                "exportId": "rpnjzjsrwxwvjrta",
+                "s3Bucket": "yboyehnboogrzyxi",
+                "schemaStorageConfig": {
+                    "KeyName": "ywgghmkqjqxdvhnb"
+                },
+                "startTime": "tjgyurutnktzyety",
+                "status": "jmgkqsfhcqlalaxc",
+                "statusDetail": "kpvcjivndqckywox",
+                "stopTime": "sokppsrgxneilwty"
+            }
+        ],
+        "result_key": "descriptions"
+    },
+    "meta": {
+        "start": 1711115569.343005,
+        "end": 1711115574.724604,
+        "duration": 5.381610155105591,
+        "service": "discovery",
+        "type": "continuous_exports"
+    }
+}

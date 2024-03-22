@@ -1,0 +1,36 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "list_available_voice_connector_regions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            "VoiceConnectorAwsRegion"
+        ],
+        "required": [],
+        "md5": "e5e37b56deccdb4e6aa8520e593ef3b8",
+        "randomized": [
+            "oisygdywrtlhanef",
+            "gvdlujxlqskeommm",
+            "gsmwibesutjpqnwp",
+            "nsjthhvsokswgjef",
+            "hxwluefjgztjpupx",
+            "vejlvtevvmvnyybf",
+            "agrlnjtyrqvlpntv",
+            "esdljvnchkqdthvy",
+            "whbntjqvjeocfsax",
+            "qnesuscjrbzvbqys"
+        ],
+        "result_key": "VoiceConnectorRegions"
+    },
+    "meta": {
+        "start": 1711115334.799443,
+        "end": 1711115342.592866,
+        "duration": 7.793433904647827,
+        "service": "chime-sdk-voice",
+        "type": "available_voice_connector_regions"
+    }
+}

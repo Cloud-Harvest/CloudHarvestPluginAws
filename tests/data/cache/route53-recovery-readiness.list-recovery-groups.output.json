@@ -1,0 +1,138 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "031b56893c6f5a9d0ebe6017c5c080cb",
+        "boto_command": "list_recovery_groups",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "Cells": [
+                    "__string"
+                ],
+                "RecoveryGroupArn": "RecoveryGroupArn",
+                "RecoveryGroupName": "RecoveryGroupName",
+                "Tags": {
+                    "KeyName": ""
+                }
+            }
+        ],
+        "required": [],
+        "md5": "35e1c8f932577dd54951341fbefd9f6e",
+        "randomized": [
+            {
+                "Cells": [
+                    "syrinqbixvggpekg"
+                ],
+                "RecoveryGroupArn": "eaenvkmhnlyjytwo",
+                "RecoveryGroupName": "klnseswmcxufvwxc",
+                "Tags": {
+                    "KeyName": "swdsrcigxhfbqcyj"
+                }
+            },
+            {
+                "Cells": [
+                    "kijistcmnuvxyfrn"
+                ],
+                "RecoveryGroupArn": "higwolgjhumfqcjn",
+                "RecoveryGroupName": "huogmubsnjmbzmeu",
+                "Tags": {
+                    "KeyName": "dzozcuvzmrqygjix"
+                }
+            },
+            {
+                "Cells": [
+                    "tpotlpkqlhskfimo"
+                ],
+                "RecoveryGroupArn": "fhqacwmouyuxzwzj",
+                "RecoveryGroupName": "kyetcuoextpikukg",
+                "Tags": {
+                    "KeyName": "zefuyvzhpjovlnkp"
+                }
+            },
+            {
+                "Cells": [
+                    "fgbuquyqjmoffdry"
+                ],
+                "RecoveryGroupArn": "ssusmbkpxnjdhtkl",
+                "RecoveryGroupName": "zlnnvaykprwkgsoj",
+                "Tags": {
+                    "KeyName": "bcfmztacrdmiogtu"
+                }
+            },
+            {
+                "Cells": [
+                    "jjemrivwwzmqtodw"
+                ],
+                "RecoveryGroupArn": "sjanfqntxhuzglns",
+                "RecoveryGroupName": "gionddmfndmmwarr",
+                "Tags": {
+                    "KeyName": "movhcxxicthpdzxj"
+                }
+            },
+            {
+                "Cells": [
+                    "qzghjwazqebjosmr"
+                ],
+                "RecoveryGroupArn": "fyfirswjxlowftko",
+                "RecoveryGroupName": "qxsxhfmmwtvzkwdz",
+                "Tags": {
+                    "KeyName": "sqvcasnvjedhnrwt"
+                }
+            },
+            {
+                "Cells": [
+                    "lxdleinpzicrjsct"
+                ],
+                "RecoveryGroupArn": "dgxlefmqvjdctkfx",
+                "RecoveryGroupName": "vsbpwocmxskshggt",
+                "Tags": {
+                    "KeyName": "kycuyszogyactpqe"
+                }
+            },
+            {
+                "Cells": [
+                    "adzxfwggmvwpbdll"
+                ],
+                "RecoveryGroupArn": "bceinfcjsrrfkgir",
+                "RecoveryGroupName": "njozzttcsjrjjsxw",
+                "Tags": {
+                    "KeyName": "lsqflrczzbkoeljz"
+                }
+            },
+            {
+                "Cells": [
+                    "ksreamrmhwuramtq"
+                ],
+                "RecoveryGroupArn": "igttrczzgqlyzszc",
+                "RecoveryGroupName": "tjqfnavlltjfapty",
+                "Tags": {
+                    "KeyName": "sibhsfdyvqypzwzj"
+                }
+            },
+            {
+                "Cells": [
+                    "qfavpqjfekprchch"
+                ],
+                "RecoveryGroupArn": "emkjymiocsrmjawr",
+                "RecoveryGroupName": "vrivaaosvaqjqose",
+                "Tags": {
+                    "KeyName": "kyhpfnncmfqcsqwm"
+                }
+            }
+        ],
+        "result_key": "RecoveryGroups"
+    },
+    "meta": {
+        "start": 1711116487.229657,
+        "end": 1711116495.249663,
+        "duration": 8.020015954971313,
+        "service": "route53-recovery-readiness",
+        "type": "recovery_groups"
+    }
+}

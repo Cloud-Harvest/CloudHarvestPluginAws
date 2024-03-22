@@ -1,0 +1,9 @@
+[
+    "bcm-data-exports.get-execution",
+    "bcm-data-exports.get-export",
+    "bcm-data-exports.get-table",
+    "bcm-data-exports.list-executions",
+    "bcm-data-exports.list-exports",
+    "bcm-data-exports.list-tables",
+    "bcm-data-exports.list-tags-for-resource"
+]

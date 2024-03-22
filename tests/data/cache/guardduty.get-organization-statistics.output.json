@@ -1,0 +1,254 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "get_organization_statistics",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": {
+            "UpdatedAt": "1970-01-01T00:00:00",
+            "OrganizationStatistics": {
+                "TotalAccountsCount": 0,
+                "MemberAccountsCount": 0,
+                "ActiveAccountsCount": 0,
+                "EnabledAccountsCount": 0,
+                "CountByFeature": [
+                    {
+                        "Name": "Name",
+                        "EnabledAccountsCount": 0,
+                        "AdditionalConfiguration": [
+                            {
+                                "Name": "Name",
+                                "EnabledAccountsCount": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "required": [],
+        "md5": "e4a2cbbcdfcae2520bafe245ecf54c41",
+        "randomized": [
+            {
+                "OrganizationStatistics": {
+                    "ActiveAccountsCount": 0,
+                    "CountByFeature": [
+                        {
+                            "AdditionalConfiguration": [
+                                {
+                                    "EnabledAccountsCount": 0,
+                                    "Name": "jqlvazqezuphzwgd"
+                                }
+                            ],
+                            "EnabledAccountsCount": 0,
+                            "Name": "xhmurrmpqexjcolq"
+                        }
+                    ],
+                    "EnabledAccountsCount": 0,
+                    "MemberAccountsCount": 0,
+                    "TotalAccountsCount": 0
+                },
+                "UpdatedAt": "ybzkeypjbflywgdg"
+            },
+            {
+                "OrganizationStatistics": {
+                    "ActiveAccountsCount": 0,
+                    "CountByFeature": [
+                        {
+                            "AdditionalConfiguration": [
+                                {
+                                    "EnabledAccountsCount": 0,
+                                    "Name": "nmvazchiyvjbxlxj"
+                                }
+                            ],
+                            "EnabledAccountsCount": 0,
+                            "Name": "xbefibnxejtlesuy"
+                        }
+                    ],
+                    "EnabledAccountsCount": 0,
+                    "MemberAccountsCount": 0,
+                    "TotalAccountsCount": 0
+                },
+                "UpdatedAt": "jujgqfpildtrzntb"
+            },
+            {
+                "OrganizationStatistics": {
+                    "ActiveAccountsCount": 0,
+                    "CountByFeature": [
+                        {
+                            "AdditionalConfiguration": [
+                                {
+                                    "EnabledAccountsCount": 0,
+                                    "Name": "ijpzeggggcgwjwwe"
+                                }
+                            ],
+                            "EnabledAccountsCount": 0,
+                            "Name": "lbahfasnnjwkmqlp"
+                        }
+                    ],
+                    "EnabledAccountsCount": 0,
+                    "MemberAccountsCount": 0,
+                    "TotalAccountsCount": 0
+                },
+                "UpdatedAt": "ishxlnqyhebfkhlj"
+            },
+            {
+                "OrganizationStatistics": {
+                    "ActiveAccountsCount": 0,
+                    "CountByFeature": [
+                        {
+                            "AdditionalConfiguration": [
+                                {
+                                    "EnabledAccountsCount": 0,
+                                    "Name": "lqamfwnstgdqpnlh"
+                                }
+                            ],
+                            "EnabledAccountsCount": 0,
+                            "Name": "deyrlrgbjgolsfpw"
+                        }
+                    ],
+                    "EnabledAccountsCount": 0,
+                    "MemberAccountsCount": 0,
+                    "TotalAccountsCount": 0
+                },
+                "UpdatedAt": "izqhbdocuivymprk"
+            },
+            {
+                "OrganizationStatistics": {
+                    "ActiveAccountsCount": 0,
+                    "CountByFeature": [
+                        {
+                            "AdditionalConfiguration": [
+                                {
+                                    "EnabledAccountsCount": 0,
+                                    "Name": "fdbivrfdaitkoomc"
+                                }
+                            ],
+                            "EnabledAccountsCount": 0,
+                            "Name": "hdnzdsnfuthorpdk"
+                        }
+                    ],
+                    "EnabledAccountsCount": 0,
+                    "MemberAccountsCount": 0,
+                    "TotalAccountsCount": 0
+                },
+                "UpdatedAt": "bjwipcrrbzjqvips"
+            },
+            {
+                "OrganizationStatistics": {
+                    "ActiveAccountsCount": 0,
+                    "CountByFeature": [
+                        {
+                            "AdditionalConfiguration": [
+                                {
+                                    "EnabledAccountsCount": 0,
+                                    "Name": "ncdnxkqyavxoyfee"
+                                }
+                            ],
+                            "EnabledAccountsCount": 0,
+                            "Name": "fhcaxropwzhdzprn"
+                        }
+                    ],
+                    "EnabledAccountsCount": 0,
+                    "MemberAccountsCount": 0,
+                    "TotalAccountsCount": 0
+                },
+                "UpdatedAt": "mrlyhdberazahnwq"
+            },
+            {
+                "OrganizationStatistics": {
+                    "ActiveAccountsCount": 0,
+                    "CountByFeature": [
+                        {
+                            "AdditionalConfiguration": [
+                                {
+                                    "EnabledAccountsCount": 0,
+                                    "Name": "wgydrngjvtjqviku"
+                                }
+                            ],
+                            "EnabledAccountsCount": 0,
+                            "Name": "cvfoyywfqsdqgiao"
+                        }
+                    ],
+                    "EnabledAccountsCount": 0,
+                    "MemberAccountsCount": 0,
+                    "TotalAccountsCount": 0
+                },
+                "UpdatedAt": "plhgcfelzlenduez"
+            },
+            {
+                "OrganizationStatistics": {
+                    "ActiveAccountsCount": 0,
+                    "CountByFeature": [
+                        {
+                            "AdditionalConfiguration": [
+                                {
+                                    "EnabledAccountsCount": 0,
+                                    "Name": "xadgqaifqefsqhcp"
+                                }
+                            ],
+                            "EnabledAccountsCount": 0,
+                            "Name": "cxhbkipfvjmxraux"
+                        }
+                    ],
+                    "EnabledAccountsCount": 0,
+                    "MemberAccountsCount": 0,
+                    "TotalAccountsCount": 0
+                },
+                "UpdatedAt": "jlklgpnpdcsgsdbh"
+            },
+            {
+                "OrganizationStatistics": {
+                    "ActiveAccountsCount": 0,
+                    "CountByFeature": [
+                        {
+                            "AdditionalConfiguration": [
+                                {
+                                    "EnabledAccountsCount": 0,
+                                    "Name": "objkiugpjjkymigo"
+                                }
+                            ],
+                            "EnabledAccountsCount": 0,
+                            "Name": "ynenzostojlziinq"
+                        }
+                    ],
+                    "EnabledAccountsCount": 0,
+                    "MemberAccountsCount": 0,
+                    "TotalAccountsCount": 0
+                },
+                "UpdatedAt": "jacuybotkjydcehh"
+            },
+            {
+                "OrganizationStatistics": {
+                    "ActiveAccountsCount": 0,
+                    "CountByFeature": [
+                        {
+                            "AdditionalConfiguration": [
+                                {
+                                    "EnabledAccountsCount": 0,
+                                    "Name": "qspryguhuatcxhli"
+                                }
+                            ],
+                            "EnabledAccountsCount": 0,
+                            "Name": "yrzbpktzoaecptbv"
+                        }
+                    ],
+                    "EnabledAccountsCount": 0,
+                    "MemberAccountsCount": 0,
+                    "TotalAccountsCount": 0
+                },
+                "UpdatedAt": "jlmtjfkvkwefmlyj"
+            }
+        ],
+        "result_key": "OrganizationDetails"
+    },
+    "meta": {
+        "start": 1711115866.159113,
+        "end": 1711115873.18799,
+        "duration": 7.028887987136841,
+        "service": "guardduty",
+        "type": null
+    }
+}

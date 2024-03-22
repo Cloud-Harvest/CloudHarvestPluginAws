@@ -1,0 +1,189 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0,
+            "Filters": [
+                {
+                    "Key": "",
+                    "Value": "",
+                    "Condition": "IS"
+                }
+            ]
+        },
+        "required": [],
+        "md5": "58cb319ccbbbdc42b655109fc6f841e4",
+        "boto_command": "list_predictors",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "PredictorArn": "PredictorArn",
+                "PredictorName": "PredictorName",
+                "DatasetGroupArn": "DatasetGroupArn",
+                "IsAutoPredictor": true,
+                "ReferencePredictorSummary": {
+                    "Arn": "Arn",
+                    "State": "State"
+                },
+                "Status": "Status",
+                "Message": "Message",
+                "CreationTime": "1970-01-01T00:00:00",
+                "LastModificationTime": "1970-01-01T00:00:00"
+            }
+        ],
+        "required": [],
+        "md5": "ac3ce0901d6cc5b1ced663d41fc728d7",
+        "randomized": [
+            {
+                "CreationTime": "exojphueloveyfhd",
+                "DatasetGroupArn": "ugydihaysvvnftfa",
+                "IsAutoPredictor": true,
+                "LastModificationTime": "jiznxqtyfjguzzcl",
+                "Message": "rdoxcwxlyrlpsgdw",
+                "PredictorArn": "fjkmlmrmmmxlzsuu",
+                "PredictorName": "ktinjklhklypnami",
+                "ReferencePredictorSummary": {
+                    "Arn": "vwqmiajxcqfoblvs",
+                    "State": "msxcoqjcvfvwmrxh"
+                },
+                "Status": "suhrfqsthlqzncuv"
+            },
+            {
+                "CreationTime": "czsvqdatwbmlzkjr",
+                "DatasetGroupArn": "wyzwecxttohvjtur",
+                "IsAutoPredictor": true,
+                "LastModificationTime": "ivgppwyxabiytjbv",
+                "Message": "durikvmoxpqbjzpr",
+                "PredictorArn": "zhjjwclwmfnnucmt",
+                "PredictorName": "xdmjdlqbarwnmhio",
+                "ReferencePredictorSummary": {
+                    "Arn": "xxgxjeksfoufoapc",
+                    "State": "wqgxwvhoufeshrzh"
+                },
+                "Status": "txfrqetyhcueeqkr"
+            },
+            {
+                "CreationTime": "lombfujtrtcqzyvt",
+                "DatasetGroupArn": "htxcbofarawlligh",
+                "IsAutoPredictor": true,
+                "LastModificationTime": "ryvcpdhddxgblata",
+                "Message": "qrndtbqkudlakgna",
+                "PredictorArn": "slpdlfebmwrvfkeu",
+                "PredictorName": "ryqlhkooleuwxsvo",
+                "ReferencePredictorSummary": {
+                    "Arn": "itmgkjfxfywonsmu",
+                    "State": "rvyvnqznksfqgadp"
+                },
+                "Status": "tezxffniefbfsbyp"
+            },
+            {
+                "CreationTime": "hnvvbcqmafjwsysi",
+                "DatasetGroupArn": "cosznxsnwanvcftm",
+                "IsAutoPredictor": true,
+                "LastModificationTime": "jqgvwyeswevkkzzb",
+                "Message": "ysvuzcxurglednpb",
+                "PredictorArn": "ksgjmolwgqamxubj",
+                "PredictorName": "dpualyugkmifhhaz",
+                "ReferencePredictorSummary": {
+                    "Arn": "ujoepopiaicdypws",
+                    "State": "buxgvspshvsyzxfh"
+                },
+                "Status": "zjnmtlfxmaajjxil"
+            },
+            {
+                "CreationTime": "cxispdvgopgxpwhb",
+                "DatasetGroupArn": "mtmdmdckqfhjtzbs",
+                "IsAutoPredictor": true,
+                "LastModificationTime": "hhocjvhadbxqnjds",
+                "Message": "zmhhdwpfjhqzfcsd",
+                "PredictorArn": "hukpyhlfiyxcfzej",
+                "PredictorName": "rrsuygkirzgqntui",
+                "ReferencePredictorSummary": {
+                    "Arn": "wkudpuawgxctsawy",
+                    "State": "nbjvhdyaghgyoybu"
+                },
+                "Status": "ocijojarhfugwxmj"
+            },
+            {
+                "CreationTime": "nmhyfrdqzoxyrggq",
+                "DatasetGroupArn": "ocsahapwdpggeeby",
+                "IsAutoPredictor": true,
+                "LastModificationTime": "gkoqkgsihtqqrwzl",
+                "Message": "lfbpsosgpvxrojgy",
+                "PredictorArn": "nohucfdczwequpbk",
+                "PredictorName": "knojgdjkcekvqxcn",
+                "ReferencePredictorSummary": {
+                    "Arn": "irlziqhudwoftkqp",
+                    "State": "dhuisntwniirqlgb"
+                },
+                "Status": "ueeqswtsqvglteqz"
+            },
+            {
+                "CreationTime": "wisykihkhqkqrite",
+                "DatasetGroupArn": "iwqreejlntvfxyat",
+                "IsAutoPredictor": true,
+                "LastModificationTime": "hwmmorafadqgtxgc",
+                "Message": "fxnhlaxfeukdclpk",
+                "PredictorArn": "sfxqqyprcecbayca",
+                "PredictorName": "vwxdtffrrattgmzy",
+                "ReferencePredictorSummary": {
+                    "Arn": "dpxjnmsaalnldwlh",
+                    "State": "vkstdnlixpfkelpp"
+                },
+                "Status": "huobrloaeynjyqny"
+            },
+            {
+                "CreationTime": "bduyvgggjcvdvtjc",
+                "DatasetGroupArn": "noxpmhssnjmqvqwf",
+                "IsAutoPredictor": true,
+                "LastModificationTime": "grcrhadnqfdvqsnw",
+                "Message": "cgsqfilqgamrqpso",
+                "PredictorArn": "kjasyvdzaklwyqqi",
+                "PredictorName": "opwsjqmxfelyblgi",
+                "ReferencePredictorSummary": {
+                    "Arn": "pjxcmhjdqtyqxxgs",
+                    "State": "ryvfwxiexqivwrln"
+                },
+                "Status": "pxnqofvkzoryscel"
+            },
+            {
+                "CreationTime": "bcqxnewbyfscktqu",
+                "DatasetGroupArn": "vvewbtbeefiyhvrn",
+                "IsAutoPredictor": true,
+                "LastModificationTime": "qkczizwpudvgkbpv",
+                "Message": "cskdhgebwjqywaqw",
+                "PredictorArn": "yohemkcjabqkcdku",
+                "PredictorName": "fiysmldyvdyfohjn",
+                "ReferencePredictorSummary": {
+                    "Arn": "sqrljnhilbiwzjfw",
+                    "State": "lewybrsyeafbusnk"
+                },
+                "Status": "cgidrjvsckbyfdly"
+            },
+            {
+                "CreationTime": "sqfubventsuhrogk",
+                "DatasetGroupArn": "bknyshdzmhrihaoz",
+                "IsAutoPredictor": true,
+                "LastModificationTime": "btffyjyjkbjkidxx",
+                "Message": "pullffzvjzwmzsis",
+                "PredictorArn": "qcmwnxeqbltahdnu",
+                "PredictorName": "xhohlxhctqnvbylm",
+                "ReferencePredictorSummary": {
+                    "Arn": "csjyputvgquorbxt",
+                    "State": "ebonqoftorxbydhm"
+                },
+                "Status": "oxnzyhehccitoady"
+            }
+        ],
+        "result_key": "Predictors"
+    },
+    "meta": {
+        "start": 1711115782.379019,
+        "end": 1711115788.943413,
+        "duration": 6.5644049644470215,
+        "service": "forecast",
+        "type": "predictors"
+    }
+}

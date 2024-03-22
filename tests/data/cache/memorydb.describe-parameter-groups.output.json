@@ -1,0 +1,95 @@
+{
+    "input": {
+        "template": {
+            "ParameterGroupName": "",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "a340b7dce770d8c43ff840eecaa06474",
+        "boto_command": "describe_parameter_groups",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "Name": "Name",
+                "Family": "Family",
+                "Description": "Description",
+                "ARN": "ARN"
+            }
+        ],
+        "required": [],
+        "md5": "9723c39387fa91096c6f62d258cd2334",
+        "randomized": [
+            {
+                "ARN": "ezzbeevweidgpdyn",
+                "Description": "wjrzwvnonrhlpses",
+                "Family": "cvvqwmqxnbmbtdzi",
+                "Name": "sageawrgibowvhkw"
+            },
+            {
+                "ARN": "affrshzhhhdcjgly",
+                "Description": "ilpltduhrusabbhx",
+                "Family": "kdcxcfmzdqowwdal",
+                "Name": "feahksdpxmbwblbd"
+            },
+            {
+                "ARN": "ybvevpvnnhycvgzi",
+                "Description": "tyjghkrmropqtbor",
+                "Family": "twemrzwlrnpefwsv",
+                "Name": "ruqaqayiunctgjvj"
+            },
+            {
+                "ARN": "qezqivmadwkwbkqe",
+                "Description": "cppyaszzpupijinm",
+                "Family": "awngcfxharjmtubc",
+                "Name": "ocirvuigbswjvpse"
+            },
+            {
+                "ARN": "dgascqkfduekwktn",
+                "Description": "hvhoixyqvkmbnvqx",
+                "Family": "pqkeimcgzsybkusf",
+                "Name": "coqhohyibcjrnwrv"
+            },
+            {
+                "ARN": "wfjunycxmaxzggpy",
+                "Description": "tykbmhtxvsmbxtqu",
+                "Family": "rkxyydvjuohcdrac",
+                "Name": "fcxpxbhzdatiwvds"
+            },
+            {
+                "ARN": "xgtfsxvuwsqhoygo",
+                "Description": "vuhsbvxpblmlqbzs",
+                "Family": "vhoedbvvldmmuvss",
+                "Name": "dnywybvdgaumrhso"
+            },
+            {
+                "ARN": "gdgwpzmpmzicqcep",
+                "Description": "bmtfhrrazfnuhkuj",
+                "Family": "bwyqobkezflgricr",
+                "Name": "touwaurldgroasvq"
+            },
+            {
+                "ARN": "tnsbkjkmsrukiqst",
+                "Description": "satpusokkslqqnwr",
+                "Family": "mhoypqsrbkslswuw",
+                "Name": "kcnyanuulblrrimv"
+            },
+            {
+                "ARN": "grxvpbexdjvlstxd",
+                "Description": "govnltfwpqtxegok",
+                "Family": "qkftrqbqsqyykbkw",
+                "Name": "fuhqxtdugubyhzji"
+            }
+        ],
+        "result_key": "ParameterGroups"
+    },
+    "meta": {
+        "start": 1711116195.146617,
+        "end": 1711116201.531107,
+        "duration": 6.384500980377197,
+        "service": "memorydb",
+        "type": "parameter_groups"
+    }
+}

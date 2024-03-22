@@ -1,0 +1,51 @@
+{
+    "input": {
+        "template": {
+            "DryRun": true,
+            "ServiceNames": [
+                ""
+            ],
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "14cdf9f97a70da8b04bd9a715b4ad275",
+        "boto_command": "describe_vpc_endpoint_services",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            "String"
+        ],
+        "required": [],
+        "md5": "363bc917d39ddd651417fd437b5a4fbe",
+        "randomized": [
+            "pddvokrwmdirehlh",
+            "afdovakutklohhej",
+            "igksczhefxdfnmui",
+            "lmhqxgokiobdfmzv",
+            "zuhpryghwqnesgpx",
+            "dvebbknsynbscxun",
+            "hdzesrtmcuurmqpv",
+            "ngozwdljreubduxm",
+            "kixazkihohbfduzo",
+            "trlamiumzxyjrabe"
+        ],
+        "result_key": "ServiceNames"
+    },
+    "meta": {
+        "start": 1711115664.960817,
+        "end": 1711115672.744804,
+        "duration": 7.783998012542725,
+        "service": "ec2",
+        "type": "vpc_endpoint_services"
+    }
+}

@@ -1,0 +1,18 @@
+[
+    "elbv2.describe-account-limits",
+    "elbv2.describe-listener-certificates",
+    "elbv2.describe-listeners",
+    "elbv2.describe-load-balancer-attributes",
+    "elbv2.describe-load-balancers",
+    "elbv2.describe-rules",
+    "elbv2.describe-ssl-policies",
+    "elbv2.describe-tags",
+    "elbv2.describe-target-group-attributes",
+    "elbv2.describe-target-groups",
+    "elbv2.describe-target-health",
+    "elbv2.describe-trust-store-associations",
+    "elbv2.describe-trust-store-revocations",
+    "elbv2.describe-trust-stores",
+    "elbv2.get-trust-store-ca-certificates-bundle",
+    "elbv2.get-trust-store-revocation-content"
+]

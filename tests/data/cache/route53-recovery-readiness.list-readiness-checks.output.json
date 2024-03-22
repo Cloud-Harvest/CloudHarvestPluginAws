@@ -1,0 +1,116 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "031b56893c6f5a9d0ebe6017c5c080cb",
+        "boto_command": "list_readiness_checks",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "ReadinessCheckArn": "ReadinessCheckArn",
+                "ReadinessCheckName": "ReadinessCheckName",
+                "ResourceSet": "ResourceSet",
+                "Tags": {
+                    "KeyName": ""
+                }
+            }
+        ],
+        "required": [],
+        "md5": "e8a21cb2401c1ab7cf8824f24924f8c1",
+        "randomized": [
+            {
+                "ReadinessCheckArn": "lopzofoioyjnvvgl",
+                "ReadinessCheckName": "niyfiljtanudyejm",
+                "ResourceSet": "wlphgcrntnsdgolk",
+                "Tags": {
+                    "KeyName": "yrtvvqkyontettvx"
+                }
+            },
+            {
+                "ReadinessCheckArn": "tiiinuacwcudyigm",
+                "ReadinessCheckName": "hxgapurfltmtblax",
+                "ResourceSet": "tyexifvigeaujolk",
+                "Tags": {
+                    "KeyName": "yvktwdcokyjyfoya"
+                }
+            },
+            {
+                "ReadinessCheckArn": "vdwoybwinbfskuog",
+                "ReadinessCheckName": "fejkrqtakijkmqsn",
+                "ResourceSet": "ityiwumbhjbsnjhx",
+                "Tags": {
+                    "KeyName": "iygucuhlscfelvpb"
+                }
+            },
+            {
+                "ReadinessCheckArn": "qjehclpibcsqfbsg",
+                "ReadinessCheckName": "jpyjdmhxrillrmla",
+                "ResourceSet": "kzrdcpfdyslbczxg",
+                "Tags": {
+                    "KeyName": "qulwwovottrjvmwr"
+                }
+            },
+            {
+                "ReadinessCheckArn": "pjvxvxutofucmtcx",
+                "ReadinessCheckName": "eckblrxjnrtpjhxc",
+                "ResourceSet": "ahzuoydlyzckoule",
+                "Tags": {
+                    "KeyName": "ijdqwauwiczdokmy"
+                }
+            },
+            {
+                "ReadinessCheckArn": "vchecapiwwfpnvmo",
+                "ReadinessCheckName": "cqqblfzirvgubiqk",
+                "ResourceSet": "gensotzggjcutqne",
+                "Tags": {
+                    "KeyName": "vbvosbuhvlscewck"
+                }
+            },
+            {
+                "ReadinessCheckArn": "gzuueiehpwvdnpyq",
+                "ReadinessCheckName": "txqaxboxmgebarqs",
+                "ResourceSet": "wxcawiszbkwtbzax",
+                "Tags": {
+                    "KeyName": "rmbaqffdswhkpugu"
+                }
+            },
+            {
+                "ReadinessCheckArn": "vxpczgkgrdeqhecq",
+                "ReadinessCheckName": "lqhfxenwgycwrcob",
+                "ResourceSet": "okuyzzgbbanwzffv",
+                "Tags": {
+                    "KeyName": "yyapxahursiqsoer"
+                }
+            },
+            {
+                "ReadinessCheckArn": "tmbryhonxqwdhcae",
+                "ReadinessCheckName": "qrsydrewujdtlinp",
+                "ResourceSet": "bvkcdkwgiozubtbq",
+                "Tags": {
+                    "KeyName": "lwwvznijeqojopbk"
+                }
+            },
+            {
+                "ReadinessCheckArn": "bjojcfjpkadiujfl",
+                "ReadinessCheckName": "pmprokywblqbbhci",
+                "ResourceSet": "bmpjbvziqippsryi",
+                "Tags": {
+                    "KeyName": "owgpowzdwetbhlpp"
+                }
+            }
+        ],
+        "result_key": "ReadinessChecks"
+    },
+    "meta": {
+        "start": 1711116486.744951,
+        "end": 1711116496.87865,
+        "duration": 10.133716106414795,
+        "service": "route53-recovery-readiness",
+        "type": "readiness_checks"
+    }
+}

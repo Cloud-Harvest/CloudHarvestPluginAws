@@ -1,0 +1,34 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "get_registry_scanning_configuration",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": "registryId",
+        "required": [],
+        "md5": "d3fde0f37e691b50b090459b56f41ef0",
+        "randomized": [
+            "oqtkbnpzseqkicbm",
+            "fhrqcqjryaiqdkfj",
+            "idzzjkzozbyjzrmf",
+            "jdsdwraucleecsgb",
+            "vkqgnwnksryidsgw",
+            "rcujxiarfxfiwiar",
+            "dfvnwolsoefqcvkr",
+            "ifltwigpjvwreuwv",
+            "snxkuiymudwtvnds",
+            "pulwfdtnxpuqeyvi"
+        ],
+        "result_key": "registryId"
+    },
+    "meta": {
+        "start": 1711115685.819167,
+        "end": 1711115693.389112,
+        "duration": 7.569956064224243,
+        "service": "ecr",
+        "type": null
+    }
+}

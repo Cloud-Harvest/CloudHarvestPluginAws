@@ -1,0 +1,62 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0,
+            "Filter": {
+                "Name": "",
+                "TransformType": "FIND_MATCHES",
+                "Status": "NOT_READY",
+                "GlueVersion": "",
+                "CreatedBefore": "1970-01-01T00:00:00",
+                "CreatedAfter": "1970-01-01T00:00:00",
+                "LastModifiedBefore": "1970-01-01T00:00:00",
+                "LastModifiedAfter": "1970-01-01T00:00:00",
+                "Schema": [
+                    {
+                        "Name": "",
+                        "DataType": ""
+                    }
+                ]
+            },
+            "Sort": {
+                "Column": "NAME",
+                "SortDirection": "DESCENDING"
+            },
+            "Tags": {
+                "KeyName": ""
+            }
+        },
+        "required": [],
+        "md5": "b49293984763af49d8d40643c85f0e92",
+        "boto_command": "list_ml_transforms",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            "HashString"
+        ],
+        "required": [],
+        "md5": "913cef412f503173caeb0083b6446977",
+        "randomized": [
+            "qlpdutvrcglnkttp",
+            "uyizvjmkxqvltlir",
+            "ryymcwwkmlnhndfp",
+            "dyzjptqmifqtnngh",
+            "aqaymdblryvuduba",
+            "dicznrfhmaeanmkv",
+            "dwipwfofdsipinkq",
+            "drdcafqzzanjkydy",
+            "kuishbqyfacydaiy",
+            "ohqrifwkkjlteeeq"
+        ],
+        "result_key": "TransformIds"
+    },
+    "meta": {
+        "start": 1711115837.570986,
+        "end": 1711115844.53446,
+        "duration": 6.963481903076172,
+        "service": "glue",
+        "type": "ml_transforms"
+    }
+}

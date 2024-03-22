@@ -1,0 +1,346 @@
+{
+    "input": {
+        "template": {
+            "Marker": "",
+            "MaxItems": "",
+            "Stage": "DEVELOPMENT"
+        },
+        "required": [],
+        "md5": "e67093d939423ee24d6d7ba2e870568c",
+        "boto_command": "list_functions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": {
+            "NextMarker": "NextMarker",
+            "MaxItems": 0,
+            "Quantity": 0,
+            "Items": [
+                {
+                    "Name": "Name",
+                    "Status": "Status",
+                    "FunctionConfig": {
+                        "Comment": "Comment",
+                        "Runtime": "Runtime",
+                        "KeyValueStoreAssociations": {
+                            "Quantity": 0,
+                            "Items": [
+                                {
+                                    "KeyValueStoreARN": "KeyValueStoreARN"
+                                }
+                            ]
+                        }
+                    },
+                    "FunctionMetadata": {
+                        "FunctionARN": "FunctionARN",
+                        "Stage": "Stage",
+                        "CreatedTime": "1970-01-01T00:00:00",
+                        "LastModifiedTime": "1970-01-01T00:00:00"
+                    }
+                }
+            ]
+        },
+        "required": [],
+        "md5": "f66bb0559dc339607d78b38bb2a95dc0",
+        "randomized": [
+            {
+                "Items": [
+                    {
+                        "FunctionConfig": {
+                            "Comment": "fqnyagqhsddrnkux",
+                            "KeyValueStoreAssociations": {
+                                "Items": [
+                                    {
+                                        "KeyValueStoreARN": "ftutovqkibihvxgr"
+                                    }
+                                ],
+                                "Quantity": 0
+                            },
+                            "Runtime": "xcxilxnslkgrgyrm"
+                        },
+                        "FunctionMetadata": {
+                            "CreatedTime": "fgysjuxoatakjvjq",
+                            "FunctionARN": "bnrdmkojvxdigmnn",
+                            "LastModifiedTime": "coomionplklibzbe",
+                            "Stage": "lkmgbuxycpztnbrf"
+                        },
+                        "Name": "xymlvbfupzzeaofc",
+                        "Status": "uhhpnmqwxjtspbee"
+                    }
+                ],
+                "MaxItems": 0,
+                "NextMarker": "ovkakthjdnozdqbb",
+                "Quantity": 0
+            },
+            {
+                "Items": [
+                    {
+                        "FunctionConfig": {
+                            "Comment": "fjgflszraotpfdye",
+                            "KeyValueStoreAssociations": {
+                                "Items": [
+                                    {
+                                        "KeyValueStoreARN": "bifnkksgfaxdonup"
+                                    }
+                                ],
+                                "Quantity": 0
+                            },
+                            "Runtime": "yzgxvcppkussrbhu"
+                        },
+                        "FunctionMetadata": {
+                            "CreatedTime": "atwkpfdfzootsmdl",
+                            "FunctionARN": "jdycgouiaplmgsud",
+                            "LastModifiedTime": "avgccpnmohcmakfh",
+                            "Stage": "dfiezlqsonjahukb"
+                        },
+                        "Name": "hvlzecppywlnkppc",
+                        "Status": "zgaytnjxnzahbsph"
+                    }
+                ],
+                "MaxItems": 0,
+                "NextMarker": "ttliupyubiepfnuu",
+                "Quantity": 0
+            },
+            {
+                "Items": [
+                    {
+                        "FunctionConfig": {
+                            "Comment": "pewgzvgauflogjkc",
+                            "KeyValueStoreAssociations": {
+                                "Items": [
+                                    {
+                                        "KeyValueStoreARN": "ipvfgpoigzjhkbhw"
+                                    }
+                                ],
+                                "Quantity": 0
+                            },
+                            "Runtime": "ytrchflnsgqaodnn"
+                        },
+                        "FunctionMetadata": {
+                            "CreatedTime": "gmoxeunnrydbqyuk",
+                            "FunctionARN": "jimqrgcnlrdxgagp",
+                            "LastModifiedTime": "rtzxzqbyendddyyw",
+                            "Stage": "mifevibwsjjblxan"
+                        },
+                        "Name": "dohykqwykewjoqcy",
+                        "Status": "sikrcteewecukfok"
+                    }
+                ],
+                "MaxItems": 0,
+                "NextMarker": "mbjpgyrfqvvmojjb",
+                "Quantity": 0
+            },
+            {
+                "Items": [
+                    {
+                        "FunctionConfig": {
+                            "Comment": "iueibfltjqvwjaiz",
+                            "KeyValueStoreAssociations": {
+                                "Items": [
+                                    {
+                                        "KeyValueStoreARN": "wjakcamzyhnvnber"
+                                    }
+                                ],
+                                "Quantity": 0
+                            },
+                            "Runtime": "lwpumlkkomuelxeh"
+                        },
+                        "FunctionMetadata": {
+                            "CreatedTime": "mnlkvnwvyqqoplta",
+                            "FunctionARN": "wozfaxkwxatbxvho",
+                            "LastModifiedTime": "okpehqxsxsseagnt",
+                            "Stage": "ffnjjowfaqmdiyva"
+                        },
+                        "Name": "suqvjbkwppkwducb",
+                        "Status": "xjjqfrkgcfrktysu"
+                    }
+                ],
+                "MaxItems": 0,
+                "NextMarker": "achbvrtvtrtdeetl",
+                "Quantity": 0
+            },
+            {
+                "Items": [
+                    {
+                        "FunctionConfig": {
+                            "Comment": "ousimvoouvwikgph",
+                            "KeyValueStoreAssociations": {
+                                "Items": [
+                                    {
+                                        "KeyValueStoreARN": "ltbbcxmmmufknvhd"
+                                    }
+                                ],
+                                "Quantity": 0
+                            },
+                            "Runtime": "yglznvzqaakrftog"
+                        },
+                        "FunctionMetadata": {
+                            "CreatedTime": "kvrritxrixrnxryl",
+                            "FunctionARN": "odbnmveppaljasqa",
+                            "LastModifiedTime": "crghzjfnlkrggmxy",
+                            "Stage": "einrejhuylyywnre"
+                        },
+                        "Name": "jeuhwixxnfwdidld",
+                        "Status": "ntbhwrieixlkmauh"
+                    }
+                ],
+                "MaxItems": 0,
+                "NextMarker": "dowyltjttnlhbrgl",
+                "Quantity": 0
+            },
+            {
+                "Items": [
+                    {
+                        "FunctionConfig": {
+                            "Comment": "vmietiindxmhufhx",
+                            "KeyValueStoreAssociations": {
+                                "Items": [
+                                    {
+                                        "KeyValueStoreARN": "oiyaojovryyqvckk"
+                                    }
+                                ],
+                                "Quantity": 0
+                            },
+                            "Runtime": "kmbzlzqdzqljojpy"
+                        },
+                        "FunctionMetadata": {
+                            "CreatedTime": "nudexwzdfmqvzvng",
+                            "FunctionARN": "bkcdluhhzlxnisqj",
+                            "LastModifiedTime": "orkkspfjmwcnrwpz",
+                            "Stage": "ewgemzmsokzgoquz"
+                        },
+                        "Name": "jvqgaedobwiwmwjw",
+                        "Status": "ejhgmenviesqgebp"
+                    }
+                ],
+                "MaxItems": 0,
+                "NextMarker": "uucuadydrsmxhegh",
+                "Quantity": 0
+            },
+            {
+                "Items": [
+                    {
+                        "FunctionConfig": {
+                            "Comment": "dbkdtnskvhxbyuai",
+                            "KeyValueStoreAssociations": {
+                                "Items": [
+                                    {
+                                        "KeyValueStoreARN": "kqokkcqdivitxrss"
+                                    }
+                                ],
+                                "Quantity": 0
+                            },
+                            "Runtime": "zdvfamgmphlbwwjc"
+                        },
+                        "FunctionMetadata": {
+                            "CreatedTime": "wxcwuwsxetwhhjuq",
+                            "FunctionARN": "ftamjctbllxesdzs",
+                            "LastModifiedTime": "pokggnzlwblxclxi",
+                            "Stage": "uhicauazxjskntll"
+                        },
+                        "Name": "msrtmcuckylyhtmi",
+                        "Status": "fbopykagoojazmfr"
+                    }
+                ],
+                "MaxItems": 0,
+                "NextMarker": "gmbyvvxnefertlmc",
+                "Quantity": 0
+            },
+            {
+                "Items": [
+                    {
+                        "FunctionConfig": {
+                            "Comment": "choilkcdnlesbzzx",
+                            "KeyValueStoreAssociations": {
+                                "Items": [
+                                    {
+                                        "KeyValueStoreARN": "lvzknxmvggszwsct"
+                                    }
+                                ],
+                                "Quantity": 0
+                            },
+                            "Runtime": "qvnwurhkgtviokpf"
+                        },
+                        "FunctionMetadata": {
+                            "CreatedTime": "yxdnqwczoupnhsjc",
+                            "FunctionARN": "gghqmurxzqknaduk",
+                            "LastModifiedTime": "mhpsjqqqithibupa",
+                            "Stage": "pifafpgcjzpkqxqs"
+                        },
+                        "Name": "tszfgqqzeopnoguy",
+                        "Status": "xryjcpjheiyrvovg"
+                    }
+                ],
+                "MaxItems": 0,
+                "NextMarker": "dwkchiueojnvxibh",
+                "Quantity": 0
+            },
+            {
+                "Items": [
+                    {
+                        "FunctionConfig": {
+                            "Comment": "awlpmvukmuweiows",
+                            "KeyValueStoreAssociations": {
+                                "Items": [
+                                    {
+                                        "KeyValueStoreARN": "cpwiyfpxynycimtm"
+                                    }
+                                ],
+                                "Quantity": 0
+                            },
+                            "Runtime": "nhojhajgnhwfbwig"
+                        },
+                        "FunctionMetadata": {
+                            "CreatedTime": "kymifpudixshoayi",
+                            "FunctionARN": "btglgboeiyfeyskf",
+                            "LastModifiedTime": "lajpjnvkjzrowrko",
+                            "Stage": "micelgmugjdzfzuj"
+                        },
+                        "Name": "qhnezeqbcrscmxxf",
+                        "Status": "zxcnmdxwtkhwgnoi"
+                    }
+                ],
+                "MaxItems": 0,
+                "NextMarker": "idjebehwgtduhevc",
+                "Quantity": 0
+            },
+            {
+                "Items": [
+                    {
+                        "FunctionConfig": {
+                            "Comment": "gjdegditgzeqqggg",
+                            "KeyValueStoreAssociations": {
+                                "Items": [
+                                    {
+                                        "KeyValueStoreARN": "bxavfcgeptqbidgp"
+                                    }
+                                ],
+                                "Quantity": 0
+                            },
+                            "Runtime": "rsnozfwlavyrtxnt"
+                        },
+                        "FunctionMetadata": {
+                            "CreatedTime": "ijtqittdnkmtexqo",
+                            "FunctionARN": "fjelvxlaktnvjynb",
+                            "LastModifiedTime": "rmgyalgfvycmxkew",
+                            "Stage": "cqiwkjogpytqalfa"
+                        },
+                        "Name": "qmsqrzkwetylxkmp",
+                        "Status": "ypvjcarekhfccidf"
+                    }
+                ],
+                "MaxItems": 0,
+                "NextMarker": "axbcifyyyzszjtbt",
+                "Quantity": 0
+            }
+        ],
+        "result_key": "FunctionList"
+    },
+    "meta": {
+        "start": 1711115378.154681,
+        "end": 1711115386.002626,
+        "duration": 7.847955942153931,
+        "service": "cloudfront",
+        "type": "functions"
+    }
+}

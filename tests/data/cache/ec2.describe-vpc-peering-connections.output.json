@@ -1,0 +1,656 @@
+{
+    "input": {
+        "template": {
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "DryRun": true,
+            "VpcPeeringConnectionIds": [
+                ""
+            ],
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "0a5826c85d95b374ebb67034fa730b2d",
+        "boto_command": "describe_vpc_peering_connections",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "AccepterVpcInfo": {
+                    "CidrBlock": "CidrBlock",
+                    "Ipv6CidrBlockSet": [
+                        {
+                            "Ipv6CidrBlock": "Ipv6CidrBlock"
+                        }
+                    ],
+                    "CidrBlockSet": [
+                        {
+                            "CidrBlock": "CidrBlock"
+                        }
+                    ],
+                    "OwnerId": "OwnerId",
+                    "PeeringOptions": {
+                        "AllowDnsResolutionFromRemoteVpc": true,
+                        "AllowEgressFromLocalClassicLinkToRemoteVpc": true,
+                        "AllowEgressFromLocalVpcToRemoteClassicLink": true
+                    },
+                    "VpcId": "VpcId",
+                    "Region": "Region"
+                },
+                "ExpirationTime": "1970-01-01T00:00:00",
+                "RequesterVpcInfo": {
+                    "CidrBlock": "CidrBlock",
+                    "Ipv6CidrBlockSet": [
+                        {
+                            "Ipv6CidrBlock": "Ipv6CidrBlock"
+                        }
+                    ],
+                    "CidrBlockSet": [
+                        {
+                            "CidrBlock": "CidrBlock"
+                        }
+                    ],
+                    "OwnerId": "OwnerId",
+                    "PeeringOptions": {
+                        "AllowDnsResolutionFromRemoteVpc": true,
+                        "AllowEgressFromLocalClassicLinkToRemoteVpc": true,
+                        "AllowEgressFromLocalVpcToRemoteClassicLink": true
+                    },
+                    "VpcId": "VpcId",
+                    "Region": "Region"
+                },
+                "Status": {
+                    "Code": "Code",
+                    "Message": "Message"
+                },
+                "Tags": [
+                    {
+                        "Key": "Key",
+                        "Value": "Value"
+                    }
+                ],
+                "VpcPeeringConnectionId": "VpcPeeringConnectionId"
+            }
+        ],
+        "required": [],
+        "md5": "0c7f745a93364d69a90a985c02a8dd37",
+        "randomized": [
+            {
+                "AccepterVpcInfo": {
+                    "CidrBlock": "ygnzknpnfqwusxlp",
+                    "CidrBlockSet": [
+                        {
+                            "CidrBlock": "ggkvzyqxrsdnbqgn"
+                        }
+                    ],
+                    "Ipv6CidrBlockSet": [
+                        {
+                            "Ipv6CidrBlock": "syyjdtasyfvrvsnf"
+                        }
+                    ],
+                    "OwnerId": "fyugaaxrmswqflkx",
+                    "PeeringOptions": {
+                        "AllowDnsResolutionFromRemoteVpc": true,
+                        "AllowEgressFromLocalClassicLinkToRemoteVpc": true,
+                        "AllowEgressFromLocalVpcToRemoteClassicLink": true
+                    },
+                    "Region": "rlicbcwyzpooszit",
+                    "VpcId": "uehpwynhdpremrgm"
+                },
+                "ExpirationTime": "pmvvwcwswwqdzptv",
+                "RequesterVpcInfo": {
+                    "CidrBlock": "pemylsboganwkgsu",
+                    "CidrBlockSet": [
+                        {
+                            "CidrBlock": "rtwtowcjmlxuqrri"
+                        }
+                    ],
+                    "Ipv6CidrBlockSet": [
+                        {
+                            "Ipv6CidrBlock": "pdejweipadizflbq"
+                        }
+                    ],
+                    "OwnerId": "cziszarfeqmfymus",
+                    "PeeringOptions": {
+                        "AllowDnsResolutionFromRemoteVpc": true,
+                        "AllowEgressFromLocalClassicLinkToRemoteVpc": true,
+                        "AllowEgressFromLocalVpcToRemoteClassicLink": true
+                    },
+                    "Region": "iuimargtwxefkcpb",
+                    "VpcId": "egprtsbxnapniref"
+                },
+                "Status": {
+                    "Code": "xutsmcjmtasuusun",
+                    "Message": "gjnysvqwpmyovhgj"
+                },
+                "Tags": [
+                    {
+                        "Key": "drotpaxjeizyfdjq",
+                        "Value": "hnhrwfmacyegceyj"
+                    }
+                ],
+                "VpcPeeringConnectionId": "kxsgdqsmalocfpar"
+            },
+            {
+                "AccepterVpcInfo": {
+                    "CidrBlock": "uupdzgaxirwxnliu",
+                    "CidrBlockSet": [
+                        {
+                            "CidrBlock": "sjjxxnsdhhedodwv"
+                        }
+                    ],
+                    "Ipv6CidrBlockSet": [
+                        {
+                            "Ipv6CidrBlock": "wxmyuscckimbhiuj"
+                        }
+                    ],
+                    "OwnerId": "uvrkwyglmljalynq",
+                    "PeeringOptions": {
+                        "AllowDnsResolutionFromRemoteVpc": true,
+                        "AllowEgressFromLocalClassicLinkToRemoteVpc": true,
+                        "AllowEgressFromLocalVpcToRemoteClassicLink": true
+                    },
+                    "Region": "buboozvzlcdfrobj",
+                    "VpcId": "fpnddyeeqabqfqfo"
+                },
+                "ExpirationTime": "bxnlufambysphwmq",
+                "RequesterVpcInfo": {
+                    "CidrBlock": "byhlnybsueitrhlw",
+                    "CidrBlockSet": [
+                        {
+                            "CidrBlock": "wiyoqrozjqnrpgxl"
+                        }
+                    ],
+                    "Ipv6CidrBlockSet": [
+                        {
+                            "Ipv6CidrBlock": "kdxowbfdpdxpgjfi"
+                        }
+                    ],
+                    "OwnerId": "lukatckcfdkzdnog",
+                    "PeeringOptions": {
+                        "AllowDnsResolutionFromRemoteVpc": true,
+                        "AllowEgressFromLocalClassicLinkToRemoteVpc": true,
+                        "AllowEgressFromLocalVpcToRemoteClassicLink": true
+                    },
+                    "Region": "mshuscqdhqlirosw",
+                    "VpcId": "tbdpyihlsihucvsy"
+                },
+                "Status": {
+                    "Code": "xxibhgtwuuprqscx",
+                    "Message": "xvfxwrozqisqddqw"
+                },
+                "Tags": [
+                    {
+                        "Key": "keqaekdwabcidxlq",
+                        "Value": "diqolgkpwyofplnq"
+                    }
+                ],
+                "VpcPeeringConnectionId": "qclypgxsolsipirn"
+            },
+            {
+                "AccepterVpcInfo": {
+                    "CidrBlock": "zhoiqpbbxkmwbwps",
+                    "CidrBlockSet": [
+                        {
+                            "CidrBlock": "jwrthxgzzjtravcs"
+                        }
+                    ],
+                    "Ipv6CidrBlockSet": [
+                        {
+                            "Ipv6CidrBlock": "klahzscjasbfznmz"
+                        }
+                    ],
+                    "OwnerId": "shbsugrqbjjrbaux",
+                    "PeeringOptions": {
+                        "AllowDnsResolutionFromRemoteVpc": true,
+                        "AllowEgressFromLocalClassicLinkToRemoteVpc": true,
+                        "AllowEgressFromLocalVpcToRemoteClassicLink": true
+                    },
+                    "Region": "lytrxjxiapkwswjk",
+                    "VpcId": "gepitdwymjbqnymo"
+                },
+                "ExpirationTime": "thiwwjugxamqhiaz",
+                "RequesterVpcInfo": {
+                    "CidrBlock": "uqozbfggzjamnwgn",
+                    "CidrBlockSet": [
+                        {
+                            "CidrBlock": "yifdqtextwdmsdai"
+                        }
+                    ],
+                    "Ipv6CidrBlockSet": [
+                        {
+                            "Ipv6CidrBlock": "pgmqxaqayfxvxedu"
+                        }
+                    ],
+                    "OwnerId": "eilpgpasaklzdpps",
+                    "PeeringOptions": {
+                        "AllowDnsResolutionFromRemoteVpc": true,
+                        "AllowEgressFromLocalClassicLinkToRemoteVpc": true,
+                        "AllowEgressFromLocalVpcToRemoteClassicLink": true
+                    },
+                    "Region": "kvirbrfybetzoxii",
+                    "VpcId": "agicapkgztgvmluk"
+                },
+                "Status": {
+                    "Code": "xaajdrfojqfsdgkz",
+                    "Message": "dusynzwydyzlkppl"
+                },
+                "Tags": [
+                    {
+                        "Key": "xuqylkdyhvtvbdpy",
+                        "Value": "twbaqfqalglvxckj"
+                    }
+                ],
+                "VpcPeeringConnectionId": "zfctqlpuruqmydgt"
+            },
+            {
+                "AccepterVpcInfo": {
+                    "CidrBlock": "gupgrppnnjheyrpb",
+                    "CidrBlockSet": [
+                        {
+                            "CidrBlock": "vjtkmqlpnsobclpf"
+                        }
+                    ],
+                    "Ipv6CidrBlockSet": [
+                        {
+                            "Ipv6CidrBlock": "cpesuxhlksrroiis"
+                        }
+                    ],
+                    "OwnerId": "mcvyqaioijpggzqe",
+                    "PeeringOptions": {
+                        "AllowDnsResolutionFromRemoteVpc": true,
+                        "AllowEgressFromLocalClassicLinkToRemoteVpc": true,
+                        "AllowEgressFromLocalVpcToRemoteClassicLink": true
+                    },
+                    "Region": "ezhhvdsxsxpdlozb",
+                    "VpcId": "phmkrxkymrqcxwth"
+                },
+                "ExpirationTime": "mfditvfgpokkdrig",
+                "RequesterVpcInfo": {
+                    "CidrBlock": "tadmernpmeawkoti",
+                    "CidrBlockSet": [
+                        {
+                            "CidrBlock": "sfkjxrirjvnprrlr"
+                        }
+                    ],
+                    "Ipv6CidrBlockSet": [
+                        {
+                            "Ipv6CidrBlock": "snslsubybtioeiwt"
+                        }
+                    ],
+                    "OwnerId": "sahxkkjyjiileraj",
+                    "PeeringOptions": {
+                        "AllowDnsResolutionFromRemoteVpc": true,
+                        "AllowEgressFromLocalClassicLinkToRemoteVpc": true,
+                        "AllowEgressFromLocalVpcToRemoteClassicLink": true
+                    },
+                    "Region": "oqjvufavuidnqxkt",
+                    "VpcId": "lonzbcfvjrsiamiy"
+                },
+                "Status": {
+                    "Code": "ccwmlekafplwmzoz",
+                    "Message": "chnurrgrcevpeubw"
+                },
+                "Tags": [
+                    {
+                        "Key": "rleptljbwkhdxwls",
+                        "Value": "ynakqxpsvprmbydy"
+                    }
+                ],
+                "VpcPeeringConnectionId": "hlkptfgpeebxtrmg"
+            },
+            {
+                "AccepterVpcInfo": {
+                    "CidrBlock": "ltavrgopqrzmkbrd",
+                    "CidrBlockSet": [
+                        {
+                            "CidrBlock": "ayzekjwcagrrlxzv"
+                        }
+                    ],
+                    "Ipv6CidrBlockSet": [
+                        {
+                            "Ipv6CidrBlock": "apjzstufiicfxptq"
+                        }
+                    ],
+                    "OwnerId": "uxykygeybxjtpyjc",
+                    "PeeringOptions": {
+                        "AllowDnsResolutionFromRemoteVpc": true,
+                        "AllowEgressFromLocalClassicLinkToRemoteVpc": true,
+                        "AllowEgressFromLocalVpcToRemoteClassicLink": true
+                    },
+                    "Region": "gscjdcpxtismgvxd",
+                    "VpcId": "ksyllufkhqwmsaxg"
+                },
+                "ExpirationTime": "glcyeayfnsvdahwm",
+                "RequesterVpcInfo": {
+                    "CidrBlock": "xwbvdlnlfysuigve",
+                    "CidrBlockSet": [
+                        {
+                            "CidrBlock": "lgufqizzsmtsjyhi"
+                        }
+                    ],
+                    "Ipv6CidrBlockSet": [
+                        {
+                            "Ipv6CidrBlock": "pesahmlodrcxteit"
+                        }
+                    ],
+                    "OwnerId": "xyzwbvmezepyhhwp",
+                    "PeeringOptions": {
+                        "AllowDnsResolutionFromRemoteVpc": true,
+                        "AllowEgressFromLocalClassicLinkToRemoteVpc": true,
+                        "AllowEgressFromLocalVpcToRemoteClassicLink": true
+                    },
+                    "Region": "lthmunoyilwfqnzj",
+                    "VpcId": "iacohbcyjgjrqtnm"
+                },
+                "Status": {
+                    "Code": "eptlauwgfcpvwmyn",
+                    "Message": "cwxskikiknmfmqhk"
+                },
+                "Tags": [
+                    {
+                        "Key": "naxuriuifpwixguo",
+                        "Value": "yifnxbttrcikijhn"
+                    }
+                ],
+                "VpcPeeringConnectionId": "ooanlcphddzgqcbd"
+            },
+            {
+                "AccepterVpcInfo": {
+                    "CidrBlock": "xnfwxzpbnsjskmle",
+                    "CidrBlockSet": [
+                        {
+                            "CidrBlock": "iicxxnqzpkkhnpbx"
+                        }
+                    ],
+                    "Ipv6CidrBlockSet": [
+                        {
+                            "Ipv6CidrBlock": "jgphfypzgbxxwlin"
+                        }
+                    ],
+                    "OwnerId": "qnnckjgvejeoxext",
+                    "PeeringOptions": {
+                        "AllowDnsResolutionFromRemoteVpc": true,
+                        "AllowEgressFromLocalClassicLinkToRemoteVpc": true,
+                        "AllowEgressFromLocalVpcToRemoteClassicLink": true
+                    },
+                    "Region": "nhzaxkefileyocah",
+                    "VpcId": "eqvaillqkjromvlp"
+                },
+                "ExpirationTime": "gbtrqrjtbghhqsdk",
+                "RequesterVpcInfo": {
+                    "CidrBlock": "iiyieovdflpookcx",
+                    "CidrBlockSet": [
+                        {
+                            "CidrBlock": "dnfssmayjnrcpvbu"
+                        }
+                    ],
+                    "Ipv6CidrBlockSet": [
+                        {
+                            "Ipv6CidrBlock": "brcxyrsyfeqrqsrm"
+                        }
+                    ],
+                    "OwnerId": "njqpxdvhszcikoij",
+                    "PeeringOptions": {
+                        "AllowDnsResolutionFromRemoteVpc": true,
+                        "AllowEgressFromLocalClassicLinkToRemoteVpc": true,
+                        "AllowEgressFromLocalVpcToRemoteClassicLink": true
+                    },
+                    "Region": "cdvygyhwbltevjaj",
+                    "VpcId": "diodmdfrcauqzbrp"
+                },
+                "Status": {
+                    "Code": "xypohvxymechlfvr",
+                    "Message": "rcymllcoemtlbcus"
+                },
+                "Tags": [
+                    {
+                        "Key": "oyshbuwskrosdmxx",
+                        "Value": "qkbyzgdupmhpvrjf"
+                    }
+                ],
+                "VpcPeeringConnectionId": "ddozdxldsxlcbfdi"
+            },
+            {
+                "AccepterVpcInfo": {
+                    "CidrBlock": "sovggwwnuytyjdlx",
+                    "CidrBlockSet": [
+                        {
+                            "CidrBlock": "lpqzaikawzhrzovy"
+                        }
+                    ],
+                    "Ipv6CidrBlockSet": [
+                        {
+                            "Ipv6CidrBlock": "rrzjxyqhlgqijyxf"
+                        }
+                    ],
+                    "OwnerId": "xsrfsltiowmobuvc",
+                    "PeeringOptions": {
+                        "AllowDnsResolutionFromRemoteVpc": true,
+                        "AllowEgressFromLocalClassicLinkToRemoteVpc": true,
+                        "AllowEgressFromLocalVpcToRemoteClassicLink": true
+                    },
+                    "Region": "tbhccripptzxhlgz",
+                    "VpcId": "fxfksfhcsjmyolal"
+                },
+                "ExpirationTime": "fmvhyjraohkktwam",
+                "RequesterVpcInfo": {
+                    "CidrBlock": "sxpnveohcdkrscie",
+                    "CidrBlockSet": [
+                        {
+                            "CidrBlock": "dbeczihiarkkexdo"
+                        }
+                    ],
+                    "Ipv6CidrBlockSet": [
+                        {
+                            "Ipv6CidrBlock": "xousxxdfmlngnizx"
+                        }
+                    ],
+                    "OwnerId": "ytfjzrajsboawiyb",
+                    "PeeringOptions": {
+                        "AllowDnsResolutionFromRemoteVpc": true,
+                        "AllowEgressFromLocalClassicLinkToRemoteVpc": true,
+                        "AllowEgressFromLocalVpcToRemoteClassicLink": true
+                    },
+                    "Region": "phzwwmgncabvaelq",
+                    "VpcId": "dkafyhctteslampq"
+                },
+                "Status": {
+                    "Code": "pdqfrnhzruxtjwon",
+                    "Message": "cvcqlspkhcwnwzpl"
+                },
+                "Tags": [
+                    {
+                        "Key": "adtcxmtzyieozzzg",
+                        "Value": "xbwjluikrnzxunay"
+                    }
+                ],
+                "VpcPeeringConnectionId": "djrazanuvgnuhera"
+            },
+            {
+                "AccepterVpcInfo": {
+                    "CidrBlock": "hzoqmeekdubewckb",
+                    "CidrBlockSet": [
+                        {
+                            "CidrBlock": "nrouimamoytbukgt"
+                        }
+                    ],
+                    "Ipv6CidrBlockSet": [
+                        {
+                            "Ipv6CidrBlock": "zedsudgzvtwputgx"
+                        }
+                    ],
+                    "OwnerId": "wquenrulqtrqgpvj",
+                    "PeeringOptions": {
+                        "AllowDnsResolutionFromRemoteVpc": true,
+                        "AllowEgressFromLocalClassicLinkToRemoteVpc": true,
+                        "AllowEgressFromLocalVpcToRemoteClassicLink": true
+                    },
+                    "Region": "guhssvxzvcynbquw",
+                    "VpcId": "arlurebejbklhttl"
+                },
+                "ExpirationTime": "fdqsyemxgjjvtghd",
+                "RequesterVpcInfo": {
+                    "CidrBlock": "okdehkwzmpiywmvr",
+                    "CidrBlockSet": [
+                        {
+                            "CidrBlock": "ujexhlucvqbjpybj"
+                        }
+                    ],
+                    "Ipv6CidrBlockSet": [
+                        {
+                            "Ipv6CidrBlock": "jgzeeadcyxshqyui"
+                        }
+                    ],
+                    "OwnerId": "hnzmnslumnkpzreq",
+                    "PeeringOptions": {
+                        "AllowDnsResolutionFromRemoteVpc": true,
+                        "AllowEgressFromLocalClassicLinkToRemoteVpc": true,
+                        "AllowEgressFromLocalVpcToRemoteClassicLink": true
+                    },
+                    "Region": "wlopqqneoaqqkdwm",
+                    "VpcId": "wxbvrvrxzaybhybe"
+                },
+                "Status": {
+                    "Code": "gngiktypivwbitwc",
+                    "Message": "zhaueibjeldbwhwv"
+                },
+                "Tags": [
+                    {
+                        "Key": "lwyzshbkfohehyxp",
+                        "Value": "nxjxnmqmkwifiegc"
+                    }
+                ],
+                "VpcPeeringConnectionId": "arhnfckeoosjjstr"
+            },
+            {
+                "AccepterVpcInfo": {
+                    "CidrBlock": "wdmctjmqqnzhbchg",
+                    "CidrBlockSet": [
+                        {
+                            "CidrBlock": "njawqpfqvpfdremv"
+                        }
+                    ],
+                    "Ipv6CidrBlockSet": [
+                        {
+                            "Ipv6CidrBlock": "lygcwchafkevfspx"
+                        }
+                    ],
+                    "OwnerId": "wvksfgitdkcdgnvh",
+                    "PeeringOptions": {
+                        "AllowDnsResolutionFromRemoteVpc": true,
+                        "AllowEgressFromLocalClassicLinkToRemoteVpc": true,
+                        "AllowEgressFromLocalVpcToRemoteClassicLink": true
+                    },
+                    "Region": "lmqbensaprswmkcc",
+                    "VpcId": "asywsbpfywfbghcu"
+                },
+                "ExpirationTime": "mipffcxhuwohyaph",
+                "RequesterVpcInfo": {
+                    "CidrBlock": "ydwudjhqwkfnlesv",
+                    "CidrBlockSet": [
+                        {
+                            "CidrBlock": "qvlsxbpthgviqiku"
+                        }
+                    ],
+                    "Ipv6CidrBlockSet": [
+                        {
+                            "Ipv6CidrBlock": "ltdblwldhzqlxbvu"
+                        }
+                    ],
+                    "OwnerId": "raljgokvpkpxsfxm",
+                    "PeeringOptions": {
+                        "AllowDnsResolutionFromRemoteVpc": true,
+                        "AllowEgressFromLocalClassicLinkToRemoteVpc": true,
+                        "AllowEgressFromLocalVpcToRemoteClassicLink": true
+                    },
+                    "Region": "gwjduzekafexrijo",
+                    "VpcId": "mivacexamqpzcvbj"
+                },
+                "Status": {
+                    "Code": "sikaorqbdytfmfwm",
+                    "Message": "qyakqhadyulltrgb"
+                },
+                "Tags": [
+                    {
+                        "Key": "ctcckrodgkkttutu",
+                        "Value": "azulrzufajuxbcbj"
+                    }
+                ],
+                "VpcPeeringConnectionId": "atpqjwouwqpksbsv"
+            },
+            {
+                "AccepterVpcInfo": {
+                    "CidrBlock": "yzslsxijfcsxvseu",
+                    "CidrBlockSet": [
+                        {
+                            "CidrBlock": "tflfdfioqwabhnav"
+                        }
+                    ],
+                    "Ipv6CidrBlockSet": [
+                        {
+                            "Ipv6CidrBlock": "eiswoivjgnkuzphr"
+                        }
+                    ],
+                    "OwnerId": "hwgebccfpzqqztpl",
+                    "PeeringOptions": {
+                        "AllowDnsResolutionFromRemoteVpc": true,
+                        "AllowEgressFromLocalClassicLinkToRemoteVpc": true,
+                        "AllowEgressFromLocalVpcToRemoteClassicLink": true
+                    },
+                    "Region": "svtvwzidlfqeamhw",
+                    "VpcId": "gkgwcjsnmbzbzzaf"
+                },
+                "ExpirationTime": "xedvrbbaleazndew",
+                "RequesterVpcInfo": {
+                    "CidrBlock": "uieyskegjccloyfk",
+                    "CidrBlockSet": [
+                        {
+                            "CidrBlock": "agucdzzcgkrdjutu"
+                        }
+                    ],
+                    "Ipv6CidrBlockSet": [
+                        {
+                            "Ipv6CidrBlock": "zxrzbtsgquhnbqft"
+                        }
+                    ],
+                    "OwnerId": "hoaatjnbiwjcydnu",
+                    "PeeringOptions": {
+                        "AllowDnsResolutionFromRemoteVpc": true,
+                        "AllowEgressFromLocalClassicLinkToRemoteVpc": true,
+                        "AllowEgressFromLocalVpcToRemoteClassicLink": true
+                    },
+                    "Region": "lmxdingbughtpazq",
+                    "VpcId": "xuasbxhxqxfezfzq"
+                },
+                "Status": {
+                    "Code": "mdebblwzzueuaxgo",
+                    "Message": "jfoijatxkkxdparj"
+                },
+                "Tags": [
+                    {
+                        "Key": "zjswqydefzdxphuc",
+                        "Value": "rppsobkhnmkcsayh"
+                    }
+                ],
+                "VpcPeeringConnectionId": "onnyjrlwdbotmxwr"
+            }
+        ],
+        "result_key": "VpcPeeringConnections"
+    },
+    "meta": {
+        "start": 1711115666.238079,
+        "end": 1711115672.564062,
+        "duration": 6.325994968414307,
+        "service": "ec2",
+        "type": "vpc_peering_connections"
+    }
+}

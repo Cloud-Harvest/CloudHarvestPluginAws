@@ -1,0 +1,69 @@
+{
+    "input": {
+        "template": {
+            "InsightId": ""
+        },
+        "required": [],
+        "md5": "b62dc1d1c9467869001259eea7b7a3eb",
+        "boto_command": "describe_feedback",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": {
+            "Id": "Id",
+            "Feedback": "Feedback"
+        },
+        "required": [],
+        "md5": "f5d5cc4d7c3a9c5bfa1ce31db1b8a5d0",
+        "randomized": [
+            {
+                "Feedback": "aedprpclahnhdett",
+                "Id": "fswttvrfpxmdnpzy"
+            },
+            {
+                "Feedback": "dnlbxzyklredvpss",
+                "Id": "wyitynykudterbyv"
+            },
+            {
+                "Feedback": "bcmmqduncxcpvvlc",
+                "Id": "obzqypkjvfnzipbg"
+            },
+            {
+                "Feedback": "qwacyepcxuikfmxp",
+                "Id": "lqhswngnbrchyams"
+            },
+            {
+                "Feedback": "razzhnlmwnzdalzz",
+                "Id": "tvvsnwhaljpdwfeq"
+            },
+            {
+                "Feedback": "rziwgiscyeyudlek",
+                "Id": "pftjqifqcdfgzqrv"
+            },
+            {
+                "Feedback": "zhwzqxiktlyixrew",
+                "Id": "ejsycmcgggslroqk"
+            },
+            {
+                "Feedback": "rlsfilkrvpfpjfgo",
+                "Id": "gnyzumjukmfjmqqr"
+            },
+            {
+                "Feedback": "brwcqcczdmqhqywx",
+                "Id": "mwoglvnyqxbwyezj"
+            },
+            {
+                "Feedback": "syattyosrqgmfweb",
+                "Id": "nvrtpmigbfliuaxv"
+            }
+        ],
+        "result_key": "InsightFeedback"
+    },
+    "meta": {
+        "start": 1711115557.309029,
+        "end": 1711115565.539619,
+        "duration": 8.230601787567139,
+        "service": "devops-guru",
+        "type": "feedback"
+    }
+}

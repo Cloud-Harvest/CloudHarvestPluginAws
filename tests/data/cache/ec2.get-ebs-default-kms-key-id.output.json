@@ -1,0 +1,36 @@
+{
+    "input": {
+        "template": {
+            "DryRun": true
+        },
+        "required": [],
+        "md5": "fe3857e79c53d9448b6cfb906cf015d1",
+        "boto_command": "get_ebs_default_kms_key_id",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": "KmsKeyId",
+        "required": [],
+        "md5": "d4572abc9232fa72e13b0b47466e66d7",
+        "randomized": [
+            "vquyjeqambtiiljs",
+            "ktsrsrnrfvchconz",
+            "nkbxupsnljmlvtiv",
+            "osayxucdoozjolli",
+            "nqyyhwhbavfadqpr",
+            "lhwsqxxrbygrnwvr",
+            "cpfseigtmcskleul",
+            "zjebkybdagxfnlch",
+            "ezbcpoveyawtlskb",
+            "qufxinhpbrjdfnlb"
+        ],
+        "result_key": "KmsKeyId"
+    },
+    "meta": {
+        "start": 1711115670.682882,
+        "end": 1711115678.293671,
+        "duration": 7.6107988357543945,
+        "service": "ec2",
+        "type": null
+    }
+}

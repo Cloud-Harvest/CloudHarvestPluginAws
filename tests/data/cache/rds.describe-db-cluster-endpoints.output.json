@@ -1,0 +1,214 @@
+{
+    "input": {
+        "template": {
+            "DBClusterIdentifier": "",
+            "DBClusterEndpointIdentifier": "",
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxRecords": 0,
+            "Marker": ""
+        },
+        "required": [],
+        "md5": "84c9e39e5c95ec9a59498bc7d883352f",
+        "boto_command": "describe_db_cluster_endpoints",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "DBClusterEndpointIdentifier": "DBClusterEndpointIdentifier",
+                "DBClusterIdentifier": "DBClusterIdentifier",
+                "DBClusterEndpointResourceIdentifier": "DBClusterEndpointResourceIdentifier",
+                "Endpoint": "Endpoint",
+                "Status": "Status",
+                "EndpointType": "EndpointType",
+                "CustomEndpointType": "CustomEndpointType",
+                "StaticMembers": [
+                    "String"
+                ],
+                "ExcludedMembers": [
+                    "String"
+                ],
+                "DBClusterEndpointArn": "DBClusterEndpointArn"
+            }
+        ],
+        "required": [],
+        "md5": "ed3ed8f5c12ee161c617515b036d2962",
+        "randomized": [
+            {
+                "CustomEndpointType": "yvysgoznmdwoaubo",
+                "DBClusterEndpointArn": "ackffzenraxpposg",
+                "DBClusterEndpointIdentifier": "lmcdmebingloyvgj",
+                "DBClusterEndpointResourceIdentifier": "aktvsltwmknjozaq",
+                "DBClusterIdentifier": "dkyuplahortcdgbi",
+                "Endpoint": "xetechdxgsmfiuum",
+                "EndpointType": "rchhjonosloisrgt",
+                "ExcludedMembers": [
+                    "mfzjzbegbenjnnvk"
+                ],
+                "StaticMembers": [
+                    "rhrxwxqcuyjhelvs"
+                ],
+                "Status": "ybdawkbflmhepdvs"
+            },
+            {
+                "CustomEndpointType": "lpdgfwpjjirxvfqx",
+                "DBClusterEndpointArn": "evwyqlpypxluheug",
+                "DBClusterEndpointIdentifier": "gxpwwjlugoporbcn",
+                "DBClusterEndpointResourceIdentifier": "zultbamiikzrufnq",
+                "DBClusterIdentifier": "xfaiaazswzeknbig",
+                "Endpoint": "bfyrjuwwppxwutzo",
+                "EndpointType": "qzemqbkjfejozylu",
+                "ExcludedMembers": [
+                    "vapuuhervxoizyxo"
+                ],
+                "StaticMembers": [
+                    "gimdcmlovnxlrxms"
+                ],
+                "Status": "pjsfuscvccopvooi"
+            },
+            {
+                "CustomEndpointType": "mptzbczgftvbrxkd",
+                "DBClusterEndpointArn": "izsnbzqrpntozzce",
+                "DBClusterEndpointIdentifier": "ifltmnwxcihmxrkz",
+                "DBClusterEndpointResourceIdentifier": "xqqltkepbobgvqkw",
+                "DBClusterIdentifier": "eefncqxvfoviabin",
+                "Endpoint": "udiumjlqruavixpi",
+                "EndpointType": "guwfuxfgpobpsjqi",
+                "ExcludedMembers": [
+                    "lsdqasjopfetohbl"
+                ],
+                "StaticMembers": [
+                    "vfnoialdswvbwblt"
+                ],
+                "Status": "zcndcpucnuaucdim"
+            },
+            {
+                "CustomEndpointType": "ueulzudewnmfovsr",
+                "DBClusterEndpointArn": "mzbgahtqxhtwtyrq",
+                "DBClusterEndpointIdentifier": "zmhurquadawsbvvy",
+                "DBClusterEndpointResourceIdentifier": "lglzzvaesebqwkkp",
+                "DBClusterIdentifier": "omuzdlmihwmkvswn",
+                "Endpoint": "qbwaqnmtatdtxzkr",
+                "EndpointType": "qdkhtvnglmgdjmhi",
+                "ExcludedMembers": [
+                    "dvhmoycmhxlygetv"
+                ],
+                "StaticMembers": [
+                    "bodhwqvvmpenseoc"
+                ],
+                "Status": "framsykryvgujcaa"
+            },
+            {
+                "CustomEndpointType": "mdwpdzqgvmtzdvtc",
+                "DBClusterEndpointArn": "ugxqmiufenzgxccl",
+                "DBClusterEndpointIdentifier": "gnbudonzwynihhur",
+                "DBClusterEndpointResourceIdentifier": "lzpbktxwwkxthgaw",
+                "DBClusterIdentifier": "vzkbmbcctmbrfsuu",
+                "Endpoint": "miklttruaommprsk",
+                "EndpointType": "qzxruefnakqhwjsk",
+                "ExcludedMembers": [
+                    "pucnpzxzxxtldtos"
+                ],
+                "StaticMembers": [
+                    "dcfoyyasohaxtqxi"
+                ],
+                "Status": "gptksiwkkyhbwrvn"
+            },
+            {
+                "CustomEndpointType": "snweujwjsjjgtzfa",
+                "DBClusterEndpointArn": "kdftwewfnmplhszw",
+                "DBClusterEndpointIdentifier": "eicntptlevocyalb",
+                "DBClusterEndpointResourceIdentifier": "flhdceoteqzpodqq",
+                "DBClusterIdentifier": "fargcstyjmfzvffp",
+                "Endpoint": "obxjaapauttkafyh",
+                "EndpointType": "fjlodrqieaysfqnm",
+                "ExcludedMembers": [
+                    "jqwuysdgcguxtxyg"
+                ],
+                "StaticMembers": [
+                    "sfskepunnxkgcukl"
+                ],
+                "Status": "ikoxarpkbgmidaro"
+            },
+            {
+                "CustomEndpointType": "jkklxjvqujwxersh",
+                "DBClusterEndpointArn": "gwkyvboktovbxfjy",
+                "DBClusterEndpointIdentifier": "mkzjcwhaosbugfdp",
+                "DBClusterEndpointResourceIdentifier": "eawtnnctihqtkpxc",
+                "DBClusterIdentifier": "byzghlqlhgcrcnkq",
+                "Endpoint": "zzaeifjuqxugvdvn",
+                "EndpointType": "daqtbkhcdhjkvhxf",
+                "ExcludedMembers": [
+                    "nmtaztsdkdqrpbxr"
+                ],
+                "StaticMembers": [
+                    "kamtutduhvmsrdxf"
+                ],
+                "Status": "pvsqkcbnfdekswzg"
+            },
+            {
+                "CustomEndpointType": "ornwebjltbtzqqzo",
+                "DBClusterEndpointArn": "lfnwjitrngsjhukb",
+                "DBClusterEndpointIdentifier": "pitdzegdqzkgbmqo",
+                "DBClusterEndpointResourceIdentifier": "rsoxrccnjbickile",
+                "DBClusterIdentifier": "ssipvadwhdxfbzfj",
+                "Endpoint": "inwtrdylpfqrvcoa",
+                "EndpointType": "qquqbcqsrmnodzuh",
+                "ExcludedMembers": [
+                    "bcjlxxtcplzfzmxl"
+                ],
+                "StaticMembers": [
+                    "jnqikissvabcdlay"
+                ],
+                "Status": "lbqzjpsjqvfgdhyh"
+            },
+            {
+                "CustomEndpointType": "wjajfengpebealno",
+                "DBClusterEndpointArn": "qibrkebrozyfwykh",
+                "DBClusterEndpointIdentifier": "hykbfsxbyfnsbbsp",
+                "DBClusterEndpointResourceIdentifier": "ydswmexrwzjmpvut",
+                "DBClusterIdentifier": "vdtwgprlrvsjishl",
+                "Endpoint": "evjkbtnhjwwvkewz",
+                "EndpointType": "rxmlgmdiseqomusi",
+                "ExcludedMembers": [
+                    "qamuetqrvwikpbdn"
+                ],
+                "StaticMembers": [
+                    "ngzcqtqlfdxhllse"
+                ],
+                "Status": "dufdtxwidzqxtorj"
+            },
+            {
+                "CustomEndpointType": "mjdeorkrbroutnpi",
+                "DBClusterEndpointArn": "zwdbswhslkitudvb",
+                "DBClusterEndpointIdentifier": "xooprqdygrvijoxv",
+                "DBClusterEndpointResourceIdentifier": "qdrdhinxepzcrmnq",
+                "DBClusterIdentifier": "resjbhhmnafhjszk",
+                "Endpoint": "vhbuxripdswxavqb",
+                "EndpointType": "aeegyecvdpfsbxyy",
+                "ExcludedMembers": [
+                    "ulphfmlmhzxzwgsp"
+                ],
+                "StaticMembers": [
+                    "wehhwnffrzitysqj"
+                ],
+                "Status": "ylhnpldscybjpjxu"
+            }
+        ],
+        "result_key": "DBClusterEndpoints"
+    },
+    "meta": {
+        "start": 1711116404.782878,
+        "end": 1711116411.943281,
+        "duration": 7.160413026809692,
+        "service": "rds",
+        "type": "db_cluster_endpoints"
+    }
+}

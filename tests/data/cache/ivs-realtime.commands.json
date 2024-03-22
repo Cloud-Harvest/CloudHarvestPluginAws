@@ -1,0 +1,16 @@
+[
+    "ivs-realtime.get-composition",
+    "ivs-realtime.get-encoder-configuration",
+    "ivs-realtime.get-participant",
+    "ivs-realtime.get-stage",
+    "ivs-realtime.get-stage-session",
+    "ivs-realtime.get-storage-configuration",
+    "ivs-realtime.list-compositions",
+    "ivs-realtime.list-encoder-configurations",
+    "ivs-realtime.list-participant-events",
+    "ivs-realtime.list-participants",
+    "ivs-realtime.list-stage-sessions",
+    "ivs-realtime.list-stages",
+    "ivs-realtime.list-storage-configurations",
+    "ivs-realtime.list-tags-for-resource"
+]

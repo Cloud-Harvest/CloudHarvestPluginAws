@@ -1,0 +1,174 @@
+{
+    "input": {
+        "template": {
+            "SenderIds": [
+                {
+                    "SenderId": "",
+                    "IsoCountryCode": ""
+                }
+            ],
+            "Filters": [
+                {
+                    "Name": "sender-id",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "a252f6a0c840cd8aaaaf4a97a1e2cfdc",
+        "boto_command": "describe_sender_ids",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "SenderIdArn": "SenderIdArn",
+                "SenderId": "SenderId",
+                "IsoCountryCode": "IsoCountryCode",
+                "MessageTypes": [
+                    "MessageType"
+                ],
+                "MonthlyLeasingPrice": "MonthlyLeasingPrice",
+                "DeletionProtectionEnabled": true,
+                "Registered": true,
+                "RegistrationId": "RegistrationId"
+            }
+        ],
+        "required": [],
+        "md5": "6465f4b42a92d81919e6f0b87f170f60",
+        "randomized": [
+            {
+                "DeletionProtectionEnabled": true,
+                "IsoCountryCode": "pedslsgxlflzqjhh",
+                "MessageTypes": [
+                    "hotzrmvkxlezvhav"
+                ],
+                "MonthlyLeasingPrice": "rgjfhgpvdzcegvdb",
+                "Registered": true,
+                "RegistrationId": "iqsircctdblatecc",
+                "SenderId": "sisicjspxiqmisdi",
+                "SenderIdArn": "qtkmxctahjqqcnfx"
+            },
+            {
+                "DeletionProtectionEnabled": true,
+                "IsoCountryCode": "rgtsdcjuzrwdewwj",
+                "MessageTypes": [
+                    "payxmaeogiovcchr"
+                ],
+                "MonthlyLeasingPrice": "zjelqsozdhigqnxv",
+                "Registered": true,
+                "RegistrationId": "emcvpnlgbfdxpsni",
+                "SenderId": "bksnoxewrfckerek",
+                "SenderIdArn": "qfrcsnteiufkmmzv"
+            },
+            {
+                "DeletionProtectionEnabled": true,
+                "IsoCountryCode": "vcaxljugwphqtyjb",
+                "MessageTypes": [
+                    "gjxblmiahbjasxbo"
+                ],
+                "MonthlyLeasingPrice": "lsvavulphjbxjupj",
+                "Registered": true,
+                "RegistrationId": "vkcxochmyvecjpbo",
+                "SenderId": "xftaodlhhntjgtmc",
+                "SenderIdArn": "cubibkqihserygzh"
+            },
+            {
+                "DeletionProtectionEnabled": true,
+                "IsoCountryCode": "bmwzpxkoxgorniid",
+                "MessageTypes": [
+                    "emzuupppywymiwhj"
+                ],
+                "MonthlyLeasingPrice": "eeiebxxlenkluhpi",
+                "Registered": true,
+                "RegistrationId": "eqffwxzidgfwrahv",
+                "SenderId": "edpcavsehjbdosrk",
+                "SenderIdArn": "fbtgmadywivuuhxn"
+            },
+            {
+                "DeletionProtectionEnabled": true,
+                "IsoCountryCode": "wvmazqnmioyhajzd",
+                "MessageTypes": [
+                    "uplsqhadbigemtpc"
+                ],
+                "MonthlyLeasingPrice": "pyfptsxccszxyjvr",
+                "Registered": true,
+                "RegistrationId": "btqopfrnippbxeth",
+                "SenderId": "qgqzekowpkykxohc",
+                "SenderIdArn": "wvkyyspnqjwkpvlb"
+            },
+            {
+                "DeletionProtectionEnabled": true,
+                "IsoCountryCode": "zinziyuiertuncrk",
+                "MessageTypes": [
+                    "qyekugdjzisokdyf"
+                ],
+                "MonthlyLeasingPrice": "xsbcprrtinxtvjnt",
+                "Registered": true,
+                "RegistrationId": "fwbhbsykrxdkjyja",
+                "SenderId": "ttysezsotjbxqyoh",
+                "SenderIdArn": "rdwkvkquxrcigbec"
+            },
+            {
+                "DeletionProtectionEnabled": true,
+                "IsoCountryCode": "mbtvypbvkkqstrnm",
+                "MessageTypes": [
+                    "pechotiqifvtjykq"
+                ],
+                "MonthlyLeasingPrice": "xqzhcqosmxwmskzm",
+                "Registered": true,
+                "RegistrationId": "evekwzqnrjdzyoco",
+                "SenderId": "oszrzadpkagldwzw",
+                "SenderIdArn": "wojtefagbpofjytl"
+            },
+            {
+                "DeletionProtectionEnabled": true,
+                "IsoCountryCode": "myjbdkbxsnkcvquh",
+                "MessageTypes": [
+                    "grvgjvyikiudoczp"
+                ],
+                "MonthlyLeasingPrice": "ftcwebqyvddoqokd",
+                "Registered": true,
+                "RegistrationId": "hfegozhrhpymxqqz",
+                "SenderId": "bcpdgkphzxfoaivg",
+                "SenderIdArn": "diiccujdnkexpfuq"
+            },
+            {
+                "DeletionProtectionEnabled": true,
+                "IsoCountryCode": "ejopgnazyzxinmnb",
+                "MessageTypes": [
+                    "ubtoxpyreuwauknv"
+                ],
+                "MonthlyLeasingPrice": "ufwbqwwbpqtvnqlk",
+                "Registered": true,
+                "RegistrationId": "ojlkixwrxomdikkd",
+                "SenderId": "wtddvmhkmwvqrfbq",
+                "SenderIdArn": "dshwpaycceprpvtp"
+            },
+            {
+                "DeletionProtectionEnabled": true,
+                "IsoCountryCode": "lyrdoyxkjwxeizpe",
+                "MessageTypes": [
+                    "nchyyhldopboqrto"
+                ],
+                "MonthlyLeasingPrice": "yxuzsddppbhfxnta",
+                "Registered": true,
+                "RegistrationId": "wwqsqucuasijbwuy",
+                "SenderId": "bitikfpxyebrrkyc",
+                "SenderIdArn": "jtltayzjlwoquwik"
+            }
+        ],
+        "result_key": "SenderIds"
+    },
+    "meta": {
+        "start": 1711116348.796786,
+        "end": 1711116353.76723,
+        "duration": 4.970454931259155,
+        "service": "pinpoint-sms-voice-v2",
+        "type": "sender_ids"
+    }
+}

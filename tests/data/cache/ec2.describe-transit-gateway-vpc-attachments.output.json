@@ -1,0 +1,293 @@
+{
+    "input": {
+        "template": {
+            "TransitGatewayAttachmentIds": [
+                ""
+            ],
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxResults": 0,
+            "NextToken": "",
+            "DryRun": true
+        },
+        "required": [],
+        "md5": "18bfcf03fff43a7e33368f93a220c2a9",
+        "boto_command": "describe_transit_gateway_vpc_attachments",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "TransitGatewayAttachmentId": "TransitGatewayAttachmentId",
+                "TransitGatewayId": "TransitGatewayId",
+                "VpcId": "VpcId",
+                "VpcOwnerId": "VpcOwnerId",
+                "State": "State",
+                "SubnetIds": [
+                    "String"
+                ],
+                "CreationTime": "1970-01-01T00:00:00",
+                "Options": {
+                    "DnsSupport": "DnsSupport",
+                    "SecurityGroupReferencingSupport": "SecurityGroupReferencingSupport",
+                    "Ipv6Support": "Ipv6Support",
+                    "ApplianceModeSupport": "ApplianceModeSupport"
+                },
+                "Tags": [
+                    {
+                        "Key": "Key",
+                        "Value": "Value"
+                    }
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "0f2877329fffb9b34db93ce037d858d6",
+        "randomized": [
+            {
+                "CreationTime": "tnwnpzcoqvslckop",
+                "Options": {
+                    "ApplianceModeSupport": "ywkcxcovqultmebw",
+                    "DnsSupport": "xgpigbbhipddkvow",
+                    "Ipv6Support": "wcsusdgzsfgabqwx",
+                    "SecurityGroupReferencingSupport": "pgwoxpyrjcseumzj"
+                },
+                "State": "xjrzblpxyjilcfow",
+                "SubnetIds": [
+                    "ukcmicjtevoreknb"
+                ],
+                "Tags": [
+                    {
+                        "Key": "hkgfhuismwrexbls",
+                        "Value": "ktjawgodtovonpfi"
+                    }
+                ],
+                "TransitGatewayAttachmentId": "rcbwejocngkvsfwi",
+                "TransitGatewayId": "gwtrioedvestvqhi",
+                "VpcId": "wuuqqwqmpmxqujli",
+                "VpcOwnerId": "wpnshworyrmjfmau"
+            },
+            {
+                "CreationTime": "pbtiqkvzknwhiboi",
+                "Options": {
+                    "ApplianceModeSupport": "jbokjxxnjknzodpi",
+                    "DnsSupport": "wkpfrkljiqyhoayg",
+                    "Ipv6Support": "nabdqbstlzwjjjmw",
+                    "SecurityGroupReferencingSupport": "yovmmdpifhoutwrf"
+                },
+                "State": "aimxxtlagneppobh",
+                "SubnetIds": [
+                    "wvurawrrpiwvrybm"
+                ],
+                "Tags": [
+                    {
+                        "Key": "kzaflpntdknxslcp",
+                        "Value": "zplwjqajzhftczzf"
+                    }
+                ],
+                "TransitGatewayAttachmentId": "vwcoxiwipsmxdhdn",
+                "TransitGatewayId": "xpvcucxnfiogiinz",
+                "VpcId": "adhajfakgvqwqgul",
+                "VpcOwnerId": "zstgxqbomvbfxkjs"
+            },
+            {
+                "CreationTime": "reeabokwcfkfmhlb",
+                "Options": {
+                    "ApplianceModeSupport": "zddlidujvommqssj",
+                    "DnsSupport": "hvikdkpvoszcbwrq",
+                    "Ipv6Support": "wdjkwaddxccbgxjh",
+                    "SecurityGroupReferencingSupport": "lmutvbzcggfabwue"
+                },
+                "State": "xkhfzxszqtrcbmdd",
+                "SubnetIds": [
+                    "ruaibxxxcmcgbukh"
+                ],
+                "Tags": [
+                    {
+                        "Key": "ddbrooqqxkkyuvua",
+                        "Value": "lhyosxgiygkcnhkz"
+                    }
+                ],
+                "TransitGatewayAttachmentId": "wwdzcocgavvirtnh",
+                "TransitGatewayId": "ysvjfhknodztoymd",
+                "VpcId": "izqgvzygaxjegzjl",
+                "VpcOwnerId": "ougaheausmzvmsam"
+            },
+            {
+                "CreationTime": "rhdpueuoltrqpmju",
+                "Options": {
+                    "ApplianceModeSupport": "yzrfkykyucldtnfh",
+                    "DnsSupport": "naueztaqdilxtrmq",
+                    "Ipv6Support": "ivvirsvkdbodkxcq",
+                    "SecurityGroupReferencingSupport": "xbibupnrfksfyicj"
+                },
+                "State": "qleerysnlwdjhpgu",
+                "SubnetIds": [
+                    "aerqjrprrubvgjqk"
+                ],
+                "Tags": [
+                    {
+                        "Key": "itdtgrvlfknauyww",
+                        "Value": "nrnuqkuhlokinyem"
+                    }
+                ],
+                "TransitGatewayAttachmentId": "wnnfcxbgnmstvpql",
+                "TransitGatewayId": "nxqyuqhohsymlskz",
+                "VpcId": "itrgnmeekwuqliaf",
+                "VpcOwnerId": "ppcdiyhtzlqkevhq"
+            },
+            {
+                "CreationTime": "fxuagwxixgymrega",
+                "Options": {
+                    "ApplianceModeSupport": "uwknrzsmhpycgmvt",
+                    "DnsSupport": "yztcllbdwnqlubmw",
+                    "Ipv6Support": "vtmtlgkkinlygmlk",
+                    "SecurityGroupReferencingSupport": "mxamuieyoevnsyby"
+                },
+                "State": "mqkeiunpeubmdsfk",
+                "SubnetIds": [
+                    "dqptxwswqhcgqdyn"
+                ],
+                "Tags": [
+                    {
+                        "Key": "mmclwzzjxzwbvvpm",
+                        "Value": "cldowbcnzqcrwqqz"
+                    }
+                ],
+                "TransitGatewayAttachmentId": "crxxjemuhyiyatlj",
+                "TransitGatewayId": "ukqzblnxqdrhyobp",
+                "VpcId": "sidpvcwxewowllrh",
+                "VpcOwnerId": "rudyxokakpodidhb"
+            },
+            {
+                "CreationTime": "yjldxumeyunavvpy",
+                "Options": {
+                    "ApplianceModeSupport": "pnuddrellktsejuv",
+                    "DnsSupport": "gtbtlmuluxvvrznn",
+                    "Ipv6Support": "dybgbgibvndvuxzc",
+                    "SecurityGroupReferencingSupport": "zvnvxkaiotqfhpvf"
+                },
+                "State": "fyaevibaqwaiipll",
+                "SubnetIds": [
+                    "mlidbwkjibhqgydb"
+                ],
+                "Tags": [
+                    {
+                        "Key": "idnfnfsjoaradkwp",
+                        "Value": "ycoxoijadhniwldv"
+                    }
+                ],
+                "TransitGatewayAttachmentId": "bfixcvkhoefkwrqa",
+                "TransitGatewayId": "ipufaqhziplzakwm",
+                "VpcId": "qphdhrwpnouinjek",
+                "VpcOwnerId": "qgenfktbvkjzdpdd"
+            },
+            {
+                "CreationTime": "koalpjpnppxierie",
+                "Options": {
+                    "ApplianceModeSupport": "rlecznyicajhsugg",
+                    "DnsSupport": "pyfoovgkabsjpifi",
+                    "Ipv6Support": "vpfzacivachfjnhf",
+                    "SecurityGroupReferencingSupport": "kovanrcsyvwoolht"
+                },
+                "State": "qlzstugtqqwvqwyd",
+                "SubnetIds": [
+                    "ekijjfeezeytarvz"
+                ],
+                "Tags": [
+                    {
+                        "Key": "tshzhonjjxtnijid",
+                        "Value": "wrgfjccouhvynhnj"
+                    }
+                ],
+                "TransitGatewayAttachmentId": "uluykwochbtcuikw",
+                "TransitGatewayId": "ozfgyhzymjmzbgty",
+                "VpcId": "qdwahsarvymrugaf",
+                "VpcOwnerId": "ldyyezuqlfrktlrc"
+            },
+            {
+                "CreationTime": "dvalculybmmdyhuv",
+                "Options": {
+                    "ApplianceModeSupport": "mvwciafdgnpiiune",
+                    "DnsSupport": "jbecsomhztwkidck",
+                    "Ipv6Support": "kutrmlqmrpqikyuf",
+                    "SecurityGroupReferencingSupport": "tdxmnwkovohvteoc"
+                },
+                "State": "wawjkvqenpvogdbm",
+                "SubnetIds": [
+                    "blsihbowcqqmdhsj"
+                ],
+                "Tags": [
+                    {
+                        "Key": "hruddjrahbbhfikh",
+                        "Value": "ibgjluekrqdlzjeb"
+                    }
+                ],
+                "TransitGatewayAttachmentId": "rnihagwoqyazykfe",
+                "TransitGatewayId": "dhdefbirnqpvqvpe",
+                "VpcId": "qgjuubyvmprdxgzu",
+                "VpcOwnerId": "gqpfytbbwmbyuoel"
+            },
+            {
+                "CreationTime": "mtfnlvlmcdvtkafg",
+                "Options": {
+                    "ApplianceModeSupport": "lppffrciusxfwlny",
+                    "DnsSupport": "hkcuxkoprokmyowl",
+                    "Ipv6Support": "ssemwjptshnpevru",
+                    "SecurityGroupReferencingSupport": "olsyuovgwhgizgeb"
+                },
+                "State": "efpapgzcyvodvrmf",
+                "SubnetIds": [
+                    "cyxhgntkfinptfkn"
+                ],
+                "Tags": [
+                    {
+                        "Key": "cwdzqfvsddcafshr",
+                        "Value": "nrinvisaocmegxvm"
+                    }
+                ],
+                "TransitGatewayAttachmentId": "anzpdrmrdbckmnma",
+                "TransitGatewayId": "bxxxfhhmgchowvvm",
+                "VpcId": "abztdkznyivzwhhn",
+                "VpcOwnerId": "dokyktvvvpcdhikh"
+            },
+            {
+                "CreationTime": "mojfpaqtrxzukugi",
+                "Options": {
+                    "ApplianceModeSupport": "ocipxzwfytryurhi",
+                    "DnsSupport": "ldmpfvfzikngrtbe",
+                    "Ipv6Support": "uubzrzfkkdtewfyr",
+                    "SecurityGroupReferencingSupport": "eupepmjjmlpuknnj"
+                },
+                "State": "kbqikckqquztzhmn",
+                "SubnetIds": [
+                    "nmuswmjegkahvimb"
+                ],
+                "Tags": [
+                    {
+                        "Key": "mbuffaudjlmctjfk",
+                        "Value": "zazrgaypcbohkrzp"
+                    }
+                ],
+                "TransitGatewayAttachmentId": "nazeirhgfujjhled",
+                "TransitGatewayId": "gjtllwzziaeksjpv",
+                "VpcId": "qrvhhljbowdpeeqe",
+                "VpcOwnerId": "yjuaiirbjukovilx"
+            }
+        ],
+        "result_key": "TransitGatewayVpcAttachments"
+    },
+    "meta": {
+        "start": 1711115657.338888,
+        "end": 1711115663.280954,
+        "duration": 5.942075967788696,
+        "service": "ec2",
+        "type": "transit_gateway_vpc_attachments"
+    }
+}

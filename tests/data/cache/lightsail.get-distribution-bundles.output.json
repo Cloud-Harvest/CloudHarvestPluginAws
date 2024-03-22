@@ -1,0 +1,102 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "get_distribution_bundles",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "bundleId": "bundleId",
+                "name": "name",
+                "price": 0.0,
+                "transferPerMonthInGb": 0,
+                "isActive": true
+            }
+        ],
+        "required": [],
+        "md5": "68d12c7bc34b677f46e02836f5570b22",
+        "randomized": [
+            {
+                "bundleId": "oshevisttbpfguhv",
+                "isActive": true,
+                "name": "cxywfqidwbrrchpi",
+                "price": 0.0,
+                "transferPerMonthInGb": 0
+            },
+            {
+                "bundleId": "jymyvhfvjxsjctnu",
+                "isActive": true,
+                "name": "ysjyrfqnebigdxct",
+                "price": 0.0,
+                "transferPerMonthInGb": 0
+            },
+            {
+                "bundleId": "ofhhrfqslzvkfkpz",
+                "isActive": true,
+                "name": "jmbszkbhpyyeurrl",
+                "price": 0.0,
+                "transferPerMonthInGb": 0
+            },
+            {
+                "bundleId": "zzympclbkaostcis",
+                "isActive": true,
+                "name": "fninkflperqlttvf",
+                "price": 0.0,
+                "transferPerMonthInGb": 0
+            },
+            {
+                "bundleId": "guevkcgllzhrxvjk",
+                "isActive": true,
+                "name": "hesnoybayfobwuip",
+                "price": 0.0,
+                "transferPerMonthInGb": 0
+            },
+            {
+                "bundleId": "ajdxbbhuypgdvfrb",
+                "isActive": true,
+                "name": "sgcmgoqfyybyczti",
+                "price": 0.0,
+                "transferPerMonthInGb": 0
+            },
+            {
+                "bundleId": "lkgqchukmvswwmth",
+                "isActive": true,
+                "name": "vwddntqsdfkuujvc",
+                "price": 0.0,
+                "transferPerMonthInGb": 0
+            },
+            {
+                "bundleId": "qkoinarimpuccqsb",
+                "isActive": true,
+                "name": "edymwhhoiwwmghfb",
+                "price": 0.0,
+                "transferPerMonthInGb": 0
+            },
+            {
+                "bundleId": "aunvshfwfmeemhiy",
+                "isActive": true,
+                "name": "uzpsukqikhlnwmbz",
+                "price": 0.0,
+                "transferPerMonthInGb": 0
+            },
+            {
+                "bundleId": "bemrkupvjxzovptk",
+                "isActive": true,
+                "name": "gwpposvnmlhaprtm",
+                "price": 0.0,
+                "transferPerMonthInGb": 0
+            }
+        ],
+        "result_key": "bundles"
+    },
+    "meta": {
+        "start": 1711116099.266419,
+        "end": 1711116107.179061,
+        "duration": 7.912652015686035,
+        "service": "lightsail",
+        "type": null
+    }
+}

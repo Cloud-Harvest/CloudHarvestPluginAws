@@ -1,0 +1,45 @@
+{
+    "input": {
+        "template": {
+            "filters": [
+                {
+                    "name": "",
+                    "values": [
+                        ""
+                    ]
+                }
+            ],
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "required": [],
+        "md5": "56a72c4f6953d63e6141c8d0e599ee86",
+        "boto_command": "list_image_scan_findings",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": "requestId",
+        "required": [],
+        "md5": "e9190492783d4b56a999c6bac6edc2c9",
+        "randomized": [
+            "xgadmdvhdeyenimp",
+            "dtmjzepjedbsmall",
+            "eiigephsxqzlexur",
+            "dghciktyehhjyasa",
+            "sovwcghawkeeunpg",
+            "fvvmxpnmnphaydlz",
+            "ybrnlgndpsghdtut",
+            "fjgrsjpnyiwirvvt",
+            "nzilvbfnadhadpqr",
+            "afixmecxnlyaghsd"
+        ],
+        "result_key": "requestId"
+    },
+    "meta": {
+        "start": 1711115901.182963,
+        "end": 1711115908.523268,
+        "duration": 7.340315103530884,
+        "service": "imagebuilder",
+        "type": "image_scan_findings"
+    }
+}

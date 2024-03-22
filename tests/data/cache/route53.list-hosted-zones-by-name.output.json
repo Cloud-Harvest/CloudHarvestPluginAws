@@ -1,0 +1,183 @@
+{
+    "input": {
+        "template": {
+            "DNSName": "",
+            "HostedZoneId": "",
+            "MaxItems": ""
+        },
+        "required": [],
+        "md5": "de440845f9b0f9ce77b18422e6460667",
+        "boto_command": "list_hosted_zones_by_name",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "Id": "Id",
+                "Name": "Name",
+                "CallerReference": "CallerReference",
+                "Config": {
+                    "Comment": "Comment",
+                    "PrivateZone": true
+                },
+                "ResourceRecordSetCount": 0,
+                "LinkedService": {
+                    "ServicePrincipal": "ServicePrincipal",
+                    "Description": "Description"
+                }
+            }
+        ],
+        "required": [],
+        "md5": "8a62720b01558876353c43268cf4090e",
+        "randomized": [
+            {
+                "CallerReference": "sansdhurqaxysmth",
+                "Config": {
+                    "Comment": "ubdnxfpvgflqwvat",
+                    "PrivateZone": true
+                },
+                "Id": "ehirdoozweytpcnh",
+                "LinkedService": {
+                    "Description": "dhhssyzwtvsosyet",
+                    "ServicePrincipal": "zwnsfghxgfurltit"
+                },
+                "Name": "ammuqdsdowzwwpgi",
+                "ResourceRecordSetCount": 0
+            },
+            {
+                "CallerReference": "xnxwbkmefitignzk",
+                "Config": {
+                    "Comment": "kqhaaphpttsdvkcj",
+                    "PrivateZone": true
+                },
+                "Id": "ibthojyssrbrprir",
+                "LinkedService": {
+                    "Description": "zgdmbhqdhgckfrrq",
+                    "ServicePrincipal": "jpbwvcviunshdwvt"
+                },
+                "Name": "unzgniegciaclpdc",
+                "ResourceRecordSetCount": 0
+            },
+            {
+                "CallerReference": "ltxxiixkixjbpnam",
+                "Config": {
+                    "Comment": "jhvpjnkbxlnxsuke",
+                    "PrivateZone": true
+                },
+                "Id": "qdqinddodsgvtwio",
+                "LinkedService": {
+                    "Description": "ixazoadvtjbrvejy",
+                    "ServicePrincipal": "gusdtloyntcjxwig"
+                },
+                "Name": "fjpwvsizowsyattq",
+                "ResourceRecordSetCount": 0
+            },
+            {
+                "CallerReference": "rfbbvzmzqzcaakup",
+                "Config": {
+                    "Comment": "iglyxpswtiunpwhc",
+                    "PrivateZone": true
+                },
+                "Id": "gbyybtyevqgjinad",
+                "LinkedService": {
+                    "Description": "teursdrwpiymqlfa",
+                    "ServicePrincipal": "ufoiwhnxcdsijrkr"
+                },
+                "Name": "ehghplpmuebgetbp",
+                "ResourceRecordSetCount": 0
+            },
+            {
+                "CallerReference": "pxcqdeegplitgrup",
+                "Config": {
+                    "Comment": "ocvivdpzrofrwwmn",
+                    "PrivateZone": true
+                },
+                "Id": "thglyiaitzpgpnya",
+                "LinkedService": {
+                    "Description": "evzfhrksjltegbiu",
+                    "ServicePrincipal": "lsjuvshltodzqsxj"
+                },
+                "Name": "efxocxlqcmhmfiyl",
+                "ResourceRecordSetCount": 0
+            },
+            {
+                "CallerReference": "pfsdwfoknxscpdau",
+                "Config": {
+                    "Comment": "boknxmzwoncsfgmx",
+                    "PrivateZone": true
+                },
+                "Id": "llqllamfykpopure",
+                "LinkedService": {
+                    "Description": "jatygwvjsjtmapmk",
+                    "ServicePrincipal": "suaxikjhfyzgqupi"
+                },
+                "Name": "atrczaslbbjjrxzx",
+                "ResourceRecordSetCount": 0
+            },
+            {
+                "CallerReference": "lcsodustqnpvvjys",
+                "Config": {
+                    "Comment": "gpgcgrwfifqfbmmy",
+                    "PrivateZone": true
+                },
+                "Id": "ewcfddacujtljxxk",
+                "LinkedService": {
+                    "Description": "dbwsibhugjpxknjl",
+                    "ServicePrincipal": "esvxoginehbjbfox"
+                },
+                "Name": "ifaatdzzcsifegjv",
+                "ResourceRecordSetCount": 0
+            },
+            {
+                "CallerReference": "yzpvtcxsiweqoiyh",
+                "Config": {
+                    "Comment": "lluhmmfxnfugtwau",
+                    "PrivateZone": true
+                },
+                "Id": "vvfytklianavzuqc",
+                "LinkedService": {
+                    "Description": "xqikqxcognsegnih",
+                    "ServicePrincipal": "oulumamjqysnouzw"
+                },
+                "Name": "wbjriwfzyqituigh",
+                "ResourceRecordSetCount": 0
+            },
+            {
+                "CallerReference": "pumclxeehtbtfprx",
+                "Config": {
+                    "Comment": "vrjmpxbdaiomxotr",
+                    "PrivateZone": true
+                },
+                "Id": "avutjhotwphqbjfc",
+                "LinkedService": {
+                    "Description": "cjwhupoceswyyqec",
+                    "ServicePrincipal": "tcaoctlgmptftwlp"
+                },
+                "Name": "ckwdtpjxvwqxcvue",
+                "ResourceRecordSetCount": 0
+            },
+            {
+                "CallerReference": "jauqgvhxpacvhfst",
+                "Config": {
+                    "Comment": "sexrrcqopsxaguxa",
+                    "PrivateZone": true
+                },
+                "Id": "orkijnrjetumicqh",
+                "LinkedService": {
+                    "Description": "qcjzyvcnlkwlowzb",
+                    "ServicePrincipal": "iqinjpinmvsdzomk"
+                },
+                "Name": "cobuhhwaeulmrobw",
+                "ResourceRecordSetCount": 0
+            }
+        ],
+        "result_key": "HostedZones"
+    },
+    "meta": {
+        "start": 1711116477.176775,
+        "end": 1711116485.237675,
+        "duration": 8.060910940170288,
+        "service": "route53",
+        "type": "hosted_zones_by_name"
+    }
+}

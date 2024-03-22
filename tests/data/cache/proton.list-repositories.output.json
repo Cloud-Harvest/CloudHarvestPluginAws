@@ -1,0 +1,94 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "required": [],
+        "md5": "2620fedaf24e984a8f801d0beb17a6e7",
+        "boto_command": "list_repositories",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "arn": "arn",
+                "connectionArn": "connectionArn",
+                "name": "name",
+                "provider": "provider"
+            }
+        ],
+        "required": [],
+        "md5": "c36d7b5f4d59b7aa46dc163fa491d110",
+        "randomized": [
+            {
+                "arn": "gsdbjfkualimewrx",
+                "connectionArn": "cqhtexjpfnzjjahf",
+                "name": "mzitcuwpgxxxtzzg",
+                "provider": "exnqklhfhssrndra"
+            },
+            {
+                "arn": "rcpdfzgzkvoncujs",
+                "connectionArn": "rxuwizporjnkmivo",
+                "name": "wwkzjseeiyeggofr",
+                "provider": "ckuaviznmrnamlwj"
+            },
+            {
+                "arn": "uuoknrtyuhhuutwo",
+                "connectionArn": "vocxpbdcwercuxle",
+                "name": "sijsgairvcuqoahb",
+                "provider": "ongvlvitoticvszu"
+            },
+            {
+                "arn": "tabrxhhkphgmsdrw",
+                "connectionArn": "olkcxdcmnboxuipu",
+                "name": "kjeawyghhcsmmsel",
+                "provider": "vbgopzparzkijwwl"
+            },
+            {
+                "arn": "xoufezukrrkjqtml",
+                "connectionArn": "vzzvmyoshhukyrtd",
+                "name": "yglcvuyyvezxzqls",
+                "provider": "eoepvguindegrqzn"
+            },
+            {
+                "arn": "peeilfgjwdqgkiem",
+                "connectionArn": "esnovfedyxtkyjab",
+                "name": "risrlwtndmdrjrgz",
+                "provider": "rsqsliqiblanaffm"
+            },
+            {
+                "arn": "emanghqhgfrpdtwd",
+                "connectionArn": "toqwqocskxvcbddr",
+                "name": "glyithgxjrklwtlf",
+                "provider": "yxpelrgjbhgdfsdq"
+            },
+            {
+                "arn": "bsqrpkmgxhefapic",
+                "connectionArn": "dueokieqqcxlurkk",
+                "name": "tmypcqbgrouxzppj",
+                "provider": "wjeofebumtldgcru"
+            },
+            {
+                "arn": "khipuvswwpldqtpn",
+                "connectionArn": "rpbclaqkgbjjmnka",
+                "name": "xfilbwhpttboocpw",
+                "provider": "ziismeaghzldqxsk"
+            },
+            {
+                "arn": "kptihrxsvrbqdljq",
+                "connectionArn": "xqhvitdohlagokmm",
+                "name": "fylvqrqyvrmtjrpk",
+                "provider": "odegaorfizxopqnu"
+            }
+        ],
+        "result_key": "repositories"
+    },
+    "meta": {
+        "start": 1711116363.557543,
+        "end": 1711116370.496368,
+        "duration": 6.93883490562439,
+        "service": "proton",
+        "type": "repositories"
+    }
+}

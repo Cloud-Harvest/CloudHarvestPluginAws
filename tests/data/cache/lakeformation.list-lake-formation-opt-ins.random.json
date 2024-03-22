@@ -1,0 +1,622 @@
+[
+    {
+        "LastModified": "jeiwtxytofmqzsov",
+        "LastUpdatedBy": "mcudazjcdbxepnka",
+        "Principal": {
+            "DataLakePrincipalIdentifier": "hanvxdvhlguetjes"
+        },
+        "Resource": {
+            "Catalog": {},
+            "DataCellsFilter": {
+                "DatabaseName": "svimbzbjeymbjztj",
+                "Name": "uvprpzjawvjedrpb",
+                "TableCatalogId": "hemfxivjsysjpfzu",
+                "TableName": "zivmoikydalmjewn"
+            },
+            "DataLocation": {
+                "CatalogId": "xmcfoeskrribtals",
+                "ResourceArn": "lhqoqrphwuzkuozo"
+            },
+            "Database": {
+                "CatalogId": "uafubikfdqztefrm",
+                "Name": "vbemasrmhdbpshrn"
+            },
+            "LFTag": {
+                "CatalogId": "biqbvqrfddttzjta",
+                "TagKey": "zslpagjiqijnaxfb",
+                "TagValues": [
+                    "rtinfbrqskwmrbeu"
+                ]
+            },
+            "LFTagPolicy": {
+                "CatalogId": "aonsxichatzlpose",
+                "Expression": [
+                    {
+                        "TagKey": "yuixrtdayasphrnj",
+                        "TagValues": [
+                            "ytzcnffqcdvqedut"
+                        ]
+                    }
+                ],
+                "ResourceType": "pncgsjvxjhusjkwe"
+            },
+            "Table": {
+                "CatalogId": "uhsyyxsplpwyiqpx",
+                "DatabaseName": "wmoeavzlzfoxxngw",
+                "Name": "etvaappjgqqxtwyq",
+                "TableWildcard": {}
+            },
+            "TableWithColumns": {
+                "CatalogId": "eulgladmrljahejl",
+                "ColumnNames": [
+                    "djwdbkqlbjtsdhjr"
+                ],
+                "ColumnWildcard": {
+                    "ExcludedColumnNames": [
+                        "nvpcurvgfgasgyfw"
+                    ]
+                },
+                "DatabaseName": "pjckcaxlmkrlfnma",
+                "Name": "vmtopfzwkwnnjmup"
+            }
+        }
+    },
+    {
+        "LastModified": "eludvxhffkvogaod",
+        "LastUpdatedBy": "ygcidkvmizfgsmsv",
+        "Principal": {
+            "DataLakePrincipalIdentifier": "zvzddlnlomninftw"
+        },
+        "Resource": {
+            "Catalog": {},
+            "DataCellsFilter": {
+                "DatabaseName": "uegoxfkwtjgppbts",
+                "Name": "piogerkndxdqrbnx",
+                "TableCatalogId": "smqfsyeahckwozon",
+                "TableName": "bqoekrjcezdyfbuc"
+            },
+            "DataLocation": {
+                "CatalogId": "wydmdtxbmweoehje",
+                "ResourceArn": "hwhvfcezhetzpbkn"
+            },
+            "Database": {
+                "CatalogId": "egxoahbirkcwkqyz",
+                "Name": "mdrcbcptumgzdtha"
+            },
+            "LFTag": {
+                "CatalogId": "mfoatoncqwinjluv",
+                "TagKey": "cgqdsdknnzmsodun",
+                "TagValues": [
+                    "sqylxlodhvnzvuqa"
+                ]
+            },
+            "LFTagPolicy": {
+                "CatalogId": "umcczmmprrgeabvm",
+                "Expression": [
+                    {
+                        "TagKey": "xbgyzzpiqebjguct",
+                        "TagValues": [
+                            "bzpnbiadywxkanec"
+                        ]
+                    }
+                ],
+                "ResourceType": "mhcyxmeagynfusoo"
+            },
+            "Table": {
+                "CatalogId": "llhntxrvqayvqmuf",
+                "DatabaseName": "ebhcpblmvwkazowz",
+                "Name": "xrnusmzkmpfauqlc",
+                "TableWildcard": {}
+            },
+            "TableWithColumns": {
+                "CatalogId": "vqqvqdbjpxvvdqpm",
+                "ColumnNames": [
+                    "kpddhmuqginkbdht"
+                ],
+                "ColumnWildcard": {
+                    "ExcludedColumnNames": [
+                        "rvqpaavcnjzeadyu"
+                    ]
+                },
+                "DatabaseName": "kccbqlmrwbhxhefu",
+                "Name": "eijnqeydxyoqnjps"
+            }
+        }
+    },
+    {
+        "LastModified": "ntfcwkrvmkgmlhci",
+        "LastUpdatedBy": "ueqjbapffthukbbd",
+        "Principal": {
+            "DataLakePrincipalIdentifier": "txuvjxeoxfvvsfry"
+        },
+        "Resource": {
+            "Catalog": {},
+            "DataCellsFilter": {
+                "DatabaseName": "kjkwniinbvmrstri",
+                "Name": "ipvtorzobtdcorju",
+                "TableCatalogId": "flhjdmmkrnmjfovf",
+                "TableName": "wyszwutdfcwraopm"
+            },
+            "DataLocation": {
+                "CatalogId": "cmyylghjuutmmlnr",
+                "ResourceArn": "dlmqkaiielphhgjr"
+            },
+            "Database": {
+                "CatalogId": "gslosjzioneclwje",
+                "Name": "xqkyaeqevluudjgn"
+            },
+            "LFTag": {
+                "CatalogId": "zgstuovofjiaolzo",
+                "TagKey": "teisuqybrmyubqhz",
+                "TagValues": [
+                    "jndrkbxsdrpddnxq"
+                ]
+            },
+            "LFTagPolicy": {
+                "CatalogId": "liglvfzqryllkcof",
+                "Expression": [
+                    {
+                        "TagKey": "vbfvumanilbggxaq",
+                        "TagValues": [
+                            "nbeqztghvvtooxxg"
+                        ]
+                    }
+                ],
+                "ResourceType": "bsmsufeudtiubsyl"
+            },
+            "Table": {
+                "CatalogId": "rykzybraiilrngmx",
+                "DatabaseName": "gjldkztligokmjrr",
+                "Name": "ztbrpgbzmvmobhdh",
+                "TableWildcard": {}
+            },
+            "TableWithColumns": {
+                "CatalogId": "egirafuqbpzxnfai",
+                "ColumnNames": [
+                    "ytydskwlsfexwszu"
+                ],
+                "ColumnWildcard": {
+                    "ExcludedColumnNames": [
+                        "sxohcllckrqjwwpt"
+                    ]
+                },
+                "DatabaseName": "ruxgngujqhlkkyok",
+                "Name": "asmvzvocmhmozurv"
+            }
+        }
+    },
+    {
+        "LastModified": "nvvhptcrqabgvunk",
+        "LastUpdatedBy": "ikelvspxhjradtgq",
+        "Principal": {
+            "DataLakePrincipalIdentifier": "argyxowgxefdhwgh"
+        },
+        "Resource": {
+            "Catalog": {},
+            "DataCellsFilter": {
+                "DatabaseName": "yrbisbcdljbeklyo",
+                "Name": "mezroghczyuuamlc",
+                "TableCatalogId": "xraqjxppxipcoiqd",
+                "TableName": "dbkqiexvtybqlguy"
+            },
+            "DataLocation": {
+                "CatalogId": "vysxvkbpeodnpptv",
+                "ResourceArn": "tdlbnuxdvkilzbyg"
+            },
+            "Database": {
+                "CatalogId": "heijfixsmelhartv",
+                "Name": "tufpumcqiqldwcvj"
+            },
+            "LFTag": {
+                "CatalogId": "nqdxzarhqanxncxe",
+                "TagKey": "jgjgjrmvbezswyki",
+                "TagValues": [
+                    "uhsjtgyhfgbzlxrm"
+                ]
+            },
+            "LFTagPolicy": {
+                "CatalogId": "jqlxusuyrgitxckv",
+                "Expression": [
+                    {
+                        "TagKey": "yjgknpjunryxerpg",
+                        "TagValues": [
+                            "sqktxrjvccqjavuv"
+                        ]
+                    }
+                ],
+                "ResourceType": "ylsuoafjlkitnqqt"
+            },
+            "Table": {
+                "CatalogId": "qxfxqszxyhgfmnwm",
+                "DatabaseName": "qkrnihuqcdcgrfkh",
+                "Name": "btzkikkkounfvquf",
+                "TableWildcard": {}
+            },
+            "TableWithColumns": {
+                "CatalogId": "knjakdfngbpsavjf",
+                "ColumnNames": [
+                    "tzsebebwauzekmjc"
+                ],
+                "ColumnWildcard": {
+                    "ExcludedColumnNames": [
+                        "vmftbdbhmkeomofj"
+                    ]
+                },
+                "DatabaseName": "mpdlzardlqpacjhb",
+                "Name": "wxgdghhhlhmkqxkh"
+            }
+        }
+    },
+    {
+        "LastModified": "felggdtcnzgaswni",
+        "LastUpdatedBy": "mcurtbpmtucdmatj",
+        "Principal": {
+            "DataLakePrincipalIdentifier": "athkuqhihbvwylrt"
+        },
+        "Resource": {
+            "Catalog": {},
+            "DataCellsFilter": {
+                "DatabaseName": "qrvmmrykcxtjudhu",
+                "Name": "olqyehygbcxkttcb",
+                "TableCatalogId": "bkgdxgiwpzymukea",
+                "TableName": "lwbuxgbqjdjidhrc"
+            },
+            "DataLocation": {
+                "CatalogId": "zsiegzeqxydvbdve",
+                "ResourceArn": "rziwmwbmchbjmynp"
+            },
+            "Database": {
+                "CatalogId": "qnzehjjvuuyqwudl",
+                "Name": "uhhhzfscsyuntvag"
+            },
+            "LFTag": {
+                "CatalogId": "xngztctlnnrcdtrv",
+                "TagKey": "foznagujwqazrnbc",
+                "TagValues": [
+                    "frceahxcltebsyhg"
+                ]
+            },
+            "LFTagPolicy": {
+                "CatalogId": "nqtaseipdzkmrexr",
+                "Expression": [
+                    {
+                        "TagKey": "vmpdemdbburesjkr",
+                        "TagValues": [
+                            "moladazanlgasjts"
+                        ]
+                    }
+                ],
+                "ResourceType": "xvqwqspnysmxmgga"
+            },
+            "Table": {
+                "CatalogId": "rwrjjbrikruimook",
+                "DatabaseName": "uiifabizhjrqbeqd",
+                "Name": "bowzremfeteqeiiv",
+                "TableWildcard": {}
+            },
+            "TableWithColumns": {
+                "CatalogId": "yckbavkubjcupjdd",
+                "ColumnNames": [
+                    "dwqbjtocntbqdtod"
+                ],
+                "ColumnWildcard": {
+                    "ExcludedColumnNames": [
+                        "luiuyzoodasdgdpn"
+                    ]
+                },
+                "DatabaseName": "snwocwfosnikvbrp",
+                "Name": "dzhkcuqkudpobwmg"
+            }
+        }
+    },
+    {
+        "LastModified": "gahxtavljuvckmws",
+        "LastUpdatedBy": "bhphacvqwzfvwebl",
+        "Principal": {
+            "DataLakePrincipalIdentifier": "vvsnavmchxszxsxd"
+        },
+        "Resource": {
+            "Catalog": {},
+            "DataCellsFilter": {
+                "DatabaseName": "uavzznejyorxavbv",
+                "Name": "sxdstfzngpofwegk",
+                "TableCatalogId": "syekgdkgubgblhvd",
+                "TableName": "sgrxyyfyrfqlwuwa"
+            },
+            "DataLocation": {
+                "CatalogId": "atxrsqdrybvirgco",
+                "ResourceArn": "lewezcgjqbepyopx"
+            },
+            "Database": {
+                "CatalogId": "ockctuohizhmostv",
+                "Name": "bhzccegnqjxiqfai"
+            },
+            "LFTag": {
+                "CatalogId": "wrzuukmrkxvxrbvb",
+                "TagKey": "wlwczzvhfsrocjpn",
+                "TagValues": [
+                    "tocsisgcqesnyxrd"
+                ]
+            },
+            "LFTagPolicy": {
+                "CatalogId": "yrvpcavyeewjjisl",
+                "Expression": [
+                    {
+                        "TagKey": "lejdpnnalhnvxkgp",
+                        "TagValues": [
+                            "agzorxapeftwuiog"
+                        ]
+                    }
+                ],
+                "ResourceType": "tvdiquwvydhhluao"
+            },
+            "Table": {
+                "CatalogId": "lfnffkobaqnuzzfe",
+                "DatabaseName": "eglbxzxzlivplpes",
+                "Name": "tgzlketncwheelbl",
+                "TableWildcard": {}
+            },
+            "TableWithColumns": {
+                "CatalogId": "gmspbryzsyudlwko",
+                "ColumnNames": [
+                    "jpqjezhhogclpdoj"
+                ],
+                "ColumnWildcard": {
+                    "ExcludedColumnNames": [
+                        "hlzhqkfekrsycctu"
+                    ]
+                },
+                "DatabaseName": "olkcxllgyepppfif",
+                "Name": "ywbvqmkjtgsbavvo"
+            }
+        }
+    },
+    {
+        "LastModified": "ccuslifrskdbpfkg",
+        "LastUpdatedBy": "ywvcgceftojsojva",
+        "Principal": {
+            "DataLakePrincipalIdentifier": "suaiyqtkpqbhyjbz"
+        },
+        "Resource": {
+            "Catalog": {},
+            "DataCellsFilter": {
+                "DatabaseName": "scqsmgxpacbdkmku",
+                "Name": "eoahnjdpewawrcku",
+                "TableCatalogId": "butoecgfdxqslwti",
+                "TableName": "wsjacsoodhftcxne"
+            },
+            "DataLocation": {
+                "CatalogId": "ktftujusyvzqdocu",
+                "ResourceArn": "wezxemnqszjavqlb"
+            },
+            "Database": {
+                "CatalogId": "pjqqkdcqnhvdjnig",
+                "Name": "vinmrxyqubccshic"
+            },
+            "LFTag": {
+                "CatalogId": "agdrjeyklbgwglve",
+                "TagKey": "dewnjpwjtpsjpaub",
+                "TagValues": [
+                    "myiffzvmzjaucxnc"
+                ]
+            },
+            "LFTagPolicy": {
+                "CatalogId": "foovxlhkyxykstfi",
+                "Expression": [
+                    {
+                        "TagKey": "aivdqyjwvgwhdwwk",
+                        "TagValues": [
+                            "zifrislokijssqfm"
+                        ]
+                    }
+                ],
+                "ResourceType": "huwxnaodvvghirxg"
+            },
+            "Table": {
+                "CatalogId": "jobxmfhwncqaklvq",
+                "DatabaseName": "qryjpfbulorkfdua",
+                "Name": "oynupgrkipwcxbzx",
+                "TableWildcard": {}
+            },
+            "TableWithColumns": {
+                "CatalogId": "bovkrqvzymmtqapz",
+                "ColumnNames": [
+                    "szzvalktdlrellnt"
+                ],
+                "ColumnWildcard": {
+                    "ExcludedColumnNames": [
+                        "tnqcqhazsvwuxdcz"
+                    ]
+                },
+                "DatabaseName": "uezgtahhbaesunzb",
+                "Name": "gogkrzmnkhbrdnqk"
+            }
+        }
+    },
+    {
+        "LastModified": "zusavcmktrwryfpc",
+        "LastUpdatedBy": "esuhdlenivspzflk",
+        "Principal": {
+            "DataLakePrincipalIdentifier": "kocyyommcfdxdbki"
+        },
+        "Resource": {
+            "Catalog": {},
+            "DataCellsFilter": {
+                "DatabaseName": "jnbrdhiqvhmbzeju",
+                "Name": "ptfbimalgkkhdydl",
+                "TableCatalogId": "rupfzlsmzqwleoct",
+                "TableName": "ypowgaetrtpsugpq"
+            },
+            "DataLocation": {
+                "CatalogId": "lsmfxbjieevnbahy",
+                "ResourceArn": "tbzrwjfzrbyrooks"
+            },
+            "Database": {
+                "CatalogId": "lteqlutnlmonclis",
+                "Name": "uzhahsbovruvjnoa"
+            },
+            "LFTag": {
+                "CatalogId": "yzvmiuhylfeukgfd",
+                "TagKey": "ksqhlrwsralqajsm",
+                "TagValues": [
+                    "wacxrgslkoegmput"
+                ]
+            },
+            "LFTagPolicy": {
+                "CatalogId": "abevwvlerrzieaja",
+                "Expression": [
+                    {
+                        "TagKey": "mwwajiygvevhnpqz",
+                        "TagValues": [
+                            "zrxsgigecgzdeexd"
+                        ]
+                    }
+                ],
+                "ResourceType": "rphqfucolqgibdis"
+            },
+            "Table": {
+                "CatalogId": "uxrsgbkekzcqlarp",
+                "DatabaseName": "bwhicifkedouijkj",
+                "Name": "quvgsduxracrbdgy",
+                "TableWildcard": {}
+            },
+            "TableWithColumns": {
+                "CatalogId": "glotgaidzwagbhrv",
+                "ColumnNames": [
+                    "pepxjeewmbgtviay"
+                ],
+                "ColumnWildcard": {
+                    "ExcludedColumnNames": [
+                        "kpajxfhgsvpebjrw"
+                    ]
+                },
+                "DatabaseName": "gypneauisdjuzhxh",
+                "Name": "duixbrbfvsmmddia"
+            }
+        }
+    },
+    {
+        "LastModified": "leuktoqkdqkseqpc",
+        "LastUpdatedBy": "wlrwqxzhvzrletrm",
+        "Principal": {
+            "DataLakePrincipalIdentifier": "kpyzbooestszwfeu"
+        },
+        "Resource": {
+            "Catalog": {},
+            "DataCellsFilter": {
+                "DatabaseName": "hhttqkduteyebmea",
+                "Name": "lhkhoimuyfspgtwq",
+                "TableCatalogId": "jzwybjyyvfqcbdzm",
+                "TableName": "cpxyfsmoevrwqwlx"
+            },
+            "DataLocation": {
+                "CatalogId": "lfrebegtgicprdqg",
+                "ResourceArn": "cqvxkwdkikdzolip"
+            },
+            "Database": {
+                "CatalogId": "bbrgvznizsbwpass",
+                "Name": "cwpwssltkpagxycw"
+            },
+            "LFTag": {
+                "CatalogId": "kvoahghhjevlcgyd",
+                "TagKey": "sfzahstoomhpzikf",
+                "TagValues": [
+                    "oislxinaqyltqnvv"
+                ]
+            },
+            "LFTagPolicy": {
+                "CatalogId": "krigevetjjaqorwk",
+                "Expression": [
+                    {
+                        "TagKey": "jbqamtxwmlyfsloo",
+                        "TagValues": [
+                            "onsximvtjbboszub"
+                        ]
+                    }
+                ],
+                "ResourceType": "lfcomthxydojpwnr"
+            },
+            "Table": {
+                "CatalogId": "pyingieqjynszxrw",
+                "DatabaseName": "wkdbzyxrqtvmiwbh",
+                "Name": "amgotpjduytcnnvr",
+                "TableWildcard": {}
+            },
+            "TableWithColumns": {
+                "CatalogId": "lpyhlejklismrbed",
+                "ColumnNames": [
+                    "uikrwqijbxybacwl"
+                ],
+                "ColumnWildcard": {
+                    "ExcludedColumnNames": [
+                        "pjcdhztjractrdci"
+                    ]
+                },
+                "DatabaseName": "hyowtkceogxqfncq",
+                "Name": "trzdedshfkfkrdxk"
+            }
+        }
+    },
+    {
+        "LastModified": "zudonxhkxhckinyh",
+        "LastUpdatedBy": "cyoagbsmcouelwqb",
+        "Principal": {
+            "DataLakePrincipalIdentifier": "rrmkyhjsxbkaokey"
+        },
+        "Resource": {
+            "Catalog": {},
+            "DataCellsFilter": {
+                "DatabaseName": "orfsslqafnlxndln",
+                "Name": "ddyidubrbltttngo",
+                "TableCatalogId": "oujlivmmrxhzbiuc",
+                "TableName": "koaotgqwguqrwctb"
+            },
+            "DataLocation": {
+                "CatalogId": "wpcdenarmujiaahg",
+                "ResourceArn": "pdgdokpayecdmwqb"
+            },
+            "Database": {
+                "CatalogId": "tjslbkmlunepdjwq",
+                "Name": "ateatpfvtmlrntng"
+            },
+            "LFTag": {
+                "CatalogId": "luwadwmuvnlsgydj",
+                "TagKey": "ayqmziytrybvlpel",
+                "TagValues": [
+                    "xldgzuohazywdurm"
+                ]
+            },
+            "LFTagPolicy": {
+                "CatalogId": "zxpqxlonudggsjam",
+                "Expression": [
+                    {
+                        "TagKey": "xzlyshjkphokudor",
+                        "TagValues": [
+                            "bazmhhhrswwepcws"
+                        ]
+                    }
+                ],
+                "ResourceType": "pkrnokwroguewjou"
+            },
+            "Table": {
+                "CatalogId": "yzvdssxurfouzkij",
+                "DatabaseName": "zdgpinzdxxnqcxkk",
+                "Name": "odfrypsctjjjeyra",
+                "TableWildcard": {}
+            },
+            "TableWithColumns": {
+                "CatalogId": "qcgrnkmtdrrdduzb",
+                "ColumnNames": [
+                    "jzjjbosqatvpetvh"
+                ],
+                "ColumnWildcard": {
+                    "ExcludedColumnNames": [
+                        "dimcaqegtlhhqkhm"
+                    ]
+                },
+                "DatabaseName": "vgurlcdznxrnmevs",
+                "Name": "bhfyucmreegewjoh"
+            }
+        }
+    }
+]

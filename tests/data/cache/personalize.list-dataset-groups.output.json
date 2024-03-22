@@ -1,0 +1,127 @@
+{
+    "input": {
+        "template": {
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "required": [],
+        "md5": "42475be96651ddb5d57c459989595380",
+        "boto_command": "list_dataset_groups",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "name": "name",
+                "datasetGroupArn": "datasetGroupArn",
+                "status": "status",
+                "creationDateTime": "1970-01-01T00:00:00",
+                "lastUpdatedDateTime": "1970-01-01T00:00:00",
+                "failureReason": "failureReason",
+                "domain": "domain"
+            }
+        ],
+        "required": [],
+        "md5": "8d80240e15f2d0a63302332e935b0ed5",
+        "randomized": [
+            {
+                "creationDateTime": "ihktescpoksiutpp",
+                "datasetGroupArn": "tqpcrujmrkljwmmf",
+                "domain": "acauxhcyrjsyhaji",
+                "failureReason": "isxnitakchitrctv",
+                "lastUpdatedDateTime": "wkqdthnudfdxyvce",
+                "name": "fpwufiacacsugohb",
+                "status": "llhitmxxcbqbfrkt"
+            },
+            {
+                "creationDateTime": "yvxjfckfurfktprx",
+                "datasetGroupArn": "zbjouflrsrbjuqol",
+                "domain": "ruaybmbsirsazkga",
+                "failureReason": "naccnytaggenwatd",
+                "lastUpdatedDateTime": "kiaveotqmvtenxsq",
+                "name": "uyhvnotbnzzwqwbl",
+                "status": "szxmheeqczrnwrer"
+            },
+            {
+                "creationDateTime": "dvdqxqvftlhnrkoo",
+                "datasetGroupArn": "yexxnubedwtdrwxb",
+                "domain": "wrgunvtcszrywfnk",
+                "failureReason": "uhbwlqfrkvsccipz",
+                "lastUpdatedDateTime": "zwanaahsqopmweri",
+                "name": "sesgxtpaawqvxjlt",
+                "status": "dudtqrbrvwkzrokx"
+            },
+            {
+                "creationDateTime": "pqlqtfmrnyvsabpk",
+                "datasetGroupArn": "cigmbkdsgoioucby",
+                "domain": "husynuprhptvyxyd",
+                "failureReason": "okxzcxugkgejoatr",
+                "lastUpdatedDateTime": "xnrmmfihofdavntw",
+                "name": "mpzuhrotuhstgddb",
+                "status": "anfdapnpxiosncwy"
+            },
+            {
+                "creationDateTime": "uqrycmapgfrlueyd",
+                "datasetGroupArn": "opuxucnujkdpxxfi",
+                "domain": "ymokypcpadipbiqg",
+                "failureReason": "vsrkqrtgmvnizyul",
+                "lastUpdatedDateTime": "cvmyfmartcpugydf",
+                "name": "bskzpedghdyirnzt",
+                "status": "mglltvkexeryocng"
+            },
+            {
+                "creationDateTime": "emjnfzgsugmmvvhr",
+                "datasetGroupArn": "ogcadheabkwwvzlx",
+                "domain": "oyheonvrjkwlseyr",
+                "failureReason": "xwnwjlbcjzdgisnw",
+                "lastUpdatedDateTime": "tlhkwdjnovrurdgj",
+                "name": "vxoubiwtckfaijko",
+                "status": "bdmxwqthcwgevypq"
+            },
+            {
+                "creationDateTime": "ckemsderzcjnhzig",
+                "datasetGroupArn": "irnhzvsacvymzsqa",
+                "domain": "vbseqxnchficwaoh",
+                "failureReason": "zvsfeawsugmtjbqs",
+                "lastUpdatedDateTime": "utmhkzryflyswrae",
+                "name": "jknnoufkepnnbxqp",
+                "status": "gkemwrirnxojjotq"
+            },
+            {
+                "creationDateTime": "aqbcmwwjleaesciy",
+                "datasetGroupArn": "eckgxomnvuybufkk",
+                "domain": "qreddlhecnpnlvju",
+                "failureReason": "cemmoyiywxhkxxna",
+                "lastUpdatedDateTime": "lomxduovgxpcijls",
+                "name": "uuobueksjuvgenmh",
+                "status": "vzhcwmhqcmnsinlt"
+            },
+            {
+                "creationDateTime": "tbamehevuofboxov",
+                "datasetGroupArn": "xvxvsqbxgjchdrmw",
+                "domain": "dibindlblrfwntah",
+                "failureReason": "lhujrpnjudhtrmrw",
+                "lastUpdatedDateTime": "epsltfprdrfiwzqs",
+                "name": "omayhzjrjbmsgyst",
+                "status": "zaedyefiovbiwwmh"
+            },
+            {
+                "creationDateTime": "gjetxnblmlhldgie",
+                "datasetGroupArn": "bbrjogzrzalfvdoa",
+                "domain": "xorbuerhpajjrfaf",
+                "failureReason": "xchwzowadwozwipy",
+                "lastUpdatedDateTime": "oqoaeakgdfkvupew",
+                "name": "lkmkleerwlfpqbls",
+                "status": "sorrryglyihlqvpc"
+            }
+        ],
+        "result_key": "datasetGroups"
+    },
+    "meta": {
+        "start": 1711116317.070831,
+        "end": 1711116324.382857,
+        "duration": 7.312029838562012,
+        "service": "personalize",
+        "type": "dataset_groups"
+    }
+}

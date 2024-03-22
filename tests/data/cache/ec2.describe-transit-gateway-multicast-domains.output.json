@@ -1,0 +1,249 @@
+{
+    "input": {
+        "template": {
+            "TransitGatewayMulticastDomainIds": [
+                ""
+            ],
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxResults": 0,
+            "NextToken": "",
+            "DryRun": true
+        },
+        "required": [],
+        "md5": "c362ac529093a4903233be147c637bb2",
+        "boto_command": "describe_transit_gateway_multicast_domains",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "TransitGatewayMulticastDomainId": "TransitGatewayMulticastDomainId",
+                "TransitGatewayId": "TransitGatewayId",
+                "TransitGatewayMulticastDomainArn": "TransitGatewayMulticastDomainArn",
+                "OwnerId": "OwnerId",
+                "Options": {
+                    "Igmpv2Support": "Igmpv2Support",
+                    "StaticSourcesSupport": "StaticSourcesSupport",
+                    "AutoAcceptSharedAssociations": "AutoAcceptSharedAssociations"
+                },
+                "State": "State",
+                "CreationTime": "1970-01-01T00:00:00",
+                "Tags": [
+                    {
+                        "Key": "Key",
+                        "Value": "Value"
+                    }
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "0686f09a7cb14472d489985d96e05dd2",
+        "randomized": [
+            {
+                "CreationTime": "ofkhrkjuvjaggnhy",
+                "Options": {
+                    "AutoAcceptSharedAssociations": "wyzqmmvlyuzqvznb",
+                    "Igmpv2Support": "aogokcucamaytctw",
+                    "StaticSourcesSupport": "bgndnliahvifeacw"
+                },
+                "OwnerId": "cgsrtprjnkopflma",
+                "State": "oqwpqeadgjrisefo",
+                "Tags": [
+                    {
+                        "Key": "kkhbyzcgsqthwizw",
+                        "Value": "jsxvsogivsgrnrgk"
+                    }
+                ],
+                "TransitGatewayId": "mutjljrimidfxrph",
+                "TransitGatewayMulticastDomainArn": "fouezjbqubspbjyk",
+                "TransitGatewayMulticastDomainId": "yprilfwlkzvijlqh"
+            },
+            {
+                "CreationTime": "kxaqzifxrmlvdmsv",
+                "Options": {
+                    "AutoAcceptSharedAssociations": "fawtlskgdockcqas",
+                    "Igmpv2Support": "xraiwsbhcrasksct",
+                    "StaticSourcesSupport": "jxlouxjxwofzvuzh"
+                },
+                "OwnerId": "rxmykcukptzwelcd",
+                "State": "qsdfxlfvvmmncrmp",
+                "Tags": [
+                    {
+                        "Key": "izprimemwmhrmela",
+                        "Value": "aevjrcnauxshkthp"
+                    }
+                ],
+                "TransitGatewayId": "tqubxnzxurmryxqn",
+                "TransitGatewayMulticastDomainArn": "ymarfdkmdqetktif",
+                "TransitGatewayMulticastDomainId": "giyxerdugmhitmpz"
+            },
+            {
+                "CreationTime": "hjogtdnjemuupxko",
+                "Options": {
+                    "AutoAcceptSharedAssociations": "gfgfyhoonvbfqdmo",
+                    "Igmpv2Support": "wqxqtuawmpgkbdxf",
+                    "StaticSourcesSupport": "dlukeqrvgyacdyet"
+                },
+                "OwnerId": "rtayvpggpkbduhde",
+                "State": "fukocxzkdzxhhvrh",
+                "Tags": [
+                    {
+                        "Key": "imiqbvcbigactkwm",
+                        "Value": "ajabkxadphxdymaa"
+                    }
+                ],
+                "TransitGatewayId": "xiqwzzqbfiyszipz",
+                "TransitGatewayMulticastDomainArn": "edbmlemcregmgmhy",
+                "TransitGatewayMulticastDomainId": "naejcaskyaxyueej"
+            },
+            {
+                "CreationTime": "fxznmaibtdklqabm",
+                "Options": {
+                    "AutoAcceptSharedAssociations": "iqyfiojbddrtzecm",
+                    "Igmpv2Support": "ybwcnrhrditdiqbh",
+                    "StaticSourcesSupport": "lguzfqikhiftwodb"
+                },
+                "OwnerId": "mkounbeowdkscvbq",
+                "State": "mjhhmkmpmtptkynw",
+                "Tags": [
+                    {
+                        "Key": "ozauvijmglaawrtt",
+                        "Value": "pkrrenrqeeaqheas"
+                    }
+                ],
+                "TransitGatewayId": "pkimiekrunwdhvuy",
+                "TransitGatewayMulticastDomainArn": "jlfmxvnmysumvbpu",
+                "TransitGatewayMulticastDomainId": "mrfoitdtmblaxowz"
+            },
+            {
+                "CreationTime": "gieglosjrukchmmw",
+                "Options": {
+                    "AutoAcceptSharedAssociations": "zfnbtyeobyzkyosj",
+                    "Igmpv2Support": "wfkylqhplokkjyxs",
+                    "StaticSourcesSupport": "thhurqxcfmcedfcv"
+                },
+                "OwnerId": "usrstpbhpwoqnrby",
+                "State": "ixmuglxqszistlao",
+                "Tags": [
+                    {
+                        "Key": "zmhdxfkojllumnpj",
+                        "Value": "qiokhnnrvqxxwlvw"
+                    }
+                ],
+                "TransitGatewayId": "chzrrwtverhjkusw",
+                "TransitGatewayMulticastDomainArn": "ijojgvzelxjvubel",
+                "TransitGatewayMulticastDomainId": "upenkckuhvpowiky"
+            },
+            {
+                "CreationTime": "gsriwlvpwrccsdts",
+                "Options": {
+                    "AutoAcceptSharedAssociations": "yyqglneszqkzuliz",
+                    "Igmpv2Support": "frtruqmxcnjprdat",
+                    "StaticSourcesSupport": "xniwsowfsnducoxe"
+                },
+                "OwnerId": "scpynesbpcenbbde",
+                "State": "glwsbhyctkvsbsjc",
+                "Tags": [
+                    {
+                        "Key": "kkeunhkfcdpjgwgg",
+                        "Value": "ybkzypwbsjdmonqc"
+                    }
+                ],
+                "TransitGatewayId": "zqczimcnainhanwv",
+                "TransitGatewayMulticastDomainArn": "vgdkqvvwcqnfgytm",
+                "TransitGatewayMulticastDomainId": "ixcmqispldtalxpt"
+            },
+            {
+                "CreationTime": "oxnyteiyzlpilifl",
+                "Options": {
+                    "AutoAcceptSharedAssociations": "gzubjddawecqobwf",
+                    "Igmpv2Support": "fqzvlggxsfzazlev",
+                    "StaticSourcesSupport": "gwagewdjbrqqirnk"
+                },
+                "OwnerId": "rfymaisgcayxrnoy",
+                "State": "bgbstaksgldkvtrd",
+                "Tags": [
+                    {
+                        "Key": "lqikatoevipkfyyh",
+                        "Value": "irwzmzuzsssspqqv"
+                    }
+                ],
+                "TransitGatewayId": "lattmvdpajmyybvh",
+                "TransitGatewayMulticastDomainArn": "pekmntauijmmgczf",
+                "TransitGatewayMulticastDomainId": "ivjcwqcrdwaalodr"
+            },
+            {
+                "CreationTime": "uaeohtomtkxzqksn",
+                "Options": {
+                    "AutoAcceptSharedAssociations": "uprbmytvmmgsqbwj",
+                    "Igmpv2Support": "bzpaoxedfrkkorhd",
+                    "StaticSourcesSupport": "fkmzlskhtkqoaqxs"
+                },
+                "OwnerId": "khhvflzsypvpkcry",
+                "State": "qxuvcxqbljvyqrza",
+                "Tags": [
+                    {
+                        "Key": "piodpprbueyyzazt",
+                        "Value": "cneobnwskacgcctf"
+                    }
+                ],
+                "TransitGatewayId": "nxhqhzhxktfcuppg",
+                "TransitGatewayMulticastDomainArn": "egvtuivkwzgxvgxn",
+                "TransitGatewayMulticastDomainId": "xfkrrazadbgudbqf"
+            },
+            {
+                "CreationTime": "lreftlrxsfsohvcm",
+                "Options": {
+                    "AutoAcceptSharedAssociations": "xefgdiggrxvjquki",
+                    "Igmpv2Support": "peuzahhskwjkpmae",
+                    "StaticSourcesSupport": "lvalsrrqwiflvtik"
+                },
+                "OwnerId": "lqppcccbertnjxnw",
+                "State": "cwckrempjzdvkvqu",
+                "Tags": [
+                    {
+                        "Key": "lljvycuklmpaaayc",
+                        "Value": "zxczoinsklufnsok"
+                    }
+                ],
+                "TransitGatewayId": "coqqnmxfbjtcavzp",
+                "TransitGatewayMulticastDomainArn": "sczbqtxgoewwsgkq",
+                "TransitGatewayMulticastDomainId": "fpsbtitoljbzrctv"
+            },
+            {
+                "CreationTime": "ayrvibrlntchnimg",
+                "Options": {
+                    "AutoAcceptSharedAssociations": "oafphvvwrbzyexia",
+                    "Igmpv2Support": "wvvypdtaezjmkksx",
+                    "StaticSourcesSupport": "uxypdrjmzjclsefz"
+                },
+                "OwnerId": "ngwxjovztxovlyal",
+                "State": "hwpjsmtbankcfgsf",
+                "Tags": [
+                    {
+                        "Key": "tsvpixrgutmwyfnw",
+                        "Value": "yqxmnjbielgwqxok"
+                    }
+                ],
+                "TransitGatewayId": "uhktfznldkumngko",
+                "TransitGatewayMulticastDomainArn": "zjuiewowglowgwhh",
+                "TransitGatewayMulticastDomainId": "tuvawokvbmpmvgre"
+            }
+        ],
+        "result_key": "TransitGatewayMulticastDomains"
+    },
+    "meta": {
+        "start": 1711115654.741117,
+        "end": 1711115661.474353,
+        "duration": 6.733242034912109,
+        "service": "ec2",
+        "type": "transit_gateway_multicast_domains"
+    }
+}

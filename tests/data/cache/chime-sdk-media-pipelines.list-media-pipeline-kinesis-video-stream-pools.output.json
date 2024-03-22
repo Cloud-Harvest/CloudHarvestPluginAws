@@ -1,0 +1,83 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "9dece7f85fc1c3f944425b1f68a8e6e1",
+        "boto_command": "list_media_pipeline_kinesis_video_stream_pools",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "PoolName": "PoolName",
+                "PoolId": "PoolId",
+                "PoolArn": "PoolArn"
+            }
+        ],
+        "required": [],
+        "md5": "efead891043e9750f9496c8df98697ca",
+        "randomized": [
+            {
+                "PoolArn": "shwktnzqhvchfeei",
+                "PoolId": "srilkighbnxgcvwr",
+                "PoolName": "hudngwcpoqehiudo"
+            },
+            {
+                "PoolArn": "jihlovgmdyzsxopd",
+                "PoolId": "lbvovyoeymctiztx",
+                "PoolName": "izqywnnpmkhinlhk"
+            },
+            {
+                "PoolArn": "kqsciwclrgxqrwxz",
+                "PoolId": "zkgszcjoioqbauxs",
+                "PoolName": "kjkntyvwlbgyherp"
+            },
+            {
+                "PoolArn": "szhcrawxvahzcdus",
+                "PoolId": "pdunsmughqvtsllr",
+                "PoolName": "wylciptepaymnsdk"
+            },
+            {
+                "PoolArn": "wshijgmuotpzpcwm",
+                "PoolId": "adrdvokwqvsualqf",
+                "PoolName": "pvyvkxolqaphbnhh"
+            },
+            {
+                "PoolArn": "zbdqofdkqpmxliat",
+                "PoolId": "moyqqanmjxctwmju",
+                "PoolName": "hcjlcrtjjumbatpc"
+            },
+            {
+                "PoolArn": "bzftwliixggpxmij",
+                "PoolId": "acqpatzrjgxzkzas",
+                "PoolName": "jkvfouecwqnruzil"
+            },
+            {
+                "PoolArn": "ybqcpmotaaurbaex",
+                "PoolId": "xaifxkpmsxbwnfud",
+                "PoolName": "wrcprnkhtmgpklwn"
+            },
+            {
+                "PoolArn": "vkrbtptojnevdplw",
+                "PoolId": "mzacffjkhfsjxxgu",
+                "PoolName": "qnpowagipefdxtoc"
+            },
+            {
+                "PoolArn": "iophrcmynquwtwxx",
+                "PoolId": "kmlicwcsmviqxqgp",
+                "PoolName": "ivxejjvzqyaxdtyn"
+            }
+        ],
+        "result_key": "KinesisVideoStreamPools"
+    },
+    "meta": {
+        "start": 1711115323.519942,
+        "end": 1711115330.790723,
+        "duration": 7.270791053771973,
+        "service": "chime-sdk-media-pipelines",
+        "type": "media_pipeline_kinesis_video_stream_pools"
+    }
+}

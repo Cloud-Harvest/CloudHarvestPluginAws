@@ -1,0 +1,352 @@
+{
+    "input": {
+        "template": {
+            "InstanceInformationFilterList": [
+                {
+                    "key": "InstanceIds",
+                    "valueSet": [
+                        ""
+                    ]
+                }
+            ],
+            "Filters": [
+                {
+                    "Key": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "d8416f60b81a8288b6f1bb9874456999",
+        "boto_command": "describe_instance_information",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "InstanceId": "InstanceId",
+                "PingStatus": "PingStatus",
+                "LastPingDateTime": "1970-01-01T00:00:00",
+                "AgentVersion": "AgentVersion",
+                "IsLatestVersion": true,
+                "PlatformType": "PlatformType",
+                "PlatformName": "PlatformName",
+                "PlatformVersion": "PlatformVersion",
+                "ActivationId": "ActivationId",
+                "IamRole": "IamRole",
+                "RegistrationDate": "1970-01-01T00:00:00",
+                "ResourceType": "ResourceType",
+                "Name": "Name",
+                "IPAddress": "IPAddress",
+                "ComputerName": "ComputerName",
+                "AssociationStatus": "AssociationStatus",
+                "LastAssociationExecutionDate": "1970-01-01T00:00:00",
+                "LastSuccessfulAssociationExecutionDate": "1970-01-01T00:00:00",
+                "AssociationOverview": {
+                    "DetailedStatus": "DetailedStatus",
+                    "InstanceAssociationStatusAggregatedCount": {
+                        "KeyName": 0
+                    }
+                },
+                "SourceId": "SourceId",
+                "SourceType": "SourceType"
+            }
+        ],
+        "required": [],
+        "md5": "5a1482bfce78bb0515a60263ae6f7bc5",
+        "randomized": [
+            {
+                "ActivationId": "ktgratlherhedshu",
+                "AgentVersion": "askmkacalgpkuuji",
+                "AssociationOverview": {
+                    "DetailedStatus": "iiewzwbpbgxmdmmq",
+                    "InstanceAssociationStatusAggregatedCount": {
+                        "KeyName": 0
+                    }
+                },
+                "AssociationStatus": "fchjvjqcngveioog",
+                "ComputerName": "iqnzpapgqzbrkylz",
+                "IPAddress": "apgoesvjpfqhbixy",
+                "IamRole": "ozadliirgzrqkwjm",
+                "InstanceId": "bldqujyntrgyvkmd",
+                "IsLatestVersion": true,
+                "LastAssociationExecutionDate": "pzixqozyxatcokam",
+                "LastPingDateTime": "trlcfadygvseaupx",
+                "LastSuccessfulAssociationExecutionDate": "nndilyrnedsxpsfu",
+                "Name": "rsbfylfhgjpkuado",
+                "PingStatus": "dnozmcgbkxfwrklo",
+                "PlatformName": "xnokmcqqwprrhlqu",
+                "PlatformType": "cagbpqgekuhdnqyi",
+                "PlatformVersion": "lhcfwulvjfgmsupq",
+                "RegistrationDate": "uyckfhhgneonprwy",
+                "ResourceType": "vtagtvnvqrxazylx",
+                "SourceId": "kcftdzwcqpowjoqg",
+                "SourceType": "tqcumumwshtcytlf"
+            },
+            {
+                "ActivationId": "fmndjunrtphrklsm",
+                "AgentVersion": "bxjcyghyoeboyevj",
+                "AssociationOverview": {
+                    "DetailedStatus": "fmrxppjgtjvbaqto",
+                    "InstanceAssociationStatusAggregatedCount": {
+                        "KeyName": 0
+                    }
+                },
+                "AssociationStatus": "qdfsbhjoilkhsgwd",
+                "ComputerName": "heumfqfmbogrvtps",
+                "IPAddress": "qgqhqhudeltsvcoo",
+                "IamRole": "raatayoaquhfhcat",
+                "InstanceId": "rxqwfziwwisbgqgd",
+                "IsLatestVersion": true,
+                "LastAssociationExecutionDate": "yumrszhthsgztgtp",
+                "LastPingDateTime": "blgdsiztsynpivez",
+                "LastSuccessfulAssociationExecutionDate": "vjcextvivqjgtjxi",
+                "Name": "wshnbokgakdahxdt",
+                "PingStatus": "tngdvlejxtvsvpfs",
+                "PlatformName": "yrqmuzqcdiomrxmf",
+                "PlatformType": "rthnhwkcxzptkbft",
+                "PlatformVersion": "voqokgazvzjofrcw",
+                "RegistrationDate": "yydsbiwneymtjgqs",
+                "ResourceType": "dyzmvywuelngkjjx",
+                "SourceId": "vpxwnmefyoacabja",
+                "SourceType": "ceiunmxoeqegahfd"
+            },
+            {
+                "ActivationId": "otmtclsuybpaopnt",
+                "AgentVersion": "rdhanitcravgytxd",
+                "AssociationOverview": {
+                    "DetailedStatus": "njkoowsjbjsdtdwk",
+                    "InstanceAssociationStatusAggregatedCount": {
+                        "KeyName": 0
+                    }
+                },
+                "AssociationStatus": "ddbwghedxrfdpexv",
+                "ComputerName": "cicduoeulzexmbfo",
+                "IPAddress": "gpgzjbidhujegdwm",
+                "IamRole": "yojdqbbdmvckuuhu",
+                "InstanceId": "agpaotpkqcrqvqtw",
+                "IsLatestVersion": true,
+                "LastAssociationExecutionDate": "yjotnsbgnrklyecu",
+                "LastPingDateTime": "npapexbdpbggruqd",
+                "LastSuccessfulAssociationExecutionDate": "fktwlpeyzcxyemso",
+                "Name": "dahhuuxtalzutfaa",
+                "PingStatus": "qbabnpsmexnjhqjt",
+                "PlatformName": "knkbzqimpdmmzsbb",
+                "PlatformType": "qvufxjubnjnugyqe",
+                "PlatformVersion": "ahftztvetiyrdwqb",
+                "RegistrationDate": "sijzppujfywobxzq",
+                "ResourceType": "rgbtyvviykrhucip",
+                "SourceId": "gkahxosnavyvmtsw",
+                "SourceType": "lphtnzfeeloswsfj"
+            },
+            {
+                "ActivationId": "mqxofwdapwqlgyhf",
+                "AgentVersion": "qvaceqfjahrgslzy",
+                "AssociationOverview": {
+                    "DetailedStatus": "evanubjfcvfqsslq",
+                    "InstanceAssociationStatusAggregatedCount": {
+                        "KeyName": 0
+                    }
+                },
+                "AssociationStatus": "ymzqllynwtpirtpt",
+                "ComputerName": "wagmljzcpyuxnbvv",
+                "IPAddress": "fawxrjovhmotebrs",
+                "IamRole": "kuyrrhbayecdniom",
+                "InstanceId": "ricxbmahqpirdnwo",
+                "IsLatestVersion": true,
+                "LastAssociationExecutionDate": "hmjihcfztkfxnnmc",
+                "LastPingDateTime": "yhctqxxpxjtwugct",
+                "LastSuccessfulAssociationExecutionDate": "nknnbgsyjcbqfltp",
+                "Name": "yxklpxuaseyflknm",
+                "PingStatus": "yjcvqgxqgribxzwg",
+                "PlatformName": "phfzwonhqzgwpsyo",
+                "PlatformType": "rbazzecuddlkyahx",
+                "PlatformVersion": "ulggvrorbxvkbttk",
+                "RegistrationDate": "qdehqshadgkeisua",
+                "ResourceType": "jrybsaqferjsjuhu",
+                "SourceId": "mvwjjyaplymzaqkq",
+                "SourceType": "sxrmjqaqnsnywony"
+            },
+            {
+                "ActivationId": "rurwwtgwawdmjoeh",
+                "AgentVersion": "qmsetcxlqxvtdphg",
+                "AssociationOverview": {
+                    "DetailedStatus": "xoknjjvgkjtjtysa",
+                    "InstanceAssociationStatusAggregatedCount": {
+                        "KeyName": 0
+                    }
+                },
+                "AssociationStatus": "mfgriclrygdvzkqa",
+                "ComputerName": "zyohjpcgxxwfrecl",
+                "IPAddress": "sljzbqotwyvscesl",
+                "IamRole": "gvnlmdxkuliazjux",
+                "InstanceId": "ewbvdntkmwmsgypi",
+                "IsLatestVersion": true,
+                "LastAssociationExecutionDate": "bktckvmmisucmlnu",
+                "LastPingDateTime": "rnzgqafcirslkhku",
+                "LastSuccessfulAssociationExecutionDate": "olasxmnlpcuycudk",
+                "Name": "tqbsltkqrxbyactq",
+                "PingStatus": "gbraxjktjowsybrn",
+                "PlatformName": "xaippfqyneyazrxm",
+                "PlatformType": "ygscixgwxcmojoaj",
+                "PlatformVersion": "tckzjsorfvaoyocs",
+                "RegistrationDate": "ftwyzmoyqvcblcwi",
+                "ResourceType": "jstzqejgrtuvkdme",
+                "SourceId": "sozyatfvnmtwdybb",
+                "SourceType": "sofvqgesrrgjjfig"
+            },
+            {
+                "ActivationId": "aytkmgqjjdmrukwx",
+                "AgentVersion": "daltmizkdnedhpkf",
+                "AssociationOverview": {
+                    "DetailedStatus": "eamupqxspqphezay",
+                    "InstanceAssociationStatusAggregatedCount": {
+                        "KeyName": 0
+                    }
+                },
+                "AssociationStatus": "wluvxqqylolyspyz",
+                "ComputerName": "vasvcunhmodvyzok",
+                "IPAddress": "txzzrzgbqqpwdlpb",
+                "IamRole": "qhqgenordkcvukcu",
+                "InstanceId": "sqgumyalgzcjvvyn",
+                "IsLatestVersion": true,
+                "LastAssociationExecutionDate": "eaxcvhyhrtvdcowc",
+                "LastPingDateTime": "gqwwzqefbcqltisf",
+                "LastSuccessfulAssociationExecutionDate": "rlghyxxukcxgcngx",
+                "Name": "aymyyyjohxxakodt",
+                "PingStatus": "ifvtcbqhcfrxvpvi",
+                "PlatformName": "ytnldnuvuphvdhhr",
+                "PlatformType": "gnnyecthposkmqcb",
+                "PlatformVersion": "eiqgnygpjsxiatch",
+                "RegistrationDate": "ehupfgpursdfeaep",
+                "ResourceType": "btutwqzdgxfpeeqv",
+                "SourceId": "hktxhmwbzwcbdyer",
+                "SourceType": "viabgytmqxopqpyb"
+            },
+            {
+                "ActivationId": "hbwxwkifoevhmzyx",
+                "AgentVersion": "wrllrsbuevzjfyor",
+                "AssociationOverview": {
+                    "DetailedStatus": "lidftbpiudziadrl",
+                    "InstanceAssociationStatusAggregatedCount": {
+                        "KeyName": 0
+                    }
+                },
+                "AssociationStatus": "eaelhiwwoiiauwis",
+                "ComputerName": "kjwjftcghcvjbztu",
+                "IPAddress": "uzoiohfotrvcjjun",
+                "IamRole": "ecwltadmznttergi",
+                "InstanceId": "icxiogqozdfybjaa",
+                "IsLatestVersion": true,
+                "LastAssociationExecutionDate": "xbhtszzommzkjygj",
+                "LastPingDateTime": "tolvzonwzesfxvdc",
+                "LastSuccessfulAssociationExecutionDate": "aedemwccczyicqth",
+                "Name": "pszpnlrtgfpiypju",
+                "PingStatus": "yjqmicidwsawmsqi",
+                "PlatformName": "wzsdtysotpdqinsk",
+                "PlatformType": "hsqohehatkvwzomv",
+                "PlatformVersion": "wxrtrerivvwlgakp",
+                "RegistrationDate": "ipksbqezenshhsem",
+                "ResourceType": "irmaegywxznvxqlp",
+                "SourceId": "lfuapyuhxtgdkstu",
+                "SourceType": "bxlscdbvfwjnaqrw"
+            },
+            {
+                "ActivationId": "xvaoajnmjrdmnifs",
+                "AgentVersion": "qvgxclfkbnknweuy",
+                "AssociationOverview": {
+                    "DetailedStatus": "qrcvuszrsppdwpot",
+                    "InstanceAssociationStatusAggregatedCount": {
+                        "KeyName": 0
+                    }
+                },
+                "AssociationStatus": "pkwsncihzrmvinyf",
+                "ComputerName": "bcpqytpaxqzjpbkl",
+                "IPAddress": "qlfylyvyqcqktwvf",
+                "IamRole": "gtnyxkcphdsrqghm",
+                "InstanceId": "ojxcmwwwldxbubdy",
+                "IsLatestVersion": true,
+                "LastAssociationExecutionDate": "zafdqqhedaqowwvs",
+                "LastPingDateTime": "barybhzptypsdmra",
+                "LastSuccessfulAssociationExecutionDate": "dncjtlysuygdbdfv",
+                "Name": "scgknsbdnzlpxono",
+                "PingStatus": "bkaeicdmrhsamidh",
+                "PlatformName": "rjskscynlgmjcvqt",
+                "PlatformType": "sbhxeffsehjyvwdo",
+                "PlatformVersion": "pbilkwutdeqzwoqu",
+                "RegistrationDate": "scjvpijyulbbccnc",
+                "ResourceType": "zxyscewwsoagocjr",
+                "SourceId": "fegiztmylrbimekf",
+                "SourceType": "yrxrxnzzyegmhore"
+            },
+            {
+                "ActivationId": "ofesefjqyrpxrktu",
+                "AgentVersion": "lmzzwmoodnrgpgnk",
+                "AssociationOverview": {
+                    "DetailedStatus": "ttxhxzxbxreqiatb",
+                    "InstanceAssociationStatusAggregatedCount": {
+                        "KeyName": 0
+                    }
+                },
+                "AssociationStatus": "perctzytzpugqszf",
+                "ComputerName": "lnppvanukhcwhifq",
+                "IPAddress": "wczgmojwchugefru",
+                "IamRole": "vtnkrizgcsmemqgj",
+                "InstanceId": "cuauqupeavwokfya",
+                "IsLatestVersion": true,
+                "LastAssociationExecutionDate": "qnddqmvcvqkhdpbk",
+                "LastPingDateTime": "carrxtthwudmrgng",
+                "LastSuccessfulAssociationExecutionDate": "owvppgrnukgzvqya",
+                "Name": "gqdodiggroqnywnj",
+                "PingStatus": "uauctcruysrtvnci",
+                "PlatformName": "xmciymtblgniqgco",
+                "PlatformType": "oyyjhxjpwebdywas",
+                "PlatformVersion": "kungtsyxjyjmcxby",
+                "RegistrationDate": "prlhxtflibolipiq",
+                "ResourceType": "dpkiifvtvpmbckwq",
+                "SourceId": "uzuahgpdopxvzyoa",
+                "SourceType": "wkqnrydqwkwhmexd"
+            },
+            {
+                "ActivationId": "kqsqkoutgwvtvzwr",
+                "AgentVersion": "yqgmqbwbnwbdmpos",
+                "AssociationOverview": {
+                    "DetailedStatus": "disyggpfrfhgduxj",
+                    "InstanceAssociationStatusAggregatedCount": {
+                        "KeyName": 0
+                    }
+                },
+                "AssociationStatus": "jbxafuiajauffhht",
+                "ComputerName": "wxnvebbzscrehvto",
+                "IPAddress": "nbzfzfhtuknhjvpt",
+                "IamRole": "ouwpgeghhhmnvktr",
+                "InstanceId": "teuzalmakrkeyezm",
+                "IsLatestVersion": true,
+                "LastAssociationExecutionDate": "qqzujznmseclxvpt",
+                "LastPingDateTime": "bzcpxayzivrwoply",
+                "LastSuccessfulAssociationExecutionDate": "hyzfspcnsjvphawk",
+                "Name": "qjkdfgrkhjnegcux",
+                "PingStatus": "bbnocyspmpobhjqc",
+                "PlatformName": "ynsetdmxxuanckqf",
+                "PlatformType": "vvjmwgyjfcmteytq",
+                "PlatformVersion": "rpomvnutidcefmdi",
+                "RegistrationDate": "admmggqlwcdleluj",
+                "ResourceType": "hmufomeksplxgsty",
+                "SourceId": "terqeisnapncvsfq",
+                "SourceType": "rygxewvbyobcbxkr"
+            }
+        ],
+        "result_key": "InstanceInformationList"
+    },
+    "meta": {
+        "start": 1711116658.068637,
+        "end": 1711116664.76828,
+        "duration": 6.6996541023254395,
+        "service": "ssm",
+        "type": "instance_information"
+    }
+}

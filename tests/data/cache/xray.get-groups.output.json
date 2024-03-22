@@ -1,0 +1,126 @@
+{
+    "input": {
+        "template": {
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "28fe14adb863d5d0635cac1da3f9b4e4",
+        "boto_command": "get_groups",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "GroupName": "GroupName",
+                "GroupARN": "GroupARN",
+                "FilterExpression": "FilterExpression",
+                "InsightsConfiguration": {
+                    "InsightsEnabled": true,
+                    "NotificationsEnabled": true
+                }
+            }
+        ],
+        "required": [],
+        "md5": "76b0d8acf786fd92e74130bfba6cf7f4",
+        "randomized": [
+            {
+                "FilterExpression": "udwzecshltthfhgx",
+                "GroupARN": "vtcjvbwefjnouosd",
+                "GroupName": "kcmzrvvpneddedtz",
+                "InsightsConfiguration": {
+                    "InsightsEnabled": true,
+                    "NotificationsEnabled": true
+                }
+            },
+            {
+                "FilterExpression": "pltpnmrbgalgnoxq",
+                "GroupARN": "ifshdjdjrchhzvjg",
+                "GroupName": "xfdozdybjusjtlqt",
+                "InsightsConfiguration": {
+                    "InsightsEnabled": true,
+                    "NotificationsEnabled": true
+                }
+            },
+            {
+                "FilterExpression": "khpaqrnbpqvggxfq",
+                "GroupARN": "vrdvtsudwfnvweyh",
+                "GroupName": "ofjkxsipcnrttpyj",
+                "InsightsConfiguration": {
+                    "InsightsEnabled": true,
+                    "NotificationsEnabled": true
+                }
+            },
+            {
+                "FilterExpression": "qyljvizbbisrqnmz",
+                "GroupARN": "lcaygmnbyitegyxk",
+                "GroupName": "xccboymluleaimdo",
+                "InsightsConfiguration": {
+                    "InsightsEnabled": true,
+                    "NotificationsEnabled": true
+                }
+            },
+            {
+                "FilterExpression": "geufhdluvbgsxetk",
+                "GroupARN": "jehowjxhqjxmzkcj",
+                "GroupName": "kfmjjnebskysjhos",
+                "InsightsConfiguration": {
+                    "InsightsEnabled": true,
+                    "NotificationsEnabled": true
+                }
+            },
+            {
+                "FilterExpression": "ifijsxzrfqfgwtoo",
+                "GroupARN": "sxtpizoqhkjwjmfl",
+                "GroupName": "bzlgiuccnqldgwzc",
+                "InsightsConfiguration": {
+                    "InsightsEnabled": true,
+                    "NotificationsEnabled": true
+                }
+            },
+            {
+                "FilterExpression": "iiqhescmhjugcqkr",
+                "GroupARN": "aylzhzghjxvsegug",
+                "GroupName": "jhgiofjwuapwcduj",
+                "InsightsConfiguration": {
+                    "InsightsEnabled": true,
+                    "NotificationsEnabled": true
+                }
+            },
+            {
+                "FilterExpression": "emjzgfclzwcpazbj",
+                "GroupARN": "iisnyetsxcldzofd",
+                "GroupName": "agupedebpbhgxzpy",
+                "InsightsConfiguration": {
+                    "InsightsEnabled": true,
+                    "NotificationsEnabled": true
+                }
+            },
+            {
+                "FilterExpression": "rhycytlfbgmkvsqc",
+                "GroupARN": "ulzgdivhbkbnxvin",
+                "GroupName": "cisdbuawmofeakcb",
+                "InsightsConfiguration": {
+                    "InsightsEnabled": true,
+                    "NotificationsEnabled": true
+                }
+            },
+            {
+                "FilterExpression": "fykbxdpgqdogxvad",
+                "GroupARN": "oyxkgxzpbyyowaqd",
+                "GroupName": "ulmdxpptipzobeen",
+                "InsightsConfiguration": {
+                    "InsightsEnabled": true,
+                    "NotificationsEnabled": true
+                }
+            }
+        ],
+        "result_key": "Groups"
+    },
+    "meta": {
+        "start": 1711116818.539907,
+        "end": 1711116825.640625,
+        "duration": 7.100723028182983,
+        "service": "xray",
+        "type": null
+    }
+}

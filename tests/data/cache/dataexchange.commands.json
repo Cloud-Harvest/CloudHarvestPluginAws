@@ -1,0 +1,13 @@
+[
+    "dataexchange.get-asset",
+    "dataexchange.get-data-set",
+    "dataexchange.get-event-action",
+    "dataexchange.get-job",
+    "dataexchange.get-revision",
+    "dataexchange.list-data-set-revisions",
+    "dataexchange.list-data-sets",
+    "dataexchange.list-event-actions",
+    "dataexchange.list-jobs",
+    "dataexchange.list-revision-assets",
+    "dataexchange.list-tags-for-resource"
+]

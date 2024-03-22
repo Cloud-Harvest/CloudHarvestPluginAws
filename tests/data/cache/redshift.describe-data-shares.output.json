@@ -1,0 +1,216 @@
+{
+    "input": {
+        "template": {
+            "DataShareArn": "",
+            "MaxRecords": 0,
+            "Marker": ""
+        },
+        "required": [],
+        "md5": "2783cf71b0c9c7f98ef1e3e2cb567583",
+        "boto_command": "describe_data_shares",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "DataShareArn": "DataShareArn",
+                "ProducerArn": "ProducerArn",
+                "AllowPubliclyAccessibleConsumers": true,
+                "DataShareAssociations": [
+                    {
+                        "ConsumerIdentifier": "ConsumerIdentifier",
+                        "Status": "Status",
+                        "ConsumerRegion": "ConsumerRegion",
+                        "CreatedDate": "1970-01-01T00:00:00",
+                        "StatusChangeDate": "1970-01-01T00:00:00",
+                        "ProducerAllowedWrites": true,
+                        "ConsumerAcceptedWrites": true
+                    }
+                ],
+                "ManagedBy": "ManagedBy"
+            }
+        ],
+        "required": [],
+        "md5": "8f4ebdadf834af8b691cfafb66411679",
+        "randomized": [
+            {
+                "AllowPubliclyAccessibleConsumers": true,
+                "DataShareArn": "znmubsogtjvgtcar",
+                "DataShareAssociations": [
+                    {
+                        "ConsumerAcceptedWrites": true,
+                        "ConsumerIdentifier": "gawwiftgvmvuezhw",
+                        "ConsumerRegion": "vxksmwzvofatvxmp",
+                        "CreatedDate": "kscdvgoudxkcrusq",
+                        "ProducerAllowedWrites": true,
+                        "Status": "nbcjstkkjhbgoqgp",
+                        "StatusChangeDate": "jizoamdlgxcxvqdr"
+                    }
+                ],
+                "ManagedBy": "nyidguefhjtyngrv",
+                "ProducerArn": "deysuwikzllhpist"
+            },
+            {
+                "AllowPubliclyAccessibleConsumers": true,
+                "DataShareArn": "uvxfojyfjwqblwkf",
+                "DataShareAssociations": [
+                    {
+                        "ConsumerAcceptedWrites": true,
+                        "ConsumerIdentifier": "ebrboggsmadaofyu",
+                        "ConsumerRegion": "zvrnepbxjwsydovg",
+                        "CreatedDate": "iwraihczdvquryde",
+                        "ProducerAllowedWrites": true,
+                        "Status": "swwdyhuqqykaamoh",
+                        "StatusChangeDate": "zrwsivdfdpdvbxmv"
+                    }
+                ],
+                "ManagedBy": "bxucvcrzaapkdurd",
+                "ProducerArn": "uqhkmacawjauyjvv"
+            },
+            {
+                "AllowPubliclyAccessibleConsumers": true,
+                "DataShareArn": "lcvrgmtzzwofndqv",
+                "DataShareAssociations": [
+                    {
+                        "ConsumerAcceptedWrites": true,
+                        "ConsumerIdentifier": "bwxfrxrvcztyeyvo",
+                        "ConsumerRegion": "ytgvasuznbeahvkj",
+                        "CreatedDate": "poltmwesmqiphals",
+                        "ProducerAllowedWrites": true,
+                        "Status": "leyyuverzuibudtj",
+                        "StatusChangeDate": "nshgcayvommsjfpl"
+                    }
+                ],
+                "ManagedBy": "rabwjngajejpkgis",
+                "ProducerArn": "uodptytantyqdssx"
+            },
+            {
+                "AllowPubliclyAccessibleConsumers": true,
+                "DataShareArn": "ydpqlxkksnpwqehn",
+                "DataShareAssociations": [
+                    {
+                        "ConsumerAcceptedWrites": true,
+                        "ConsumerIdentifier": "gepuqifnytknuadl",
+                        "ConsumerRegion": "rlprxnmekufcvada",
+                        "CreatedDate": "jndvozxvtteuewdh",
+                        "ProducerAllowedWrites": true,
+                        "Status": "mapqbgwixsegqayz",
+                        "StatusChangeDate": "tjrlkbrpfpgxzyog"
+                    }
+                ],
+                "ManagedBy": "pokpqnsuyaoepavv",
+                "ProducerArn": "pxepgjsliolzlezb"
+            },
+            {
+                "AllowPubliclyAccessibleConsumers": true,
+                "DataShareArn": "jobusselldsosxfr",
+                "DataShareAssociations": [
+                    {
+                        "ConsumerAcceptedWrites": true,
+                        "ConsumerIdentifier": "usxezfrgyhhnzksg",
+                        "ConsumerRegion": "wyplpvzcojnsuaxk",
+                        "CreatedDate": "wuvlljdqdggknfnc",
+                        "ProducerAllowedWrites": true,
+                        "Status": "midqockwlxhtsoux",
+                        "StatusChangeDate": "kqsoanacpxmganpa"
+                    }
+                ],
+                "ManagedBy": "lseejlkzovijmhak",
+                "ProducerArn": "lllsambppzzlrdtz"
+            },
+            {
+                "AllowPubliclyAccessibleConsumers": true,
+                "DataShareArn": "bdbkavpdtckgycdo",
+                "DataShareAssociations": [
+                    {
+                        "ConsumerAcceptedWrites": true,
+                        "ConsumerIdentifier": "ehcdektoximebmlk",
+                        "ConsumerRegion": "dgtdckwrjdbsigzn",
+                        "CreatedDate": "fgmmbjjgxhaaytne",
+                        "ProducerAllowedWrites": true,
+                        "Status": "faqhqhlwvwooezii",
+                        "StatusChangeDate": "fzcpghjxafpgazuv"
+                    }
+                ],
+                "ManagedBy": "jbtzkbblwynolvda",
+                "ProducerArn": "xmakbotlrbcrngpb"
+            },
+            {
+                "AllowPubliclyAccessibleConsumers": true,
+                "DataShareArn": "rdkifbymmzrpkpqm",
+                "DataShareAssociations": [
+                    {
+                        "ConsumerAcceptedWrites": true,
+                        "ConsumerIdentifier": "draabaxdtlhizedq",
+                        "ConsumerRegion": "kvdzhryqaxohjole",
+                        "CreatedDate": "flzcsisqlpknjysn",
+                        "ProducerAllowedWrites": true,
+                        "Status": "nzrzmxxlxuolgtfv",
+                        "StatusChangeDate": "aqudjuijlvnpdasm"
+                    }
+                ],
+                "ManagedBy": "sdpzuzyesefplsdx",
+                "ProducerArn": "icvfzyozyqbvdsne"
+            },
+            {
+                "AllowPubliclyAccessibleConsumers": true,
+                "DataShareArn": "ahkuhnixdhtwcnxl",
+                "DataShareAssociations": [
+                    {
+                        "ConsumerAcceptedWrites": true,
+                        "ConsumerIdentifier": "tbzjsncmcdiaghan",
+                        "ConsumerRegion": "yxkpawfqlrpwyksy",
+                        "CreatedDate": "lwupxviatrkdtyqt",
+                        "ProducerAllowedWrites": true,
+                        "Status": "wybyvdphcwsrjrzz",
+                        "StatusChangeDate": "erprervftqrkmrpl"
+                    }
+                ],
+                "ManagedBy": "ypfdcflgiyectmng",
+                "ProducerArn": "zhjvkkcnamjlouel"
+            },
+            {
+                "AllowPubliclyAccessibleConsumers": true,
+                "DataShareArn": "uayaasosgmxfyavk",
+                "DataShareAssociations": [
+                    {
+                        "ConsumerAcceptedWrites": true,
+                        "ConsumerIdentifier": "jrrkbrsxzdgwgqge",
+                        "ConsumerRegion": "tpitqgvqnhapurky",
+                        "CreatedDate": "zrcgiipmhypobeax",
+                        "ProducerAllowedWrites": true,
+                        "Status": "ymgwmvougwaepzbq",
+                        "StatusChangeDate": "grlhbbypjffltrda"
+                    }
+                ],
+                "ManagedBy": "aeaqlwkplrlpdzip",
+                "ProducerArn": "obazgdabazxjzidd"
+            },
+            {
+                "AllowPubliclyAccessibleConsumers": true,
+                "DataShareArn": "iixgfdblopepjjxm",
+                "DataShareAssociations": [
+                    {
+                        "ConsumerAcceptedWrites": true,
+                        "ConsumerIdentifier": "mgukjjjmjddbjfoy",
+                        "ConsumerRegion": "fdytpzvabzrmdxqz",
+                        "CreatedDate": "wqvgckzupcwwiych",
+                        "ProducerAllowedWrites": true,
+                        "Status": "fpjoutgexthqhgvf",
+                        "StatusChangeDate": "bnufnedleuabqdmx"
+                    }
+                ],
+                "ManagedBy": "msxfpgtsimohmiev",
+                "ProducerArn": "cqkvedewtjokneux"
+            }
+        ],
+        "result_key": "DataShares"
+    },
+    "meta": {
+        "start": 1711116422.231616,
+        "end": 1711116428.818001,
+        "duration": 6.586390018463135,
+        "service": "redshift",
+        "type": "data_shares"
+    }
+}

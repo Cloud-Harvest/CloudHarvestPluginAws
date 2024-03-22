@@ -1,0 +1,95 @@
+{
+    "input": {
+        "template": {
+            "AcceptLanguage": "",
+            "PageSize": 0,
+            "PageToken": ""
+        },
+        "required": [],
+        "md5": "2deeb980b32aba7f916f1cad4a1918d5",
+        "boto_command": "list_service_actions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "Id": "Id",
+                "Name": "Name",
+                "Description": "Description",
+                "DefinitionType": "DefinitionType"
+            }
+        ],
+        "required": [],
+        "md5": "5b70fa72e97478c419d748844bf75850",
+        "randomized": [
+            {
+                "DefinitionType": "zoycobrcmgrpmuyu",
+                "Description": "dcqqwzrfxfncvmkj",
+                "Id": "hhoymmwngdfyqauh",
+                "Name": "xcdtvdsibaiuwnoj"
+            },
+            {
+                "DefinitionType": "dpmmgcjugqryercx",
+                "Description": "mnfuukzvoqaufepb",
+                "Id": "zbllydljrgmskkms",
+                "Name": "ntcbfmdrtbnsycmm"
+            },
+            {
+                "DefinitionType": "mjqlcttatnhmshdt",
+                "Description": "adruvjrbrychdmix",
+                "Id": "mhythphzepypznhl",
+                "Name": "terhhrxjdgzgxlwg"
+            },
+            {
+                "DefinitionType": "byvobqozbyctwlhe",
+                "Description": "jbkfxyaysweyvmng",
+                "Id": "ycoenfbxjsaqklca",
+                "Name": "akspavyjlxxexicb"
+            },
+            {
+                "DefinitionType": "lzoocirbrxqjcpqr",
+                "Description": "gzeyyfazpyfwmbyz",
+                "Id": "yuqshmaopetvkfpb",
+                "Name": "wdotkoenvhvvypll"
+            },
+            {
+                "DefinitionType": "yxrzcsktarbwfdze",
+                "Description": "xdffrkyzbfslbdbp",
+                "Id": "hcqigjutpupjmutk",
+                "Name": "phyvktknsbfwfuhm"
+            },
+            {
+                "DefinitionType": "vighxewrhjzaxufd",
+                "Description": "tijpoqiitfnflckf",
+                "Id": "nftpjsxyijbvbqdj",
+                "Name": "bznpzfrhqhrkebvy"
+            },
+            {
+                "DefinitionType": "mzyhplqqhnkzsrsq",
+                "Description": "xjydsfitgosvyfbk",
+                "Id": "msnqnnavmegfjvit",
+                "Name": "tfhcwfwefwmdacjl"
+            },
+            {
+                "DefinitionType": "txyrpdlyugvxaery",
+                "Description": "bmmszapogcbfaalk",
+                "Id": "auafcnjutomaycir",
+                "Name": "uugzhdrvdwneyhlk"
+            },
+            {
+                "DefinitionType": "gsjslxsxywzgtkrv",
+                "Description": "clrjgdccfagpvpky",
+                "Id": "lcmpjyowwomcbbyo",
+                "Name": "cydmnjqxcwqsrtnd"
+            }
+        ],
+        "result_key": "ServiceActionSummaries"
+    },
+    "meta": {
+        "start": 1711116608.080495,
+        "end": 1711116614.807442,
+        "duration": 6.72695779800415,
+        "service": "servicecatalog",
+        "type": "service_actions"
+    }
+}

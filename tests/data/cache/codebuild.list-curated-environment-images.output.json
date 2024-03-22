@@ -1,0 +1,212 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "list_curated_environment_images",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "platform": "platform",
+                "languages": [
+                    {
+                        "language": "language",
+                        "images": [
+                            {
+                                "name": "name",
+                                "description": "description",
+                                "versions": [
+                                    "String"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "93598f5448f0f99b1bfc022337434a61",
+        "randomized": [
+            {
+                "languages": [
+                    {
+                        "images": [
+                            {
+                                "description": "gcbtyljaojrtebsw",
+                                "name": "xpyhqoufpqsygnif",
+                                "versions": [
+                                    "njzyykestfmrszpc"
+                                ]
+                            }
+                        ],
+                        "language": "duxmlxnscsetahtw"
+                    }
+                ],
+                "platform": "mfuabwjslspamdxi"
+            },
+            {
+                "languages": [
+                    {
+                        "images": [
+                            {
+                                "description": "vsbwtvjfnctokpdm",
+                                "name": "qjuwgelcjojtzyrf",
+                                "versions": [
+                                    "dyromanhtaqjeuub"
+                                ]
+                            }
+                        ],
+                        "language": "lqklnrzbteufozft"
+                    }
+                ],
+                "platform": "rahybaqtyililgve"
+            },
+            {
+                "languages": [
+                    {
+                        "images": [
+                            {
+                                "description": "envuqzstvirxbhha",
+                                "name": "xtfoqfmxeymmwshc",
+                                "versions": [
+                                    "ozykmktqtwmvuuyn"
+                                ]
+                            }
+                        ],
+                        "language": "hzormjcskfiyexbw"
+                    }
+                ],
+                "platform": "tckukmxrvmwvzkmg"
+            },
+            {
+                "languages": [
+                    {
+                        "images": [
+                            {
+                                "description": "zmamttlchpofjobv",
+                                "name": "rqtnrvmlwsivduur",
+                                "versions": [
+                                    "ugiagqufwhaxydgd"
+                                ]
+                            }
+                        ],
+                        "language": "gtppzmuuhaygptiy"
+                    }
+                ],
+                "platform": "rszbxmzfkndxcwjj"
+            },
+            {
+                "languages": [
+                    {
+                        "images": [
+                            {
+                                "description": "ipdjolmkciwfrsha",
+                                "name": "zaffwvoswdehutbd",
+                                "versions": [
+                                    "xsdzeukaoeljjkzh"
+                                ]
+                            }
+                        ],
+                        "language": "tyjzpluemsawgfpv"
+                    }
+                ],
+                "platform": "cjvnyucwcuwnfshw"
+            },
+            {
+                "languages": [
+                    {
+                        "images": [
+                            {
+                                "description": "asqonfdyhbuukgml",
+                                "name": "gbbiomkcoujceeoj",
+                                "versions": [
+                                    "qsleoixbrnvmrycl"
+                                ]
+                            }
+                        ],
+                        "language": "mxasdixsjdocdfpg"
+                    }
+                ],
+                "platform": "ttyfpoqrasafibrr"
+            },
+            {
+                "languages": [
+                    {
+                        "images": [
+                            {
+                                "description": "itablendoyppknbh",
+                                "name": "ahawnjkfnqysdwdk",
+                                "versions": [
+                                    "pusrxbquajfrnhhr"
+                                ]
+                            }
+                        ],
+                        "language": "efvhjdfldiqzdvqo"
+                    }
+                ],
+                "platform": "mtbfpngahfdbmffq"
+            },
+            {
+                "languages": [
+                    {
+                        "images": [
+                            {
+                                "description": "khdrvvbmjkuavapt",
+                                "name": "fexcptufidlzmynt",
+                                "versions": [
+                                    "aubgokncjcprwhqg"
+                                ]
+                            }
+                        ],
+                        "language": "sbsiqejkpzxbyknu"
+                    }
+                ],
+                "platform": "vrfwsykojunumvzf"
+            },
+            {
+                "languages": [
+                    {
+                        "images": [
+                            {
+                                "description": "oduttmxulzkdwcqw",
+                                "name": "fvzaiitjopqherep",
+                                "versions": [
+                                    "fvwmwdhymuuschjx"
+                                ]
+                            }
+                        ],
+                        "language": "lhtpmmcvzjxdtzsb"
+                    }
+                ],
+                "platform": "hpteutarzffvqlqh"
+            },
+            {
+                "languages": [
+                    {
+                        "images": [
+                            {
+                                "description": "uzcnmiwgxxoifihc",
+                                "name": "mdikuwxnjsldtwlp",
+                                "versions": [
+                                    "wmkteiscvckfyxjz"
+                                ]
+                            }
+                        ],
+                        "language": "mcsglnlozmrwoxlq"
+                    }
+                ],
+                "platform": "cumayuykgdyjrzow"
+            }
+        ],
+        "result_key": "platforms"
+    },
+    "meta": {
+        "start": 1711115403.116623,
+        "end": 1711115411.629972,
+        "duration": 8.513357162475586,
+        "service": "codebuild",
+        "type": "curated_environment_images"
+    }
+}

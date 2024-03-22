@@ -1,0 +1,203 @@
+{
+    "input": {
+        "template": {
+            "CustomerGatewayIds": [
+                ""
+            ],
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "DryRun": true
+        },
+        "required": [],
+        "md5": "8f87da10bbeb0956c309c1e09012879d",
+        "boto_command": "describe_customer_gateways",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "BgpAsn": "BgpAsn",
+                "CustomerGatewayId": "CustomerGatewayId",
+                "IpAddress": "IpAddress",
+                "CertificateArn": "CertificateArn",
+                "State": "State",
+                "Type": "Type",
+                "DeviceName": "DeviceName",
+                "Tags": [
+                    {
+                        "Key": "Key",
+                        "Value": "Value"
+                    }
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "412e02082e2bdf80f0ee0825cb2e0d7a",
+        "randomized": [
+            {
+                "BgpAsn": "llzhiingaiadswiw",
+                "CertificateArn": "abpykskncnmqonnf",
+                "CustomerGatewayId": "qgsiuvogygqsjdle",
+                "DeviceName": "hdtyhtocnorptfzo",
+                "IpAddress": "olhxyywedeteycsw",
+                "State": "hubeervheeijyckt",
+                "Tags": [
+                    {
+                        "Key": "whfctstcpkscxozg",
+                        "Value": "ujudsdxacopjdzqo"
+                    }
+                ],
+                "Type": "ldakscjuezyvgbbz"
+            },
+            {
+                "BgpAsn": "nahtouhwacyrfary",
+                "CertificateArn": "kyzlztbyuwesmlzu",
+                "CustomerGatewayId": "wulkmxzrikrlkepz",
+                "DeviceName": "opncsjcvkxdxupcu",
+                "IpAddress": "pbxspufrdedbvlmc",
+                "State": "rrxqhotphouhtpvn",
+                "Tags": [
+                    {
+                        "Key": "uuovqwipogxbtzsh",
+                        "Value": "jdcjxowsgdlxnkph"
+                    }
+                ],
+                "Type": "ltmqhmgpokabpxhy"
+            },
+            {
+                "BgpAsn": "jzbpcksmvtdqyyjy",
+                "CertificateArn": "faxcrudcvutlmyud",
+                "CustomerGatewayId": "yqiingjfrikzoyug",
+                "DeviceName": "bzdbpvvtpnhnnmns",
+                "IpAddress": "uafcjmfezyfwlxor",
+                "State": "pzduwhamntbrqpfu",
+                "Tags": [
+                    {
+                        "Key": "fzfipimxywgjginr",
+                        "Value": "qfaamxoudaittwlj"
+                    }
+                ],
+                "Type": "kwfpghgqtqgjxqei"
+            },
+            {
+                "BgpAsn": "erfhctwteygkfolw",
+                "CertificateArn": "kxfbacnibngrbrpc",
+                "CustomerGatewayId": "crwxaunbqeqvigbb",
+                "DeviceName": "tjhgzedvseleucbi",
+                "IpAddress": "kjivvqhzdcxrgfhj",
+                "State": "zshqygwldkzvcnjn",
+                "Tags": [
+                    {
+                        "Key": "lrwlucrbillxjsmh",
+                        "Value": "zwpfuwsoolnfsczc"
+                    }
+                ],
+                "Type": "ilnpekoligimktic"
+            },
+            {
+                "BgpAsn": "zgyefhomhoneqkdj",
+                "CertificateArn": "unvocqpfeakxiagu",
+                "CustomerGatewayId": "hpfmkavhiivxicdb",
+                "DeviceName": "scrhndtzkjxgixvb",
+                "IpAddress": "zpkfixuilaischat",
+                "State": "wevkvksnipimanks",
+                "Tags": [
+                    {
+                        "Key": "jaliloqchrtsfyxt",
+                        "Value": "fxopmcxbkxahuegb"
+                    }
+                ],
+                "Type": "jgcxbhmzfakrjdsj"
+            },
+            {
+                "BgpAsn": "txilbkgofgnxyhes",
+                "CertificateArn": "caunngvypwuymiow",
+                "CustomerGatewayId": "dzszndmmejwkzhsn",
+                "DeviceName": "dftbavbggwolqpry",
+                "IpAddress": "hiobkycyhphzqaee",
+                "State": "fryoehjyabhdubnm",
+                "Tags": [
+                    {
+                        "Key": "moxiydbkzpzjxotp",
+                        "Value": "jwlqpqhqvvdkzkha"
+                    }
+                ],
+                "Type": "eolaabmzwbwovdex"
+            },
+            {
+                "BgpAsn": "xkhoctbormulnflx",
+                "CertificateArn": "hrxbxctwmdqddtew",
+                "CustomerGatewayId": "ilezrytrhahymfmg",
+                "DeviceName": "kiwntlwuavxnljfo",
+                "IpAddress": "kobvcmfqluspnqpo",
+                "State": "jkzybsnqmdcqvbag",
+                "Tags": [
+                    {
+                        "Key": "ewdjrgtffvdceake",
+                        "Value": "hhgdhbivapptlxwv"
+                    }
+                ],
+                "Type": "ueahxultvkvuzjyi"
+            },
+            {
+                "BgpAsn": "wxlieqfygwzbjktt",
+                "CertificateArn": "gxwnfqakrovcwtnt",
+                "CustomerGatewayId": "wjppukvynjlkxfnh",
+                "DeviceName": "fdanjgmctildwekg",
+                "IpAddress": "iqnuqanhyzlggnji",
+                "State": "nrgdqisgfxqofvmc",
+                "Tags": [
+                    {
+                        "Key": "myoganbhmnfsgaiq",
+                        "Value": "aywjewsxzenbqzdw"
+                    }
+                ],
+                "Type": "agtnppfbyovazabc"
+            },
+            {
+                "BgpAsn": "kuavccqtceabanln",
+                "CertificateArn": "iwtqkoddvtnaeeha",
+                "CustomerGatewayId": "jywgpdopitaofaja",
+                "DeviceName": "rfuxiyjjpgypndkg",
+                "IpAddress": "ubjcvqfnwyrnfwbp",
+                "State": "rdgddgycjxwvklqz",
+                "Tags": [
+                    {
+                        "Key": "lzuaxgnkzayqudlo",
+                        "Value": "nblsftbrosteufjh"
+                    }
+                ],
+                "Type": "thtglvxxcztvbnuj"
+            },
+            {
+                "BgpAsn": "iqffvrfbaywtruom",
+                "CertificateArn": "ipqvhfkpmrblmlyj",
+                "CustomerGatewayId": "lhwnonbmgeagmxzc",
+                "DeviceName": "nfoylglkfuevilgh",
+                "IpAddress": "gnsxndpfuvdtjigq",
+                "State": "dlsxkdnsaisnidjo",
+                "Tags": [
+                    {
+                        "Key": "mpqzvsjicfucwtdq",
+                        "Value": "gmcavjosszolzjum"
+                    }
+                ],
+                "Type": "fagvtjsrnxhazczd"
+            }
+        ],
+        "result_key": "CustomerGateways"
+    },
+    "meta": {
+        "start": 1711115615.018487,
+        "end": 1711115621.760523,
+        "duration": 6.742047071456909,
+        "service": "ec2",
+        "type": "customer_gateways"
+    }
+}

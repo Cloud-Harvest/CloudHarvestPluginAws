@@ -1,0 +1,260 @@
+{
+    "input": {
+        "template": {
+            "TransitGatewayAttachmentIds": [
+                ""
+            ],
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxResults": 0,
+            "NextToken": "",
+            "DryRun": true
+        },
+        "required": [],
+        "md5": "18bfcf03fff43a7e33368f93a220c2a9",
+        "boto_command": "describe_transit_gateway_attachments",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "TransitGatewayAttachmentId": "TransitGatewayAttachmentId",
+                "TransitGatewayId": "TransitGatewayId",
+                "TransitGatewayOwnerId": "TransitGatewayOwnerId",
+                "ResourceOwnerId": "ResourceOwnerId",
+                "ResourceType": "ResourceType",
+                "ResourceId": "ResourceId",
+                "State": "State",
+                "Association": {
+                    "TransitGatewayRouteTableId": "TransitGatewayRouteTableId",
+                    "State": "State"
+                },
+                "CreationTime": "1970-01-01T00:00:00",
+                "Tags": [
+                    {
+                        "Key": "Key",
+                        "Value": "Value"
+                    }
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "dc921e7f6e5aef95b6b7977741665cc5",
+        "randomized": [
+            {
+                "Association": {
+                    "State": "eczwboniklcifblj",
+                    "TransitGatewayRouteTableId": "dcilrkboztjdkfpv"
+                },
+                "CreationTime": "milqnqmsfrfpzgfc",
+                "ResourceId": "bbsiegcrbfqnhipz",
+                "ResourceOwnerId": "qgwocmdxncygnsnq",
+                "ResourceType": "xflrhckofexpqaci",
+                "State": "lyreyockkixunayp",
+                "Tags": [
+                    {
+                        "Key": "ybopibmieziabczt",
+                        "Value": "uwhvriiiqzayukoh"
+                    }
+                ],
+                "TransitGatewayAttachmentId": "dysgspevyenzbyaw",
+                "TransitGatewayId": "yriigobfseqvuerf",
+                "TransitGatewayOwnerId": "qmiyyfxawdeyazsh"
+            },
+            {
+                "Association": {
+                    "State": "nnvwtpqmczssoesr",
+                    "TransitGatewayRouteTableId": "ekadvdsbkfvazgau"
+                },
+                "CreationTime": "ydhjlbdiymtreqqv",
+                "ResourceId": "ypiipuqurhmsuqjs",
+                "ResourceOwnerId": "xwxsqmrcpvpszaww",
+                "ResourceType": "aivpfctbytmvcqqt",
+                "State": "xbtraihizowqzbuw",
+                "Tags": [
+                    {
+                        "Key": "mbhodcmkinsysmnd",
+                        "Value": "pjdqvdlrwurmzdyu"
+                    }
+                ],
+                "TransitGatewayAttachmentId": "bcwrubxbviuyblbt",
+                "TransitGatewayId": "vkbrbsohcbbomzhi",
+                "TransitGatewayOwnerId": "kybepqzrscnfnvuj"
+            },
+            {
+                "Association": {
+                    "State": "xspmqkfomqictyis",
+                    "TransitGatewayRouteTableId": "zgdaaymdaojwkmaw"
+                },
+                "CreationTime": "ujlnxzdvzqhromdo",
+                "ResourceId": "wteqfrungstkuvuc",
+                "ResourceOwnerId": "mxhghjuxgxuxapcj",
+                "ResourceType": "guijeixhcbpdcwzs",
+                "State": "dckwsuxytcztjviu",
+                "Tags": [
+                    {
+                        "Key": "rdbxzcwiklvjvirr",
+                        "Value": "iugmjvudwymgceev"
+                    }
+                ],
+                "TransitGatewayAttachmentId": "uhvdpdbbyamisbmx",
+                "TransitGatewayId": "plamrsnitztokkzq",
+                "TransitGatewayOwnerId": "culzkguqbgradada"
+            },
+            {
+                "Association": {
+                    "State": "kzunuupderuaaytp",
+                    "TransitGatewayRouteTableId": "erbrbpxrwjsrjvxn"
+                },
+                "CreationTime": "rkmeynjpzriyzgoy",
+                "ResourceId": "phxrizlpmcwnbbae",
+                "ResourceOwnerId": "nlgvditwqnhltncz",
+                "ResourceType": "motuktgjzereibik",
+                "State": "iufhwboswuprngyz",
+                "Tags": [
+                    {
+                        "Key": "hqxhrmqkqoulpdzb",
+                        "Value": "cujutoydyoxrfozg"
+                    }
+                ],
+                "TransitGatewayAttachmentId": "uricesicytizgqyt",
+                "TransitGatewayId": "cmdbexngrdqvoruv",
+                "TransitGatewayOwnerId": "ookastxrtacdaqkp"
+            },
+            {
+                "Association": {
+                    "State": "rbsxsjlrsblhoirw",
+                    "TransitGatewayRouteTableId": "bmhphhieresaqtka"
+                },
+                "CreationTime": "oeizfbwcckzsirav",
+                "ResourceId": "jkssxyvivknviyhh",
+                "ResourceOwnerId": "shpqsuqjzwyodbxr",
+                "ResourceType": "wdaluaqvpvhcjpay",
+                "State": "meglmqqcfozfcltp",
+                "Tags": [
+                    {
+                        "Key": "sgvntmfrshudtmsv",
+                        "Value": "njpjwfspbiajfhjr"
+                    }
+                ],
+                "TransitGatewayAttachmentId": "upcgkvcrksmalvoy",
+                "TransitGatewayId": "kagsxfenvpfrbwuj",
+                "TransitGatewayOwnerId": "pmznxuexxmfughbp"
+            },
+            {
+                "Association": {
+                    "State": "ebzkcpmjqkcnkwoi",
+                    "TransitGatewayRouteTableId": "lzpirgxflnycxlmn"
+                },
+                "CreationTime": "ibfnnsdetobnjwxn",
+                "ResourceId": "bwqddjtdpcvvndkv",
+                "ResourceOwnerId": "bnqkbozirwxnugxv",
+                "ResourceType": "shahlctkuyojrcxb",
+                "State": "dfrjbkukntgeycwz",
+                "Tags": [
+                    {
+                        "Key": "zvrjwnucineeppxt",
+                        "Value": "wirgerpordqnxvll"
+                    }
+                ],
+                "TransitGatewayAttachmentId": "onoucrkryajcxksz",
+                "TransitGatewayId": "dplxkjrjseghplmf",
+                "TransitGatewayOwnerId": "ocpkdwctyxfzssqk"
+            },
+            {
+                "Association": {
+                    "State": "rvqhwmklifrsyyuz",
+                    "TransitGatewayRouteTableId": "zdijatmcoplzrwhy"
+                },
+                "CreationTime": "usjanergwpgpzgrj",
+                "ResourceId": "gmlmwfivknrshezs",
+                "ResourceOwnerId": "vrwbdwgsaivloefb",
+                "ResourceType": "hhfplsdrezeqjbnz",
+                "State": "bzfmkektovafakyl",
+                "Tags": [
+                    {
+                        "Key": "xoxbcjdkyxfoytnv",
+                        "Value": "ypwzlaaaxtyrcqub"
+                    }
+                ],
+                "TransitGatewayAttachmentId": "foizuzniggpihmza",
+                "TransitGatewayId": "pcsjynahvutjbwvl",
+                "TransitGatewayOwnerId": "jklznpyfnuapxejw"
+            },
+            {
+                "Association": {
+                    "State": "fjkbxactturoeeqc",
+                    "TransitGatewayRouteTableId": "slvptcuyusrhdtld"
+                },
+                "CreationTime": "zebwlvsselkqusxo",
+                "ResourceId": "bmbhorsjdminhucn",
+                "ResourceOwnerId": "bhgdciwtggfenjzk",
+                "ResourceType": "cqrbkrilnjpcldnp",
+                "State": "lkjpokcmrbcnwhzf",
+                "Tags": [
+                    {
+                        "Key": "howiiykglqbpbkec",
+                        "Value": "feaacvncigxvnebt"
+                    }
+                ],
+                "TransitGatewayAttachmentId": "sbjsjgbkdgasrpfp",
+                "TransitGatewayId": "pzfsrdqtpdgcqjzf",
+                "TransitGatewayOwnerId": "zqxdfhahxwrqhmvs"
+            },
+            {
+                "Association": {
+                    "State": "pfbsaqsuhhmayfif",
+                    "TransitGatewayRouteTableId": "sssibatqpxwzvbfk"
+                },
+                "CreationTime": "ragbaczuvlxycppy",
+                "ResourceId": "kbdrbjlbkekfydtv",
+                "ResourceOwnerId": "sybfjajagliikzzc",
+                "ResourceType": "nbapbhkxgpuelptz",
+                "State": "pokttdzslyymibci",
+                "Tags": [
+                    {
+                        "Key": "pbuxxeagqtgjwcjj",
+                        "Value": "ogvrgtkssemedpxl"
+                    }
+                ],
+                "TransitGatewayAttachmentId": "wlfbiiuvxqkgerts",
+                "TransitGatewayId": "brkrzpbzxvnmtkjt",
+                "TransitGatewayOwnerId": "jxlpuypvuuluibfw"
+            },
+            {
+                "Association": {
+                    "State": "ehjnqrmslkqyzbun",
+                    "TransitGatewayRouteTableId": "qiekjndwvfukdscg"
+                },
+                "CreationTime": "xzalyxaxnbyjesye",
+                "ResourceId": "qkhjpaejddoysefg",
+                "ResourceOwnerId": "qgtkxggristrmcgc",
+                "ResourceType": "siuxbsuwldauvrqm",
+                "State": "cfoslmrmvuceezac",
+                "Tags": [
+                    {
+                        "Key": "lplonerxqxiwkkum",
+                        "Value": "nyjiiavaxzsrqtmv"
+                    }
+                ],
+                "TransitGatewayAttachmentId": "kyarjlcohkngwgfa",
+                "TransitGatewayId": "zwsnusjdmgkdepij",
+                "TransitGatewayOwnerId": "kggffxjpmaywjfee"
+            }
+        ],
+        "result_key": "TransitGatewayAttachments"
+    },
+    "meta": {
+        "start": 1711115652.533212,
+        "end": 1711115661.457619,
+        "duration": 8.924416065216064,
+        "service": "ec2",
+        "type": "transit_gateway_attachments"
+    }
+}

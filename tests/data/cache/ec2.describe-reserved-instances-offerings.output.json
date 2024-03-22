@@ -1,0 +1,347 @@
+{
+    "input": {
+        "template": {
+            "AvailabilityZone": "",
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "IncludeMarketplace": true,
+            "InstanceType": "a1.medium",
+            "MaxDuration": 0,
+            "MaxInstanceCount": 0,
+            "MinDuration": 0,
+            "OfferingClass": "standard",
+            "ProductDescription": "Linux/UNIX",
+            "ReservedInstancesOfferingIds": [
+                ""
+            ],
+            "DryRun": true,
+            "InstanceTenancy": "default",
+            "MaxResults": 0,
+            "NextToken": "",
+            "OfferingType": "Heavy Utilization"
+        },
+        "required": [],
+        "md5": "177337dc011419f0bcabe558974e9e74",
+        "boto_command": "describe_reserved_instances_offerings",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "AvailabilityZone": "AvailabilityZone",
+                "Duration": 0,
+                "FixedPrice": 0.0,
+                "InstanceType": "InstanceType",
+                "ProductDescription": "ProductDescription",
+                "ReservedInstancesOfferingId": "ReservedInstancesOfferingId",
+                "UsagePrice": 0.0,
+                "CurrencyCode": "CurrencyCode",
+                "InstanceTenancy": "InstanceTenancy",
+                "Marketplace": true,
+                "OfferingClass": "OfferingClass",
+                "OfferingType": "OfferingType",
+                "PricingDetails": [
+                    {
+                        "Count": 0,
+                        "Price": 0.0
+                    }
+                ],
+                "RecurringCharges": [
+                    {
+                        "Amount": 0.0,
+                        "Frequency": "Frequency"
+                    }
+                ],
+                "Scope": "Scope"
+            }
+        ],
+        "required": [],
+        "md5": "e9af5a032f490f3f014632ccec15f0be",
+        "randomized": [
+            {
+                "AvailabilityZone": "gtqjnftkdrpoazbc",
+                "CurrencyCode": "rulhufkbeklpcnnj",
+                "Duration": 0,
+                "FixedPrice": 0.0,
+                "InstanceTenancy": "uwcjnzwgdhxdnhys",
+                "InstanceType": "hwdsprzyvnjscwqh",
+                "Marketplace": true,
+                "OfferingClass": "ehogkobvswasvyzx",
+                "OfferingType": "ivfdmcdibqymjoqk",
+                "PricingDetails": [
+                    {
+                        "Count": 0,
+                        "Price": 0.0
+                    }
+                ],
+                "ProductDescription": "xifuomdffaqnjwqh",
+                "RecurringCharges": [
+                    {
+                        "Amount": 0.0,
+                        "Frequency": "idhavvrzqdqlddue"
+                    }
+                ],
+                "ReservedInstancesOfferingId": "ixrffsiwmitaeetv",
+                "Scope": "wswtpdoqjkhtbpvo",
+                "UsagePrice": 0.0
+            },
+            {
+                "AvailabilityZone": "utencahiugjvjgnq",
+                "CurrencyCode": "lmduqkeogcokpofb",
+                "Duration": 0,
+                "FixedPrice": 0.0,
+                "InstanceTenancy": "dwnhwfufaqacmyjh",
+                "InstanceType": "rgzeqyrarxrcraoc",
+                "Marketplace": true,
+                "OfferingClass": "mjusctshwgxrcmud",
+                "OfferingType": "nemyytoxaoompyvm",
+                "PricingDetails": [
+                    {
+                        "Count": 0,
+                        "Price": 0.0
+                    }
+                ],
+                "ProductDescription": "wdjoutzsaqpkaujv",
+                "RecurringCharges": [
+                    {
+                        "Amount": 0.0,
+                        "Frequency": "acgiibebgngifvpz"
+                    }
+                ],
+                "ReservedInstancesOfferingId": "ppdnldpekmzackqb",
+                "Scope": "khmxanvlmjimyztl",
+                "UsagePrice": 0.0
+            },
+            {
+                "AvailabilityZone": "lzifovofyezponzs",
+                "CurrencyCode": "unnahznfjsmazoij",
+                "Duration": 0,
+                "FixedPrice": 0.0,
+                "InstanceTenancy": "ckcfvrglvwfexqme",
+                "InstanceType": "gmsnpzicebqavjvn",
+                "Marketplace": true,
+                "OfferingClass": "zntuqmjcuawzuysc",
+                "OfferingType": "yozdcjvoxigkqjjw",
+                "PricingDetails": [
+                    {
+                        "Count": 0,
+                        "Price": 0.0
+                    }
+                ],
+                "ProductDescription": "mxbdexgtmeutqjnf",
+                "RecurringCharges": [
+                    {
+                        "Amount": 0.0,
+                        "Frequency": "rkfmuckqjkrrhcci"
+                    }
+                ],
+                "ReservedInstancesOfferingId": "cjwfceuxlotwcila",
+                "Scope": "auyrdhotovxymqao",
+                "UsagePrice": 0.0
+            },
+            {
+                "AvailabilityZone": "mzmdlxtudkgfjonm",
+                "CurrencyCode": "ehevdaufhxpuidgt",
+                "Duration": 0,
+                "FixedPrice": 0.0,
+                "InstanceTenancy": "uixmiezwmnpygwuu",
+                "InstanceType": "mybjflxraudaaend",
+                "Marketplace": true,
+                "OfferingClass": "jatkqefobouykfwc",
+                "OfferingType": "jkzcnztnunedwnmx",
+                "PricingDetails": [
+                    {
+                        "Count": 0,
+                        "Price": 0.0
+                    }
+                ],
+                "ProductDescription": "rckgjefimermoazv",
+                "RecurringCharges": [
+                    {
+                        "Amount": 0.0,
+                        "Frequency": "xcxabjmgoitcpdwd"
+                    }
+                ],
+                "ReservedInstancesOfferingId": "vixuxqycrssjezyb",
+                "Scope": "piofrmpoubauvmjx",
+                "UsagePrice": 0.0
+            },
+            {
+                "AvailabilityZone": "jumyvkxtptfvdjrd",
+                "CurrencyCode": "udpqnsuzrhkyukyq",
+                "Duration": 0,
+                "FixedPrice": 0.0,
+                "InstanceTenancy": "uweuhurhqlxqxmoe",
+                "InstanceType": "fcunagcqpqdzpmot",
+                "Marketplace": true,
+                "OfferingClass": "lctitclzzmporhqt",
+                "OfferingType": "alsmsbudpruznnag",
+                "PricingDetails": [
+                    {
+                        "Count": 0,
+                        "Price": 0.0
+                    }
+                ],
+                "ProductDescription": "yfuvjxdmuymvrqgl",
+                "RecurringCharges": [
+                    {
+                        "Amount": 0.0,
+                        "Frequency": "odknmgdoicothjtt"
+                    }
+                ],
+                "ReservedInstancesOfferingId": "xnykorynlijdzqgl",
+                "Scope": "mtgkqqzbxlilzyig",
+                "UsagePrice": 0.0
+            },
+            {
+                "AvailabilityZone": "jeayhpqvemmikech",
+                "CurrencyCode": "zywlcccocknipjaq",
+                "Duration": 0,
+                "FixedPrice": 0.0,
+                "InstanceTenancy": "ibvvhpbdipxgjtlb",
+                "InstanceType": "zpraqcogluhopyxn",
+                "Marketplace": true,
+                "OfferingClass": "vmybqvpcjjdthsop",
+                "OfferingType": "lzsapyfvxhwuxnur",
+                "PricingDetails": [
+                    {
+                        "Count": 0,
+                        "Price": 0.0
+                    }
+                ],
+                "ProductDescription": "enhlizwcyyxjvzkn",
+                "RecurringCharges": [
+                    {
+                        "Amount": 0.0,
+                        "Frequency": "oiddjohjdmmxgmnm"
+                    }
+                ],
+                "ReservedInstancesOfferingId": "mltuvjgologwoyfm",
+                "Scope": "icrwlsticfteebcv",
+                "UsagePrice": 0.0
+            },
+            {
+                "AvailabilityZone": "omilupgumzapkcap",
+                "CurrencyCode": "drxseewgaalwiais",
+                "Duration": 0,
+                "FixedPrice": 0.0,
+                "InstanceTenancy": "goboxesrvvobiwlj",
+                "InstanceType": "aszqpseveomczkux",
+                "Marketplace": true,
+                "OfferingClass": "cxibmcernpilkpgs",
+                "OfferingType": "dgbihodtgrsqcyyj",
+                "PricingDetails": [
+                    {
+                        "Count": 0,
+                        "Price": 0.0
+                    }
+                ],
+                "ProductDescription": "mectwydyizgucloi",
+                "RecurringCharges": [
+                    {
+                        "Amount": 0.0,
+                        "Frequency": "csrtplwsowjfcjos"
+                    }
+                ],
+                "ReservedInstancesOfferingId": "vxqgmchqqddatutj",
+                "Scope": "etfeaukhhcycasas",
+                "UsagePrice": 0.0
+            },
+            {
+                "AvailabilityZone": "jgtxlcrgljkwufkf",
+                "CurrencyCode": "fricdoijkrnocemg",
+                "Duration": 0,
+                "FixedPrice": 0.0,
+                "InstanceTenancy": "ockrlscskqhyrpjk",
+                "InstanceType": "jmcwdrvoxfcvxjpl",
+                "Marketplace": true,
+                "OfferingClass": "gsytxhnwcctpeojc",
+                "OfferingType": "phvmbgyytesawvgq",
+                "PricingDetails": [
+                    {
+                        "Count": 0,
+                        "Price": 0.0
+                    }
+                ],
+                "ProductDescription": "elizmnzomnqtqdgz",
+                "RecurringCharges": [
+                    {
+                        "Amount": 0.0,
+                        "Frequency": "vfeolmbqpbrticti"
+                    }
+                ],
+                "ReservedInstancesOfferingId": "rxgkznbwzsbjpcms",
+                "Scope": "veuckqcbgfnouubp",
+                "UsagePrice": 0.0
+            },
+            {
+                "AvailabilityZone": "kzizqiydsxjzgfdh",
+                "CurrencyCode": "yrwqzhukglmhveer",
+                "Duration": 0,
+                "FixedPrice": 0.0,
+                "InstanceTenancy": "dtgggzxqtamdihgk",
+                "InstanceType": "urwlgddbqghjdkkv",
+                "Marketplace": true,
+                "OfferingClass": "eaeeotdsyeaeefwt",
+                "OfferingType": "gsxznntdwehrjfyk",
+                "PricingDetails": [
+                    {
+                        "Count": 0,
+                        "Price": 0.0
+                    }
+                ],
+                "ProductDescription": "wudevfcxpmhnejnc",
+                "RecurringCharges": [
+                    {
+                        "Amount": 0.0,
+                        "Frequency": "oorkeeyqvrxviwwq"
+                    }
+                ],
+                "ReservedInstancesOfferingId": "gxivzpzugosbgaff",
+                "Scope": "hjkhqttrpvxslizx",
+                "UsagePrice": 0.0
+            },
+            {
+                "AvailabilityZone": "jwpixhptxauhuhvg",
+                "CurrencyCode": "gpfivjewykkxwxqk",
+                "Duration": 0,
+                "FixedPrice": 0.0,
+                "InstanceTenancy": "crbigkoxsrmffdgz",
+                "InstanceType": "rezvvrpzhsdjsnta",
+                "Marketplace": true,
+                "OfferingClass": "iwfhomcylbcvhact",
+                "OfferingType": "fskqagjaxhiukyth",
+                "PricingDetails": [
+                    {
+                        "Count": 0,
+                        "Price": 0.0
+                    }
+                ],
+                "ProductDescription": "ewwytikkmxsssjoy",
+                "RecurringCharges": [
+                    {
+                        "Amount": 0.0,
+                        "Frequency": "usqqmkbzypgwxpuw"
+                    }
+                ],
+                "ReservedInstancesOfferingId": "uiemshztvqjlqrhf",
+                "Scope": "clrmhyqmjhqqdeji",
+                "UsagePrice": 0.0
+            }
+        ],
+        "result_key": "ReservedInstancesOfferings"
+    },
+    "meta": {
+        "start": 1711115645.585239,
+        "end": 1711115651.954707,
+        "duration": 6.369480133056641,
+        "service": "ec2",
+        "type": "reserved_instances_offerings"
+    }
+}

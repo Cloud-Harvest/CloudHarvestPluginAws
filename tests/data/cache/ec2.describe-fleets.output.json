@@ -1,0 +1,3769 @@
+{
+    "input": {
+        "template": {
+            "DryRun": true,
+            "MaxResults": 0,
+            "NextToken": "",
+            "FleetIds": [
+                ""
+            ],
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ]
+        },
+        "required": [],
+        "md5": "630963291ff62d532e341192d58fffe1",
+        "boto_command": "describe_fleets",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "ActivityStatus": "ActivityStatus",
+                "CreateTime": "1970-01-01T00:00:00",
+                "FleetId": "FleetId",
+                "FleetState": "FleetState",
+                "ClientToken": "ClientToken",
+                "ExcessCapacityTerminationPolicy": "ExcessCapacityTerminationPolicy",
+                "FulfilledCapacity": 0.0,
+                "FulfilledOnDemandCapacity": 0.0,
+                "LaunchTemplateConfigs": [
+                    {
+                        "LaunchTemplateSpecification": {
+                            "LaunchTemplateId": "LaunchTemplateId",
+                            "LaunchTemplateName": "LaunchTemplateName",
+                            "Version": "Version"
+                        },
+                        "Overrides": [
+                            {
+                                "InstanceType": "InstanceType",
+                                "MaxPrice": "MaxPrice",
+                                "SubnetId": "SubnetId",
+                                "AvailabilityZone": "AvailabilityZone",
+                                "WeightedCapacity": 0.0,
+                                "Priority": 0.0,
+                                "Placement": {
+                                    "GroupName": "GroupName"
+                                },
+                                "InstanceRequirements": {
+                                    "VCpuCount": {
+                                        "Min": 0,
+                                        "Max": 0
+                                    },
+                                    "MemoryMiB": {
+                                        "Min": 0,
+                                        "Max": 0
+                                    },
+                                    "CpuManufacturers": [
+                                        "CpuManufacturer"
+                                    ],
+                                    "MemoryGiBPerVCpu": {
+                                        "Min": 0.0,
+                                        "Max": 0.0
+                                    },
+                                    "ExcludedInstanceTypes": [
+                                        "ExcludedInstanceType"
+                                    ],
+                                    "InstanceGenerations": [
+                                        "InstanceGeneration"
+                                    ],
+                                    "SpotMaxPricePercentageOverLowestPrice": 0,
+                                    "OnDemandMaxPricePercentageOverLowestPrice": 0,
+                                    "BareMetal": "BareMetal",
+                                    "BurstablePerformance": "BurstablePerformance",
+                                    "RequireHibernateSupport": true,
+                                    "NetworkInterfaceCount": {
+                                        "Min": 0,
+                                        "Max": 0
+                                    },
+                                    "LocalStorage": "LocalStorage",
+                                    "LocalStorageTypes": [
+                                        "LocalStorageType"
+                                    ],
+                                    "TotalLocalStorageGB": {
+                                        "Min": 0.0,
+                                        "Max": 0.0
+                                    },
+                                    "BaselineEbsBandwidthMbps": {
+                                        "Min": 0,
+                                        "Max": 0
+                                    },
+                                    "AcceleratorTypes": [
+                                        "AcceleratorType"
+                                    ],
+                                    "AcceleratorCount": {
+                                        "Min": 0,
+                                        "Max": 0
+                                    },
+                                    "AcceleratorManufacturers": [
+                                        "AcceleratorManufacturer"
+                                    ],
+                                    "AcceleratorNames": [
+                                        "AcceleratorName"
+                                    ],
+                                    "AcceleratorTotalMemoryMiB": {
+                                        "Min": 0,
+                                        "Max": 0
+                                    },
+                                    "NetworkBandwidthGbps": {
+                                        "Min": 0.0,
+                                        "Max": 0.0
+                                    },
+                                    "AllowedInstanceTypes": [
+                                        "AllowedInstanceType"
+                                    ],
+                                    "MaxSpotPriceAsPercentageOfOptimalOnDemandPrice": 0
+                                },
+                                "ImageId": "ImageId"
+                            }
+                        ]
+                    }
+                ],
+                "TargetCapacitySpecification": {
+                    "TotalTargetCapacity": 0,
+                    "OnDemandTargetCapacity": 0,
+                    "SpotTargetCapacity": 0,
+                    "DefaultTargetCapacityType": "DefaultTargetCapacityType",
+                    "TargetCapacityUnitType": "TargetCapacityUnitType"
+                },
+                "TerminateInstancesWithExpiration": true,
+                "Type": "Type",
+                "ValidFrom": "1970-01-01T00:00:00",
+                "ValidUntil": "1970-01-01T00:00:00",
+                "ReplaceUnhealthyInstances": true,
+                "SpotOptions": {
+                    "AllocationStrategy": "AllocationStrategy",
+                    "MaintenanceStrategies": {
+                        "CapacityRebalance": {
+                            "ReplacementStrategy": "ReplacementStrategy",
+                            "TerminationDelay": 0
+                        }
+                    },
+                    "InstanceInterruptionBehavior": "InstanceInterruptionBehavior",
+                    "InstancePoolsToUseCount": 0,
+                    "SingleInstanceType": true,
+                    "SingleAvailabilityZone": true,
+                    "MinTargetCapacity": 0,
+                    "MaxTotalPrice": "MaxTotalPrice"
+                },
+                "OnDemandOptions": {
+                    "AllocationStrategy": "AllocationStrategy",
+                    "CapacityReservationOptions": {
+                        "UsageStrategy": "UsageStrategy"
+                    },
+                    "SingleInstanceType": true,
+                    "SingleAvailabilityZone": true,
+                    "MinTargetCapacity": 0,
+                    "MaxTotalPrice": "MaxTotalPrice"
+                },
+                "Tags": [
+                    {
+                        "Key": "Key",
+                        "Value": "Value"
+                    }
+                ],
+                "Errors": [
+                    {
+                        "LaunchTemplateAndOverrides": {
+                            "LaunchTemplateSpecification": {
+                                "LaunchTemplateId": "LaunchTemplateId",
+                                "LaunchTemplateName": "LaunchTemplateName",
+                                "Version": "Version"
+                            },
+                            "Overrides": {
+                                "InstanceType": "InstanceType",
+                                "MaxPrice": "MaxPrice",
+                                "SubnetId": "SubnetId",
+                                "AvailabilityZone": "AvailabilityZone",
+                                "WeightedCapacity": 0.0,
+                                "Priority": 0.0,
+                                "Placement": {
+                                    "GroupName": "GroupName"
+                                },
+                                "InstanceRequirements": {
+                                    "VCpuCount": {
+                                        "Min": 0,
+                                        "Max": 0
+                                    },
+                                    "MemoryMiB": {
+                                        "Min": 0,
+                                        "Max": 0
+                                    },
+                                    "CpuManufacturers": [
+                                        "CpuManufacturer"
+                                    ],
+                                    "MemoryGiBPerVCpu": {
+                                        "Min": 0.0,
+                                        "Max": 0.0
+                                    },
+                                    "ExcludedInstanceTypes": [
+                                        "ExcludedInstanceType"
+                                    ],
+                                    "InstanceGenerations": [
+                                        "InstanceGeneration"
+                                    ],
+                                    "SpotMaxPricePercentageOverLowestPrice": 0,
+                                    "OnDemandMaxPricePercentageOverLowestPrice": 0,
+                                    "BareMetal": "BareMetal",
+                                    "BurstablePerformance": "BurstablePerformance",
+                                    "RequireHibernateSupport": true,
+                                    "NetworkInterfaceCount": {
+                                        "Min": 0,
+                                        "Max": 0
+                                    },
+                                    "LocalStorage": "LocalStorage",
+                                    "LocalStorageTypes": [
+                                        "LocalStorageType"
+                                    ],
+                                    "TotalLocalStorageGB": {
+                                        "Min": 0.0,
+                                        "Max": 0.0
+                                    },
+                                    "BaselineEbsBandwidthMbps": {
+                                        "Min": 0,
+                                        "Max": 0
+                                    },
+                                    "AcceleratorTypes": [
+                                        "AcceleratorType"
+                                    ],
+                                    "AcceleratorCount": {
+                                        "Min": 0,
+                                        "Max": 0
+                                    },
+                                    "AcceleratorManufacturers": [
+                                        "AcceleratorManufacturer"
+                                    ],
+                                    "AcceleratorNames": [
+                                        "AcceleratorName"
+                                    ],
+                                    "AcceleratorTotalMemoryMiB": {
+                                        "Min": 0,
+                                        "Max": 0
+                                    },
+                                    "NetworkBandwidthGbps": {
+                                        "Min": 0.0,
+                                        "Max": 0.0
+                                    },
+                                    "AllowedInstanceTypes": [
+                                        "AllowedInstanceType"
+                                    ],
+                                    "MaxSpotPriceAsPercentageOfOptimalOnDemandPrice": 0
+                                },
+                                "ImageId": "ImageId"
+                            }
+                        },
+                        "Lifecycle": "Lifecycle",
+                        "ErrorCode": "ErrorCode",
+                        "ErrorMessage": "ErrorMessage"
+                    }
+                ],
+                "Instances": [
+                    {
+                        "LaunchTemplateAndOverrides": {
+                            "LaunchTemplateSpecification": {
+                                "LaunchTemplateId": "LaunchTemplateId",
+                                "LaunchTemplateName": "LaunchTemplateName",
+                                "Version": "Version"
+                            },
+                            "Overrides": {
+                                "InstanceType": "InstanceType",
+                                "MaxPrice": "MaxPrice",
+                                "SubnetId": "SubnetId",
+                                "AvailabilityZone": "AvailabilityZone",
+                                "WeightedCapacity": 0.0,
+                                "Priority": 0.0,
+                                "Placement": {
+                                    "GroupName": "GroupName"
+                                },
+                                "InstanceRequirements": {
+                                    "VCpuCount": {
+                                        "Min": 0,
+                                        "Max": 0
+                                    },
+                                    "MemoryMiB": {
+                                        "Min": 0,
+                                        "Max": 0
+                                    },
+                                    "CpuManufacturers": [
+                                        "CpuManufacturer"
+                                    ],
+                                    "MemoryGiBPerVCpu": {
+                                        "Min": 0.0,
+                                        "Max": 0.0
+                                    },
+                                    "ExcludedInstanceTypes": [
+                                        "ExcludedInstanceType"
+                                    ],
+                                    "InstanceGenerations": [
+                                        "InstanceGeneration"
+                                    ],
+                                    "SpotMaxPricePercentageOverLowestPrice": 0,
+                                    "OnDemandMaxPricePercentageOverLowestPrice": 0,
+                                    "BareMetal": "BareMetal",
+                                    "BurstablePerformance": "BurstablePerformance",
+                                    "RequireHibernateSupport": true,
+                                    "NetworkInterfaceCount": {
+                                        "Min": 0,
+                                        "Max": 0
+                                    },
+                                    "LocalStorage": "LocalStorage",
+                                    "LocalStorageTypes": [
+                                        "LocalStorageType"
+                                    ],
+                                    "TotalLocalStorageGB": {
+                                        "Min": 0.0,
+                                        "Max": 0.0
+                                    },
+                                    "BaselineEbsBandwidthMbps": {
+                                        "Min": 0,
+                                        "Max": 0
+                                    },
+                                    "AcceleratorTypes": [
+                                        "AcceleratorType"
+                                    ],
+                                    "AcceleratorCount": {
+                                        "Min": 0,
+                                        "Max": 0
+                                    },
+                                    "AcceleratorManufacturers": [
+                                        "AcceleratorManufacturer"
+                                    ],
+                                    "AcceleratorNames": [
+                                        "AcceleratorName"
+                                    ],
+                                    "AcceleratorTotalMemoryMiB": {
+                                        "Min": 0,
+                                        "Max": 0
+                                    },
+                                    "NetworkBandwidthGbps": {
+                                        "Min": 0.0,
+                                        "Max": 0.0
+                                    },
+                                    "AllowedInstanceTypes": [
+                                        "AllowedInstanceType"
+                                    ],
+                                    "MaxSpotPriceAsPercentageOfOptimalOnDemandPrice": 0
+                                },
+                                "ImageId": "ImageId"
+                            }
+                        },
+                        "Lifecycle": "Lifecycle",
+                        "InstanceIds": [
+                            "InstanceId"
+                        ],
+                        "InstanceType": "InstanceType",
+                        "Platform": "Platform"
+                    }
+                ],
+                "Context": "Context"
+            }
+        ],
+        "required": [],
+        "md5": "bb93bee41980bfa1bf513ab2db47f56a",
+        "randomized": [
+            {
+                "ActivityStatus": "bsirckodggxlkzig",
+                "ClientToken": "fuhahbomohjpfypn",
+                "Context": "ybhufgysqwnssuxt",
+                "CreateTime": "ocnqwwnamhpdaiwj",
+                "Errors": [
+                    {
+                        "ErrorCode": "zglgppweqwtjnqdk",
+                        "ErrorMessage": "zpfjueuhfnkguega",
+                        "LaunchTemplateAndOverrides": {
+                            "LaunchTemplateSpecification": {
+                                "LaunchTemplateId": "ogrhsahctaaefqyy",
+                                "LaunchTemplateName": "buchwnzahwuvmnxb",
+                                "Version": "wskxjpbhmqqkxjzy"
+                            },
+                            "Overrides": {
+                                "AvailabilityZone": "xtrpmlcqwvldzpgp",
+                                "ImageId": "xlkygnodudvqzkno",
+                                "InstanceRequirements": {
+                                    "AcceleratorCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorManufacturers": [
+                                        "ymrstazonzgmttbp"
+                                    ],
+                                    "AcceleratorNames": [
+                                        "amwuufkmmegwqokl"
+                                    ],
+                                    "AcceleratorTotalMemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorTypes": [
+                                        "xkrteerfuemizmfr"
+                                    ],
+                                    "AllowedInstanceTypes": [
+                                        "fvlnaibygfismbad"
+                                    ],
+                                    "BareMetal": "ftetwugzgevczlct",
+                                    "BaselineEbsBandwidthMbps": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "BurstablePerformance": "urjmuuhnesqdprbz",
+                                    "CpuManufacturers": [
+                                        "sqnccrlxwftvutdt"
+                                    ],
+                                    "ExcludedInstanceTypes": [
+                                        "qnlppbtnoljmyggt"
+                                    ],
+                                    "InstanceGenerations": [
+                                        "skwbvyqqvaxkyizy"
+                                    ],
+                                    "LocalStorage": "qeuvwcsqxdmxspbl",
+                                    "LocalStorageTypes": [
+                                        "oyzgzduorrkvmlqr"
+                                    ],
+                                    "MaxSpotPriceAsPercentageOfOptimalOnDemandPrice": 0,
+                                    "MemoryGiBPerVCpu": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "MemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "NetworkBandwidthGbps": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "NetworkInterfaceCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "OnDemandMaxPricePercentageOverLowestPrice": 0,
+                                    "RequireHibernateSupport": true,
+                                    "SpotMaxPricePercentageOverLowestPrice": 0,
+                                    "TotalLocalStorageGB": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "VCpuCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    }
+                                },
+                                "InstanceType": "kmqsxgcuzlefeosp",
+                                "MaxPrice": "clpuovedknykxfmq",
+                                "Placement": {
+                                    "GroupName": "iedabtoccecdkjwn"
+                                },
+                                "Priority": 0.0,
+                                "SubnetId": "ahtkhpfenuujozke",
+                                "WeightedCapacity": 0.0
+                            }
+                        },
+                        "Lifecycle": "zktyzuykxmhratou"
+                    }
+                ],
+                "ExcessCapacityTerminationPolicy": "iaurefumqcroxshw",
+                "FleetId": "rtcsmnlviqxtizku",
+                "FleetState": "pazhyoxjqxeznhxg",
+                "FulfilledCapacity": 0.0,
+                "FulfilledOnDemandCapacity": 0.0,
+                "Instances": [
+                    {
+                        "InstanceIds": [
+                            "wvpdgamukykqxfej"
+                        ],
+                        "InstanceType": "nliqxgzrdcvxjxxn",
+                        "LaunchTemplateAndOverrides": {
+                            "LaunchTemplateSpecification": {
+                                "LaunchTemplateId": "jfpsarivnncxvzlo",
+                                "LaunchTemplateName": "kmyofgzrccagtzuk",
+                                "Version": "xqviabwnaplppszg"
+                            },
+                            "Overrides": {
+                                "AvailabilityZone": "sbnyvdnofbmdvtgp",
+                                "ImageId": "eytzcwlktumdnqjc",
+                                "InstanceRequirements": {
+                                    "AcceleratorCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorManufacturers": [
+                                        "krbmhcrdbsnrcyuo"
+                                    ],
+                                    "AcceleratorNames": [
+                                        "zccwtmerfzfnfhmp"
+                                    ],
+                                    "AcceleratorTotalMemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorTypes": [
+                                        "lvcrzazzszpbhrng"
+                                    ],
+                                    "AllowedInstanceTypes": [
+                                        "coimcpvflkfsjzdi"
+                                    ],
+                                    "BareMetal": "nhqydxvbohiysffv",
+                                    "BaselineEbsBandwidthMbps": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "BurstablePerformance": "fwevkehojwbhzwpp",
+                                    "CpuManufacturers": [
+                                        "voqgkyzilvniqmsl"
+                                    ],
+                                    "ExcludedInstanceTypes": [
+                                        "abazvotdmqgmsory"
+                                    ],
+                                    "InstanceGenerations": [
+                                        "rcbzubkktvtxdolj"
+                                    ],
+                                    "LocalStorage": "uorfgrihbahuphgq",
+                                    "LocalStorageTypes": [
+                                        "xmwgnrbphtdoxedy"
+                                    ],
+                                    "MaxSpotPriceAsPercentageOfOptimalOnDemandPrice": 0,
+                                    "MemoryGiBPerVCpu": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "MemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "NetworkBandwidthGbps": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "NetworkInterfaceCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "OnDemandMaxPricePercentageOverLowestPrice": 0,
+                                    "RequireHibernateSupport": true,
+                                    "SpotMaxPricePercentageOverLowestPrice": 0,
+                                    "TotalLocalStorageGB": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "VCpuCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    }
+                                },
+                                "InstanceType": "kwbsuskgqzhirezp",
+                                "MaxPrice": "erxgpjewgzzwhamz",
+                                "Placement": {
+                                    "GroupName": "hcytriqrvxyhnolq"
+                                },
+                                "Priority": 0.0,
+                                "SubnetId": "jntbwspiavpzegbu",
+                                "WeightedCapacity": 0.0
+                            }
+                        },
+                        "Lifecycle": "itdpqynrbshjwlow",
+                        "Platform": "nqqmcscvnbbegyjq"
+                    }
+                ],
+                "LaunchTemplateConfigs": [
+                    {
+                        "LaunchTemplateSpecification": {
+                            "LaunchTemplateId": "yrmheyrqgferssif",
+                            "LaunchTemplateName": "mejduvrlfqvyxqqe",
+                            "Version": "zchejhlupmsobsbs"
+                        },
+                        "Overrides": [
+                            {
+                                "AvailabilityZone": "tlebjjsdnysymnuq",
+                                "ImageId": "fajbmaigwjxgcgfn",
+                                "InstanceRequirements": {
+                                    "AcceleratorCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorManufacturers": [
+                                        "ecmudadvprcccmqw"
+                                    ],
+                                    "AcceleratorNames": [
+                                        "glynfxyumpjjrxwv"
+                                    ],
+                                    "AcceleratorTotalMemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorTypes": [
+                                        "ojkemclqkqzobgkd"
+                                    ],
+                                    "AllowedInstanceTypes": [
+                                        "drlculhfmrjngxhm"
+                                    ],
+                                    "BareMetal": "rqliummmfderskvu",
+                                    "BaselineEbsBandwidthMbps": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "BurstablePerformance": "yxivgzdexnxtbgij",
+                                    "CpuManufacturers": [
+                                        "sixpvkxrkmurfuie"
+                                    ],
+                                    "ExcludedInstanceTypes": [
+                                        "ayrnwgerawwtoawu"
+                                    ],
+                                    "InstanceGenerations": [
+                                        "rfutabvvuqwmdeck"
+                                    ],
+                                    "LocalStorage": "ayvmtwsfqhbsrxon",
+                                    "LocalStorageTypes": [
+                                        "kflqzpmwjajkrcva"
+                                    ],
+                                    "MaxSpotPriceAsPercentageOfOptimalOnDemandPrice": 0,
+                                    "MemoryGiBPerVCpu": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "MemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "NetworkBandwidthGbps": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "NetworkInterfaceCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "OnDemandMaxPricePercentageOverLowestPrice": 0,
+                                    "RequireHibernateSupport": true,
+                                    "SpotMaxPricePercentageOverLowestPrice": 0,
+                                    "TotalLocalStorageGB": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "VCpuCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    }
+                                },
+                                "InstanceType": "vhtemkkoaxcuxnep",
+                                "MaxPrice": "dygawifgoalxflcw",
+                                "Placement": {
+                                    "GroupName": "rgskrnpfsvscckno"
+                                },
+                                "Priority": 0.0,
+                                "SubnetId": "srxztvygiikzfxqo",
+                                "WeightedCapacity": 0.0
+                            }
+                        ]
+                    }
+                ],
+                "OnDemandOptions": {
+                    "AllocationStrategy": "wpkcpvyvaxktmptx",
+                    "CapacityReservationOptions": {
+                        "UsageStrategy": "anfnzzjvthhwuhrs"
+                    },
+                    "MaxTotalPrice": "onpubimdxdayhzze",
+                    "MinTargetCapacity": 0,
+                    "SingleAvailabilityZone": true,
+                    "SingleInstanceType": true
+                },
+                "ReplaceUnhealthyInstances": true,
+                "SpotOptions": {
+                    "AllocationStrategy": "rwlhvbynnrdkcloi",
+                    "InstanceInterruptionBehavior": "batnmnealphakuip",
+                    "InstancePoolsToUseCount": 0,
+                    "MaintenanceStrategies": {
+                        "CapacityRebalance": {
+                            "ReplacementStrategy": "jvikxgfgxzmucnmw",
+                            "TerminationDelay": 0
+                        }
+                    },
+                    "MaxTotalPrice": "iyfsgqdauskjaflw",
+                    "MinTargetCapacity": 0,
+                    "SingleAvailabilityZone": true,
+                    "SingleInstanceType": true
+                },
+                "Tags": [
+                    {
+                        "Key": "vnkvbtpwhrnqghvl",
+                        "Value": "jslpsxfwjavweyus"
+                    }
+                ],
+                "TargetCapacitySpecification": {
+                    "DefaultTargetCapacityType": "ipijmsecatzrcetc",
+                    "OnDemandTargetCapacity": 0,
+                    "SpotTargetCapacity": 0,
+                    "TargetCapacityUnitType": "ctuudoqqmiqdmcea",
+                    "TotalTargetCapacity": 0
+                },
+                "TerminateInstancesWithExpiration": true,
+                "Type": "unfizxnbdbluqlgd",
+                "ValidFrom": "csxhcbmprkwivptg",
+                "ValidUntil": "thpihkxgerjtbohz"
+            },
+            {
+                "ActivityStatus": "vwgodijynzbncgaq",
+                "ClientToken": "xhydyszjbazwtuqv",
+                "Context": "tzdrxothiiqkddjj",
+                "CreateTime": "qjliztlvjmfnarmn",
+                "Errors": [
+                    {
+                        "ErrorCode": "bhhzyvnpsrfonffv",
+                        "ErrorMessage": "mwqomhrrnxyaqiol",
+                        "LaunchTemplateAndOverrides": {
+                            "LaunchTemplateSpecification": {
+                                "LaunchTemplateId": "gogvikddxttmcqhj",
+                                "LaunchTemplateName": "emrkiueddykgdvpx",
+                                "Version": "dycmohznahwwabqr"
+                            },
+                            "Overrides": {
+                                "AvailabilityZone": "ubpmxdpsllwpwqqg",
+                                "ImageId": "bhtqjrvmayphjybf",
+                                "InstanceRequirements": {
+                                    "AcceleratorCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorManufacturers": [
+                                        "utnoikotlbmgdlad"
+                                    ],
+                                    "AcceleratorNames": [
+                                        "dmevftpobglhlbru"
+                                    ],
+                                    "AcceleratorTotalMemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorTypes": [
+                                        "nuzoywdsngjpwewr"
+                                    ],
+                                    "AllowedInstanceTypes": [
+                                        "vhizgyfafdegzlwb"
+                                    ],
+                                    "BareMetal": "qafpzmzjliipugun",
+                                    "BaselineEbsBandwidthMbps": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "BurstablePerformance": "dreidwlfegzxtvoc",
+                                    "CpuManufacturers": [
+                                        "zorpthxybwvykisn"
+                                    ],
+                                    "ExcludedInstanceTypes": [
+                                        "evvcbyhllrthuvea"
+                                    ],
+                                    "InstanceGenerations": [
+                                        "ecxzsnhwnbhevieu"
+                                    ],
+                                    "LocalStorage": "wkkzmhrqehgibrml",
+                                    "LocalStorageTypes": [
+                                        "kzjtiyfqfrwbxptz"
+                                    ],
+                                    "MaxSpotPriceAsPercentageOfOptimalOnDemandPrice": 0,
+                                    "MemoryGiBPerVCpu": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "MemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "NetworkBandwidthGbps": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "NetworkInterfaceCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "OnDemandMaxPricePercentageOverLowestPrice": 0,
+                                    "RequireHibernateSupport": true,
+                                    "SpotMaxPricePercentageOverLowestPrice": 0,
+                                    "TotalLocalStorageGB": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "VCpuCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    }
+                                },
+                                "InstanceType": "jpipicanirqaffwv",
+                                "MaxPrice": "acfgjvwsacajmxow",
+                                "Placement": {
+                                    "GroupName": "tiddwiixgsadzqjo"
+                                },
+                                "Priority": 0.0,
+                                "SubnetId": "ojrsjzkgydvgiplc",
+                                "WeightedCapacity": 0.0
+                            }
+                        },
+                        "Lifecycle": "kitseeijwuddjwic"
+                    }
+                ],
+                "ExcessCapacityTerminationPolicy": "dvbipnkvwkuepxtj",
+                "FleetId": "jjxmfceanqdbtavw",
+                "FleetState": "meagcuonemhinkfn",
+                "FulfilledCapacity": 0.0,
+                "FulfilledOnDemandCapacity": 0.0,
+                "Instances": [
+                    {
+                        "InstanceIds": [
+                            "brpcwjnsptauezih"
+                        ],
+                        "InstanceType": "fsokltnrmtmvmdpf",
+                        "LaunchTemplateAndOverrides": {
+                            "LaunchTemplateSpecification": {
+                                "LaunchTemplateId": "voxzfrfqzeytrdgw",
+                                "LaunchTemplateName": "knkyeetcpegkkyws",
+                                "Version": "qaebppbepdmdhvyg"
+                            },
+                            "Overrides": {
+                                "AvailabilityZone": "ohrbvrxgjvejcdfv",
+                                "ImageId": "szhizfxmftsvophr",
+                                "InstanceRequirements": {
+                                    "AcceleratorCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorManufacturers": [
+                                        "olyqrpvzyptkaycb"
+                                    ],
+                                    "AcceleratorNames": [
+                                        "binyvccrmdzyxjjv"
+                                    ],
+                                    "AcceleratorTotalMemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorTypes": [
+                                        "wcfombrmyfhrdqoq"
+                                    ],
+                                    "AllowedInstanceTypes": [
+                                        "vrgqnudbxiqyxtly"
+                                    ],
+                                    "BareMetal": "ulhicigpdrlefuyj",
+                                    "BaselineEbsBandwidthMbps": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "BurstablePerformance": "pjjwbbwmantjdeat",
+                                    "CpuManufacturers": [
+                                        "vdiitwxhsocplmlb"
+                                    ],
+                                    "ExcludedInstanceTypes": [
+                                        "wtlxyeplfpsgxqsg"
+                                    ],
+                                    "InstanceGenerations": [
+                                        "pxmisphynfmjkvis"
+                                    ],
+                                    "LocalStorage": "hditeuzdpangtvxk",
+                                    "LocalStorageTypes": [
+                                        "novxkemdecsqiqez"
+                                    ],
+                                    "MaxSpotPriceAsPercentageOfOptimalOnDemandPrice": 0,
+                                    "MemoryGiBPerVCpu": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "MemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "NetworkBandwidthGbps": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "NetworkInterfaceCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "OnDemandMaxPricePercentageOverLowestPrice": 0,
+                                    "RequireHibernateSupport": true,
+                                    "SpotMaxPricePercentageOverLowestPrice": 0,
+                                    "TotalLocalStorageGB": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "VCpuCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    }
+                                },
+                                "InstanceType": "ffzeersxonhlacux",
+                                "MaxPrice": "xqwkdxiwkfdjorcl",
+                                "Placement": {
+                                    "GroupName": "unyjcgzwpjhenzpg"
+                                },
+                                "Priority": 0.0,
+                                "SubnetId": "fyxrwcebudodgrtq",
+                                "WeightedCapacity": 0.0
+                            }
+                        },
+                        "Lifecycle": "yszstqhalrxidtye",
+                        "Platform": "zquqbvcwmujvejut"
+                    }
+                ],
+                "LaunchTemplateConfigs": [
+                    {
+                        "LaunchTemplateSpecification": {
+                            "LaunchTemplateId": "iptgbvzomepbrpru",
+                            "LaunchTemplateName": "fmaaokbwlbtalgis",
+                            "Version": "zaahpqyzeaceltqk"
+                        },
+                        "Overrides": [
+                            {
+                                "AvailabilityZone": "jiardshugnwzlqhe",
+                                "ImageId": "eredqqfgjfrkoudv",
+                                "InstanceRequirements": {
+                                    "AcceleratorCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorManufacturers": [
+                                        "soxxsnqieongbzhb"
+                                    ],
+                                    "AcceleratorNames": [
+                                        "dnamcecztanmeqmd"
+                                    ],
+                                    "AcceleratorTotalMemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorTypes": [
+                                        "gziplwerkpkjwuwq"
+                                    ],
+                                    "AllowedInstanceTypes": [
+                                        "bbzqejsqgupmwvrd"
+                                    ],
+                                    "BareMetal": "cxisstlnrpyboixl",
+                                    "BaselineEbsBandwidthMbps": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "BurstablePerformance": "nzijcxbsqtsarhxu",
+                                    "CpuManufacturers": [
+                                        "vcyuhakrgpvdutnm"
+                                    ],
+                                    "ExcludedInstanceTypes": [
+                                        "jnbadotfkvpjmiwh"
+                                    ],
+                                    "InstanceGenerations": [
+                                        "tegftxxhsumqrdbz"
+                                    ],
+                                    "LocalStorage": "gcocabgrzeserpdb",
+                                    "LocalStorageTypes": [
+                                        "dtawyzirodlryfqm"
+                                    ],
+                                    "MaxSpotPriceAsPercentageOfOptimalOnDemandPrice": 0,
+                                    "MemoryGiBPerVCpu": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "MemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "NetworkBandwidthGbps": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "NetworkInterfaceCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "OnDemandMaxPricePercentageOverLowestPrice": 0,
+                                    "RequireHibernateSupport": true,
+                                    "SpotMaxPricePercentageOverLowestPrice": 0,
+                                    "TotalLocalStorageGB": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "VCpuCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    }
+                                },
+                                "InstanceType": "kvmoatutacnrnwoq",
+                                "MaxPrice": "nzxyahouoyribhqn",
+                                "Placement": {
+                                    "GroupName": "ugxtureecgmfvlez"
+                                },
+                                "Priority": 0.0,
+                                "SubnetId": "quzkzvitxwmluzor",
+                                "WeightedCapacity": 0.0
+                            }
+                        ]
+                    }
+                ],
+                "OnDemandOptions": {
+                    "AllocationStrategy": "eynvlgunajwayvlt",
+                    "CapacityReservationOptions": {
+                        "UsageStrategy": "ablxcmxjdsnounbl"
+                    },
+                    "MaxTotalPrice": "qyduijbuvfhifcpp",
+                    "MinTargetCapacity": 0,
+                    "SingleAvailabilityZone": true,
+                    "SingleInstanceType": true
+                },
+                "ReplaceUnhealthyInstances": true,
+                "SpotOptions": {
+                    "AllocationStrategy": "isiaumghjsghljdi",
+                    "InstanceInterruptionBehavior": "rtlwwenfnrlsrdwe",
+                    "InstancePoolsToUseCount": 0,
+                    "MaintenanceStrategies": {
+                        "CapacityRebalance": {
+                            "ReplacementStrategy": "pqovpfwsnjtvdpfc",
+                            "TerminationDelay": 0
+                        }
+                    },
+                    "MaxTotalPrice": "adzscyujsorpxmao",
+                    "MinTargetCapacity": 0,
+                    "SingleAvailabilityZone": true,
+                    "SingleInstanceType": true
+                },
+                "Tags": [
+                    {
+                        "Key": "jbfspkexddzkckao",
+                        "Value": "edpdzetplqaeaebn"
+                    }
+                ],
+                "TargetCapacitySpecification": {
+                    "DefaultTargetCapacityType": "ijriqjzotksoenxt",
+                    "OnDemandTargetCapacity": 0,
+                    "SpotTargetCapacity": 0,
+                    "TargetCapacityUnitType": "cehyggrqkcnildsg",
+                    "TotalTargetCapacity": 0
+                },
+                "TerminateInstancesWithExpiration": true,
+                "Type": "ptgrnyeioytrapct",
+                "ValidFrom": "nffayurcmsujfgbu",
+                "ValidUntil": "ehchsybemendgntf"
+            },
+            {
+                "ActivityStatus": "avtezwjfynlwepas",
+                "ClientToken": "codlmluaklqenwsm",
+                "Context": "vnwsikhehvgsdbky",
+                "CreateTime": "rlxjneelenjpwble",
+                "Errors": [
+                    {
+                        "ErrorCode": "wwwhtcwkqltrngby",
+                        "ErrorMessage": "uhwsgfvvhstlnfoj",
+                        "LaunchTemplateAndOverrides": {
+                            "LaunchTemplateSpecification": {
+                                "LaunchTemplateId": "eohuacjjosqoveeo",
+                                "LaunchTemplateName": "aykqvfttfbakirav",
+                                "Version": "tphjkybqdjkbegzc"
+                            },
+                            "Overrides": {
+                                "AvailabilityZone": "hfxwcjpbwyuwulxl",
+                                "ImageId": "hmvsqpnnhtlvjuuj",
+                                "InstanceRequirements": {
+                                    "AcceleratorCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorManufacturers": [
+                                        "pmwgruhqnvlgtjzp"
+                                    ],
+                                    "AcceleratorNames": [
+                                        "ppaqfhaiqxpuoakv"
+                                    ],
+                                    "AcceleratorTotalMemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorTypes": [
+                                        "ywvmdptvffirtygg"
+                                    ],
+                                    "AllowedInstanceTypes": [
+                                        "jpnjtxopcnoakvhg"
+                                    ],
+                                    "BareMetal": "ztrbwjuomljvtjbw",
+                                    "BaselineEbsBandwidthMbps": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "BurstablePerformance": "iczcriugjznjteay",
+                                    "CpuManufacturers": [
+                                        "woszdmwjmkfwwxsy"
+                                    ],
+                                    "ExcludedInstanceTypes": [
+                                        "xzizxjitvytmzuwv"
+                                    ],
+                                    "InstanceGenerations": [
+                                        "ifiyndswpmennaiy"
+                                    ],
+                                    "LocalStorage": "goxazcdumjlotbnk",
+                                    "LocalStorageTypes": [
+                                        "tfzozthttwijsvgy"
+                                    ],
+                                    "MaxSpotPriceAsPercentageOfOptimalOnDemandPrice": 0,
+                                    "MemoryGiBPerVCpu": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "MemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "NetworkBandwidthGbps": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "NetworkInterfaceCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "OnDemandMaxPricePercentageOverLowestPrice": 0,
+                                    "RequireHibernateSupport": true,
+                                    "SpotMaxPricePercentageOverLowestPrice": 0,
+                                    "TotalLocalStorageGB": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "VCpuCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    }
+                                },
+                                "InstanceType": "hnoicapjttnmzuab",
+                                "MaxPrice": "pxheukisnnvplfme",
+                                "Placement": {
+                                    "GroupName": "nnczpxawndehfgfy"
+                                },
+                                "Priority": 0.0,
+                                "SubnetId": "lepubcisnfvvuupq",
+                                "WeightedCapacity": 0.0
+                            }
+                        },
+                        "Lifecycle": "xxjwvnuzznkbpnwo"
+                    }
+                ],
+                "ExcessCapacityTerminationPolicy": "pzwklpesvniovaaw",
+                "FleetId": "vgsdcqtrzdfxjxqk",
+                "FleetState": "hjklklaeajcjvqzw",
+                "FulfilledCapacity": 0.0,
+                "FulfilledOnDemandCapacity": 0.0,
+                "Instances": [
+                    {
+                        "InstanceIds": [
+                            "kjlsprawqepkrdkd"
+                        ],
+                        "InstanceType": "vzprdostbwgfbtbt",
+                        "LaunchTemplateAndOverrides": {
+                            "LaunchTemplateSpecification": {
+                                "LaunchTemplateId": "ihjnmsaikxuvwtcv",
+                                "LaunchTemplateName": "usouurqmpqjpacoo",
+                                "Version": "irhnwfadqnrojelb"
+                            },
+                            "Overrides": {
+                                "AvailabilityZone": "ifjzkbzpwrzotmpd",
+                                "ImageId": "wxursmtozxgycrod",
+                                "InstanceRequirements": {
+                                    "AcceleratorCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorManufacturers": [
+                                        "iidotudkobuianoi"
+                                    ],
+                                    "AcceleratorNames": [
+                                        "zxqziwkxfoxzuntv"
+                                    ],
+                                    "AcceleratorTotalMemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorTypes": [
+                                        "nuvsijziajfjbuwr"
+                                    ],
+                                    "AllowedInstanceTypes": [
+                                        "sqdjzazstysbierp"
+                                    ],
+                                    "BareMetal": "sgxllcdiboogjxue",
+                                    "BaselineEbsBandwidthMbps": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "BurstablePerformance": "iykneyqqggeuwgkl",
+                                    "CpuManufacturers": [
+                                        "nrmmkqccctiyzlik"
+                                    ],
+                                    "ExcludedInstanceTypes": [
+                                        "xwusahzrsjkpuxmp"
+                                    ],
+                                    "InstanceGenerations": [
+                                        "rlqvrhlzvpkeiggc"
+                                    ],
+                                    "LocalStorage": "zqkivmukgmkkgauc",
+                                    "LocalStorageTypes": [
+                                        "skghcymyfgjrcdxl"
+                                    ],
+                                    "MaxSpotPriceAsPercentageOfOptimalOnDemandPrice": 0,
+                                    "MemoryGiBPerVCpu": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "MemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "NetworkBandwidthGbps": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "NetworkInterfaceCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "OnDemandMaxPricePercentageOverLowestPrice": 0,
+                                    "RequireHibernateSupport": true,
+                                    "SpotMaxPricePercentageOverLowestPrice": 0,
+                                    "TotalLocalStorageGB": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "VCpuCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    }
+                                },
+                                "InstanceType": "vgfpkgclhzhmxuhy",
+                                "MaxPrice": "nbnestxnttdmtlim",
+                                "Placement": {
+                                    "GroupName": "wwcvdpnctjyqzcze"
+                                },
+                                "Priority": 0.0,
+                                "SubnetId": "womwyapxtbfgexub",
+                                "WeightedCapacity": 0.0
+                            }
+                        },
+                        "Lifecycle": "tlowijuoqsdnobhc",
+                        "Platform": "kcflpxzxiulnntad"
+                    }
+                ],
+                "LaunchTemplateConfigs": [
+                    {
+                        "LaunchTemplateSpecification": {
+                            "LaunchTemplateId": "xmirinbkuuangzyj",
+                            "LaunchTemplateName": "lxbmzxzovaqiuofy",
+                            "Version": "lelcdlmxbckyectp"
+                        },
+                        "Overrides": [
+                            {
+                                "AvailabilityZone": "zwevwyzcolklfsnn",
+                                "ImageId": "hnmtshiidaycnmzp",
+                                "InstanceRequirements": {
+                                    "AcceleratorCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorManufacturers": [
+                                        "hencxvbldcnnrfrb"
+                                    ],
+                                    "AcceleratorNames": [
+                                        "rrswuvcssobdbfgn"
+                                    ],
+                                    "AcceleratorTotalMemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorTypes": [
+                                        "bjhodmjexwpvzjsh"
+                                    ],
+                                    "AllowedInstanceTypes": [
+                                        "nxfakbuqdmkqejuf"
+                                    ],
+                                    "BareMetal": "fnxidryrvdxcldmi",
+                                    "BaselineEbsBandwidthMbps": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "BurstablePerformance": "tjzivcttpwvdzrnv",
+                                    "CpuManufacturers": [
+                                        "glhcrvfdcvkzegkp"
+                                    ],
+                                    "ExcludedInstanceTypes": [
+                                        "qbzuqkscvovmkgca"
+                                    ],
+                                    "InstanceGenerations": [
+                                        "djkjnbndyqeeaztu"
+                                    ],
+                                    "LocalStorage": "riropsyhczpgappp",
+                                    "LocalStorageTypes": [
+                                        "bvlcasnnhdhodsdc"
+                                    ],
+                                    "MaxSpotPriceAsPercentageOfOptimalOnDemandPrice": 0,
+                                    "MemoryGiBPerVCpu": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "MemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "NetworkBandwidthGbps": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "NetworkInterfaceCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "OnDemandMaxPricePercentageOverLowestPrice": 0,
+                                    "RequireHibernateSupport": true,
+                                    "SpotMaxPricePercentageOverLowestPrice": 0,
+                                    "TotalLocalStorageGB": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "VCpuCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    }
+                                },
+                                "InstanceType": "dberbttahrrvmhpn",
+                                "MaxPrice": "caovsvjnscevmnuh",
+                                "Placement": {
+                                    "GroupName": "cugjsqidzogrevkh"
+                                },
+                                "Priority": 0.0,
+                                "SubnetId": "rnwyivjdkctxtygn",
+                                "WeightedCapacity": 0.0
+                            }
+                        ]
+                    }
+                ],
+                "OnDemandOptions": {
+                    "AllocationStrategy": "nltfnzkbbyaoklen",
+                    "CapacityReservationOptions": {
+                        "UsageStrategy": "vhyknknraqlbxshl"
+                    },
+                    "MaxTotalPrice": "spbhoftrmcdxiadr",
+                    "MinTargetCapacity": 0,
+                    "SingleAvailabilityZone": true,
+                    "SingleInstanceType": true
+                },
+                "ReplaceUnhealthyInstances": true,
+                "SpotOptions": {
+                    "AllocationStrategy": "fdrmfpaovrieeqyt",
+                    "InstanceInterruptionBehavior": "xoifkfmluglhzfja",
+                    "InstancePoolsToUseCount": 0,
+                    "MaintenanceStrategies": {
+                        "CapacityRebalance": {
+                            "ReplacementStrategy": "jvdhahrgxqatjfwm",
+                            "TerminationDelay": 0
+                        }
+                    },
+                    "MaxTotalPrice": "vqbyikvcdaoiwiiz",
+                    "MinTargetCapacity": 0,
+                    "SingleAvailabilityZone": true,
+                    "SingleInstanceType": true
+                },
+                "Tags": [
+                    {
+                        "Key": "lejpgkaqhtlfubai",
+                        "Value": "bvcxdrxyyoqruitl"
+                    }
+                ],
+                "TargetCapacitySpecification": {
+                    "DefaultTargetCapacityType": "izmlrsqzzmdxwcfn",
+                    "OnDemandTargetCapacity": 0,
+                    "SpotTargetCapacity": 0,
+                    "TargetCapacityUnitType": "uneuegfqjptqpmhh",
+                    "TotalTargetCapacity": 0
+                },
+                "TerminateInstancesWithExpiration": true,
+                "Type": "uqacvtzzwupbpory",
+                "ValidFrom": "cheajzhthztwqmdc",
+                "ValidUntil": "eqmnzuhirgiwovjo"
+            },
+            {
+                "ActivityStatus": "fxjqgydbwvzqhfjr",
+                "ClientToken": "cbtrvfeptmoczgpo",
+                "Context": "kudccpcflrmfjusj",
+                "CreateTime": "ajoviwcuupnorktm",
+                "Errors": [
+                    {
+                        "ErrorCode": "lqdxrbrzzskffjnt",
+                        "ErrorMessage": "kyiqnbqetsqxvxdo",
+                        "LaunchTemplateAndOverrides": {
+                            "LaunchTemplateSpecification": {
+                                "LaunchTemplateId": "mcmjnhfdtxphhvem",
+                                "LaunchTemplateName": "loamramlpkribhyp",
+                                "Version": "jsnzzosdbxjqfhha"
+                            },
+                            "Overrides": {
+                                "AvailabilityZone": "naovsnhiyuhbqhmu",
+                                "ImageId": "ozqwruvresknqzhc",
+                                "InstanceRequirements": {
+                                    "AcceleratorCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorManufacturers": [
+                                        "hbzaygrgajwalpwg"
+                                    ],
+                                    "AcceleratorNames": [
+                                        "mlqikgftflijjqly"
+                                    ],
+                                    "AcceleratorTotalMemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorTypes": [
+                                        "qnkqwlcewredlaly"
+                                    ],
+                                    "AllowedInstanceTypes": [
+                                        "ojidbzrfiymuovea"
+                                    ],
+                                    "BareMetal": "uaistqsuxfiqwirn",
+                                    "BaselineEbsBandwidthMbps": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "BurstablePerformance": "yqztctsfpdsvjlqv",
+                                    "CpuManufacturers": [
+                                        "vjedmfdextrcpjhk"
+                                    ],
+                                    "ExcludedInstanceTypes": [
+                                        "bbqmivfwbbiwdexi"
+                                    ],
+                                    "InstanceGenerations": [
+                                        "slemfnoclzqpgyon"
+                                    ],
+                                    "LocalStorage": "lpvvcoulrzckubrb",
+                                    "LocalStorageTypes": [
+                                        "ykcujmdgkwqevlwl"
+                                    ],
+                                    "MaxSpotPriceAsPercentageOfOptimalOnDemandPrice": 0,
+                                    "MemoryGiBPerVCpu": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "MemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "NetworkBandwidthGbps": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "NetworkInterfaceCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "OnDemandMaxPricePercentageOverLowestPrice": 0,
+                                    "RequireHibernateSupport": true,
+                                    "SpotMaxPricePercentageOverLowestPrice": 0,
+                                    "TotalLocalStorageGB": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "VCpuCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    }
+                                },
+                                "InstanceType": "isngqotecezmfuub",
+                                "MaxPrice": "cvqpdppfetcastkc",
+                                "Placement": {
+                                    "GroupName": "ewweaeiauvobyqxp"
+                                },
+                                "Priority": 0.0,
+                                "SubnetId": "qoldpxmoihruxifp",
+                                "WeightedCapacity": 0.0
+                            }
+                        },
+                        "Lifecycle": "jdchcpwfzzynfvry"
+                    }
+                ],
+                "ExcessCapacityTerminationPolicy": "gkkbbmnixxgmnlsw",
+                "FleetId": "pgwsdmjgcluznyxr",
+                "FleetState": "rjupjidkxmdghqyg",
+                "FulfilledCapacity": 0.0,
+                "FulfilledOnDemandCapacity": 0.0,
+                "Instances": [
+                    {
+                        "InstanceIds": [
+                            "gddmbtsshbzbwygr"
+                        ],
+                        "InstanceType": "bkalguenuzfquxbk",
+                        "LaunchTemplateAndOverrides": {
+                            "LaunchTemplateSpecification": {
+                                "LaunchTemplateId": "smenzveeidcekevk",
+                                "LaunchTemplateName": "jvgcshlxuefgbbsz",
+                                "Version": "ulqpycwgdydtxqih"
+                            },
+                            "Overrides": {
+                                "AvailabilityZone": "qvjnfdihvcnnkqgv",
+                                "ImageId": "ienvqmtpibavoqkb",
+                                "InstanceRequirements": {
+                                    "AcceleratorCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorManufacturers": [
+                                        "vzznpmurffjkhywa"
+                                    ],
+                                    "AcceleratorNames": [
+                                        "wkkukudbsegcxypn"
+                                    ],
+                                    "AcceleratorTotalMemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorTypes": [
+                                        "acvddsieouzsvasl"
+                                    ],
+                                    "AllowedInstanceTypes": [
+                                        "fikafnlmqkzhrkpn"
+                                    ],
+                                    "BareMetal": "cwahflzdevqkqihd",
+                                    "BaselineEbsBandwidthMbps": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "BurstablePerformance": "dnabuclkjnylpucr",
+                                    "CpuManufacturers": [
+                                        "qbdnnegldqkssyzq"
+                                    ],
+                                    "ExcludedInstanceTypes": [
+                                        "vpsruhnyydrpbvze"
+                                    ],
+                                    "InstanceGenerations": [
+                                        "qyezfbjexkpmsysl"
+                                    ],
+                                    "LocalStorage": "sqxwnnweltjtuqql",
+                                    "LocalStorageTypes": [
+                                        "alafxkmqzqcqhdqf"
+                                    ],
+                                    "MaxSpotPriceAsPercentageOfOptimalOnDemandPrice": 0,
+                                    "MemoryGiBPerVCpu": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "MemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "NetworkBandwidthGbps": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "NetworkInterfaceCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "OnDemandMaxPricePercentageOverLowestPrice": 0,
+                                    "RequireHibernateSupport": true,
+                                    "SpotMaxPricePercentageOverLowestPrice": 0,
+                                    "TotalLocalStorageGB": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "VCpuCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    }
+                                },
+                                "InstanceType": "cmhmdzytwstleswx",
+                                "MaxPrice": "tbehweuaavulrzsz",
+                                "Placement": {
+                                    "GroupName": "fchcsxqzdsgzoesc"
+                                },
+                                "Priority": 0.0,
+                                "SubnetId": "yodtrjgvmrorowzj",
+                                "WeightedCapacity": 0.0
+                            }
+                        },
+                        "Lifecycle": "xjmczhjrpmwqakol",
+                        "Platform": "wcxrsnvgtysfetcu"
+                    }
+                ],
+                "LaunchTemplateConfigs": [
+                    {
+                        "LaunchTemplateSpecification": {
+                            "LaunchTemplateId": "txdsjuronnqxndtc",
+                            "LaunchTemplateName": "mfgdrgflldhvfhci",
+                            "Version": "nleqquellnbhyoqa"
+                        },
+                        "Overrides": [
+                            {
+                                "AvailabilityZone": "hmnpxhruuityyauv",
+                                "ImageId": "oqboqnteighyhccc",
+                                "InstanceRequirements": {
+                                    "AcceleratorCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorManufacturers": [
+                                        "qfsyvsqlzojzmzjq"
+                                    ],
+                                    "AcceleratorNames": [
+                                        "agufihwwzwiciesh"
+                                    ],
+                                    "AcceleratorTotalMemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorTypes": [
+                                        "jxvxbzjlsbezpxow"
+                                    ],
+                                    "AllowedInstanceTypes": [
+                                        "nnmuviidnsynnizp"
+                                    ],
+                                    "BareMetal": "kdfjmkjcieieffza",
+                                    "BaselineEbsBandwidthMbps": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "BurstablePerformance": "qkdhfamhfphmftmg",
+                                    "CpuManufacturers": [
+                                        "zmmzzjqanhwfjznz"
+                                    ],
+                                    "ExcludedInstanceTypes": [
+                                        "uphzoxuzfkefrkws"
+                                    ],
+                                    "InstanceGenerations": [
+                                        "gxrhjowklnxcuxaq"
+                                    ],
+                                    "LocalStorage": "jbeqfeidazvglhex",
+                                    "LocalStorageTypes": [
+                                        "kddyfqqnygtaqmon"
+                                    ],
+                                    "MaxSpotPriceAsPercentageOfOptimalOnDemandPrice": 0,
+                                    "MemoryGiBPerVCpu": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "MemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "NetworkBandwidthGbps": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "NetworkInterfaceCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "OnDemandMaxPricePercentageOverLowestPrice": 0,
+                                    "RequireHibernateSupport": true,
+                                    "SpotMaxPricePercentageOverLowestPrice": 0,
+                                    "TotalLocalStorageGB": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "VCpuCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    }
+                                },
+                                "InstanceType": "ddjdkyurnkrlendx",
+                                "MaxPrice": "lfjepvmrutmvnnue",
+                                "Placement": {
+                                    "GroupName": "rajiuguiqnefdjnu"
+                                },
+                                "Priority": 0.0,
+                                "SubnetId": "ononqnuygvhqiqvy",
+                                "WeightedCapacity": 0.0
+                            }
+                        ]
+                    }
+                ],
+                "OnDemandOptions": {
+                    "AllocationStrategy": "ktxszehcejsfroij",
+                    "CapacityReservationOptions": {
+                        "UsageStrategy": "fkkllrgrezpnatib"
+                    },
+                    "MaxTotalPrice": "zqzupkuzzaufwdrb",
+                    "MinTargetCapacity": 0,
+                    "SingleAvailabilityZone": true,
+                    "SingleInstanceType": true
+                },
+                "ReplaceUnhealthyInstances": true,
+                "SpotOptions": {
+                    "AllocationStrategy": "peyfnfefxkgrrxfd",
+                    "InstanceInterruptionBehavior": "xjhnilpmneruevae",
+                    "InstancePoolsToUseCount": 0,
+                    "MaintenanceStrategies": {
+                        "CapacityRebalance": {
+                            "ReplacementStrategy": "affznqlaejqymvmo",
+                            "TerminationDelay": 0
+                        }
+                    },
+                    "MaxTotalPrice": "tkgaghetxuflvgfe",
+                    "MinTargetCapacity": 0,
+                    "SingleAvailabilityZone": true,
+                    "SingleInstanceType": true
+                },
+                "Tags": [
+                    {
+                        "Key": "hlpnxmigqmcvolkv",
+                        "Value": "zxlhghmwygowxqdz"
+                    }
+                ],
+                "TargetCapacitySpecification": {
+                    "DefaultTargetCapacityType": "ykjtrtirupfojhps",
+                    "OnDemandTargetCapacity": 0,
+                    "SpotTargetCapacity": 0,
+                    "TargetCapacityUnitType": "pnvaputfqtodonyl",
+                    "TotalTargetCapacity": 0
+                },
+                "TerminateInstancesWithExpiration": true,
+                "Type": "pdnxyopaioiippjz",
+                "ValidFrom": "ylisngytakwwdlbx",
+                "ValidUntil": "khqjklwvkzpmyjte"
+            },
+            {
+                "ActivityStatus": "dsbdpomyhsdayifz",
+                "ClientToken": "umlbembsmehtvedm",
+                "Context": "kbapcntsvsasgmsz",
+                "CreateTime": "vgjtrfmkclppcihw",
+                "Errors": [
+                    {
+                        "ErrorCode": "wadfkkshkwylztih",
+                        "ErrorMessage": "ziejihwrbbsegvth",
+                        "LaunchTemplateAndOverrides": {
+                            "LaunchTemplateSpecification": {
+                                "LaunchTemplateId": "tfltbvartsajmzkn",
+                                "LaunchTemplateName": "cnhgumyxdychugff",
+                                "Version": "qqxlhvojfntbbrlm"
+                            },
+                            "Overrides": {
+                                "AvailabilityZone": "owtnrfvxdmtrbmwx",
+                                "ImageId": "bmgyvqzoendcbtkf",
+                                "InstanceRequirements": {
+                                    "AcceleratorCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorManufacturers": [
+                                        "itmavrryomdbmxac"
+                                    ],
+                                    "AcceleratorNames": [
+                                        "kykfntuwcludlpry"
+                                    ],
+                                    "AcceleratorTotalMemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorTypes": [
+                                        "hacskbgvdrzeyrei"
+                                    ],
+                                    "AllowedInstanceTypes": [
+                                        "bvcrpjsctjllceaw"
+                                    ],
+                                    "BareMetal": "lbphjggijafikmqb",
+                                    "BaselineEbsBandwidthMbps": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "BurstablePerformance": "oqcjilvaatyhmwsf",
+                                    "CpuManufacturers": [
+                                        "fmcmtredaztrfkfc"
+                                    ],
+                                    "ExcludedInstanceTypes": [
+                                        "khgagnptomzdryxg"
+                                    ],
+                                    "InstanceGenerations": [
+                                        "wdyfuajopdgnjkie"
+                                    ],
+                                    "LocalStorage": "rgpdecgdbvkxvuox",
+                                    "LocalStorageTypes": [
+                                        "kkvwtnplamgvwbpb"
+                                    ],
+                                    "MaxSpotPriceAsPercentageOfOptimalOnDemandPrice": 0,
+                                    "MemoryGiBPerVCpu": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "MemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "NetworkBandwidthGbps": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "NetworkInterfaceCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "OnDemandMaxPricePercentageOverLowestPrice": 0,
+                                    "RequireHibernateSupport": true,
+                                    "SpotMaxPricePercentageOverLowestPrice": 0,
+                                    "TotalLocalStorageGB": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "VCpuCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    }
+                                },
+                                "InstanceType": "tkhxubpsrglfnfgg",
+                                "MaxPrice": "npunvdeelnjodyax",
+                                "Placement": {
+                                    "GroupName": "ljrsvbdxspjientx"
+                                },
+                                "Priority": 0.0,
+                                "SubnetId": "jvzishopqaxyrqaz",
+                                "WeightedCapacity": 0.0
+                            }
+                        },
+                        "Lifecycle": "vjzffklngpxrtimv"
+                    }
+                ],
+                "ExcessCapacityTerminationPolicy": "aoyhrigulldazwsp",
+                "FleetId": "nqfyyfmtxpucjzzg",
+                "FleetState": "hoikchizaqlcfjzx",
+                "FulfilledCapacity": 0.0,
+                "FulfilledOnDemandCapacity": 0.0,
+                "Instances": [
+                    {
+                        "InstanceIds": [
+                            "lklvkhbyirmrrxyh"
+                        ],
+                        "InstanceType": "khipkkznbblntdwy",
+                        "LaunchTemplateAndOverrides": {
+                            "LaunchTemplateSpecification": {
+                                "LaunchTemplateId": "masvepnnhqqeivnu",
+                                "LaunchTemplateName": "bitofbebjcgvwerm",
+                                "Version": "ufmsqbdbxeoujwuj"
+                            },
+                            "Overrides": {
+                                "AvailabilityZone": "tkmvssfuchcihqcp",
+                                "ImageId": "hfowqlksunjhratt",
+                                "InstanceRequirements": {
+                                    "AcceleratorCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorManufacturers": [
+                                        "unwdsmczkzdedvlg"
+                                    ],
+                                    "AcceleratorNames": [
+                                        "tlnkwmxpxlmlsuqi"
+                                    ],
+                                    "AcceleratorTotalMemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorTypes": [
+                                        "ikdloqlpcargukbf"
+                                    ],
+                                    "AllowedInstanceTypes": [
+                                        "taxlzogrlfwxzezn"
+                                    ],
+                                    "BareMetal": "ysqfhnwxigbbaaye",
+                                    "BaselineEbsBandwidthMbps": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "BurstablePerformance": "fuxyejjflaurjufw",
+                                    "CpuManufacturers": [
+                                        "bvslawbelfszgbak"
+                                    ],
+                                    "ExcludedInstanceTypes": [
+                                        "xttkkptcopvcuylx"
+                                    ],
+                                    "InstanceGenerations": [
+                                        "vkdgckrwdomoejpg"
+                                    ],
+                                    "LocalStorage": "vfmmtjerbqbyimlb",
+                                    "LocalStorageTypes": [
+                                        "gyxbwokjrrtgufkd"
+                                    ],
+                                    "MaxSpotPriceAsPercentageOfOptimalOnDemandPrice": 0,
+                                    "MemoryGiBPerVCpu": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "MemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "NetworkBandwidthGbps": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "NetworkInterfaceCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "OnDemandMaxPricePercentageOverLowestPrice": 0,
+                                    "RequireHibernateSupport": true,
+                                    "SpotMaxPricePercentageOverLowestPrice": 0,
+                                    "TotalLocalStorageGB": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "VCpuCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    }
+                                },
+                                "InstanceType": "ixxhslzxdfmhougq",
+                                "MaxPrice": "nutbwyhrwbycfsru",
+                                "Placement": {
+                                    "GroupName": "iasgbhdfkxurtbho"
+                                },
+                                "Priority": 0.0,
+                                "SubnetId": "gxuukciqqmtepcdr",
+                                "WeightedCapacity": 0.0
+                            }
+                        },
+                        "Lifecycle": "thfgdgschfowwlek",
+                        "Platform": "rkacwjkamhiqdmbk"
+                    }
+                ],
+                "LaunchTemplateConfigs": [
+                    {
+                        "LaunchTemplateSpecification": {
+                            "LaunchTemplateId": "asytnsllzvppricr",
+                            "LaunchTemplateName": "wyjnawqvsfesxhcl",
+                            "Version": "cyppkjbufwaxffgy"
+                        },
+                        "Overrides": [
+                            {
+                                "AvailabilityZone": "ofcjeqvjhwbbdtrd",
+                                "ImageId": "ayygejotjuyzrkcu",
+                                "InstanceRequirements": {
+                                    "AcceleratorCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorManufacturers": [
+                                        "gsbjnvkxhtecrrtj"
+                                    ],
+                                    "AcceleratorNames": [
+                                        "borrmdwrcfyrhapl"
+                                    ],
+                                    "AcceleratorTotalMemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorTypes": [
+                                        "jrlrlzboytvmrugr"
+                                    ],
+                                    "AllowedInstanceTypes": [
+                                        "jczwgvzkucgegmwk"
+                                    ],
+                                    "BareMetal": "mziinfjeakbhfnmt",
+                                    "BaselineEbsBandwidthMbps": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "BurstablePerformance": "ihblqpqxgbzcejlq",
+                                    "CpuManufacturers": [
+                                        "omddfoohdxrvjrvy"
+                                    ],
+                                    "ExcludedInstanceTypes": [
+                                        "bwrezoywjvfsjhys"
+                                    ],
+                                    "InstanceGenerations": [
+                                        "qtrnwqcvviqinkom"
+                                    ],
+                                    "LocalStorage": "rcsulpbmnddvqolr",
+                                    "LocalStorageTypes": [
+                                        "vzeorajkahmqqrgy"
+                                    ],
+                                    "MaxSpotPriceAsPercentageOfOptimalOnDemandPrice": 0,
+                                    "MemoryGiBPerVCpu": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "MemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "NetworkBandwidthGbps": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "NetworkInterfaceCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "OnDemandMaxPricePercentageOverLowestPrice": 0,
+                                    "RequireHibernateSupport": true,
+                                    "SpotMaxPricePercentageOverLowestPrice": 0,
+                                    "TotalLocalStorageGB": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "VCpuCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    }
+                                },
+                                "InstanceType": "qmsqgcgvyxxiymxd",
+                                "MaxPrice": "mailddbnbzxyqgbi",
+                                "Placement": {
+                                    "GroupName": "dmfxtnblcdhpsszz"
+                                },
+                                "Priority": 0.0,
+                                "SubnetId": "awctbjyjilhkmvlp",
+                                "WeightedCapacity": 0.0
+                            }
+                        ]
+                    }
+                ],
+                "OnDemandOptions": {
+                    "AllocationStrategy": "lbokprmlewsnwioe",
+                    "CapacityReservationOptions": {
+                        "UsageStrategy": "anszfrvtubevdwkx"
+                    },
+                    "MaxTotalPrice": "sgsuxolxpnpshley",
+                    "MinTargetCapacity": 0,
+                    "SingleAvailabilityZone": true,
+                    "SingleInstanceType": true
+                },
+                "ReplaceUnhealthyInstances": true,
+                "SpotOptions": {
+                    "AllocationStrategy": "qjrpzjwqmgvqjulg",
+                    "InstanceInterruptionBehavior": "djkdscpalxnymhxk",
+                    "InstancePoolsToUseCount": 0,
+                    "MaintenanceStrategies": {
+                        "CapacityRebalance": {
+                            "ReplacementStrategy": "gyepqsodxalpulco",
+                            "TerminationDelay": 0
+                        }
+                    },
+                    "MaxTotalPrice": "ncbjakrupbhoqwgw",
+                    "MinTargetCapacity": 0,
+                    "SingleAvailabilityZone": true,
+                    "SingleInstanceType": true
+                },
+                "Tags": [
+                    {
+                        "Key": "vmhfluuqutlpwruc",
+                        "Value": "vjmscjimgtbidmrx"
+                    }
+                ],
+                "TargetCapacitySpecification": {
+                    "DefaultTargetCapacityType": "hpymvlavpkxabpvo",
+                    "OnDemandTargetCapacity": 0,
+                    "SpotTargetCapacity": 0,
+                    "TargetCapacityUnitType": "zpqnqtwhabcdqjxt",
+                    "TotalTargetCapacity": 0
+                },
+                "TerminateInstancesWithExpiration": true,
+                "Type": "fofitamobabsllvp",
+                "ValidFrom": "xzlloairyzwxqrut",
+                "ValidUntil": "ptkasihfmmmkfoli"
+            },
+            {
+                "ActivityStatus": "dfudjofbpzlwmxes",
+                "ClientToken": "jdfwvdjksbbgusrq",
+                "Context": "ypcvileagxgpstjq",
+                "CreateTime": "nnkqytosyfdzgfyx",
+                "Errors": [
+                    {
+                        "ErrorCode": "zdkdrtxfgqbgxddx",
+                        "ErrorMessage": "ngabaqyhbilkyawo",
+                        "LaunchTemplateAndOverrides": {
+                            "LaunchTemplateSpecification": {
+                                "LaunchTemplateId": "vvllznoiuseecajy",
+                                "LaunchTemplateName": "jumihdsqnsiaqrik",
+                                "Version": "vccnjvhkmsyrjddw"
+                            },
+                            "Overrides": {
+                                "AvailabilityZone": "duxucoffiopbgmvr",
+                                "ImageId": "tyvhmhalqnpyizhd",
+                                "InstanceRequirements": {
+                                    "AcceleratorCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorManufacturers": [
+                                        "fbxrzbuvahikxbzo"
+                                    ],
+                                    "AcceleratorNames": [
+                                        "jgouipbfszbhbpiv"
+                                    ],
+                                    "AcceleratorTotalMemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorTypes": [
+                                        "pextuxhlatowcazp"
+                                    ],
+                                    "AllowedInstanceTypes": [
+                                        "dxijcwkrkdjbcbcj"
+                                    ],
+                                    "BareMetal": "etazsqeihjvzsqhu",
+                                    "BaselineEbsBandwidthMbps": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "BurstablePerformance": "yrgwdvkithhoikns",
+                                    "CpuManufacturers": [
+                                        "zwjepvmjigdglkbr"
+                                    ],
+                                    "ExcludedInstanceTypes": [
+                                        "ifieogkcdrveavag"
+                                    ],
+                                    "InstanceGenerations": [
+                                        "qrnirlknxlpborpd"
+                                    ],
+                                    "LocalStorage": "udweazxcpskrlrit",
+                                    "LocalStorageTypes": [
+                                        "igburjhnbynmglls"
+                                    ],
+                                    "MaxSpotPriceAsPercentageOfOptimalOnDemandPrice": 0,
+                                    "MemoryGiBPerVCpu": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "MemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "NetworkBandwidthGbps": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "NetworkInterfaceCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "OnDemandMaxPricePercentageOverLowestPrice": 0,
+                                    "RequireHibernateSupport": true,
+                                    "SpotMaxPricePercentageOverLowestPrice": 0,
+                                    "TotalLocalStorageGB": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "VCpuCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    }
+                                },
+                                "InstanceType": "ztuikpowybguqfjc",
+                                "MaxPrice": "etvpbfvlzxgpfbin",
+                                "Placement": {
+                                    "GroupName": "bxynxguhqktdwlon"
+                                },
+                                "Priority": 0.0,
+                                "SubnetId": "zahgxsbxgyegjbvb",
+                                "WeightedCapacity": 0.0
+                            }
+                        },
+                        "Lifecycle": "yvlpsqeadnyrejga"
+                    }
+                ],
+                "ExcessCapacityTerminationPolicy": "ohwnwyyzhjztmmah",
+                "FleetId": "fmxzuuluflkljfif",
+                "FleetState": "zaonnpmtzyfgyhnh",
+                "FulfilledCapacity": 0.0,
+                "FulfilledOnDemandCapacity": 0.0,
+                "Instances": [
+                    {
+                        "InstanceIds": [
+                            "qelqxruvyjikhdua"
+                        ],
+                        "InstanceType": "vcbvditfedruxrix",
+                        "LaunchTemplateAndOverrides": {
+                            "LaunchTemplateSpecification": {
+                                "LaunchTemplateId": "xgxpymzsbkqysqck",
+                                "LaunchTemplateName": "hhcqpirajzmkwevs",
+                                "Version": "camncuiivzmmxplt"
+                            },
+                            "Overrides": {
+                                "AvailabilityZone": "ktastoptlwbtsgoy",
+                                "ImageId": "dqwuolofeutpznym",
+                                "InstanceRequirements": {
+                                    "AcceleratorCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorManufacturers": [
+                                        "amwrmjzlbafzuxyp"
+                                    ],
+                                    "AcceleratorNames": [
+                                        "vmrgprcdihbwvdie"
+                                    ],
+                                    "AcceleratorTotalMemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorTypes": [
+                                        "qcptujpctylprcsi"
+                                    ],
+                                    "AllowedInstanceTypes": [
+                                        "xqytjytzegfgxmki"
+                                    ],
+                                    "BareMetal": "jlswfjpgtgxjmbhy",
+                                    "BaselineEbsBandwidthMbps": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "BurstablePerformance": "ofydullithyegvyt",
+                                    "CpuManufacturers": [
+                                        "vzmvymgygnrlmsau"
+                                    ],
+                                    "ExcludedInstanceTypes": [
+                                        "yaqojdcyuitdtevp"
+                                    ],
+                                    "InstanceGenerations": [
+                                        "sqiplgjnmzytpqeh"
+                                    ],
+                                    "LocalStorage": "npckuwfjpsuvdoqa",
+                                    "LocalStorageTypes": [
+                                        "pbpwdsqypuyrrnzp"
+                                    ],
+                                    "MaxSpotPriceAsPercentageOfOptimalOnDemandPrice": 0,
+                                    "MemoryGiBPerVCpu": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "MemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "NetworkBandwidthGbps": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "NetworkInterfaceCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "OnDemandMaxPricePercentageOverLowestPrice": 0,
+                                    "RequireHibernateSupport": true,
+                                    "SpotMaxPricePercentageOverLowestPrice": 0,
+                                    "TotalLocalStorageGB": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "VCpuCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    }
+                                },
+                                "InstanceType": "ucmydlbmgpvrlpqm",
+                                "MaxPrice": "dftdbpuytmaypdky",
+                                "Placement": {
+                                    "GroupName": "edxbitjsaovukjwu"
+                                },
+                                "Priority": 0.0,
+                                "SubnetId": "ybhzgewtapzlsqiw",
+                                "WeightedCapacity": 0.0
+                            }
+                        },
+                        "Lifecycle": "lmxhmaxecfjdqkwe",
+                        "Platform": "kujtbqjcsdegiqxu"
+                    }
+                ],
+                "LaunchTemplateConfigs": [
+                    {
+                        "LaunchTemplateSpecification": {
+                            "LaunchTemplateId": "xcstglwefvkighxl",
+                            "LaunchTemplateName": "jpkfkroqtgqeasob",
+                            "Version": "mnuodjaomlzkcsxp"
+                        },
+                        "Overrides": [
+                            {
+                                "AvailabilityZone": "lqnrfcmfpvkkewrj",
+                                "ImageId": "yiezgbqshevdocei",
+                                "InstanceRequirements": {
+                                    "AcceleratorCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorManufacturers": [
+                                        "mwciboeprkmkayra"
+                                    ],
+                                    "AcceleratorNames": [
+                                        "djopnakxtdiuiuqa"
+                                    ],
+                                    "AcceleratorTotalMemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorTypes": [
+                                        "vsxpfmxenwyoltvx"
+                                    ],
+                                    "AllowedInstanceTypes": [
+                                        "codpbnjunrzoliav"
+                                    ],
+                                    "BareMetal": "qivxwnnxmjqkgyyl",
+                                    "BaselineEbsBandwidthMbps": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "BurstablePerformance": "seffnhmqkadgckwa",
+                                    "CpuManufacturers": [
+                                        "gjsnmtwdvwghldpy"
+                                    ],
+                                    "ExcludedInstanceTypes": [
+                                        "yondiaocjgrgiaiw"
+                                    ],
+                                    "InstanceGenerations": [
+                                        "hemwffbfiyzhaals"
+                                    ],
+                                    "LocalStorage": "dubresrqhoreazaq",
+                                    "LocalStorageTypes": [
+                                        "ozaztpjcniogfunp"
+                                    ],
+                                    "MaxSpotPriceAsPercentageOfOptimalOnDemandPrice": 0,
+                                    "MemoryGiBPerVCpu": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "MemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "NetworkBandwidthGbps": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "NetworkInterfaceCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "OnDemandMaxPricePercentageOverLowestPrice": 0,
+                                    "RequireHibernateSupport": true,
+                                    "SpotMaxPricePercentageOverLowestPrice": 0,
+                                    "TotalLocalStorageGB": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "VCpuCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    }
+                                },
+                                "InstanceType": "inkqsoaxgkdzanzv",
+                                "MaxPrice": "nqebxwcvmurlnjut",
+                                "Placement": {
+                                    "GroupName": "cjwvqwawroblxhfk"
+                                },
+                                "Priority": 0.0,
+                                "SubnetId": "pfmjiylwkzvpgntp",
+                                "WeightedCapacity": 0.0
+                            }
+                        ]
+                    }
+                ],
+                "OnDemandOptions": {
+                    "AllocationStrategy": "tzxnonghdkbrskeq",
+                    "CapacityReservationOptions": {
+                        "UsageStrategy": "mennaydifkejjkjj"
+                    },
+                    "MaxTotalPrice": "pxarpbhpjgvwunoz",
+                    "MinTargetCapacity": 0,
+                    "SingleAvailabilityZone": true,
+                    "SingleInstanceType": true
+                },
+                "ReplaceUnhealthyInstances": true,
+                "SpotOptions": {
+                    "AllocationStrategy": "edtiphlpbuzuexhg",
+                    "InstanceInterruptionBehavior": "fyditgagebglemuc",
+                    "InstancePoolsToUseCount": 0,
+                    "MaintenanceStrategies": {
+                        "CapacityRebalance": {
+                            "ReplacementStrategy": "gcgsudtcyafculqu",
+                            "TerminationDelay": 0
+                        }
+                    },
+                    "MaxTotalPrice": "zoaztlbxmvlfuzup",
+                    "MinTargetCapacity": 0,
+                    "SingleAvailabilityZone": true,
+                    "SingleInstanceType": true
+                },
+                "Tags": [
+                    {
+                        "Key": "zmwrurtiyqskdier",
+                        "Value": "dawcbwzudnmwblon"
+                    }
+                ],
+                "TargetCapacitySpecification": {
+                    "DefaultTargetCapacityType": "rkreinpsglxkufrf",
+                    "OnDemandTargetCapacity": 0,
+                    "SpotTargetCapacity": 0,
+                    "TargetCapacityUnitType": "gdqbmwbcmdhqtqew",
+                    "TotalTargetCapacity": 0
+                },
+                "TerminateInstancesWithExpiration": true,
+                "Type": "iblnmjmnwvfumlms",
+                "ValidFrom": "artxsldzoiirmney",
+                "ValidUntil": "alyrggjtryedykpj"
+            },
+            {
+                "ActivityStatus": "flolixgxseunujpw",
+                "ClientToken": "ktzwvienxvhnyeot",
+                "Context": "kenkarrcagpwvfmw",
+                "CreateTime": "rixglqhmfzlgjnsv",
+                "Errors": [
+                    {
+                        "ErrorCode": "tmynzvljnbtugrdi",
+                        "ErrorMessage": "rlwpgtvziienxbml",
+                        "LaunchTemplateAndOverrides": {
+                            "LaunchTemplateSpecification": {
+                                "LaunchTemplateId": "rhnqscaqxidqkirb",
+                                "LaunchTemplateName": "acuxthnjpbcplllo",
+                                "Version": "lmpsmlztggrbjcqg"
+                            },
+                            "Overrides": {
+                                "AvailabilityZone": "jntlkcvxnqdcvbev",
+                                "ImageId": "afnjxdhqsbkdiuej",
+                                "InstanceRequirements": {
+                                    "AcceleratorCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorManufacturers": [
+                                        "ezlemdgvlmalecmr"
+                                    ],
+                                    "AcceleratorNames": [
+                                        "xwrfcbjsuefotmse"
+                                    ],
+                                    "AcceleratorTotalMemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorTypes": [
+                                        "cyxwleovhemwtane"
+                                    ],
+                                    "AllowedInstanceTypes": [
+                                        "jkcuxnfwciihzhqi"
+                                    ],
+                                    "BareMetal": "lhcapzumihxltagr",
+                                    "BaselineEbsBandwidthMbps": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "BurstablePerformance": "tchymoaqkvwesxhc",
+                                    "CpuManufacturers": [
+                                        "xgdfdcfetwcdagtp"
+                                    ],
+                                    "ExcludedInstanceTypes": [
+                                        "uuoejrvqplkpbrvc"
+                                    ],
+                                    "InstanceGenerations": [
+                                        "qenbhwubybenimzw"
+                                    ],
+                                    "LocalStorage": "fifnemenfpocdtbj",
+                                    "LocalStorageTypes": [
+                                        "nnjyocwtodshowpe"
+                                    ],
+                                    "MaxSpotPriceAsPercentageOfOptimalOnDemandPrice": 0,
+                                    "MemoryGiBPerVCpu": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "MemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "NetworkBandwidthGbps": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "NetworkInterfaceCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "OnDemandMaxPricePercentageOverLowestPrice": 0,
+                                    "RequireHibernateSupport": true,
+                                    "SpotMaxPricePercentageOverLowestPrice": 0,
+                                    "TotalLocalStorageGB": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "VCpuCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    }
+                                },
+                                "InstanceType": "hkywisggyztmopsr",
+                                "MaxPrice": "hrzqyrxrcskhkfhd",
+                                "Placement": {
+                                    "GroupName": "qlczshwvcmlqgeit"
+                                },
+                                "Priority": 0.0,
+                                "SubnetId": "suxnwkafvfpjtjnq",
+                                "WeightedCapacity": 0.0
+                            }
+                        },
+                        "Lifecycle": "fdtooyymtydvootb"
+                    }
+                ],
+                "ExcessCapacityTerminationPolicy": "bujgqthahmllpszf",
+                "FleetId": "oetjtrimlkyuendf",
+                "FleetState": "wsquexqeivupmqaa",
+                "FulfilledCapacity": 0.0,
+                "FulfilledOnDemandCapacity": 0.0,
+                "Instances": [
+                    {
+                        "InstanceIds": [
+                            "kphybcpuzjxhyezx"
+                        ],
+                        "InstanceType": "tylxdghndrmadmwr",
+                        "LaunchTemplateAndOverrides": {
+                            "LaunchTemplateSpecification": {
+                                "LaunchTemplateId": "bkpmvznllboalkwy",
+                                "LaunchTemplateName": "epsifgbtmboprime",
+                                "Version": "zsictdrymvsqdinb"
+                            },
+                            "Overrides": {
+                                "AvailabilityZone": "ljcmmsmvwkxydtbj",
+                                "ImageId": "oeziefpkoggqrgdf",
+                                "InstanceRequirements": {
+                                    "AcceleratorCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorManufacturers": [
+                                        "aehxiadmhrtajsbp"
+                                    ],
+                                    "AcceleratorNames": [
+                                        "qrshcghgrxruimzr"
+                                    ],
+                                    "AcceleratorTotalMemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorTypes": [
+                                        "vlmograwckastsnx"
+                                    ],
+                                    "AllowedInstanceTypes": [
+                                        "mwhndtrenovyefiv"
+                                    ],
+                                    "BareMetal": "pjprtaetonyluiku",
+                                    "BaselineEbsBandwidthMbps": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "BurstablePerformance": "csjzygjaodmqbvtn",
+                                    "CpuManufacturers": [
+                                        "aopgslasgauoitpf"
+                                    ],
+                                    "ExcludedInstanceTypes": [
+                                        "omewcpscjpfwzqmu"
+                                    ],
+                                    "InstanceGenerations": [
+                                        "mugfuffwyegjsnof"
+                                    ],
+                                    "LocalStorage": "yukcqvvppxsjtegz",
+                                    "LocalStorageTypes": [
+                                        "wfqipzgxnuclblhn"
+                                    ],
+                                    "MaxSpotPriceAsPercentageOfOptimalOnDemandPrice": 0,
+                                    "MemoryGiBPerVCpu": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "MemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "NetworkBandwidthGbps": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "NetworkInterfaceCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "OnDemandMaxPricePercentageOverLowestPrice": 0,
+                                    "RequireHibernateSupport": true,
+                                    "SpotMaxPricePercentageOverLowestPrice": 0,
+                                    "TotalLocalStorageGB": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "VCpuCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    }
+                                },
+                                "InstanceType": "smjqqpznuuokkwiy",
+                                "MaxPrice": "gtlinutusfprlzbm",
+                                "Placement": {
+                                    "GroupName": "nleuksrpxvgjyjbx"
+                                },
+                                "Priority": 0.0,
+                                "SubnetId": "ygpkyhatopdpebsx",
+                                "WeightedCapacity": 0.0
+                            }
+                        },
+                        "Lifecycle": "ndqpzlxgquhlhnlo",
+                        "Platform": "fhrdokrxnifmzfvl"
+                    }
+                ],
+                "LaunchTemplateConfigs": [
+                    {
+                        "LaunchTemplateSpecification": {
+                            "LaunchTemplateId": "ywktzohvqlcfhwwy",
+                            "LaunchTemplateName": "lugbyzdxcwmjjbvb",
+                            "Version": "plhdpnkfqashwmwt"
+                        },
+                        "Overrides": [
+                            {
+                                "AvailabilityZone": "onzgndcysarjbxih",
+                                "ImageId": "biimeqkxicfbgmif",
+                                "InstanceRequirements": {
+                                    "AcceleratorCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorManufacturers": [
+                                        "tlmwwbpppuukslse"
+                                    ],
+                                    "AcceleratorNames": [
+                                        "bginjrkvxfkecbey"
+                                    ],
+                                    "AcceleratorTotalMemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorTypes": [
+                                        "xqocwgzwidheukni"
+                                    ],
+                                    "AllowedInstanceTypes": [
+                                        "bevirezfqinlyarp"
+                                    ],
+                                    "BareMetal": "zwijbypwivnjjycp",
+                                    "BaselineEbsBandwidthMbps": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "BurstablePerformance": "fqnomxfhudsjtufh",
+                                    "CpuManufacturers": [
+                                        "xycxiesprdrtfodb"
+                                    ],
+                                    "ExcludedInstanceTypes": [
+                                        "zmldkecclvvmznua"
+                                    ],
+                                    "InstanceGenerations": [
+                                        "yxujisricwovhrxp"
+                                    ],
+                                    "LocalStorage": "glwpoeewzbmbujzr",
+                                    "LocalStorageTypes": [
+                                        "fctptconjwxkebxk"
+                                    ],
+                                    "MaxSpotPriceAsPercentageOfOptimalOnDemandPrice": 0,
+                                    "MemoryGiBPerVCpu": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "MemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "NetworkBandwidthGbps": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "NetworkInterfaceCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "OnDemandMaxPricePercentageOverLowestPrice": 0,
+                                    "RequireHibernateSupport": true,
+                                    "SpotMaxPricePercentageOverLowestPrice": 0,
+                                    "TotalLocalStorageGB": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "VCpuCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    }
+                                },
+                                "InstanceType": "xrgzhrhtgrvellak",
+                                "MaxPrice": "rlmnucqkgdvtcgws",
+                                "Placement": {
+                                    "GroupName": "xkoavgrnfiilhhgv"
+                                },
+                                "Priority": 0.0,
+                                "SubnetId": "rvxuqocsezuynpvm",
+                                "WeightedCapacity": 0.0
+                            }
+                        ]
+                    }
+                ],
+                "OnDemandOptions": {
+                    "AllocationStrategy": "qigqxlsfvfvxqmtl",
+                    "CapacityReservationOptions": {
+                        "UsageStrategy": "pkcqettrxhnfztxk"
+                    },
+                    "MaxTotalPrice": "ukosnotrbxlmuxyx",
+                    "MinTargetCapacity": 0,
+                    "SingleAvailabilityZone": true,
+                    "SingleInstanceType": true
+                },
+                "ReplaceUnhealthyInstances": true,
+                "SpotOptions": {
+                    "AllocationStrategy": "ggvughrijotfnlal",
+                    "InstanceInterruptionBehavior": "hbtzimniphissrvj",
+                    "InstancePoolsToUseCount": 0,
+                    "MaintenanceStrategies": {
+                        "CapacityRebalance": {
+                            "ReplacementStrategy": "hksnomboztchwtjt",
+                            "TerminationDelay": 0
+                        }
+                    },
+                    "MaxTotalPrice": "ibtzlpewvvjjzfny",
+                    "MinTargetCapacity": 0,
+                    "SingleAvailabilityZone": true,
+                    "SingleInstanceType": true
+                },
+                "Tags": [
+                    {
+                        "Key": "toefbplbwmbxxewf",
+                        "Value": "vvgscxkptlgtmujy"
+                    }
+                ],
+                "TargetCapacitySpecification": {
+                    "DefaultTargetCapacityType": "zycgnuqlhznaufcc",
+                    "OnDemandTargetCapacity": 0,
+                    "SpotTargetCapacity": 0,
+                    "TargetCapacityUnitType": "bbafwlvhdmmzllvh",
+                    "TotalTargetCapacity": 0
+                },
+                "TerminateInstancesWithExpiration": true,
+                "Type": "hhqslgikwiwtkumv",
+                "ValidFrom": "ghboyukfikdwosnp",
+                "ValidUntil": "cfsnbajcwesjvrxg"
+            },
+            {
+                "ActivityStatus": "xtwepyrpobjksfwt",
+                "ClientToken": "mtmuvphumrvxyfxe",
+                "Context": "npfepteinrctsdpm",
+                "CreateTime": "hxujawjlzmvhltft",
+                "Errors": [
+                    {
+                        "ErrorCode": "rdchpimybrxhmeyw",
+                        "ErrorMessage": "dgrklctosgymspia",
+                        "LaunchTemplateAndOverrides": {
+                            "LaunchTemplateSpecification": {
+                                "LaunchTemplateId": "hkxgdkonabfxsyiu",
+                                "LaunchTemplateName": "jwqecdowmqlnrfgv",
+                                "Version": "ywnxgyfpggtigtzw"
+                            },
+                            "Overrides": {
+                                "AvailabilityZone": "yyzxzroawsksgbti",
+                                "ImageId": "sphwnettwojkvgyf",
+                                "InstanceRequirements": {
+                                    "AcceleratorCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorManufacturers": [
+                                        "idltzjwubdqxiqeo"
+                                    ],
+                                    "AcceleratorNames": [
+                                        "rcelnotoxvprcxie"
+                                    ],
+                                    "AcceleratorTotalMemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorTypes": [
+                                        "ekdaktmgbwswmnkw"
+                                    ],
+                                    "AllowedInstanceTypes": [
+                                        "wylcqzegxtwbpbrz"
+                                    ],
+                                    "BareMetal": "xutzqwyfayvkbabm",
+                                    "BaselineEbsBandwidthMbps": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "BurstablePerformance": "slboxqtmantcdtuj",
+                                    "CpuManufacturers": [
+                                        "grxhbmcatltphjyc"
+                                    ],
+                                    "ExcludedInstanceTypes": [
+                                        "fzuiwxqapidnqokp"
+                                    ],
+                                    "InstanceGenerations": [
+                                        "zdxnpcvycfssdtnw"
+                                    ],
+                                    "LocalStorage": "ixkseelrtfptnsqy",
+                                    "LocalStorageTypes": [
+                                        "zvgwixgdsdzcovpu"
+                                    ],
+                                    "MaxSpotPriceAsPercentageOfOptimalOnDemandPrice": 0,
+                                    "MemoryGiBPerVCpu": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "MemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "NetworkBandwidthGbps": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "NetworkInterfaceCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "OnDemandMaxPricePercentageOverLowestPrice": 0,
+                                    "RequireHibernateSupport": true,
+                                    "SpotMaxPricePercentageOverLowestPrice": 0,
+                                    "TotalLocalStorageGB": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "VCpuCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    }
+                                },
+                                "InstanceType": "pfcfckeockcpgvld",
+                                "MaxPrice": "ufthqocufjgnyhri",
+                                "Placement": {
+                                    "GroupName": "gfkncjcyzvjreckm"
+                                },
+                                "Priority": 0.0,
+                                "SubnetId": "klmdbklhmxnhdbtr",
+                                "WeightedCapacity": 0.0
+                            }
+                        },
+                        "Lifecycle": "okiiwdryxetdhmka"
+                    }
+                ],
+                "ExcessCapacityTerminationPolicy": "vadrtwwicmnvaeir",
+                "FleetId": "wvzcaodbytgerhot",
+                "FleetState": "haxqwrpdimmfjriq",
+                "FulfilledCapacity": 0.0,
+                "FulfilledOnDemandCapacity": 0.0,
+                "Instances": [
+                    {
+                        "InstanceIds": [
+                            "euxylgdvgrtlppiq"
+                        ],
+                        "InstanceType": "hwqdgjpvlphwtcvt",
+                        "LaunchTemplateAndOverrides": {
+                            "LaunchTemplateSpecification": {
+                                "LaunchTemplateId": "xyupsotwbmbhwcck",
+                                "LaunchTemplateName": "kmhcnnqtcgfruapa",
+                                "Version": "jnqvdgkvwhsvdzgd"
+                            },
+                            "Overrides": {
+                                "AvailabilityZone": "hmkywdrazuxkvxno",
+                                "ImageId": "uqosgkpvyuqbyavl",
+                                "InstanceRequirements": {
+                                    "AcceleratorCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorManufacturers": [
+                                        "giddmexpusbqbqpu"
+                                    ],
+                                    "AcceleratorNames": [
+                                        "yyzvgnowoezyndpt"
+                                    ],
+                                    "AcceleratorTotalMemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorTypes": [
+                                        "wyryymqizoskcfaa"
+                                    ],
+                                    "AllowedInstanceTypes": [
+                                        "zjahmneejsxeozdd"
+                                    ],
+                                    "BareMetal": "gvdmdwzyawkuytfg",
+                                    "BaselineEbsBandwidthMbps": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "BurstablePerformance": "akbbagrzrojurkoq",
+                                    "CpuManufacturers": [
+                                        "ojlxztdzhvosprbl"
+                                    ],
+                                    "ExcludedInstanceTypes": [
+                                        "rnhvombhhlsxecfu"
+                                    ],
+                                    "InstanceGenerations": [
+                                        "vpgrwurtlgzrwxux"
+                                    ],
+                                    "LocalStorage": "ljilodbkdtyuoaio",
+                                    "LocalStorageTypes": [
+                                        "mikcbgblsekfcanl"
+                                    ],
+                                    "MaxSpotPriceAsPercentageOfOptimalOnDemandPrice": 0,
+                                    "MemoryGiBPerVCpu": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "MemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "NetworkBandwidthGbps": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "NetworkInterfaceCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "OnDemandMaxPricePercentageOverLowestPrice": 0,
+                                    "RequireHibernateSupport": true,
+                                    "SpotMaxPricePercentageOverLowestPrice": 0,
+                                    "TotalLocalStorageGB": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "VCpuCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    }
+                                },
+                                "InstanceType": "sqmwnoresgbbgqkn",
+                                "MaxPrice": "smyuyephlrbnsyvo",
+                                "Placement": {
+                                    "GroupName": "tbefntjlbnvnfsba"
+                                },
+                                "Priority": 0.0,
+                                "SubnetId": "bbzzglmymvlaymch",
+                                "WeightedCapacity": 0.0
+                            }
+                        },
+                        "Lifecycle": "johehapuqpjobttm",
+                        "Platform": "yykwcdijoeynsuxx"
+                    }
+                ],
+                "LaunchTemplateConfigs": [
+                    {
+                        "LaunchTemplateSpecification": {
+                            "LaunchTemplateId": "izftsqtejjqjrfjq",
+                            "LaunchTemplateName": "kuthmoiuhvwqmntp",
+                            "Version": "hynlphfwglwbkqdf"
+                        },
+                        "Overrides": [
+                            {
+                                "AvailabilityZone": "zeloinshnbgteotm",
+                                "ImageId": "kdzigqzdsebueysk",
+                                "InstanceRequirements": {
+                                    "AcceleratorCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorManufacturers": [
+                                        "dxmpbdyioinedxce"
+                                    ],
+                                    "AcceleratorNames": [
+                                        "locmfmvbvopklplg"
+                                    ],
+                                    "AcceleratorTotalMemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorTypes": [
+                                        "flnkwxihxleokkvd"
+                                    ],
+                                    "AllowedInstanceTypes": [
+                                        "flnesnabgmthvbmu"
+                                    ],
+                                    "BareMetal": "pufwxzgovdjxwofj",
+                                    "BaselineEbsBandwidthMbps": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "BurstablePerformance": "xnonqbrgyreyfljl",
+                                    "CpuManufacturers": [
+                                        "ikkjbenmfgiaeyuo"
+                                    ],
+                                    "ExcludedInstanceTypes": [
+                                        "ufnognydwrwxfzwm"
+                                    ],
+                                    "InstanceGenerations": [
+                                        "qxhmpaqyioahngji"
+                                    ],
+                                    "LocalStorage": "xozrtcuylayhkdgc",
+                                    "LocalStorageTypes": [
+                                        "evbygpmcicpwyjpi"
+                                    ],
+                                    "MaxSpotPriceAsPercentageOfOptimalOnDemandPrice": 0,
+                                    "MemoryGiBPerVCpu": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "MemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "NetworkBandwidthGbps": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "NetworkInterfaceCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "OnDemandMaxPricePercentageOverLowestPrice": 0,
+                                    "RequireHibernateSupport": true,
+                                    "SpotMaxPricePercentageOverLowestPrice": 0,
+                                    "TotalLocalStorageGB": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "VCpuCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    }
+                                },
+                                "InstanceType": "tyvyzuujhhjgdpxo",
+                                "MaxPrice": "aiwczhiooigdiycx",
+                                "Placement": {
+                                    "GroupName": "gmzvgwvtifqatvqj"
+                                },
+                                "Priority": 0.0,
+                                "SubnetId": "zadgjyiwofcnprob",
+                                "WeightedCapacity": 0.0
+                            }
+                        ]
+                    }
+                ],
+                "OnDemandOptions": {
+                    "AllocationStrategy": "mnypevdcphznfrxf",
+                    "CapacityReservationOptions": {
+                        "UsageStrategy": "rleezerbzrxrwfdq"
+                    },
+                    "MaxTotalPrice": "omordvznyxitxnsv",
+                    "MinTargetCapacity": 0,
+                    "SingleAvailabilityZone": true,
+                    "SingleInstanceType": true
+                },
+                "ReplaceUnhealthyInstances": true,
+                "SpotOptions": {
+                    "AllocationStrategy": "rgefgqncujvevkms",
+                    "InstanceInterruptionBehavior": "hnxpqjmffucowikx",
+                    "InstancePoolsToUseCount": 0,
+                    "MaintenanceStrategies": {
+                        "CapacityRebalance": {
+                            "ReplacementStrategy": "pniwbnwhhpkttyeb",
+                            "TerminationDelay": 0
+                        }
+                    },
+                    "MaxTotalPrice": "twbuxmorrbttrgjj",
+                    "MinTargetCapacity": 0,
+                    "SingleAvailabilityZone": true,
+                    "SingleInstanceType": true
+                },
+                "Tags": [
+                    {
+                        "Key": "xegraksdooewynwt",
+                        "Value": "wsyboxkxdxukqoos"
+                    }
+                ],
+                "TargetCapacitySpecification": {
+                    "DefaultTargetCapacityType": "wnhanrppxflbpell",
+                    "OnDemandTargetCapacity": 0,
+                    "SpotTargetCapacity": 0,
+                    "TargetCapacityUnitType": "ikuxetdcfmqzwkcy",
+                    "TotalTargetCapacity": 0
+                },
+                "TerminateInstancesWithExpiration": true,
+                "Type": "qnprynhmabzlcjnc",
+                "ValidFrom": "rwouclfqgzbyvawm",
+                "ValidUntil": "dazhwoosthwagazg"
+            },
+            {
+                "ActivityStatus": "ilalhrlwpiyocaut",
+                "ClientToken": "edthtdeloycqyhsf",
+                "Context": "akgtopjnjybptgge",
+                "CreateTime": "esnhfcepmwscqvxl",
+                "Errors": [
+                    {
+                        "ErrorCode": "sndovjhwxudwmxzj",
+                        "ErrorMessage": "ulzfgepywjvuacgr",
+                        "LaunchTemplateAndOverrides": {
+                            "LaunchTemplateSpecification": {
+                                "LaunchTemplateId": "rtidbxqrnejucgyx",
+                                "LaunchTemplateName": "yuggjhxivzemtvkb",
+                                "Version": "ckdociidwfmalqia"
+                            },
+                            "Overrides": {
+                                "AvailabilityZone": "myuuskfqspjjvatj",
+                                "ImageId": "pefrxzdkjhuxuapp",
+                                "InstanceRequirements": {
+                                    "AcceleratorCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorManufacturers": [
+                                        "ugaksrdumfctwsfd"
+                                    ],
+                                    "AcceleratorNames": [
+                                        "itdiyitxpmfyqzeg"
+                                    ],
+                                    "AcceleratorTotalMemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorTypes": [
+                                        "wqxdweqixbpghxmd"
+                                    ],
+                                    "AllowedInstanceTypes": [
+                                        "zyxvnklmxwlmbqre"
+                                    ],
+                                    "BareMetal": "tzmnnrhjcsubrugk",
+                                    "BaselineEbsBandwidthMbps": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "BurstablePerformance": "bzecolnkjceiaksn",
+                                    "CpuManufacturers": [
+                                        "hrxhqyyzldtalnad"
+                                    ],
+                                    "ExcludedInstanceTypes": [
+                                        "ujqojnfwkrtnjkfi"
+                                    ],
+                                    "InstanceGenerations": [
+                                        "slztzdzmbcwmknvt"
+                                    ],
+                                    "LocalStorage": "xdpiefwsvvgwowuy",
+                                    "LocalStorageTypes": [
+                                        "nkmjcwlkfkwyivvm"
+                                    ],
+                                    "MaxSpotPriceAsPercentageOfOptimalOnDemandPrice": 0,
+                                    "MemoryGiBPerVCpu": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "MemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "NetworkBandwidthGbps": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "NetworkInterfaceCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "OnDemandMaxPricePercentageOverLowestPrice": 0,
+                                    "RequireHibernateSupport": true,
+                                    "SpotMaxPricePercentageOverLowestPrice": 0,
+                                    "TotalLocalStorageGB": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "VCpuCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    }
+                                },
+                                "InstanceType": "efrqyecqrecdazbn",
+                                "MaxPrice": "plugpgwiqpdakbsv",
+                                "Placement": {
+                                    "GroupName": "vvusznboiqcljznt"
+                                },
+                                "Priority": 0.0,
+                                "SubnetId": "jvciwvivvgvpliis",
+                                "WeightedCapacity": 0.0
+                            }
+                        },
+                        "Lifecycle": "irqhxqkbftycscyu"
+                    }
+                ],
+                "ExcessCapacityTerminationPolicy": "mivmgaelsymnhamq",
+                "FleetId": "nsyewjmhhzlkvytv",
+                "FleetState": "bcmsjrmwmbxjjcvw",
+                "FulfilledCapacity": 0.0,
+                "FulfilledOnDemandCapacity": 0.0,
+                "Instances": [
+                    {
+                        "InstanceIds": [
+                            "dkcilvmwvlnsnmzc"
+                        ],
+                        "InstanceType": "qtdsrxofivmdpxvj",
+                        "LaunchTemplateAndOverrides": {
+                            "LaunchTemplateSpecification": {
+                                "LaunchTemplateId": "fyyorjmbhmvkwjmm",
+                                "LaunchTemplateName": "xmbtjwudyjhzigvi",
+                                "Version": "xwgxxszwuxgedxxu"
+                            },
+                            "Overrides": {
+                                "AvailabilityZone": "yfxjzaahnawekjno",
+                                "ImageId": "gpzuyklrcaxwmooq",
+                                "InstanceRequirements": {
+                                    "AcceleratorCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorManufacturers": [
+                                        "xyweedtvblrhgbrv"
+                                    ],
+                                    "AcceleratorNames": [
+                                        "annuzqiumfbfcjys"
+                                    ],
+                                    "AcceleratorTotalMemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorTypes": [
+                                        "bpfjyhemufvedyzl"
+                                    ],
+                                    "AllowedInstanceTypes": [
+                                        "hmgzjzucblpkuzpn"
+                                    ],
+                                    "BareMetal": "knsfamozwsnbhdsn",
+                                    "BaselineEbsBandwidthMbps": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "BurstablePerformance": "mzrjvkrlaixotpvv",
+                                    "CpuManufacturers": [
+                                        "pchttyuwchfeiaul"
+                                    ],
+                                    "ExcludedInstanceTypes": [
+                                        "ioiyelfwkfoyulza"
+                                    ],
+                                    "InstanceGenerations": [
+                                        "qjoqokmkbxstyrqk"
+                                    ],
+                                    "LocalStorage": "vnuoolqydcxpfedj",
+                                    "LocalStorageTypes": [
+                                        "mupbobwojuxntcgv"
+                                    ],
+                                    "MaxSpotPriceAsPercentageOfOptimalOnDemandPrice": 0,
+                                    "MemoryGiBPerVCpu": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "MemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "NetworkBandwidthGbps": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "NetworkInterfaceCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "OnDemandMaxPricePercentageOverLowestPrice": 0,
+                                    "RequireHibernateSupport": true,
+                                    "SpotMaxPricePercentageOverLowestPrice": 0,
+                                    "TotalLocalStorageGB": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "VCpuCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    }
+                                },
+                                "InstanceType": "haaprahgnahfcqou",
+                                "MaxPrice": "gwhcgjeynrpbaauo",
+                                "Placement": {
+                                    "GroupName": "iuebygecbczovfyr"
+                                },
+                                "Priority": 0.0,
+                                "SubnetId": "lrshwxbzyuitihid",
+                                "WeightedCapacity": 0.0
+                            }
+                        },
+                        "Lifecycle": "qzgddrmwwfirpynt",
+                        "Platform": "fcagmlzzanyzkzeu"
+                    }
+                ],
+                "LaunchTemplateConfigs": [
+                    {
+                        "LaunchTemplateSpecification": {
+                            "LaunchTemplateId": "vdhuykuelnfjskhi",
+                            "LaunchTemplateName": "kcoqwsiycbkwefxj",
+                            "Version": "pfdzcpejzmnhubei"
+                        },
+                        "Overrides": [
+                            {
+                                "AvailabilityZone": "umoqmzhrlgmcensx",
+                                "ImageId": "ozvbphrybtkdxahw",
+                                "InstanceRequirements": {
+                                    "AcceleratorCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorManufacturers": [
+                                        "tltlvidunrfzorsn"
+                                    ],
+                                    "AcceleratorNames": [
+                                        "pksbzcvywodzmwph"
+                                    ],
+                                    "AcceleratorTotalMemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorTypes": [
+                                        "mcalfqnmraeqonfk"
+                                    ],
+                                    "AllowedInstanceTypes": [
+                                        "kfqggtapjzutbwcl"
+                                    ],
+                                    "BareMetal": "nfbygbapdkcxiujg",
+                                    "BaselineEbsBandwidthMbps": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "BurstablePerformance": "eiflidmhuefzdjpa",
+                                    "CpuManufacturers": [
+                                        "lonbxqftlupftfxp"
+                                    ],
+                                    "ExcludedInstanceTypes": [
+                                        "ofkbusfhjozhflhh"
+                                    ],
+                                    "InstanceGenerations": [
+                                        "coyqqygwatijarxz"
+                                    ],
+                                    "LocalStorage": "ltugpyewtnolgvye",
+                                    "LocalStorageTypes": [
+                                        "kmgcyfxunjchvbxo"
+                                    ],
+                                    "MaxSpotPriceAsPercentageOfOptimalOnDemandPrice": 0,
+                                    "MemoryGiBPerVCpu": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "MemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "NetworkBandwidthGbps": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "NetworkInterfaceCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "OnDemandMaxPricePercentageOverLowestPrice": 0,
+                                    "RequireHibernateSupport": true,
+                                    "SpotMaxPricePercentageOverLowestPrice": 0,
+                                    "TotalLocalStorageGB": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "VCpuCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    }
+                                },
+                                "InstanceType": "hklbtsbgyvdequtc",
+                                "MaxPrice": "szugltldbjnuscbb",
+                                "Placement": {
+                                    "GroupName": "kinrlpzuthawtgfe"
+                                },
+                                "Priority": 0.0,
+                                "SubnetId": "wbgfpdwvurqbyujo",
+                                "WeightedCapacity": 0.0
+                            }
+                        ]
+                    }
+                ],
+                "OnDemandOptions": {
+                    "AllocationStrategy": "jrwkofsxrfageqjx",
+                    "CapacityReservationOptions": {
+                        "UsageStrategy": "xeyxotxdhbcxengb"
+                    },
+                    "MaxTotalPrice": "cwyoeqcxwxabakgj",
+                    "MinTargetCapacity": 0,
+                    "SingleAvailabilityZone": true,
+                    "SingleInstanceType": true
+                },
+                "ReplaceUnhealthyInstances": true,
+                "SpotOptions": {
+                    "AllocationStrategy": "pkzvpkdefjwjqukv",
+                    "InstanceInterruptionBehavior": "dgfshedllptaoitg",
+                    "InstancePoolsToUseCount": 0,
+                    "MaintenanceStrategies": {
+                        "CapacityRebalance": {
+                            "ReplacementStrategy": "fbyesffpczgctrjd",
+                            "TerminationDelay": 0
+                        }
+                    },
+                    "MaxTotalPrice": "sesffskqzcxshsds",
+                    "MinTargetCapacity": 0,
+                    "SingleAvailabilityZone": true,
+                    "SingleInstanceType": true
+                },
+                "Tags": [
+                    {
+                        "Key": "tpyvvmsstimrgvpx",
+                        "Value": "qlzyhmnpcemutipy"
+                    }
+                ],
+                "TargetCapacitySpecification": {
+                    "DefaultTargetCapacityType": "jwwqykmnmnbgcgmt",
+                    "OnDemandTargetCapacity": 0,
+                    "SpotTargetCapacity": 0,
+                    "TargetCapacityUnitType": "xqrzbljltcwiakay",
+                    "TotalTargetCapacity": 0
+                },
+                "TerminateInstancesWithExpiration": true,
+                "Type": "fjarvwczkoahmezi",
+                "ValidFrom": "rylypljihukubnwu",
+                "ValidUntil": "gyugmpteqqamznyk"
+            },
+            {
+                "ActivityStatus": "acdtkjertremdzsj",
+                "ClientToken": "gibuzvrjkpedjqqc",
+                "Context": "ztsueghddczoylxn",
+                "CreateTime": "fvtongvapgmzwwwa",
+                "Errors": [
+                    {
+                        "ErrorCode": "mpvfnkslaihpmybf",
+                        "ErrorMessage": "mwzfqnaswdlvmdxx",
+                        "LaunchTemplateAndOverrides": {
+                            "LaunchTemplateSpecification": {
+                                "LaunchTemplateId": "unlwuvoudufjtupv",
+                                "LaunchTemplateName": "gycitdwntsapktvq",
+                                "Version": "swpkpzmyhegjlndi"
+                            },
+                            "Overrides": {
+                                "AvailabilityZone": "zyztnqappdxjscyc",
+                                "ImageId": "imwzsyrojnktbmir",
+                                "InstanceRequirements": {
+                                    "AcceleratorCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorManufacturers": [
+                                        "vjmyhgzoxvimhkxt"
+                                    ],
+                                    "AcceleratorNames": [
+                                        "zjexsxtpybdciysq"
+                                    ],
+                                    "AcceleratorTotalMemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorTypes": [
+                                        "fngoyghlchhqmcrr"
+                                    ],
+                                    "AllowedInstanceTypes": [
+                                        "ibehucmhctpmdvfz"
+                                    ],
+                                    "BareMetal": "jkdxuvvcpfibkyxq",
+                                    "BaselineEbsBandwidthMbps": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "BurstablePerformance": "xxkfcxwfdzffcrps",
+                                    "CpuManufacturers": [
+                                        "mowwmqjvptgvibrk"
+                                    ],
+                                    "ExcludedInstanceTypes": [
+                                        "ldbadzgrkqusglbz"
+                                    ],
+                                    "InstanceGenerations": [
+                                        "gcqqkcxbsdygdrev"
+                                    ],
+                                    "LocalStorage": "gsfqpamongdjeprj",
+                                    "LocalStorageTypes": [
+                                        "kgezdddaskcuwzbb"
+                                    ],
+                                    "MaxSpotPriceAsPercentageOfOptimalOnDemandPrice": 0,
+                                    "MemoryGiBPerVCpu": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "MemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "NetworkBandwidthGbps": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "NetworkInterfaceCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "OnDemandMaxPricePercentageOverLowestPrice": 0,
+                                    "RequireHibernateSupport": true,
+                                    "SpotMaxPricePercentageOverLowestPrice": 0,
+                                    "TotalLocalStorageGB": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "VCpuCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    }
+                                },
+                                "InstanceType": "jdyyfphrlpciicag",
+                                "MaxPrice": "nnofpjeqfsknbqei",
+                                "Placement": {
+                                    "GroupName": "gtpugjmaesrdbncc"
+                                },
+                                "Priority": 0.0,
+                                "SubnetId": "mnvuzykwuccxajxt",
+                                "WeightedCapacity": 0.0
+                            }
+                        },
+                        "Lifecycle": "doktifkmcmtkxngy"
+                    }
+                ],
+                "ExcessCapacityTerminationPolicy": "zjyqpzmfbakjkhyo",
+                "FleetId": "uktvbkdjqdylsnka",
+                "FleetState": "ecjcpsirrbwjcseg",
+                "FulfilledCapacity": 0.0,
+                "FulfilledOnDemandCapacity": 0.0,
+                "Instances": [
+                    {
+                        "InstanceIds": [
+                            "hcqoagoibbdvylpt"
+                        ],
+                        "InstanceType": "brxuofshfxkruixg",
+                        "LaunchTemplateAndOverrides": {
+                            "LaunchTemplateSpecification": {
+                                "LaunchTemplateId": "csanruklyfpcydqe",
+                                "LaunchTemplateName": "qpgmmsfesyhmzekv",
+                                "Version": "zkhlsjwkrfrrouhu"
+                            },
+                            "Overrides": {
+                                "AvailabilityZone": "zabgpgbwqmscligi",
+                                "ImageId": "accoltkbrslmfbkb",
+                                "InstanceRequirements": {
+                                    "AcceleratorCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorManufacturers": [
+                                        "ysnrxvqsqrzuwdhh"
+                                    ],
+                                    "AcceleratorNames": [
+                                        "hbwufieywambafzq"
+                                    ],
+                                    "AcceleratorTotalMemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorTypes": [
+                                        "qwyylngkoqkbxstg"
+                                    ],
+                                    "AllowedInstanceTypes": [
+                                        "mshnvxgsbywbyerq"
+                                    ],
+                                    "BareMetal": "uwpjzaqmhwppbrlf",
+                                    "BaselineEbsBandwidthMbps": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "BurstablePerformance": "dkvwvnuxjbchchlk",
+                                    "CpuManufacturers": [
+                                        "ghwpagyhctpaujoy"
+                                    ],
+                                    "ExcludedInstanceTypes": [
+                                        "zrgvurbsoelkhcan"
+                                    ],
+                                    "InstanceGenerations": [
+                                        "dofuvtgwydgnuadf"
+                                    ],
+                                    "LocalStorage": "hdmsiqpcoeyocxum",
+                                    "LocalStorageTypes": [
+                                        "jjqtbbwfdfpfvzwh"
+                                    ],
+                                    "MaxSpotPriceAsPercentageOfOptimalOnDemandPrice": 0,
+                                    "MemoryGiBPerVCpu": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "MemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "NetworkBandwidthGbps": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "NetworkInterfaceCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "OnDemandMaxPricePercentageOverLowestPrice": 0,
+                                    "RequireHibernateSupport": true,
+                                    "SpotMaxPricePercentageOverLowestPrice": 0,
+                                    "TotalLocalStorageGB": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "VCpuCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    }
+                                },
+                                "InstanceType": "mbmsbopowsersatk",
+                                "MaxPrice": "wrqbkxbbkpzyozcf",
+                                "Placement": {
+                                    "GroupName": "svtetywjgtjlbmbu"
+                                },
+                                "Priority": 0.0,
+                                "SubnetId": "exsjricwowhzgfbd",
+                                "WeightedCapacity": 0.0
+                            }
+                        },
+                        "Lifecycle": "sldkdtpsaupofuwo",
+                        "Platform": "syblnysecwxfmnrt"
+                    }
+                ],
+                "LaunchTemplateConfigs": [
+                    {
+                        "LaunchTemplateSpecification": {
+                            "LaunchTemplateId": "dulewkhxnnfgldmi",
+                            "LaunchTemplateName": "idsgdgwuilzyycgy",
+                            "Version": "vppvrodkknildywg"
+                        },
+                        "Overrides": [
+                            {
+                                "AvailabilityZone": "wshvlhfmviyhsjbf",
+                                "ImageId": "dygyuhqehertttxr",
+                                "InstanceRequirements": {
+                                    "AcceleratorCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorManufacturers": [
+                                        "uqjwaoksixoklyug"
+                                    ],
+                                    "AcceleratorNames": [
+                                        "ewrhcwzjtxabtfsq"
+                                    ],
+                                    "AcceleratorTotalMemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "AcceleratorTypes": [
+                                        "dwtcweqjmrobvobw"
+                                    ],
+                                    "AllowedInstanceTypes": [
+                                        "pzvddfskbzuvnfzv"
+                                    ],
+                                    "BareMetal": "yrbijnadmgzejkxl",
+                                    "BaselineEbsBandwidthMbps": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "BurstablePerformance": "kryeakxxlbcazqhv",
+                                    "CpuManufacturers": [
+                                        "ohecjppubpurqnnm"
+                                    ],
+                                    "ExcludedInstanceTypes": [
+                                        "ejtuiykjgcztarxm"
+                                    ],
+                                    "InstanceGenerations": [
+                                        "frjtftusyndyfvef"
+                                    ],
+                                    "LocalStorage": "wmaolamzadqgxcbm",
+                                    "LocalStorageTypes": [
+                                        "zwegredzzwegkldg"
+                                    ],
+                                    "MaxSpotPriceAsPercentageOfOptimalOnDemandPrice": 0,
+                                    "MemoryGiBPerVCpu": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "MemoryMiB": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "NetworkBandwidthGbps": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "NetworkInterfaceCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    },
+                                    "OnDemandMaxPricePercentageOverLowestPrice": 0,
+                                    "RequireHibernateSupport": true,
+                                    "SpotMaxPricePercentageOverLowestPrice": 0,
+                                    "TotalLocalStorageGB": {
+                                        "Max": 0.0,
+                                        "Min": 0.0
+                                    },
+                                    "VCpuCount": {
+                                        "Max": 0,
+                                        "Min": 0
+                                    }
+                                },
+                                "InstanceType": "imnabvoyrypxgtiw",
+                                "MaxPrice": "rvkytkcynydcqhzm",
+                                "Placement": {
+                                    "GroupName": "yuacigvicaekvvkx"
+                                },
+                                "Priority": 0.0,
+                                "SubnetId": "farxwpwvbpaylxbw",
+                                "WeightedCapacity": 0.0
+                            }
+                        ]
+                    }
+                ],
+                "OnDemandOptions": {
+                    "AllocationStrategy": "rauyzanqiplwzgxt",
+                    "CapacityReservationOptions": {
+                        "UsageStrategy": "yisdtxpcbmcwoond"
+                    },
+                    "MaxTotalPrice": "zpatrrhwhgfvjgde",
+                    "MinTargetCapacity": 0,
+                    "SingleAvailabilityZone": true,
+                    "SingleInstanceType": true
+                },
+                "ReplaceUnhealthyInstances": true,
+                "SpotOptions": {
+                    "AllocationStrategy": "nzrygpsivldjcjuq",
+                    "InstanceInterruptionBehavior": "yonokhajbtglfjia",
+                    "InstancePoolsToUseCount": 0,
+                    "MaintenanceStrategies": {
+                        "CapacityRebalance": {
+                            "ReplacementStrategy": "gkwzjrlavkitklcl",
+                            "TerminationDelay": 0
+                        }
+                    },
+                    "MaxTotalPrice": "skhpfxdkhvhqseex",
+                    "MinTargetCapacity": 0,
+                    "SingleAvailabilityZone": true,
+                    "SingleInstanceType": true
+                },
+                "Tags": [
+                    {
+                        "Key": "aovusaoqiuniwjsl",
+                        "Value": "bxptwwhrgdywbycf"
+                    }
+                ],
+                "TargetCapacitySpecification": {
+                    "DefaultTargetCapacityType": "yzwolilagswutjtf",
+                    "OnDemandTargetCapacity": 0,
+                    "SpotTargetCapacity": 0,
+                    "TargetCapacityUnitType": "evjrtmevetflblya",
+                    "TotalTargetCapacity": 0
+                },
+                "TerminateInstancesWithExpiration": true,
+                "Type": "qzzmeimfbjlonqdt",
+                "ValidFrom": "brsowwaxijemyvum",
+                "ValidUntil": "mlhuhvymncuoijst"
+            }
+        ],
+        "result_key": "Fleets"
+    },
+    "meta": {
+        "start": 1711115619.632542,
+        "end": 1711115627.365958,
+        "duration": 7.733427047729492,
+        "service": "ec2",
+        "type": "fleets"
+    }
+}

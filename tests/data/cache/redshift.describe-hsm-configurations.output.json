@@ -1,0 +1,167 @@
+{
+    "input": {
+        "template": {
+            "HsmConfigurationIdentifier": "",
+            "MaxRecords": 0,
+            "Marker": "",
+            "TagKeys": [
+                ""
+            ],
+            "TagValues": [
+                ""
+            ]
+        },
+        "required": [],
+        "md5": "a0cf54ae8742068b7b04d18786c1374d",
+        "boto_command": "describe_hsm_configurations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "HsmConfigurationIdentifier": "HsmConfigurationIdentifier",
+                "Description": "Description",
+                "HsmIpAddress": "HsmIpAddress",
+                "HsmPartitionName": "HsmPartitionName",
+                "Tags": [
+                    {
+                        "Key": "Key",
+                        "Value": "Value"
+                    }
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "21af2c6049e2501ea725bdbb9565335e",
+        "randomized": [
+            {
+                "Description": "ctwxbtsdmggpevxp",
+                "HsmConfigurationIdentifier": "bqwydnmwjwfeylzb",
+                "HsmIpAddress": "tmohudskfxbtlqjx",
+                "HsmPartitionName": "oklnrltptcvcoqlr",
+                "Tags": [
+                    {
+                        "Key": "bhxwevyajrtdqmll",
+                        "Value": "rgecmpdxzlzxyccb"
+                    }
+                ]
+            },
+            {
+                "Description": "keiorrmyyfvitsuw",
+                "HsmConfigurationIdentifier": "puwennqiixtwjawu",
+                "HsmIpAddress": "ylrnerkswcguivdk",
+                "HsmPartitionName": "ubqxkcxgqdjgooda",
+                "Tags": [
+                    {
+                        "Key": "bzzwlaehduerctez",
+                        "Value": "veevbxgeddthonek"
+                    }
+                ]
+            },
+            {
+                "Description": "atmwdfhsadvuenfz",
+                "HsmConfigurationIdentifier": "taxyuobmyicjptoq",
+                "HsmIpAddress": "zpzspfyfoajpdfnq",
+                "HsmPartitionName": "wyyxwreezvmuseyu",
+                "Tags": [
+                    {
+                        "Key": "deixjsrjkbnzuyxz",
+                        "Value": "tqkoniizcanvyche"
+                    }
+                ]
+            },
+            {
+                "Description": "khxygwxamiqmqcll",
+                "HsmConfigurationIdentifier": "dqlkoxukhlijchqc",
+                "HsmIpAddress": "dlcchikgbhmkrkkl",
+                "HsmPartitionName": "dihactcblhycwcxf",
+                "Tags": [
+                    {
+                        "Key": "thfpjwfogceprhyi",
+                        "Value": "ejhhnxecpfntajse"
+                    }
+                ]
+            },
+            {
+                "Description": "hjoxqrkblltbauvz",
+                "HsmConfigurationIdentifier": "bjzvvhyofxxiulgi",
+                "HsmIpAddress": "gsmnyvaeqxftpscj",
+                "HsmPartitionName": "zoxbyvzduuzgmewp",
+                "Tags": [
+                    {
+                        "Key": "gvqnivlhhaplsfvb",
+                        "Value": "hzxaagngnvgsowbg"
+                    }
+                ]
+            },
+            {
+                "Description": "cuqncvsfhzbmycqq",
+                "HsmConfigurationIdentifier": "wlvdoqkjjycftwdn",
+                "HsmIpAddress": "aljoqaflrzknnglv",
+                "HsmPartitionName": "mpbgyjxkrazakexa",
+                "Tags": [
+                    {
+                        "Key": "zyqotqdqrexdsakb",
+                        "Value": "vcjjctebnzmfygno"
+                    }
+                ]
+            },
+            {
+                "Description": "wacecsjrtkqguewm",
+                "HsmConfigurationIdentifier": "vvmdjsjsbqylebpr",
+                "HsmIpAddress": "epbnkqrfeodtukhw",
+                "HsmPartitionName": "grlrdudcxdfideak",
+                "Tags": [
+                    {
+                        "Key": "pztbdlpggzkjtyvp",
+                        "Value": "ltbsyswiniapoate"
+                    }
+                ]
+            },
+            {
+                "Description": "bzlitugjttoutjil",
+                "HsmConfigurationIdentifier": "upnyuibaeurokbuc",
+                "HsmIpAddress": "fpprvohtkpmezqhg",
+                "HsmPartitionName": "tzmmumaaktmxtcav",
+                "Tags": [
+                    {
+                        "Key": "wjgqmavswgzqqmbs",
+                        "Value": "vippckgjqckpkoev"
+                    }
+                ]
+            },
+            {
+                "Description": "yvwcgtmrjmzolqmo",
+                "HsmConfigurationIdentifier": "ekgdqlvutojzmgrb",
+                "HsmIpAddress": "kebmdxzjwxcedmto",
+                "HsmPartitionName": "ikldcmxhlaxhhjkv",
+                "Tags": [
+                    {
+                        "Key": "qtzqqpqhfisobjqb",
+                        "Value": "tjjodwpvypmnyadm"
+                    }
+                ]
+            },
+            {
+                "Description": "fxicsbrcylmwgmep",
+                "HsmConfigurationIdentifier": "ycutkksloefwbbaa",
+                "HsmIpAddress": "tgrzulldwhqqmyuc",
+                "HsmPartitionName": "xplpdqihtujxokom",
+                "Tags": [
+                    {
+                        "Key": "tyczfcixziftgdvo",
+                        "Value": "mfozsyltolxkcppv"
+                    }
+                ]
+            }
+        ],
+        "result_key": "HsmConfigurations"
+    },
+    "meta": {
+        "start": 1711116426.665613,
+        "end": 1711116432.016932,
+        "duration": 5.351330041885376,
+        "service": "redshift",
+        "type": "hsm_configurations"
+    }
+}

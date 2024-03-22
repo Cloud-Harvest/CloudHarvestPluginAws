@@ -1,0 +1,38 @@
+{
+    "input": {
+        "template": {
+            "RuleGroupName": "",
+            "RuleGroupArn": "",
+            "Type": "STATELESS"
+        },
+        "required": [],
+        "md5": "d2c8f077e46cf16db9d72128e8c7c6c7",
+        "boto_command": "describe_rule_group_metadata",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": "RuleGroupArn",
+        "required": [],
+        "md5": "619af5e4b92c15b4a2e28de7f34ef3cb",
+        "randomized": [
+            "ozwthnbjbxydvpds",
+            "yydeizotroszitgx",
+            "fmvxgxxdjfuboxzs",
+            "bahowplxirvmpkih",
+            "qoutioijiswhlcho",
+            "byenxkczsfghczbk",
+            "eginpxxmnnzssygh",
+            "mpfttpyiejdaawoz",
+            "zgkqagzmtcdsvupk",
+            "cmnzxwcicavfoikr"
+        ],
+        "result_key": "RuleGroupArn"
+    },
+    "meta": {
+        "start": 1711116243.213506,
+        "end": 1711116248.282618,
+        "duration": 5.069122076034546,
+        "service": "network-firewall",
+        "type": "rule_group_metadata"
+    }
+}

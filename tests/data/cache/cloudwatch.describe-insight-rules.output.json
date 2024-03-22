@@ -1,0 +1,105 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "9dece7f85fc1c3f944425b1f68a8e6e1",
+        "boto_command": "describe_insight_rules",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "Name": "Name",
+                "State": "State",
+                "Schema": "Schema",
+                "Definition": "Definition",
+                "ManagedRule": true
+            }
+        ],
+        "required": [],
+        "md5": "e5d5e6c44145adba088ec515e3d102e0",
+        "randomized": [
+            {
+                "Definition": "pbcszfabwrsutxwn",
+                "ManagedRule": true,
+                "Name": "wfexxunvwmdxbwjy",
+                "Schema": "unnldncusogupakx",
+                "State": "sdtydbjdrxgfzhlv"
+            },
+            {
+                "Definition": "dptyakmoemhouumy",
+                "ManagedRule": true,
+                "Name": "zxfturlhgxwpggxh",
+                "Schema": "iqctynlhwnrgavmg",
+                "State": "mhqhtlhtryywkyzm"
+            },
+            {
+                "Definition": "yztgsfisisptufah",
+                "ManagedRule": true,
+                "Name": "xokjaikapwaiqyep",
+                "Schema": "eysiftwjdsbpiutc",
+                "State": "bjhtbygcddxlxorq"
+            },
+            {
+                "Definition": "dccyhpgistivdtea",
+                "ManagedRule": true,
+                "Name": "gsmysjcqurnubirh",
+                "Schema": "epvsvbzagshearli",
+                "State": "bpexqotgovflzihv"
+            },
+            {
+                "Definition": "qftsmkbzszsrafye",
+                "ManagedRule": true,
+                "Name": "fwsdiimqkduonbaq",
+                "Schema": "rmcrwxoxlsugifsr",
+                "State": "vlttbvupkypsenwz"
+            },
+            {
+                "Definition": "yjiscetjihxhybnq",
+                "ManagedRule": true,
+                "Name": "vdfqfrfwvgkjmcdm",
+                "Schema": "dldkoaquysecjami",
+                "State": "qmgbvkcejmenkorn"
+            },
+            {
+                "Definition": "bodvtbdcaumqfyuj",
+                "ManagedRule": true,
+                "Name": "oyybkhfuejinsbll",
+                "Schema": "qfecirxrlvqvqppd",
+                "State": "dzgkuokkewbrpdil"
+            },
+            {
+                "Definition": "mdhxmuhowpycpznd",
+                "ManagedRule": true,
+                "Name": "ykxrmmpvhffdcqdo",
+                "Schema": "nwlwdeceovakajtj",
+                "State": "nxpeogkcfxpgjuwt"
+            },
+            {
+                "Definition": "qsqlwqteycfwanxp",
+                "ManagedRule": true,
+                "Name": "lmospzijhtxucwrg",
+                "Schema": "imcbeumorqdwxtlr",
+                "State": "wivrrsjbytbwgxov"
+            },
+            {
+                "Definition": "ohmlurzctetnimll",
+                "ManagedRule": true,
+                "Name": "quyrzzjtngqgezrx",
+                "Schema": "gxhndtlprkzdtbwc",
+                "State": "hijzbypeqyryidng"
+            }
+        ],
+        "result_key": "InsightRules"
+    },
+    "meta": {
+        "start": 1711115392.25832,
+        "end": 1711115398.575495,
+        "duration": 6.3171868324279785,
+        "service": "cloudwatch",
+        "type": "insight_rules"
+    }
+}

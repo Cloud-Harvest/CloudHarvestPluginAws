@@ -1,0 +1,392 @@
+{
+    "input": {
+        "template": {
+            "actionOwnerFilter": "AWS",
+            "nextToken": "",
+            "regionFilter": ""
+        },
+        "required": [],
+        "md5": "1dec4a6d2e3c7d01032252ade87eb1fb",
+        "boto_command": "list_action_types",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "id": {
+                    "category": "category",
+                    "owner": "owner",
+                    "provider": "provider",
+                    "version": "version"
+                },
+                "settings": {
+                    "thirdPartyConfigurationUrl": "thirdPartyConfigurationUrl",
+                    "entityUrlTemplate": "entityUrlTemplate",
+                    "executionUrlTemplate": "executionUrlTemplate",
+                    "revisionUrlTemplate": "revisionUrlTemplate"
+                },
+                "actionConfigurationProperties": [
+                    {
+                        "name": "name",
+                        "required": true,
+                        "key": true,
+                        "secret": true,
+                        "queryable": true,
+                        "description": "description",
+                        "type": "type"
+                    }
+                ],
+                "inputArtifactDetails": {
+                    "minimumCount": 0,
+                    "maximumCount": 0
+                },
+                "outputArtifactDetails": {
+                    "minimumCount": 0,
+                    "maximumCount": 0
+                }
+            }
+        ],
+        "required": [],
+        "md5": "a923046ffe2f6e4515fc0039fa2ec8d8",
+        "randomized": [
+            {
+                "actionConfigurationProperties": [
+                    {
+                        "description": "ramnbyduzwpqifpq",
+                        "key": true,
+                        "name": "ljdhaiehadlcuaba",
+                        "queryable": true,
+                        "required": true,
+                        "secret": true,
+                        "type": "vrjzlmzxuxpaymwz"
+                    }
+                ],
+                "id": {
+                    "category": "szbmwhkrzlvdjqef",
+                    "owner": "lcdsdempgqyhnddn",
+                    "provider": "tyfyxmzpurtlukve",
+                    "version": "uaitbrdighcxzqxo"
+                },
+                "inputArtifactDetails": {
+                    "maximumCount": 0,
+                    "minimumCount": 0
+                },
+                "outputArtifactDetails": {
+                    "maximumCount": 0,
+                    "minimumCount": 0
+                },
+                "settings": {
+                    "entityUrlTemplate": "gxnlosoyhrtviitv",
+                    "executionUrlTemplate": "gmjfshkbipsozmgh",
+                    "revisionUrlTemplate": "jzwugrusawszodql",
+                    "thirdPartyConfigurationUrl": "nopfpshapstfebvw"
+                }
+            },
+            {
+                "actionConfigurationProperties": [
+                    {
+                        "description": "lslsncdwrrofbpzw",
+                        "key": true,
+                        "name": "ilicipfupopuudfv",
+                        "queryable": true,
+                        "required": true,
+                        "secret": true,
+                        "type": "ozayqdtkyfmkmzrx"
+                    }
+                ],
+                "id": {
+                    "category": "bodximolbfjxayiq",
+                    "owner": "mojuchluuisljhdb",
+                    "provider": "xlpcjjivqijwvhji",
+                    "version": "iwriljluxozevxqf"
+                },
+                "inputArtifactDetails": {
+                    "maximumCount": 0,
+                    "minimumCount": 0
+                },
+                "outputArtifactDetails": {
+                    "maximumCount": 0,
+                    "minimumCount": 0
+                },
+                "settings": {
+                    "entityUrlTemplate": "lrhvmalsvtntjgfy",
+                    "executionUrlTemplate": "reknkzavycfyizax",
+                    "revisionUrlTemplate": "hauwifqsewqekwsg",
+                    "thirdPartyConfigurationUrl": "vwznlwswfwwklbkv"
+                }
+            },
+            {
+                "actionConfigurationProperties": [
+                    {
+                        "description": "wbglkfxprmrcmrpl",
+                        "key": true,
+                        "name": "cthozkwbqushihcj",
+                        "queryable": true,
+                        "required": true,
+                        "secret": true,
+                        "type": "nkpghdymchkwykwa"
+                    }
+                ],
+                "id": {
+                    "category": "bkddpewsxqtyuqyk",
+                    "owner": "vncpvszvwgbnclmm",
+                    "provider": "asyrrbhdcddtkzfq",
+                    "version": "xpfdwskzpsxejwkr"
+                },
+                "inputArtifactDetails": {
+                    "maximumCount": 0,
+                    "minimumCount": 0
+                },
+                "outputArtifactDetails": {
+                    "maximumCount": 0,
+                    "minimumCount": 0
+                },
+                "settings": {
+                    "entityUrlTemplate": "uegmshbxljtijdws",
+                    "executionUrlTemplate": "slqxydvtidaxfglc",
+                    "revisionUrlTemplate": "jvvrsscgbnbjvufs",
+                    "thirdPartyConfigurationUrl": "whynbqotmbisphjh"
+                }
+            },
+            {
+                "actionConfigurationProperties": [
+                    {
+                        "description": "fegavvsinzttlfjh",
+                        "key": true,
+                        "name": "noamzhoyzbdnayys",
+                        "queryable": true,
+                        "required": true,
+                        "secret": true,
+                        "type": "goyrkpxfpwuhtitq"
+                    }
+                ],
+                "id": {
+                    "category": "arucltvevvcqiwiu",
+                    "owner": "gyfodrwatquqnbwr",
+                    "provider": "zwkfvuyxdryhrrks",
+                    "version": "qpnpkpxuiddjdpgc"
+                },
+                "inputArtifactDetails": {
+                    "maximumCount": 0,
+                    "minimumCount": 0
+                },
+                "outputArtifactDetails": {
+                    "maximumCount": 0,
+                    "minimumCount": 0
+                },
+                "settings": {
+                    "entityUrlTemplate": "aodetcvqscndlswy",
+                    "executionUrlTemplate": "qheahaoduaoxikvg",
+                    "revisionUrlTemplate": "mjpolrlthxwtpjsh",
+                    "thirdPartyConfigurationUrl": "tdsnxpgytinfiitc"
+                }
+            },
+            {
+                "actionConfigurationProperties": [
+                    {
+                        "description": "ztxxhdghgbvsljny",
+                        "key": true,
+                        "name": "blgaklmihufusuvv",
+                        "queryable": true,
+                        "required": true,
+                        "secret": true,
+                        "type": "gkelqidssyqxardo"
+                    }
+                ],
+                "id": {
+                    "category": "fvvwczcmxnjbgkje",
+                    "owner": "xhuewbudzunclrtq",
+                    "provider": "oijjxbrkagucospo",
+                    "version": "wnnbojhaxggvuypd"
+                },
+                "inputArtifactDetails": {
+                    "maximumCount": 0,
+                    "minimumCount": 0
+                },
+                "outputArtifactDetails": {
+                    "maximumCount": 0,
+                    "minimumCount": 0
+                },
+                "settings": {
+                    "entityUrlTemplate": "pvltzxoapqnwcldy",
+                    "executionUrlTemplate": "pecbfcsutzgvbqbg",
+                    "revisionUrlTemplate": "pbsvhsdrblsulzgv",
+                    "thirdPartyConfigurationUrl": "ihwycakhjiaxxlkj"
+                }
+            },
+            {
+                "actionConfigurationProperties": [
+                    {
+                        "description": "ziigaunzbvofcpcg",
+                        "key": true,
+                        "name": "zpnnekqfufeedvsm",
+                        "queryable": true,
+                        "required": true,
+                        "secret": true,
+                        "type": "bgbzwfblsabccnru"
+                    }
+                ],
+                "id": {
+                    "category": "exwwqzgqptqsafkj",
+                    "owner": "ijdfyswajkzrbpkg",
+                    "provider": "uaxmsjkedlgyspzb",
+                    "version": "ojxqqoguscxvftiy"
+                },
+                "inputArtifactDetails": {
+                    "maximumCount": 0,
+                    "minimumCount": 0
+                },
+                "outputArtifactDetails": {
+                    "maximumCount": 0,
+                    "minimumCount": 0
+                },
+                "settings": {
+                    "entityUrlTemplate": "gmvtugbhqfnkrrzh",
+                    "executionUrlTemplate": "fjownacwgaegggvl",
+                    "revisionUrlTemplate": "lccradwdoiywhplh",
+                    "thirdPartyConfigurationUrl": "dnldbdtfqfyxllrr"
+                }
+            },
+            {
+                "actionConfigurationProperties": [
+                    {
+                        "description": "brfcvtklkkrxnawa",
+                        "key": true,
+                        "name": "olfsnggfavutyeap",
+                        "queryable": true,
+                        "required": true,
+                        "secret": true,
+                        "type": "iqjzlkeznpmukkpr"
+                    }
+                ],
+                "id": {
+                    "category": "ozpsvwyidthmwmeb",
+                    "owner": "xqpapmqhfpsmokiw",
+                    "provider": "hkzkbzkijsplojae",
+                    "version": "bswvvsbkccfxtkja"
+                },
+                "inputArtifactDetails": {
+                    "maximumCount": 0,
+                    "minimumCount": 0
+                },
+                "outputArtifactDetails": {
+                    "maximumCount": 0,
+                    "minimumCount": 0
+                },
+                "settings": {
+                    "entityUrlTemplate": "cjguxzjmfkuolzqt",
+                    "executionUrlTemplate": "udkqsqudwkxdsnsz",
+                    "revisionUrlTemplate": "kiyxorfbtjctcuan",
+                    "thirdPartyConfigurationUrl": "mofgnnjpnvnawkdv"
+                }
+            },
+            {
+                "actionConfigurationProperties": [
+                    {
+                        "description": "qzlhcrjwsqplizjc",
+                        "key": true,
+                        "name": "qjfuhzqwscbtvupl",
+                        "queryable": true,
+                        "required": true,
+                        "secret": true,
+                        "type": "vigwhzvppkakggxt"
+                    }
+                ],
+                "id": {
+                    "category": "zqytxqmljiuuhsgm",
+                    "owner": "xbgxmpwpqqtzrzdu",
+                    "provider": "hkprsqniuqmgfnle",
+                    "version": "zqklxwltafxnpbws"
+                },
+                "inputArtifactDetails": {
+                    "maximumCount": 0,
+                    "minimumCount": 0
+                },
+                "outputArtifactDetails": {
+                    "maximumCount": 0,
+                    "minimumCount": 0
+                },
+                "settings": {
+                    "entityUrlTemplate": "keleyzwgcbnygikk",
+                    "executionUrlTemplate": "jhndlucrvxhfhmep",
+                    "revisionUrlTemplate": "cltqnilsectwckiz",
+                    "thirdPartyConfigurationUrl": "fiwwhkwczcfkzlpn"
+                }
+            },
+            {
+                "actionConfigurationProperties": [
+                    {
+                        "description": "pfwmkhzcoqgldnfo",
+                        "key": true,
+                        "name": "ghnrzillwsuykcra",
+                        "queryable": true,
+                        "required": true,
+                        "secret": true,
+                        "type": "bjdosjkiirqmbqxp"
+                    }
+                ],
+                "id": {
+                    "category": "utftipyaldgpavtc",
+                    "owner": "jtldhqqgchisqgvc",
+                    "provider": "ieskusifudztiqsz",
+                    "version": "gfygryhcsceordwk"
+                },
+                "inputArtifactDetails": {
+                    "maximumCount": 0,
+                    "minimumCount": 0
+                },
+                "outputArtifactDetails": {
+                    "maximumCount": 0,
+                    "minimumCount": 0
+                },
+                "settings": {
+                    "entityUrlTemplate": "dmqvxtgqnshxtixf",
+                    "executionUrlTemplate": "tbcmeknadqojkydw",
+                    "revisionUrlTemplate": "cjkljvzmkbwhvium",
+                    "thirdPartyConfigurationUrl": "kteswkeovkxffkeb"
+                }
+            },
+            {
+                "actionConfigurationProperties": [
+                    {
+                        "description": "hqmwkegdtihzpujp",
+                        "key": true,
+                        "name": "ysaoxlwktwukayun",
+                        "queryable": true,
+                        "required": true,
+                        "secret": true,
+                        "type": "vpgkvuokellsvjva"
+                    }
+                ],
+                "id": {
+                    "category": "bmxarlksbjbsvcyc",
+                    "owner": "ltrbzvbtglajxpvm",
+                    "provider": "utfxjsgvgejwarfm",
+                    "version": "aydotumedstybljn"
+                },
+                "inputArtifactDetails": {
+                    "maximumCount": 0,
+                    "minimumCount": 0
+                },
+                "outputArtifactDetails": {
+                    "maximumCount": 0,
+                    "minimumCount": 0
+                },
+                "settings": {
+                    "entityUrlTemplate": "sludqfoglgpkwtxv",
+                    "executionUrlTemplate": "zutnyeppulsenssr",
+                    "revisionUrlTemplate": "aawgvmvwmarnciwi",
+                    "thirdPartyConfigurationUrl": "vofkawnkncsnvfpe"
+                }
+            }
+        ],
+        "result_key": "actionTypes"
+    },
+    "meta": {
+        "start": 1711115426.586674,
+        "end": 1711115434.160079,
+        "duration": 7.573413133621216,
+        "service": "codepipeline",
+        "type": "action_types"
+    }
+}

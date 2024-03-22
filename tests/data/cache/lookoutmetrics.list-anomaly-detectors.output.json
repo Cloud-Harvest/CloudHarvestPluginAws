@@ -1,0 +1,149 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "031b56893c6f5a9d0ebe6017c5c080cb",
+        "boto_command": "list_anomaly_detectors",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "AnomalyDetectorArn": "AnomalyDetectorArn",
+                "AnomalyDetectorName": "AnomalyDetectorName",
+                "AnomalyDetectorDescription": "AnomalyDetectorDescription",
+                "CreationTime": "1970-01-01T00:00:00",
+                "LastModificationTime": "1970-01-01T00:00:00",
+                "Status": "Status",
+                "Tags": {
+                    "KeyName": ""
+                }
+            }
+        ],
+        "required": [],
+        "md5": "a1af1cb5b336e1d84dece9f406c1e0c5",
+        "randomized": [
+            {
+                "AnomalyDetectorArn": "mwbetxmnesysucmu",
+                "AnomalyDetectorDescription": "reurqeffhljimclu",
+                "AnomalyDetectorName": "qfeotnmvpblcenfp",
+                "CreationTime": "cbvhhsiadwoiodeg",
+                "LastModificationTime": "okkjhtlkhtapxlyz",
+                "Status": "jtiofgduqerxksol",
+                "Tags": {
+                    "KeyName": "yahtvngwmrplikjv"
+                }
+            },
+            {
+                "AnomalyDetectorArn": "cjarknevvalyxxsm",
+                "AnomalyDetectorDescription": "kfytsysndpdifbid",
+                "AnomalyDetectorName": "ibzlsqdarsjikmeh",
+                "CreationTime": "dmvducpbggzxbflf",
+                "LastModificationTime": "wlekkthqyyvumkqp",
+                "Status": "euczaaapjzzfyvch",
+                "Tags": {
+                    "KeyName": "oxiljrpazvttledy"
+                }
+            },
+            {
+                "AnomalyDetectorArn": "klqoruueikoahohl",
+                "AnomalyDetectorDescription": "djoykzaqqabnbwwx",
+                "AnomalyDetectorName": "nyomesecldiyyezu",
+                "CreationTime": "yalvxhhuacymyfbx",
+                "LastModificationTime": "csasnzkxuwyeygco",
+                "Status": "lxpmhnvjzkulluli",
+                "Tags": {
+                    "KeyName": "fhlygpxindyfbuls"
+                }
+            },
+            {
+                "AnomalyDetectorArn": "uojajzbjjqgxhopy",
+                "AnomalyDetectorDescription": "qqhpldptqyraujco",
+                "AnomalyDetectorName": "waqyaqxlxftpbwqw",
+                "CreationTime": "ladefbwedqwubhsw",
+                "LastModificationTime": "bmifeeqmsrhxvafd",
+                "Status": "bkjxjfsklpjvdzsk",
+                "Tags": {
+                    "KeyName": "anlnirigwlfjrjrf"
+                }
+            },
+            {
+                "AnomalyDetectorArn": "fjhlmjloumacunfu",
+                "AnomalyDetectorDescription": "ozyexmsboyhjapgp",
+                "AnomalyDetectorName": "ogqjpenognbfmvbt",
+                "CreationTime": "cfpokxkylviofaym",
+                "LastModificationTime": "vhkpngmvgvcukfdx",
+                "Status": "aoirtmgtyitfsfsq",
+                "Tags": {
+                    "KeyName": "eoukmoyuxjznhruc"
+                }
+            },
+            {
+                "AnomalyDetectorArn": "corafnxmqjgigztb",
+                "AnomalyDetectorDescription": "xgvewequwefyngyt",
+                "AnomalyDetectorName": "xvuhutwiosthxuaw",
+                "CreationTime": "svssbdxguyakzowt",
+                "LastModificationTime": "yzfdapugesrqoiop",
+                "Status": "kzvgvauvwobetxtq",
+                "Tags": {
+                    "KeyName": "ytmdtaoaetmrxnsw"
+                }
+            },
+            {
+                "AnomalyDetectorArn": "tllpyketkblfbfcu",
+                "AnomalyDetectorDescription": "elnrvzcibwyrgpgl",
+                "AnomalyDetectorName": "tkcupzfxqeicmvmq",
+                "CreationTime": "iduzflakbsklbxpz",
+                "LastModificationTime": "yxtgfkshdpgplpzu",
+                "Status": "ooszwgofacjcfibu",
+                "Tags": {
+                    "KeyName": "ijhytcnesfqckxpp"
+                }
+            },
+            {
+                "AnomalyDetectorArn": "bnwqegjbzbwevueh",
+                "AnomalyDetectorDescription": "suhzxeefqisosxqm",
+                "AnomalyDetectorName": "jzdziuuudlyasvia",
+                "CreationTime": "mykruisprpqrikui",
+                "LastModificationTime": "yxppfrtfimfldrio",
+                "Status": "ndqsjkgfwmnudufc",
+                "Tags": {
+                    "KeyName": "ivtoumgqqznyrrif"
+                }
+            },
+            {
+                "AnomalyDetectorArn": "ubmceeuunldlmrod",
+                "AnomalyDetectorDescription": "mcupwpqacdbvdure",
+                "AnomalyDetectorName": "eduxrjcgulqtvjja",
+                "CreationTime": "kgwfwoqrqiowbrgs",
+                "LastModificationTime": "xhfxnmuifjjkfeya",
+                "Status": "snxpsqtuyqqxucui",
+                "Tags": {
+                    "KeyName": "mejahidlbcqxzaan"
+                }
+            },
+            {
+                "AnomalyDetectorArn": "nckzdcwcuylzcudu",
+                "AnomalyDetectorDescription": "lwmypgcbednznkcn",
+                "AnomalyDetectorName": "pjxwmmoymdkahrme",
+                "CreationTime": "lejgwgjruerrxooq",
+                "LastModificationTime": "ktxielgftdjyhwwg",
+                "Status": "apmgglqqpmgiutjp",
+                "Tags": {
+                    "KeyName": "yzlwmpyckrbksgeo"
+                }
+            }
+        ],
+        "result_key": "AnomalyDetectorSummaryList"
+    },
+    "meta": {
+        "start": 1711116133.923609,
+        "end": 1711116141.517287,
+        "duration": 7.593687057495117,
+        "service": "lookoutmetrics",
+        "type": "anomaly_detectors"
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "input": {
+        "template": {
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "DryRun": true,
+            "MaxResults": 0,
+            "NextToken": "",
+            "PublicIps": [
+                ""
+            ]
+        },
+        "required": [],
+        "md5": "152f319537934dbaeadf76c3e3a41b77",
+        "boto_command": "describe_moving_addresses",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "MoveStatus": "MoveStatus",
+                "PublicIp": "PublicIp"
+            }
+        ],
+        "required": [],
+        "md5": "11879fa048e7ac61d57beb9bb7ab4d0b",
+        "randomized": [
+            {
+                "MoveStatus": "drqmxipkgheyytiu",
+                "PublicIp": "obmaanjpnbagcxgu"
+            },
+            {
+                "MoveStatus": "xtuwuwuutuyoqitw",
+                "PublicIp": "qoduevfrmhcvrgov"
+            },
+            {
+                "MoveStatus": "faojeexqwybdlqjx",
+                "PublicIp": "bupushmeqiswyryb"
+            },
+            {
+                "MoveStatus": "uvsfitbylwxjalid",
+                "PublicIp": "heibxbquuenjnike"
+            },
+            {
+                "MoveStatus": "bhtpffkmxmjhwsxs",
+                "PublicIp": "douiuyxgcypwqura"
+            },
+            {
+                "MoveStatus": "zdmdaxvyyufdfpbh",
+                "PublicIp": "qldtwopuehxlvdfs"
+            },
+            {
+                "MoveStatus": "qhmzucrkoxeodmfe",
+                "PublicIp": "povcpmyhbthesbdn"
+            },
+            {
+                "MoveStatus": "jxbdhfiuatzdglnb",
+                "PublicIp": "xfwfxhqvxeawlovu"
+            },
+            {
+                "MoveStatus": "ufhrjlcepbiyowrb",
+                "PublicIp": "bmfivbtmbzdegurp"
+            },
+            {
+                "MoveStatus": "emqlblmlashychsv",
+                "PublicIp": "fvdaafefbliqahrv"
+            }
+        ],
+        "result_key": "MovingAddressStatuses"
+    },
+    "meta": {
+        "start": 1711115637.719651,
+        "end": 1711115645.624375,
+        "duration": 7.904732942581177,
+        "service": "ec2",
+        "type": "moving_addresses"
+    }
+}

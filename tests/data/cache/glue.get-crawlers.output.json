@@ -1,0 +1,1436 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "031b56893c6f5a9d0ebe6017c5c080cb",
+        "boto_command": "get_crawlers",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "Name": "Name",
+                "Role": "Role",
+                "Targets": {
+                    "S3Targets": [
+                        {
+                            "Path": "Path",
+                            "Exclusions": [
+                                "Path"
+                            ],
+                            "ConnectionName": "ConnectionName",
+                            "SampleSize": 0,
+                            "EventQueueArn": "EventQueueArn",
+                            "DlqEventQueueArn": "DlqEventQueueArn"
+                        }
+                    ],
+                    "JdbcTargets": [
+                        {
+                            "ConnectionName": "ConnectionName",
+                            "Path": "Path",
+                            "Exclusions": [
+                                "Path"
+                            ],
+                            "EnableAdditionalMetadata": [
+                                "JdbcMetadataEntry"
+                            ]
+                        }
+                    ],
+                    "MongoDBTargets": [
+                        {
+                            "ConnectionName": "ConnectionName",
+                            "Path": "Path",
+                            "ScanAll": true
+                        }
+                    ],
+                    "DynamoDBTargets": [
+                        {
+                            "Path": "Path",
+                            "scanAll": true,
+                            "scanRate": 0.0
+                        }
+                    ],
+                    "CatalogTargets": [
+                        {
+                            "DatabaseName": "DatabaseName",
+                            "Tables": [
+                                "NameString"
+                            ],
+                            "ConnectionName": "ConnectionName",
+                            "EventQueueArn": "EventQueueArn",
+                            "DlqEventQueueArn": "DlqEventQueueArn"
+                        }
+                    ],
+                    "DeltaTargets": [
+                        {
+                            "DeltaTables": [
+                                "Path"
+                            ],
+                            "ConnectionName": "ConnectionName",
+                            "WriteManifest": true,
+                            "CreateNativeDeltaTable": true
+                        }
+                    ],
+                    "IcebergTargets": [
+                        {
+                            "Paths": [
+                                "Path"
+                            ],
+                            "ConnectionName": "ConnectionName",
+                            "Exclusions": [
+                                "Path"
+                            ],
+                            "MaximumTraversalDepth": 0
+                        }
+                    ],
+                    "HudiTargets": [
+                        {
+                            "Paths": [
+                                "Path"
+                            ],
+                            "ConnectionName": "ConnectionName",
+                            "Exclusions": [
+                                "Path"
+                            ],
+                            "MaximumTraversalDepth": 0
+                        }
+                    ]
+                },
+                "DatabaseName": "DatabaseName",
+                "Description": "Description",
+                "Classifiers": [
+                    "NameString"
+                ],
+                "RecrawlPolicy": {
+                    "RecrawlBehavior": "RecrawlBehavior"
+                },
+                "SchemaChangePolicy": {
+                    "UpdateBehavior": "UpdateBehavior",
+                    "DeleteBehavior": "DeleteBehavior"
+                },
+                "LineageConfiguration": {
+                    "CrawlerLineageSettings": "CrawlerLineageSettings"
+                },
+                "State": "State",
+                "TablePrefix": "TablePrefix",
+                "Schedule": {
+                    "ScheduleExpression": "ScheduleExpression",
+                    "State": "State"
+                },
+                "CrawlElapsedTime": 0,
+                "CreationTime": "1970-01-01T00:00:00",
+                "LastUpdated": "1970-01-01T00:00:00",
+                "LastCrawl": {
+                    "Status": "Status",
+                    "ErrorMessage": "ErrorMessage",
+                    "LogGroup": "LogGroup",
+                    "LogStream": "LogStream",
+                    "MessagePrefix": "MessagePrefix",
+                    "StartTime": "1970-01-01T00:00:00"
+                },
+                "Version": 0,
+                "Configuration": "Configuration",
+                "CrawlerSecurityConfiguration": "CrawlerSecurityConfiguration",
+                "LakeFormationConfiguration": {
+                    "UseLakeFormationCredentials": true,
+                    "AccountId": "AccountId"
+                }
+            }
+        ],
+        "required": [],
+        "md5": "6983cac8c53fddfb573f7ac86ca9f386",
+        "randomized": [
+            {
+                "Classifiers": [
+                    "autmjpxwyfgkmmtc"
+                ],
+                "Configuration": "alekhlimwiclkoyr",
+                "CrawlElapsedTime": 0,
+                "CrawlerSecurityConfiguration": "ubyxpewxywrwnqpy",
+                "CreationTime": "pujykifxyjgmltbv",
+                "DatabaseName": "hubswxmtaeqbxtls",
+                "Description": "onjonptxqwlvkvcx",
+                "LakeFormationConfiguration": {
+                    "AccountId": "tzccddqlxtqolzdu",
+                    "UseLakeFormationCredentials": true
+                },
+                "LastCrawl": {
+                    "ErrorMessage": "rqgtdykwuhuomzuy",
+                    "LogGroup": "eykquwouklyxspdw",
+                    "LogStream": "elnrivlgszkpvjnf",
+                    "MessagePrefix": "ieixmwkpuuznefvw",
+                    "StartTime": "nzubokgfojykpafi",
+                    "Status": "bermgxqsfiobtuwr"
+                },
+                "LastUpdated": "najrtmdabzymcsgg",
+                "LineageConfiguration": {
+                    "CrawlerLineageSettings": "cjwcrxpmrzdkmbfr"
+                },
+                "Name": "plyleqkgszndmtvx",
+                "RecrawlPolicy": {
+                    "RecrawlBehavior": "vlvdvyppiecahtqa"
+                },
+                "Role": "algwrucscwhbcsrb",
+                "Schedule": {
+                    "ScheduleExpression": "ewnytjgcancaxabn",
+                    "State": "xpqueufzpkntriky"
+                },
+                "SchemaChangePolicy": {
+                    "DeleteBehavior": "lwjbgyjjmlrhzyvb",
+                    "UpdateBehavior": "kfzkiwqovxsqdwfs"
+                },
+                "State": "bbmksrgrigppmdij",
+                "TablePrefix": "fdbxmigjsovrbyoe",
+                "Targets": {
+                    "CatalogTargets": [
+                        {
+                            "ConnectionName": "grjrtvjfdgyymgtt",
+                            "DatabaseName": "bfwwymwkmvzrlmlp",
+                            "DlqEventQueueArn": "halnnxhhmbyymjpg",
+                            "EventQueueArn": "eemwqfuylijgcpar",
+                            "Tables": [
+                                "hjgtuilkmrbuored"
+                            ]
+                        }
+                    ],
+                    "DeltaTargets": [
+                        {
+                            "ConnectionName": "ikdsksmmgemxkmby",
+                            "CreateNativeDeltaTable": true,
+                            "DeltaTables": [
+                                "plrsqwtmatymplpy"
+                            ],
+                            "WriteManifest": true
+                        }
+                    ],
+                    "DynamoDBTargets": [
+                        {
+                            "Path": "hyxpvsocuwsurano",
+                            "scanAll": true,
+                            "scanRate": 0.0
+                        }
+                    ],
+                    "HudiTargets": [
+                        {
+                            "ConnectionName": "qvcmkzwwtanzyxsp",
+                            "Exclusions": [
+                                "ycfjjjvklrevuved"
+                            ],
+                            "MaximumTraversalDepth": 0,
+                            "Paths": [
+                                "wutkfftqigdrfzzq"
+                            ]
+                        }
+                    ],
+                    "IcebergTargets": [
+                        {
+                            "ConnectionName": "dtijfukoyxrrfiol",
+                            "Exclusions": [
+                                "hlvxntnhxrcdpchn"
+                            ],
+                            "MaximumTraversalDepth": 0,
+                            "Paths": [
+                                "gnxhdagezscqnblr"
+                            ]
+                        }
+                    ],
+                    "JdbcTargets": [
+                        {
+                            "ConnectionName": "umasveitxueyppsu",
+                            "EnableAdditionalMetadata": [
+                                "wvfzkwqazlhqdwsw"
+                            ],
+                            "Exclusions": [
+                                "nlxzyuqnvwhgaiil"
+                            ],
+                            "Path": "tgtcggurkrzursnc"
+                        }
+                    ],
+                    "MongoDBTargets": [
+                        {
+                            "ConnectionName": "ftnehnlvixhdxkqf",
+                            "Path": "yynwyrtjsdqvtdre",
+                            "ScanAll": true
+                        }
+                    ],
+                    "S3Targets": [
+                        {
+                            "ConnectionName": "tqajhvvtykfxqubv",
+                            "DlqEventQueueArn": "qdxksxgklpmrtgvz",
+                            "EventQueueArn": "odgaxifhhtmfrgab",
+                            "Exclusions": [
+                                "aamdjcmthuohwxjn"
+                            ],
+                            "Path": "lyiwdrxnrgqlkmud",
+                            "SampleSize": 0
+                        }
+                    ]
+                },
+                "Version": 0
+            },
+            {
+                "Classifiers": [
+                    "wtampxmbpujitfgm"
+                ],
+                "Configuration": "tkxhdvqfnpvfjwvp",
+                "CrawlElapsedTime": 0,
+                "CrawlerSecurityConfiguration": "owkucrnbgcznveco",
+                "CreationTime": "fdojefofiiiqcndr",
+                "DatabaseName": "qcteageddaoaidmg",
+                "Description": "dreonuozehrgsxtv",
+                "LakeFormationConfiguration": {
+                    "AccountId": "reoeokbsswbrrlph",
+                    "UseLakeFormationCredentials": true
+                },
+                "LastCrawl": {
+                    "ErrorMessage": "cgqegeylsglcvmid",
+                    "LogGroup": "aiyxfakiwuxqndid",
+                    "LogStream": "zrzucsipyztioeok",
+                    "MessagePrefix": "veyebrvpagxzeylz",
+                    "StartTime": "cjicxgrnaztfcuer",
+                    "Status": "yyhzovulaeoncemy"
+                },
+                "LastUpdated": "kqckongtpwzczkqa",
+                "LineageConfiguration": {
+                    "CrawlerLineageSettings": "twdxsleuxsowssve"
+                },
+                "Name": "rdfhnmekrxkurffd",
+                "RecrawlPolicy": {
+                    "RecrawlBehavior": "lvqbexksfbfhulou"
+                },
+                "Role": "qvggyoeakywbzwhl",
+                "Schedule": {
+                    "ScheduleExpression": "tvollqsfcqrhjxyt",
+                    "State": "lwbyfwcrnqaeauoq"
+                },
+                "SchemaChangePolicy": {
+                    "DeleteBehavior": "hkazwytllmrhbpll",
+                    "UpdateBehavior": "iirxqpuyxstcwhhj"
+                },
+                "State": "ohkxlnntwnrrkqpl",
+                "TablePrefix": "mazilohouewnqzhl",
+                "Targets": {
+                    "CatalogTargets": [
+                        {
+                            "ConnectionName": "pgbtzvyyojveahpc",
+                            "DatabaseName": "zppcyxqnmkugucqr",
+                            "DlqEventQueueArn": "irxbjaqjabefcrlm",
+                            "EventQueueArn": "qyrndbaarrgpotej",
+                            "Tables": [
+                                "pllzlezgmvputsbw"
+                            ]
+                        }
+                    ],
+                    "DeltaTargets": [
+                        {
+                            "ConnectionName": "jyjtixoxtbmpmajk",
+                            "CreateNativeDeltaTable": true,
+                            "DeltaTables": [
+                                "urzuyoxhclrmpbmq"
+                            ],
+                            "WriteManifest": true
+                        }
+                    ],
+                    "DynamoDBTargets": [
+                        {
+                            "Path": "zhhshurxgcyzmetd",
+                            "scanAll": true,
+                            "scanRate": 0.0
+                        }
+                    ],
+                    "HudiTargets": [
+                        {
+                            "ConnectionName": "lcnpshalsbhslocm",
+                            "Exclusions": [
+                                "ywptzxgnayxnqagi"
+                            ],
+                            "MaximumTraversalDepth": 0,
+                            "Paths": [
+                                "mldlqyiypwppzglj"
+                            ]
+                        }
+                    ],
+                    "IcebergTargets": [
+                        {
+                            "ConnectionName": "cylxtbnoxcmowpos",
+                            "Exclusions": [
+                                "euslkkescggcgpmu"
+                            ],
+                            "MaximumTraversalDepth": 0,
+                            "Paths": [
+                                "txqoqyrqfhaqfwqn"
+                            ]
+                        }
+                    ],
+                    "JdbcTargets": [
+                        {
+                            "ConnectionName": "cuopyinlqgoncwez",
+                            "EnableAdditionalMetadata": [
+                                "brkcekkxbpomdjch"
+                            ],
+                            "Exclusions": [
+                                "xqcsjsrheurnheei"
+                            ],
+                            "Path": "tuumuwgjagspukwt"
+                        }
+                    ],
+                    "MongoDBTargets": [
+                        {
+                            "ConnectionName": "tcpveonbisayyuvj",
+                            "Path": "nwyeabdifvuynzec",
+                            "ScanAll": true
+                        }
+                    ],
+                    "S3Targets": [
+                        {
+                            "ConnectionName": "zmhnltxfzgijotkn",
+                            "DlqEventQueueArn": "fjoemzwxxsxnetve",
+                            "EventQueueArn": "flcelsjfpkpogfte",
+                            "Exclusions": [
+                                "uwxmaeqgnrgdobnm"
+                            ],
+                            "Path": "kdvxwnkihmeqqiyg",
+                            "SampleSize": 0
+                        }
+                    ]
+                },
+                "Version": 0
+            },
+            {
+                "Classifiers": [
+                    "kombsbdvhsddgxgj"
+                ],
+                "Configuration": "pczrktpvulckxiyw",
+                "CrawlElapsedTime": 0,
+                "CrawlerSecurityConfiguration": "joqgphuhmitsxxch",
+                "CreationTime": "luqwbobvpojrhogw",
+                "DatabaseName": "thtwqaicbubypqqh",
+                "Description": "deykqnakyfamtyuf",
+                "LakeFormationConfiguration": {
+                    "AccountId": "evmeapzxenhorxkp",
+                    "UseLakeFormationCredentials": true
+                },
+                "LastCrawl": {
+                    "ErrorMessage": "ewncdvhielizjvrg",
+                    "LogGroup": "jyyrfxbuxkzkmdpy",
+                    "LogStream": "tjfyuohflkrbzkih",
+                    "MessagePrefix": "lpjeymxidjfjxreg",
+                    "StartTime": "xhupppoxlyjsomyn",
+                    "Status": "ynglgmibrstvaolj"
+                },
+                "LastUpdated": "peltkwvlwmitwian",
+                "LineageConfiguration": {
+                    "CrawlerLineageSettings": "cicbabtkfoadovhr"
+                },
+                "Name": "ukqrpkvxzzmthjul",
+                "RecrawlPolicy": {
+                    "RecrawlBehavior": "lkpelbmpukqpphyc"
+                },
+                "Role": "msqresjrfcwumgcv",
+                "Schedule": {
+                    "ScheduleExpression": "gmleyuvxhnexjpbj",
+                    "State": "wamidktuiqnkszzl"
+                },
+                "SchemaChangePolicy": {
+                    "DeleteBehavior": "guvlqorkhreldogv",
+                    "UpdateBehavior": "sxzodnlsufouhatl"
+                },
+                "State": "vplmctngvaaddkck",
+                "TablePrefix": "vdxxymjcykzaocfs",
+                "Targets": {
+                    "CatalogTargets": [
+                        {
+                            "ConnectionName": "hwuelkumhxuedlcc",
+                            "DatabaseName": "humeytaejuurozou",
+                            "DlqEventQueueArn": "npjyhavuqmrnclfr",
+                            "EventQueueArn": "pepkathgssfvlmsq",
+                            "Tables": [
+                                "zbtcspfuaxffhuum"
+                            ]
+                        }
+                    ],
+                    "DeltaTargets": [
+                        {
+                            "ConnectionName": "kadwixmiqedbgqyf",
+                            "CreateNativeDeltaTable": true,
+                            "DeltaTables": [
+                                "ylpdnbnelxcpuczq"
+                            ],
+                            "WriteManifest": true
+                        }
+                    ],
+                    "DynamoDBTargets": [
+                        {
+                            "Path": "uukbwmuqjycivqmo",
+                            "scanAll": true,
+                            "scanRate": 0.0
+                        }
+                    ],
+                    "HudiTargets": [
+                        {
+                            "ConnectionName": "hdgdwhrxydzfppgr",
+                            "Exclusions": [
+                                "orbegflrssqtaezq"
+                            ],
+                            "MaximumTraversalDepth": 0,
+                            "Paths": [
+                                "hfguihkngovaejpx"
+                            ]
+                        }
+                    ],
+                    "IcebergTargets": [
+                        {
+                            "ConnectionName": "uwdoblnwwnrcmpsx",
+                            "Exclusions": [
+                                "avmxegkcdhzisdui"
+                            ],
+                            "MaximumTraversalDepth": 0,
+                            "Paths": [
+                                "vwzlbecerulqozng"
+                            ]
+                        }
+                    ],
+                    "JdbcTargets": [
+                        {
+                            "ConnectionName": "rdulkjavhjuwuuvk",
+                            "EnableAdditionalMetadata": [
+                                "wpzzgbwcxdiaelpn"
+                            ],
+                            "Exclusions": [
+                                "tjhmakvfjludpnmk"
+                            ],
+                            "Path": "dftdgvbnldkklevf"
+                        }
+                    ],
+                    "MongoDBTargets": [
+                        {
+                            "ConnectionName": "voasimsxcvycinty",
+                            "Path": "plwutsblzjzwklmw",
+                            "ScanAll": true
+                        }
+                    ],
+                    "S3Targets": [
+                        {
+                            "ConnectionName": "xiayyrvworjxdfer",
+                            "DlqEventQueueArn": "txdlcpdbifcrrcbg",
+                            "EventQueueArn": "lkrwliakdepxhnym",
+                            "Exclusions": [
+                                "buqbrpdlpiuomgku"
+                            ],
+                            "Path": "ertnjnndpacplodc",
+                            "SampleSize": 0
+                        }
+                    ]
+                },
+                "Version": 0
+            },
+            {
+                "Classifiers": [
+                    "lfjtdxcwlzynnkrj"
+                ],
+                "Configuration": "ijnjxbliasybhxph",
+                "CrawlElapsedTime": 0,
+                "CrawlerSecurityConfiguration": "rpedpbrsvujgslng",
+                "CreationTime": "xnxahesqsmpjeknb",
+                "DatabaseName": "diltubhnmcuqfjrf",
+                "Description": "ftehynbwmrfaoqih",
+                "LakeFormationConfiguration": {
+                    "AccountId": "hmpctgbuvfkktqpe",
+                    "UseLakeFormationCredentials": true
+                },
+                "LastCrawl": {
+                    "ErrorMessage": "qoxzczlgogubzknq",
+                    "LogGroup": "sdwxpwmeyuczakjh",
+                    "LogStream": "hounaczjlbgwdrbp",
+                    "MessagePrefix": "zfmwsuexdwwkitft",
+                    "StartTime": "awnjdhkmflgekshx",
+                    "Status": "qqucofiqnjnamnbs"
+                },
+                "LastUpdated": "tgrofysjhaxdkntr",
+                "LineageConfiguration": {
+                    "CrawlerLineageSettings": "ktbjqdrbddpypuuh"
+                },
+                "Name": "jvkhnoaaxqulpodd",
+                "RecrawlPolicy": {
+                    "RecrawlBehavior": "owoauihnenvfpqsr"
+                },
+                "Role": "kcccymfoeajhecjp",
+                "Schedule": {
+                    "ScheduleExpression": "oyfwjvulzjdfcvmn",
+                    "State": "wnswvfdbeaeopitn"
+                },
+                "SchemaChangePolicy": {
+                    "DeleteBehavior": "oxoxzcfbtbfwysys",
+                    "UpdateBehavior": "lhtpkcqotzpbnkwb"
+                },
+                "State": "faqxrurficroyely",
+                "TablePrefix": "kgrmocpogzzcwuua",
+                "Targets": {
+                    "CatalogTargets": [
+                        {
+                            "ConnectionName": "vijmrjsjyxhzogfr",
+                            "DatabaseName": "mdsdapqmmvuysbta",
+                            "DlqEventQueueArn": "qeqprmglafodxpxe",
+                            "EventQueueArn": "adqotfpdbivyhakp",
+                            "Tables": [
+                                "dvcagmspwksxuxrx"
+                            ]
+                        }
+                    ],
+                    "DeltaTargets": [
+                        {
+                            "ConnectionName": "zwcwahcgbkdqesft",
+                            "CreateNativeDeltaTable": true,
+                            "DeltaTables": [
+                                "ylziweosmborcmav"
+                            ],
+                            "WriteManifest": true
+                        }
+                    ],
+                    "DynamoDBTargets": [
+                        {
+                            "Path": "scggqemjxtiuvkbf",
+                            "scanAll": true,
+                            "scanRate": 0.0
+                        }
+                    ],
+                    "HudiTargets": [
+                        {
+                            "ConnectionName": "bvnbhcbnwpimpjjr",
+                            "Exclusions": [
+                                "hgouffyhsqkmuzyt"
+                            ],
+                            "MaximumTraversalDepth": 0,
+                            "Paths": [
+                                "mabzzvkakvnkkntm"
+                            ]
+                        }
+                    ],
+                    "IcebergTargets": [
+                        {
+                            "ConnectionName": "hsnqkpwsditudklj",
+                            "Exclusions": [
+                                "uucmmdffabttcufg"
+                            ],
+                            "MaximumTraversalDepth": 0,
+                            "Paths": [
+                                "lnnkosrkjavqypzp"
+                            ]
+                        }
+                    ],
+                    "JdbcTargets": [
+                        {
+                            "ConnectionName": "fjsymcudrpyimvyl",
+                            "EnableAdditionalMetadata": [
+                                "nvsbjqhaeqcabdar"
+                            ],
+                            "Exclusions": [
+                                "uqxonnfaptvlbxgg"
+                            ],
+                            "Path": "jfjrzbaqnctamzoa"
+                        }
+                    ],
+                    "MongoDBTargets": [
+                        {
+                            "ConnectionName": "wxvjzqkznszkkaan",
+                            "Path": "vohklintddglvfev",
+                            "ScanAll": true
+                        }
+                    ],
+                    "S3Targets": [
+                        {
+                            "ConnectionName": "bwlrxvwpaxojuqil",
+                            "DlqEventQueueArn": "lrbvhwacdypheyep",
+                            "EventQueueArn": "ebkkngxnzvzgbria",
+                            "Exclusions": [
+                                "utaalelojzrmhxnz"
+                            ],
+                            "Path": "hyxdzcqhkvkkzzfa",
+                            "SampleSize": 0
+                        }
+                    ]
+                },
+                "Version": 0
+            },
+            {
+                "Classifiers": [
+                    "pyftwaxvettpqalf"
+                ],
+                "Configuration": "jfsinjchqunvhqyq",
+                "CrawlElapsedTime": 0,
+                "CrawlerSecurityConfiguration": "gerwiqixnuzogpei",
+                "CreationTime": "ncczmjqnimqovwvb",
+                "DatabaseName": "rgqsupbwqiqgsdwb",
+                "Description": "fbnuozpsfphsvrgo",
+                "LakeFormationConfiguration": {
+                    "AccountId": "hcgjadzzgiuoxrua",
+                    "UseLakeFormationCredentials": true
+                },
+                "LastCrawl": {
+                    "ErrorMessage": "cznzccizxnklmuuw",
+                    "LogGroup": "sumebnwbxoztvkeb",
+                    "LogStream": "azhuiduakewnqpxz",
+                    "MessagePrefix": "wjubdmcxhkrmigte",
+                    "StartTime": "qxibwogegzcnmvbe",
+                    "Status": "vofcebmimhpnvtxt"
+                },
+                "LastUpdated": "kudmwdnwxescmpjt",
+                "LineageConfiguration": {
+                    "CrawlerLineageSettings": "hbkcijeucrckcibe"
+                },
+                "Name": "iqpzwpvietflfima",
+                "RecrawlPolicy": {
+                    "RecrawlBehavior": "vgsfbmypddvtrvet"
+                },
+                "Role": "boyjkbzasvmrvmgt",
+                "Schedule": {
+                    "ScheduleExpression": "yapmqjdemsqpcfge",
+                    "State": "ftuoangovbkjoevz"
+                },
+                "SchemaChangePolicy": {
+                    "DeleteBehavior": "eexshjhpgocwmhuu",
+                    "UpdateBehavior": "uozhxmmeccenodip"
+                },
+                "State": "mugceympiblkkpjl",
+                "TablePrefix": "zcdgvujxgjxqrokv",
+                "Targets": {
+                    "CatalogTargets": [
+                        {
+                            "ConnectionName": "ykielgzvmovuyyyv",
+                            "DatabaseName": "xbrqkufwxpipqbcc",
+                            "DlqEventQueueArn": "qvddvwwgwjnwyxsj",
+                            "EventQueueArn": "zhqtlcggxsarpbjg",
+                            "Tables": [
+                                "gbqfqyqdzxwlqvim"
+                            ]
+                        }
+                    ],
+                    "DeltaTargets": [
+                        {
+                            "ConnectionName": "mzkyfbizdqvffrhu",
+                            "CreateNativeDeltaTable": true,
+                            "DeltaTables": [
+                                "zyohdeqisxrpusvl"
+                            ],
+                            "WriteManifest": true
+                        }
+                    ],
+                    "DynamoDBTargets": [
+                        {
+                            "Path": "wloyvepsdfksnhmo",
+                            "scanAll": true,
+                            "scanRate": 0.0
+                        }
+                    ],
+                    "HudiTargets": [
+                        {
+                            "ConnectionName": "aafkimtnyzlrxvwi",
+                            "Exclusions": [
+                                "jexsphuxrllmdswi"
+                            ],
+                            "MaximumTraversalDepth": 0,
+                            "Paths": [
+                                "shjqxmeepijwizqs"
+                            ]
+                        }
+                    ],
+                    "IcebergTargets": [
+                        {
+                            "ConnectionName": "qicqmzhcsvrgipxh",
+                            "Exclusions": [
+                                "tlpjyvjbewmcygbw"
+                            ],
+                            "MaximumTraversalDepth": 0,
+                            "Paths": [
+                                "easoybpzzsozpqyt"
+                            ]
+                        }
+                    ],
+                    "JdbcTargets": [
+                        {
+                            "ConnectionName": "xroctztupjhhvjuj",
+                            "EnableAdditionalMetadata": [
+                                "upyhalvibiuqtpde"
+                            ],
+                            "Exclusions": [
+                                "fhdjhnjeqlxffzof"
+                            ],
+                            "Path": "apxyavjquznzbhyi"
+                        }
+                    ],
+                    "MongoDBTargets": [
+                        {
+                            "ConnectionName": "nihgalymvpbkeymr",
+                            "Path": "qmcmggqytmjskugz",
+                            "ScanAll": true
+                        }
+                    ],
+                    "S3Targets": [
+                        {
+                            "ConnectionName": "wzcevzhfqcvghsxe",
+                            "DlqEventQueueArn": "dkvdgttbqbktukns",
+                            "EventQueueArn": "ofwuklqodywhkrae",
+                            "Exclusions": [
+                                "kuefulwqnoojcnwt"
+                            ],
+                            "Path": "txbwjevodvdugqky",
+                            "SampleSize": 0
+                        }
+                    ]
+                },
+                "Version": 0
+            },
+            {
+                "Classifiers": [
+                    "ztrxxekwjsoruqhh"
+                ],
+                "Configuration": "cuwzwzixwzzhzmcd",
+                "CrawlElapsedTime": 0,
+                "CrawlerSecurityConfiguration": "umxkjlurtvzgwhmz",
+                "CreationTime": "vzigsjhdpxuapbaz",
+                "DatabaseName": "ysyzguwimliqqkaj",
+                "Description": "cohfiyqgkauajjtq",
+                "LakeFormationConfiguration": {
+                    "AccountId": "kkdsdzecqgfbgqil",
+                    "UseLakeFormationCredentials": true
+                },
+                "LastCrawl": {
+                    "ErrorMessage": "qzmaganzmgoycaeh",
+                    "LogGroup": "blvlhjvvisjflzti",
+                    "LogStream": "bvzdkkzrmkatklby",
+                    "MessagePrefix": "drzymygcuxgcrulw",
+                    "StartTime": "cdkojvekisgtbiwf",
+                    "Status": "jcmpkvfkxvjtvpdu"
+                },
+                "LastUpdated": "lwlvouvwcdzlrcvi",
+                "LineageConfiguration": {
+                    "CrawlerLineageSettings": "uwcpiohlzvebfvnv"
+                },
+                "Name": "ewmnhzlcbjolsrdx",
+                "RecrawlPolicy": {
+                    "RecrawlBehavior": "jywxgkoqeohfefnc"
+                },
+                "Role": "mkjfdqhnrchmqvfv",
+                "Schedule": {
+                    "ScheduleExpression": "gcrltvihfhvmxnqh",
+                    "State": "ammmtgpcpyrwyhtn"
+                },
+                "SchemaChangePolicy": {
+                    "DeleteBehavior": "hovvbksnwhyveqic",
+                    "UpdateBehavior": "brbjdquaaebdxxlx"
+                },
+                "State": "qyrsvoozibiqslip",
+                "TablePrefix": "usdyjomwfcejpobc",
+                "Targets": {
+                    "CatalogTargets": [
+                        {
+                            "ConnectionName": "dpuwpvfwvcfcipte",
+                            "DatabaseName": "agkicarvynrhdore",
+                            "DlqEventQueueArn": "zwfybdozvjwxoxyp",
+                            "EventQueueArn": "fhsdcjdfmqrxzaqu",
+                            "Tables": [
+                                "sdmfdsihixukjrnw"
+                            ]
+                        }
+                    ],
+                    "DeltaTargets": [
+                        {
+                            "ConnectionName": "lsmshnpiuprdmfnn",
+                            "CreateNativeDeltaTable": true,
+                            "DeltaTables": [
+                                "rokravizwqgwhyox"
+                            ],
+                            "WriteManifest": true
+                        }
+                    ],
+                    "DynamoDBTargets": [
+                        {
+                            "Path": "vlorhvbcvgpbwrbd",
+                            "scanAll": true,
+                            "scanRate": 0.0
+                        }
+                    ],
+                    "HudiTargets": [
+                        {
+                            "ConnectionName": "jwkdwpzokeaxupdm",
+                            "Exclusions": [
+                                "twlppjddaswkvreu"
+                            ],
+                            "MaximumTraversalDepth": 0,
+                            "Paths": [
+                                "aiyiudvrnzzteahz"
+                            ]
+                        }
+                    ],
+                    "IcebergTargets": [
+                        {
+                            "ConnectionName": "zzvlymiqaiznrwuk",
+                            "Exclusions": [
+                                "guyajyxfdpdcjtuq"
+                            ],
+                            "MaximumTraversalDepth": 0,
+                            "Paths": [
+                                "gxfqweyoojydwgjy"
+                            ]
+                        }
+                    ],
+                    "JdbcTargets": [
+                        {
+                            "ConnectionName": "ijbjeljhfmolixmb",
+                            "EnableAdditionalMetadata": [
+                                "msaieazslbfyofyp"
+                            ],
+                            "Exclusions": [
+                                "jvnwcsrgikggfpzi"
+                            ],
+                            "Path": "zlyzqhpqmziggvbk"
+                        }
+                    ],
+                    "MongoDBTargets": [
+                        {
+                            "ConnectionName": "xpkluqikuuhmtijx",
+                            "Path": "xftnmjyftuopejsv",
+                            "ScanAll": true
+                        }
+                    ],
+                    "S3Targets": [
+                        {
+                            "ConnectionName": "fiekgthejgzhmwnj",
+                            "DlqEventQueueArn": "yhwwumccjfikdrmj",
+                            "EventQueueArn": "zcskfycuowvuwwvw",
+                            "Exclusions": [
+                                "uzjvhurpcncphhck"
+                            ],
+                            "Path": "ovbfjcibfaeupxzb",
+                            "SampleSize": 0
+                        }
+                    ]
+                },
+                "Version": 0
+            },
+            {
+                "Classifiers": [
+                    "zhdmytvlvllvgudc"
+                ],
+                "Configuration": "svlmgxmkrnwbexxc",
+                "CrawlElapsedTime": 0,
+                "CrawlerSecurityConfiguration": "xvvorxfudcdvfxhm",
+                "CreationTime": "kbwwbyhvwosksbsb",
+                "DatabaseName": "bpvkaykdnrlwjuze",
+                "Description": "hfjyjscmidraylzh",
+                "LakeFormationConfiguration": {
+                    "AccountId": "kugbaasoyefpounp",
+                    "UseLakeFormationCredentials": true
+                },
+                "LastCrawl": {
+                    "ErrorMessage": "fkpitoqwmvmmdche",
+                    "LogGroup": "ditmvpfhltvxeaap",
+                    "LogStream": "pwmsjahjqxmdsluc",
+                    "MessagePrefix": "zlekecpydqrsauvn",
+                    "StartTime": "auhcbmwssfcktkdn",
+                    "Status": "ijnspvrjaghhaqsy"
+                },
+                "LastUpdated": "psaslalsfltgagyy",
+                "LineageConfiguration": {
+                    "CrawlerLineageSettings": "gamfdmnlarpvfrlz"
+                },
+                "Name": "osgqwnekcjdrnznp",
+                "RecrawlPolicy": {
+                    "RecrawlBehavior": "tnrldubmskxzpiem"
+                },
+                "Role": "fxhphakdujhtidgv",
+                "Schedule": {
+                    "ScheduleExpression": "mfbdbhjpfpbqmyhs",
+                    "State": "epkfivqghffbwuie"
+                },
+                "SchemaChangePolicy": {
+                    "DeleteBehavior": "hblheffvfmbxhsdk",
+                    "UpdateBehavior": "ogiqobekbzldywas"
+                },
+                "State": "afsfmpwjfczkfeyi",
+                "TablePrefix": "blkybsftcvrmzhac",
+                "Targets": {
+                    "CatalogTargets": [
+                        {
+                            "ConnectionName": "cbdkawrfbctayssm",
+                            "DatabaseName": "aoewlqxlnqcihkrr",
+                            "DlqEventQueueArn": "qnjurlvsvhqagzef",
+                            "EventQueueArn": "lhkfsfgmgwpiixip",
+                            "Tables": [
+                                "tpevnlwlqstbtyay"
+                            ]
+                        }
+                    ],
+                    "DeltaTargets": [
+                        {
+                            "ConnectionName": "dztolptrkvzyhohg",
+                            "CreateNativeDeltaTable": true,
+                            "DeltaTables": [
+                                "abxbctmfyehllgni"
+                            ],
+                            "WriteManifest": true
+                        }
+                    ],
+                    "DynamoDBTargets": [
+                        {
+                            "Path": "sbyzenjibxprrirn",
+                            "scanAll": true,
+                            "scanRate": 0.0
+                        }
+                    ],
+                    "HudiTargets": [
+                        {
+                            "ConnectionName": "hssobezokppaukuc",
+                            "Exclusions": [
+                                "qmgmosrmslbqrqaj"
+                            ],
+                            "MaximumTraversalDepth": 0,
+                            "Paths": [
+                                "kalweobflsgbpdsq"
+                            ]
+                        }
+                    ],
+                    "IcebergTargets": [
+                        {
+                            "ConnectionName": "ctjyqqwlupptidih",
+                            "Exclusions": [
+                                "fxsfwjuewzmtsutb"
+                            ],
+                            "MaximumTraversalDepth": 0,
+                            "Paths": [
+                                "drvfwefoiypcbtwv"
+                            ]
+                        }
+                    ],
+                    "JdbcTargets": [
+                        {
+                            "ConnectionName": "imvqyshiepavnqtq",
+                            "EnableAdditionalMetadata": [
+                                "jhmtthgwcyqxweic"
+                            ],
+                            "Exclusions": [
+                                "awaannresqbxskik"
+                            ],
+                            "Path": "xpcbonolxuewqrno"
+                        }
+                    ],
+                    "MongoDBTargets": [
+                        {
+                            "ConnectionName": "rzipmerwgyhoadnh",
+                            "Path": "ecvngimlmwduzbfq",
+                            "ScanAll": true
+                        }
+                    ],
+                    "S3Targets": [
+                        {
+                            "ConnectionName": "fzbsvjmlyzmioxwq",
+                            "DlqEventQueueArn": "mrhkdfcafqtfymbo",
+                            "EventQueueArn": "lelfrjtyxnycsfcd",
+                            "Exclusions": [
+                                "iwsyxqdbopephlfy"
+                            ],
+                            "Path": "twmewemvuiqqjpui",
+                            "SampleSize": 0
+                        }
+                    ]
+                },
+                "Version": 0
+            },
+            {
+                "Classifiers": [
+                    "fnlibcslxjjfntgt"
+                ],
+                "Configuration": "puqgbmjbgozthjzs",
+                "CrawlElapsedTime": 0,
+                "CrawlerSecurityConfiguration": "olazzaucshkygwyq",
+                "CreationTime": "jccxwtoqnuxhzusa",
+                "DatabaseName": "fdknatiigdtkrxgk",
+                "Description": "ojcsgssgnkgajyzp",
+                "LakeFormationConfiguration": {
+                    "AccountId": "vgorgdlnkgwzezkm",
+                    "UseLakeFormationCredentials": true
+                },
+                "LastCrawl": {
+                    "ErrorMessage": "czohqazoxtpdgdbn",
+                    "LogGroup": "cjzrmklqixrhowaz",
+                    "LogStream": "xqbwbwbzuhyqnfbj",
+                    "MessagePrefix": "ddbrbxvoezuufmjg",
+                    "StartTime": "mgwjrzdyhexzpoau",
+                    "Status": "aermhcrzduocxtdc"
+                },
+                "LastUpdated": "sllvmlcpwwsouywm",
+                "LineageConfiguration": {
+                    "CrawlerLineageSettings": "xsyycxhhzgrzqqga"
+                },
+                "Name": "snciiedvhuawjnuv",
+                "RecrawlPolicy": {
+                    "RecrawlBehavior": "uubdqmydhbtaerfh"
+                },
+                "Role": "cvsujrcfjrhkucyk",
+                "Schedule": {
+                    "ScheduleExpression": "wbtmuakkfsloywbv",
+                    "State": "kyxvwaikaqcgtujo"
+                },
+                "SchemaChangePolicy": {
+                    "DeleteBehavior": "kfudggtosazxcdwg",
+                    "UpdateBehavior": "zaufenssjvofyjxa"
+                },
+                "State": "tetshgxlbkmjtvvf",
+                "TablePrefix": "bzevuuockoakoxyc",
+                "Targets": {
+                    "CatalogTargets": [
+                        {
+                            "ConnectionName": "jtqxkjyznktgmwcz",
+                            "DatabaseName": "qywpkopmzqeljmsv",
+                            "DlqEventQueueArn": "hejygranmmglytzn",
+                            "EventQueueArn": "fxwltmhgkyxwhgad",
+                            "Tables": [
+                                "gkhdkvkrrgztzbiu"
+                            ]
+                        }
+                    ],
+                    "DeltaTargets": [
+                        {
+                            "ConnectionName": "tdbukrftvnnooxbn",
+                            "CreateNativeDeltaTable": true,
+                            "DeltaTables": [
+                                "zehsxydxjufboyhm"
+                            ],
+                            "WriteManifest": true
+                        }
+                    ],
+                    "DynamoDBTargets": [
+                        {
+                            "Path": "nktsnfabrycrpmkj",
+                            "scanAll": true,
+                            "scanRate": 0.0
+                        }
+                    ],
+                    "HudiTargets": [
+                        {
+                            "ConnectionName": "jezvooclhgleqgwn",
+                            "Exclusions": [
+                                "ksdybhzilyhrxhpw"
+                            ],
+                            "MaximumTraversalDepth": 0,
+                            "Paths": [
+                                "ltikvhbaxjrnyhxv"
+                            ]
+                        }
+                    ],
+                    "IcebergTargets": [
+                        {
+                            "ConnectionName": "xqcyixfjlloxrout",
+                            "Exclusions": [
+                                "wnzbaggnsjbmnjdn"
+                            ],
+                            "MaximumTraversalDepth": 0,
+                            "Paths": [
+                                "fshnrdhabwbbbzew"
+                            ]
+                        }
+                    ],
+                    "JdbcTargets": [
+                        {
+                            "ConnectionName": "wbcdeimnzcqpqyhs",
+                            "EnableAdditionalMetadata": [
+                                "ppzxwdeiltnxkcck"
+                            ],
+                            "Exclusions": [
+                                "npfizbxnztufuyns"
+                            ],
+                            "Path": "xbfzljzaesvlssbm"
+                        }
+                    ],
+                    "MongoDBTargets": [
+                        {
+                            "ConnectionName": "wxngkzjtgrsvnddv",
+                            "Path": "ktmlsjnqflgvmaur",
+                            "ScanAll": true
+                        }
+                    ],
+                    "S3Targets": [
+                        {
+                            "ConnectionName": "zzpomczdfhdyhjvr",
+                            "DlqEventQueueArn": "nnyivpvhukhocqlp",
+                            "EventQueueArn": "itgsstqddcrirccq",
+                            "Exclusions": [
+                                "ihxilckkenvckntr"
+                            ],
+                            "Path": "mmxorgvlnrlziukn",
+                            "SampleSize": 0
+                        }
+                    ]
+                },
+                "Version": 0
+            },
+            {
+                "Classifiers": [
+                    "wgkdgcbnvgllnzbh"
+                ],
+                "Configuration": "etsjjvuqdhpjlxfx",
+                "CrawlElapsedTime": 0,
+                "CrawlerSecurityConfiguration": "ehktplghgmedkyfn",
+                "CreationTime": "bzkjzvrqtibqzhja",
+                "DatabaseName": "mqnhoxgrlvulbumu",
+                "Description": "kbnehlffqtvmzvze",
+                "LakeFormationConfiguration": {
+                    "AccountId": "zfbkxzbqybvewusa",
+                    "UseLakeFormationCredentials": true
+                },
+                "LastCrawl": {
+                    "ErrorMessage": "hgleqppseseozutz",
+                    "LogGroup": "lgzsweahtbdyrzep",
+                    "LogStream": "uywufrojdkjocsvt",
+                    "MessagePrefix": "ygobsmkrvipbkpft",
+                    "StartTime": "bqzqhfebkdtboibb",
+                    "Status": "jjgkmmvfreksujzi"
+                },
+                "LastUpdated": "gdfxggemntidxaln",
+                "LineageConfiguration": {
+                    "CrawlerLineageSettings": "qwxxyrblinnvpriy"
+                },
+                "Name": "nfwwbkxguptxovjz",
+                "RecrawlPolicy": {
+                    "RecrawlBehavior": "wexmlzilnusklrky"
+                },
+                "Role": "tmxpkeblyfytjpoy",
+                "Schedule": {
+                    "ScheduleExpression": "kwvfuijztecregdb",
+                    "State": "sghicidhdekigcak"
+                },
+                "SchemaChangePolicy": {
+                    "DeleteBehavior": "mdhyezdyuhwhhkue",
+                    "UpdateBehavior": "fsxdmskemwoiwjbo"
+                },
+                "State": "raqmbixckhesiise",
+                "TablePrefix": "rxyrtpiuuppfeejp",
+                "Targets": {
+                    "CatalogTargets": [
+                        {
+                            "ConnectionName": "ofgfykzjlhgnambd",
+                            "DatabaseName": "nhwbwusiuuuavnle",
+                            "DlqEventQueueArn": "yayqakoenrnalwmk",
+                            "EventQueueArn": "inkmyqimfyelbbni",
+                            "Tables": [
+                                "zaldxybvgtwzclge"
+                            ]
+                        }
+                    ],
+                    "DeltaTargets": [
+                        {
+                            "ConnectionName": "ljtkyuturxjktfec",
+                            "CreateNativeDeltaTable": true,
+                            "DeltaTables": [
+                                "hlgkilckugglbkao"
+                            ],
+                            "WriteManifest": true
+                        }
+                    ],
+                    "DynamoDBTargets": [
+                        {
+                            "Path": "xtzmsowvwivaluyr",
+                            "scanAll": true,
+                            "scanRate": 0.0
+                        }
+                    ],
+                    "HudiTargets": [
+                        {
+                            "ConnectionName": "ypaaiqvctcvirxrf",
+                            "Exclusions": [
+                                "lzbzryqvoitgyvdc"
+                            ],
+                            "MaximumTraversalDepth": 0,
+                            "Paths": [
+                                "vvnwdnybkicdswtr"
+                            ]
+                        }
+                    ],
+                    "IcebergTargets": [
+                        {
+                            "ConnectionName": "khdasmuadyclqpqj",
+                            "Exclusions": [
+                                "kanehvbkhumawuet"
+                            ],
+                            "MaximumTraversalDepth": 0,
+                            "Paths": [
+                                "ddiaahuciorbiklj"
+                            ]
+                        }
+                    ],
+                    "JdbcTargets": [
+                        {
+                            "ConnectionName": "hbxkivmrgqyovwoi",
+                            "EnableAdditionalMetadata": [
+                                "ghwhafvcfgngffjk"
+                            ],
+                            "Exclusions": [
+                                "ffsdoqxsubeicszq"
+                            ],
+                            "Path": "zuaqexylpsucjaor"
+                        }
+                    ],
+                    "MongoDBTargets": [
+                        {
+                            "ConnectionName": "vjrtqyjpgwlbzdao",
+                            "Path": "bbzmgoryzqmtkcco",
+                            "ScanAll": true
+                        }
+                    ],
+                    "S3Targets": [
+                        {
+                            "ConnectionName": "tjoxnwhhnxdhecao",
+                            "DlqEventQueueArn": "arycalllzlhtqott",
+                            "EventQueueArn": "jeskjsdhipzmukiy",
+                            "Exclusions": [
+                                "ssbhxkcxenzyisip"
+                            ],
+                            "Path": "npafsndksewizwgo",
+                            "SampleSize": 0
+                        }
+                    ]
+                },
+                "Version": 0
+            },
+            {
+                "Classifiers": [
+                    "kfqyxrbptzlatnqo"
+                ],
+                "Configuration": "helirrxyiejobgek",
+                "CrawlElapsedTime": 0,
+                "CrawlerSecurityConfiguration": "aqkbptazsijahepw",
+                "CreationTime": "ygldsppdttutjjye",
+                "DatabaseName": "sianvqhppivdyktp",
+                "Description": "uommzdzsbxaengch",
+                "LakeFormationConfiguration": {
+                    "AccountId": "jojyknmpviwfjiio",
+                    "UseLakeFormationCredentials": true
+                },
+                "LastCrawl": {
+                    "ErrorMessage": "tambkwmbecvdupuc",
+                    "LogGroup": "cpjecaaycepmwywp",
+                    "LogStream": "usbascngzfeovwpr",
+                    "MessagePrefix": "oxfzoponmvnoazai",
+                    "StartTime": "hkyowkhmvbqqwvgz",
+                    "Status": "kzsarmotemrrobxu"
+                },
+                "LastUpdated": "cpizqxvqqsybvbcw",
+                "LineageConfiguration": {
+                    "CrawlerLineageSettings": "atdrivbmjadgdpcw"
+                },
+                "Name": "kllkmgmbalbbkmrm",
+                "RecrawlPolicy": {
+                    "RecrawlBehavior": "vnjjthhkjpqedecy"
+                },
+                "Role": "vuhotnigahwleecc",
+                "Schedule": {
+                    "ScheduleExpression": "zleznnxfjbsefowk",
+                    "State": "kspishubcdbdzrtl"
+                },
+                "SchemaChangePolicy": {
+                    "DeleteBehavior": "lrokkebygmiaagjz",
+                    "UpdateBehavior": "rxvqovtgjvbxjyip"
+                },
+                "State": "ptgrwwizwiuskgpg",
+                "TablePrefix": "wadbpdgbyijdorje",
+                "Targets": {
+                    "CatalogTargets": [
+                        {
+                            "ConnectionName": "xkcpztyhphgzzsci",
+                            "DatabaseName": "wysbsxwmrbxoaopp",
+                            "DlqEventQueueArn": "rbnfhbadzzldwvco",
+                            "EventQueueArn": "xdhgnleptmfrremy",
+                            "Tables": [
+                                "kbbxrclypoxqzatc"
+                            ]
+                        }
+                    ],
+                    "DeltaTargets": [
+                        {
+                            "ConnectionName": "wiomrrbgehenujgx",
+                            "CreateNativeDeltaTable": true,
+                            "DeltaTables": [
+                                "ernkmxgarpiqdhuw"
+                            ],
+                            "WriteManifest": true
+                        }
+                    ],
+                    "DynamoDBTargets": [
+                        {
+                            "Path": "ghigeaongsbmmnxl",
+                            "scanAll": true,
+                            "scanRate": 0.0
+                        }
+                    ],
+                    "HudiTargets": [
+                        {
+                            "ConnectionName": "dubzjmmfvigpekvx",
+                            "Exclusions": [
+                                "ouvqmreczszhugug"
+                            ],
+                            "MaximumTraversalDepth": 0,
+                            "Paths": [
+                                "mhzehrdlniptuzeo"
+                            ]
+                        }
+                    ],
+                    "IcebergTargets": [
+                        {
+                            "ConnectionName": "xdkjvqhxrygxqjro",
+                            "Exclusions": [
+                                "eutwcdzjlsaqhdiu"
+                            ],
+                            "MaximumTraversalDepth": 0,
+                            "Paths": [
+                                "nodqidltgtsjvhzl"
+                            ]
+                        }
+                    ],
+                    "JdbcTargets": [
+                        {
+                            "ConnectionName": "sktfnmpffcvcjfve",
+                            "EnableAdditionalMetadata": [
+                                "xpdgpjbjvbqewqkw"
+                            ],
+                            "Exclusions": [
+                                "biealahkdembjdzf"
+                            ],
+                            "Path": "wjfzxoszmvajmmxf"
+                        }
+                    ],
+                    "MongoDBTargets": [
+                        {
+                            "ConnectionName": "labkttppieqiekpb",
+                            "Path": "cuslspkzggabxkpf",
+                            "ScanAll": true
+                        }
+                    ],
+                    "S3Targets": [
+                        {
+                            "ConnectionName": "gcvskenudppcpkuh",
+                            "DlqEventQueueArn": "tfjuybynfzwtigve",
+                            "EventQueueArn": "qdwrtewuxbuaqogk",
+                            "Exclusions": [
+                                "iuzewioxhumvlhed"
+                            ],
+                            "Path": "mavjbkcrsojgcjax",
+                            "SampleSize": 0
+                        }
+                    ]
+                },
+                "Version": 0
+            }
+        ],
+        "result_key": "Crawlers"
+    },
+    "meta": {
+        "start": 1711115820.082457,
+        "end": 1711115827.651567,
+        "duration": 7.569118976593018,
+        "service": "glue",
+        "type": null
+    }
+}

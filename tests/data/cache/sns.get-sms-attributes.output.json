@@ -1,0 +1,60 @@
+{
+    "input": {
+        "template": {
+            "attributes": [
+                ""
+            ]
+        },
+        "required": [],
+        "md5": "33cd83e288611a3f7dfd3f1239e4607b",
+        "boto_command": "get_sms_attributes",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": {
+            "KeyName": ""
+        },
+        "required": [],
+        "md5": "5b224dda67e785dca2d1cfca1b99210b",
+        "randomized": [
+            {
+                "KeyName": "zcstwschrvjbooru"
+            },
+            {
+                "KeyName": "wxeczmdoifqyjlcz"
+            },
+            {
+                "KeyName": "bbndfgolovtywhrr"
+            },
+            {
+                "KeyName": "grkmcbcwabcqabvu"
+            },
+            {
+                "KeyName": "vsyfrlpxfniwcvkm"
+            },
+            {
+                "KeyName": "vombgelzrhikxunj"
+            },
+            {
+                "KeyName": "imsbzjtfkhxsssmm"
+            },
+            {
+                "KeyName": "ccvlewzmzoyarjbu"
+            },
+            {
+                "KeyName": "jpcxekcfpsthksai"
+            },
+            {
+                "KeyName": "xijbryhacuwkvhky"
+            }
+        ],
+        "result_key": "attributes"
+    },
+    "meta": {
+        "start": 1711116649.398174,
+        "end": 1711116656.446016,
+        "duration": 7.047850847244263,
+        "service": "sns",
+        "type": null
+    }
+}

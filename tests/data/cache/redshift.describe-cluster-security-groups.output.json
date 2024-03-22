@@ -1,0 +1,420 @@
+{
+    "input": {
+        "template": {
+            "ClusterSecurityGroupName": "",
+            "MaxRecords": 0,
+            "Marker": "",
+            "TagKeys": [
+                ""
+            ],
+            "TagValues": [
+                ""
+            ]
+        },
+        "required": [],
+        "md5": "7e98c62d0bd88e004f52829050e8ff90",
+        "boto_command": "describe_cluster_security_groups",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "ClusterSecurityGroupName": "ClusterSecurityGroupName",
+                "Description": "Description",
+                "EC2SecurityGroups": [
+                    {
+                        "Status": "Status",
+                        "EC2SecurityGroupName": "EC2SecurityGroupName",
+                        "EC2SecurityGroupOwnerId": "EC2SecurityGroupOwnerId",
+                        "Tags": [
+                            {
+                                "Key": "Key",
+                                "Value": "Value"
+                            }
+                        ]
+                    }
+                ],
+                "IPRanges": [
+                    {
+                        "Status": "Status",
+                        "CIDRIP": "CIDRIP",
+                        "Tags": [
+                            {
+                                "Key": "Key",
+                                "Value": "Value"
+                            }
+                        ]
+                    }
+                ],
+                "Tags": [
+                    {
+                        "Key": "Key",
+                        "Value": "Value"
+                    }
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "04df73084aac4b483e856832abf8e90e",
+        "randomized": [
+            {
+                "ClusterSecurityGroupName": "qrfwrurajywumepk",
+                "Description": "qmhtzjlphvhfiefd",
+                "EC2SecurityGroups": [
+                    {
+                        "EC2SecurityGroupName": "yoldkhyfnlrirzpf",
+                        "EC2SecurityGroupOwnerId": "gisubzxfmhnpmgpi",
+                        "Status": "zvkdaqjaohrrlqdz",
+                        "Tags": [
+                            {
+                                "Key": "ucnyivavpyfgwukg",
+                                "Value": "xldbomcghgbmcluf"
+                            }
+                        ]
+                    }
+                ],
+                "IPRanges": [
+                    {
+                        "CIDRIP": "eacpqbbdnaouqedx",
+                        "Status": "rfmeeulkknawrwrj",
+                        "Tags": [
+                            {
+                                "Key": "ddfofjwjwpqaqbpi",
+                                "Value": "qaxhrnczacqxxqrc"
+                            }
+                        ]
+                    }
+                ],
+                "Tags": [
+                    {
+                        "Key": "lmwlugwidsjkesst",
+                        "Value": "qbuehrrbseanhxah"
+                    }
+                ]
+            },
+            {
+                "ClusterSecurityGroupName": "wjouatngzgueftfe",
+                "Description": "dyodbeqummpsabrh",
+                "EC2SecurityGroups": [
+                    {
+                        "EC2SecurityGroupName": "hxjqoyfuorgcfgio",
+                        "EC2SecurityGroupOwnerId": "dqyuenoukyilantp",
+                        "Status": "lihlfoiimwzacdek",
+                        "Tags": [
+                            {
+                                "Key": "cxmirnfseewepgjz",
+                                "Value": "slzwvlezfshdabdd"
+                            }
+                        ]
+                    }
+                ],
+                "IPRanges": [
+                    {
+                        "CIDRIP": "prsgbavvlhxtxrpm",
+                        "Status": "scrqawbfcttlxekc",
+                        "Tags": [
+                            {
+                                "Key": "cwafxzgobekgejhh",
+                                "Value": "vvunrsjhdjkkphrt"
+                            }
+                        ]
+                    }
+                ],
+                "Tags": [
+                    {
+                        "Key": "zcmxreeyotgwluoe",
+                        "Value": "qdexuytpzmxqptdp"
+                    }
+                ]
+            },
+            {
+                "ClusterSecurityGroupName": "prygmobqprumuxkv",
+                "Description": "peuiamjmibknrhhd",
+                "EC2SecurityGroups": [
+                    {
+                        "EC2SecurityGroupName": "yuidzufewqghmwlp",
+                        "EC2SecurityGroupOwnerId": "gvmxiciufiacsipo",
+                        "Status": "kvmvaefubuyhegel",
+                        "Tags": [
+                            {
+                                "Key": "zobrrdtnlczvwede",
+                                "Value": "nyfjnrhurljrdoux"
+                            }
+                        ]
+                    }
+                ],
+                "IPRanges": [
+                    {
+                        "CIDRIP": "dxnvgsjfgcwmrqae",
+                        "Status": "dmvflxhjzaqhrhub",
+                        "Tags": [
+                            {
+                                "Key": "znvhlmxwqcavrpje",
+                                "Value": "bemnlgsyqqmzlrnc"
+                            }
+                        ]
+                    }
+                ],
+                "Tags": [
+                    {
+                        "Key": "vehmttwfslbwbfku",
+                        "Value": "oteehybppprfnlms"
+                    }
+                ]
+            },
+            {
+                "ClusterSecurityGroupName": "yufabppokexdvitx",
+                "Description": "mixjddsxoxzxscbd",
+                "EC2SecurityGroups": [
+                    {
+                        "EC2SecurityGroupName": "xtlkodtszdcspmpc",
+                        "EC2SecurityGroupOwnerId": "zvcnsqjjtkcxvwpi",
+                        "Status": "lagswefuiwqrhacr",
+                        "Tags": [
+                            {
+                                "Key": "nbtehtaiiqbxrwzb",
+                                "Value": "lchfgfqsqwubuzsf"
+                            }
+                        ]
+                    }
+                ],
+                "IPRanges": [
+                    {
+                        "CIDRIP": "aomybwmpvvpmegjw",
+                        "Status": "zyrnjbgphtjcqkwz",
+                        "Tags": [
+                            {
+                                "Key": "jdfsjxbuefojyazr",
+                                "Value": "ghxxebihtsxqnnax"
+                            }
+                        ]
+                    }
+                ],
+                "Tags": [
+                    {
+                        "Key": "wbxwvumjynrzqhfn",
+                        "Value": "lqgxkdiqzxtjzvyl"
+                    }
+                ]
+            },
+            {
+                "ClusterSecurityGroupName": "vkpfhpfuiwmgopdo",
+                "Description": "eadqxnljlycvenif",
+                "EC2SecurityGroups": [
+                    {
+                        "EC2SecurityGroupName": "takwldzvzsicnpio",
+                        "EC2SecurityGroupOwnerId": "dpcvmydtlikzihuy",
+                        "Status": "rivhszxykshimkxk",
+                        "Tags": [
+                            {
+                                "Key": "olbmoekjugghhbng",
+                                "Value": "gspmngmekpbffnrv"
+                            }
+                        ]
+                    }
+                ],
+                "IPRanges": [
+                    {
+                        "CIDRIP": "zllosxmsgafxbdse",
+                        "Status": "glstznxkvguiqygg",
+                        "Tags": [
+                            {
+                                "Key": "gdlvyoznbvllcyvh",
+                                "Value": "tcxccaanllbegfgs"
+                            }
+                        ]
+                    }
+                ],
+                "Tags": [
+                    {
+                        "Key": "ytrsojbrbkabedyp",
+                        "Value": "qicrxvahwsdazqub"
+                    }
+                ]
+            },
+            {
+                "ClusterSecurityGroupName": "carlrpoohwrfjydi",
+                "Description": "xodglbhxvutddzkv",
+                "EC2SecurityGroups": [
+                    {
+                        "EC2SecurityGroupName": "hrswdmrydftbvydq",
+                        "EC2SecurityGroupOwnerId": "bunlarlqtwzbyazz",
+                        "Status": "tjwahxnlopqqjhsj",
+                        "Tags": [
+                            {
+                                "Key": "seqeisnzbnitqxgy",
+                                "Value": "pdnzprjmzpwvngms"
+                            }
+                        ]
+                    }
+                ],
+                "IPRanges": [
+                    {
+                        "CIDRIP": "babzfyticvypytip",
+                        "Status": "myiyooulwrjenmch",
+                        "Tags": [
+                            {
+                                "Key": "wrjctudpqglfbctv",
+                                "Value": "oyzjnrrsytzatdtf"
+                            }
+                        ]
+                    }
+                ],
+                "Tags": [
+                    {
+                        "Key": "gkxbubuyqjyedsol",
+                        "Value": "roqepzivafcvkqsj"
+                    }
+                ]
+            },
+            {
+                "ClusterSecurityGroupName": "zgybancspefvladw",
+                "Description": "moqpvogiwmvyuqkr",
+                "EC2SecurityGroups": [
+                    {
+                        "EC2SecurityGroupName": "pzogexdugfihokoo",
+                        "EC2SecurityGroupOwnerId": "eldcdwxvktqjnjzj",
+                        "Status": "ukrajxevatrjrxsi",
+                        "Tags": [
+                            {
+                                "Key": "nrvwqdeluhscresl",
+                                "Value": "nvtkzcigzirorugc"
+                            }
+                        ]
+                    }
+                ],
+                "IPRanges": [
+                    {
+                        "CIDRIP": "grwjonypceemvlqf",
+                        "Status": "ydolqznmgczqyvwn",
+                        "Tags": [
+                            {
+                                "Key": "rmcblciwmtpvtkgh",
+                                "Value": "cntbxfpwndhqawvd"
+                            }
+                        ]
+                    }
+                ],
+                "Tags": [
+                    {
+                        "Key": "dgsvoeorllmmwepq",
+                        "Value": "aeqaswlyzbioryek"
+                    }
+                ]
+            },
+            {
+                "ClusterSecurityGroupName": "cdnxqclarjvsivgl",
+                "Description": "thewiddyistovqks",
+                "EC2SecurityGroups": [
+                    {
+                        "EC2SecurityGroupName": "oputzfhdtfljhhyp",
+                        "EC2SecurityGroupOwnerId": "ecfewvqzmqhtivti",
+                        "Status": "wwvqnnoqjnpndtji",
+                        "Tags": [
+                            {
+                                "Key": "yswgxbtxxheymcgg",
+                                "Value": "ndjcgdwvgtywjwcf"
+                            }
+                        ]
+                    }
+                ],
+                "IPRanges": [
+                    {
+                        "CIDRIP": "sfklphechdwapobq",
+                        "Status": "qufwkzspvtllwnmh",
+                        "Tags": [
+                            {
+                                "Key": "sxagdwiviapqtiwz",
+                                "Value": "jdvqmfbotnuhxxff"
+                            }
+                        ]
+                    }
+                ],
+                "Tags": [
+                    {
+                        "Key": "bronipbprjggvgcz",
+                        "Value": "ajrwymenjrgpuyfq"
+                    }
+                ]
+            },
+            {
+                "ClusterSecurityGroupName": "jsnymrljilanmmih",
+                "Description": "rxljibzezeqlghnf",
+                "EC2SecurityGroups": [
+                    {
+                        "EC2SecurityGroupName": "rnxcnttknuurcwsu",
+                        "EC2SecurityGroupOwnerId": "wbsuqdldivthdhav",
+                        "Status": "rmyjztyvdzzqeltu",
+                        "Tags": [
+                            {
+                                "Key": "koekgrhmpdqnehdc",
+                                "Value": "dsjcjwyesawuurus"
+                            }
+                        ]
+                    }
+                ],
+                "IPRanges": [
+                    {
+                        "CIDRIP": "skffhccmsgvibuvv",
+                        "Status": "efjsnihrgxmvehel",
+                        "Tags": [
+                            {
+                                "Key": "wmhbjdhplvlenpal",
+                                "Value": "fiiqrrogituetfrg"
+                            }
+                        ]
+                    }
+                ],
+                "Tags": [
+                    {
+                        "Key": "ppfvlxcyamgvnkvn",
+                        "Value": "ngxfmaymhwalfrtn"
+                    }
+                ]
+            },
+            {
+                "ClusterSecurityGroupName": "ozvgiinxrkgluwbc",
+                "Description": "xysybvbomihppmcx",
+                "EC2SecurityGroups": [
+                    {
+                        "EC2SecurityGroupName": "bhfnznpxseuwqxso",
+                        "EC2SecurityGroupOwnerId": "scoibngsnezqakmq",
+                        "Status": "zfxxkguqvqqfpczx",
+                        "Tags": [
+                            {
+                                "Key": "slrrkaspychkdryr",
+                                "Value": "kqkawfqwugpxswyh"
+                            }
+                        ]
+                    }
+                ],
+                "IPRanges": [
+                    {
+                        "CIDRIP": "cqaexnwvotcwnyfj",
+                        "Status": "gpdbmlfyhtmkejbh",
+                        "Tags": [
+                            {
+                                "Key": "adqgxlrxzmlivrii",
+                                "Value": "xkhkodvrfzcajaux"
+                            }
+                        ]
+                    }
+                ],
+                "Tags": [
+                    {
+                        "Key": "vsclbnbduggqzcsu",
+                        "Value": "akkfzzcfiekrengj"
+                    }
+                ]
+            }
+        ],
+        "result_key": "ClusterSecurityGroups"
+    },
+    "meta": {
+        "start": 1711116419.769603,
+        "end": 1711116424.856668,
+        "duration": 5.087079048156738,
+        "service": "redshift",
+        "type": "cluster_security_groups"
+    }
+}

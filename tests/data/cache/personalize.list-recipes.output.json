@@ -1,0 +1,118 @@
+{
+    "input": {
+        "template": {
+            "recipeProvider": "SERVICE",
+            "nextToken": "",
+            "maxResults": 0,
+            "domain": "ECOMMERCE"
+        },
+        "required": [],
+        "md5": "af5ddd5cc68282301f104ee80cb7e73c",
+        "boto_command": "list_recipes",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "name": "name",
+                "recipeArn": "recipeArn",
+                "status": "status",
+                "creationDateTime": "1970-01-01T00:00:00",
+                "lastUpdatedDateTime": "1970-01-01T00:00:00",
+                "domain": "domain"
+            }
+        ],
+        "required": [],
+        "md5": "8d4ae854ee981b17595e511197de9714",
+        "randomized": [
+            {
+                "creationDateTime": "gkbpasanpchijrnb",
+                "domain": "jgfrfcethvsdienj",
+                "lastUpdatedDateTime": "basmwsqulzzozslo",
+                "name": "clxsfawfwijhweuz",
+                "recipeArn": "bdogalawhmairvms",
+                "status": "lllcckhwahqgbqda"
+            },
+            {
+                "creationDateTime": "qprbiaqrfskysriy",
+                "domain": "kkrobcduaxethyag",
+                "lastUpdatedDateTime": "xwaqhyionkhmhoad",
+                "name": "aqaexmauvzapitwi",
+                "recipeArn": "ipgvamkxhycuvlqd",
+                "status": "sygabufubwapusjv"
+            },
+            {
+                "creationDateTime": "fdkzdybqtwsiazqf",
+                "domain": "ypfwmrubuhsuueqq",
+                "lastUpdatedDateTime": "vmrtjcazsuigrsdx",
+                "name": "sdufxwuulevitsli",
+                "recipeArn": "wkkixhnvxjhvpyua",
+                "status": "exipxuzwllykmedr"
+            },
+            {
+                "creationDateTime": "ackokhylidldgzoa",
+                "domain": "krnqeyrsefxgkodx",
+                "lastUpdatedDateTime": "onieolfrozwurwmk",
+                "name": "rdskrxiomoubcyns",
+                "recipeArn": "fthhzcqrcwbbefki",
+                "status": "lerzemoplpcuqvit"
+            },
+            {
+                "creationDateTime": "knuehqskgdnegpze",
+                "domain": "vnbxcywpnqrzrjbf",
+                "lastUpdatedDateTime": "stnygznbgiuyhmeb",
+                "name": "yhwyyzrfoserpjsm",
+                "recipeArn": "spdokowtopogvzpc",
+                "status": "oenxzfoetzhzncny"
+            },
+            {
+                "creationDateTime": "zajdetdadrgikorp",
+                "domain": "nssppjicpbxwrttv",
+                "lastUpdatedDateTime": "urjcyjqvxmlvveiu",
+                "name": "cvsxebnatpkkijgk",
+                "recipeArn": "levrtftsngackvlb",
+                "status": "zhqczgnoswxymkcs"
+            },
+            {
+                "creationDateTime": "fwnhukbkjybmglyq",
+                "domain": "pnxkgoesiftjyxxk",
+                "lastUpdatedDateTime": "rlaaonvxefqrhfjm",
+                "name": "feybnvewhloxukqp",
+                "recipeArn": "dobpucapckoeogug",
+                "status": "usyjrlqwhirvpqmh"
+            },
+            {
+                "creationDateTime": "mvyyjjqyfesqxwsn",
+                "domain": "kovyswwwciljyzcj",
+                "lastUpdatedDateTime": "ambtmxvgnwzmmrck",
+                "name": "blnosllqrxcpjthj",
+                "recipeArn": "zrujaienwvvbiabl",
+                "status": "ylwzznbtlyoxtfvp"
+            },
+            {
+                "creationDateTime": "jysrmngwkveqewya",
+                "domain": "inppspwiunrsdctf",
+                "lastUpdatedDateTime": "ltfxzovqsyptqpde",
+                "name": "twrsbwrortwkueee",
+                "recipeArn": "gmzvtahvfuovdfro",
+                "status": "jytasjvrtdbvadeq"
+            },
+            {
+                "creationDateTime": "pwkbunpqmyiqwqzr",
+                "domain": "wsxfpdoicpgkvvjn",
+                "lastUpdatedDateTime": "cntgjwdhjvdkwfcx",
+                "name": "gbobbhpbawajgkpe",
+                "recipeArn": "sykcniudsnrbgsql",
+                "status": "yzvsdvkeexcmzzla"
+            }
+        ],
+        "result_key": "recipes"
+    },
+    "meta": {
+        "start": 1711116318.907473,
+        "end": 1711116326.92653,
+        "duration": 8.019065856933594,
+        "service": "personalize",
+        "type": "recipes"
+    }
+}

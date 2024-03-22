@@ -1,0 +1,58 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "get_container_api_metadata",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "KeyName": ""
+            }
+        ],
+        "required": [],
+        "md5": "517811d358c229f0a49fc1c1064359f6",
+        "randomized": [
+            {
+                "KeyName": "dxoybnrwiopnulrz"
+            },
+            {
+                "KeyName": "tgujffwgexsjubgh"
+            },
+            {
+                "KeyName": "usffzyyqqezozkju"
+            },
+            {
+                "KeyName": "mxnlgngfafistdgt"
+            },
+            {
+                "KeyName": "txgosqumngbwlfgz"
+            },
+            {
+                "KeyName": "ntplzucjysgrpwgt"
+            },
+            {
+                "KeyName": "fqfapeqqsppepxgv"
+            },
+            {
+                "KeyName": "iuqwuuyccxkpwlzn"
+            },
+            {
+                "KeyName": "ykwqnhqbonuvwcrl"
+            },
+            {
+                "KeyName": "irifhsvhljtjitry"
+            }
+        ],
+        "result_key": "metadata"
+    },
+    "meta": {
+        "start": 1711116095.424196,
+        "end": 1711116103.087101,
+        "duration": 7.662914991378784,
+        "service": "lightsail",
+        "type": null
+    }
+}

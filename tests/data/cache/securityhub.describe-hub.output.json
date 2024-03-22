@@ -1,0 +1,36 @@
+{
+    "input": {
+        "template": {
+            "HubArn": ""
+        },
+        "required": [],
+        "md5": "e5dcccca48cdd3bb3e041e57324cb2e9",
+        "boto_command": "describe_hub",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": "HubArn",
+        "required": [],
+        "md5": "a40ce0f1739aec9ca6014c058dd7ffb8",
+        "randomized": [
+            "iommdvkjabawlfmt",
+            "fpuoyqwlqnhgvpnj",
+            "trwmxykgmwlkypvj",
+            "vyevjvslpzrrytlz",
+            "xixomutolkdlynpp",
+            "gjqwyexndajjnduh",
+            "fwweltytcbfnnrwt",
+            "mfhfrxvvefzcvodw",
+            "kiyaevbavsidaxjq",
+            "oszovixgswrtzfuy"
+        ],
+        "result_key": "HubArn"
+    },
+    "meta": {
+        "start": 1711116584.262093,
+        "end": 1711116591.209813,
+        "duration": 6.947727918624878,
+        "service": "securityhub",
+        "type": "hub"
+    }
+}

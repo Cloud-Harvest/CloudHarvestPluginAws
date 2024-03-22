@@ -1,0 +1,34 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "get_data_lake_exception_subscription",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": 0,
+        "required": [],
+        "md5": "7fe6e176dce08704b5a70b5021be1d19",
+        "randomized": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "result_key": "exceptionTimeToLive"
+    },
+    "meta": {
+        "start": 1711116592.266089,
+        "end": 1711116597.423934,
+        "duration": 5.157855033874512,
+        "service": "securitylake",
+        "type": null
+    }
+}

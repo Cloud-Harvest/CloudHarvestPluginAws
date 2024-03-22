@@ -1,0 +1,12 @@
+[
+    "appflow.describe-connector",
+    "appflow.describe-connector-entity",
+    "appflow.describe-connector-profiles",
+    "appflow.describe-connectors",
+    "appflow.describe-flow",
+    "appflow.describe-flow-execution-records",
+    "appflow.list-connector-entities",
+    "appflow.list-connectors",
+    "appflow.list-flows",
+    "appflow.list-tags-for-resource"
+]

@@ -1,0 +1,13 @@
+[
+    "swf.describe-activity-type",
+    "swf.describe-domain",
+    "swf.describe-workflow-execution",
+    "swf.describe-workflow-type",
+    "swf.get-workflow-execution-history",
+    "swf.list-activity-types",
+    "swf.list-closed-workflow-executions",
+    "swf.list-domains",
+    "swf.list-open-workflow-executions",
+    "swf.list-tags-for-resource",
+    "swf.list-workflow-types"
+]

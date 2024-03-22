@@ -1,0 +1,1679 @@
+{
+    "input": {
+        "template": {
+            "DryRun": true,
+            "InstanceTypes": [
+                "a1.medium"
+            ],
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "865ea0f2b50f6cb5e8b5019b546921d9",
+        "boto_command": "describe_instance_types",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "InstanceType": "InstanceType",
+                "CurrentGeneration": true,
+                "FreeTierEligible": true,
+                "SupportedUsageClasses": [
+                    "UsageClassType"
+                ],
+                "SupportedRootDeviceTypes": [
+                    "RootDeviceType"
+                ],
+                "SupportedVirtualizationTypes": [
+                    "VirtualizationType"
+                ],
+                "BareMetal": true,
+                "Hypervisor": "Hypervisor",
+                "ProcessorInfo": {
+                    "SupportedArchitectures": [
+                        "ArchitectureType"
+                    ],
+                    "SustainedClockSpeedInGhz": 0.0,
+                    "SupportedFeatures": [
+                        "SupportedAdditionalProcessorFeature"
+                    ],
+                    "Manufacturer": "Manufacturer"
+                },
+                "VCpuInfo": {
+                    "DefaultVCpus": 0,
+                    "DefaultCores": 0,
+                    "DefaultThreadsPerCore": 0,
+                    "ValidCores": [
+                        0
+                    ],
+                    "ValidThreadsPerCore": [
+                        0
+                    ]
+                },
+                "MemoryInfo": {
+                    "SizeInMiB": 0
+                },
+                "InstanceStorageSupported": true,
+                "InstanceStorageInfo": {
+                    "TotalSizeInGB": 0,
+                    "Disks": [
+                        {
+                            "SizeInGB": 0,
+                            "Count": 0,
+                            "Type": "Type"
+                        }
+                    ],
+                    "NvmeSupport": "NvmeSupport",
+                    "EncryptionSupport": "EncryptionSupport"
+                },
+                "EbsInfo": {
+                    "EbsOptimizedSupport": "EbsOptimizedSupport",
+                    "EncryptionSupport": "EncryptionSupport",
+                    "EbsOptimizedInfo": {
+                        "BaselineBandwidthInMbps": 0,
+                        "BaselineThroughputInMBps": 0.0,
+                        "BaselineIops": 0,
+                        "MaximumBandwidthInMbps": 0,
+                        "MaximumThroughputInMBps": 0.0,
+                        "MaximumIops": 0
+                    },
+                    "NvmeSupport": "NvmeSupport"
+                },
+                "NetworkInfo": {
+                    "NetworkPerformance": "NetworkPerformance",
+                    "MaximumNetworkInterfaces": 0,
+                    "MaximumNetworkCards": 0,
+                    "DefaultNetworkCardIndex": 0,
+                    "NetworkCards": [
+                        {
+                            "NetworkCardIndex": 0,
+                            "NetworkPerformance": "NetworkPerformance",
+                            "MaximumNetworkInterfaces": 0,
+                            "BaselineBandwidthInGbps": 0.0,
+                            "PeakBandwidthInGbps": 0.0
+                        }
+                    ],
+                    "Ipv4AddressesPerInterface": 0,
+                    "Ipv6AddressesPerInterface": 0,
+                    "Ipv6Supported": true,
+                    "EnaSupport": "EnaSupport",
+                    "EfaSupported": true,
+                    "EfaInfo": {
+                        "MaximumEfaInterfaces": 0
+                    },
+                    "EncryptionInTransitSupported": true,
+                    "EnaSrdSupported": true
+                },
+                "GpuInfo": {
+                    "Gpus": [
+                        {
+                            "Name": "Name",
+                            "Manufacturer": "Manufacturer",
+                            "Count": 0,
+                            "MemoryInfo": {
+                                "SizeInMiB": 0
+                            }
+                        }
+                    ],
+                    "TotalGpuMemoryInMiB": 0
+                },
+                "FpgaInfo": {
+                    "Fpgas": [
+                        {
+                            "Name": "Name",
+                            "Manufacturer": "Manufacturer",
+                            "Count": 0,
+                            "MemoryInfo": {
+                                "SizeInMiB": 0
+                            }
+                        }
+                    ],
+                    "TotalFpgaMemoryInMiB": 0
+                },
+                "PlacementGroupInfo": {
+                    "SupportedStrategies": [
+                        "PlacementGroupStrategy"
+                    ]
+                },
+                "InferenceAcceleratorInfo": {
+                    "Accelerators": [
+                        {
+                            "Count": 0,
+                            "Name": "Name",
+                            "Manufacturer": "Manufacturer",
+                            "MemoryInfo": {
+                                "SizeInMiB": 0
+                            }
+                        }
+                    ],
+                    "TotalInferenceMemoryInMiB": 0
+                },
+                "HibernationSupported": true,
+                "BurstablePerformanceSupported": true,
+                "DedicatedHostsSupported": true,
+                "AutoRecoverySupported": true,
+                "SupportedBootModes": [
+                    "BootModeType"
+                ],
+                "NitroEnclavesSupport": "NitroEnclavesSupport",
+                "NitroTpmSupport": "NitroTpmSupport",
+                "NitroTpmInfo": {
+                    "SupportedVersions": [
+                        "NitroTpmSupportedVersionType"
+                    ]
+                }
+            }
+        ],
+        "required": [],
+        "md5": "fbb4591fc4945c4c3352804ab92873a4",
+        "randomized": [
+            {
+                "AutoRecoverySupported": true,
+                "BareMetal": true,
+                "BurstablePerformanceSupported": true,
+                "CurrentGeneration": true,
+                "DedicatedHostsSupported": true,
+                "EbsInfo": {
+                    "EbsOptimizedInfo": {
+                        "BaselineBandwidthInMbps": 0,
+                        "BaselineIops": 0,
+                        "BaselineThroughputInMBps": 0.0,
+                        "MaximumBandwidthInMbps": 0,
+                        "MaximumIops": 0,
+                        "MaximumThroughputInMBps": 0.0
+                    },
+                    "EbsOptimizedSupport": "kjxggzfuffgxbefq",
+                    "EncryptionSupport": "ogmgmduibsivmrzh",
+                    "NvmeSupport": "klxwogmvvkodjmuj"
+                },
+                "FpgaInfo": {
+                    "Fpgas": [
+                        {
+                            "Count": 0,
+                            "Manufacturer": "jiooawldyhedypiw",
+                            "MemoryInfo": {
+                                "SizeInMiB": 0
+                            },
+                            "Name": "wjldzkzywispntpi"
+                        }
+                    ],
+                    "TotalFpgaMemoryInMiB": 0
+                },
+                "FreeTierEligible": true,
+                "GpuInfo": {
+                    "Gpus": [
+                        {
+                            "Count": 0,
+                            "Manufacturer": "iqfmlpcyayboozpx",
+                            "MemoryInfo": {
+                                "SizeInMiB": 0
+                            },
+                            "Name": "fquezitsxpggfakh"
+                        }
+                    ],
+                    "TotalGpuMemoryInMiB": 0
+                },
+                "HibernationSupported": true,
+                "Hypervisor": "xncuoadsxyghjqrt",
+                "InferenceAcceleratorInfo": {
+                    "Accelerators": [
+                        {
+                            "Count": 0,
+                            "Manufacturer": "htndoonjsstcbhmz",
+                            "MemoryInfo": {
+                                "SizeInMiB": 0
+                            },
+                            "Name": "zhfjqcxzidmxnmga"
+                        }
+                    ],
+                    "TotalInferenceMemoryInMiB": 0
+                },
+                "InstanceStorageInfo": {
+                    "Disks": [
+                        {
+                            "Count": 0,
+                            "SizeInGB": 0,
+                            "Type": "dyavjsnfjbymuode"
+                        }
+                    ],
+                    "EncryptionSupport": "dqeytijbcbcshbyz",
+                    "NvmeSupport": "ushtmslsxuxrmura",
+                    "TotalSizeInGB": 0
+                },
+                "InstanceStorageSupported": true,
+                "InstanceType": "bbbhonctljaurzyn",
+                "MemoryInfo": {
+                    "SizeInMiB": 0
+                },
+                "NetworkInfo": {
+                    "DefaultNetworkCardIndex": 0,
+                    "EfaInfo": {
+                        "MaximumEfaInterfaces": 0
+                    },
+                    "EfaSupported": true,
+                    "EnaSrdSupported": true,
+                    "EnaSupport": "qygjlcagcczntyng",
+                    "EncryptionInTransitSupported": true,
+                    "Ipv4AddressesPerInterface": 0,
+                    "Ipv6AddressesPerInterface": 0,
+                    "Ipv6Supported": true,
+                    "MaximumNetworkCards": 0,
+                    "MaximumNetworkInterfaces": 0,
+                    "NetworkCards": [
+                        {
+                            "BaselineBandwidthInGbps": 0.0,
+                            "MaximumNetworkInterfaces": 0,
+                            "NetworkCardIndex": 0,
+                            "NetworkPerformance": "xqbbbjsmqzloqqis",
+                            "PeakBandwidthInGbps": 0.0
+                        }
+                    ],
+                    "NetworkPerformance": "bxnnwwtmhegbodlx"
+                },
+                "NitroEnclavesSupport": "ekzcanolajfqyifp",
+                "NitroTpmInfo": {
+                    "SupportedVersions": [
+                        "dyqbrenivdjoidcb"
+                    ]
+                },
+                "NitroTpmSupport": "yyhqcxccqwdpxduu",
+                "PlacementGroupInfo": {
+                    "SupportedStrategies": [
+                        "omjguvklcslvmgqn"
+                    ]
+                },
+                "ProcessorInfo": {
+                    "Manufacturer": "jdwumqwjftkbubmy",
+                    "SupportedArchitectures": [
+                        "osbevjnsqwtddiyv"
+                    ],
+                    "SupportedFeatures": [
+                        "pgayaamzvnmxvaub"
+                    ],
+                    "SustainedClockSpeedInGhz": 0.0
+                },
+                "SupportedBootModes": [
+                    "yrweuffodvnwksph"
+                ],
+                "SupportedRootDeviceTypes": [
+                    "chuerclypzuslizb"
+                ],
+                "SupportedUsageClasses": [
+                    "cmducvzshwxyivwb"
+                ],
+                "SupportedVirtualizationTypes": [
+                    "uzmeuhasnshyiacl"
+                ],
+                "VCpuInfo": {
+                    "DefaultCores": 0,
+                    "DefaultThreadsPerCore": 0,
+                    "DefaultVCpus": 0,
+                    "ValidCores": [
+                        0
+                    ],
+                    "ValidThreadsPerCore": [
+                        0
+                    ]
+                }
+            },
+            {
+                "AutoRecoverySupported": true,
+                "BareMetal": true,
+                "BurstablePerformanceSupported": true,
+                "CurrentGeneration": true,
+                "DedicatedHostsSupported": true,
+                "EbsInfo": {
+                    "EbsOptimizedInfo": {
+                        "BaselineBandwidthInMbps": 0,
+                        "BaselineIops": 0,
+                        "BaselineThroughputInMBps": 0.0,
+                        "MaximumBandwidthInMbps": 0,
+                        "MaximumIops": 0,
+                        "MaximumThroughputInMBps": 0.0
+                    },
+                    "EbsOptimizedSupport": "qiopfqxsconxonyn",
+                    "EncryptionSupport": "pwjghabzgfbcixjo",
+                    "NvmeSupport": "cmyfjovpmyexiwaa"
+                },
+                "FpgaInfo": {
+                    "Fpgas": [
+                        {
+                            "Count": 0,
+                            "Manufacturer": "tvwkygniqkzpqiha",
+                            "MemoryInfo": {
+                                "SizeInMiB": 0
+                            },
+                            "Name": "erywwnryurhvahgb"
+                        }
+                    ],
+                    "TotalFpgaMemoryInMiB": 0
+                },
+                "FreeTierEligible": true,
+                "GpuInfo": {
+                    "Gpus": [
+                        {
+                            "Count": 0,
+                            "Manufacturer": "blbrpeietymurpru",
+                            "MemoryInfo": {
+                                "SizeInMiB": 0
+                            },
+                            "Name": "gfvcwwopzkizhqzd"
+                        }
+                    ],
+                    "TotalGpuMemoryInMiB": 0
+                },
+                "HibernationSupported": true,
+                "Hypervisor": "elzlcuyskxhvzsym",
+                "InferenceAcceleratorInfo": {
+                    "Accelerators": [
+                        {
+                            "Count": 0,
+                            "Manufacturer": "qbqhybtbjqplfhol",
+                            "MemoryInfo": {
+                                "SizeInMiB": 0
+                            },
+                            "Name": "shbzqfyantlcmvyu"
+                        }
+                    ],
+                    "TotalInferenceMemoryInMiB": 0
+                },
+                "InstanceStorageInfo": {
+                    "Disks": [
+                        {
+                            "Count": 0,
+                            "SizeInGB": 0,
+                            "Type": "vuifhxaqvigdcaup"
+                        }
+                    ],
+                    "EncryptionSupport": "feunwrtbwrwdtffe",
+                    "NvmeSupport": "igmnflfyiawenemc",
+                    "TotalSizeInGB": 0
+                },
+                "InstanceStorageSupported": true,
+                "InstanceType": "hjhuknzzbxijtuap",
+                "MemoryInfo": {
+                    "SizeInMiB": 0
+                },
+                "NetworkInfo": {
+                    "DefaultNetworkCardIndex": 0,
+                    "EfaInfo": {
+                        "MaximumEfaInterfaces": 0
+                    },
+                    "EfaSupported": true,
+                    "EnaSrdSupported": true,
+                    "EnaSupport": "kurbtzcugwpwcalg",
+                    "EncryptionInTransitSupported": true,
+                    "Ipv4AddressesPerInterface": 0,
+                    "Ipv6AddressesPerInterface": 0,
+                    "Ipv6Supported": true,
+                    "MaximumNetworkCards": 0,
+                    "MaximumNetworkInterfaces": 0,
+                    "NetworkCards": [
+                        {
+                            "BaselineBandwidthInGbps": 0.0,
+                            "MaximumNetworkInterfaces": 0,
+                            "NetworkCardIndex": 0,
+                            "NetworkPerformance": "jcvqvwmbolnencvb",
+                            "PeakBandwidthInGbps": 0.0
+                        }
+                    ],
+                    "NetworkPerformance": "uxgzapkhehufizjp"
+                },
+                "NitroEnclavesSupport": "bjdcstpphkuoudye",
+                "NitroTpmInfo": {
+                    "SupportedVersions": [
+                        "rwbeanwqunuizkvv"
+                    ]
+                },
+                "NitroTpmSupport": "amxtqhrnkjcmqbsb",
+                "PlacementGroupInfo": {
+                    "SupportedStrategies": [
+                        "luyzxpynlcgznrno"
+                    ]
+                },
+                "ProcessorInfo": {
+                    "Manufacturer": "vueimhmhbibxwyic",
+                    "SupportedArchitectures": [
+                        "ypfywroxrfakeaoo"
+                    ],
+                    "SupportedFeatures": [
+                        "cwkhswxqjjrozzpo"
+                    ],
+                    "SustainedClockSpeedInGhz": 0.0
+                },
+                "SupportedBootModes": [
+                    "gihtxglexqztfovi"
+                ],
+                "SupportedRootDeviceTypes": [
+                    "zivexavdddsndyex"
+                ],
+                "SupportedUsageClasses": [
+                    "xuuzitiffzvyuwes"
+                ],
+                "SupportedVirtualizationTypes": [
+                    "reaxifgoqfzkovzh"
+                ],
+                "VCpuInfo": {
+                    "DefaultCores": 0,
+                    "DefaultThreadsPerCore": 0,
+                    "DefaultVCpus": 0,
+                    "ValidCores": [
+                        0
+                    ],
+                    "ValidThreadsPerCore": [
+                        0
+                    ]
+                }
+            },
+            {
+                "AutoRecoverySupported": true,
+                "BareMetal": true,
+                "BurstablePerformanceSupported": true,
+                "CurrentGeneration": true,
+                "DedicatedHostsSupported": true,
+                "EbsInfo": {
+                    "EbsOptimizedInfo": {
+                        "BaselineBandwidthInMbps": 0,
+                        "BaselineIops": 0,
+                        "BaselineThroughputInMBps": 0.0,
+                        "MaximumBandwidthInMbps": 0,
+                        "MaximumIops": 0,
+                        "MaximumThroughputInMBps": 0.0
+                    },
+                    "EbsOptimizedSupport": "fetjzxdrulbmrdfv",
+                    "EncryptionSupport": "mvnorrsuuwdiduvu",
+                    "NvmeSupport": "vpxueqschglwiyiv"
+                },
+                "FpgaInfo": {
+                    "Fpgas": [
+                        {
+                            "Count": 0,
+                            "Manufacturer": "hbprwqnjbvsxlpii",
+                            "MemoryInfo": {
+                                "SizeInMiB": 0
+                            },
+                            "Name": "uhdlttydegaserud"
+                        }
+                    ],
+                    "TotalFpgaMemoryInMiB": 0
+                },
+                "FreeTierEligible": true,
+                "GpuInfo": {
+                    "Gpus": [
+                        {
+                            "Count": 0,
+                            "Manufacturer": "uppjwgkghsssfzke",
+                            "MemoryInfo": {
+                                "SizeInMiB": 0
+                            },
+                            "Name": "kbegnzmdytzlwttr"
+                        }
+                    ],
+                    "TotalGpuMemoryInMiB": 0
+                },
+                "HibernationSupported": true,
+                "Hypervisor": "lqsyeaykclqgpkfu",
+                "InferenceAcceleratorInfo": {
+                    "Accelerators": [
+                        {
+                            "Count": 0,
+                            "Manufacturer": "yehirjxbhlhlgaav",
+                            "MemoryInfo": {
+                                "SizeInMiB": 0
+                            },
+                            "Name": "gjcfphgbfijcixfw"
+                        }
+                    ],
+                    "TotalInferenceMemoryInMiB": 0
+                },
+                "InstanceStorageInfo": {
+                    "Disks": [
+                        {
+                            "Count": 0,
+                            "SizeInGB": 0,
+                            "Type": "ewbxaapqswocivrs"
+                        }
+                    ],
+                    "EncryptionSupport": "wzbqxytqcotozwmq",
+                    "NvmeSupport": "ejbwdtpcxcmvkbvr",
+                    "TotalSizeInGB": 0
+                },
+                "InstanceStorageSupported": true,
+                "InstanceType": "fyhozpvtifytwtoh",
+                "MemoryInfo": {
+                    "SizeInMiB": 0
+                },
+                "NetworkInfo": {
+                    "DefaultNetworkCardIndex": 0,
+                    "EfaInfo": {
+                        "MaximumEfaInterfaces": 0
+                    },
+                    "EfaSupported": true,
+                    "EnaSrdSupported": true,
+                    "EnaSupport": "oawwnsbtcdsfjjne",
+                    "EncryptionInTransitSupported": true,
+                    "Ipv4AddressesPerInterface": 0,
+                    "Ipv6AddressesPerInterface": 0,
+                    "Ipv6Supported": true,
+                    "MaximumNetworkCards": 0,
+                    "MaximumNetworkInterfaces": 0,
+                    "NetworkCards": [
+                        {
+                            "BaselineBandwidthInGbps": 0.0,
+                            "MaximumNetworkInterfaces": 0,
+                            "NetworkCardIndex": 0,
+                            "NetworkPerformance": "luryvsylkstlzqkt",
+                            "PeakBandwidthInGbps": 0.0
+                        }
+                    ],
+                    "NetworkPerformance": "bzarxseksachgehe"
+                },
+                "NitroEnclavesSupport": "amxajmplsiiduqcq",
+                "NitroTpmInfo": {
+                    "SupportedVersions": [
+                        "zjnrcxnrioxpkdyo"
+                    ]
+                },
+                "NitroTpmSupport": "javdlebyanffouhf",
+                "PlacementGroupInfo": {
+                    "SupportedStrategies": [
+                        "bfvqxjuuiqesvxom"
+                    ]
+                },
+                "ProcessorInfo": {
+                    "Manufacturer": "jtjjofhmgkkzbtuq",
+                    "SupportedArchitectures": [
+                        "acjhphbbyadungip"
+                    ],
+                    "SupportedFeatures": [
+                        "xdecvfuotceimmnv"
+                    ],
+                    "SustainedClockSpeedInGhz": 0.0
+                },
+                "SupportedBootModes": [
+                    "nwbivpswnictlneh"
+                ],
+                "SupportedRootDeviceTypes": [
+                    "ixxyqpdyfksruuju"
+                ],
+                "SupportedUsageClasses": [
+                    "ljxvrimfmiuyhrym"
+                ],
+                "SupportedVirtualizationTypes": [
+                    "jipbldjratxnoden"
+                ],
+                "VCpuInfo": {
+                    "DefaultCores": 0,
+                    "DefaultThreadsPerCore": 0,
+                    "DefaultVCpus": 0,
+                    "ValidCores": [
+                        0
+                    ],
+                    "ValidThreadsPerCore": [
+                        0
+                    ]
+                }
+            },
+            {
+                "AutoRecoverySupported": true,
+                "BareMetal": true,
+                "BurstablePerformanceSupported": true,
+                "CurrentGeneration": true,
+                "DedicatedHostsSupported": true,
+                "EbsInfo": {
+                    "EbsOptimizedInfo": {
+                        "BaselineBandwidthInMbps": 0,
+                        "BaselineIops": 0,
+                        "BaselineThroughputInMBps": 0.0,
+                        "MaximumBandwidthInMbps": 0,
+                        "MaximumIops": 0,
+                        "MaximumThroughputInMBps": 0.0
+                    },
+                    "EbsOptimizedSupport": "orvywxpfyejlncyk",
+                    "EncryptionSupport": "hxhmlfergeqynwyv",
+                    "NvmeSupport": "zzhtcdqkpcdweoku"
+                },
+                "FpgaInfo": {
+                    "Fpgas": [
+                        {
+                            "Count": 0,
+                            "Manufacturer": "sqhpqtlfjdowiphq",
+                            "MemoryInfo": {
+                                "SizeInMiB": 0
+                            },
+                            "Name": "nlupetmbsrfllkov"
+                        }
+                    ],
+                    "TotalFpgaMemoryInMiB": 0
+                },
+                "FreeTierEligible": true,
+                "GpuInfo": {
+                    "Gpus": [
+                        {
+                            "Count": 0,
+                            "Manufacturer": "runxkzghrfkrneho",
+                            "MemoryInfo": {
+                                "SizeInMiB": 0
+                            },
+                            "Name": "jgmpajsqjzuzrwtm"
+                        }
+                    ],
+                    "TotalGpuMemoryInMiB": 0
+                },
+                "HibernationSupported": true,
+                "Hypervisor": "ihuqnybjpkreafwu",
+                "InferenceAcceleratorInfo": {
+                    "Accelerators": [
+                        {
+                            "Count": 0,
+                            "Manufacturer": "hhwzveswzoapknka",
+                            "MemoryInfo": {
+                                "SizeInMiB": 0
+                            },
+                            "Name": "ueolyxszytfjchve"
+                        }
+                    ],
+                    "TotalInferenceMemoryInMiB": 0
+                },
+                "InstanceStorageInfo": {
+                    "Disks": [
+                        {
+                            "Count": 0,
+                            "SizeInGB": 0,
+                            "Type": "dmpuofogxaizoivy"
+                        }
+                    ],
+                    "EncryptionSupport": "wimafsrjiorawkno",
+                    "NvmeSupport": "fzenlgpwbljkoebm",
+                    "TotalSizeInGB": 0
+                },
+                "InstanceStorageSupported": true,
+                "InstanceType": "tboivhkdjvygbnsl",
+                "MemoryInfo": {
+                    "SizeInMiB": 0
+                },
+                "NetworkInfo": {
+                    "DefaultNetworkCardIndex": 0,
+                    "EfaInfo": {
+                        "MaximumEfaInterfaces": 0
+                    },
+                    "EfaSupported": true,
+                    "EnaSrdSupported": true,
+                    "EnaSupport": "anhsurgcfiakjjpx",
+                    "EncryptionInTransitSupported": true,
+                    "Ipv4AddressesPerInterface": 0,
+                    "Ipv6AddressesPerInterface": 0,
+                    "Ipv6Supported": true,
+                    "MaximumNetworkCards": 0,
+                    "MaximumNetworkInterfaces": 0,
+                    "NetworkCards": [
+                        {
+                            "BaselineBandwidthInGbps": 0.0,
+                            "MaximumNetworkInterfaces": 0,
+                            "NetworkCardIndex": 0,
+                            "NetworkPerformance": "tcscbkyfixliytcn",
+                            "PeakBandwidthInGbps": 0.0
+                        }
+                    ],
+                    "NetworkPerformance": "lttercvsmtekmjrr"
+                },
+                "NitroEnclavesSupport": "aprraipaxlutwiys",
+                "NitroTpmInfo": {
+                    "SupportedVersions": [
+                        "zgikumdajafcngdr"
+                    ]
+                },
+                "NitroTpmSupport": "agfmsakznfivobzu",
+                "PlacementGroupInfo": {
+                    "SupportedStrategies": [
+                        "qcccvwzeqiviusss"
+                    ]
+                },
+                "ProcessorInfo": {
+                    "Manufacturer": "hwtiuvablczpvmjt",
+                    "SupportedArchitectures": [
+                        "fkqqhlkuxjojnbgf"
+                    ],
+                    "SupportedFeatures": [
+                        "uyayrzzkngryvptm"
+                    ],
+                    "SustainedClockSpeedInGhz": 0.0
+                },
+                "SupportedBootModes": [
+                    "bbhvkeceyemtlhpl"
+                ],
+                "SupportedRootDeviceTypes": [
+                    "mjlgofpvzdwutfqz"
+                ],
+                "SupportedUsageClasses": [
+                    "lgnmjsrdptrtqubr"
+                ],
+                "SupportedVirtualizationTypes": [
+                    "chrfcrmuxqgrczhs"
+                ],
+                "VCpuInfo": {
+                    "DefaultCores": 0,
+                    "DefaultThreadsPerCore": 0,
+                    "DefaultVCpus": 0,
+                    "ValidCores": [
+                        0
+                    ],
+                    "ValidThreadsPerCore": [
+                        0
+                    ]
+                }
+            },
+            {
+                "AutoRecoverySupported": true,
+                "BareMetal": true,
+                "BurstablePerformanceSupported": true,
+                "CurrentGeneration": true,
+                "DedicatedHostsSupported": true,
+                "EbsInfo": {
+                    "EbsOptimizedInfo": {
+                        "BaselineBandwidthInMbps": 0,
+                        "BaselineIops": 0,
+                        "BaselineThroughputInMBps": 0.0,
+                        "MaximumBandwidthInMbps": 0,
+                        "MaximumIops": 0,
+                        "MaximumThroughputInMBps": 0.0
+                    },
+                    "EbsOptimizedSupport": "jzunzhugefuhgvxr",
+                    "EncryptionSupport": "yyvslhtpkcqidlgs",
+                    "NvmeSupport": "zcbjinxlnjriewgw"
+                },
+                "FpgaInfo": {
+                    "Fpgas": [
+                        {
+                            "Count": 0,
+                            "Manufacturer": "kpebgqoqktyhaimz",
+                            "MemoryInfo": {
+                                "SizeInMiB": 0
+                            },
+                            "Name": "dovmwvcxulwvwonn"
+                        }
+                    ],
+                    "TotalFpgaMemoryInMiB": 0
+                },
+                "FreeTierEligible": true,
+                "GpuInfo": {
+                    "Gpus": [
+                        {
+                            "Count": 0,
+                            "Manufacturer": "lrcgbeprrdkuptts",
+                            "MemoryInfo": {
+                                "SizeInMiB": 0
+                            },
+                            "Name": "krqlewmvbghafaat"
+                        }
+                    ],
+                    "TotalGpuMemoryInMiB": 0
+                },
+                "HibernationSupported": true,
+                "Hypervisor": "wsepfnzsowmlljtu",
+                "InferenceAcceleratorInfo": {
+                    "Accelerators": [
+                        {
+                            "Count": 0,
+                            "Manufacturer": "qpflbjodtyirmfct",
+                            "MemoryInfo": {
+                                "SizeInMiB": 0
+                            },
+                            "Name": "pwgcqgnvcksvxlav"
+                        }
+                    ],
+                    "TotalInferenceMemoryInMiB": 0
+                },
+                "InstanceStorageInfo": {
+                    "Disks": [
+                        {
+                            "Count": 0,
+                            "SizeInGB": 0,
+                            "Type": "magvbjmnehpjoznw"
+                        }
+                    ],
+                    "EncryptionSupport": "uvazjpjvijrmkupn",
+                    "NvmeSupport": "ixgdvczadupovsgr",
+                    "TotalSizeInGB": 0
+                },
+                "InstanceStorageSupported": true,
+                "InstanceType": "nbmxnnsktsdcpqnp",
+                "MemoryInfo": {
+                    "SizeInMiB": 0
+                },
+                "NetworkInfo": {
+                    "DefaultNetworkCardIndex": 0,
+                    "EfaInfo": {
+                        "MaximumEfaInterfaces": 0
+                    },
+                    "EfaSupported": true,
+                    "EnaSrdSupported": true,
+                    "EnaSupport": "sldxbemszwgfeznt",
+                    "EncryptionInTransitSupported": true,
+                    "Ipv4AddressesPerInterface": 0,
+                    "Ipv6AddressesPerInterface": 0,
+                    "Ipv6Supported": true,
+                    "MaximumNetworkCards": 0,
+                    "MaximumNetworkInterfaces": 0,
+                    "NetworkCards": [
+                        {
+                            "BaselineBandwidthInGbps": 0.0,
+                            "MaximumNetworkInterfaces": 0,
+                            "NetworkCardIndex": 0,
+                            "NetworkPerformance": "pqkjpwheakqmsrbb",
+                            "PeakBandwidthInGbps": 0.0
+                        }
+                    ],
+                    "NetworkPerformance": "mkcibemubazhcdyy"
+                },
+                "NitroEnclavesSupport": "wbmwbenglqmsrtok",
+                "NitroTpmInfo": {
+                    "SupportedVersions": [
+                        "sbuhuswzttohnexz"
+                    ]
+                },
+                "NitroTpmSupport": "mvoothnbdjpdcywe",
+                "PlacementGroupInfo": {
+                    "SupportedStrategies": [
+                        "mhkteyxmvpyxanjq"
+                    ]
+                },
+                "ProcessorInfo": {
+                    "Manufacturer": "zovsorwtagslkjof",
+                    "SupportedArchitectures": [
+                        "txwrxjjhoqditcvq"
+                    ],
+                    "SupportedFeatures": [
+                        "vnoqtvvgpgzdagss"
+                    ],
+                    "SustainedClockSpeedInGhz": 0.0
+                },
+                "SupportedBootModes": [
+                    "ddnlbnikazggftvf"
+                ],
+                "SupportedRootDeviceTypes": [
+                    "lrdgvtftzwdpunvn"
+                ],
+                "SupportedUsageClasses": [
+                    "edbptzftwbkmdfzp"
+                ],
+                "SupportedVirtualizationTypes": [
+                    "akmitnfswlxizhqx"
+                ],
+                "VCpuInfo": {
+                    "DefaultCores": 0,
+                    "DefaultThreadsPerCore": 0,
+                    "DefaultVCpus": 0,
+                    "ValidCores": [
+                        0
+                    ],
+                    "ValidThreadsPerCore": [
+                        0
+                    ]
+                }
+            },
+            {
+                "AutoRecoverySupported": true,
+                "BareMetal": true,
+                "BurstablePerformanceSupported": true,
+                "CurrentGeneration": true,
+                "DedicatedHostsSupported": true,
+                "EbsInfo": {
+                    "EbsOptimizedInfo": {
+                        "BaselineBandwidthInMbps": 0,
+                        "BaselineIops": 0,
+                        "BaselineThroughputInMBps": 0.0,
+                        "MaximumBandwidthInMbps": 0,
+                        "MaximumIops": 0,
+                        "MaximumThroughputInMBps": 0.0
+                    },
+                    "EbsOptimizedSupport": "mmbokkbtzzsmgymp",
+                    "EncryptionSupport": "jblbkazlamhmefrq",
+                    "NvmeSupport": "nkikstzgjypaknvh"
+                },
+                "FpgaInfo": {
+                    "Fpgas": [
+                        {
+                            "Count": 0,
+                            "Manufacturer": "kjyvtqbrsqoqkaao",
+                            "MemoryInfo": {
+                                "SizeInMiB": 0
+                            },
+                            "Name": "sjeeyqliptmovpmn"
+                        }
+                    ],
+                    "TotalFpgaMemoryInMiB": 0
+                },
+                "FreeTierEligible": true,
+                "GpuInfo": {
+                    "Gpus": [
+                        {
+                            "Count": 0,
+                            "Manufacturer": "amjyewjdfzmjbrgq",
+                            "MemoryInfo": {
+                                "SizeInMiB": 0
+                            },
+                            "Name": "fcpprzxxcgflfffy"
+                        }
+                    ],
+                    "TotalGpuMemoryInMiB": 0
+                },
+                "HibernationSupported": true,
+                "Hypervisor": "lzbstkckomlbshmr",
+                "InferenceAcceleratorInfo": {
+                    "Accelerators": [
+                        {
+                            "Count": 0,
+                            "Manufacturer": "xemwtqjlfyklcpsv",
+                            "MemoryInfo": {
+                                "SizeInMiB": 0
+                            },
+                            "Name": "mfzbaieohrfrysuz"
+                        }
+                    ],
+                    "TotalInferenceMemoryInMiB": 0
+                },
+                "InstanceStorageInfo": {
+                    "Disks": [
+                        {
+                            "Count": 0,
+                            "SizeInGB": 0,
+                            "Type": "aixfibaizxttufzb"
+                        }
+                    ],
+                    "EncryptionSupport": "xcxngzbuzcmyiveg",
+                    "NvmeSupport": "lkqogbyvrkbpadsh",
+                    "TotalSizeInGB": 0
+                },
+                "InstanceStorageSupported": true,
+                "InstanceType": "jecrwxivmswvmozk",
+                "MemoryInfo": {
+                    "SizeInMiB": 0
+                },
+                "NetworkInfo": {
+                    "DefaultNetworkCardIndex": 0,
+                    "EfaInfo": {
+                        "MaximumEfaInterfaces": 0
+                    },
+                    "EfaSupported": true,
+                    "EnaSrdSupported": true,
+                    "EnaSupport": "qcdjztbwidrsxwyp",
+                    "EncryptionInTransitSupported": true,
+                    "Ipv4AddressesPerInterface": 0,
+                    "Ipv6AddressesPerInterface": 0,
+                    "Ipv6Supported": true,
+                    "MaximumNetworkCards": 0,
+                    "MaximumNetworkInterfaces": 0,
+                    "NetworkCards": [
+                        {
+                            "BaselineBandwidthInGbps": 0.0,
+                            "MaximumNetworkInterfaces": 0,
+                            "NetworkCardIndex": 0,
+                            "NetworkPerformance": "sniivdsxkumzbfyd",
+                            "PeakBandwidthInGbps": 0.0
+                        }
+                    ],
+                    "NetworkPerformance": "obagecjyogokmcdo"
+                },
+                "NitroEnclavesSupport": "xffdqzgbdlphgroo",
+                "NitroTpmInfo": {
+                    "SupportedVersions": [
+                        "yyigjfwhjetqzymp"
+                    ]
+                },
+                "NitroTpmSupport": "jxnqqvqchtprlirf",
+                "PlacementGroupInfo": {
+                    "SupportedStrategies": [
+                        "pgrephlcwonaswcc"
+                    ]
+                },
+                "ProcessorInfo": {
+                    "Manufacturer": "lbjyrjncssaktlwu",
+                    "SupportedArchitectures": [
+                        "httryiryuupsnywu"
+                    ],
+                    "SupportedFeatures": [
+                        "ljjgrheamshktddz"
+                    ],
+                    "SustainedClockSpeedInGhz": 0.0
+                },
+                "SupportedBootModes": [
+                    "qxadhbducavkmmzl"
+                ],
+                "SupportedRootDeviceTypes": [
+                    "vnvktzymwjhdfwdl"
+                ],
+                "SupportedUsageClasses": [
+                    "rcfuluortesfldww"
+                ],
+                "SupportedVirtualizationTypes": [
+                    "nkdiowbqwknagnhz"
+                ],
+                "VCpuInfo": {
+                    "DefaultCores": 0,
+                    "DefaultThreadsPerCore": 0,
+                    "DefaultVCpus": 0,
+                    "ValidCores": [
+                        0
+                    ],
+                    "ValidThreadsPerCore": [
+                        0
+                    ]
+                }
+            },
+            {
+                "AutoRecoverySupported": true,
+                "BareMetal": true,
+                "BurstablePerformanceSupported": true,
+                "CurrentGeneration": true,
+                "DedicatedHostsSupported": true,
+                "EbsInfo": {
+                    "EbsOptimizedInfo": {
+                        "BaselineBandwidthInMbps": 0,
+                        "BaselineIops": 0,
+                        "BaselineThroughputInMBps": 0.0,
+                        "MaximumBandwidthInMbps": 0,
+                        "MaximumIops": 0,
+                        "MaximumThroughputInMBps": 0.0
+                    },
+                    "EbsOptimizedSupport": "yekwpqttqwibpvic",
+                    "EncryptionSupport": "qfwhkukxrozpkbte",
+                    "NvmeSupport": "cycuifjxdpwsaasa"
+                },
+                "FpgaInfo": {
+                    "Fpgas": [
+                        {
+                            "Count": 0,
+                            "Manufacturer": "xsvgbpichmnovmsq",
+                            "MemoryInfo": {
+                                "SizeInMiB": 0
+                            },
+                            "Name": "jjsgglcmjqyycxef"
+                        }
+                    ],
+                    "TotalFpgaMemoryInMiB": 0
+                },
+                "FreeTierEligible": true,
+                "GpuInfo": {
+                    "Gpus": [
+                        {
+                            "Count": 0,
+                            "Manufacturer": "clsyqhxxcctxcvip",
+                            "MemoryInfo": {
+                                "SizeInMiB": 0
+                            },
+                            "Name": "zrlbnzixtwqpyubl"
+                        }
+                    ],
+                    "TotalGpuMemoryInMiB": 0
+                },
+                "HibernationSupported": true,
+                "Hypervisor": "adwayfyfrflksehu",
+                "InferenceAcceleratorInfo": {
+                    "Accelerators": [
+                        {
+                            "Count": 0,
+                            "Manufacturer": "dxwfpxuxvoseatxq",
+                            "MemoryInfo": {
+                                "SizeInMiB": 0
+                            },
+                            "Name": "mkfbijktyceqbjan"
+                        }
+                    ],
+                    "TotalInferenceMemoryInMiB": 0
+                },
+                "InstanceStorageInfo": {
+                    "Disks": [
+                        {
+                            "Count": 0,
+                            "SizeInGB": 0,
+                            "Type": "uakndfidnywutwtp"
+                        }
+                    ],
+                    "EncryptionSupport": "kllpedhrmltvoiqf",
+                    "NvmeSupport": "umoernraxjdfxdje",
+                    "TotalSizeInGB": 0
+                },
+                "InstanceStorageSupported": true,
+                "InstanceType": "ohxasnpyhduqbrah",
+                "MemoryInfo": {
+                    "SizeInMiB": 0
+                },
+                "NetworkInfo": {
+                    "DefaultNetworkCardIndex": 0,
+                    "EfaInfo": {
+                        "MaximumEfaInterfaces": 0
+                    },
+                    "EfaSupported": true,
+                    "EnaSrdSupported": true,
+                    "EnaSupport": "ydgomrlnissvrviw",
+                    "EncryptionInTransitSupported": true,
+                    "Ipv4AddressesPerInterface": 0,
+                    "Ipv6AddressesPerInterface": 0,
+                    "Ipv6Supported": true,
+                    "MaximumNetworkCards": 0,
+                    "MaximumNetworkInterfaces": 0,
+                    "NetworkCards": [
+                        {
+                            "BaselineBandwidthInGbps": 0.0,
+                            "MaximumNetworkInterfaces": 0,
+                            "NetworkCardIndex": 0,
+                            "NetworkPerformance": "jcqsimlkoqusforr",
+                            "PeakBandwidthInGbps": 0.0
+                        }
+                    ],
+                    "NetworkPerformance": "kgmclyftcjgtusye"
+                },
+                "NitroEnclavesSupport": "mrfsdjpktnmvgbsj",
+                "NitroTpmInfo": {
+                    "SupportedVersions": [
+                        "tvguildjsglawxek"
+                    ]
+                },
+                "NitroTpmSupport": "hsvxoabvzqczztze",
+                "PlacementGroupInfo": {
+                    "SupportedStrategies": [
+                        "ifbnienxrtubgndw"
+                    ]
+                },
+                "ProcessorInfo": {
+                    "Manufacturer": "ckgucdcnkpiswtnd",
+                    "SupportedArchitectures": [
+                        "uujqfbcrgjfndbzo"
+                    ],
+                    "SupportedFeatures": [
+                        "tjtadjkblzqybtly"
+                    ],
+                    "SustainedClockSpeedInGhz": 0.0
+                },
+                "SupportedBootModes": [
+                    "umwomrwnosiuvxpb"
+                ],
+                "SupportedRootDeviceTypes": [
+                    "cpxwswovubfipyso"
+                ],
+                "SupportedUsageClasses": [
+                    "websdoijrqieblgu"
+                ],
+                "SupportedVirtualizationTypes": [
+                    "mfkdggihloiwejpk"
+                ],
+                "VCpuInfo": {
+                    "DefaultCores": 0,
+                    "DefaultThreadsPerCore": 0,
+                    "DefaultVCpus": 0,
+                    "ValidCores": [
+                        0
+                    ],
+                    "ValidThreadsPerCore": [
+                        0
+                    ]
+                }
+            },
+            {
+                "AutoRecoverySupported": true,
+                "BareMetal": true,
+                "BurstablePerformanceSupported": true,
+                "CurrentGeneration": true,
+                "DedicatedHostsSupported": true,
+                "EbsInfo": {
+                    "EbsOptimizedInfo": {
+                        "BaselineBandwidthInMbps": 0,
+                        "BaselineIops": 0,
+                        "BaselineThroughputInMBps": 0.0,
+                        "MaximumBandwidthInMbps": 0,
+                        "MaximumIops": 0,
+                        "MaximumThroughputInMBps": 0.0
+                    },
+                    "EbsOptimizedSupport": "oolhaluuixaeethe",
+                    "EncryptionSupport": "rtefqbzuejsanhtv",
+                    "NvmeSupport": "hmjronscleuenadq"
+                },
+                "FpgaInfo": {
+                    "Fpgas": [
+                        {
+                            "Count": 0,
+                            "Manufacturer": "kotavmxciteegqud",
+                            "MemoryInfo": {
+                                "SizeInMiB": 0
+                            },
+                            "Name": "bozhzjjkryeyjvvd"
+                        }
+                    ],
+                    "TotalFpgaMemoryInMiB": 0
+                },
+                "FreeTierEligible": true,
+                "GpuInfo": {
+                    "Gpus": [
+                        {
+                            "Count": 0,
+                            "Manufacturer": "gfypfvvtnomdfiqg",
+                            "MemoryInfo": {
+                                "SizeInMiB": 0
+                            },
+                            "Name": "ewmwmlhtbnuhyjzq"
+                        }
+                    ],
+                    "TotalGpuMemoryInMiB": 0
+                },
+                "HibernationSupported": true,
+                "Hypervisor": "mutbfncrzhsmqrsg",
+                "InferenceAcceleratorInfo": {
+                    "Accelerators": [
+                        {
+                            "Count": 0,
+                            "Manufacturer": "podurhjsvmvvljtl",
+                            "MemoryInfo": {
+                                "SizeInMiB": 0
+                            },
+                            "Name": "bevgqjqklkosvbjw"
+                        }
+                    ],
+                    "TotalInferenceMemoryInMiB": 0
+                },
+                "InstanceStorageInfo": {
+                    "Disks": [
+                        {
+                            "Count": 0,
+                            "SizeInGB": 0,
+                            "Type": "nxiafwqzqactwuii"
+                        }
+                    ],
+                    "EncryptionSupport": "vgnuqimgxtubcayl",
+                    "NvmeSupport": "ylgunwqmcddtwpac",
+                    "TotalSizeInGB": 0
+                },
+                "InstanceStorageSupported": true,
+                "InstanceType": "ceijqdimbxczlsju",
+                "MemoryInfo": {
+                    "SizeInMiB": 0
+                },
+                "NetworkInfo": {
+                    "DefaultNetworkCardIndex": 0,
+                    "EfaInfo": {
+                        "MaximumEfaInterfaces": 0
+                    },
+                    "EfaSupported": true,
+                    "EnaSrdSupported": true,
+                    "EnaSupport": "dfpbymspxjdwcjtu",
+                    "EncryptionInTransitSupported": true,
+                    "Ipv4AddressesPerInterface": 0,
+                    "Ipv6AddressesPerInterface": 0,
+                    "Ipv6Supported": true,
+                    "MaximumNetworkCards": 0,
+                    "MaximumNetworkInterfaces": 0,
+                    "NetworkCards": [
+                        {
+                            "BaselineBandwidthInGbps": 0.0,
+                            "MaximumNetworkInterfaces": 0,
+                            "NetworkCardIndex": 0,
+                            "NetworkPerformance": "zjkqphcpxgyiltzb",
+                            "PeakBandwidthInGbps": 0.0
+                        }
+                    ],
+                    "NetworkPerformance": "qhvrarzygaatztyl"
+                },
+                "NitroEnclavesSupport": "xztpyamlyqlvalku",
+                "NitroTpmInfo": {
+                    "SupportedVersions": [
+                        "ogyoqwnrinrhdpri"
+                    ]
+                },
+                "NitroTpmSupport": "myyqxwmppegribwj",
+                "PlacementGroupInfo": {
+                    "SupportedStrategies": [
+                        "giwpcfijatkimsya"
+                    ]
+                },
+                "ProcessorInfo": {
+                    "Manufacturer": "xkxzxbkwztfwonka",
+                    "SupportedArchitectures": [
+                        "ipgamvzmyvexkbpa"
+                    ],
+                    "SupportedFeatures": [
+                        "fcxigylznnjnpnfn"
+                    ],
+                    "SustainedClockSpeedInGhz": 0.0
+                },
+                "SupportedBootModes": [
+                    "oxpqhwhmeyuntifh"
+                ],
+                "SupportedRootDeviceTypes": [
+                    "iwyikhvczewnnqzg"
+                ],
+                "SupportedUsageClasses": [
+                    "ymjvzcriofvevwbc"
+                ],
+                "SupportedVirtualizationTypes": [
+                    "bhhwpqwzcdvcrpqw"
+                ],
+                "VCpuInfo": {
+                    "DefaultCores": 0,
+                    "DefaultThreadsPerCore": 0,
+                    "DefaultVCpus": 0,
+                    "ValidCores": [
+                        0
+                    ],
+                    "ValidThreadsPerCore": [
+                        0
+                    ]
+                }
+            },
+            {
+                "AutoRecoverySupported": true,
+                "BareMetal": true,
+                "BurstablePerformanceSupported": true,
+                "CurrentGeneration": true,
+                "DedicatedHostsSupported": true,
+                "EbsInfo": {
+                    "EbsOptimizedInfo": {
+                        "BaselineBandwidthInMbps": 0,
+                        "BaselineIops": 0,
+                        "BaselineThroughputInMBps": 0.0,
+                        "MaximumBandwidthInMbps": 0,
+                        "MaximumIops": 0,
+                        "MaximumThroughputInMBps": 0.0
+                    },
+                    "EbsOptimizedSupport": "yiscgbifgvnezfna",
+                    "EncryptionSupport": "ycgvoxfmioftdfph",
+                    "NvmeSupport": "cljdlnbxtzpbiezd"
+                },
+                "FpgaInfo": {
+                    "Fpgas": [
+                        {
+                            "Count": 0,
+                            "Manufacturer": "nyzxnpufvhsxofgy",
+                            "MemoryInfo": {
+                                "SizeInMiB": 0
+                            },
+                            "Name": "hevjbayldbgbihpl"
+                        }
+                    ],
+                    "TotalFpgaMemoryInMiB": 0
+                },
+                "FreeTierEligible": true,
+                "GpuInfo": {
+                    "Gpus": [
+                        {
+                            "Count": 0,
+                            "Manufacturer": "sksdhbnmddwjsdnz",
+                            "MemoryInfo": {
+                                "SizeInMiB": 0
+                            },
+                            "Name": "dyrblikbqpbpfyre"
+                        }
+                    ],
+                    "TotalGpuMemoryInMiB": 0
+                },
+                "HibernationSupported": true,
+                "Hypervisor": "gszqiyhqwnpxuuyf",
+                "InferenceAcceleratorInfo": {
+                    "Accelerators": [
+                        {
+                            "Count": 0,
+                            "Manufacturer": "lzqgocovcmuctfjd",
+                            "MemoryInfo": {
+                                "SizeInMiB": 0
+                            },
+                            "Name": "gxkjhiatwiltqmsd"
+                        }
+                    ],
+                    "TotalInferenceMemoryInMiB": 0
+                },
+                "InstanceStorageInfo": {
+                    "Disks": [
+                        {
+                            "Count": 0,
+                            "SizeInGB": 0,
+                            "Type": "nibbugdksyflygvi"
+                        }
+                    ],
+                    "EncryptionSupport": "pcbxrlbzhxfnmtzf",
+                    "NvmeSupport": "disvrkujpnblfbdw",
+                    "TotalSizeInGB": 0
+                },
+                "InstanceStorageSupported": true,
+                "InstanceType": "qcvdpdepaoxunqyo",
+                "MemoryInfo": {
+                    "SizeInMiB": 0
+                },
+                "NetworkInfo": {
+                    "DefaultNetworkCardIndex": 0,
+                    "EfaInfo": {
+                        "MaximumEfaInterfaces": 0
+                    },
+                    "EfaSupported": true,
+                    "EnaSrdSupported": true,
+                    "EnaSupport": "ejxdwjcwrykhvzcu",
+                    "EncryptionInTransitSupported": true,
+                    "Ipv4AddressesPerInterface": 0,
+                    "Ipv6AddressesPerInterface": 0,
+                    "Ipv6Supported": true,
+                    "MaximumNetworkCards": 0,
+                    "MaximumNetworkInterfaces": 0,
+                    "NetworkCards": [
+                        {
+                            "BaselineBandwidthInGbps": 0.0,
+                            "MaximumNetworkInterfaces": 0,
+                            "NetworkCardIndex": 0,
+                            "NetworkPerformance": "mtkjudslysampedg",
+                            "PeakBandwidthInGbps": 0.0
+                        }
+                    ],
+                    "NetworkPerformance": "zkkmpokrgcqhxajq"
+                },
+                "NitroEnclavesSupport": "wmtvchvkmujderhk",
+                "NitroTpmInfo": {
+                    "SupportedVersions": [
+                        "bypemvttazdyhnqm"
+                    ]
+                },
+                "NitroTpmSupport": "qtivwibucpyybtvh",
+                "PlacementGroupInfo": {
+                    "SupportedStrategies": [
+                        "vmmtqrsppbkvfwft"
+                    ]
+                },
+                "ProcessorInfo": {
+                    "Manufacturer": "mwenmrawzzcbtzen",
+                    "SupportedArchitectures": [
+                        "kdrhfhmzqvindhmk"
+                    ],
+                    "SupportedFeatures": [
+                        "kkeudgefayvshdda"
+                    ],
+                    "SustainedClockSpeedInGhz": 0.0
+                },
+                "SupportedBootModes": [
+                    "gorpbjeobktwohqy"
+                ],
+                "SupportedRootDeviceTypes": [
+                    "yobvzvrdnqosbtgu"
+                ],
+                "SupportedUsageClasses": [
+                    "dbsgwkwvthbdnobv"
+                ],
+                "SupportedVirtualizationTypes": [
+                    "iaksgaucmqdbdsic"
+                ],
+                "VCpuInfo": {
+                    "DefaultCores": 0,
+                    "DefaultThreadsPerCore": 0,
+                    "DefaultVCpus": 0,
+                    "ValidCores": [
+                        0
+                    ],
+                    "ValidThreadsPerCore": [
+                        0
+                    ]
+                }
+            },
+            {
+                "AutoRecoverySupported": true,
+                "BareMetal": true,
+                "BurstablePerformanceSupported": true,
+                "CurrentGeneration": true,
+                "DedicatedHostsSupported": true,
+                "EbsInfo": {
+                    "EbsOptimizedInfo": {
+                        "BaselineBandwidthInMbps": 0,
+                        "BaselineIops": 0,
+                        "BaselineThroughputInMBps": 0.0,
+                        "MaximumBandwidthInMbps": 0,
+                        "MaximumIops": 0,
+                        "MaximumThroughputInMBps": 0.0
+                    },
+                    "EbsOptimizedSupport": "hlebprhbwfnuozlr",
+                    "EncryptionSupport": "tevcawfkyfgyswva",
+                    "NvmeSupport": "fwzqyxgeogwizywa"
+                },
+                "FpgaInfo": {
+                    "Fpgas": [
+                        {
+                            "Count": 0,
+                            "Manufacturer": "uxvitkgeabhdtdwx",
+                            "MemoryInfo": {
+                                "SizeInMiB": 0
+                            },
+                            "Name": "tyrrcfdhpwqafgmw"
+                        }
+                    ],
+                    "TotalFpgaMemoryInMiB": 0
+                },
+                "FreeTierEligible": true,
+                "GpuInfo": {
+                    "Gpus": [
+                        {
+                            "Count": 0,
+                            "Manufacturer": "wztuyoirqvwcjelq",
+                            "MemoryInfo": {
+                                "SizeInMiB": 0
+                            },
+                            "Name": "fctplsksopguanfi"
+                        }
+                    ],
+                    "TotalGpuMemoryInMiB": 0
+                },
+                "HibernationSupported": true,
+                "Hypervisor": "wjqqgszhecxmwkan",
+                "InferenceAcceleratorInfo": {
+                    "Accelerators": [
+                        {
+                            "Count": 0,
+                            "Manufacturer": "falqjqljdnosklon",
+                            "MemoryInfo": {
+                                "SizeInMiB": 0
+                            },
+                            "Name": "fruptyvzepxjwsju"
+                        }
+                    ],
+                    "TotalInferenceMemoryInMiB": 0
+                },
+                "InstanceStorageInfo": {
+                    "Disks": [
+                        {
+                            "Count": 0,
+                            "SizeInGB": 0,
+                            "Type": "isozdxtwekofiqjx"
+                        }
+                    ],
+                    "EncryptionSupport": "gzrycsqocanznydy",
+                    "NvmeSupport": "aorbiqzcyagqjiwa",
+                    "TotalSizeInGB": 0
+                },
+                "InstanceStorageSupported": true,
+                "InstanceType": "gkyyiloutiwshwxi",
+                "MemoryInfo": {
+                    "SizeInMiB": 0
+                },
+                "NetworkInfo": {
+                    "DefaultNetworkCardIndex": 0,
+                    "EfaInfo": {
+                        "MaximumEfaInterfaces": 0
+                    },
+                    "EfaSupported": true,
+                    "EnaSrdSupported": true,
+                    "EnaSupport": "rwqhynhwrywsaomt",
+                    "EncryptionInTransitSupported": true,
+                    "Ipv4AddressesPerInterface": 0,
+                    "Ipv6AddressesPerInterface": 0,
+                    "Ipv6Supported": true,
+                    "MaximumNetworkCards": 0,
+                    "MaximumNetworkInterfaces": 0,
+                    "NetworkCards": [
+                        {
+                            "BaselineBandwidthInGbps": 0.0,
+                            "MaximumNetworkInterfaces": 0,
+                            "NetworkCardIndex": 0,
+                            "NetworkPerformance": "sijggmzbznpluiou",
+                            "PeakBandwidthInGbps": 0.0
+                        }
+                    ],
+                    "NetworkPerformance": "mcckshskumkobnff"
+                },
+                "NitroEnclavesSupport": "chouwscoziyvvrwq",
+                "NitroTpmInfo": {
+                    "SupportedVersions": [
+                        "cpnctaouisecugtq"
+                    ]
+                },
+                "NitroTpmSupport": "xmpbdyppeoliyogn",
+                "PlacementGroupInfo": {
+                    "SupportedStrategies": [
+                        "mycherxuflcvgnpv"
+                    ]
+                },
+                "ProcessorInfo": {
+                    "Manufacturer": "tqglgugrmbryqxol",
+                    "SupportedArchitectures": [
+                        "btqundjwxicpjgel"
+                    ],
+                    "SupportedFeatures": [
+                        "afybjearagcixxpa"
+                    ],
+                    "SustainedClockSpeedInGhz": 0.0
+                },
+                "SupportedBootModes": [
+                    "rnichakxnqsjzojn"
+                ],
+                "SupportedRootDeviceTypes": [
+                    "mmnifqgnauscpsgz"
+                ],
+                "SupportedUsageClasses": [
+                    "rhemzgzjodhxirie"
+                ],
+                "SupportedVirtualizationTypes": [
+                    "uiluvpeuswtiiyup"
+                ],
+                "VCpuInfo": {
+                    "DefaultCores": 0,
+                    "DefaultThreadsPerCore": 0,
+                    "DefaultVCpus": 0,
+                    "ValidCores": [
+                        0
+                    ],
+                    "ValidThreadsPerCore": [
+                        0
+                    ]
+                }
+            }
+        ],
+        "result_key": "InstanceTypes"
+    },
+    "meta": {
+        "start": 1711115629.325131,
+        "end": 1711115635.629764,
+        "duration": 6.304646015167236,
+        "service": "ec2",
+        "type": "instance_types"
+    }
+}

@@ -1,0 +1,108 @@
+{
+    "input": {
+        "template": {
+            "CreationTimeAfter": "1970-01-01T00:00:00",
+            "CreationTimeBefore": "1970-01-01T00:00:00",
+            "SortOrder": "Ascending",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "c961c7d6021c72f55128d0a262cea76e",
+        "boto_command": "list_flow_definitions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "FlowDefinitionName": "FlowDefinitionName",
+                "FlowDefinitionArn": "FlowDefinitionArn",
+                "FlowDefinitionStatus": "FlowDefinitionStatus",
+                "CreationTime": "1970-01-01T00:00:00",
+                "FailureReason": "FailureReason"
+            }
+        ],
+        "required": [],
+        "md5": "50d9bd4bd8ceca097ddbd531d20e63f2",
+        "randomized": [
+            {
+                "CreationTime": "pdkgnpvgpdxcgopc",
+                "FailureReason": "oqwzvdxkqmftyfdy",
+                "FlowDefinitionArn": "vpvhihhdgyqftqjy",
+                "FlowDefinitionName": "ptnjkaeptkvnchnk",
+                "FlowDefinitionStatus": "vfeycjkchakjjkmq"
+            },
+            {
+                "CreationTime": "mpopjwobcfuohjor",
+                "FailureReason": "hgypckbnfqjrmstj",
+                "FlowDefinitionArn": "swilmwivsdlpaeyf",
+                "FlowDefinitionName": "tpopmvrxtyqjxuto",
+                "FlowDefinitionStatus": "fmlxvwuygtdmgnnh"
+            },
+            {
+                "CreationTime": "rwcxtrsjgtivyuoi",
+                "FailureReason": "rvpbsmarnjghxiux",
+                "FlowDefinitionArn": "sgnaypraeqswrchy",
+                "FlowDefinitionName": "wujembrnunytncut",
+                "FlowDefinitionStatus": "xgpivqhnkrkhoclh"
+            },
+            {
+                "CreationTime": "ggiduzniwyxkatre",
+                "FailureReason": "gyskdcnsevuryfyk",
+                "FlowDefinitionArn": "aaziaxqpvzsedain",
+                "FlowDefinitionName": "mrtuvhpmvbeplpcz",
+                "FlowDefinitionStatus": "ygjjqgkvapuzkclt"
+            },
+            {
+                "CreationTime": "juuntpduwqpppyeg",
+                "FailureReason": "owjbulmaahkfpbfn",
+                "FlowDefinitionArn": "cuetojbrzmdzlwoc",
+                "FlowDefinitionName": "ddvtnxkgziizhwsl",
+                "FlowDefinitionStatus": "mkugwivuimoklueg"
+            },
+            {
+                "CreationTime": "emgxgrrrybdldyli",
+                "FailureReason": "qeryfymakgkpyrus",
+                "FlowDefinitionArn": "frwosnngkjxtdxrj",
+                "FlowDefinitionName": "lvwajbpbuiyziptq",
+                "FlowDefinitionStatus": "wxxmovvqkoeercmn"
+            },
+            {
+                "CreationTime": "pdfuiflfpdfmxgvm",
+                "FailureReason": "abxxtqhfoqiknepj",
+                "FlowDefinitionArn": "mmcnzvzspppvtrls",
+                "FlowDefinitionName": "xgsgsxflyesejvzl",
+                "FlowDefinitionStatus": "dxdgpcnbkdnybano"
+            },
+            {
+                "CreationTime": "qggvvcoujecnhtyi",
+                "FailureReason": "ejevdjrdqymbbfro",
+                "FlowDefinitionArn": "njtvcowuihwzbmiq",
+                "FlowDefinitionName": "zmlvbjezjkeceewt",
+                "FlowDefinitionStatus": "ouqyhsavdltxlqdx"
+            },
+            {
+                "CreationTime": "cgwpacijdnevszsl",
+                "FailureReason": "lbiuupwphptrqsxk",
+                "FlowDefinitionArn": "smgexouxmcmbddml",
+                "FlowDefinitionName": "dasozgvjehwlaqaw",
+                "FlowDefinitionStatus": "zojjdquupdgiqtum"
+            },
+            {
+                "CreationTime": "xiolvnajodmudfhn",
+                "FailureReason": "vurhrtuootwoerog",
+                "FlowDefinitionArn": "tfgmjohcfnicqxwq",
+                "FlowDefinitionName": "ufxjpmahcvxpexug",
+                "FlowDefinitionStatus": "nuuyrrztsaqgbmrj"
+            }
+        ],
+        "result_key": "FlowDefinitionSummaries"
+    },
+    "meta": {
+        "start": 1711116555.799834,
+        "end": 1711116563.801503,
+        "duration": 8.001678943634033,
+        "service": "sagemaker",
+        "type": "flow_definitions"
+    }
+}

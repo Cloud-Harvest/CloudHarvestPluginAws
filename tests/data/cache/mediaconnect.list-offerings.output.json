@@ -1,0 +1,171 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "031b56893c6f5a9d0ebe6017c5c080cb",
+        "boto_command": "list_offerings",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "CurrencyCode": "CurrencyCode",
+                "Duration": 0,
+                "DurationUnits": "DurationUnits",
+                "OfferingArn": "OfferingArn",
+                "OfferingDescription": "OfferingDescription",
+                "PricePerUnit": "PricePerUnit",
+                "PriceUnits": "PriceUnits",
+                "ResourceSpecification": {
+                    "ReservedBitrate": 0,
+                    "ResourceType": "ResourceType"
+                }
+            }
+        ],
+        "required": [],
+        "md5": "0e59a9173495330f64bc0c475c841c92",
+        "randomized": [
+            {
+                "CurrencyCode": "oonkwbgnbknhawwk",
+                "Duration": 0,
+                "DurationUnits": "amziwwigellaeshe",
+                "OfferingArn": "hginhorwtlaekcwu",
+                "OfferingDescription": "bwjtfoghllotuphv",
+                "PricePerUnit": "tibjqbjkljjqwfcl",
+                "PriceUnits": "ghezcqohvgjyvczr",
+                "ResourceSpecification": {
+                    "ReservedBitrate": 0,
+                    "ResourceType": "ewpxeudhtnuhfgym"
+                }
+            },
+            {
+                "CurrencyCode": "ptcdklskpicxylnr",
+                "Duration": 0,
+                "DurationUnits": "fmctcffhxponglvw",
+                "OfferingArn": "jrvxnsmfujwfczhx",
+                "OfferingDescription": "bkjdyjdgvajhxhcc",
+                "PricePerUnit": "ohdxjmhyvnjdknen",
+                "PriceUnits": "ftmuhcwzkqdeqybl",
+                "ResourceSpecification": {
+                    "ReservedBitrate": 0,
+                    "ResourceType": "idfciawcqrqxjnet"
+                }
+            },
+            {
+                "CurrencyCode": "ufhstcvdkitbhnxt",
+                "Duration": 0,
+                "DurationUnits": "hxcqoatvqpgiuhbx",
+                "OfferingArn": "xuczfofovmcawmad",
+                "OfferingDescription": "djshcxebqopbhfkx",
+                "PricePerUnit": "sokhicirjgivhcen",
+                "PriceUnits": "uzrkyqkvmxqhlllg",
+                "ResourceSpecification": {
+                    "ReservedBitrate": 0,
+                    "ResourceType": "msfxcuxyapidpqan"
+                }
+            },
+            {
+                "CurrencyCode": "scaybwroigyzmfca",
+                "Duration": 0,
+                "DurationUnits": "xnrxhvrmcqgfmkwa",
+                "OfferingArn": "dbjctizdowpiffqk",
+                "OfferingDescription": "wyhopabyxzcnjsux",
+                "PricePerUnit": "bwnafwrrksbbisia",
+                "PriceUnits": "fawejpetizwextft",
+                "ResourceSpecification": {
+                    "ReservedBitrate": 0,
+                    "ResourceType": "pmbnrykfqijigbcl"
+                }
+            },
+            {
+                "CurrencyCode": "ksbpaumuohyqvmgf",
+                "Duration": 0,
+                "DurationUnits": "pjkpvvgipkvkgohi",
+                "OfferingArn": "izlhqxvihugscmmc",
+                "OfferingDescription": "mrtbjwtlsuvwfftb",
+                "PricePerUnit": "rzysokjsvxccsmyg",
+                "PriceUnits": "axytnlnockmhregz",
+                "ResourceSpecification": {
+                    "ReservedBitrate": 0,
+                    "ResourceType": "kjyfwsmzfdubouic"
+                }
+            },
+            {
+                "CurrencyCode": "bsmliibrkfdxmjtb",
+                "Duration": 0,
+                "DurationUnits": "mabjsikfzhwjtrck",
+                "OfferingArn": "weqkydrdmblxhzdj",
+                "OfferingDescription": "odmxqeymltoynxqr",
+                "PricePerUnit": "raufdvfnythbhgip",
+                "PriceUnits": "pwdmqncqgbscvxjq",
+                "ResourceSpecification": {
+                    "ReservedBitrate": 0,
+                    "ResourceType": "dbenfvuirsrlzqvd"
+                }
+            },
+            {
+                "CurrencyCode": "tsonbqgactlgjqfg",
+                "Duration": 0,
+                "DurationUnits": "fyhybjyeplurlpfv",
+                "OfferingArn": "jznddohmatokyfxr",
+                "OfferingDescription": "aacfwnmjvahdggtu",
+                "PricePerUnit": "zjyrakcfrmgrktxq",
+                "PriceUnits": "whqahksgrixsloxa",
+                "ResourceSpecification": {
+                    "ReservedBitrate": 0,
+                    "ResourceType": "bocceveyhormlfez"
+                }
+            },
+            {
+                "CurrencyCode": "yihjqezkftffhccr",
+                "Duration": 0,
+                "DurationUnits": "gsmcvshyetxhpnns",
+                "OfferingArn": "uemrefamjqgymgsc",
+                "OfferingDescription": "metslceuapjkiiae",
+                "PricePerUnit": "dvigxggegcfuuxnz",
+                "PriceUnits": "zdbmvjcfriddasic",
+                "ResourceSpecification": {
+                    "ReservedBitrate": 0,
+                    "ResourceType": "wlvmshnqnvmpygcv"
+                }
+            },
+            {
+                "CurrencyCode": "wjwrhhoshyxdtpje",
+                "Duration": 0,
+                "DurationUnits": "mjhgazoxnhyceepk",
+                "OfferingArn": "imtymlbrmasgyizy",
+                "OfferingDescription": "oukkicflpbbgasfc",
+                "PricePerUnit": "donkqwcrcrcjwlxi",
+                "PriceUnits": "fcglnteshxrpjlbc",
+                "ResourceSpecification": {
+                    "ReservedBitrate": 0,
+                    "ResourceType": "isojprwjkchdtjkm"
+                }
+            },
+            {
+                "CurrencyCode": "ocuvmwfuinovqgso",
+                "Duration": 0,
+                "DurationUnits": "sjmlsygspjabsneo",
+                "OfferingArn": "wratxljiycoygnxf",
+                "OfferingDescription": "frpdfieeoeihmvkw",
+                "PricePerUnit": "dtdlwnvyngzdpsgf",
+                "PriceUnits": "mbnvfquekvulrrhd",
+                "ResourceSpecification": {
+                    "ReservedBitrate": 0,
+                    "ResourceType": "qdvrfzykzlhgousj"
+                }
+            }
+        ],
+        "result_key": "Offerings"
+    },
+    "meta": {
+        "start": 1711116167.13563,
+        "end": 1711116174.621216,
+        "duration": 7.485596179962158,
+        "service": "mediaconnect",
+        "type": "offerings"
+    }
+}

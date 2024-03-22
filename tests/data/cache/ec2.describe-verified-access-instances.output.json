@@ -1,0 +1,282 @@
+{
+    "input": {
+        "template": {
+            "VerifiedAccessInstanceIds": [
+                ""
+            ],
+            "MaxResults": 0,
+            "NextToken": "",
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "DryRun": true
+        },
+        "required": [],
+        "md5": "09ce5eb99a285e301ea173a884bbf61d",
+        "boto_command": "describe_verified_access_instances",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "VerifiedAccessInstanceId": "VerifiedAccessInstanceId",
+                "Description": "Description",
+                "VerifiedAccessTrustProviders": [
+                    {
+                        "VerifiedAccessTrustProviderId": "VerifiedAccessTrustProviderId",
+                        "Description": "Description",
+                        "TrustProviderType": "TrustProviderType",
+                        "UserTrustProviderType": "UserTrustProviderType",
+                        "DeviceTrustProviderType": "DeviceTrustProviderType"
+                    }
+                ],
+                "CreationTime": "CreationTime",
+                "LastUpdatedTime": "LastUpdatedTime",
+                "Tags": [
+                    {
+                        "Key": "Key",
+                        "Value": "Value"
+                    }
+                ],
+                "FipsEnabled": true
+            }
+        ],
+        "required": [],
+        "md5": "3446d1074f06a37acf93e76b43472243",
+        "randomized": [
+            {
+                "CreationTime": "vcjirqkgxuugvvkc",
+                "Description": "zmhogpazqapdoivq",
+                "FipsEnabled": true,
+                "LastUpdatedTime": "otgqdaxpvtohzrni",
+                "Tags": [
+                    {
+                        "Key": "kikleqsmchpbdqop",
+                        "Value": "iqtphxtswpcxykhg"
+                    }
+                ],
+                "VerifiedAccessInstanceId": "ofbfntrrneyvfjfs",
+                "VerifiedAccessTrustProviders": [
+                    {
+                        "Description": "qeixbrmpzrczlmii",
+                        "DeviceTrustProviderType": "mvdmdfumnttmunqd",
+                        "TrustProviderType": "najcgsovbhcalbvy",
+                        "UserTrustProviderType": "dvjmhabevafcbhvt",
+                        "VerifiedAccessTrustProviderId": "ccjbpdfezsxzagud"
+                    }
+                ]
+            },
+            {
+                "CreationTime": "nzfrotxsxqreghjm",
+                "Description": "zjyumolhlrxhzajd",
+                "FipsEnabled": true,
+                "LastUpdatedTime": "nconrfaskrtrnrmd",
+                "Tags": [
+                    {
+                        "Key": "wffxornhrltqgcbx",
+                        "Value": "vgchajafftzznrzi"
+                    }
+                ],
+                "VerifiedAccessInstanceId": "tyczuqbsqytxhbhm",
+                "VerifiedAccessTrustProviders": [
+                    {
+                        "Description": "qdsqgskdxghclslq",
+                        "DeviceTrustProviderType": "zfqzsmqpcjvxptcw",
+                        "TrustProviderType": "qaiiboezefprnoec",
+                        "UserTrustProviderType": "piyucsgjdmkfzfjc",
+                        "VerifiedAccessTrustProviderId": "lmyyrqhytzclayle"
+                    }
+                ]
+            },
+            {
+                "CreationTime": "nmyfcwgzpjfsmblx",
+                "Description": "fedqfngxmmzxhmwh",
+                "FipsEnabled": true,
+                "LastUpdatedTime": "lxadrunzlvojxozh",
+                "Tags": [
+                    {
+                        "Key": "plluvzidxepkzvcp",
+                        "Value": "prnvhppqcperewxt"
+                    }
+                ],
+                "VerifiedAccessInstanceId": "oyulbbxhvwkyxfgu",
+                "VerifiedAccessTrustProviders": [
+                    {
+                        "Description": "zmqflvcmjkzxdbqt",
+                        "DeviceTrustProviderType": "bkjmehsapetkiiad",
+                        "TrustProviderType": "ttpvrmsdzeqrhafq",
+                        "UserTrustProviderType": "uwplbrpbmruusbux",
+                        "VerifiedAccessTrustProviderId": "tzypzqmcnpictilu"
+                    }
+                ]
+            },
+            {
+                "CreationTime": "tsnnubfqudjcpise",
+                "Description": "wfvzarkpqafwdmir",
+                "FipsEnabled": true,
+                "LastUpdatedTime": "qavhthmkkfrzqsny",
+                "Tags": [
+                    {
+                        "Key": "cqanvoprqohrvehi",
+                        "Value": "otsibjlkddnqkhuo"
+                    }
+                ],
+                "VerifiedAccessInstanceId": "xclxaojrcokcwjqp",
+                "VerifiedAccessTrustProviders": [
+                    {
+                        "Description": "wvvstdxthfylwxae",
+                        "DeviceTrustProviderType": "zeyqcqmbkocarbds",
+                        "TrustProviderType": "nnhypmeigstyygoo",
+                        "UserTrustProviderType": "ynkerkdsybqhmvcb",
+                        "VerifiedAccessTrustProviderId": "qlghfszyjjmhcekz"
+                    }
+                ]
+            },
+            {
+                "CreationTime": "gujjokljyijzmudz",
+                "Description": "lsufsyxtridcclti",
+                "FipsEnabled": true,
+                "LastUpdatedTime": "ssamfntvbiitsxcf",
+                "Tags": [
+                    {
+                        "Key": "fpfjulkmcghdsjtf",
+                        "Value": "tarsduqbjmdmkkhb"
+                    }
+                ],
+                "VerifiedAccessInstanceId": "fbzgkczkycpspajy",
+                "VerifiedAccessTrustProviders": [
+                    {
+                        "Description": "etgvnqtptonyjraf",
+                        "DeviceTrustProviderType": "yuqhxhtvihfcsofj",
+                        "TrustProviderType": "nolkmwiptucpksfz",
+                        "UserTrustProviderType": "eaycivjqegplzmzr",
+                        "VerifiedAccessTrustProviderId": "jyxprjmokcmhinox"
+                    }
+                ]
+            },
+            {
+                "CreationTime": "mdfccmsfhdsfgdzh",
+                "Description": "btfibxjxkiyvitkf",
+                "FipsEnabled": true,
+                "LastUpdatedTime": "sdqcdaervajhzhot",
+                "Tags": [
+                    {
+                        "Key": "nbmtndnzagjvyprv",
+                        "Value": "gmjgiwqohfsfjlqf"
+                    }
+                ],
+                "VerifiedAccessInstanceId": "ixzvfsgfuvpayxab",
+                "VerifiedAccessTrustProviders": [
+                    {
+                        "Description": "dpdxqdoxyeftmetq",
+                        "DeviceTrustProviderType": "scgakvgpjzqrmzno",
+                        "TrustProviderType": "otdadoepcvijhdxl",
+                        "UserTrustProviderType": "yqithntljwbvybnc",
+                        "VerifiedAccessTrustProviderId": "pjwvtqhxvtlwigry"
+                    }
+                ]
+            },
+            {
+                "CreationTime": "gnbgzyvykzvgybyk",
+                "Description": "xsivmwloqjkmvmro",
+                "FipsEnabled": true,
+                "LastUpdatedTime": "nehjpitbzyjioqis",
+                "Tags": [
+                    {
+                        "Key": "jvsanophaxixknym",
+                        "Value": "mzgsuctdkqwvusij"
+                    }
+                ],
+                "VerifiedAccessInstanceId": "jzelxtcbznoretyj",
+                "VerifiedAccessTrustProviders": [
+                    {
+                        "Description": "onizvimzcweszwfs",
+                        "DeviceTrustProviderType": "aaooqlrytxkvrdih",
+                        "TrustProviderType": "keeblukgimlqxctk",
+                        "UserTrustProviderType": "qkgjynbqffioubqc",
+                        "VerifiedAccessTrustProviderId": "imwbrzcqlwlouetl"
+                    }
+                ]
+            },
+            {
+                "CreationTime": "jdgpnsxebyfivrmg",
+                "Description": "drhmljlpnizamhal",
+                "FipsEnabled": true,
+                "LastUpdatedTime": "efjhpnwzbrwlnuqr",
+                "Tags": [
+                    {
+                        "Key": "ruqhxwpqfcemefbm",
+                        "Value": "kybfnbgdpmrkgtvi"
+                    }
+                ],
+                "VerifiedAccessInstanceId": "gxsuqjqldbipjvxq",
+                "VerifiedAccessTrustProviders": [
+                    {
+                        "Description": "mctpnzoorrdrzwtb",
+                        "DeviceTrustProviderType": "kciufwwsmjbnuryz",
+                        "TrustProviderType": "iuuuvebtpzhazzio",
+                        "UserTrustProviderType": "xeynubelvsvcyjtb",
+                        "VerifiedAccessTrustProviderId": "bhrheukluuhpphgt"
+                    }
+                ]
+            },
+            {
+                "CreationTime": "hutcequzkctdtddb",
+                "Description": "voatwwqtkvsswzmv",
+                "FipsEnabled": true,
+                "LastUpdatedTime": "dgpuimkhnecfohri",
+                "Tags": [
+                    {
+                        "Key": "ahvsylkuufawetaz",
+                        "Value": "fmubircigbewtfdb"
+                    }
+                ],
+                "VerifiedAccessInstanceId": "opjbmmwvuvccdzzn",
+                "VerifiedAccessTrustProviders": [
+                    {
+                        "Description": "ygxmllzoaounygcq",
+                        "DeviceTrustProviderType": "wadpdcmbubmnrlsv",
+                        "TrustProviderType": "vzrlkgaiuemfiqit",
+                        "UserTrustProviderType": "qwqnmbwwbsmqofwi",
+                        "VerifiedAccessTrustProviderId": "gdhtogtdhbadrgro"
+                    }
+                ]
+            },
+            {
+                "CreationTime": "xcvtvqbmaujvcyys",
+                "Description": "rvskkjfmcpnqybkx",
+                "FipsEnabled": true,
+                "LastUpdatedTime": "plikidvsfwhtoakj",
+                "Tags": [
+                    {
+                        "Key": "kxyladzdlimxwiia",
+                        "Value": "ageauojuuipjnrry"
+                    }
+                ],
+                "VerifiedAccessInstanceId": "vtqytiiuwweltadz",
+                "VerifiedAccessTrustProviders": [
+                    {
+                        "Description": "socgjfqtmyfgynsf",
+                        "DeviceTrustProviderType": "vkyvhokgaixccftm",
+                        "TrustProviderType": "dpqfgrpcvmkwtint",
+                        "UserTrustProviderType": "nplevfoeozpnjgbb",
+                        "VerifiedAccessTrustProviderId": "mboortqmlqrvsswp"
+                    }
+                ]
+            }
+        ],
+        "result_key": "VerifiedAccessInstances"
+    },
+    "meta": {
+        "start": 1711115661.226353,
+        "end": 1711115668.048571,
+        "duration": 6.822226047515869,
+        "service": "ec2",
+        "type": "verified_access_instances"
+    }
+}

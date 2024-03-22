@@ -1,0 +1,82 @@
+{
+    "input": {
+        "template": {
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "28fe14adb863d5d0635cac1da3f9b4e4",
+        "boto_command": "list_exports",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "ExportingStackId": "ExportingStackId",
+                "Name": "Name",
+                "Value": "Value"
+            }
+        ],
+        "required": [],
+        "md5": "d38e7b9aa45f099a287b13e30e95f5bb",
+        "randomized": [
+            {
+                "ExportingStackId": "mibfrkmshmronigq",
+                "Name": "umfrznifguyvjzvd",
+                "Value": "abyttyzzqgjocjme"
+            },
+            {
+                "ExportingStackId": "aijykjbntcwjwrac",
+                "Name": "ajoxnucptybdiqcm",
+                "Value": "obycjuuyrbvekjcq"
+            },
+            {
+                "ExportingStackId": "owalrhiyanyfwkom",
+                "Name": "ycivbnhrxvqoyind",
+                "Value": "jgpdtqqtaagtkqiz"
+            },
+            {
+                "ExportingStackId": "ozeeotmwykgxlcgi",
+                "Name": "fbubxklyjbganiis",
+                "Value": "peorflwhbtxjvcou"
+            },
+            {
+                "ExportingStackId": "zttdihqcevcdqpnp",
+                "Name": "krysqnqhqablvwsu",
+                "Value": "ezhpedandaaqryjl"
+            },
+            {
+                "ExportingStackId": "ofxqinyoscfisgpk",
+                "Name": "iqfhgmkgwavtiiyp",
+                "Value": "vfxvdzheuomgzfpj"
+            },
+            {
+                "ExportingStackId": "gtcnucemszgcsdhg",
+                "Name": "rbbrapubdnnveuoa",
+                "Value": "sgqimsrkyhxytdgb"
+            },
+            {
+                "ExportingStackId": "otbgqjweajsgcpim",
+                "Name": "twudaikunfteicca",
+                "Value": "rcmmbjtrbdxcvshz"
+            },
+            {
+                "ExportingStackId": "wfonzdbpedgvgdyt",
+                "Name": "plerxnyjpefmaibr",
+                "Value": "xqlgxoyiyvcyirsy"
+            },
+            {
+                "ExportingStackId": "fqaukgquzmidptgl",
+                "Name": "khwxyerxzjgyxywh",
+                "Value": "okhqvszpvomrdqhr"
+            }
+        ],
+        "result_key": "Exports"
+    },
+    "meta": {
+        "start": 1711115364.414453,
+        "end": 1711115370.62463,
+        "duration": 6.210186958312988,
+        "service": "cloudformation",
+        "type": "exports"
+    }
+}

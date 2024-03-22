@@ -1,0 +1,166 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "describe_service_integration",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": {
+            "OpsCenter": {
+                "OptInStatus": "OptInStatus"
+            },
+            "LogsAnomalyDetection": {
+                "OptInStatus": "OptInStatus"
+            },
+            "KMSServerSideEncryption": {
+                "KMSKeyId": "KMSKeyId",
+                "OptInStatus": "OptInStatus",
+                "Type": "Type"
+            }
+        },
+        "required": [],
+        "md5": "8c34c953f519d94ddde5a46bb25b31d2",
+        "randomized": [
+            {
+                "KMSServerSideEncryption": {
+                    "KMSKeyId": "ifxzfovhmxjiajnd",
+                    "OptInStatus": "ovlozrphxhqkwjpa",
+                    "Type": "jqwhwpekresehsmk"
+                },
+                "LogsAnomalyDetection": {
+                    "OptInStatus": "gvhtmoorzexgxian"
+                },
+                "OpsCenter": {
+                    "OptInStatus": "ovbdjjjvsdvbxaux"
+                }
+            },
+            {
+                "KMSServerSideEncryption": {
+                    "KMSKeyId": "ojgljiuqraxttaro",
+                    "OptInStatus": "karcijbnfkpmcjkk",
+                    "Type": "sxdxzyehecsiozig"
+                },
+                "LogsAnomalyDetection": {
+                    "OptInStatus": "vuqnbtivwbntplog"
+                },
+                "OpsCenter": {
+                    "OptInStatus": "umxdjtpaibxiejue"
+                }
+            },
+            {
+                "KMSServerSideEncryption": {
+                    "KMSKeyId": "fqbsdgyzzhdylmxe",
+                    "OptInStatus": "dnvuzaswklrtgdwj",
+                    "Type": "mrhileauhqmhrctj"
+                },
+                "LogsAnomalyDetection": {
+                    "OptInStatus": "poygjrknkupohfqb"
+                },
+                "OpsCenter": {
+                    "OptInStatus": "gjisvfkuuwdvutrb"
+                }
+            },
+            {
+                "KMSServerSideEncryption": {
+                    "KMSKeyId": "fqinpoaoonexsamw",
+                    "OptInStatus": "hghqknuczzptiogg",
+                    "Type": "lqlyjaaecpuucdit"
+                },
+                "LogsAnomalyDetection": {
+                    "OptInStatus": "cxighwtwwtjunxzl"
+                },
+                "OpsCenter": {
+                    "OptInStatus": "kztwechimmovchtt"
+                }
+            },
+            {
+                "KMSServerSideEncryption": {
+                    "KMSKeyId": "iidaepzqyqfweegr",
+                    "OptInStatus": "wbasqayudsiygefp",
+                    "Type": "deijrjaezfanutyv"
+                },
+                "LogsAnomalyDetection": {
+                    "OptInStatus": "iieitijzmlrkpssc"
+                },
+                "OpsCenter": {
+                    "OptInStatus": "wgzzsddjzhfomjop"
+                }
+            },
+            {
+                "KMSServerSideEncryption": {
+                    "KMSKeyId": "sasluxzcbgszrinj",
+                    "OptInStatus": "hurlxnubwuwrizjd",
+                    "Type": "csnxnbiprmaejkwu"
+                },
+                "LogsAnomalyDetection": {
+                    "OptInStatus": "ibvvpcsvjvsbekaa"
+                },
+                "OpsCenter": {
+                    "OptInStatus": "ybqlaluydcxcmhhc"
+                }
+            },
+            {
+                "KMSServerSideEncryption": {
+                    "KMSKeyId": "cmdwbmbnxvtmqkdc",
+                    "OptInStatus": "fiuuzkecrpjdjpbw",
+                    "Type": "vwnznacpcznbedmp"
+                },
+                "LogsAnomalyDetection": {
+                    "OptInStatus": "qptlqwecnhfnxlub"
+                },
+                "OpsCenter": {
+                    "OptInStatus": "gmnepbvedhctpwqw"
+                }
+            },
+            {
+                "KMSServerSideEncryption": {
+                    "KMSKeyId": "jigyftgmesytvkbm",
+                    "OptInStatus": "jfdeqivjktjewfis",
+                    "Type": "nxfvwnhphpxoturg"
+                },
+                "LogsAnomalyDetection": {
+                    "OptInStatus": "fmqzhkbivikzqqld"
+                },
+                "OpsCenter": {
+                    "OptInStatus": "qcwrktunsylfrpra"
+                }
+            },
+            {
+                "KMSServerSideEncryption": {
+                    "KMSKeyId": "lufomymxvbzpasyl",
+                    "OptInStatus": "kwqobeoadpkrhapf",
+                    "Type": "rupuqsjoiezzpnwk"
+                },
+                "LogsAnomalyDetection": {
+                    "OptInStatus": "ksvlbnnunujejyju"
+                },
+                "OpsCenter": {
+                    "OptInStatus": "nsfdpkhbmaqkbccr"
+                }
+            },
+            {
+                "KMSServerSideEncryption": {
+                    "KMSKeyId": "vpmnklvgikiucfxs",
+                    "OptInStatus": "djfbizrkrtccmabd",
+                    "Type": "kvjjctphriftzyup"
+                },
+                "LogsAnomalyDetection": {
+                    "OptInStatus": "qxaklecpsgmgfggk"
+                },
+                "OpsCenter": {
+                    "OptInStatus": "ndaddgwqujzfakcd"
+                }
+            }
+        ],
+        "result_key": "ServiceIntegration"
+    },
+    "meta": {
+        "start": 1711115559.56398,
+        "end": 1711115567.09865,
+        "duration": 7.5346808433532715,
+        "service": "devops-guru",
+        "type": "service_integration"
+    }
+}

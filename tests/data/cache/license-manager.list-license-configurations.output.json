@@ -1,0 +1,534 @@
+{
+    "input": {
+        "template": {
+            "LicenseConfigurationArns": [
+                ""
+            ],
+            "MaxResults": 0,
+            "NextToken": "",
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ]
+        },
+        "required": [],
+        "md5": "55d912e352c471389fc5d811d4eeb41a",
+        "boto_command": "list_license_configurations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "LicenseConfigurationId": "LicenseConfigurationId",
+                "LicenseConfigurationArn": "LicenseConfigurationArn",
+                "Name": "Name",
+                "Description": "Description",
+                "LicenseCountingType": "LicenseCountingType",
+                "LicenseRules": [
+                    "String"
+                ],
+                "LicenseCount": 0,
+                "LicenseCountHardLimit": true,
+                "DisassociateWhenNotFound": true,
+                "ConsumedLicenses": 0,
+                "Status": "Status",
+                "OwnerAccountId": "OwnerAccountId",
+                "ConsumedLicenseSummaryList": [
+                    {
+                        "ResourceType": "ResourceType",
+                        "ConsumedLicenses": 0
+                    }
+                ],
+                "ManagedResourceSummaryList": [
+                    {
+                        "ResourceType": "ResourceType",
+                        "AssociationCount": 0
+                    }
+                ],
+                "ProductInformationList": [
+                    {
+                        "ResourceType": "ResourceType",
+                        "ProductInformationFilterList": [
+                            {
+                                "ProductInformationFilterName": "ProductInformationFilterName",
+                                "ProductInformationFilterValue": [
+                                    "String"
+                                ],
+                                "ProductInformationFilterComparator": "ProductInformationFilterComparator"
+                            }
+                        ]
+                    }
+                ],
+                "AutomatedDiscoveryInformation": {
+                    "LastRunTime": "1970-01-01T00:00:00"
+                }
+            }
+        ],
+        "required": [],
+        "md5": "d2f0e7680494cee75e47d882dbd35bf7",
+        "randomized": [
+            {
+                "AutomatedDiscoveryInformation": {
+                    "LastRunTime": "dieveasgyfupdedw"
+                },
+                "ConsumedLicenseSummaryList": [
+                    {
+                        "ConsumedLicenses": 0,
+                        "ResourceType": "yilpczyhjacpvrjb"
+                    }
+                ],
+                "ConsumedLicenses": 0,
+                "Description": "elzgjoaphnmqseyo",
+                "DisassociateWhenNotFound": true,
+                "LicenseConfigurationArn": "prerfoipooxwluqg",
+                "LicenseConfigurationId": "ltrmtzqqrssuqzrd",
+                "LicenseCount": 0,
+                "LicenseCountHardLimit": true,
+                "LicenseCountingType": "pkuwictntgyihwgl",
+                "LicenseRules": [
+                    "dbgarsnylvwocpsq"
+                ],
+                "ManagedResourceSummaryList": [
+                    {
+                        "AssociationCount": 0,
+                        "ResourceType": "mlwoomohtexlmvoj"
+                    }
+                ],
+                "Name": "eujdylwvdvahbevv",
+                "OwnerAccountId": "hemhymgsqlrhbfva",
+                "ProductInformationList": [
+                    {
+                        "ProductInformationFilterList": [
+                            {
+                                "ProductInformationFilterComparator": "xubgbextywxkhabc",
+                                "ProductInformationFilterName": "ojdwlksuciwenmgs",
+                                "ProductInformationFilterValue": [
+                                    "amuywvgoalgirsdp"
+                                ]
+                            }
+                        ],
+                        "ResourceType": "wbqcdadrxojsovbs"
+                    }
+                ],
+                "Status": "ytiwzgmhslkhljjn"
+            },
+            {
+                "AutomatedDiscoveryInformation": {
+                    "LastRunTime": "gxqsdyxasnwvmmmk"
+                },
+                "ConsumedLicenseSummaryList": [
+                    {
+                        "ConsumedLicenses": 0,
+                        "ResourceType": "yrchpesoohvkiyqc"
+                    }
+                ],
+                "ConsumedLicenses": 0,
+                "Description": "erpsljjdletguqgb",
+                "DisassociateWhenNotFound": true,
+                "LicenseConfigurationArn": "crkfogphpbugqhlh",
+                "LicenseConfigurationId": "momrrlwbjjxedsem",
+                "LicenseCount": 0,
+                "LicenseCountHardLimit": true,
+                "LicenseCountingType": "dapfvrwkpedtmfff",
+                "LicenseRules": [
+                    "hkbfsjcooqevpnwv"
+                ],
+                "ManagedResourceSummaryList": [
+                    {
+                        "AssociationCount": 0,
+                        "ResourceType": "svdbfmmzriutqgpi"
+                    }
+                ],
+                "Name": "tjmechmpxidepwfk",
+                "OwnerAccountId": "ejpvnjozqessjkhf",
+                "ProductInformationList": [
+                    {
+                        "ProductInformationFilterList": [
+                            {
+                                "ProductInformationFilterComparator": "ihrmeisdldaliurk",
+                                "ProductInformationFilterName": "yimelegswjjcvoom",
+                                "ProductInformationFilterValue": [
+                                    "ewioqgnkhkybnrcm"
+                                ]
+                            }
+                        ],
+                        "ResourceType": "jkjexebnjcwzodyo"
+                    }
+                ],
+                "Status": "msdeljhhmkhquzfu"
+            },
+            {
+                "AutomatedDiscoveryInformation": {
+                    "LastRunTime": "hqcekfefotoaurtw"
+                },
+                "ConsumedLicenseSummaryList": [
+                    {
+                        "ConsumedLicenses": 0,
+                        "ResourceType": "ciqgsamqiyyzafti"
+                    }
+                ],
+                "ConsumedLicenses": 0,
+                "Description": "hwyuocxsruihuboi",
+                "DisassociateWhenNotFound": true,
+                "LicenseConfigurationArn": "zvpoftqmohgnwuet",
+                "LicenseConfigurationId": "qabdyjjwstwsjwqn",
+                "LicenseCount": 0,
+                "LicenseCountHardLimit": true,
+                "LicenseCountingType": "hxhzjrqvwgrtnqno",
+                "LicenseRules": [
+                    "nxxjynabfooptllh"
+                ],
+                "ManagedResourceSummaryList": [
+                    {
+                        "AssociationCount": 0,
+                        "ResourceType": "jjouzujdqkainhdo"
+                    }
+                ],
+                "Name": "xjmixckmrkucwjtg",
+                "OwnerAccountId": "vtuwkekpvjewzwwn",
+                "ProductInformationList": [
+                    {
+                        "ProductInformationFilterList": [
+                            {
+                                "ProductInformationFilterComparator": "fbaxbtovjdgnhwws",
+                                "ProductInformationFilterName": "rcnsrlttcynokqfi",
+                                "ProductInformationFilterValue": [
+                                    "lxfkvbcawgzzepxy"
+                                ]
+                            }
+                        ],
+                        "ResourceType": "exvdwqosyxujkrpt"
+                    }
+                ],
+                "Status": "bqprgvtqkrachqaf"
+            },
+            {
+                "AutomatedDiscoveryInformation": {
+                    "LastRunTime": "mvvbhokfawmmtcbn"
+                },
+                "ConsumedLicenseSummaryList": [
+                    {
+                        "ConsumedLicenses": 0,
+                        "ResourceType": "fwzdaqshmiqxljsj"
+                    }
+                ],
+                "ConsumedLicenses": 0,
+                "Description": "kehzlckkshfiksfk",
+                "DisassociateWhenNotFound": true,
+                "LicenseConfigurationArn": "ybgeuawqrublkhiq",
+                "LicenseConfigurationId": "vribekplxzfjszgi",
+                "LicenseCount": 0,
+                "LicenseCountHardLimit": true,
+                "LicenseCountingType": "tlgqewcvsrukkkpr",
+                "LicenseRules": [
+                    "gxylewpkpdmhfzyy"
+                ],
+                "ManagedResourceSummaryList": [
+                    {
+                        "AssociationCount": 0,
+                        "ResourceType": "jfafqempqhhnhqjz"
+                    }
+                ],
+                "Name": "vtmkcrqwkpjbwzzl",
+                "OwnerAccountId": "zoyvthemzbcidstx",
+                "ProductInformationList": [
+                    {
+                        "ProductInformationFilterList": [
+                            {
+                                "ProductInformationFilterComparator": "hiablhjgbpswrgzo",
+                                "ProductInformationFilterName": "igmhqxatoecjwhbh",
+                                "ProductInformationFilterValue": [
+                                    "gxldttmddsorpeqz"
+                                ]
+                            }
+                        ],
+                        "ResourceType": "qkkwimnzcffwkbss"
+                    }
+                ],
+                "Status": "kydtfaklhqgvhjux"
+            },
+            {
+                "AutomatedDiscoveryInformation": {
+                    "LastRunTime": "rtmnuiyoczxucsro"
+                },
+                "ConsumedLicenseSummaryList": [
+                    {
+                        "ConsumedLicenses": 0,
+                        "ResourceType": "dbpmgmvmdfehrsfm"
+                    }
+                ],
+                "ConsumedLicenses": 0,
+                "Description": "yjtqwfppuvcjlrjp",
+                "DisassociateWhenNotFound": true,
+                "LicenseConfigurationArn": "ohsgnxcxuwbaniku",
+                "LicenseConfigurationId": "afdtmxyyfwnojwit",
+                "LicenseCount": 0,
+                "LicenseCountHardLimit": true,
+                "LicenseCountingType": "afyzpqvbpaecmpcy",
+                "LicenseRules": [
+                    "etnowcqvggehxswj"
+                ],
+                "ManagedResourceSummaryList": [
+                    {
+                        "AssociationCount": 0,
+                        "ResourceType": "jodhwojknsphpbro"
+                    }
+                ],
+                "Name": "hurbhesbrxlaqyrs",
+                "OwnerAccountId": "rjsqhvliqzmszbgt",
+                "ProductInformationList": [
+                    {
+                        "ProductInformationFilterList": [
+                            {
+                                "ProductInformationFilterComparator": "gctkypyimxkrjgzh",
+                                "ProductInformationFilterName": "rztbinsgzynfpcyn",
+                                "ProductInformationFilterValue": [
+                                    "rglgjdtzujftaoqh"
+                                ]
+                            }
+                        ],
+                        "ResourceType": "ivvcjuguhtonatat"
+                    }
+                ],
+                "Status": "uwzkjylhkcwnamhd"
+            },
+            {
+                "AutomatedDiscoveryInformation": {
+                    "LastRunTime": "hvxuboacmtfmaghi"
+                },
+                "ConsumedLicenseSummaryList": [
+                    {
+                        "ConsumedLicenses": 0,
+                        "ResourceType": "aujeyzsosfoseuwx"
+                    }
+                ],
+                "ConsumedLicenses": 0,
+                "Description": "exbevgshhvphwztx",
+                "DisassociateWhenNotFound": true,
+                "LicenseConfigurationArn": "voihdolkonkkjkyx",
+                "LicenseConfigurationId": "ebwrzlerphfyaaec",
+                "LicenseCount": 0,
+                "LicenseCountHardLimit": true,
+                "LicenseCountingType": "inzetszbmpeifvdx",
+                "LicenseRules": [
+                    "eczxdiiwwesvwggg"
+                ],
+                "ManagedResourceSummaryList": [
+                    {
+                        "AssociationCount": 0,
+                        "ResourceType": "zbcfnmwettxcgswx"
+                    }
+                ],
+                "Name": "jsidopiugiarmgyq",
+                "OwnerAccountId": "urcaunyfmzbecwvn",
+                "ProductInformationList": [
+                    {
+                        "ProductInformationFilterList": [
+                            {
+                                "ProductInformationFilterComparator": "utgehiovhmzzpnjy",
+                                "ProductInformationFilterName": "ojliznlrpnmrjvpl",
+                                "ProductInformationFilterValue": [
+                                    "hlivmnltgyxuxxrr"
+                                ]
+                            }
+                        ],
+                        "ResourceType": "oswaejmkqwrvvadg"
+                    }
+                ],
+                "Status": "cmjugqjmbfhmxxwk"
+            },
+            {
+                "AutomatedDiscoveryInformation": {
+                    "LastRunTime": "mowtzfwfpxxczvli"
+                },
+                "ConsumedLicenseSummaryList": [
+                    {
+                        "ConsumedLicenses": 0,
+                        "ResourceType": "gafzohneyptzvelf"
+                    }
+                ],
+                "ConsumedLicenses": 0,
+                "Description": "ehkuktblulgdfebu",
+                "DisassociateWhenNotFound": true,
+                "LicenseConfigurationArn": "wfkidpywnikqbvrn",
+                "LicenseConfigurationId": "jadmcjqegrjnufnx",
+                "LicenseCount": 0,
+                "LicenseCountHardLimit": true,
+                "LicenseCountingType": "xrlqzxqhjgygdmqj",
+                "LicenseRules": [
+                    "feikzaxcdlonzing"
+                ],
+                "ManagedResourceSummaryList": [
+                    {
+                        "AssociationCount": 0,
+                        "ResourceType": "trllrcxeqsaiijnd"
+                    }
+                ],
+                "Name": "jwgfsnjraiowoeyp",
+                "OwnerAccountId": "gritfhescxzoyzif",
+                "ProductInformationList": [
+                    {
+                        "ProductInformationFilterList": [
+                            {
+                                "ProductInformationFilterComparator": "fvvckbnbgiigjtrt",
+                                "ProductInformationFilterName": "azywjflemzdnpgjb",
+                                "ProductInformationFilterValue": [
+                                    "urfyxpozjxhtqwuv"
+                                ]
+                            }
+                        ],
+                        "ResourceType": "kmaxhtirbkijhpsh"
+                    }
+                ],
+                "Status": "vepqgjxpjogkrlzl"
+            },
+            {
+                "AutomatedDiscoveryInformation": {
+                    "LastRunTime": "ezscjkcopuxrshum"
+                },
+                "ConsumedLicenseSummaryList": [
+                    {
+                        "ConsumedLicenses": 0,
+                        "ResourceType": "ffkpmvglcvniyosx"
+                    }
+                ],
+                "ConsumedLicenses": 0,
+                "Description": "qffwclgoagptvwer",
+                "DisassociateWhenNotFound": true,
+                "LicenseConfigurationArn": "cqxmkgsykswmmiyx",
+                "LicenseConfigurationId": "tpoqznxrhdkoxgrw",
+                "LicenseCount": 0,
+                "LicenseCountHardLimit": true,
+                "LicenseCountingType": "qaaeleqbnbhnxlzs",
+                "LicenseRules": [
+                    "zlubwzjzpngatpct"
+                ],
+                "ManagedResourceSummaryList": [
+                    {
+                        "AssociationCount": 0,
+                        "ResourceType": "ajyvfmwzorpkdcmf"
+                    }
+                ],
+                "Name": "dwouufrxglblcsuc",
+                "OwnerAccountId": "bijsmrkkdsgxhzbc",
+                "ProductInformationList": [
+                    {
+                        "ProductInformationFilterList": [
+                            {
+                                "ProductInformationFilterComparator": "brmzhneokpkxjoih",
+                                "ProductInformationFilterName": "uhfoqbzywgvcexrl",
+                                "ProductInformationFilterValue": [
+                                    "vvqsddgzljysflfd"
+                                ]
+                            }
+                        ],
+                        "ResourceType": "trykkxtzwykedfav"
+                    }
+                ],
+                "Status": "mcffoqrpjnyhzjvj"
+            },
+            {
+                "AutomatedDiscoveryInformation": {
+                    "LastRunTime": "plggswaofrmcfoku"
+                },
+                "ConsumedLicenseSummaryList": [
+                    {
+                        "ConsumedLicenses": 0,
+                        "ResourceType": "jkuxwqjvttvfzosa"
+                    }
+                ],
+                "ConsumedLicenses": 0,
+                "Description": "rawyhmotdxparfrf",
+                "DisassociateWhenNotFound": true,
+                "LicenseConfigurationArn": "wbxfaoqwrxwfqzui",
+                "LicenseConfigurationId": "svwslgoqprxfwbdp",
+                "LicenseCount": 0,
+                "LicenseCountHardLimit": true,
+                "LicenseCountingType": "ebplorxuovzkhlqk",
+                "LicenseRules": [
+                    "qdjqvtaafcomeuej"
+                ],
+                "ManagedResourceSummaryList": [
+                    {
+                        "AssociationCount": 0,
+                        "ResourceType": "bgjmeepuuygkzfzz"
+                    }
+                ],
+                "Name": "wxhtzdeshmjozgpb",
+                "OwnerAccountId": "giumkvbrmtaqskys",
+                "ProductInformationList": [
+                    {
+                        "ProductInformationFilterList": [
+                            {
+                                "ProductInformationFilterComparator": "tuuynzyyinqleuoe",
+                                "ProductInformationFilterName": "esebqfrldwifltci",
+                                "ProductInformationFilterValue": [
+                                    "abxatewxhvcebesh"
+                                ]
+                            }
+                        ],
+                        "ResourceType": "xmwyqdgnpldizkzs"
+                    }
+                ],
+                "Status": "uissarvhiqdyhoba"
+            },
+            {
+                "AutomatedDiscoveryInformation": {
+                    "LastRunTime": "hqgspufzzhhqavim"
+                },
+                "ConsumedLicenseSummaryList": [
+                    {
+                        "ConsumedLicenses": 0,
+                        "ResourceType": "khckjuwsyhytigcw"
+                    }
+                ],
+                "ConsumedLicenses": 0,
+                "Description": "hsgzqbptcelocows",
+                "DisassociateWhenNotFound": true,
+                "LicenseConfigurationArn": "gfmijyfrytxrwbcy",
+                "LicenseConfigurationId": "dvhzhjsxbpsuklrt",
+                "LicenseCount": 0,
+                "LicenseCountHardLimit": true,
+                "LicenseCountingType": "mvxvamlykujocsks",
+                "LicenseRules": [
+                    "sftgiqgllemhavwf"
+                ],
+                "ManagedResourceSummaryList": [
+                    {
+                        "AssociationCount": 0,
+                        "ResourceType": "uqksyfcixbtzampn"
+                    }
+                ],
+                "Name": "weiekindjomdnlng",
+                "OwnerAccountId": "ukudkqigekltipxb",
+                "ProductInformationList": [
+                    {
+                        "ProductInformationFilterList": [
+                            {
+                                "ProductInformationFilterComparator": "fpwhrhkgbivlhygx",
+                                "ProductInformationFilterName": "xtlkgxhypwduneux",
+                                "ProductInformationFilterValue": [
+                                    "gpniekceayjgrvtq"
+                                ]
+                            }
+                        ],
+                        "ResourceType": "pfuqivuzhfbbgdqz"
+                    }
+                ],
+                "Status": "uqqdochjhkvtfkbt"
+            }
+        ],
+        "result_key": "LicenseConfigurations"
+    },
+    "meta": {
+        "start": 1711116085.580333,
+        "end": 1711116092.95565,
+        "duration": 7.375322103500366,
+        "service": "license-manager",
+        "type": "license_configurations"
+    }
+}

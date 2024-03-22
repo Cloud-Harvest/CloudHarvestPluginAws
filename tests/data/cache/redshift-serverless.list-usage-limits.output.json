@@ -1,0 +1,129 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "nextToken": "",
+            "resourceArn": "",
+            "usageType": "serverless-compute"
+        },
+        "required": [],
+        "md5": "6ee3e1b4f55d93b7a62ae6cda3ba76a6",
+        "boto_command": "list_usage_limits",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "amount": 0,
+                "breachAction": "breachAction",
+                "period": "period",
+                "resourceArn": "resourceArn",
+                "usageLimitArn": "usageLimitArn",
+                "usageLimitId": "usageLimitId",
+                "usageType": "usageType"
+            }
+        ],
+        "required": [],
+        "md5": "1052664dfb9691825305b47fdf67e162",
+        "randomized": [
+            {
+                "amount": 0,
+                "breachAction": "pojwdkhijtvkfnhu",
+                "period": "iqnznkmhnfxesarr",
+                "resourceArn": "ehxtndytioraowyf",
+                "usageLimitArn": "jablwrnriqmhmldr",
+                "usageLimitId": "ldmadumvbspzcdbx",
+                "usageType": "vxahctawaitbvdmu"
+            },
+            {
+                "amount": 0,
+                "breachAction": "hiiyhztetpjfnmlq",
+                "period": "cpaebhhpjzbydcjm",
+                "resourceArn": "abcqiqesvjbbirtk",
+                "usageLimitArn": "lmzuyjljvlxctlow",
+                "usageLimitId": "nxyybtipvtnelftz",
+                "usageType": "byzqalbpozaspqnb"
+            },
+            {
+                "amount": 0,
+                "breachAction": "eghbuxgiydywhhaw",
+                "period": "ydyuwcxznphdomip",
+                "resourceArn": "llvbvfkkwbjgscff",
+                "usageLimitArn": "cvnfxdzuyksniyid",
+                "usageLimitId": "eaktellmmwpqptkh",
+                "usageType": "qpymxwewooqizbxn"
+            },
+            {
+                "amount": 0,
+                "breachAction": "usqbdutrlpshegsj",
+                "period": "gnapwvhxsktgrbxp",
+                "resourceArn": "ffjalyibbepcjarq",
+                "usageLimitArn": "uxyiyrutlhislflx",
+                "usageLimitId": "hdlhdkqkadbpgedo",
+                "usageType": "xzxmjvsonryqncvs"
+            },
+            {
+                "amount": 0,
+                "breachAction": "mindesuyexpkhxmq",
+                "period": "tuhrfsnymvmzlbnv",
+                "resourceArn": "jaofntewqhhnajjw",
+                "usageLimitArn": "hxthonkjailpkxre",
+                "usageLimitId": "ftnchslxfrlmgcne",
+                "usageType": "crxechhkvmomgcbh"
+            },
+            {
+                "amount": 0,
+                "breachAction": "kclcldzavrwuktdw",
+                "period": "dlmoplkmbtwkruny",
+                "resourceArn": "ymakpvxeetnryvdc",
+                "usageLimitArn": "sejvqoruavtvjywf",
+                "usageLimitId": "benfijsbasyfaxtx",
+                "usageType": "rcdgnzcwllponaom"
+            },
+            {
+                "amount": 0,
+                "breachAction": "dfdttmxwqzqmlzps",
+                "period": "btbdpypsankfzhou",
+                "resourceArn": "ushywiwagjodtgdd",
+                "usageLimitArn": "xdfmdbeablsineye",
+                "usageLimitId": "rhcrgogdgeidjahy",
+                "usageType": "oxjguievodnhhpzx"
+            },
+            {
+                "amount": 0,
+                "breachAction": "qsetgklsbirwkcgf",
+                "period": "quignszxwqxaeayh",
+                "resourceArn": "ugrluinpuhqxcxar",
+                "usageLimitArn": "iornfmbnokswhisf",
+                "usageLimitId": "ttsyrwmtymfksaed",
+                "usageType": "dvaxndzrbgwwidnm"
+            },
+            {
+                "amount": 0,
+                "breachAction": "zlfkjqscmibnodof",
+                "period": "oksifrgfhvpxzdqu",
+                "resourceArn": "uofoqxdraztbffss",
+                "usageLimitArn": "rnraksioiqzdaofp",
+                "usageLimitId": "kwdwxrtzduocfips",
+                "usageType": "nguokyyyevbycunk"
+            },
+            {
+                "amount": 0,
+                "breachAction": "lrldizewftlukexz",
+                "period": "sfhjioyqsgzauowm",
+                "resourceArn": "kzpzexaniomljmmd",
+                "usageLimitArn": "srbceulfytkkcehr",
+                "usageLimitId": "hdbgnayvnfdduvfy",
+                "usageType": "wivoaedxaxyystav"
+            }
+        ],
+        "result_key": "usageLimits"
+    },
+    "meta": {
+        "start": 1711116441.163766,
+        "end": 1711116448.515277,
+        "duration": 7.351521015167236,
+        "service": "redshift-serverless",
+        "type": "usage_limits"
+    }
+}

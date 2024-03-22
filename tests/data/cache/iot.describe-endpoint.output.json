@@ -1,0 +1,36 @@
+{
+    "input": {
+        "template": {
+            "endpointType": ""
+        },
+        "required": [],
+        "md5": "0436bda2d36773c118dbaf40f8900ad4",
+        "boto_command": "describe_endpoint",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": "endpointAddress",
+        "required": [],
+        "md5": "ae1a4ed57c8234fc013195adda1f7788",
+        "randomized": [
+            "tzwnierribdnxrdd",
+            "kfvgmtdvilihdqtj",
+            "xojbbpakblqrzcxd",
+            "catlalohdayrefht",
+            "ulznjxtulweylckj",
+            "wslxosrqiequwhrv",
+            "rwowrrrttsugmkjw",
+            "tkoajhhfedpwoabi",
+            "hvdhmejsqvgrleds",
+            "aciophjthwjutkku"
+        ],
+        "result_key": "endpointAddress"
+    },
+    "meta": {
+        "start": 1711115924.303823,
+        "end": 1711115933.15485,
+        "duration": 8.851037979125977,
+        "service": "iot",
+        "type": "endpoint"
+    }
+}

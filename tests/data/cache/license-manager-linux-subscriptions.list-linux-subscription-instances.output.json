@@ -1,0 +1,191 @@
+{
+    "input": {
+        "template": {
+            "Filters": [
+                {
+                    "Name": "",
+                    "Operator": "Equal",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "a470dc9d8c49d4d4f57242d4fc9427cb",
+        "boto_command": "list_linux_subscription_instances",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "AccountID": "AccountID",
+                "AmiId": "AmiId",
+                "InstanceID": "InstanceID",
+                "InstanceType": "InstanceType",
+                "LastUpdatedTime": "LastUpdatedTime",
+                "ProductCode": [
+                    "String"
+                ],
+                "Region": "Region",
+                "Status": "Status",
+                "SubscriptionName": "SubscriptionName",
+                "UsageOperation": "UsageOperation"
+            }
+        ],
+        "required": [],
+        "md5": "27e979a916edd14b3f5d103548c626f0",
+        "randomized": [
+            {
+                "AccountID": "dkswhyzzczyxgmbx",
+                "AmiId": "himzvgyeoplpsokm",
+                "InstanceID": "sefeninyaoyqfhkj",
+                "InstanceType": "mpuvdwehhrlbjhar",
+                "LastUpdatedTime": "ncnqmguwistvpqgz",
+                "ProductCode": [
+                    "pdevmxtdvdxhmkmf"
+                ],
+                "Region": "fadvekiaihidbirw",
+                "Status": "istgqtoriqmyyeaz",
+                "SubscriptionName": "wdfmxizlhsfjosiy",
+                "UsageOperation": "pxqsewjfakiaftmz"
+            },
+            {
+                "AccountID": "liebqzqargbrkumj",
+                "AmiId": "ypoqanxzxlnnhfoz",
+                "InstanceID": "inlewinmmgwlklnq",
+                "InstanceType": "ieaitydsouaumawa",
+                "LastUpdatedTime": "opbdnwovuagiwgze",
+                "ProductCode": [
+                    "indznapkqnraoyti"
+                ],
+                "Region": "mqpnrxyxqqqzusxi",
+                "Status": "vptvqynqezmxkjdv",
+                "SubscriptionName": "lqanroawigfqplzg",
+                "UsageOperation": "tshrtdoqhqgbfftm"
+            },
+            {
+                "AccountID": "outvmsgujfgqywkp",
+                "AmiId": "uxgefkdiieecnvsw",
+                "InstanceID": "hqgmzfhahjdcjwor",
+                "InstanceType": "gbksttdlgeezzdwu",
+                "LastUpdatedTime": "lznyexsgwegiplic",
+                "ProductCode": [
+                    "kxsuilscqnbzqvvd"
+                ],
+                "Region": "kvsaqvzgjicygacs",
+                "Status": "ncipbhexmmourskg",
+                "SubscriptionName": "axtqivzybkbznohm",
+                "UsageOperation": "thvddrybgcdvmhpn"
+            },
+            {
+                "AccountID": "qlygvvqdlfuptckq",
+                "AmiId": "isxacazfcfvdfbcr",
+                "InstanceID": "rdzpmnitpsiocuel",
+                "InstanceType": "iasxtxuutqxxbanq",
+                "LastUpdatedTime": "ssndswzzataxhroi",
+                "ProductCode": [
+                    "yhujkvtlstfpeqwt"
+                ],
+                "Region": "eclhnhcttkxxyewm",
+                "Status": "hfbipidzfaywslom",
+                "SubscriptionName": "zfzdczbbuxsflabk",
+                "UsageOperation": "neronyvjdbejjkoz"
+            },
+            {
+                "AccountID": "yfpokrxjgmoghiwu",
+                "AmiId": "pszxsexqnkjyjyle",
+                "InstanceID": "hkdqwwbwhultlqsl",
+                "InstanceType": "qiluiqdqwiclgwjx",
+                "LastUpdatedTime": "lqagqhkydjafsspi",
+                "ProductCode": [
+                    "udsrmybytnytzzxw"
+                ],
+                "Region": "kibmoevqzjkjtqxs",
+                "Status": "vudtrvxipsthjlxp",
+                "SubscriptionName": "wzaqmszwwzqxutgt",
+                "UsageOperation": "yvjpyuplkbnkqkyf"
+            },
+            {
+                "AccountID": "hasuxgljstuxjknf",
+                "AmiId": "subxuzzlqfuarkky",
+                "InstanceID": "oahljbfrbygchlba",
+                "InstanceType": "momprkakgopfefgq",
+                "LastUpdatedTime": "tihoovkeepwapoyv",
+                "ProductCode": [
+                    "nzozikzheekpksho"
+                ],
+                "Region": "fynsgzrleddtcsgo",
+                "Status": "cupovqgbipwvxuqm",
+                "SubscriptionName": "vthosfjutlnwrqrb",
+                "UsageOperation": "ccpuqkacquebwgcs"
+            },
+            {
+                "AccountID": "kmdygygmkaygtlzw",
+                "AmiId": "mxpxqlzducrtcbad",
+                "InstanceID": "amrbxmklxmahmhlv",
+                "InstanceType": "azzgtqkddjacyxbc",
+                "LastUpdatedTime": "aqqmrqpkcduvsnzj",
+                "ProductCode": [
+                    "iqixcutcuxwbqzgk"
+                ],
+                "Region": "sywnlcacbhfvxkqm",
+                "Status": "vmseubepyzjpdgay",
+                "SubscriptionName": "wfekjqkzjlyauyos",
+                "UsageOperation": "arbbeghjojndigfu"
+            },
+            {
+                "AccountID": "kpzlxbubaxkuiqdu",
+                "AmiId": "suurmexzqcbjabrw",
+                "InstanceID": "xfsgofjjpzcahpzb",
+                "InstanceType": "obhhzeeqevfwlgdd",
+                "LastUpdatedTime": "ptkdwjhnaloqpozb",
+                "ProductCode": [
+                    "uqinogkawxwkbqls"
+                ],
+                "Region": "bzjrnymcbltpswrf",
+                "Status": "nvcfeztaphllksla",
+                "SubscriptionName": "yueeymvfpgfnomax",
+                "UsageOperation": "nbdilvrrfdmrztkl"
+            },
+            {
+                "AccountID": "eyotirtothclcxki",
+                "AmiId": "vhejbsifzmrvzjww",
+                "InstanceID": "objrgakigvrujaln",
+                "InstanceType": "reenslcwavkczkfp",
+                "LastUpdatedTime": "ghsvvudbbwbelbnq",
+                "ProductCode": [
+                    "vmodchpetuvxcupv"
+                ],
+                "Region": "mceaukuuqnmsrvso",
+                "Status": "kyszixqggdvdmlob",
+                "SubscriptionName": "jcvgjrrpyfngyrdl",
+                "UsageOperation": "izmwlqgjxdhjvsts"
+            },
+            {
+                "AccountID": "qtslfdgynfrkaxvs",
+                "AmiId": "sipvjyqizymsmanu",
+                "InstanceID": "qnhadzfgzemtnbuj",
+                "InstanceType": "wjctkvvxtglbhxvd",
+                "LastUpdatedTime": "imifgruucouedpjd",
+                "ProductCode": [
+                    "uapgddevtmxbgofy"
+                ],
+                "Region": "wddktxaugduuqbdh",
+                "Status": "dmokjuaxlbbibjfp",
+                "SubscriptionName": "vnakvzyxoxslosuc",
+                "UsageOperation": "cstuwdwgzluwsdfc"
+            }
+        ],
+        "result_key": "Instances"
+    },
+    "meta": {
+        "start": 1711116090.661392,
+        "end": 1711116096.667579,
+        "duration": 6.006197929382324,
+        "service": "license-manager-linux-subscriptions",
+        "type": "linux_subscription_instances"
+    }
+}

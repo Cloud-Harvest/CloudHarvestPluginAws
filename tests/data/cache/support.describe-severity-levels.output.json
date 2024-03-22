@@ -1,0 +1,71 @@
+{
+    "input": {
+        "template": {
+            "language": ""
+        },
+        "required": [],
+        "md5": "fd345c2c50022335dda1088ff52d0fb6",
+        "boto_command": "describe_severity_levels",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "code": "code",
+                "name": "name"
+            }
+        ],
+        "required": [],
+        "md5": "44b0f92e0dfb936ecf4e9bcfa6e32779",
+        "randomized": [
+            {
+                "code": "ozhhfclsqmkgwlrb",
+                "name": "dkcjwgulisgezpoa"
+            },
+            {
+                "code": "xpxaxbodhpjswjgn",
+                "name": "iuqvbtomqflpnbkd"
+            },
+            {
+                "code": "yttdoangxcgcaotd",
+                "name": "jepiipzedftbrafs"
+            },
+            {
+                "code": "aeognuwscdowgqnd",
+                "name": "tlmnlkwgdbsvsjdx"
+            },
+            {
+                "code": "zdabfoqtvjwfotov",
+                "name": "jpsmxukdyjvrcuwg"
+            },
+            {
+                "code": "zgavzawexwtdpusf",
+                "name": "izxdvrlngttummoi"
+            },
+            {
+                "code": "wphnkovixpsaztik",
+                "name": "xwqwksclgrrpthjz"
+            },
+            {
+                "code": "axatekhkkqkkrogs",
+                "name": "mdxntlmgjnvepoeu"
+            },
+            {
+                "code": "nbmmtepaxceazglw",
+                "name": "dljozlfebqrkqxwj"
+            },
+            {
+                "code": "uevuzhuojbernidu",
+                "name": "ufigcrngzvunxcuh"
+            }
+        ],
+        "result_key": "severityLevels"
+    },
+    "meta": {
+        "start": 1711116709.421667,
+        "end": 1711116716.797584,
+        "duration": 7.375926971435547,
+        "service": "support",
+        "type": "severity_levels"
+    }
+}

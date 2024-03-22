@@ -1,0 +1,72 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "required": [],
+        "md5": "2620fedaf24e984a8f801d0beb17a6e7",
+        "boto_command": "list_organization_admin_accounts",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "accountId": "accountId",
+                "status": "status"
+            }
+        ],
+        "required": [],
+        "md5": "440b3c598948118591798d8ebe2e249a",
+        "randomized": [
+            {
+                "accountId": "vnblccfwsarcmiin",
+                "status": "mgudgfeamgzkyqvl"
+            },
+            {
+                "accountId": "qbrpnauxcsqgdpmp",
+                "status": "jtulljfwlbrfyvql"
+            },
+            {
+                "accountId": "zjtumefoplzfurfy",
+                "status": "mmobbawqwpytqxoz"
+            },
+            {
+                "accountId": "pjighdycgxpdgmzw",
+                "status": "ahshrnmvlctethas"
+            },
+            {
+                "accountId": "aksqdstubexoxwaj",
+                "status": "fsdycmrvyepxhsxn"
+            },
+            {
+                "accountId": "rqgngmbxzvukkhog",
+                "status": "caylgcmzdiitlujr"
+            },
+            {
+                "accountId": "tdvpkxhfwnkotqvu",
+                "status": "yltwjcfnhfbrjzvs"
+            },
+            {
+                "accountId": "zajwsmwrzkyewwhw",
+                "status": "kkbpesyphmxqmrlq"
+            },
+            {
+                "accountId": "gyglwaicvvrpvopv",
+                "status": "yipsifdeoppgqtyb"
+            },
+            {
+                "accountId": "lpxssolsppdkvfvj",
+                "status": "tiqbmmtgernkxofu"
+            }
+        ],
+        "result_key": "adminAccounts"
+    },
+    "meta": {
+        "start": 1711116155.14662,
+        "end": 1711116161.131824,
+        "duration": 5.985215902328491,
+        "service": "macie2",
+        "type": "organization_admin_accounts"
+    }
+}

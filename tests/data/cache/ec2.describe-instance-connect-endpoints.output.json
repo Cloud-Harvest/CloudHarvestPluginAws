@@ -1,0 +1,326 @@
+{
+    "input": {
+        "template": {
+            "DryRun": true,
+            "MaxResults": 0,
+            "NextToken": "",
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "InstanceConnectEndpointIds": [
+                ""
+            ]
+        },
+        "required": [],
+        "md5": "413c5209e1a46222fb1386b5edcfc2b7",
+        "boto_command": "describe_instance_connect_endpoints",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "OwnerId": "OwnerId",
+                "InstanceConnectEndpointId": "InstanceConnectEndpointId",
+                "InstanceConnectEndpointArn": "InstanceConnectEndpointArn",
+                "State": "State",
+                "StateMessage": "StateMessage",
+                "DnsName": "DnsName",
+                "FipsDnsName": "FipsDnsName",
+                "NetworkInterfaceIds": [
+                    "String"
+                ],
+                "VpcId": "VpcId",
+                "AvailabilityZone": "AvailabilityZone",
+                "CreatedAt": "1970-01-01T00:00:00",
+                "SubnetId": "SubnetId",
+                "PreserveClientIp": true,
+                "SecurityGroupIds": [
+                    "SecurityGroupId"
+                ],
+                "Tags": [
+                    {
+                        "Key": "Key",
+                        "Value": "Value"
+                    }
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "3d2ae74a14753c24cbe68311eb98e21a",
+        "randomized": [
+            {
+                "AvailabilityZone": "dsixgjviwwopyipk",
+                "CreatedAt": "dbuymxuivzpucsxk",
+                "DnsName": "iyfgjslwhdmqrhyj",
+                "FipsDnsName": "jtwtrbpywpepxuan",
+                "InstanceConnectEndpointArn": "siasvpjifehrwnya",
+                "InstanceConnectEndpointId": "wroidkcritdcgosl",
+                "NetworkInterfaceIds": [
+                    "tbargalpewjjppfe"
+                ],
+                "OwnerId": "ykxeriiqvwnfvsax",
+                "PreserveClientIp": true,
+                "SecurityGroupIds": [
+                    "cwxjtowfatltugym"
+                ],
+                "State": "ygskoyweasfzqzpf",
+                "StateMessage": "hbrmbkurcknawpgc",
+                "SubnetId": "xltdyslwybkmopqw",
+                "Tags": [
+                    {
+                        "Key": "spkpwkbrukmmiiqn",
+                        "Value": "wrcglmizomipyaff"
+                    }
+                ],
+                "VpcId": "amylvuxpwnxlvgrj"
+            },
+            {
+                "AvailabilityZone": "vysgjhnuayootytb",
+                "CreatedAt": "cbctqfgxxuzdxfct",
+                "DnsName": "hggbjepqrulwipbh",
+                "FipsDnsName": "eskjntixudyslrhc",
+                "InstanceConnectEndpointArn": "wyuufqzkvsjbznyi",
+                "InstanceConnectEndpointId": "hwrkytlpcqwdfdqy",
+                "NetworkInterfaceIds": [
+                    "ochlepubwteopvfe"
+                ],
+                "OwnerId": "zisuhpcfpfqzxgie",
+                "PreserveClientIp": true,
+                "SecurityGroupIds": [
+                    "octgbtcchiexnlhx"
+                ],
+                "State": "hukodriucoshmjry",
+                "StateMessage": "cmypmwszgymmlvwj",
+                "SubnetId": "hhzbbpqcmxvifubf",
+                "Tags": [
+                    {
+                        "Key": "egdduomuhhwcklkj",
+                        "Value": "abzwhczkursrrfbk"
+                    }
+                ],
+                "VpcId": "mbxmurmincnxgfex"
+            },
+            {
+                "AvailabilityZone": "awmqhqypyrwwzvxn",
+                "CreatedAt": "wdwmietyqdciyjwr",
+                "DnsName": "uaiiibpsxeublvdm",
+                "FipsDnsName": "athupejhlyopnlau",
+                "InstanceConnectEndpointArn": "udftkiqvirbfjjaf",
+                "InstanceConnectEndpointId": "biymdhvfdkncjvjd",
+                "NetworkInterfaceIds": [
+                    "onfwemdbkqssiwjs"
+                ],
+                "OwnerId": "wydiyutimxonuauf",
+                "PreserveClientIp": true,
+                "SecurityGroupIds": [
+                    "fbaymspdmaqypvqx"
+                ],
+                "State": "kpedjglwsnbwwooi",
+                "StateMessage": "rmfnmdovvgfqskyd",
+                "SubnetId": "zembdasylgmvrdwx",
+                "Tags": [
+                    {
+                        "Key": "vrmkcqksowhqmaut",
+                        "Value": "qemnovpujfcmkbey"
+                    }
+                ],
+                "VpcId": "ookxmctkrgnixwsa"
+            },
+            {
+                "AvailabilityZone": "vtzaglmljydfiuyp",
+                "CreatedAt": "brddrevbbhzrylet",
+                "DnsName": "wivutnpcvmhbiscg",
+                "FipsDnsName": "qqlexanaiavenbmb",
+                "InstanceConnectEndpointArn": "bixywhowljaoeuzj",
+                "InstanceConnectEndpointId": "cauyhtvikyiqkrhx",
+                "NetworkInterfaceIds": [
+                    "snpcehheatnuikea"
+                ],
+                "OwnerId": "ssnenwuucylftvco",
+                "PreserveClientIp": true,
+                "SecurityGroupIds": [
+                    "fdiulnfwniaiqduy"
+                ],
+                "State": "ivthuglirxfkxfcq",
+                "StateMessage": "jxzmquaailvdkvkh",
+                "SubnetId": "zzyxqdkzsviicwdt",
+                "Tags": [
+                    {
+                        "Key": "fitfgmzzctuhyjgn",
+                        "Value": "qyptgvgbxzipfodw"
+                    }
+                ],
+                "VpcId": "jzokxjdjodzhsbcf"
+            },
+            {
+                "AvailabilityZone": "ebzfmtvefdndwxhp",
+                "CreatedAt": "jnysovgxfjfzqypk",
+                "DnsName": "hzbvcyyrpqxqorzz",
+                "FipsDnsName": "xknbiwvxeevmytmn",
+                "InstanceConnectEndpointArn": "qzwfocooakameizk",
+                "InstanceConnectEndpointId": "uqdeduoaopotembn",
+                "NetworkInterfaceIds": [
+                    "dognmfgipgcjeuqy"
+                ],
+                "OwnerId": "gctpmrbdmodgmyed",
+                "PreserveClientIp": true,
+                "SecurityGroupIds": [
+                    "axmhkdafuaflnwix"
+                ],
+                "State": "mnnjhitmsbynximg",
+                "StateMessage": "gdeomehqayzamhkc",
+                "SubnetId": "swvuduyejokmpqzi",
+                "Tags": [
+                    {
+                        "Key": "unpvgkgbitgxbxvi",
+                        "Value": "gjhtxjpjwynboufs"
+                    }
+                ],
+                "VpcId": "sqtkvqkfhroqpwrd"
+            },
+            {
+                "AvailabilityZone": "jdazmsnwobkdagvf",
+                "CreatedAt": "ofzjitphsxaavtqz",
+                "DnsName": "qvfqflhhrzverhwo",
+                "FipsDnsName": "abzwmwdrsncmuerd",
+                "InstanceConnectEndpointArn": "cnlenmvckutsvlbc",
+                "InstanceConnectEndpointId": "xrjxlswcwmsndqax",
+                "NetworkInterfaceIds": [
+                    "lbiumbjpktadpswa"
+                ],
+                "OwnerId": "tgqoqmrymtdlbpif",
+                "PreserveClientIp": true,
+                "SecurityGroupIds": [
+                    "uinazsuopdmesdiq"
+                ],
+                "State": "cuhsbggtyipesdfl",
+                "StateMessage": "uezixkatkvohirtu",
+                "SubnetId": "kdpzzsbbitecgjco",
+                "Tags": [
+                    {
+                        "Key": "nnygafpmrbjgdifn",
+                        "Value": "zhfahdrrseztkvhu"
+                    }
+                ],
+                "VpcId": "uorcypzpyzlbzzza"
+            },
+            {
+                "AvailabilityZone": "jxoprcxtmxgghenh",
+                "CreatedAt": "irkrguwchifzomep",
+                "DnsName": "thwdauecnxbqjcvp",
+                "FipsDnsName": "crsyfkwlmhhqtole",
+                "InstanceConnectEndpointArn": "sazoduruymkzfzps",
+                "InstanceConnectEndpointId": "qakctjhsdjnhtdkc",
+                "NetworkInterfaceIds": [
+                    "oysgtkusbpfegkqx"
+                ],
+                "OwnerId": "jvqdniuchxtdhyyn",
+                "PreserveClientIp": true,
+                "SecurityGroupIds": [
+                    "otmpdrbluygtqucz"
+                ],
+                "State": "rnmtxjaonvlfpoyl",
+                "StateMessage": "cgtgukmnvwhvfxbd",
+                "SubnetId": "wzmmdfywxxibgdep",
+                "Tags": [
+                    {
+                        "Key": "ywgzkgzomxjwmqzb",
+                        "Value": "wddibjgpmebgqfnu"
+                    }
+                ],
+                "VpcId": "xgeammabgptvswlc"
+            },
+            {
+                "AvailabilityZone": "qlbohakoawfqpecc",
+                "CreatedAt": "gchuwvtqlojvqmzl",
+                "DnsName": "nqaayyzhjqevfxbq",
+                "FipsDnsName": "fromqduqdtotuvsy",
+                "InstanceConnectEndpointArn": "pxjnipzoliefebnv",
+                "InstanceConnectEndpointId": "fbbtkmyezuuqxhwr",
+                "NetworkInterfaceIds": [
+                    "mwwltoktpieczywr"
+                ],
+                "OwnerId": "qnmzbthbjvuwslut",
+                "PreserveClientIp": true,
+                "SecurityGroupIds": [
+                    "xdpwtvuwqfwsrenc"
+                ],
+                "State": "jtsqoiweraehbssn",
+                "StateMessage": "sqvzlhcdxkiwasbv",
+                "SubnetId": "wdjhwqijrcqdlfst",
+                "Tags": [
+                    {
+                        "Key": "zbobjmdotfmtverm",
+                        "Value": "attahplwzyvxrmnp"
+                    }
+                ],
+                "VpcId": "xuspfduwqqcvbmof"
+            },
+            {
+                "AvailabilityZone": "reuxktkeeozkaqxu",
+                "CreatedAt": "rmmsivjoqhmnideu",
+                "DnsName": "dvhiszyhoxnuqqlr",
+                "FipsDnsName": "nsgzwplikohnanxq",
+                "InstanceConnectEndpointArn": "yeuajhyvfuluyjha",
+                "InstanceConnectEndpointId": "vsqcyvexdjtdjida",
+                "NetworkInterfaceIds": [
+                    "macnxceikjsicujv"
+                ],
+                "OwnerId": "pioctgfrbbgibwsj",
+                "PreserveClientIp": true,
+                "SecurityGroupIds": [
+                    "fxzlfsbjdhcjurgt"
+                ],
+                "State": "guvaggosyfjailgk",
+                "StateMessage": "kmhjtbrjknyksbpf",
+                "SubnetId": "lzslgtgdyaiqohnx",
+                "Tags": [
+                    {
+                        "Key": "ngtmmivkqqfmonzp",
+                        "Value": "mlfgokdilrwlfluy"
+                    }
+                ],
+                "VpcId": "gzvxgdtdcvtbpwah"
+            },
+            {
+                "AvailabilityZone": "deakzowjkczniaaa",
+                "CreatedAt": "wirwwnuoxxpjlhcf",
+                "DnsName": "ljbbfxxdamngnjlj",
+                "FipsDnsName": "sqpzuwpwwfhhhjyv",
+                "InstanceConnectEndpointArn": "xvxecovarjyizhpv",
+                "InstanceConnectEndpointId": "asjwjqhjvnqvlyrr",
+                "NetworkInterfaceIds": [
+                    "krfmxpowuyniwomr"
+                ],
+                "OwnerId": "yjpbiohyhfxisfzm",
+                "PreserveClientIp": true,
+                "SecurityGroupIds": [
+                    "fsnsicsecfzcqpdm"
+                ],
+                "State": "elwwthskjtwsapau",
+                "StateMessage": "jmtkaijrvtqjmgsm",
+                "SubnetId": "cnwyfbkfyhwsmyif",
+                "Tags": [
+                    {
+                        "Key": "mtspypmseunrodoh",
+                        "Value": "ezondmahafajtiyg"
+                    }
+                ],
+                "VpcId": "izlgqseapellopiz"
+            }
+        ],
+        "result_key": "InstanceConnectEndpoints"
+    },
+    "meta": {
+        "start": 1711115626.063711,
+        "end": 1711115633.255119,
+        "duration": 7.191420078277588,
+        "service": "ec2",
+        "type": "instance_connect_endpoints"
+    }
+}

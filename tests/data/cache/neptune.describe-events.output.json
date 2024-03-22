@@ -1,0 +1,154 @@
+{
+    "input": {
+        "template": {
+            "SourceIdentifier": "",
+            "SourceType": "db-instance",
+            "StartTime": "1970-01-01T00:00:00",
+            "EndTime": "1970-01-01T00:00:00",
+            "Duration": 0,
+            "EventCategories": [
+                ""
+            ],
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxRecords": 0,
+            "Marker": ""
+        },
+        "required": [],
+        "md5": "b0c60f6ec61d71d274e5c80b79bff68b",
+        "boto_command": "describe_events",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "SourceIdentifier": "SourceIdentifier",
+                "SourceType": "SourceType",
+                "Message": "Message",
+                "EventCategories": [
+                    "String"
+                ],
+                "Date": "1970-01-01T00:00:00",
+                "SourceArn": "SourceArn"
+            }
+        ],
+        "required": [],
+        "md5": "770293925a7c44e38d2aade7bdfa4d10",
+        "randomized": [
+            {
+                "Date": "oslkfugzqorlzdjb",
+                "EventCategories": [
+                    "fpimzcjeyazqtjfj"
+                ],
+                "Message": "hzjafmjxuuwdhydk",
+                "SourceArn": "cjvsmeyxiludofez",
+                "SourceIdentifier": "gtwdzlyubhncxpnr",
+                "SourceType": "cnzpsmbuthawkbhx"
+            },
+            {
+                "Date": "bfuplubwpwwvdrar",
+                "EventCategories": [
+                    "zelcqrfbxhorwqiu"
+                ],
+                "Message": "zntiayogbsxnpefn",
+                "SourceArn": "gbfawjhrthsuttjq",
+                "SourceIdentifier": "xdhqxdarymzttqua",
+                "SourceType": "vphimmbsotycyqkd"
+            },
+            {
+                "Date": "kozicxpqlieeyvub",
+                "EventCategories": [
+                    "ssfkwfkzexigtqln"
+                ],
+                "Message": "jxsafwvoyfvtrqhw",
+                "SourceArn": "zyziwrmmaszqvniy",
+                "SourceIdentifier": "fdogumwdnofbbhgo",
+                "SourceType": "pojnhcbperofucel"
+            },
+            {
+                "Date": "euqfptxrwbdfkwrl",
+                "EventCategories": [
+                    "vnygflqqglzdaskk"
+                ],
+                "Message": "hujxwcsplekeuvlq",
+                "SourceArn": "gfltqmxtgekvpdwg",
+                "SourceIdentifier": "mawxizlrexkuvxkr",
+                "SourceType": "eocidcuzgzwebjmh"
+            },
+            {
+                "Date": "uhhzbkmrtkeuorwh",
+                "EventCategories": [
+                    "jzzuczwvjqqdmeix"
+                ],
+                "Message": "odjdidvudhtqmlpz",
+                "SourceArn": "fyetgbtvgfvucwsp",
+                "SourceIdentifier": "gxtjgtmdqdupuurm",
+                "SourceType": "pkftqnqstkpowsmg"
+            },
+            {
+                "Date": "koemptontchfxbck",
+                "EventCategories": [
+                    "pusufuebfxcoatfj"
+                ],
+                "Message": "bfxgofqeijbugvaa",
+                "SourceArn": "odeheabqfxlilwal",
+                "SourceIdentifier": "nfsyigsdsxlcmptl",
+                "SourceType": "qyscmsmotygrgppv"
+            },
+            {
+                "Date": "jctbsxfdpnrvxrpb",
+                "EventCategories": [
+                    "ppumkvefqggmgrat"
+                ],
+                "Message": "qvrgyrfxzyrgqhye",
+                "SourceArn": "makaoxmjdaflcjgp",
+                "SourceIdentifier": "prnptocifqpagevg",
+                "SourceType": "wmqwdibvgxkesute"
+            },
+            {
+                "Date": "vhamsvjyvtmtxawx",
+                "EventCategories": [
+                    "hejefrmxnobttpnc"
+                ],
+                "Message": "wqodswupxntdcvcf",
+                "SourceArn": "fzwmnvwlcbmbpirk",
+                "SourceIdentifier": "rueyqpiehzuzmcsr",
+                "SourceType": "qnwtyvysntnlqiva"
+            },
+            {
+                "Date": "hlokspsaxfhzaida",
+                "EventCategories": [
+                    "atgcenywmxtpazag"
+                ],
+                "Message": "lbrfjcuqvappayuk",
+                "SourceArn": "ozktqvlzsoqvaijj",
+                "SourceIdentifier": "hvebmymrnmurwngr",
+                "SourceType": "amgrbosygvbgsvnf"
+            },
+            {
+                "Date": "nqnrvsirzswxktoq",
+                "EventCategories": [
+                    "eanqnbktvrqprnzy"
+                ],
+                "Message": "vgvszckpmntyifwb",
+                "SourceArn": "xtuonezsrovfcdvb",
+                "SourceIdentifier": "yasblpdaitawuija",
+                "SourceType": "lfcmedzfqwnyuiwx"
+            }
+        ],
+        "result_key": "Events"
+    },
+    "meta": {
+        "start": 1711116229.051748,
+        "end": 1711116235.174997,
+        "duration": 6.1232590675354,
+        "service": "neptune",
+        "type": "events"
+    }
+}

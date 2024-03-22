@@ -1,0 +1,6 @@
+[
+    "sts.get-access-key-info",
+    "sts.get-caller-identity",
+    "sts.get-federation-token",
+    "sts.get-session-token"
+]

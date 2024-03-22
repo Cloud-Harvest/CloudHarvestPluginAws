@@ -1,0 +1,282 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": "",
+            "ReplicatorNameFilter": ""
+        },
+        "required": [],
+        "md5": "2e93f6e6697448dd2cb00650c25689f8",
+        "boto_command": "list_replicators",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "CreationTime": "1970-01-01T00:00:00",
+                "CurrentVersion": "CurrentVersion",
+                "IsReplicatorReference": true,
+                "KafkaClustersSummary": [
+                    {
+                        "AmazonMskCluster": {
+                            "MskClusterArn": "MskClusterArn"
+                        },
+                        "KafkaClusterAlias": "KafkaClusterAlias"
+                    }
+                ],
+                "ReplicationInfoSummaryList": [
+                    {
+                        "SourceKafkaClusterAlias": "SourceKafkaClusterAlias",
+                        "TargetKafkaClusterAlias": "TargetKafkaClusterAlias"
+                    }
+                ],
+                "ReplicatorArn": "ReplicatorArn",
+                "ReplicatorName": "ReplicatorName",
+                "ReplicatorResourceArn": "ReplicatorResourceArn",
+                "ReplicatorState": "ReplicatorState"
+            }
+        ],
+        "required": [],
+        "md5": "4dafef621d5af90ae6124cbfad5e6618",
+        "randomized": [
+            {
+                "CreationTime": "uegyhirdnbtdzvad",
+                "CurrentVersion": "tubqxjgvnblnnbel",
+                "IsReplicatorReference": true,
+                "KafkaClustersSummary": [
+                    {
+                        "AmazonMskCluster": {
+                            "MskClusterArn": "nhgobezjucuisckt"
+                        },
+                        "KafkaClusterAlias": "rxbzyuztgrpufwgy"
+                    }
+                ],
+                "ReplicationInfoSummaryList": [
+                    {
+                        "SourceKafkaClusterAlias": "wrydgcbwqjhabsww",
+                        "TargetKafkaClusterAlias": "rvypogqtyfwhixtn"
+                    }
+                ],
+                "ReplicatorArn": "jmpvaxyacnwefhrr",
+                "ReplicatorName": "zuptrpibjaxtijud",
+                "ReplicatorResourceArn": "zrvmwfskppayntjg",
+                "ReplicatorState": "dokwlpywodlakfrx"
+            },
+            {
+                "CreationTime": "qidourusiaahbenb",
+                "CurrentVersion": "vqdfehyqholjqcyl",
+                "IsReplicatorReference": true,
+                "KafkaClustersSummary": [
+                    {
+                        "AmazonMskCluster": {
+                            "MskClusterArn": "jzehewgqqwtgnfee"
+                        },
+                        "KafkaClusterAlias": "ladysomojdvjhibg"
+                    }
+                ],
+                "ReplicationInfoSummaryList": [
+                    {
+                        "SourceKafkaClusterAlias": "gdkxtligirwktuti",
+                        "TargetKafkaClusterAlias": "iejzhgixdrypzrqw"
+                    }
+                ],
+                "ReplicatorArn": "hldyvehffslvjviw",
+                "ReplicatorName": "tgqzijzqctifdlul",
+                "ReplicatorResourceArn": "vekbacllrjwuuzxx",
+                "ReplicatorState": "udpjexzlngcuehci"
+            },
+            {
+                "CreationTime": "vnojkyhykicdanha",
+                "CurrentVersion": "rmpufxqgecdpxfbl",
+                "IsReplicatorReference": true,
+                "KafkaClustersSummary": [
+                    {
+                        "AmazonMskCluster": {
+                            "MskClusterArn": "ginclsfyzqewepjj"
+                        },
+                        "KafkaClusterAlias": "ybayvsifcbsbtnte"
+                    }
+                ],
+                "ReplicationInfoSummaryList": [
+                    {
+                        "SourceKafkaClusterAlias": "rbzqqgawesnyuneb",
+                        "TargetKafkaClusterAlias": "esgrwoffpoawfjen"
+                    }
+                ],
+                "ReplicatorArn": "rgyjbhofguwmhrln",
+                "ReplicatorName": "avdbxpgrbnjopjhu",
+                "ReplicatorResourceArn": "rgwcxabzpyumdovd",
+                "ReplicatorState": "sxvtacxlygkmupig"
+            },
+            {
+                "CreationTime": "rrcaxjfrgtzbfpru",
+                "CurrentVersion": "dkvhjuxvbdixgnnj",
+                "IsReplicatorReference": true,
+                "KafkaClustersSummary": [
+                    {
+                        "AmazonMskCluster": {
+                            "MskClusterArn": "hzibpyoivzjvmxvo"
+                        },
+                        "KafkaClusterAlias": "awautxujnbwxwvwx"
+                    }
+                ],
+                "ReplicationInfoSummaryList": [
+                    {
+                        "SourceKafkaClusterAlias": "vobtfljdeazpkgtv",
+                        "TargetKafkaClusterAlias": "uhgdsxnpsjuazmyk"
+                    }
+                ],
+                "ReplicatorArn": "hvinrtlytwislkxv",
+                "ReplicatorName": "aamlroocwmgwsorx",
+                "ReplicatorResourceArn": "sgiedylqieuykrax",
+                "ReplicatorState": "ekfdlplgyhsbhbrt"
+            },
+            {
+                "CreationTime": "ezpnfzplgjxsqwfz",
+                "CurrentVersion": "vgcxphnqwbgocbqo",
+                "IsReplicatorReference": true,
+                "KafkaClustersSummary": [
+                    {
+                        "AmazonMskCluster": {
+                            "MskClusterArn": "tqumrzwhhhzqsucg"
+                        },
+                        "KafkaClusterAlias": "lbynvnhkicgftvfm"
+                    }
+                ],
+                "ReplicationInfoSummaryList": [
+                    {
+                        "SourceKafkaClusterAlias": "qqleldsampipbccz",
+                        "TargetKafkaClusterAlias": "ybdnaeymjbnggcfx"
+                    }
+                ],
+                "ReplicatorArn": "nnkmzztzkffhwklg",
+                "ReplicatorName": "jowqwlmcwcgkweqk",
+                "ReplicatorResourceArn": "jwpqsizyjytyykxw",
+                "ReplicatorState": "hlrxorxajzomelwh"
+            },
+            {
+                "CreationTime": "rfydiwbjuvjpqnmv",
+                "CurrentVersion": "eorhivrraqrmegsd",
+                "IsReplicatorReference": true,
+                "KafkaClustersSummary": [
+                    {
+                        "AmazonMskCluster": {
+                            "MskClusterArn": "xvviwygnwphkyyoh"
+                        },
+                        "KafkaClusterAlias": "nfmscxhibihvnwif"
+                    }
+                ],
+                "ReplicationInfoSummaryList": [
+                    {
+                        "SourceKafkaClusterAlias": "azmflfqrxmxgqcdd",
+                        "TargetKafkaClusterAlias": "gbupcvmmfeokkjtj"
+                    }
+                ],
+                "ReplicatorArn": "qwtrfyjattclgwwt",
+                "ReplicatorName": "ynewoxkudoxqrfvs",
+                "ReplicatorResourceArn": "bkhocbselfzpywfc",
+                "ReplicatorState": "wzrdqvndglroigcn"
+            },
+            {
+                "CreationTime": "mvbeidgnyruivwzc",
+                "CurrentVersion": "nbsmpyamhikdkxop",
+                "IsReplicatorReference": true,
+                "KafkaClustersSummary": [
+                    {
+                        "AmazonMskCluster": {
+                            "MskClusterArn": "gthuxrfubytysyei"
+                        },
+                        "KafkaClusterAlias": "fcdhwyltnjpulwim"
+                    }
+                ],
+                "ReplicationInfoSummaryList": [
+                    {
+                        "SourceKafkaClusterAlias": "rcjxnqdkwnqizeqe",
+                        "TargetKafkaClusterAlias": "quqyleyfszdeqovc"
+                    }
+                ],
+                "ReplicatorArn": "enfixrrktbjbsnif",
+                "ReplicatorName": "eqddceflrwkohdai",
+                "ReplicatorResourceArn": "yhbeugpsncgvdjsr",
+                "ReplicatorState": "izhnwcmwlpyfypar"
+            },
+            {
+                "CreationTime": "lolyoxehorkzxtjo",
+                "CurrentVersion": "einnvwiodnwntktv",
+                "IsReplicatorReference": true,
+                "KafkaClustersSummary": [
+                    {
+                        "AmazonMskCluster": {
+                            "MskClusterArn": "zwygmtcgqazeqdpz"
+                        },
+                        "KafkaClusterAlias": "dnaxhzfdlnguuxsz"
+                    }
+                ],
+                "ReplicationInfoSummaryList": [
+                    {
+                        "SourceKafkaClusterAlias": "hjlwmigtriqgurov",
+                        "TargetKafkaClusterAlias": "ucslpzhplpvnmmjz"
+                    }
+                ],
+                "ReplicatorArn": "yplykjisxceegtrt",
+                "ReplicatorName": "iheaocwcsdbdzusb",
+                "ReplicatorResourceArn": "cxqvamgcbzcscxmd",
+                "ReplicatorState": "yyeuwhbeuytnxvde"
+            },
+            {
+                "CreationTime": "kowzkeaavatxwjjh",
+                "CurrentVersion": "yrehuakmfxwlxlhn",
+                "IsReplicatorReference": true,
+                "KafkaClustersSummary": [
+                    {
+                        "AmazonMskCluster": {
+                            "MskClusterArn": "urbwltoglmhmmnum"
+                        },
+                        "KafkaClusterAlias": "xagolezhcstjjzrz"
+                    }
+                ],
+                "ReplicationInfoSummaryList": [
+                    {
+                        "SourceKafkaClusterAlias": "qvuwptsnkiayagnu",
+                        "TargetKafkaClusterAlias": "expdqutqewcqtbgz"
+                    }
+                ],
+                "ReplicatorArn": "eawdnfdiiikvereb",
+                "ReplicatorName": "deyctbgctboxuchc",
+                "ReplicatorResourceArn": "sjfhgpaacvvcilyi",
+                "ReplicatorState": "kzxeywcdftmwqesp"
+            },
+            {
+                "CreationTime": "xrscogfrdmllbzvf",
+                "CurrentVersion": "asnimdmccnqyjzim",
+                "IsReplicatorReference": true,
+                "KafkaClustersSummary": [
+                    {
+                        "AmazonMskCluster": {
+                            "MskClusterArn": "cejtslxgloecuado"
+                        },
+                        "KafkaClusterAlias": "sjyjnhalpmcuozfv"
+                    }
+                ],
+                "ReplicationInfoSummaryList": [
+                    {
+                        "SourceKafkaClusterAlias": "jbewqymixojwawuy",
+                        "TargetKafkaClusterAlias": "vgqhihgzjxrnsxqs"
+                    }
+                ],
+                "ReplicatorArn": "nxmyrorbclqhjnqd",
+                "ReplicatorName": "coisntarsyqqouwv",
+                "ReplicatorResourceArn": "zpzqkhyobjrkhily",
+                "ReplicatorState": "dshiqaftapfqkfgl"
+            }
+        ],
+        "result_key": "Replicators"
+    },
+    "meta": {
+        "start": 1711116018.335016,
+        "end": 1711116026.336901,
+        "duration": 8.001897096633911,
+        "service": "kafka",
+        "type": "replicators"
+    }
+}

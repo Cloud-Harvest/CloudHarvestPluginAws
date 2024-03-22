@@ -1,0 +1,18 @@
+[
+    "route53-recovery-readiness.get-architecture-recommendations",
+    "route53-recovery-readiness.get-cell",
+    "route53-recovery-readiness.get-cell-readiness-summary",
+    "route53-recovery-readiness.get-readiness-check",
+    "route53-recovery-readiness.get-readiness-check-resource-status",
+    "route53-recovery-readiness.get-readiness-check-status",
+    "route53-recovery-readiness.get-recovery-group",
+    "route53-recovery-readiness.get-recovery-group-readiness-summary",
+    "route53-recovery-readiness.get-resource-set",
+    "route53-recovery-readiness.list-cells",
+    "route53-recovery-readiness.list-cross-account-authorizations",
+    "route53-recovery-readiness.list-readiness-checks",
+    "route53-recovery-readiness.list-recovery-groups",
+    "route53-recovery-readiness.list-resource-sets",
+    "route53-recovery-readiness.list-rules",
+    "route53-recovery-readiness.list-tags-for-resources"
+]

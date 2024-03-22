@@ -1,0 +1,162 @@
+{
+    "input": {
+        "template": {
+            "ByVaultType": "BACKUP_VAULT",
+            "ByShared": true,
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "ddb8a65c2ad2ee7df2412e2ef2f335a8",
+        "boto_command": "list_backup_vaults",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "BackupVaultName": "BackupVaultName",
+                "BackupVaultArn": "BackupVaultArn",
+                "CreationDate": "1970-01-01T00:00:00",
+                "EncryptionKeyArn": "EncryptionKeyArn",
+                "CreatorRequestId": "CreatorRequestId",
+                "NumberOfRecoveryPoints": 0,
+                "Locked": true,
+                "MinRetentionDays": 0,
+                "MaxRetentionDays": 0,
+                "LockDate": "1970-01-01T00:00:00"
+            }
+        ],
+        "required": [],
+        "md5": "4a487a06759febe9454c57a5bfaa4e70",
+        "randomized": [
+            {
+                "BackupVaultArn": "wjztfkbaortlupmj",
+                "BackupVaultName": "ohepiemyxxwabmmd",
+                "CreationDate": "gwhrggsypdfokrvr",
+                "CreatorRequestId": "wkqglzqietqfrbex",
+                "EncryptionKeyArn": "rredddroqkoyczhn",
+                "LockDate": "deryicmrtzfitdtm",
+                "Locked": true,
+                "MaxRetentionDays": 0,
+                "MinRetentionDays": 0,
+                "NumberOfRecoveryPoints": 0
+            },
+            {
+                "BackupVaultArn": "aiwfjwvonsgqrysx",
+                "BackupVaultName": "jbcfeutrdnxjimdl",
+                "CreationDate": "vezxdlvvebonbxah",
+                "CreatorRequestId": "rthtykwrkabrlabu",
+                "EncryptionKeyArn": "zlljmnvjnzcgosce",
+                "LockDate": "uuhpfcjunbjztzhu",
+                "Locked": true,
+                "MaxRetentionDays": 0,
+                "MinRetentionDays": 0,
+                "NumberOfRecoveryPoints": 0
+            },
+            {
+                "BackupVaultArn": "tedydxybuqlgjvvn",
+                "BackupVaultName": "yidaltapcicajiwe",
+                "CreationDate": "vswdmkdmfdanywgo",
+                "CreatorRequestId": "rhitnxoyijofiymw",
+                "EncryptionKeyArn": "mddakcrgmklchqqu",
+                "LockDate": "forodnoqfuqkwbet",
+                "Locked": true,
+                "MaxRetentionDays": 0,
+                "MinRetentionDays": 0,
+                "NumberOfRecoveryPoints": 0
+            },
+            {
+                "BackupVaultArn": "smbrjeafpazahjpj",
+                "BackupVaultName": "migmtsoqckwwomnv",
+                "CreationDate": "bvtucawklzuwzqiz",
+                "CreatorRequestId": "nzlxxamrhivhpnvl",
+                "EncryptionKeyArn": "xhuaoopwfitunyil",
+                "LockDate": "nhlgttowmdlgojeb",
+                "Locked": true,
+                "MaxRetentionDays": 0,
+                "MinRetentionDays": 0,
+                "NumberOfRecoveryPoints": 0
+            },
+            {
+                "BackupVaultArn": "qfzffnpqgfctncyi",
+                "BackupVaultName": "yiaxhaotublkizwy",
+                "CreationDate": "ahsthozteiwutnpl",
+                "CreatorRequestId": "bouhfrwepdmabbmn",
+                "EncryptionKeyArn": "oflkfwyxsaziwxkc",
+                "LockDate": "mvwvkuwhlabennyo",
+                "Locked": true,
+                "MaxRetentionDays": 0,
+                "MinRetentionDays": 0,
+                "NumberOfRecoveryPoints": 0
+            },
+            {
+                "BackupVaultArn": "bdmhluglfjugpziz",
+                "BackupVaultName": "hbvgusguczsfulgd",
+                "CreationDate": "xgrxbnkxbbhecuod",
+                "CreatorRequestId": "kzvnccstsadkjfif",
+                "EncryptionKeyArn": "serochrjwibwlilt",
+                "LockDate": "lqsalsqrbkhmeatq",
+                "Locked": true,
+                "MaxRetentionDays": 0,
+                "MinRetentionDays": 0,
+                "NumberOfRecoveryPoints": 0
+            },
+            {
+                "BackupVaultArn": "gwgzwqyfiywkhzog",
+                "BackupVaultName": "dyeefgvrqkthnfgh",
+                "CreationDate": "gerwjhpzubqghsns",
+                "CreatorRequestId": "rfirmwzaooeunyyn",
+                "EncryptionKeyArn": "rvhivxxgimvxjlmj",
+                "LockDate": "ikmtdrguvwmojbff",
+                "Locked": true,
+                "MaxRetentionDays": 0,
+                "MinRetentionDays": 0,
+                "NumberOfRecoveryPoints": 0
+            },
+            {
+                "BackupVaultArn": "thvnmasefxchclbi",
+                "BackupVaultName": "ucrqtcnakfnuohqw",
+                "CreationDate": "mfxfdpftcwtcfssh",
+                "CreatorRequestId": "jcytwlvwpobejtgy",
+                "EncryptionKeyArn": "ieckxulmomhwryus",
+                "LockDate": "uxtpvjqcyxhlznkt",
+                "Locked": true,
+                "MaxRetentionDays": 0,
+                "MinRetentionDays": 0,
+                "NumberOfRecoveryPoints": 0
+            },
+            {
+                "BackupVaultArn": "rpwumsvwaknapwkd",
+                "BackupVaultName": "qylitsosgdtcyurs",
+                "CreationDate": "inldnuvlruzjhhvl",
+                "CreatorRequestId": "gcgvrtyemzijjnjz",
+                "EncryptionKeyArn": "lefmunsnwujwdvkj",
+                "LockDate": "mtokzclwlkugsmjk",
+                "Locked": true,
+                "MaxRetentionDays": 0,
+                "MinRetentionDays": 0,
+                "NumberOfRecoveryPoints": 0
+            },
+            {
+                "BackupVaultArn": "yubltxdcgimudspk",
+                "BackupVaultName": "wqflzkqastpzwjba",
+                "CreationDate": "rkzlztdpezjdneyx",
+                "CreatorRequestId": "fbvbiyinwpfgmkpq",
+                "EncryptionKeyArn": "ovbltnxjvjxzzxaf",
+                "LockDate": "sxxjehficqbmvmwk",
+                "Locked": true,
+                "MaxRetentionDays": 0,
+                "MinRetentionDays": 0,
+                "NumberOfRecoveryPoints": 0
+            }
+        ],
+        "result_key": "BackupVaultList"
+    },
+    "meta": {
+        "start": 1711115281.73496,
+        "end": 1711115288.611017,
+        "duration": 6.876068830490112,
+        "service": "backup",
+        "type": "backup_vaults"
+    }
+}

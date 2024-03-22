@@ -1,0 +1,578 @@
+{
+    "input": {
+        "template": {
+            "connectionId": "",
+            "virtualInterfaceId": ""
+        },
+        "required": [],
+        "md5": "4550150eab8cd3f7642dbb609f79daa4",
+        "boto_command": "describe_virtual_interfaces",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "ownerAccount": "ownerAccount",
+                "virtualInterfaceId": "virtualInterfaceId",
+                "location": "location",
+                "connectionId": "connectionId",
+                "virtualInterfaceType": "virtualInterfaceType",
+                "virtualInterfaceName": "virtualInterfaceName",
+                "vlan": 0,
+                "asn": 0,
+                "amazonSideAsn": 0,
+                "authKey": "authKey",
+                "amazonAddress": "amazonAddress",
+                "customerAddress": "customerAddress",
+                "addressFamily": "addressFamily",
+                "virtualInterfaceState": "virtualInterfaceState",
+                "customerRouterConfig": "customerRouterConfig",
+                "mtu": 0,
+                "jumboFrameCapable": true,
+                "virtualGatewayId": "virtualGatewayId",
+                "directConnectGatewayId": "directConnectGatewayId",
+                "routeFilterPrefixes": [
+                    {
+                        "cidr": "cidr"
+                    }
+                ],
+                "bgpPeers": [
+                    {
+                        "bgpPeerId": "bgpPeerId",
+                        "asn": 0,
+                        "authKey": "authKey",
+                        "addressFamily": "addressFamily",
+                        "amazonAddress": "amazonAddress",
+                        "customerAddress": "customerAddress",
+                        "bgpPeerState": "bgpPeerState",
+                        "bgpStatus": "bgpStatus",
+                        "awsDeviceV2": "awsDeviceV2",
+                        "awsLogicalDeviceId": "awsLogicalDeviceId"
+                    }
+                ],
+                "region": "region",
+                "awsDeviceV2": "awsDeviceV2",
+                "awsLogicalDeviceId": "awsLogicalDeviceId",
+                "tags": [
+                    {
+                        "key": "key",
+                        "value": "value"
+                    }
+                ],
+                "siteLinkEnabled": true
+            }
+        ],
+        "required": [],
+        "md5": "a2d2782a5f1c11497ffd1dfedddbe09a",
+        "randomized": [
+            {
+                "addressFamily": "jrcashoqarvoprpl",
+                "amazonAddress": "cicvwvwnkqbxpmpg",
+                "amazonSideAsn": 0,
+                "asn": 0,
+                "authKey": "infkifsjxhmrlbfk",
+                "awsDeviceV2": "ehbkkjoasrnktlcv",
+                "awsLogicalDeviceId": "icaqkpcvvqlbzvlg",
+                "bgpPeers": [
+                    {
+                        "addressFamily": "wbgthjnhpetmspae",
+                        "amazonAddress": "ezxonajvxcbwlpbx",
+                        "asn": 0,
+                        "authKey": "gnbwjcwlsjjyfasx",
+                        "awsDeviceV2": "khgmhgovygfixoyh",
+                        "awsLogicalDeviceId": "urwpxnehuczulzrd",
+                        "bgpPeerId": "uhvfpnosrvumrpuw",
+                        "bgpPeerState": "ppctzcjgicvyayvc",
+                        "bgpStatus": "auqsutdrdfppxkka",
+                        "customerAddress": "btkezpvazoxhtgtz"
+                    }
+                ],
+                "connectionId": "plgbpuruokmcqapv",
+                "customerAddress": "oxlmfsmqdhyrpnrw",
+                "customerRouterConfig": "odrqcvwdxmddkmwk",
+                "directConnectGatewayId": "xfontlqgeixslcgk",
+                "jumboFrameCapable": true,
+                "location": "cgbqdvsrhqzinafr",
+                "mtu": 0,
+                "ownerAccount": "iijgoxhvewnelosr",
+                "region": "rtpcbirhwgzqcgdq",
+                "routeFilterPrefixes": [
+                    {
+                        "cidr": "xcjbvnkxvmorzqnp"
+                    }
+                ],
+                "siteLinkEnabled": true,
+                "tags": [
+                    {
+                        "key": "ftbyzohgkkkghyac",
+                        "value": "huodnjvsevmpheox"
+                    }
+                ],
+                "virtualGatewayId": "lcivztfmfkjxcxlt",
+                "virtualInterfaceId": "txgcvrzryfqpndps",
+                "virtualInterfaceName": "ntgutpmuvzoepmpg",
+                "virtualInterfaceState": "gddogrrkeialmhva",
+                "virtualInterfaceType": "cqynzrxjfbxfupkp",
+                "vlan": 0
+            },
+            {
+                "addressFamily": "gqlhyjymrfxszwkz",
+                "amazonAddress": "tyfbtsnqwrteqbdi",
+                "amazonSideAsn": 0,
+                "asn": 0,
+                "authKey": "esdwucdslyswfvvo",
+                "awsDeviceV2": "flohoxgbyfplrdks",
+                "awsLogicalDeviceId": "xuvvmlqwiodndtoi",
+                "bgpPeers": [
+                    {
+                        "addressFamily": "vzykcraxzkpijggu",
+                        "amazonAddress": "jhtjyctrdgnkcyji",
+                        "asn": 0,
+                        "authKey": "nmibtfxmousgchzs",
+                        "awsDeviceV2": "likdaylqbmtoujni",
+                        "awsLogicalDeviceId": "cexjaqqmeihyueuv",
+                        "bgpPeerId": "ibxqxwxzuukirprb",
+                        "bgpPeerState": "gyngyqmeljjybpyg",
+                        "bgpStatus": "bbfekqzhuyenkdcv",
+                        "customerAddress": "ecruqtojjcsscheq"
+                    }
+                ],
+                "connectionId": "iubftattkpdiqobb",
+                "customerAddress": "fhvyoflhwvybuajr",
+                "customerRouterConfig": "bapkkyekqskoazkt",
+                "directConnectGatewayId": "veypztvuqvkvspjv",
+                "jumboFrameCapable": true,
+                "location": "vapqilqtqaqxtrdv",
+                "mtu": 0,
+                "ownerAccount": "tkgjqnstpisuzpqo",
+                "region": "tlpliuomsqodxjjx",
+                "routeFilterPrefixes": [
+                    {
+                        "cidr": "wmdrafdocqwmytlf"
+                    }
+                ],
+                "siteLinkEnabled": true,
+                "tags": [
+                    {
+                        "key": "rtgflilinuhqxrss",
+                        "value": "bpxivokwbigovdps"
+                    }
+                ],
+                "virtualGatewayId": "gejseiwwhdfqjbxq",
+                "virtualInterfaceId": "qkxqirsqwydblicb",
+                "virtualInterfaceName": "bpzctedyzmpyampv",
+                "virtualInterfaceState": "napeglpndstcxysh",
+                "virtualInterfaceType": "mqohesqzmmgecmhe",
+                "vlan": 0
+            },
+            {
+                "addressFamily": "cvyaobdkzhajoxvl",
+                "amazonAddress": "czdlmquoyvhnicaq",
+                "amazonSideAsn": 0,
+                "asn": 0,
+                "authKey": "aqusegccojwgajob",
+                "awsDeviceV2": "cjlwvyjddcnkdnnn",
+                "awsLogicalDeviceId": "ofrffncvyikfnarm",
+                "bgpPeers": [
+                    {
+                        "addressFamily": "yeuynnxpmfktkory",
+                        "amazonAddress": "ojqorjjdgghoqfpq",
+                        "asn": 0,
+                        "authKey": "zjgqlwgabwcnhadm",
+                        "awsDeviceV2": "zlneyyqxbuacqcmk",
+                        "awsLogicalDeviceId": "tpljpokhxwevzstu",
+                        "bgpPeerId": "cjtyxyrakqutqveu",
+                        "bgpPeerState": "tllzxdmppkbqepsd",
+                        "bgpStatus": "zzavzvciffqsnyab",
+                        "customerAddress": "uurxphcjhskcexlo"
+                    }
+                ],
+                "connectionId": "qlvopsbjchvhmslm",
+                "customerAddress": "jigvduakpowqebwt",
+                "customerRouterConfig": "wsxfbhvwladpbqcd",
+                "directConnectGatewayId": "khcqadvceomkvlio",
+                "jumboFrameCapable": true,
+                "location": "ncdzyvqlnjoolrfl",
+                "mtu": 0,
+                "ownerAccount": "edavzbmsxmhwfqjd",
+                "region": "tdrougxoxnaizttn",
+                "routeFilterPrefixes": [
+                    {
+                        "cidr": "awifdpbizcwxtkjt"
+                    }
+                ],
+                "siteLinkEnabled": true,
+                "tags": [
+                    {
+                        "key": "eknbwzjjibqnaoxd",
+                        "value": "nxjxfqbouwlpsjqw"
+                    }
+                ],
+                "virtualGatewayId": "astajktdkafnrjgg",
+                "virtualInterfaceId": "bdorxaydgfybtpoh",
+                "virtualInterfaceName": "rhjoozuxfczhxafn",
+                "virtualInterfaceState": "xddmktqgnkfpyccx",
+                "virtualInterfaceType": "wrunwwghbudarwfz",
+                "vlan": 0
+            },
+            {
+                "addressFamily": "nauhgsltmladsohu",
+                "amazonAddress": "uxbizzfcwwoosjxg",
+                "amazonSideAsn": 0,
+                "asn": 0,
+                "authKey": "hqgazjhrzdjqbilm",
+                "awsDeviceV2": "ejwkcilysfkslpzb",
+                "awsLogicalDeviceId": "dpdfjxweyrbnrzwr",
+                "bgpPeers": [
+                    {
+                        "addressFamily": "forumsdedstizsis",
+                        "amazonAddress": "pynwbcalcelcyacy",
+                        "asn": 0,
+                        "authKey": "dsoikqctcnetbrho",
+                        "awsDeviceV2": "cujhiersgulqdkmx",
+                        "awsLogicalDeviceId": "dwvynnrtklbahctq",
+                        "bgpPeerId": "csdznvnpitzyyurd",
+                        "bgpPeerState": "ptmogxuoltavnqgo",
+                        "bgpStatus": "ttahlfeafpxkvvmw",
+                        "customerAddress": "qpylmrhcsyvdoocz"
+                    }
+                ],
+                "connectionId": "wxloulrnopevpdnr",
+                "customerAddress": "bmpkkcjniyhmfxri",
+                "customerRouterConfig": "jkstpfhedednylrp",
+                "directConnectGatewayId": "beaumkqbgxtsjaiz",
+                "jumboFrameCapable": true,
+                "location": "xgfxvyplubfvgwes",
+                "mtu": 0,
+                "ownerAccount": "abojwkmnpizbkrmt",
+                "region": "caigbjfqvkouqlsx",
+                "routeFilterPrefixes": [
+                    {
+                        "cidr": "vwjjakooehpneurn"
+                    }
+                ],
+                "siteLinkEnabled": true,
+                "tags": [
+                    {
+                        "key": "gobumlhjqerakjpw",
+                        "value": "umazofcpatsfvqxn"
+                    }
+                ],
+                "virtualGatewayId": "lklxclzydzpemtls",
+                "virtualInterfaceId": "cngfjuctoqknpvrq",
+                "virtualInterfaceName": "kqqqmhojqotsnawo",
+                "virtualInterfaceState": "iqeqfcaokhvwyiav",
+                "virtualInterfaceType": "jxsylahibvayqmhf",
+                "vlan": 0
+            },
+            {
+                "addressFamily": "kxgyekasncgqvjyl",
+                "amazonAddress": "pyhkdjxlxfflpzpv",
+                "amazonSideAsn": 0,
+                "asn": 0,
+                "authKey": "cfbohkulemrbgpao",
+                "awsDeviceV2": "osyouoospcwltous",
+                "awsLogicalDeviceId": "phrppjzbguagihqs",
+                "bgpPeers": [
+                    {
+                        "addressFamily": "ncrpntizvzfmngqg",
+                        "amazonAddress": "xtdphzaqnchkesar",
+                        "asn": 0,
+                        "authKey": "plkzkynqwvclxkdd",
+                        "awsDeviceV2": "gegrgsuwbzucgual",
+                        "awsLogicalDeviceId": "umkfvnztwwadtruy",
+                        "bgpPeerId": "tgthuxyjigpyvpqu",
+                        "bgpPeerState": "ptrztwyzzedbiske",
+                        "bgpStatus": "pemtbehucegqtakw",
+                        "customerAddress": "zskgkuiuefeevwta"
+                    }
+                ],
+                "connectionId": "eppbjjpsficxwheb",
+                "customerAddress": "utammheaijxkucho",
+                "customerRouterConfig": "oyrlnojwdqlkfhsc",
+                "directConnectGatewayId": "vdelvwxnjewfhwnc",
+                "jumboFrameCapable": true,
+                "location": "gkjpovzzimkrovtw",
+                "mtu": 0,
+                "ownerAccount": "wrypejesmoyvreeg",
+                "region": "imavmqtchbjoplvj",
+                "routeFilterPrefixes": [
+                    {
+                        "cidr": "uozgtsxjphhabmdi"
+                    }
+                ],
+                "siteLinkEnabled": true,
+                "tags": [
+                    {
+                        "key": "gjvssotrrqcvhdzc",
+                        "value": "mkowprtnsonbehrm"
+                    }
+                ],
+                "virtualGatewayId": "kvtwbkzvahbourgj",
+                "virtualInterfaceId": "rxzbotbpzgswfbii",
+                "virtualInterfaceName": "kqquqqmuyxodrmaz",
+                "virtualInterfaceState": "oacwxkzpbplwnjpa",
+                "virtualInterfaceType": "tljcsogtadnxwvgi",
+                "vlan": 0
+            },
+            {
+                "addressFamily": "vongenxlancpqpgx",
+                "amazonAddress": "sfkvkqzhauaqoaag",
+                "amazonSideAsn": 0,
+                "asn": 0,
+                "authKey": "takiexapmfincdss",
+                "awsDeviceV2": "bjbkczsruuhafyav",
+                "awsLogicalDeviceId": "erliadgpkfivecgm",
+                "bgpPeers": [
+                    {
+                        "addressFamily": "nobimjbgtjyvtwze",
+                        "amazonAddress": "vxllewlrvicyhngu",
+                        "asn": 0,
+                        "authKey": "jyzlvyywzqakspxt",
+                        "awsDeviceV2": "mbqzxiggoemlveup",
+                        "awsLogicalDeviceId": "zydfghlcrmszwvgz",
+                        "bgpPeerId": "dkkyooqghkbzdtbf",
+                        "bgpPeerState": "zqartltgfaacoywi",
+                        "bgpStatus": "wveklizhnlpytnzw",
+                        "customerAddress": "qvlcaquonsdelgok"
+                    }
+                ],
+                "connectionId": "vjlfngoztpoqxppd",
+                "customerAddress": "kdfpjgbysmfvihnh",
+                "customerRouterConfig": "lvoeqwibuoynppdr",
+                "directConnectGatewayId": "gmecofkeblgiqrin",
+                "jumboFrameCapable": true,
+                "location": "jrmogtkkaapububz",
+                "mtu": 0,
+                "ownerAccount": "exrfnkrzkftxxvii",
+                "region": "zzhetadxwhnuguol",
+                "routeFilterPrefixes": [
+                    {
+                        "cidr": "znwndglzvfjpqdiy"
+                    }
+                ],
+                "siteLinkEnabled": true,
+                "tags": [
+                    {
+                        "key": "ksgappchpicpeovl",
+                        "value": "slfvnyhoddrtjszz"
+                    }
+                ],
+                "virtualGatewayId": "rojixesvzoittlgi",
+                "virtualInterfaceId": "lenkdqftrqusebfn",
+                "virtualInterfaceName": "qnjfhiklirgjajfh",
+                "virtualInterfaceState": "kahssxvbxkmyoloy",
+                "virtualInterfaceType": "xtppvrnxhqkpcyhg",
+                "vlan": 0
+            },
+            {
+                "addressFamily": "ibccogtrswibfltt",
+                "amazonAddress": "bgxtsefcqdtqcbie",
+                "amazonSideAsn": 0,
+                "asn": 0,
+                "authKey": "ksbhogwtnrhxjqvb",
+                "awsDeviceV2": "tjlzgvdrrwdcxzex",
+                "awsLogicalDeviceId": "awftrwvndfdhlxbd",
+                "bgpPeers": [
+                    {
+                        "addressFamily": "txuedxowhpnacuhl",
+                        "amazonAddress": "jijebhomknmpjwwe",
+                        "asn": 0,
+                        "authKey": "ksgaywhakytvuktg",
+                        "awsDeviceV2": "jtshxgonbrrnanqr",
+                        "awsLogicalDeviceId": "vycokmlslbbzvdfm",
+                        "bgpPeerId": "jhyqwxtfulhnjanl",
+                        "bgpPeerState": "gvngtwxngtqrcjnb",
+                        "bgpStatus": "hapmchyeledfwild",
+                        "customerAddress": "rdnebaohidjsaevy"
+                    }
+                ],
+                "connectionId": "mxctjttqtathqxke",
+                "customerAddress": "domrvljxdpebktkz",
+                "customerRouterConfig": "dfmdndztkjpaydtx",
+                "directConnectGatewayId": "qhqxcojbvavjjqjs",
+                "jumboFrameCapable": true,
+                "location": "zqzaplmgwgliryht",
+                "mtu": 0,
+                "ownerAccount": "edtxoalajdjrdqya",
+                "region": "ezgtcwnogblpxqru",
+                "routeFilterPrefixes": [
+                    {
+                        "cidr": "mfdwcvnzrltgytvv"
+                    }
+                ],
+                "siteLinkEnabled": true,
+                "tags": [
+                    {
+                        "key": "ftbjaqwuouupmrql",
+                        "value": "gdcpqutrnhfnsysz"
+                    }
+                ],
+                "virtualGatewayId": "aqowzradodscqdtg",
+                "virtualInterfaceId": "etumaqsxospwpafn",
+                "virtualInterfaceName": "zolkrdodkjnnmeng",
+                "virtualInterfaceState": "tegbcnbjqaiebfdu",
+                "virtualInterfaceType": "mlktfopzqqxonmue",
+                "vlan": 0
+            },
+            {
+                "addressFamily": "loplesxwotmvytbw",
+                "amazonAddress": "nkbosstyvnjzbmto",
+                "amazonSideAsn": 0,
+                "asn": 0,
+                "authKey": "uvisvjeidrkbamsq",
+                "awsDeviceV2": "ifwzoxgdstjtnvdw",
+                "awsLogicalDeviceId": "jaccqmkxdvmjsaqn",
+                "bgpPeers": [
+                    {
+                        "addressFamily": "ymqjfjpalbnvrxsa",
+                        "amazonAddress": "cfoyisxcyguhdcdi",
+                        "asn": 0,
+                        "authKey": "viwzozhefjctfaey",
+                        "awsDeviceV2": "xylnnzuszqqwqysl",
+                        "awsLogicalDeviceId": "whxcrzwbdbbnpxsc",
+                        "bgpPeerId": "aohgnmhjugmexwwy",
+                        "bgpPeerState": "aajxrmekaimgcwpi",
+                        "bgpStatus": "egnrtbmjyaxzamdr",
+                        "customerAddress": "ogmcejucthioptru"
+                    }
+                ],
+                "connectionId": "aiuvrwavkgucggcw",
+                "customerAddress": "efwkbqccckmgsxcg",
+                "customerRouterConfig": "clarlvpgliocllgo",
+                "directConnectGatewayId": "pthoufgdmcraxmsq",
+                "jumboFrameCapable": true,
+                "location": "jcelkbxlnljqejmp",
+                "mtu": 0,
+                "ownerAccount": "cgyeffibuuejhtcg",
+                "region": "cepooffjfvlmryww",
+                "routeFilterPrefixes": [
+                    {
+                        "cidr": "kjwhtceiwxphxfvx"
+                    }
+                ],
+                "siteLinkEnabled": true,
+                "tags": [
+                    {
+                        "key": "kincpndxosggbmzs",
+                        "value": "qmhifyvrkfbmcpwp"
+                    }
+                ],
+                "virtualGatewayId": "pegbedycoxrfmdos",
+                "virtualInterfaceId": "gscipbxygjstmwip",
+                "virtualInterfaceName": "wjohhhgtrrrzgpjo",
+                "virtualInterfaceState": "ffoovplngokqgkrc",
+                "virtualInterfaceType": "mmlxdejztlwtraee",
+                "vlan": 0
+            },
+            {
+                "addressFamily": "esxdelstrvfyihkp",
+                "amazonAddress": "zbwmlfcxfdlejfjy",
+                "amazonSideAsn": 0,
+                "asn": 0,
+                "authKey": "fqzcnpjbybssablv",
+                "awsDeviceV2": "azkwtkwozrwcmuth",
+                "awsLogicalDeviceId": "qmxomoahwfvdglig",
+                "bgpPeers": [
+                    {
+                        "addressFamily": "xilevqlbdvqfdtht",
+                        "amazonAddress": "fcenvsenpenzxihl",
+                        "asn": 0,
+                        "authKey": "vreowzveeakzlwdv",
+                        "awsDeviceV2": "jnydytggshtssabq",
+                        "awsLogicalDeviceId": "yktpoczukeylssbc",
+                        "bgpPeerId": "hsizxegvqvulfcqh",
+                        "bgpPeerState": "pbcrzphpfeqefyxg",
+                        "bgpStatus": "gxubuhgugyeymxqo",
+                        "customerAddress": "grlsopwxlwisnxwo"
+                    }
+                ],
+                "connectionId": "lcrcuynrboumuxqs",
+                "customerAddress": "qxqbouzpnscscgsx",
+                "customerRouterConfig": "ufmectwoemnrqsxf",
+                "directConnectGatewayId": "zwrgturxynjrwzey",
+                "jumboFrameCapable": true,
+                "location": "nnlblosgmmerzant",
+                "mtu": 0,
+                "ownerAccount": "mdtqfhgesmpajdpf",
+                "region": "wxnvhryexvxnxexv",
+                "routeFilterPrefixes": [
+                    {
+                        "cidr": "clczrhjwnfslougs"
+                    }
+                ],
+                "siteLinkEnabled": true,
+                "tags": [
+                    {
+                        "key": "scsnghjyvjzjrjar",
+                        "value": "qayerjctloddycae"
+                    }
+                ],
+                "virtualGatewayId": "danxpzuvdyosbqbo",
+                "virtualInterfaceId": "xwggamtgjzkcvjli",
+                "virtualInterfaceName": "kqlaghtcabisinjh",
+                "virtualInterfaceState": "keyjgwquibtqmabo",
+                "virtualInterfaceType": "ndkcodxgkqmlbhmg",
+                "vlan": 0
+            },
+            {
+                "addressFamily": "lvrjvlvydhvqdtbc",
+                "amazonAddress": "wzcjrbxfapyvyoos",
+                "amazonSideAsn": 0,
+                "asn": 0,
+                "authKey": "uhllhzsaophdlnep",
+                "awsDeviceV2": "splpauuqfsugajca",
+                "awsLogicalDeviceId": "bigvilepwziggcnb",
+                "bgpPeers": [
+                    {
+                        "addressFamily": "njqhqzuddeduapbc",
+                        "amazonAddress": "ohakhgtsmjoxaybn",
+                        "asn": 0,
+                        "authKey": "hhwgfanhrekebjby",
+                        "awsDeviceV2": "zpyoifybunxlfsvs",
+                        "awsLogicalDeviceId": "vpbvsljxjahctikh",
+                        "bgpPeerId": "fkcnfkwrrqarzplu",
+                        "bgpPeerState": "ojjmdogirhkutebu",
+                        "bgpStatus": "guvmasfgfzolaxda",
+                        "customerAddress": "ygwmqyiqomisedrv"
+                    }
+                ],
+                "connectionId": "xlctdabofhxibmyq",
+                "customerAddress": "fxkxcezayltjgeax",
+                "customerRouterConfig": "hfbfhiqsqimtpzsk",
+                "directConnectGatewayId": "wahmvxhzouwtnckc",
+                "jumboFrameCapable": true,
+                "location": "nysowplmmajwfmml",
+                "mtu": 0,
+                "ownerAccount": "houmtsnnsksrmrbp",
+                "region": "twhdwbmgwdtpzikd",
+                "routeFilterPrefixes": [
+                    {
+                        "cidr": "tbksktuncjaekoms"
+                    }
+                ],
+                "siteLinkEnabled": true,
+                "tags": [
+                    {
+                        "key": "ghuxnzybzgxuvsbm",
+                        "value": "wyhkccdaalnasqzf"
+                    }
+                ],
+                "virtualGatewayId": "gycjmtbtzckudogr",
+                "virtualInterfaceId": "osxqgigqudtooval",
+                "virtualInterfaceName": "hdbmlsctppxjxmwn",
+                "virtualInterfaceState": "idwjkvrgnszlqvub",
+                "virtualInterfaceType": "avpxdbuwysuhohke",
+                "vlan": 0
+            }
+        ],
+        "result_key": "virtualInterfaces"
+    },
+    "meta": {
+        "start": 1711115567.105923,
+        "end": 1711115573.87601,
+        "duration": 6.770097017288208,
+        "service": "directconnect",
+        "type": "virtual_interfaces"
+    }
+}

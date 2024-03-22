@@ -1,0 +1,121 @@
+{
+    "input": {
+        "template": {
+            "CreationTimeAfter": "1970-01-01T00:00:00",
+            "CreationTimeBefore": "1970-01-01T00:00:00",
+            "MaxResults": 0,
+            "NameContains": "",
+            "NextToken": "",
+            "SortBy": "Name",
+            "SortOrder": "Ascending"
+        },
+        "required": [],
+        "md5": "a3263a33adaa227f2218c8dbf8459af3",
+        "boto_command": "list_projects",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "ProjectName": "ProjectName",
+                "ProjectDescription": "ProjectDescription",
+                "ProjectArn": "ProjectArn",
+                "ProjectId": "ProjectId",
+                "CreationTime": "1970-01-01T00:00:00",
+                "ProjectStatus": "ProjectStatus"
+            }
+        ],
+        "required": [],
+        "md5": "d3e8ccf3cc583bf0f4cca12661c92a7a",
+        "randomized": [
+            {
+                "CreationTime": "rxtdqwbddgpdllfq",
+                "ProjectArn": "zmzfrzsbdwumspch",
+                "ProjectDescription": "nxkzeiasjsiulmgw",
+                "ProjectId": "anvtnnzbjgdyavpa",
+                "ProjectName": "kuasodatkbmsehul",
+                "ProjectStatus": "jxwzgspufqtlwszn"
+            },
+            {
+                "CreationTime": "rrlrapkbjnbznnaf",
+                "ProjectArn": "utgejyrrymazhnwy",
+                "ProjectDescription": "jwrbbeahuwxxkpeq",
+                "ProjectId": "lgopuvsurazrhajk",
+                "ProjectName": "gwrqkdnxfzylwopd",
+                "ProjectStatus": "cakohyuhknbtixny"
+            },
+            {
+                "CreationTime": "zcvzgbaxlzdcfjki",
+                "ProjectArn": "ddzqcfhmtcsgmnux",
+                "ProjectDescription": "wwtblqvgqrqskybo",
+                "ProjectId": "pfgqktguaezjjzkp",
+                "ProjectName": "kezoktcaasgyighe",
+                "ProjectStatus": "gumyedheqspkawoq"
+            },
+            {
+                "CreationTime": "icgulfyybnlrfsxz",
+                "ProjectArn": "iihzjnfmjovmhxda",
+                "ProjectDescription": "lhgjmqfmhcrokzia",
+                "ProjectId": "oihftmnriwjtgbtg",
+                "ProjectName": "xstdzpqsawefdrst",
+                "ProjectStatus": "tsamqcfiaaxfaotr"
+            },
+            {
+                "CreationTime": "scdrumdbzznkmhqm",
+                "ProjectArn": "qwnenefcrtmdcxkr",
+                "ProjectDescription": "ppspcvpuidsywkzn",
+                "ProjectId": "lfiyvgscdykkwuds",
+                "ProjectName": "qzuyeyaramugkvko",
+                "ProjectStatus": "buqppehfampvaskl"
+            },
+            {
+                "CreationTime": "ewnhqpgrbdnpqnca",
+                "ProjectArn": "xyrndxejuauvwsux",
+                "ProjectDescription": "ajnmgrrlxmeenkhz",
+                "ProjectId": "xpvzwzwqatyrzlnd",
+                "ProjectName": "lucpippcqfszreow",
+                "ProjectStatus": "pugufczvftttoymp"
+            },
+            {
+                "CreationTime": "dmhmlgzvfnfysrao",
+                "ProjectArn": "sartehbujjrxqcyy",
+                "ProjectDescription": "diqrszpgcywndrfp",
+                "ProjectId": "zdsibtkblydxhuvv",
+                "ProjectName": "xzidfpagdohoumjo",
+                "ProjectStatus": "rauacdjqxrubqzzv"
+            },
+            {
+                "CreationTime": "nqklhxnurcloaqoz",
+                "ProjectArn": "ywyjwviajmyaxsqa",
+                "ProjectDescription": "aicopjueczyktbcu",
+                "ProjectId": "gknyeyildmutqzoy",
+                "ProjectName": "upebmfwsgsxdunex",
+                "ProjectStatus": "kvizjytjmvncycek"
+            },
+            {
+                "CreationTime": "bnvqmiegyaifdmov",
+                "ProjectArn": "hucofpaokbkfidkm",
+                "ProjectDescription": "btyomccgpiarzgnf",
+                "ProjectId": "mjtftglhwugiuaxu",
+                "ProjectName": "vfnxlzwggtkxtpka",
+                "ProjectStatus": "kodhgpvccmfqqcaw"
+            },
+            {
+                "CreationTime": "zxykerbfpurqrjdi",
+                "ProjectArn": "qfetmjepesdlbhgo",
+                "ProjectDescription": "rwzbnsnxfjtvffud",
+                "ProjectId": "cyysgcsyadrywmsh",
+                "ProjectName": "bwftgoqrvylqhfbi",
+                "ProjectStatus": "oeeaqfuunmfrsvha"
+            }
+        ],
+        "result_key": "ProjectSummaryList"
+    },
+    "meta": {
+        "start": 1711116567.122886,
+        "end": 1711116572.937201,
+        "duration": 5.814327001571655,
+        "service": "sagemaker",
+        "type": "projects"
+    }
+}

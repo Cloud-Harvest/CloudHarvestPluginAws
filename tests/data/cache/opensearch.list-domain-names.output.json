@@ -1,0 +1,71 @@
+{
+    "input": {
+        "template": {
+            "EngineType": "OpenSearch"
+        },
+        "required": [],
+        "md5": "301dbd14ef5cde67d3c57f7371ee4bbc",
+        "boto_command": "list_domain_names",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "DomainName": "DomainName",
+                "EngineType": "EngineType"
+            }
+        ],
+        "required": [],
+        "md5": "388ac1a0e55f813873d9825d5d998a1e",
+        "randomized": [
+            {
+                "DomainName": "oyrqkfdegjrlnqzr",
+                "EngineType": "qjnheokpmpuypyaj"
+            },
+            {
+                "DomainName": "ozrnuqaenyjlqhuo",
+                "EngineType": "zgglwvmiweoiceoo"
+            },
+            {
+                "DomainName": "wpmgfvwztaikkgfy",
+                "EngineType": "dliaxfjqrnxfqkur"
+            },
+            {
+                "DomainName": "drccbourewdcytzs",
+                "EngineType": "xclnwecjbqishzoq"
+            },
+            {
+                "DomainName": "rgeejyxkhszvkjzb",
+                "EngineType": "izpguvwwfzvcybag"
+            },
+            {
+                "DomainName": "yyjazjgykzchhkrg",
+                "EngineType": "jzysshxqfrvhrlyx"
+            },
+            {
+                "DomainName": "knphafeyjyfdircn",
+                "EngineType": "yzmkixczazxbiriw"
+            },
+            {
+                "DomainName": "afppklnbwfyrfqhn",
+                "EngineType": "xxnaffniazszayhx"
+            },
+            {
+                "DomainName": "tpplnafdpffqgeia",
+                "EngineType": "odsqmllkuxlnwdzt"
+            },
+            {
+                "DomainName": "jueikyyobzuutvzi",
+                "EngineType": "bftleacwidbwhnht"
+            }
+        ],
+        "result_key": "DomainNames"
+    },
+    "meta": {
+        "start": 1711116276.802712,
+        "end": 1711116282.866911,
+        "duration": 6.064208984375,
+        "service": "opensearch",
+        "type": "domain_names"
+    }
+}

@@ -1,0 +1,156 @@
+{
+    "input": {
+        "template": {
+            "ParameterGroupName": "",
+            "MaxRecords": 0,
+            "Marker": "",
+            "TagKeys": [
+                ""
+            ],
+            "TagValues": [
+                ""
+            ]
+        },
+        "required": [],
+        "md5": "f154f1ca4bb5d7a269457624c49afc9f",
+        "boto_command": "describe_cluster_parameter_groups",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "ParameterGroupName": "ParameterGroupName",
+                "ParameterGroupFamily": "ParameterGroupFamily",
+                "Description": "Description",
+                "Tags": [
+                    {
+                        "Key": "Key",
+                        "Value": "Value"
+                    }
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "cbca2d22717eeb7251ceba4a47aee15f",
+        "randomized": [
+            {
+                "Description": "mgmxnfyyifhoicgd",
+                "ParameterGroupFamily": "ougfovpxgfvdhset",
+                "ParameterGroupName": "zicbxjxissxdlurp",
+                "Tags": [
+                    {
+                        "Key": "viozavenoobtbthh",
+                        "Value": "zbguexjulueupvvf"
+                    }
+                ]
+            },
+            {
+                "Description": "mjfidkimwhmkbkbv",
+                "ParameterGroupFamily": "sgigqqhoblzpfipe",
+                "ParameterGroupName": "hwicburslasxsugs",
+                "Tags": [
+                    {
+                        "Key": "vdcgqpwsrwxrucrf",
+                        "Value": "khganlmdvjfmjtot"
+                    }
+                ]
+            },
+            {
+                "Description": "shewzjdtiqrwvaki",
+                "ParameterGroupFamily": "hyjxzwrbfjigrocs",
+                "ParameterGroupName": "hvbvdtxkmtyuxzbt",
+                "Tags": [
+                    {
+                        "Key": "hmvmnyljephrqqsn",
+                        "Value": "laeirmfmmbzzxhpn"
+                    }
+                ]
+            },
+            {
+                "Description": "ctkqkutmpgslfqlo",
+                "ParameterGroupFamily": "qlskocicwghrlxjm",
+                "ParameterGroupName": "eerlaaxlyrcjtmav",
+                "Tags": [
+                    {
+                        "Key": "iqitvjlnasdvjbcy",
+                        "Value": "wcffkscnfqhamemu"
+                    }
+                ]
+            },
+            {
+                "Description": "pgmfzljnubohntzs",
+                "ParameterGroupFamily": "qbdzkotpvubdnbqb",
+                "ParameterGroupName": "oqiwttduopbuzdjs",
+                "Tags": [
+                    {
+                        "Key": "hoopsimdhzpixpul",
+                        "Value": "vkfgabnatxojbmnx"
+                    }
+                ]
+            },
+            {
+                "Description": "fxkeaksiibzksoyr",
+                "ParameterGroupFamily": "nrutzujbmurmwvdr",
+                "ParameterGroupName": "byltmfnbmxwhcgvy",
+                "Tags": [
+                    {
+                        "Key": "wcoolseodhranjnj",
+                        "Value": "bfvjbsagcjbzihkc"
+                    }
+                ]
+            },
+            {
+                "Description": "kbksrhwjnmdakfdg",
+                "ParameterGroupFamily": "inajaegafsixgstf",
+                "ParameterGroupName": "ejvnrzqzbvzsjmup",
+                "Tags": [
+                    {
+                        "Key": "idvcungbgiphhhzm",
+                        "Value": "lvkfinwssvusqryl"
+                    }
+                ]
+            },
+            {
+                "Description": "kpsrnvvrfgsbkqll",
+                "ParameterGroupFamily": "dhctykzdvwzwuzgk",
+                "ParameterGroupName": "ftcidserqmnrrjhd",
+                "Tags": [
+                    {
+                        "Key": "fepognzealdxklci",
+                        "Value": "ivpioguncbwhwnjl"
+                    }
+                ]
+            },
+            {
+                "Description": "vooctkmupkysjdxu",
+                "ParameterGroupFamily": "obokkkmuvqacpgjo",
+                "ParameterGroupName": "odmnebwmhaqboorq",
+                "Tags": [
+                    {
+                        "Key": "edlsmqdwqxprzpoe",
+                        "Value": "rkgzfsvvptbhnjav"
+                    }
+                ]
+            },
+            {
+                "Description": "nxgceiwdtvwihmhi",
+                "ParameterGroupFamily": "ipbawromhwevmjbv",
+                "ParameterGroupName": "yfhzrumxgkoxlyzx",
+                "Tags": [
+                    {
+                        "Key": "rtxavjpzufmlygxs",
+                        "Value": "qenheqhnskcquwkh"
+                    }
+                ]
+            }
+        ],
+        "result_key": "ParameterGroups"
+    },
+    "meta": {
+        "start": 1711116419.623216,
+        "end": 1711116424.883605,
+        "duration": 5.260400056838989,
+        "service": "redshift",
+        "type": "cluster_parameter_groups"
+    }
+}

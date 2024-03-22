@@ -1,0 +1,96 @@
+{
+    "input": {
+        "template": {
+            "WorkspaceIds": [
+                ""
+            ],
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "5ef271f8aae783fdcea28777b12830ae",
+        "boto_command": "describe_workspaces_connection_status",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "WorkspaceId": "WorkspaceId",
+                "ConnectionState": "ConnectionState",
+                "ConnectionStateCheckTimestamp": "1970-01-01T00:00:00",
+                "LastKnownUserConnectionTimestamp": "1970-01-01T00:00:00"
+            }
+        ],
+        "required": [],
+        "md5": "ec30cf1e03a998d4272f99f38f127950",
+        "randomized": [
+            {
+                "ConnectionState": "bvvvyldjgqzmdotf",
+                "ConnectionStateCheckTimestamp": "gnmuohxybbibrcov",
+                "LastKnownUserConnectionTimestamp": "olmmwhuqehetybfy",
+                "WorkspaceId": "uhxvptmeviaybcdw"
+            },
+            {
+                "ConnectionState": "oscrrbzsujqnuprx",
+                "ConnectionStateCheckTimestamp": "rfkdrfengpopeehr",
+                "LastKnownUserConnectionTimestamp": "rwydbtggtpwoliwa",
+                "WorkspaceId": "yguvfklsyexmpiee"
+            },
+            {
+                "ConnectionState": "nxbybpyhlgfdvjfr",
+                "ConnectionStateCheckTimestamp": "dkpuuzyatkpgahgp",
+                "LastKnownUserConnectionTimestamp": "rucejeyozhjftawj",
+                "WorkspaceId": "zvacwdxfvkuschlu"
+            },
+            {
+                "ConnectionState": "skdwinjyeectzpyy",
+                "ConnectionStateCheckTimestamp": "lxucwltwgivfjjag",
+                "LastKnownUserConnectionTimestamp": "atlochrfsmvndabp",
+                "WorkspaceId": "zguihedfdrhszkum"
+            },
+            {
+                "ConnectionState": "stolojowhrszmnwb",
+                "ConnectionStateCheckTimestamp": "khlsiwznatuchelz",
+                "LastKnownUserConnectionTimestamp": "rezjbgzmuuxinlth",
+                "WorkspaceId": "uyvknfazmndgoytd"
+            },
+            {
+                "ConnectionState": "jfkpemmlrzohdsim",
+                "ConnectionStateCheckTimestamp": "snwfiopnpenjcvtk",
+                "LastKnownUserConnectionTimestamp": "tsjhyzmgwuzackqd",
+                "WorkspaceId": "kjkslwuwmozvwnpd"
+            },
+            {
+                "ConnectionState": "yebmyzevxhtwaqhd",
+                "ConnectionStateCheckTimestamp": "hungdwrusdncoxar",
+                "LastKnownUserConnectionTimestamp": "edwwotvphevkmxyr",
+                "WorkspaceId": "dnincubwahalxuxe"
+            },
+            {
+                "ConnectionState": "ixefkgwfbtmwhiyr",
+                "ConnectionStateCheckTimestamp": "jyulddmtssregqug",
+                "LastKnownUserConnectionTimestamp": "coavjbbasbhzvvse",
+                "WorkspaceId": "txlrmetieagxcoog"
+            },
+            {
+                "ConnectionState": "jbieznxizljbicru",
+                "ConnectionStateCheckTimestamp": "ajnnmnjyuaunyuas",
+                "LastKnownUserConnectionTimestamp": "fjptetvegiloodtb",
+                "WorkspaceId": "niyufnhhrabxiquq"
+            },
+            {
+                "ConnectionState": "fmrmjauxysnpqbot",
+                "ConnectionStateCheckTimestamp": "jfemqjoiqtuwllvm",
+                "LastKnownUserConnectionTimestamp": "evkzdgustqfvsauv",
+                "WorkspaceId": "hnjzpnxoturtdcpd"
+            }
+        ],
+        "result_key": "WorkspacesConnectionStatus"
+    },
+    "meta": {
+        "start": 1711116811.581498,
+        "end": 1711116817.606182,
+        "duration": 6.024693012237549,
+        "service": "workspaces",
+        "type": "workspaces_connection_status"
+    }
+}

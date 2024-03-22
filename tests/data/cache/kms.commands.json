@@ -1,0 +1,14 @@
+[
+    "kms.describe-custom-key-stores",
+    "kms.describe-key",
+    "kms.get-key-policy",
+    "kms.get-key-rotation-status",
+    "kms.get-parameters-for-import",
+    "kms.get-public-key",
+    "kms.list-aliases",
+    "kms.list-grants",
+    "kms.list-key-policies",
+    "kms.list-keys",
+    "kms.list-resource-tags",
+    "kms.list-retirable-grants"
+]

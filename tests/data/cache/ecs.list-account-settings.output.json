@@ -1,0 +1,98 @@
+{
+    "input": {
+        "template": {
+            "name": "serviceLongArnFormat",
+            "value": "",
+            "principalArn": "",
+            "effectiveSettings": true,
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "required": [],
+        "md5": "c3d5fdeb69cfa2aaf622f8a0c6c365f0",
+        "boto_command": "list_account_settings",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "name": "name",
+                "value": "value",
+                "principalArn": "principalArn",
+                "type": "type"
+            }
+        ],
+        "required": [],
+        "md5": "510dc254ecc3eddca355c785f8a32ce0",
+        "randomized": [
+            {
+                "name": "osatbcjqfpsjoond",
+                "principalArn": "vcdqmwjczauhnmgz",
+                "type": "uokjynlldpqgjjmo",
+                "value": "hfrhbghqadpylsxs"
+            },
+            {
+                "name": "jdwvhalofbjhkxez",
+                "principalArn": "yjcvdmprhmeizrjn",
+                "type": "mycknwdiktvmkqhs",
+                "value": "tkvzceucryofgzar"
+            },
+            {
+                "name": "fpeejfsvfmuemnzi",
+                "principalArn": "nykjzcprtupgyhvt",
+                "type": "hsjrbumrmidtlpme",
+                "value": "hbicrmsdyvpvvncj"
+            },
+            {
+                "name": "qgcmjzhsfuhgarfr",
+                "principalArn": "nzyyljwilgmtfstk",
+                "type": "babzrejzzammkokg",
+                "value": "ixzkqbduhzkpvvpy"
+            },
+            {
+                "name": "idyrmbnaaasfxmxa",
+                "principalArn": "udomxlipbpqbbybo",
+                "type": "ptghvvjxahkstniy",
+                "value": "urcgmgyayeupomng"
+            },
+            {
+                "name": "gfmclxrijbdlocwc",
+                "principalArn": "eqrceyvkqedsphoc",
+                "type": "wokzqvfkmkknxxby",
+                "value": "jmqjwlwrjypivhnd"
+            },
+            {
+                "name": "uwvbzrijyipfufsu",
+                "principalArn": "xuovvduqywnwlrvs",
+                "type": "wyarlgqsttfllryc",
+                "value": "catutsivjhjzupzb"
+            },
+            {
+                "name": "qdallwxmrgkyblay",
+                "principalArn": "xenjwkaickyibyle",
+                "type": "ixiflkzlqvspsyzh",
+                "value": "guxtuofinnvoijsy"
+            },
+            {
+                "name": "adhkbgdrvfcutjfn",
+                "principalArn": "yqzsoveihtibtagf",
+                "type": "txkhjnatxmguorfn",
+                "value": "yvlqsadksnkyvtat"
+            },
+            {
+                "name": "esutgugvsxcpzioe",
+                "principalArn": "oevjmuckamlkbxte",
+                "type": "zdbfruykbfhkbzwp",
+                "value": "nljpijvbxzkuxrlr"
+            }
+        ],
+        "result_key": "settings"
+    },
+    "meta": {
+        "start": 1711115692.20411,
+        "end": 1711115698.335267,
+        "duration": 6.1311681270599365,
+        "service": "ecs",
+        "type": "account_settings"
+    }
+}

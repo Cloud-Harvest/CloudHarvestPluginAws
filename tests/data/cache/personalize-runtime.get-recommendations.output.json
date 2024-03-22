@@ -1,0 +1,141 @@
+{
+    "input": {
+        "template": {
+            "campaignArn": "",
+            "itemId": "",
+            "userId": "",
+            "numResults": 0,
+            "context": {
+                "KeyName": ""
+            },
+            "filterArn": "",
+            "filterValues": {
+                "KeyName": ""
+            },
+            "recommenderArn": "",
+            "promotions": [
+                {
+                    "name": "",
+                    "percentPromotedItems": 0,
+                    "filterArn": "",
+                    "filterValues": {
+                        "KeyName": ""
+                    }
+                }
+            ],
+            "metadataColumns": {
+                "KeyName": [
+                    ""
+                ]
+            }
+        },
+        "required": [],
+        "md5": "2ca25b6e542872929d6d0b14635efa1e",
+        "boto_command": "get_recommendations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "itemId": "itemId",
+                "score": 0.0,
+                "promotionName": "promotionName",
+                "metadata": {
+                    "KeyName": ""
+                }
+            }
+        ],
+        "required": [],
+        "md5": "a43f8a25b832f3b70ca2584bf50d6b84",
+        "randomized": [
+            {
+                "itemId": "pxajxyyesjwtxjym",
+                "metadata": {
+                    "KeyName": "kvnnjdxbgiwesrhn"
+                },
+                "promotionName": "zqfvoojgeegjoocr",
+                "score": 0.0
+            },
+            {
+                "itemId": "mdbdjlceihvcwekj",
+                "metadata": {
+                    "KeyName": "yvnnqqxtgzeswbud"
+                },
+                "promotionName": "ltkoroprmlpdoohc",
+                "score": 0.0
+            },
+            {
+                "itemId": "bkpbbefrnvhldtsf",
+                "metadata": {
+                    "KeyName": "kfnlsjzprnufgidr"
+                },
+                "promotionName": "hoctrhzudkajriot",
+                "score": 0.0
+            },
+            {
+                "itemId": "oynntwecqtghqybs",
+                "metadata": {
+                    "KeyName": "waigqphsqrpaaeor"
+                },
+                "promotionName": "ydnbbpwywntohkgc",
+                "score": 0.0
+            },
+            {
+                "itemId": "yyctichgaubnsrjv",
+                "metadata": {
+                    "KeyName": "kvxxbdwhizhahpdu"
+                },
+                "promotionName": "qmrbfecyxfeurcie",
+                "score": 0.0
+            },
+            {
+                "itemId": "bghzgiaplrguqclr",
+                "metadata": {
+                    "KeyName": "zvrafgexohbnseze"
+                },
+                "promotionName": "htrpdhieyqwqjvjr",
+                "score": 0.0
+            },
+            {
+                "itemId": "lwevkygqfyljvvns",
+                "metadata": {
+                    "KeyName": "gqbgcblkwnimtfpd"
+                },
+                "promotionName": "lhyetwffzqetqhqy",
+                "score": 0.0
+            },
+            {
+                "itemId": "dsjyzbcildkkrpms",
+                "metadata": {
+                    "KeyName": "nkebvkqltbaohwma"
+                },
+                "promotionName": "kyitutpjstuabbrf",
+                "score": 0.0
+            },
+            {
+                "itemId": "tuaqnfuhftroqaes",
+                "metadata": {
+                    "KeyName": "yzsnxbsqgvhqsnhy"
+                },
+                "promotionName": "tyotegsrjhpmkuav",
+                "score": 0.0
+            },
+            {
+                "itemId": "kbfidgfiuydakwrp",
+                "metadata": {
+                    "KeyName": "gsallmuvsieudrne"
+                },
+                "promotionName": "jaarkrhbhjmtfmmm",
+                "score": 0.0
+            }
+        ],
+        "result_key": "itemList"
+    },
+    "meta": {
+        "start": 1711116324.38504,
+        "end": 1711116329.390396,
+        "duration": 5.005367040634155,
+        "service": "personalize-runtime",
+        "type": null
+    }
+}

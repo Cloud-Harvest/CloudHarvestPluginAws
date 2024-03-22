@@ -1,0 +1,251 @@
+{
+    "input": {
+        "template": {
+            "BundleIds": [
+                ""
+            ],
+            "Owner": "",
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "3bfd3fb3ff138a5100a1644bc1e188db",
+        "boto_command": "describe_workspace_bundles",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "BundleId": "BundleId",
+                "Name": "Name",
+                "Owner": "Owner",
+                "Description": "Description",
+                "ImageId": "ImageId",
+                "RootStorage": {
+                    "Capacity": "Capacity"
+                },
+                "UserStorage": {
+                    "Capacity": "Capacity"
+                },
+                "ComputeType": {
+                    "Name": "Name"
+                },
+                "LastUpdatedTime": "1970-01-01T00:00:00",
+                "CreationTime": "1970-01-01T00:00:00",
+                "State": "State",
+                "BundleType": "BundleType"
+            }
+        ],
+        "required": [],
+        "md5": "9fa0a71fcd4a06960d0dfbd3c29570d6",
+        "randomized": [
+            {
+                "BundleId": "gthzzwckazxpidha",
+                "BundleType": "vtfesmorjmeeqohy",
+                "ComputeType": {
+                    "Name": "mfhybxapifzimvsd"
+                },
+                "CreationTime": "lxgycziawotarerk",
+                "Description": "anaryxnrghyowcjw",
+                "ImageId": "qusehdfbeipahzeo",
+                "LastUpdatedTime": "lllanneprgiiican",
+                "Name": "peqwjdfyfblitoko",
+                "Owner": "aiptshykinunkuhh",
+                "RootStorage": {
+                    "Capacity": "tidlmelwpkmrmnit"
+                },
+                "State": "qblxvdfivnartvhp",
+                "UserStorage": {
+                    "Capacity": "arozuwnrgzcmubrb"
+                }
+            },
+            {
+                "BundleId": "skrfclhbdgzmtbtr",
+                "BundleType": "xfodkqrjtxuttord",
+                "ComputeType": {
+                    "Name": "ipboaeiejmoqcvjv"
+                },
+                "CreationTime": "cpfqzjxtaceoiewy",
+                "Description": "xvsataqickbdgudf",
+                "ImageId": "kkhtsjqpdxadagcf",
+                "LastUpdatedTime": "vrxywbjaoodvmrys",
+                "Name": "tlhqzkpgoszxknfv",
+                "Owner": "egzgnyerpzrshnpi",
+                "RootStorage": {
+                    "Capacity": "mfiixcfapucjimxt"
+                },
+                "State": "elhrneyerjxpueqn",
+                "UserStorage": {
+                    "Capacity": "lwcssnobcrinzpei"
+                }
+            },
+            {
+                "BundleId": "akkndphzyssyvyav",
+                "BundleType": "aajybzpacojeoeav",
+                "ComputeType": {
+                    "Name": "csdhivqozcufvzjt"
+                },
+                "CreationTime": "jsdiaqsrtycyaiwb",
+                "Description": "zkndxtbnkatnpplh",
+                "ImageId": "meqhbdetemrbbfdz",
+                "LastUpdatedTime": "rhwqumqpsdzxdbea",
+                "Name": "jlyvaiynomsihnnl",
+                "Owner": "dzgerolwqdhggcxw",
+                "RootStorage": {
+                    "Capacity": "xpfrbntgveosxbwo"
+                },
+                "State": "soaqvdukhxfvroeb",
+                "UserStorage": {
+                    "Capacity": "hzfaergsfqfwbtqp"
+                }
+            },
+            {
+                "BundleId": "wyrzijawzvobweif",
+                "BundleType": "twrcjbjfbolcxoer",
+                "ComputeType": {
+                    "Name": "rcmgjpohinsdgxzx"
+                },
+                "CreationTime": "naeukvagmmcxinjr",
+                "Description": "lelwldmngrwfhamx",
+                "ImageId": "bmsvfhjrcmfpdoiv",
+                "LastUpdatedTime": "yxlnexkqoscdqsbi",
+                "Name": "pekerewwwbpaoonc",
+                "Owner": "fxfdihvlxahcbkjp",
+                "RootStorage": {
+                    "Capacity": "dwsmglobwqlnwcbg"
+                },
+                "State": "vekvfvkzmzikyffv",
+                "UserStorage": {
+                    "Capacity": "bhnszllebazgvgmy"
+                }
+            },
+            {
+                "BundleId": "mszmyvcfnepocyfu",
+                "BundleType": "sydsbnpzidorhtpj",
+                "ComputeType": {
+                    "Name": "wskxrcpwwclyvojk"
+                },
+                "CreationTime": "owuxpslywnusjpco",
+                "Description": "kelbmjapccfuxkec",
+                "ImageId": "cygpwsiuxjmenksk",
+                "LastUpdatedTime": "nayzajwivjxuopdn",
+                "Name": "krjeldoftayjrmhs",
+                "Owner": "dacxkakmlpsxipjh",
+                "RootStorage": {
+                    "Capacity": "ukdalbodbnnqnulz"
+                },
+                "State": "fxngyprjjmgoowrc",
+                "UserStorage": {
+                    "Capacity": "gwhnlzyqpiunmazj"
+                }
+            },
+            {
+                "BundleId": "fmfryrzalrqjjarr",
+                "BundleType": "luagaxsxvxnnbsod",
+                "ComputeType": {
+                    "Name": "qfeiinojcojhkjis"
+                },
+                "CreationTime": "wmacqbddiskpsdms",
+                "Description": "murrimajjgqczglr",
+                "ImageId": "qwrrmlqutbfypfwo",
+                "LastUpdatedTime": "uzcivbqobxcjqbbg",
+                "Name": "ykuybrhoopbybisq",
+                "Owner": "ytxgzvjvghnticdv",
+                "RootStorage": {
+                    "Capacity": "gqmnqxojsoyvyael"
+                },
+                "State": "mesexbkmtwqjmcvx",
+                "UserStorage": {
+                    "Capacity": "jhthwmsmzwzjxmpl"
+                }
+            },
+            {
+                "BundleId": "rwzasrlmjsvabopv",
+                "BundleType": "stztnmkfcvsgyrzm",
+                "ComputeType": {
+                    "Name": "ovamztvgdtcmuxgm"
+                },
+                "CreationTime": "tchdggwgnwwomzlk",
+                "Description": "zgxahhibjqkarliy",
+                "ImageId": "vpgkkolpuxhwehlm",
+                "LastUpdatedTime": "hktbuordvbplkvod",
+                "Name": "wwsfncngjqqmgkcc",
+                "Owner": "bxyssutscetsoayz",
+                "RootStorage": {
+                    "Capacity": "qifrjbbgyakwnihr"
+                },
+                "State": "xvkofduqihgtcxwf",
+                "UserStorage": {
+                    "Capacity": "aivdxqrrqmoupzsx"
+                }
+            },
+            {
+                "BundleId": "xmhkkcfftlutdaki",
+                "BundleType": "pjekasexdrvyezfh",
+                "ComputeType": {
+                    "Name": "kkopwlrwhcectrzd"
+                },
+                "CreationTime": "faaxhiqqykqrfixg",
+                "Description": "nacziqurkfwwafzm",
+                "ImageId": "okcvtovffvgecyiq",
+                "LastUpdatedTime": "adbuhewzhcvstbyo",
+                "Name": "eauniqjgzbjygilg",
+                "Owner": "deqebnkeswbnweve",
+                "RootStorage": {
+                    "Capacity": "ielyvcvdgnlipnrp"
+                },
+                "State": "vbblxcpmskkjapqw",
+                "UserStorage": {
+                    "Capacity": "mrbnkdnglypwpqvf"
+                }
+            },
+            {
+                "BundleId": "mxeljyovglznputi",
+                "BundleType": "vdpdumakdapherkk",
+                "ComputeType": {
+                    "Name": "wikzpuorzlcqaolx"
+                },
+                "CreationTime": "cutimufsqzqerqck",
+                "Description": "jzpvzaufubxgzybj",
+                "ImageId": "yayzzruweviqqlwg",
+                "LastUpdatedTime": "peirwjhnrpdeetdj",
+                "Name": "trxvdqwfpzqyokel",
+                "Owner": "sheatsxjzqwnilpn",
+                "RootStorage": {
+                    "Capacity": "xdleeusjttktglcx"
+                },
+                "State": "qvxzjerhuspfqgup",
+                "UserStorage": {
+                    "Capacity": "kwufyzbgxbmvuemo"
+                }
+            },
+            {
+                "BundleId": "vgdlvcihsrywlbid",
+                "BundleType": "dcqefsziqvwzycvi",
+                "ComputeType": {
+                    "Name": "xspzqxffcbagwiuc"
+                },
+                "CreationTime": "nvskbbksrvgcuaaw",
+                "Description": "ukjozvqzdudwddiv",
+                "ImageId": "evhwqzxwapvyjxzf",
+                "LastUpdatedTime": "hcmolcyxhjisvwwz",
+                "Name": "prwyoygisuqongpv",
+                "Owner": "mpxoygqagdzpnpdf",
+                "RootStorage": {
+                    "Capacity": "sbksszwormparwlh"
+                },
+                "State": "cthhsfkbsmhkkuza",
+                "UserStorage": {
+                    "Capacity": "trvutelmbghhbrue"
+                }
+            }
+        ],
+        "result_key": "Bundles"
+    },
+    "meta": {
+        "start": 1711116810.136773,
+        "end": 1711116817.15939,
+        "duration": 7.022626876831055,
+        "service": "workspaces",
+        "type": "workspace_bundles"
+    }
+}

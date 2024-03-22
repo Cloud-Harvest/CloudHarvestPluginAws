@@ -1,0 +1,567 @@
+{
+    "input": {
+        "template": {
+            "Filter": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "HostIds": [
+                ""
+            ],
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "06de592d63ff8b2fde70a992dfd1b32f",
+        "boto_command": "describe_hosts",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "AutoPlacement": "AutoPlacement",
+                "AvailabilityZone": "AvailabilityZone",
+                "AvailableCapacity": {
+                    "AvailableInstanceCapacity": [
+                        {
+                            "AvailableCapacity": 0,
+                            "InstanceType": "InstanceType",
+                            "TotalCapacity": 0
+                        }
+                    ],
+                    "AvailableVCpus": 0
+                },
+                "ClientToken": "ClientToken",
+                "HostId": "HostId",
+                "HostProperties": {
+                    "Cores": 0,
+                    "InstanceType": "InstanceType",
+                    "InstanceFamily": "InstanceFamily",
+                    "Sockets": 0,
+                    "TotalVCpus": 0
+                },
+                "HostReservationId": "HostReservationId",
+                "Instances": [
+                    {
+                        "InstanceId": "InstanceId",
+                        "InstanceType": "InstanceType",
+                        "OwnerId": "OwnerId"
+                    }
+                ],
+                "State": "State",
+                "AllocationTime": "1970-01-01T00:00:00",
+                "ReleaseTime": "1970-01-01T00:00:00",
+                "Tags": [
+                    {
+                        "Key": "Key",
+                        "Value": "Value"
+                    }
+                ],
+                "HostRecovery": "HostRecovery",
+                "AllowsMultipleInstanceTypes": "AllowsMultipleInstanceTypes",
+                "OwnerId": "OwnerId",
+                "AvailabilityZoneId": "AvailabilityZoneId",
+                "MemberOfServiceLinkedResourceGroup": true,
+                "OutpostArn": "OutpostArn",
+                "HostMaintenance": "HostMaintenance",
+                "AssetId": "AssetId"
+            }
+        ],
+        "required": [],
+        "md5": "f72740d2a12b051512c5325ed578c17a",
+        "randomized": [
+            {
+                "AllocationTime": "jwjhuntygseopnlk",
+                "AllowsMultipleInstanceTypes": "xytrlvyijaxynnvj",
+                "AssetId": "owsflqykcoeedegy",
+                "AutoPlacement": "qfjethngmwerdmjb",
+                "AvailabilityZone": "bzfazrpjkjorweqn",
+                "AvailabilityZoneId": "wnfyjpnghnimuije",
+                "AvailableCapacity": {
+                    "AvailableInstanceCapacity": [
+                        {
+                            "AvailableCapacity": 0,
+                            "InstanceType": "hblpuhmsyyskuvcs",
+                            "TotalCapacity": 0
+                        }
+                    ],
+                    "AvailableVCpus": 0
+                },
+                "ClientToken": "uqsedurdrzbtkzqc",
+                "HostId": "xtcooopqxuwtwgfg",
+                "HostMaintenance": "lydiqrywrtxmnxhx",
+                "HostProperties": {
+                    "Cores": 0,
+                    "InstanceFamily": "gxusmvthesdwfvbb",
+                    "InstanceType": "jmcvlvpiskwqasoi",
+                    "Sockets": 0,
+                    "TotalVCpus": 0
+                },
+                "HostRecovery": "jlcrcdlvqkhyppvz",
+                "HostReservationId": "dpmyjozcfgiffwss",
+                "Instances": [
+                    {
+                        "InstanceId": "wvdxibltrxmbzbbq",
+                        "InstanceType": "llabsmnizlfeegig",
+                        "OwnerId": "mbhdgxsvyofmcmnm"
+                    }
+                ],
+                "MemberOfServiceLinkedResourceGroup": true,
+                "OutpostArn": "nxgzvxvdcamyirgr",
+                "OwnerId": "ycuvexbgxrtarjuo",
+                "ReleaseTime": "hihdemtsgivdykre",
+                "State": "ggzilccfvuighdfq",
+                "Tags": [
+                    {
+                        "Key": "lcycsevlnwxcvrwx",
+                        "Value": "ndbdpwcsvspskfwo"
+                    }
+                ]
+            },
+            {
+                "AllocationTime": "jvjnksebnlihogkh",
+                "AllowsMultipleInstanceTypes": "kutpkxltmyhotmyu",
+                "AssetId": "hmapanubnccvvsys",
+                "AutoPlacement": "hhqbhtqvgjuwbuhv",
+                "AvailabilityZone": "hpzcbbztmtzssiri",
+                "AvailabilityZoneId": "triuktvyhbpckgct",
+                "AvailableCapacity": {
+                    "AvailableInstanceCapacity": [
+                        {
+                            "AvailableCapacity": 0,
+                            "InstanceType": "szbqknwlmcapdztn",
+                            "TotalCapacity": 0
+                        }
+                    ],
+                    "AvailableVCpus": 0
+                },
+                "ClientToken": "bsibzewujhmkobed",
+                "HostId": "pwqajwpsrnfuzkzg",
+                "HostMaintenance": "pvaiersgixtbcuag",
+                "HostProperties": {
+                    "Cores": 0,
+                    "InstanceFamily": "piuumbldjrsymnej",
+                    "InstanceType": "mtszalqkinsjqcqa",
+                    "Sockets": 0,
+                    "TotalVCpus": 0
+                },
+                "HostRecovery": "tbyderlvpclkwkzs",
+                "HostReservationId": "vbrmrdflobbpytwn",
+                "Instances": [
+                    {
+                        "InstanceId": "tzkmgpiebrxaizuk",
+                        "InstanceType": "lnauydegpqxjdwra",
+                        "OwnerId": "votqynihepwpojvv"
+                    }
+                ],
+                "MemberOfServiceLinkedResourceGroup": true,
+                "OutpostArn": "zfofqdcurnjracfu",
+                "OwnerId": "cmpkjxvdqxoatese",
+                "ReleaseTime": "umrykyenryqcvruk",
+                "State": "mbaizimquqzfapts",
+                "Tags": [
+                    {
+                        "Key": "ueuiajlzqvukftap",
+                        "Value": "xvopmcxvfzhqwcwz"
+                    }
+                ]
+            },
+            {
+                "AllocationTime": "gogbiebxdyinyamr",
+                "AllowsMultipleInstanceTypes": "smxgkoygqkbqqjer",
+                "AssetId": "vfhfyliadlrfmclu",
+                "AutoPlacement": "bxlxqemtvidkjgar",
+                "AvailabilityZone": "bxyydfwhiwpknlwu",
+                "AvailabilityZoneId": "ddhtjjjqdkaofawj",
+                "AvailableCapacity": {
+                    "AvailableInstanceCapacity": [
+                        {
+                            "AvailableCapacity": 0,
+                            "InstanceType": "rcpuyfreyebviove",
+                            "TotalCapacity": 0
+                        }
+                    ],
+                    "AvailableVCpus": 0
+                },
+                "ClientToken": "mwdmfksyevyivsrd",
+                "HostId": "tlpvlgehryblxijf",
+                "HostMaintenance": "croezcgluoqjggvz",
+                "HostProperties": {
+                    "Cores": 0,
+                    "InstanceFamily": "vfcsrocqjnzsuhcc",
+                    "InstanceType": "mjhootnaudnoredl",
+                    "Sockets": 0,
+                    "TotalVCpus": 0
+                },
+                "HostRecovery": "msrjsccflbsnkoah",
+                "HostReservationId": "vawgoeihqhweuaml",
+                "Instances": [
+                    {
+                        "InstanceId": "uqxjvbhjwwkbqsat",
+                        "InstanceType": "wdabtvlciqknazkz",
+                        "OwnerId": "tzjabzwqaxcuslgy"
+                    }
+                ],
+                "MemberOfServiceLinkedResourceGroup": true,
+                "OutpostArn": "utinzklmtxyrghuw",
+                "OwnerId": "wmmfudzkzopcndex",
+                "ReleaseTime": "nxrqkjizzuqfrkwi",
+                "State": "texbrdxeecbroxzw",
+                "Tags": [
+                    {
+                        "Key": "nkytwcbqsaemabxa",
+                        "Value": "onagmwgblqnhuylb"
+                    }
+                ]
+            },
+            {
+                "AllocationTime": "skwajovexooqrjwf",
+                "AllowsMultipleInstanceTypes": "tnzohkqsrtnunjpn",
+                "AssetId": "qhraoysjxvbdpqdn",
+                "AutoPlacement": "iblvvikwfyfwqgxf",
+                "AvailabilityZone": "ehgchofabzppzwyy",
+                "AvailabilityZoneId": "euutbaddewjnwvll",
+                "AvailableCapacity": {
+                    "AvailableInstanceCapacity": [
+                        {
+                            "AvailableCapacity": 0,
+                            "InstanceType": "hyuzivpuofivfxdw",
+                            "TotalCapacity": 0
+                        }
+                    ],
+                    "AvailableVCpus": 0
+                },
+                "ClientToken": "zqgjxknnjwbxffiz",
+                "HostId": "tpuikbeywdhbtwih",
+                "HostMaintenance": "pgqfefxxxjfdggpa",
+                "HostProperties": {
+                    "Cores": 0,
+                    "InstanceFamily": "amvcxcugqjvrxhum",
+                    "InstanceType": "rcbwmdttjpbsaqkw",
+                    "Sockets": 0,
+                    "TotalVCpus": 0
+                },
+                "HostRecovery": "mbooirgsgcerejjl",
+                "HostReservationId": "tcisdvekbwuqoexb",
+                "Instances": [
+                    {
+                        "InstanceId": "xiateogczlcyjqiv",
+                        "InstanceType": "njglnafhmbkxsodw",
+                        "OwnerId": "gkntuxvcmfnmyltd"
+                    }
+                ],
+                "MemberOfServiceLinkedResourceGroup": true,
+                "OutpostArn": "crqzodxsoitjfpkb",
+                "OwnerId": "ewhcsacnsxlauxrt",
+                "ReleaseTime": "woujwsfrwhcltsfh",
+                "State": "jdonobpeixzxckqf",
+                "Tags": [
+                    {
+                        "Key": "mgcpvaxntigrguca",
+                        "Value": "zcrfqwjovajxgvfm"
+                    }
+                ]
+            },
+            {
+                "AllocationTime": "nakmjsnuegamlxnv",
+                "AllowsMultipleInstanceTypes": "genwprppyidyatlw",
+                "AssetId": "fxxxqskhpmtaiudd",
+                "AutoPlacement": "ihiaolszltmibvsq",
+                "AvailabilityZone": "nvhwvfijdeblecsl",
+                "AvailabilityZoneId": "jxnrhblodgfyffnj",
+                "AvailableCapacity": {
+                    "AvailableInstanceCapacity": [
+                        {
+                            "AvailableCapacity": 0,
+                            "InstanceType": "fbgkkkmjtardpdzl",
+                            "TotalCapacity": 0
+                        }
+                    ],
+                    "AvailableVCpus": 0
+                },
+                "ClientToken": "mgtkmixvgzpblxgk",
+                "HostId": "pipfptgregsmuiwc",
+                "HostMaintenance": "brprkiiiqbuzvaeg",
+                "HostProperties": {
+                    "Cores": 0,
+                    "InstanceFamily": "mngidzaeglpozufk",
+                    "InstanceType": "gtirgcnkvjqxrphk",
+                    "Sockets": 0,
+                    "TotalVCpus": 0
+                },
+                "HostRecovery": "wfhtqgkxtooplzze",
+                "HostReservationId": "cnpqnsamrlnecwgm",
+                "Instances": [
+                    {
+                        "InstanceId": "aizbgdvjnfpmzvfu",
+                        "InstanceType": "yqupgbyqjjdalffh",
+                        "OwnerId": "kkivtazdkqmnxqsz"
+                    }
+                ],
+                "MemberOfServiceLinkedResourceGroup": true,
+                "OutpostArn": "sesuptaxkfonphyf",
+                "OwnerId": "jplnwbaiuvhxpibk",
+                "ReleaseTime": "rvhxgnpwuusbzekm",
+                "State": "xbvtnqtwlqskybwk",
+                "Tags": [
+                    {
+                        "Key": "itnhvrusywsgiruh",
+                        "Value": "tbjvgsrbymdqgcrl"
+                    }
+                ]
+            },
+            {
+                "AllocationTime": "mtwqzewtinqavyky",
+                "AllowsMultipleInstanceTypes": "hnbfgsyfgndpuflp",
+                "AssetId": "ydgiatbhfggyoxtw",
+                "AutoPlacement": "wjdsbxlefhfmirxm",
+                "AvailabilityZone": "gdaiyrizhjatbfkf",
+                "AvailabilityZoneId": "crvzxfuaomzrnghf",
+                "AvailableCapacity": {
+                    "AvailableInstanceCapacity": [
+                        {
+                            "AvailableCapacity": 0,
+                            "InstanceType": "dyqbsxslllujshvs",
+                            "TotalCapacity": 0
+                        }
+                    ],
+                    "AvailableVCpus": 0
+                },
+                "ClientToken": "fiypxrungzhvlmjm",
+                "HostId": "nhuwmcwhtucwobxg",
+                "HostMaintenance": "gyqsdofwurxnlppv",
+                "HostProperties": {
+                    "Cores": 0,
+                    "InstanceFamily": "adaakhksabhxrgrp",
+                    "InstanceType": "hcwxtiubsulbbrgc",
+                    "Sockets": 0,
+                    "TotalVCpus": 0
+                },
+                "HostRecovery": "zcnhodkmzpsgzzlv",
+                "HostReservationId": "ovfqtxjjchkzfnkd",
+                "Instances": [
+                    {
+                        "InstanceId": "tniguksmsqqtblwo",
+                        "InstanceType": "uesetzmnxwdfrdjv",
+                        "OwnerId": "rhvenkqwqiqqlqno"
+                    }
+                ],
+                "MemberOfServiceLinkedResourceGroup": true,
+                "OutpostArn": "zkuogabhzywhqizn",
+                "OwnerId": "xsqzttzmweavwxea",
+                "ReleaseTime": "pgjwptqdfnbntuyq",
+                "State": "umyliaunsoxahitp",
+                "Tags": [
+                    {
+                        "Key": "sgenykeutkzhsnyj",
+                        "Value": "wmkwjkiqboatadqb"
+                    }
+                ]
+            },
+            {
+                "AllocationTime": "sckrongfjndtjtqa",
+                "AllowsMultipleInstanceTypes": "nsujbdaluyovogzr",
+                "AssetId": "ntvspgkmczmuuoce",
+                "AutoPlacement": "evdcrhfratbcmrlw",
+                "AvailabilityZone": "gshqitvlanjqillq",
+                "AvailabilityZoneId": "bdpinimazyazoriz",
+                "AvailableCapacity": {
+                    "AvailableInstanceCapacity": [
+                        {
+                            "AvailableCapacity": 0,
+                            "InstanceType": "yzmcdfubdhwqiffs",
+                            "TotalCapacity": 0
+                        }
+                    ],
+                    "AvailableVCpus": 0
+                },
+                "ClientToken": "audzcbswxrgnmhtj",
+                "HostId": "ctiwdqnhbhdxkyyl",
+                "HostMaintenance": "nbzbptuqhdxvggep",
+                "HostProperties": {
+                    "Cores": 0,
+                    "InstanceFamily": "wffcvekyfgozsnzh",
+                    "InstanceType": "rfgtooxfirfuhbyi",
+                    "Sockets": 0,
+                    "TotalVCpus": 0
+                },
+                "HostRecovery": "epbvarbnqacihlvv",
+                "HostReservationId": "hhcckqdpgeujapno",
+                "Instances": [
+                    {
+                        "InstanceId": "myvkntikwdfxyaja",
+                        "InstanceType": "rssoayttcuvddxny",
+                        "OwnerId": "ogvsfswknrhlluza"
+                    }
+                ],
+                "MemberOfServiceLinkedResourceGroup": true,
+                "OutpostArn": "frdmcnmevvitqaem",
+                "OwnerId": "qivvocbrmsrhokkd",
+                "ReleaseTime": "ziceeddqxttgwwak",
+                "State": "awmzeknloppkmrzm",
+                "Tags": [
+                    {
+                        "Key": "yslugfttraevsfal",
+                        "Value": "ostnabkreppwmogg"
+                    }
+                ]
+            },
+            {
+                "AllocationTime": "hqfosqhwdbhvvqdp",
+                "AllowsMultipleInstanceTypes": "zuufvzbsrautytuc",
+                "AssetId": "enooklfanbwspykz",
+                "AutoPlacement": "yxldakttnyjbskek",
+                "AvailabilityZone": "udlbuqfdhixbebwy",
+                "AvailabilityZoneId": "vmtebekgeohtnrji",
+                "AvailableCapacity": {
+                    "AvailableInstanceCapacity": [
+                        {
+                            "AvailableCapacity": 0,
+                            "InstanceType": "dmgnbdjfrunichzf",
+                            "TotalCapacity": 0
+                        }
+                    ],
+                    "AvailableVCpus": 0
+                },
+                "ClientToken": "dcogawbwtcfhuucy",
+                "HostId": "maoarludlnsmegtb",
+                "HostMaintenance": "vhyjdhhquoqjxodp",
+                "HostProperties": {
+                    "Cores": 0,
+                    "InstanceFamily": "ovpebonaqxuzzxti",
+                    "InstanceType": "mvodipmfzpezfffl",
+                    "Sockets": 0,
+                    "TotalVCpus": 0
+                },
+                "HostRecovery": "csjpwnjwpmnzaijv",
+                "HostReservationId": "udwlbzmjnhsbtmyz",
+                "Instances": [
+                    {
+                        "InstanceId": "upinnqhdnymlombs",
+                        "InstanceType": "zzpzgkdxpesmeplk",
+                        "OwnerId": "imhuudwmazoigcdr"
+                    }
+                ],
+                "MemberOfServiceLinkedResourceGroup": true,
+                "OutpostArn": "jonfyoakzuczidxh",
+                "OwnerId": "rxmunjzbsqvdmuyb",
+                "ReleaseTime": "cndgkwrntwqgxfnr",
+                "State": "uzirrroxrmmjhzxg",
+                "Tags": [
+                    {
+                        "Key": "ypfcjjviqcxoankr",
+                        "Value": "vsxvoafmzkgqwrtg"
+                    }
+                ]
+            },
+            {
+                "AllocationTime": "abuepeqcpkhculii",
+                "AllowsMultipleInstanceTypes": "jiqmnieayefnktdy",
+                "AssetId": "zscxdfdibkblnknl",
+                "AutoPlacement": "ecdcafannthshqbs",
+                "AvailabilityZone": "xztwhxkjmakjgakl",
+                "AvailabilityZoneId": "dhdcngtichgzuvhk",
+                "AvailableCapacity": {
+                    "AvailableInstanceCapacity": [
+                        {
+                            "AvailableCapacity": 0,
+                            "InstanceType": "dinxrteslzwtvgwz",
+                            "TotalCapacity": 0
+                        }
+                    ],
+                    "AvailableVCpus": 0
+                },
+                "ClientToken": "dghignkztlnehzec",
+                "HostId": "vhjhfdzuacxwpxbi",
+                "HostMaintenance": "zlotfaczyinvujgt",
+                "HostProperties": {
+                    "Cores": 0,
+                    "InstanceFamily": "ujqrviexsfnnvmhi",
+                    "InstanceType": "kbmjcndlygfyfzrp",
+                    "Sockets": 0,
+                    "TotalVCpus": 0
+                },
+                "HostRecovery": "fyhfxmyveebpvknb",
+                "HostReservationId": "eegkeubrneubxjrx",
+                "Instances": [
+                    {
+                        "InstanceId": "hgbeanynxpbeetli",
+                        "InstanceType": "ebztssieutjovnxp",
+                        "OwnerId": "qtxkhkaslhfrgckq"
+                    }
+                ],
+                "MemberOfServiceLinkedResourceGroup": true,
+                "OutpostArn": "wpgftlurlwptjcpm",
+                "OwnerId": "yzicaatloqxpudwt",
+                "ReleaseTime": "ezhlretsdxezgrxp",
+                "State": "mpcvbfyzltfpenhb",
+                "Tags": [
+                    {
+                        "Key": "frbwafgtxscmnbzs",
+                        "Value": "jjtsmknnswzhzxdm"
+                    }
+                ]
+            },
+            {
+                "AllocationTime": "rxtrkkdhvtzvvzup",
+                "AllowsMultipleInstanceTypes": "sluekymneytggsrk",
+                "AssetId": "ofwiviyveenhqewz",
+                "AutoPlacement": "mklgklgqrcmkrine",
+                "AvailabilityZone": "gpjlhtcpcowutjfl",
+                "AvailabilityZoneId": "lxjblramofgtoonp",
+                "AvailableCapacity": {
+                    "AvailableInstanceCapacity": [
+                        {
+                            "AvailableCapacity": 0,
+                            "InstanceType": "pisbswiqfemcmrkw",
+                            "TotalCapacity": 0
+                        }
+                    ],
+                    "AvailableVCpus": 0
+                },
+                "ClientToken": "sqypnyyvvubwtgtq",
+                "HostId": "fobnqlfeafxmtxhk",
+                "HostMaintenance": "scdtomamoqlbdevw",
+                "HostProperties": {
+                    "Cores": 0,
+                    "InstanceFamily": "mnfjgpbnrajnvtez",
+                    "InstanceType": "ehhlekddrnbwnobm",
+                    "Sockets": 0,
+                    "TotalVCpus": 0
+                },
+                "HostRecovery": "twcobmadtvjplrwn",
+                "HostReservationId": "iibnsobgefssyntb",
+                "Instances": [
+                    {
+                        "InstanceId": "gvvosjmbcqhjplrg",
+                        "InstanceType": "xxfksxolsdxzldxj",
+                        "OwnerId": "tbcyzynqmtjwfxsz"
+                    }
+                ],
+                "MemberOfServiceLinkedResourceGroup": true,
+                "OutpostArn": "whxpcpconowtnhvq",
+                "OwnerId": "crrhervdhxvoahlg",
+                "ReleaseTime": "cfoumpyhmmytvess",
+                "State": "kwgxxydhpqrwogbt",
+                "Tags": [
+                    {
+                        "Key": "twuztfiwjtdpwpyt",
+                        "Value": "kgxbmfhpwzfrmvpz"
+                    }
+                ]
+            }
+        ],
+        "result_key": "Hosts"
+    },
+    "meta": {
+        "start": 1711115621.75026,
+        "end": 1711115629.466419,
+        "duration": 7.716165781021118,
+        "service": "ec2",
+        "type": "hosts"
+    }
+}

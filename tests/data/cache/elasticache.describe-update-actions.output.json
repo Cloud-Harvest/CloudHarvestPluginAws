@@ -1,0 +1,564 @@
+{
+    "input": {
+        "template": {
+            "ServiceUpdateName": "",
+            "ReplicationGroupIds": [
+                ""
+            ],
+            "CacheClusterIds": [
+                ""
+            ],
+            "Engine": "",
+            "ServiceUpdateStatus": [
+                "available"
+            ],
+            "ServiceUpdateTimeRange": {
+                "StartTime": "1970-01-01T00:00:00",
+                "EndTime": "1970-01-01T00:00:00"
+            },
+            "UpdateActionStatus": [
+                "not-applied"
+            ],
+            "ShowNodeLevelUpdateStatus": true,
+            "MaxRecords": 0,
+            "Marker": ""
+        },
+        "required": [],
+        "md5": "fa0c800c79dd20a6be7c426caef3b016",
+        "boto_command": "describe_update_actions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "ReplicationGroupId": "ReplicationGroupId",
+                "CacheClusterId": "CacheClusterId",
+                "ServiceUpdateName": "ServiceUpdateName",
+                "ServiceUpdateReleaseDate": "1970-01-01T00:00:00",
+                "ServiceUpdateSeverity": "ServiceUpdateSeverity",
+                "ServiceUpdateStatus": "ServiceUpdateStatus",
+                "ServiceUpdateRecommendedApplyByDate": "1970-01-01T00:00:00",
+                "ServiceUpdateType": "ServiceUpdateType",
+                "UpdateActionAvailableDate": "1970-01-01T00:00:00",
+                "UpdateActionStatus": "UpdateActionStatus",
+                "NodesUpdated": "NodesUpdated",
+                "UpdateActionStatusModifiedDate": "1970-01-01T00:00:00",
+                "SlaMet": "SlaMet",
+                "NodeGroupUpdateStatus": [
+                    {
+                        "NodeGroupId": "NodeGroupId",
+                        "NodeGroupMemberUpdateStatus": [
+                            {
+                                "CacheClusterId": "CacheClusterId",
+                                "CacheNodeId": "CacheNodeId",
+                                "NodeUpdateStatus": "NodeUpdateStatus",
+                                "NodeDeletionDate": "1970-01-01T00:00:00",
+                                "NodeUpdateStartDate": "1970-01-01T00:00:00",
+                                "NodeUpdateEndDate": "1970-01-01T00:00:00",
+                                "NodeUpdateInitiatedBy": "NodeUpdateInitiatedBy",
+                                "NodeUpdateInitiatedDate": "1970-01-01T00:00:00",
+                                "NodeUpdateStatusModifiedDate": "1970-01-01T00:00:00"
+                            }
+                        ]
+                    }
+                ],
+                "CacheNodeUpdateStatus": [
+                    {
+                        "CacheNodeId": "CacheNodeId",
+                        "NodeUpdateStatus": "NodeUpdateStatus",
+                        "NodeDeletionDate": "1970-01-01T00:00:00",
+                        "NodeUpdateStartDate": "1970-01-01T00:00:00",
+                        "NodeUpdateEndDate": "1970-01-01T00:00:00",
+                        "NodeUpdateInitiatedBy": "NodeUpdateInitiatedBy",
+                        "NodeUpdateInitiatedDate": "1970-01-01T00:00:00",
+                        "NodeUpdateStatusModifiedDate": "1970-01-01T00:00:00"
+                    }
+                ],
+                "EstimatedUpdateTime": "EstimatedUpdateTime",
+                "Engine": "Engine"
+            }
+        ],
+        "required": [],
+        "md5": "bc5bc746eebb22cf47dff2e0c0661903",
+        "randomized": [
+            {
+                "CacheClusterId": "rjtcwyqziqzmwliy",
+                "CacheNodeUpdateStatus": [
+                    {
+                        "CacheNodeId": "hfjsnzkqsntkbeyh",
+                        "NodeDeletionDate": "veykqkboyoyxdrch",
+                        "NodeUpdateEndDate": "dywxyujhxgnqvodb",
+                        "NodeUpdateInitiatedBy": "bsugzdkkjuvvigpt",
+                        "NodeUpdateInitiatedDate": "mkogzblshhikbefj",
+                        "NodeUpdateStartDate": "hqwbniaeevviiobk",
+                        "NodeUpdateStatus": "orjxzviechflarzn",
+                        "NodeUpdateStatusModifiedDate": "quznbiqkzrnzqgmn"
+                    }
+                ],
+                "Engine": "ykaipassfrdcpfva",
+                "EstimatedUpdateTime": "ngkxlnzpaxpwpdvx",
+                "NodeGroupUpdateStatus": [
+                    {
+                        "NodeGroupId": "fjzsrvperaaowpmc",
+                        "NodeGroupMemberUpdateStatus": [
+                            {
+                                "CacheClusterId": "yrjbwhctkzqeyfqp",
+                                "CacheNodeId": "bfxsxukijascmlpi",
+                                "NodeDeletionDate": "pixryomvkgbfhskv",
+                                "NodeUpdateEndDate": "atcylxwrcdtuciqp",
+                                "NodeUpdateInitiatedBy": "ufdppootzwoxyjuf",
+                                "NodeUpdateInitiatedDate": "kgaacwqsxyflvviy",
+                                "NodeUpdateStartDate": "mxvkmvfhbexosldp",
+                                "NodeUpdateStatus": "kvfqukywymnuntpp",
+                                "NodeUpdateStatusModifiedDate": "iqxxlchinlseaxnd"
+                            }
+                        ]
+                    }
+                ],
+                "NodesUpdated": "yqjfoitihytqumbg",
+                "ReplicationGroupId": "fybfkxxuyplspiuv",
+                "ServiceUpdateName": "cxcskoilvpkpfane",
+                "ServiceUpdateRecommendedApplyByDate": "nfhgmbusmagztzlj",
+                "ServiceUpdateReleaseDate": "rlggvpvphwjicyxt",
+                "ServiceUpdateSeverity": "qzzahppxxumqcqwj",
+                "ServiceUpdateStatus": "lewvdwjuuwuzizsd",
+                "ServiceUpdateType": "tvvgwxlbfqmsgwfb",
+                "SlaMet": "isimwoglbtrdmzzh",
+                "UpdateActionAvailableDate": "tvidzyzaryqkxfdb",
+                "UpdateActionStatus": "dmparxvmvbfhmdnl",
+                "UpdateActionStatusModifiedDate": "tvkdjexbcbvrnhbh"
+            },
+            {
+                "CacheClusterId": "lqagtnrjhnwkmikg",
+                "CacheNodeUpdateStatus": [
+                    {
+                        "CacheNodeId": "cwbuqfojdsbgzpxm",
+                        "NodeDeletionDate": "fugzlbfzaiyeadms",
+                        "NodeUpdateEndDate": "pkbwymwvpccmydsn",
+                        "NodeUpdateInitiatedBy": "kwgebkqcozfqrqat",
+                        "NodeUpdateInitiatedDate": "xncntcajkrxvogqy",
+                        "NodeUpdateStartDate": "zonapsyhswbiebqq",
+                        "NodeUpdateStatus": "kmwprljuncxfoeek",
+                        "NodeUpdateStatusModifiedDate": "htdnvyquwolkhbhc"
+                    }
+                ],
+                "Engine": "bqsbouvrdpikrgkp",
+                "EstimatedUpdateTime": "knqqsoqccpzrjycl",
+                "NodeGroupUpdateStatus": [
+                    {
+                        "NodeGroupId": "xbowitnrkrkqjtla",
+                        "NodeGroupMemberUpdateStatus": [
+                            {
+                                "CacheClusterId": "iwsrxkembfgkqqkz",
+                                "CacheNodeId": "yqzomuvijzrzdeco",
+                                "NodeDeletionDate": "glirfhahfadwvbur",
+                                "NodeUpdateEndDate": "pddvreqnhdculnna",
+                                "NodeUpdateInitiatedBy": "elizotjgrlxturpb",
+                                "NodeUpdateInitiatedDate": "wqbnahmllgmblfzv",
+                                "NodeUpdateStartDate": "laipnyibvowdjldb",
+                                "NodeUpdateStatus": "gzhzwikvdewgimxm",
+                                "NodeUpdateStatusModifiedDate": "yjjkfajkufnmqknl"
+                            }
+                        ]
+                    }
+                ],
+                "NodesUpdated": "xtyekcknfgpdgwdw",
+                "ReplicationGroupId": "hvzpdurbiwdkcfsr",
+                "ServiceUpdateName": "fzqmpaxzyggwxwml",
+                "ServiceUpdateRecommendedApplyByDate": "nufuxhxvrktpbnbd",
+                "ServiceUpdateReleaseDate": "aadywbmamvvcjgni",
+                "ServiceUpdateSeverity": "greistlkstsyindz",
+                "ServiceUpdateStatus": "dxkhxgxdobrqwpwi",
+                "ServiceUpdateType": "hijvwxzvefgautdt",
+                "SlaMet": "dxwjnprdyzslyxhu",
+                "UpdateActionAvailableDate": "dqmiydfynrvqbikv",
+                "UpdateActionStatus": "auympkupkhgykbhq",
+                "UpdateActionStatusModifiedDate": "bnnbehtwgegsndgo"
+            },
+            {
+                "CacheClusterId": "gufkdebauyjozrlq",
+                "CacheNodeUpdateStatus": [
+                    {
+                        "CacheNodeId": "viqdigefdmqwjddn",
+                        "NodeDeletionDate": "hsjipdljkgzevqex",
+                        "NodeUpdateEndDate": "xcwbilubomxywcnn",
+                        "NodeUpdateInitiatedBy": "qkytgspstaaynoqj",
+                        "NodeUpdateInitiatedDate": "cjfrzbkbzcyacyqp",
+                        "NodeUpdateStartDate": "hyzrxvptxnvhuxej",
+                        "NodeUpdateStatus": "ednmligwvwebscvi",
+                        "NodeUpdateStatusModifiedDate": "bwneqjmjvngblxgt"
+                    }
+                ],
+                "Engine": "pawxvjqmamrcihnl",
+                "EstimatedUpdateTime": "rjyfqbqjxkwjplni",
+                "NodeGroupUpdateStatus": [
+                    {
+                        "NodeGroupId": "auftpbozppjrmewy",
+                        "NodeGroupMemberUpdateStatus": [
+                            {
+                                "CacheClusterId": "tdylhwivtfrrhvnt",
+                                "CacheNodeId": "lhvnqawohbdguswt",
+                                "NodeDeletionDate": "vaocingomwdajcac",
+                                "NodeUpdateEndDate": "hvagdmkmfngoyryq",
+                                "NodeUpdateInitiatedBy": "nagosezkoxljtqcq",
+                                "NodeUpdateInitiatedDate": "hdlvgpfwfgupxwzo",
+                                "NodeUpdateStartDate": "ocyayetpkuzpoism",
+                                "NodeUpdateStatus": "ktkqyfuvhozkwtim",
+                                "NodeUpdateStatusModifiedDate": "ncpukmwkdqpwrnss"
+                            }
+                        ]
+                    }
+                ],
+                "NodesUpdated": "engpgayedrondcgi",
+                "ReplicationGroupId": "qoxvuumeoihbuctc",
+                "ServiceUpdateName": "vcbaypirqffffwpr",
+                "ServiceUpdateRecommendedApplyByDate": "ishezacnkltrpenc",
+                "ServiceUpdateReleaseDate": "enqulfioskqgxbno",
+                "ServiceUpdateSeverity": "utuhubslhfbtjuul",
+                "ServiceUpdateStatus": "xuqrayqfdnftccpg",
+                "ServiceUpdateType": "tgfdrxqumlfivfid",
+                "SlaMet": "wppepbirshzvfhjr",
+                "UpdateActionAvailableDate": "tphndkmpooitpvgp",
+                "UpdateActionStatus": "amaxopbimtckedid",
+                "UpdateActionStatusModifiedDate": "ggtaejcqnouautei"
+            },
+            {
+                "CacheClusterId": "yundtptymcnhhipi",
+                "CacheNodeUpdateStatus": [
+                    {
+                        "CacheNodeId": "jdadaqfisgsuixlh",
+                        "NodeDeletionDate": "qnsjllsxrxparlfi",
+                        "NodeUpdateEndDate": "jfxyyktasnjaljzt",
+                        "NodeUpdateInitiatedBy": "yuqcqrtwaovnnqtl",
+                        "NodeUpdateInitiatedDate": "bbyomjzvjkuaeuzr",
+                        "NodeUpdateStartDate": "ipmtqtfhejgdjqwy",
+                        "NodeUpdateStatus": "cojexfveqhnantur",
+                        "NodeUpdateStatusModifiedDate": "clbydmfncrebaity"
+                    }
+                ],
+                "Engine": "bnsetuztdradzbes",
+                "EstimatedUpdateTime": "mcmhxcpetbyudjzn",
+                "NodeGroupUpdateStatus": [
+                    {
+                        "NodeGroupId": "jksftpzzbhgggpxt",
+                        "NodeGroupMemberUpdateStatus": [
+                            {
+                                "CacheClusterId": "bsnkdqkrwcwcdywt",
+                                "CacheNodeId": "ijrjsrrctgppgzam",
+                                "NodeDeletionDate": "vbymnxolliivlqsh",
+                                "NodeUpdateEndDate": "ruwgljcodisniwfa",
+                                "NodeUpdateInitiatedBy": "qyrjeuauerrqxpkx",
+                                "NodeUpdateInitiatedDate": "daguwdoejltocriu",
+                                "NodeUpdateStartDate": "nsmhkbpibjgjinev",
+                                "NodeUpdateStatus": "gvfsazrrbtesmirv",
+                                "NodeUpdateStatusModifiedDate": "nkgnamiowkwqgeik"
+                            }
+                        ]
+                    }
+                ],
+                "NodesUpdated": "jjkxoncoowsiyrfo",
+                "ReplicationGroupId": "owwntfyjclgnslsc",
+                "ServiceUpdateName": "zylwdolmstwdgacy",
+                "ServiceUpdateRecommendedApplyByDate": "fljntzstvzhjrtld",
+                "ServiceUpdateReleaseDate": "xrbpccrwvixysbcy",
+                "ServiceUpdateSeverity": "casmxtxxweuadrpb",
+                "ServiceUpdateStatus": "iongmfwzljlpwhgw",
+                "ServiceUpdateType": "ledfgaqsscfypchm",
+                "SlaMet": "lfleqnjqtbetovvj",
+                "UpdateActionAvailableDate": "qlvrqyrydgfuxtga",
+                "UpdateActionStatus": "jzvfqjcqjewtedsa",
+                "UpdateActionStatusModifiedDate": "ywgaaktptpifhkyn"
+            },
+            {
+                "CacheClusterId": "rlkypytpsttmtyjd",
+                "CacheNodeUpdateStatus": [
+                    {
+                        "CacheNodeId": "dxwhbzjtmtpsttpw",
+                        "NodeDeletionDate": "cfiaxfuktytgwucu",
+                        "NodeUpdateEndDate": "xlvlkyickhsodjls",
+                        "NodeUpdateInitiatedBy": "zncmhunjgaoepter",
+                        "NodeUpdateInitiatedDate": "tnvzwuzhmcydnciq",
+                        "NodeUpdateStartDate": "bgdclmrhkjlfebhd",
+                        "NodeUpdateStatus": "amwuphaomjoupyom",
+                        "NodeUpdateStatusModifiedDate": "pgnavbxarmrvhbci"
+                    }
+                ],
+                "Engine": "uittfwzoxpkoldkr",
+                "EstimatedUpdateTime": "pbkpuelmvmeojaum",
+                "NodeGroupUpdateStatus": [
+                    {
+                        "NodeGroupId": "jxokwhwrrqftnxjl",
+                        "NodeGroupMemberUpdateStatus": [
+                            {
+                                "CacheClusterId": "tqdkrhwfdvpjrdzi",
+                                "CacheNodeId": "auvjtfdajoxrdkig",
+                                "NodeDeletionDate": "thnkdbqinsknzmby",
+                                "NodeUpdateEndDate": "jbbwprrpqzonngqr",
+                                "NodeUpdateInitiatedBy": "jocnymvokunjjxnx",
+                                "NodeUpdateInitiatedDate": "qivatamddxhtnmvp",
+                                "NodeUpdateStartDate": "nxfkejydordxakhf",
+                                "NodeUpdateStatus": "lbsmvcidlvhiydxp",
+                                "NodeUpdateStatusModifiedDate": "pozefysruftgsbrl"
+                            }
+                        ]
+                    }
+                ],
+                "NodesUpdated": "xtnbujaazxbkuyzl",
+                "ReplicationGroupId": "liwbrhlimudhebty",
+                "ServiceUpdateName": "dsgdnxzywmutazmr",
+                "ServiceUpdateRecommendedApplyByDate": "ecgxfetpqqzlaeap",
+                "ServiceUpdateReleaseDate": "mpfvuukiddfurfcb",
+                "ServiceUpdateSeverity": "fgowvlahgrzcgosg",
+                "ServiceUpdateStatus": "peybdtfvrintazmr",
+                "ServiceUpdateType": "qynshcvtqhxgnjmv",
+                "SlaMet": "thazybqznsudotvf",
+                "UpdateActionAvailableDate": "mqeqdwbzsdfzkrwm",
+                "UpdateActionStatus": "sxywyaaoqjjmhlls",
+                "UpdateActionStatusModifiedDate": "hwazkfrrepkpvapq"
+            },
+            {
+                "CacheClusterId": "tcdcekgvhlflocib",
+                "CacheNodeUpdateStatus": [
+                    {
+                        "CacheNodeId": "vonqwwzaqalvrxmy",
+                        "NodeDeletionDate": "vksleefmryvydulo",
+                        "NodeUpdateEndDate": "fhajqblcvutjncnf",
+                        "NodeUpdateInitiatedBy": "zxnjlccdlzfikfxw",
+                        "NodeUpdateInitiatedDate": "jhxdziawdxfhlxdv",
+                        "NodeUpdateStartDate": "pzmrxswjprzyqhah",
+                        "NodeUpdateStatus": "gbzwmcsdaqkmfejw",
+                        "NodeUpdateStatusModifiedDate": "tmwaeiyqscpqiljo"
+                    }
+                ],
+                "Engine": "fiqieanqfmsggmuz",
+                "EstimatedUpdateTime": "qxhmckwtkcydrfnq",
+                "NodeGroupUpdateStatus": [
+                    {
+                        "NodeGroupId": "xwdsmjeoyampswon",
+                        "NodeGroupMemberUpdateStatus": [
+                            {
+                                "CacheClusterId": "jhykaaquztvwkhxd",
+                                "CacheNodeId": "xnxrpcbmysxmepwj",
+                                "NodeDeletionDate": "ayuyuksjgukgrtfi",
+                                "NodeUpdateEndDate": "dtkirvivgyjwzzvv",
+                                "NodeUpdateInitiatedBy": "wvtueaqjvggakqxa",
+                                "NodeUpdateInitiatedDate": "csyyarookzkraypb",
+                                "NodeUpdateStartDate": "lsfsuhanlzxseplf",
+                                "NodeUpdateStatus": "nwxsgoevabxjezhn",
+                                "NodeUpdateStatusModifiedDate": "upzjjhvtyebzxmey"
+                            }
+                        ]
+                    }
+                ],
+                "NodesUpdated": "huxyoikxxhqyqrrp",
+                "ReplicationGroupId": "vwyocimdiojenqrt",
+                "ServiceUpdateName": "knjypwtlzxgojgoa",
+                "ServiceUpdateRecommendedApplyByDate": "yoxxcuynwlepvewp",
+                "ServiceUpdateReleaseDate": "azwvkijlrttamdxa",
+                "ServiceUpdateSeverity": "ogxapfattmpirgzk",
+                "ServiceUpdateStatus": "ehmacxgzwmtmmrle",
+                "ServiceUpdateType": "zwxwrdxuyvsrnmae",
+                "SlaMet": "umknypiyuscbcbib",
+                "UpdateActionAvailableDate": "wkdictkoghmvlxzq",
+                "UpdateActionStatus": "telslfubkzjjmtop",
+                "UpdateActionStatusModifiedDate": "eicssnauzumszjmy"
+            },
+            {
+                "CacheClusterId": "dvyyxjniqcbewdkc",
+                "CacheNodeUpdateStatus": [
+                    {
+                        "CacheNodeId": "fyocyexttdisbxor",
+                        "NodeDeletionDate": "cahtnyfgklzdzzro",
+                        "NodeUpdateEndDate": "hnuuuriktqlxpaen",
+                        "NodeUpdateInitiatedBy": "iwcxgsfeodtgutna",
+                        "NodeUpdateInitiatedDate": "shfqhumubuhzbxpl",
+                        "NodeUpdateStartDate": "ihvrhivzvsplwjah",
+                        "NodeUpdateStatus": "cjksytngrwsxtlbq",
+                        "NodeUpdateStatusModifiedDate": "impmylimcnceexuh"
+                    }
+                ],
+                "Engine": "stroqbwhyuunxeze",
+                "EstimatedUpdateTime": "nvzkxysqigxqicxz",
+                "NodeGroupUpdateStatus": [
+                    {
+                        "NodeGroupId": "cfylefqcweanveca",
+                        "NodeGroupMemberUpdateStatus": [
+                            {
+                                "CacheClusterId": "ndwmzhzhjgeahyyq",
+                                "CacheNodeId": "musnqfhiwmczjbys",
+                                "NodeDeletionDate": "rwhvuazjqhfsoytv",
+                                "NodeUpdateEndDate": "acuqqouncfogyocm",
+                                "NodeUpdateInitiatedBy": "dqbiwiiggwqogaqn",
+                                "NodeUpdateInitiatedDate": "ylxowgrxqyvypjim",
+                                "NodeUpdateStartDate": "cdevbvdnypkpsezm",
+                                "NodeUpdateStatus": "kxydzpykrpjsazrj",
+                                "NodeUpdateStatusModifiedDate": "dgpjlbuiuhkxbfkd"
+                            }
+                        ]
+                    }
+                ],
+                "NodesUpdated": "bxanfgbdiphbzazg",
+                "ReplicationGroupId": "uhdgxtjdxlwchenq",
+                "ServiceUpdateName": "hhaogqcyvdpemorc",
+                "ServiceUpdateRecommendedApplyByDate": "wdayymqxbdkblhqo",
+                "ServiceUpdateReleaseDate": "aaurxwfgieqhiosx",
+                "ServiceUpdateSeverity": "avtnmcskpgxiakce",
+                "ServiceUpdateStatus": "sbgsttlwawgyxdln",
+                "ServiceUpdateType": "tbgiwqpyiwyobspb",
+                "SlaMet": "kkansvtmlyhxssyv",
+                "UpdateActionAvailableDate": "barwyzgwftviymhp",
+                "UpdateActionStatus": "pwbclpurgjofueom",
+                "UpdateActionStatusModifiedDate": "febnmlimsntczwvw"
+            },
+            {
+                "CacheClusterId": "bbpgkvuanxfzntdm",
+                "CacheNodeUpdateStatus": [
+                    {
+                        "CacheNodeId": "seqhfisetbamuoai",
+                        "NodeDeletionDate": "lwuaiswlbygajlzg",
+                        "NodeUpdateEndDate": "bjxianbwcrnavyrc",
+                        "NodeUpdateInitiatedBy": "bzzteqfuwvtbfnix",
+                        "NodeUpdateInitiatedDate": "cqmxirhdwltoegex",
+                        "NodeUpdateStartDate": "kqeyftxhjqxqirqs",
+                        "NodeUpdateStatus": "ehnihkhzwecctatm",
+                        "NodeUpdateStatusModifiedDate": "jjmcvzwledtkouyj"
+                    }
+                ],
+                "Engine": "ryusgkvbbrcnveak",
+                "EstimatedUpdateTime": "jevddealxgbxnldy",
+                "NodeGroupUpdateStatus": [
+                    {
+                        "NodeGroupId": "nkwjhqdoopbmfher",
+                        "NodeGroupMemberUpdateStatus": [
+                            {
+                                "CacheClusterId": "nsonfwtbvbhjeyqx",
+                                "CacheNodeId": "thehbjhjmiaqhnkd",
+                                "NodeDeletionDate": "dbecemlspygifaen",
+                                "NodeUpdateEndDate": "oflsniotshkluore",
+                                "NodeUpdateInitiatedBy": "rjcyxyditnitjoxf",
+                                "NodeUpdateInitiatedDate": "knaplzaiiygehdyd",
+                                "NodeUpdateStartDate": "mzyuuyiokobsgwku",
+                                "NodeUpdateStatus": "tzzmqehitedfhdsa",
+                                "NodeUpdateStatusModifiedDate": "vbjeyrdbfbhtyqvb"
+                            }
+                        ]
+                    }
+                ],
+                "NodesUpdated": "bjkgaxmnpqkaapso",
+                "ReplicationGroupId": "wulvdmzsnxbqncjm",
+                "ServiceUpdateName": "ufmeawfpyswhvihm",
+                "ServiceUpdateRecommendedApplyByDate": "jkqvdctclvchnybi",
+                "ServiceUpdateReleaseDate": "mdksiradnljkebcl",
+                "ServiceUpdateSeverity": "shsmprddhdgrnphp",
+                "ServiceUpdateStatus": "uvbhhicqrtlaedom",
+                "ServiceUpdateType": "entdksscmzpjaygn",
+                "SlaMet": "pughyyhbzwnpxuvb",
+                "UpdateActionAvailableDate": "epzkkavahankbrxr",
+                "UpdateActionStatus": "pxnhrrzdggnwxbkg",
+                "UpdateActionStatusModifiedDate": "vttoebzqjkxtajxn"
+            },
+            {
+                "CacheClusterId": "bfhlvkryywbbxgay",
+                "CacheNodeUpdateStatus": [
+                    {
+                        "CacheNodeId": "lkfrqcxjgkuzmvwl",
+                        "NodeDeletionDate": "kmmgrbygztqcaces",
+                        "NodeUpdateEndDate": "lfcbqoxnsdwyrmpf",
+                        "NodeUpdateInitiatedBy": "khkcphnqlewuaktz",
+                        "NodeUpdateInitiatedDate": "gpyugtdkoladpvlk",
+                        "NodeUpdateStartDate": "mgvazvzzjjsyrrjj",
+                        "NodeUpdateStatus": "rfmwbmsmnzhhewdb",
+                        "NodeUpdateStatusModifiedDate": "ndruoqamlniaojvw"
+                    }
+                ],
+                "Engine": "ixqacssdbeeusxna",
+                "EstimatedUpdateTime": "uzhvrmttjgonehcu",
+                "NodeGroupUpdateStatus": [
+                    {
+                        "NodeGroupId": "kwhmolskvkofiaxy",
+                        "NodeGroupMemberUpdateStatus": [
+                            {
+                                "CacheClusterId": "oziqhiirftnmyjwu",
+                                "CacheNodeId": "gfymqadpebyrezag",
+                                "NodeDeletionDate": "zdvweshdrrldlage",
+                                "NodeUpdateEndDate": "kmqldyasyxrjwubf",
+                                "NodeUpdateInitiatedBy": "xoujgthieoyxhjpd",
+                                "NodeUpdateInitiatedDate": "enyulliubdavtavn",
+                                "NodeUpdateStartDate": "hhlxbgswfbyiwawd",
+                                "NodeUpdateStatus": "qruanztprcadazhq",
+                                "NodeUpdateStatusModifiedDate": "flbcpdygkzeybpyq"
+                            }
+                        ]
+                    }
+                ],
+                "NodesUpdated": "kczmpbiacbbolkwf",
+                "ReplicationGroupId": "zsvulggczfbhyqfr",
+                "ServiceUpdateName": "hkkveesspcvrsfga",
+                "ServiceUpdateRecommendedApplyByDate": "ltqseqyevzofywye",
+                "ServiceUpdateReleaseDate": "ujinnugngiswcugp",
+                "ServiceUpdateSeverity": "niuntgkpugyiyofl",
+                "ServiceUpdateStatus": "oifjuizripsnweaz",
+                "ServiceUpdateType": "pmijnujwldxoivml",
+                "SlaMet": "atxrwgnkzizdrcmb",
+                "UpdateActionAvailableDate": "fknuzccxayfjonuc",
+                "UpdateActionStatus": "cdmtwqvcsxhudvbx",
+                "UpdateActionStatusModifiedDate": "chehgviwaogpomoe"
+            },
+            {
+                "CacheClusterId": "iyfwwdjcnlywtbfl",
+                "CacheNodeUpdateStatus": [
+                    {
+                        "CacheNodeId": "xswwdkvsaajwegvd",
+                        "NodeDeletionDate": "ouimiiqsdjcasvmj",
+                        "NodeUpdateEndDate": "kfhobiaqmndzoqzd",
+                        "NodeUpdateInitiatedBy": "gkwxfbovowhzmapm",
+                        "NodeUpdateInitiatedDate": "syyinpzyqwyollzq",
+                        "NodeUpdateStartDate": "grfafdlmcovioohu",
+                        "NodeUpdateStatus": "aaubsdlgbgvcdhoq",
+                        "NodeUpdateStatusModifiedDate": "zuzgxshjphuwuewt"
+                    }
+                ],
+                "Engine": "fkzgdoefkhnrcaqx",
+                "EstimatedUpdateTime": "yviumznigpcujaik",
+                "NodeGroupUpdateStatus": [
+                    {
+                        "NodeGroupId": "nbzbqwqrndijysid",
+                        "NodeGroupMemberUpdateStatus": [
+                            {
+                                "CacheClusterId": "qvnjdgvdsqtkqeag",
+                                "CacheNodeId": "eogrlvuzwogogoob",
+                                "NodeDeletionDate": "syzuwtshvjthnrgm",
+                                "NodeUpdateEndDate": "vaqvvtujsbnhjnts",
+                                "NodeUpdateInitiatedBy": "aqxgycsoxqadvdbn",
+                                "NodeUpdateInitiatedDate": "xnhcnqgvsgqsyfmz",
+                                "NodeUpdateStartDate": "crpnrkhuxusgrwba",
+                                "NodeUpdateStatus": "xsyzjctjhmmpjsrx",
+                                "NodeUpdateStatusModifiedDate": "jeixhchdtlwvjcqy"
+                            }
+                        ]
+                    }
+                ],
+                "NodesUpdated": "ccmtgqebhnbycmxe",
+                "ReplicationGroupId": "oekebyxeonwdckyb",
+                "ServiceUpdateName": "fuadnsnuptcsmknk",
+                "ServiceUpdateRecommendedApplyByDate": "glwdzfowtnovwdvw",
+                "ServiceUpdateReleaseDate": "vzyzkvmzcirdagkz",
+                "ServiceUpdateSeverity": "mdetkicbfvrevqur",
+                "ServiceUpdateStatus": "xfviskqdruuvygur",
+                "ServiceUpdateType": "lvisxtobpgupxncq",
+                "SlaMet": "rffpnqingkrgfobe",
+                "UpdateActionAvailableDate": "jplszmokyfcbwztd",
+                "UpdateActionStatus": "ntmevqitkpsigdur",
+                "UpdateActionStatusModifiedDate": "ubfjnhtkvytqyynn"
+            }
+        ],
+        "result_key": "UpdateActions"
+    },
+    "meta": {
+        "start": 1711115711.46659,
+        "end": 1711115717.128538,
+        "duration": 5.661957025527954,
+        "service": "elasticache",
+        "type": "update_actions"
+    }
+}

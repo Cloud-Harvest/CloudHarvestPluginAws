@@ -1,0 +1,109 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": "",
+            "SnapshotIds": [
+                ""
+            ],
+            "DryRun": true
+        },
+        "required": [],
+        "md5": "fb702978cb6908c189834b045103462f",
+        "boto_command": "list_snapshots_in_recycle_bin",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "SnapshotId": "SnapshotId",
+                "RecycleBinEnterTime": "1970-01-01T00:00:00",
+                "RecycleBinExitTime": "1970-01-01T00:00:00",
+                "Description": "Description",
+                "VolumeId": "VolumeId"
+            }
+        ],
+        "required": [],
+        "md5": "07536dd98412464af36fe1d7107afc7b",
+        "randomized": [
+            {
+                "Description": "lyhtpsswyywlimha",
+                "RecycleBinEnterTime": "fasmdqenicqgslqj",
+                "RecycleBinExitTime": "hkpvfecoqobnfsdr",
+                "SnapshotId": "kswgazrvkzupxyfh",
+                "VolumeId": "rbezfmmxzwfazdef"
+            },
+            {
+                "Description": "mfurvddjfdsjocld",
+                "RecycleBinEnterTime": "fbmrfvducldeuyge",
+                "RecycleBinExitTime": "mlhrqpssyoqvsehx",
+                "SnapshotId": "ngllbdsmxxwxaxxp",
+                "VolumeId": "gzpfvrdulpriulru"
+            },
+            {
+                "Description": "jfatfofgtuzvcysq",
+                "RecycleBinEnterTime": "rrrzvwwkvcyfyscr",
+                "RecycleBinExitTime": "hxqewdvenfiuplqu",
+                "SnapshotId": "sbaovxejywzbdotg",
+                "VolumeId": "ngfcaizfrqkyfyyu"
+            },
+            {
+                "Description": "tzfemwusuegbubxz",
+                "RecycleBinEnterTime": "mbcmpdjrbvhtxcbk",
+                "RecycleBinExitTime": "telnxhpwmusdhymy",
+                "SnapshotId": "vszhcbqwcsmqwewn",
+                "VolumeId": "galxoxpaayfxxwig"
+            },
+            {
+                "Description": "zspzjpgdkqxjynkm",
+                "RecycleBinEnterTime": "inkfdndsjdrhtzos",
+                "RecycleBinExitTime": "sqnvrxxzbgvvgoql",
+                "SnapshotId": "pvwocgsoiqucnspg",
+                "VolumeId": "tmpmzdnzcwzznkoj"
+            },
+            {
+                "Description": "bdydcundbwomxfxk",
+                "RecycleBinEnterTime": "szlinfkfqehhbsns",
+                "RecycleBinExitTime": "xmxjdqlpljzpgrcv",
+                "SnapshotId": "yrzkeivjziajitpj",
+                "VolumeId": "zbgxodbzibrxmrpu"
+            },
+            {
+                "Description": "reckhopnqwdbnqih",
+                "RecycleBinEnterTime": "nshnnvotwnvblpoe",
+                "RecycleBinExitTime": "tbyqdozpknaadnvt",
+                "SnapshotId": "pyfpfxwnuafffidb",
+                "VolumeId": "hozbgbhogbyxxpfm"
+            },
+            {
+                "Description": "wcocdhydjswsufho",
+                "RecycleBinEnterTime": "cphkzqtkooxpreya",
+                "RecycleBinExitTime": "wvroezfzhobdaehf",
+                "SnapshotId": "layvbvabdgtldsrk",
+                "VolumeId": "hwxubrlxphhfqtph"
+            },
+            {
+                "Description": "bhtfwngiawrhupam",
+                "RecycleBinEnterTime": "zwsiaslpmalnrxds",
+                "RecycleBinExitTime": "ahnuzeepvcnalafg",
+                "SnapshotId": "zrkstisjgzukvaml",
+                "VolumeId": "txpablmjljhbwdfk"
+            },
+            {
+                "Description": "mlwvdaybrjwhwgst",
+                "RecycleBinEnterTime": "crbfxynvbwhryllq",
+                "RecycleBinExitTime": "tlvexbrptnwglxrn",
+                "SnapshotId": "jnsgolcssldnwfir",
+                "VolumeId": "shshhxkmstiaegmi"
+            }
+        ],
+        "result_key": "Snapshots"
+    },
+    "meta": {
+        "start": 1711115682.186599,
+        "end": 1711115690.798678,
+        "duration": 8.612091064453125,
+        "service": "ec2",
+        "type": "snapshots_in_recycle_bin"
+    }
+}

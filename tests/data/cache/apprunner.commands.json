@@ -1,0 +1,17 @@
+[
+    "apprunner.describe-auto-scaling-configuration",
+    "apprunner.describe-custom-domains",
+    "apprunner.describe-observability-configuration",
+    "apprunner.describe-service",
+    "apprunner.describe-vpc-connector",
+    "apprunner.describe-vpc-ingress-connection",
+    "apprunner.list-auto-scaling-configurations",
+    "apprunner.list-connections",
+    "apprunner.list-observability-configurations",
+    "apprunner.list-operations",
+    "apprunner.list-services",
+    "apprunner.list-services-for-auto-scaling-configuration",
+    "apprunner.list-tags-for-resource",
+    "apprunner.list-vpc-connectors",
+    "apprunner.list-vpc-ingress-connections"
+]

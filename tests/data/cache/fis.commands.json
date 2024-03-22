@@ -1,0 +1,16 @@
+[
+    "fis.get-action",
+    "fis.get-experiment",
+    "fis.get-experiment-target-account-configuration",
+    "fis.get-experiment-template",
+    "fis.get-target-account-configuration",
+    "fis.get-target-resource-type",
+    "fis.list-actions",
+    "fis.list-experiment-resolved-targets",
+    "fis.list-experiment-target-account-configurations",
+    "fis.list-experiment-templates",
+    "fis.list-experiments",
+    "fis.list-tags-for-resource",
+    "fis.list-target-account-configurations",
+    "fis.list-target-resource-types"
+]

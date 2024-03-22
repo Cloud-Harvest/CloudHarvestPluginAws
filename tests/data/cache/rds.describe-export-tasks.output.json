@@ -1,0 +1,259 @@
+{
+    "input": {
+        "template": {
+            "ExportTaskIdentifier": "",
+            "SourceArn": "",
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "Marker": "",
+            "MaxRecords": 0,
+            "SourceType": "SNAPSHOT"
+        },
+        "required": [],
+        "md5": "44a618b5b30c431d4e50b7c17a42e51f",
+        "boto_command": "describe_export_tasks",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "ExportTaskIdentifier": "ExportTaskIdentifier",
+                "SourceArn": "SourceArn",
+                "ExportOnly": [
+                    "String"
+                ],
+                "SnapshotTime": "1970-01-01T00:00:00",
+                "TaskStartTime": "1970-01-01T00:00:00",
+                "TaskEndTime": "1970-01-01T00:00:00",
+                "S3Bucket": "S3Bucket",
+                "S3Prefix": "S3Prefix",
+                "IamRoleArn": "IamRoleArn",
+                "KmsKeyId": "KmsKeyId",
+                "Status": "Status",
+                "PercentProgress": 0,
+                "TotalExtractedDataInGB": 0,
+                "FailureCause": "FailureCause",
+                "WarningMessage": "WarningMessage",
+                "SourceType": "SourceType"
+            }
+        ],
+        "required": [],
+        "md5": "676ab98c27cec198d6b9dbeef4b777e3",
+        "randomized": [
+            {
+                "ExportOnly": [
+                    "zrryddxlvbkhdwfw"
+                ],
+                "ExportTaskIdentifier": "zpjwfmcjwleitipt",
+                "FailureCause": "faogngmhdkftddye",
+                "IamRoleArn": "wpirrwgsvogmgarq",
+                "KmsKeyId": "pswjmmkknzoirvsm",
+                "PercentProgress": 0,
+                "S3Bucket": "iyouooxbrjhkjnyy",
+                "S3Prefix": "nfdkcogrwistjtkk",
+                "SnapshotTime": "nzznwfprordimwwx",
+                "SourceArn": "hwcfazavgxnbajop",
+                "SourceType": "ljnsbofrslvvmubf",
+                "Status": "fcrvwjzhafqegfpq",
+                "TaskEndTime": "ghjnmaappjpegyem",
+                "TaskStartTime": "ttatdjfwqzwdypzc",
+                "TotalExtractedDataInGB": 0,
+                "WarningMessage": "vrrmsrzvyzhaodbx"
+            },
+            {
+                "ExportOnly": [
+                    "nbbrmneprhqfzlyn"
+                ],
+                "ExportTaskIdentifier": "ttadfnklusmgshgo",
+                "FailureCause": "aqfowtwvygfmzjpj",
+                "IamRoleArn": "hdurrecltoqvsupu",
+                "KmsKeyId": "vhyfvsccavcrgpwz",
+                "PercentProgress": 0,
+                "S3Bucket": "vspfbvfqeqqvvthe",
+                "S3Prefix": "orvxdjxbtnlyuuej",
+                "SnapshotTime": "rahstxezfcbwufft",
+                "SourceArn": "kgzbiqilepmmeuiq",
+                "SourceType": "yasnokvcjnhkgify",
+                "Status": "fiuunsvyyltborip",
+                "TaskEndTime": "dcricwamjuontdqn",
+                "TaskStartTime": "wkqqmiwyluafdmmh",
+                "TotalExtractedDataInGB": 0,
+                "WarningMessage": "hiyjrkeortkihreq"
+            },
+            {
+                "ExportOnly": [
+                    "uisdxzcrhrjblyur"
+                ],
+                "ExportTaskIdentifier": "ikvjvlmylamgttxh",
+                "FailureCause": "xqeveuyidfhnsdru",
+                "IamRoleArn": "qcamotgvzyjimygi",
+                "KmsKeyId": "awrprkacqgzpmzgi",
+                "PercentProgress": 0,
+                "S3Bucket": "eiwutqszibxrpmfg",
+                "S3Prefix": "ogakiphqpxwkaket",
+                "SnapshotTime": "shwzjmthgznpcidr",
+                "SourceArn": "dxtewecjubtkxzbc",
+                "SourceType": "nbqmcxnjjvjjyjrg",
+                "Status": "pxliumjqikkwgmkl",
+                "TaskEndTime": "psuzzsikfhpairma",
+                "TaskStartTime": "pjzpcuclotrfegif",
+                "TotalExtractedDataInGB": 0,
+                "WarningMessage": "egtnzjmfgnsfajmg"
+            },
+            {
+                "ExportOnly": [
+                    "fjqebyhfopfaayfq"
+                ],
+                "ExportTaskIdentifier": "eckwovbghupbxvww",
+                "FailureCause": "rxvpyrdmciqpoapx",
+                "IamRoleArn": "nfnhjpcchkvcdfwo",
+                "KmsKeyId": "ayewayqeraiohpwr",
+                "PercentProgress": 0,
+                "S3Bucket": "adscoabivgepnuez",
+                "S3Prefix": "ybndbafxyabqblwj",
+                "SnapshotTime": "hqhxlcqiozqgjecb",
+                "SourceArn": "fwqejsxlvoxpehyz",
+                "SourceType": "olnxbdsbyihwykcc",
+                "Status": "nauudjchumnouyke",
+                "TaskEndTime": "ehvpdvvzasogyjfa",
+                "TaskStartTime": "stwzdguzcmowfxyv",
+                "TotalExtractedDataInGB": 0,
+                "WarningMessage": "wbklpnprxbfqfimp"
+            },
+            {
+                "ExportOnly": [
+                    "ngvptakvaygoklad"
+                ],
+                "ExportTaskIdentifier": "mevvknczzcwwjmbh",
+                "FailureCause": "uvtaiazuvuxkiegk",
+                "IamRoleArn": "dvzwmeymgwqnxikd",
+                "KmsKeyId": "kfnxqpyjemcsgika",
+                "PercentProgress": 0,
+                "S3Bucket": "xsbtfapuawqyujlj",
+                "S3Prefix": "pgqqavjpkgqqpywq",
+                "SnapshotTime": "wetwyzihzfrmzoyh",
+                "SourceArn": "driustceylorfpev",
+                "SourceType": "unnaihduvmtwrfgg",
+                "Status": "zuijntpcjeadmgxs",
+                "TaskEndTime": "wjzjufogtzmuhzmr",
+                "TaskStartTime": "axsczsuilmeqogdo",
+                "TotalExtractedDataInGB": 0,
+                "WarningMessage": "smmwlkupkerpgnis"
+            },
+            {
+                "ExportOnly": [
+                    "tgylzqfgzmpihxlg"
+                ],
+                "ExportTaskIdentifier": "lpwtoxvkznefocme",
+                "FailureCause": "xczoiwzsakfkecpl",
+                "IamRoleArn": "lcpbijsfzvfbinpu",
+                "KmsKeyId": "qdkxhzibzsahjjur",
+                "PercentProgress": 0,
+                "S3Bucket": "jmnxnxfdxmxuchtt",
+                "S3Prefix": "zetiqaxvuirycwpw",
+                "SnapshotTime": "reabankdvmtlevup",
+                "SourceArn": "lrkesjljdsuuwydr",
+                "SourceType": "bwukeefdopkijooe",
+                "Status": "koraemlbxcumkqwg",
+                "TaskEndTime": "fbmngzrdqiezgwjw",
+                "TaskStartTime": "yvofpnpzluabrhyg",
+                "TotalExtractedDataInGB": 0,
+                "WarningMessage": "vqgkfjyinebadswo"
+            },
+            {
+                "ExportOnly": [
+                    "kkmfdtrextozxumo"
+                ],
+                "ExportTaskIdentifier": "ffwbikokasevqjrf",
+                "FailureCause": "toruzzppsbhcwqoj",
+                "IamRoleArn": "hmzxngvbenrmivrc",
+                "KmsKeyId": "vnnuhuecpnkvswcx",
+                "PercentProgress": 0,
+                "S3Bucket": "orvrhvtzfnizbach",
+                "S3Prefix": "kizphsrddxntoajw",
+                "SnapshotTime": "hgjsnlsaehqrjimq",
+                "SourceArn": "syltsnhctckruoqw",
+                "SourceType": "iebbwvlpllmlrzao",
+                "Status": "ogoxzbcgtsudfsti",
+                "TaskEndTime": "jucnxaktvjrsmbte",
+                "TaskStartTime": "lkgguiclvznrxbif",
+                "TotalExtractedDataInGB": 0,
+                "WarningMessage": "gdlaasbjvnqzepjc"
+            },
+            {
+                "ExportOnly": [
+                    "ltufrzwoppzwgtvl"
+                ],
+                "ExportTaskIdentifier": "cjwlknktuzawqskx",
+                "FailureCause": "frnrvvdmserdlzox",
+                "IamRoleArn": "dmdskkhhanaaqgzv",
+                "KmsKeyId": "raunsmasbhanmbyk",
+                "PercentProgress": 0,
+                "S3Bucket": "jrlypzhztaxveplu",
+                "S3Prefix": "iyozptuulamjwoof",
+                "SnapshotTime": "xawdoezerhxwixus",
+                "SourceArn": "ccnyypelbcoliseq",
+                "SourceType": "bdpyuwdwhdvcypqh",
+                "Status": "dtdkdxsoumhsvykf",
+                "TaskEndTime": "xnqdpznmqyrsfcnl",
+                "TaskStartTime": "cicjajyamujpsdrz",
+                "TotalExtractedDataInGB": 0,
+                "WarningMessage": "sshqgkvzizeulbrv"
+            },
+            {
+                "ExportOnly": [
+                    "gdbwkraolticqsun"
+                ],
+                "ExportTaskIdentifier": "bqtrwggvbkbjwkzd",
+                "FailureCause": "etiiukwwwhkwuibq",
+                "IamRoleArn": "jlkkaregevxmeeyz",
+                "KmsKeyId": "hecjbeyipxgtztes",
+                "PercentProgress": 0,
+                "S3Bucket": "guxcumkyrqtebvsp",
+                "S3Prefix": "eudhnvucbekucjjk",
+                "SnapshotTime": "jsrhglmkqmiavgnq",
+                "SourceArn": "axojktglibokybdw",
+                "SourceType": "ryidzepgizgbjlwo",
+                "Status": "wwhfaahfjyeglfnw",
+                "TaskEndTime": "cmymgzrudntebajz",
+                "TaskStartTime": "hixsfqolkffymdfz",
+                "TotalExtractedDataInGB": 0,
+                "WarningMessage": "xebcajuxovmxilgk"
+            },
+            {
+                "ExportOnly": [
+                    "pxeorltcjsftphik"
+                ],
+                "ExportTaskIdentifier": "sflooocrsmxnkjzq",
+                "FailureCause": "awiotkkigegmlthm",
+                "IamRoleArn": "kmdxeqkzbrjakdnr",
+                "KmsKeyId": "kxwnhiooyrmwjxmo",
+                "PercentProgress": 0,
+                "S3Bucket": "yiatnlehcryczxrf",
+                "S3Prefix": "ucmuupmbzxlosusp",
+                "SnapshotTime": "kcpxrbqikiilmpha",
+                "SourceArn": "tbsvcjgodzglnade",
+                "SourceType": "grvghqaqutaroavb",
+                "Status": "ureacgdvpzyfoadq",
+                "TaskEndTime": "efowshhoafkhqrpu",
+                "TaskStartTime": "shumdgipvndefzuk",
+                "TotalExtractedDataInGB": 0,
+                "WarningMessage": "hdzlkpyxuiwmvcok"
+            }
+        ],
+        "result_key": "ExportTasks"
+    },
+    "meta": {
+        "start": 1711116414.650646,
+        "end": 1711116422.165478,
+        "duration": 7.514841079711914,
+        "service": "rds",
+        "type": "export_tasks"
+    }
+}

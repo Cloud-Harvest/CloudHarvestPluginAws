@@ -1,0 +1,21 @@
+[
+    "codecatalyst.get-dev-environment",
+    "codecatalyst.get-project",
+    "codecatalyst.get-source-repository",
+    "codecatalyst.get-source-repository-clone-urls",
+    "codecatalyst.get-space",
+    "codecatalyst.get-subscription",
+    "codecatalyst.get-user-details",
+    "codecatalyst.get-workflow",
+    "codecatalyst.get-workflow-run",
+    "codecatalyst.list-access-tokens",
+    "codecatalyst.list-dev-environment-sessions",
+    "codecatalyst.list-dev-environments",
+    "codecatalyst.list-event-logs",
+    "codecatalyst.list-projects",
+    "codecatalyst.list-source-repositories",
+    "codecatalyst.list-source-repository-branches",
+    "codecatalyst.list-spaces",
+    "codecatalyst.list-workflow-runs",
+    "codecatalyst.list-workflows"
+]

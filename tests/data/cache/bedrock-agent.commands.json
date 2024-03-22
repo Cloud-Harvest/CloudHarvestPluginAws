@@ -1,0 +1,19 @@
+[
+    "bedrock-agent.get-agent",
+    "bedrock-agent.get-agent-action-group",
+    "bedrock-agent.get-agent-alias",
+    "bedrock-agent.get-agent-knowledge-base",
+    "bedrock-agent.get-agent-version",
+    "bedrock-agent.get-data-source",
+    "bedrock-agent.get-ingestion-job",
+    "bedrock-agent.get-knowledge-base",
+    "bedrock-agent.list-agent-action-groups",
+    "bedrock-agent.list-agent-aliases",
+    "bedrock-agent.list-agent-knowledge-bases",
+    "bedrock-agent.list-agent-versions",
+    "bedrock-agent.list-agents",
+    "bedrock-agent.list-data-sources",
+    "bedrock-agent.list-ingestion-jobs",
+    "bedrock-agent.list-knowledge-bases",
+    "bedrock-agent.list-tags-for-resource"
+]

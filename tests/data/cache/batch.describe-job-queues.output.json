@@ -1,0 +1,317 @@
+{
+    "input": {
+        "template": {
+            "jobQueues": [
+                ""
+            ],
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "required": [],
+        "md5": "aba867c8fd4cddcf97fc986d0f61dbed",
+        "boto_command": "describe_job_queues",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "jobQueueName": "jobQueueName",
+                "jobQueueArn": "jobQueueArn",
+                "state": "state",
+                "schedulingPolicyArn": "schedulingPolicyArn",
+                "status": "status",
+                "statusReason": "statusReason",
+                "priority": 0,
+                "computeEnvironmentOrder": [
+                    {
+                        "order": 0,
+                        "computeEnvironment": "computeEnvironment"
+                    }
+                ],
+                "tags": {
+                    "KeyName": ""
+                },
+                "jobStateTimeLimitActions": [
+                    {
+                        "reason": "reason",
+                        "state": "state",
+                        "maxTimeSeconds": 0,
+                        "action": "action"
+                    }
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "2ae72f2c6158c43f3bec06e0c1f7c7af",
+        "randomized": [
+            {
+                "computeEnvironmentOrder": [
+                    {
+                        "computeEnvironment": "iqlaxkvpnlhcejac",
+                        "order": 0
+                    }
+                ],
+                "jobQueueArn": "uxghvgrbqrtkbinq",
+                "jobQueueName": "afvmiihimgecrerl",
+                "jobStateTimeLimitActions": [
+                    {
+                        "action": "oyfoxhggtqhepbko",
+                        "maxTimeSeconds": 0,
+                        "reason": "ojukfapobptaxheq",
+                        "state": "rknsmwmdsbzthvet"
+                    }
+                ],
+                "priority": 0,
+                "schedulingPolicyArn": "uupnrwiwjcsfenyz",
+                "state": "owsrfyyhgzrwtbaw",
+                "status": "inhkzvugwoiiypfe",
+                "statusReason": "hklxhakzzazkpyno",
+                "tags": {
+                    "KeyName": "vvmqbkcnzlmtysoh"
+                }
+            },
+            {
+                "computeEnvironmentOrder": [
+                    {
+                        "computeEnvironment": "tioaombhpvexilak",
+                        "order": 0
+                    }
+                ],
+                "jobQueueArn": "nkmvjlliylcixtvi",
+                "jobQueueName": "rlzgirddqggdhkdy",
+                "jobStateTimeLimitActions": [
+                    {
+                        "action": "czzkmybxqkksagda",
+                        "maxTimeSeconds": 0,
+                        "reason": "vhnyxwndptozcino",
+                        "state": "czjeqitvjofgxhnc"
+                    }
+                ],
+                "priority": 0,
+                "schedulingPolicyArn": "mgporqdkoklomqmc",
+                "state": "vodrbdpguskvmttp",
+                "status": "rpggjfxzmselcsrb",
+                "statusReason": "bnscymqexmyamyat",
+                "tags": {
+                    "KeyName": "rjcmyahywmdgshqd"
+                }
+            },
+            {
+                "computeEnvironmentOrder": [
+                    {
+                        "computeEnvironment": "hfruwqsrdmcfovsk",
+                        "order": 0
+                    }
+                ],
+                "jobQueueArn": "wyqgorjstkglafwt",
+                "jobQueueName": "powjbrohdpjcllwk",
+                "jobStateTimeLimitActions": [
+                    {
+                        "action": "xsnqwipcrdhaoyko",
+                        "maxTimeSeconds": 0,
+                        "reason": "fxqhltslbxthmygx",
+                        "state": "hegkeunkkmicwefd"
+                    }
+                ],
+                "priority": 0,
+                "schedulingPolicyArn": "ougrncoawejznsxk",
+                "state": "qsibpjkkhsnedikf",
+                "status": "pdyptjfxwocpfzhg",
+                "statusReason": "wpgxcshuqmdqfvkp",
+                "tags": {
+                    "KeyName": "lbrbpaumfpgflnnk"
+                }
+            },
+            {
+                "computeEnvironmentOrder": [
+                    {
+                        "computeEnvironment": "lpdtqpizmbfpklez",
+                        "order": 0
+                    }
+                ],
+                "jobQueueArn": "iavgqgwzxcofrcem",
+                "jobQueueName": "eceysesrznruczlg",
+                "jobStateTimeLimitActions": [
+                    {
+                        "action": "gcxkptkkvdstjzjp",
+                        "maxTimeSeconds": 0,
+                        "reason": "pcjojeubbyektozk",
+                        "state": "kxfipplwpvbakaiz"
+                    }
+                ],
+                "priority": 0,
+                "schedulingPolicyArn": "zmrhezgjbkseixpy",
+                "state": "ourfjloxxluoduly",
+                "status": "vaarzjelsbgalzeg",
+                "statusReason": "drlinmnleikwyewa",
+                "tags": {
+                    "KeyName": "hzawqdmwqxqjstsk"
+                }
+            },
+            {
+                "computeEnvironmentOrder": [
+                    {
+                        "computeEnvironment": "citscdmokwopkycf",
+                        "order": 0
+                    }
+                ],
+                "jobQueueArn": "wagbwidvhzbhrqgy",
+                "jobQueueName": "lsfhsjdqzcrrcaya",
+                "jobStateTimeLimitActions": [
+                    {
+                        "action": "folgutpbjhbadolv",
+                        "maxTimeSeconds": 0,
+                        "reason": "furfvwijiktsdjxk",
+                        "state": "nynldevnsgejtiol"
+                    }
+                ],
+                "priority": 0,
+                "schedulingPolicyArn": "jxqwqidlembejvbl",
+                "state": "pecrjuxlpymzzrmg",
+                "status": "uqrwuucdldhjvwbh",
+                "statusReason": "cgylwwwwzklthyqd",
+                "tags": {
+                    "KeyName": "ciujxcmlpnjcsigg"
+                }
+            },
+            {
+                "computeEnvironmentOrder": [
+                    {
+                        "computeEnvironment": "jlavukcprgmbaosz",
+                        "order": 0
+                    }
+                ],
+                "jobQueueArn": "omumebxmunkzrvlw",
+                "jobQueueName": "zbgmbjouazfhduwx",
+                "jobStateTimeLimitActions": [
+                    {
+                        "action": "znnuyvjtfuujmovv",
+                        "maxTimeSeconds": 0,
+                        "reason": "keoaeiwpkiiqnqjg",
+                        "state": "gxvrfxgidmrdjhxq"
+                    }
+                ],
+                "priority": 0,
+                "schedulingPolicyArn": "yacppmbvilhsisal",
+                "state": "swbwfahjfqekbaxe",
+                "status": "ulmqwqdzgjyicbzr",
+                "statusReason": "fqxmxjaxsidisugo",
+                "tags": {
+                    "KeyName": "jhjcpcvzsnpllhni"
+                }
+            },
+            {
+                "computeEnvironmentOrder": [
+                    {
+                        "computeEnvironment": "iavhjjuvjnxzxwnh",
+                        "order": 0
+                    }
+                ],
+                "jobQueueArn": "wsnfxbmxyiflkhvl",
+                "jobQueueName": "rapdkuspwobwlndn",
+                "jobStateTimeLimitActions": [
+                    {
+                        "action": "itrvcvkughhypyyc",
+                        "maxTimeSeconds": 0,
+                        "reason": "lqfizdflhblinfvb",
+                        "state": "zapsixnhurvetwem"
+                    }
+                ],
+                "priority": 0,
+                "schedulingPolicyArn": "jidyoftsekfpxhav",
+                "state": "vdqnzedcoieickky",
+                "status": "stwtpffnmsozkial",
+                "statusReason": "kuhfpikvvjkfuxir",
+                "tags": {
+                    "KeyName": "loonwvtqupvfsiru"
+                }
+            },
+            {
+                "computeEnvironmentOrder": [
+                    {
+                        "computeEnvironment": "gcemmhihekhdvknh",
+                        "order": 0
+                    }
+                ],
+                "jobQueueArn": "dwwvfdikcshgamxy",
+                "jobQueueName": "ofbynwskkhoitiyh",
+                "jobStateTimeLimitActions": [
+                    {
+                        "action": "kfhwppdludktcxqu",
+                        "maxTimeSeconds": 0,
+                        "reason": "kfpkdmvuahydrznc",
+                        "state": "bcdbpffvbssbjrnh"
+                    }
+                ],
+                "priority": 0,
+                "schedulingPolicyArn": "bjagbrzyqjwsehkj",
+                "state": "tekteshggdfmrtqj",
+                "status": "enpoqjjzurqjejse",
+                "statusReason": "bjnziceolfhkhzjh",
+                "tags": {
+                    "KeyName": "ybsbfxcoyidqmbam"
+                }
+            },
+            {
+                "computeEnvironmentOrder": [
+                    {
+                        "computeEnvironment": "zopltaboyotlbitl",
+                        "order": 0
+                    }
+                ],
+                "jobQueueArn": "xyfhldhnxmwvvzla",
+                "jobQueueName": "ollsqowesvjdawbv",
+                "jobStateTimeLimitActions": [
+                    {
+                        "action": "rfqawwudmphggmmd",
+                        "maxTimeSeconds": 0,
+                        "reason": "efaleszkbgnajzio",
+                        "state": "vqxvypemtckygzyt"
+                    }
+                ],
+                "priority": 0,
+                "schedulingPolicyArn": "wdrkfyflkuzzvyxq",
+                "state": "rhqkichidttfeatm",
+                "status": "bfclstrdvagemaiv",
+                "statusReason": "rqwvnmcibzwlvrbi",
+                "tags": {
+                    "KeyName": "huncubsopcrowgtp"
+                }
+            },
+            {
+                "computeEnvironmentOrder": [
+                    {
+                        "computeEnvironment": "ypeyrgznojrnmrxf",
+                        "order": 0
+                    }
+                ],
+                "jobQueueArn": "gflzjxpxvdoieasf",
+                "jobQueueName": "rwyoitwwetzjrqsb",
+                "jobStateTimeLimitActions": [
+                    {
+                        "action": "vhawqnjgziltxsso",
+                        "maxTimeSeconds": 0,
+                        "reason": "dgmetdvfnmlkxtig",
+                        "state": "rfnzovcpehosgtab"
+                    }
+                ],
+                "priority": 0,
+                "schedulingPolicyArn": "truhqoliwtdlrtkq",
+                "state": "sqemkirsfxgbomkx",
+                "status": "chlhqlcbsjscwfxi",
+                "statusReason": "kvkhuthlmkxmcqzq",
+                "tags": {
+                    "KeyName": "gixbvwhtmkopnmsz"
+                }
+            }
+        ],
+        "result_key": "jobQueues"
+    },
+    "meta": {
+        "start": 1711115290.564685,
+        "end": 1711115297.611962,
+        "duration": 7.0472869873046875,
+        "service": "batch",
+        "type": "job_queues"
+    }
+}

@@ -1,0 +1,94 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "9dece7f85fc1c3f944425b1f68a8e6e1",
+        "boto_command": "get_resource_policies",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "PolicyInJson": "PolicyInJson",
+                "PolicyHash": "PolicyHash",
+                "CreateTime": "1970-01-01T00:00:00",
+                "UpdateTime": "1970-01-01T00:00:00"
+            }
+        ],
+        "required": [],
+        "md5": "38c9c147fd66fde37953dd088bb751fc",
+        "randomized": [
+            {
+                "CreateTime": "aymeslgbiyraemsh",
+                "PolicyHash": "kjysahkeoexcjzhc",
+                "PolicyInJson": "ueypxipezttyshze",
+                "UpdateTime": "rzfbxfrudhxwtkiu"
+            },
+            {
+                "CreateTime": "eghlxalcvhopfyhb",
+                "PolicyHash": "vbtjschopqzczlse",
+                "PolicyInJson": "gpxyfhyssipxxlkp",
+                "UpdateTime": "bayptiprtzyarigf"
+            },
+            {
+                "CreateTime": "xanywijsdlknzcbq",
+                "PolicyHash": "qduqhowoiurshbxn",
+                "PolicyInJson": "rzqawjlxysvjcwnu",
+                "UpdateTime": "ltyfawrgkyirrinu"
+            },
+            {
+                "CreateTime": "axuhrhplwpjrxrsz",
+                "PolicyHash": "uonjovvjtohmewro",
+                "PolicyInJson": "mhxmgcwnxowyrkge",
+                "UpdateTime": "oeoknnbymaqlzxqm"
+            },
+            {
+                "CreateTime": "jxdzvyhjzkmaumwy",
+                "PolicyHash": "uiwgqjdsaikrwzcd",
+                "PolicyInJson": "hxmrrnxamfuzfykd",
+                "UpdateTime": "mnjchqhlnxqeummp"
+            },
+            {
+                "CreateTime": "ypcausoonxosrqfw",
+                "PolicyHash": "ynryfydvjhcnregm",
+                "PolicyInJson": "avucjindxcufkjam",
+                "UpdateTime": "hjukvzedjqykwjac"
+            },
+            {
+                "CreateTime": "jfbqvfkflzmufwjm",
+                "PolicyHash": "wfhwbhdvyuepvwkb",
+                "PolicyInJson": "sijcyaebjdsnhsug",
+                "UpdateTime": "ntsaaqjiigyfuxif"
+            },
+            {
+                "CreateTime": "eibtighbehklxzur",
+                "PolicyHash": "ivjwtwgdfchtrksk",
+                "PolicyInJson": "pvuvpixufkageaan",
+                "UpdateTime": "skcxrgqdquuuiuej"
+            },
+            {
+                "CreateTime": "ilkzmjeypvardmym",
+                "PolicyHash": "ckcivsddipummffs",
+                "PolicyInJson": "keldkuvxpqmscdmq",
+                "UpdateTime": "tctaeemucadgavca"
+            },
+            {
+                "CreateTime": "nvugafmtszceywju",
+                "PolicyHash": "gkwzbidqxnhrxaqc",
+                "PolicyInJson": "fntxgbczqzjawyjs",
+                "UpdateTime": "fptkptfxqhfnrcye"
+            }
+        ],
+        "result_key": "GetResourcePoliciesResponseList"
+    },
+    "meta": {
+        "start": 1711115827.353775,
+        "end": 1711115834.56772,
+        "duration": 7.213954925537109,
+        "service": "glue",
+        "type": null
+    }
+}

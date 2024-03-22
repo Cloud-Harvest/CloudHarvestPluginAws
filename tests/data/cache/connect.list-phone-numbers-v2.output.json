@@ -1,0 +1,158 @@
+{
+    "input": {
+        "template": {
+            "TargetArn": "",
+            "InstanceId": "",
+            "MaxResults": 0,
+            "NextToken": "",
+            "PhoneNumberCountryCodes": [
+                "AF"
+            ],
+            "PhoneNumberTypes": [
+                "TOLL_FREE"
+            ],
+            "PhoneNumberPrefix": ""
+        },
+        "required": [],
+        "md5": "417e7981c021247cae919f0405235bbb",
+        "boto_command": "list_phone_numbers_v2",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "PhoneNumberId": "PhoneNumberId",
+                "PhoneNumberArn": "PhoneNumberArn",
+                "PhoneNumber": "PhoneNumber",
+                "PhoneNumberCountryCode": "PhoneNumberCountryCode",
+                "PhoneNumberType": "PhoneNumberType",
+                "TargetArn": "TargetArn",
+                "InstanceId": "InstanceId",
+                "PhoneNumberDescription": "PhoneNumberDescription",
+                "SourcePhoneNumberArn": "SourcePhoneNumberArn"
+            }
+        ],
+        "required": [],
+        "md5": "46272d3c73d68a577ff61952738b232e",
+        "randomized": [
+            {
+                "InstanceId": "tcakqikpfcrxvoce",
+                "PhoneNumber": "owkrcusgwrwplmfh",
+                "PhoneNumberArn": "vqzgdhcpoypxuqln",
+                "PhoneNumberCountryCode": "fjdbasqxotrnbift",
+                "PhoneNumberDescription": "wgqjkzqdspwhbhhs",
+                "PhoneNumberId": "ctgapzrdwovjkzew",
+                "PhoneNumberType": "xyuxvgaubonnmnts",
+                "SourcePhoneNumberArn": "lnvwtlvltsukptnh",
+                "TargetArn": "ugkkieqxxquyuyyc"
+            },
+            {
+                "InstanceId": "heqbiyepyingbkzf",
+                "PhoneNumber": "ouelwewamahymohw",
+                "PhoneNumberArn": "edcmobkeoicmxyfv",
+                "PhoneNumberCountryCode": "cppanydtgsylhafy",
+                "PhoneNumberDescription": "uejoyccdpzefkarj",
+                "PhoneNumberId": "yyharhjblbflbetd",
+                "PhoneNumberType": "udgokalfqomvklls",
+                "SourcePhoneNumberArn": "onuydpbbfrngpaxd",
+                "TargetArn": "ppsusmhuzpeqnzjz"
+            },
+            {
+                "InstanceId": "ulnjuvhlpcnnaili",
+                "PhoneNumber": "zbcclxcrbzcklbgk",
+                "PhoneNumberArn": "dsgcpjnmtnkrvnbw",
+                "PhoneNumberCountryCode": "eydbwlgokxbqsyob",
+                "PhoneNumberDescription": "aoqystvuqjucmcws",
+                "PhoneNumberId": "cznhpsquooehmsgd",
+                "PhoneNumberType": "znaqmoylnhkvwpal",
+                "SourcePhoneNumberArn": "cdywhuzioubzqvlg",
+                "TargetArn": "abblkkwwicxomvhi"
+            },
+            {
+                "InstanceId": "zuvlulbaiahqoxfp",
+                "PhoneNumber": "faudvoviylcypjqt",
+                "PhoneNumberArn": "ugckggckibsrfjzp",
+                "PhoneNumberCountryCode": "wqizyjizvmttvroe",
+                "PhoneNumberDescription": "rkiyhonelxjstwbv",
+                "PhoneNumberId": "vecuthfnkejgkafd",
+                "PhoneNumberType": "utkcvuwdjmltiohi",
+                "SourcePhoneNumberArn": "ncbdsqoxgaulnooc",
+                "TargetArn": "elzmseczcbccqlrk"
+            },
+            {
+                "InstanceId": "ywifojpqgjzjofka",
+                "PhoneNumber": "apcdqzxncjgocxep",
+                "PhoneNumberArn": "uszedheyxnjhtyzi",
+                "PhoneNumberCountryCode": "jjtnhzgjfdubyaqw",
+                "PhoneNumberDescription": "jsqgnlmclfolurfi",
+                "PhoneNumberId": "qyoofwapjeiwbprm",
+                "PhoneNumberType": "lzggwmkhodqdwwwk",
+                "SourcePhoneNumberArn": "ilagvszhjtxwabhm",
+                "TargetArn": "nacorpgysspukeci"
+            },
+            {
+                "InstanceId": "uuhjrisuzfwmkljo",
+                "PhoneNumber": "vbeigydtbtwtvvjx",
+                "PhoneNumberArn": "kpqibimpuocxzhjb",
+                "PhoneNumberCountryCode": "xqqocerhdhhngmuf",
+                "PhoneNumberDescription": "vyclvoustsopdaig",
+                "PhoneNumberId": "vxwewipdwnicfadn",
+                "PhoneNumberType": "hlhzdstictedfktg",
+                "SourcePhoneNumberArn": "syppablwedlnzncu",
+                "TargetArn": "jmbykatiitsmgccp"
+            },
+            {
+                "InstanceId": "dguemctlpowixjnr",
+                "PhoneNumber": "iomxhsfalwwcxklv",
+                "PhoneNumberArn": "gwaehbqkqebjtxfn",
+                "PhoneNumberCountryCode": "lzqsrmpuqakwiydz",
+                "PhoneNumberDescription": "pdadzaiwjegfkzlx",
+                "PhoneNumberId": "bdrhflnuzilxwzxa",
+                "PhoneNumberType": "xxvsnrffdfsxrqgi",
+                "SourcePhoneNumberArn": "xhmdclaiqrolosek",
+                "TargetArn": "rngmjqekxppnzwvt"
+            },
+            {
+                "InstanceId": "kqoqdbvklzxqrozp",
+                "PhoneNumber": "ukvetrebrhyhnpjp",
+                "PhoneNumberArn": "fuzghyzqdlpqliiw",
+                "PhoneNumberCountryCode": "nglwhwljlbiwhqil",
+                "PhoneNumberDescription": "cxjcpoeyyfytlrgh",
+                "PhoneNumberId": "gdvlsefvzssbhaoh",
+                "PhoneNumberType": "swmlyrcgnbgsrzcx",
+                "SourcePhoneNumberArn": "wlcvbvxyeipfisxd",
+                "TargetArn": "mvsdyppsvyuospdj"
+            },
+            {
+                "InstanceId": "amyvxklonvhrepyj",
+                "PhoneNumber": "zisxfxaasracihvz",
+                "PhoneNumberArn": "gvhqfxfqzoykjkht",
+                "PhoneNumberCountryCode": "ksjkzaaydymhswmh",
+                "PhoneNumberDescription": "rnqomjcoeqvvqgnr",
+                "PhoneNumberId": "idbsbbirdbpuncui",
+                "PhoneNumberType": "eyfpefegrcumiqqv",
+                "SourcePhoneNumberArn": "ozqwwvrzyomfwbca",
+                "TargetArn": "reezlsfinggjbdbp"
+            },
+            {
+                "InstanceId": "zhdikawxrkmqulfq",
+                "PhoneNumber": "pstpgwduqgamvcss",
+                "PhoneNumberArn": "ehyienfhjfzksynq",
+                "PhoneNumberCountryCode": "zcnhpposkcqwnwzi",
+                "PhoneNumberDescription": "owtarccaunmdyyyl",
+                "PhoneNumberId": "xllecwrhxedyipqq",
+                "PhoneNumberType": "wicgurbhodznqavh",
+                "SourcePhoneNumberArn": "tjcmszmlzqdtahhv",
+                "TargetArn": "vqmyfyevmvurhhbv"
+            }
+        ],
+        "result_key": "ListPhoneNumbersSummaryList"
+    },
+    "meta": {
+        "start": 1711115489.659185,
+        "end": 1711115497.563819,
+        "duration": 7.904646158218384,
+        "service": "connect",
+        "type": "phone_numbers_v2"
+    }
+}

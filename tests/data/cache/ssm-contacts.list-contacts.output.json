@@ -1,0 +1,96 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0,
+            "AliasPrefix": "",
+            "Type": "PERSONAL"
+        },
+        "required": [],
+        "md5": "dd1d340beefe130a6cc9767389089101",
+        "boto_command": "list_contacts",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "ContactArn": "ContactArn",
+                "Alias": "Alias",
+                "DisplayName": "DisplayName",
+                "Type": "Type"
+            }
+        ],
+        "required": [],
+        "md5": "1ed2531931415be58f4cd7d83aa802e3",
+        "randomized": [
+            {
+                "Alias": "cflpclfjytfiizqo",
+                "ContactArn": "pegijnkfboyzuoqk",
+                "DisplayName": "wmgmarjogdjllzvu",
+                "Type": "pamszesbxmuiupqx"
+            },
+            {
+                "Alias": "faxhchattpnhnqbi",
+                "ContactArn": "ydmmhgkdzagkthue",
+                "DisplayName": "fstveryrbkrcfxsx",
+                "Type": "ryleoocpaplsmqpu"
+            },
+            {
+                "Alias": "qhsaajpyjhvhikhq",
+                "ContactArn": "balzkawfbrwkjlih",
+                "DisplayName": "scxpyrqaiuicfzxs",
+                "Type": "yortquarsabtazys"
+            },
+            {
+                "Alias": "equmtdkkbnczdqyx",
+                "ContactArn": "tkxthlwumpodaoct",
+                "DisplayName": "xkcisvdpfwgkqhql",
+                "Type": "zpwtynwvohoazsjq"
+            },
+            {
+                "Alias": "lhvtutdfhcakdbwn",
+                "ContactArn": "dhxlwlveflaekwho",
+                "DisplayName": "berixoxvzdwxjjvv",
+                "Type": "wmkjywevcjyponjf"
+            },
+            {
+                "Alias": "frwdyuxehqlafdsd",
+                "ContactArn": "gceiuaxiiuiljlcj",
+                "DisplayName": "ouqkrnmijrkaapbv",
+                "Type": "oyyzjavimtsqzlui"
+            },
+            {
+                "Alias": "hkvcgdizzmlncacn",
+                "ContactArn": "nlerymmyhkulavcw",
+                "DisplayName": "mfrhvluvfkiyhdhf",
+                "Type": "wjrzaofozrkygekg"
+            },
+            {
+                "Alias": "yckgkmipspejmpjt",
+                "ContactArn": "cnhoprgaeeikwvbd",
+                "DisplayName": "xbiuvuhphpxxpsym",
+                "Type": "cimtrnevrwpwxxye"
+            },
+            {
+                "Alias": "npfszdaijmtchfdv",
+                "ContactArn": "qorpbjcdbpjmfxnt",
+                "DisplayName": "wthiraydzuzjpssa",
+                "Type": "ckbirdbtknvuvntd"
+            },
+            {
+                "Alias": "fxgxautrdtexcqei",
+                "ContactArn": "bajcnnqssxbcxhfh",
+                "DisplayName": "wkvczafhjcpceyva",
+                "Type": "qfzrdlzkelxttjit"
+            }
+        ],
+        "result_key": "Contacts"
+    },
+    "meta": {
+        "start": 1711116676.658055,
+        "end": 1711116683.31166,
+        "duration": 6.653615951538086,
+        "service": "ssm-contacts",
+        "type": "contacts"
+    }
+}

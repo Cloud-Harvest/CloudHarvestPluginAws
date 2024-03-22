@@ -1,0 +1,74 @@
+{
+    "input": {
+        "template": {
+            "nextToken": "",
+            "maxResults": 0,
+            "dimensionName": "",
+            "metricName": ""
+        },
+        "required": [],
+        "md5": "b5f1190e102bd939bcb47e8356b81340",
+        "boto_command": "list_security_profiles",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "name": "name",
+                "arn": "arn"
+            }
+        ],
+        "required": [],
+        "md5": "a8ae77bcbe1e5d22bef724c3585b45c0",
+        "randomized": [
+            {
+                "arn": "icbzrhsxbriveeff",
+                "name": "iptetqemhsmftbnx"
+            },
+            {
+                "arn": "cprfhczebfzrajfk",
+                "name": "gxavslmavrnwknxf"
+            },
+            {
+                "arn": "wqqltwmvgzmdmaht",
+                "name": "kmrudjzefglqrnhz"
+            },
+            {
+                "arn": "mgixnippnorhdthv",
+                "name": "xbdmpgtjynobfdkg"
+            },
+            {
+                "arn": "vvvlepejjxeyngjk",
+                "name": "opymdbnlkchnzxyt"
+            },
+            {
+                "arn": "wcoaewlrjxxnddov",
+                "name": "aopkdmvdkvlqwcfv"
+            },
+            {
+                "arn": "smhzcsozyxpzsndb",
+                "name": "nyqbmqtyuqwsvohf"
+            },
+            {
+                "arn": "friscuqbvukwmvul",
+                "name": "owonknucylhgqdpe"
+            },
+            {
+                "arn": "elhlfpxtkjoobkon",
+                "name": "jitkdwiykudrxgse"
+            },
+            {
+                "arn": "pmihtdlgtwnkygxo",
+                "name": "pwvsvrksndsxpnjn"
+            }
+        ],
+        "result_key": "securityProfileIdentifiers"
+    },
+    "meta": {
+        "start": 1711115948.286412,
+        "end": 1711115954.733265,
+        "duration": 6.446861982345581,
+        "service": "iot",
+        "type": "security_profiles"
+    }
+}

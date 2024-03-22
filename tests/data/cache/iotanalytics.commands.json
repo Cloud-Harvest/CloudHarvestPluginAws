@@ -1,0 +1,14 @@
+[
+    "iotanalytics.describe-channel",
+    "iotanalytics.describe-dataset",
+    "iotanalytics.describe-datastore",
+    "iotanalytics.describe-logging-options",
+    "iotanalytics.describe-pipeline",
+    "iotanalytics.get-dataset-content",
+    "iotanalytics.list-channels",
+    "iotanalytics.list-dataset-contents",
+    "iotanalytics.list-datasets",
+    "iotanalytics.list-datastores",
+    "iotanalytics.list-pipelines",
+    "iotanalytics.list-tags-for-resource"
+]

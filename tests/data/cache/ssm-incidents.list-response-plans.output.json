@@ -1,0 +1,83 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "required": [],
+        "md5": "2620fedaf24e984a8f801d0beb17a6e7",
+        "boto_command": "list_response_plans",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "arn": "arn",
+                "displayName": "displayName",
+                "name": "name"
+            }
+        ],
+        "required": [],
+        "md5": "34062542a36b4ff19100aa7d3cd81786",
+        "randomized": [
+            {
+                "arn": "kgqldpplfcevypxw",
+                "displayName": "lorxqwnpopfleudi",
+                "name": "yhfevlrvxbfwmuuz"
+            },
+            {
+                "arn": "dcdxtzkwmhfkxohi",
+                "displayName": "wvzwuycizigcwvcz",
+                "name": "cxjpzrndabeheyea"
+            },
+            {
+                "arn": "jacukcvljojhndsq",
+                "displayName": "lhlycxnrmdwlccjd",
+                "name": "buaoltnrjctnbzgn"
+            },
+            {
+                "arn": "fikqolzuavwrzsxb",
+                "displayName": "wqpgduxobohwbvoc",
+                "name": "stgvuuqxqbxkwqqr"
+            },
+            {
+                "arn": "ixfpdjsqetyxijzi",
+                "displayName": "bwuiqfqrpqhsmhxp",
+                "name": "vcwasylcjbjgmqjf"
+            },
+            {
+                "arn": "kreoikjplccwypje",
+                "displayName": "qujnbuflzagfmvop",
+                "name": "gwzjskumglhsuoaq"
+            },
+            {
+                "arn": "gpnilrmypbvtgjer",
+                "displayName": "saszdxysvjyycvhr",
+                "name": "azwripoesrcbzyti"
+            },
+            {
+                "arn": "gvemoqcfefufjfmw",
+                "displayName": "bzbajtnodxbrspls",
+                "name": "ysrfilmyxpdvuqvt"
+            },
+            {
+                "arn": "alrbuufjzxeociwp",
+                "displayName": "rsdmlahqizxvunti",
+                "name": "sqnqoqiwfgkrehsy"
+            },
+            {
+                "arn": "dqudpxkaujbkqbjd",
+                "displayName": "zzfjmombzpylxoky",
+                "name": "vqarzpfvvslglyeb"
+            }
+        ],
+        "result_key": "responsePlanSummaries"
+    },
+    "meta": {
+        "start": 1711116680.827843,
+        "end": 1711116688.364134,
+        "duration": 7.53629994392395,
+        "service": "ssm-incidents",
+        "type": "response_plans"
+    }
+}

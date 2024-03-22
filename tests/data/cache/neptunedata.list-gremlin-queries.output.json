@@ -1,0 +1,36 @@
+{
+    "input": {
+        "template": {
+            "includeWaiting": true
+        },
+        "required": [],
+        "md5": "58a6860c81cdd2524870f56c0868f423",
+        "boto_command": "list_gremlin_queries",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": 0,
+        "required": [],
+        "md5": "55e6d2ccb2eb0192e971f3bfddcc5a65",
+        "randomized": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "result_key": "acceptedQueryCount"
+    },
+    "meta": {
+        "start": 1711116237.726335,
+        "end": 1711116245.023475,
+        "duration": 7.297148942947388,
+        "service": "neptunedata",
+        "type": "gremlin_queries"
+    }
+}

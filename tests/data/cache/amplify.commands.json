@@ -1,0 +1,17 @@
+[
+    "amplify.get-app",
+    "amplify.get-artifact-url",
+    "amplify.get-backend-environment",
+    "amplify.get-branch",
+    "amplify.get-domain-association",
+    "amplify.get-job",
+    "amplify.get-webhook",
+    "amplify.list-apps",
+    "amplify.list-artifacts",
+    "amplify.list-backend-environments",
+    "amplify.list-branches",
+    "amplify.list-domain-associations",
+    "amplify.list-jobs",
+    "amplify.list-tags-for-resource",
+    "amplify.list-webhooks"
+]

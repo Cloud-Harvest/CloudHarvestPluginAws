@@ -1,0 +1,37 @@
+{
+    "input": {
+        "template": {
+            "NextMarker": "",
+            "Limit": 0
+        },
+        "required": [],
+        "md5": "c73edf45b1374dc40afbfb6e5664028f",
+        "boto_command": "list_rate_based_rules",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": "NextMarker",
+        "required": [],
+        "md5": "68ad576d49e914521276503de3236e88",
+        "randomized": [
+            "lqvdmvwetvazlmux",
+            "cwhdsadhywutkunu",
+            "wfnflcrxrwohafgc",
+            "oqqcrbqrxdxvdclm",
+            "gilxssqpawnvxnyl",
+            "xxvfhfjdnlwcblai",
+            "lleyjqpchrunpwsc",
+            "hthvcatxfmdsnune",
+            "npprsrbfkyradxxj",
+            "gwrhzmpmvssqmgjr"
+        ],
+        "result_key": "NextMarker"
+    },
+    "meta": {
+        "start": 1711116770.352625,
+        "end": 1711116778.400452,
+        "duration": 8.047837018966675,
+        "service": "waf-regional",
+        "type": "rate_based_rules"
+    }
+}

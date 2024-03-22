@@ -1,0 +1,38 @@
+{
+    "input": {
+        "template": {
+            "RuleGroupId": "",
+            "NextMarker": "",
+            "Limit": 0
+        },
+        "required": [],
+        "md5": "4911973fe90eb638fc1e07843917e2ff",
+        "boto_command": "list_activated_rules_in_rule_group",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": "NextMarker",
+        "required": [],
+        "md5": "a3a4a33dc626dc3840cd068ca587af08",
+        "randomized": [
+            "lqtsybedishrfaay",
+            "vgkjzhncsgllkokj",
+            "kctlzcsahtsjewmc",
+            "bbytzznchzgvucdm",
+            "msokfpbatjiwqakm",
+            "bltmdmixngjjyxwv",
+            "wbalxrnworgjvsmq",
+            "nrihltrmkofyzwfx",
+            "cuoavjfsiorrssud",
+            "eauvjsdaxglwtjcr"
+        ],
+        "result_key": "NextMarker"
+    },
+    "meta": {
+        "start": 1711116758.72398,
+        "end": 1711116767.182348,
+        "duration": 8.4583740234375,
+        "service": "waf",
+        "type": "activated_rules_in_rule_group"
+    }
+}

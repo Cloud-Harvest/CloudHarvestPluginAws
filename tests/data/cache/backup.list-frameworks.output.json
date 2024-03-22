@@ -1,0 +1,116 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "031b56893c6f5a9d0ebe6017c5c080cb",
+        "boto_command": "list_frameworks",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "FrameworkName": "FrameworkName",
+                "FrameworkArn": "FrameworkArn",
+                "FrameworkDescription": "FrameworkDescription",
+                "NumberOfControls": 0,
+                "CreationTime": "1970-01-01T00:00:00",
+                "DeploymentStatus": "DeploymentStatus"
+            }
+        ],
+        "required": [],
+        "md5": "b21e7f1ecc23c01a1ffca39be1dd9130",
+        "randomized": [
+            {
+                "CreationTime": "hbueehvfruylpdck",
+                "DeploymentStatus": "wlsvzevvuyamqykq",
+                "FrameworkArn": "shxgiiqgkkfzefht",
+                "FrameworkDescription": "wabhbendxxjkgbcd",
+                "FrameworkName": "hkfbvkntrvdgkber",
+                "NumberOfControls": 0
+            },
+            {
+                "CreationTime": "qcxnnetbekqsrvtp",
+                "DeploymentStatus": "eecndylagxhvumpy",
+                "FrameworkArn": "fvmtwaphuktjurou",
+                "FrameworkDescription": "tcatepdticoaiwxc",
+                "FrameworkName": "dfwvoxotfaonenzx",
+                "NumberOfControls": 0
+            },
+            {
+                "CreationTime": "tryujwfnhuhcbajd",
+                "DeploymentStatus": "pngpzxzrbwtutrid",
+                "FrameworkArn": "rfksqqwsstzlhjlt",
+                "FrameworkDescription": "awgfruyxrygijpnq",
+                "FrameworkName": "qzgtykmwxqibcthz",
+                "NumberOfControls": 0
+            },
+            {
+                "CreationTime": "qcwpptjbioljymxn",
+                "DeploymentStatus": "ezdnapdqgvshswtp",
+                "FrameworkArn": "odfqdccnbucffirt",
+                "FrameworkDescription": "nmoexbifltjnoggx",
+                "FrameworkName": "jsczwcrhkzgrswiq",
+                "NumberOfControls": 0
+            },
+            {
+                "CreationTime": "gxgezqdlctlnngmc",
+                "DeploymentStatus": "jqvquzvofsxhsbst",
+                "FrameworkArn": "kexehufhxxaopcji",
+                "FrameworkDescription": "hlnutulfyihjuytq",
+                "FrameworkName": "xnmlshosgvjefumx",
+                "NumberOfControls": 0
+            },
+            {
+                "CreationTime": "opiardnujjnvbgax",
+                "DeploymentStatus": "jcropsdzwkifgwxw",
+                "FrameworkArn": "ggebwpcmwtvmxmnf",
+                "FrameworkDescription": "ovbfduqljfjpbhtm",
+                "FrameworkName": "iylakquvdlvrrlpg",
+                "NumberOfControls": 0
+            },
+            {
+                "CreationTime": "exjcouxjkmsezuiz",
+                "DeploymentStatus": "cifzwuzfkcyrjhrk",
+                "FrameworkArn": "lxjpyzzqdgenlkbj",
+                "FrameworkDescription": "usvcjidzczkoygqt",
+                "FrameworkName": "lmsnuxnhroppdnpb",
+                "NumberOfControls": 0
+            },
+            {
+                "CreationTime": "upltehluvcatbivb",
+                "DeploymentStatus": "qbpchlhyxqwbqvej",
+                "FrameworkArn": "bwtranuebvhsxvhg",
+                "FrameworkDescription": "ubwlzdjxgwnkdqjc",
+                "FrameworkName": "gtmybdkdaclawbxd",
+                "NumberOfControls": 0
+            },
+            {
+                "CreationTime": "glaajlfgigslnqtc",
+                "DeploymentStatus": "mpnrgklahsxetjgf",
+                "FrameworkArn": "eyfluoawcglpqymi",
+                "FrameworkDescription": "ksszxwpuwizxtjtu",
+                "FrameworkName": "fzvxybyraaetmpex",
+                "NumberOfControls": 0
+            },
+            {
+                "CreationTime": "ssiboiueborcutxs",
+                "DeploymentStatus": "iyvlcvhewqjrnprs",
+                "FrameworkArn": "poaczmlcyizkwopt",
+                "FrameworkDescription": "cdypatkvmjeqzaim",
+                "FrameworkName": "bzkojfrjivdupmsz",
+                "NumberOfControls": 0
+            }
+        ],
+        "result_key": "Frameworks"
+    },
+    "meta": {
+        "start": 1711115282.185706,
+        "end": 1711115289.224083,
+        "duration": 7.038386106491089,
+        "service": "backup",
+        "type": "frameworks"
+    }
+}

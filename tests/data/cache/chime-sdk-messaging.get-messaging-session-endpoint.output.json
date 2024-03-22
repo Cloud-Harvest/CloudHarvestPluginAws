@@ -1,0 +1,56 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "get_messaging_session_endpoint",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": {
+            "Url": "Url"
+        },
+        "required": [],
+        "md5": "0f30707261282a52a99786a87dfe4d8d",
+        "randomized": [
+            {
+                "Url": "ehmqvoyfnzdrbgfk"
+            },
+            {
+                "Url": "stjtgwcbicwqnrec"
+            },
+            {
+                "Url": "tgidsghvcmsrupds"
+            },
+            {
+                "Url": "miudcpptegqjkqyq"
+            },
+            {
+                "Url": "hpoprppxmlnyhyyf"
+            },
+            {
+                "Url": "jkajbvtyxxckwbmm"
+            },
+            {
+                "Url": "hluusvelqvvqrhan"
+            },
+            {
+                "Url": "zokuhnbzosceiqcd"
+            },
+            {
+                "Url": "zozbtgehfazfeefw"
+            },
+            {
+                "Url": "wgwtfxiyslqupwxb"
+            }
+        ],
+        "result_key": "Endpoint"
+    },
+    "meta": {
+        "start": 1711115327.275868,
+        "end": 1711115333.830845,
+        "duration": 6.554986953735352,
+        "service": "chime-sdk-messaging",
+        "type": null
+    }
+}

@@ -1,0 +1,117 @@
+{
+    "input": {
+        "template": {
+            "datasetArn": "",
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "required": [],
+        "md5": "f27911da4cece82a7a47495bd54fc575",
+        "boto_command": "list_dataset_export_jobs",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "datasetExportJobArn": "datasetExportJobArn",
+                "jobName": "jobName",
+                "status": "status",
+                "creationDateTime": "1970-01-01T00:00:00",
+                "lastUpdatedDateTime": "1970-01-01T00:00:00",
+                "failureReason": "failureReason"
+            }
+        ],
+        "required": [],
+        "md5": "7285eaa8f4f7693786050dedec649b95",
+        "randomized": [
+            {
+                "creationDateTime": "rqibviegtmqhtxat",
+                "datasetExportJobArn": "plxxnzxhzfjldguf",
+                "failureReason": "ggblmnpkszdftecx",
+                "jobName": "vvmprbgaorasnnlk",
+                "lastUpdatedDateTime": "fuiguenyaloscddn",
+                "status": "gnqoyobvczdyirrc"
+            },
+            {
+                "creationDateTime": "frnyeikwpxabsbww",
+                "datasetExportJobArn": "irumaggdxymeypwp",
+                "failureReason": "ubftvtrgnbwmlxmu",
+                "jobName": "cuupwlmarkrtoaud",
+                "lastUpdatedDateTime": "hlpbhkkrqkidypet",
+                "status": "qrdjrqvxszjlhyhv"
+            },
+            {
+                "creationDateTime": "piraswkurbofeyxx",
+                "datasetExportJobArn": "dgyulwvetocirvlt",
+                "failureReason": "cpvxndfsryeobidq",
+                "jobName": "svurexmzlmnthidb",
+                "lastUpdatedDateTime": "akoqdijzdeyebbpi",
+                "status": "abfprmlxbxxkxizd"
+            },
+            {
+                "creationDateTime": "nmklxfvgqtvpvqqt",
+                "datasetExportJobArn": "xjqwhdqdsqsdmmel",
+                "failureReason": "kgnwjoznqixckofo",
+                "jobName": "zyngiugyjysrinem",
+                "lastUpdatedDateTime": "vugpghogiayspguj",
+                "status": "yitqmlbfaevkmnus"
+            },
+            {
+                "creationDateTime": "tqogzoritxpqbifs",
+                "datasetExportJobArn": "vdvndqfskjzhpdtk",
+                "failureReason": "wsrigxnbvyoppraq",
+                "jobName": "lidmqmxhsbvtatws",
+                "lastUpdatedDateTime": "glqqslhtiuolqmwa",
+                "status": "vgdohfbfvnmxbrpb"
+            },
+            {
+                "creationDateTime": "lqkktxlboppadygo",
+                "datasetExportJobArn": "xwwmeegvqidxslza",
+                "failureReason": "ebmkcaxfamrrsbuz",
+                "jobName": "kwaekavrykdzognl",
+                "lastUpdatedDateTime": "zaudugsvwcilprqu",
+                "status": "ewdicnxrbktanwtt"
+            },
+            {
+                "creationDateTime": "kbgfbkcljlxajuct",
+                "datasetExportJobArn": "azjbvqrozqifzkgg",
+                "failureReason": "wssbzeiqxyopblyv",
+                "jobName": "ygnktqamukfgfgqs",
+                "lastUpdatedDateTime": "lroddnqwexmaaebp",
+                "status": "wbtaaofqagialakn"
+            },
+            {
+                "creationDateTime": "bviobbbwbtxllhlx",
+                "datasetExportJobArn": "jacnlpajrzofgfij",
+                "failureReason": "spzocfornjcnywhe",
+                "jobName": "dqlyrdanukobkfzv",
+                "lastUpdatedDateTime": "ansardxiwufgvpca",
+                "status": "urjtgzjwzniloeni"
+            },
+            {
+                "creationDateTime": "xfzhlporvrobwiog",
+                "datasetExportJobArn": "xetobwirlxuqizzf",
+                "failureReason": "olaamaztqztpebki",
+                "jobName": "duspwhcxijnxakdd",
+                "lastUpdatedDateTime": "jwyblevdrzosrqwo",
+                "status": "luujdoiljqlzkivx"
+            },
+            {
+                "creationDateTime": "zfzwnrgfkkrlucsp",
+                "datasetExportJobArn": "rktcuavgpecnmgux",
+                "failureReason": "pfdpfapvpxvxjzyf",
+                "jobName": "gmshrpovlniimshp",
+                "lastUpdatedDateTime": "ojqdfckghuegomit",
+                "status": "syktqwvxqgetiwyo"
+            }
+        ],
+        "result_key": "datasetExportJobs"
+    },
+    "meta": {
+        "start": 1711116316.784553,
+        "end": 1711116324.379261,
+        "duration": 7.594711065292358,
+        "service": "personalize",
+        "type": "dataset_export_jobs"
+    }
+}

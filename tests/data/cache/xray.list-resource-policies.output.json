@@ -1,0 +1,93 @@
+{
+    "input": {
+        "template": {
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "28fe14adb863d5d0635cac1da3f9b4e4",
+        "boto_command": "list_resource_policies",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "PolicyName": "PolicyName",
+                "PolicyDocument": "PolicyDocument",
+                "PolicyRevisionId": "PolicyRevisionId",
+                "LastUpdatedTime": "1970-01-01T00:00:00"
+            }
+        ],
+        "required": [],
+        "md5": "21c98410e137e030b5bd4e61c0081e9b",
+        "randomized": [
+            {
+                "LastUpdatedTime": "retfzpormcdmrngy",
+                "PolicyDocument": "tejhtuhnrflyzkja",
+                "PolicyName": "kyphnkdsaycskmig",
+                "PolicyRevisionId": "keclmqcecmdhmknx"
+            },
+            {
+                "LastUpdatedTime": "napjmipaqimcjxao",
+                "PolicyDocument": "huyfefsjmbwbwlao",
+                "PolicyName": "zplwldfxjvbdyqvq",
+                "PolicyRevisionId": "spcrflofnuxhhfwt"
+            },
+            {
+                "LastUpdatedTime": "lrjgsqmmkpkwtklt",
+                "PolicyDocument": "evxtpwxfyfpojahm",
+                "PolicyName": "vnhzdqsvebfiiagh",
+                "PolicyRevisionId": "qfsenkkmzrgzymyv"
+            },
+            {
+                "LastUpdatedTime": "uvzuciarwkzgbzks",
+                "PolicyDocument": "dqtttfbplzeyeogn",
+                "PolicyName": "pwvyrbyfujdvtpmj",
+                "PolicyRevisionId": "xuvxkpbmjwmhsybd"
+            },
+            {
+                "LastUpdatedTime": "jecsvqgczsoepxea",
+                "PolicyDocument": "axyigrvlijximioa",
+                "PolicyName": "raeujyarqzklswwc",
+                "PolicyRevisionId": "fqxtoaskfrxrzsmh"
+            },
+            {
+                "LastUpdatedTime": "qpyrdavlqsrdmueg",
+                "PolicyDocument": "ulkwugxksdooexsl",
+                "PolicyName": "okxupenbzmydbbay",
+                "PolicyRevisionId": "xguuakhrdidrvniu"
+            },
+            {
+                "LastUpdatedTime": "rsijxdqlvplagjzd",
+                "PolicyDocument": "lpthtmdwesdpkern",
+                "PolicyName": "zgjjokasswmvdhkk",
+                "PolicyRevisionId": "lqmwgjdlhfsxxaam"
+            },
+            {
+                "LastUpdatedTime": "dnuvgliupyhaxapw",
+                "PolicyDocument": "mfuvixpctyrmxntk",
+                "PolicyName": "ikxyndzvexzlghli",
+                "PolicyRevisionId": "csabdnszqjcjlrud"
+            },
+            {
+                "LastUpdatedTime": "dskmsdxafaawayst",
+                "PolicyDocument": "yuupqcbultpfcctx",
+                "PolicyName": "cwkcrutopaakzosg",
+                "PolicyRevisionId": "jgqddfdakgodedcl"
+            },
+            {
+                "LastUpdatedTime": "kglnnrdupqvspckj",
+                "PolicyDocument": "euldawyitepfbvwk",
+                "PolicyName": "yvhksrbhsdjarwes",
+                "PolicyRevisionId": "mpkokyqgwgdkybuo"
+            }
+        ],
+        "result_key": "ResourcePolicies"
+    },
+    "meta": {
+        "start": 1711116822.513816,
+        "end": 1711116829.301103,
+        "duration": 6.787291765213013,
+        "service": "xray",
+        "type": "resource_policies"
+    }
+}

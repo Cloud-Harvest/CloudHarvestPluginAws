@@ -1,0 +1,72 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "9dece7f85fc1c3f944425b1f68a8e6e1",
+        "boto_command": "list_sms_sandbox_phone_numbers",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "PhoneNumber": "PhoneNumber",
+                "Status": "Status"
+            }
+        ],
+        "required": [],
+        "md5": "ee84d3409957924cc5484d0015bc7588",
+        "randomized": [
+            {
+                "PhoneNumber": "mwytrnxqthmzxfqb",
+                "Status": "utwdliuyxsaekvre"
+            },
+            {
+                "PhoneNumber": "bquohswhqxnvjnxl",
+                "Status": "faxxyvsaptvkmchc"
+            },
+            {
+                "PhoneNumber": "xpqgaswwqmqokzfp",
+                "Status": "coxhmnojkvucdazp"
+            },
+            {
+                "PhoneNumber": "zgknvimmrxjbvhjx",
+                "Status": "tgfdythprbmniqik"
+            },
+            {
+                "PhoneNumber": "ifntybhpkwvylswo",
+                "Status": "ffwumwvgnvadchur"
+            },
+            {
+                "PhoneNumber": "ueyqbujmvmhsveyb",
+                "Status": "lbawdrfbujtcwrnn"
+            },
+            {
+                "PhoneNumber": "gwfpdulhlumgciwi",
+                "Status": "flnbyaepqppebfbc"
+            },
+            {
+                "PhoneNumber": "mtfszhtzhgrghfps",
+                "Status": "gyomcyjaikqucbej"
+            },
+            {
+                "PhoneNumber": "hkvbrtejwxvxcjhu",
+                "Status": "itzyrlgmiaahustd"
+            },
+            {
+                "PhoneNumber": "swxunefwllugzrvp",
+                "Status": "ileaexelbradtpul"
+            }
+        ],
+        "result_key": "PhoneNumbers"
+    },
+    "meta": {
+        "start": 1711116651.793181,
+        "end": 1711116659.246572,
+        "duration": 7.4534010887146,
+        "service": "sns",
+        "type": "sms_sandbox_phone_numbers"
+    }
+}

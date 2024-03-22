@@ -1,0 +1,71 @@
+{
+    "input": {
+        "template": {
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "28fe14adb863d5d0635cac1da3f9b4e4",
+        "boto_command": "list_receipt_rule_sets",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "Name": "Name",
+                "CreatedTimestamp": "1970-01-01T00:00:00"
+            }
+        ],
+        "required": [],
+        "md5": "56e384e6015f1f7139e6f3edc3fcd06c",
+        "randomized": [
+            {
+                "CreatedTimestamp": "vsgneqwwgutptwyb",
+                "Name": "msepwqndhdnpvlqu"
+            },
+            {
+                "CreatedTimestamp": "elovyydumqtddjrr",
+                "Name": "pfkhmmothwldhcii"
+            },
+            {
+                "CreatedTimestamp": "aqbrpuivpiyjulmb",
+                "Name": "mtltrqhduwscqrzl"
+            },
+            {
+                "CreatedTimestamp": "dgmkdspdkrzlgsub",
+                "Name": "smzyedrlyrbjgzpz"
+            },
+            {
+                "CreatedTimestamp": "jnibehzhilkbecfz",
+                "Name": "qsolxweqzpjibzka"
+            },
+            {
+                "CreatedTimestamp": "ttzzublvaphfyhgp",
+                "Name": "xfvlgqkpipzzpkia"
+            },
+            {
+                "CreatedTimestamp": "ffdecvtpdhoqjavm",
+                "Name": "mmpgcdmbltjfutab"
+            },
+            {
+                "CreatedTimestamp": "igpdlesouydmzqsf",
+                "Name": "wnwyrxbjtwtoclxa"
+            },
+            {
+                "CreatedTimestamp": "hmbljrhjydyoikii",
+                "Name": "bnmrepivzefzsrbz"
+            },
+            {
+                "CreatedTimestamp": "qvrxrjkooqimxnrd",
+                "Name": "jmrlbwcnucqmcmcq"
+            }
+        ],
+        "result_key": "RuleSets"
+    },
+    "meta": {
+        "start": 1711116618.63136,
+        "end": 1711116625.747598,
+        "duration": 7.116247892379761,
+        "service": "ses",
+        "type": "receipt_rule_sets"
+    }
+}

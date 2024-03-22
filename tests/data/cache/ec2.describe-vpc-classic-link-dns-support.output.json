@@ -1,0 +1,75 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": "",
+            "VpcIds": [
+                ""
+            ]
+        },
+        "required": [],
+        "md5": "f4a9a893979a05b04c8bf8aada6e4289",
+        "boto_command": "describe_vpc_classic_link_dns_support",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "ClassicLinkDnsSupported": true,
+                "VpcId": "VpcId"
+            }
+        ],
+        "required": [],
+        "md5": "4b03e5e20deb93fca488d1f01c13ceda",
+        "randomized": [
+            {
+                "ClassicLinkDnsSupported": true,
+                "VpcId": "mljggipphopoucwd"
+            },
+            {
+                "ClassicLinkDnsSupported": true,
+                "VpcId": "csapskyvpnkeodnc"
+            },
+            {
+                "ClassicLinkDnsSupported": true,
+                "VpcId": "caygkjynxseidspq"
+            },
+            {
+                "ClassicLinkDnsSupported": true,
+                "VpcId": "fhxdimuvmfbxjeex"
+            },
+            {
+                "ClassicLinkDnsSupported": true,
+                "VpcId": "wjobimjtgilqvdgf"
+            },
+            {
+                "ClassicLinkDnsSupported": true,
+                "VpcId": "buxoxxybrifwtxfr"
+            },
+            {
+                "ClassicLinkDnsSupported": true,
+                "VpcId": "djeooyjvbwskpnys"
+            },
+            {
+                "ClassicLinkDnsSupported": true,
+                "VpcId": "ypavxxvolqmbksxl"
+            },
+            {
+                "ClassicLinkDnsSupported": true,
+                "VpcId": "xlerffmjunfvdnrl"
+            },
+            {
+                "ClassicLinkDnsSupported": true,
+                "VpcId": "yiuknvrcqtqdplhz"
+            }
+        ],
+        "result_key": "Vpcs"
+    },
+    "meta": {
+        "start": 1711115663.473363,
+        "end": 1711115670.682206,
+        "duration": 7.208850145339966,
+        "service": "ec2",
+        "type": "vpc_classic_link_dns_support"
+    }
+}

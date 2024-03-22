@@ -1,0 +1,131 @@
+{
+    "input": {
+        "template": {
+            "TargetIdFilters": [
+                ""
+            ],
+            "RegionFilters": [
+                ""
+            ],
+            "ResourceTypeFilters": [
+                ""
+            ],
+            "TagKeyFilters": [
+                ""
+            ],
+            "GroupBy": [
+                "TARGET_ID"
+            ],
+            "MaxResults": 0,
+            "PaginationToken": ""
+        },
+        "required": [],
+        "md5": "067f82042c9e23ce36eb275c9a710b6e",
+        "boto_command": "get_compliance_summary",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "LastUpdated": "LastUpdated",
+                "TargetId": "TargetId",
+                "TargetIdType": "TargetIdType",
+                "Region": "Region",
+                "ResourceType": "ResourceType",
+                "NonCompliantResources": 0
+            }
+        ],
+        "required": [],
+        "md5": "7e8905661918aa4dad189d6ee7edf175",
+        "randomized": [
+            {
+                "LastUpdated": "alhdybzbgzkdulax",
+                "NonCompliantResources": 0,
+                "Region": "pheabjfqxffqktzb",
+                "ResourceType": "xmdqjlfeyvslnowc",
+                "TargetId": "opuzxyoxkntmhthe",
+                "TargetIdType": "xxrmqjpeibjbzaji"
+            },
+            {
+                "LastUpdated": "anuqukwviohpgxbb",
+                "NonCompliantResources": 0,
+                "Region": "kmhpsckhbtaopyfn",
+                "ResourceType": "xkmkvmiqxjbnnrsw",
+                "TargetId": "xodrqyvlnvvlvzlf",
+                "TargetIdType": "geqtgvtivjmqoczl"
+            },
+            {
+                "LastUpdated": "ulabfqihzhuyoxrh",
+                "NonCompliantResources": 0,
+                "Region": "zgwtzdrnractwvuq",
+                "ResourceType": "rnvlvbtpfhqkeysl",
+                "TargetId": "qzpxgohenxzjoxyz",
+                "TargetIdType": "crutusxglgaddzqn"
+            },
+            {
+                "LastUpdated": "qrvydpbwmqyxlaht",
+                "NonCompliantResources": 0,
+                "Region": "rbaqixcpcemlpvrj",
+                "ResourceType": "nxikwfacbwkyraet",
+                "TargetId": "jfqhqhrqrqjrfelc",
+                "TargetIdType": "dpfzvntsskjrpqkd"
+            },
+            {
+                "LastUpdated": "tixwsnunpkdburtj",
+                "NonCompliantResources": 0,
+                "Region": "crmxmxbnvlpovegy",
+                "ResourceType": "jdabosecaclevdul",
+                "TargetId": "pyniukgowiqorduo",
+                "TargetIdType": "ktimrvufzuwsfvks"
+            },
+            {
+                "LastUpdated": "vxunzssdfmjbjizz",
+                "NonCompliantResources": 0,
+                "Region": "zninbevoruzdqzss",
+                "ResourceType": "ivkifescorbqcbpx",
+                "TargetId": "imdspvbuviumizeh",
+                "TargetIdType": "glxfbnjfljywutfp"
+            },
+            {
+                "LastUpdated": "fuqezhdasdwbcjni",
+                "NonCompliantResources": 0,
+                "Region": "acyiiaxwnktwgmps",
+                "ResourceType": "jzpmdyfjdzxipzpq",
+                "TargetId": "xjrpfssnjebzhlri",
+                "TargetIdType": "teqxvxmndpuoljzq"
+            },
+            {
+                "LastUpdated": "cyfegulzneltctqt",
+                "NonCompliantResources": 0,
+                "Region": "hkrvhgjrlbkvrdau",
+                "ResourceType": "ntczdwuydaptudtf",
+                "TargetId": "jzpcwezyacjgioco",
+                "TargetIdType": "qtkcftwbwreqbsaq"
+            },
+            {
+                "LastUpdated": "vpdpkvbswjiezhwq",
+                "NonCompliantResources": 0,
+                "Region": "kkgsbjybhdhuezen",
+                "ResourceType": "vvmthtxzcdsdhpqt",
+                "TargetId": "salqglfclwuznguo",
+                "TargetIdType": "ucrtdqypeluybtms"
+            },
+            {
+                "LastUpdated": "eqquevoocxusomco",
+                "NonCompliantResources": 0,
+                "Region": "sofuwfudjlemtwvo",
+                "ResourceType": "yxaxasincdmknezd",
+                "TargetId": "jgpuzqrzpzgusaew",
+                "TargetIdType": "zjbqxczvgawnhrzg"
+            }
+        ],
+        "result_key": "SummaryList"
+    },
+    "meta": {
+        "start": 1711116462.620153,
+        "end": 1711116468.062741,
+        "duration": 5.442599058151245,
+        "service": "resourcegroupstaggingapi",
+        "type": null
+    }
+}

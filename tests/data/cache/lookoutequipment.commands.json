@@ -1,0 +1,23 @@
+[
+    "lookoutequipment.describe-data-ingestion-job",
+    "lookoutequipment.describe-dataset",
+    "lookoutequipment.describe-inference-scheduler",
+    "lookoutequipment.describe-label",
+    "lookoutequipment.describe-label-group",
+    "lookoutequipment.describe-model",
+    "lookoutequipment.describe-model-version",
+    "lookoutequipment.describe-resource-policy",
+    "lookoutequipment.describe-retraining-scheduler",
+    "lookoutequipment.list-data-ingestion-jobs",
+    "lookoutequipment.list-datasets",
+    "lookoutequipment.list-inference-events",
+    "lookoutequipment.list-inference-executions",
+    "lookoutequipment.list-inference-schedulers",
+    "lookoutequipment.list-label-groups",
+    "lookoutequipment.list-labels",
+    "lookoutequipment.list-model-versions",
+    "lookoutequipment.list-models",
+    "lookoutequipment.list-retraining-schedulers",
+    "lookoutequipment.list-sensor-statistics",
+    "lookoutequipment.list-tags-for-resource"
+]

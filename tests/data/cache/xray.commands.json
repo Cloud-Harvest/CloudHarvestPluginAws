@@ -1,0 +1,18 @@
+[
+    "xray.get-encryption-config",
+    "xray.get-group",
+    "xray.get-groups",
+    "xray.get-insight",
+    "xray.get-insight-events",
+    "xray.get-insight-impact-graph",
+    "xray.get-insight-summaries",
+    "xray.get-sampling-rules",
+    "xray.get-sampling-statistic-summaries",
+    "xray.get-sampling-targets",
+    "xray.get-service-graph",
+    "xray.get-time-series-service-statistics",
+    "xray.get-trace-graph",
+    "xray.get-trace-summaries",
+    "xray.list-resource-policies",
+    "xray.list-tags-for-resource"
+]

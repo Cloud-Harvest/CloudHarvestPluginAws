@@ -1,0 +1,105 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "9dece7f85fc1c3f944425b1f68a8e6e1",
+        "boto_command": "list_document_classifier_summaries",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "DocumentClassifierName": "DocumentClassifierName",
+                "NumberOfVersions": 0,
+                "LatestVersionCreatedAt": "1970-01-01T00:00:00",
+                "LatestVersionName": "LatestVersionName",
+                "LatestVersionStatus": "LatestVersionStatus"
+            }
+        ],
+        "required": [],
+        "md5": "02c0889de36e4732945c81f4c0483352",
+        "randomized": [
+            {
+                "DocumentClassifierName": "yprmvadaggiiflwc",
+                "LatestVersionCreatedAt": "jgcfsbjjejvaavzo",
+                "LatestVersionName": "ppolskhvrxvvranx",
+                "LatestVersionStatus": "eoccadorwgaommwr",
+                "NumberOfVersions": 0
+            },
+            {
+                "DocumentClassifierName": "blcmkjuicdregiut",
+                "LatestVersionCreatedAt": "hmuhtbtzrvhccdkl",
+                "LatestVersionName": "tjpkifbggzmiepmb",
+                "LatestVersionStatus": "czipowmwxducgmkg",
+                "NumberOfVersions": 0
+            },
+            {
+                "DocumentClassifierName": "pvjslfrifhfpkqsa",
+                "LatestVersionCreatedAt": "zwrpxleegfapgzwa",
+                "LatestVersionName": "paptoziheslkvgde",
+                "LatestVersionStatus": "jdkmczbvrvsxbstq",
+                "NumberOfVersions": 0
+            },
+            {
+                "DocumentClassifierName": "kqchqdpecrfqwtmc",
+                "LatestVersionCreatedAt": "bokxxhgpsdspsiki",
+                "LatestVersionName": "bujfvegjegtuxfez",
+                "LatestVersionStatus": "mlewlapdtombyepf",
+                "NumberOfVersions": 0
+            },
+            {
+                "DocumentClassifierName": "blmhavygzsukmmmd",
+                "LatestVersionCreatedAt": "bvxkkxotdaitpfub",
+                "LatestVersionName": "ljlbjlyytebclnue",
+                "LatestVersionStatus": "paymfcovlrxzhqeo",
+                "NumberOfVersions": 0
+            },
+            {
+                "DocumentClassifierName": "mxbuibuxaavaelwr",
+                "LatestVersionCreatedAt": "vocypntqdswwznkn",
+                "LatestVersionName": "yxxmmjlbskrleowq",
+                "LatestVersionStatus": "jgkaadoqpxmccedz",
+                "NumberOfVersions": 0
+            },
+            {
+                "DocumentClassifierName": "uvqpcoktpaxfnoky",
+                "LatestVersionCreatedAt": "kkwknfbxxxivxxnn",
+                "LatestVersionName": "kinjbdbvmuldglct",
+                "LatestVersionStatus": "ccgmwqacwubpuuwv",
+                "NumberOfVersions": 0
+            },
+            {
+                "DocumentClassifierName": "vegzryypbfyvlqpw",
+                "LatestVersionCreatedAt": "mntfggoilpfiagun",
+                "LatestVersionName": "wlqdxkxewwhfscjz",
+                "LatestVersionStatus": "cmatththosfsxmuy",
+                "NumberOfVersions": 0
+            },
+            {
+                "DocumentClassifierName": "trnvnhfwtnbhftun",
+                "LatestVersionCreatedAt": "enjxavrstseyamgj",
+                "LatestVersionName": "abwpyddrbbrdubqc",
+                "LatestVersionStatus": "hoqotwfaahmyygne",
+                "NumberOfVersions": 0
+            },
+            {
+                "DocumentClassifierName": "ewsfzpzbrcloxfky",
+                "LatestVersionCreatedAt": "fqkjpcrqtrnixsxs",
+                "LatestVersionName": "xkavglomtapifnar",
+                "LatestVersionStatus": "memrxtbpygwmihdf",
+                "NumberOfVersions": 0
+            }
+        ],
+        "result_key": "DocumentClassifierSummariesList"
+    },
+    "meta": {
+        "start": 1711115450.579312,
+        "end": 1711115457.599861,
+        "duration": 7.020560026168823,
+        "service": "comprehend",
+        "type": "document_classifier_summaries"
+    }
+}

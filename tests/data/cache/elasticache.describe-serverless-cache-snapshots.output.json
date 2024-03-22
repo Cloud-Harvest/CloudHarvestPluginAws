@@ -1,0 +1,196 @@
+{
+    "input": {
+        "template": {
+            "ServerlessCacheName": "",
+            "ServerlessCacheSnapshotName": "",
+            "SnapshotType": "",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "594820e49f84eb620743a086985d85ef",
+        "boto_command": "describe_serverless_cache_snapshots",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "ServerlessCacheSnapshotName": "ServerlessCacheSnapshotName",
+                "ARN": "ARN",
+                "KmsKeyId": "KmsKeyId",
+                "SnapshotType": "SnapshotType",
+                "Status": "Status",
+                "CreateTime": "1970-01-01T00:00:00",
+                "ExpiryTime": "1970-01-01T00:00:00",
+                "BytesUsedForCache": "BytesUsedForCache",
+                "ServerlessCacheConfiguration": {
+                    "ServerlessCacheName": "ServerlessCacheName",
+                    "Engine": "Engine",
+                    "MajorEngineVersion": "MajorEngineVersion"
+                }
+            }
+        ],
+        "required": [],
+        "md5": "6596ef75daddf381c6e505ce4f48cf30",
+        "randomized": [
+            {
+                "ARN": "vpqnyxcxdsfjuohk",
+                "BytesUsedForCache": "gipdeqmnxcqordxg",
+                "CreateTime": "xivlkjlcrgyodhjv",
+                "ExpiryTime": "hkecxqmwzjpkvypp",
+                "KmsKeyId": "uzcakjxupdscdqdt",
+                "ServerlessCacheConfiguration": {
+                    "Engine": "eprkumpwodctuerk",
+                    "MajorEngineVersion": "zlslspiihetfktha",
+                    "ServerlessCacheName": "hcxyyughcpxlpwwj"
+                },
+                "ServerlessCacheSnapshotName": "rfgfxarntabdyxjs",
+                "SnapshotType": "rjggjeozalhtuiez",
+                "Status": "zkzzyozdfulzifez"
+            },
+            {
+                "ARN": "fdsefgfoqczbmzty",
+                "BytesUsedForCache": "wwehyejqjozheofw",
+                "CreateTime": "vwkawjcvtljtphlt",
+                "ExpiryTime": "zeivwduppifggtgn",
+                "KmsKeyId": "fhctvwwtzykcyqje",
+                "ServerlessCacheConfiguration": {
+                    "Engine": "cqovlahtmkmcnjck",
+                    "MajorEngineVersion": "tlljpnptrbynbljl",
+                    "ServerlessCacheName": "vvytuxpanlltvbrk"
+                },
+                "ServerlessCacheSnapshotName": "yzzjyfuccrhrzwjr",
+                "SnapshotType": "xtljxowhqwnhlfxy",
+                "Status": "gpqlcckhqasgcccq"
+            },
+            {
+                "ARN": "jplehipnkaxisdvc",
+                "BytesUsedForCache": "wvycgdjosqaczqjd",
+                "CreateTime": "xpcwkdqarjahsfwo",
+                "ExpiryTime": "gkaljojegvxlxsmn",
+                "KmsKeyId": "jhvftqiezoldkbua",
+                "ServerlessCacheConfiguration": {
+                    "Engine": "yybmltxzccvyvqyx",
+                    "MajorEngineVersion": "dmixpkikrnnzsxnk",
+                    "ServerlessCacheName": "mkcqpupvwiyqqlnv"
+                },
+                "ServerlessCacheSnapshotName": "zukgjqxkqntgtuqo",
+                "SnapshotType": "idpoonjhbjiyztes",
+                "Status": "kjpfjjxnzbpumzqk"
+            },
+            {
+                "ARN": "vadlzlrpnstgqwkb",
+                "BytesUsedForCache": "gcqyspmpbrbaqmoy",
+                "CreateTime": "cotlqyidjejlinss",
+                "ExpiryTime": "klwohzgkyjrcazyo",
+                "KmsKeyId": "lpdasadfxelfhleh",
+                "ServerlessCacheConfiguration": {
+                    "Engine": "gxrjbarkvaagboli",
+                    "MajorEngineVersion": "lkykvutrcvsgqzap",
+                    "ServerlessCacheName": "fgxpqkawodwhmrih"
+                },
+                "ServerlessCacheSnapshotName": "qxgzdyrmspfjbutm",
+                "SnapshotType": "iqtavgltfrjtcsqw",
+                "Status": "eptiyniarvpdauxe"
+            },
+            {
+                "ARN": "djanjpnzfjoyakin",
+                "BytesUsedForCache": "unncotvmdemaqvdi",
+                "CreateTime": "mkflxznnsagvdhcl",
+                "ExpiryTime": "jqexsdkrvspxpjim",
+                "KmsKeyId": "tmvczhynuziqhjan",
+                "ServerlessCacheConfiguration": {
+                    "Engine": "owvcjweswwjudmvx",
+                    "MajorEngineVersion": "ngnzvacomvqdwyeq",
+                    "ServerlessCacheName": "lhfsiinmhqvzphwu"
+                },
+                "ServerlessCacheSnapshotName": "nbfxgawobgzxyfsk",
+                "SnapshotType": "zitxytqkabcbhquz",
+                "Status": "lwemhklqgtblucue"
+            },
+            {
+                "ARN": "psodccylhswztlfy",
+                "BytesUsedForCache": "qmheitxltpinsiit",
+                "CreateTime": "ncwcotihxnlsftws",
+                "ExpiryTime": "dupkbllqpcjsierm",
+                "KmsKeyId": "bmtgvvgpcdersekh",
+                "ServerlessCacheConfiguration": {
+                    "Engine": "skwegtcinawcczog",
+                    "MajorEngineVersion": "ramauzjasugwgkra",
+                    "ServerlessCacheName": "lilteogiyalaeseb"
+                },
+                "ServerlessCacheSnapshotName": "yeqyrstevbhbsilx",
+                "SnapshotType": "hxtncuavabzgewus",
+                "Status": "ttaletoalwigskaf"
+            },
+            {
+                "ARN": "yfacabudmtrhkrkn",
+                "BytesUsedForCache": "htkmuzbqgyynxdng",
+                "CreateTime": "orbdotffdqmtsrad",
+                "ExpiryTime": "kikxtugaabclaciz",
+                "KmsKeyId": "qcndysvnxadxsjyu",
+                "ServerlessCacheConfiguration": {
+                    "Engine": "sxibdtmtujuyzvlq",
+                    "MajorEngineVersion": "isrgiflybdlconuc",
+                    "ServerlessCacheName": "heyfdxpobfcqvnnx"
+                },
+                "ServerlessCacheSnapshotName": "qcxgkrnraxjzvoel",
+                "SnapshotType": "repucamakoqcwzuo",
+                "Status": "zjgkvrcntliryoos"
+            },
+            {
+                "ARN": "zhmhuuemmhtlmwlu",
+                "BytesUsedForCache": "lbfzbwudqffswqwy",
+                "CreateTime": "wdwyivwimblvbpos",
+                "ExpiryTime": "mcddneadjlebbswm",
+                "KmsKeyId": "wtjgsdbrezhrdvmb",
+                "ServerlessCacheConfiguration": {
+                    "Engine": "nfdseumoqluhdyma",
+                    "MajorEngineVersion": "yzfcvrospfpkfecb",
+                    "ServerlessCacheName": "kfamqgxndfbbrnaj"
+                },
+                "ServerlessCacheSnapshotName": "wxmkuhrvvetjnhdf",
+                "SnapshotType": "fsedpdjfwxjfftfm",
+                "Status": "qavdgztxxfwlxmlc"
+            },
+            {
+                "ARN": "xfizyjzadxfkbxsz",
+                "BytesUsedForCache": "ddyvhqtpelkqczdg",
+                "CreateTime": "lmwoyetpnnhxhryp",
+                "ExpiryTime": "qbxzfqrhxvzcbcdi",
+                "KmsKeyId": "rwdqjyhfuyqlnxpt",
+                "ServerlessCacheConfiguration": {
+                    "Engine": "smtpxmrsreaqsmee",
+                    "MajorEngineVersion": "piixnuppnqfgrheu",
+                    "ServerlessCacheName": "jcjnkstabjkgcuwn"
+                },
+                "ServerlessCacheSnapshotName": "ksxuylxtfdrpagtj",
+                "SnapshotType": "wfkykfnltejxatzr",
+                "Status": "bcpoqsusbpwonmuw"
+            },
+            {
+                "ARN": "oigavpwdaovooqet",
+                "BytesUsedForCache": "gytisoguhsdeffeo",
+                "CreateTime": "anqkrgenioticggl",
+                "ExpiryTime": "bewekpttwojctvsc",
+                "KmsKeyId": "dxbixaadhvfkapeb",
+                "ServerlessCacheConfiguration": {
+                    "Engine": "hyvquvbvwazhliha",
+                    "MajorEngineVersion": "bldevdsambnnuoku",
+                    "ServerlessCacheName": "usxcodggumfakvyo"
+                },
+                "ServerlessCacheSnapshotName": "etftvnxxcjbxjgwp",
+                "SnapshotType": "extatsgrfymebrrt",
+                "Status": "piwcsotcirzfdnmx"
+            }
+        ],
+        "result_key": "ServerlessCacheSnapshots"
+    },
+    "meta": {
+        "start": 1711115709.639097,
+        "end": 1711115717.060093,
+        "duration": 7.421005964279175,
+        "service": "elasticache",
+        "type": "serverless_cache_snapshots"
+    }
+}

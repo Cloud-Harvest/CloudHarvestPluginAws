@@ -1,0 +1,72 @@
+[
+    {
+        "AllowSsh": true,
+        "AllowSudo": true,
+        "IamUserArn": "xivissqrffmtlbsz",
+        "Level": "ilvbxtqswibhqvrj",
+        "StackId": "afphhxnnvvcxuibi"
+    },
+    {
+        "AllowSsh": true,
+        "AllowSudo": true,
+        "IamUserArn": "jkmvvybbsscuczpu",
+        "Level": "djerdcqyacqfykcr",
+        "StackId": "fjkqrnqbacruzome"
+    },
+    {
+        "AllowSsh": true,
+        "AllowSudo": true,
+        "IamUserArn": "dcdluoiwkidyaqtz",
+        "Level": "ddfhdeiodmkvppmn",
+        "StackId": "fryiqlztqttcggiq"
+    },
+    {
+        "AllowSsh": true,
+        "AllowSudo": true,
+        "IamUserArn": "ctozgbgzbylmfbfn",
+        "Level": "mwyqbwwopfwhrmgs",
+        "StackId": "nvfoyuxxigoiiuyf"
+    },
+    {
+        "AllowSsh": true,
+        "AllowSudo": true,
+        "IamUserArn": "xnohfaiotjlioftu",
+        "Level": "lgbcgztyobytpecr",
+        "StackId": "xpocnqgizbhqiwiq"
+    },
+    {
+        "AllowSsh": true,
+        "AllowSudo": true,
+        "IamUserArn": "cowojrdbrkahbtsg",
+        "Level": "dbutmsmesdpxjrbq",
+        "StackId": "bsajidqtuofanlsu"
+    },
+    {
+        "AllowSsh": true,
+        "AllowSudo": true,
+        "IamUserArn": "lmsmuenfdgqxeadr",
+        "Level": "fhbdfevnkiqpusvh",
+        "StackId": "flzsguuitvgcfnpv"
+    },
+    {
+        "AllowSsh": true,
+        "AllowSudo": true,
+        "IamUserArn": "fljhxsayfohqhgmm",
+        "Level": "bsqloingpavabect",
+        "StackId": "biyngtcbpmzedopl"
+    },
+    {
+        "AllowSsh": true,
+        "AllowSudo": true,
+        "IamUserArn": "xmcjbegzkpkesrma",
+        "Level": "auosfmndfasoskyp",
+        "StackId": "ixoibwuflayhbsqz"
+    },
+    {
+        "AllowSsh": true,
+        "AllowSudo": true,
+        "IamUserArn": "symhaphypyeulceo",
+        "Level": "colinnyltakntogs",
+        "StackId": "nhvocgmyisnvhcgj"
+    }
+]

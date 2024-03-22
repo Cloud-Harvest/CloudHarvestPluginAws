@@ -1,0 +1,143 @@
+{
+    "input": {
+        "template": {
+            "SourceIdentifier": "",
+            "SourceType": "replication-instance",
+            "StartTime": "1970-01-01T00:00:00",
+            "EndTime": "1970-01-01T00:00:00",
+            "Duration": 0,
+            "EventCategories": [
+                ""
+            ],
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxRecords": 0,
+            "Marker": ""
+        },
+        "required": [],
+        "md5": "6c3867fd82dbcf423daa5737cd0c193f",
+        "boto_command": "describe_events",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "SourceIdentifier": "SourceIdentifier",
+                "SourceType": "SourceType",
+                "Message": "Message",
+                "EventCategories": [
+                    "String"
+                ],
+                "Date": "1970-01-01T00:00:00"
+            }
+        ],
+        "required": [],
+        "md5": "21ba91d5f6dca24d29f9904cd34f5bb1",
+        "randomized": [
+            {
+                "Date": "rkfngfvumvuehfjc",
+                "EventCategories": [
+                    "wqtbruuhfhqpapcc"
+                ],
+                "Message": "jbzekzrtrqvngwhz",
+                "SourceIdentifier": "drxvrysrovvnclxk",
+                "SourceType": "pxpmqszmegbaoeau"
+            },
+            {
+                "Date": "gstywctvslqsptsk",
+                "EventCategories": [
+                    "zmrggpnbtfhfobed"
+                ],
+                "Message": "lgpmdgvjqbcwvtls",
+                "SourceIdentifier": "tbhpgprzhtyhxpul",
+                "SourceType": "fdvdeoipvfbcljmo"
+            },
+            {
+                "Date": "yaumwdjcwrzlkcys",
+                "EventCategories": [
+                    "dkaksqzzsbqspgcy"
+                ],
+                "Message": "xywybilbpbnosgmq",
+                "SourceIdentifier": "lpqjkjfmhykfbelp",
+                "SourceType": "nnzhcufufnyhkyfq"
+            },
+            {
+                "Date": "avosnwzdcjnbdnhm",
+                "EventCategories": [
+                    "brorbdzopylsswmn"
+                ],
+                "Message": "boepibcypoafmkfy",
+                "SourceIdentifier": "mfkisusqcwtvyssw",
+                "SourceType": "mjibueognwzgbwfl"
+            },
+            {
+                "Date": "wipwaralvmyeonao",
+                "EventCategories": [
+                    "mxmtwbkrwthhpbvr"
+                ],
+                "Message": "pxgpvvuwuvrykqla",
+                "SourceIdentifier": "iryagivtfglcchep",
+                "SourceType": "bvgiitdmbfiprlsp"
+            },
+            {
+                "Date": "btcrfbxlvedxhbqw",
+                "EventCategories": [
+                    "iceaisdvurxxdebz"
+                ],
+                "Message": "wzfpfzreylcvzhas",
+                "SourceIdentifier": "rlbjyzhebzvnrugn",
+                "SourceType": "fkclfrkoqwcytykb"
+            },
+            {
+                "Date": "lgwpxjvjkfxkcyhj",
+                "EventCategories": [
+                    "omfrrkfywcimszpq"
+                ],
+                "Message": "pnpgcqihefuwjwfe",
+                "SourceIdentifier": "aliufdayjjhhubxt",
+                "SourceType": "sjndtsyzfxmwbevc"
+            },
+            {
+                "Date": "swxppihyccemwnpx",
+                "EventCategories": [
+                    "sxhkezlsrwkkoydi"
+                ],
+                "Message": "eaoxwipvbczyojmk",
+                "SourceIdentifier": "bknavprfeeuqkcsa",
+                "SourceType": "dxmhpzdhiedkwfjd"
+            },
+            {
+                "Date": "vthcmctjuzvrcvxn",
+                "EventCategories": [
+                    "ddrgqvvsmwqxposv"
+                ],
+                "Message": "eehmpdkssxsjgvcm",
+                "SourceIdentifier": "cfcjzzddhcqrtkws",
+                "SourceType": "nthpmbsrzhcbjrlj"
+            },
+            {
+                "Date": "pqoycylidfbloief",
+                "EventCategories": [
+                    "tovclebcefaohkrc"
+                ],
+                "Message": "dtpzmgawmsamgtaq",
+                "SourceIdentifier": "jhhvvwxaczvoxewo",
+                "SourceType": "xuwgparlzbglxhaw"
+            }
+        ],
+        "result_key": "Events"
+    },
+    "meta": {
+        "start": 1711115576.032892,
+        "end": 1711115583.211082,
+        "duration": 7.178194999694824,
+        "service": "dms",
+        "type": "events"
+    }
+}

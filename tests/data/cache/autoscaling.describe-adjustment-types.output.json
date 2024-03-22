@@ -1,0 +1,58 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "describe_adjustment_types",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "AdjustmentType": "AdjustmentType"
+            }
+        ],
+        "required": [],
+        "md5": "b042c87714bc7ffe3d60c6f6b686995c",
+        "randomized": [
+            {
+                "AdjustmentType": "ojzjwrruuowppwdy"
+            },
+            {
+                "AdjustmentType": "yqjozljlnzhlxltx"
+            },
+            {
+                "AdjustmentType": "ahxoqctjpohvrqvz"
+            },
+            {
+                "AdjustmentType": "qumlgxsdzudnlime"
+            },
+            {
+                "AdjustmentType": "elpijvpyhvnyjqul"
+            },
+            {
+                "AdjustmentType": "upsxedkvjnnuxpua"
+            },
+            {
+                "AdjustmentType": "toxvejofnobcgtur"
+            },
+            {
+                "AdjustmentType": "crkoanbrvgoeaohc"
+            },
+            {
+                "AdjustmentType": "adfscjslsxlspbgk"
+            },
+            {
+                "AdjustmentType": "smqkzegsvzykmhez"
+            }
+        ],
+        "result_key": "AdjustmentTypes"
+    },
+    "meta": {
+        "start": 1711115265.311335,
+        "end": 1711115272.182303,
+        "duration": 6.870975017547607,
+        "service": "autoscaling",
+        "type": "adjustment_types"
+    }
+}

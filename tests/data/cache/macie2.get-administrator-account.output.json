@@ -1,0 +1,89 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "get_administrator_account",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": {
+            "accountId": "accountId",
+            "invitationId": "invitationId",
+            "invitedAt": "1970-01-01T00:00:00",
+            "relationshipStatus": "relationshipStatus"
+        },
+        "required": [],
+        "md5": "205c18165e16c344bcbd28c470cf6d6b",
+        "randomized": [
+            {
+                "accountId": "nvaalykzwbbuxdud",
+                "invitationId": "iioyyepkchekdrjx",
+                "invitedAt": "leqedafcfbycnruu",
+                "relationshipStatus": "cclaolkyszvwfypi"
+            },
+            {
+                "accountId": "ewvczlqjzzuyhgqs",
+                "invitationId": "ncxcaamxqxyzkouk",
+                "invitedAt": "auyirvsnxhqtroiz",
+                "relationshipStatus": "asnrzcuxorhenkiu"
+            },
+            {
+                "accountId": "rxavzmwnmemkfbsx",
+                "invitationId": "xujgmgdieghbqgks",
+                "invitedAt": "vitsauaylosnonrn",
+                "relationshipStatus": "dtcqbymkagrnkmbf"
+            },
+            {
+                "accountId": "iojigrroethdrhho",
+                "invitationId": "lqjmnrkfqibmxsdg",
+                "invitedAt": "wqpglqggdmovsciq",
+                "relationshipStatus": "orzjdimpgwgdbqwn"
+            },
+            {
+                "accountId": "vmuauaobagpvlubh",
+                "invitationId": "bpgurjhodziftqfn",
+                "invitedAt": "iheklzdeneemcpwb",
+                "relationshipStatus": "mutvyucghlzkxzva"
+            },
+            {
+                "accountId": "empdfglvqnznuvpc",
+                "invitationId": "qxjoalgwizpvfdds",
+                "invitedAt": "cbwxacmbvnmimkoo",
+                "relationshipStatus": "ylxokkymkxgcxfio"
+            },
+            {
+                "accountId": "twubofpbzjyzntfp",
+                "invitationId": "psvwheomjgxhckgo",
+                "invitedAt": "qvhfmengqbghlmsf",
+                "relationshipStatus": "izwvkbswlphxertq"
+            },
+            {
+                "accountId": "lixysizjoatrholp",
+                "invitationId": "nplxbdrhssaabkoo",
+                "invitedAt": "wxcdurvnhcbkdpzd",
+                "relationshipStatus": "rcqathbbiaworvhu"
+            },
+            {
+                "accountId": "mzcmjsngyzsmpglp",
+                "invitationId": "beskycaipclsjyqw",
+                "invitedAt": "ftofigrrushbuvvy",
+                "relationshipStatus": "njchnjqlvrcunhuq"
+            },
+            {
+                "accountId": "ltjzjjvgkfigpdlm",
+                "invitationId": "hocmdyzgqcnlvmgf",
+                "invitedAt": "zlfwmqlmuweukhvw",
+                "relationshipStatus": "iceuifuoxnrxwhpu"
+            }
+        ],
+        "result_key": "administrator"
+    },
+    "meta": {
+        "start": 1711116144.935872,
+        "end": 1711116151.837529,
+        "duration": 6.901667833328247,
+        "service": "macie2",
+        "type": null
+    }
+}

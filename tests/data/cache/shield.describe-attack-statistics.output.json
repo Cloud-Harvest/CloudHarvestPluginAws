@@ -1,0 +1,67 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "describe_attack_statistics",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": {
+            "FromInclusive": "1970-01-01T00:00:00",
+            "ToExclusive": "1970-01-01T00:00:00"
+        },
+        "required": [],
+        "md5": "28040c9f50b4ed355613691c931d5fc2",
+        "randomized": [
+            {
+                "FromInclusive": "hysrmotkeuhbhgsm",
+                "ToExclusive": "clbviwkgpsqeolvt"
+            },
+            {
+                "FromInclusive": "xszlqdnilavzprhk",
+                "ToExclusive": "jgbxrtrzjgefdntm"
+            },
+            {
+                "FromInclusive": "gsqjdfbjepafsyhm",
+                "ToExclusive": "xinrjsrcfnsuzpyz"
+            },
+            {
+                "FromInclusive": "akwbqyqlafkgiluo",
+                "ToExclusive": "wjowvvwyqpeudsye"
+            },
+            {
+                "FromInclusive": "qdbbrsjalrdkvezn",
+                "ToExclusive": "jjytrmftnhhsfxab"
+            },
+            {
+                "FromInclusive": "zbeuchojhdxznypd",
+                "ToExclusive": "uarpwuyrnaenmpyb"
+            },
+            {
+                "FromInclusive": "eiezungxbtzkfsig",
+                "ToExclusive": "xudpicjhoxehumwo"
+            },
+            {
+                "FromInclusive": "npbdhckwxctuihek",
+                "ToExclusive": "pxepeinxjpivlkcr"
+            },
+            {
+                "FromInclusive": "dsbekknkrwoaotve",
+                "ToExclusive": "fgeegjrqzvviqvie"
+            },
+            {
+                "FromInclusive": "autepshixfeuswbt",
+                "ToExclusive": "hjitacozbatmxxbr"
+            }
+        ],
+        "result_key": "TimeRange"
+    },
+    "meta": {
+        "start": 1711116629.805613,
+        "end": 1711116635.697342,
+        "duration": 5.8917388916015625,
+        "service": "shield",
+        "type": "attack_statistics"
+    }
+}

@@ -1,0 +1,207 @@
+{
+    "input": {
+        "template": {
+            "InstanceIds": [
+                ""
+            ],
+            "MaxRecords": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "5088340220b8efc9b231b9b657f7959f",
+        "boto_command": "describe_auto_scaling_instances",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "InstanceId": "InstanceId",
+                "InstanceType": "InstanceType",
+                "AutoScalingGroupName": "AutoScalingGroupName",
+                "AvailabilityZone": "AvailabilityZone",
+                "LifecycleState": "LifecycleState",
+                "HealthStatus": "HealthStatus",
+                "LaunchConfigurationName": "LaunchConfigurationName",
+                "LaunchTemplate": {
+                    "LaunchTemplateId": "LaunchTemplateId",
+                    "LaunchTemplateName": "LaunchTemplateName",
+                    "Version": "Version"
+                },
+                "ProtectedFromScaleIn": true,
+                "WeightedCapacity": "WeightedCapacity"
+            }
+        ],
+        "required": [],
+        "md5": "03083cf0cb89e81eb16e2ea6a6ba63b1",
+        "randomized": [
+            {
+                "AutoScalingGroupName": "trljkgudqqerzrtz",
+                "AvailabilityZone": "pjdgvhcqtrxpvamt",
+                "HealthStatus": "rkuqfkxddexshnjv",
+                "InstanceId": "mhyqfgvkrdbavtiw",
+                "InstanceType": "qucfgjcvuptcnrqm",
+                "LaunchConfigurationName": "jvlvhytyseevrtnd",
+                "LaunchTemplate": {
+                    "LaunchTemplateId": "tlzralmqgsamhcoe",
+                    "LaunchTemplateName": "dreasfrobfgsuuiq",
+                    "Version": "suhyzgwnrytyuhds"
+                },
+                "LifecycleState": "rxgccqtibebrzlwx",
+                "ProtectedFromScaleIn": true,
+                "WeightedCapacity": "zbwgxbzoklxrokhb"
+            },
+            {
+                "AutoScalingGroupName": "pwdsagxatqgbajcl",
+                "AvailabilityZone": "yqulavahkswcvrzo",
+                "HealthStatus": "ftuuokjdzlcaswtc",
+                "InstanceId": "zslhwzugmsckyywx",
+                "InstanceType": "hegygxhosggwlbwt",
+                "LaunchConfigurationName": "mzbooocvgiakaxyg",
+                "LaunchTemplate": {
+                    "LaunchTemplateId": "xvqlafrpzzmdvgid",
+                    "LaunchTemplateName": "mcmlusyhpoutbcuf",
+                    "Version": "wdiukyajaxxxqzxa"
+                },
+                "LifecycleState": "xyxigxvughjbiviv",
+                "ProtectedFromScaleIn": true,
+                "WeightedCapacity": "owcetijzkfclugad"
+            },
+            {
+                "AutoScalingGroupName": "mfrvzbxumqifmcka",
+                "AvailabilityZone": "wpgsjxjhwpmvjlli",
+                "HealthStatus": "ohwwcqzaiduhhzeq",
+                "InstanceId": "xcdnxklwtwwhysme",
+                "InstanceType": "euiwfdblfscdoork",
+                "LaunchConfigurationName": "iydellmqlofvovuj",
+                "LaunchTemplate": {
+                    "LaunchTemplateId": "reqzllmiouugvewv",
+                    "LaunchTemplateName": "smdzrttkjpjbasrd",
+                    "Version": "czorylicjyezcenf"
+                },
+                "LifecycleState": "mlcywbxqtqqkisdq",
+                "ProtectedFromScaleIn": true,
+                "WeightedCapacity": "xcfrrywqwhqdpioy"
+            },
+            {
+                "AutoScalingGroupName": "xfukhbjctezrnbry",
+                "AvailabilityZone": "nuulogynsfuhaons",
+                "HealthStatus": "viznhdlkyimpidha",
+                "InstanceId": "jygohwawulsdtmak",
+                "InstanceType": "pxalgfhzbfhenxyd",
+                "LaunchConfigurationName": "suflpcchxriogxko",
+                "LaunchTemplate": {
+                    "LaunchTemplateId": "apwglfldssqnrfak",
+                    "LaunchTemplateName": "lledmgiuwkykmimw",
+                    "Version": "vwznuhstjikrcutq"
+                },
+                "LifecycleState": "jaibripbgytevqlr",
+                "ProtectedFromScaleIn": true,
+                "WeightedCapacity": "nmbikdliuvwmjcwj"
+            },
+            {
+                "AutoScalingGroupName": "oeoyspzacgpdzblx",
+                "AvailabilityZone": "cnikejskhahhqtzv",
+                "HealthStatus": "xnxzkelfvpvnwgnh",
+                "InstanceId": "boezhylzwlizviww",
+                "InstanceType": "vnuvmxcgjncvdnct",
+                "LaunchConfigurationName": "bvsgyxxyigjsitpu",
+                "LaunchTemplate": {
+                    "LaunchTemplateId": "wbisumoytxbmxpbs",
+                    "LaunchTemplateName": "ibpjqqbbwkrunhzg",
+                    "Version": "fditpmogqlaujamd"
+                },
+                "LifecycleState": "hllrgeepymvcqeyp",
+                "ProtectedFromScaleIn": true,
+                "WeightedCapacity": "dfrhfagnnpiooqct"
+            },
+            {
+                "AutoScalingGroupName": "nvatogijqxryehcq",
+                "AvailabilityZone": "glzigmptwfngxwwi",
+                "HealthStatus": "vkugoocmpvexhxqy",
+                "InstanceId": "hpzcrswygfzmgorm",
+                "InstanceType": "wrycxppxrmduoxdy",
+                "LaunchConfigurationName": "ysikycvmajijcuji",
+                "LaunchTemplate": {
+                    "LaunchTemplateId": "dppuuxezbvotueqs",
+                    "LaunchTemplateName": "ckcnwouhuwaloqrm",
+                    "Version": "ffhiprfmsqwstyva"
+                },
+                "LifecycleState": "cxjohixkkuiytymh",
+                "ProtectedFromScaleIn": true,
+                "WeightedCapacity": "cwxgpadwfmsdlhcv"
+            },
+            {
+                "AutoScalingGroupName": "rbhecxmcosepqwnm",
+                "AvailabilityZone": "eiuikmyzmllmycap",
+                "HealthStatus": "omcpxvzghcpblirj",
+                "InstanceId": "gmgkshyfnyfgqufe",
+                "InstanceType": "rgjjlbhhaeekplvy",
+                "LaunchConfigurationName": "ifhcwqgcsomdcbps",
+                "LaunchTemplate": {
+                    "LaunchTemplateId": "imvrrostbgtlyern",
+                    "LaunchTemplateName": "ywajwuaykhsmyuni",
+                    "Version": "oaivbamgkyfmsiti"
+                },
+                "LifecycleState": "thjmppmqtjktsjon",
+                "ProtectedFromScaleIn": true,
+                "WeightedCapacity": "wdbotkflqxyoyoyr"
+            },
+            {
+                "AutoScalingGroupName": "trnmapnbmwanewif",
+                "AvailabilityZone": "vfmzebeiwvkgchcc",
+                "HealthStatus": "mweelchilmpdjtnx",
+                "InstanceId": "oiujuqyobkihearn",
+                "InstanceType": "eifnzoieakontusz",
+                "LaunchConfigurationName": "pbljixotqxfkatfd",
+                "LaunchTemplate": {
+                    "LaunchTemplateId": "rhepbfmciqabmnzw",
+                    "LaunchTemplateName": "ezuunxlhjbjxemca",
+                    "Version": "pmmjohzoinmzvaca"
+                },
+                "LifecycleState": "vgogxnonclmyjrxs",
+                "ProtectedFromScaleIn": true,
+                "WeightedCapacity": "iqqzawdxobuyqfik"
+            },
+            {
+                "AutoScalingGroupName": "aofkpcthqbatplnj",
+                "AvailabilityZone": "sqzasqmreviyselm",
+                "HealthStatus": "yyirefcebmiclxjd",
+                "InstanceId": "xgnvqjtvafetfgki",
+                "InstanceType": "jwazincpaxhfybqy",
+                "LaunchConfigurationName": "jdxtakcusxdyakrr",
+                "LaunchTemplate": {
+                    "LaunchTemplateId": "qmopwuthnpranytd",
+                    "LaunchTemplateName": "ycgnsiyupdiutmwc",
+                    "Version": "cvtvjzcpcrcirlig"
+                },
+                "LifecycleState": "zlxtxbpwmjoweimo",
+                "ProtectedFromScaleIn": true,
+                "WeightedCapacity": "mzlsxmveigbcihzn"
+            },
+            {
+                "AutoScalingGroupName": "urzuuvhcbssihssj",
+                "AvailabilityZone": "wnlugpbiqphohppb",
+                "HealthStatus": "rktwusrjijtwheeo",
+                "InstanceId": "kjusrkshnjbonggf",
+                "InstanceType": "xkrgtfzgmaorbfac",
+                "LaunchConfigurationName": "ztkoutznodcjgpoh",
+                "LaunchTemplate": {
+                    "LaunchTemplateId": "rkcusfynphhutukv",
+                    "LaunchTemplateName": "knhbdnbvufkshenf",
+                    "Version": "lduqcliitnstazfe"
+                },
+                "LifecycleState": "kqjiuyybozabwrnh",
+                "ProtectedFromScaleIn": true,
+                "WeightedCapacity": "pqljbdsjzmwgndzn"
+            }
+        ],
+        "result_key": "AutoScalingInstances"
+    },
+    "meta": {
+        "start": 1711115265.542922,
+        "end": 1711115273.387484,
+        "duration": 7.84456992149353,
+        "service": "autoscaling",
+        "type": "auto_scaling_instances"
+    }
+}

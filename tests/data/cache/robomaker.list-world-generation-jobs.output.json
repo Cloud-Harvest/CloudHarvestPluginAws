@@ -1,0 +1,168 @@
+{
+    "input": {
+        "template": {
+            "nextToken": "",
+            "maxResults": 0,
+            "filters": [
+                {
+                    "name": "",
+                    "values": [
+                        ""
+                    ]
+                }
+            ]
+        },
+        "required": [],
+        "md5": "1a660c1d80b49c4c919fec65f6dc6d78",
+        "boto_command": "list_world_generation_jobs",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "arn": "arn",
+                "template": "template",
+                "createdAt": "1970-01-01T00:00:00",
+                "status": "status",
+                "worldCount": {
+                    "floorplanCount": 0,
+                    "interiorCountPerFloorplan": 0
+                },
+                "succeededWorldCount": 0,
+                "failedWorldCount": 0
+            }
+        ],
+        "required": [],
+        "md5": "a4d30e2841d2d4ca4c18291fede7640b",
+        "randomized": [
+            {
+                "arn": "suhfatxcfjwcliqk",
+                "createdAt": "wzrhpojautvmzrlt",
+                "failedWorldCount": 0,
+                "status": "jcobulqldxywzmxw",
+                "succeededWorldCount": 0,
+                "template": "vxshfmbgfidgopsq",
+                "worldCount": {
+                    "floorplanCount": 0,
+                    "interiorCountPerFloorplan": 0
+                }
+            },
+            {
+                "arn": "lclpkxuefrtmrlfg",
+                "createdAt": "ebezjyomqqlaivdq",
+                "failedWorldCount": 0,
+                "status": "fmkshsmdyvoxcoxa",
+                "succeededWorldCount": 0,
+                "template": "plbntlbztxrjsndv",
+                "worldCount": {
+                    "floorplanCount": 0,
+                    "interiorCountPerFloorplan": 0
+                }
+            },
+            {
+                "arn": "lxqlyfwqhrcxhtti",
+                "createdAt": "ldddnqnqdofgcfby",
+                "failedWorldCount": 0,
+                "status": "doptutnmcpnqsmow",
+                "succeededWorldCount": 0,
+                "template": "nndkugeryydpsziv",
+                "worldCount": {
+                    "floorplanCount": 0,
+                    "interiorCountPerFloorplan": 0
+                }
+            },
+            {
+                "arn": "nfnfvanjvvranbcg",
+                "createdAt": "yoayfyzaxyyeqibu",
+                "failedWorldCount": 0,
+                "status": "ujgxyxbktildyqgv",
+                "succeededWorldCount": 0,
+                "template": "imgttuabrosyqhpo",
+                "worldCount": {
+                    "floorplanCount": 0,
+                    "interiorCountPerFloorplan": 0
+                }
+            },
+            {
+                "arn": "qdkvxyqsbmdegipb",
+                "createdAt": "mehjygploebprydo",
+                "failedWorldCount": 0,
+                "status": "gylnhrsrrftrxhlz",
+                "succeededWorldCount": 0,
+                "template": "ociiwcngfubyrdie",
+                "worldCount": {
+                    "floorplanCount": 0,
+                    "interiorCountPerFloorplan": 0
+                }
+            },
+            {
+                "arn": "enuffjywtoajiqzy",
+                "createdAt": "drybbqxktoaympsf",
+                "failedWorldCount": 0,
+                "status": "twpeupiuccdjyrke",
+                "succeededWorldCount": 0,
+                "template": "tpcbfzruticccblg",
+                "worldCount": {
+                    "floorplanCount": 0,
+                    "interiorCountPerFloorplan": 0
+                }
+            },
+            {
+                "arn": "exezmjjynnpzogem",
+                "createdAt": "oscvdllapsrlmjyc",
+                "failedWorldCount": 0,
+                "status": "tpnkakqlrbmckfhg",
+                "succeededWorldCount": 0,
+                "template": "bzmpnjzvqpycynds",
+                "worldCount": {
+                    "floorplanCount": 0,
+                    "interiorCountPerFloorplan": 0
+                }
+            },
+            {
+                "arn": "fphiuyqnbsyvxfcr",
+                "createdAt": "muqyabgometregcc",
+                "failedWorldCount": 0,
+                "status": "dmggwrsizmiwlsqd",
+                "succeededWorldCount": 0,
+                "template": "yhsufpebtzhnirei",
+                "worldCount": {
+                    "floorplanCount": 0,
+                    "interiorCountPerFloorplan": 0
+                }
+            },
+            {
+                "arn": "jzxogqdlunvsbfwm",
+                "createdAt": "hpdvqegnbxcdwvgd",
+                "failedWorldCount": 0,
+                "status": "vlrvgpgduxwdiftk",
+                "succeededWorldCount": 0,
+                "template": "dhiatkkqnetpsxms",
+                "worldCount": {
+                    "floorplanCount": 0,
+                    "interiorCountPerFloorplan": 0
+                }
+            },
+            {
+                "arn": "zjbdpgwswugvppyj",
+                "createdAt": "onkuenejayvlurtl",
+                "failedWorldCount": 0,
+                "status": "mjizolhxjcnizgpd",
+                "succeededWorldCount": 0,
+                "template": "omagjkzbixcbvmmt",
+                "worldCount": {
+                    "floorplanCount": 0,
+                    "interiorCountPerFloorplan": 0
+                }
+            }
+        ],
+        "result_key": "worldGenerationJobSummaries"
+    },
+    "meta": {
+        "start": 1711116468.070919,
+        "end": 1711116475.259383,
+        "duration": 7.18847393989563,
+        "service": "robomaker",
+        "type": "world_generation_jobs"
+    }
+}

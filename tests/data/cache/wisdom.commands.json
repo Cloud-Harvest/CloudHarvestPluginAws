@@ -1,0 +1,17 @@
+[
+    "wisdom.get-assistant",
+    "wisdom.get-assistant-association",
+    "wisdom.get-content",
+    "wisdom.get-content-summary",
+    "wisdom.get-import-job",
+    "wisdom.get-knowledge-base",
+    "wisdom.get-quick-response",
+    "wisdom.get-session",
+    "wisdom.list-assistant-associations",
+    "wisdom.list-assistants",
+    "wisdom.list-contents",
+    "wisdom.list-import-jobs",
+    "wisdom.list-knowledge-bases",
+    "wisdom.list-quick-responses",
+    "wisdom.list-tags-for-resource"
+]

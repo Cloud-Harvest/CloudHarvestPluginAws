@@ -1,0 +1,645 @@
+{
+    "input": {
+        "template": {
+            "TrafficMirrorFilterIds": [
+                ""
+            ],
+            "DryRun": true,
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "1d195f4805df34544be9ebe979700bff",
+        "boto_command": "describe_traffic_mirror_filters",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "TrafficMirrorFilterId": "TrafficMirrorFilterId",
+                "IngressFilterRules": [
+                    {
+                        "TrafficMirrorFilterRuleId": "TrafficMirrorFilterRuleId",
+                        "TrafficMirrorFilterId": "TrafficMirrorFilterId",
+                        "TrafficDirection": "TrafficDirection",
+                        "RuleNumber": 0,
+                        "RuleAction": "RuleAction",
+                        "Protocol": 0,
+                        "DestinationPortRange": {
+                            "FromPort": 0,
+                            "ToPort": 0
+                        },
+                        "SourcePortRange": {
+                            "FromPort": 0,
+                            "ToPort": 0
+                        },
+                        "DestinationCidrBlock": "DestinationCidrBlock",
+                        "SourceCidrBlock": "SourceCidrBlock",
+                        "Description": "Description"
+                    }
+                ],
+                "EgressFilterRules": [
+                    {
+                        "TrafficMirrorFilterRuleId": "TrafficMirrorFilterRuleId",
+                        "TrafficMirrorFilterId": "TrafficMirrorFilterId",
+                        "TrafficDirection": "TrafficDirection",
+                        "RuleNumber": 0,
+                        "RuleAction": "RuleAction",
+                        "Protocol": 0,
+                        "DestinationPortRange": {
+                            "FromPort": 0,
+                            "ToPort": 0
+                        },
+                        "SourcePortRange": {
+                            "FromPort": 0,
+                            "ToPort": 0
+                        },
+                        "DestinationCidrBlock": "DestinationCidrBlock",
+                        "SourceCidrBlock": "SourceCidrBlock",
+                        "Description": "Description"
+                    }
+                ],
+                "NetworkServices": [
+                    "TrafficMirrorNetworkService"
+                ],
+                "Description": "Description",
+                "Tags": [
+                    {
+                        "Key": "Key",
+                        "Value": "Value"
+                    }
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "38f29c58fa88f0b428563cc7ef6c76d7",
+        "randomized": [
+            {
+                "Description": "xquclulqftmamhbg",
+                "EgressFilterRules": [
+                    {
+                        "Description": "muzslvbdtydyvhey",
+                        "DestinationCidrBlock": "qwomswnyxwbqptru",
+                        "DestinationPortRange": {
+                            "FromPort": 0,
+                            "ToPort": 0
+                        },
+                        "Protocol": 0,
+                        "RuleAction": "ptpmusbrloqyaejc",
+                        "RuleNumber": 0,
+                        "SourceCidrBlock": "gysndmbxdtxontut",
+                        "SourcePortRange": {
+                            "FromPort": 0,
+                            "ToPort": 0
+                        },
+                        "TrafficDirection": "zgepjubykktablaj",
+                        "TrafficMirrorFilterId": "mijkbjeryoahaunf",
+                        "TrafficMirrorFilterRuleId": "fektjiyghohdevbv"
+                    }
+                ],
+                "IngressFilterRules": [
+                    {
+                        "Description": "fecrudgxncsssloj",
+                        "DestinationCidrBlock": "eiseliclczemshpk",
+                        "DestinationPortRange": {
+                            "FromPort": 0,
+                            "ToPort": 0
+                        },
+                        "Protocol": 0,
+                        "RuleAction": "grrafrkyqgpdfrov",
+                        "RuleNumber": 0,
+                        "SourceCidrBlock": "xvjlhrgdwtjufwuu",
+                        "SourcePortRange": {
+                            "FromPort": 0,
+                            "ToPort": 0
+                        },
+                        "TrafficDirection": "xkxsbccbojvufmpp",
+                        "TrafficMirrorFilterId": "dqptomsjrbnzqzhe",
+                        "TrafficMirrorFilterRuleId": "ujkpenmtdnwxyyld"
+                    }
+                ],
+                "NetworkServices": [
+                    "glpmblxcapnjzapv"
+                ],
+                "Tags": [
+                    {
+                        "Key": "dnzdmkwkmtvawbni",
+                        "Value": "etadrsiurvhcrwlp"
+                    }
+                ],
+                "TrafficMirrorFilterId": "lokgqtatbgswraha"
+            },
+            {
+                "Description": "zsujcoetsdckcgno",
+                "EgressFilterRules": [
+                    {
+                        "Description": "rrepijudjirvtaij",
+                        "DestinationCidrBlock": "mhvvtczujyhzchgq",
+                        "DestinationPortRange": {
+                            "FromPort": 0,
+                            "ToPort": 0
+                        },
+                        "Protocol": 0,
+                        "RuleAction": "fbigrvomhqityduw",
+                        "RuleNumber": 0,
+                        "SourceCidrBlock": "bcuvsntpsufvtdxx",
+                        "SourcePortRange": {
+                            "FromPort": 0,
+                            "ToPort": 0
+                        },
+                        "TrafficDirection": "spkdgxirdedorbtp",
+                        "TrafficMirrorFilterId": "ydysaysbzawuxgrr",
+                        "TrafficMirrorFilterRuleId": "bdacqvsdjoedqazk"
+                    }
+                ],
+                "IngressFilterRules": [
+                    {
+                        "Description": "cgrtzqokzidpiynl",
+                        "DestinationCidrBlock": "ufecwzsvyvhekcvq",
+                        "DestinationPortRange": {
+                            "FromPort": 0,
+                            "ToPort": 0
+                        },
+                        "Protocol": 0,
+                        "RuleAction": "evaaxtyeqizckiir",
+                        "RuleNumber": 0,
+                        "SourceCidrBlock": "wmkswrpltbmmjajx",
+                        "SourcePortRange": {
+                            "FromPort": 0,
+                            "ToPort": 0
+                        },
+                        "TrafficDirection": "xieodzyjlqshufdx",
+                        "TrafficMirrorFilterId": "rlkejvysqzfcdfih",
+                        "TrafficMirrorFilterRuleId": "fhdkzinppufsaznt"
+                    }
+                ],
+                "NetworkServices": [
+                    "xfdyqwftzkjlnyvg"
+                ],
+                "Tags": [
+                    {
+                        "Key": "cwwfonakgpdupokl",
+                        "Value": "xblizuokuwtztxbj"
+                    }
+                ],
+                "TrafficMirrorFilterId": "cfgendsognogfiqh"
+            },
+            {
+                "Description": "dxbtuqpugwemwwfb",
+                "EgressFilterRules": [
+                    {
+                        "Description": "nuqywztidsgkooyv",
+                        "DestinationCidrBlock": "seiwrefzivnzncfp",
+                        "DestinationPortRange": {
+                            "FromPort": 0,
+                            "ToPort": 0
+                        },
+                        "Protocol": 0,
+                        "RuleAction": "wonntkbnpulyzjko",
+                        "RuleNumber": 0,
+                        "SourceCidrBlock": "vvxleocqsbyxssxk",
+                        "SourcePortRange": {
+                            "FromPort": 0,
+                            "ToPort": 0
+                        },
+                        "TrafficDirection": "byaqrcipenxpakjg",
+                        "TrafficMirrorFilterId": "xkbkhuaqvjzgkldz",
+                        "TrafficMirrorFilterRuleId": "jyztnoejkaubfpks"
+                    }
+                ],
+                "IngressFilterRules": [
+                    {
+                        "Description": "bqbpqeynvzkcspks",
+                        "DestinationCidrBlock": "jczwlrrpzyogtdui",
+                        "DestinationPortRange": {
+                            "FromPort": 0,
+                            "ToPort": 0
+                        },
+                        "Protocol": 0,
+                        "RuleAction": "zguqiaiyztdrvnfs",
+                        "RuleNumber": 0,
+                        "SourceCidrBlock": "fqdwiphxvcbhtrbh",
+                        "SourcePortRange": {
+                            "FromPort": 0,
+                            "ToPort": 0
+                        },
+                        "TrafficDirection": "bhgtaqhwsmcwyhpu",
+                        "TrafficMirrorFilterId": "jrpubrmgbmrwfoso",
+                        "TrafficMirrorFilterRuleId": "iepsmuqcrkqsppju"
+                    }
+                ],
+                "NetworkServices": [
+                    "sfbhljdyqcljtyrm"
+                ],
+                "Tags": [
+                    {
+                        "Key": "pkfupfgmcpuccmis",
+                        "Value": "zjxzsqdosbzupqoo"
+                    }
+                ],
+                "TrafficMirrorFilterId": "mieilshcivoppgyi"
+            },
+            {
+                "Description": "ysamdacfjulguyij",
+                "EgressFilterRules": [
+                    {
+                        "Description": "avjpggcckmbhyynz",
+                        "DestinationCidrBlock": "fyrzgexdbaqbhywy",
+                        "DestinationPortRange": {
+                            "FromPort": 0,
+                            "ToPort": 0
+                        },
+                        "Protocol": 0,
+                        "RuleAction": "dioqowbwntbhnaqe",
+                        "RuleNumber": 0,
+                        "SourceCidrBlock": "xniljvdmmjafikmb",
+                        "SourcePortRange": {
+                            "FromPort": 0,
+                            "ToPort": 0
+                        },
+                        "TrafficDirection": "yhtyqvwxktlgbjru",
+                        "TrafficMirrorFilterId": "oecpjcsvakaxnynr",
+                        "TrafficMirrorFilterRuleId": "ltfzpdbvawedcjad"
+                    }
+                ],
+                "IngressFilterRules": [
+                    {
+                        "Description": "tqzwoisdnzmehuom",
+                        "DestinationCidrBlock": "ldmqwuqgopfcdpdo",
+                        "DestinationPortRange": {
+                            "FromPort": 0,
+                            "ToPort": 0
+                        },
+                        "Protocol": 0,
+                        "RuleAction": "wruwywwhhxkeuizm",
+                        "RuleNumber": 0,
+                        "SourceCidrBlock": "uhojytyekzcjgumz",
+                        "SourcePortRange": {
+                            "FromPort": 0,
+                            "ToPort": 0
+                        },
+                        "TrafficDirection": "fidmjrgxatbjskyv",
+                        "TrafficMirrorFilterId": "pxtlvxcpvgtmzleq",
+                        "TrafficMirrorFilterRuleId": "nuytldzqaeogckee"
+                    }
+                ],
+                "NetworkServices": [
+                    "xzhetpthnxuwajoj"
+                ],
+                "Tags": [
+                    {
+                        "Key": "didkuvdkrzoygplf",
+                        "Value": "xpociqhlotdhmuac"
+                    }
+                ],
+                "TrafficMirrorFilterId": "npjcmeofwwkcrxpi"
+            },
+            {
+                "Description": "iihtbrnuyvlonsje",
+                "EgressFilterRules": [
+                    {
+                        "Description": "ptyybanmlemxikmh",
+                        "DestinationCidrBlock": "rtuggqdiismhgcms",
+                        "DestinationPortRange": {
+                            "FromPort": 0,
+                            "ToPort": 0
+                        },
+                        "Protocol": 0,
+                        "RuleAction": "incnmcdsrpeewuje",
+                        "RuleNumber": 0,
+                        "SourceCidrBlock": "fcscquoxoedvophs",
+                        "SourcePortRange": {
+                            "FromPort": 0,
+                            "ToPort": 0
+                        },
+                        "TrafficDirection": "vrzvdhlmeopniaat",
+                        "TrafficMirrorFilterId": "gwnxtdkhbtcojpuj",
+                        "TrafficMirrorFilterRuleId": "qclovzeurqyggxow"
+                    }
+                ],
+                "IngressFilterRules": [
+                    {
+                        "Description": "nbvzhjuxxosralpk",
+                        "DestinationCidrBlock": "zzsnpdvfqbnjsnih",
+                        "DestinationPortRange": {
+                            "FromPort": 0,
+                            "ToPort": 0
+                        },
+                        "Protocol": 0,
+                        "RuleAction": "igofbqvztgnkxxrw",
+                        "RuleNumber": 0,
+                        "SourceCidrBlock": "ockdjezkvkdomlxl",
+                        "SourcePortRange": {
+                            "FromPort": 0,
+                            "ToPort": 0
+                        },
+                        "TrafficDirection": "iqwvfntubfoshbmq",
+                        "TrafficMirrorFilterId": "hchvtjlokdylnwdq",
+                        "TrafficMirrorFilterRuleId": "ubzwrzcgsrbjmuiy"
+                    }
+                ],
+                "NetworkServices": [
+                    "hfimardeusofwnee"
+                ],
+                "Tags": [
+                    {
+                        "Key": "fvxxcipeyvdayckr",
+                        "Value": "kyrdwsrgoslojpzf"
+                    }
+                ],
+                "TrafficMirrorFilterId": "azwuhwamchgqjpsv"
+            },
+            {
+                "Description": "nuvnkuvyqdhhrokc",
+                "EgressFilterRules": [
+                    {
+                        "Description": "kixlwyjjvciiyyms",
+                        "DestinationCidrBlock": "zfduaiexlexqubad",
+                        "DestinationPortRange": {
+                            "FromPort": 0,
+                            "ToPort": 0
+                        },
+                        "Protocol": 0,
+                        "RuleAction": "atakqptaynulgelw",
+                        "RuleNumber": 0,
+                        "SourceCidrBlock": "rgydlgbzgdevwyek",
+                        "SourcePortRange": {
+                            "FromPort": 0,
+                            "ToPort": 0
+                        },
+                        "TrafficDirection": "lgnulnsvdbhefsjb",
+                        "TrafficMirrorFilterId": "bmnywgebfwbpvgte",
+                        "TrafficMirrorFilterRuleId": "dcqcptsztkefdjkx"
+                    }
+                ],
+                "IngressFilterRules": [
+                    {
+                        "Description": "imdbuhtpzgrxknrb",
+                        "DestinationCidrBlock": "ceyofovcekniapfh",
+                        "DestinationPortRange": {
+                            "FromPort": 0,
+                            "ToPort": 0
+                        },
+                        "Protocol": 0,
+                        "RuleAction": "qkffctlfjxpwishu",
+                        "RuleNumber": 0,
+                        "SourceCidrBlock": "emporxnwldyogajj",
+                        "SourcePortRange": {
+                            "FromPort": 0,
+                            "ToPort": 0
+                        },
+                        "TrafficDirection": "cwsabaosmktcphmc",
+                        "TrafficMirrorFilterId": "pxsgsqscqmnheysj",
+                        "TrafficMirrorFilterRuleId": "fbutnjkifjdegdys"
+                    }
+                ],
+                "NetworkServices": [
+                    "wqoppxfvlhwtvmwe"
+                ],
+                "Tags": [
+                    {
+                        "Key": "fwoxgavuahmgjplt",
+                        "Value": "znemhjinpccaijjl"
+                    }
+                ],
+                "TrafficMirrorFilterId": "ktsmsnvdaeixgfra"
+            },
+            {
+                "Description": "izqcgzradsagczef",
+                "EgressFilterRules": [
+                    {
+                        "Description": "quumhguevxozucwg",
+                        "DestinationCidrBlock": "bmneljxolimrmgds",
+                        "DestinationPortRange": {
+                            "FromPort": 0,
+                            "ToPort": 0
+                        },
+                        "Protocol": 0,
+                        "RuleAction": "plvqehfrvpxwocnb",
+                        "RuleNumber": 0,
+                        "SourceCidrBlock": "bijyovncjtefxepf",
+                        "SourcePortRange": {
+                            "FromPort": 0,
+                            "ToPort": 0
+                        },
+                        "TrafficDirection": "dfcjqtxetkkhxolc",
+                        "TrafficMirrorFilterId": "pyjfoxbdstzqmqlq",
+                        "TrafficMirrorFilterRuleId": "nnaovchsagtdlhoi"
+                    }
+                ],
+                "IngressFilterRules": [
+                    {
+                        "Description": "hhsvcdrnscqskqgo",
+                        "DestinationCidrBlock": "ednphpozgcgkvxpj",
+                        "DestinationPortRange": {
+                            "FromPort": 0,
+                            "ToPort": 0
+                        },
+                        "Protocol": 0,
+                        "RuleAction": "zyojtfhgljcbclhc",
+                        "RuleNumber": 0,
+                        "SourceCidrBlock": "cgvcofiqumbvcloa",
+                        "SourcePortRange": {
+                            "FromPort": 0,
+                            "ToPort": 0
+                        },
+                        "TrafficDirection": "orwhvpsnnqvqgmbu",
+                        "TrafficMirrorFilterId": "oowrgyfqnukumwnk",
+                        "TrafficMirrorFilterRuleId": "qnxdmzyycjfklwlq"
+                    }
+                ],
+                "NetworkServices": [
+                    "tepvobqcpqswkldl"
+                ],
+                "Tags": [
+                    {
+                        "Key": "ovalnmautrqymwdb",
+                        "Value": "jggzeauawfvqktbn"
+                    }
+                ],
+                "TrafficMirrorFilterId": "jfhyblbdwoqfdxxm"
+            },
+            {
+                "Description": "cmseyujigwnobdab",
+                "EgressFilterRules": [
+                    {
+                        "Description": "nudishiulmuplizc",
+                        "DestinationCidrBlock": "lkpwdpruthtwxbua",
+                        "DestinationPortRange": {
+                            "FromPort": 0,
+                            "ToPort": 0
+                        },
+                        "Protocol": 0,
+                        "RuleAction": "mvjorjrhxjawaxld",
+                        "RuleNumber": 0,
+                        "SourceCidrBlock": "hpshcjwphzofuhsz",
+                        "SourcePortRange": {
+                            "FromPort": 0,
+                            "ToPort": 0
+                        },
+                        "TrafficDirection": "ptuuqliaakckjipl",
+                        "TrafficMirrorFilterId": "rvdgkqpojlakgsad",
+                        "TrafficMirrorFilterRuleId": "bbgrytmrrehbrkek"
+                    }
+                ],
+                "IngressFilterRules": [
+                    {
+                        "Description": "hfmoquswmhfqagll",
+                        "DestinationCidrBlock": "lulwyvhomuprjpgg",
+                        "DestinationPortRange": {
+                            "FromPort": 0,
+                            "ToPort": 0
+                        },
+                        "Protocol": 0,
+                        "RuleAction": "ndgmdoblspgjpbwu",
+                        "RuleNumber": 0,
+                        "SourceCidrBlock": "fqwnpmfqvokatist",
+                        "SourcePortRange": {
+                            "FromPort": 0,
+                            "ToPort": 0
+                        },
+                        "TrafficDirection": "pcipdoslbegvyion",
+                        "TrafficMirrorFilterId": "ucxxliqcqjagwdpv",
+                        "TrafficMirrorFilterRuleId": "cuynisxjepohfimq"
+                    }
+                ],
+                "NetworkServices": [
+                    "bwrmgmqbjnqosoqs"
+                ],
+                "Tags": [
+                    {
+                        "Key": "fnhnupnjnexdbhzo",
+                        "Value": "mipkwesuvejrummk"
+                    }
+                ],
+                "TrafficMirrorFilterId": "zwhzzseskcpxdrpy"
+            },
+            {
+                "Description": "bpuibnzewplonvjd",
+                "EgressFilterRules": [
+                    {
+                        "Description": "oponhacroqdbkmka",
+                        "DestinationCidrBlock": "waxpwmnppmmrdvcd",
+                        "DestinationPortRange": {
+                            "FromPort": 0,
+                            "ToPort": 0
+                        },
+                        "Protocol": 0,
+                        "RuleAction": "llucuvhzmksyeewr",
+                        "RuleNumber": 0,
+                        "SourceCidrBlock": "dezugocrvnuyusmm",
+                        "SourcePortRange": {
+                            "FromPort": 0,
+                            "ToPort": 0
+                        },
+                        "TrafficDirection": "pallrwklfhtqpklu",
+                        "TrafficMirrorFilterId": "fgjssxfmjqomoklf",
+                        "TrafficMirrorFilterRuleId": "rqogljvyabmfszfa"
+                    }
+                ],
+                "IngressFilterRules": [
+                    {
+                        "Description": "wytrsbglqpsnsybb",
+                        "DestinationCidrBlock": "ttroogqegujktlhh",
+                        "DestinationPortRange": {
+                            "FromPort": 0,
+                            "ToPort": 0
+                        },
+                        "Protocol": 0,
+                        "RuleAction": "xjxzkxqpbxpnambk",
+                        "RuleNumber": 0,
+                        "SourceCidrBlock": "yagidqqcsgidfdsr",
+                        "SourcePortRange": {
+                            "FromPort": 0,
+                            "ToPort": 0
+                        },
+                        "TrafficDirection": "dcaaimfrdcejchai",
+                        "TrafficMirrorFilterId": "kpleigowuqicftxq",
+                        "TrafficMirrorFilterRuleId": "mcbndowcjknmfrzx"
+                    }
+                ],
+                "NetworkServices": [
+                    "gkjwvrcdccyfvwtm"
+                ],
+                "Tags": [
+                    {
+                        "Key": "plvqrkrvhryakzvb",
+                        "Value": "thlnsdnxexijdlnl"
+                    }
+                ],
+                "TrafficMirrorFilterId": "vftxeeqerkzfabay"
+            },
+            {
+                "Description": "mzpjbdnxdgoodrnu",
+                "EgressFilterRules": [
+                    {
+                        "Description": "ktqvenfcfvdxvdjt",
+                        "DestinationCidrBlock": "fqawapifhgsodqup",
+                        "DestinationPortRange": {
+                            "FromPort": 0,
+                            "ToPort": 0
+                        },
+                        "Protocol": 0,
+                        "RuleAction": "hlvxrsldkeuinljy",
+                        "RuleNumber": 0,
+                        "SourceCidrBlock": "hdkepgojzdinqere",
+                        "SourcePortRange": {
+                            "FromPort": 0,
+                            "ToPort": 0
+                        },
+                        "TrafficDirection": "ouponmqwyzdvyfyi",
+                        "TrafficMirrorFilterId": "tprzwkwunjzojjex",
+                        "TrafficMirrorFilterRuleId": "baegvdffsnfpmjvx"
+                    }
+                ],
+                "IngressFilterRules": [
+                    {
+                        "Description": "rzmvozzrypewjeip",
+                        "DestinationCidrBlock": "ebokdttckejbwatg",
+                        "DestinationPortRange": {
+                            "FromPort": 0,
+                            "ToPort": 0
+                        },
+                        "Protocol": 0,
+                        "RuleAction": "ptnagaxfecnrgrmf",
+                        "RuleNumber": 0,
+                        "SourceCidrBlock": "iayxtmtkuwxmuond",
+                        "SourcePortRange": {
+                            "FromPort": 0,
+                            "ToPort": 0
+                        },
+                        "TrafficDirection": "lgjihwzpftwfzcqu",
+                        "TrafficMirrorFilterId": "xxclzxipwyxzmmuw",
+                        "TrafficMirrorFilterRuleId": "znlfexohocnfjexx"
+                    }
+                ],
+                "NetworkServices": [
+                    "xmpwtunezoqahafu"
+                ],
+                "Tags": [
+                    {
+                        "Key": "tyrubhxfxlbyuaqu",
+                        "Value": "wyqkxsrrrptluogv"
+                    }
+                ],
+                "TrafficMirrorFilterId": "uvuveonkrcobvqjx"
+            }
+        ],
+        "result_key": "TrafficMirrorFilters"
+    },
+    "meta": {
+        "start": 1711115652.067592,
+        "end": 1711115660.076363,
+        "duration": 8.008778095245361,
+        "service": "ec2",
+        "type": "traffic_mirror_filters"
+    }
+}

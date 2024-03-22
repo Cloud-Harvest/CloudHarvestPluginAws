@@ -1,0 +1,40 @@
+{
+    "input": {
+        "template": {
+            "Limit": 0,
+            "ExclusiveStartStreamName": "",
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "0124812f44892e4e7acbd138fe5503b6",
+        "boto_command": "list_streams",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            "StreamName"
+        ],
+        "required": [],
+        "md5": "eb4b7750cb9bcb3918d60ce2944a08d2",
+        "randomized": [
+            "fbjjpisfwflytmqj",
+            "ecjxwtlxpalmigza",
+            "ehpjinkmivmjofjy",
+            "paxzckyhogmowxdr",
+            "xgtenjcasrdhaluf",
+            "svnwtkzmcjsgofpf",
+            "igfnztlsmzzdqlfl",
+            "iltbasjgghfqgnog",
+            "winikbqohrfivkvp",
+            "fhqrlmdeiqrkyzpn"
+        ],
+        "result_key": "StreamNames"
+    },
+    "meta": {
+        "start": 1711116031.929153,
+        "end": 1711116039.433095,
+        "duration": 7.5039520263671875,
+        "service": "kinesis",
+        "type": "streams"
+    }
+}

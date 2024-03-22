@@ -1,0 +1,14 @@
+[
+    "controltower.get-baseline",
+    "controltower.get-baseline-operation",
+    "controltower.get-control-operation",
+    "controltower.get-enabled-baseline",
+    "controltower.get-enabled-control",
+    "controltower.get-landing-zone",
+    "controltower.get-landing-zone-operation",
+    "controltower.list-baselines",
+    "controltower.list-enabled-baselines",
+    "controltower.list-enabled-controls",
+    "controltower.list-landing-zones",
+    "controltower.list-tags-for-resource"
+]

@@ -1,0 +1,37 @@
+{
+    "input": {
+        "template": {
+            "NextMarker": "",
+            "Limit": 0
+        },
+        "required": [],
+        "md5": "c73edf45b1374dc40afbfb6e5664028f",
+        "boto_command": "list_geo_match_sets",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": "NextMarker",
+        "required": [],
+        "md5": "0ac5bd35937a2dfdf8008e5efe8e9364",
+        "randomized": [
+            "xglqmemtbjhnqjpr",
+            "pvrwxvprrfiydiqv",
+            "hliaperlbenjznin",
+            "jyfyhojfwnfjvcpg",
+            "qcbfpvdvjzjfpefi",
+            "sjwrtukotebzgxni",
+            "nankaaptawliugee",
+            "wfmgjnvrnvxagbek",
+            "scuznvfhvlbjutbh",
+            "ektojbzbznekwjpa"
+        ],
+        "result_key": "NextMarker"
+    },
+    "meta": {
+        "start": 1711116769.80849,
+        "end": 1711116778.230388,
+        "duration": 8.421908855438232,
+        "service": "waf-regional",
+        "type": "geo_match_sets"
+    }
+}

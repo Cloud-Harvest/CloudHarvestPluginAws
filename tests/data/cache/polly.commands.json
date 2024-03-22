@@ -1,0 +1,7 @@
+[
+    "polly.describe-voices",
+    "polly.get-lexicon",
+    "polly.get-speech-synthesis-task",
+    "polly.list-lexicons",
+    "polly.list-speech-synthesis-tasks"
+]

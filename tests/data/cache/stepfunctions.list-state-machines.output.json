@@ -1,0 +1,94 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "required": [],
+        "md5": "2620fedaf24e984a8f801d0beb17a6e7",
+        "boto_command": "list_state_machines",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "stateMachineArn": "stateMachineArn",
+                "name": "name",
+                "type": "type",
+                "creationDate": "1970-01-01T00:00:00"
+            }
+        ],
+        "required": [],
+        "md5": "6ab2745dd6ae469ab7889e0286b4c1ab",
+        "randomized": [
+            {
+                "creationDate": "xqasiyjjsqdnfcfh",
+                "name": "djnlibxmijwaoeul",
+                "stateMachineArn": "yslcpydmfiooxftv",
+                "type": "ofxwzkjxkkpzluvf"
+            },
+            {
+                "creationDate": "vmmozpkhmtjljomk",
+                "name": "vrbycxdkiudlcrup",
+                "stateMachineArn": "vxmqvpuhyrxvrxfj",
+                "type": "ryjpiuicquxbcewo"
+            },
+            {
+                "creationDate": "ijoqfflwcboxanjh",
+                "name": "gtqxcssoqsychadl",
+                "stateMachineArn": "rgpsjhdputkqphry",
+                "type": "sciedbcuezogvbpz"
+            },
+            {
+                "creationDate": "cbepfracouhjgkoi",
+                "name": "czffdxgnrynrxmet",
+                "stateMachineArn": "xzvihqqfwjhapyah",
+                "type": "gaycguvifgdagorb"
+            },
+            {
+                "creationDate": "xndyoxnyvsfyopht",
+                "name": "ujmfgisjbisxjhjr",
+                "stateMachineArn": "ijrvizvgrthlgjdq",
+                "type": "mindvafmgdwiatdb"
+            },
+            {
+                "creationDate": "svwsmboqybnhmzqq",
+                "name": "xgvybwfwjsfickjm",
+                "stateMachineArn": "dijockwerxijkpwb",
+                "type": "cuksukfouqaddzvs"
+            },
+            {
+                "creationDate": "pbeszomlftdcltgr",
+                "name": "xolsyrntyvgpkzgy",
+                "stateMachineArn": "mucxmabvijwbogab",
+                "type": "oqffddcijnipdhuu"
+            },
+            {
+                "creationDate": "kgxgypmylvzrpsig",
+                "name": "jfyqgmdimhmyyypi",
+                "stateMachineArn": "gtaqugicktojwmvs",
+                "type": "rllakpiwkbztqrgp"
+            },
+            {
+                "creationDate": "zbrqcghfldqjrqce",
+                "name": "pogykyluutlvrgsf",
+                "stateMachineArn": "nxkqruilkwvmopmr",
+                "type": "gttheenajdalryez"
+            },
+            {
+                "creationDate": "hvynppaykayerzso",
+                "name": "skybnyzytljcodee",
+                "stateMachineArn": "uxnxwatecrludzzh",
+                "type": "oejtnrvbrgacmzik"
+            }
+        ],
+        "result_key": "stateMachines"
+    },
+    "meta": {
+        "start": 1711116698.80181,
+        "end": 1711116705.683412,
+        "duration": 6.88161301612854,
+        "service": "stepfunctions",
+        "type": "state_machines"
+    }
+}

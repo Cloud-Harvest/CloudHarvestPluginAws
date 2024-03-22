@@ -1,0 +1,282 @@
+{
+    "input": {
+        "template": {
+            "EventSourceId": "",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "46be9c05197e22fe77baa279b63463e6",
+        "boto_command": "list_event_actions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "Action": {
+                    "ExportRevisionToS3": {
+                        "Encryption": {
+                            "KmsKeyArn": "KmsKeyArn",
+                            "Type": "Type"
+                        },
+                        "RevisionDestination": {
+                            "Bucket": "Bucket",
+                            "KeyPattern": "KeyPattern"
+                        }
+                    }
+                },
+                "Arn": "Arn",
+                "CreatedAt": "1970-01-01T00:00:00",
+                "Event": {
+                    "RevisionPublished": {
+                        "DataSetId": "DataSetId"
+                    }
+                },
+                "Id": "Id",
+                "UpdatedAt": "1970-01-01T00:00:00"
+            }
+        ],
+        "required": [],
+        "md5": "5b57738cb1c17c1be64cabee7ac0ef67",
+        "randomized": [
+            {
+                "Action": {
+                    "ExportRevisionToS3": {
+                        "Encryption": {
+                            "KmsKeyArn": "kvyeeijrytlzorzl",
+                            "Type": "utlauxozogejtnea"
+                        },
+                        "RevisionDestination": {
+                            "Bucket": "abrxzhpquhfmocem",
+                            "KeyPattern": "rafxsbosbkbfxjst"
+                        }
+                    }
+                },
+                "Arn": "pkkktznlrinycwvw",
+                "CreatedAt": "ytnqbtahpvldymcw",
+                "Event": {
+                    "RevisionPublished": {
+                        "DataSetId": "wsxtjqgvearlflyn"
+                    }
+                },
+                "Id": "whllxttrhmzqriwt",
+                "UpdatedAt": "dazxcfvzatwcfjbw"
+            },
+            {
+                "Action": {
+                    "ExportRevisionToS3": {
+                        "Encryption": {
+                            "KmsKeyArn": "aybuchfjcoxydeiv",
+                            "Type": "qxvzlivhbmfqtfuz"
+                        },
+                        "RevisionDestination": {
+                            "Bucket": "gkfufluzrxhwpskm",
+                            "KeyPattern": "kiugxgnshwblzags"
+                        }
+                    }
+                },
+                "Arn": "fygxseusbywvurgh",
+                "CreatedAt": "msjafervomjmuavz",
+                "Event": {
+                    "RevisionPublished": {
+                        "DataSetId": "sasprlsmdyfjewlg"
+                    }
+                },
+                "Id": "ntmqhtxrlchyelzf",
+                "UpdatedAt": "lykbrnpepdseekhd"
+            },
+            {
+                "Action": {
+                    "ExportRevisionToS3": {
+                        "Encryption": {
+                            "KmsKeyArn": "yxjfaoadhwmyfigs",
+                            "Type": "appsttjxlakvdzay"
+                        },
+                        "RevisionDestination": {
+                            "Bucket": "fclvqrsbhzhlmjop",
+                            "KeyPattern": "efntxwkftoajxlat"
+                        }
+                    }
+                },
+                "Arn": "mtlezypppfoqsuuf",
+                "CreatedAt": "criaqlahzgjejnga",
+                "Event": {
+                    "RevisionPublished": {
+                        "DataSetId": "jydtvnbuzwerlehu"
+                    }
+                },
+                "Id": "njintirrsxfrdtdq",
+                "UpdatedAt": "ggfyzydcupcmvtpg"
+            },
+            {
+                "Action": {
+                    "ExportRevisionToS3": {
+                        "Encryption": {
+                            "KmsKeyArn": "bjbzkpsjfkupzszv",
+                            "Type": "nhsyxrbbxldqfijl"
+                        },
+                        "RevisionDestination": {
+                            "Bucket": "vetanryuvdmkvuad",
+                            "KeyPattern": "uwlqfabolhpmxmfa"
+                        }
+                    }
+                },
+                "Arn": "azdyehpswwmuossc",
+                "CreatedAt": "efcomurjttwxvcsc",
+                "Event": {
+                    "RevisionPublished": {
+                        "DataSetId": "dhgriwfwuilqccxv"
+                    }
+                },
+                "Id": "rofvkzbiiucjzpod",
+                "UpdatedAt": "sxlhilhfdrivclwk"
+            },
+            {
+                "Action": {
+                    "ExportRevisionToS3": {
+                        "Encryption": {
+                            "KmsKeyArn": "unjcummsxhlqazrs",
+                            "Type": "nqoqcygtwlkqdnol"
+                        },
+                        "RevisionDestination": {
+                            "Bucket": "qmqiixpblxgqowle",
+                            "KeyPattern": "dxoqdfbusbwqgfcq"
+                        }
+                    }
+                },
+                "Arn": "qbvmaogvdzrexwgy",
+                "CreatedAt": "dzvhggnmdyhzelmb",
+                "Event": {
+                    "RevisionPublished": {
+                        "DataSetId": "wbawozdgwemftews"
+                    }
+                },
+                "Id": "ndfietrwxjtkxiwc",
+                "UpdatedAt": "apkyxuieiqjlospa"
+            },
+            {
+                "Action": {
+                    "ExportRevisionToS3": {
+                        "Encryption": {
+                            "KmsKeyArn": "cevjtntlarozjldx",
+                            "Type": "ooyqjjcchgmaljcm"
+                        },
+                        "RevisionDestination": {
+                            "Bucket": "rhnqszydlfidhlpu",
+                            "KeyPattern": "pcujyeihyfobpnhb"
+                        }
+                    }
+                },
+                "Arn": "wapxpxoxgonvjlob",
+                "CreatedAt": "vsnxylfiawqetlhv",
+                "Event": {
+                    "RevisionPublished": {
+                        "DataSetId": "ibrrxjzylygnaxnw"
+                    }
+                },
+                "Id": "kavzepggvwngqanf",
+                "UpdatedAt": "ntjujnejpharediy"
+            },
+            {
+                "Action": {
+                    "ExportRevisionToS3": {
+                        "Encryption": {
+                            "KmsKeyArn": "ubupazpztnwghlrw",
+                            "Type": "ukijxuwmcmyusbio"
+                        },
+                        "RevisionDestination": {
+                            "Bucket": "lblosqorolargjpj",
+                            "KeyPattern": "imnebmboscammuie"
+                        }
+                    }
+                },
+                "Arn": "jsqpyeklobqapeir",
+                "CreatedAt": "gqifwxatgbentfgl",
+                "Event": {
+                    "RevisionPublished": {
+                        "DataSetId": "bvddyegvvuoxokkt"
+                    }
+                },
+                "Id": "rucvkcnmcmeqeloz",
+                "UpdatedAt": "cweyfyxhxbyhgpag"
+            },
+            {
+                "Action": {
+                    "ExportRevisionToS3": {
+                        "Encryption": {
+                            "KmsKeyArn": "clqkhifjmpkpagfi",
+                            "Type": "tjazhogcixwgczrv"
+                        },
+                        "RevisionDestination": {
+                            "Bucket": "oyjizgnrrwtzhokb",
+                            "KeyPattern": "jurcusuwfvtyhafw"
+                        }
+                    }
+                },
+                "Arn": "kgrswxxnfhdubrzs",
+                "CreatedAt": "dondtjeniosmwvty",
+                "Event": {
+                    "RevisionPublished": {
+                        "DataSetId": "dklguqgaiqojexji"
+                    }
+                },
+                "Id": "mjndoizxfifmwyrg",
+                "UpdatedAt": "wnampgzlphymapae"
+            },
+            {
+                "Action": {
+                    "ExportRevisionToS3": {
+                        "Encryption": {
+                            "KmsKeyArn": "njmwykmazmghebpw",
+                            "Type": "vkryubobyztdssvm"
+                        },
+                        "RevisionDestination": {
+                            "Bucket": "srwvmxweifjuonsc",
+                            "KeyPattern": "klyducavvkpnpfci"
+                        }
+                    }
+                },
+                "Arn": "doijnmatzzsdveuq",
+                "CreatedAt": "azlhlqlfoncubeku",
+                "Event": {
+                    "RevisionPublished": {
+                        "DataSetId": "lhulsdiatsymfnzr"
+                    }
+                },
+                "Id": "yeedikgtadjlsrmr",
+                "UpdatedAt": "pcbqsgzmikcxwinn"
+            },
+            {
+                "Action": {
+                    "ExportRevisionToS3": {
+                        "Encryption": {
+                            "KmsKeyArn": "pyyfopsoxciysdbv",
+                            "Type": "yjjaeidbdptgplem"
+                        },
+                        "RevisionDestination": {
+                            "Bucket": "gyiwnjptlyzwussj",
+                            "KeyPattern": "jperjcvxpuryqrge"
+                        }
+                    }
+                },
+                "Arn": "qfdwxpanrpebmamv",
+                "CreatedAt": "uhhimebjzxxjufot",
+                "Event": {
+                    "RevisionPublished": {
+                        "DataSetId": "fwgqnhemechilhsq"
+                    }
+                },
+                "Id": "onlbizuttozaszdn",
+                "UpdatedAt": "ipwcyezaszrolsrb"
+            }
+        ],
+        "result_key": "EventActions"
+    },
+    "meta": {
+        "start": 1711115519.241187,
+        "end": 1711115526.142783,
+        "duration": 6.901605844497681,
+        "service": "dataexchange",
+        "type": "event_actions"
+    }
+}

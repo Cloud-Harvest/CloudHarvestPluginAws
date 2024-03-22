@@ -1,0 +1,78 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "get_event_configuration_by_resource_types",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": {
+            "Sidewalk": {
+                "WirelessDeviceEventTopic": "WirelessDeviceEventTopic"
+            }
+        },
+        "required": [],
+        "md5": "e1d4dd652c93b722794097f69c10f6ff",
+        "randomized": [
+            {
+                "Sidewalk": {
+                    "WirelessDeviceEventTopic": "qrnejltkzuprotdu"
+                }
+            },
+            {
+                "Sidewalk": {
+                    "WirelessDeviceEventTopic": "fiwddxrgjrgjnvfd"
+                }
+            },
+            {
+                "Sidewalk": {
+                    "WirelessDeviceEventTopic": "hasreqduvfmramng"
+                }
+            },
+            {
+                "Sidewalk": {
+                    "WirelessDeviceEventTopic": "ytikgzxgyrclpjxm"
+                }
+            },
+            {
+                "Sidewalk": {
+                    "WirelessDeviceEventTopic": "kygdvikhqosvfvni"
+                }
+            },
+            {
+                "Sidewalk": {
+                    "WirelessDeviceEventTopic": "zqkvvlgrcvfcrzed"
+                }
+            },
+            {
+                "Sidewalk": {
+                    "WirelessDeviceEventTopic": "yyqrmfssypqqtcxi"
+                }
+            },
+            {
+                "Sidewalk": {
+                    "WirelessDeviceEventTopic": "fgxjswkgivayevdk"
+                }
+            },
+            {
+                "Sidewalk": {
+                    "WirelessDeviceEventTopic": "comudjbmmscpkvzd"
+                }
+            },
+            {
+                "Sidewalk": {
+                    "WirelessDeviceEventTopic": "hyntdhgiomoejfuc"
+                }
+            }
+        ],
+        "result_key": "DeviceRegistrationState"
+    },
+    "meta": {
+        "start": 1711115993.634702,
+        "end": 1711116000.819659,
+        "duration": 7.184967041015625,
+        "service": "iotwireless",
+        "type": null
+    }
+}

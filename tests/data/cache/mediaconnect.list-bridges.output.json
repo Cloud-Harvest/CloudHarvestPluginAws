@@ -1,0 +1,106 @@
+{
+    "input": {
+        "template": {
+            "FilterArn": "",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "58c49a8145171b909a3ab91255ffebf1",
+        "boto_command": "list_bridges",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "BridgeArn": "BridgeArn",
+                "BridgeState": "BridgeState",
+                "BridgeType": "BridgeType",
+                "Name": "Name",
+                "PlacementArn": "PlacementArn"
+            }
+        ],
+        "required": [],
+        "md5": "64919102db4ddd22a3d04147aa6ad3ee",
+        "randomized": [
+            {
+                "BridgeArn": "fqrvupqdjzyarwnr",
+                "BridgeState": "ameeaprvwkvtdmja",
+                "BridgeType": "itkcjjvkadqnzcbc",
+                "Name": "pwjgpbzkgdbveyrr",
+                "PlacementArn": "oqbetmizhplgcsvt"
+            },
+            {
+                "BridgeArn": "qdkfeorbfnegjetn",
+                "BridgeState": "hfiyggpjhogcwejg",
+                "BridgeType": "jeythogysjithkvt",
+                "Name": "rmvefyxjihbaojhk",
+                "PlacementArn": "ehchzbtiphfiennn"
+            },
+            {
+                "BridgeArn": "yvrznmbadpqmzrtu",
+                "BridgeState": "pxpdvufakkgjsgsi",
+                "BridgeType": "hngnjuskermixvec",
+                "Name": "bfymqiqciujhbkwu",
+                "PlacementArn": "srenufescchyxrse"
+            },
+            {
+                "BridgeArn": "vgvzldcphqppcalx",
+                "BridgeState": "mlyjlwbzowcvydff",
+                "BridgeType": "xactbptjkztqqdka",
+                "Name": "cihufwzcxbvzeotd",
+                "PlacementArn": "dboswkvxplgzignb"
+            },
+            {
+                "BridgeArn": "cskgzoydymvqtbwa",
+                "BridgeState": "mkwgsskdjlcsinzk",
+                "BridgeType": "olrvwnqcsfpcsfkz",
+                "Name": "gsujeqrvwadmqxuk",
+                "PlacementArn": "iwbmyufobfzvfwtq"
+            },
+            {
+                "BridgeArn": "dsflmqigrvlkkmwq",
+                "BridgeState": "zsxegngbrgrtvxlj",
+                "BridgeType": "snwuxhenslobgytl",
+                "Name": "zxutneycwytfpxdq",
+                "PlacementArn": "xoahogpkbapdhqto"
+            },
+            {
+                "BridgeArn": "sgtalbogbwumzedt",
+                "BridgeState": "ytzsudxvhnhbgfov",
+                "BridgeType": "dorshkaysjhottyt",
+                "Name": "qeytqzozjttzwfnp",
+                "PlacementArn": "yawhmxvbuimlxong"
+            },
+            {
+                "BridgeArn": "qitqzjfxaxwtfxsn",
+                "BridgeState": "ptjucpschwtmqheu",
+                "BridgeType": "pnnkiavivzwacvrk",
+                "Name": "moibpdeofxlfydsa",
+                "PlacementArn": "jvfalgpnsxdwttyf"
+            },
+            {
+                "BridgeArn": "vtxuwjxqwpllyaut",
+                "BridgeState": "loowzrgnjznnyjzm",
+                "BridgeType": "qtkzabkgmlfdjhco",
+                "Name": "vywwfyoocrypgqdy",
+                "PlacementArn": "ffetkmygdaynpjuy"
+            },
+            {
+                "BridgeArn": "gbafkwcgdtqktkwg",
+                "BridgeState": "jczpgiqvkfixergg",
+                "BridgeType": "izymzynxiycnmduz",
+                "Name": "koabkuwvplnzdseg",
+                "PlacementArn": "kpuuifuwbwqczmqb"
+            }
+        ],
+        "result_key": "Bridges"
+    },
+    "meta": {
+        "start": 1711116165.409927,
+        "end": 1711116172.705084,
+        "duration": 7.295168161392212,
+        "service": "mediaconnect",
+        "type": "bridges"
+    }
+}

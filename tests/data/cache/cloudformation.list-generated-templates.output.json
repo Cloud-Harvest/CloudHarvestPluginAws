@@ -1,0 +1,127 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "9dece7f85fc1c3f944425b1f68a8e6e1",
+        "boto_command": "list_generated_templates",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "GeneratedTemplateId": "GeneratedTemplateId",
+                "GeneratedTemplateName": "GeneratedTemplateName",
+                "Status": "Status",
+                "StatusReason": "StatusReason",
+                "CreationTime": "1970-01-01T00:00:00",
+                "LastUpdatedTime": "1970-01-01T00:00:00",
+                "NumberOfResources": 0
+            }
+        ],
+        "required": [],
+        "md5": "af0d128de006f549485a71172f53e046",
+        "randomized": [
+            {
+                "CreationTime": "dfrwwouoeeoccdcl",
+                "GeneratedTemplateId": "oewnzotzepokavlq",
+                "GeneratedTemplateName": "rqeijapzdyldpsai",
+                "LastUpdatedTime": "hdaihfkrkxpjasuc",
+                "NumberOfResources": 0,
+                "Status": "wwsrjrqgmhhjptux",
+                "StatusReason": "mqolspuaaldjqmqk"
+            },
+            {
+                "CreationTime": "vlpyzqwqcbkffdbr",
+                "GeneratedTemplateId": "fxijhucvscpfgstd",
+                "GeneratedTemplateName": "ezzxaprivfobzxrl",
+                "LastUpdatedTime": "lolbmcovmmwiuvqg",
+                "NumberOfResources": 0,
+                "Status": "dixujytippvrnplv",
+                "StatusReason": "jgrepdlkekffhipa"
+            },
+            {
+                "CreationTime": "iocyktcjmelkkaia",
+                "GeneratedTemplateId": "fayikfzyiklyxyjp",
+                "GeneratedTemplateName": "lskrctxysnrvwlmm",
+                "LastUpdatedTime": "rjrthawuucblkasu",
+                "NumberOfResources": 0,
+                "Status": "coztixvuefymvxmy",
+                "StatusReason": "neaozvmsgjtsrfhn"
+            },
+            {
+                "CreationTime": "cxaltmrknugupekd",
+                "GeneratedTemplateId": "rkibouoqphwcimtq",
+                "GeneratedTemplateName": "uevmcnyufnbhuzfe",
+                "LastUpdatedTime": "gevgwydirokwbdpm",
+                "NumberOfResources": 0,
+                "Status": "hiogiowaoelsdzpg",
+                "StatusReason": "cfchdnhurwefobgl"
+            },
+            {
+                "CreationTime": "jekfjihtteldrwyl",
+                "GeneratedTemplateId": "aypdpheqycfdmotf",
+                "GeneratedTemplateName": "jhackbnwkahspxtk",
+                "LastUpdatedTime": "rnotwnbdmcrljkev",
+                "NumberOfResources": 0,
+                "Status": "wjiunbjmkakuimso",
+                "StatusReason": "lpmwkppipsvyiogy"
+            },
+            {
+                "CreationTime": "uojmofsgpdoczpze",
+                "GeneratedTemplateId": "rbohwosvahqslijm",
+                "GeneratedTemplateName": "oncssfeclfbbsvxa",
+                "LastUpdatedTime": "nalxreuhkopooxxe",
+                "NumberOfResources": 0,
+                "Status": "txmgxznwurlmuegj",
+                "StatusReason": "qcaxzgjalropimcq"
+            },
+            {
+                "CreationTime": "byfkbaxopednrvhu",
+                "GeneratedTemplateId": "rrklpjsnbhrptdvx",
+                "GeneratedTemplateName": "irefizqxmzligtzz",
+                "LastUpdatedTime": "scucjerrapompepd",
+                "NumberOfResources": 0,
+                "Status": "ufdzbiytzxadsumr",
+                "StatusReason": "togcuvxhzfbnwywc"
+            },
+            {
+                "CreationTime": "ritieigfapqohovi",
+                "GeneratedTemplateId": "skjrsvhxiwmbaiky",
+                "GeneratedTemplateName": "teipiqrinkyocqdf",
+                "LastUpdatedTime": "ifhlfpsinzwuedkj",
+                "NumberOfResources": 0,
+                "Status": "wgqjtfxvfqpavrql",
+                "StatusReason": "aiwmvzipqhjtvpso"
+            },
+            {
+                "CreationTime": "spiknbsujwbkutiy",
+                "GeneratedTemplateId": "wmmcpxavwjwnkblk",
+                "GeneratedTemplateName": "rfncgayjpoculesu",
+                "LastUpdatedTime": "qqntfqughjkrvgwf",
+                "NumberOfResources": 0,
+                "Status": "ylpqlrubpyfyipit",
+                "StatusReason": "axnisbaikeqtdrsu"
+            },
+            {
+                "CreationTime": "dwpgappeamzgzcsn",
+                "GeneratedTemplateId": "hyugjzleqdykfpcx",
+                "GeneratedTemplateName": "kygyndnwqtttdcop",
+                "LastUpdatedTime": "dbipybvfnemuirzk",
+                "NumberOfResources": 0,
+                "Status": "dkvzruzriwubvqoq",
+                "StatusReason": "jzjahfduqdtirnuz"
+            }
+        ],
+        "result_key": "Summaries"
+    },
+    "meta": {
+        "start": 1711115364.55943,
+        "end": 1711115370.996243,
+        "duration": 6.436822175979614,
+        "service": "cloudformation",
+        "type": "generated_templates"
+    }
+}

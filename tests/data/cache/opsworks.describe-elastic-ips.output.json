@@ -1,0 +1,108 @@
+{
+    "input": {
+        "template": {
+            "InstanceId": "",
+            "StackId": "",
+            "Ips": [
+                ""
+            ]
+        },
+        "required": [],
+        "md5": "4ab9359ced0d43ae2f474aeea3f1ad15",
+        "boto_command": "describe_elastic_ips",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "Ip": "Ip",
+                "Name": "Name",
+                "Domain": "Domain",
+                "Region": "Region",
+                "InstanceId": "InstanceId"
+            }
+        ],
+        "required": [],
+        "md5": "3d29282cc985b2c8707c16efbfd1ef64",
+        "randomized": [
+            {
+                "Domain": "xrrcsasgmykmmedi",
+                "InstanceId": "ndlqsgidtmvgwfol",
+                "Ip": "ofyfoerfvyeupwrz",
+                "Name": "htxufdqgpoxpmhue",
+                "Region": "eahiegfcxgdgnimc"
+            },
+            {
+                "Domain": "hklrcqzunpshqlzc",
+                "InstanceId": "nabacyyokhposgyp",
+                "Ip": "gravetutniermlqd",
+                "Name": "evogtcpnsahnvhnu",
+                "Region": "vewaeonnqezohdga"
+            },
+            {
+                "Domain": "wpqlohwqkzayehqa",
+                "InstanceId": "xluadilmtewjykrz",
+                "Ip": "apgyipzwfgpyjeeb",
+                "Name": "ttwwhtqrqskuannj",
+                "Region": "zcxjxmwfvtdvibzw"
+            },
+            {
+                "Domain": "kljzmqwfwmlkhynw",
+                "InstanceId": "hciyrgrnxqphwroh",
+                "Ip": "iuxplnqfytjybkaj",
+                "Name": "wkwwwzbjazncgqig",
+                "Region": "cxzklbjviscqakmx"
+            },
+            {
+                "Domain": "kxygvyygywsyxksv",
+                "InstanceId": "ddmiwuyoinrxqxjb",
+                "Ip": "pbaawnhcelachpqz",
+                "Name": "tlecpedbvzvbzdjt",
+                "Region": "lkodihslkwiytgwj"
+            },
+            {
+                "Domain": "udqczucmlpwhbgvd",
+                "InstanceId": "pztzcfubbruixenb",
+                "Ip": "ekogwyfziorpclfx",
+                "Name": "lqonwcjgwshtwxid",
+                "Region": "oaexghabacgdfvmn"
+            },
+            {
+                "Domain": "tltlptrzdonhitql",
+                "InstanceId": "prylmsiwtjnirxie",
+                "Ip": "yezlaeoyjycgtxwp",
+                "Name": "iweuarbmhgxpoirc",
+                "Region": "swmunwkqplzslupm"
+            },
+            {
+                "Domain": "udxekiqggxfmasfl",
+                "InstanceId": "ockvadvokgunpnvf",
+                "Ip": "vjosxarftebbjtaz",
+                "Name": "cgwkzltuhyemqlxf",
+                "Region": "zhhauhwdodiscvfb"
+            },
+            {
+                "Domain": "jpbearjctosaydgj",
+                "InstanceId": "nxdegfemnqoqcxtu",
+                "Ip": "inikyabcbaabjkvo",
+                "Name": "qcjlefhwulhtcgrs",
+                "Region": "iermxvsplsiyskvf"
+            },
+            {
+                "Domain": "pmfzedzhkdbejkrh",
+                "InstanceId": "admdcddcyhhnahek",
+                "Ip": "ihxxlnsrugvuyccm",
+                "Name": "gerfvnbunuhvhpyk",
+                "Region": "lpbwvvskvhuxokla"
+            }
+        ],
+        "result_key": "ElasticIps"
+    },
+    "meta": {
+        "start": 1711116283.31564,
+        "end": 1711116290.301422,
+        "duration": 6.985791921615601,
+        "service": "opsworks",
+        "type": "elastic_ips"
+    }
+}

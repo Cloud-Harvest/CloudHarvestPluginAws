@@ -1,0 +1,107 @@
+{
+    "input": {
+        "template": {
+            "topic": "",
+            "maxResults": 0,
+            "nextToken": "",
+            "ruleDisabled": true
+        },
+        "required": [],
+        "md5": "75e68ffd8973bd3e5e12894815e6ae14",
+        "boto_command": "list_topic_rules",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "ruleArn": "ruleArn",
+                "ruleName": "ruleName",
+                "topicPattern": "topicPattern",
+                "createdAt": "1970-01-01T00:00:00",
+                "ruleDisabled": true
+            }
+        ],
+        "required": [],
+        "md5": "494bac773c2aac5b97f2657e8020d368",
+        "randomized": [
+            {
+                "createdAt": "keetzqxoxdeumoqz",
+                "ruleArn": "lvhzqhqcdfzitill",
+                "ruleDisabled": true,
+                "ruleName": "mjrorbjgdtucacht",
+                "topicPattern": "olgtulkcxjvgzypc"
+            },
+            {
+                "createdAt": "prtpqghgkzittnow",
+                "ruleArn": "orqstozgjkynlttq",
+                "ruleDisabled": true,
+                "ruleName": "izlyaklfrhxrwsfi",
+                "topicPattern": "qfgvslnsruupfwcd"
+            },
+            {
+                "createdAt": "frjfrfhkraksbfzj",
+                "ruleArn": "rvbatwpeevmunlxb",
+                "ruleDisabled": true,
+                "ruleName": "bisxuvgqwryxwftz",
+                "topicPattern": "taunyrdxsonaeatx"
+            },
+            {
+                "createdAt": "sjvumffyqeenuvmm",
+                "ruleArn": "lvambbxpbowxglmf",
+                "ruleDisabled": true,
+                "ruleName": "fughnvborltyesfw",
+                "topicPattern": "chlhjkecwezlobnm"
+            },
+            {
+                "createdAt": "adymdgwezjlxtvpe",
+                "ruleArn": "wybsqqqlbfqudgyd",
+                "ruleDisabled": true,
+                "ruleName": "tzalrfdajjglnmei",
+                "topicPattern": "phjsytrbwwivdmpt"
+            },
+            {
+                "createdAt": "pljvrcujlgzulgyf",
+                "ruleArn": "utlshpofdspmvfek",
+                "ruleDisabled": true,
+                "ruleName": "dlqszgwjqgknusvf",
+                "topicPattern": "ldvgwybymnkjvqcr"
+            },
+            {
+                "createdAt": "kuvvogemnpvpmyfv",
+                "ruleArn": "driixqdfqcjyqyed",
+                "ruleDisabled": true,
+                "ruleName": "lgvwgtioxnhkzios",
+                "topicPattern": "recdsqhyqfvbegtx"
+            },
+            {
+                "createdAt": "zksqqrftazhjzlik",
+                "ruleArn": "tpolsoawywblfqrv",
+                "ruleDisabled": true,
+                "ruleName": "nrdydkbenaoigyrj",
+                "topicPattern": "ajbiitvwymqohafs"
+            },
+            {
+                "createdAt": "ttriwnnyeinmccxz",
+                "ruleArn": "ptwrcmeylzrlclws",
+                "ruleDisabled": true,
+                "ruleName": "wskpyjldbwufbxst",
+                "topicPattern": "uwbrstbqzuueglpi"
+            },
+            {
+                "createdAt": "wkkbfkrkbtxeolsx",
+                "ruleArn": "cpzytszgadnwtewe",
+                "ruleDisabled": true,
+                "ruleName": "zfmtuqofapfqytpi",
+                "topicPattern": "cmltuyyhpphcyrjt"
+            }
+        ],
+        "result_key": "rules"
+    },
+    "meta": {
+        "start": 1711115952.18658,
+        "end": 1711115959.192743,
+        "duration": 7.006174087524414,
+        "service": "iot",
+        "type": "topic_rules"
+    }
+}

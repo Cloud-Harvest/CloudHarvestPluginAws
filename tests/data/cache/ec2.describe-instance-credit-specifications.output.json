@@ -1,0 +1,84 @@
+{
+    "input": {
+        "template": {
+            "DryRun": true,
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "InstanceIds": [
+                ""
+            ],
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "d2a9dfe61999db71d17d386225173616",
+        "boto_command": "describe_instance_credit_specifications",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "InstanceId": "InstanceId",
+                "CpuCredits": "CpuCredits"
+            }
+        ],
+        "required": [],
+        "md5": "fae89c825c712ef2532cc00df0a9247e",
+        "randomized": [
+            {
+                "CpuCredits": "chbgebxnijgivvzh",
+                "InstanceId": "vagvilsmrtrqbtte"
+            },
+            {
+                "CpuCredits": "nwblcsanoznghvbs",
+                "InstanceId": "cmjmazctqexftccl"
+            },
+            {
+                "CpuCredits": "vwnvdvvfiweyhgxn",
+                "InstanceId": "lunxdjlvjcxzpges"
+            },
+            {
+                "CpuCredits": "zlkwheizcvbwiywy",
+                "InstanceId": "zxtlmopftcirurzp"
+            },
+            {
+                "CpuCredits": "zldatyeqqsaotbsg",
+                "InstanceId": "fcqfbmanjzymlabm"
+            },
+            {
+                "CpuCredits": "titugqzjlsowwvpi",
+                "InstanceId": "uodltwzhqhaajazd"
+            },
+            {
+                "CpuCredits": "bsnhcmtjzibsgwpl",
+                "InstanceId": "bzdxeemexbxrmbcb"
+            },
+            {
+                "CpuCredits": "vyrvdcbehrupitdi",
+                "InstanceId": "izippfyycosisevv"
+            },
+            {
+                "CpuCredits": "pmoygqxvmmwvuaap",
+                "InstanceId": "agmrscajqzhyxmsc"
+            },
+            {
+                "CpuCredits": "hfwzprtrxbksppex",
+                "InstanceId": "bnzgqqrlcidgplmn"
+            }
+        ],
+        "result_key": "InstanceCreditSpecifications"
+    },
+    "meta": {
+        "start": 1711115626.082487,
+        "end": 1711115633.25973,
+        "duration": 7.177251815795898,
+        "service": "ec2",
+        "type": "instance_credit_specifications"
+    }
+}

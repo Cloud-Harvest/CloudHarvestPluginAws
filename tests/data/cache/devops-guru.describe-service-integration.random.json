@@ -1,0 +1,132 @@
+[
+    {
+        "KMSServerSideEncryption": {
+            "KMSKeyId": "ifxzfovhmxjiajnd",
+            "OptInStatus": "ovlozrphxhqkwjpa",
+            "Type": "jqwhwpekresehsmk"
+        },
+        "LogsAnomalyDetection": {
+            "OptInStatus": "gvhtmoorzexgxian"
+        },
+        "OpsCenter": {
+            "OptInStatus": "ovbdjjjvsdvbxaux"
+        }
+    },
+    {
+        "KMSServerSideEncryption": {
+            "KMSKeyId": "ojgljiuqraxttaro",
+            "OptInStatus": "karcijbnfkpmcjkk",
+            "Type": "sxdxzyehecsiozig"
+        },
+        "LogsAnomalyDetection": {
+            "OptInStatus": "vuqnbtivwbntplog"
+        },
+        "OpsCenter": {
+            "OptInStatus": "umxdjtpaibxiejue"
+        }
+    },
+    {
+        "KMSServerSideEncryption": {
+            "KMSKeyId": "fqbsdgyzzhdylmxe",
+            "OptInStatus": "dnvuzaswklrtgdwj",
+            "Type": "mrhileauhqmhrctj"
+        },
+        "LogsAnomalyDetection": {
+            "OptInStatus": "poygjrknkupohfqb"
+        },
+        "OpsCenter": {
+            "OptInStatus": "gjisvfkuuwdvutrb"
+        }
+    },
+    {
+        "KMSServerSideEncryption": {
+            "KMSKeyId": "fqinpoaoonexsamw",
+            "OptInStatus": "hghqknuczzptiogg",
+            "Type": "lqlyjaaecpuucdit"
+        },
+        "LogsAnomalyDetection": {
+            "OptInStatus": "cxighwtwwtjunxzl"
+        },
+        "OpsCenter": {
+            "OptInStatus": "kztwechimmovchtt"
+        }
+    },
+    {
+        "KMSServerSideEncryption": {
+            "KMSKeyId": "iidaepzqyqfweegr",
+            "OptInStatus": "wbasqayudsiygefp",
+            "Type": "deijrjaezfanutyv"
+        },
+        "LogsAnomalyDetection": {
+            "OptInStatus": "iieitijzmlrkpssc"
+        },
+        "OpsCenter": {
+            "OptInStatus": "wgzzsddjzhfomjop"
+        }
+    },
+    {
+        "KMSServerSideEncryption": {
+            "KMSKeyId": "sasluxzcbgszrinj",
+            "OptInStatus": "hurlxnubwuwrizjd",
+            "Type": "csnxnbiprmaejkwu"
+        },
+        "LogsAnomalyDetection": {
+            "OptInStatus": "ibvvpcsvjvsbekaa"
+        },
+        "OpsCenter": {
+            "OptInStatus": "ybqlaluydcxcmhhc"
+        }
+    },
+    {
+        "KMSServerSideEncryption": {
+            "KMSKeyId": "cmdwbmbnxvtmqkdc",
+            "OptInStatus": "fiuuzkecrpjdjpbw",
+            "Type": "vwnznacpcznbedmp"
+        },
+        "LogsAnomalyDetection": {
+            "OptInStatus": "qptlqwecnhfnxlub"
+        },
+        "OpsCenter": {
+            "OptInStatus": "gmnepbvedhctpwqw"
+        }
+    },
+    {
+        "KMSServerSideEncryption": {
+            "KMSKeyId": "jigyftgmesytvkbm",
+            "OptInStatus": "jfdeqivjktjewfis",
+            "Type": "nxfvwnhphpxoturg"
+        },
+        "LogsAnomalyDetection": {
+            "OptInStatus": "fmqzhkbivikzqqld"
+        },
+        "OpsCenter": {
+            "OptInStatus": "qcwrktunsylfrpra"
+        }
+    },
+    {
+        "KMSServerSideEncryption": {
+            "KMSKeyId": "lufomymxvbzpasyl",
+            "OptInStatus": "kwqobeoadpkrhapf",
+            "Type": "rupuqsjoiezzpnwk"
+        },
+        "LogsAnomalyDetection": {
+            "OptInStatus": "ksvlbnnunujejyju"
+        },
+        "OpsCenter": {
+            "OptInStatus": "nsfdpkhbmaqkbccr"
+        }
+    },
+    {
+        "KMSServerSideEncryption": {
+            "KMSKeyId": "vpmnklvgikiucfxs",
+            "OptInStatus": "djfbizrkrtccmabd",
+            "Type": "kvjjctphriftzyup"
+        },
+        "LogsAnomalyDetection": {
+            "OptInStatus": "qxaklecpsgmgfggk"
+        },
+        "OpsCenter": {
+            "OptInStatus": "ndaddgwqujzfakcd"
+        }
+    }
+]

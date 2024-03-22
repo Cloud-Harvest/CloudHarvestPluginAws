@@ -1,0 +1,160 @@
+{
+    "input": {
+        "template": {
+            "nextToken": "",
+            "limit": 0
+        },
+        "required": [],
+        "md5": "3b0c67236e96e920a798b0999ab7e0ff",
+        "boto_command": "describe_delivery_destinations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "name": "name",
+                "arn": "arn",
+                "deliveryDestinationType": "deliveryDestinationType",
+                "outputFormat": "outputFormat",
+                "deliveryDestinationConfiguration": {
+                    "destinationResourceArn": "destinationResourceArn"
+                },
+                "tags": {
+                    "KeyName": ""
+                }
+            }
+        ],
+        "required": [],
+        "md5": "0909d08bb7717622e5bded4982263f06",
+        "randomized": [
+            {
+                "arn": "qddktstsbnginsuu",
+                "deliveryDestinationConfiguration": {
+                    "destinationResourceArn": "rvgexiuetxvupkut"
+                },
+                "deliveryDestinationType": "nyrzzqdjtlxpatyp",
+                "name": "cdmgcqfayazwhnzt",
+                "outputFormat": "gowwqhscowiqicxg",
+                "tags": {
+                    "KeyName": "lcetommbxcdyjgkl"
+                }
+            },
+            {
+                "arn": "ttzhtyfgyzkvfrih",
+                "deliveryDestinationConfiguration": {
+                    "destinationResourceArn": "jtrwlxnzfyooktnf"
+                },
+                "deliveryDestinationType": "uadvexnymnobyyhx",
+                "name": "nbnzghrrnxbbmpxd",
+                "outputFormat": "fsttkehiyeulggzc",
+                "tags": {
+                    "KeyName": "fqilgqnhhubutgmo"
+                }
+            },
+            {
+                "arn": "kidrzscmurpilorn",
+                "deliveryDestinationConfiguration": {
+                    "destinationResourceArn": "gpytorxrlalhrouu"
+                },
+                "deliveryDestinationType": "ulacodzxpkaudvry",
+                "name": "zcnlbbdnyzsefquk",
+                "outputFormat": "echhfdagadplftsr",
+                "tags": {
+                    "KeyName": "fnfgzhyjswnbuyny"
+                }
+            },
+            {
+                "arn": "oysrgzlbaebjimdl",
+                "deliveryDestinationConfiguration": {
+                    "destinationResourceArn": "fzqnbpaqymjqrnmj"
+                },
+                "deliveryDestinationType": "toloeztjxykrwakc",
+                "name": "cogatcmaqkzlrgjq",
+                "outputFormat": "ibsvapzawifztmhz",
+                "tags": {
+                    "KeyName": "tvbjyivmnnnibnbm"
+                }
+            },
+            {
+                "arn": "oekmjnygxzkyqcfr",
+                "deliveryDestinationConfiguration": {
+                    "destinationResourceArn": "jdwzjoismslpdszn"
+                },
+                "deliveryDestinationType": "knsexcmdgzqrfppa",
+                "name": "bqvgmkqulxesrphz",
+                "outputFormat": "vxcwufhurwjgzdqb",
+                "tags": {
+                    "KeyName": "qzjpqqzbtadgzvid"
+                }
+            },
+            {
+                "arn": "bcreudoofnauoaxr",
+                "deliveryDestinationConfiguration": {
+                    "destinationResourceArn": "tnrxcfvymwpdbluq"
+                },
+                "deliveryDestinationType": "cwcrptvyysaghzfy",
+                "name": "pqgtawdvrwkpoaqa",
+                "outputFormat": "pwgyvpcrfbwvkogk",
+                "tags": {
+                    "KeyName": "aslkqbfwgjfwkyyg"
+                }
+            },
+            {
+                "arn": "cyuajmddfqujvroi",
+                "deliveryDestinationConfiguration": {
+                    "destinationResourceArn": "rzdloboysmirtjed"
+                },
+                "deliveryDestinationType": "akqahxvmimokypyy",
+                "name": "aktutcnbzrzqnyfn",
+                "outputFormat": "hihxxorkhywntmcu",
+                "tags": {
+                    "KeyName": "rmyrjclouqmlpykr"
+                }
+            },
+            {
+                "arn": "dcncqhhnxsseztpq",
+                "deliveryDestinationConfiguration": {
+                    "destinationResourceArn": "aifslvermeonbjxx"
+                },
+                "deliveryDestinationType": "tgyzqhffdmbqkkbn",
+                "name": "jxslanrqnsbyglhc",
+                "outputFormat": "aldyiwdbjptbdmih",
+                "tags": {
+                    "KeyName": "enwfjhdkvloehmwf"
+                }
+            },
+            {
+                "arn": "kroqeupdlxnjhvgp",
+                "deliveryDestinationConfiguration": {
+                    "destinationResourceArn": "nowlptptctoheqrs"
+                },
+                "deliveryDestinationType": "zjhwdzmtpsocxgxv",
+                "name": "rrhplsjrmnwpwaly",
+                "outputFormat": "mthzwtehnminfxgo",
+                "tags": {
+                    "KeyName": "toyjdyscrghuidmj"
+                }
+            },
+            {
+                "arn": "ngjetiykfugfmxzj",
+                "deliveryDestinationConfiguration": {
+                    "destinationResourceArn": "snknxllnwixyfwke"
+                },
+                "deliveryDestinationType": "pbnccmhoqogmnqkj",
+                "name": "ickjgsxwecaxqwyf",
+                "outputFormat": "bvlbmthumqgpcduh",
+                "tags": {
+                    "KeyName": "zcbtyoantjmxsndk"
+                }
+            }
+        ],
+        "result_key": "deliveryDestinations"
+    },
+    "meta": {
+        "start": 1711116117.006582,
+        "end": 1711116124.585012,
+        "duration": 7.578439950942993,
+        "service": "logs",
+        "type": "delivery_destinations"
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "get_sagemaker_servicecatalog_portfolio_status",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": "Status",
+        "required": [],
+        "md5": "e90e467c80f04a9cc386697f0a56f18e",
+        "randomized": [
+            "zydrkddbpezugotp",
+            "xgkcctavuoeehcon",
+            "uepvbnszmelnmamo",
+            "nlsnwmdgcybdaxrn",
+            "joqeqrnunzmfslkc",
+            "fqqmbhqfuwgosaax",
+            "ddximszotfbohnyk",
+            "jjveiuurjcifvfza",
+            "gittbsqnwrwysnmg",
+            "evjzxvljnblrltoa"
+        ],
+        "result_key": "Status"
+    },
+    "meta": {
+        "start": 1711116543.302346,
+        "end": 1711116553.002451,
+        "duration": 9.700109958648682,
+        "service": "sagemaker",
+        "type": null
+    }
+}

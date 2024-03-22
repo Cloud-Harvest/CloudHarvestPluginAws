@@ -1,0 +1,138 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "9dece7f85fc1c3f944425b1f68a8e6e1",
+        "boto_command": "list_origination_numbers",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "CreatedAt": "1970-01-01T00:00:00",
+                "PhoneNumber": "PhoneNumber",
+                "Status": "Status",
+                "Iso2CountryCode": "Iso2CountryCode",
+                "RouteType": "RouteType",
+                "NumberCapabilities": [
+                    "NumberCapability"
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "fb537fa347a2a70edab5be9ab1a716d7",
+        "randomized": [
+            {
+                "CreatedAt": "hjhklswvbhisymub",
+                "Iso2CountryCode": "ldsarkecxnurisib",
+                "NumberCapabilities": [
+                    "psxqnhbchqyszfig"
+                ],
+                "PhoneNumber": "xyrxlkuzpuukqmjn",
+                "RouteType": "jeeslsitfsvsrqkd",
+                "Status": "cnwggvpfvehzaqcb"
+            },
+            {
+                "CreatedAt": "frilmkrlkkwzgxvc",
+                "Iso2CountryCode": "xhuabqwgemybjvbp",
+                "NumberCapabilities": [
+                    "nikbzafvnmmqtnta"
+                ],
+                "PhoneNumber": "qprggmknbwvxywvd",
+                "RouteType": "ohmabqafvnyoslwp",
+                "Status": "jeqaxztjnjvvvpqs"
+            },
+            {
+                "CreatedAt": "pgasggydytfrsgsh",
+                "Iso2CountryCode": "luizqsrjvpzoczli",
+                "NumberCapabilities": [
+                    "uwmkhkftrfjlfbxh"
+                ],
+                "PhoneNumber": "aikubpbhgusxlrcf",
+                "RouteType": "augeevchtpepzrgk",
+                "Status": "jwyalljghkqdytjv"
+            },
+            {
+                "CreatedAt": "jfpnxbvtdrxqbpnx",
+                "Iso2CountryCode": "itvwunwfydtqoahp",
+                "NumberCapabilities": [
+                    "hmuezpiurecxfdth"
+                ],
+                "PhoneNumber": "ftdceavijsvrhxgl",
+                "RouteType": "otfxbpzdjdgiutuz",
+                "Status": "cngjrmkhfitzamfg"
+            },
+            {
+                "CreatedAt": "iawnoyfejbmpcdoj",
+                "Iso2CountryCode": "hqiopoomhoqbhbph",
+                "NumberCapabilities": [
+                    "pwpelfxsxwnjedww"
+                ],
+                "PhoneNumber": "nhszpnfiambgkelx",
+                "RouteType": "xlxirokuoozwaeqr",
+                "Status": "bvhmqazcrbwbaddd"
+            },
+            {
+                "CreatedAt": "plmbhdjcwocgowhf",
+                "Iso2CountryCode": "selqgewclnhgnjem",
+                "NumberCapabilities": [
+                    "zjdcmypiezevcyup"
+                ],
+                "PhoneNumber": "ndbhzqrfonbwcjzc",
+                "RouteType": "scoljdkxujotfjxg",
+                "Status": "gxwscexytlcukkok"
+            },
+            {
+                "CreatedAt": "hwrnkwpgvnnuzwis",
+                "Iso2CountryCode": "qudgcjibwnfvcpvc",
+                "NumberCapabilities": [
+                    "jjsnsxfpvaqrhopp"
+                ],
+                "PhoneNumber": "tqijwdaotjdmqefy",
+                "RouteType": "yglccuwztsexrpwt",
+                "Status": "jgpyxpqroinrhfze"
+            },
+            {
+                "CreatedAt": "rjriiwgtrqayjhzp",
+                "Iso2CountryCode": "atexncukkupdppee",
+                "NumberCapabilities": [
+                    "nqpxvwsbciooqxaw"
+                ],
+                "PhoneNumber": "fejormemctorguni",
+                "RouteType": "wgeaijvonrwhbfqk",
+                "Status": "khhaxeeelcyqibge"
+            },
+            {
+                "CreatedAt": "rvtnvdxunsoiyxzz",
+                "Iso2CountryCode": "vvqislrezlleonvh",
+                "NumberCapabilities": [
+                    "fnuiwepsolvetdch"
+                ],
+                "PhoneNumber": "apxngkchrtdcvkzj",
+                "RouteType": "cejxlcvvooquowsq",
+                "Status": "saueusdpgylzifll"
+            },
+            {
+                "CreatedAt": "ptyjvsmruodsmzeq",
+                "Iso2CountryCode": "eqmxgneickxbjlkx",
+                "NumberCapabilities": [
+                    "fmzqcghburgnjdwk"
+                ],
+                "PhoneNumber": "idojpntogsfwqpfu",
+                "RouteType": "dabugacypwftrsyt",
+                "Status": "hamlufbpdpvrfcsk"
+            }
+        ],
+        "result_key": "PhoneNumbers"
+    },
+    "meta": {
+        "start": 1711116650.385267,
+        "end": 1711116657.157904,
+        "duration": 6.772648096084595,
+        "service": "sns",
+        "type": "origination_numbers"
+    }
+}

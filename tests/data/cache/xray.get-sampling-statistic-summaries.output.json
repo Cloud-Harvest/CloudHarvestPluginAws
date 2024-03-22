@@ -1,0 +1,104 @@
+{
+    "input": {
+        "template": {
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "28fe14adb863d5d0635cac1da3f9b4e4",
+        "boto_command": "get_sampling_statistic_summaries",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "RuleName": "RuleName",
+                "Timestamp": "1970-01-01T00:00:00",
+                "RequestCount": 0,
+                "BorrowCount": 0,
+                "SampledCount": 0
+            }
+        ],
+        "required": [],
+        "md5": "f727a0c92925765a37b34ac3a968822c",
+        "randomized": [
+            {
+                "BorrowCount": 0,
+                "RequestCount": 0,
+                "RuleName": "blwqhnqegkbamkil",
+                "SampledCount": 0,
+                "Timestamp": "oefuqnughnumagvu"
+            },
+            {
+                "BorrowCount": 0,
+                "RequestCount": 0,
+                "RuleName": "myjdtkebuxfguqtd",
+                "SampledCount": 0,
+                "Timestamp": "vyddveybouchsvgw"
+            },
+            {
+                "BorrowCount": 0,
+                "RequestCount": 0,
+                "RuleName": "qarqxnzpcadjquak",
+                "SampledCount": 0,
+                "Timestamp": "anmeimaicpljuocp"
+            },
+            {
+                "BorrowCount": 0,
+                "RequestCount": 0,
+                "RuleName": "rljoempuleckeipp",
+                "SampledCount": 0,
+                "Timestamp": "qcetgwmuvdyuqicr"
+            },
+            {
+                "BorrowCount": 0,
+                "RequestCount": 0,
+                "RuleName": "aqmkymyvyzzmvhdy",
+                "SampledCount": 0,
+                "Timestamp": "ammdsfitxdazmlqu"
+            },
+            {
+                "BorrowCount": 0,
+                "RequestCount": 0,
+                "RuleName": "wahecxtxfzswlkhv",
+                "SampledCount": 0,
+                "Timestamp": "iollfdpjnqrbuahs"
+            },
+            {
+                "BorrowCount": 0,
+                "RequestCount": 0,
+                "RuleName": "jnyifgiffeyavajf",
+                "SampledCount": 0,
+                "Timestamp": "bjswwcektploogqg"
+            },
+            {
+                "BorrowCount": 0,
+                "RequestCount": 0,
+                "RuleName": "shdqhnlveayyadjg",
+                "SampledCount": 0,
+                "Timestamp": "zaneaudjidcnofdy"
+            },
+            {
+                "BorrowCount": 0,
+                "RequestCount": 0,
+                "RuleName": "gryrmqndkbmangko",
+                "SampledCount": 0,
+                "Timestamp": "nkthhxtxcwagwkdc"
+            },
+            {
+                "BorrowCount": 0,
+                "RequestCount": 0,
+                "RuleName": "tgzkfwsfffhozpdd",
+                "SampledCount": 0,
+                "Timestamp": "xxipmdomaauckzbr"
+            }
+        ],
+        "result_key": "SamplingStatisticSummaries"
+    },
+    "meta": {
+        "start": 1711116821.190134,
+        "end": 1711116826.334621,
+        "duration": 5.144492864608765,
+        "service": "xray",
+        "type": null
+    }
+}

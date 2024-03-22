@@ -1,0 +1,372 @@
+[
+    {
+        "AnnotationConsolidationLambdaArn": "uexfkgmpihwbenei",
+        "CreationTime": "qbwzpfhazspaydnr",
+        "FailureReason": "riljfyscybnaiwto",
+        "InputConfig": {
+            "DataAttributes": {
+                "ContentClassifiers": [
+                    "tjlgyynylwtqshfl"
+                ]
+            },
+            "DataSource": {
+                "S3DataSource": {
+                    "ManifestS3Uri": "ndzpyxplqvvnwddi"
+                },
+                "SnsDataSource": {
+                    "SnsTopicArn": "xbyhptbzrbohefbn"
+                }
+            }
+        },
+        "LabelCounters": {
+            "FailedNonRetryableError": 0,
+            "HumanLabeled": 0,
+            "MachineLabeled": 0,
+            "TotalLabeled": 0,
+            "Unlabeled": 0
+        },
+        "LabelingJobArn": "uwjcdvbuokmfmqws",
+        "LabelingJobName": "mwfeuafpvdjnlodv",
+        "LabelingJobOutput": {
+            "FinalActiveLearningModelArn": "fkyuxabfhuuzgdbo",
+            "OutputDatasetS3Uri": "eljzdwruekahwdwz"
+        },
+        "LabelingJobStatus": "trjmixkcbfonsweg",
+        "LastModifiedTime": "gbpgjacatasnblud",
+        "PreHumanTaskLambdaArn": "pquxejwmdtnsifcs",
+        "WorkteamArn": "culepobcchdawtom"
+    },
+    {
+        "AnnotationConsolidationLambdaArn": "jbfolrctgtnxoybd",
+        "CreationTime": "eovnzsndprrtvquh",
+        "FailureReason": "guelqxqnvycjexwt",
+        "InputConfig": {
+            "DataAttributes": {
+                "ContentClassifiers": [
+                    "oodgdcmzwhiriosq"
+                ]
+            },
+            "DataSource": {
+                "S3DataSource": {
+                    "ManifestS3Uri": "oyewcrrhuevsvbuf"
+                },
+                "SnsDataSource": {
+                    "SnsTopicArn": "wierrkfnbolsxcch"
+                }
+            }
+        },
+        "LabelCounters": {
+            "FailedNonRetryableError": 0,
+            "HumanLabeled": 0,
+            "MachineLabeled": 0,
+            "TotalLabeled": 0,
+            "Unlabeled": 0
+        },
+        "LabelingJobArn": "ksksulvlvejikkdv",
+        "LabelingJobName": "jeplmktnazkefysd",
+        "LabelingJobOutput": {
+            "FinalActiveLearningModelArn": "rlavikfaiccqzpbs",
+            "OutputDatasetS3Uri": "yknslujuqosfykla"
+        },
+        "LabelingJobStatus": "pzjbfnulwmziyaio",
+        "LastModifiedTime": "zmoeitmuvtrjnzkf",
+        "PreHumanTaskLambdaArn": "qyavibbyeghbfyjl",
+        "WorkteamArn": "defngxhbzgqgmaal"
+    },
+    {
+        "AnnotationConsolidationLambdaArn": "ovskmrmasbsejmcb",
+        "CreationTime": "sodmbmsbuxhhfzfo",
+        "FailureReason": "qodqhedkvwolwibp",
+        "InputConfig": {
+            "DataAttributes": {
+                "ContentClassifiers": [
+                    "djtqofcxfdeaojmu"
+                ]
+            },
+            "DataSource": {
+                "S3DataSource": {
+                    "ManifestS3Uri": "xypynmfhzgydzmza"
+                },
+                "SnsDataSource": {
+                    "SnsTopicArn": "drxtfnshhgljvjmj"
+                }
+            }
+        },
+        "LabelCounters": {
+            "FailedNonRetryableError": 0,
+            "HumanLabeled": 0,
+            "MachineLabeled": 0,
+            "TotalLabeled": 0,
+            "Unlabeled": 0
+        },
+        "LabelingJobArn": "qzqxspukuvnoqqqi",
+        "LabelingJobName": "movnlcpnzgshnuow",
+        "LabelingJobOutput": {
+            "FinalActiveLearningModelArn": "kjpxibmzaknnttld",
+            "OutputDatasetS3Uri": "bncuokcogpbosgny"
+        },
+        "LabelingJobStatus": "kwvimrouwcltgpfu",
+        "LastModifiedTime": "zuqztpxibjvvrxne",
+        "PreHumanTaskLambdaArn": "mhwdsjfchtlhurby",
+        "WorkteamArn": "gpmggnlnfbfijqva"
+    },
+    {
+        "AnnotationConsolidationLambdaArn": "exqkystdggrobxsm",
+        "CreationTime": "gihzzjpkpjfvgias",
+        "FailureReason": "mfrfdkvxgvrzejab",
+        "InputConfig": {
+            "DataAttributes": {
+                "ContentClassifiers": [
+                    "kuzgjnnxovllvmrz"
+                ]
+            },
+            "DataSource": {
+                "S3DataSource": {
+                    "ManifestS3Uri": "xalcphhygmnfpbyl"
+                },
+                "SnsDataSource": {
+                    "SnsTopicArn": "zkvrjqjyautgwyvy"
+                }
+            }
+        },
+        "LabelCounters": {
+            "FailedNonRetryableError": 0,
+            "HumanLabeled": 0,
+            "MachineLabeled": 0,
+            "TotalLabeled": 0,
+            "Unlabeled": 0
+        },
+        "LabelingJobArn": "bwmipsknfzxuoleb",
+        "LabelingJobName": "pnxmidtpbpzrmqsg",
+        "LabelingJobOutput": {
+            "FinalActiveLearningModelArn": "xpldjvxpcnpjuxzc",
+            "OutputDatasetS3Uri": "vtndefrbqihksjrz"
+        },
+        "LabelingJobStatus": "bxrwdkwziduxcgcg",
+        "LastModifiedTime": "jnnmpgcjlozowmvr",
+        "PreHumanTaskLambdaArn": "jkacaihrhpoxkwbq",
+        "WorkteamArn": "mvsbxfsturchfmxe"
+    },
+    {
+        "AnnotationConsolidationLambdaArn": "xkomqrnfmebdvgsl",
+        "CreationTime": "ylfogdoyptqyjeng",
+        "FailureReason": "gqttkrtkmqqcyhad",
+        "InputConfig": {
+            "DataAttributes": {
+                "ContentClassifiers": [
+                    "yfngphepzplwgskj"
+                ]
+            },
+            "DataSource": {
+                "S3DataSource": {
+                    "ManifestS3Uri": "qpxbsvoxgbgcyzfn"
+                },
+                "SnsDataSource": {
+                    "SnsTopicArn": "vfguvzqhtwikrfdc"
+                }
+            }
+        },
+        "LabelCounters": {
+            "FailedNonRetryableError": 0,
+            "HumanLabeled": 0,
+            "MachineLabeled": 0,
+            "TotalLabeled": 0,
+            "Unlabeled": 0
+        },
+        "LabelingJobArn": "zahnwzoegszquhaz",
+        "LabelingJobName": "hplbajvbmqzwphro",
+        "LabelingJobOutput": {
+            "FinalActiveLearningModelArn": "wylcaguzmsxhwcsp",
+            "OutputDatasetS3Uri": "baguatvlzzhaabvj"
+        },
+        "LabelingJobStatus": "wtxvrtkjgvcvuwfm",
+        "LastModifiedTime": "eqcevavbiitccefm",
+        "PreHumanTaskLambdaArn": "jnuejbbbxpehsjxr",
+        "WorkteamArn": "clebzbqfsninbuwp"
+    },
+    {
+        "AnnotationConsolidationLambdaArn": "zbkuueoogoldwxee",
+        "CreationTime": "thsptqelpzrvwscl",
+        "FailureReason": "tvwmoydluxmeikwx",
+        "InputConfig": {
+            "DataAttributes": {
+                "ContentClassifiers": [
+                    "qhquvnxttbucvsyq"
+                ]
+            },
+            "DataSource": {
+                "S3DataSource": {
+                    "ManifestS3Uri": "uyvgbccsxyzomuvp"
+                },
+                "SnsDataSource": {
+                    "SnsTopicArn": "zfuedyqmhfstzxjn"
+                }
+            }
+        },
+        "LabelCounters": {
+            "FailedNonRetryableError": 0,
+            "HumanLabeled": 0,
+            "MachineLabeled": 0,
+            "TotalLabeled": 0,
+            "Unlabeled": 0
+        },
+        "LabelingJobArn": "krrykyxerhbmgcln",
+        "LabelingJobName": "bbbxsijipuhcuuqt",
+        "LabelingJobOutput": {
+            "FinalActiveLearningModelArn": "syxpzbciyarpkzpl",
+            "OutputDatasetS3Uri": "sdjxlbeoutsnuyzt"
+        },
+        "LabelingJobStatus": "hmxclsropxhepdxr",
+        "LastModifiedTime": "ufqhhdopvmfpiboa",
+        "PreHumanTaskLambdaArn": "jkbadfjspywhajlt",
+        "WorkteamArn": "oipefpklqrkpowjh"
+    },
+    {
+        "AnnotationConsolidationLambdaArn": "sbivyajkhtvdvbqp",
+        "CreationTime": "lrpdeuagjeoehxkg",
+        "FailureReason": "wpizlxpbgarqgiau",
+        "InputConfig": {
+            "DataAttributes": {
+                "ContentClassifiers": [
+                    "thhvrncdezsftxlu"
+                ]
+            },
+            "DataSource": {
+                "S3DataSource": {
+                    "ManifestS3Uri": "kulqhcxtlomowfxs"
+                },
+                "SnsDataSource": {
+                    "SnsTopicArn": "qutxalxotodjdhaw"
+                }
+            }
+        },
+        "LabelCounters": {
+            "FailedNonRetryableError": 0,
+            "HumanLabeled": 0,
+            "MachineLabeled": 0,
+            "TotalLabeled": 0,
+            "Unlabeled": 0
+        },
+        "LabelingJobArn": "tcscmmwikvfztszi",
+        "LabelingJobName": "otrhkxfofpclragv",
+        "LabelingJobOutput": {
+            "FinalActiveLearningModelArn": "azbfofmmjuyanhyf",
+            "OutputDatasetS3Uri": "fgpjymzzjvqhbnar"
+        },
+        "LabelingJobStatus": "xwbnctmvbxpovidv",
+        "LastModifiedTime": "aebzeiluoyhysjjy",
+        "PreHumanTaskLambdaArn": "asdmulnbzbhjtiie",
+        "WorkteamArn": "mshrrssbjsadqdwr"
+    },
+    {
+        "AnnotationConsolidationLambdaArn": "pvmmfuijuwhdmush",
+        "CreationTime": "nhypqpdrwjlugeev",
+        "FailureReason": "nicmsdreuvertwoe",
+        "InputConfig": {
+            "DataAttributes": {
+                "ContentClassifiers": [
+                    "bhdiykqwjkcaqnmh"
+                ]
+            },
+            "DataSource": {
+                "S3DataSource": {
+                    "ManifestS3Uri": "naijfkpinncuhoen"
+                },
+                "SnsDataSource": {
+                    "SnsTopicArn": "hkyjvoxjrzubwwjv"
+                }
+            }
+        },
+        "LabelCounters": {
+            "FailedNonRetryableError": 0,
+            "HumanLabeled": 0,
+            "MachineLabeled": 0,
+            "TotalLabeled": 0,
+            "Unlabeled": 0
+        },
+        "LabelingJobArn": "kwhyruexglcdhmlj",
+        "LabelingJobName": "vmqgxfqiuunwfjsi",
+        "LabelingJobOutput": {
+            "FinalActiveLearningModelArn": "czrnkyzhxuaptify",
+            "OutputDatasetS3Uri": "mjotpaemaqobwjdg"
+        },
+        "LabelingJobStatus": "qgzcekhazykhywpj",
+        "LastModifiedTime": "ivfwtoegdohagjsv",
+        "PreHumanTaskLambdaArn": "izjnsmtrtmppoyat",
+        "WorkteamArn": "cegjhchzlpejqdjm"
+    },
+    {
+        "AnnotationConsolidationLambdaArn": "uvdxktpstxcljpel",
+        "CreationTime": "ymsyncdxtkcmqiqu",
+        "FailureReason": "ugmaanfjlubwzvli",
+        "InputConfig": {
+            "DataAttributes": {
+                "ContentClassifiers": [
+                    "qaooykofspfitgqg"
+                ]
+            },
+            "DataSource": {
+                "S3DataSource": {
+                    "ManifestS3Uri": "lpukzldgxgdflfwu"
+                },
+                "SnsDataSource": {
+                    "SnsTopicArn": "pficaurfhxoshncp"
+                }
+            }
+        },
+        "LabelCounters": {
+            "FailedNonRetryableError": 0,
+            "HumanLabeled": 0,
+            "MachineLabeled": 0,
+            "TotalLabeled": 0,
+            "Unlabeled": 0
+        },
+        "LabelingJobArn": "sbfapfrainkogxqj",
+        "LabelingJobName": "hxenhrysqewdfhbi",
+        "LabelingJobOutput": {
+            "FinalActiveLearningModelArn": "kbjgvxdgvfhfuluw",
+            "OutputDatasetS3Uri": "qqslagkjjhqwikpv"
+        },
+        "LabelingJobStatus": "pyiyjjgbsqrbigge",
+        "LastModifiedTime": "hxhgpikccyfothnq",
+        "PreHumanTaskLambdaArn": "fzuswitucyuqmugr",
+        "WorkteamArn": "jurcpskupqeyehgw"
+    },
+    {
+        "AnnotationConsolidationLambdaArn": "mtpehysmkipvysvn",
+        "CreationTime": "bfccrvglpqibvxan",
+        "FailureReason": "vinelmzaybgcazvz",
+        "InputConfig": {
+            "DataAttributes": {
+                "ContentClassifiers": [
+                    "jorlwaxdvvrsigzu"
+                ]
+            },
+            "DataSource": {
+                "S3DataSource": {
+                    "ManifestS3Uri": "tehfoxwkfnqmejic"
+                },
+                "SnsDataSource": {
+                    "SnsTopicArn": "pnkeupvveqvgjxis"
+                }
+            }
+        },
+        "LabelCounters": {
+            "FailedNonRetryableError": 0,
+            "HumanLabeled": 0,
+            "MachineLabeled": 0,
+            "TotalLabeled": 0,
+            "Unlabeled": 0
+        },
+        "LabelingJobArn": "isjemgqbmoexbaif",
+        "LabelingJobName": "zkxuiydkzewhzeur",
+        "LabelingJobOutput": {
+            "FinalActiveLearningModelArn": "elsjsprsdfdmgfvx",
+            "OutputDatasetS3Uri": "ulhkctydsacgwnic"
+        },
+        "LabelingJobStatus": "igomserokwgvtiyh",
+        "LastModifiedTime": "dbvwgusefduklkqc",
+        "PreHumanTaskLambdaArn": "bfishhqvyixrsyzt",
+        "WorkteamArn": "bbrwgafyxgiconwk"
+    }
+]

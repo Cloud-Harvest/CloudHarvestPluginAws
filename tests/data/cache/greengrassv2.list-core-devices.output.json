@@ -1,0 +1,85 @@
+{
+    "input": {
+        "template": {
+            "thingGroupArn": "",
+            "status": "HEALTHY",
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "required": [],
+        "md5": "44e1b492dbf180f878fffcf21cccbe9b",
+        "boto_command": "list_core_devices",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "coreDeviceThingName": "coreDeviceThingName",
+                "status": "status",
+                "lastStatusUpdateTimestamp": "1970-01-01T00:00:00"
+            }
+        ],
+        "required": [],
+        "md5": "b3db95bd99abc2dafb7c149c6b327a5e",
+        "randomized": [
+            {
+                "coreDeviceThingName": "qiblywzshtydqduq",
+                "lastStatusUpdateTimestamp": "wivrezspgrtpscnx",
+                "status": "adlqglrlvqorxfwx"
+            },
+            {
+                "coreDeviceThingName": "iqyywwsvizwwgbpr",
+                "lastStatusUpdateTimestamp": "mvkdzvoguxyjulkt",
+                "status": "jhwjykzwmagcfdnt"
+            },
+            {
+                "coreDeviceThingName": "gdhpdiusjwdckufc",
+                "lastStatusUpdateTimestamp": "lsssjspubeigwfim",
+                "status": "cpdjfknrexqyyddg"
+            },
+            {
+                "coreDeviceThingName": "xcjjzquwiviwdpkg",
+                "lastStatusUpdateTimestamp": "fzognyaxzmwtglwk",
+                "status": "gcexwqollgncbycm"
+            },
+            {
+                "coreDeviceThingName": "ihsqhqpmmxpnweyj",
+                "lastStatusUpdateTimestamp": "lsywoalphnmrvxku",
+                "status": "crttsaflgpfwnfam"
+            },
+            {
+                "coreDeviceThingName": "vndhpcxxozchcnsr",
+                "lastStatusUpdateTimestamp": "fzofadukvsbxthhc",
+                "status": "fkosqorfjfooahgl"
+            },
+            {
+                "coreDeviceThingName": "pmddwpgpzhylsyuh",
+                "lastStatusUpdateTimestamp": "sspcydaavsbzaiuc",
+                "status": "lhzpahzudnetumyk"
+            },
+            {
+                "coreDeviceThingName": "gazyqjesftynfpqw",
+                "lastStatusUpdateTimestamp": "tdubwwxdepwlxkhb",
+                "status": "oswvocbkbjygowxc"
+            },
+            {
+                "coreDeviceThingName": "plpdxbgiiwyomvyo",
+                "lastStatusUpdateTimestamp": "zteyiqdmjhimmkge",
+                "status": "rsvwhgvfkvmmzicu"
+            },
+            {
+                "coreDeviceThingName": "ememjkvkodxgxbvi",
+                "lastStatusUpdateTimestamp": "ehkxjiqfmhonmodz",
+                "status": "kofrsldnqpaplnah"
+            }
+        ],
+        "result_key": "coreDevices"
+    },
+    "meta": {
+        "start": 1711115857.830552,
+        "end": 1711115864.765375,
+        "duration": 6.934834957122803,
+        "service": "greengrassv2",
+        "type": "core_devices"
+    }
+}

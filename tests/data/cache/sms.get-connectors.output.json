@@ -1,0 +1,182 @@
+{
+    "input": {
+        "template": {
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "required": [],
+        "md5": "42475be96651ddb5d57c459989595380",
+        "boto_command": "get_connectors",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "connectorId": "connectorId",
+                "version": "version",
+                "status": "status",
+                "capabilityList": [
+                    "ConnectorCapability"
+                ],
+                "vmManagerName": "vmManagerName",
+                "vmManagerType": "vmManagerType",
+                "vmManagerId": "vmManagerId",
+                "ipAddress": "ipAddress",
+                "macAddress": "macAddress",
+                "associatedOn": "1970-01-01T00:00:00"
+            }
+        ],
+        "required": [],
+        "md5": "e4b589741690400dcfd4c94f58ae5e81",
+        "randomized": [
+            {
+                "associatedOn": "ewvshdxfwwpwahwz",
+                "capabilityList": [
+                    "mcmjfeonppnmahjy"
+                ],
+                "connectorId": "qbuekehzbxfembuw",
+                "ipAddress": "bwftdlskywxsgyrq",
+                "macAddress": "kiiwkswytajocerw",
+                "status": "qnafhxqjpwtzepgx",
+                "version": "hyvjgzylumygolgb",
+                "vmManagerId": "kigjszghwqwubsip",
+                "vmManagerName": "bwdahoddvemluwzs",
+                "vmManagerType": "rnimewbbawuxvwzi"
+            },
+            {
+                "associatedOn": "aqoyobigzsmljjxg",
+                "capabilityList": [
+                    "gnqgfuckqtcjjjcg"
+                ],
+                "connectorId": "hoyphqpvaxdboqye",
+                "ipAddress": "iasncpnhwgaqnaky",
+                "macAddress": "gbrhpdgbifgptsxd",
+                "status": "wccibdqlluaezfle",
+                "version": "lfwztoomaguxlqlg",
+                "vmManagerId": "ukuncjhffjvmqqqj",
+                "vmManagerName": "mtmiqqtkgjjmkhxs",
+                "vmManagerType": "apjcgxydbngbxzhm"
+            },
+            {
+                "associatedOn": "opcelwpujkwiryev",
+                "capabilityList": [
+                    "xaknwuytcftivfqd"
+                ],
+                "connectorId": "cgntvzbesyvctyzp",
+                "ipAddress": "rasnqjxnyozddqnk",
+                "macAddress": "vchgtmwtawjueony",
+                "status": "rooatheplilbtmgi",
+                "version": "dyljzalpwsqlrdvr",
+                "vmManagerId": "koirisyqpzorgzej",
+                "vmManagerName": "bdrhmzywajofxqei",
+                "vmManagerType": "jnakbzmpicgavdvg"
+            },
+            {
+                "associatedOn": "eqbvwatolqkmbhtm",
+                "capabilityList": [
+                    "gejzjrsoftcnbbpq"
+                ],
+                "connectorId": "richywmahfmdybvq",
+                "ipAddress": "fxmjlhgrsmjtciea",
+                "macAddress": "zhuyzkfvrjjjjsde",
+                "status": "aeagiqbsbtqwllpm",
+                "version": "ejgiwspngopzhbsz",
+                "vmManagerId": "hwemmpbfiuclpizl",
+                "vmManagerName": "jkzqoyyejuhjletg",
+                "vmManagerType": "dnynrqogjyjzbrcy"
+            },
+            {
+                "associatedOn": "tldifvwdkjingkok",
+                "capabilityList": [
+                    "zpsbouguzvhydugt"
+                ],
+                "connectorId": "uoqmmjqatrcpqhpg",
+                "ipAddress": "yxkcgyheesyirhpj",
+                "macAddress": "znrwbzhqkvpmsmmo",
+                "status": "wvlzlknfshvqsdmm",
+                "version": "ezadjjhkbyhfqkhq",
+                "vmManagerId": "xtmuqapnndxkimtp",
+                "vmManagerName": "oehpmcdqazwouuar",
+                "vmManagerType": "cnxmjtecvjnvneoa"
+            },
+            {
+                "associatedOn": "tnhqaveaeioetnae",
+                "capabilityList": [
+                    "dmerkknxexqxvrub"
+                ],
+                "connectorId": "ckwdaoqcgnjivkmg",
+                "ipAddress": "kqjbuwcsxdnoeyap",
+                "macAddress": "sxunabtovfpdtgur",
+                "status": "eoooyjsugpcfibed",
+                "version": "oorykokxczezbbqc",
+                "vmManagerId": "pjdiojmtxfiiojrs",
+                "vmManagerName": "fhumgatzqtblbabn",
+                "vmManagerType": "ylmsaffzoqpcikfg"
+            },
+            {
+                "associatedOn": "lqkkpczzmffhvshl",
+                "capabilityList": [
+                    "ytqkezgacugjmrib"
+                ],
+                "connectorId": "slhcfkkrwunscriv",
+                "ipAddress": "jphpmmazklixfcwf",
+                "macAddress": "xjjyjyjfujjmbdjv",
+                "status": "kdpfqnheckugxtgr",
+                "version": "rzkxzkwepfqgyyuy",
+                "vmManagerId": "jlhffwkpxwmxswdq",
+                "vmManagerName": "jbztrtbbyboxwkvp",
+                "vmManagerType": "njwtwfpnflppfawm"
+            },
+            {
+                "associatedOn": "ynjoppdskduaxqkj",
+                "capabilityList": [
+                    "dbvvxfguwhctlqgd"
+                ],
+                "connectorId": "msckcajywucyxikn",
+                "ipAddress": "fxsgbacjpemewjcs",
+                "macAddress": "rtipsmjabtbvmfft",
+                "status": "xnnbhwnfzffvepjl",
+                "version": "ptohcrtryrkcggos",
+                "vmManagerId": "augnqghhzbocgigp",
+                "vmManagerName": "jvxipavjbwomjsyr",
+                "vmManagerType": "timpfocbobqdgcbn"
+            },
+            {
+                "associatedOn": "vhfysbjfzrtnhrdq",
+                "capabilityList": [
+                    "kuwpkaiqlbhcbsnd"
+                ],
+                "connectorId": "jvutunrhcdhztqop",
+                "ipAddress": "ivanoivtjydgbqlj",
+                "macAddress": "qcetanbuahyujpql",
+                "status": "lnanohhufowaxeui",
+                "version": "agoswyzubsonxdux",
+                "vmManagerId": "rqqdelkyqbrdnrqe",
+                "vmManagerName": "zroixvatlwbznfhu",
+                "vmManagerType": "fafwitkdkqveentk"
+            },
+            {
+                "associatedOn": "zcngidfytggdohpn",
+                "capabilityList": [
+                    "lhuwilmrjnmnknva"
+                ],
+                "connectorId": "vijwmsxiuksxlqxx",
+                "ipAddress": "gqlgeinhkhmlrpxz",
+                "macAddress": "pjdikfcyzobgkxar",
+                "status": "ivyobepdmmlzzwio",
+                "version": "ieotldwikrrvskdf",
+                "vmManagerId": "lrdtaqnjtapszvrc",
+                "vmManagerName": "enxqnjzmpvxhxxrv",
+                "vmManagerType": "ugkdnyitwazyzdwv"
+            }
+        ],
+        "result_key": "connectorList"
+    },
+    "meta": {
+        "start": 1711116639.859729,
+        "end": 1711116648.12283,
+        "duration": 8.263105869293213,
+        "service": "sms",
+        "type": null
+    }
+}

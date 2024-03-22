@@ -1,0 +1,37 @@
+{
+    "input": {
+        "template": {
+            "NextMarker": "",
+            "Limit": 0
+        },
+        "required": [],
+        "md5": "c73edf45b1374dc40afbfb6e5664028f",
+        "boto_command": "list_regex_match_sets",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": "NextMarker",
+        "required": [],
+        "md5": "bda6ef6d23e6281316d479a964be62c4",
+        "randomized": [
+            "nvwqrjwqcibjhnjq",
+            "hzyawcztofhpdhzi",
+            "tufkziivpweyfgxt",
+            "oyuopnkpfpxtfzns",
+            "vvzjxxkjuiucfuwe",
+            "gkxqnpzrrxmsxyvz",
+            "sbypoeclgsmfdxem",
+            "eqkdscqkwyxyaylw",
+            "rxaxuleyyasqcusw",
+            "mwzazdgdolilehwv"
+        ],
+        "result_key": "NextMarker"
+    },
+    "meta": {
+        "start": 1711116759.774595,
+        "end": 1711116767.225893,
+        "duration": 7.451307058334351,
+        "service": "waf",
+        "type": "regex_match_sets"
+    }
+}

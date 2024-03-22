@@ -1,0 +1,360 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": "",
+            "AccessPointId": "",
+            "FileSystemId": ""
+        },
+        "required": [],
+        "md5": "916149889eb844cd23bfa54beedd7ef2",
+        "boto_command": "describe_access_points",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "ClientToken": "ClientToken",
+                "Name": "Name",
+                "Tags": [
+                    {
+                        "Key": "Key",
+                        "Value": "Value"
+                    }
+                ],
+                "AccessPointId": "AccessPointId",
+                "AccessPointArn": "AccessPointArn",
+                "FileSystemId": "FileSystemId",
+                "PosixUser": {
+                    "Uid": 0,
+                    "Gid": 0,
+                    "SecondaryGids": [
+                        0
+                    ]
+                },
+                "RootDirectory": {
+                    "Path": "Path",
+                    "CreationInfo": {
+                        "OwnerUid": 0,
+                        "OwnerGid": 0,
+                        "Permissions": "Permissions"
+                    }
+                },
+                "OwnerId": "OwnerId",
+                "LifeCycleState": "LifeCycleState"
+            }
+        ],
+        "required": [],
+        "md5": "c82e8743a5386414756727b3c5320e9e",
+        "randomized": [
+            {
+                "AccessPointArn": "xtgtfsojwsjqtrth",
+                "AccessPointId": "fcvkzcybnougkbcp",
+                "ClientToken": "qldicblvmquigifz",
+                "FileSystemId": "ahxepeodxeolwdfz",
+                "LifeCycleState": "utamenlqpsbzqcqy",
+                "Name": "eqcnyaquubempdkb",
+                "OwnerId": "bqosusemiwdgnwlz",
+                "PosixUser": {
+                    "Gid": 0,
+                    "SecondaryGids": [
+                        0
+                    ],
+                    "Uid": 0
+                },
+                "RootDirectory": {
+                    "CreationInfo": {
+                        "OwnerGid": 0,
+                        "OwnerUid": 0,
+                        "Permissions": "hxlxlbaminypdght"
+                    },
+                    "Path": "fasdkhznbzudktgq"
+                },
+                "Tags": [
+                    {
+                        "Key": "pqwdfrebpugrpuyc",
+                        "Value": "xpnyequidntnywut"
+                    }
+                ]
+            },
+            {
+                "AccessPointArn": "xmkzqjnwkejhwafx",
+                "AccessPointId": "ekongingskbitagf",
+                "ClientToken": "jcjioaazyuzuzrvy",
+                "FileSystemId": "mprqsaatfplqhnnz",
+                "LifeCycleState": "pjqcbvamfmbkjwdl",
+                "Name": "jfvvhowrtawgzhzj",
+                "OwnerId": "nqbqppgrqfpzotus",
+                "PosixUser": {
+                    "Gid": 0,
+                    "SecondaryGids": [
+                        0
+                    ],
+                    "Uid": 0
+                },
+                "RootDirectory": {
+                    "CreationInfo": {
+                        "OwnerGid": 0,
+                        "OwnerUid": 0,
+                        "Permissions": "oksjaarxjxxcqood"
+                    },
+                    "Path": "mlsmhbkhqqyfxibe"
+                },
+                "Tags": [
+                    {
+                        "Key": "npcuswtmofqjplvq",
+                        "Value": "kcbegwwucdlsqrat"
+                    }
+                ]
+            },
+            {
+                "AccessPointArn": "dkybiwmfdxdkncap",
+                "AccessPointId": "kwqncsfqwnkpvxjq",
+                "ClientToken": "vdicmsjlzzlgooxm",
+                "FileSystemId": "clwznbmbzogzjpsv",
+                "LifeCycleState": "aokupkviiyotykkv",
+                "Name": "cqfdvdlvifpsjozu",
+                "OwnerId": "wcdknrryxelcqjcl",
+                "PosixUser": {
+                    "Gid": 0,
+                    "SecondaryGids": [
+                        0
+                    ],
+                    "Uid": 0
+                },
+                "RootDirectory": {
+                    "CreationInfo": {
+                        "OwnerGid": 0,
+                        "OwnerUid": 0,
+                        "Permissions": "irrdcdmdnuywaaoz"
+                    },
+                    "Path": "rsbrvbzfgzwexhyu"
+                },
+                "Tags": [
+                    {
+                        "Key": "lmlntdfnlmjespck",
+                        "Value": "lwreauwzknzrgotq"
+                    }
+                ]
+            },
+            {
+                "AccessPointArn": "lnmeutdrtjecimoa",
+                "AccessPointId": "wvljwjzggignpjcb",
+                "ClientToken": "zdmtluyfdhapxmzm",
+                "FileSystemId": "ckabetzycyrnkmor",
+                "LifeCycleState": "wzewvbvsgslxrprf",
+                "Name": "bgpvxznrqofmhjfh",
+                "OwnerId": "ndguwunpdicfjiwc",
+                "PosixUser": {
+                    "Gid": 0,
+                    "SecondaryGids": [
+                        0
+                    ],
+                    "Uid": 0
+                },
+                "RootDirectory": {
+                    "CreationInfo": {
+                        "OwnerGid": 0,
+                        "OwnerUid": 0,
+                        "Permissions": "qbmnwqafnldgzpsh"
+                    },
+                    "Path": "rmoqfsvxqurdtuty"
+                },
+                "Tags": [
+                    {
+                        "Key": "vhdeklvnhbzanfxd",
+                        "Value": "nsknkxynbwhyeczs"
+                    }
+                ]
+            },
+            {
+                "AccessPointArn": "hgsleqemzqpnmfuo",
+                "AccessPointId": "trfoeiberyibetww",
+                "ClientToken": "gpruxpastiyaqfhy",
+                "FileSystemId": "ybsnneddakrefpvm",
+                "LifeCycleState": "ivmnalawgbiikzis",
+                "Name": "obwlymvppkxadvmp",
+                "OwnerId": "euvnwjkvphrhhaxf",
+                "PosixUser": {
+                    "Gid": 0,
+                    "SecondaryGids": [
+                        0
+                    ],
+                    "Uid": 0
+                },
+                "RootDirectory": {
+                    "CreationInfo": {
+                        "OwnerGid": 0,
+                        "OwnerUid": 0,
+                        "Permissions": "yrzogshhpfbjzgls"
+                    },
+                    "Path": "aicolirkhxfpquvg"
+                },
+                "Tags": [
+                    {
+                        "Key": "gmcsykngxceaypkq",
+                        "Value": "wiarjocoasnbwece"
+                    }
+                ]
+            },
+            {
+                "AccessPointArn": "alzloihehmdvflxb",
+                "AccessPointId": "nnqlhfpjwzphnyol",
+                "ClientToken": "debathggxtwpcwmp",
+                "FileSystemId": "aekkoxfldvtxszol",
+                "LifeCycleState": "kqwqvrkrzocpjthp",
+                "Name": "gukafddzkggplrla",
+                "OwnerId": "rrqahwasdosyelzb",
+                "PosixUser": {
+                    "Gid": 0,
+                    "SecondaryGids": [
+                        0
+                    ],
+                    "Uid": 0
+                },
+                "RootDirectory": {
+                    "CreationInfo": {
+                        "OwnerGid": 0,
+                        "OwnerUid": 0,
+                        "Permissions": "llctalbgcwnbbodj"
+                    },
+                    "Path": "orckvtfqrxcennsh"
+                },
+                "Tags": [
+                    {
+                        "Key": "jcnecmnunlpuymkl",
+                        "Value": "mlzwcxxglgazvygb"
+                    }
+                ]
+            },
+            {
+                "AccessPointArn": "gmtmtkiqyzclqvsf",
+                "AccessPointId": "umrmzyzyylzspuld",
+                "ClientToken": "krpwtlfaedoqwkdb",
+                "FileSystemId": "ggvpvvszlahnwzqx",
+                "LifeCycleState": "qrncqagmdshowhlb",
+                "Name": "qhywhqtcoavluqvr",
+                "OwnerId": "znucqrqndawqjnow",
+                "PosixUser": {
+                    "Gid": 0,
+                    "SecondaryGids": [
+                        0
+                    ],
+                    "Uid": 0
+                },
+                "RootDirectory": {
+                    "CreationInfo": {
+                        "OwnerGid": 0,
+                        "OwnerUid": 0,
+                        "Permissions": "nxyyneuupzzmzzoo"
+                    },
+                    "Path": "xgezrdvctyfnbzkh"
+                },
+                "Tags": [
+                    {
+                        "Key": "ptqxpruioidjrgxt",
+                        "Value": "daliawhaeqdiwyfy"
+                    }
+                ]
+            },
+            {
+                "AccessPointArn": "jlqgvmorasscoybu",
+                "AccessPointId": "zvijpdzgviosxxav",
+                "ClientToken": "ydvaasoadajyoozx",
+                "FileSystemId": "wepwcvitfjkcpere",
+                "LifeCycleState": "ykzlpxgszkunvszf",
+                "Name": "hhzvymjnhoofywyq",
+                "OwnerId": "bjocufhaveozyuct",
+                "PosixUser": {
+                    "Gid": 0,
+                    "SecondaryGids": [
+                        0
+                    ],
+                    "Uid": 0
+                },
+                "RootDirectory": {
+                    "CreationInfo": {
+                        "OwnerGid": 0,
+                        "OwnerUid": 0,
+                        "Permissions": "eyplemvavpyeaxtu"
+                    },
+                    "Path": "qhtzowmpuqlafxcf"
+                },
+                "Tags": [
+                    {
+                        "Key": "odxcqnddnfkappvx",
+                        "Value": "jvatcffykfrtxwdl"
+                    }
+                ]
+            },
+            {
+                "AccessPointArn": "mecievpbxitqxxgh",
+                "AccessPointId": "bbnsxqwnfwqvswdx",
+                "ClientToken": "uwswxmyzkwoikqqf",
+                "FileSystemId": "yndjgdgnbkwxclor",
+                "LifeCycleState": "azxthmsgeifdaemv",
+                "Name": "beheemyxyemfelma",
+                "OwnerId": "sngeellfobpovdug",
+                "PosixUser": {
+                    "Gid": 0,
+                    "SecondaryGids": [
+                        0
+                    ],
+                    "Uid": 0
+                },
+                "RootDirectory": {
+                    "CreationInfo": {
+                        "OwnerGid": 0,
+                        "OwnerUid": 0,
+                        "Permissions": "meneinjiddyuylqf"
+                    },
+                    "Path": "vghwcywkumprndsf"
+                },
+                "Tags": [
+                    {
+                        "Key": "kcnethmehewpvkxw",
+                        "Value": "kucwlpzbrosnddor"
+                    }
+                ]
+            },
+            {
+                "AccessPointArn": "ekcrbhtldfbiuhno",
+                "AccessPointId": "tkisfsedqwttweat",
+                "ClientToken": "dnkxngxljkplvyml",
+                "FileSystemId": "owvcvykubzyfqecm",
+                "LifeCycleState": "wpujjfykaoumvbdw",
+                "Name": "kcwmaegpobvvkcgb",
+                "OwnerId": "xbcmwbpdukqfmcar",
+                "PosixUser": {
+                    "Gid": 0,
+                    "SecondaryGids": [
+                        0
+                    ],
+                    "Uid": 0
+                },
+                "RootDirectory": {
+                    "CreationInfo": {
+                        "OwnerGid": 0,
+                        "OwnerUid": 0,
+                        "Permissions": "dzzrwmeymqfdobob"
+                    },
+                    "Path": "ssufxynbuuazsrqh"
+                },
+                "Tags": [
+                    {
+                        "Key": "fdelrsdsyytefbih",
+                        "Value": "yqkhmhfexqjtkfsv"
+                    }
+                ]
+            }
+        ],
+        "result_key": "AccessPoints"
+    },
+    "meta": {
+        "start": 1711115695.254626,
+        "end": 1711115701.665273,
+        "duration": 6.41065788269043,
+        "service": "efs",
+        "type": "access_points"
+    }
+}

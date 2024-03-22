@@ -1,0 +1,228 @@
+{
+    "input": {
+        "template": {
+            "filterByEncoderConfigurationArn": "",
+            "filterByStageArn": "",
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "required": [],
+        "md5": "1a195c094edcca50c506961e1cd2762d",
+        "boto_command": "list_compositions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "arn": "arn",
+                "destinations": [
+                    {
+                        "endTime": "1970-01-01T00:00:00",
+                        "id": "id",
+                        "startTime": "1970-01-01T00:00:00",
+                        "state": "state"
+                    }
+                ],
+                "endTime": "1970-01-01T00:00:00",
+                "stageArn": "stageArn",
+                "startTime": "1970-01-01T00:00:00",
+                "state": "state",
+                "tags": {
+                    "KeyName": ""
+                }
+            }
+        ],
+        "required": [],
+        "md5": "df10e217646f74f2782c03f57a3d905e",
+        "randomized": [
+            {
+                "arn": "fjjrsocyjuzcykez",
+                "destinations": [
+                    {
+                        "endTime": "iperipsoylawwuba",
+                        "id": "azyxzxcziqtfkmst",
+                        "startTime": "ixynnmvtvrvwbvkh",
+                        "state": "gnvsdiiexqffhwne"
+                    }
+                ],
+                "endTime": "druhjwyetumupqmo",
+                "stageArn": "yyzgrrfqqkidakla",
+                "startTime": "nmvtfzkvrfnkaivg",
+                "state": "dylywrexmvrkacic",
+                "tags": {
+                    "KeyName": "sdskqaaqbdusjiif"
+                }
+            },
+            {
+                "arn": "tnqnqgcliqowxnev",
+                "destinations": [
+                    {
+                        "endTime": "sgtbzhztbuisyqdk",
+                        "id": "rjgquifbvurtveyv",
+                        "startTime": "klkqaksfprxqfzhd",
+                        "state": "yddpqqfapgjlcdyh"
+                    }
+                ],
+                "endTime": "femgsvzjaewrnpil",
+                "stageArn": "lpqwjmvcuykymwss",
+                "startTime": "zutssquaxemeugrc",
+                "state": "cgzbabrqvsuqsjrb",
+                "tags": {
+                    "KeyName": "bekwdbcnahwdinnl"
+                }
+            },
+            {
+                "arn": "minbzwxaeulvnmfv",
+                "destinations": [
+                    {
+                        "endTime": "ghhrdnkktvxhxawd",
+                        "id": "rbmglsbnjuigoogm",
+                        "startTime": "slxhlgabwztnxyuw",
+                        "state": "ojkdptbctpmgauck"
+                    }
+                ],
+                "endTime": "hupktsecyeidbdmb",
+                "stageArn": "gcsmesfacvtydsnb",
+                "startTime": "wbujcuvkldaonhue",
+                "state": "ohfgnejapcthoklo",
+                "tags": {
+                    "KeyName": "mwemnsmhdadluyxh"
+                }
+            },
+            {
+                "arn": "ichebnqsmgjggyhr",
+                "destinations": [
+                    {
+                        "endTime": "xtskcwsbkqapvvsp",
+                        "id": "iheixjmxjfmoexwo",
+                        "startTime": "mlakqdgshvtspfjt",
+                        "state": "hbkrwhcbemdjysix"
+                    }
+                ],
+                "endTime": "gwhimolewkerseow",
+                "stageArn": "mvgigwlqtiepcbpn",
+                "startTime": "exelprgawrchmnhl",
+                "state": "djemlengygjnjelx",
+                "tags": {
+                    "KeyName": "fmxybaczufprddbg"
+                }
+            },
+            {
+                "arn": "jmqzrvafqfpokhpn",
+                "destinations": [
+                    {
+                        "endTime": "uosodfdngmupacgz",
+                        "id": "cexzulxxppuhksxl",
+                        "startTime": "fwrbwavwiptiklnt",
+                        "state": "nggosprwewgejvrr"
+                    }
+                ],
+                "endTime": "mqnpivoopjowrsra",
+                "stageArn": "mxivpjjcdxwjwcmg",
+                "startTime": "qsbghobazqeqhmib",
+                "state": "miyysiyqqmbzkqww",
+                "tags": {
+                    "KeyName": "gusrmhbseszbiung"
+                }
+            },
+            {
+                "arn": "hkxxozdlohvnmxjl",
+                "destinations": [
+                    {
+                        "endTime": "fylxfpjhfwyhfyxt",
+                        "id": "lulkdzatdkidhmyp",
+                        "startTime": "wyimqswpgpnuhbov",
+                        "state": "wtwluiwlycrbxsgc"
+                    }
+                ],
+                "endTime": "laucigfaabtamdvf",
+                "stageArn": "dimumbhflpbodldy",
+                "startTime": "gzgexavchopktyny",
+                "state": "hkfgdgldwodxhleh",
+                "tags": {
+                    "KeyName": "jqyvordochrchwdq"
+                }
+            },
+            {
+                "arn": "tiosqxxffubwnbyo",
+                "destinations": [
+                    {
+                        "endTime": "vfqdvkpfsakgjuft",
+                        "id": "oieggynhgkqpszki",
+                        "startTime": "ldduhontuxtgqzxt",
+                        "state": "ymmpyxndkrnbawfx"
+                    }
+                ],
+                "endTime": "pxlzvwsjqxnbenvw",
+                "stageArn": "grhugfkpltaenxuu",
+                "startTime": "lqqfhxjncmvxiddr",
+                "state": "xisgibhktoptnbik",
+                "tags": {
+                    "KeyName": "gyddkjdjqhvjjilj"
+                }
+            },
+            {
+                "arn": "bkilhltlroqjtsjf",
+                "destinations": [
+                    {
+                        "endTime": "igjqjanrihuycbnd",
+                        "id": "fyswrfytqhrjgdji",
+                        "startTime": "myokxdxremeifmpg",
+                        "state": "luazmxleryhitjyo"
+                    }
+                ],
+                "endTime": "kposxefhnrgnxrmv",
+                "stageArn": "ntfzrvuphxbjmejg",
+                "startTime": "gtafbkgvqnmpaubp",
+                "state": "lxakkdegdenrphnd",
+                "tags": {
+                    "KeyName": "medicduyazuyhags"
+                }
+            },
+            {
+                "arn": "zucxynosoazsyfoc",
+                "destinations": [
+                    {
+                        "endTime": "ynmpgvoctogkjtdj",
+                        "id": "kpgvulfgevoydvrd",
+                        "startTime": "lycqhgylwiytxmpx",
+                        "state": "ptcawcfpkcfupbkk"
+                    }
+                ],
+                "endTime": "bawchqqpafkrrlxa",
+                "stageArn": "zqtkcxpipywvifma",
+                "startTime": "enotfslslxqwgjlo",
+                "state": "sjeavpnlucezfdvj",
+                "tags": {
+                    "KeyName": "qbynjuspmrtcnybe"
+                }
+            },
+            {
+                "arn": "hebgogxxzlmxvkxc",
+                "destinations": [
+                    {
+                        "endTime": "cwxiuergchctbvgd",
+                        "id": "vyhwufcsvymjguur",
+                        "startTime": "jueivuyknsvahega",
+                        "state": "spobuapayxtqbfku"
+                    }
+                ],
+                "endTime": "dhkmojwolubowitr",
+                "stageArn": "unmexfkgvtwzfydn",
+                "startTime": "euqcpgzgnwxxsowm",
+                "state": "olfilrulrmrbbnow",
+                "tags": {
+                    "KeyName": "kxzchzwxemzvylem"
+                }
+            }
+        ],
+        "result_key": "compositions"
+    },
+    "meta": {
+        "start": 1711116010.130555,
+        "end": 1711116018.328381,
+        "duration": 8.19783616065979,
+        "service": "ivs-realtime",
+        "type": "compositions"
+    }
+}

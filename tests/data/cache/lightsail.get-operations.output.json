@@ -1,0 +1,214 @@
+{
+    "input": {
+        "template": {
+            "pageToken": ""
+        },
+        "required": [],
+        "md5": "cd47ffa47286bc2470b22f744f7629ff",
+        "boto_command": "get_operations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "id": "id",
+                "resourceName": "resourceName",
+                "resourceType": "resourceType",
+                "createdAt": "1970-01-01T00:00:00",
+                "location": {
+                    "availabilityZone": "availabilityZone",
+                    "regionName": "regionName"
+                },
+                "isTerminal": true,
+                "operationDetails": "operationDetails",
+                "operationType": "operationType",
+                "status": "status",
+                "statusChangedAt": "1970-01-01T00:00:00",
+                "errorCode": "errorCode",
+                "errorDetails": "errorDetails"
+            }
+        ],
+        "required": [],
+        "md5": "37504e9567c90ce85e4a047aa0b4612b",
+        "randomized": [
+            {
+                "createdAt": "kfbbiqekpdylmsbm",
+                "errorCode": "nuggfuogwkfqhcvi",
+                "errorDetails": "xearxuojuuzjgbyx",
+                "id": "wiyopyspkjrqrkkv",
+                "isTerminal": true,
+                "location": {
+                    "availabilityZone": "fmsekwvlctlnsggh",
+                    "regionName": "hbquinaonchoccis"
+                },
+                "operationDetails": "cpjxktwightsaqgh",
+                "operationType": "hhcagrpjgckfktoe",
+                "resourceName": "pjjzoytdgeauexmv",
+                "resourceType": "sqebjsxzawkzhcsc",
+                "status": "enezpbxechvancat",
+                "statusChangedAt": "xluzadrouttqmytv"
+            },
+            {
+                "createdAt": "bhzkpmvjhvkhaewb",
+                "errorCode": "ywcjorahopfxfhkm",
+                "errorDetails": "utkxwmicieijzgft",
+                "id": "lpnmqubibxpkysgr",
+                "isTerminal": true,
+                "location": {
+                    "availabilityZone": "lkguskbdixjftzix",
+                    "regionName": "hpntxbforyvruuvw"
+                },
+                "operationDetails": "tpcoxdrmbinyuknf",
+                "operationType": "ofmfmifxorrdhgap",
+                "resourceName": "fbqunfqbghvdqxbs",
+                "resourceType": "efljvcogijzlmnbs",
+                "status": "rpjmwbqsebdhqrok",
+                "statusChangedAt": "eqvtjgpqeoahbrff"
+            },
+            {
+                "createdAt": "gyxeiswpzblefdrv",
+                "errorCode": "hezzajvuiokxwnfv",
+                "errorDetails": "ukrrpypkixpguisa",
+                "id": "mhmaimkfxmuspzrq",
+                "isTerminal": true,
+                "location": {
+                    "availabilityZone": "xkjtrvtpzturdmvq",
+                    "regionName": "tcvsnvcujztgaenv"
+                },
+                "operationDetails": "osnxhhtjdilefbgm",
+                "operationType": "eophrliztwsyerjz",
+                "resourceName": "wrjjpujvenoeyxtv",
+                "resourceType": "nnyhbilbopdyzifv",
+                "status": "sgxzlpxxdpyazjds",
+                "statusChangedAt": "ryjcmndpmjvntxnf"
+            },
+            {
+                "createdAt": "xqtxkzjnyyvbkzgb",
+                "errorCode": "iktqbehxixbesmpw",
+                "errorDetails": "qdfgfbfunuijahwu",
+                "id": "zmuktpmxvkwtkdmy",
+                "isTerminal": true,
+                "location": {
+                    "availabilityZone": "uxqhshpfpyydicxi",
+                    "regionName": "eqtfifyxstsghecu"
+                },
+                "operationDetails": "rzvhnexgzuyqqkzx",
+                "operationType": "jyzlqvvwxgscneyy",
+                "resourceName": "qfpoxpxziwrtyvsn",
+                "resourceType": "cmnxwexjtgxdbubz",
+                "status": "gqcxbclvtwaelxvi",
+                "statusChangedAt": "nydsegkxjtmplnxj"
+            },
+            {
+                "createdAt": "atbytlsklyrbnlvq",
+                "errorCode": "nudosofxpwetvfiu",
+                "errorDetails": "xqwtrcdtwhdrvlvu",
+                "id": "jekexlicvpsbaeto",
+                "isTerminal": true,
+                "location": {
+                    "availabilityZone": "huiqurrlzyxpxfsw",
+                    "regionName": "tivqhotdsqtkmifo"
+                },
+                "operationDetails": "yacuofidoznxpnvb",
+                "operationType": "cgbrnvhfiuxmfjov",
+                "resourceName": "ftzomaturmfkbuqh",
+                "resourceType": "hgdwyfqvhspktwpk",
+                "status": "knmwnryzwhcbmgcc",
+                "statusChangedAt": "njqbxmeddgavyioh"
+            },
+            {
+                "createdAt": "odrodqrnkzagdqvl",
+                "errorCode": "mdfwvmiudwnfbhbl",
+                "errorDetails": "hmpuyaqvztiuvahd",
+                "id": "ooxijmnnlrrthhvu",
+                "isTerminal": true,
+                "location": {
+                    "availabilityZone": "zyrdtqggcupwmwox",
+                    "regionName": "hoabmbuvirynjaix"
+                },
+                "operationDetails": "jnxgauneevurylna",
+                "operationType": "quajxfugnrnhsavo",
+                "resourceName": "wvyosopccdkvdgbx",
+                "resourceType": "whnzcxbxvdyiepsc",
+                "status": "agbrubszmbqcxzbq",
+                "statusChangedAt": "xbasdlwzugfdbkih"
+            },
+            {
+                "createdAt": "sayafygiwhcupmmv",
+                "errorCode": "mbjuyjynxxtzpqim",
+                "errorDetails": "pwdvorzbouvgibxz",
+                "id": "btsmdzsxbjnwxkdl",
+                "isTerminal": true,
+                "location": {
+                    "availabilityZone": "ubghskxlyarvexsq",
+                    "regionName": "fbhslidmutdzllcf"
+                },
+                "operationDetails": "padhlqrpqkycjrke",
+                "operationType": "qctedswrmhzqatgk",
+                "resourceName": "ravtuqahoydpogky",
+                "resourceType": "ubuenqadorwgehko",
+                "status": "lcngqnftqaumjcwl",
+                "statusChangedAt": "cdxtewrmtefpragf"
+            },
+            {
+                "createdAt": "fdocthedvgdhsrda",
+                "errorCode": "kgxkhqhhlmupfzbv",
+                "errorDetails": "dnjcsxufrnjmhawe",
+                "id": "dpgkheyyrephqpyg",
+                "isTerminal": true,
+                "location": {
+                    "availabilityZone": "fcfgkxemwlfncumn",
+                    "regionName": "xshmawqfnncluamb"
+                },
+                "operationDetails": "rpvolajtvyqzaynn",
+                "operationType": "giyybzbnqsupitor",
+                "resourceName": "bplyaujlxlnosrbr",
+                "resourceType": "fzakkftmteodwnyp",
+                "status": "xqhlexulpsmfpabs",
+                "statusChangedAt": "acbdeenhrjwueuxr"
+            },
+            {
+                "createdAt": "bguglhrdzdlxnikb",
+                "errorCode": "mhmpovzbbyrlujnw",
+                "errorDetails": "cswvfttwktkqvygd",
+                "id": "bfclerbcvrewjags",
+                "isTerminal": true,
+                "location": {
+                    "availabilityZone": "ufzjriveqxcewtco",
+                    "regionName": "spxcqmlerrflattu"
+                },
+                "operationDetails": "ybporgfxwrtexmsa",
+                "operationType": "gwjqfeilzbxkxqgw",
+                "resourceName": "arfmmcqsnphdypxl",
+                "resourceType": "osefnlqchshxshoy",
+                "status": "knmzqevdxgaodagi",
+                "statusChangedAt": "qifonboayiwpleso"
+            },
+            {
+                "createdAt": "rldfvysldyfdnilr",
+                "errorCode": "rjaehuzbtygpxzqs",
+                "errorDetails": "haefrhdixsbwxonk",
+                "id": "uogkatuvfxmuqnax",
+                "isTerminal": true,
+                "location": {
+                    "availabilityZone": "efnzsozrexsuvrci",
+                    "regionName": "cahzabvejijrixeb"
+                },
+                "operationDetails": "tdrabvtvlouewuwl",
+                "operationType": "nsddwsgdmowhpezo",
+                "resourceName": "gsvjrsxjgsbtmutz",
+                "resourceType": "psfxtokiaznwfysn",
+                "status": "blrcfamnxdqpduby",
+                "statusChangedAt": "pfrvtlnompvlnicf"
+            }
+        ],
+        "result_key": "operations"
+    },
+    "meta": {
+        "start": 1711116107.015823,
+        "end": 1711116113.931186,
+        "duration": 6.915373086929321,
+        "service": "lightsail",
+        "type": null
+    }
+}

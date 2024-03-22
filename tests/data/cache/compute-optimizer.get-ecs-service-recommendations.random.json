@@ -1,0 +1,842 @@
+[
+    {
+        "accountId": "mdbxnxdnxaktygui",
+        "currentPerformanceRisk": "rropktpluipxfuwn",
+        "currentServiceConfiguration": {
+            "autoScalingConfiguration": "suozkjoukvjntxhs",
+            "containerConfigurations": [
+                {
+                    "containerName": "wiavmwxrlcbgflhg",
+                    "cpu": 0,
+                    "memorySizeConfiguration": {
+                        "memory": 0,
+                        "memoryReservation": 0
+                    }
+                }
+            ],
+            "cpu": 0,
+            "memory": 0,
+            "taskDefinitionArn": "slqbvdbfxijpkikt"
+        },
+        "effectiveRecommendationPreferences": {
+            "savingsEstimationMode": {
+                "source": "gxqjpedslzeobseg"
+            }
+        },
+        "finding": "aolavgxljmwkkkum",
+        "findingReasonCodes": [
+            "xfhmqyydjmvciswo"
+        ],
+        "lastRefreshTimestamp": "cyjihpyddaormkob",
+        "launchType": "rvbhmyaojlvpwfsh",
+        "lookbackPeriodInDays": 0.0,
+        "serviceArn": "pndnqgdfdpgefsqk",
+        "serviceRecommendationOptions": [
+            {
+                "containerRecommendations": [
+                    {
+                        "containerName": "htudmyddnzluxzgp",
+                        "cpu": 0,
+                        "memorySizeConfiguration": {
+                            "memory": 0,
+                            "memoryReservation": 0
+                        }
+                    }
+                ],
+                "cpu": 0,
+                "memory": 0,
+                "projectedUtilizationMetrics": [
+                    {
+                        "lowerBoundValue": 0.0,
+                        "name": "gjrzabcrbuwlamvl",
+                        "statistic": "eldhimsledcddkwo",
+                        "upperBoundValue": 0.0
+                    }
+                ],
+                "savingsOpportunity": {
+                    "estimatedMonthlySavings": {
+                        "currency": "utotcblcqtbdakyb",
+                        "value": 0.0
+                    },
+                    "savingsOpportunityPercentage": 0.0
+                },
+                "savingsOpportunityAfterDiscounts": {
+                    "estimatedMonthlySavings": {
+                        "currency": "pfqiemnlpknqgitc",
+                        "value": 0.0
+                    },
+                    "savingsOpportunityPercentage": 0.0
+                }
+            }
+        ],
+        "tags": [
+            {
+                "key": "pabcgipqzvunjivc",
+                "value": "pkkrwymxwlhzzbpg"
+            }
+        ],
+        "utilizationMetrics": [
+            {
+                "name": "hcfpemgbnvigloij",
+                "statistic": "ueschrhonkjibmui",
+                "value": 0.0
+            }
+        ]
+    },
+    {
+        "accountId": "dvdmozffvtgiesjp",
+        "currentPerformanceRisk": "dbncyntovcerpjma",
+        "currentServiceConfiguration": {
+            "autoScalingConfiguration": "pazqxycdnpvtpvin",
+            "containerConfigurations": [
+                {
+                    "containerName": "apysphznlybrjism",
+                    "cpu": 0,
+                    "memorySizeConfiguration": {
+                        "memory": 0,
+                        "memoryReservation": 0
+                    }
+                }
+            ],
+            "cpu": 0,
+            "memory": 0,
+            "taskDefinitionArn": "wehuqgfsbzhigehs"
+        },
+        "effectiveRecommendationPreferences": {
+            "savingsEstimationMode": {
+                "source": "fptkotnuxvildxef"
+            }
+        },
+        "finding": "vdobgtvapoauaglt",
+        "findingReasonCodes": [
+            "iawonkqxmboqpnxj"
+        ],
+        "lastRefreshTimestamp": "thkdhqvxczgutmcd",
+        "launchType": "crzmxmlqhftqfrtp",
+        "lookbackPeriodInDays": 0.0,
+        "serviceArn": "ncmhylxjflgvbdrk",
+        "serviceRecommendationOptions": [
+            {
+                "containerRecommendations": [
+                    {
+                        "containerName": "xjvzcfmzjfnatjhb",
+                        "cpu": 0,
+                        "memorySizeConfiguration": {
+                            "memory": 0,
+                            "memoryReservation": 0
+                        }
+                    }
+                ],
+                "cpu": 0,
+                "memory": 0,
+                "projectedUtilizationMetrics": [
+                    {
+                        "lowerBoundValue": 0.0,
+                        "name": "ctzgkrrxrxkbreah",
+                        "statistic": "emtpmwkmqsuqdbwm",
+                        "upperBoundValue": 0.0
+                    }
+                ],
+                "savingsOpportunity": {
+                    "estimatedMonthlySavings": {
+                        "currency": "okaagkaffanvbowm",
+                        "value": 0.0
+                    },
+                    "savingsOpportunityPercentage": 0.0
+                },
+                "savingsOpportunityAfterDiscounts": {
+                    "estimatedMonthlySavings": {
+                        "currency": "hpcgglffdugpyheq",
+                        "value": 0.0
+                    },
+                    "savingsOpportunityPercentage": 0.0
+                }
+            }
+        ],
+        "tags": [
+            {
+                "key": "fkpfgqjhchdarqqk",
+                "value": "kmlmmxobzfqfkudp"
+            }
+        ],
+        "utilizationMetrics": [
+            {
+                "name": "eqjppqvsftuaizqq",
+                "statistic": "lulyczzcxfcovrls",
+                "value": 0.0
+            }
+        ]
+    },
+    {
+        "accountId": "gkxxjarliqqqoluf",
+        "currentPerformanceRisk": "petwzldijqdjgdwt",
+        "currentServiceConfiguration": {
+            "autoScalingConfiguration": "httwvcukwfufuhey",
+            "containerConfigurations": [
+                {
+                    "containerName": "mmuragxksdxrgqza",
+                    "cpu": 0,
+                    "memorySizeConfiguration": {
+                        "memory": 0,
+                        "memoryReservation": 0
+                    }
+                }
+            ],
+            "cpu": 0,
+            "memory": 0,
+            "taskDefinitionArn": "ukphdecfphleopvg"
+        },
+        "effectiveRecommendationPreferences": {
+            "savingsEstimationMode": {
+                "source": "veogznotvmhnbghe"
+            }
+        },
+        "finding": "fumnvxibqpnbgeth",
+        "findingReasonCodes": [
+            "vhwjmalsbjjfmvzy"
+        ],
+        "lastRefreshTimestamp": "athxniziwglclfen",
+        "launchType": "hwmupxsymgtjqnuk",
+        "lookbackPeriodInDays": 0.0,
+        "serviceArn": "wscriefkgnwucqtr",
+        "serviceRecommendationOptions": [
+            {
+                "containerRecommendations": [
+                    {
+                        "containerName": "tttmuxmyrkxaxsvi",
+                        "cpu": 0,
+                        "memorySizeConfiguration": {
+                            "memory": 0,
+                            "memoryReservation": 0
+                        }
+                    }
+                ],
+                "cpu": 0,
+                "memory": 0,
+                "projectedUtilizationMetrics": [
+                    {
+                        "lowerBoundValue": 0.0,
+                        "name": "rjleoqhykwbukxqe",
+                        "statistic": "okpklcwssselwwke",
+                        "upperBoundValue": 0.0
+                    }
+                ],
+                "savingsOpportunity": {
+                    "estimatedMonthlySavings": {
+                        "currency": "ivcbsngqsliznpxk",
+                        "value": 0.0
+                    },
+                    "savingsOpportunityPercentage": 0.0
+                },
+                "savingsOpportunityAfterDiscounts": {
+                    "estimatedMonthlySavings": {
+                        "currency": "fswablddjrhcpgst",
+                        "value": 0.0
+                    },
+                    "savingsOpportunityPercentage": 0.0
+                }
+            }
+        ],
+        "tags": [
+            {
+                "key": "uteurjljffoculut",
+                "value": "ldampwtlykdhdftv"
+            }
+        ],
+        "utilizationMetrics": [
+            {
+                "name": "hbdxretqkhsybriw",
+                "statistic": "ctrbmuztxlmolttx",
+                "value": 0.0
+            }
+        ]
+    },
+    {
+        "accountId": "scpdvrbyglznwzhv",
+        "currentPerformanceRisk": "srdumxzgpafqinyg",
+        "currentServiceConfiguration": {
+            "autoScalingConfiguration": "zpzjvzzxbogdkslh",
+            "containerConfigurations": [
+                {
+                    "containerName": "usndwjoqqmlrfsej",
+                    "cpu": 0,
+                    "memorySizeConfiguration": {
+                        "memory": 0,
+                        "memoryReservation": 0
+                    }
+                }
+            ],
+            "cpu": 0,
+            "memory": 0,
+            "taskDefinitionArn": "rhaavjehcegxpeut"
+        },
+        "effectiveRecommendationPreferences": {
+            "savingsEstimationMode": {
+                "source": "sqdcavuxnlvwqmqt"
+            }
+        },
+        "finding": "yjutzvfruzzbfinh",
+        "findingReasonCodes": [
+            "emnqybfxhvgztuse"
+        ],
+        "lastRefreshTimestamp": "srvwqpsqtyrcnwld",
+        "launchType": "qwqblmzuuudfedhk",
+        "lookbackPeriodInDays": 0.0,
+        "serviceArn": "dlxcazxjepbvfvac",
+        "serviceRecommendationOptions": [
+            {
+                "containerRecommendations": [
+                    {
+                        "containerName": "mzuvntgcrcatjrmv",
+                        "cpu": 0,
+                        "memorySizeConfiguration": {
+                            "memory": 0,
+                            "memoryReservation": 0
+                        }
+                    }
+                ],
+                "cpu": 0,
+                "memory": 0,
+                "projectedUtilizationMetrics": [
+                    {
+                        "lowerBoundValue": 0.0,
+                        "name": "ckzttlpwxmeygkgl",
+                        "statistic": "ktkdjpymfnwcqztp",
+                        "upperBoundValue": 0.0
+                    }
+                ],
+                "savingsOpportunity": {
+                    "estimatedMonthlySavings": {
+                        "currency": "yxxvbjtlryphfypk",
+                        "value": 0.0
+                    },
+                    "savingsOpportunityPercentage": 0.0
+                },
+                "savingsOpportunityAfterDiscounts": {
+                    "estimatedMonthlySavings": {
+                        "currency": "rsjgtvpfekzltakz",
+                        "value": 0.0
+                    },
+                    "savingsOpportunityPercentage": 0.0
+                }
+            }
+        ],
+        "tags": [
+            {
+                "key": "mixeegteqcyejwkp",
+                "value": "zmsfykdubmpghqbu"
+            }
+        ],
+        "utilizationMetrics": [
+            {
+                "name": "cnuzuzzcsrvwbymw",
+                "statistic": "uksjqkytrdijqyib",
+                "value": 0.0
+            }
+        ]
+    },
+    {
+        "accountId": "kvhaeqovmshrwlnv",
+        "currentPerformanceRisk": "eblibxrlofumtycx",
+        "currentServiceConfiguration": {
+            "autoScalingConfiguration": "jyacholmikilvwln",
+            "containerConfigurations": [
+                {
+                    "containerName": "ppvntrvxmojahugj",
+                    "cpu": 0,
+                    "memorySizeConfiguration": {
+                        "memory": 0,
+                        "memoryReservation": 0
+                    }
+                }
+            ],
+            "cpu": 0,
+            "memory": 0,
+            "taskDefinitionArn": "oawkxcqybjnujiec"
+        },
+        "effectiveRecommendationPreferences": {
+            "savingsEstimationMode": {
+                "source": "uhbapoggvmjzwfti"
+            }
+        },
+        "finding": "ptxqvyogabrizjvh",
+        "findingReasonCodes": [
+            "boabbonmunljojqg"
+        ],
+        "lastRefreshTimestamp": "cuusjnrggjupfrhv",
+        "launchType": "lkdurneyauyxqzsl",
+        "lookbackPeriodInDays": 0.0,
+        "serviceArn": "omoegkpqexydyfbf",
+        "serviceRecommendationOptions": [
+            {
+                "containerRecommendations": [
+                    {
+                        "containerName": "wzyuicsmpbiankam",
+                        "cpu": 0,
+                        "memorySizeConfiguration": {
+                            "memory": 0,
+                            "memoryReservation": 0
+                        }
+                    }
+                ],
+                "cpu": 0,
+                "memory": 0,
+                "projectedUtilizationMetrics": [
+                    {
+                        "lowerBoundValue": 0.0,
+                        "name": "aqdluxqkwmoyxmmo",
+                        "statistic": "huvomqpicvtrwvgv",
+                        "upperBoundValue": 0.0
+                    }
+                ],
+                "savingsOpportunity": {
+                    "estimatedMonthlySavings": {
+                        "currency": "eslnvymvsinqmovc",
+                        "value": 0.0
+                    },
+                    "savingsOpportunityPercentage": 0.0
+                },
+                "savingsOpportunityAfterDiscounts": {
+                    "estimatedMonthlySavings": {
+                        "currency": "netblzcgpimdlriq",
+                        "value": 0.0
+                    },
+                    "savingsOpportunityPercentage": 0.0
+                }
+            }
+        ],
+        "tags": [
+            {
+                "key": "uvifqvgxfpxjupin",
+                "value": "dlmfqgoqhjvxwrgj"
+            }
+        ],
+        "utilizationMetrics": [
+            {
+                "name": "ksacviwqepnopmey",
+                "statistic": "tncxxymmxgjrkwkz",
+                "value": 0.0
+            }
+        ]
+    },
+    {
+        "accountId": "ebnhjzeuhssopxpg",
+        "currentPerformanceRisk": "nwkgytwltesiiajj",
+        "currentServiceConfiguration": {
+            "autoScalingConfiguration": "cqbpzkwditqbyaer",
+            "containerConfigurations": [
+                {
+                    "containerName": "jiqlbtpwswbryfrp",
+                    "cpu": 0,
+                    "memorySizeConfiguration": {
+                        "memory": 0,
+                        "memoryReservation": 0
+                    }
+                }
+            ],
+            "cpu": 0,
+            "memory": 0,
+            "taskDefinitionArn": "hliexuhomlruduuk"
+        },
+        "effectiveRecommendationPreferences": {
+            "savingsEstimationMode": {
+                "source": "zruudvptfnrcbrky"
+            }
+        },
+        "finding": "cyvhnosqkwbxizcs",
+        "findingReasonCodes": [
+            "wllakfukozrgrymt"
+        ],
+        "lastRefreshTimestamp": "bebazhbltifsbrac",
+        "launchType": "huomybrjtrcuacxh",
+        "lookbackPeriodInDays": 0.0,
+        "serviceArn": "hwpwzhhspkdnoucc",
+        "serviceRecommendationOptions": [
+            {
+                "containerRecommendations": [
+                    {
+                        "containerName": "gewsemooeckfjuky",
+                        "cpu": 0,
+                        "memorySizeConfiguration": {
+                            "memory": 0,
+                            "memoryReservation": 0
+                        }
+                    }
+                ],
+                "cpu": 0,
+                "memory": 0,
+                "projectedUtilizationMetrics": [
+                    {
+                        "lowerBoundValue": 0.0,
+                        "name": "bhhnkeukkoqjyrcb",
+                        "statistic": "heqmoczepeczzeyw",
+                        "upperBoundValue": 0.0
+                    }
+                ],
+                "savingsOpportunity": {
+                    "estimatedMonthlySavings": {
+                        "currency": "supzleizdfleifza",
+                        "value": 0.0
+                    },
+                    "savingsOpportunityPercentage": 0.0
+                },
+                "savingsOpportunityAfterDiscounts": {
+                    "estimatedMonthlySavings": {
+                        "currency": "spfifaecdzopifya",
+                        "value": 0.0
+                    },
+                    "savingsOpportunityPercentage": 0.0
+                }
+            }
+        ],
+        "tags": [
+            {
+                "key": "zyyctyfyqeothtbd",
+                "value": "zcensnvoapcpnjlc"
+            }
+        ],
+        "utilizationMetrics": [
+            {
+                "name": "nzimcbrseqiyclyv",
+                "statistic": "qqylsivjgprhqvxr",
+                "value": 0.0
+            }
+        ]
+    },
+    {
+        "accountId": "gosqwamvazaargai",
+        "currentPerformanceRisk": "dgzhnlyynbtilocm",
+        "currentServiceConfiguration": {
+            "autoScalingConfiguration": "ogqipyhcoqzarkzg",
+            "containerConfigurations": [
+                {
+                    "containerName": "zpdoxarskvovgdrf",
+                    "cpu": 0,
+                    "memorySizeConfiguration": {
+                        "memory": 0,
+                        "memoryReservation": 0
+                    }
+                }
+            ],
+            "cpu": 0,
+            "memory": 0,
+            "taskDefinitionArn": "oytebxqkssqlcfdw"
+        },
+        "effectiveRecommendationPreferences": {
+            "savingsEstimationMode": {
+                "source": "fdbpsrpikxphlnqz"
+            }
+        },
+        "finding": "leviedvymfumacfy",
+        "findingReasonCodes": [
+            "nwrjuuvhzrczsgxa"
+        ],
+        "lastRefreshTimestamp": "gwrbopcptckklzix",
+        "launchType": "axxyhctmigsgolpd",
+        "lookbackPeriodInDays": 0.0,
+        "serviceArn": "tluguhykllbrfmzo",
+        "serviceRecommendationOptions": [
+            {
+                "containerRecommendations": [
+                    {
+                        "containerName": "wsfksinknltegpmm",
+                        "cpu": 0,
+                        "memorySizeConfiguration": {
+                            "memory": 0,
+                            "memoryReservation": 0
+                        }
+                    }
+                ],
+                "cpu": 0,
+                "memory": 0,
+                "projectedUtilizationMetrics": [
+                    {
+                        "lowerBoundValue": 0.0,
+                        "name": "nihamvvpthzjpxaz",
+                        "statistic": "wqzxwodpuvozeupt",
+                        "upperBoundValue": 0.0
+                    }
+                ],
+                "savingsOpportunity": {
+                    "estimatedMonthlySavings": {
+                        "currency": "bkifqlkrwyutjqls",
+                        "value": 0.0
+                    },
+                    "savingsOpportunityPercentage": 0.0
+                },
+                "savingsOpportunityAfterDiscounts": {
+                    "estimatedMonthlySavings": {
+                        "currency": "bmuslwwqtzbagjgn",
+                        "value": 0.0
+                    },
+                    "savingsOpportunityPercentage": 0.0
+                }
+            }
+        ],
+        "tags": [
+            {
+                "key": "gqfwxagxpdgkrjkl",
+                "value": "kjrovmyboqpqzkip"
+            }
+        ],
+        "utilizationMetrics": [
+            {
+                "name": "eoldekftxtsdcpuq",
+                "statistic": "ialsamisgowtwxsc",
+                "value": 0.0
+            }
+        ]
+    },
+    {
+        "accountId": "ircnbbbkqlnubdtd",
+        "currentPerformanceRisk": "ilojncwswxcketpv",
+        "currentServiceConfiguration": {
+            "autoScalingConfiguration": "izzdcxcmhpbputpl",
+            "containerConfigurations": [
+                {
+                    "containerName": "qlorbrmrthegqvlv",
+                    "cpu": 0,
+                    "memorySizeConfiguration": {
+                        "memory": 0,
+                        "memoryReservation": 0
+                    }
+                }
+            ],
+            "cpu": 0,
+            "memory": 0,
+            "taskDefinitionArn": "ocfovkrwgbxobxav"
+        },
+        "effectiveRecommendationPreferences": {
+            "savingsEstimationMode": {
+                "source": "nsuangfcmgsmnnwr"
+            }
+        },
+        "finding": "mqwbcmwbspycxptw",
+        "findingReasonCodes": [
+            "hmhdlkmcfcarqczk"
+        ],
+        "lastRefreshTimestamp": "rdgpfevsyftzrjtl",
+        "launchType": "sfspqdmlwcfwrmgz",
+        "lookbackPeriodInDays": 0.0,
+        "serviceArn": "oghnoycethfdmtjr",
+        "serviceRecommendationOptions": [
+            {
+                "containerRecommendations": [
+                    {
+                        "containerName": "mooxqqlhujduhasx",
+                        "cpu": 0,
+                        "memorySizeConfiguration": {
+                            "memory": 0,
+                            "memoryReservation": 0
+                        }
+                    }
+                ],
+                "cpu": 0,
+                "memory": 0,
+                "projectedUtilizationMetrics": [
+                    {
+                        "lowerBoundValue": 0.0,
+                        "name": "ccehpykkuijmmype",
+                        "statistic": "xvcnlwueufbhnshg",
+                        "upperBoundValue": 0.0
+                    }
+                ],
+                "savingsOpportunity": {
+                    "estimatedMonthlySavings": {
+                        "currency": "xfgjohqoqttobgqp",
+                        "value": 0.0
+                    },
+                    "savingsOpportunityPercentage": 0.0
+                },
+                "savingsOpportunityAfterDiscounts": {
+                    "estimatedMonthlySavings": {
+                        "currency": "bpfkjadaocpoksxc",
+                        "value": 0.0
+                    },
+                    "savingsOpportunityPercentage": 0.0
+                }
+            }
+        ],
+        "tags": [
+            {
+                "key": "ijgjotfynpqxdhar",
+                "value": "xzslhxolzkjrcvwo"
+            }
+        ],
+        "utilizationMetrics": [
+            {
+                "name": "xilpgwjoiuabuxum",
+                "statistic": "ednprimecyqljeqw",
+                "value": 0.0
+            }
+        ]
+    },
+    {
+        "accountId": "osrmlzvcoxkwcalf",
+        "currentPerformanceRisk": "ccshyznijndxgojr",
+        "currentServiceConfiguration": {
+            "autoScalingConfiguration": "rnvglnklvcxwdquo",
+            "containerConfigurations": [
+                {
+                    "containerName": "inxkfrhdeifkhdjw",
+                    "cpu": 0,
+                    "memorySizeConfiguration": {
+                        "memory": 0,
+                        "memoryReservation": 0
+                    }
+                }
+            ],
+            "cpu": 0,
+            "memory": 0,
+            "taskDefinitionArn": "jtdrtpzdkvqnvrmb"
+        },
+        "effectiveRecommendationPreferences": {
+            "savingsEstimationMode": {
+                "source": "kdjqucsnqxftflkj"
+            }
+        },
+        "finding": "yzkaiemhxwqfgcsp",
+        "findingReasonCodes": [
+            "eogxsohzaswdznza"
+        ],
+        "lastRefreshTimestamp": "xrmwsmcjyxbsympn",
+        "launchType": "fgshgueeepbayafl",
+        "lookbackPeriodInDays": 0.0,
+        "serviceArn": "gkupxxipezqfqihu",
+        "serviceRecommendationOptions": [
+            {
+                "containerRecommendations": [
+                    {
+                        "containerName": "zvyvtlgytvsptbec",
+                        "cpu": 0,
+                        "memorySizeConfiguration": {
+                            "memory": 0,
+                            "memoryReservation": 0
+                        }
+                    }
+                ],
+                "cpu": 0,
+                "memory": 0,
+                "projectedUtilizationMetrics": [
+                    {
+                        "lowerBoundValue": 0.0,
+                        "name": "psljacfheyjtwtuh",
+                        "statistic": "vzyucmiflvjyxolh",
+                        "upperBoundValue": 0.0
+                    }
+                ],
+                "savingsOpportunity": {
+                    "estimatedMonthlySavings": {
+                        "currency": "ckzskxafllqhkdrf",
+                        "value": 0.0
+                    },
+                    "savingsOpportunityPercentage": 0.0
+                },
+                "savingsOpportunityAfterDiscounts": {
+                    "estimatedMonthlySavings": {
+                        "currency": "wxvsiompmwbzbgcu",
+                        "value": 0.0
+                    },
+                    "savingsOpportunityPercentage": 0.0
+                }
+            }
+        ],
+        "tags": [
+            {
+                "key": "ndtvhgxcomeckcxo",
+                "value": "gjzyetnqjrvgzlca"
+            }
+        ],
+        "utilizationMetrics": [
+            {
+                "name": "rhvqvoumtnvdlndr",
+                "statistic": "rwwvlofbudrjxhmz",
+                "value": 0.0
+            }
+        ]
+    },
+    {
+        "accountId": "zwdkbrxqtfuvvpsw",
+        "currentPerformanceRisk": "ipenqkiptsscppgo",
+        "currentServiceConfiguration": {
+            "autoScalingConfiguration": "sgyccujvjhbiwzib",
+            "containerConfigurations": [
+                {
+                    "containerName": "suosxcxjqerihrpr",
+                    "cpu": 0,
+                    "memorySizeConfiguration": {
+                        "memory": 0,
+                        "memoryReservation": 0
+                    }
+                }
+            ],
+            "cpu": 0,
+            "memory": 0,
+            "taskDefinitionArn": "eozquzeucutyhcaa"
+        },
+        "effectiveRecommendationPreferences": {
+            "savingsEstimationMode": {
+                "source": "updfmkqbzfkwbgkb"
+            }
+        },
+        "finding": "ocunpipgenhnqaxv",
+        "findingReasonCodes": [
+            "yapywpwwtudbgdgh"
+        ],
+        "lastRefreshTimestamp": "dcnrrqokpaaadxot",
+        "launchType": "glkytbauritaajuq",
+        "lookbackPeriodInDays": 0.0,
+        "serviceArn": "xnqscvxmfatfhgrp",
+        "serviceRecommendationOptions": [
+            {
+                "containerRecommendations": [
+                    {
+                        "containerName": "yijhqgqwamutqpev",
+                        "cpu": 0,
+                        "memorySizeConfiguration": {
+                            "memory": 0,
+                            "memoryReservation": 0
+                        }
+                    }
+                ],
+                "cpu": 0,
+                "memory": 0,
+                "projectedUtilizationMetrics": [
+                    {
+                        "lowerBoundValue": 0.0,
+                        "name": "eqonkblsybbfssdc",
+                        "statistic": "xdvivfkozyudvkeo",
+                        "upperBoundValue": 0.0
+                    }
+                ],
+                "savingsOpportunity": {
+                    "estimatedMonthlySavings": {
+                        "currency": "nxxxmiqrjekatthc",
+                        "value": 0.0
+                    },
+                    "savingsOpportunityPercentage": 0.0
+                },
+                "savingsOpportunityAfterDiscounts": {
+                    "estimatedMonthlySavings": {
+                        "currency": "nizgjcmairvczced",
+                        "value": 0.0
+                    },
+                    "savingsOpportunityPercentage": 0.0
+                }
+            }
+        ],
+        "tags": [
+            {
+                "key": "kcdeqxxxzepsxnoz",
+                "value": "keydczgrxfttkbpx"
+            }
+        ],
+        "utilizationMetrics": [
+            {
+                "name": "oomabmfulipqyocf",
+                "statistic": "cjsjykspyzyxzqxi",
+                "value": 0.0
+            }
+        ]
+    }
+]

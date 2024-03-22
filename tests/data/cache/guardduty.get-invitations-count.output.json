@@ -1,0 +1,34 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "get_invitations_count",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": 0,
+        "required": [],
+        "md5": "c65aa90f68f6e76b7715d329bafa01a6",
+        "randomized": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "result_key": "InvitationsCount"
+    },
+    "meta": {
+        "start": 1711115864.766024,
+        "end": 1711115871.095929,
+        "duration": 6.329914808273315,
+        "service": "guardduty",
+        "type": null
+    }
+}

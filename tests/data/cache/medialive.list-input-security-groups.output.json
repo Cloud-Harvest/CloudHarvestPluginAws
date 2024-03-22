@@ -1,0 +1,204 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "031b56893c6f5a9d0ebe6017c5c080cb",
+        "boto_command": "list_input_security_groups",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "Arn": "Arn",
+                "Id": "Id",
+                "Inputs": [
+                    "__string"
+                ],
+                "State": "State",
+                "Tags": {
+                    "KeyName": ""
+                },
+                "WhitelistRules": [
+                    {
+                        "Cidr": "Cidr"
+                    }
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "d4c3ce9a3314080fe26fc5dc4cd06609",
+        "randomized": [
+            {
+                "Arn": "dhrredncgjwtoizj",
+                "Id": "twcokfqgraylqgzi",
+                "Inputs": [
+                    "hzdgwyiobeplsksf"
+                ],
+                "State": "tdugqusnchoqvumw",
+                "Tags": {
+                    "KeyName": "wegucekipxtagmrq"
+                },
+                "WhitelistRules": [
+                    {
+                        "Cidr": "xjxjeosyacfuwnzc"
+                    }
+                ]
+            },
+            {
+                "Arn": "kxzookumtiuuuzbh",
+                "Id": "zwlnvdssisprhyfb",
+                "Inputs": [
+                    "pporrhiyrkwalmnu"
+                ],
+                "State": "dxbjazbyicltplom",
+                "Tags": {
+                    "KeyName": "wkbjpjbqleepucfc"
+                },
+                "WhitelistRules": [
+                    {
+                        "Cidr": "icpkelkdxtjhvpao"
+                    }
+                ]
+            },
+            {
+                "Arn": "gxegtzrcndcqrkrw",
+                "Id": "ukxsvpysaanbrvad",
+                "Inputs": [
+                    "wovkxkzpdrmdpqfm"
+                ],
+                "State": "mavuuweryjwaovfp",
+                "Tags": {
+                    "KeyName": "ietjgjjyogiuyycw"
+                },
+                "WhitelistRules": [
+                    {
+                        "Cidr": "nmspfxmxkoiiwqyt"
+                    }
+                ]
+            },
+            {
+                "Arn": "hfjuwnbaenakttrm",
+                "Id": "ktjzhjlycdzxnfce",
+                "Inputs": [
+                    "smvfbxlyvuwfzvok"
+                ],
+                "State": "poaagurshrnrbqqe",
+                "Tags": {
+                    "KeyName": "qlxhkuwisqkkziui"
+                },
+                "WhitelistRules": [
+                    {
+                        "Cidr": "btcohqgyafkdojmq"
+                    }
+                ]
+            },
+            {
+                "Arn": "kiyiqktiyqjujobu",
+                "Id": "icfbkpotwxkfbhtr",
+                "Inputs": [
+                    "qwjcufahinltlqww"
+                ],
+                "State": "hgryvxymsdwnzonp",
+                "Tags": {
+                    "KeyName": "ayvpcrpiithtnjxa"
+                },
+                "WhitelistRules": [
+                    {
+                        "Cidr": "yodabadhwpswrbwn"
+                    }
+                ]
+            },
+            {
+                "Arn": "foyeicnmgzmdjsmj",
+                "Id": "cfbizsznnccplnha",
+                "Inputs": [
+                    "gjehbzebadixrfbi"
+                ],
+                "State": "mdguqupnfrtfvjpu",
+                "Tags": {
+                    "KeyName": "ydmkgoyzzvismokd"
+                },
+                "WhitelistRules": [
+                    {
+                        "Cidr": "codmqjqordesgfgv"
+                    }
+                ]
+            },
+            {
+                "Arn": "ufodfdshmjpqltqd",
+                "Id": "ehzxyrcgfabjiddv",
+                "Inputs": [
+                    "rramfimbqpagnoat"
+                ],
+                "State": "aorvjyuqkukflcjw",
+                "Tags": {
+                    "KeyName": "elxolkajavmtbkyq"
+                },
+                "WhitelistRules": [
+                    {
+                        "Cidr": "mtakeuvbreshoigo"
+                    }
+                ]
+            },
+            {
+                "Arn": "jbynffeilysunijf",
+                "Id": "xdupqlfgxsnaycly",
+                "Inputs": [
+                    "znmllrhbnqdnagte"
+                ],
+                "State": "enhzxnevtwzzqvep",
+                "Tags": {
+                    "KeyName": "doyhboyikvgeubrx"
+                },
+                "WhitelistRules": [
+                    {
+                        "Cidr": "fyztfjxuqvqxgahw"
+                    }
+                ]
+            },
+            {
+                "Arn": "rxjyzeiwfltquuvj",
+                "Id": "sbnsjlnvtzkcimdd",
+                "Inputs": [
+                    "bmjwesleokpzvyeg"
+                ],
+                "State": "ybtlmgpqcyrzsdhg",
+                "Tags": {
+                    "KeyName": "lvsrutbrnatpwupi"
+                },
+                "WhitelistRules": [
+                    {
+                        "Cidr": "uhqpguguwfnfvnci"
+                    }
+                ]
+            },
+            {
+                "Arn": "ndurcaevcoagrxhr",
+                "Id": "mtexwityagcgqjel",
+                "Inputs": [
+                    "dlzyyigknmtvdtzc"
+                ],
+                "State": "iyqlcievzsxzliil",
+                "Tags": {
+                    "KeyName": "hrnxgkgfzpcwhhoz"
+                },
+                "WhitelistRules": [
+                    {
+                        "Cidr": "trnanxziikdpqzww"
+                    }
+                ]
+            }
+        ],
+        "result_key": "InputSecurityGroups"
+    },
+    "meta": {
+        "start": 1711116174.643271,
+        "end": 1711116181.52001,
+        "duration": 6.876753091812134,
+        "service": "medialive",
+        "type": "input_security_groups"
+    }
+}

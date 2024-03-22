@@ -1,0 +1,231 @@
+{
+    "input": {
+        "template": {
+            "ReservationId": "",
+            "ReservedNodesOfferingId": "",
+            "NodeType": "",
+            "Duration": "",
+            "OfferingType": "",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "725a98b91219ef1c9e58abc099c3797b",
+        "boto_command": "describe_reserved_nodes",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "ReservationId": "ReservationId",
+                "ReservedNodesOfferingId": "ReservedNodesOfferingId",
+                "NodeType": "NodeType",
+                "StartTime": "1970-01-01T00:00:00",
+                "Duration": 0,
+                "FixedPrice": 0.0,
+                "NodeCount": 0,
+                "OfferingType": "OfferingType",
+                "State": "State",
+                "RecurringCharges": [
+                    {
+                        "RecurringChargeAmount": 0.0,
+                        "RecurringChargeFrequency": "RecurringChargeFrequency"
+                    }
+                ],
+                "ARN": "ARN"
+            }
+        ],
+        "required": [],
+        "md5": "12207d5ebb48920c1c2bce0a63f52eed",
+        "randomized": [
+            {
+                "ARN": "rxehpyyugfyqezwp",
+                "Duration": 0,
+                "FixedPrice": 0.0,
+                "NodeCount": 0,
+                "NodeType": "sszzogbhfeaoocao",
+                "OfferingType": "uthdwjvfsgdalcie",
+                "RecurringCharges": [
+                    {
+                        "RecurringChargeAmount": 0.0,
+                        "RecurringChargeFrequency": "lkmlriinhtjjnvfe"
+                    }
+                ],
+                "ReservationId": "qwbavnrnmpjtayfu",
+                "ReservedNodesOfferingId": "agbfrsjagimlqsva",
+                "StartTime": "pmrkoprompnpxmsj",
+                "State": "xegikvonnynizrwp"
+            },
+            {
+                "ARN": "yrrkwavhlbjqsbog",
+                "Duration": 0,
+                "FixedPrice": 0.0,
+                "NodeCount": 0,
+                "NodeType": "fozpnlzbrllxtcey",
+                "OfferingType": "mhrqifrdqjtrvnze",
+                "RecurringCharges": [
+                    {
+                        "RecurringChargeAmount": 0.0,
+                        "RecurringChargeFrequency": "wojhgawnfqbfpmmh"
+                    }
+                ],
+                "ReservationId": "hhqhzrbsffbxjwqf",
+                "ReservedNodesOfferingId": "pixcnavroocuxhyc",
+                "StartTime": "rqwamlbvgadrjkef",
+                "State": "vjrdgdlxabatilte"
+            },
+            {
+                "ARN": "jmvfojzjezatpbfu",
+                "Duration": 0,
+                "FixedPrice": 0.0,
+                "NodeCount": 0,
+                "NodeType": "wbtncxdnkcwmourw",
+                "OfferingType": "wgabhxlbwqlqjtxo",
+                "RecurringCharges": [
+                    {
+                        "RecurringChargeAmount": 0.0,
+                        "RecurringChargeFrequency": "eiclbcqyrkunrmvt"
+                    }
+                ],
+                "ReservationId": "abzvwzharrzjhdfi",
+                "ReservedNodesOfferingId": "jcppqfqurrfhrlup",
+                "StartTime": "bwfjtwmwzxehzphh",
+                "State": "hyxyjonkffdtnsim"
+            },
+            {
+                "ARN": "purylvegbjopbirf",
+                "Duration": 0,
+                "FixedPrice": 0.0,
+                "NodeCount": 0,
+                "NodeType": "lehegsisofrxshmj",
+                "OfferingType": "moyvoosstlyzmjvo",
+                "RecurringCharges": [
+                    {
+                        "RecurringChargeAmount": 0.0,
+                        "RecurringChargeFrequency": "tokuptdplactdpes"
+                    }
+                ],
+                "ReservationId": "pmrkumouoxlcdvba",
+                "ReservedNodesOfferingId": "mkiwxazcybensnzb",
+                "StartTime": "qffozqlslibnncod",
+                "State": "haknpabuljdqoumu"
+            },
+            {
+                "ARN": "fsivvnoxadbuqcdo",
+                "Duration": 0,
+                "FixedPrice": 0.0,
+                "NodeCount": 0,
+                "NodeType": "wwdlwjqprronailg",
+                "OfferingType": "hjrknyjxqckbawud",
+                "RecurringCharges": [
+                    {
+                        "RecurringChargeAmount": 0.0,
+                        "RecurringChargeFrequency": "kjkseskxnosjajlm"
+                    }
+                ],
+                "ReservationId": "xdhviuzhordlhevv",
+                "ReservedNodesOfferingId": "kcosdehnynrhhirx",
+                "StartTime": "htpcwojvnicxsawb",
+                "State": "bhaqyulhwvtdjpsf"
+            },
+            {
+                "ARN": "sbmhbxajwaqfyush",
+                "Duration": 0,
+                "FixedPrice": 0.0,
+                "NodeCount": 0,
+                "NodeType": "aryikbobkuzmzork",
+                "OfferingType": "txjjcqagcumbelko",
+                "RecurringCharges": [
+                    {
+                        "RecurringChargeAmount": 0.0,
+                        "RecurringChargeFrequency": "wcpgsxhyrhhxafkk"
+                    }
+                ],
+                "ReservationId": "aumxzoetlqgzcrcc",
+                "ReservedNodesOfferingId": "rjctfavbsuzptfgr",
+                "StartTime": "ngjyyuxbvujieltk",
+                "State": "fubqcdmxlavjghab"
+            },
+            {
+                "ARN": "rokajaktsfeucscz",
+                "Duration": 0,
+                "FixedPrice": 0.0,
+                "NodeCount": 0,
+                "NodeType": "ocnokmwkrrxxljed",
+                "OfferingType": "qvmdptzphbfsklsl",
+                "RecurringCharges": [
+                    {
+                        "RecurringChargeAmount": 0.0,
+                        "RecurringChargeFrequency": "hgmpydlzngcqpvax"
+                    }
+                ],
+                "ReservationId": "wnwamuandnkivyst",
+                "ReservedNodesOfferingId": "fcvmnmcyzdkwcbqs",
+                "StartTime": "wfymyokigidvrewj",
+                "State": "ugdrnvwdyrhqpqww"
+            },
+            {
+                "ARN": "nxeieocfubsnbnlx",
+                "Duration": 0,
+                "FixedPrice": 0.0,
+                "NodeCount": 0,
+                "NodeType": "hsfsmokauzsgoild",
+                "OfferingType": "mqrnkmcuqdprfnym",
+                "RecurringCharges": [
+                    {
+                        "RecurringChargeAmount": 0.0,
+                        "RecurringChargeFrequency": "chkpojunipdacrvl"
+                    }
+                ],
+                "ReservationId": "vwwppxybullynwmj",
+                "ReservedNodesOfferingId": "pncobxrmywwbxyua",
+                "StartTime": "kgrxygmxtojjnpyu",
+                "State": "wyvalsqckcovdumv"
+            },
+            {
+                "ARN": "vqlbloecwkngpriu",
+                "Duration": 0,
+                "FixedPrice": 0.0,
+                "NodeCount": 0,
+                "NodeType": "spmddogljmtxshol",
+                "OfferingType": "zeoetnffokehbala",
+                "RecurringCharges": [
+                    {
+                        "RecurringChargeAmount": 0.0,
+                        "RecurringChargeFrequency": "wedavwlnvarnxuch"
+                    }
+                ],
+                "ReservationId": "lwcvwlpnctdhiwdj",
+                "ReservedNodesOfferingId": "kupfhlygkgwlfwss",
+                "StartTime": "utqmrlnjttvtvqey",
+                "State": "cyzeuybthyczfnmy"
+            },
+            {
+                "ARN": "ncbupgvsyihajjmx",
+                "Duration": 0,
+                "FixedPrice": 0.0,
+                "NodeCount": 0,
+                "NodeType": "dlygubdvvezkbgej",
+                "OfferingType": "lykfrilxtupjmtyb",
+                "RecurringCharges": [
+                    {
+                        "RecurringChargeAmount": 0.0,
+                        "RecurringChargeFrequency": "vvoxtphsrdxwccmy"
+                    }
+                ],
+                "ReservationId": "qlqueknkhivswyru",
+                "ReservedNodesOfferingId": "eclmkonzcysomudv",
+                "StartTime": "rmfukvzhiobewwsw",
+                "State": "mgnzweztcafedstd"
+            }
+        ],
+        "result_key": "ReservedNodes"
+    },
+    "meta": {
+        "start": 1711116195.445755,
+        "end": 1711116202.589935,
+        "duration": 7.144190073013306,
+        "service": "memorydb",
+        "type": "reserved_nodes"
+    }
+}

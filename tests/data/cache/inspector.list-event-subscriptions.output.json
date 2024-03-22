@@ -1,0 +1,139 @@
+{
+    "input": {
+        "template": {
+            "resourceArn": "",
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "required": [],
+        "md5": "f68170c5b11b0d9f109b3122f41581f8",
+        "boto_command": "list_event_subscriptions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "resourceArn": "resourceArn",
+                "topicArn": "topicArn",
+                "eventSubscriptions": [
+                    {
+                        "event": "event",
+                        "subscribedAt": "1970-01-01T00:00:00"
+                    }
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "9b6dd3bd6be2fbdef7f48b5733fbe27e",
+        "randomized": [
+            {
+                "eventSubscriptions": [
+                    {
+                        "event": "ktwnagmxlnescigz",
+                        "subscribedAt": "yppewvddllpvtezu"
+                    }
+                ],
+                "resourceArn": "snchfvzzbnjbchzs",
+                "topicArn": "inmyrozxdqvyvsuy"
+            },
+            {
+                "eventSubscriptions": [
+                    {
+                        "event": "vxaoanksctuuvlnw",
+                        "subscribedAt": "swrnzqsjgswisuut"
+                    }
+                ],
+                "resourceArn": "yekeqofvrzedpdcr",
+                "topicArn": "pjatueggvdwdclew"
+            },
+            {
+                "eventSubscriptions": [
+                    {
+                        "event": "djabuvadcxuqgztl",
+                        "subscribedAt": "nljutvgthnxflhao"
+                    }
+                ],
+                "resourceArn": "iovlsigrnngxindj",
+                "topicArn": "sbjzbejcgztvfurq"
+            },
+            {
+                "eventSubscriptions": [
+                    {
+                        "event": "lohvagxpzzpkevzd",
+                        "subscribedAt": "wgblecavecnpgqdw"
+                    }
+                ],
+                "resourceArn": "jsijphiytywzwome",
+                "topicArn": "maonnibkuhjtoyhj"
+            },
+            {
+                "eventSubscriptions": [
+                    {
+                        "event": "unpeppfzhrmitzot",
+                        "subscribedAt": "epourcvhrzkimpeu"
+                    }
+                ],
+                "resourceArn": "hqetmunauoeiazjb",
+                "topicArn": "txbsongetgssccpr"
+            },
+            {
+                "eventSubscriptions": [
+                    {
+                        "event": "dcbylzmbtzolaoxa",
+                        "subscribedAt": "swgxrmefggywlmns"
+                    }
+                ],
+                "resourceArn": "zoazrorkcpduqkws",
+                "topicArn": "mjujgtgkuvqyxvkv"
+            },
+            {
+                "eventSubscriptions": [
+                    {
+                        "event": "fxrzhflbeisllaxe",
+                        "subscribedAt": "awnnkwxxdzqaeblg"
+                    }
+                ],
+                "resourceArn": "bpxbcpngfytrdmqk",
+                "topicArn": "miqpvltlsiiwhobl"
+            },
+            {
+                "eventSubscriptions": [
+                    {
+                        "event": "oytntjdvudoyinco",
+                        "subscribedAt": "xpcdjabznobkphof"
+                    }
+                ],
+                "resourceArn": "fvvbngxhtyxiggue",
+                "topicArn": "hglnxqqpfcwoijyp"
+            },
+            {
+                "eventSubscriptions": [
+                    {
+                        "event": "ghzeaqylxxomdnhb",
+                        "subscribedAt": "fdamrhtkgwyxsuej"
+                    }
+                ],
+                "resourceArn": "sswzvimtqtbgqexu",
+                "topicArn": "qwmkyhmcxjjomquu"
+            },
+            {
+                "eventSubscriptions": [
+                    {
+                        "event": "tbgzuutlcctxpsxe",
+                        "subscribedAt": "nkloxvoazzdowsum"
+                    }
+                ],
+                "resourceArn": "xowntlzvbymtglql",
+                "topicArn": "jlwlxiwtticttvtn"
+            }
+        ],
+        "result_key": "subscriptions"
+    },
+    "meta": {
+        "start": 1711115909.484822,
+        "end": 1711115916.647835,
+        "duration": 7.163023948669434,
+        "service": "inspector",
+        "type": "event_subscriptions"
+    }
+}

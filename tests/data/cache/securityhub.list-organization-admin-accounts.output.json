@@ -1,0 +1,72 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "031b56893c6f5a9d0ebe6017c5c080cb",
+        "boto_command": "list_organization_admin_accounts",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "AccountId": "AccountId",
+                "Status": "Status"
+            }
+        ],
+        "required": [],
+        "md5": "9e706ca8d504e54c874bb2f5bd0e0627",
+        "randomized": [
+            {
+                "AccountId": "gbzdlshtnxqdrbtp",
+                "Status": "prjlgjysktqixczy"
+            },
+            {
+                "AccountId": "ucbgzxcuvoibivwl",
+                "Status": "gomrsqicxrplntpv"
+            },
+            {
+                "AccountId": "igsobcduyajarwug",
+                "Status": "skxfjvdvoykzfsmf"
+            },
+            {
+                "AccountId": "mrxhjeyrbxymsklm",
+                "Status": "cazdawikvkfmpzhh"
+            },
+            {
+                "AccountId": "cjzopyyttjnsbqdi",
+                "Status": "lqvudagdagteeddn"
+            },
+            {
+                "AccountId": "vzhpbodvtqwieead",
+                "Status": "nnmaxorfwqptxqwq"
+            },
+            {
+                "AccountId": "zfcypkfctpzbwrhv",
+                "Status": "aayfharictowyson"
+            },
+            {
+                "AccountId": "pfwfqoaxxoofjmwg",
+                "Status": "xassixmsborybutz"
+            },
+            {
+                "AccountId": "fpooidpeskalogws",
+                "Status": "tmzeotawudubrdlw"
+            },
+            {
+                "AccountId": "yudtmnxvhmokmcsz",
+                "Status": "gsxbwenzaxuymzqg"
+            }
+        ],
+        "result_key": "AdminAccounts"
+    },
+    "meta": {
+        "start": 1711116591.212911,
+        "end": 1711116597.388927,
+        "duration": 6.176026105880737,
+        "service": "securityhub",
+        "type": "organization_admin_accounts"
+    }
+}

@@ -1,0 +1,19 @@
+[
+    "mediatailor.describe-channel",
+    "mediatailor.describe-live-source",
+    "mediatailor.describe-program",
+    "mediatailor.describe-source-location",
+    "mediatailor.describe-vod-source",
+    "mediatailor.get-channel-policy",
+    "mediatailor.get-channel-schedule",
+    "mediatailor.get-playback-configuration",
+    "mediatailor.get-prefetch-schedule",
+    "mediatailor.list-alerts",
+    "mediatailor.list-channels",
+    "mediatailor.list-live-sources",
+    "mediatailor.list-playback-configurations",
+    "mediatailor.list-prefetch-schedules",
+    "mediatailor.list-source-locations",
+    "mediatailor.list-tags-for-resource",
+    "mediatailor.list-vod-sources"
+]

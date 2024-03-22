@@ -1,0 +1,232 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "get_account_settings",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": {
+            "awsAccountNumber": "awsAccountNumber",
+            "unmeteredDevices": {
+                "KeyName": 0
+            },
+            "unmeteredRemoteAccessDevices": {
+                "KeyName": 0
+            },
+            "maxJobTimeoutMinutes": 0,
+            "trialMinutes": {
+                "total": 0.0,
+                "remaining": 0.0
+            },
+            "maxSlots": {
+                "KeyName": 0
+            },
+            "defaultJobTimeoutMinutes": 0,
+            "skipAppResign": true
+        },
+        "required": [],
+        "md5": "28d790822eb16cb1b70604dc9aae4237",
+        "randomized": [
+            {
+                "awsAccountNumber": "puxtuqlpjpvlwvce",
+                "defaultJobTimeoutMinutes": 0,
+                "maxJobTimeoutMinutes": 0,
+                "maxSlots": {
+                    "KeyName": 0
+                },
+                "skipAppResign": true,
+                "trialMinutes": {
+                    "remaining": 0.0,
+                    "total": 0.0
+                },
+                "unmeteredDevices": {
+                    "KeyName": 0
+                },
+                "unmeteredRemoteAccessDevices": {
+                    "KeyName": 0
+                }
+            },
+            {
+                "awsAccountNumber": "kusmlezxahvjfdzu",
+                "defaultJobTimeoutMinutes": 0,
+                "maxJobTimeoutMinutes": 0,
+                "maxSlots": {
+                    "KeyName": 0
+                },
+                "skipAppResign": true,
+                "trialMinutes": {
+                    "remaining": 0.0,
+                    "total": 0.0
+                },
+                "unmeteredDevices": {
+                    "KeyName": 0
+                },
+                "unmeteredRemoteAccessDevices": {
+                    "KeyName": 0
+                }
+            },
+            {
+                "awsAccountNumber": "vlihrdtadixjcpzr",
+                "defaultJobTimeoutMinutes": 0,
+                "maxJobTimeoutMinutes": 0,
+                "maxSlots": {
+                    "KeyName": 0
+                },
+                "skipAppResign": true,
+                "trialMinutes": {
+                    "remaining": 0.0,
+                    "total": 0.0
+                },
+                "unmeteredDevices": {
+                    "KeyName": 0
+                },
+                "unmeteredRemoteAccessDevices": {
+                    "KeyName": 0
+                }
+            },
+            {
+                "awsAccountNumber": "smtlldxpxafzkjer",
+                "defaultJobTimeoutMinutes": 0,
+                "maxJobTimeoutMinutes": 0,
+                "maxSlots": {
+                    "KeyName": 0
+                },
+                "skipAppResign": true,
+                "trialMinutes": {
+                    "remaining": 0.0,
+                    "total": 0.0
+                },
+                "unmeteredDevices": {
+                    "KeyName": 0
+                },
+                "unmeteredRemoteAccessDevices": {
+                    "KeyName": 0
+                }
+            },
+            {
+                "awsAccountNumber": "ojiagdpkiathlmwv",
+                "defaultJobTimeoutMinutes": 0,
+                "maxJobTimeoutMinutes": 0,
+                "maxSlots": {
+                    "KeyName": 0
+                },
+                "skipAppResign": true,
+                "trialMinutes": {
+                    "remaining": 0.0,
+                    "total": 0.0
+                },
+                "unmeteredDevices": {
+                    "KeyName": 0
+                },
+                "unmeteredRemoteAccessDevices": {
+                    "KeyName": 0
+                }
+            },
+            {
+                "awsAccountNumber": "yhvgjaejliraansd",
+                "defaultJobTimeoutMinutes": 0,
+                "maxJobTimeoutMinutes": 0,
+                "maxSlots": {
+                    "KeyName": 0
+                },
+                "skipAppResign": true,
+                "trialMinutes": {
+                    "remaining": 0.0,
+                    "total": 0.0
+                },
+                "unmeteredDevices": {
+                    "KeyName": 0
+                },
+                "unmeteredRemoteAccessDevices": {
+                    "KeyName": 0
+                }
+            },
+            {
+                "awsAccountNumber": "tyzoloaphqhutpxb",
+                "defaultJobTimeoutMinutes": 0,
+                "maxJobTimeoutMinutes": 0,
+                "maxSlots": {
+                    "KeyName": 0
+                },
+                "skipAppResign": true,
+                "trialMinutes": {
+                    "remaining": 0.0,
+                    "total": 0.0
+                },
+                "unmeteredDevices": {
+                    "KeyName": 0
+                },
+                "unmeteredRemoteAccessDevices": {
+                    "KeyName": 0
+                }
+            },
+            {
+                "awsAccountNumber": "yzkfdknvirqwdokw",
+                "defaultJobTimeoutMinutes": 0,
+                "maxJobTimeoutMinutes": 0,
+                "maxSlots": {
+                    "KeyName": 0
+                },
+                "skipAppResign": true,
+                "trialMinutes": {
+                    "remaining": 0.0,
+                    "total": 0.0
+                },
+                "unmeteredDevices": {
+                    "KeyName": 0
+                },
+                "unmeteredRemoteAccessDevices": {
+                    "KeyName": 0
+                }
+            },
+            {
+                "awsAccountNumber": "uzvnzgdfucxogcyv",
+                "defaultJobTimeoutMinutes": 0,
+                "maxJobTimeoutMinutes": 0,
+                "maxSlots": {
+                    "KeyName": 0
+                },
+                "skipAppResign": true,
+                "trialMinutes": {
+                    "remaining": 0.0,
+                    "total": 0.0
+                },
+                "unmeteredDevices": {
+                    "KeyName": 0
+                },
+                "unmeteredRemoteAccessDevices": {
+                    "KeyName": 0
+                }
+            },
+            {
+                "awsAccountNumber": "iczpunojebifvprg",
+                "defaultJobTimeoutMinutes": 0,
+                "maxJobTimeoutMinutes": 0,
+                "maxSlots": {
+                    "KeyName": 0
+                },
+                "skipAppResign": true,
+                "trialMinutes": {
+                    "remaining": 0.0,
+                    "total": 0.0
+                },
+                "unmeteredDevices": {
+                    "KeyName": 0
+                },
+                "unmeteredRemoteAccessDevices": {
+                    "KeyName": 0
+                }
+            }
+        ],
+        "result_key": "accountSettings"
+    },
+    "meta": {
+        "start": 1711115545.077507,
+        "end": 1711115552.183051,
+        "duration": 7.105556964874268,
+        "service": "devicefarm",
+        "type": null
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "required": [],
+        "md5": "2620fedaf24e984a8f801d0beb17a6e7",
+        "boto_command": "list_dataflow_endpoint_groups",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "dataflowEndpointGroupArn": "dataflowEndpointGroupArn",
+                "dataflowEndpointGroupId": "dataflowEndpointGroupId"
+            }
+        ],
+        "required": [],
+        "md5": "11bc18912d79f176a6a3e059fbc9b567",
+        "randomized": [
+            {
+                "dataflowEndpointGroupArn": "nyjzgcaurvzpabcg",
+                "dataflowEndpointGroupId": "sctghogrridfsmow"
+            },
+            {
+                "dataflowEndpointGroupArn": "rhxzmyjmibnjqgjm",
+                "dataflowEndpointGroupId": "ycoqneamhbgrrahu"
+            },
+            {
+                "dataflowEndpointGroupArn": "eyijcljgnqduermh",
+                "dataflowEndpointGroupId": "ewcwslenfvcsgzsq"
+            },
+            {
+                "dataflowEndpointGroupArn": "keiixqdfpktuckvm",
+                "dataflowEndpointGroupId": "lyrvtduewmvydgew"
+            },
+            {
+                "dataflowEndpointGroupArn": "xngjkmeyvzpjrywi",
+                "dataflowEndpointGroupId": "xbkoxleslopfsmoq"
+            },
+            {
+                "dataflowEndpointGroupArn": "wvapswtsktuadhks",
+                "dataflowEndpointGroupId": "mmnycowusankpjdt"
+            },
+            {
+                "dataflowEndpointGroupArn": "ufmycuzibvafxaqq",
+                "dataflowEndpointGroupId": "jcjtebkoniacgiol"
+            },
+            {
+                "dataflowEndpointGroupArn": "iosnjgjmvalwlcmh",
+                "dataflowEndpointGroupId": "oxvxjnffezwzocai"
+            },
+            {
+                "dataflowEndpointGroupArn": "vkuxtavhbscuesph",
+                "dataflowEndpointGroupId": "pizadrloxrsrifsu"
+            },
+            {
+                "dataflowEndpointGroupArn": "kmssxkaosajrdxwz",
+                "dataflowEndpointGroupId": "rnvivnucogmpdsai"
+            }
+        ],
+        "result_key": "dataflowEndpointGroupList"
+    },
+    "meta": {
+        "start": 1711115861.154873,
+        "end": 1711115869.54516,
+        "duration": 8.390297174453735,
+        "service": "groundstation",
+        "type": "dataflow_endpoint_groups"
+    }
+}

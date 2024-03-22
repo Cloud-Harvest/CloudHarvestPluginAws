@@ -1,0 +1,105 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "9dece7f85fc1c3f944425b1f68a8e6e1",
+        "boto_command": "list_entity_recognizer_summaries",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "RecognizerName": "RecognizerName",
+                "NumberOfVersions": 0,
+                "LatestVersionCreatedAt": "1970-01-01T00:00:00",
+                "LatestVersionName": "LatestVersionName",
+                "LatestVersionStatus": "LatestVersionStatus"
+            }
+        ],
+        "required": [],
+        "md5": "da632ff70ff6131caceccd52a9db0b0c",
+        "randomized": [
+            {
+                "LatestVersionCreatedAt": "hhkehhaxhssagjsh",
+                "LatestVersionName": "irzlzefnaykmdtyx",
+                "LatestVersionStatus": "xyaltevaqmvmumqb",
+                "NumberOfVersions": 0,
+                "RecognizerName": "zsrspkzgtiphrupr"
+            },
+            {
+                "LatestVersionCreatedAt": "rxptdwvkhegghvfp",
+                "LatestVersionName": "atdxzfobhqrmkvnw",
+                "LatestVersionStatus": "qyhybynhnaieixvc",
+                "NumberOfVersions": 0,
+                "RecognizerName": "uokgczrdiibobmim"
+            },
+            {
+                "LatestVersionCreatedAt": "terrwzbnjuyvpjpq",
+                "LatestVersionName": "gluplktrhcsdhrmc",
+                "LatestVersionStatus": "gbxqjgnabzthnrlg",
+                "NumberOfVersions": 0,
+                "RecognizerName": "ckdnzaqakrfqotsv"
+            },
+            {
+                "LatestVersionCreatedAt": "ckhmgblwinfinvfl",
+                "LatestVersionName": "nykyemxsxyoaijer",
+                "LatestVersionStatus": "mmmarflndroqycah",
+                "NumberOfVersions": 0,
+                "RecognizerName": "rdnoyogzdmrhsnri"
+            },
+            {
+                "LatestVersionCreatedAt": "glmtqwckjggdnbuo",
+                "LatestVersionName": "blzodhmjaixjshaq",
+                "LatestVersionStatus": "nxjdaqkeunxkkjhb",
+                "NumberOfVersions": 0,
+                "RecognizerName": "sepvayqalwgipmka"
+            },
+            {
+                "LatestVersionCreatedAt": "bhkzxbmobhsbeutl",
+                "LatestVersionName": "jdzszmffukmzeshx",
+                "LatestVersionStatus": "ajutcfmaebrtdjgl",
+                "NumberOfVersions": 0,
+                "RecognizerName": "jwbhmuuzxqmhdpjg"
+            },
+            {
+                "LatestVersionCreatedAt": "usrmacicwdzlyhpb",
+                "LatestVersionName": "tmevyqcwpzhmiupx",
+                "LatestVersionStatus": "lvvamdxqkpvoykar",
+                "NumberOfVersions": 0,
+                "RecognizerName": "fxgwmcwxfmzmmabi"
+            },
+            {
+                "LatestVersionCreatedAt": "inslhgfejgzyyesw",
+                "LatestVersionName": "rifryjjodsgmyevb",
+                "LatestVersionStatus": "ramhxknzhoxotghv",
+                "NumberOfVersions": 0,
+                "RecognizerName": "luypwtwvhongicdf"
+            },
+            {
+                "LatestVersionCreatedAt": "idfbeblylrcoyzrr",
+                "LatestVersionName": "xantsndhjvmtchhz",
+                "LatestVersionStatus": "qqoanydlceolpdbi",
+                "NumberOfVersions": 0,
+                "RecognizerName": "fpweugqrbyhvxbsc"
+            },
+            {
+                "LatestVersionCreatedAt": "oauaolecykwcbskp",
+                "LatestVersionName": "quazlcdcwywqrhof",
+                "LatestVersionStatus": "hxvuhmxtjxmjwyeh",
+                "NumberOfVersions": 0,
+                "RecognizerName": "pkbbfademyrqzyom"
+            }
+        ],
+        "result_key": "EntityRecognizerSummariesList"
+    },
+    "meta": {
+        "start": 1711115451.773449,
+        "end": 1711115458.536235,
+        "duration": 6.76279616355896,
+        "service": "comprehend",
+        "type": "entity_recognizer_summaries"
+    }
+}

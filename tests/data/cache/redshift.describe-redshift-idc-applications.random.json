@@ -1,0 +1,292 @@
+[
+    {
+        "AuthorizedTokenIssuerList": [
+            {
+                "AuthorizedAudiencesList": [
+                    "gamcvesdzsxnqjkk"
+                ],
+                "TrustedTokenIssuerArn": "dclxgfsdjvhsylqu"
+            }
+        ],
+        "IamRoleArn": "axkotkekwabbhyns",
+        "IdcDisplayName": "ripeewvyrzuqbpxw",
+        "IdcInstanceArn": "nclhbdupvquszcxl",
+        "IdcManagedApplicationArn": "wedpnhlgeorcprgb",
+        "IdcOnboardStatus": "vhvqjmvchdwyroqr",
+        "IdentityNamespace": "rigdsbhexkcheeqp",
+        "RedshiftIdcApplicationArn": "reoudwaecmuknyhq",
+        "RedshiftIdcApplicationName": "fmypbsmzgvajfatk",
+        "ServiceIntegrations": [
+            {
+                "LakeFormation": [
+                    {
+                        "LakeFormationQuery": {
+                            "Authorization": "hhiwbkmjblondcrk"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "AuthorizedTokenIssuerList": [
+            {
+                "AuthorizedAudiencesList": [
+                    "wwfgqfzjvboloovb"
+                ],
+                "TrustedTokenIssuerArn": "bwoshqwobcsjbslh"
+            }
+        ],
+        "IamRoleArn": "ivqsgehzcmdozhxb",
+        "IdcDisplayName": "ogohzimiupkfgrnt",
+        "IdcInstanceArn": "dijuxxhshomzpfbl",
+        "IdcManagedApplicationArn": "xpwlwudotjeprasy",
+        "IdcOnboardStatus": "tsfveramvgyhghyj",
+        "IdentityNamespace": "ajfhimnjdwuiklub",
+        "RedshiftIdcApplicationArn": "pqhlglboqxhbgeoy",
+        "RedshiftIdcApplicationName": "aaolboiawtbznbhk",
+        "ServiceIntegrations": [
+            {
+                "LakeFormation": [
+                    {
+                        "LakeFormationQuery": {
+                            "Authorization": "qgoqekiftqmgrhjh"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "AuthorizedTokenIssuerList": [
+            {
+                "AuthorizedAudiencesList": [
+                    "pjjjttaldutaydfn"
+                ],
+                "TrustedTokenIssuerArn": "ronulmcjgxhwusjg"
+            }
+        ],
+        "IamRoleArn": "iopnztiwdhcjmhee",
+        "IdcDisplayName": "qledtvlkbegxltvi",
+        "IdcInstanceArn": "qyilxqxvwmgulcsu",
+        "IdcManagedApplicationArn": "mvgsykgyujpphagm",
+        "IdcOnboardStatus": "hexoczvjyplqdsga",
+        "IdentityNamespace": "yxsfwapobhpmkrwm",
+        "RedshiftIdcApplicationArn": "flsiuecfsxoqrpvj",
+        "RedshiftIdcApplicationName": "vyrgienmrkpklqgg",
+        "ServiceIntegrations": [
+            {
+                "LakeFormation": [
+                    {
+                        "LakeFormationQuery": {
+                            "Authorization": "msewkypvsyhnngzf"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "AuthorizedTokenIssuerList": [
+            {
+                "AuthorizedAudiencesList": [
+                    "icutxblkciafxgmf"
+                ],
+                "TrustedTokenIssuerArn": "ztkrmyqmggjpqzcv"
+            }
+        ],
+        "IamRoleArn": "bcfzvqwjfnvdngtf",
+        "IdcDisplayName": "yrfihrikjhdqpbin",
+        "IdcInstanceArn": "zkbqjfqhdefdfjgi",
+        "IdcManagedApplicationArn": "gaytxtyswrnshqag",
+        "IdcOnboardStatus": "mxccltktorcomjxj",
+        "IdentityNamespace": "whegjmypjosynxbt",
+        "RedshiftIdcApplicationArn": "yvstcaxafiacibdk",
+        "RedshiftIdcApplicationName": "mbcwfvjoxcouvuas",
+        "ServiceIntegrations": [
+            {
+                "LakeFormation": [
+                    {
+                        "LakeFormationQuery": {
+                            "Authorization": "vrwtxjebafbmkmia"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "AuthorizedTokenIssuerList": [
+            {
+                "AuthorizedAudiencesList": [
+                    "peocexaiucgnunob"
+                ],
+                "TrustedTokenIssuerArn": "ckzqvpigniortxrl"
+            }
+        ],
+        "IamRoleArn": "trghoxsvboovgfff",
+        "IdcDisplayName": "fgjrozncvumxxrzd",
+        "IdcInstanceArn": "pnczjszsgzwqcxyx",
+        "IdcManagedApplicationArn": "jwbudmxdmuwhimxq",
+        "IdcOnboardStatus": "tyajltmwncyttwdg",
+        "IdentityNamespace": "fmuyikyoorzqnjjd",
+        "RedshiftIdcApplicationArn": "fqmkncgcfpdkyhla",
+        "RedshiftIdcApplicationName": "argojqkawsfqqqvn",
+        "ServiceIntegrations": [
+            {
+                "LakeFormation": [
+                    {
+                        "LakeFormationQuery": {
+                            "Authorization": "dnaylvchxtdcbjlu"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "AuthorizedTokenIssuerList": [
+            {
+                "AuthorizedAudiencesList": [
+                    "rplaeirrnytzcadw"
+                ],
+                "TrustedTokenIssuerArn": "shemgcljrgnokppi"
+            }
+        ],
+        "IamRoleArn": "ukwqszujhhprvrku",
+        "IdcDisplayName": "dbskzsgtvyzjjgvj",
+        "IdcInstanceArn": "ffunmiyhiktcsitf",
+        "IdcManagedApplicationArn": "mefrialpwjxsuaje",
+        "IdcOnboardStatus": "feevrubhesbmohzf",
+        "IdentityNamespace": "vtaqnpiwgtmaegsc",
+        "RedshiftIdcApplicationArn": "uemekhjksksxpebq",
+        "RedshiftIdcApplicationName": "xucahysyjwnwlagi",
+        "ServiceIntegrations": [
+            {
+                "LakeFormation": [
+                    {
+                        "LakeFormationQuery": {
+                            "Authorization": "kvhruslueuxyklgj"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "AuthorizedTokenIssuerList": [
+            {
+                "AuthorizedAudiencesList": [
+                    "biybgirgjdhhddeg"
+                ],
+                "TrustedTokenIssuerArn": "svpipgzarrutefcq"
+            }
+        ],
+        "IamRoleArn": "vmhqyhgolbhhogjm",
+        "IdcDisplayName": "jlgiloziwlgicras",
+        "IdcInstanceArn": "jgoleyrmulpcsudj",
+        "IdcManagedApplicationArn": "bpxjyplswlomzdxn",
+        "IdcOnboardStatus": "jmlurstxzdtylann",
+        "IdentityNamespace": "ipifvnkwyeildppu",
+        "RedshiftIdcApplicationArn": "vxmaxbkncqqwjxdh",
+        "RedshiftIdcApplicationName": "lehbtefhukdnksek",
+        "ServiceIntegrations": [
+            {
+                "LakeFormation": [
+                    {
+                        "LakeFormationQuery": {
+                            "Authorization": "cebnpyijuspilhoy"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "AuthorizedTokenIssuerList": [
+            {
+                "AuthorizedAudiencesList": [
+                    "brlgxfywnlcaflxt"
+                ],
+                "TrustedTokenIssuerArn": "lsrcybxpzjnhypis"
+            }
+        ],
+        "IamRoleArn": "fqlrxrhctjojulpt",
+        "IdcDisplayName": "loazztcmqzhhiagn",
+        "IdcInstanceArn": "dgrhraaisxzwelgt",
+        "IdcManagedApplicationArn": "ltyegaaijovqdfyv",
+        "IdcOnboardStatus": "bauuacrivjarwmic",
+        "IdentityNamespace": "yvxbcxnddnjsktxz",
+        "RedshiftIdcApplicationArn": "iutjafwvabwihkea",
+        "RedshiftIdcApplicationName": "amutfecoibsthaig",
+        "ServiceIntegrations": [
+            {
+                "LakeFormation": [
+                    {
+                        "LakeFormationQuery": {
+                            "Authorization": "aacxcqnnmcvoptgh"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "AuthorizedTokenIssuerList": [
+            {
+                "AuthorizedAudiencesList": [
+                    "bfguefvflarfetso"
+                ],
+                "TrustedTokenIssuerArn": "gndlwrwblhdgjxso"
+            }
+        ],
+        "IamRoleArn": "emjmeclpssrvfwyh",
+        "IdcDisplayName": "yokpgfqdwkizoidv",
+        "IdcInstanceArn": "nscmakwaqfgvaxid",
+        "IdcManagedApplicationArn": "gilaalijgpdsjeec",
+        "IdcOnboardStatus": "eivsupggwpcvpyzf",
+        "IdentityNamespace": "shilcpekacbhmgea",
+        "RedshiftIdcApplicationArn": "pwasawnmkiejrbux",
+        "RedshiftIdcApplicationName": "rggifhgixdcmfvze",
+        "ServiceIntegrations": [
+            {
+                "LakeFormation": [
+                    {
+                        "LakeFormationQuery": {
+                            "Authorization": "dshfwoqejoywrtwu"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "AuthorizedTokenIssuerList": [
+            {
+                "AuthorizedAudiencesList": [
+                    "dueekfjaotgnxekl"
+                ],
+                "TrustedTokenIssuerArn": "fbfqyftyuahrygue"
+            }
+        ],
+        "IamRoleArn": "vaojokyepngqscpy",
+        "IdcDisplayName": "uuxuwvujbxwakabq",
+        "IdcInstanceArn": "offzmgrtcsqqztyn",
+        "IdcManagedApplicationArn": "bkfuaboxdacqbbru",
+        "IdcOnboardStatus": "kbzdpklqlpilgrsy",
+        "IdentityNamespace": "rkemthoqqigzwotz",
+        "RedshiftIdcApplicationArn": "hzgjbcsyoofewhwu",
+        "RedshiftIdcApplicationName": "tjneqmfeqifxqhxy",
+        "ServiceIntegrations": [
+            {
+                "LakeFormation": [
+                    {
+                        "LakeFormationQuery": {
+                            "Authorization": "houotcuqhqpxwfyh"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

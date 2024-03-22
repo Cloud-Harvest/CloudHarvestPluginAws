@@ -1,0 +1,17 @@
+[
+    "qconnect.get-assistant",
+    "qconnect.get-assistant-association",
+    "qconnect.get-content",
+    "qconnect.get-content-summary",
+    "qconnect.get-import-job",
+    "qconnect.get-knowledge-base",
+    "qconnect.get-quick-response",
+    "qconnect.get-session",
+    "qconnect.list-assistant-associations",
+    "qconnect.list-assistants",
+    "qconnect.list-contents",
+    "qconnect.list-import-jobs",
+    "qconnect.list-knowledge-bases",
+    "qconnect.list-quick-responses",
+    "qconnect.list-tags-for-resource"
+]

@@ -1,0 +1,186 @@
+{
+    "input": {
+        "template": {
+            "stateMachineArn": "",
+            "statusFilter": "RUNNING",
+            "maxResults": 0,
+            "nextToken": "",
+            "mapRunArn": "",
+            "redriveFilter": "REDRIVEN"
+        },
+        "required": [],
+        "md5": "80d0f7c4d39b8913bba31145c7ced666",
+        "boto_command": "list_executions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "executionArn": "executionArn",
+                "stateMachineArn": "stateMachineArn",
+                "name": "name",
+                "status": "status",
+                "startDate": "1970-01-01T00:00:00",
+                "stopDate": "1970-01-01T00:00:00",
+                "mapRunArn": "mapRunArn",
+                "itemCount": 0,
+                "stateMachineVersionArn": "stateMachineVersionArn",
+                "stateMachineAliasArn": "stateMachineAliasArn",
+                "redriveCount": 0,
+                "redriveDate": "1970-01-01T00:00:00"
+            }
+        ],
+        "required": [],
+        "md5": "35b84a19b9bcf924399c51da08e56e47",
+        "randomized": [
+            {
+                "executionArn": "sfqubpdewphcwmso",
+                "itemCount": 0,
+                "mapRunArn": "quyspqbhbqnbkozt",
+                "name": "dktjjpcagsrwryfz",
+                "redriveCount": 0,
+                "redriveDate": "jzsdfvxwpxnjzvrc",
+                "startDate": "duxuuzbpzfeulsuq",
+                "stateMachineAliasArn": "ehqfohymlghwcosx",
+                "stateMachineArn": "hfckhcxrswvflkdc",
+                "stateMachineVersionArn": "kaaqxivyfcuygide",
+                "status": "nnoigmsegiczvmpe",
+                "stopDate": "cbvdqkjngvhcbygj"
+            },
+            {
+                "executionArn": "vkkhouvoydesdwod",
+                "itemCount": 0,
+                "mapRunArn": "llstgtxtjfzehzxo",
+                "name": "txqkrhrfyfnpenxl",
+                "redriveCount": 0,
+                "redriveDate": "aauuxikcsniidegc",
+                "startDate": "yhkltvovcjtbgayx",
+                "stateMachineAliasArn": "thmoknicbmkjeudm",
+                "stateMachineArn": "iobhhneqznelbtdz",
+                "stateMachineVersionArn": "eyjmqvxhsfjsnbva",
+                "status": "vpxdaxwaxxgteawg",
+                "stopDate": "rztersvmnqltaock"
+            },
+            {
+                "executionArn": "dwbbleujtqktblao",
+                "itemCount": 0,
+                "mapRunArn": "gjueaaefjxrhcynr",
+                "name": "bncyzyixxxiwvfzk",
+                "redriveCount": 0,
+                "redriveDate": "uhqsvhgaypcijzem",
+                "startDate": "syhffwryvcdliwtz",
+                "stateMachineAliasArn": "fyydlsdgzpvecvku",
+                "stateMachineArn": "fykgavqxgavpekfq",
+                "stateMachineVersionArn": "gzgdiehtidhvibmf",
+                "status": "etxbgkltadewqfvb",
+                "stopDate": "jzgzazpfblbabcwm"
+            },
+            {
+                "executionArn": "cphjytbnyiuhckcw",
+                "itemCount": 0,
+                "mapRunArn": "yfimivmpswjvypwz",
+                "name": "ecbfamfasuvqakvt",
+                "redriveCount": 0,
+                "redriveDate": "ruferawrhymbrgbo",
+                "startDate": "xxwleeaswljfmxei",
+                "stateMachineAliasArn": "gxpgqjfdkzenjjxs",
+                "stateMachineArn": "gnwswrvcarfilcha",
+                "stateMachineVersionArn": "axpavzpgepnyiaax",
+                "status": "cebbzajfebxldhyz",
+                "stopDate": "dbrxjltzzdcukybu"
+            },
+            {
+                "executionArn": "yzapoyjdezqtepru",
+                "itemCount": 0,
+                "mapRunArn": "uowovgrfriqaxpyx",
+                "name": "ntbbbipoadpsxupp",
+                "redriveCount": 0,
+                "redriveDate": "scqpewypdrpsjjeg",
+                "startDate": "iuwvqbnfhspaazty",
+                "stateMachineAliasArn": "rrmenvuvwcpkfvua",
+                "stateMachineArn": "lbdtidbacktmloxl",
+                "stateMachineVersionArn": "gnxcxuzgfivpbtmq",
+                "status": "hfdhmnkrfsmsvfps",
+                "stopDate": "hnyeohoducnfvxsx"
+            },
+            {
+                "executionArn": "wfxfrukvadsfqcjj",
+                "itemCount": 0,
+                "mapRunArn": "tfmubgnapssurymu",
+                "name": "lzlpdbwpizcmruzz",
+                "redriveCount": 0,
+                "redriveDate": "izjpuezhtypdadnw",
+                "startDate": "xrgrulcoofzszzas",
+                "stateMachineAliasArn": "hwfxxldmdxfqhmuq",
+                "stateMachineArn": "nlhnfmzdqbgkoiit",
+                "stateMachineVersionArn": "rztyjonqhtkupnnb",
+                "status": "goruxxbsasdnlnwr",
+                "stopDate": "awpfnbfsmufbdtac"
+            },
+            {
+                "executionArn": "suwkdtrhcdpfqwiu",
+                "itemCount": 0,
+                "mapRunArn": "sqlalbmxxiyxvyxq",
+                "name": "bycgcvqhbrjnhmrc",
+                "redriveCount": 0,
+                "redriveDate": "pozxxlcpmhbktwhg",
+                "startDate": "thvrvbkxtpslnexo",
+                "stateMachineAliasArn": "tnydybcomhdtwxwm",
+                "stateMachineArn": "uuotuuuqmdvnymvv",
+                "stateMachineVersionArn": "zvzhbrgfpyqxmixj",
+                "status": "agknmarudmuhlzgo",
+                "stopDate": "niriatuqyzwvvmnb"
+            },
+            {
+                "executionArn": "tsegnudnodamneib",
+                "itemCount": 0,
+                "mapRunArn": "uwyxuwkyuzheodcd",
+                "name": "ipxogqaoudruppfe",
+                "redriveCount": 0,
+                "redriveDate": "mfopykufigcejmrp",
+                "startDate": "ocokaixuxctpyhzz",
+                "stateMachineAliasArn": "bypulpbilldtvoay",
+                "stateMachineArn": "rwsotymcndsydajg",
+                "stateMachineVersionArn": "qtkfcndvgkflrcmh",
+                "status": "qglaerzgveglrmak",
+                "stopDate": "eucgwwsbmelgpfss"
+            },
+            {
+                "executionArn": "csveinbogellwakm",
+                "itemCount": 0,
+                "mapRunArn": "nnddinhpebsqcpsy",
+                "name": "ybpqzxjkmhjndlvd",
+                "redriveCount": 0,
+                "redriveDate": "jlecrhzavqwpfanv",
+                "startDate": "gmyodfxbbpfxxuao",
+                "stateMachineAliasArn": "kzxfgjkwzqgzjpqb",
+                "stateMachineArn": "fqeldwdngitnkmke",
+                "stateMachineVersionArn": "fujwjhbruigddshz",
+                "status": "kuvkyztxxodiwhbt",
+                "stopDate": "enjnvnaqzqxpucjg"
+            },
+            {
+                "executionArn": "setvjahgmsipinmk",
+                "itemCount": 0,
+                "mapRunArn": "ajbmivqgfkltfaok",
+                "name": "ulnkycjjtglhelzk",
+                "redriveCount": 0,
+                "redriveDate": "krbyfopyjyachrzm",
+                "startDate": "nagglxxmgwwfvkyh",
+                "stateMachineAliasArn": "zbefsbqfgzfgmqxi",
+                "stateMachineArn": "nkoqaiunqmizvvup",
+                "stateMachineVersionArn": "stinrjukecrnksmu",
+                "status": "mpuypmvjyqxxixso",
+                "stopDate": "eaxjnybhzwvxgute"
+            }
+        ],
+        "result_key": "executions"
+    },
+    "meta": {
+        "start": 1711116697.698743,
+        "end": 1711116705.068527,
+        "duration": 7.369795799255371,
+        "service": "stepfunctions",
+        "type": "executions"
+    }
+}

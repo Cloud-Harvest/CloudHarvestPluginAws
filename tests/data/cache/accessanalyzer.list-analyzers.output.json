@@ -1,0 +1,249 @@
+{
+    "input": {
+        "template": {
+            "nextToken": "",
+            "maxResults": 0,
+            "type": "ACCOUNT"
+        },
+        "required": [],
+        "md5": "eb948585dfe367145dbc6edd4974aeda",
+        "boto_command": "list_analyzers",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "arn": "arn",
+                "name": "name",
+                "type": "type",
+                "createdAt": "1970-01-01T00:00:00",
+                "lastResourceAnalyzed": "lastResourceAnalyzed",
+                "lastResourceAnalyzedAt": "1970-01-01T00:00:00",
+                "tags": {
+                    "KeyName": ""
+                },
+                "status": "status",
+                "statusReason": {
+                    "code": "code"
+                },
+                "configuration": {
+                    "unusedAccess": {
+                        "unusedAccessAge": 0
+                    }
+                }
+            }
+        ],
+        "required": [],
+        "md5": "3abf78ec76d26bbffc9827fc04a43c48",
+        "randomized": [
+            {
+                "arn": "kitbdhewsfaiwlyx",
+                "configuration": {
+                    "unusedAccess": {
+                        "unusedAccessAge": 0
+                    }
+                },
+                "createdAt": "ztqduejtvbjttvqk",
+                "lastResourceAnalyzed": "kdxsahesdrdzlwxk",
+                "lastResourceAnalyzedAt": "zuzarwgjojmaqwcf",
+                "name": "sdxpsaqvjaxykqvx",
+                "status": "lduelcwhdsoiczyz",
+                "statusReason": {
+                    "code": "izsbbrllgeldnylk"
+                },
+                "tags": {
+                    "KeyName": "aoaojvjgofnznpjv"
+                },
+                "type": "cnoblezclmfdream"
+            },
+            {
+                "arn": "nnltuiiaqpsrxnol",
+                "configuration": {
+                    "unusedAccess": {
+                        "unusedAccessAge": 0
+                    }
+                },
+                "createdAt": "lofadpzsuzduxaqi",
+                "lastResourceAnalyzed": "xqeyrpxnypwwjlhb",
+                "lastResourceAnalyzedAt": "grupuzwfkxsxrukp",
+                "name": "bhluzhcwirzknfar",
+                "status": "jdgrwpdwwmteflfu",
+                "statusReason": {
+                    "code": "udgyobakuacfrafe"
+                },
+                "tags": {
+                    "KeyName": "vewwodofufjnwhoc"
+                },
+                "type": "aepmzeqsxhyyqxxo"
+            },
+            {
+                "arn": "pujmnvmtittlwiih",
+                "configuration": {
+                    "unusedAccess": {
+                        "unusedAccessAge": 0
+                    }
+                },
+                "createdAt": "pmsguzhdkakwqomm",
+                "lastResourceAnalyzed": "cxsmsdyfldpnjuup",
+                "lastResourceAnalyzedAt": "mrwbhpiyemjwxexm",
+                "name": "tnhnlokmafwylofr",
+                "status": "xowkccdqixusvwgd",
+                "statusReason": {
+                    "code": "hmweeodphzioxljg"
+                },
+                "tags": {
+                    "KeyName": "gcmmqrlztdoekfkm"
+                },
+                "type": "rnhppenrwmlfxywc"
+            },
+            {
+                "arn": "yvihchzomlxqstnv",
+                "configuration": {
+                    "unusedAccess": {
+                        "unusedAccessAge": 0
+                    }
+                },
+                "createdAt": "lshbppahishwrwph",
+                "lastResourceAnalyzed": "rntqhoctcrhebptj",
+                "lastResourceAnalyzedAt": "blriaxrplkabmnth",
+                "name": "zxxzsdvxtiztgqfk",
+                "status": "ossfqognjvrtdwzl",
+                "statusReason": {
+                    "code": "hrntmrubqzwymkzv"
+                },
+                "tags": {
+                    "KeyName": "bgufuahacmoqngfd"
+                },
+                "type": "moyfpvhdqdltywrl"
+            },
+            {
+                "arn": "yrquhfzashptuzdt",
+                "configuration": {
+                    "unusedAccess": {
+                        "unusedAccessAge": 0
+                    }
+                },
+                "createdAt": "osvovbafplhbcfan",
+                "lastResourceAnalyzed": "dxmratczwvxrtmvk",
+                "lastResourceAnalyzedAt": "qksmdkhohmesvdsc",
+                "name": "ylitionbwjsaezmt",
+                "status": "bpjsotimhznhqjnf",
+                "statusReason": {
+                    "code": "vfrtgferttefkipc"
+                },
+                "tags": {
+                    "KeyName": "obheibhzphakdmny"
+                },
+                "type": "urfhonpnozfjwons"
+            },
+            {
+                "arn": "birbmttwfcfxdcxz",
+                "configuration": {
+                    "unusedAccess": {
+                        "unusedAccessAge": 0
+                    }
+                },
+                "createdAt": "mnydawooiaddsnwl",
+                "lastResourceAnalyzed": "ywkeqbytjwruwbdk",
+                "lastResourceAnalyzedAt": "vqnwtdhigqepoxhh",
+                "name": "xewxehcnfzppykfm",
+                "status": "gzrftriskvmqpydf",
+                "statusReason": {
+                    "code": "kjkhvfnadeubcrzd"
+                },
+                "tags": {
+                    "KeyName": "vufgyjcsbabzfmkb"
+                },
+                "type": "wfbwqietmbuntajf"
+            },
+            {
+                "arn": "ldgbbvztogslbwjs",
+                "configuration": {
+                    "unusedAccess": {
+                        "unusedAccessAge": 0
+                    }
+                },
+                "createdAt": "dommzqoolyrumiaz",
+                "lastResourceAnalyzed": "ryiecrbxjbuanxis",
+                "lastResourceAnalyzedAt": "hmmkcxejayddlwpf",
+                "name": "xcmupdbavvoohdoq",
+                "status": "saudcnfromlukmxn",
+                "statusReason": {
+                    "code": "olbcccwbvmnbwpfn"
+                },
+                "tags": {
+                    "KeyName": "pzyygrnpkolwoxnk"
+                },
+                "type": "cohivvsarmvduyga"
+            },
+            {
+                "arn": "zdokarqwlasuvhme",
+                "configuration": {
+                    "unusedAccess": {
+                        "unusedAccessAge": 0
+                    }
+                },
+                "createdAt": "vdcqylrmguwejcds",
+                "lastResourceAnalyzed": "cmgtiqfhcpajxtby",
+                "lastResourceAnalyzedAt": "ziazcicopwdjeoep",
+                "name": "fhxyerrpbmraizlo",
+                "status": "rdhcltinisproayh",
+                "statusReason": {
+                    "code": "ollgpbglznedhfcb"
+                },
+                "tags": {
+                    "KeyName": "ehuhanyboshashfk"
+                },
+                "type": "kvwozxzmzwyplykj"
+            },
+            {
+                "arn": "aesvbuyodntlpgqk",
+                "configuration": {
+                    "unusedAccess": {
+                        "unusedAccessAge": 0
+                    }
+                },
+                "createdAt": "tlcmmshwzbabxqtj",
+                "lastResourceAnalyzed": "elqeplhvfnnakhka",
+                "lastResourceAnalyzedAt": "rpvoyigorpukdlzh",
+                "name": "klbdmcuhnoholmjs",
+                "status": "uhhtlsyaexvtbjia",
+                "statusReason": {
+                    "code": "pzpovgneqhveftpg"
+                },
+                "tags": {
+                    "KeyName": "elchidoavdvvwtws"
+                },
+                "type": "oivrtpmyiivvqlky"
+            },
+            {
+                "arn": "zjwoaoebglbkezuo",
+                "configuration": {
+                    "unusedAccess": {
+                        "unusedAccessAge": 0
+                    }
+                },
+                "createdAt": "qhbbvloqcqwwyjzl",
+                "lastResourceAnalyzed": "gwgygzptunpigtwu",
+                "lastResourceAnalyzedAt": "wnznbvpocsmjpdab",
+                "name": "rqbtuxzmgqbywekz",
+                "status": "rtbyprrkjxhgrosh",
+                "statusReason": {
+                    "code": "yrcejgudmokupkbe"
+                },
+                "tags": {
+                    "KeyName": "oapkwjqsoxgvtgkx"
+                },
+                "type": "khjisrpgfubkgzcd"
+            }
+        ],
+        "result_key": "analyzers"
+    },
+    "meta": {
+        "start": 1711115179.144826,
+        "end": 1711115188.022234,
+        "duration": 8.877433061599731,
+        "service": "accessanalyzer",
+        "type": "analyzers"
+    }
+}

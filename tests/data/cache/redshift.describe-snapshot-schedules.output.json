@@ -1,0 +1,289 @@
+{
+    "input": {
+        "template": {
+            "ClusterIdentifier": "",
+            "ScheduleIdentifier": "",
+            "TagKeys": [
+                ""
+            ],
+            "TagValues": [
+                ""
+            ],
+            "Marker": "",
+            "MaxRecords": 0
+        },
+        "required": [],
+        "md5": "04f523cb4821e5c062d62c543b1c3430",
+        "boto_command": "describe_snapshot_schedules",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "ScheduleDefinitions": [
+                    "String"
+                ],
+                "ScheduleIdentifier": "ScheduleIdentifier",
+                "ScheduleDescription": "ScheduleDescription",
+                "Tags": [
+                    {
+                        "Key": "Key",
+                        "Value": "Value"
+                    }
+                ],
+                "NextInvocations": [
+                    "1970-01-01T00:00:00"
+                ],
+                "AssociatedClusterCount": 0,
+                "AssociatedClusters": [
+                    {
+                        "ClusterIdentifier": "ClusterIdentifier",
+                        "ScheduleAssociationState": "ScheduleAssociationState"
+                    }
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "073367013fde5678bc09679e76703988",
+        "randomized": [
+            {
+                "AssociatedClusterCount": 0,
+                "AssociatedClusters": [
+                    {
+                        "ClusterIdentifier": "uxqydvwtqgipudlc",
+                        "ScheduleAssociationState": "wheyvlwcfmeefptt"
+                    }
+                ],
+                "NextInvocations": [
+                    "pegecfywkqfsabap"
+                ],
+                "ScheduleDefinitions": [
+                    "sysitusaituumghb"
+                ],
+                "ScheduleDescription": "owtwymarxexfsowx",
+                "ScheduleIdentifier": "swatsfwgdqbokcpe",
+                "Tags": [
+                    {
+                        "Key": "wpzfolrstwlsrejt",
+                        "Value": "ebqvgjxkbybyscyn"
+                    }
+                ]
+            },
+            {
+                "AssociatedClusterCount": 0,
+                "AssociatedClusters": [
+                    {
+                        "ClusterIdentifier": "oskkhtpwisjlawyz",
+                        "ScheduleAssociationState": "fhilpadwwnbucsij"
+                    }
+                ],
+                "NextInvocations": [
+                    "qokwqwwohtfxsyxm"
+                ],
+                "ScheduleDefinitions": [
+                    "uzbdhwxjzrnxjjlu"
+                ],
+                "ScheduleDescription": "wnfdnhrnuhmrstbv",
+                "ScheduleIdentifier": "fqkaszmirdivpqdd",
+                "Tags": [
+                    {
+                        "Key": "qalgclseotcmrsst",
+                        "Value": "ctnemlhinrighdva"
+                    }
+                ]
+            },
+            {
+                "AssociatedClusterCount": 0,
+                "AssociatedClusters": [
+                    {
+                        "ClusterIdentifier": "wychmztpxgpgrvqx",
+                        "ScheduleAssociationState": "qlvqbkutrbfbcevx"
+                    }
+                ],
+                "NextInvocations": [
+                    "ywkzuldddnamccai"
+                ],
+                "ScheduleDefinitions": [
+                    "tunhsdneqknjrgir"
+                ],
+                "ScheduleDescription": "tsgsnxhsqcfpkjtb",
+                "ScheduleIdentifier": "fquyulnnvvmfbmew",
+                "Tags": [
+                    {
+                        "Key": "yvnkqmduwsiwcjbm",
+                        "Value": "ofepgcmjrxncvgln"
+                    }
+                ]
+            },
+            {
+                "AssociatedClusterCount": 0,
+                "AssociatedClusters": [
+                    {
+                        "ClusterIdentifier": "cadxttxajzvimiqc",
+                        "ScheduleAssociationState": "lslvjzfqvtikswqn"
+                    }
+                ],
+                "NextInvocations": [
+                    "zsctdxxmnbntwpnj"
+                ],
+                "ScheduleDefinitions": [
+                    "ghkmegeezfexjatz"
+                ],
+                "ScheduleDescription": "dfzslmqouiecczic",
+                "ScheduleIdentifier": "osfgdqdghqucxagl",
+                "Tags": [
+                    {
+                        "Key": "cbgpomdddngkfnui",
+                        "Value": "hgejtgxokaavfzgh"
+                    }
+                ]
+            },
+            {
+                "AssociatedClusterCount": 0,
+                "AssociatedClusters": [
+                    {
+                        "ClusterIdentifier": "oukbttxsqgbbmuri",
+                        "ScheduleAssociationState": "xaaqcdsoayhvijwl"
+                    }
+                ],
+                "NextInvocations": [
+                    "xujbsgmpmvwtlklc"
+                ],
+                "ScheduleDefinitions": [
+                    "uznkkawsuegarajk"
+                ],
+                "ScheduleDescription": "sbnhdloqzzeqhuob",
+                "ScheduleIdentifier": "hzqjjmqxojvqjxia",
+                "Tags": [
+                    {
+                        "Key": "xjintsxulzlkseel",
+                        "Value": "nzlwkayvyfetqhfp"
+                    }
+                ]
+            },
+            {
+                "AssociatedClusterCount": 0,
+                "AssociatedClusters": [
+                    {
+                        "ClusterIdentifier": "hthwkhxvpxtvjlhy",
+                        "ScheduleAssociationState": "vifmsgdwwqssqxva"
+                    }
+                ],
+                "NextInvocations": [
+                    "bjcsqiuqcjctrsxo"
+                ],
+                "ScheduleDefinitions": [
+                    "fsnjzreicnsosjxo"
+                ],
+                "ScheduleDescription": "rnfwrzccjsqsnuzh",
+                "ScheduleIdentifier": "yhfkgbfpeiacdqkt",
+                "Tags": [
+                    {
+                        "Key": "gsgqhagytxansmrs",
+                        "Value": "zdvcdmmiqjxysevp"
+                    }
+                ]
+            },
+            {
+                "AssociatedClusterCount": 0,
+                "AssociatedClusters": [
+                    {
+                        "ClusterIdentifier": "suymzqptlfweqndv",
+                        "ScheduleAssociationState": "aehlgrjuxnmyauph"
+                    }
+                ],
+                "NextInvocations": [
+                    "hjknfudihqhfyxhf"
+                ],
+                "ScheduleDefinitions": [
+                    "ywtlhplyecoiqwce"
+                ],
+                "ScheduleDescription": "psyopcgokdndjktz",
+                "ScheduleIdentifier": "rcvlxtgavvwircvu",
+                "Tags": [
+                    {
+                        "Key": "xixvkfbgbmyhzohi",
+                        "Value": "orqgrurrkrkpkvke"
+                    }
+                ]
+            },
+            {
+                "AssociatedClusterCount": 0,
+                "AssociatedClusters": [
+                    {
+                        "ClusterIdentifier": "gkxeswisphxsezap",
+                        "ScheduleAssociationState": "ndnprywxsykvnmbq"
+                    }
+                ],
+                "NextInvocations": [
+                    "thximmhrfyvneghe"
+                ],
+                "ScheduleDefinitions": [
+                    "xbxmdrrntgbjjzfb"
+                ],
+                "ScheduleDescription": "hhwbposrptzutndj",
+                "ScheduleIdentifier": "dxfolniiqoeorhso",
+                "Tags": [
+                    {
+                        "Key": "skjvyihdpvdxjxnc",
+                        "Value": "ysqzaprnpluhwjdp"
+                    }
+                ]
+            },
+            {
+                "AssociatedClusterCount": 0,
+                "AssociatedClusters": [
+                    {
+                        "ClusterIdentifier": "txprjhekktjyclqa",
+                        "ScheduleAssociationState": "jwoomrejwsclgbkx"
+                    }
+                ],
+                "NextInvocations": [
+                    "bsauyelwqlnfcina"
+                ],
+                "ScheduleDefinitions": [
+                    "kqxfiweotwlalufi"
+                ],
+                "ScheduleDescription": "xtwqvbvjuoaxfzte",
+                "ScheduleIdentifier": "oqlgljnojsznyqwb",
+                "Tags": [
+                    {
+                        "Key": "dweujymqagtffjms",
+                        "Value": "uvcomcvhvsuswurp"
+                    }
+                ]
+            },
+            {
+                "AssociatedClusterCount": 0,
+                "AssociatedClusters": [
+                    {
+                        "ClusterIdentifier": "vovplcrpicjvzijx",
+                        "ScheduleAssociationState": "yscsirkwkusrlhvt"
+                    }
+                ],
+                "NextInvocations": [
+                    "wyjfgqntaafgpelh"
+                ],
+                "ScheduleDefinitions": [
+                    "ejvzaeqfhjtbygta"
+                ],
+                "ScheduleDescription": "arylcnrmveriudbk",
+                "ScheduleIdentifier": "fjdxaccpqmennuut",
+                "Tags": [
+                    {
+                        "Key": "diioxgifwvcivbyf",
+                        "Value": "yhmkceounucggspx"
+                    }
+                ]
+            }
+        ],
+        "result_key": "SnapshotSchedules"
+    },
+    "meta": {
+        "start": 1711116430.79603,
+        "end": 1711116437.049321,
+        "duration": 6.253303050994873,
+        "service": "redshift",
+        "type": "snapshot_schedules"
+    }
+}

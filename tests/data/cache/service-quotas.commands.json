@@ -1,0 +1,14 @@
+[
+    "service-quotas.get-association-for-service-quota-template",
+    "service-quotas.get-aws-default-service-quota",
+    "service-quotas.get-requested-service-quota-change",
+    "service-quotas.get-service-quota",
+    "service-quotas.get-service-quota-increase-request-from-template",
+    "service-quotas.list-aws-default-service-quotas",
+    "service-quotas.list-requested-service-quota-change-history",
+    "service-quotas.list-requested-service-quota-change-history-by-quota",
+    "service-quotas.list-service-quota-increase-requests-in-template",
+    "service-quotas.list-service-quotas",
+    "service-quotas.list-services",
+    "service-quotas.list-tags-for-resource"
+]

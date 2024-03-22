@@ -1,0 +1,110 @@
+{
+    "input": {
+        "template": {
+            "userArn": "",
+            "environmentId": "",
+            "permissions": [
+                "owner"
+            ],
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "required": [],
+        "md5": "0e432bfb44205d1dc43a1dd3079a3ecb",
+        "boto_command": "describe_environment_memberships",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "permissions": "permissions",
+                "userId": "userId",
+                "userArn": "userArn",
+                "environmentId": "environmentId",
+                "lastAccess": "1970-01-01T00:00:00"
+            }
+        ],
+        "required": [],
+        "md5": "a25ddc08ca8396c3634b83803f90da6f",
+        "randomized": [
+            {
+                "environmentId": "kthotbzbcjewousu",
+                "lastAccess": "mykqgvawfecchvzv",
+                "permissions": "pydmsspwsbzvnvbt",
+                "userArn": "ghtsfvljfxhlbbfg",
+                "userId": "fmkgekmtkjvwmpgi"
+            },
+            {
+                "environmentId": "butoudwyvfoegndv",
+                "lastAccess": "mbxvujlfwckarprq",
+                "permissions": "ovgnqrsrzrmbmnsj",
+                "userArn": "foudtyhdrwxplqzr",
+                "userId": "cjtphtzfxokjgnzl"
+            },
+            {
+                "environmentId": "jvlvapfaconbltvc",
+                "lastAccess": "efbvbpojyeynfypb",
+                "permissions": "vryuanifkidsafpb",
+                "userArn": "ipxytlicxlmdeplw",
+                "userId": "jqdfwcvwffqyxojq"
+            },
+            {
+                "environmentId": "ptzuiunxwawomgrc",
+                "lastAccess": "cxyarvcgjmrpikdn",
+                "permissions": "bqyjmtdwjuuhtnpa",
+                "userArn": "gkixvxydviystiip",
+                "userId": "pkqidtxixvlfvbqp"
+            },
+            {
+                "environmentId": "suluzbhlghsbkwta",
+                "lastAccess": "lkapgwjuojkrpcki",
+                "permissions": "pfzsusrlqbyhcwkc",
+                "userArn": "zdtarlunijmfrmvu",
+                "userId": "wswjmilmehsheydi"
+            },
+            {
+                "environmentId": "jygqhejxymtjwxhg",
+                "lastAccess": "vrwnwozesgjbzqia",
+                "permissions": "qmglqkwnmeorxssy",
+                "userArn": "qthozmavnyqooord",
+                "userId": "acqddolsdwctgaex"
+            },
+            {
+                "environmentId": "iihqudpmpupejxjx",
+                "lastAccess": "zbwinkfpgljqupjx",
+                "permissions": "wcvnwbxvzuthxtcj",
+                "userArn": "aljvhhadfkuojbsu",
+                "userId": "ngcrpepwsxtxjler"
+            },
+            {
+                "environmentId": "uqfcgeoabzlwvqqj",
+                "lastAccess": "sfqgojpeokaiekto",
+                "permissions": "qcnqjnfqhvqyiaon",
+                "userArn": "orcxeszaldzvgqnk",
+                "userId": "hdapjjxxqtahclcx"
+            },
+            {
+                "environmentId": "wxoxpkyzercgrptl",
+                "lastAccess": "oprpbkpxzahtsvow",
+                "permissions": "gfehjbvzwpeahpdx",
+                "userArn": "jelutchrjvaukhbx",
+                "userId": "futqqjsqsmtmqhxf"
+            },
+            {
+                "environmentId": "gkyavdsssrkveove",
+                "lastAccess": "ehjzkfmcihhpejme",
+                "permissions": "tnuxlgkdbgbltcdt",
+                "userArn": "qhzfyqysnqeumgnp",
+                "userId": "jrtotcqbzzookuzi"
+            }
+        ],
+        "result_key": "memberships"
+    },
+    "meta": {
+        "start": 1711115348.581805,
+        "end": 1711115356.786826,
+        "duration": 8.205029964447021,
+        "service": "cloud9",
+        "type": "environment_memberships"
+    }
+}

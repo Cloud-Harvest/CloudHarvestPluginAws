@@ -1,0 +1,9 @@
+[
+    "redshift-data.describe-statement",
+    "redshift-data.describe-table",
+    "redshift-data.get-statement-result",
+    "redshift-data.list-databases",
+    "redshift-data.list-schemas",
+    "redshift-data.list-statements",
+    "redshift-data.list-tables"
+]

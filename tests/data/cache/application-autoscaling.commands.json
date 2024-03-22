@@ -1,0 +1,7 @@
+[
+    "application-autoscaling.describe-scalable-targets",
+    "application-autoscaling.describe-scaling-activities",
+    "application-autoscaling.describe-scaling-policies",
+    "application-autoscaling.describe-scheduled-actions",
+    "application-autoscaling.list-tags-for-resource"
+]

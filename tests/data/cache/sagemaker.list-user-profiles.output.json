@@ -1,0 +1,109 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0,
+            "SortOrder": "Ascending",
+            "SortBy": "CreationTime",
+            "DomainIdEquals": "",
+            "UserProfileNameContains": ""
+        },
+        "required": [],
+        "md5": "50b0f579ca059e298772374336902ac6",
+        "boto_command": "list_user_profiles",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "DomainId": "DomainId",
+                "UserProfileName": "UserProfileName",
+                "Status": "Status",
+                "CreationTime": "1970-01-01T00:00:00",
+                "LastModifiedTime": "1970-01-01T00:00:00"
+            }
+        ],
+        "required": [],
+        "md5": "3050fcb8eef63af76decb2538ca853c1",
+        "randomized": [
+            {
+                "CreationTime": "ddivihwdmrukzwku",
+                "DomainId": "viwfvmfhrswnsnod",
+                "LastModifiedTime": "djkkelitgjegmdxw",
+                "Status": "uhabsmjtggysqoye",
+                "UserProfileName": "sqpbdxrxaagprkwp"
+            },
+            {
+                "CreationTime": "nalflvbeddbjngfj",
+                "DomainId": "zrwytvdlznoddvsv",
+                "LastModifiedTime": "jplwuxixpoyzjaxh",
+                "Status": "pfdjypbbjhpvpvsw",
+                "UserProfileName": "ooysytuvxmdnlatk"
+            },
+            {
+                "CreationTime": "wbytlwvunfwbehfg",
+                "DomainId": "pkjmgnycihsyhzum",
+                "LastModifiedTime": "ydadyqblklhojrdd",
+                "Status": "facjorsgiynveslj",
+                "UserProfileName": "oangohswmmbofdjn"
+            },
+            {
+                "CreationTime": "rdqdjybgsqlnydwo",
+                "DomainId": "hvolsmyhfqwvgrxd",
+                "LastModifiedTime": "beeqexileilraszf",
+                "Status": "bzxuvbpbdqzjuams",
+                "UserProfileName": "yrhkqlzhzassjvyn"
+            },
+            {
+                "CreationTime": "prauxmmbcorxdlal",
+                "DomainId": "ecuytnbnnwhqhxul",
+                "LastModifiedTime": "jeebqpbhltzrjkyf",
+                "Status": "fvhxcnzpjqljrqtr",
+                "UserProfileName": "xdwpsegpwfngjalf"
+            },
+            {
+                "CreationTime": "jwluigfaqdjwedbs",
+                "DomainId": "czpskbatniyryfcp",
+                "LastModifiedTime": "wuexblxatjgiomxk",
+                "Status": "qucfznefipuiqlxn",
+                "UserProfileName": "vjtnnmvwxkecejmi"
+            },
+            {
+                "CreationTime": "dytrdnyelipwezdu",
+                "DomainId": "cjllmeyonhmyzabj",
+                "LastModifiedTime": "ywqzuqywbgcbshmv",
+                "Status": "qqhzbgfeakzpdgdt",
+                "UserProfileName": "sfqfecerqwrmzcol"
+            },
+            {
+                "CreationTime": "ymsbrcvtfjpqylwr",
+                "DomainId": "retnstrqasxjfedc",
+                "LastModifiedTime": "iwqhketdogywxyzn",
+                "Status": "rdfxvpdnqwiroipr",
+                "UserProfileName": "sckfgjrjrfpjujyc"
+            },
+            {
+                "CreationTime": "erwemxidgalhqqgh",
+                "DomainId": "fjwlkztznfwdznda",
+                "LastModifiedTime": "pyxuadfiogicpclh",
+                "Status": "upcqarebrmlhvpmz",
+                "UserProfileName": "arzwltoahxisqzau"
+            },
+            {
+                "CreationTime": "dqozqeedzbzblamj",
+                "DomainId": "eslbclgbzfbsbibv",
+                "LastModifiedTime": "xjuejfaekfemmtez",
+                "Status": "hruohvkmepixwxlk",
+                "UserProfileName": "hejimczpmcdmtadd"
+            }
+        ],
+        "result_key": "UserProfiles"
+    },
+    "meta": {
+        "start": 1711116572.080732,
+        "end": 1711116578.699625,
+        "duration": 6.618902921676636,
+        "service": "sagemaker",
+        "type": "user_profiles"
+    }
+}

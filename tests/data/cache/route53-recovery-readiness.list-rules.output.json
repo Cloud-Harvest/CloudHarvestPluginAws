@@ -1,0 +1,84 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": "",
+            "ResourceType": ""
+        },
+        "required": [],
+        "md5": "181a1691dfc737365b3805a0f5317101",
+        "boto_command": "list_rules",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "ResourceType": "ResourceType",
+                "RuleDescription": "RuleDescription",
+                "RuleId": "RuleId"
+            }
+        ],
+        "required": [],
+        "md5": "f15cfa997c9a2f6a9c860d7164845b27",
+        "randomized": [
+            {
+                "ResourceType": "eubltmvfgrmyxkmw",
+                "RuleDescription": "sdfdvywgrjanrlmf",
+                "RuleId": "lmvnketpgveqtqve"
+            },
+            {
+                "ResourceType": "etsitfvwnpwsobxc",
+                "RuleDescription": "cteeequzggjkyaur",
+                "RuleId": "wsrrinxwmwfiszpk"
+            },
+            {
+                "ResourceType": "qgozrrrlammsurka",
+                "RuleDescription": "uohvzlheabvhzzmx",
+                "RuleId": "mirtcvydxrvlrqla"
+            },
+            {
+                "ResourceType": "uftlduwsimfrqjfa",
+                "RuleDescription": "hstxxirnryrdqsam",
+                "RuleId": "anqwjeaenjqpkexc"
+            },
+            {
+                "ResourceType": "xuporecggcgudtdy",
+                "RuleDescription": "yypwhxlvgzwntebc",
+                "RuleId": "ngkxxhbiehbtjtwt"
+            },
+            {
+                "ResourceType": "rfzuvgvrhcqxquzv",
+                "RuleDescription": "flsjwdamieyszhsb",
+                "RuleId": "ljbnkpxbsixgrxcn"
+            },
+            {
+                "ResourceType": "lhhaqbdkpqkwlcab",
+                "RuleDescription": "ielgodrocyvrrhej",
+                "RuleId": "najcsgybqdhljpdl"
+            },
+            {
+                "ResourceType": "udxltjygiwihfucm",
+                "RuleDescription": "abiyqoexrbrscvlc",
+                "RuleId": "xmxhridjmgjwisul"
+            },
+            {
+                "ResourceType": "bevyklbqngglpzyx",
+                "RuleDescription": "hqrhobspuawocaud",
+                "RuleId": "smkbafehlpgskrze"
+            },
+            {
+                "ResourceType": "wqkunyyisevnxbbr",
+                "RuleDescription": "uielmdairkwocqch",
+                "RuleId": "jaxsvcterycrkcjk"
+            }
+        ],
+        "result_key": "Rules"
+    },
+    "meta": {
+        "start": 1711116488.662624,
+        "end": 1711116497.477935,
+        "duration": 8.815320014953613,
+        "service": "route53-recovery-readiness",
+        "type": "rules"
+    }
+}

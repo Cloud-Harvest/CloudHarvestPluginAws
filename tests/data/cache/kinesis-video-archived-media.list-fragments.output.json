@@ -1,0 +1,114 @@
+{
+    "input": {
+        "template": {
+            "StreamName": "",
+            "StreamARN": "",
+            "MaxResults": 0,
+            "NextToken": "",
+            "FragmentSelector": {
+                "FragmentSelectorType": "PRODUCER_TIMESTAMP",
+                "TimestampRange": {
+                    "StartTimestamp": "1970-01-01T00:00:00",
+                    "EndTimestamp": "1970-01-01T00:00:00"
+                }
+            }
+        },
+        "required": [],
+        "md5": "c1dd96359d1adb9aa90758d6daf572ac",
+        "boto_command": "list_fragments",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "FragmentNumber": "FragmentNumber",
+                "FragmentSizeInBytes": 0,
+                "ProducerTimestamp": "1970-01-01T00:00:00",
+                "ServerTimestamp": "1970-01-01T00:00:00",
+                "FragmentLengthInMilliseconds": 0
+            }
+        ],
+        "required": [],
+        "md5": "159ff78ee936a430e0bb0137bd7cb8e0",
+        "randomized": [
+            {
+                "FragmentLengthInMilliseconds": 0,
+                "FragmentNumber": "hrnhzqmznteinjqc",
+                "FragmentSizeInBytes": 0,
+                "ProducerTimestamp": "fanvozpwpzlddjpx",
+                "ServerTimestamp": "bounetutujxihckz"
+            },
+            {
+                "FragmentLengthInMilliseconds": 0,
+                "FragmentNumber": "xsxtosefwsutqiax",
+                "FragmentSizeInBytes": 0,
+                "ProducerTimestamp": "txiqxlhjddjutumj",
+                "ServerTimestamp": "kignlmxxyeserpzf"
+            },
+            {
+                "FragmentLengthInMilliseconds": 0,
+                "FragmentNumber": "tfbrivtiinncjsis",
+                "FragmentSizeInBytes": 0,
+                "ProducerTimestamp": "ryyoelgajcfkelbc",
+                "ServerTimestamp": "yldyzdapzsyiaotc"
+            },
+            {
+                "FragmentLengthInMilliseconds": 0,
+                "FragmentNumber": "ngbkhfrwxkgjxzeg",
+                "FragmentSizeInBytes": 0,
+                "ProducerTimestamp": "biwrgvdjzhneaxmi",
+                "ServerTimestamp": "fplpbykzujikagbo"
+            },
+            {
+                "FragmentLengthInMilliseconds": 0,
+                "FragmentNumber": "qboqrgttruounttf",
+                "FragmentSizeInBytes": 0,
+                "ProducerTimestamp": "smgvoifeypjvrjkg",
+                "ServerTimestamp": "fudmfodmabrdpsgt"
+            },
+            {
+                "FragmentLengthInMilliseconds": 0,
+                "FragmentNumber": "xmfmllwbckuxwcvi",
+                "FragmentSizeInBytes": 0,
+                "ProducerTimestamp": "uivszhsifoppirbi",
+                "ServerTimestamp": "ehonfuvedvagbqda"
+            },
+            {
+                "FragmentLengthInMilliseconds": 0,
+                "FragmentNumber": "mfwqukyclosfojvy",
+                "FragmentSizeInBytes": 0,
+                "ProducerTimestamp": "wjqnuevisoboazgl",
+                "ServerTimestamp": "cnrjsylkfxjutwoc"
+            },
+            {
+                "FragmentLengthInMilliseconds": 0,
+                "FragmentNumber": "gjblyliemwfhqrio",
+                "FragmentSizeInBytes": 0,
+                "ProducerTimestamp": "eyudsrssdmhhgvzu",
+                "ServerTimestamp": "xwcuofqznlecyofx"
+            },
+            {
+                "FragmentLengthInMilliseconds": 0,
+                "FragmentNumber": "mskofyhjrpfrmwov",
+                "FragmentSizeInBytes": 0,
+                "ProducerTimestamp": "mdioabsxxefypnuz",
+                "ServerTimestamp": "pppogxulukskepuh"
+            },
+            {
+                "FragmentLengthInMilliseconds": 0,
+                "FragmentNumber": "lrgfwqoengakbmhk",
+                "FragmentSizeInBytes": 0,
+                "ProducerTimestamp": "yelwopprkjxwdiio",
+                "ServerTimestamp": "uyqblfspegkyaqyb"
+            }
+        ],
+        "result_key": "Fragments"
+    },
+    "meta": {
+        "start": 1711116034.169233,
+        "end": 1711116041.524368,
+        "duration": 7.3551459312438965,
+        "service": "kinesis-video-archived-media",
+        "type": "fragments"
+    }
+}

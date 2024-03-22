@@ -1,0 +1,95 @@
+{
+    "input": {
+        "template": {
+            "filter": {
+                "eventTypeCodes": [
+                    ""
+                ],
+                "services": [
+                    ""
+                ],
+                "eventTypeCategories": [
+                    "issue"
+                ]
+            },
+            "locale": "",
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "required": [],
+        "md5": "2a1ba56a3ed6974308f0352865113b5c",
+        "boto_command": "describe_event_types",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "service": "service",
+                "code": "code",
+                "category": "category"
+            }
+        ],
+        "required": [],
+        "md5": "738158510ba233fef86616a9b320a1fc",
+        "randomized": [
+            {
+                "category": "rtqtfkgpmjrthxba",
+                "code": "vhrumritluxddrva",
+                "service": "eyzxcamjqgkflawo"
+            },
+            {
+                "category": "ubizptztynqzlbko",
+                "code": "ungcdwdgxoloqmir",
+                "service": "kmfclbzexbavhuot"
+            },
+            {
+                "category": "ebtrnnbpeluswkdj",
+                "code": "eofxrnmfbjeoioig",
+                "service": "xcjfgzqdzclnwkdr"
+            },
+            {
+                "category": "qtcmuaazjrzegodo",
+                "code": "wlmhecjhmcqkbtiy",
+                "service": "mnkxnnoycbhsbuna"
+            },
+            {
+                "category": "auahctpbngywmqwk",
+                "code": "vbjlktjvksagjolv",
+                "service": "lvcfrjezeqflvccd"
+            },
+            {
+                "category": "lyvdogiarbizvklc",
+                "code": "ajrnaoaxsnwzbegy",
+                "service": "jzbeupurisrouzjx"
+            },
+            {
+                "category": "nvxvtnzbcufpwkcc",
+                "code": "itnrrownfbfzgnmk",
+                "service": "bdpoveahousjnmqi"
+            },
+            {
+                "category": "pcefqjvurbwbqbvw",
+                "code": "skxarhysnkhzinbr",
+                "service": "fdyazkjtzynzvelr"
+            },
+            {
+                "category": "clpdennvbzpfrjox",
+                "code": "pqieqgvilxcjysow",
+                "service": "shjhgagxdcrrmyqp"
+            },
+            {
+                "category": "bsymjoldbubznufd",
+                "code": "qgoerlazmdgvhtkb",
+                "service": "ichyznwvrremixxw"
+            }
+        ],
+        "result_key": "eventTypes"
+    },
+    "meta": {
+        "start": 1711115872.905678,
+        "end": 1711115881.374563,
+        "duration": 8.46889591217041,
+        "service": "health",
+        "type": "event_types"
+    }
+}

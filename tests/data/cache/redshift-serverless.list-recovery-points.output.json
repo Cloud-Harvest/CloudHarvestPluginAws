@@ -1,0 +1,120 @@
+{
+    "input": {
+        "template": {
+            "endTime": "1970-01-01T00:00:00",
+            "maxResults": 0,
+            "namespaceArn": "",
+            "namespaceName": "",
+            "nextToken": "",
+            "startTime": "1970-01-01T00:00:00"
+        },
+        "required": [],
+        "md5": "73580bbcea472c01cc52afb47176f79c",
+        "boto_command": "list_recovery_points",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "namespaceArn": "namespaceArn",
+                "namespaceName": "namespaceName",
+                "recoveryPointCreateTime": "1970-01-01T00:00:00",
+                "recoveryPointId": "recoveryPointId",
+                "totalSizeInMegaBytes": 0.0,
+                "workgroupName": "workgroupName"
+            }
+        ],
+        "required": [],
+        "md5": "069c4b8fae55c3f72f880258e3c52378",
+        "randomized": [
+            {
+                "namespaceArn": "gzcrmgclswtbhncl",
+                "namespaceName": "cwfatstraapkhzeo",
+                "recoveryPointCreateTime": "ipuigsjubnlsghwr",
+                "recoveryPointId": "frynfwbfoxadvkqn",
+                "totalSizeInMegaBytes": 0.0,
+                "workgroupName": "qztxhhlqoaljnsia"
+            },
+            {
+                "namespaceArn": "bzruzwqepamgiqhm",
+                "namespaceName": "dfazphxfkclqaeno",
+                "recoveryPointCreateTime": "wfjstpwnqeoakqke",
+                "recoveryPointId": "uslhfpgjjruzaqvb",
+                "totalSizeInMegaBytes": 0.0,
+                "workgroupName": "pqgdfadhkffwdwnw"
+            },
+            {
+                "namespaceArn": "pjyktelwhpqzzsve",
+                "namespaceName": "dxwchavgwiewvstd",
+                "recoveryPointCreateTime": "yxnuootyspwncumb",
+                "recoveryPointId": "mmcttrrkdosuwaag",
+                "totalSizeInMegaBytes": 0.0,
+                "workgroupName": "izqetluoeduqtftr"
+            },
+            {
+                "namespaceArn": "qxqblfrudswljbgt",
+                "namespaceName": "tbvtomplbwcgfotj",
+                "recoveryPointCreateTime": "iewlyxhzpvlaplnn",
+                "recoveryPointId": "kuugmxvbalqrrzpl",
+                "totalSizeInMegaBytes": 0.0,
+                "workgroupName": "rjpykxofswmjsbkp"
+            },
+            {
+                "namespaceArn": "gtpbkjrqghcbolxk",
+                "namespaceName": "wkvbbxmbnagnyiew",
+                "recoveryPointCreateTime": "aacdwnokfxbocoro",
+                "recoveryPointId": "gdzmrukoktgfegzw",
+                "totalSizeInMegaBytes": 0.0,
+                "workgroupName": "xpheonbpxszsliwz"
+            },
+            {
+                "namespaceArn": "qbeeciyioyploang",
+                "namespaceName": "qkdqoxknurohwckx",
+                "recoveryPointCreateTime": "eedeydexxsxjnnbi",
+                "recoveryPointId": "kddibwhlhmywikcl",
+                "totalSizeInMegaBytes": 0.0,
+                "workgroupName": "eaosbpeizotmxyek"
+            },
+            {
+                "namespaceArn": "bmkwehbcdwtkqqme",
+                "namespaceName": "wgdfoeujhvkcekpp",
+                "recoveryPointCreateTime": "moophielonkspvdm",
+                "recoveryPointId": "nibhyniwnvsvhbnm",
+                "totalSizeInMegaBytes": 0.0,
+                "workgroupName": "oeclqpmmrqzrvgsx"
+            },
+            {
+                "namespaceArn": "bqkllzxgdxyhxfhe",
+                "namespaceName": "bttgwiqgnrpybesa",
+                "recoveryPointCreateTime": "iizeclqvjqfngiof",
+                "recoveryPointId": "wxltodwfnaxdbxti",
+                "totalSizeInMegaBytes": 0.0,
+                "workgroupName": "gnibvhuwenrrontn"
+            },
+            {
+                "namespaceArn": "hqbzorjmsagtaini",
+                "namespaceName": "rcihgudofcdcpato",
+                "recoveryPointCreateTime": "ypxadwwqevppdhjd",
+                "recoveryPointId": "gwekidcvqbvgdplc",
+                "totalSizeInMegaBytes": 0.0,
+                "workgroupName": "ksdexrpcsahqwgjy"
+            },
+            {
+                "namespaceArn": "mhvmgqzrivjnfwrl",
+                "namespaceName": "pnpxjxhclpnojvud",
+                "recoveryPointCreateTime": "nfcunhqzzftsrrmp",
+                "recoveryPointId": "hbjhwxnvxizfcovk",
+                "totalSizeInMegaBytes": 0.0,
+                "workgroupName": "qeszvzcpjhtbasia"
+            }
+        ],
+        "result_key": "recoveryPoints"
+    },
+    "meta": {
+        "start": 1711116439.534139,
+        "end": 1711116447.247028,
+        "duration": 7.7128989696502686,
+        "service": "redshift-serverless",
+        "type": "recovery_points"
+    }
+}

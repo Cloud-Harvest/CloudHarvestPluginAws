@@ -1,0 +1,9 @@
+[
+    "resource-groups.get-account-settings",
+    "resource-groups.get-group",
+    "resource-groups.get-group-configuration",
+    "resource-groups.get-group-query",
+    "resource-groups.get-tags",
+    "resource-groups.list-group-resources",
+    "resource-groups.list-groups"
+]

@@ -1,0 +1,37 @@
+{
+    "input": {
+        "template": {
+            "position": "",
+            "limit": 0
+        },
+        "required": [],
+        "md5": "777c24a678b131f7b745c80439bfa2b6",
+        "boto_command": "get_domain_names",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": "position",
+        "required": [],
+        "md5": "a660e6890331afabc21790a28a6366ed",
+        "randomized": [
+            "gutysgypkygaskfw",
+            "pdzukjqsoofrbzvu",
+            "cboqydbguyinbnoi",
+            "ixbjfbdqhvubprsk",
+            "xvunflwrgqhlbowb",
+            "brxpofivxfokkhtt",
+            "qojrzsoihzatiliq",
+            "gkdeegmnhnnmxqku",
+            "xgcradsciybffmwx",
+            "blrwuhuqllfqleri"
+        ],
+        "result_key": "position"
+    },
+    "meta": {
+        "start": 1711115201.21812,
+        "end": 1711115207.726899,
+        "duration": 6.508788824081421,
+        "service": "apigateway",
+        "type": null
+    }
+}

@@ -1,0 +1,8 @@
+[
+    "sqs.get-queue-attributes",
+    "sqs.get-queue-url",
+    "sqs.list-dead-letter-source-queues",
+    "sqs.list-message-move-tasks",
+    "sqs.list-queue-tags",
+    "sqs.list-queues"
+]

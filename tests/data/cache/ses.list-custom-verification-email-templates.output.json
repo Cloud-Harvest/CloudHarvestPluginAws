@@ -1,0 +1,105 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "9dece7f85fc1c3f944425b1f68a8e6e1",
+        "boto_command": "list_custom_verification_email_templates",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "TemplateName": "TemplateName",
+                "FromEmailAddress": "FromEmailAddress",
+                "TemplateSubject": "TemplateSubject",
+                "SuccessRedirectionURL": "SuccessRedirectionURL",
+                "FailureRedirectionURL": "FailureRedirectionURL"
+            }
+        ],
+        "required": [],
+        "md5": "50941c252ed202623f71c53a5ae585e1",
+        "randomized": [
+            {
+                "FailureRedirectionURL": "cqgyqckwmbapwqzq",
+                "FromEmailAddress": "vircdcmlucecgzbl",
+                "SuccessRedirectionURL": "puqtvfxmhmtdtozq",
+                "TemplateName": "gtolwyupcqzuibls",
+                "TemplateSubject": "uuinlpovyhvuupmn"
+            },
+            {
+                "FailureRedirectionURL": "dpdeiaqhtcbjhjie",
+                "FromEmailAddress": "idynqhjtubjbqitq",
+                "SuccessRedirectionURL": "skjyoamdjgwgaomw",
+                "TemplateName": "ezdnxloacgkxyjyv",
+                "TemplateSubject": "xooatqlcmykvvdaq"
+            },
+            {
+                "FailureRedirectionURL": "tsuifiraeuglpktl",
+                "FromEmailAddress": "jluzmpluhrllxeqc",
+                "SuccessRedirectionURL": "frsoaybsaufreukr",
+                "TemplateName": "guxeoxhjnavdcjwr",
+                "TemplateSubject": "agklropzvgunrowy"
+            },
+            {
+                "FailureRedirectionURL": "klqtovsalgcccuwy",
+                "FromEmailAddress": "ixqqnknoqmbzwrlt",
+                "SuccessRedirectionURL": "kyzusifljrwauzna",
+                "TemplateName": "lwzwjuqsalggxlpo",
+                "TemplateSubject": "sicagrvbnoszihxp"
+            },
+            {
+                "FailureRedirectionURL": "ysfekipinevwwclj",
+                "FromEmailAddress": "xqcfwtdyfbdbepnv",
+                "SuccessRedirectionURL": "imyzpokrammqfzyq",
+                "TemplateName": "bhetmvibfpduqaae",
+                "TemplateSubject": "wcvfzbpkhanvasti"
+            },
+            {
+                "FailureRedirectionURL": "sakxfguxtjirxsrb",
+                "FromEmailAddress": "jhmtmqywiijlbfwg",
+                "SuccessRedirectionURL": "wahlkqssunuwesar",
+                "TemplateName": "ragjsgyrkqybnbsx",
+                "TemplateSubject": "yggkotvshqcsxnvs"
+            },
+            {
+                "FailureRedirectionURL": "hzymvknufydfgynk",
+                "FromEmailAddress": "walgbypbuqicizah",
+                "SuccessRedirectionURL": "jxdoggbbznqxmipo",
+                "TemplateName": "whgsubfntgfodbdi",
+                "TemplateSubject": "rhvxbevukwijkeuw"
+            },
+            {
+                "FailureRedirectionURL": "zlqkvaumuldvckke",
+                "FromEmailAddress": "azhooteeezvukquz",
+                "SuccessRedirectionURL": "redlzctwixriofpx",
+                "TemplateName": "buymdkjbjkfoartm",
+                "TemplateSubject": "tzqswogwqldmnnck"
+            },
+            {
+                "FailureRedirectionURL": "fbfpzogswwmycwuz",
+                "FromEmailAddress": "xbpxnuyzcazkbehv",
+                "SuccessRedirectionURL": "rmoftwcwwbfdikpl",
+                "TemplateName": "flapanidbmnhjddn",
+                "TemplateSubject": "gzcsfneglmlfixmt"
+            },
+            {
+                "FailureRedirectionURL": "nownmisnszgmqjzd",
+                "FromEmailAddress": "jiockrzlvkfgofag",
+                "SuccessRedirectionURL": "zhsriackrncrahie",
+                "TemplateName": "xuvklovnmgdjhgrz",
+                "TemplateSubject": "fckaybovfjsgcgpl"
+            }
+        ],
+        "result_key": "CustomVerificationEmailTemplates"
+    },
+    "meta": {
+        "start": 1711116617.979236,
+        "end": 1711116625.78979,
+        "duration": 7.810564041137695,
+        "service": "ses",
+        "type": "custom_verification_email_templates"
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "9dece7f85fc1c3f944425b1f68a8e6e1",
+        "boto_command": "list_admin_accounts_for_organization",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "AdminAccount": "AdminAccount",
+                "DefaultAdmin": true,
+                "Status": "Status"
+            }
+        ],
+        "required": [],
+        "md5": "0fdb84e9ec672f1c0acc0c3a7c587782",
+        "randomized": [
+            {
+                "AdminAccount": "jjpfzicppiaesjom",
+                "DefaultAdmin": true,
+                "Status": "dykpghtlirjmbnkb"
+            },
+            {
+                "AdminAccount": "ielyiowjvmfbbhjf",
+                "DefaultAdmin": true,
+                "Status": "mqqtdeflqidyvcbb"
+            },
+            {
+                "AdminAccount": "quortblhhdjbhzhx",
+                "DefaultAdmin": true,
+                "Status": "yktawuxicdfflvae"
+            },
+            {
+                "AdminAccount": "wvjwspwyqdvcexyp",
+                "DefaultAdmin": true,
+                "Status": "umxzbirmbmdevkuh"
+            },
+            {
+                "AdminAccount": "hrjcmhaxmvdnrlyb",
+                "DefaultAdmin": true,
+                "Status": "bzwgcxqhukhxfmbd"
+            },
+            {
+                "AdminAccount": "yliwinomecmbuuwy",
+                "DefaultAdmin": true,
+                "Status": "urfzetlcskuotbcp"
+            },
+            {
+                "AdminAccount": "abdpuhgprljuffgq",
+                "DefaultAdmin": true,
+                "Status": "wjgzsusfitrgavwt"
+            },
+            {
+                "AdminAccount": "vbuxhkknoupdxwtl",
+                "DefaultAdmin": true,
+                "Status": "zhxkxmjpyvylvrsx"
+            },
+            {
+                "AdminAccount": "bjjpicimcndcuprt",
+                "DefaultAdmin": true,
+                "Status": "nhofghgkprqozrui"
+            },
+            {
+                "AdminAccount": "vubuyeukrixjjzlw",
+                "DefaultAdmin": true,
+                "Status": "ioklareuilutdbnm"
+            }
+        ],
+        "result_key": "AdminAccounts"
+    },
+    "meta": {
+        "start": 1711115772.973287,
+        "end": 1711115780.25767,
+        "duration": 7.2843918800354,
+        "service": "fms",
+        "type": "admin_accounts_for_organization"
+    }
+}

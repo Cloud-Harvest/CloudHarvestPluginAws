@@ -1,0 +1,279 @@
+{
+    "input": {
+        "template": {
+            "DBSubnetGroupName": "",
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxRecords": 0,
+            "Marker": ""
+        },
+        "required": [],
+        "md5": "aa991b828e0d92a2a2c42cbbfc297f3e",
+        "boto_command": "describe_db_subnet_groups",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "DBSubnetGroupName": "DBSubnetGroupName",
+                "DBSubnetGroupDescription": "DBSubnetGroupDescription",
+                "VpcId": "VpcId",
+                "SubnetGroupStatus": "SubnetGroupStatus",
+                "Subnets": [
+                    {
+                        "SubnetIdentifier": "SubnetIdentifier",
+                        "SubnetAvailabilityZone": {
+                            "Name": "Name"
+                        },
+                        "SubnetOutpost": {
+                            "Arn": "Arn"
+                        },
+                        "SubnetStatus": "SubnetStatus"
+                    }
+                ],
+                "DBSubnetGroupArn": "DBSubnetGroupArn",
+                "SupportedNetworkTypes": [
+                    "String"
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "3d90a60318375cd78809488d11649495",
+        "randomized": [
+            {
+                "DBSubnetGroupArn": "psnythhyxdqjqtlv",
+                "DBSubnetGroupDescription": "xmqjocqcuytovyne",
+                "DBSubnetGroupName": "labxjrefkintmtdg",
+                "SubnetGroupStatus": "mfryvmtmmpbjqnyj",
+                "Subnets": [
+                    {
+                        "SubnetAvailabilityZone": {
+                            "Name": "lgpucduzeopmocjr"
+                        },
+                        "SubnetIdentifier": "ucwckoqnmbtpmjgg",
+                        "SubnetOutpost": {
+                            "Arn": "gicsadnqpvkiuazr"
+                        },
+                        "SubnetStatus": "edsnolagmgbcmaik"
+                    }
+                ],
+                "SupportedNetworkTypes": [
+                    "sqqeizgpffizzvsn"
+                ],
+                "VpcId": "yxwnydluhmkolwad"
+            },
+            {
+                "DBSubnetGroupArn": "sqrbnvwyaujhpzxm",
+                "DBSubnetGroupDescription": "ctcxdicmtwbqvelq",
+                "DBSubnetGroupName": "zoarikfewshiuibs",
+                "SubnetGroupStatus": "isazsvvtmurmhwyc",
+                "Subnets": [
+                    {
+                        "SubnetAvailabilityZone": {
+                            "Name": "vowfvxmwidtmiyvv"
+                        },
+                        "SubnetIdentifier": "xvseuctyomicrnvd",
+                        "SubnetOutpost": {
+                            "Arn": "vgfarednhdmphotx"
+                        },
+                        "SubnetStatus": "cqptguqqrgobbpot"
+                    }
+                ],
+                "SupportedNetworkTypes": [
+                    "ldspqkpphpjqvzwo"
+                ],
+                "VpcId": "rfntxxohfcnxganh"
+            },
+            {
+                "DBSubnetGroupArn": "jqegykljykmtwpwb",
+                "DBSubnetGroupDescription": "tsvmnknahctveqmp",
+                "DBSubnetGroupName": "vcbzqrawvtcbhpgt",
+                "SubnetGroupStatus": "rhfqtoynuqiyuljm",
+                "Subnets": [
+                    {
+                        "SubnetAvailabilityZone": {
+                            "Name": "agymylkewdxwprea"
+                        },
+                        "SubnetIdentifier": "gzgkzvdfhhmfgncb",
+                        "SubnetOutpost": {
+                            "Arn": "ezhywfyyadthayco"
+                        },
+                        "SubnetStatus": "zclkyqattjxulgfa"
+                    }
+                ],
+                "SupportedNetworkTypes": [
+                    "rctvnrewgocedbrd"
+                ],
+                "VpcId": "euiqhphkcpkvwird"
+            },
+            {
+                "DBSubnetGroupArn": "fjniozpaihhpzxge",
+                "DBSubnetGroupDescription": "bsbibwwzhjucqmck",
+                "DBSubnetGroupName": "fbjhjcpogzepjmry",
+                "SubnetGroupStatus": "imusqbiygnbscyee",
+                "Subnets": [
+                    {
+                        "SubnetAvailabilityZone": {
+                            "Name": "erzkzabjyfzjpwih"
+                        },
+                        "SubnetIdentifier": "eggshcaaumcelbap",
+                        "SubnetOutpost": {
+                            "Arn": "uhpzlwwiluyjnrpg"
+                        },
+                        "SubnetStatus": "suqhuvrznlkyibpe"
+                    }
+                ],
+                "SupportedNetworkTypes": [
+                    "vcbbfsburvkefpcy"
+                ],
+                "VpcId": "mnioxvvfigikvsie"
+            },
+            {
+                "DBSubnetGroupArn": "sciogyyncsfobcbz",
+                "DBSubnetGroupDescription": "wplmbvucoecpijyx",
+                "DBSubnetGroupName": "qymmmvwbfzfqugwg",
+                "SubnetGroupStatus": "eezowrqfebwvwbtb",
+                "Subnets": [
+                    {
+                        "SubnetAvailabilityZone": {
+                            "Name": "oazrwjmuttvqnqtn"
+                        },
+                        "SubnetIdentifier": "zzknfrxojquxmlfu",
+                        "SubnetOutpost": {
+                            "Arn": "xjqimmmsgmpbbvqm"
+                        },
+                        "SubnetStatus": "ocrrpewvgehbkceq"
+                    }
+                ],
+                "SupportedNetworkTypes": [
+                    "qvyjdvwxtgtvipvi"
+                ],
+                "VpcId": "tumecbsrizhsfkgm"
+            },
+            {
+                "DBSubnetGroupArn": "hnlfifrowcdsdbvt",
+                "DBSubnetGroupDescription": "aemuckrsvlypgdfz",
+                "DBSubnetGroupName": "cboqmjobmlkxedzw",
+                "SubnetGroupStatus": "ngmwppyffyqnexum",
+                "Subnets": [
+                    {
+                        "SubnetAvailabilityZone": {
+                            "Name": "hbklsucjoggrycce"
+                        },
+                        "SubnetIdentifier": "ygesnvawepcxxcck",
+                        "SubnetOutpost": {
+                            "Arn": "kmwcekvoctapetla"
+                        },
+                        "SubnetStatus": "ridrvxqejylbvsqg"
+                    }
+                ],
+                "SupportedNetworkTypes": [
+                    "pfvcogxhpqnppczg"
+                ],
+                "VpcId": "zuigvhkpxdbkrtnw"
+            },
+            {
+                "DBSubnetGroupArn": "cjrwbzbawlamkctr",
+                "DBSubnetGroupDescription": "uxbppakxvkipuvps",
+                "DBSubnetGroupName": "vmyqmevrckyreend",
+                "SubnetGroupStatus": "tdlnhjkfvepcxlqd",
+                "Subnets": [
+                    {
+                        "SubnetAvailabilityZone": {
+                            "Name": "fnmyllsabhqjfnat"
+                        },
+                        "SubnetIdentifier": "becghoaenhjeoxqi",
+                        "SubnetOutpost": {
+                            "Arn": "yvcmjwpjramhruox"
+                        },
+                        "SubnetStatus": "kioxjnzctyeujked"
+                    }
+                ],
+                "SupportedNetworkTypes": [
+                    "fxwuzilcwbjzhiye"
+                ],
+                "VpcId": "enabfvrsraisljhp"
+            },
+            {
+                "DBSubnetGroupArn": "zipkqafsojxcwewh",
+                "DBSubnetGroupDescription": "ffxafxyfxzdrsbcq",
+                "DBSubnetGroupName": "ijlrkgypznmsgqzj",
+                "SubnetGroupStatus": "snbjvhpeorrkahia",
+                "Subnets": [
+                    {
+                        "SubnetAvailabilityZone": {
+                            "Name": "zhsvrnczoaizbwew"
+                        },
+                        "SubnetIdentifier": "rumkglvjawczxrex",
+                        "SubnetOutpost": {
+                            "Arn": "ryguudukzrlbwmqe"
+                        },
+                        "SubnetStatus": "pdczaxmbmjrrxfrp"
+                    }
+                ],
+                "SupportedNetworkTypes": [
+                    "izxnoyrnabxoelvg"
+                ],
+                "VpcId": "dibqejvortbehkeh"
+            },
+            {
+                "DBSubnetGroupArn": "zmilsxdhqyagnmew",
+                "DBSubnetGroupDescription": "uxxojwolpgcgbqhu",
+                "DBSubnetGroupName": "ebwxbltmreudqspm",
+                "SubnetGroupStatus": "xecpwsejzpgrrcxd",
+                "Subnets": [
+                    {
+                        "SubnetAvailabilityZone": {
+                            "Name": "ohoahtnoosgyqwtg"
+                        },
+                        "SubnetIdentifier": "ypcdgnusigxcgoyu",
+                        "SubnetOutpost": {
+                            "Arn": "ydfxisgitrjvlfuf"
+                        },
+                        "SubnetStatus": "ujpxmitexrtsboqf"
+                    }
+                ],
+                "SupportedNetworkTypes": [
+                    "cozwufheozyvzqte"
+                ],
+                "VpcId": "yxpfigkzayxgqulm"
+            },
+            {
+                "DBSubnetGroupArn": "omoujkcalifamhhz",
+                "DBSubnetGroupDescription": "cstyjzpjdazlcnik",
+                "DBSubnetGroupName": "nutrfrrqvgqacqiy",
+                "SubnetGroupStatus": "boqkenxaznycttlt",
+                "Subnets": [
+                    {
+                        "SubnetAvailabilityZone": {
+                            "Name": "cnyducjejibwqqog"
+                        },
+                        "SubnetIdentifier": "agmbsrymxkjqrvhf",
+                        "SubnetOutpost": {
+                            "Arn": "lhslwcgmnfyyvsvn"
+                        },
+                        "SubnetStatus": "rbwuywxtzzvcyyej"
+                    }
+                ],
+                "SupportedNetworkTypes": [
+                    "jegfxumcyvsaaiov"
+                ],
+                "VpcId": "arshsyyveerdntmc"
+            }
+        ],
+        "result_key": "DBSubnetGroups"
+    },
+    "meta": {
+        "start": 1711116411.961908,
+        "end": 1711116417.816121,
+        "duration": 5.854224920272827,
+        "service": "rds",
+        "type": "db_subnet_groups"
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "input": {
+        "template": {
+            "Limit": 0,
+            "ExclusiveStartApplicationName": ""
+        },
+        "required": [],
+        "md5": "d2c88b3dc051cc83f0c8d3d36ca8aa47",
+        "boto_command": "list_applications",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "ApplicationName": "ApplicationName",
+                "ApplicationARN": "ApplicationARN",
+                "ApplicationStatus": "ApplicationStatus"
+            }
+        ],
+        "required": [],
+        "md5": "57ca87d45536dd274504856ee1796659",
+        "randomized": [
+            {
+                "ApplicationARN": "izhvrkcjwlqchhlg",
+                "ApplicationName": "mxlqpjoatitvfhxc",
+                "ApplicationStatus": "jiogncquuyrpsxmo"
+            },
+            {
+                "ApplicationARN": "cghafiuqjjsiccrg",
+                "ApplicationName": "vzydhcxlszpfzaeo",
+                "ApplicationStatus": "fnurlmexesglxzzn"
+            },
+            {
+                "ApplicationARN": "fldrkimlavngkcqz",
+                "ApplicationName": "hfadloboyweklzem",
+                "ApplicationStatus": "depkynwhfoxqditi"
+            },
+            {
+                "ApplicationARN": "zdvkotcqxpyyxfjx",
+                "ApplicationName": "jcymfwwpxwjzakgw",
+                "ApplicationStatus": "myvilhckhlmwssht"
+            },
+            {
+                "ApplicationARN": "hpabzzbxszbpykmy",
+                "ApplicationName": "phnevrlzeogewtsr",
+                "ApplicationStatus": "bkysgtfbofxzmnns"
+            },
+            {
+                "ApplicationARN": "yvmazqqpirchilpj",
+                "ApplicationName": "fccyiqkiqjnmnbfj",
+                "ApplicationStatus": "iqlqokxhvekslmss"
+            },
+            {
+                "ApplicationARN": "iapbfxsnktqrbwbk",
+                "ApplicationName": "vllpoxkuzqbxzbbi",
+                "ApplicationStatus": "bdhcnqvobfnuwwjl"
+            },
+            {
+                "ApplicationARN": "krqkiavyxnrbaqbt",
+                "ApplicationName": "trjhqcbzueegrpjk",
+                "ApplicationStatus": "bexthgszesljxakg"
+            },
+            {
+                "ApplicationARN": "hvsrjzkblohcjyhy",
+                "ApplicationName": "nqvfxpefwkbwilop",
+                "ApplicationStatus": "hgqaxdhidilhrdje"
+            },
+            {
+                "ApplicationARN": "gzymmxzbdvavskud",
+                "ApplicationName": "iysuxypscvhvdpic",
+                "ApplicationStatus": "sgnnetmnozpnuktk"
+            }
+        ],
+        "result_key": "ApplicationSummaries"
+    },
+    "meta": {
+        "start": 1711116035.326559,
+        "end": 1711116041.626925,
+        "duration": 6.300376892089844,
+        "service": "kinesisanalytics",
+        "type": "applications"
+    }
+}

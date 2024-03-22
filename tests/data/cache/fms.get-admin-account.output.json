@@ -1,0 +1,34 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "get_admin_account",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": "AdminAccount",
+        "required": [],
+        "md5": "00197631b006cefc8ca6bf913398e923",
+        "randomized": [
+            "kguraxewskrivshh",
+            "xhgxepabvodnmurc",
+            "ikwdvswndsndcqrd",
+            "pkieqoyyojfemkir",
+            "bguiqyigorfvmzym",
+            "ckqibqdvvokxvtdx",
+            "tahyaxnxfypxvojp",
+            "jstsgdxthekzgzkm",
+            "vxduxvdqvdvukjvd",
+            "rodxxbzbswioccdr"
+        ],
+        "result_key": "AdminAccount"
+    },
+    "meta": {
+        "start": 1711115769.593565,
+        "end": 1711115777.093316,
+        "duration": 7.499763011932373,
+        "service": "fms",
+        "type": null
+    }
+}

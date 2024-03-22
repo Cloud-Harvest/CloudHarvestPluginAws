@@ -1,0 +1,84 @@
+{
+    "input": {
+        "template": {
+            "metricAttributionArn": "",
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "required": [],
+        "md5": "37fc47a215c91227642be04fafaa1c1c",
+        "boto_command": "list_metric_attribution_metrics",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "eventType": "eventType",
+                "metricName": "metricName",
+                "expression": "expression"
+            }
+        ],
+        "required": [],
+        "md5": "9b4168504bdf4eb44f5e43d6d7f6d4ef",
+        "randomized": [
+            {
+                "eventType": "nnmmooiklvcyfksg",
+                "expression": "khobqoobplzycjvu",
+                "metricName": "ojhnkubgwhtzamuq"
+            },
+            {
+                "eventType": "mmhjxlffotpttnmk",
+                "expression": "dhqjiuvkqbmeltat",
+                "metricName": "izgsbuwfsqkineew"
+            },
+            {
+                "eventType": "daqjpfowhkyxuazw",
+                "expression": "bcydzwyazgeirqzs",
+                "metricName": "patipnbwmsobruck"
+            },
+            {
+                "eventType": "vsvzihzbkrqvcvdq",
+                "expression": "qqrfhvayvcoseifk",
+                "metricName": "nisymhhkujezrsei"
+            },
+            {
+                "eventType": "clypdpbermkrlzsk",
+                "expression": "kwxckkggawuqhiak",
+                "metricName": "ecjshlsqozfenkxa"
+            },
+            {
+                "eventType": "buhszjsuuepnkgir",
+                "expression": "araesceqrrxduvvz",
+                "metricName": "fikzkigmlropfuri"
+            },
+            {
+                "eventType": "oihqkppcoxigcrml",
+                "expression": "yapixlzeydjxvjlf",
+                "metricName": "nyjrlvcsotqximdf"
+            },
+            {
+                "eventType": "ggwikdzgyhhudunb",
+                "expression": "jmlojgdjcfkzjlku",
+                "metricName": "idtqsrnrhyagjsnz"
+            },
+            {
+                "eventType": "iiiujeheprjbopbt",
+                "expression": "vrsfklwyklasmift",
+                "metricName": "zdyfjpdfwtdimnpu"
+            },
+            {
+                "eventType": "xwtdjqzfnegetgsq",
+                "expression": "ivxxbwroccsfafsf",
+                "metricName": "kvtptwpysehyzfsk"
+            }
+        ],
+        "result_key": "metrics"
+    },
+    "meta": {
+        "start": 1711116318.580839,
+        "end": 1711116326.878748,
+        "duration": 8.29791808128357,
+        "service": "personalize",
+        "type": "metric_attribution_metrics"
+    }
+}

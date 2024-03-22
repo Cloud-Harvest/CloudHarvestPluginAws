@@ -1,0 +1,117 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "nextToken": "",
+            "state": "IN_PROGRESS"
+        },
+        "required": [],
+        "md5": "b0a81cb28fe1ccdc11a886e8b8cf3f3d",
+        "boto_command": "list_tasks",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "state": "state",
+                "tags": {
+                    "KeyName": ""
+                },
+                "taskArn": "taskArn",
+                "taskId": "taskId"
+            }
+        ],
+        "required": [],
+        "md5": "fcabd22a999933bb7479226cd9bc6553",
+        "randomized": [
+            {
+                "state": "qylgyvdryjqwrzxn",
+                "tags": {
+                    "KeyName": "knpogpsbotomrfjg"
+                },
+                "taskArn": "bjqedbegteneurop",
+                "taskId": "upwqpdeqbmxrgnja"
+            },
+            {
+                "state": "cgxgmhslhhohjmak",
+                "tags": {
+                    "KeyName": "nekahjggqnxdtfwr"
+                },
+                "taskArn": "tnikmeuracmdodxo",
+                "taskId": "sqdsjovdepoimkmh"
+            },
+            {
+                "state": "lkhcqfnpcbidjlnp",
+                "tags": {
+                    "KeyName": "htdvlshhbguaukoe"
+                },
+                "taskArn": "nggbnfgrhkiwvdve",
+                "taskId": "neabnxwpsbjerocj"
+            },
+            {
+                "state": "fvfbpwdcsbaqjonk",
+                "tags": {
+                    "KeyName": "jbycevwjgzsewmli"
+                },
+                "taskArn": "yqfggbnmhjcozxkm",
+                "taskId": "sjqpafegnvlxgkpc"
+            },
+            {
+                "state": "zzypsvrtcmdcvvav",
+                "tags": {
+                    "KeyName": "wudhbmombuirhynz"
+                },
+                "taskArn": "mybaklmwfvcccmhh",
+                "taskId": "nwerfqdudylxrcxp"
+            },
+            {
+                "state": "dgskvlrrderwfdai",
+                "tags": {
+                    "KeyName": "xfibjgygrgdwjfbt"
+                },
+                "taskArn": "klsgdogsrppjysix",
+                "taskId": "ngxngiquylgrqvrg"
+            },
+            {
+                "state": "yjliukooqvkzvrze",
+                "tags": {
+                    "KeyName": "ysdzthscxwmqhjet"
+                },
+                "taskArn": "nkbbaxpobyvecbvl",
+                "taskId": "qarpglmxhflilfol"
+            },
+            {
+                "state": "uvvwsiimbfydnpix",
+                "tags": {
+                    "KeyName": "vdsqiwbytwaqkcuh"
+                },
+                "taskArn": "jatjnpbgiufithfj",
+                "taskId": "dovbnvogvaobpcum"
+            },
+            {
+                "state": "tewmwzyuiqezdvxk",
+                "tags": {
+                    "KeyName": "lmmtjldczkraxndg"
+                },
+                "taskArn": "hhxctnfvtxxieedk",
+                "taskId": "ujwinozoydjrobof"
+            },
+            {
+                "state": "xcvslihmsxyzsgel",
+                "tags": {
+                    "KeyName": "qzawtjnpwbqbwowi"
+                },
+                "taskArn": "xooomnzbuixzsofl",
+                "taskId": "onsnndxjgtfgarjd"
+            }
+        ],
+        "result_key": "tasks"
+    },
+    "meta": {
+        "start": 1711116644.27891,
+        "end": 1711116650.367216,
+        "duration": 6.088317155838013,
+        "service": "snow-device-management",
+        "type": "tasks"
+    }
+}

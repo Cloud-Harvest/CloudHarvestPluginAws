@@ -1,0 +1,15 @@
+[
+    "iotevents.describe-alarm-model",
+    "iotevents.describe-detector-model",
+    "iotevents.describe-detector-model-analysis",
+    "iotevents.describe-input",
+    "iotevents.describe-logging-options",
+    "iotevents.get-detector-model-analysis-results",
+    "iotevents.list-alarm-model-versions",
+    "iotevents.list-alarm-models",
+    "iotevents.list-detector-model-versions",
+    "iotevents.list-detector-models",
+    "iotevents.list-input-routings",
+    "iotevents.list-inputs",
+    "iotevents.list-tags-for-resource"
+]

@@ -1,0 +1,238 @@
+{
+    "input": {
+        "template": {
+            "DryRun": true,
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxResults": 0,
+            "NextToken": "",
+            "IpamScopeIds": [
+                ""
+            ]
+        },
+        "required": [],
+        "md5": "c43939eec03f6e54e2546422db614564",
+        "boto_command": "describe_ipam_scopes",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "OwnerId": "OwnerId",
+                "IpamScopeId": "IpamScopeId",
+                "IpamScopeArn": "IpamScopeArn",
+                "IpamArn": "IpamArn",
+                "IpamRegion": "IpamRegion",
+                "IpamScopeType": "IpamScopeType",
+                "IsDefault": true,
+                "Description": "Description",
+                "PoolCount": 0,
+                "State": "State",
+                "Tags": [
+                    {
+                        "Key": "Key",
+                        "Value": "Value"
+                    }
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "32fca1ebb2472ef038b4fa420a6dfbf4",
+        "randomized": [
+            {
+                "Description": "vzygzbvkkbvfnsbk",
+                "IpamArn": "yhkzpgeoheloxapj",
+                "IpamRegion": "guvtppkrvmkmkxks",
+                "IpamScopeArn": "lojksblbbwhpqikd",
+                "IpamScopeId": "sgzswgowemanydec",
+                "IpamScopeType": "oeiryiswcyetoovr",
+                "IsDefault": true,
+                "OwnerId": "bhljdsqrovolhxsc",
+                "PoolCount": 0,
+                "State": "pneoexszckbkobsj",
+                "Tags": [
+                    {
+                        "Key": "qlslyakyhhwurbjm",
+                        "Value": "wcvpcqoyadsmolbx"
+                    }
+                ]
+            },
+            {
+                "Description": "xdibrwsamcrmvcbf",
+                "IpamArn": "fakulobupxsduhfp",
+                "IpamRegion": "awyrnslggrsvosqt",
+                "IpamScopeArn": "pmavzhibjcrpkgow",
+                "IpamScopeId": "lrwvhtymatvytykz",
+                "IpamScopeType": "gqivykfnwpitcpxw",
+                "IsDefault": true,
+                "OwnerId": "fhuofhtbpvgdbmuc",
+                "PoolCount": 0,
+                "State": "aglnxhltegchxohm",
+                "Tags": [
+                    {
+                        "Key": "ftboeiijdoqyhfnt",
+                        "Value": "vlgqxwmrotoapqyi"
+                    }
+                ]
+            },
+            {
+                "Description": "ihehfrlpcwhlmsug",
+                "IpamArn": "wrshsndgvslwsxvk",
+                "IpamRegion": "wbkohhtkewdwmwnk",
+                "IpamScopeArn": "zgldjrfzghsumlwv",
+                "IpamScopeId": "vwtxgzqylmfmmkyz",
+                "IpamScopeType": "iescouchoxuhdcvp",
+                "IsDefault": true,
+                "OwnerId": "lkllxkmgizgthbhi",
+                "PoolCount": 0,
+                "State": "cmzditmxbfcfrcyf",
+                "Tags": [
+                    {
+                        "Key": "osuihomxulpmrqzd",
+                        "Value": "zleiakpkzaacytxq"
+                    }
+                ]
+            },
+            {
+                "Description": "pskjvemwttzukmdn",
+                "IpamArn": "zwdvelgqynnzkjcx",
+                "IpamRegion": "cuqavcdslulwynfh",
+                "IpamScopeArn": "jydxyceroelajopg",
+                "IpamScopeId": "miacjreecnvezgbf",
+                "IpamScopeType": "zxygviotnbtpxkcp",
+                "IsDefault": true,
+                "OwnerId": "sqqjceyyhnecqaee",
+                "PoolCount": 0,
+                "State": "okefonzfoolqujhy",
+                "Tags": [
+                    {
+                        "Key": "sbaqauzmqatffdgp",
+                        "Value": "yhkcohuwmtmkowuv"
+                    }
+                ]
+            },
+            {
+                "Description": "mxcyclsnkwpbknfl",
+                "IpamArn": "lrjkjdighiweeeuf",
+                "IpamRegion": "cxeqaroidrbkalqa",
+                "IpamScopeArn": "gblkmokchnxuivzz",
+                "IpamScopeId": "uqcabyvdfvsclndx",
+                "IpamScopeType": "dnnsekbzjwpigpgr",
+                "IsDefault": true,
+                "OwnerId": "pemlijsdfneckdiy",
+                "PoolCount": 0,
+                "State": "zzhwscctgxmrxvtl",
+                "Tags": [
+                    {
+                        "Key": "narsjgxhoficxikc",
+                        "Value": "sdwzuvndqumrkexy"
+                    }
+                ]
+            },
+            {
+                "Description": "bdpsdodxmyxhmcsb",
+                "IpamArn": "vudgdxilchecoiiy",
+                "IpamRegion": "njxhfndhhrfgsuun",
+                "IpamScopeArn": "sotewkszcvsggcjq",
+                "IpamScopeId": "vdaghnjqlbbyvbyd",
+                "IpamScopeType": "rzkrxvknfspsztfp",
+                "IsDefault": true,
+                "OwnerId": "ojsckhsiivyaftjk",
+                "PoolCount": 0,
+                "State": "mvzisjcnartxhwwl",
+                "Tags": [
+                    {
+                        "Key": "opypqiwpjajgqtht",
+                        "Value": "gvfotoiqxhmxtnzp"
+                    }
+                ]
+            },
+            {
+                "Description": "crtmbcufkgdldurz",
+                "IpamArn": "orhscpdlnvbquypm",
+                "IpamRegion": "vhcprfgbmvxnrbfo",
+                "IpamScopeArn": "zotosjrderxzjvrn",
+                "IpamScopeId": "acjbtrfoicsnazro",
+                "IpamScopeType": "amrcifsdfmrsckto",
+                "IsDefault": true,
+                "OwnerId": "ehlndlqtkulbgxet",
+                "PoolCount": 0,
+                "State": "jpsjtgvxnhmpillf",
+                "Tags": [
+                    {
+                        "Key": "fwftoxpytlgtqxyf",
+                        "Value": "nmfjyifzwukwmius"
+                    }
+                ]
+            },
+            {
+                "Description": "xxbejcrdxnnwhyls",
+                "IpamArn": "rupdxmjczxdglspa",
+                "IpamRegion": "piczqrgyqbvphiav",
+                "IpamScopeArn": "ldezzzleetrddgep",
+                "IpamScopeId": "auqntxcnuvgrsfbq",
+                "IpamScopeType": "crbwbcrtlzwcukxz",
+                "IsDefault": true,
+                "OwnerId": "sczgqimmozmyifie",
+                "PoolCount": 0,
+                "State": "rruakpgxmhdpomej",
+                "Tags": [
+                    {
+                        "Key": "natrajghwqfbmpes",
+                        "Value": "dmwrmbewboyrboho"
+                    }
+                ]
+            },
+            {
+                "Description": "bbwnlexhnjhorprf",
+                "IpamArn": "evpzjbvojwdlrwbx",
+                "IpamRegion": "gvhusuwxvydpvmyc",
+                "IpamScopeArn": "qwcdtgvdkmpvviaw",
+                "IpamScopeId": "rcwqgmtzuglngrzg",
+                "IpamScopeType": "ewmmssccvusupiyh",
+                "IsDefault": true,
+                "OwnerId": "ziqrcgjxiyzrhyxw",
+                "PoolCount": 0,
+                "State": "jxpuacyahqbftmsg",
+                "Tags": [
+                    {
+                        "Key": "vlfcmwlbnnfcgqjq",
+                        "Value": "ovtsdzimbpwofnbz"
+                    }
+                ]
+            },
+            {
+                "Description": "bykrsdogxdqyigma",
+                "IpamArn": "cwykzjdnmxizmbyb",
+                "IpamRegion": "whpfggjgrocvbeek",
+                "IpamScopeArn": "ifddodmwbegtmqnp",
+                "IpamScopeId": "snvjhllkpsxlyhdb",
+                "IpamScopeType": "cruhgautsnxjeduq",
+                "IsDefault": true,
+                "OwnerId": "pajogqcmchswhlrj",
+                "PoolCount": 0,
+                "State": "unquitbcqucepzkw",
+                "Tags": [
+                    {
+                        "Key": "kjtpzvpkpupwntms",
+                        "Value": "cuosavzscmgpqexd"
+                    }
+                ]
+            }
+        ],
+        "result_key": "IpamScopes"
+    },
+    "meta": {
+        "start": 1711115629.84919,
+        "end": 1711115637.903958,
+        "duration": 8.054774045944214,
+        "service": "ec2",
+        "type": "ipam_scopes"
+    }
+}

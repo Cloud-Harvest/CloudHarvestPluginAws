@@ -1,0 +1,183 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": "",
+            "Origin": ""
+        },
+        "required": [],
+        "md5": "1b468616303879fd2adf61543914c912",
+        "boto_command": "list_data_sets",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "Arn": "Arn",
+                "AssetType": "AssetType",
+                "CreatedAt": "1970-01-01T00:00:00",
+                "Description": "Description",
+                "Id": "Id",
+                "Name": "Name",
+                "Origin": "Origin",
+                "OriginDetails": {
+                    "ProductId": "ProductId"
+                },
+                "SourceId": "SourceId",
+                "UpdatedAt": "1970-01-01T00:00:00"
+            }
+        ],
+        "required": [],
+        "md5": "f28a1cdc7bccdc124e283aa373a138f6",
+        "randomized": [
+            {
+                "Arn": "szyozxitzfwkbech",
+                "AssetType": "ldfordwohesgstnk",
+                "CreatedAt": "knfeacsxibhmjyqm",
+                "Description": "ylmxxroehgcmpong",
+                "Id": "jwikghumbqgnzhij",
+                "Name": "dhxxcbzpzansedya",
+                "Origin": "zxkllcsuplkihofs",
+                "OriginDetails": {
+                    "ProductId": "qjpdgigywwtqrpfz"
+                },
+                "SourceId": "ugsjloieptxlkakj",
+                "UpdatedAt": "tnjplbrkihqipiif"
+            },
+            {
+                "Arn": "llpxyegslfduvdrm",
+                "AssetType": "waznqedxyheixjdx",
+                "CreatedAt": "gbfkqgxhvexghjwq",
+                "Description": "jnnpbhaydpdbvycx",
+                "Id": "mihvjcwdcttgjwbj",
+                "Name": "hjkynlefhoautvde",
+                "Origin": "jyfuneqvssjkqavj",
+                "OriginDetails": {
+                    "ProductId": "mijvlrtkszdaavcv"
+                },
+                "SourceId": "wdrrukvxembyrcpi",
+                "UpdatedAt": "jqpfgekgsgtefmew"
+            },
+            {
+                "Arn": "sstfirjecuijsfoq",
+                "AssetType": "qqkwqwgwdiclglff",
+                "CreatedAt": "pzvmtldgyjcqlzwe",
+                "Description": "onjsumivolfanihe",
+                "Id": "msskrucurzxihcum",
+                "Name": "yusryedvxffnqabl",
+                "Origin": "rswsonfeqaoerpet",
+                "OriginDetails": {
+                    "ProductId": "akqbnknwddmzkhxy"
+                },
+                "SourceId": "ulmelnrmcuutyakl",
+                "UpdatedAt": "sekmnbktmvpidyfx"
+            },
+            {
+                "Arn": "tuyraaxyzohozacf",
+                "AssetType": "xxmgjpdanicfwtpk",
+                "CreatedAt": "qsyrwprnuqwnznvu",
+                "Description": "ejfokkipbzxkirvl",
+                "Id": "gvyfefcyggllwumf",
+                "Name": "pjjybgpbakzavwbi",
+                "Origin": "lyekyvybyzpmkbsj",
+                "OriginDetails": {
+                    "ProductId": "esirugifjpuxjyez"
+                },
+                "SourceId": "cdoksmznmlkdcgxp",
+                "UpdatedAt": "zzodyhadxwmtmpzz"
+            },
+            {
+                "Arn": "mkwkfzigpllzgqhi",
+                "AssetType": "mprfqnrpcilgvzmp",
+                "CreatedAt": "fddxogwdwuqoogrs",
+                "Description": "vulybhzahijmyjth",
+                "Id": "aksfnstnthqeayhv",
+                "Name": "rlvziitwjfjoncpo",
+                "Origin": "jmetqilsxtzodscf",
+                "OriginDetails": {
+                    "ProductId": "yudebmuulinjzhan"
+                },
+                "SourceId": "pzkdcqhuvlgoymvc",
+                "UpdatedAt": "gwtggarnmlblpygn"
+            },
+            {
+                "Arn": "dhvmltpieokcmuhl",
+                "AssetType": "jtynsulplcnlsgwe",
+                "CreatedAt": "jmbraxwtlysfrpdo",
+                "Description": "qqymukvadanazosv",
+                "Id": "dhsjubgyjxypxqwu",
+                "Name": "zrmymywddttovqsv",
+                "Origin": "zsrxprdosvdcbvhc",
+                "OriginDetails": {
+                    "ProductId": "esiaschxchyfqxsc"
+                },
+                "SourceId": "talaovxcqnjcxiys",
+                "UpdatedAt": "kcvflphnjlujagtj"
+            },
+            {
+                "Arn": "iahqkxymejlzbdln",
+                "AssetType": "piizznjtkypzlhyd",
+                "CreatedAt": "qcslawdbioekvdxt",
+                "Description": "xxlgplodffdpmpvr",
+                "Id": "jwprfznitisqtbhi",
+                "Name": "rojtdcznvcpsioyw",
+                "Origin": "ydjcmajreitzpjff",
+                "OriginDetails": {
+                    "ProductId": "kaotxmuondcdgtez"
+                },
+                "SourceId": "czsuehtulmxhvxxh",
+                "UpdatedAt": "gvspmeqokyrkguip"
+            },
+            {
+                "Arn": "pnlneklnbrbioukq",
+                "AssetType": "zohgjnvehvxzlhoi",
+                "CreatedAt": "rbfniatnghfkaoar",
+                "Description": "nclzjdiorwnwdouj",
+                "Id": "gixgwybxbkngmfta",
+                "Name": "oniztnkrrgblhpzr",
+                "Origin": "vrtshdsuzaassevh",
+                "OriginDetails": {
+                    "ProductId": "ndfmrvhzgdbbhkue"
+                },
+                "SourceId": "zohkvshhvunxexmt",
+                "UpdatedAt": "zdjpnqanpeoftywh"
+            },
+            {
+                "Arn": "qqrovebtlrsrnrxs",
+                "AssetType": "cwlwxrbtaeiuvagx",
+                "CreatedAt": "djwmbpmsjlorksfy",
+                "Description": "ndnmykgrsmztvvgw",
+                "Id": "ggrmmpxbyyjljhoi",
+                "Name": "lymvdvfjzbxdwvhm",
+                "Origin": "ueyofblbxgpeapua",
+                "OriginDetails": {
+                    "ProductId": "qfkcniqybxzoglyb"
+                },
+                "SourceId": "jzjvaxfqfembpngv",
+                "UpdatedAt": "nfxnspwfsduthbvl"
+            },
+            {
+                "Arn": "pqxslzfsvxdqfiwl",
+                "AssetType": "joyqfldmtopialrw",
+                "CreatedAt": "jdtsbhawkrxqnkci",
+                "Description": "ksybqzipalouvfgf",
+                "Id": "sozlfoyyujxvswzo",
+                "Name": "gsazenzqtspchijf",
+                "Origin": "looddzcazcqpgttb",
+                "OriginDetails": {
+                    "ProductId": "tvkjnqofcrpahout"
+                },
+                "SourceId": "kdjidhfgqlvxxggb",
+                "UpdatedAt": "tijcttubutezcqsp"
+            }
+        ],
+        "result_key": "DataSets"
+    },
+    "meta": {
+        "start": 1711115517.859922,
+        "end": 1711115525.52633,
+        "duration": 7.66641902923584,
+        "service": "dataexchange",
+        "type": "data_sets"
+    }
+}

@@ -1,0 +1,192 @@
+[
+    {
+        "AcceleratorArn": "nvamonqvczaqsnvu",
+        "CreatedTime": "osiixgkgskbwyqpl",
+        "DnsName": "kvtbfebevuckklae",
+        "Enabled": true,
+        "IpAddressType": "trozqujfxykrvlfu",
+        "IpSets": [
+            {
+                "IpAddressFamily": "lgdydifuyucppvdk",
+                "IpAddresses": [
+                    "vsapsdnjzujmtgfa"
+                ],
+                "IpFamily": "yqfrbelotnlsvicr"
+            }
+        ],
+        "LastModifiedTime": "qgpucgsluonzplsm",
+        "Name": "yhpyhkeljunkspuf",
+        "Status": "dtnuotgpeubncsyt"
+    },
+    {
+        "AcceleratorArn": "zwerlcvyejsamgen",
+        "CreatedTime": "axsfdlrxkpqgrgbs",
+        "DnsName": "ytebjicazgyojyba",
+        "Enabled": true,
+        "IpAddressType": "tduhdeixhuqrrqci",
+        "IpSets": [
+            {
+                "IpAddressFamily": "iglwxfbdenbgjusc",
+                "IpAddresses": [
+                    "eyuneqjdczudiudj"
+                ],
+                "IpFamily": "gnluinfassdbhkir"
+            }
+        ],
+        "LastModifiedTime": "xvjovrjorvzbcszr",
+        "Name": "lsqiiqnxcowgjuql",
+        "Status": "tktlxtvlxixhykkm"
+    },
+    {
+        "AcceleratorArn": "bppspmubwztequge",
+        "CreatedTime": "wgbswfsztmzdsrqn",
+        "DnsName": "wsipqvdrmitqnkbk",
+        "Enabled": true,
+        "IpAddressType": "grthxlrqgihrfopa",
+        "IpSets": [
+            {
+                "IpAddressFamily": "zoaesndkfjbbyhxk",
+                "IpAddresses": [
+                    "fijwsfmistqjoxao"
+                ],
+                "IpFamily": "fvcxibywopkejdvz"
+            }
+        ],
+        "LastModifiedTime": "jnojastfgytpsxeg",
+        "Name": "sbiisyglbabzyfez",
+        "Status": "aoufavzdhcvsdpah"
+    },
+    {
+        "AcceleratorArn": "pbopnmorjetvamhd",
+        "CreatedTime": "wpucqlllipzgczis",
+        "DnsName": "gvphjdjtjxyviskm",
+        "Enabled": true,
+        "IpAddressType": "kpgfnzlnroyktxrv",
+        "IpSets": [
+            {
+                "IpAddressFamily": "dvyhyivqmdttsabb",
+                "IpAddresses": [
+                    "tekgyezsprfqbwac"
+                ],
+                "IpFamily": "uxqlcbpzjnfckszt"
+            }
+        ],
+        "LastModifiedTime": "cfepcmztntfiihio",
+        "Name": "hhsflnrilsutuvmd",
+        "Status": "gjhytcsbpmnryxkh"
+    },
+    {
+        "AcceleratorArn": "wcacebdbojumiosw",
+        "CreatedTime": "contbgcrevvxzsti",
+        "DnsName": "szwfwwqemtumavvw",
+        "Enabled": true,
+        "IpAddressType": "lztocfukgvntvkpf",
+        "IpSets": [
+            {
+                "IpAddressFamily": "ihztklollylwsbxh",
+                "IpAddresses": [
+                    "vwbfktmtpubxjfbz"
+                ],
+                "IpFamily": "nwkgpeayutvguujq"
+            }
+        ],
+        "LastModifiedTime": "onvctsvcgcwzzsoo",
+        "Name": "rrvnbwmutukwmqjx",
+        "Status": "hcfblawccoiixpgb"
+    },
+    {
+        "AcceleratorArn": "htoucotgfhoiienk",
+        "CreatedTime": "tkdulhpvlznyzcbp",
+        "DnsName": "iwkykqdmlaszfevs",
+        "Enabled": true,
+        "IpAddressType": "dmisyyotcboexhmj",
+        "IpSets": [
+            {
+                "IpAddressFamily": "qsqvnxapcnbifhie",
+                "IpAddresses": [
+                    "wqkushuzrwgoigrv"
+                ],
+                "IpFamily": "nnwhjkiqkknuufir"
+            }
+        ],
+        "LastModifiedTime": "ajdjcaskzpkqiybx",
+        "Name": "yzjyenwgckgmleff",
+        "Status": "yurfhhfakpjqahqx"
+    },
+    {
+        "AcceleratorArn": "zdxxzfraqixbbhmx",
+        "CreatedTime": "xgkxspzhppqntfkt",
+        "DnsName": "dxkrmvucfxrhgwgr",
+        "Enabled": true,
+        "IpAddressType": "eggottvaucoraqht",
+        "IpSets": [
+            {
+                "IpAddressFamily": "gokjflkqdppxzbtu",
+                "IpAddresses": [
+                    "unublityixklvklh"
+                ],
+                "IpFamily": "fpubsmvpanfgnpmj"
+            }
+        ],
+        "LastModifiedTime": "hkxqxkmnfvcfxikk",
+        "Name": "whuqdinilgdogztf",
+        "Status": "beikutkogsufoled"
+    },
+    {
+        "AcceleratorArn": "zgoubjluthbgfqid",
+        "CreatedTime": "jswxxmokoilejuob",
+        "DnsName": "inohxtmtmwknysky",
+        "Enabled": true,
+        "IpAddressType": "firytnsqfelfbcyn",
+        "IpSets": [
+            {
+                "IpAddressFamily": "klrwddfnsfxawdig",
+                "IpAddresses": [
+                    "idunoqslmihqlfcg"
+                ],
+                "IpFamily": "jjklkhaxkepniqzy"
+            }
+        ],
+        "LastModifiedTime": "cizkeikygqqcuuwe",
+        "Name": "unqobfiwbckfbrga",
+        "Status": "xvxsnjdublxadazd"
+    },
+    {
+        "AcceleratorArn": "xyhyhaajjomujmjx",
+        "CreatedTime": "vstapsjfzbdoqojc",
+        "DnsName": "yvmkhrpobasepqer",
+        "Enabled": true,
+        "IpAddressType": "iffojroylnchtacj",
+        "IpSets": [
+            {
+                "IpAddressFamily": "whlhyzlidzixsnfg",
+                "IpAddresses": [
+                    "vmsefmwcyelegmbh"
+                ],
+                "IpFamily": "epufrgkofxkdsbtq"
+            }
+        ],
+        "LastModifiedTime": "znajejspnvhqxtve",
+        "Name": "ubnpueknaiquusgf",
+        "Status": "iolcihcpnuzwjycz"
+    },
+    {
+        "AcceleratorArn": "rgpdhufhokdztkih",
+        "CreatedTime": "juhcndfznmprzsdx",
+        "DnsName": "bbicojevhjbcmkcs",
+        "Enabled": true,
+        "IpAddressType": "fcounxwkvpymwftn",
+        "IpSets": [
+            {
+                "IpAddressFamily": "pzxveoqlkypsbied",
+                "IpAddresses": [
+                    "bdkutxfbyegqbltb"
+                ],
+                "IpFamily": "vjtylyvhdysakshz"
+            }
+        ],
+        "LastModifiedTime": "wmqsxqskhsnajvry",
+        "Name": "erlwvpewoergrsbl",
+        "Status": "uqxbxvhzuedmmcqt"
+    }
+]

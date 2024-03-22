@@ -1,0 +1,362 @@
+{
+    "input": {
+        "template": {
+            "CoreNetworkId": "",
+            "AttachmentType": "CONNECT",
+            "EdgeLocation": "",
+            "State": "REJECTED",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "0091df4bff0e81f0324873a58c0ff8d9",
+        "boto_command": "list_attachments",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "CoreNetworkId": "CoreNetworkId",
+                "CoreNetworkArn": "CoreNetworkArn",
+                "AttachmentId": "AttachmentId",
+                "OwnerAccountId": "OwnerAccountId",
+                "AttachmentType": "AttachmentType",
+                "State": "State",
+                "EdgeLocation": "EdgeLocation",
+                "ResourceArn": "ResourceArn",
+                "AttachmentPolicyRuleNumber": 0,
+                "SegmentName": "SegmentName",
+                "Tags": [
+                    {
+                        "Key": "Key",
+                        "Value": "Value"
+                    }
+                ],
+                "ProposedSegmentChange": {
+                    "Tags": [
+                        {
+                            "Key": "Key",
+                            "Value": "Value"
+                        }
+                    ],
+                    "AttachmentPolicyRuleNumber": 0,
+                    "SegmentName": "SegmentName"
+                },
+                "CreatedAt": "1970-01-01T00:00:00",
+                "UpdatedAt": "1970-01-01T00:00:00"
+            }
+        ],
+        "required": [],
+        "md5": "d46d9acc896d8915ef6a2c2ae4624dd4",
+        "randomized": [
+            {
+                "AttachmentId": "bncdbslmtfpntwsb",
+                "AttachmentPolicyRuleNumber": 0,
+                "AttachmentType": "ohnbxivpmefwegal",
+                "CoreNetworkArn": "vpugjrsszxqicdzm",
+                "CoreNetworkId": "xxjgudnxjgbinokp",
+                "CreatedAt": "snzocarzlhjopiur",
+                "EdgeLocation": "kelnbclulnxenqtm",
+                "OwnerAccountId": "agskgkhnsutnfwml",
+                "ProposedSegmentChange": {
+                    "AttachmentPolicyRuleNumber": 0,
+                    "SegmentName": "ugdplbqchovmjnjn",
+                    "Tags": [
+                        {
+                            "Key": "uhpgrhpqyakkoilj",
+                            "Value": "jsqkskgfxzvkrqki"
+                        }
+                    ]
+                },
+                "ResourceArn": "cksyplazryynjjkp",
+                "SegmentName": "grckmulzldbfxqid",
+                "State": "rpaolishnytobynq",
+                "Tags": [
+                    {
+                        "Key": "vwsbregczwieirim",
+                        "Value": "emoqibxekailjywh"
+                    }
+                ],
+                "UpdatedAt": "qgvjpmqkdjleigbq"
+            },
+            {
+                "AttachmentId": "pchtmvwkbgmobrnn",
+                "AttachmentPolicyRuleNumber": 0,
+                "AttachmentType": "xcezsudlcxzwdgkl",
+                "CoreNetworkArn": "xquspcjrwgtdazew",
+                "CoreNetworkId": "gcgptopnontsdsky",
+                "CreatedAt": "cgrvviibfmdtvzsu",
+                "EdgeLocation": "poqmikccyppxbbrz",
+                "OwnerAccountId": "hmskfwodqpkrcpwt",
+                "ProposedSegmentChange": {
+                    "AttachmentPolicyRuleNumber": 0,
+                    "SegmentName": "zphvmzighmpdajti",
+                    "Tags": [
+                        {
+                            "Key": "inkulhnveftpokpg",
+                            "Value": "dbehmhnwugxtjnpx"
+                        }
+                    ]
+                },
+                "ResourceArn": "elwxivqrhvczfirp",
+                "SegmentName": "yksrmeavghjmnsgm",
+                "State": "aifggybtnkgpdfpn",
+                "Tags": [
+                    {
+                        "Key": "cdzjwvgssonffaub",
+                        "Value": "ualtugqxeroltuca"
+                    }
+                ],
+                "UpdatedAt": "qfvjbkmdscwfsrui"
+            },
+            {
+                "AttachmentId": "lxkkphmwcxkxsqoc",
+                "AttachmentPolicyRuleNumber": 0,
+                "AttachmentType": "xrawbwvvzvldvnza",
+                "CoreNetworkArn": "ooseijskpeiudpkl",
+                "CoreNetworkId": "olwzanpupruebbqg",
+                "CreatedAt": "mjtzhexajkrytitz",
+                "EdgeLocation": "ndhvcwiysxuzgwcb",
+                "OwnerAccountId": "htqyxmdzozwtljxw",
+                "ProposedSegmentChange": {
+                    "AttachmentPolicyRuleNumber": 0,
+                    "SegmentName": "kgimnrabuoufhaad",
+                    "Tags": [
+                        {
+                            "Key": "npuinvkwzdwzmftt",
+                            "Value": "xuuoathsujvycodp"
+                        }
+                    ]
+                },
+                "ResourceArn": "hxguhjjimhupwmez",
+                "SegmentName": "uatrwlhxogfxnhgy",
+                "State": "rpbzrbzvqkzpllkg",
+                "Tags": [
+                    {
+                        "Key": "zqvzxnuyjenmqikp",
+                        "Value": "uvqvkfvbycxgvlxu"
+                    }
+                ],
+                "UpdatedAt": "gimloiuvznkrvqne"
+            },
+            {
+                "AttachmentId": "tsuyyszmikknhafj",
+                "AttachmentPolicyRuleNumber": 0,
+                "AttachmentType": "dnxoydrkrvhduonz",
+                "CoreNetworkArn": "bjxkpcgvkbfvecko",
+                "CoreNetworkId": "rdykayjxdhlfkvqb",
+                "CreatedAt": "eezedtkufdjsfiet",
+                "EdgeLocation": "xyyivhwsdxeoojch",
+                "OwnerAccountId": "repuiwchcvvlrbfm",
+                "ProposedSegmentChange": {
+                    "AttachmentPolicyRuleNumber": 0,
+                    "SegmentName": "gyttnwpmobebfgya",
+                    "Tags": [
+                        {
+                            "Key": "hcskdokabewxxsuw",
+                            "Value": "cqyxvolewfcwlukt"
+                        }
+                    ]
+                },
+                "ResourceArn": "yfoyywzaqwhnzlza",
+                "SegmentName": "ylyvyfclehptfvch",
+                "State": "yxdymifeqlqmejdn",
+                "Tags": [
+                    {
+                        "Key": "usmrnctjgcyaaeec",
+                        "Value": "dsaspvdjqjsjqplj"
+                    }
+                ],
+                "UpdatedAt": "ovxlnahlffarcsed"
+            },
+            {
+                "AttachmentId": "mpjrultzayznisag",
+                "AttachmentPolicyRuleNumber": 0,
+                "AttachmentType": "ekszziabjvrhnqep",
+                "CoreNetworkArn": "omizdjigcijwjryf",
+                "CoreNetworkId": "bijthhyhumqdbeho",
+                "CreatedAt": "hlnfsbxmspzxhggt",
+                "EdgeLocation": "jrrcvdveubjsnwjv",
+                "OwnerAccountId": "fbifqkdlyltwozbg",
+                "ProposedSegmentChange": {
+                    "AttachmentPolicyRuleNumber": 0,
+                    "SegmentName": "mcwfdtmatakwlzec",
+                    "Tags": [
+                        {
+                            "Key": "lzhxjxhpjdwjrrtv",
+                            "Value": "kgxbgbwcbazvirjn"
+                        }
+                    ]
+                },
+                "ResourceArn": "hrlnxrqunxpjyrnw",
+                "SegmentName": "idzfpqcjqpwniapn",
+                "State": "uintoyqvzdekqhcl",
+                "Tags": [
+                    {
+                        "Key": "maaxvxsahykrwyop",
+                        "Value": "lkaxbmugvzqfjjce"
+                    }
+                ],
+                "UpdatedAt": "loifoaxprucuptlv"
+            },
+            {
+                "AttachmentId": "ncidlovhhpyltewa",
+                "AttachmentPolicyRuleNumber": 0,
+                "AttachmentType": "upnmyzrhakkxmgdq",
+                "CoreNetworkArn": "ucosvekerantwztt",
+                "CoreNetworkId": "liksairndhnkjltz",
+                "CreatedAt": "aiestcuejxaflgtc",
+                "EdgeLocation": "oxhgwhzxvbadbhjb",
+                "OwnerAccountId": "rdtzfbwzaloezxfz",
+                "ProposedSegmentChange": {
+                    "AttachmentPolicyRuleNumber": 0,
+                    "SegmentName": "zrvbsmknjvgzwepn",
+                    "Tags": [
+                        {
+                            "Key": "slkdxdcumawoarkg",
+                            "Value": "swjqktlgbfjvxvyl"
+                        }
+                    ]
+                },
+                "ResourceArn": "wtmpcrmnwuoijkkf",
+                "SegmentName": "pnttkhhtzrnmmxta",
+                "State": "xhbmbgjffhestfzb",
+                "Tags": [
+                    {
+                        "Key": "ztuyyvujcwslrtwv",
+                        "Value": "udymqsdeffwkwpei"
+                    }
+                ],
+                "UpdatedAt": "ifpvjnnobmjwsbtb"
+            },
+            {
+                "AttachmentId": "qzclojnjplmpmhte",
+                "AttachmentPolicyRuleNumber": 0,
+                "AttachmentType": "mcbibbhureymfjko",
+                "CoreNetworkArn": "lamzpgoxotycblqc",
+                "CoreNetworkId": "ziqfcbwygenpytfs",
+                "CreatedAt": "cxgrslnsjbkqfibi",
+                "EdgeLocation": "sthrskdavmgzivaz",
+                "OwnerAccountId": "blcxeqkobpsbmcpj",
+                "ProposedSegmentChange": {
+                    "AttachmentPolicyRuleNumber": 0,
+                    "SegmentName": "eoazcfiaqsbzsrbx",
+                    "Tags": [
+                        {
+                            "Key": "xzubisezywaabnkw",
+                            "Value": "alsyhfdbkgtuvqas"
+                        }
+                    ]
+                },
+                "ResourceArn": "vorjeoxxjrhrzhfa",
+                "SegmentName": "trvqzlbqnaffbncl",
+                "State": "kxnedclfvohjzxqh",
+                "Tags": [
+                    {
+                        "Key": "skyujhcoigoqygec",
+                        "Value": "asulskxecldahldy"
+                    }
+                ],
+                "UpdatedAt": "gxauwiuokgwkwhdu"
+            },
+            {
+                "AttachmentId": "eupoffdceyeinpvj",
+                "AttachmentPolicyRuleNumber": 0,
+                "AttachmentType": "uswhpprwgtlnhaqd",
+                "CoreNetworkArn": "lavmdphzkrlxtcft",
+                "CoreNetworkId": "egjatrjfoksjjfoa",
+                "CreatedAt": "uncsbivyaezajzko",
+                "EdgeLocation": "jaofjybupgyydrpp",
+                "OwnerAccountId": "xkoewmgsyuvvnklz",
+                "ProposedSegmentChange": {
+                    "AttachmentPolicyRuleNumber": 0,
+                    "SegmentName": "wjjxgdxteakwwcvq",
+                    "Tags": [
+                        {
+                            "Key": "pygpamfgmkerbjdb",
+                            "Value": "ecvrjryztotsvsea"
+                        }
+                    ]
+                },
+                "ResourceArn": "tfhpwxurphjwajkg",
+                "SegmentName": "apspcavmkmqebufb",
+                "State": "dxcqdvbpqwjzrzlf",
+                "Tags": [
+                    {
+                        "Key": "evxwmvicbhqukdpr",
+                        "Value": "ipgkykjfcnwidkyt"
+                    }
+                ],
+                "UpdatedAt": "hwxnudoyxwqtrwjp"
+            },
+            {
+                "AttachmentId": "ncbhxqmivpjwvlje",
+                "AttachmentPolicyRuleNumber": 0,
+                "AttachmentType": "lhdqyczsfyqchebz",
+                "CoreNetworkArn": "oicihavwsnldzrhe",
+                "CoreNetworkId": "zeenhawnkjkeuinu",
+                "CreatedAt": "iiyyfrlnpseueirk",
+                "EdgeLocation": "latjwegpkguyowwx",
+                "OwnerAccountId": "yeexaamzlxbfzmkm",
+                "ProposedSegmentChange": {
+                    "AttachmentPolicyRuleNumber": 0,
+                    "SegmentName": "cmymybomimnrogxe",
+                    "Tags": [
+                        {
+                            "Key": "luoifrudqkqbnqze",
+                            "Value": "bgtujxqiftzcaiud"
+                        }
+                    ]
+                },
+                "ResourceArn": "jlvcvcpgotrkqcum",
+                "SegmentName": "qnbkqsnyqobekyks",
+                "State": "znawcytcluzwerxw",
+                "Tags": [
+                    {
+                        "Key": "cwwoqxrfkasrtfjo",
+                        "Value": "axsbxwaoehypeozc"
+                    }
+                ],
+                "UpdatedAt": "npevilkcfghzydie"
+            },
+            {
+                "AttachmentId": "qqgiyppsyyjakwym",
+                "AttachmentPolicyRuleNumber": 0,
+                "AttachmentType": "ievwzymefnyckenu",
+                "CoreNetworkArn": "kivjfsvqcqipgvdw",
+                "CoreNetworkId": "jivuzeodxaldrcal",
+                "CreatedAt": "fmtwxttyeirswrte",
+                "EdgeLocation": "yzgyzpjmbjtiwsae",
+                "OwnerAccountId": "zrlomidvormxtmnm",
+                "ProposedSegmentChange": {
+                    "AttachmentPolicyRuleNumber": 0,
+                    "SegmentName": "ynywcsdsmbryoiah",
+                    "Tags": [
+                        {
+                            "Key": "hhumbucfxlzpoptx",
+                            "Value": "fktjntekvxpioymv"
+                        }
+                    ]
+                },
+                "ResourceArn": "putfxzxlmfqlkpej",
+                "SegmentName": "qowdqepieiqvxdzy",
+                "State": "prbnymkptggadifv",
+                "Tags": [
+                    {
+                        "Key": "ekrnhbukyfqwnzhd",
+                        "Value": "urnrwieiywzcvlqr"
+                    }
+                ],
+                "UpdatedAt": "dasqllqrzeaykbmh"
+            }
+        ],
+        "result_key": "Attachments"
+    },
+    "meta": {
+        "start": 1711116250.846861,
+        "end": 1711116258.758026,
+        "duration": 7.911174058914185,
+        "service": "networkmanager",
+        "type": "attachments"
+    }
+}

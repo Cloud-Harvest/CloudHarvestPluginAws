@@ -1,0 +1,40 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "nextToken": "",
+            "workspaceId": ""
+        },
+        "required": [],
+        "md5": "4e9615fb454eb5310334d7570963dd35",
+        "boto_command": "list_versions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            "GrafanaVersion"
+        ],
+        "required": [],
+        "md5": "e143e859dc48425e8b487e6dfb8dee81",
+        "randomized": [
+            "ezlqdzddtoyppffr",
+            "snljsqxojcaupqbl",
+            "cxanszojyouzhpxs",
+            "kiqqcuwsupkovenx",
+            "lpjacdknhuylzepd",
+            "iclhkbflzghopocc",
+            "jcffykpesozgolxa",
+            "ktfziwqgvnvahwia",
+            "hgnjtsffdbnagmrc",
+            "ddbbeqgvglnkhzfa"
+        ],
+        "result_key": "grafanaVersions"
+    },
+    "meta": {
+        "start": 1711115843.328635,
+        "end": 1711115849.535984,
+        "duration": 6.207360029220581,
+        "service": "grafana",
+        "type": "versions"
+    }
+}

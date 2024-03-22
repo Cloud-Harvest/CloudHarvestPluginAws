@@ -1,0 +1,34 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "get_change_token",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": "ChangeToken",
+        "required": [],
+        "md5": "4e8511cc8ca7f7504e1a0c5fb514d27b",
+        "randomized": [
+            "kjtoultjcfpkacco",
+            "qgxsvxpsgcqiugzf",
+            "qpxflbszrfbcjgon",
+            "znrevgdpananqvyw",
+            "rtnwtqvvtsijncog",
+            "illkzunesnqqnynk",
+            "qkzngivjouctbhej",
+            "nykvnhwpqfjokdtj",
+            "cklwmqxebkqsmupx",
+            "ugiskdtjpajicuof"
+        ],
+        "result_key": "ChangeToken"
+    },
+    "meta": {
+        "start": 1711116765.699921,
+        "end": 1711116770.271784,
+        "duration": 4.571874141693115,
+        "service": "waf-regional",
+        "type": null
+    }
+}

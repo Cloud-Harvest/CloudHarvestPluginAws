@@ -1,0 +1,155 @@
+{
+    "input": {
+        "template": {
+            "ExperimentName": "",
+            "TrialComponentName": "",
+            "CreatedAfter": "1970-01-01T00:00:00",
+            "CreatedBefore": "1970-01-01T00:00:00",
+            "SortBy": "Name",
+            "SortOrder": "Ascending",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "ff7fc2b1071eb5b032b0533b2d84c1a8",
+        "boto_command": "list_trials",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "TrialArn": "TrialArn",
+                "TrialName": "TrialName",
+                "DisplayName": "DisplayName",
+                "TrialSource": {
+                    "SourceArn": "SourceArn",
+                    "SourceType": "SourceType"
+                },
+                "CreationTime": "1970-01-01T00:00:00",
+                "LastModifiedTime": "1970-01-01T00:00:00"
+            }
+        ],
+        "required": [],
+        "md5": "38dec27e317f0d9e97a4986a01cc0c97",
+        "randomized": [
+            {
+                "CreationTime": "pqxbhphkxrhbmjzt",
+                "DisplayName": "rkspgbinzioujbrq",
+                "LastModifiedTime": "laflehtqkobzbcsl",
+                "TrialArn": "yqcegpumnkxrwcuf",
+                "TrialName": "ielitjwsntslidya",
+                "TrialSource": {
+                    "SourceArn": "kybsvhvquukoatec",
+                    "SourceType": "mdxsghhedlpaikpb"
+                }
+            },
+            {
+                "CreationTime": "ydhrjezosuramoil",
+                "DisplayName": "tllzhhrxdvzyaxng",
+                "LastModifiedTime": "mxffcevciparabsl",
+                "TrialArn": "oeqtfhtitdhabgas",
+                "TrialName": "ifijcbzjuuajykpd",
+                "TrialSource": {
+                    "SourceArn": "vybwedvavsczysrj",
+                    "SourceType": "zoybwvygixahbmvy"
+                }
+            },
+            {
+                "CreationTime": "egwqogeakzqrupqe",
+                "DisplayName": "ltsrnfydecliwymp",
+                "LastModifiedTime": "znhgrfdadgmtxdde",
+                "TrialArn": "qdvbmfcastuehgfd",
+                "TrialName": "vgqfssvpfugbuvuk",
+                "TrialSource": {
+                    "SourceArn": "pvwtmuwmccjlhrsf",
+                    "SourceType": "qcbvzplrimmfgqsk"
+                }
+            },
+            {
+                "CreationTime": "iclpxoshygirqiti",
+                "DisplayName": "shxcogfdqsalggtx",
+                "LastModifiedTime": "hucdzjcqgzpnacpn",
+                "TrialArn": "agorhjuhfrydsnsx",
+                "TrialName": "dsmeqdsegkkjfkkf",
+                "TrialSource": {
+                    "SourceArn": "dtfxozvrvzehugdg",
+                    "SourceType": "remwtpttturxxzrx"
+                }
+            },
+            {
+                "CreationTime": "trgfgehzeyuboaqn",
+                "DisplayName": "zxqpmotniideawoj",
+                "LastModifiedTime": "vetxspdswimlkcgl",
+                "TrialArn": "ofuodgnflpcdradj",
+                "TrialName": "vaimxbhqkgzgbiqh",
+                "TrialSource": {
+                    "SourceArn": "vsnpbbizqsvoznmc",
+                    "SourceType": "htwnibhclrdwaifh"
+                }
+            },
+            {
+                "CreationTime": "aysltqfojsfddzan",
+                "DisplayName": "elrmnuvxvtayinsv",
+                "LastModifiedTime": "kryhoseeehqyembi",
+                "TrialArn": "uacyyplmgdmxajfc",
+                "TrialName": "czxlbjjgvrdneygy",
+                "TrialSource": {
+                    "SourceArn": "uelnfrexoxjyromw",
+                    "SourceType": "riblndxolqkdhesf"
+                }
+            },
+            {
+                "CreationTime": "bmbyuiotjeucivwj",
+                "DisplayName": "yobrpiszskjkmkzm",
+                "LastModifiedTime": "yftkkcstprwgusab",
+                "TrialArn": "rimjvswobfgaouhj",
+                "TrialName": "jzhmwihvinwamrmt",
+                "TrialSource": {
+                    "SourceArn": "ojpzbcykxawutbph",
+                    "SourceType": "rfunrlfctuptfsne"
+                }
+            },
+            {
+                "CreationTime": "zyzoqsiktvbjnouu",
+                "DisplayName": "gmvofhnrffmshkrd",
+                "LastModifiedTime": "oloqkhrsypliofou",
+                "TrialArn": "aqtumfifurjzbyif",
+                "TrialName": "ttesqcckvbjlfvpu",
+                "TrialSource": {
+                    "SourceArn": "xsveztqajtbidwvp",
+                    "SourceType": "rqchrczdiksroqwm"
+                }
+            },
+            {
+                "CreationTime": "bmozmnjarwmamhqc",
+                "DisplayName": "yfxlpmklwzqdicbv",
+                "LastModifiedTime": "ywnhekmuvgizfbew",
+                "TrialArn": "lcfsfcdxijtltdjt",
+                "TrialName": "bxdadbpftzalbagy",
+                "TrialSource": {
+                    "SourceArn": "lnsgeircidytdfoj",
+                    "SourceType": "zydjiztywmvbgskl"
+                }
+            },
+            {
+                "CreationTime": "redsofxduhbutfuw",
+                "DisplayName": "djhhwwekbdkputpw",
+                "LastModifiedTime": "uzjyshioseovcwjs",
+                "TrialArn": "jcbfvrywzfkexgfj",
+                "TrialName": "bsqwbgwcylwztxwt",
+                "TrialSource": {
+                    "SourceArn": "ntlutftdncehmnxw",
+                    "SourceType": "hibdwuspenmksdgu"
+                }
+            }
+        ],
+        "result_key": "TrialSummaries"
+    },
+    "meta": {
+        "start": 1711116570.99926,
+        "end": 1711116578.336139,
+        "duration": 7.336889982223511,
+        "service": "sagemaker",
+        "type": "trials"
+    }
+}

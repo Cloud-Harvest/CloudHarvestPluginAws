@@ -1,0 +1,9 @@
+[
+    "internetmonitor.get-health-event",
+    "internetmonitor.get-monitor",
+    "internetmonitor.get-query-results",
+    "internetmonitor.get-query-status",
+    "internetmonitor.list-health-events",
+    "internetmonitor.list-monitors",
+    "internetmonitor.list-tags-for-resource"
+]

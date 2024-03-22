@@ -1,0 +1,69 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "describe_virtual_gateways",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "virtualGatewayId": "virtualGatewayId",
+                "virtualGatewayState": "virtualGatewayState"
+            }
+        ],
+        "required": [],
+        "md5": "36c24bb434dac680552a6163d55a83a4",
+        "randomized": [
+            {
+                "virtualGatewayId": "lnskvdqkqomsntbg",
+                "virtualGatewayState": "tpacrxkfwytlzeps"
+            },
+            {
+                "virtualGatewayId": "nmeqaovjbgvxlkju",
+                "virtualGatewayState": "lftalafghicazgyk"
+            },
+            {
+                "virtualGatewayId": "vjervixylpuqspep",
+                "virtualGatewayState": "qbxdkkafjnakvcdy"
+            },
+            {
+                "virtualGatewayId": "mphgovvbephhdvge",
+                "virtualGatewayState": "dayynuwchugohffq"
+            },
+            {
+                "virtualGatewayId": "yclaijaiellczxfc",
+                "virtualGatewayState": "tfxjgsaoqusaujds"
+            },
+            {
+                "virtualGatewayId": "lhhklukulukbdveq",
+                "virtualGatewayState": "jsgscuzbxvyyihcy"
+            },
+            {
+                "virtualGatewayId": "ibipbapdtmtctobv",
+                "virtualGatewayState": "nucelbnkjfwzzjnj"
+            },
+            {
+                "virtualGatewayId": "vgxwmsbyiccwqqnm",
+                "virtualGatewayState": "ubpxsibbgykuhvjz"
+            },
+            {
+                "virtualGatewayId": "jgeunfgzjudplcyx",
+                "virtualGatewayState": "hmgiatekreamttbm"
+            },
+            {
+                "virtualGatewayId": "vzuwkaewrdkrtvgy",
+                "virtualGatewayState": "nnnycdccihkdgtjj"
+            }
+        ],
+        "result_key": "virtualGateways"
+    },
+    "meta": {
+        "start": 1711115567.099738,
+        "end": 1711115573.999983,
+        "duration": 6.90025520324707,
+        "service": "directconnect",
+        "type": "virtual_gateways"
+    }
+}

@@ -1,0 +1,18 @@
+[
+    "deploy.get-application",
+    "deploy.get-application-revision",
+    "deploy.get-deployment",
+    "deploy.get-deployment-config",
+    "deploy.get-deployment-group",
+    "deploy.get-deployment-target",
+    "deploy.get-on-premises-instance",
+    "deploy.list-application-revisions",
+    "deploy.list-applications",
+    "deploy.list-deployment-configs",
+    "deploy.list-deployment-groups",
+    "deploy.list-deployment-targets",
+    "deploy.list-deployments",
+    "deploy.list-git-hub-account-token-names",
+    "deploy.list-on-premises-instances",
+    "deploy.list-tags-for-resource"
+]

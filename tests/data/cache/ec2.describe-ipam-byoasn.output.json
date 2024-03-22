@@ -1,0 +1,95 @@
+{
+    "input": {
+        "template": {
+            "DryRun": true,
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "1224cbdad08cfd6a50026f1751a2f6c4",
+        "boto_command": "describe_ipam_byoasn",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "Asn": "Asn",
+                "IpamId": "IpamId",
+                "StatusMessage": "StatusMessage",
+                "State": "State"
+            }
+        ],
+        "required": [],
+        "md5": "3e4dc2df1ebac43d0539298998fb162e",
+        "randomized": [
+            {
+                "Asn": "offbatoikqsaztfq",
+                "IpamId": "vmktidgazolrkerw",
+                "State": "jflxwhrzpoyevgue",
+                "StatusMessage": "vrdbefdqyvtyztfx"
+            },
+            {
+                "Asn": "hqvlgsafczdpemod",
+                "IpamId": "buuxyrakdyfpqexm",
+                "State": "hbfcwssmrfxsjoqq",
+                "StatusMessage": "agaivezimpbyhaft"
+            },
+            {
+                "Asn": "jnhbyouobrcsbhbg",
+                "IpamId": "urywbxcmulkfyxos",
+                "State": "zxatfqapsbrwkwmb",
+                "StatusMessage": "vjjqviqyffnqlkom"
+            },
+            {
+                "Asn": "shdabngdlqkucrew",
+                "IpamId": "ydpsubzegxvvhnso",
+                "State": "eihhiabsggmxponl",
+                "StatusMessage": "vguzomstoomdeinb"
+            },
+            {
+                "Asn": "dhwnavpgmocslbuw",
+                "IpamId": "mtibwsfawzqyobbq",
+                "State": "watuuyldkubtajux",
+                "StatusMessage": "bsternzdoycbnivn"
+            },
+            {
+                "Asn": "firtboznbvrbjuec",
+                "IpamId": "mqaltcixpodcrkbh",
+                "State": "fvxhyyzupxpxnbds",
+                "StatusMessage": "gpbgnwillhvrllpx"
+            },
+            {
+                "Asn": "jomwqefbneudrggl",
+                "IpamId": "ncksnsttywrfksyo",
+                "State": "dzfowuivngbabwnp",
+                "StatusMessage": "cxxuosqoquozyhps"
+            },
+            {
+                "Asn": "kwqnmhfiuqcvfyhm",
+                "IpamId": "guqltkaqjxvcleym",
+                "State": "wxvncuhxrbztuqwh",
+                "StatusMessage": "bqvetofzgjafpprh"
+            },
+            {
+                "Asn": "ptrsuaqlbsuxjdpi",
+                "IpamId": "gelebzxozjzzyflf",
+                "State": "yiqxwsxnzbeaflyq",
+                "StatusMessage": "ncndytdztbyygsfr"
+            },
+            {
+                "Asn": "xavgsnbzruuydeuh",
+                "IpamId": "smslsxuebbsmvtjq",
+                "State": "bxfrphpqpqtpqvnc",
+                "StatusMessage": "kipvivfhuhlgfwon"
+            }
+        ],
+        "result_key": "Byoasns"
+    },
+    "meta": {
+        "start": 1711115629.53279,
+        "end": 1711115637.735061,
+        "duration": 8.202280044555664,
+        "service": "ec2",
+        "type": "ipam_byoasn"
+    }
+}

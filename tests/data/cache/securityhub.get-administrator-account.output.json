@@ -1,0 +1,89 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "get_administrator_account",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": {
+            "AccountId": "AccountId",
+            "InvitationId": "InvitationId",
+            "InvitedAt": "1970-01-01T00:00:00",
+            "MemberStatus": "MemberStatus"
+        },
+        "required": [],
+        "md5": "357b7430f1bcf983c1d1202fb15676ff",
+        "randomized": [
+            {
+                "AccountId": "fosiqkmxrowuihwq",
+                "InvitationId": "pxqqqwpesuvslwds",
+                "InvitedAt": "nexcjxbbcihjjlfe",
+                "MemberStatus": "eqqrsqtppjbidmzw"
+            },
+            {
+                "AccountId": "ufiyfwohubvfowiw",
+                "InvitationId": "rctjykfipnztzaaj",
+                "InvitedAt": "wxwezxpopysnbcvk",
+                "MemberStatus": "hdcggnxhbkbrtler"
+            },
+            {
+                "AccountId": "hjzrpacuabebuiwp",
+                "InvitationId": "psfcwivuutchtubr",
+                "InvitedAt": "okvdpwnlkkjypfnw",
+                "MemberStatus": "xfhicabrgvlmtfie"
+            },
+            {
+                "AccountId": "hyvbmdnhyplxjxsi",
+                "InvitationId": "vyjpjhorweaqwuqs",
+                "InvitedAt": "nzqwthakyghkhmsy",
+                "MemberStatus": "gsutrmssilegkewz"
+            },
+            {
+                "AccountId": "snjprapjhrdzlnzf",
+                "InvitationId": "ghnbwcxmyfnuqwje",
+                "InvitedAt": "gsumeoiwqsnjytur",
+                "MemberStatus": "nrohjccbpjoenbmz"
+            },
+            {
+                "AccountId": "otvhskwiqnclgatu",
+                "InvitationId": "nuxodvezdhuowekr",
+                "InvitedAt": "cehrrrktrjnsuhva",
+                "MemberStatus": "djqahwqgktgrdswo"
+            },
+            {
+                "AccountId": "ionqrnzlhmseytui",
+                "InvitationId": "djnholqfzmktihsc",
+                "InvitedAt": "qlczeaqhfebbtyzw",
+                "MemberStatus": "dcownanpehfpygza"
+            },
+            {
+                "AccountId": "meqzsbgzensnqnom",
+                "InvitationId": "sjfmfubouhczxdaz",
+                "InvitedAt": "genacureemqjwssv",
+                "MemberStatus": "qbilwwdhpaecyeec"
+            },
+            {
+                "AccountId": "zilmeidnkpzjwuon",
+                "InvitationId": "njkscritucgidojg",
+                "InvitedAt": "grmlssmkqbhccdiq",
+                "MemberStatus": "jyzumfdgietfizvm"
+            },
+            {
+                "AccountId": "phufrewwqvnlrfvt",
+                "InvitationId": "xmrunnjhftpbcwmd",
+                "InvitedAt": "egsfejkohfqoyyqb",
+                "MemberStatus": "tvixorkpkfxmxswz"
+            }
+        ],
+        "result_key": "Administrator"
+    },
+    "meta": {
+        "start": 1711116585.827495,
+        "end": 1711116592.089738,
+        "duration": 6.262255907058716,
+        "service": "securityhub",
+        "type": null
+    }
+}

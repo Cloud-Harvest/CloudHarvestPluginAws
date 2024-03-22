@@ -1,0 +1,80 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "describe_emergency_contact_settings",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "EmailAddress": "EmailAddress",
+                "PhoneNumber": "PhoneNumber",
+                "ContactNotes": "ContactNotes"
+            }
+        ],
+        "required": [],
+        "md5": "59d46ed6cede4714e0024be3bd9aa42f",
+        "randomized": [
+            {
+                "ContactNotes": "hjwmgrhyhqphcnwn",
+                "EmailAddress": "fnnibltmuvpmqomc",
+                "PhoneNumber": "oukurgqopfqfvbmx"
+            },
+            {
+                "ContactNotes": "jmsdwjyzzvzpzbnf",
+                "EmailAddress": "xgkevdmwchsznkyx",
+                "PhoneNumber": "jskpgciiotymwehv"
+            },
+            {
+                "ContactNotes": "hnczyybrldungndx",
+                "EmailAddress": "njjthvfxuuktilfa",
+                "PhoneNumber": "fudnyighvrflklce"
+            },
+            {
+                "ContactNotes": "zyfizhajstkwkavu",
+                "EmailAddress": "wicdnardpsgvrgxl",
+                "PhoneNumber": "lvoicurvyyfqyoqj"
+            },
+            {
+                "ContactNotes": "dxjdxvjtkuylvgob",
+                "EmailAddress": "xwtwijuinzdoefsp",
+                "PhoneNumber": "mnynakiucyzdnavg"
+            },
+            {
+                "ContactNotes": "fizplccicjggbbpc",
+                "EmailAddress": "dvgmcrzbcktgfvke",
+                "PhoneNumber": "bxdtrlkmrnehnpil"
+            },
+            {
+                "ContactNotes": "noxzeavrorajuype",
+                "EmailAddress": "wfgzjlhptscaaalh",
+                "PhoneNumber": "nbynsancphjwfhus"
+            },
+            {
+                "ContactNotes": "zlkopmsfjdageojn",
+                "EmailAddress": "oxzkvkeyfvbijgtp",
+                "PhoneNumber": "uesqydxxnxpkuair"
+            },
+            {
+                "ContactNotes": "vqggkwadibksqota",
+                "EmailAddress": "azwxukkjgmjoihtu",
+                "PhoneNumber": "kpchvzgkiukbbvkj"
+            },
+            {
+                "ContactNotes": "toqzflubymlnkioz",
+                "EmailAddress": "neuxzutxnvyzdxlo",
+                "PhoneNumber": "ueorxgbvxjppijtn"
+            }
+        ],
+        "result_key": "EmergencyContactList"
+    },
+    "meta": {
+        "start": 1711116629.932004,
+        "end": 1711116635.709998,
+        "duration": 5.778003931045532,
+        "service": "shield",
+        "type": "emergency_contact_settings"
+    }
+}

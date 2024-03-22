@@ -1,0 +1,83 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "031b56893c6f5a9d0ebe6017c5c080cb",
+        "boto_command": "list_applications",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "Id": "Id",
+                "Name": "Name",
+                "Description": "Description"
+            }
+        ],
+        "required": [],
+        "md5": "fcae43dbcffa1234b6fa248364a00eac",
+        "randomized": [
+            {
+                "Description": "nyewprxrikgtubon",
+                "Id": "byaadsfihtkfawjc",
+                "Name": "febehkeqcffdnnqe"
+            },
+            {
+                "Description": "fthifwehieuuqbrr",
+                "Id": "ytuehefobpzvbqsu",
+                "Name": "acpktdgavmvbvnsa"
+            },
+            {
+                "Description": "ppwjftimlvlbbojo",
+                "Id": "irdmsyoczwicospq",
+                "Name": "ifgsinvaxwzcthly"
+            },
+            {
+                "Description": "mivhvdbmuppfepkq",
+                "Id": "ayypqnwhxwxkmrmx",
+                "Name": "ehuzoraylhfyanpg"
+            },
+            {
+                "Description": "sbwedmcdcirnhlbm",
+                "Id": "wlxsmkqguahuzgkd",
+                "Name": "gbsxxtcxucsfiamn"
+            },
+            {
+                "Description": "mlsvzwxhlhvkbccf",
+                "Id": "yhusqdndhvklxmwb",
+                "Name": "niptjkbqshuwruop"
+            },
+            {
+                "Description": "glldkrtlndsymydu",
+                "Id": "xlxjwwfwsadebjow",
+                "Name": "ulkkvjqgczddiakz"
+            },
+            {
+                "Description": "mjwjkxhuwpvbxyhb",
+                "Id": "vuwcfnqihqwcufbd",
+                "Name": "ksmcszxhwhyuoxie"
+            },
+            {
+                "Description": "nvlkdlnmaizwrwtj",
+                "Id": "ycuixpsfievyalvp",
+                "Name": "omqupuqcykldekdl"
+            },
+            {
+                "Description": "wvculnheopooaxfr",
+                "Id": "xopkqmnlijwftuwe",
+                "Name": "eoiyqhjksnklcfst"
+            }
+        ],
+        "result_key": "Items"
+    },
+    "meta": {
+        "start": 1711115215.584804,
+        "end": 1711115222.879722,
+        "duration": 7.294926881790161,
+        "service": "appconfig",
+        "type": "applications"
+    }
+}

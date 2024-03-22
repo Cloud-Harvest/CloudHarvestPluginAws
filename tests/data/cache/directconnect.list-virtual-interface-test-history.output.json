@@ -1,0 +1,166 @@
+{
+    "input": {
+        "template": {
+            "testId": "",
+            "virtualInterfaceId": "",
+            "bgpPeers": [
+                ""
+            ],
+            "status": "",
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "required": [],
+        "md5": "197bcedf56e565d23399fa8ccea7f33a",
+        "boto_command": "list_virtual_interface_test_history",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "testId": "testId",
+                "virtualInterfaceId": "virtualInterfaceId",
+                "bgpPeers": [
+                    "BGPPeerId"
+                ],
+                "status": "status",
+                "ownerAccount": "ownerAccount",
+                "testDurationInMinutes": 0,
+                "startTime": "1970-01-01T00:00:00",
+                "endTime": "1970-01-01T00:00:00"
+            }
+        ],
+        "required": [],
+        "md5": "6c8b099863bfc0492331253ca34d6a7d",
+        "randomized": [
+            {
+                "bgpPeers": [
+                    "wxnecphrtitcegjr"
+                ],
+                "endTime": "uttlhoffegllsrwu",
+                "ownerAccount": "nmhjxkdcplssnbnz",
+                "startTime": "soewwkqfqozrzlkp",
+                "status": "zzrmcqxmzvmitdcr",
+                "testDurationInMinutes": 0,
+                "testId": "dqpohjmaobylbvwe",
+                "virtualInterfaceId": "ztjulmpvsubmqjww"
+            },
+            {
+                "bgpPeers": [
+                    "yvahznjdgcoecakx"
+                ],
+                "endTime": "pajyoglsinbiqpkc",
+                "ownerAccount": "avrkbmnbdsfjxrge",
+                "startTime": "izutjvlbibrojqev",
+                "status": "ubwryiaqqncsikwx",
+                "testDurationInMinutes": 0,
+                "testId": "thbuunfuhkdnaiyw",
+                "virtualInterfaceId": "yoqauzywuylxkobd"
+            },
+            {
+                "bgpPeers": [
+                    "fzolmqzajhgmsktt"
+                ],
+                "endTime": "dvzzpbzocayfztzn",
+                "ownerAccount": "omgdnszalkqnmahd",
+                "startTime": "wefnnnsmsyhvqmhg",
+                "status": "dshoogxryshvwsug",
+                "testDurationInMinutes": 0,
+                "testId": "preizcmevamtonfa",
+                "virtualInterfaceId": "cxgbcfrwxkqhqtlc"
+            },
+            {
+                "bgpPeers": [
+                    "zljdoyjzgekzblpx"
+                ],
+                "endTime": "hlkkopziimkvrmyo",
+                "ownerAccount": "unjgkxoiunbvinqe",
+                "startTime": "trmhgronbacfgyfp",
+                "status": "gjsyxwgbgbisyqpt",
+                "testDurationInMinutes": 0,
+                "testId": "busvfxmimsoradbu",
+                "virtualInterfaceId": "mzhuycoskmwsoyqo"
+            },
+            {
+                "bgpPeers": [
+                    "szshbavogoatarpy"
+                ],
+                "endTime": "vlvusrswrcnfpdeo",
+                "ownerAccount": "hyfwjslnxbzculws",
+                "startTime": "hwvisppsurophckk",
+                "status": "vasxnuionkagvggb",
+                "testDurationInMinutes": 0,
+                "testId": "nkkmvjplcuvbefep",
+                "virtualInterfaceId": "euuonosmfuwcdoux"
+            },
+            {
+                "bgpPeers": [
+                    "yqgacepevuxtwmrp"
+                ],
+                "endTime": "azkfuobufgzibpxw",
+                "ownerAccount": "brwqzsqjuvaqmodj",
+                "startTime": "xroiaohgvzwwaqeq",
+                "status": "qvjpuinobxmnghff",
+                "testDurationInMinutes": 0,
+                "testId": "nfwpfuccqobxcozc",
+                "virtualInterfaceId": "rrtpxjomlclnqmpn"
+            },
+            {
+                "bgpPeers": [
+                    "yyuuwghownftcvwc"
+                ],
+                "endTime": "wabledtidqisphcq",
+                "ownerAccount": "nswsesxpcehjmesq",
+                "startTime": "noesysttdmzsxlhg",
+                "status": "htqfjnfctctiwuld",
+                "testDurationInMinutes": 0,
+                "testId": "ijrfgfurpkcvmjzk",
+                "virtualInterfaceId": "hhaacwgqnnwqudnc"
+            },
+            {
+                "bgpPeers": [
+                    "bvhmobsbsmtjsyqh"
+                ],
+                "endTime": "urjpfvlbhrkmvjxi",
+                "ownerAccount": "qfqxdflgkicsryei",
+                "startTime": "dfvzyzbycbpyboij",
+                "status": "htucwrrrmkgrbepm",
+                "testDurationInMinutes": 0,
+                "testId": "nhxrvjlzywvnphly",
+                "virtualInterfaceId": "zazxrqlpfmqbawnx"
+            },
+            {
+                "bgpPeers": [
+                    "zayxjtsbkmwhvugn"
+                ],
+                "endTime": "ihjclpeyrebusmka",
+                "ownerAccount": "brbxymmtlzxlcgmy",
+                "startTime": "hgtpgwolklohqrda",
+                "status": "hicjbfmutvotzyfm",
+                "testDurationInMinutes": 0,
+                "testId": "yhoezocmtediaevm",
+                "virtualInterfaceId": "adsdylfiyhrjzsog"
+            },
+            {
+                "bgpPeers": [
+                    "lpydklqnbdooijyu"
+                ],
+                "endTime": "mmobnqfpvthzazxn",
+                "ownerAccount": "hmolvplfbmldlqfq",
+                "startTime": "paindwsujlonlltm",
+                "status": "anspanfmrdtroblw",
+                "testDurationInMinutes": 0,
+                "testId": "dihkxbexsvtrizxm",
+                "virtualInterfaceId": "ygjspkybfkrtprfj"
+            }
+        ],
+        "result_key": "virtualInterfaceTestHistory"
+    },
+    "meta": {
+        "start": 1711115567.861924,
+        "end": 1711115573.994159,
+        "duration": 6.132246017456055,
+        "service": "directconnect",
+        "type": "virtual_interface_test_history"
+    }
+}

@@ -1,0 +1,162 @@
+{
+    "input": {
+        "template": {
+            "type": "PRIVATE",
+            "name": "",
+            "startingToken": "",
+            "maxResults": 0
+        },
+        "required": [],
+        "md5": "33154a1342205078102ce8e3204b19eb",
+        "boto_command": "list_workflows",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "arn": "arn",
+                "id": "id",
+                "name": "name",
+                "status": "status",
+                "type": "type",
+                "digest": "digest",
+                "creationTime": "1970-01-01T00:00:00",
+                "metadata": {
+                    "KeyName": ""
+                }
+            }
+        ],
+        "required": [],
+        "md5": "a541707da02454808304fb5075872211",
+        "randomized": [
+            {
+                "arn": "zaoidnftechommne",
+                "creationTime": "qpllztzlxoahgacq",
+                "digest": "gyzncjwkgcadctnu",
+                "id": "qpfbythuwjsrhrcv",
+                "metadata": {
+                    "KeyName": "yzgwwxbokgefcvva"
+                },
+                "name": "bhvuwbuirdlnngwk",
+                "status": "mzgvfepmobnfgblv",
+                "type": "ionyjyvauyhrmkyy"
+            },
+            {
+                "arn": "ohqrjpmpzcnkdhdn",
+                "creationTime": "juwheqqmcelzoeaa",
+                "digest": "bawvjvnkqkhhxymu",
+                "id": "tfuapngszhqrubpr",
+                "metadata": {
+                    "KeyName": "gabapeftrzeoxfud"
+                },
+                "name": "wxptuwawijjuqhmx",
+                "status": "clsdnpnjhnzeqdww",
+                "type": "dazwuohqdkxlwdsl"
+            },
+            {
+                "arn": "wedtbidofpvmejdz",
+                "creationTime": "mwixsjpwhaltbzhi",
+                "digest": "rxejtdpiadizedjg",
+                "id": "jsiicyypfsuozbbq",
+                "metadata": {
+                    "KeyName": "mnxchjudfpbhnivj"
+                },
+                "name": "hdpdevstnrpscjrh",
+                "status": "vblelvdalarlkxbt",
+                "type": "kmcwsyfwiztpvera"
+            },
+            {
+                "arn": "vxaoozlodzlevjzb",
+                "creationTime": "njvqkoezzysvqndz",
+                "digest": "nclayqixqniwapwl",
+                "id": "snmwinowglvgcpik",
+                "metadata": {
+                    "KeyName": "kckrkquddtskfybb"
+                },
+                "name": "cjdnobyifzzmvvwx",
+                "status": "itgbibwcziqfziak",
+                "type": "astmxrpyqarrzbki"
+            },
+            {
+                "arn": "ndhjzkvejfhvrwib",
+                "creationTime": "rxjuewwmeytxnphj",
+                "digest": "tkwfkkquhsoqbqxc",
+                "id": "yajdchvenewoklay",
+                "metadata": {
+                    "KeyName": "warbustpoqimhhut"
+                },
+                "name": "ewytoxrnxdskaxun",
+                "status": "ifwzigoehqcbctqr",
+                "type": "qigziyscrabqgtdi"
+            },
+            {
+                "arn": "lzwjwsydgzfvvimu",
+                "creationTime": "odjxhvlzvkbwvtbv",
+                "digest": "pzsdoapwiwlaibrb",
+                "id": "jvsqhnxailtshfda",
+                "metadata": {
+                    "KeyName": "ujcluykvbrkqhfxd"
+                },
+                "name": "rnvpcmdizkzhfaip",
+                "status": "gwbmgzhgngizxauz",
+                "type": "trgfnpkxyyjvblpn"
+            },
+            {
+                "arn": "fiapqbryanunpbcr",
+                "creationTime": "aswippgrpllqudqp",
+                "digest": "qxbdvbcmaisgugdk",
+                "id": "jsqpodtcnetsygfr",
+                "metadata": {
+                    "KeyName": "zgkvyhtslmayzbos"
+                },
+                "name": "pthahyaeplcbryvo",
+                "status": "telbhlfignessyzw",
+                "type": "glvdtlydnhzfqvhh"
+            },
+            {
+                "arn": "pbefjlnhuprlmebs",
+                "creationTime": "awiwsjssmzbbnptl",
+                "digest": "fsairtmvzlcpnsxs",
+                "id": "pbiipieouybishvq",
+                "metadata": {
+                    "KeyName": "niovddzbycptswjz"
+                },
+                "name": "uxedqfsgzansjmsj",
+                "status": "mrruvyxaffkrcose",
+                "type": "vjjeiggdfqhdnbjm"
+            },
+            {
+                "arn": "tngjqzdmntbjvjft",
+                "creationTime": "ccnqbutntfzcjpdv",
+                "digest": "xypambfvzkaaydgb",
+                "id": "mwlxkdfccjvpnssb",
+                "metadata": {
+                    "KeyName": "dkxtfulluxrahknz"
+                },
+                "name": "lcazqjvmilahduhu",
+                "status": "jdxetesexqcrjhrq",
+                "type": "vesbzbmnixjjkbzu"
+            },
+            {
+                "arn": "pxspaczugsnqraei",
+                "creationTime": "gtktbvhypqonxrzf",
+                "digest": "koaryjpczzlqxssq",
+                "id": "mtlmvqsggzzphiiu",
+                "metadata": {
+                    "KeyName": "wojrwbvalwvmsqxw"
+                },
+                "name": "aiufyqatrzxuvuna",
+                "status": "zcybciabxdgadelg",
+                "type": "xujxjrqisxpmxzks"
+            }
+        ],
+        "result_key": "items"
+    },
+    "meta": {
+        "start": 1711116271.263742,
+        "end": 1711116277.714083,
+        "duration": 6.450350999832153,
+        "service": "omics",
+        "type": "workflows"
+    }
+}

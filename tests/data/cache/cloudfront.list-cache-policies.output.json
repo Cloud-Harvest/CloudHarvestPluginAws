@@ -1,0 +1,599 @@
+{
+    "input": {
+        "template": {
+            "Type": "managed",
+            "Marker": "",
+            "MaxItems": ""
+        },
+        "required": [],
+        "md5": "721d02c0a184ffb20cd685ed89a41820",
+        "boto_command": "list_cache_policies",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": {
+            "NextMarker": "NextMarker",
+            "MaxItems": 0,
+            "Quantity": 0,
+            "Items": [
+                {
+                    "Type": "Type",
+                    "CachePolicy": {
+                        "Id": "Id",
+                        "LastModifiedTime": "1970-01-01T00:00:00",
+                        "CachePolicyConfig": {
+                            "Comment": "Comment",
+                            "Name": "Name",
+                            "DefaultTTL": 0,
+                            "MaxTTL": 0,
+                            "MinTTL": 0,
+                            "ParametersInCacheKeyAndForwardedToOrigin": {
+                                "EnableAcceptEncodingGzip": true,
+                                "EnableAcceptEncodingBrotli": true,
+                                "HeadersConfig": {
+                                    "HeaderBehavior": "HeaderBehavior",
+                                    "Headers": {
+                                        "Quantity": 0,
+                                        "Items": [
+                                            "string"
+                                        ]
+                                    }
+                                },
+                                "CookiesConfig": {
+                                    "CookieBehavior": "CookieBehavior",
+                                    "Cookies": {
+                                        "Quantity": 0,
+                                        "Items": [
+                                            "string"
+                                        ]
+                                    }
+                                },
+                                "QueryStringsConfig": {
+                                    "QueryStringBehavior": "QueryStringBehavior",
+                                    "QueryStrings": {
+                                        "Quantity": 0,
+                                        "Items": [
+                                            "string"
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        "required": [],
+        "md5": "c4c0fedd39d65107d75484ba859b4025",
+        "randomized": [
+            {
+                "Items": [
+                    {
+                        "CachePolicy": {
+                            "CachePolicyConfig": {
+                                "Comment": "wxaywcehmrdodoha",
+                                "DefaultTTL": 0,
+                                "MaxTTL": 0,
+                                "MinTTL": 0,
+                                "Name": "iobvvulsbodufgaj",
+                                "ParametersInCacheKeyAndForwardedToOrigin": {
+                                    "CookiesConfig": {
+                                        "CookieBehavior": "qxxpvpnovlqztglg",
+                                        "Cookies": {
+                                            "Items": [
+                                                "jhfepxjogadfuvoc"
+                                            ],
+                                            "Quantity": 0
+                                        }
+                                    },
+                                    "EnableAcceptEncodingBrotli": true,
+                                    "EnableAcceptEncodingGzip": true,
+                                    "HeadersConfig": {
+                                        "HeaderBehavior": "quxbldtcbfzctgsi",
+                                        "Headers": {
+                                            "Items": [
+                                                "unoptpkjpyeiavth"
+                                            ],
+                                            "Quantity": 0
+                                        }
+                                    },
+                                    "QueryStringsConfig": {
+                                        "QueryStringBehavior": "fadlgchvelqrvykk",
+                                        "QueryStrings": {
+                                            "Items": [
+                                                "bkxktontthxvqcvq"
+                                            ],
+                                            "Quantity": 0
+                                        }
+                                    }
+                                }
+                            },
+                            "Id": "bpdipswysfdbcgqs",
+                            "LastModifiedTime": "snvnirvixrunglkf"
+                        },
+                        "Type": "adnmywvmvimooazt"
+                    }
+                ],
+                "MaxItems": 0,
+                "NextMarker": "csjvzguyplcvymnj",
+                "Quantity": 0
+            },
+            {
+                "Items": [
+                    {
+                        "CachePolicy": {
+                            "CachePolicyConfig": {
+                                "Comment": "ekivdfmankwjlxdl",
+                                "DefaultTTL": 0,
+                                "MaxTTL": 0,
+                                "MinTTL": 0,
+                                "Name": "acxpoiiualhasglk",
+                                "ParametersInCacheKeyAndForwardedToOrigin": {
+                                    "CookiesConfig": {
+                                        "CookieBehavior": "eodijdmltkexwmph",
+                                        "Cookies": {
+                                            "Items": [
+                                                "lqimdzawbbqqwahj"
+                                            ],
+                                            "Quantity": 0
+                                        }
+                                    },
+                                    "EnableAcceptEncodingBrotli": true,
+                                    "EnableAcceptEncodingGzip": true,
+                                    "HeadersConfig": {
+                                        "HeaderBehavior": "nkswkoouypmozddp",
+                                        "Headers": {
+                                            "Items": [
+                                                "tnexfiuzjpyyrzkr"
+                                            ],
+                                            "Quantity": 0
+                                        }
+                                    },
+                                    "QueryStringsConfig": {
+                                        "QueryStringBehavior": "agkfhbkwnxgbvcrg",
+                                        "QueryStrings": {
+                                            "Items": [
+                                                "yavoglffltobratx"
+                                            ],
+                                            "Quantity": 0
+                                        }
+                                    }
+                                }
+                            },
+                            "Id": "hfkvujmyobyioqqk",
+                            "LastModifiedTime": "pptlugzpfikxxpga"
+                        },
+                        "Type": "dtsnhlmrkzqfzpqz"
+                    }
+                ],
+                "MaxItems": 0,
+                "NextMarker": "ysquhqtlvozaqhgw",
+                "Quantity": 0
+            },
+            {
+                "Items": [
+                    {
+                        "CachePolicy": {
+                            "CachePolicyConfig": {
+                                "Comment": "lvtjxmqqzqewblzc",
+                                "DefaultTTL": 0,
+                                "MaxTTL": 0,
+                                "MinTTL": 0,
+                                "Name": "tlkstzfqvxusmhkh",
+                                "ParametersInCacheKeyAndForwardedToOrigin": {
+                                    "CookiesConfig": {
+                                        "CookieBehavior": "paxhjctilcgkxkib",
+                                        "Cookies": {
+                                            "Items": [
+                                                "ddqiekurbgniqrrd"
+                                            ],
+                                            "Quantity": 0
+                                        }
+                                    },
+                                    "EnableAcceptEncodingBrotli": true,
+                                    "EnableAcceptEncodingGzip": true,
+                                    "HeadersConfig": {
+                                        "HeaderBehavior": "ibxpdkyrylcaopwn",
+                                        "Headers": {
+                                            "Items": [
+                                                "tlszuesvuxmkrvbe"
+                                            ],
+                                            "Quantity": 0
+                                        }
+                                    },
+                                    "QueryStringsConfig": {
+                                        "QueryStringBehavior": "uicqoqrdnvfladgc",
+                                        "QueryStrings": {
+                                            "Items": [
+                                                "tfuxzpamdoebgjgk"
+                                            ],
+                                            "Quantity": 0
+                                        }
+                                    }
+                                }
+                            },
+                            "Id": "bvgbuhbrvoamwzca",
+                            "LastModifiedTime": "urflmcbgpakmuuyg"
+                        },
+                        "Type": "cydasjtcvdqjbswf"
+                    }
+                ],
+                "MaxItems": 0,
+                "NextMarker": "cynpnzkftuhsholl",
+                "Quantity": 0
+            },
+            {
+                "Items": [
+                    {
+                        "CachePolicy": {
+                            "CachePolicyConfig": {
+                                "Comment": "nrsepdzrwxinqbsw",
+                                "DefaultTTL": 0,
+                                "MaxTTL": 0,
+                                "MinTTL": 0,
+                                "Name": "eabbcgfjhgqvzkuw",
+                                "ParametersInCacheKeyAndForwardedToOrigin": {
+                                    "CookiesConfig": {
+                                        "CookieBehavior": "mnilaaolwhkqiqrz",
+                                        "Cookies": {
+                                            "Items": [
+                                                "bmvpabnvpprkptmw"
+                                            ],
+                                            "Quantity": 0
+                                        }
+                                    },
+                                    "EnableAcceptEncodingBrotli": true,
+                                    "EnableAcceptEncodingGzip": true,
+                                    "HeadersConfig": {
+                                        "HeaderBehavior": "hvyrqjacgvtkwlhl",
+                                        "Headers": {
+                                            "Items": [
+                                                "qpeiqvogaviqysmy"
+                                            ],
+                                            "Quantity": 0
+                                        }
+                                    },
+                                    "QueryStringsConfig": {
+                                        "QueryStringBehavior": "eivgxxxwdoidfqnk",
+                                        "QueryStrings": {
+                                            "Items": [
+                                                "jtuntrpnqljzqpjj"
+                                            ],
+                                            "Quantity": 0
+                                        }
+                                    }
+                                }
+                            },
+                            "Id": "rcsooqqrvyvsevrc",
+                            "LastModifiedTime": "tkinkcznpslwzqeu"
+                        },
+                        "Type": "kkerawekgjzcuera"
+                    }
+                ],
+                "MaxItems": 0,
+                "NextMarker": "zwfzelbscxjotvmo",
+                "Quantity": 0
+            },
+            {
+                "Items": [
+                    {
+                        "CachePolicy": {
+                            "CachePolicyConfig": {
+                                "Comment": "ivaovfpkayudiamo",
+                                "DefaultTTL": 0,
+                                "MaxTTL": 0,
+                                "MinTTL": 0,
+                                "Name": "wmeydefavkwegymw",
+                                "ParametersInCacheKeyAndForwardedToOrigin": {
+                                    "CookiesConfig": {
+                                        "CookieBehavior": "jeuggjfpbcnstmqw",
+                                        "Cookies": {
+                                            "Items": [
+                                                "rrfufdcmqwfsjaka"
+                                            ],
+                                            "Quantity": 0
+                                        }
+                                    },
+                                    "EnableAcceptEncodingBrotli": true,
+                                    "EnableAcceptEncodingGzip": true,
+                                    "HeadersConfig": {
+                                        "HeaderBehavior": "oksoqpvtqbyeserq",
+                                        "Headers": {
+                                            "Items": [
+                                                "jsbziyezndnvxomk"
+                                            ],
+                                            "Quantity": 0
+                                        }
+                                    },
+                                    "QueryStringsConfig": {
+                                        "QueryStringBehavior": "uaavwjbjfvgsvmcw",
+                                        "QueryStrings": {
+                                            "Items": [
+                                                "mdayysjpcopkbuvw"
+                                            ],
+                                            "Quantity": 0
+                                        }
+                                    }
+                                }
+                            },
+                            "Id": "ryjdqpkyegubqumv",
+                            "LastModifiedTime": "hmcqzbxjrlqilkdn"
+                        },
+                        "Type": "nwulrbkzjsyszwyk"
+                    }
+                ],
+                "MaxItems": 0,
+                "NextMarker": "wybsipwgguhscxdx",
+                "Quantity": 0
+            },
+            {
+                "Items": [
+                    {
+                        "CachePolicy": {
+                            "CachePolicyConfig": {
+                                "Comment": "twmrtyoyomenxmbn",
+                                "DefaultTTL": 0,
+                                "MaxTTL": 0,
+                                "MinTTL": 0,
+                                "Name": "kgyrtbsgsdeawcmh",
+                                "ParametersInCacheKeyAndForwardedToOrigin": {
+                                    "CookiesConfig": {
+                                        "CookieBehavior": "usfdrpifoynazmvb",
+                                        "Cookies": {
+                                            "Items": [
+                                                "zmntsticwvqfwxmg"
+                                            ],
+                                            "Quantity": 0
+                                        }
+                                    },
+                                    "EnableAcceptEncodingBrotli": true,
+                                    "EnableAcceptEncodingGzip": true,
+                                    "HeadersConfig": {
+                                        "HeaderBehavior": "icfpksubwgqvdjng",
+                                        "Headers": {
+                                            "Items": [
+                                                "xhjbsekgogamagro"
+                                            ],
+                                            "Quantity": 0
+                                        }
+                                    },
+                                    "QueryStringsConfig": {
+                                        "QueryStringBehavior": "ahhphwflagqxrwgq",
+                                        "QueryStrings": {
+                                            "Items": [
+                                                "zyhnvhrutaacoviw"
+                                            ],
+                                            "Quantity": 0
+                                        }
+                                    }
+                                }
+                            },
+                            "Id": "kfahmatdgblcpclm",
+                            "LastModifiedTime": "gscxpvhknbguyhuz"
+                        },
+                        "Type": "avuvpnbxakgjurnd"
+                    }
+                ],
+                "MaxItems": 0,
+                "NextMarker": "kllugqdmjusmcmtv",
+                "Quantity": 0
+            },
+            {
+                "Items": [
+                    {
+                        "CachePolicy": {
+                            "CachePolicyConfig": {
+                                "Comment": "szlbprvynsdkavfg",
+                                "DefaultTTL": 0,
+                                "MaxTTL": 0,
+                                "MinTTL": 0,
+                                "Name": "srthwupybyzrcvyl",
+                                "ParametersInCacheKeyAndForwardedToOrigin": {
+                                    "CookiesConfig": {
+                                        "CookieBehavior": "bszcgmecrwxpqbjf",
+                                        "Cookies": {
+                                            "Items": [
+                                                "fxcsfepgnphitdzx"
+                                            ],
+                                            "Quantity": 0
+                                        }
+                                    },
+                                    "EnableAcceptEncodingBrotli": true,
+                                    "EnableAcceptEncodingGzip": true,
+                                    "HeadersConfig": {
+                                        "HeaderBehavior": "wybhqtnbcuumfehj",
+                                        "Headers": {
+                                            "Items": [
+                                                "vqtzjaeuxcmpjgwe"
+                                            ],
+                                            "Quantity": 0
+                                        }
+                                    },
+                                    "QueryStringsConfig": {
+                                        "QueryStringBehavior": "lcihsnxodzhyvkjv",
+                                        "QueryStrings": {
+                                            "Items": [
+                                                "heqsomwdbypcezxa"
+                                            ],
+                                            "Quantity": 0
+                                        }
+                                    }
+                                }
+                            },
+                            "Id": "kqbtwatrbhvobwvu",
+                            "LastModifiedTime": "unjghkkbpdzpiozr"
+                        },
+                        "Type": "mfcywlgvxqfqemow"
+                    }
+                ],
+                "MaxItems": 0,
+                "NextMarker": "pzhaoioxhsiygxlu",
+                "Quantity": 0
+            },
+            {
+                "Items": [
+                    {
+                        "CachePolicy": {
+                            "CachePolicyConfig": {
+                                "Comment": "hbkonltqhhosdrrh",
+                                "DefaultTTL": 0,
+                                "MaxTTL": 0,
+                                "MinTTL": 0,
+                                "Name": "vegqfhaogmnldwdx",
+                                "ParametersInCacheKeyAndForwardedToOrigin": {
+                                    "CookiesConfig": {
+                                        "CookieBehavior": "tvmcxukjalouuktm",
+                                        "Cookies": {
+                                            "Items": [
+                                                "fbxcaoqmqtbvrwdn"
+                                            ],
+                                            "Quantity": 0
+                                        }
+                                    },
+                                    "EnableAcceptEncodingBrotli": true,
+                                    "EnableAcceptEncodingGzip": true,
+                                    "HeadersConfig": {
+                                        "HeaderBehavior": "kxwvzeayxnjwzllp",
+                                        "Headers": {
+                                            "Items": [
+                                                "uyhhemltzgmnrwpv"
+                                            ],
+                                            "Quantity": 0
+                                        }
+                                    },
+                                    "QueryStringsConfig": {
+                                        "QueryStringBehavior": "khsuadavpxzgfsdc",
+                                        "QueryStrings": {
+                                            "Items": [
+                                                "hztnlmeprduppwuj"
+                                            ],
+                                            "Quantity": 0
+                                        }
+                                    }
+                                }
+                            },
+                            "Id": "cgenykwrtpismuzs",
+                            "LastModifiedTime": "ngbhettwyeeqjhsv"
+                        },
+                        "Type": "dldcdluwtghwhojl"
+                    }
+                ],
+                "MaxItems": 0,
+                "NextMarker": "uaeaieorlohonodl",
+                "Quantity": 0
+            },
+            {
+                "Items": [
+                    {
+                        "CachePolicy": {
+                            "CachePolicyConfig": {
+                                "Comment": "feklmwewgyyqpbla",
+                                "DefaultTTL": 0,
+                                "MaxTTL": 0,
+                                "MinTTL": 0,
+                                "Name": "jfjuhouzgktrwvjl",
+                                "ParametersInCacheKeyAndForwardedToOrigin": {
+                                    "CookiesConfig": {
+                                        "CookieBehavior": "ztetpbccypvpmhem",
+                                        "Cookies": {
+                                            "Items": [
+                                                "ytzrgaatpxjnmnns"
+                                            ],
+                                            "Quantity": 0
+                                        }
+                                    },
+                                    "EnableAcceptEncodingBrotli": true,
+                                    "EnableAcceptEncodingGzip": true,
+                                    "HeadersConfig": {
+                                        "HeaderBehavior": "yrpgctbomryflkoz",
+                                        "Headers": {
+                                            "Items": [
+                                                "essdqpldhlyndpwz"
+                                            ],
+                                            "Quantity": 0
+                                        }
+                                    },
+                                    "QueryStringsConfig": {
+                                        "QueryStringBehavior": "hbociehfxoghtczs",
+                                        "QueryStrings": {
+                                            "Items": [
+                                                "bqgabodqasgnprix"
+                                            ],
+                                            "Quantity": 0
+                                        }
+                                    }
+                                }
+                            },
+                            "Id": "xpncdabnrziudtsr",
+                            "LastModifiedTime": "zszusnzfgsmymplt"
+                        },
+                        "Type": "qykyarhxeymjigue"
+                    }
+                ],
+                "MaxItems": 0,
+                "NextMarker": "fxzafzskgbsxvvsm",
+                "Quantity": 0
+            },
+            {
+                "Items": [
+                    {
+                        "CachePolicy": {
+                            "CachePolicyConfig": {
+                                "Comment": "kiubexytvhtfepsi",
+                                "DefaultTTL": 0,
+                                "MaxTTL": 0,
+                                "MinTTL": 0,
+                                "Name": "kdeqszndswckauph",
+                                "ParametersInCacheKeyAndForwardedToOrigin": {
+                                    "CookiesConfig": {
+                                        "CookieBehavior": "pnrrcxudghjvezsx",
+                                        "Cookies": {
+                                            "Items": [
+                                                "gtseejgmupuagqze"
+                                            ],
+                                            "Quantity": 0
+                                        }
+                                    },
+                                    "EnableAcceptEncodingBrotli": true,
+                                    "EnableAcceptEncodingGzip": true,
+                                    "HeadersConfig": {
+                                        "HeaderBehavior": "eubshsladtqfukfz",
+                                        "Headers": {
+                                            "Items": [
+                                                "kmvzvnipsaitbhmb"
+                                            ],
+                                            "Quantity": 0
+                                        }
+                                    },
+                                    "QueryStringsConfig": {
+                                        "QueryStringBehavior": "dmulsvwccsevewbl",
+                                        "QueryStrings": {
+                                            "Items": [
+                                                "fznckkpseseivqrt"
+                                            ],
+                                            "Quantity": 0
+                                        }
+                                    }
+                                }
+                            },
+                            "Id": "fkwgukajujxbzbih",
+                            "LastModifiedTime": "klxjiisajdjjgyvp"
+                        },
+                        "Type": "wvokctocimmenqjs"
+                    }
+                ],
+                "MaxItems": 0,
+                "NextMarker": "khthxasblyentxla",
+                "Quantity": 0
+            }
+        ],
+        "result_key": "CachePolicyList"
+    },
+    "meta": {
+        "start": 1711115374.693084,
+        "end": 1711115381.548785,
+        "duration": 6.855711936950684,
+        "service": "cloudfront",
+        "type": "cache_policies"
+    }
+}

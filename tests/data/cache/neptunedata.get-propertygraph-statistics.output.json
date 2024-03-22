@@ -1,0 +1,34 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "get_propertygraph_statistics",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": "status",
+        "required": [],
+        "md5": "01c5a99dd7dd192e47f1e6972c0cf324",
+        "randomized": [
+            "ehkrffkcencipmkd",
+            "hpfabejiymzjfnoc",
+            "dvitjqpsdcipnxkp",
+            "tcaroyamwtnxpdzi",
+            "zubulimlnteerexd",
+            "drdjbytcwppqczkg",
+            "mmbhizupqskaahml",
+            "dnoaqqqtjnvwshpm",
+            "aoruaewenioyjmek",
+            "faychrpfhjhjbsmt"
+        ],
+        "result_key": "status"
+    },
+    "meta": {
+        "start": 1711116236.135408,
+        "end": 1711116243.289847,
+        "duration": 7.154445171356201,
+        "service": "neptunedata",
+        "type": null
+    }
+}

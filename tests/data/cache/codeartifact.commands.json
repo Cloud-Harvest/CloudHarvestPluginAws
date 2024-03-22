@@ -1,0 +1,20 @@
+[
+    "codeartifact.describe-domain",
+    "codeartifact.describe-package",
+    "codeartifact.describe-package-version",
+    "codeartifact.describe-repository",
+    "codeartifact.get-authorization-token",
+    "codeartifact.get-domain-permissions-policy",
+    "codeartifact.get-package-version-asset",
+    "codeartifact.get-package-version-readme",
+    "codeartifact.get-repository-endpoint",
+    "codeartifact.get-repository-permissions-policy",
+    "codeartifact.list-domains",
+    "codeartifact.list-package-version-assets",
+    "codeartifact.list-package-version-dependencies",
+    "codeartifact.list-package-versions",
+    "codeartifact.list-packages",
+    "codeartifact.list-repositories",
+    "codeartifact.list-repositories-in-domain",
+    "codeartifact.list-tags-for-resource"
+]

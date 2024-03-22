@@ -1,0 +1,113 @@
+{
+    "input": {
+        "template": {
+            "Filters": [
+                {
+                    "Key": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "8a835b770f10e382e3afeefd7d748eeb",
+        "boto_command": "list_ops_metadata",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "ResourceId": "ResourceId",
+                "OpsMetadataArn": "OpsMetadataArn",
+                "LastModifiedDate": "1970-01-01T00:00:00",
+                "LastModifiedUser": "LastModifiedUser",
+                "CreationDate": "1970-01-01T00:00:00"
+            }
+        ],
+        "required": [],
+        "md5": "bda52964ecfe70b371554e6bf78076ff",
+        "randomized": [
+            {
+                "CreationDate": "jyyvkmxuicepavss",
+                "LastModifiedDate": "fxtbhknvedvlxydi",
+                "LastModifiedUser": "izppwammuxibqsjp",
+                "OpsMetadataArn": "nmzqbkvldvxjjwgv",
+                "ResourceId": "shibszjbihotwose"
+            },
+            {
+                "CreationDate": "vplvrdrywrijpcac",
+                "LastModifiedDate": "mpvspwpgtnnslcie",
+                "LastModifiedUser": "ippeybdvnatvazde",
+                "OpsMetadataArn": "gxoaqpnuutsccmwd",
+                "ResourceId": "weljyufehgleassv"
+            },
+            {
+                "CreationDate": "oqfzjzhttocdpbly",
+                "LastModifiedDate": "wounoywduogrzimg",
+                "LastModifiedUser": "nynoadkzwlygdzze",
+                "OpsMetadataArn": "gbupmzojiwkoqhaa",
+                "ResourceId": "qrzgnazrhzoprtqi"
+            },
+            {
+                "CreationDate": "zcwwncabxsceuzcg",
+                "LastModifiedDate": "jsgsplncsrxrkngf",
+                "LastModifiedUser": "latmsgllgbccbupb",
+                "OpsMetadataArn": "bibdpttashferwaz",
+                "ResourceId": "owjrruaqjlejslyd"
+            },
+            {
+                "CreationDate": "kyakrhsmnrypszlm",
+                "LastModifiedDate": "vbwitsbakzvwrjyl",
+                "LastModifiedUser": "kxyxwarpzqhmhwed",
+                "OpsMetadataArn": "guelkrnkprxbomgy",
+                "ResourceId": "daizmfeubzzmbuhn"
+            },
+            {
+                "CreationDate": "xwrcpebpteichhws",
+                "LastModifiedDate": "cezsfdhmbjrwoukb",
+                "LastModifiedUser": "mtthsicgpjnobury",
+                "OpsMetadataArn": "cxfscohsfjzwwvdr",
+                "ResourceId": "paejkqjzazlnwzaa"
+            },
+            {
+                "CreationDate": "xxqvglsdtcgcivpf",
+                "LastModifiedDate": "emkdukwnxqabtrss",
+                "LastModifiedUser": "pjtemhwszgmtjbpm",
+                "OpsMetadataArn": "asbjkviakjlznhqg",
+                "ResourceId": "phzczcvawzjlbegb"
+            },
+            {
+                "CreationDate": "ctoygviflpexpmfy",
+                "LastModifiedDate": "kcxazukkxxwxyzmz",
+                "LastModifiedUser": "xkuzqnhlounkfvty",
+                "OpsMetadataArn": "vxlmhurodbkgbzng",
+                "ResourceId": "gtjjzfdxmnlovsmr"
+            },
+            {
+                "CreationDate": "gkadgxnmlfbtvjgn",
+                "LastModifiedDate": "fchmfwufetgowhub",
+                "LastModifiedUser": "ykjfmnptpazodzbg",
+                "OpsMetadataArn": "iaenmlqkivoqfuoo",
+                "ResourceId": "jwfwwokaonhhrhiv"
+            },
+            {
+                "CreationDate": "unppnedvzlwugrql",
+                "LastModifiedDate": "tbhypxtmanojwxvq",
+                "LastModifiedUser": "dbysyaylegptpkig",
+                "OpsMetadataArn": "ipyhetoaxkpujxoq",
+                "ResourceId": "pynvybquaavdgjea"
+            }
+        ],
+        "result_key": "OpsMetadataList"
+    },
+    "meta": {
+        "start": 1711116672.578813,
+        "end": 1711116679.734752,
+        "duration": 7.155948877334595,
+        "service": "ssm",
+        "type": "ops_metadata"
+    }
+}

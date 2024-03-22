@@ -1,0 +1,36 @@
+{
+    "input": {
+        "template": {
+            "mode": "basic"
+        },
+        "required": [],
+        "md5": "8d341405355783edef75165a5945766a",
+        "boto_command": "get_propertygraph_summary",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": 0,
+        "required": [],
+        "md5": "93037b7932ae74946011ac9097d8eccc",
+        "randomized": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "result_key": "statusCode"
+    },
+    "meta": {
+        "start": 1711116236.280453,
+        "end": 1711116242.070806,
+        "duration": 5.790364980697632,
+        "service": "neptunedata",
+        "type": null
+    }
+}

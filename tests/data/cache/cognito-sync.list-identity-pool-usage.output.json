@@ -1,0 +1,94 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "9dece7f85fc1c3f944425b1f68a8e6e1",
+        "boto_command": "list_identity_pool_usage",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "IdentityPoolId": "IdentityPoolId",
+                "SyncSessionsCount": 0,
+                "DataStorage": 0,
+                "LastModifiedDate": "1970-01-01T00:00:00"
+            }
+        ],
+        "required": [],
+        "md5": "cbabde97fab31bbda6f5e67fbe743a08",
+        "randomized": [
+            {
+                "DataStorage": 0,
+                "IdentityPoolId": "nljvahgoqzagdigd",
+                "LastModifiedDate": "kitycocwvtqadnpy",
+                "SyncSessionsCount": 0
+            },
+            {
+                "DataStorage": 0,
+                "IdentityPoolId": "inbhmuptiwldmgrl",
+                "LastModifiedDate": "rulgrwtaawdbwuwl",
+                "SyncSessionsCount": 0
+            },
+            {
+                "DataStorage": 0,
+                "IdentityPoolId": "cplfuaqiymvwxfzg",
+                "LastModifiedDate": "njkonoquvlnvmtyl",
+                "SyncSessionsCount": 0
+            },
+            {
+                "DataStorage": 0,
+                "IdentityPoolId": "ndopoxgaskdujgjo",
+                "LastModifiedDate": "qsatuuyykzurdmcv",
+                "SyncSessionsCount": 0
+            },
+            {
+                "DataStorage": 0,
+                "IdentityPoolId": "qdougnqjdzahtklf",
+                "LastModifiedDate": "jvlichowdxcfbyak",
+                "SyncSessionsCount": 0
+            },
+            {
+                "DataStorage": 0,
+                "IdentityPoolId": "qhptryhzzpxlbqxf",
+                "LastModifiedDate": "sgwqnqkdbhomnibx",
+                "SyncSessionsCount": 0
+            },
+            {
+                "DataStorage": 0,
+                "IdentityPoolId": "kzwqmyetxdkdopir",
+                "LastModifiedDate": "totxxfolaviqunzm",
+                "SyncSessionsCount": 0
+            },
+            {
+                "DataStorage": 0,
+                "IdentityPoolId": "thpvxbmkvdhrbgsj",
+                "LastModifiedDate": "lcmdxbgojjdvextc",
+                "SyncSessionsCount": 0
+            },
+            {
+                "DataStorage": 0,
+                "IdentityPoolId": "lyyhvfhtjaojgrcy",
+                "LastModifiedDate": "ujddhifltadkydbn",
+                "SyncSessionsCount": 0
+            },
+            {
+                "DataStorage": 0,
+                "IdentityPoolId": "emlvirtfludzdoez",
+                "LastModifiedDate": "okztznxomsyhfquf",
+                "SyncSessionsCount": 0
+            }
+        ],
+        "result_key": "IdentityPoolUsages"
+    },
+    "meta": {
+        "start": 1711115445.346125,
+        "end": 1711115453.217893,
+        "duration": 7.8717780113220215,
+        "service": "cognito-sync",
+        "type": "identity_pool_usage"
+    }
+}

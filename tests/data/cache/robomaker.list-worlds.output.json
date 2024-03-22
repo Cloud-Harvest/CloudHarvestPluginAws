@@ -1,0 +1,102 @@
+{
+    "input": {
+        "template": {
+            "nextToken": "",
+            "maxResults": 0,
+            "filters": [
+                {
+                    "name": "",
+                    "values": [
+                        ""
+                    ]
+                }
+            ]
+        },
+        "required": [],
+        "md5": "1a660c1d80b49c4c919fec65f6dc6d78",
+        "boto_command": "list_worlds",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "arn": "arn",
+                "createdAt": "1970-01-01T00:00:00",
+                "generationJob": "generationJob",
+                "template": "template"
+            }
+        ],
+        "required": [],
+        "md5": "b43fc97f9a9d453cb805fa694030307e",
+        "randomized": [
+            {
+                "arn": "sgoxmhthpwcctdis",
+                "createdAt": "ibwujshcqkdwojvr",
+                "generationJob": "lxidgfwykjovlffy",
+                "template": "qqrzawiaxdfehmgj"
+            },
+            {
+                "arn": "hbdulfgcyttwhkny",
+                "createdAt": "slydeagtjijkunpk",
+                "generationJob": "ivrxuncksrrsordf",
+                "template": "nouujaypowfdffxf"
+            },
+            {
+                "arn": "cmiatjjdvzdrxkmc",
+                "createdAt": "ngedjtafyaojromv",
+                "generationJob": "nseizlrgmeukeivt",
+                "template": "feefiauszobmcdvw"
+            },
+            {
+                "arn": "pogefthgummlgrfn",
+                "createdAt": "aeithubwccvprryi",
+                "generationJob": "zpacjaglndvfwbsf",
+                "template": "lckdstwrsnmvodot"
+            },
+            {
+                "arn": "kufqbbiqjeexgeie",
+                "createdAt": "rwcmknlcejdeyrbq",
+                "generationJob": "isvhqrblwbkitswx",
+                "template": "frzxgfyfagzfwkrp"
+            },
+            {
+                "arn": "zstwlszdhkljwrei",
+                "createdAt": "sbfbsqdowiilggmb",
+                "generationJob": "lrbmqercqhkkyzdz",
+                "template": "tfezauqzptmbdndt"
+            },
+            {
+                "arn": "zahhjyxwjlhblydu",
+                "createdAt": "ywajhqzsdtfhsztv",
+                "generationJob": "noobulswtzlhuyyl",
+                "template": "qifrwfbdvvkneqcr"
+            },
+            {
+                "arn": "uvkykhtnjyamvsjr",
+                "createdAt": "swyvgcbeiobwauqd",
+                "generationJob": "uzvxdtrjisshaott",
+                "template": "nxztqdslysqeycqy"
+            },
+            {
+                "arn": "bmagjvrhrlwzshwa",
+                "createdAt": "dokechupsycyjcfl",
+                "generationJob": "joukbpjwjuethfql",
+                "template": "fnkqkasekmzdnpvs"
+            },
+            {
+                "arn": "kewymsxxdihdjckh",
+                "createdAt": "pyvkxkiwjlixaivn",
+                "generationJob": "gkyuhenyylprfroa",
+                "template": "jevagbxlpzywlaga"
+            }
+        ],
+        "result_key": "worldSummaries"
+    },
+    "meta": {
+        "start": 1711116468.077083,
+        "end": 1711116475.247819,
+        "duration": 7.170745849609375,
+        "service": "robomaker",
+        "type": "worlds"
+    }
+}

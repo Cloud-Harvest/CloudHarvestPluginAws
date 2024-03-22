@@ -1,0 +1,37 @@
+{
+    "input": {
+        "template": {
+            "position": "",
+            "limit": 0
+        },
+        "required": [],
+        "md5": "777c24a678b131f7b745c80439bfa2b6",
+        "boto_command": "get_vpc_links",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": "position",
+        "required": [],
+        "md5": "51fe692d409c70979c24f9259c696774",
+        "randomized": [
+            "neydnjjvtpalbfhp",
+            "olvqkzykkdhlycfz",
+            "vnrrufymxsoshmgp",
+            "wcpxlsqxmmdmwtee",
+            "hbtxcewagfpwvild",
+            "apaakcfavuikaynb",
+            "sqziixqxistnsuwa",
+            "ymhtsqurgzgmvvel",
+            "xtzjtjpoxxxqqsjz",
+            "kzgpyahezyiejotz"
+        ],
+        "result_key": "position"
+    },
+    "meta": {
+        "start": 1711115208.248532,
+        "end": 1711115214.521577,
+        "duration": 6.273054838180542,
+        "service": "apigateway",
+        "type": null
+    }
+}

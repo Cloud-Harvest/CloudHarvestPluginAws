@@ -1,0 +1,11 @@
+[
+    "signer.describe-signing-job",
+    "signer.get-revocation-status",
+    "signer.get-signing-platform",
+    "signer.get-signing-profile",
+    "signer.list-profile-permissions",
+    "signer.list-signing-jobs",
+    "signer.list-signing-platforms",
+    "signer.list-signing-profiles",
+    "signer.list-tags-for-resource"
+]

@@ -1,0 +1,94 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "9dece7f85fc1c3f944425b1f68a8e6e1",
+        "boto_command": "describe_runtime_versions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "VersionName": "VersionName",
+                "Description": "Description",
+                "ReleaseDate": "1970-01-01T00:00:00",
+                "DeprecationDate": "1970-01-01T00:00:00"
+            }
+        ],
+        "required": [],
+        "md5": "19d7c10601691e4b608c36238a3cc794",
+        "randomized": [
+            {
+                "DeprecationDate": "hozptqxobysiukol",
+                "Description": "lsmbxpfvrjyvkkth",
+                "ReleaseDate": "btternsllbubqouk",
+                "VersionName": "nomemeqzqxqhxylx"
+            },
+            {
+                "DeprecationDate": "qlajoojbzngtzaln",
+                "Description": "dcliavqjpduwfwbc",
+                "ReleaseDate": "jhsqwqdmitphmydg",
+                "VersionName": "wvlhbpfdxafzuoer"
+            },
+            {
+                "DeprecationDate": "nvxnxbvychgmvoaq",
+                "Description": "yquggfhbefvcsggl",
+                "ReleaseDate": "kytvqajjykmmlwgn",
+                "VersionName": "equwxyzftybouvhw"
+            },
+            {
+                "DeprecationDate": "fsmrraxvuvfnytxl",
+                "Description": "omnsrxbkasriuzfh",
+                "ReleaseDate": "jyajofoyctpyrsun",
+                "VersionName": "mitnkoaxskxicggl"
+            },
+            {
+                "DeprecationDate": "lujeuzeaoqmukjek",
+                "Description": "uffdfjkiscvcrycd",
+                "ReleaseDate": "tpnevjumvwlvwcfq",
+                "VersionName": "rjpiejhwpjptdxpr"
+            },
+            {
+                "DeprecationDate": "acuhzhaawmkcgxcy",
+                "Description": "ygjsuoplrpbypysb",
+                "ReleaseDate": "mtvkafnzlogxinad",
+                "VersionName": "xfyiecccpwrrtson"
+            },
+            {
+                "DeprecationDate": "nmmzbspcpuzshxag",
+                "Description": "zvrowgpzcvhshnwv",
+                "ReleaseDate": "xrxkhdnedvtbzmek",
+                "VersionName": "yckbpcfdtquuqbnt"
+            },
+            {
+                "DeprecationDate": "qtrrlfjmlitzmozk",
+                "Description": "wsendhczybdfnhwi",
+                "ReleaseDate": "efkfjlnjgmetkyfc",
+                "VersionName": "edhpcxbddokiidsy"
+            },
+            {
+                "DeprecationDate": "zqaeveuekpdqrcsm",
+                "Description": "hxgcrxjxulqwpaut",
+                "ReleaseDate": "xdgtrcuyttnozfwm",
+                "VersionName": "ridbostxgobhelhd"
+            },
+            {
+                "DeprecationDate": "gqpcsbkfkrpfmdis",
+                "Description": "vgwpkhwnokbncpka",
+                "ReleaseDate": "vypbtakcghyrjlwn",
+                "VersionName": "vkxjrkektxosydxo"
+            }
+        ],
+        "result_key": "RuntimeVersions"
+    },
+    "meta": {
+        "start": 1711116715.642486,
+        "end": 1711116721.889343,
+        "duration": 6.246867895126343,
+        "service": "synthetics",
+        "type": "runtime_versions"
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "get_account",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": true,
+        "required": [],
+        "md5": "664fa1a24e4373c1a832be12cd9327f3",
+        "randomized": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+        ],
+        "result_key": "DedicatedIpAutoWarmupEnabled"
+    },
+    "meta": {
+        "start": 1711116619.03358,
+        "end": 1711116625.772143,
+        "duration": 6.738571882247925,
+        "service": "sesv2",
+        "type": null
+    }
+}

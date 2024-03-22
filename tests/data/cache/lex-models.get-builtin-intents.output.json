@@ -1,0 +1,96 @@
+{
+    "input": {
+        "template": {
+            "locale": "de-DE",
+            "signatureContains": "",
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "required": [],
+        "md5": "0142f125153f94659ea15e398787e336",
+        "boto_command": "get_builtin_intents",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "signature": "signature",
+                "supportedLocales": [
+                    "Locale"
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "d030a5ae1767112854e89f2b0c00c621",
+        "randomized": [
+            {
+                "signature": "xnmlrgpgdtiyfauy",
+                "supportedLocales": [
+                    "pcoocorpdjlbddux"
+                ]
+            },
+            {
+                "signature": "oelieyefpufovenl",
+                "supportedLocales": [
+                    "cjjzprcvhmbvsphu"
+                ]
+            },
+            {
+                "signature": "ejfoubzxyexemjam",
+                "supportedLocales": [
+                    "xttrybrhtknalpsy"
+                ]
+            },
+            {
+                "signature": "ilqgdzdhsccfwmic",
+                "supportedLocales": [
+                    "ifhpizacvaknonpt"
+                ]
+            },
+            {
+                "signature": "exrbpzilfnewpxje",
+                "supportedLocales": [
+                    "jkhyclctdemcyxaj"
+                ]
+            },
+            {
+                "signature": "fpwxvtsruxghkfkb",
+                "supportedLocales": [
+                    "kvvhasjfxegnuudm"
+                ]
+            },
+            {
+                "signature": "irjrcnygebyprmfw",
+                "supportedLocales": [
+                    "agtjobgjazyhvunw"
+                ]
+            },
+            {
+                "signature": "qefaltfuesleeiqa",
+                "supportedLocales": [
+                    "uowcbgnqzotsfnuj"
+                ]
+            },
+            {
+                "signature": "bjrloiwkjzqracok",
+                "supportedLocales": [
+                    "hqsyihenhawwkokd"
+                ]
+            },
+            {
+                "signature": "eqqwowtezyhaneku",
+                "supportedLocales": [
+                    "jufjqwjzidltacbz"
+                ]
+            }
+        ],
+        "result_key": "intents"
+    },
+    "meta": {
+        "start": 1711116063.026356,
+        "end": 1711116071.211785,
+        "duration": 8.185439109802246,
+        "service": "lex-models",
+        "type": null
+    }
+}

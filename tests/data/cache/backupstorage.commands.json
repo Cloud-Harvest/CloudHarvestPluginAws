@@ -1,0 +1,6 @@
+[
+    "backupstorage.get-chunk",
+    "backupstorage.get-object-metadata",
+    "backupstorage.list-chunks",
+    "backupstorage.list-objects"
+]

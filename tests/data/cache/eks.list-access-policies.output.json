@@ -1,0 +1,72 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "required": [],
+        "md5": "2620fedaf24e984a8f801d0beb17a6e7",
+        "boto_command": "list_access_policies",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "name": "name",
+                "arn": "arn"
+            }
+        ],
+        "required": [],
+        "md5": "ae7fa4d05485881958127f2afdf03c86",
+        "randomized": [
+            {
+                "arn": "kwjuhkrofkymiopu",
+                "name": "auxkvekdowfvigsv"
+            },
+            {
+                "arn": "gnfetkqwhlgdendo",
+                "name": "uenmadhnqmscvaqd"
+            },
+            {
+                "arn": "hzmgphditppiqoyu",
+                "name": "xaglmxeusipqrvce"
+            },
+            {
+                "arn": "uuapzfhkuvifjals",
+                "name": "xudbsexzptnqnrld"
+            },
+            {
+                "arn": "paizjyfjslcrzfjc",
+                "name": "eyyavdxtvjeinckd"
+            },
+            {
+                "arn": "wvmrealfnupvghhz",
+                "name": "ipuckrwswsjzcqkt"
+            },
+            {
+                "arn": "mlbsdwplfsetuvsp",
+                "name": "mijatzpnjwauasjt"
+            },
+            {
+                "arn": "nnnnstqtlxehxqdp",
+                "name": "bcmrrufyjuflljgp"
+            },
+            {
+                "arn": "xanzsfxxachcfzuh",
+                "name": "tmavoswjbhkuflqu"
+            },
+            {
+                "arn": "xzrckumdyvhgqyyo",
+                "name": "fxfoxrnrlxvwkclr"
+            }
+        ],
+        "result_key": "accessPolicies"
+    },
+    "meta": {
+        "start": 1711115700.706349,
+        "end": 1711115708.448811,
+        "duration": 7.742472171783447,
+        "service": "eks",
+        "type": "access_policies"
+    }
+}

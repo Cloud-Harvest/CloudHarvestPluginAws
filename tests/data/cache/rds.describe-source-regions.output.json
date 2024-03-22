@@ -1,0 +1,103 @@
+{
+    "input": {
+        "template": {
+            "RegionName": "",
+            "MaxRecords": 0,
+            "Marker": "",
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ]
+        },
+        "required": [],
+        "md5": "7f3b8ec4a02842d136960f57e4f86b72",
+        "boto_command": "describe_source_regions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "RegionName": "RegionName",
+                "Endpoint": "Endpoint",
+                "Status": "Status",
+                "SupportsDBInstanceAutomatedBackupsReplication": true
+            }
+        ],
+        "required": [],
+        "md5": "aa90d29aecf64e55074727f6669c5c5c",
+        "randomized": [
+            {
+                "Endpoint": "tjqlnxhwtthwfqnv",
+                "RegionName": "nnfozwakhjfwzoji",
+                "Status": "xelrbgexnihzgawr",
+                "SupportsDBInstanceAutomatedBackupsReplication": true
+            },
+            {
+                "Endpoint": "bgzeaoagzgmosrag",
+                "RegionName": "rugeqphxbjzfqljv",
+                "Status": "kyzhbzqwbkpsordg",
+                "SupportsDBInstanceAutomatedBackupsReplication": true
+            },
+            {
+                "Endpoint": "hbmfzujwrtmhsdrx",
+                "RegionName": "wtfndcjnuhfjsgys",
+                "Status": "slferyqylmyvwwui",
+                "SupportsDBInstanceAutomatedBackupsReplication": true
+            },
+            {
+                "Endpoint": "qpovuzijgzjmqqae",
+                "RegionName": "syddbrftymryhihh",
+                "Status": "reiwmnzsvbfrkstx",
+                "SupportsDBInstanceAutomatedBackupsReplication": true
+            },
+            {
+                "Endpoint": "ngjwkbdqvuknfczt",
+                "RegionName": "htelaeftzckfpfbl",
+                "Status": "mewailghfwkyojhe",
+                "SupportsDBInstanceAutomatedBackupsReplication": true
+            },
+            {
+                "Endpoint": "fuonrwmyuzjxofbe",
+                "RegionName": "exfskrqmzlharhtb",
+                "Status": "olwdztvnohofszud",
+                "SupportsDBInstanceAutomatedBackupsReplication": true
+            },
+            {
+                "Endpoint": "cppoagfhvvljinpr",
+                "RegionName": "ccxyvdzaexeyrbly",
+                "Status": "yfbjawczcasjkzbe",
+                "SupportsDBInstanceAutomatedBackupsReplication": true
+            },
+            {
+                "Endpoint": "ndltglbqjncykwyk",
+                "RegionName": "nipzlxlmcfvmekbp",
+                "Status": "ekksssurweoodjqq",
+                "SupportsDBInstanceAutomatedBackupsReplication": true
+            },
+            {
+                "Endpoint": "glnagrinxaudshrh",
+                "RegionName": "xroiizystgcinwxk",
+                "Status": "ttlyoytsokkfztnv",
+                "SupportsDBInstanceAutomatedBackupsReplication": true
+            },
+            {
+                "Endpoint": "zjeiandfhvfcvxaq",
+                "RegionName": "xjemciycxzslxmtw",
+                "Status": "htfmjdgzmojxkanm",
+                "SupportsDBInstanceAutomatedBackupsReplication": true
+            }
+        ],
+        "result_key": "SourceRegions"
+    },
+    "meta": {
+        "start": 1711116417.211332,
+        "end": 1711116424.217841,
+        "duration": 7.006513833999634,
+        "service": "rds",
+        "type": "source_regions"
+    }
+}

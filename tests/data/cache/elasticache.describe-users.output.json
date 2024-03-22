@@ -1,0 +1,214 @@
+{
+    "input": {
+        "template": {
+            "Engine": "",
+            "UserId": "",
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxRecords": 0,
+            "Marker": ""
+        },
+        "required": [],
+        "md5": "c832a73be3e1eb99a859ba050da52498",
+        "boto_command": "describe_users",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "UserId": "UserId",
+                "UserName": "UserName",
+                "Status": "Status",
+                "Engine": "Engine",
+                "MinimumEngineVersion": "MinimumEngineVersion",
+                "AccessString": "AccessString",
+                "UserGroupIds": [
+                    "UserGroupId"
+                ],
+                "Authentication": {
+                    "Type": "Type",
+                    "PasswordCount": 0
+                },
+                "ARN": "ARN"
+            }
+        ],
+        "required": [],
+        "md5": "02eae1d0deb597d3f3d5d32f4df128ea",
+        "randomized": [
+            {
+                "ARN": "ogetculjjfzedhdj",
+                "AccessString": "jmsmjhobmogawbve",
+                "Authentication": {
+                    "PasswordCount": 0,
+                    "Type": "jhgwecgyaumpirtz"
+                },
+                "Engine": "ookxddrpcpzbajqd",
+                "MinimumEngineVersion": "yurprkacekcvhrlo",
+                "Status": "kgayedfkrfvrndas",
+                "UserGroupIds": [
+                    "uhebeayrlbetplgm"
+                ],
+                "UserId": "ltgkxxzeowgncdqa",
+                "UserName": "lhzavhenrlcgumba"
+            },
+            {
+                "ARN": "zyeaisucbsysnghf",
+                "AccessString": "repnwvvhbanpklqm",
+                "Authentication": {
+                    "PasswordCount": 0,
+                    "Type": "sxefcxiusrvfzscz"
+                },
+                "Engine": "clorblmmvvlhegsx",
+                "MinimumEngineVersion": "djcjmrqowqwqswku",
+                "Status": "hrhazcgvkvtddtor",
+                "UserGroupIds": [
+                    "uyjicjzutjbmnxxe"
+                ],
+                "UserId": "witwccedgwcbmfur",
+                "UserName": "yjnehxohignybtas"
+            },
+            {
+                "ARN": "ncfvdcneovdxcjln",
+                "AccessString": "bsovkgmyskhxfeai",
+                "Authentication": {
+                    "PasswordCount": 0,
+                    "Type": "djccyvpnkdukoxgh"
+                },
+                "Engine": "xsnvgoustbpbdmfe",
+                "MinimumEngineVersion": "tvbtllguuazcbuli",
+                "Status": "conwsugksodjzlve",
+                "UserGroupIds": [
+                    "capjankngirhigqe"
+                ],
+                "UserId": "laehjpwbloladjde",
+                "UserName": "orzhbepifpperwhb"
+            },
+            {
+                "ARN": "vrtrteftwbvtvesi",
+                "AccessString": "xsrotbhundfwmoux",
+                "Authentication": {
+                    "PasswordCount": 0,
+                    "Type": "gqtxbqoswtgmcrom"
+                },
+                "Engine": "tuenzhnnhiupplsz",
+                "MinimumEngineVersion": "amowoftfcqmkwils",
+                "Status": "wysxorfnzidkpbut",
+                "UserGroupIds": [
+                    "usvecfbdaecexwda"
+                ],
+                "UserId": "apkrbqpiwdlbphmf",
+                "UserName": "qwbtpdwdpavfmifp"
+            },
+            {
+                "ARN": "eohjgvuwmrgprddt",
+                "AccessString": "yztuuntxuzswwmay",
+                "Authentication": {
+                    "PasswordCount": 0,
+                    "Type": "lxdvgtadobslabnf"
+                },
+                "Engine": "ixwxwzyhrxmrject",
+                "MinimumEngineVersion": "xgocqnfshwfgmnlj",
+                "Status": "ogxolzzsrhdddzpn",
+                "UserGroupIds": [
+                    "czsgopjmmsdxjoku"
+                ],
+                "UserId": "terxqihtyvwbngcp",
+                "UserName": "wrvhjpadrykatlvk"
+            },
+            {
+                "ARN": "djxzrnctuolesrmx",
+                "AccessString": "bqsnbqswsjddbbzi",
+                "Authentication": {
+                    "PasswordCount": 0,
+                    "Type": "ooxyvsalxjphrcxp"
+                },
+                "Engine": "xtbdwiatixbiqtvh",
+                "MinimumEngineVersion": "ajavowawptlbvuuq",
+                "Status": "hfcftkseidilmnfi",
+                "UserGroupIds": [
+                    "xcxwyrnqhzfmjlht"
+                ],
+                "UserId": "jlktpgsrdbbvkuqu",
+                "UserName": "ihyyausjjqmdtibo"
+            },
+            {
+                "ARN": "qifadksquxmiwqoo",
+                "AccessString": "xquyztwawdcyosqi",
+                "Authentication": {
+                    "PasswordCount": 0,
+                    "Type": "pcyveejqpfzizsko"
+                },
+                "Engine": "uliyvabtbskuzzvq",
+                "MinimumEngineVersion": "fptnzbbxdlwiddhd",
+                "Status": "cinekmynlapcilov",
+                "UserGroupIds": [
+                    "rodyfstlipbpdxgj"
+                ],
+                "UserId": "njfrhlbjjfdltsvp",
+                "UserName": "ewsqdabtxqrjgxfc"
+            },
+            {
+                "ARN": "jckwratnwsvusclx",
+                "AccessString": "miilrhdswlclrhnl",
+                "Authentication": {
+                    "PasswordCount": 0,
+                    "Type": "hnfrtuxoadqttrhc"
+                },
+                "Engine": "epydiywydsongsir",
+                "MinimumEngineVersion": "ksruaaghpycqutig",
+                "Status": "awpxvyrqeixuvrkj",
+                "UserGroupIds": [
+                    "ldubqxppyyrorela"
+                ],
+                "UserId": "zsovqaqtfgnhlivo",
+                "UserName": "lrktofbzyvsbookt"
+            },
+            {
+                "ARN": "latewibijipahumx",
+                "AccessString": "blhgxmfjievpbycz",
+                "Authentication": {
+                    "PasswordCount": 0,
+                    "Type": "cbxesqlndqbuxwjr"
+                },
+                "Engine": "ioodjctxkotepkbc",
+                "MinimumEngineVersion": "fmgvysllbncrqxkg",
+                "Status": "nokwncgwwswhhejj",
+                "UserGroupIds": [
+                    "fgnvjnzekaizemvs"
+                ],
+                "UserId": "hetzlvdvydudwelt",
+                "UserName": "cqlukpgczfrfrffz"
+            },
+            {
+                "ARN": "seckqpdmvxtkketh",
+                "AccessString": "cqeioueyfwfuqezx",
+                "Authentication": {
+                    "PasswordCount": 0,
+                    "Type": "nkmamsxuukqgwfmz"
+                },
+                "Engine": "htuyjkwqpazsdfpi",
+                "MinimumEngineVersion": "zrlqvuyqibmllnrx",
+                "Status": "plefxofrhaueviyg",
+                "UserGroupIds": [
+                    "rdsqbpasrubxcmtu"
+                ],
+                "UserId": "doqynnynblnydahp",
+                "UserName": "qqvgnuynnyuxgetl"
+            }
+        ],
+        "result_key": "Users"
+    },
+    "meta": {
+        "start": 1711115712.87648,
+        "end": 1711115719.058369,
+        "duration": 6.181897878646851,
+        "service": "elasticache",
+        "type": "users"
+    }
+}

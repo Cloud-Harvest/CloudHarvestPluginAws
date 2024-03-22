@@ -1,0 +1,72 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "031b56893c6f5a9d0ebe6017c5c080cb",
+        "boto_command": "list_channels",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "ChannelArn": "ChannelArn",
+                "Name": "Name"
+            }
+        ],
+        "required": [],
+        "md5": "fa923118a2c2659ba6164291c67427f9",
+        "randomized": [
+            {
+                "ChannelArn": "pclwcxqmglsspmbu",
+                "Name": "ewjttqnxrfehveov"
+            },
+            {
+                "ChannelArn": "qgbjwvsugkfjwfan",
+                "Name": "wpkemrfllafyehzd"
+            },
+            {
+                "ChannelArn": "brhagkbtwmdjkotn",
+                "Name": "jzanolumeiobbxpr"
+            },
+            {
+                "ChannelArn": "rtzzhctdukggspzh",
+                "Name": "qibbrkzkrjsrjzgl"
+            },
+            {
+                "ChannelArn": "gfbxtgtddpgbrnck",
+                "Name": "tewxlqcgqvcjvchc"
+            },
+            {
+                "ChannelArn": "ltkzokeauurnzajh",
+                "Name": "vfdlzmkepbysoqds"
+            },
+            {
+                "ChannelArn": "zzjqspoukbuvdawe",
+                "Name": "pqpdjjbeopikvans"
+            },
+            {
+                "ChannelArn": "pbbjfkhalbcivwaa",
+                "Name": "cugffskwfxypnlzw"
+            },
+            {
+                "ChannelArn": "kttixzynrhibxdcb",
+                "Name": "ohbwiscoizkwrowm"
+            },
+            {
+                "ChannelArn": "ycrjrxggncnqtflk",
+                "Name": "yrxvdynbbtycjbag"
+            }
+        ],
+        "result_key": "Channels"
+    },
+    "meta": {
+        "start": 1711115388.98763,
+        "end": 1711115396.033305,
+        "duration": 7.045685052871704,
+        "service": "cloudtrail",
+        "type": "channels"
+    }
+}

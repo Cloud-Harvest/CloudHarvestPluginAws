@@ -1,0 +1,39 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0,
+            "StateEquals": "PENDING",
+            "NameContains": ""
+        },
+        "required": [],
+        "md5": "f49a175ab7a087415c6d5755c8cb771f",
+        "boto_command": "list_vocabularies",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": "Status",
+        "required": [],
+        "md5": "c183a67d76e0af56093e76e543ede77b",
+        "randomized": [
+            "nmvgdpsuzwzdelof",
+            "tefaxasdkplmyinl",
+            "trxwpagassnljtqy",
+            "ezzvpdkgslrcbzum",
+            "ikghangochegllmv",
+            "rxumqwcrwfepfooz",
+            "wohztpkwpqwqpvrh",
+            "fquhqbteigrbuamn",
+            "tpowagasfyvrsqdo",
+            "qdgldinuttghtcxx"
+        ],
+        "result_key": "Status"
+    },
+    "meta": {
+        "start": 1711116732.593527,
+        "end": 1711116739.630341,
+        "duration": 7.036823034286499,
+        "service": "transcribe",
+        "type": "vocabularies"
+    }
+}

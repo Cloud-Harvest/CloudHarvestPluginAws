@@ -1,0 +1,138 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "031b56893c6f5a9d0ebe6017c5c080cb",
+        "boto_command": "list_brokers",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "BrokerArn": "BrokerArn",
+                "BrokerId": "BrokerId",
+                "BrokerName": "BrokerName",
+                "BrokerState": "BrokerState",
+                "Created": "1970-01-01T00:00:00",
+                "DeploymentMode": "DeploymentMode",
+                "EngineType": "EngineType",
+                "HostInstanceType": "HostInstanceType"
+            }
+        ],
+        "required": [],
+        "md5": "3402a140840ce7e1fd6f889c533b98db",
+        "randomized": [
+            {
+                "BrokerArn": "fbhqtfmwfbmgocje",
+                "BrokerId": "vklhehixhwacdebl",
+                "BrokerName": "zdbxnpjdchhyumuu",
+                "BrokerState": "jnxyhcrfefxosylb",
+                "Created": "dhmfashxqwlkleku",
+                "DeploymentMode": "lkfdmhyvohjkphti",
+                "EngineType": "dtdfxklljfqgcwbk",
+                "HostInstanceType": "syelftfizspklmzf"
+            },
+            {
+                "BrokerArn": "tzqwexyjavigcsdc",
+                "BrokerId": "awpvbukfhawtqqlx",
+                "BrokerName": "kslxitcrptmvndul",
+                "BrokerState": "toxqngybecuzvqtn",
+                "Created": "tvjlqpcjgjheuegh",
+                "DeploymentMode": "etflinjxrsguozpz",
+                "EngineType": "euualdgrvyljbbvz",
+                "HostInstanceType": "myhlkllrxwkprxxm"
+            },
+            {
+                "BrokerArn": "ppmlktqdqtrpjmsf",
+                "BrokerId": "sxyjrvvwvjqbtvay",
+                "BrokerName": "ojshgoefsxvvmwup",
+                "BrokerState": "zagagaclazegceza",
+                "Created": "cpjtqslgoldktudv",
+                "DeploymentMode": "iahbhyzykplvowpx",
+                "EngineType": "qtfzmckmtcwizvnq",
+                "HostInstanceType": "xalxnsgytiuouutm"
+            },
+            {
+                "BrokerArn": "wbowlajehifzxfru",
+                "BrokerId": "nylmolhhsotvppqu",
+                "BrokerName": "tkefvlznybqfkgog",
+                "BrokerState": "fxndzvizgxdjosfx",
+                "Created": "iytxgtxnlojapftr",
+                "DeploymentMode": "eokgajhfeyjejzcp",
+                "EngineType": "vhrekocuqqkqbfgk",
+                "HostInstanceType": "yrczvdrfnygydqzo"
+            },
+            {
+                "BrokerArn": "jlhgldtiuaqlqqrt",
+                "BrokerId": "uenpdufyrhwskmff",
+                "BrokerName": "ntjexvevddgghmgs",
+                "BrokerState": "ppbgdggrthjideka",
+                "Created": "jtkgwwmjdikbjhbv",
+                "DeploymentMode": "lknxcuvvnumemlcn",
+                "EngineType": "tmgzvjbrftgjtefu",
+                "HostInstanceType": "uoaestvgbbyyzrmu"
+            },
+            {
+                "BrokerArn": "jxakskqgowwfkhhc",
+                "BrokerId": "ctwelwmyeyjfkhyi",
+                "BrokerName": "cfzczexpitphffbp",
+                "BrokerState": "osbkscgjryjumxbo",
+                "Created": "tfeiacqcnwmjbxcm",
+                "DeploymentMode": "phawpwiwzlogjije",
+                "EngineType": "vipzoxcgtldsidss",
+                "HostInstanceType": "xwasiviummjkuuvk"
+            },
+            {
+                "BrokerArn": "jquqksjndyjpimiu",
+                "BrokerId": "hkqvfidhtvpzdqlm",
+                "BrokerName": "mxzfifpnfauycxhp",
+                "BrokerState": "equtifbzbsikvgka",
+                "Created": "heriiypviuknbsdj",
+                "DeploymentMode": "htqzeqruxvsyuayt",
+                "EngineType": "xxsrbiwbqrglcgnu",
+                "HostInstanceType": "otmqdtbcfqnqvofy"
+            },
+            {
+                "BrokerArn": "leqjeqpcatvysofg",
+                "BrokerId": "scejbvcnlfyyqmll",
+                "BrokerName": "kehbqjfffjslfksk",
+                "BrokerState": "bgxpffmbvfidcqil",
+                "Created": "jnkfbokdlkslvhat",
+                "DeploymentMode": "wmnpfjoeiihanysq",
+                "EngineType": "yrspkywjwtzmdlqz",
+                "HostInstanceType": "ujxbmuukbhjajkrf"
+            },
+            {
+                "BrokerArn": "iojfjmtqmxwekqwz",
+                "BrokerId": "igqxxwqjoljtzenm",
+                "BrokerName": "hxvkwqqoxhhqvnir",
+                "BrokerState": "cloblajxjnuweytd",
+                "Created": "xexnxcdipqjoxutr",
+                "DeploymentMode": "cmkgtiioqtlzzuuw",
+                "EngineType": "psbxeszdeobgqnam",
+                "HostInstanceType": "zwskcehgxslhxggj"
+            },
+            {
+                "BrokerArn": "opbwjqrzskeqaxzp",
+                "BrokerId": "waxdupmxtaxqeccf",
+                "BrokerName": "jadsweizzkottgqi",
+                "BrokerState": "dfrniowqebfkuifn",
+                "Created": "gnzbikklcbxfbybg",
+                "DeploymentMode": "uynjaesbuxjydaqs",
+                "EngineType": "bftvvofyswmflsjf",
+                "HostInstanceType": "xhwvvhdchulfkumi"
+            }
+        ],
+        "result_key": "BrokerSummaries"
+    },
+    "meta": {
+        "start": 1711116218.984687,
+        "end": 1711116225.343076,
+        "duration": 6.358399868011475,
+        "service": "mq",
+        "type": "brokers"
+    }
+}

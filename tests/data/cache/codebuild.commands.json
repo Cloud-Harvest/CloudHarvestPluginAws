@@ -1,0 +1,19 @@
+[
+    "codebuild.describe-code-coverages",
+    "codebuild.describe-test-cases",
+    "codebuild.get-report-group-trend",
+    "codebuild.get-resource-policy",
+    "codebuild.list-build-batches",
+    "codebuild.list-build-batches-for-project",
+    "codebuild.list-builds",
+    "codebuild.list-builds-for-project",
+    "codebuild.list-curated-environment-images",
+    "codebuild.list-fleets",
+    "codebuild.list-projects",
+    "codebuild.list-report-groups",
+    "codebuild.list-reports",
+    "codebuild.list-reports-for-report-group",
+    "codebuild.list-shared-projects",
+    "codebuild.list-shared-report-groups",
+    "codebuild.list-source-credentials"
+]

@@ -1,0 +1,34 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "get_latest_assessment_id",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": "id",
+        "required": [],
+        "md5": "ab0dbd776ada466a172b9aec3aa47a86",
+        "randomized": [
+            "nbjesqtmunnlswvm",
+            "yizlomtatqdylnvo",
+            "tqwkpcpomcxqejog",
+            "gyisnevwfnydzpch",
+            "jljdqwfktmcmnmix",
+            "kremqiwcqtqotzyn",
+            "cocnnlvjbeghjnln",
+            "lqbcgovwemtaxnto",
+            "bjoolrrnyhfnvqrv",
+            "dokzkxenxdhsykkw"
+        ],
+        "result_key": "id"
+    },
+    "meta": {
+        "start": 1711116212.711152,
+        "end": 1711116219.896355,
+        "duration": 7.185212850570679,
+        "service": "migrationhubstrategy",
+        "type": null
+    }
+}

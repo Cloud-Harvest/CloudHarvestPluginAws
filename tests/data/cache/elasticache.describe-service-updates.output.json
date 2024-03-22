@@ -1,0 +1,186 @@
+{
+    "input": {
+        "template": {
+            "ServiceUpdateName": "",
+            "ServiceUpdateStatus": [
+                "available"
+            ],
+            "MaxRecords": 0,
+            "Marker": ""
+        },
+        "required": [],
+        "md5": "45bd18a436fe76bc83d677d39172f6a5",
+        "boto_command": "describe_service_updates",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "ServiceUpdateName": "ServiceUpdateName",
+                "ServiceUpdateReleaseDate": "1970-01-01T00:00:00",
+                "ServiceUpdateEndDate": "1970-01-01T00:00:00",
+                "ServiceUpdateSeverity": "ServiceUpdateSeverity",
+                "ServiceUpdateRecommendedApplyByDate": "1970-01-01T00:00:00",
+                "ServiceUpdateStatus": "ServiceUpdateStatus",
+                "ServiceUpdateDescription": "ServiceUpdateDescription",
+                "ServiceUpdateType": "ServiceUpdateType",
+                "Engine": "Engine",
+                "EngineVersion": "EngineVersion",
+                "AutoUpdateAfterRecommendedApplyByDate": true,
+                "EstimatedUpdateTime": "EstimatedUpdateTime"
+            }
+        ],
+        "required": [],
+        "md5": "82c4af4c13775375beff8aeffd847295",
+        "randomized": [
+            {
+                "AutoUpdateAfterRecommendedApplyByDate": true,
+                "Engine": "leaycazsbkeakzoh",
+                "EngineVersion": "znjrekiqpqegqpmb",
+                "EstimatedUpdateTime": "zmbgsdblndqcqocq",
+                "ServiceUpdateDescription": "zmatrojnybtgaeqy",
+                "ServiceUpdateEndDate": "uvahuayrgggdvsmw",
+                "ServiceUpdateName": "vcoolgjfdxrzhbfa",
+                "ServiceUpdateRecommendedApplyByDate": "xdadzhwqbnaefsjj",
+                "ServiceUpdateReleaseDate": "nyvscrmnvjvytuyj",
+                "ServiceUpdateSeverity": "owmcshnhhjznkhre",
+                "ServiceUpdateStatus": "pzxbpvazezszuauz",
+                "ServiceUpdateType": "wiwhncwycxbewads"
+            },
+            {
+                "AutoUpdateAfterRecommendedApplyByDate": true,
+                "Engine": "fywgrbytnjcnahdw",
+                "EngineVersion": "nwkkoipsvjpbpzct",
+                "EstimatedUpdateTime": "iqlykyyxyujaojnl",
+                "ServiceUpdateDescription": "yiacgtkbgsdcwsyr",
+                "ServiceUpdateEndDate": "ovrohgxebbehggmp",
+                "ServiceUpdateName": "zpdupqfbgcdxivtl",
+                "ServiceUpdateRecommendedApplyByDate": "hvhsnpcusdeekbxl",
+                "ServiceUpdateReleaseDate": "ijjbyjfdiynzsrbe",
+                "ServiceUpdateSeverity": "ynquojarsohofvqr",
+                "ServiceUpdateStatus": "mtwmexxawkucnmuv",
+                "ServiceUpdateType": "qephkmbffdeixrgm"
+            },
+            {
+                "AutoUpdateAfterRecommendedApplyByDate": true,
+                "Engine": "sjqilbntsdfjxhwz",
+                "EngineVersion": "sxqroejmqeaebyxd",
+                "EstimatedUpdateTime": "rhgksymilybomnjt",
+                "ServiceUpdateDescription": "mnugsjfpczzqnfvb",
+                "ServiceUpdateEndDate": "romzsugxpdndbdsv",
+                "ServiceUpdateName": "tuybkorutwbrrktm",
+                "ServiceUpdateRecommendedApplyByDate": "ztnhlkxdirpofcsa",
+                "ServiceUpdateReleaseDate": "twamhtjnilhhqvlx",
+                "ServiceUpdateSeverity": "ptsruhhxpzzxobbd",
+                "ServiceUpdateStatus": "eglilceubqsjaezg",
+                "ServiceUpdateType": "txprxdjzayjovfca"
+            },
+            {
+                "AutoUpdateAfterRecommendedApplyByDate": true,
+                "Engine": "vbgudmlkqwcmtxtg",
+                "EngineVersion": "jxsmhppyxxtpvvvh",
+                "EstimatedUpdateTime": "fomejeexufiflbgh",
+                "ServiceUpdateDescription": "ajussyuinxlwaovf",
+                "ServiceUpdateEndDate": "thqsstavxqlrjvzs",
+                "ServiceUpdateName": "auhnoyscpyqcgjxq",
+                "ServiceUpdateRecommendedApplyByDate": "sdumwjdonfbcrxej",
+                "ServiceUpdateReleaseDate": "oeywdqkmyqlobvss",
+                "ServiceUpdateSeverity": "lahwkehzavqgzqeo",
+                "ServiceUpdateStatus": "eolzirixepuevkvo",
+                "ServiceUpdateType": "wpywrzrausjkueyp"
+            },
+            {
+                "AutoUpdateAfterRecommendedApplyByDate": true,
+                "Engine": "gikofipnqebdfqmb",
+                "EngineVersion": "nhauksfztrwkoklf",
+                "EstimatedUpdateTime": "compuqgrlnvjlrpm",
+                "ServiceUpdateDescription": "sbsmbtogtotrltzm",
+                "ServiceUpdateEndDate": "nblrwaijujwdhmfc",
+                "ServiceUpdateName": "wkzqtijcgbinjbkj",
+                "ServiceUpdateRecommendedApplyByDate": "mjnhmiqzeupmsduf",
+                "ServiceUpdateReleaseDate": "ldftcnsrfyehwszf",
+                "ServiceUpdateSeverity": "cfoylkaekurtqove",
+                "ServiceUpdateStatus": "kcjujqgqftvmtodt",
+                "ServiceUpdateType": "mymupuvhuigeyjcw"
+            },
+            {
+                "AutoUpdateAfterRecommendedApplyByDate": true,
+                "Engine": "yxwsynyslxxyhzxq",
+                "EngineVersion": "yskkrhwpeslegwrw",
+                "EstimatedUpdateTime": "wmgqjcvfojenvkoq",
+                "ServiceUpdateDescription": "xstwrczbimskvdjf",
+                "ServiceUpdateEndDate": "lrqkxqslxiongdkq",
+                "ServiceUpdateName": "oegoffyzzxueuefg",
+                "ServiceUpdateRecommendedApplyByDate": "zcdlivjehbpdrajn",
+                "ServiceUpdateReleaseDate": "wyavpqkvhsrrojkj",
+                "ServiceUpdateSeverity": "jtuldxcxhudgvdjf",
+                "ServiceUpdateStatus": "ayraqhpvtnwyytbt",
+                "ServiceUpdateType": "fkbtdtcwntrxnbxk"
+            },
+            {
+                "AutoUpdateAfterRecommendedApplyByDate": true,
+                "Engine": "oqpikvchpxgoaqhv",
+                "EngineVersion": "njzqvrwhdemgvvvz",
+                "EstimatedUpdateTime": "bqhdqkyirininlpi",
+                "ServiceUpdateDescription": "ecajcvotbirdlhas",
+                "ServiceUpdateEndDate": "luzwvlacdolbftnv",
+                "ServiceUpdateName": "ebjglplrhhhindcv",
+                "ServiceUpdateRecommendedApplyByDate": "prlhztmoxtzhucwx",
+                "ServiceUpdateReleaseDate": "mpyczkqpguzmrywk",
+                "ServiceUpdateSeverity": "vigapdjggvmjtruw",
+                "ServiceUpdateStatus": "wyigxzblnigzmzjs",
+                "ServiceUpdateType": "xyqpmqmhyjpysqli"
+            },
+            {
+                "AutoUpdateAfterRecommendedApplyByDate": true,
+                "Engine": "ylotrlyprmlpoxgo",
+                "EngineVersion": "jzjzyrgpskwtyejk",
+                "EstimatedUpdateTime": "tvmscessgvozilps",
+                "ServiceUpdateDescription": "iazunxbbxhmdfxno",
+                "ServiceUpdateEndDate": "fdvhevpuvqxhdyxw",
+                "ServiceUpdateName": "dtnxrqjmvymwqxvr",
+                "ServiceUpdateRecommendedApplyByDate": "nbacpokzwzqaapqk",
+                "ServiceUpdateReleaseDate": "uyrghgbwjjwfspxk",
+                "ServiceUpdateSeverity": "mzxvwpqycntuxfzn",
+                "ServiceUpdateStatus": "yfoaqfblbcrvopnp",
+                "ServiceUpdateType": "slqajulpeeikaigl"
+            },
+            {
+                "AutoUpdateAfterRecommendedApplyByDate": true,
+                "Engine": "lbohthqjasfvqwot",
+                "EngineVersion": "edibblghiiwnnliz",
+                "EstimatedUpdateTime": "oalexchbailvdaws",
+                "ServiceUpdateDescription": "mqtyltrswjctaigu",
+                "ServiceUpdateEndDate": "fyvfjqmrqjhhrcpn",
+                "ServiceUpdateName": "gykojqhwbhuoodkl",
+                "ServiceUpdateRecommendedApplyByDate": "yftfzzpjgdeuumls",
+                "ServiceUpdateReleaseDate": "lyunztyqstgekryg",
+                "ServiceUpdateSeverity": "jmgfbibzihywrppt",
+                "ServiceUpdateStatus": "qmilaslbvueehxkw",
+                "ServiceUpdateType": "uzkulzokpsrjnqed"
+            },
+            {
+                "AutoUpdateAfterRecommendedApplyByDate": true,
+                "Engine": "upuyruraawfwsvvr",
+                "EngineVersion": "piltjdsblljbnebo",
+                "EstimatedUpdateTime": "pxkzhialslvmrmvp",
+                "ServiceUpdateDescription": "xmpwqhhasotxzivp",
+                "ServiceUpdateEndDate": "hwqotrfgdayxtudo",
+                "ServiceUpdateName": "wxfqthpkhqdmxwdp",
+                "ServiceUpdateRecommendedApplyByDate": "iygxisokyfxxzwgc",
+                "ServiceUpdateReleaseDate": "abiuifuqkssxwplg",
+                "ServiceUpdateSeverity": "qmyvuexidbvuudwc",
+                "ServiceUpdateStatus": "wsjpfestsnxwujms",
+                "ServiceUpdateType": "xhtybbfaxlcuvtzj"
+            }
+        ],
+        "result_key": "ServiceUpdates"
+    },
+    "meta": {
+        "start": 1711115709.854312,
+        "end": 1711115717.140791,
+        "duration": 7.286489963531494,
+        "service": "elasticache",
+        "type": "service_updates"
+    }
+}

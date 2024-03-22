@@ -1,0 +1,67 @@
+{
+    "input": {
+        "template": {
+            "assessmentTemplateArns": [
+                ""
+            ],
+            "filter": {
+                "namePattern": "",
+                "states": [
+                    "CREATED"
+                ],
+                "durationRange": {
+                    "minSeconds": 0,
+                    "maxSeconds": 0
+                },
+                "rulesPackageArns": [
+                    ""
+                ],
+                "startTimeRange": {
+                    "beginDate": "1970-01-01T00:00:00",
+                    "endDate": "1970-01-01T00:00:00"
+                },
+                "completionTimeRange": {
+                    "beginDate": "1970-01-01T00:00:00",
+                    "endDate": "1970-01-01T00:00:00"
+                },
+                "stateChangeTimeRange": {
+                    "beginDate": "1970-01-01T00:00:00",
+                    "endDate": "1970-01-01T00:00:00"
+                }
+            },
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "required": [],
+        "md5": "14b557a621f2add4d667958189749614",
+        "boto_command": "list_assessment_runs",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            "Arn"
+        ],
+        "required": [],
+        "md5": "9b68236536d47069cb6ff90043581291",
+        "randomized": [
+            "tljtruviezxfpnap",
+            "hpjzfmiyygfilbet",
+            "rcdszsafigtnzfso",
+            "mwzdgxffgsgjlynl",
+            "scqukehgqvukyaqi",
+            "pmupmamazzjzobyx",
+            "raaymlmtkbduncjq",
+            "yugrhqslbpdnywqh",
+            "akakyxyatulemdsd",
+            "mjdmxxwliqbxsnng"
+        ],
+        "result_key": "assessmentRunArns"
+    },
+    "meta": {
+        "start": 1711115909.070299,
+        "end": 1711115917.763602,
+        "duration": 8.693310022354126,
+        "service": "inspector",
+        "type": "assessment_runs"
+    }
+}

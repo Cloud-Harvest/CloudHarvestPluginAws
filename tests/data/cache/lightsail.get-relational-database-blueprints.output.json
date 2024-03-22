@@ -1,0 +1,115 @@
+{
+    "input": {
+        "template": {
+            "pageToken": ""
+        },
+        "required": [],
+        "md5": "cd47ffa47286bc2470b22f744f7629ff",
+        "boto_command": "get_relational_database_blueprints",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "blueprintId": "blueprintId",
+                "engine": "engine",
+                "engineVersion": "engineVersion",
+                "engineDescription": "engineDescription",
+                "engineVersionDescription": "engineVersionDescription",
+                "isEngineDefault": true
+            }
+        ],
+        "required": [],
+        "md5": "4e94a7078fdd787cdb777e5ad88829b9",
+        "randomized": [
+            {
+                "blueprintId": "hwrkofrkcfpfyqfg",
+                "engine": "xhbajmrxevilbfsf",
+                "engineDescription": "iehucpblxwlsczlx",
+                "engineVersion": "dxnzvtmnmqocpdyj",
+                "engineVersionDescription": "rqkhciqxixnwylcp",
+                "isEngineDefault": true
+            },
+            {
+                "blueprintId": "ekeogieofqpctgzn",
+                "engine": "jykcosxjeefquxzb",
+                "engineDescription": "hcydooztamnhajzi",
+                "engineVersion": "wmhhnabvrsjyaktd",
+                "engineVersionDescription": "wozjxyvxihljgnow",
+                "isEngineDefault": true
+            },
+            {
+                "blueprintId": "nzwotnlvderdpcpd",
+                "engine": "feoffhduqyqldafl",
+                "engineDescription": "oljansedtzczzvnc",
+                "engineVersion": "mzijxyjspfynekwf",
+                "engineVersionDescription": "inbzlmzlpttsmrza",
+                "isEngineDefault": true
+            },
+            {
+                "blueprintId": "tkjiavofecczmpcp",
+                "engine": "qacvsnupyzeuqtvb",
+                "engineDescription": "jqswogbvuzaxcqdw",
+                "engineVersion": "ivrzzkjeozihhsvt",
+                "engineVersionDescription": "oiunjmlthajzftog",
+                "isEngineDefault": true
+            },
+            {
+                "blueprintId": "xqjlzdkjutpgkukl",
+                "engine": "kapkbxisluoejaje",
+                "engineDescription": "rpqwecoxptaynxkm",
+                "engineVersion": "wystgudgtlnimfmp",
+                "engineVersionDescription": "fvobxnpaxbvbtfra",
+                "isEngineDefault": true
+            },
+            {
+                "blueprintId": "ygrktaihgzihnkkc",
+                "engine": "moenqubtuopiadkz",
+                "engineDescription": "zcnmntszsvdduaoj",
+                "engineVersion": "drlwrjaumachytcv",
+                "engineVersionDescription": "pyvjbfvswkzwnlxq",
+                "isEngineDefault": true
+            },
+            {
+                "blueprintId": "jidmpcdyzpwggxae",
+                "engine": "ogskqfhviulbdcru",
+                "engineDescription": "qkxccqqekkrezgpu",
+                "engineVersion": "mfvlmctkqzzvtjsj",
+                "engineVersionDescription": "emvcmabjcpzumdmd",
+                "isEngineDefault": true
+            },
+            {
+                "blueprintId": "whewftvownhxoiqs",
+                "engine": "wcvrwoivqtdksans",
+                "engineDescription": "phbdrbkgovwkysce",
+                "engineVersion": "cwvkvuzimrgqqisk",
+                "engineVersionDescription": "gwknsngwaojdprrt",
+                "isEngineDefault": true
+            },
+            {
+                "blueprintId": "sedcnifklfwwslcl",
+                "engine": "riqrjzeljdgzjdsh",
+                "engineDescription": "zxypelaxffilgxwb",
+                "engineVersion": "nxcuekrrppnnlaxn",
+                "engineVersionDescription": "kxlikxjrcbimubnq",
+                "isEngineDefault": true
+            },
+            {
+                "blueprintId": "zduurqugqxqbyntn",
+                "engine": "mxacixfkzobecbcm",
+                "engineDescription": "phatfngdcctuuevj",
+                "engineVersion": "snrhfvbjwdaxjhov",
+                "engineVersionDescription": "mfhizcuiykmaesbf",
+                "isEngineDefault": true
+            }
+        ],
+        "result_key": "blueprints"
+    },
+    "meta": {
+        "start": 1711116107.180264,
+        "end": 1711116113.890323,
+        "duration": 6.710069894790649,
+        "service": "lightsail",
+        "type": null
+    }
+}

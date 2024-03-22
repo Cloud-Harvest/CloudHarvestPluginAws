@@ -1,0 +1,62 @@
+{
+    "input": {
+        "template": {
+            "S3SourceConfig": {
+                "RoleArn": "",
+                "TemplatedPathList": [
+                    ""
+                ],
+                "HistoricalDataPathList": [
+                    ""
+                ],
+                "FileFormatDescriptor": {
+                    "CsvFormatDescriptor": {
+                        "FileCompression": "NONE",
+                        "Charset": "",
+                        "ContainsHeader": true,
+                        "Delimiter": "",
+                        "HeaderList": [
+                            ""
+                        ],
+                        "QuoteSymbol": ""
+                    },
+                    "JsonFormatDescriptor": {
+                        "FileCompression": "NONE",
+                        "Charset": ""
+                    }
+                }
+            }
+        },
+        "required": [],
+        "md5": "84a12932df859b7f297ad97fb6b34312",
+        "boto_command": "get_sample_data",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            "HeaderValue"
+        ],
+        "required": [],
+        "md5": "19bef2dc57850382c3460ce7c833d42a",
+        "randomized": [
+            "xamdbzahibuvbnyd",
+            "nhlgbmneaxhsfyzc",
+            "ahrvunwqlrbsexyy",
+            "nhwbnfevusdtjlky",
+            "pibuhtpnockqrdhe",
+            "sefagqccjquhmxwo",
+            "qketcocnygwmmcqs",
+            "ccbnyfbpwpdvdrjq",
+            "lcafldfqjavtuerh",
+            "gxvfciizuvhycwiq"
+        ],
+        "result_key": "HeaderValues"
+    },
+    "meta": {
+        "start": 1711116132.870158,
+        "end": 1711116140.15244,
+        "duration": 7.282289981842041,
+        "service": "lookoutmetrics",
+        "type": null
+    }
+}

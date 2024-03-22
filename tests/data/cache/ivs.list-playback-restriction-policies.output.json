@@ -1,0 +1,182 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "required": [],
+        "md5": "2620fedaf24e984a8f801d0beb17a6e7",
+        "boto_command": "list_playback_restriction_policies",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "allowedCountries": [
+                    "PlaybackRestrictionPolicyAllowedCountry"
+                ],
+                "allowedOrigins": [
+                    "PlaybackRestrictionPolicyAllowedOrigin"
+                ],
+                "arn": "arn",
+                "enableStrictOriginEnforcement": true,
+                "name": "name",
+                "tags": {
+                    "KeyName": ""
+                }
+            }
+        ],
+        "required": [],
+        "md5": "4d106ba4f400dc92deb5f5cd0b3dfbb1",
+        "randomized": [
+            {
+                "allowedCountries": [
+                    "fljduahtfhijgvsv"
+                ],
+                "allowedOrigins": [
+                    "rfxlezrposcgktrg"
+                ],
+                "arn": "zlqmuxebrvlrrpge",
+                "enableStrictOriginEnforcement": true,
+                "name": "ukzcoonmqssmcjuu",
+                "tags": {
+                    "KeyName": "jbzghltyqfcebpye"
+                }
+            },
+            {
+                "allowedCountries": [
+                    "stgivioglmzoqlrt"
+                ],
+                "allowedOrigins": [
+                    "fsjkjbocywqtubtl"
+                ],
+                "arn": "adnugmjhrkvsfnij",
+                "enableStrictOriginEnforcement": true,
+                "name": "gydqwkxfzvmurlbi",
+                "tags": {
+                    "KeyName": "rotdrkeqmndrpvar"
+                }
+            },
+            {
+                "allowedCountries": [
+                    "qkadfnafeedayotg"
+                ],
+                "allowedOrigins": [
+                    "safwcryhopvkvcca"
+                ],
+                "arn": "ilvfowqxdpfexwpm",
+                "enableStrictOriginEnforcement": true,
+                "name": "gisopoehsdofkpld",
+                "tags": {
+                    "KeyName": "rbidmxbnzxcodnjx"
+                }
+            },
+            {
+                "allowedCountries": [
+                    "qyalapniwjrhafig"
+                ],
+                "allowedOrigins": [
+                    "pyyshsmkntfjefdg"
+                ],
+                "arn": "ghxdrhahdioimpna",
+                "enableStrictOriginEnforcement": true,
+                "name": "zizshgvvptgytaon",
+                "tags": {
+                    "KeyName": "hiatmamldjlcehhp"
+                }
+            },
+            {
+                "allowedCountries": [
+                    "ndgkbddlzkmbpapb"
+                ],
+                "allowedOrigins": [
+                    "ywjbdibacvehrakw"
+                ],
+                "arn": "utuamprofyielwbw",
+                "enableStrictOriginEnforcement": true,
+                "name": "eyxddamltxqkdele",
+                "tags": {
+                    "KeyName": "ntlhtomzuegycnff"
+                }
+            },
+            {
+                "allowedCountries": [
+                    "kcsbtxqpnaaftsek"
+                ],
+                "allowedOrigins": [
+                    "tekqdbvjkhstyubn"
+                ],
+                "arn": "pjylbzpkgmdvdzqu",
+                "enableStrictOriginEnforcement": true,
+                "name": "ufphjvbpxpmsabso",
+                "tags": {
+                    "KeyName": "qcqxpvfqhfsceovj"
+                }
+            },
+            {
+                "allowedCountries": [
+                    "izntdyrsryagjhjx"
+                ],
+                "allowedOrigins": [
+                    "dhtfentpwjcbkxct"
+                ],
+                "arn": "ynqibfokshscrewd",
+                "enableStrictOriginEnforcement": true,
+                "name": "guxmbgpmdllyykkg",
+                "tags": {
+                    "KeyName": "ffbexmsgiazakdou"
+                }
+            },
+            {
+                "allowedCountries": [
+                    "xilfjsizlbvicwjl"
+                ],
+                "allowedOrigins": [
+                    "ksemxqnxtfimitom"
+                ],
+                "arn": "mhzekwxexfuwoqhp",
+                "enableStrictOriginEnforcement": true,
+                "name": "ixzbjgskjydeyyhq",
+                "tags": {
+                    "KeyName": "nnowjvykzhzsaoyc"
+                }
+            },
+            {
+                "allowedCountries": [
+                    "acwjyixkdooejhfd"
+                ],
+                "allowedOrigins": [
+                    "dhhitkkbselhlhpe"
+                ],
+                "arn": "rzzszdhhshypifif",
+                "enableStrictOriginEnforcement": true,
+                "name": "jhfigfsxkbvcimad",
+                "tags": {
+                    "KeyName": "mwlowsiusnflsiqg"
+                }
+            },
+            {
+                "allowedCountries": [
+                    "czucsczacnvkibpo"
+                ],
+                "allowedOrigins": [
+                    "finbmxexzevgckch"
+                ],
+                "arn": "xuzrvnlmusqtjlob",
+                "enableStrictOriginEnforcement": true,
+                "name": "najbbrlfuwfytwgm",
+                "tags": {
+                    "KeyName": "nsyvqbhrrjsbzvua"
+                }
+            }
+        ],
+        "result_key": "playbackRestrictionPolicies"
+    },
+    "meta": {
+        "start": 1711116006.810444,
+        "end": 1711116013.804345,
+        "duration": 6.99390983581543,
+        "service": "ivs",
+        "type": "playback_restriction_policies"
+    }
+}

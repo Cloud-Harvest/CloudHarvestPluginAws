@@ -1,0 +1,34 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "describe_cross_account_access_role",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": "roleArn",
+        "required": [],
+        "md5": "59e3af28e3d4cad4e204010562d95a09",
+        "randomized": [
+            "wayxhmdlbyrgitmc",
+            "cbospxilxmjiztqd",
+            "icxskfnrdbbhjubq",
+            "lrziylvsigmlkccu",
+            "vomjjocjdyajpntd",
+            "cyjzqqawllqoqqud",
+            "ctscdnmflahsmqhq",
+            "rgrysamqzroippkg",
+            "odhhffrnsntwuvus",
+            "jsbkmzrrngtoqxqg"
+        ],
+        "result_key": "roleArn"
+    },
+    "meta": {
+        "start": 1711115907.345913,
+        "end": 1711115913.697409,
+        "duration": 6.351506948471069,
+        "service": "inspector",
+        "type": "cross_account_access_role"
+    }
+}

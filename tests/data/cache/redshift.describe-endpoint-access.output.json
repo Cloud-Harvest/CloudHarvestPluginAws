@@ -1,0 +1,351 @@
+{
+    "input": {
+        "template": {
+            "ClusterIdentifier": "",
+            "ResourceOwner": "",
+            "EndpointName": "",
+            "VpcId": "",
+            "MaxRecords": 0,
+            "Marker": ""
+        },
+        "required": [],
+        "md5": "30baf94221cb10d4e85612e29bdc9981",
+        "boto_command": "describe_endpoint_access",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "ClusterIdentifier": "ClusterIdentifier",
+                "ResourceOwner": "ResourceOwner",
+                "SubnetGroupName": "SubnetGroupName",
+                "EndpointStatus": "EndpointStatus",
+                "EndpointName": "EndpointName",
+                "EndpointCreateTime": "1970-01-01T00:00:00",
+                "Port": 0,
+                "Address": "Address",
+                "VpcSecurityGroups": [
+                    {
+                        "VpcSecurityGroupId": "VpcSecurityGroupId",
+                        "Status": "Status"
+                    }
+                ],
+                "VpcEndpoint": {
+                    "VpcEndpointId": "VpcEndpointId",
+                    "VpcId": "VpcId",
+                    "NetworkInterfaces": [
+                        {
+                            "NetworkInterfaceId": "NetworkInterfaceId",
+                            "SubnetId": "SubnetId",
+                            "PrivateIpAddress": "PrivateIpAddress",
+                            "AvailabilityZone": "AvailabilityZone",
+                            "Ipv6Address": "Ipv6Address"
+                        }
+                    ]
+                }
+            }
+        ],
+        "required": [],
+        "md5": "a463355bfedb13299014fdca39e0df79",
+        "randomized": [
+            {
+                "Address": "izxjzwvofeonupmc",
+                "ClusterIdentifier": "xrbrpcewrxfadtno",
+                "EndpointCreateTime": "ewdixuymukxnlcvi",
+                "EndpointName": "gutgfgzywniyazco",
+                "EndpointStatus": "bupabyjwphkzkilo",
+                "Port": 0,
+                "ResourceOwner": "mkkuzwpgraoafnsv",
+                "SubnetGroupName": "nmhcfksvkusqruzr",
+                "VpcEndpoint": {
+                    "NetworkInterfaces": [
+                        {
+                            "AvailabilityZone": "gatxtjhyvnedasld",
+                            "Ipv6Address": "kohxdoabxsxrxkul",
+                            "NetworkInterfaceId": "qsgaxzdhhrqcwslx",
+                            "PrivateIpAddress": "urrznemohgbrkbht",
+                            "SubnetId": "cbabjbcdenusxlus"
+                        }
+                    ],
+                    "VpcEndpointId": "sygocpeulvsmrozx",
+                    "VpcId": "qqselfcggqsuvdac"
+                },
+                "VpcSecurityGroups": [
+                    {
+                        "Status": "qdiexfkjbbipnmld",
+                        "VpcSecurityGroupId": "meotctuvuoizguna"
+                    }
+                ]
+            },
+            {
+                "Address": "ldxvspqpofzweypm",
+                "ClusterIdentifier": "quyzbofcmtcujecu",
+                "EndpointCreateTime": "phvubdujiilfpwfo",
+                "EndpointName": "noorranftdaysbxj",
+                "EndpointStatus": "whuapgxcinxuljcy",
+                "Port": 0,
+                "ResourceOwner": "kpavasldqzjjduku",
+                "SubnetGroupName": "nqudquerqfwuykyg",
+                "VpcEndpoint": {
+                    "NetworkInterfaces": [
+                        {
+                            "AvailabilityZone": "dpbroxyjqaavwdru",
+                            "Ipv6Address": "nkcfecmfmptmpylj",
+                            "NetworkInterfaceId": "uyuhjntfpvzlrehf",
+                            "PrivateIpAddress": "nnhpfosvozkdvlpn",
+                            "SubnetId": "akggfbwpszuntcea"
+                        }
+                    ],
+                    "VpcEndpointId": "znuhivsgwtqoyssg",
+                    "VpcId": "lqocgstchlrfyjpa"
+                },
+                "VpcSecurityGroups": [
+                    {
+                        "Status": "ubtofmbnsrzqwhkm",
+                        "VpcSecurityGroupId": "hxfxtvxprsuyoaeq"
+                    }
+                ]
+            },
+            {
+                "Address": "ambahgpjbktljssz",
+                "ClusterIdentifier": "pxnehpvxshwwrfnt",
+                "EndpointCreateTime": "ckbqmzhvxlujgvqo",
+                "EndpointName": "mooohdjzniwsyscd",
+                "EndpointStatus": "tkoefulxjymaayrw",
+                "Port": 0,
+                "ResourceOwner": "vgnpdubiyiovyyga",
+                "SubnetGroupName": "woqhwghoghsmmnmr",
+                "VpcEndpoint": {
+                    "NetworkInterfaces": [
+                        {
+                            "AvailabilityZone": "rflvnejnywqfqhva",
+                            "Ipv6Address": "yiedvvinjwsleyqf",
+                            "NetworkInterfaceId": "njafrugwletxgeqz",
+                            "PrivateIpAddress": "waewcbilbtggnygn",
+                            "SubnetId": "volzceavnnkpevnh"
+                        }
+                    ],
+                    "VpcEndpointId": "xagywdybrtiffdxp",
+                    "VpcId": "xtvnqhmbedxucyjt"
+                },
+                "VpcSecurityGroups": [
+                    {
+                        "Status": "xsgxgqajmckuynds",
+                        "VpcSecurityGroupId": "ntjgubdfyxysekaz"
+                    }
+                ]
+            },
+            {
+                "Address": "yiekauuiiuiublpu",
+                "ClusterIdentifier": "wwxaylnyegxtxuzj",
+                "EndpointCreateTime": "cnazpznhnmdzfkob",
+                "EndpointName": "rlfygxgqqripluer",
+                "EndpointStatus": "szxprcgjlqbwouvi",
+                "Port": 0,
+                "ResourceOwner": "zejgibiqmcfnpgwg",
+                "SubnetGroupName": "kugiwrzrlcvendkt",
+                "VpcEndpoint": {
+                    "NetworkInterfaces": [
+                        {
+                            "AvailabilityZone": "euqeatmvqpfosmfv",
+                            "Ipv6Address": "hjqgmlcrbjabsljs",
+                            "NetworkInterfaceId": "xxednrmxaqzlrele",
+                            "PrivateIpAddress": "hwkkujtfdjusvflp",
+                            "SubnetId": "ihnwokchbdcozqiz"
+                        }
+                    ],
+                    "VpcEndpointId": "tqovrahlclrsboln",
+                    "VpcId": "hdsenfbkwuwnhurc"
+                },
+                "VpcSecurityGroups": [
+                    {
+                        "Status": "rifgkhkecpcgqzie",
+                        "VpcSecurityGroupId": "yxnfzhdlixtyvvau"
+                    }
+                ]
+            },
+            {
+                "Address": "piorokwxtftalfqn",
+                "ClusterIdentifier": "kxcjbpsfotszlcwz",
+                "EndpointCreateTime": "qgxtxxencvilodnw",
+                "EndpointName": "dvflgbfvmcasutpf",
+                "EndpointStatus": "laphbzywwzhmbjva",
+                "Port": 0,
+                "ResourceOwner": "cebcwvarnmpkswsj",
+                "SubnetGroupName": "xigdgrashhvkwhlj",
+                "VpcEndpoint": {
+                    "NetworkInterfaces": [
+                        {
+                            "AvailabilityZone": "nthugpsizpzwxctq",
+                            "Ipv6Address": "gmzmbfvvmcqmvfpp",
+                            "NetworkInterfaceId": "rkvaebcklmwiksll",
+                            "PrivateIpAddress": "nzicgrhmvzyftabu",
+                            "SubnetId": "jvpxhpvgfuqxxjrj"
+                        }
+                    ],
+                    "VpcEndpointId": "svektcmfuyfvhxux",
+                    "VpcId": "lbtmuvulrdrpmaxc"
+                },
+                "VpcSecurityGroups": [
+                    {
+                        "Status": "mxiipqaavbscvedz",
+                        "VpcSecurityGroupId": "isswsedvdesfrphu"
+                    }
+                ]
+            },
+            {
+                "Address": "lucuukjasraxjnnn",
+                "ClusterIdentifier": "jcsrgadabsdesddn",
+                "EndpointCreateTime": "pripicqejurotorr",
+                "EndpointName": "wltmcrwnkpswcnsb",
+                "EndpointStatus": "dqjfrexkfzqqbjas",
+                "Port": 0,
+                "ResourceOwner": "plgjrhcrsefyggqs",
+                "SubnetGroupName": "zeiiuihwbhjjmbxx",
+                "VpcEndpoint": {
+                    "NetworkInterfaces": [
+                        {
+                            "AvailabilityZone": "xvclsmosjdyhgrhy",
+                            "Ipv6Address": "jhgyjbktgtheopxx",
+                            "NetworkInterfaceId": "ljovskgtwoidkfbm",
+                            "PrivateIpAddress": "ajbdohfucdvqzeuy",
+                            "SubnetId": "ewfdpnmkffrsrdfe"
+                        }
+                    ],
+                    "VpcEndpointId": "bjrxavaeuobrykoy",
+                    "VpcId": "vgjfkvsfxmetwala"
+                },
+                "VpcSecurityGroups": [
+                    {
+                        "Status": "msbdnikfdhrztvim",
+                        "VpcSecurityGroupId": "cztsvimabnhhdyya"
+                    }
+                ]
+            },
+            {
+                "Address": "xflgrjqnugzhlxtx",
+                "ClusterIdentifier": "lsvunmtvvlusrwgm",
+                "EndpointCreateTime": "bykjirggllvykyze",
+                "EndpointName": "niuwmazdvlldtgai",
+                "EndpointStatus": "hzlfutwyhsjpprok",
+                "Port": 0,
+                "ResourceOwner": "fplouwkkgljeajyy",
+                "SubnetGroupName": "pbahbmyepxzlwcmj",
+                "VpcEndpoint": {
+                    "NetworkInterfaces": [
+                        {
+                            "AvailabilityZone": "fbutqzblktqakjvu",
+                            "Ipv6Address": "mtvctqqymszwcyzh",
+                            "NetworkInterfaceId": "ynwkvfnvwnvvwujr",
+                            "PrivateIpAddress": "szdddlvynygqtltg",
+                            "SubnetId": "vpcjqeoreqjvbxde"
+                        }
+                    ],
+                    "VpcEndpointId": "dulvavvjuovabjij",
+                    "VpcId": "wjvkfytnyhahurgh"
+                },
+                "VpcSecurityGroups": [
+                    {
+                        "Status": "ydijhwdvmkorqnhp",
+                        "VpcSecurityGroupId": "ixxrecrwvlbgbviv"
+                    }
+                ]
+            },
+            {
+                "Address": "kqkswakotukuifzw",
+                "ClusterIdentifier": "jwcofshfbnngtshj",
+                "EndpointCreateTime": "vvczawuysjfallke",
+                "EndpointName": "mzfjcbqzkkywiysl",
+                "EndpointStatus": "hbbiearaoakhraer",
+                "Port": 0,
+                "ResourceOwner": "iayyfkrksimwlxma",
+                "SubnetGroupName": "ghzvsrnyadzrqtzc",
+                "VpcEndpoint": {
+                    "NetworkInterfaces": [
+                        {
+                            "AvailabilityZone": "xnlrrhmorjkgflqr",
+                            "Ipv6Address": "nssvwkdosqcgswit",
+                            "NetworkInterfaceId": "futdvthwiqhnmedb",
+                            "PrivateIpAddress": "adtpcaggqyjtrbup",
+                            "SubnetId": "jzwjqegcbpixlwtk"
+                        }
+                    ],
+                    "VpcEndpointId": "llkanlqoiwlzqvie",
+                    "VpcId": "vfeyovlfwolezruk"
+                },
+                "VpcSecurityGroups": [
+                    {
+                        "Status": "midwuntaxjfapixl",
+                        "VpcSecurityGroupId": "fqjayqspmoibwlxp"
+                    }
+                ]
+            },
+            {
+                "Address": "vxmgxuxhdpcnqjkf",
+                "ClusterIdentifier": "orlvwulroedbcqvo",
+                "EndpointCreateTime": "mmbtskpaxyagrmqe",
+                "EndpointName": "mhwfjtohgecsucih",
+                "EndpointStatus": "mwvblawobmtyqlhu",
+                "Port": 0,
+                "ResourceOwner": "yznzebgdnnvrypup",
+                "SubnetGroupName": "mmkjveyreycwjiuy",
+                "VpcEndpoint": {
+                    "NetworkInterfaces": [
+                        {
+                            "AvailabilityZone": "xaacpgmjqrmxazav",
+                            "Ipv6Address": "dlpsalaunkavspcq",
+                            "NetworkInterfaceId": "drsrcguxhiutbfkj",
+                            "PrivateIpAddress": "upzqlnphalcfzlvy",
+                            "SubnetId": "yrobcfymhwzwxewl"
+                        }
+                    ],
+                    "VpcEndpointId": "tikdicoebkwfrydr",
+                    "VpcId": "nkexqnkilfszroye"
+                },
+                "VpcSecurityGroups": [
+                    {
+                        "Status": "luqstzqvahienzdp",
+                        "VpcSecurityGroupId": "knlthjcxvjbzgxhf"
+                    }
+                ]
+            },
+            {
+                "Address": "xtzxtczobgawczgl",
+                "ClusterIdentifier": "sgpulovhvjdckklj",
+                "EndpointCreateTime": "mtyuvamcvwrslwtz",
+                "EndpointName": "mwaigxfbywgepkec",
+                "EndpointStatus": "bpakxzrbunrnurhi",
+                "Port": 0,
+                "ResourceOwner": "onpsasljgyktaauj",
+                "SubnetGroupName": "usxnujafszywvtax",
+                "VpcEndpoint": {
+                    "NetworkInterfaces": [
+                        {
+                            "AvailabilityZone": "cxtohisahsdgegms",
+                            "Ipv6Address": "imtaddffllooofxg",
+                            "NetworkInterfaceId": "cniyosmrnaunwols",
+                            "PrivateIpAddress": "hwrobahkklxzlvmm",
+                            "SubnetId": "jbifpgdafhjaoezu"
+                        }
+                    ],
+                    "VpcEndpointId": "yjkwkvqmevcfxqts",
+                    "VpcId": "bxubmjoozqcpavfs"
+                },
+                "VpcSecurityGroups": [
+                    {
+                        "Status": "gplqyojzezhneatx",
+                        "VpcSecurityGroupId": "zlzffalrobfynhrh"
+                    }
+                ]
+            }
+        ],
+        "result_key": "EndpointAccessList"
+    },
+    "meta": {
+        "start": 1711116424.20938,
+        "end": 1711116430.102986,
+        "duration": 5.893616199493408,
+        "service": "redshift",
+        "type": "endpoint_access"
+    }
+}

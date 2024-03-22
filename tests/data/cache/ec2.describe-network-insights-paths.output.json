@@ -1,0 +1,513 @@
+{
+    "input": {
+        "template": {
+            "NetworkInsightsPathIds": [
+                ""
+            ],
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxResults": 0,
+            "DryRun": true,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "0d536bef1286e411181563f4a39ac8bb",
+        "boto_command": "describe_network_insights_paths",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "NetworkInsightsPathId": "NetworkInsightsPathId",
+                "NetworkInsightsPathArn": "NetworkInsightsPathArn",
+                "CreatedDate": "1970-01-01T00:00:00",
+                "Source": "Source",
+                "Destination": "Destination",
+                "SourceArn": "SourceArn",
+                "DestinationArn": "DestinationArn",
+                "SourceIp": "SourceIp",
+                "DestinationIp": "DestinationIp",
+                "Protocol": "Protocol",
+                "DestinationPort": 0,
+                "Tags": [
+                    {
+                        "Key": "Key",
+                        "Value": "Value"
+                    }
+                ],
+                "FilterAtSource": {
+                    "SourceAddress": "SourceAddress",
+                    "SourcePortRange": {
+                        "FromPort": 0,
+                        "ToPort": 0
+                    },
+                    "DestinationAddress": "DestinationAddress",
+                    "DestinationPortRange": {
+                        "FromPort": 0,
+                        "ToPort": 0
+                    }
+                },
+                "FilterAtDestination": {
+                    "SourceAddress": "SourceAddress",
+                    "SourcePortRange": {
+                        "FromPort": 0,
+                        "ToPort": 0
+                    },
+                    "DestinationAddress": "DestinationAddress",
+                    "DestinationPortRange": {
+                        "FromPort": 0,
+                        "ToPort": 0
+                    }
+                }
+            }
+        ],
+        "required": [],
+        "md5": "b676d3d969305219c7bd78699afc5619",
+        "randomized": [
+            {
+                "CreatedDate": "zpfljrcojrcydwfi",
+                "Destination": "yzkaqtzeabflzklp",
+                "DestinationArn": "naocnrpdkceqcbel",
+                "DestinationIp": "cufkxxrutnsrmupg",
+                "DestinationPort": 0,
+                "FilterAtDestination": {
+                    "DestinationAddress": "dptxiqripmzvejjj",
+                    "DestinationPortRange": {
+                        "FromPort": 0,
+                        "ToPort": 0
+                    },
+                    "SourceAddress": "coqgwnpcnkcmknrx",
+                    "SourcePortRange": {
+                        "FromPort": 0,
+                        "ToPort": 0
+                    }
+                },
+                "FilterAtSource": {
+                    "DestinationAddress": "gnehivngkwzgzovs",
+                    "DestinationPortRange": {
+                        "FromPort": 0,
+                        "ToPort": 0
+                    },
+                    "SourceAddress": "kmlowhvjtfdbuwmd",
+                    "SourcePortRange": {
+                        "FromPort": 0,
+                        "ToPort": 0
+                    }
+                },
+                "NetworkInsightsPathArn": "bwrvxfqcycxufbyr",
+                "NetworkInsightsPathId": "ktvbcmgmqwxswirq",
+                "Protocol": "mgjmqklsvafxckil",
+                "Source": "tcjygkwojsripldp",
+                "SourceArn": "ciqkycrjitzmuezh",
+                "SourceIp": "yvdmrmcgsgqljajh",
+                "Tags": [
+                    {
+                        "Key": "xagvfjloqfamjrda",
+                        "Value": "axauxxzywmcazttk"
+                    }
+                ]
+            },
+            {
+                "CreatedDate": "yagiatnpzsuzabxk",
+                "Destination": "gdhaynifdwwdpmti",
+                "DestinationArn": "uvwawjhorufcasen",
+                "DestinationIp": "ntdahntngicecsei",
+                "DestinationPort": 0,
+                "FilterAtDestination": {
+                    "DestinationAddress": "qhwfkjlbkituewru",
+                    "DestinationPortRange": {
+                        "FromPort": 0,
+                        "ToPort": 0
+                    },
+                    "SourceAddress": "npcsrgzdyfhwtgev",
+                    "SourcePortRange": {
+                        "FromPort": 0,
+                        "ToPort": 0
+                    }
+                },
+                "FilterAtSource": {
+                    "DestinationAddress": "ozoukhzjdxrcodrg",
+                    "DestinationPortRange": {
+                        "FromPort": 0,
+                        "ToPort": 0
+                    },
+                    "SourceAddress": "ukcsbpvbadsxprbn",
+                    "SourcePortRange": {
+                        "FromPort": 0,
+                        "ToPort": 0
+                    }
+                },
+                "NetworkInsightsPathArn": "kecdtybskorenwcd",
+                "NetworkInsightsPathId": "dqjxfhjilnhfnjrg",
+                "Protocol": "kkuoocuhpmjfzhmk",
+                "Source": "fhdywytxntziuzdy",
+                "SourceArn": "bcswxaxoqkyargxd",
+                "SourceIp": "zbxqrvdfhuzthfrk",
+                "Tags": [
+                    {
+                        "Key": "sdruhbkpiahtvqyn",
+                        "Value": "geryxooztlouonnh"
+                    }
+                ]
+            },
+            {
+                "CreatedDate": "xwudjwhafpfzctre",
+                "Destination": "spsyrdpyzslycewz",
+                "DestinationArn": "barjsgrsfapomjvq",
+                "DestinationIp": "advinhdpnekljtvl",
+                "DestinationPort": 0,
+                "FilterAtDestination": {
+                    "DestinationAddress": "jhecysjykhspaqmq",
+                    "DestinationPortRange": {
+                        "FromPort": 0,
+                        "ToPort": 0
+                    },
+                    "SourceAddress": "gkdrdgqfydccmrgy",
+                    "SourcePortRange": {
+                        "FromPort": 0,
+                        "ToPort": 0
+                    }
+                },
+                "FilterAtSource": {
+                    "DestinationAddress": "hoiknmskaddriart",
+                    "DestinationPortRange": {
+                        "FromPort": 0,
+                        "ToPort": 0
+                    },
+                    "SourceAddress": "qqrzwbmfjfdggcqn",
+                    "SourcePortRange": {
+                        "FromPort": 0,
+                        "ToPort": 0
+                    }
+                },
+                "NetworkInsightsPathArn": "fuqgakyvjlmqokqk",
+                "NetworkInsightsPathId": "ohpiqfqodrwrfohc",
+                "Protocol": "tfwqnacgzypfcegd",
+                "Source": "nfpuxaqgsmujjgqo",
+                "SourceArn": "czbusbtmomirsbxk",
+                "SourceIp": "dwsxiaezrqobmqfx",
+                "Tags": [
+                    {
+                        "Key": "lvutpeaergeuvgof",
+                        "Value": "mvcmqyemqnxgzhem"
+                    }
+                ]
+            },
+            {
+                "CreatedDate": "xvksflmfzzqjhjbq",
+                "Destination": "saviupbvcxdknazl",
+                "DestinationArn": "yeuogmqnvrilcngs",
+                "DestinationIp": "ududqnlgxpypbqkr",
+                "DestinationPort": 0,
+                "FilterAtDestination": {
+                    "DestinationAddress": "uctyoakensgwbrqf",
+                    "DestinationPortRange": {
+                        "FromPort": 0,
+                        "ToPort": 0
+                    },
+                    "SourceAddress": "ijvgbempqwhoccws",
+                    "SourcePortRange": {
+                        "FromPort": 0,
+                        "ToPort": 0
+                    }
+                },
+                "FilterAtSource": {
+                    "DestinationAddress": "urekisvffxknmefn",
+                    "DestinationPortRange": {
+                        "FromPort": 0,
+                        "ToPort": 0
+                    },
+                    "SourceAddress": "irvrjtfsyhabssfx",
+                    "SourcePortRange": {
+                        "FromPort": 0,
+                        "ToPort": 0
+                    }
+                },
+                "NetworkInsightsPathArn": "xbdctkxubhkimyrx",
+                "NetworkInsightsPathId": "gzauidmkhskaatkh",
+                "Protocol": "ffhbbrjazewmshai",
+                "Source": "bewneyznprpplyje",
+                "SourceArn": "arqujsuqyhsulhyo",
+                "SourceIp": "lwxwnwzqdcpcdetk",
+                "Tags": [
+                    {
+                        "Key": "ymdxonfbxcgvkndg",
+                        "Value": "mxoyvutdqbfqkqkc"
+                    }
+                ]
+            },
+            {
+                "CreatedDate": "vnmnysgaxeilibeo",
+                "Destination": "jaszzrjnedqngncr",
+                "DestinationArn": "fvuccghrcgbzrehu",
+                "DestinationIp": "sdykyqkcqdettbzz",
+                "DestinationPort": 0,
+                "FilterAtDestination": {
+                    "DestinationAddress": "gvqjqhxfijkkspdw",
+                    "DestinationPortRange": {
+                        "FromPort": 0,
+                        "ToPort": 0
+                    },
+                    "SourceAddress": "gljpfxqfpwscsvcw",
+                    "SourcePortRange": {
+                        "FromPort": 0,
+                        "ToPort": 0
+                    }
+                },
+                "FilterAtSource": {
+                    "DestinationAddress": "ftfbzbhwsgxmiymy",
+                    "DestinationPortRange": {
+                        "FromPort": 0,
+                        "ToPort": 0
+                    },
+                    "SourceAddress": "irottaqbmlhohaoq",
+                    "SourcePortRange": {
+                        "FromPort": 0,
+                        "ToPort": 0
+                    }
+                },
+                "NetworkInsightsPathArn": "zosdzqwilexaqlrg",
+                "NetworkInsightsPathId": "lctlyzpkejbipvve",
+                "Protocol": "ldgtfwjzrgzawddb",
+                "Source": "jcubshkjlqwkntwh",
+                "SourceArn": "eqcbqwmcinscpwov",
+                "SourceIp": "fdxgmzyvrsvsuckd",
+                "Tags": [
+                    {
+                        "Key": "snpxdjyjoclecbwk",
+                        "Value": "cowpkpruekfsmqeo"
+                    }
+                ]
+            },
+            {
+                "CreatedDate": "gsicohbmjrmcmufy",
+                "Destination": "zxhryhwjxraihvnk",
+                "DestinationArn": "vgswduorvggdkahd",
+                "DestinationIp": "vubrvnrenkdlrmyk",
+                "DestinationPort": 0,
+                "FilterAtDestination": {
+                    "DestinationAddress": "jdpnhfrrxrteltrc",
+                    "DestinationPortRange": {
+                        "FromPort": 0,
+                        "ToPort": 0
+                    },
+                    "SourceAddress": "hkuuumeawjxmwwqf",
+                    "SourcePortRange": {
+                        "FromPort": 0,
+                        "ToPort": 0
+                    }
+                },
+                "FilterAtSource": {
+                    "DestinationAddress": "dijdnwilcaojonhy",
+                    "DestinationPortRange": {
+                        "FromPort": 0,
+                        "ToPort": 0
+                    },
+                    "SourceAddress": "aqbqofwbeogncaau",
+                    "SourcePortRange": {
+                        "FromPort": 0,
+                        "ToPort": 0
+                    }
+                },
+                "NetworkInsightsPathArn": "nlvodrovuteiejdo",
+                "NetworkInsightsPathId": "ohadtuxoqsyronfl",
+                "Protocol": "zkwnrqapdehgcfjz",
+                "Source": "qhjxmcktpbcrfjkl",
+                "SourceArn": "irzcxvkbcpekbhoa",
+                "SourceIp": "ujbrrbxmhfpxseno",
+                "Tags": [
+                    {
+                        "Key": "kklmhesdsrgyokwa",
+                        "Value": "blffgyuelgrpkjtv"
+                    }
+                ]
+            },
+            {
+                "CreatedDate": "qnrvkgwbxgsaewfa",
+                "Destination": "tjubuvuuntkqrqdc",
+                "DestinationArn": "iinydgqxyisaqeax",
+                "DestinationIp": "istuxxedqzyjkxqu",
+                "DestinationPort": 0,
+                "FilterAtDestination": {
+                    "DestinationAddress": "aolreanlaxdvklni",
+                    "DestinationPortRange": {
+                        "FromPort": 0,
+                        "ToPort": 0
+                    },
+                    "SourceAddress": "cmdwldzuegokjncd",
+                    "SourcePortRange": {
+                        "FromPort": 0,
+                        "ToPort": 0
+                    }
+                },
+                "FilterAtSource": {
+                    "DestinationAddress": "hvjrootwcmqxcoof",
+                    "DestinationPortRange": {
+                        "FromPort": 0,
+                        "ToPort": 0
+                    },
+                    "SourceAddress": "tosptjycuaeyqhtt",
+                    "SourcePortRange": {
+                        "FromPort": 0,
+                        "ToPort": 0
+                    }
+                },
+                "NetworkInsightsPathArn": "lfmnbstzvrpijzub",
+                "NetworkInsightsPathId": "ddrxojwjipzszbwm",
+                "Protocol": "lfphtkvyzgezdnyq",
+                "Source": "fkydspdxlptzmrhw",
+                "SourceArn": "otrkspztqdeahowq",
+                "SourceIp": "jwovqkefzjnkviaq",
+                "Tags": [
+                    {
+                        "Key": "otatqycfyigkrcij",
+                        "Value": "mybaebyuwlthdqly"
+                    }
+                ]
+            },
+            {
+                "CreatedDate": "coaoiufqmybvfpoj",
+                "Destination": "phifbhphscnodebf",
+                "DestinationArn": "lkuiwfenedqyxyta",
+                "DestinationIp": "edlpfgqybivzxllx",
+                "DestinationPort": 0,
+                "FilterAtDestination": {
+                    "DestinationAddress": "eesgrlzbliilzttb",
+                    "DestinationPortRange": {
+                        "FromPort": 0,
+                        "ToPort": 0
+                    },
+                    "SourceAddress": "famlzdojsulhilhl",
+                    "SourcePortRange": {
+                        "FromPort": 0,
+                        "ToPort": 0
+                    }
+                },
+                "FilterAtSource": {
+                    "DestinationAddress": "djjchmcmdkdatogm",
+                    "DestinationPortRange": {
+                        "FromPort": 0,
+                        "ToPort": 0
+                    },
+                    "SourceAddress": "vqnixkimtuchenar",
+                    "SourcePortRange": {
+                        "FromPort": 0,
+                        "ToPort": 0
+                    }
+                },
+                "NetworkInsightsPathArn": "daxdpihktfvmqanu",
+                "NetworkInsightsPathId": "yxcvwmfyzhhkpvrr",
+                "Protocol": "hakypchsjhgxkuat",
+                "Source": "nhaofnrvfgttwyhy",
+                "SourceArn": "riyasfeunbdzwksl",
+                "SourceIp": "nzoqpbgvmedaedyv",
+                "Tags": [
+                    {
+                        "Key": "rltjdzicxfcdcdlq",
+                        "Value": "dkqqfqbjrcvzkgid"
+                    }
+                ]
+            },
+            {
+                "CreatedDate": "mzljfuuermbquvoy",
+                "Destination": "okhspgmnlgkejqyk",
+                "DestinationArn": "ntjublmpfptlwigh",
+                "DestinationIp": "jovjrzboqoessrul",
+                "DestinationPort": 0,
+                "FilterAtDestination": {
+                    "DestinationAddress": "vzhmmpxitjxpbawz",
+                    "DestinationPortRange": {
+                        "FromPort": 0,
+                        "ToPort": 0
+                    },
+                    "SourceAddress": "caungfowvvwrhemx",
+                    "SourcePortRange": {
+                        "FromPort": 0,
+                        "ToPort": 0
+                    }
+                },
+                "FilterAtSource": {
+                    "DestinationAddress": "mjmbkmmubicvtnlz",
+                    "DestinationPortRange": {
+                        "FromPort": 0,
+                        "ToPort": 0
+                    },
+                    "SourceAddress": "bbulekqeotbxertd",
+                    "SourcePortRange": {
+                        "FromPort": 0,
+                        "ToPort": 0
+                    }
+                },
+                "NetworkInsightsPathArn": "sayxzoayiflaaxrm",
+                "NetworkInsightsPathId": "pwiuopfheawmqygv",
+                "Protocol": "btuqubpvmecbpeyq",
+                "Source": "eqyfvsccxrjigmxp",
+                "SourceArn": "jokobtcbcwykfmlz",
+                "SourceIp": "uqustjvfwjnwyfic",
+                "Tags": [
+                    {
+                        "Key": "qhqcjtwvgegevprc",
+                        "Value": "flxapqzsdbdwqakt"
+                    }
+                ]
+            },
+            {
+                "CreatedDate": "dwskxxtbexxhvuua",
+                "Destination": "aibgdylispyhcvpj",
+                "DestinationArn": "mwscvcwtigtwrkcm",
+                "DestinationIp": "wwfsugtnurhevjcr",
+                "DestinationPort": 0,
+                "FilterAtDestination": {
+                    "DestinationAddress": "wgwohesbmbtdntrb",
+                    "DestinationPortRange": {
+                        "FromPort": 0,
+                        "ToPort": 0
+                    },
+                    "SourceAddress": "uzbfnqbihtjerdyh",
+                    "SourcePortRange": {
+                        "FromPort": 0,
+                        "ToPort": 0
+                    }
+                },
+                "FilterAtSource": {
+                    "DestinationAddress": "fqxwfyqqmtlabrnh",
+                    "DestinationPortRange": {
+                        "FromPort": 0,
+                        "ToPort": 0
+                    },
+                    "SourceAddress": "vttnrvaykvnhlutt",
+                    "SourcePortRange": {
+                        "FromPort": 0,
+                        "ToPort": 0
+                    }
+                },
+                "NetworkInsightsPathArn": "unkbrgjbcnswbgxg",
+                "NetworkInsightsPathId": "xgayprqeleaohmcc",
+                "Protocol": "bifnjvgcaiseqkad",
+                "Source": "kueclytaygjyerlx",
+                "SourceArn": "mbqhnscsjjupvblr",
+                "SourceIp": "gwpmlbggnodywcks",
+                "Tags": [
+                    {
+                        "Key": "fdnprgfxrtprtrpc",
+                        "Value": "ncqvrvkdshuiyinm"
+                    }
+                ]
+            }
+        ],
+        "result_key": "NetworkInsightsPaths"
+    },
+    "meta": {
+        "start": 1711115639.864211,
+        "end": 1711115646.916098,
+        "duration": 7.051898002624512,
+        "service": "ec2",
+        "type": "network_insights_paths"
+    }
+}

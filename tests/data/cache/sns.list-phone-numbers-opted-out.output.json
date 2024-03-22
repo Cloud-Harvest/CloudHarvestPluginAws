@@ -1,0 +1,38 @@
+{
+    "input": {
+        "template": {
+            "nextToken": ""
+        },
+        "required": [],
+        "md5": "0021cac7cb4a2e848e0fa7fd1239f476",
+        "boto_command": "list_phone_numbers_opted_out",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            "PhoneNumber"
+        ],
+        "required": [],
+        "md5": "9057f0d62f41fbf2850b02f4a3e11e70",
+        "randomized": [
+            "jqwxoewiesumntsw",
+            "trdrjwtjaugdshoe",
+            "mobuwkonpzttogmp",
+            "dbiwhisbnssjeclc",
+            "pmghkfprmlxkehtz",
+            "uegjxzcrkorzpjew",
+            "dvyghtpnldtnsfrf",
+            "tiaauncuujzukxrp",
+            "lyahuldbamvvgyzs",
+            "wibrgduohwqymhtj"
+        ],
+        "result_key": "phoneNumbers"
+    },
+    "meta": {
+        "start": 1711116650.988714,
+        "end": 1711116657.123764,
+        "duration": 6.13506293296814,
+        "service": "sns",
+        "type": "phone_numbers_opted_out"
+    }
+}

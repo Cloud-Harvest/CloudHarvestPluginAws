@@ -1,0 +1,13 @@
+[
+    "cleanroomsml.get-audience-generation-job",
+    "cleanroomsml.get-audience-model",
+    "cleanroomsml.get-configured-audience-model",
+    "cleanroomsml.get-configured-audience-model-policy",
+    "cleanroomsml.get-training-dataset",
+    "cleanroomsml.list-audience-export-jobs",
+    "cleanroomsml.list-audience-generation-jobs",
+    "cleanroomsml.list-audience-models",
+    "cleanroomsml.list-configured-audience-models",
+    "cleanroomsml.list-tags-for-resource",
+    "cleanroomsml.list-training-datasets"
+]

@@ -1,0 +1,150 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "nextToken": "",
+            "status": "CREATING"
+        },
+        "required": [],
+        "md5": "381d3028b82b20ef782a359c86ea0a53",
+        "boto_command": "list_domains",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "arn": "arn",
+                "createdAt": "1970-01-01T00:00:00",
+                "description": "description",
+                "id": "id",
+                "lastUpdatedAt": "1970-01-01T00:00:00",
+                "managedAccountId": "managedAccountId",
+                "name": "name",
+                "portalUrl": "portalUrl",
+                "status": "status"
+            }
+        ],
+        "required": [],
+        "md5": "051b539d998565c60cb19839084e48b4",
+        "randomized": [
+            {
+                "arn": "gdgipcnapnatzgsc",
+                "createdAt": "mthtpaqtexmrxiju",
+                "description": "tgosyeoelcenkret",
+                "id": "qkznrapmbixirlsf",
+                "lastUpdatedAt": "aafcbybzezbtzque",
+                "managedAccountId": "ybjxsmowwozfqmbr",
+                "name": "zyadhwrqdqecuefc",
+                "portalUrl": "wesojnvmtswvzrnj",
+                "status": "jhfrhfkoarxoetpe"
+            },
+            {
+                "arn": "cdsqiqkplhmtkfxa",
+                "createdAt": "fwotywywfgxdpzlg",
+                "description": "stpxhoharycwdahl",
+                "id": "wejlccjvuayoglcb",
+                "lastUpdatedAt": "ngevflcnaxahjbme",
+                "managedAccountId": "rzldowhqkiffxhnf",
+                "name": "tfzpoeqgfihxyqyw",
+                "portalUrl": "zsyqtmtnynpqfwzt",
+                "status": "tjlenrkqmfhiljdr"
+            },
+            {
+                "arn": "pmatbsqatayhvkoa",
+                "createdAt": "eirnpazovznhtrvs",
+                "description": "iuwddapntqkytuyp",
+                "id": "lvvwusuevggwxspl",
+                "lastUpdatedAt": "stoxmgrdjdllwiir",
+                "managedAccountId": "iyqtrwbjaadpgkec",
+                "name": "iiwdsojdpqisthbi",
+                "portalUrl": "timcaovnmelfhpye",
+                "status": "evkkmfdyiiqutsdx"
+            },
+            {
+                "arn": "bypkivivuayekrdz",
+                "createdAt": "jjckcxvdjeqqzlwd",
+                "description": "ezcradpatrowrfai",
+                "id": "alidwoxrjazfudus",
+                "lastUpdatedAt": "aweizqcijxaczrrl",
+                "managedAccountId": "ikqskfoaswuyemgj",
+                "name": "dqejgfpsmapzwigg",
+                "portalUrl": "xvnrlfgjbcieqczl",
+                "status": "unsoloktiodmpsbj"
+            },
+            {
+                "arn": "buolwfgwbokzqxce",
+                "createdAt": "ifwhowwgxgbjhjko",
+                "description": "muqindjqylfdlmnh",
+                "id": "kfhtgchitnwtpxmz",
+                "lastUpdatedAt": "dpvylascywkrbxmy",
+                "managedAccountId": "iozhikjywgqpopnp",
+                "name": "wptczqhkubaunqyy",
+                "portalUrl": "kalmtjkdvqwytwyt",
+                "status": "yvuxzefkmqhdehcp"
+            },
+            {
+                "arn": "lvaptcqojvpxrwqm",
+                "createdAt": "qonkgbnabsbpytjp",
+                "description": "daefvjmjbyyiostk",
+                "id": "sqczabogklrygivn",
+                "lastUpdatedAt": "ckbkaicafjzvvfqq",
+                "managedAccountId": "yvcuucquesgdsyry",
+                "name": "rqthmflqhnaylmdf",
+                "portalUrl": "lovduivsnajcngqz",
+                "status": "dymsgfknowbwkuod"
+            },
+            {
+                "arn": "sfemarfiqszufqub",
+                "createdAt": "ajohfwecpfgnhhvm",
+                "description": "dtltuxivwelscips",
+                "id": "rfuqaopjpxyrxmpi",
+                "lastUpdatedAt": "zjsgdjooljianuqb",
+                "managedAccountId": "qaiaghhywxckdkeo",
+                "name": "ylqspjlisoqpqsjr",
+                "portalUrl": "ywnnspdsketnkdkl",
+                "status": "cfptpzfkdjyqyvbq"
+            },
+            {
+                "arn": "fjehiqashrjhypit",
+                "createdAt": "fieoglmnavpqkkzi",
+                "description": "vleldsjexonscvjx",
+                "id": "dusmcpvjzznorpui",
+                "lastUpdatedAt": "gonmvzzfrsnxoyiu",
+                "managedAccountId": "sqabatzedbwbvfny",
+                "name": "kjnvyqqmxdmcxtzf",
+                "portalUrl": "wxivwumjqtghoamu",
+                "status": "rpielrbddhgxmhki"
+            },
+            {
+                "arn": "vhqsvlljxktvqbcw",
+                "createdAt": "ezxmzhdbrquvphdy",
+                "description": "bthdzpjgwnrtssxw",
+                "id": "iweauzjgpkjqhqsr",
+                "lastUpdatedAt": "ehalmfhcmqpasgoo",
+                "managedAccountId": "qjssnqfsexwvhjtf",
+                "name": "mqrsviuyhwsjbsec",
+                "portalUrl": "gdyzrdqwsmdnoifn",
+                "status": "wcvhbzapcinnswow"
+            },
+            {
+                "arn": "lyeebzoybcmftgsq",
+                "createdAt": "pyzczmoyeejxpmoh",
+                "description": "tgskxtfofhjivpog",
+                "id": "vcxarjrqjtgrolpl",
+                "lastUpdatedAt": "hozsxldjltrhfxuk",
+                "managedAccountId": "gsumivmgmqihgxew",
+                "name": "pxtxtoimsmtebkxx",
+                "portalUrl": "mcvreetfdrqwwxwh",
+                "status": "smiufgacczdgmbub"
+            }
+        ],
+        "result_key": "items"
+    },
+    "meta": {
+        "start": 1711115532.993348,
+        "end": 1711115541.416748,
+        "duration": 8.423410177230835,
+        "service": "datazone",
+        "type": "domains"
+    }
+}

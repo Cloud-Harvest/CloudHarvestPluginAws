@@ -1,0 +1,362 @@
+[
+    {
+        "awsDevice": "nkhynbrtzzvfsuwa",
+        "awsDeviceV2": "njczoortnjydzvur",
+        "awsLogicalDeviceId": "fkkscuusagltcedp",
+        "bandwidth": "fjczmwnoarzcywug",
+        "connectionId": "sqhallhkigvxxzhp",
+        "connectionName": "ioxhhnaswhpreizy",
+        "connectionState": "cfcxctwgiifpsadx",
+        "encryptionMode": "pqgiuweptrlmcere",
+        "hasLogicalRedundancy": "izdircfbiwqfzteh",
+        "jumboFrameCapable": true,
+        "lagId": "wcifwotfpmwbzddu",
+        "loaIssueTime": "rfzsfufewrloinqa",
+        "location": "czcuxddjcyngvqek",
+        "macSecCapable": true,
+        "macSecKeys": [
+            {
+                "ckn": "aldsbqayvjwrjldq",
+                "secretARN": "hbqowtamyvwofcle",
+                "startOn": "dfxdszwrudlznofw",
+                "state": "lgxdbddecimspqod"
+            }
+        ],
+        "ownerAccount": "liioigqfqfmkwvag",
+        "partnerName": "qjyayiehovhhjqci",
+        "portEncryptionStatus": "ipjyhsunprgrznbh",
+        "providerName": "eeuddbtfnzxkwezd",
+        "region": "wjcfopqjawtzpepp",
+        "tags": [
+            {
+                "key": "lnsxfjiefoakkkvw",
+                "value": "dwanvszfhhrcdnpq"
+            }
+        ],
+        "vlan": 0
+    },
+    {
+        "awsDevice": "xpnmyagliotudois",
+        "awsDeviceV2": "udskephqthtbupel",
+        "awsLogicalDeviceId": "ikspjdlqfzlknadp",
+        "bandwidth": "sntanxrrdjwevqsv",
+        "connectionId": "opvcvekrjkoselks",
+        "connectionName": "sowsuufvhihhvfbj",
+        "connectionState": "yvmspqaddzpnzapi",
+        "encryptionMode": "abxgmndqsrfysmse",
+        "hasLogicalRedundancy": "tlrapvplfzsuwtwd",
+        "jumboFrameCapable": true,
+        "lagId": "ypxenrrzimontjgx",
+        "loaIssueTime": "hoznspehujrnqfub",
+        "location": "euypuaaedpclywmt",
+        "macSecCapable": true,
+        "macSecKeys": [
+            {
+                "ckn": "lgxyukpbjtogyopv",
+                "secretARN": "bhwqtyoqmqjivodr",
+                "startOn": "kiedipcytvdzzawo",
+                "state": "vwlggjtgdddckwag"
+            }
+        ],
+        "ownerAccount": "cbjgqnkfteafqwjy",
+        "partnerName": "ruvrdhbjilducudn",
+        "portEncryptionStatus": "bwlyzgtumyihscfk",
+        "providerName": "zkwpsamgtjupyvgb",
+        "region": "vnluhgefsneyaqmn",
+        "tags": [
+            {
+                "key": "fjodlpomfhmzsbsi",
+                "value": "bzvtuvwaelllafdu"
+            }
+        ],
+        "vlan": 0
+    },
+    {
+        "awsDevice": "olpvegimfybjrlsb",
+        "awsDeviceV2": "dghvckimqpjwsbod",
+        "awsLogicalDeviceId": "mnteiaanvgdssmco",
+        "bandwidth": "vzesdzgqsovtanjr",
+        "connectionId": "gvvvfeafgaklxiec",
+        "connectionName": "jfryjidhpeyafcjp",
+        "connectionState": "sgiwqjejdwgsenks",
+        "encryptionMode": "iwmzjktmhjlplmnz",
+        "hasLogicalRedundancy": "mvtzzmyjlndlactp",
+        "jumboFrameCapable": true,
+        "lagId": "ljfnpljxictruejk",
+        "loaIssueTime": "rvhyknwstjzrzgyt",
+        "location": "kfajnxcsvzhrawfd",
+        "macSecCapable": true,
+        "macSecKeys": [
+            {
+                "ckn": "vugczfudjwrfktsp",
+                "secretARN": "gnosbokcvjxidxqj",
+                "startOn": "avqmgwxmmqybqpvt",
+                "state": "xqjvtjiuxazotetz"
+            }
+        ],
+        "ownerAccount": "hcwskfphfuwkbtwt",
+        "partnerName": "kcogwbqjmwyoduuu",
+        "portEncryptionStatus": "bgehvrbozngrserl",
+        "providerName": "ivgxqqxdqjowcyks",
+        "region": "xxwhxcdxqzyiajnq",
+        "tags": [
+            {
+                "key": "hvwusmyplrkslrls",
+                "value": "iidehrbmaizxceuw"
+            }
+        ],
+        "vlan": 0
+    },
+    {
+        "awsDevice": "qxlqyyxhukxbdjxa",
+        "awsDeviceV2": "drlkdmfleegynozu",
+        "awsLogicalDeviceId": "edzsgpmpouvqtihr",
+        "bandwidth": "dvfdgzhyyplwuarn",
+        "connectionId": "ldznjckxeacyovef",
+        "connectionName": "nuaitchukpmbpipj",
+        "connectionState": "cqzlzcsunktymcim",
+        "encryptionMode": "zaqlkhusyyjhbgso",
+        "hasLogicalRedundancy": "qwirdwkcmsazwbns",
+        "jumboFrameCapable": true,
+        "lagId": "sddfzigdgiqwapki",
+        "loaIssueTime": "ueyjwrstgxjazyag",
+        "location": "ntqvuumeinnerued",
+        "macSecCapable": true,
+        "macSecKeys": [
+            {
+                "ckn": "noxosbvrdrhvqgvg",
+                "secretARN": "lqfyjmxsankepclt",
+                "startOn": "lamdzfjpqosaopqc",
+                "state": "pahsaemyflcpgspg"
+            }
+        ],
+        "ownerAccount": "fhjqgjxsdozgwrnw",
+        "partnerName": "obfddfnyyqblovfc",
+        "portEncryptionStatus": "vsgsdoskxygkordv",
+        "providerName": "aguxdvrkcreqrqdb",
+        "region": "guixgojuxmsgilet",
+        "tags": [
+            {
+                "key": "xqanztqrqrllqxux",
+                "value": "myntrjpqanceehyf"
+            }
+        ],
+        "vlan": 0
+    },
+    {
+        "awsDevice": "udbwgzgbbwqhkdub",
+        "awsDeviceV2": "gxybnumjhwscoaxz",
+        "awsLogicalDeviceId": "zuowqweckjqsmnaz",
+        "bandwidth": "qblpflbuoxcfqbre",
+        "connectionId": "lvwvixgbtkcikqnl",
+        "connectionName": "kpwoypkupdekiems",
+        "connectionState": "zzhfgivpifeestfz",
+        "encryptionMode": "pqhuijswsfosfesy",
+        "hasLogicalRedundancy": "mokxhvopmcwoplrz",
+        "jumboFrameCapable": true,
+        "lagId": "zdgkdiodmiewtskf",
+        "loaIssueTime": "inykkqtfarosyabw",
+        "location": "klgmywigxfipyfpi",
+        "macSecCapable": true,
+        "macSecKeys": [
+            {
+                "ckn": "yjotsgislwyxvagj",
+                "secretARN": "qpwnooxfewdvywkl",
+                "startOn": "yveonycsctekgbie",
+                "state": "xkehtlyhxwttprha"
+            }
+        ],
+        "ownerAccount": "ujgjidwagbwomcxc",
+        "partnerName": "lkjpzfuemnjpscpi",
+        "portEncryptionStatus": "orewhhqkeedbtwzw",
+        "providerName": "rolpdbhlfprrvmfy",
+        "region": "ljsnuzxubwlrpbzw",
+        "tags": [
+            {
+                "key": "dgjiblcxniwrkkms",
+                "value": "dsrsyxnjslkdzuko"
+            }
+        ],
+        "vlan": 0
+    },
+    {
+        "awsDevice": "jodjpubfcoyrnjfc",
+        "awsDeviceV2": "netinqocfunvqtfe",
+        "awsLogicalDeviceId": "sxalirmjytuviqbq",
+        "bandwidth": "iufidhaubbliurmk",
+        "connectionId": "nzzgunnqponlcjry",
+        "connectionName": "kcssorapzlujjytn",
+        "connectionState": "bluxeufhlkzlezdg",
+        "encryptionMode": "sidxabwlhqftqcdi",
+        "hasLogicalRedundancy": "kaynizpvlmpikwdz",
+        "jumboFrameCapable": true,
+        "lagId": "ratfphpuqgxnvmzz",
+        "loaIssueTime": "zvrxozclmuimkhxb",
+        "location": "yqlmpivvecinyxco",
+        "macSecCapable": true,
+        "macSecKeys": [
+            {
+                "ckn": "vptdketjmuiwhlxj",
+                "secretARN": "cmblsxuvgllnufre",
+                "startOn": "lillrznitffeinuz",
+                "state": "xwgxugngtcaukznf"
+            }
+        ],
+        "ownerAccount": "orvezzzlxmioefba",
+        "partnerName": "tsrwcoqxucrybjgp",
+        "portEncryptionStatus": "fgcebkzfzxfemgmm",
+        "providerName": "zuxmmsmuygwlmvbp",
+        "region": "iayjrulfpuplyuin",
+        "tags": [
+            {
+                "key": "gdlgkccbuviguzoo",
+                "value": "zwkhiamllggmeeyb"
+            }
+        ],
+        "vlan": 0
+    },
+    {
+        "awsDevice": "jdxbcdhwzchctovy",
+        "awsDeviceV2": "idxzdmcaleorshcf",
+        "awsLogicalDeviceId": "qqgstrjoqdjyvrbv",
+        "bandwidth": "rxerhjabcbufcace",
+        "connectionId": "gevqjansqwgioksf",
+        "connectionName": "yllutfjcqwlofjdx",
+        "connectionState": "uswxbqaammewbmsf",
+        "encryptionMode": "qnhwzggwoufivvft",
+        "hasLogicalRedundancy": "xdruyudyvglsprcp",
+        "jumboFrameCapable": true,
+        "lagId": "krlcgyykzrrdsxpi",
+        "loaIssueTime": "modcoaidcaqbdedl",
+        "location": "jkttjocfrkfcfccp",
+        "macSecCapable": true,
+        "macSecKeys": [
+            {
+                "ckn": "rjsdwjrnnnbjzpks",
+                "secretARN": "hvmsvbsulllskecs",
+                "startOn": "bybknrdwwitivotf",
+                "state": "tfkezefwmtxacxwh"
+            }
+        ],
+        "ownerAccount": "hjnmfcrzffiwpiqv",
+        "partnerName": "wzwmpjzeruqhzrhz",
+        "portEncryptionStatus": "ytbeqhuyzimuytpo",
+        "providerName": "gieejwsppknkaxra",
+        "region": "yfbfdvymmtnnveqd",
+        "tags": [
+            {
+                "key": "hzhbvspzfcdcfovi",
+                "value": "hpmuqkbvzbxdesrt"
+            }
+        ],
+        "vlan": 0
+    },
+    {
+        "awsDevice": "fhsparuczdovndng",
+        "awsDeviceV2": "ogqwyjgrdgdwunkf",
+        "awsLogicalDeviceId": "cjducciqupguwxbw",
+        "bandwidth": "blxmsqucmfvjgdvf",
+        "connectionId": "xqueperhxzqhuqxl",
+        "connectionName": "xfrtjzoghpasbqga",
+        "connectionState": "zqzdqozmdanndshx",
+        "encryptionMode": "offndylvwhmgbmkx",
+        "hasLogicalRedundancy": "dvrmomlkiqmonrif",
+        "jumboFrameCapable": true,
+        "lagId": "wtailuzkxtofgdui",
+        "loaIssueTime": "yyoctudgevinwdfn",
+        "location": "kvmgyqbsxjhovrdv",
+        "macSecCapable": true,
+        "macSecKeys": [
+            {
+                "ckn": "zwrtfpbadzfzehtz",
+                "secretARN": "oxtkpsyvlviudoro",
+                "startOn": "hageguunvkomjmup",
+                "state": "xlridywmnsjjmkuz"
+            }
+        ],
+        "ownerAccount": "emlovlnyvsnfnvke",
+        "partnerName": "njorkpgnqhynszdj",
+        "portEncryptionStatus": "ugwrpxtiqsmiecjz",
+        "providerName": "lcgduqdcwagwzbvb",
+        "region": "lwpnndkzuyjgyxym",
+        "tags": [
+            {
+                "key": "riokabsybwrzurbb",
+                "value": "klhyorieqeayunnz"
+            }
+        ],
+        "vlan": 0
+    },
+    {
+        "awsDevice": "eqmbfbenuatlkkny",
+        "awsDeviceV2": "xymrxhagzluqesgz",
+        "awsLogicalDeviceId": "usepwdgwwpwhhflz",
+        "bandwidth": "uzhftqfisxoohreu",
+        "connectionId": "vnqmbaobtbwsvddu",
+        "connectionName": "vhuxaotphggxrlxy",
+        "connectionState": "pyppwlladmoptvug",
+        "encryptionMode": "zrjsblbtyoidieby",
+        "hasLogicalRedundancy": "yinsxemejthgtrfl",
+        "jumboFrameCapable": true,
+        "lagId": "bedjqjzpofgqvkhf",
+        "loaIssueTime": "hawzdwhosgitqvvk",
+        "location": "wkkbrhhvrrrfrjze",
+        "macSecCapable": true,
+        "macSecKeys": [
+            {
+                "ckn": "ytygrhvhrjgyagtc",
+                "secretARN": "wclcfztdyeiarsme",
+                "startOn": "qrpbdjlbywsfxlth",
+                "state": "rpicdyjhwsbgouzq"
+            }
+        ],
+        "ownerAccount": "gmeaeenqijehkgab",
+        "partnerName": "scneiebvdqfhwtke",
+        "portEncryptionStatus": "srjndfozmwltlwop",
+        "providerName": "grkhotpfokvrbgmv",
+        "region": "tnfnnhejlxhzktpg",
+        "tags": [
+            {
+                "key": "buieogffrfshksus",
+                "value": "zvmgacvrwpzjmiqi"
+            }
+        ],
+        "vlan": 0
+    },
+    {
+        "awsDevice": "vvgqldckiowoxsly",
+        "awsDeviceV2": "smizodixhknlgtmy",
+        "awsLogicalDeviceId": "iuatzhhakkdzlbnz",
+        "bandwidth": "lqjfciqzzbodfmdr",
+        "connectionId": "bkrcicfrjatzfbeo",
+        "connectionName": "tjrbfntxbokbinat",
+        "connectionState": "hxoxhmejhvvioyke",
+        "encryptionMode": "wkbexemzjdvyfpbh",
+        "hasLogicalRedundancy": "gcbnihiqojiqpdix",
+        "jumboFrameCapable": true,
+        "lagId": "ilcdgmpzxftouvxv",
+        "loaIssueTime": "hthcdrkdqciwpiud",
+        "location": "wafgasdgymqfgxqs",
+        "macSecCapable": true,
+        "macSecKeys": [
+            {
+                "ckn": "juebzwjquzjebmel",
+                "secretARN": "oaiktbyhrvlpnahe",
+                "startOn": "khfjgmklokepbmzm",
+                "state": "ngieozxjexwyyszn"
+            }
+        ],
+        "ownerAccount": "jdapqdefouzzyyqd",
+        "partnerName": "pupirmcwuhxinaxu",
+        "portEncryptionStatus": "qvpcpkcjnxdddswf",
+        "providerName": "hbqryipnlcxmghzk",
+        "region": "aqfhbrvtljvpegse",
+        "tags": [
+            {
+                "key": "hoshptiizzntigzh",
+                "value": "fviuiqvsbycpehkx"
+            }
+        ],
+        "vlan": 0
+    }
+]

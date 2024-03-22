@@ -1,0 +1,216 @@
+{
+    "input": {
+        "template": {
+            "ReplaceRootVolumeTaskIds": [
+                ""
+            ],
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxResults": 0,
+            "NextToken": "",
+            "DryRun": true
+        },
+        "required": [],
+        "md5": "05221a0b5062b966ef9219abb343db6e",
+        "boto_command": "describe_replace_root_volume_tasks",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "ReplaceRootVolumeTaskId": "ReplaceRootVolumeTaskId",
+                "InstanceId": "InstanceId",
+                "TaskState": "TaskState",
+                "StartTime": "StartTime",
+                "CompleteTime": "CompleteTime",
+                "Tags": [
+                    {
+                        "Key": "Key",
+                        "Value": "Value"
+                    }
+                ],
+                "ImageId": "ImageId",
+                "SnapshotId": "SnapshotId",
+                "DeleteReplacedRootVolume": true
+            }
+        ],
+        "required": [],
+        "md5": "57aa21ddb57dedd1510a36f5287defb8",
+        "randomized": [
+            {
+                "CompleteTime": "cqaiygnahqynwuvg",
+                "DeleteReplacedRootVolume": true,
+                "ImageId": "etafbvrovogefvvu",
+                "InstanceId": "xhwgwkahiherskta",
+                "ReplaceRootVolumeTaskId": "obfxvhqlgbrattjj",
+                "SnapshotId": "ivtalmegfcqnfatq",
+                "StartTime": "kairhuknyeougjmv",
+                "Tags": [
+                    {
+                        "Key": "jevtgmeabptllxso",
+                        "Value": "wjqwdozonwhnfkzi"
+                    }
+                ],
+                "TaskState": "wglssqmxlbpepjce"
+            },
+            {
+                "CompleteTime": "ukgdcaeahnuvvuzp",
+                "DeleteReplacedRootVolume": true,
+                "ImageId": "pwpxceemqxvtubim",
+                "InstanceId": "bvehgrxxrljdafla",
+                "ReplaceRootVolumeTaskId": "qceghymwuyuwausf",
+                "SnapshotId": "jzsxusaenhexnxil",
+                "StartTime": "sbtqhcgijiqjvrhg",
+                "Tags": [
+                    {
+                        "Key": "xpxffllonplcnbpa",
+                        "Value": "cehufesoiymaqcfx"
+                    }
+                ],
+                "TaskState": "fmxnummqhzevuicr"
+            },
+            {
+                "CompleteTime": "ccltjkxnwobowjvq",
+                "DeleteReplacedRootVolume": true,
+                "ImageId": "sqawmyqldpckgtsj",
+                "InstanceId": "cggennkfbnculwqp",
+                "ReplaceRootVolumeTaskId": "gxtysmvtmkmopkdq",
+                "SnapshotId": "bpskhhoakkcxblsu",
+                "StartTime": "rjgoxzsshbkgsmnl",
+                "Tags": [
+                    {
+                        "Key": "mwfvldomztalvcmv",
+                        "Value": "asutspotevzntayy"
+                    }
+                ],
+                "TaskState": "lessivqglphmglvd"
+            },
+            {
+                "CompleteTime": "bhyoupbyqrawhwni",
+                "DeleteReplacedRootVolume": true,
+                "ImageId": "uybtzjgflpadjsdu",
+                "InstanceId": "pmvjatntanxtbrig",
+                "ReplaceRootVolumeTaskId": "xfexdrziktqyqbst",
+                "SnapshotId": "giqaadefwatufdcp",
+                "StartTime": "ryonzsinuyeqewsc",
+                "Tags": [
+                    {
+                        "Key": "lqlkgezmalowlwgi",
+                        "Value": "hocmmdhonrxrutsn"
+                    }
+                ],
+                "TaskState": "xtuarpqteatcmlub"
+            },
+            {
+                "CompleteTime": "pktpitxzwhsxzims",
+                "DeleteReplacedRootVolume": true,
+                "ImageId": "lqyyionpoxqkpobp",
+                "InstanceId": "anxamvqkujhooozt",
+                "ReplaceRootVolumeTaskId": "jehdynrxtofotpcg",
+                "SnapshotId": "kgfawqttirfomcea",
+                "StartTime": "crezxcccrczclowc",
+                "Tags": [
+                    {
+                        "Key": "fvtylacpyjmpstxi",
+                        "Value": "gzwchrjwgginzypq"
+                    }
+                ],
+                "TaskState": "ajqjgdiaaghscnep"
+            },
+            {
+                "CompleteTime": "hityjxvprvebiile",
+                "DeleteReplacedRootVolume": true,
+                "ImageId": "swfgbdtmnoizptjy",
+                "InstanceId": "iddcjcertzhoyxhu",
+                "ReplaceRootVolumeTaskId": "yhwbnnhmhdhlrbzm",
+                "SnapshotId": "wvnraiaoiqeponit",
+                "StartTime": "fwjomzsscxgwaark",
+                "Tags": [
+                    {
+                        "Key": "capgxxlzhyakcavi",
+                        "Value": "asooqdbjxxzbxtkh"
+                    }
+                ],
+                "TaskState": "eecjuvyofikikfad"
+            },
+            {
+                "CompleteTime": "zdyujavmkbzyxjar",
+                "DeleteReplacedRootVolume": true,
+                "ImageId": "uvhynxduppqgysfb",
+                "InstanceId": "nhysngguerzkgadd",
+                "ReplaceRootVolumeTaskId": "klalptazhosledya",
+                "SnapshotId": "ljakwucnymocuudx",
+                "StartTime": "ryvqnhbfeywvmpve",
+                "Tags": [
+                    {
+                        "Key": "qqbaheopxhdibpvi",
+                        "Value": "xqcfekxmeqqgpnoi"
+                    }
+                ],
+                "TaskState": "bdzmwvcogejfanpf"
+            },
+            {
+                "CompleteTime": "bmxkuafnfdyvacpo",
+                "DeleteReplacedRootVolume": true,
+                "ImageId": "vwgvtqfkzpudmmtg",
+                "InstanceId": "clndvchdsxvpcyms",
+                "ReplaceRootVolumeTaskId": "kndmpowjyqzszuma",
+                "SnapshotId": "mggrqsncypicsffu",
+                "StartTime": "mehmhsruvxcisodo",
+                "Tags": [
+                    {
+                        "Key": "ybmqvijxqdksaqpj",
+                        "Value": "udcunbpgoevcgeik"
+                    }
+                ],
+                "TaskState": "irpdpcqyotznyqhu"
+            },
+            {
+                "CompleteTime": "fyzfgkyzukbxwgsh",
+                "DeleteReplacedRootVolume": true,
+                "ImageId": "lycsydvoedctqles",
+                "InstanceId": "zgimygmsukuygffq",
+                "ReplaceRootVolumeTaskId": "vnxgeafqorwfgdce",
+                "SnapshotId": "ccovtknomtfugfng",
+                "StartTime": "pwoybbgwqpfgbydd",
+                "Tags": [
+                    {
+                        "Key": "ehzlffcklmhkeuix",
+                        "Value": "whtmclekjqtlzael"
+                    }
+                ],
+                "TaskState": "mlczwykbfnmnamoq"
+            },
+            {
+                "CompleteTime": "dzxeaxxwmbckoext",
+                "DeleteReplacedRootVolume": true,
+                "ImageId": "epbharawgmkkznno",
+                "InstanceId": "qkoungnkqbhhldng",
+                "ReplaceRootVolumeTaskId": "darjkgzdrvcjnqgx",
+                "SnapshotId": "diwlgmkkatcxzeyf",
+                "StartTime": "nijiyszcwquxdypr",
+                "Tags": [
+                    {
+                        "Key": "sabwhvxqvvezbtzf",
+                        "Value": "xzezbwtajqyhnrdc"
+                    }
+                ],
+                "TaskState": "dwvfrhkzbgasfzcm"
+            }
+        ],
+        "result_key": "ReplaceRootVolumeTasks"
+    },
+    "meta": {
+        "start": 1711115642.178512,
+        "end": 1711115649.921102,
+        "duration": 7.742597818374634,
+        "service": "ec2",
+        "type": "replace_root_volume_tasks"
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "input": {
+        "template": {
+            "Limit": 0,
+            "DeliveryStreamType": "DirectPut",
+            "ExclusiveStartDeliveryStreamName": ""
+        },
+        "required": [],
+        "md5": "b5b9fc768b200a4682fe493fd9c46099",
+        "boto_command": "list_delivery_streams",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            "DeliveryStreamName"
+        ],
+        "required": [],
+        "md5": "3935e4c27ac1800a5dc0e3256bee9770",
+        "randomized": [
+            "aktfblegisxcelrn",
+            "fvohqroykwjuecwj",
+            "fmsxxsbzubsggtaj",
+            "pzkmbhixnwixneis",
+            "bwvftaqgvddwrvea",
+            "axxdzfovwhqtbkcz",
+            "ijymjehkwtvxszwg",
+            "vldfweddcgshkvtt",
+            "trzpmiygwjklpidi",
+            "irrvzethmjkkkmeq"
+        ],
+        "result_key": "DeliveryStreamNames"
+    },
+    "meta": {
+        "start": 1711115765.415939,
+        "end": 1711115772.972794,
+        "duration": 7.556864976882935,
+        "service": "firehose",
+        "type": "delivery_streams"
+    }
+}

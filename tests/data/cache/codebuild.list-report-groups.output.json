@@ -1,0 +1,41 @@
+{
+    "input": {
+        "template": {
+            "sortOrder": "ASCENDING",
+            "sortBy": "NAME",
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "required": [],
+        "md5": "b4abcc4d39b6a8ced613ac2224de838a",
+        "boto_command": "list_report_groups",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            "NonEmptyString"
+        ],
+        "required": [],
+        "md5": "325ad1252f434d01baef9a85a9fe55de",
+        "randomized": [
+            "vpwmbuwhsmtekwqe",
+            "awztfadsqszzmdfa",
+            "loecfmkjdhxgzhve",
+            "mcvobqhltlnxjgqi",
+            "immsapkgqzoagjjr",
+            "mhmwifgckpyfjlos",
+            "rijkfaezmlxbwqcl",
+            "rurmekwzafdqqpmn",
+            "jbltyjfgjslgftix",
+            "ywrfjshattbwbfyl"
+        ],
+        "result_key": "reportGroups"
+    },
+    "meta": {
+        "start": 1711115403.176681,
+        "end": 1711115411.525852,
+        "duration": 8.349181890487671,
+        "service": "codebuild",
+        "type": "report_groups"
+    }
+}

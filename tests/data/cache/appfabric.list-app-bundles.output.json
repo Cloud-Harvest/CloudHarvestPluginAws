@@ -1,0 +1,61 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "required": [],
+        "md5": "2620fedaf24e984a8f801d0beb17a6e7",
+        "boto_command": "list_app_bundles",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "arn": "arn"
+            }
+        ],
+        "required": [],
+        "md5": "241b369a82b4eaf233ad754c88d9e0f2",
+        "randomized": [
+            {
+                "arn": "hzeeexloinnfijrl"
+            },
+            {
+                "arn": "amueirypadrznvkj"
+            },
+            {
+                "arn": "bgongjmctyzfixix"
+            },
+            {
+                "arn": "zwqucksxodbhqjma"
+            },
+            {
+                "arn": "bjzciidiimkkuldd"
+            },
+            {
+                "arn": "jsdgnyerhntcjzjp"
+            },
+            {
+                "arn": "itbamylslgqydcmc"
+            },
+            {
+                "arn": "ctfbwutqcllznqxw"
+            },
+            {
+                "arn": "zuoqrcgmhrgnahec"
+            },
+            {
+                "arn": "ezxuktlrndmdliuk"
+            }
+        ],
+        "result_key": "appBundleSummaryList"
+    },
+    "meta": {
+        "start": 1711115218.623197,
+        "end": 1711115224.724753,
+        "duration": 6.101565837860107,
+        "service": "appfabric",
+        "type": "app_bundles"
+    }
+}

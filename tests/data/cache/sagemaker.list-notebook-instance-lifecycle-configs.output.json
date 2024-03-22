@@ -1,0 +1,101 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0,
+            "SortBy": "Name",
+            "SortOrder": "Ascending",
+            "NameContains": "",
+            "CreationTimeBefore": "1970-01-01T00:00:00",
+            "CreationTimeAfter": "1970-01-01T00:00:00",
+            "LastModifiedTimeBefore": "1970-01-01T00:00:00",
+            "LastModifiedTimeAfter": "1970-01-01T00:00:00"
+        },
+        "required": [],
+        "md5": "6612195aea062667e2afde6711c6f023",
+        "boto_command": "list_notebook_instance_lifecycle_configs",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "NotebookInstanceLifecycleConfigName": "NotebookInstanceLifecycleConfigName",
+                "NotebookInstanceLifecycleConfigArn": "NotebookInstanceLifecycleConfigArn",
+                "CreationTime": "1970-01-01T00:00:00",
+                "LastModifiedTime": "1970-01-01T00:00:00"
+            }
+        ],
+        "required": [],
+        "md5": "06f75ed7a03f0d88622d86bfa0040538",
+        "randomized": [
+            {
+                "CreationTime": "hftsgewqovhbeulq",
+                "LastModifiedTime": "llsvhliqchqjlrlb",
+                "NotebookInstanceLifecycleConfigArn": "xjlocllaocqhpfay",
+                "NotebookInstanceLifecycleConfigName": "wpedocugbupdkipi"
+            },
+            {
+                "CreationTime": "vvifxyuftwzlatxi",
+                "LastModifiedTime": "rxbcvgvuworvvbcq",
+                "NotebookInstanceLifecycleConfigArn": "icyjpcydevreottr",
+                "NotebookInstanceLifecycleConfigName": "xwbdrfdjivrbmznb"
+            },
+            {
+                "CreationTime": "aixldiiatpappehp",
+                "LastModifiedTime": "mnpswwhufgewrdab",
+                "NotebookInstanceLifecycleConfigArn": "bktvmdbhvgtikopg",
+                "NotebookInstanceLifecycleConfigName": "kulirskwogovvtbi"
+            },
+            {
+                "CreationTime": "cphyrhqdmzmaughx",
+                "LastModifiedTime": "pbcrttslitkxhutf",
+                "NotebookInstanceLifecycleConfigArn": "deoksnazsnxioxuc",
+                "NotebookInstanceLifecycleConfigName": "zfxduwzzghxkrkco"
+            },
+            {
+                "CreationTime": "orcadsnjyqfeoxsw",
+                "LastModifiedTime": "qhjbznthdrqusshs",
+                "NotebookInstanceLifecycleConfigArn": "gwndldnfelgtqwly",
+                "NotebookInstanceLifecycleConfigName": "anqbehwbacmipmbo"
+            },
+            {
+                "CreationTime": "docjcqhddhrgzllr",
+                "LastModifiedTime": "qmettxtavgdfubng",
+                "NotebookInstanceLifecycleConfigArn": "cacxnmzymzpxcegx",
+                "NotebookInstanceLifecycleConfigName": "xugmgprillzifewj"
+            },
+            {
+                "CreationTime": "wqyahlgpmswzktpf",
+                "LastModifiedTime": "ylwnpkgialurmuev",
+                "NotebookInstanceLifecycleConfigArn": "thdjiprypvcdenge",
+                "NotebookInstanceLifecycleConfigName": "blskbwzvbzovplve"
+            },
+            {
+                "CreationTime": "lilbbitvesllnjen",
+                "LastModifiedTime": "fkqwdetmmmjkjhcn",
+                "NotebookInstanceLifecycleConfigArn": "axuzvocvahgitvps",
+                "NotebookInstanceLifecycleConfigName": "epvxkcwivqvmznwk"
+            },
+            {
+                "CreationTime": "hnktkdtpksgchkwz",
+                "LastModifiedTime": "vvglbtimderioyum",
+                "NotebookInstanceLifecycleConfigArn": "wdsqykpfuxpwfedt",
+                "NotebookInstanceLifecycleConfigName": "tslgjcbnqjdhnimo"
+            },
+            {
+                "CreationTime": "tgxvgzbrkdgmbguu",
+                "LastModifiedTime": "enklehnqxxugchth",
+                "NotebookInstanceLifecycleConfigArn": "fdiwpfygtsduqweb",
+                "NotebookInstanceLifecycleConfigName": "oolahsluldutkuqx"
+            }
+        ],
+        "result_key": "NotebookInstanceLifecycleConfigs"
+    },
+    "meta": {
+        "start": 1711116563.999081,
+        "end": 1711116570.989463,
+        "duration": 6.990393161773682,
+        "service": "sagemaker",
+        "type": "notebook_instance_lifecycle_configs"
+    }
+}

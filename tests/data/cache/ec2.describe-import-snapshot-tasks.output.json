@@ -1,0 +1,326 @@
+{
+    "input": {
+        "template": {
+            "DryRun": true,
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "ImportTaskIds": [
+                ""
+            ],
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "f6578b200404ef2936bbe8d4a9e005a1",
+        "boto_command": "describe_import_snapshot_tasks",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "Description": "Description",
+                "ImportTaskId": "ImportTaskId",
+                "SnapshotTaskDetail": {
+                    "Description": "Description",
+                    "DiskImageSize": 0.0,
+                    "Encrypted": true,
+                    "Format": "Format",
+                    "KmsKeyId": "KmsKeyId",
+                    "Progress": "Progress",
+                    "SnapshotId": "SnapshotId",
+                    "Status": "Status",
+                    "StatusMessage": "StatusMessage",
+                    "Url": "Url",
+                    "UserBucket": {
+                        "S3Bucket": "S3Bucket",
+                        "S3Key": "S3Key"
+                    }
+                },
+                "Tags": [
+                    {
+                        "Key": "Key",
+                        "Value": "Value"
+                    }
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "f830c73a316b578f7283d27138816779",
+        "randomized": [
+            {
+                "Description": "evmajcfihzirwkrm",
+                "ImportTaskId": "kxiubodvhimphtla",
+                "SnapshotTaskDetail": {
+                    "Description": "jmmonavqflmxxdtt",
+                    "DiskImageSize": 0.0,
+                    "Encrypted": true,
+                    "Format": "qqbemfbgoypliddg",
+                    "KmsKeyId": "qhvfricnjtdixgrm",
+                    "Progress": "ujtntiwjhiggxwyl",
+                    "SnapshotId": "cbvewllqigwvohwu",
+                    "Status": "pwlgyyfemieaqrgn",
+                    "StatusMessage": "kqidrkgcsgundfui",
+                    "Url": "bmsvoexrhwrfrxrt",
+                    "UserBucket": {
+                        "S3Bucket": "mlmnzxbqzbmkajtv",
+                        "S3Key": "kcqwcwistwawxocd"
+                    }
+                },
+                "Tags": [
+                    {
+                        "Key": "pfllopxwxwqrgqua",
+                        "Value": "caapdkwenqepsyzm"
+                    }
+                ]
+            },
+            {
+                "Description": "arotuwheacvlmwqn",
+                "ImportTaskId": "lhlzvputnhvlgnan",
+                "SnapshotTaskDetail": {
+                    "Description": "pvkfbyxbhnsuqkns",
+                    "DiskImageSize": 0.0,
+                    "Encrypted": true,
+                    "Format": "pubmboyjzdodhjsh",
+                    "KmsKeyId": "tsugovtwbicqcycb",
+                    "Progress": "qoxvpghltwpuxjie",
+                    "SnapshotId": "gifvxdcxsykksgps",
+                    "Status": "xorkorjphpuhvapv",
+                    "StatusMessage": "zshdnadkmlutsund",
+                    "Url": "meulfjfxtubvvdwv",
+                    "UserBucket": {
+                        "S3Bucket": "fjunlhxahjdmxkrd",
+                        "S3Key": "efrucqrkpszeusmf"
+                    }
+                },
+                "Tags": [
+                    {
+                        "Key": "lmqgbkzzuldhlhvv",
+                        "Value": "yyuypmsfdejwfebo"
+                    }
+                ]
+            },
+            {
+                "Description": "wkhvqjrgfnhpyzod",
+                "ImportTaskId": "todrxfwppefwanjv",
+                "SnapshotTaskDetail": {
+                    "Description": "hrbovchvftqptpig",
+                    "DiskImageSize": 0.0,
+                    "Encrypted": true,
+                    "Format": "azidcbtjwbwymcwa",
+                    "KmsKeyId": "gebhgcrkawfcgqmj",
+                    "Progress": "rljbysemypvleckj",
+                    "SnapshotId": "dkpowesdpawhugqd",
+                    "Status": "dfhbhfrpmdzampka",
+                    "StatusMessage": "tqhsyoqtavtwudik",
+                    "Url": "kcdqlfihtjmzxrzq",
+                    "UserBucket": {
+                        "S3Bucket": "xyqjimbcyywbbhek",
+                        "S3Key": "vpxpdnewaulwndms"
+                    }
+                },
+                "Tags": [
+                    {
+                        "Key": "grdamqyfdidutznn",
+                        "Value": "axdnlhihedlbhptf"
+                    }
+                ]
+            },
+            {
+                "Description": "jjtnqlezcjylltxa",
+                "ImportTaskId": "lkmicevwsbdysqbo",
+                "SnapshotTaskDetail": {
+                    "Description": "vmuikgwosmckgjax",
+                    "DiskImageSize": 0.0,
+                    "Encrypted": true,
+                    "Format": "jttinzbyambyxayx",
+                    "KmsKeyId": "rfullbrvmzwiodnq",
+                    "Progress": "xtuybrzxnwdscabd",
+                    "SnapshotId": "ripouyeelggrozoz",
+                    "Status": "bsposfbtjfvnvzjb",
+                    "StatusMessage": "vuhtlzmcauuqwkab",
+                    "Url": "zrgezsnloosrsdae",
+                    "UserBucket": {
+                        "S3Bucket": "abcrlwegcdrpvwsj",
+                        "S3Key": "aawecgberjpftdzw"
+                    }
+                },
+                "Tags": [
+                    {
+                        "Key": "hqsppyejppeexmjn",
+                        "Value": "smhisvjoezfagfxp"
+                    }
+                ]
+            },
+            {
+                "Description": "ssvaggodcelerdww",
+                "ImportTaskId": "qpjguprzqagamfbg",
+                "SnapshotTaskDetail": {
+                    "Description": "cvhthrrpjppoemzo",
+                    "DiskImageSize": 0.0,
+                    "Encrypted": true,
+                    "Format": "rwugnpqtdcrwwkon",
+                    "KmsKeyId": "mcmbuehvdcgsfaew",
+                    "Progress": "mjisixcsdchdbbus",
+                    "SnapshotId": "jfkepyfywomlojgp",
+                    "Status": "oqdxejvitedofaua",
+                    "StatusMessage": "qokmyahrrekilypw",
+                    "Url": "rzeoirxgbbizsptx",
+                    "UserBucket": {
+                        "S3Bucket": "eoyzwcdhsevvnbfz",
+                        "S3Key": "ukigunwwhwgzevfg"
+                    }
+                },
+                "Tags": [
+                    {
+                        "Key": "glyufalrvxwdbhqx",
+                        "Value": "ehggmpzeduefrmem"
+                    }
+                ]
+            },
+            {
+                "Description": "ebcnwgmkahzkzsfq",
+                "ImportTaskId": "lscrhcxwtluefrym",
+                "SnapshotTaskDetail": {
+                    "Description": "hpsyzspvulzcdtjv",
+                    "DiskImageSize": 0.0,
+                    "Encrypted": true,
+                    "Format": "cnroqwyubfpmoxju",
+                    "KmsKeyId": "tmpkwnmmkpxqvfuv",
+                    "Progress": "wyvewdtqmqhqvhwb",
+                    "SnapshotId": "bcsjnieswgwzkysq",
+                    "Status": "ytwedbxtxntllbdf",
+                    "StatusMessage": "izruvnzzoypwoiow",
+                    "Url": "pxolcwszxwdqpttk",
+                    "UserBucket": {
+                        "S3Bucket": "irixwhavmngybsjk",
+                        "S3Key": "pescadcxxdwkgynm"
+                    }
+                },
+                "Tags": [
+                    {
+                        "Key": "sbogfdovkzyrgofo",
+                        "Value": "clqcdxosponypyro"
+                    }
+                ]
+            },
+            {
+                "Description": "oabrzlpztppczefn",
+                "ImportTaskId": "zybxgwnticpmlauf",
+                "SnapshotTaskDetail": {
+                    "Description": "ffigserfnvvtczot",
+                    "DiskImageSize": 0.0,
+                    "Encrypted": true,
+                    "Format": "kfrdxzqqwsppclhu",
+                    "KmsKeyId": "baqqxtskhgvxwugc",
+                    "Progress": "glxuedliutdrzjlu",
+                    "SnapshotId": "jwgedcbtgyvtnyaz",
+                    "Status": "fkpkuyjvhmvwdtlf",
+                    "StatusMessage": "oqmnneqqkxqepema",
+                    "Url": "hdktdyscgpamhemp",
+                    "UserBucket": {
+                        "S3Bucket": "tduxnzkfvrrvhknp",
+                        "S3Key": "udedikmaxvdeqhvl"
+                    }
+                },
+                "Tags": [
+                    {
+                        "Key": "bfdhnknoyjdiipsm",
+                        "Value": "xazlrfeiwxkvechp"
+                    }
+                ]
+            },
+            {
+                "Description": "qhjbfrphnwaaghpq",
+                "ImportTaskId": "tmmkhdmsnzmzvwhp",
+                "SnapshotTaskDetail": {
+                    "Description": "aptvbgynnhyeakoz",
+                    "DiskImageSize": 0.0,
+                    "Encrypted": true,
+                    "Format": "gclzrvopwatyjtnc",
+                    "KmsKeyId": "bpqtaxaspzkfhiwb",
+                    "Progress": "hxhbmhoaawcthjlu",
+                    "SnapshotId": "irbicjdbtlirdlsx",
+                    "Status": "kosmajosizshsozj",
+                    "StatusMessage": "nnhagszafbijndrn",
+                    "Url": "mhucxosimgnisocp",
+                    "UserBucket": {
+                        "S3Bucket": "txxbyoenxumnkevx",
+                        "S3Key": "utmcfatxkumslefc"
+                    }
+                },
+                "Tags": [
+                    {
+                        "Key": "dczhvjffjomnyjzt",
+                        "Value": "ckocdefexrrpvkrv"
+                    }
+                ]
+            },
+            {
+                "Description": "tlrtcotsvfwchgkl",
+                "ImportTaskId": "dkuqutmcpyrrscfj",
+                "SnapshotTaskDetail": {
+                    "Description": "kyhntqskfadivlqe",
+                    "DiskImageSize": 0.0,
+                    "Encrypted": true,
+                    "Format": "vbbzcnnmceqypfka",
+                    "KmsKeyId": "jevbgonufbuokvuz",
+                    "Progress": "fzrujveovysonsvr",
+                    "SnapshotId": "jqzkimmuulkaasao",
+                    "Status": "eckwrzjddmzhjcrw",
+                    "StatusMessage": "kbeexxtrllqapalo",
+                    "Url": "fzfqtkntctekfpim",
+                    "UserBucket": {
+                        "S3Bucket": "domxrcovcdfodpnl",
+                        "S3Key": "etdhxnupwkosedjn"
+                    }
+                },
+                "Tags": [
+                    {
+                        "Key": "bthewsmkiocncblk",
+                        "Value": "zufwannqgcrqxtkt"
+                    }
+                ]
+            },
+            {
+                "Description": "trfqphamcfqjwjro",
+                "ImportTaskId": "xqsgpjseumidhbfo",
+                "SnapshotTaskDetail": {
+                    "Description": "ltlygdljbaezuiiw",
+                    "DiskImageSize": 0.0,
+                    "Encrypted": true,
+                    "Format": "ddgjclioaauwsgfr",
+                    "KmsKeyId": "umfkfsxzxluvuxkt",
+                    "Progress": "jgrnwrdkwyjldodi",
+                    "SnapshotId": "mnmaefhxpohlsgjz",
+                    "Status": "nyqaawrnmwbsuicw",
+                    "StatusMessage": "wvxygrfnhcomogei",
+                    "Url": "akdbwgmmrcjnkmmr",
+                    "UserBucket": {
+                        "S3Bucket": "zfcvxgjtppejbbhy",
+                        "S3Key": "tmgukdcoxsvuhkoc"
+                    }
+                },
+                "Tags": [
+                    {
+                        "Key": "wprickijbzuaxfdj",
+                        "Value": "aheolnejhthnmxat"
+                    }
+                ]
+            }
+        ],
+        "result_key": "ImportSnapshotTasks"
+    },
+    "meta": {
+        "start": 1711115625.442414,
+        "end": 1711115631.568127,
+        "duration": 6.125723838806152,
+        "service": "ec2",
+        "type": "import_snapshot_tasks"
+    }
+}

@@ -1,0 +1,17 @@
+[
+    "appmesh.describe-gateway-route",
+    "appmesh.describe-mesh",
+    "appmesh.describe-route",
+    "appmesh.describe-virtual-gateway",
+    "appmesh.describe-virtual-node",
+    "appmesh.describe-virtual-router",
+    "appmesh.describe-virtual-service",
+    "appmesh.list-gateway-routes",
+    "appmesh.list-meshes",
+    "appmesh.list-routes",
+    "appmesh.list-tags-for-resource",
+    "appmesh.list-virtual-gateways",
+    "appmesh.list-virtual-nodes",
+    "appmesh.list-virtual-routers",
+    "appmesh.list-virtual-services"
+]

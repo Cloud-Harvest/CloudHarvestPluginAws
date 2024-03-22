@@ -1,0 +1,124 @@
+{
+    "input": {
+        "template": {
+            "ResourceName": "",
+            "ResourceType": "",
+            "MaxRecords": 0,
+            "Marker": "",
+            "TagKeys": [
+                ""
+            ],
+            "TagValues": [
+                ""
+            ]
+        },
+        "required": [],
+        "md5": "c9ac6af131f530875539ca9e44a0dad3",
+        "boto_command": "describe_tags",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "Tag": {
+                    "Key": "Key",
+                    "Value": "Value"
+                },
+                "ResourceName": "ResourceName",
+                "ResourceType": "ResourceType"
+            }
+        ],
+        "required": [],
+        "md5": "61576fd7f244ccc8a5530bf960c1c867",
+        "randomized": [
+            {
+                "ResourceName": "fliutsmulldhbvjp",
+                "ResourceType": "hwfkrzywsrxfdnlz",
+                "Tag": {
+                    "Key": "jwjevypvonkstrzc",
+                    "Value": "weayoyrtvxnhucaw"
+                }
+            },
+            {
+                "ResourceName": "tyvxnixayiditqsc",
+                "ResourceType": "zbtkwsfywfxqtpiw",
+                "Tag": {
+                    "Key": "xxkelijmuwfhtnmz",
+                    "Value": "txrdqwdcbwgnvnzt"
+                }
+            },
+            {
+                "ResourceName": "gohohzgvcsjsfwoh",
+                "ResourceType": "qybqgmfuqdigwgve",
+                "Tag": {
+                    "Key": "suuamxxdyatnbxdr",
+                    "Value": "nrjqfussxrjmqshz"
+                }
+            },
+            {
+                "ResourceName": "csrcatdoqopsbwst",
+                "ResourceType": "jgfwxkazwnmmqtff",
+                "Tag": {
+                    "Key": "ahqvlsfozcjmwhob",
+                    "Value": "ccoxjlmtkkaterzl"
+                }
+            },
+            {
+                "ResourceName": "yxmnryjxjuklstvp",
+                "ResourceType": "wwoyhwjpvaatyqpw",
+                "Tag": {
+                    "Key": "rpuixsefrdydyedo",
+                    "Value": "tkvbjbimwkhqtnld"
+                }
+            },
+            {
+                "ResourceName": "ubhqpcudhkszqbik",
+                "ResourceType": "yufedgtsjrsyxddz",
+                "Tag": {
+                    "Key": "gwaqzuhnqapslulj",
+                    "Value": "gcxcmsmwdpchnwaf"
+                }
+            },
+            {
+                "ResourceName": "atgmmarmfsvlqbbb",
+                "ResourceType": "lgdawbfectpkawnl",
+                "Tag": {
+                    "Key": "ifjkkpurytxqayub",
+                    "Value": "vjluywbukeasonhf"
+                }
+            },
+            {
+                "ResourceName": "jbugpkyzeaucbecd",
+                "ResourceType": "ntlbpluowhymmghn",
+                "Tag": {
+                    "Key": "ujykgdgcwjtpqnfa",
+                    "Value": "rsjfdoxfgiwlbvsn"
+                }
+            },
+            {
+                "ResourceName": "xfciqitybwjvgisi",
+                "ResourceType": "mwepinsleplxvsbg",
+                "Tag": {
+                    "Key": "ohlzrfdcyuvllzfy",
+                    "Value": "mrixzdllpqqjcisz"
+                }
+            },
+            {
+                "ResourceName": "zxgnixizqtcrawlr",
+                "ResourceType": "rfbwzofjpxkionsg",
+                "Tag": {
+                    "Key": "gwifkxwroyvoclhv",
+                    "Value": "eaievjufeqpjhmhz"
+                }
+            }
+        ],
+        "result_key": "TaggedResources"
+    },
+    "meta": {
+        "start": 1711116431.127991,
+        "end": 1711116439.501264,
+        "duration": 8.373284101486206,
+        "service": "redshift",
+        "type": "tags"
+    }
+}

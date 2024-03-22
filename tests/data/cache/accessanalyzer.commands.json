@@ -1,0 +1,18 @@
+[
+    "accessanalyzer.get-access-preview",
+    "accessanalyzer.get-analyzed-resource",
+    "accessanalyzer.get-analyzer",
+    "accessanalyzer.get-archive-rule",
+    "accessanalyzer.get-finding",
+    "accessanalyzer.get-finding-v2",
+    "accessanalyzer.get-generated-policy",
+    "accessanalyzer.list-access-preview-findings",
+    "accessanalyzer.list-access-previews",
+    "accessanalyzer.list-analyzed-resources",
+    "accessanalyzer.list-analyzers",
+    "accessanalyzer.list-archive-rules",
+    "accessanalyzer.list-findings",
+    "accessanalyzer.list-findings-v2",
+    "accessanalyzer.list-policy-generations",
+    "accessanalyzer.list-tags-for-resource"
+]

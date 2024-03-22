@@ -1,0 +1,117 @@
+{
+    "input": {
+        "template": {
+            "AttributeNames": [
+                ""
+            ]
+        },
+        "required": [],
+        "md5": "72ab82a829c41de545b293d5c0c57277",
+        "boto_command": "describe_account_attributes",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "AttributeName": "AttributeName",
+                "AttributeValues": [
+                    {
+                        "AttributeValue": "AttributeValue"
+                    }
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "9e5c2602dd48d0e5557ec021626443ab",
+        "randomized": [
+            {
+                "AttributeName": "wsbttmmidagaukat",
+                "AttributeValues": [
+                    {
+                        "AttributeValue": "xxtnfcwbtbqhguiy"
+                    }
+                ]
+            },
+            {
+                "AttributeName": "zxzgfsvpvfztviqg",
+                "AttributeValues": [
+                    {
+                        "AttributeValue": "grofzfhjqjwylncl"
+                    }
+                ]
+            },
+            {
+                "AttributeName": "cgxuscnhveaqqjma",
+                "AttributeValues": [
+                    {
+                        "AttributeValue": "sginbraltnpzsdjj"
+                    }
+                ]
+            },
+            {
+                "AttributeName": "tfnxneolrvvewlpp",
+                "AttributeValues": [
+                    {
+                        "AttributeValue": "cvealauejdwsqrur"
+                    }
+                ]
+            },
+            {
+                "AttributeName": "kzjyhcqovllkicsl",
+                "AttributeValues": [
+                    {
+                        "AttributeValue": "rolcdqmcjzetantg"
+                    }
+                ]
+            },
+            {
+                "AttributeName": "trxprtjhecvzjyde",
+                "AttributeValues": [
+                    {
+                        "AttributeValue": "inhdxdovivfflmar"
+                    }
+                ]
+            },
+            {
+                "AttributeName": "craxsjgsvbalsuis",
+                "AttributeValues": [
+                    {
+                        "AttributeValue": "vuxwefvygoytheuw"
+                    }
+                ]
+            },
+            {
+                "AttributeName": "dcpxxoyhhflrmewz",
+                "AttributeValues": [
+                    {
+                        "AttributeValue": "jrrevihepilifyip"
+                    }
+                ]
+            },
+            {
+                "AttributeName": "rxdidmungqugcibp",
+                "AttributeValues": [
+                    {
+                        "AttributeValue": "qawxpqxuwjxjsvpj"
+                    }
+                ]
+            },
+            {
+                "AttributeName": "zmkoedmhvipieczs",
+                "AttributeValues": [
+                    {
+                        "AttributeValue": "lhnbwnkjcjvljltr"
+                    }
+                ]
+            }
+        ],
+        "result_key": "AccountAttributes"
+    },
+    "meta": {
+        "start": 1711116417.863868,
+        "end": 1711116424.197853,
+        "duration": 6.333991050720215,
+        "service": "redshift",
+        "type": "account_attributes"
+    }
+}

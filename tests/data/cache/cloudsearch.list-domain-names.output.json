@@ -1,0 +1,56 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "list_domain_names",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": {
+            "KeyName": ""
+        },
+        "required": [],
+        "md5": "9f9a01c099f22b681a5e308f6b203d33",
+        "randomized": [
+            {
+                "KeyName": "sxnchjhoxhqzkwep"
+            },
+            {
+                "KeyName": "jxduqgdtyxngeqnu"
+            },
+            {
+                "KeyName": "mxgnpiirtytlvmvz"
+            },
+            {
+                "KeyName": "klrjszronxqtujcx"
+            },
+            {
+                "KeyName": "atamseuewehxcxxc"
+            },
+            {
+                "KeyName": "kstinxyfhmdgybtt"
+            },
+            {
+                "KeyName": "juccfqmpsprzdnkc"
+            },
+            {
+                "KeyName": "tliviethzfzxxxrt"
+            },
+            {
+                "KeyName": "iusbdigldbrjratw"
+            },
+            {
+                "KeyName": "sruykdjamiusvfzl"
+            }
+        ],
+        "result_key": "DomainNames"
+    },
+    "meta": {
+        "start": 1711115386.121455,
+        "end": 1711115392.856169,
+        "duration": 6.734723091125488,
+        "service": "cloudsearch",
+        "type": "domain_names"
+    }
+}

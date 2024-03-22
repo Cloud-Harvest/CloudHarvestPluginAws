@@ -1,0 +1,746 @@
+{
+    "input": {
+        "template": {
+            "volumeArns": [
+                ""
+            ],
+            "nextToken": "",
+            "maxResults": 0,
+            "filters": [
+                {
+                    "name": "Finding",
+                    "values": [
+                        ""
+                    ]
+                }
+            ],
+            "accountIds": [
+                ""
+            ]
+        },
+        "required": [],
+        "md5": "0ea106cff6da1739741ec3dff2b18887",
+        "boto_command": "get_ebs_volume_recommendations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "volumeArn": "volumeArn",
+                "accountId": "accountId",
+                "currentConfiguration": {
+                    "volumeType": "volumeType",
+                    "volumeSize": 0,
+                    "volumeBaselineIOPS": 0,
+                    "volumeBurstIOPS": 0,
+                    "volumeBaselineThroughput": 0,
+                    "volumeBurstThroughput": 0,
+                    "rootVolume": true
+                },
+                "finding": "finding",
+                "utilizationMetrics": [
+                    {
+                        "name": "name",
+                        "statistic": "statistic",
+                        "value": 0.0
+                    }
+                ],
+                "lookBackPeriodInDays": 0.0,
+                "volumeRecommendationOptions": [
+                    {
+                        "configuration": {
+                            "volumeType": "volumeType",
+                            "volumeSize": 0,
+                            "volumeBaselineIOPS": 0,
+                            "volumeBurstIOPS": 0,
+                            "volumeBaselineThroughput": 0,
+                            "volumeBurstThroughput": 0,
+                            "rootVolume": true
+                        },
+                        "performanceRisk": 0.0,
+                        "rank": 0,
+                        "savingsOpportunity": {
+                            "savingsOpportunityPercentage": 0.0,
+                            "estimatedMonthlySavings": {
+                                "currency": "currency",
+                                "value": 0.0
+                            }
+                        },
+                        "savingsOpportunityAfterDiscounts": {
+                            "savingsOpportunityPercentage": 0.0,
+                            "estimatedMonthlySavings": {
+                                "currency": "currency",
+                                "value": 0.0
+                            }
+                        }
+                    }
+                ],
+                "lastRefreshTimestamp": "1970-01-01T00:00:00",
+                "currentPerformanceRisk": "currentPerformanceRisk",
+                "tags": [
+                    {
+                        "key": "key",
+                        "value": "value"
+                    }
+                ],
+                "effectiveRecommendationPreferences": {
+                    "savingsEstimationMode": {
+                        "source": "source"
+                    }
+                }
+            }
+        ],
+        "required": [],
+        "md5": "a6217fe954e968dd8a84c7bcb947b382",
+        "randomized": [
+            {
+                "accountId": "wkxnimsbkfuclixf",
+                "currentConfiguration": {
+                    "rootVolume": true,
+                    "volumeBaselineIOPS": 0,
+                    "volumeBaselineThroughput": 0,
+                    "volumeBurstIOPS": 0,
+                    "volumeBurstThroughput": 0,
+                    "volumeSize": 0,
+                    "volumeType": "eqqcxxxmjedkwvqo"
+                },
+                "currentPerformanceRisk": "srzruyjljdtfracs",
+                "effectiveRecommendationPreferences": {
+                    "savingsEstimationMode": {
+                        "source": "hqiwtfmteegfjyaf"
+                    }
+                },
+                "finding": "kohxstylhjjquone",
+                "lastRefreshTimestamp": "nktywblfkxxmuoew",
+                "lookBackPeriodInDays": 0.0,
+                "tags": [
+                    {
+                        "key": "hkpwmbuxxzkmmdaz",
+                        "value": "msjunigfpxxrzmay"
+                    }
+                ],
+                "utilizationMetrics": [
+                    {
+                        "name": "expooqeqduhcgonj",
+                        "statistic": "hszxcnvjzgxtbqmx",
+                        "value": 0.0
+                    }
+                ],
+                "volumeArn": "skvzdpvugobcinmr",
+                "volumeRecommendationOptions": [
+                    {
+                        "configuration": {
+                            "rootVolume": true,
+                            "volumeBaselineIOPS": 0,
+                            "volumeBaselineThroughput": 0,
+                            "volumeBurstIOPS": 0,
+                            "volumeBurstThroughput": 0,
+                            "volumeSize": 0,
+                            "volumeType": "atlbmivzisccexdi"
+                        },
+                        "performanceRisk": 0.0,
+                        "rank": 0,
+                        "savingsOpportunity": {
+                            "estimatedMonthlySavings": {
+                                "currency": "xzunpcfqjbimwvnv",
+                                "value": 0.0
+                            },
+                            "savingsOpportunityPercentage": 0.0
+                        },
+                        "savingsOpportunityAfterDiscounts": {
+                            "estimatedMonthlySavings": {
+                                "currency": "semrcykuvbfpigif",
+                                "value": 0.0
+                            },
+                            "savingsOpportunityPercentage": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "accountId": "arjxpbsxzkxqaklr",
+                "currentConfiguration": {
+                    "rootVolume": true,
+                    "volumeBaselineIOPS": 0,
+                    "volumeBaselineThroughput": 0,
+                    "volumeBurstIOPS": 0,
+                    "volumeBurstThroughput": 0,
+                    "volumeSize": 0,
+                    "volumeType": "laeuqmwbdicetrxn"
+                },
+                "currentPerformanceRisk": "rzrsgbajwxfselbw",
+                "effectiveRecommendationPreferences": {
+                    "savingsEstimationMode": {
+                        "source": "agojfwiaurmatvfi"
+                    }
+                },
+                "finding": "jfutktckljorhcct",
+                "lastRefreshTimestamp": "qfwseoghkstygrig",
+                "lookBackPeriodInDays": 0.0,
+                "tags": [
+                    {
+                        "key": "wwamadhjxvtzokyr",
+                        "value": "fvbjimftpdmzwfcz"
+                    }
+                ],
+                "utilizationMetrics": [
+                    {
+                        "name": "kzoxbyvzmfmtelpi",
+                        "statistic": "ljebxnyqmzrfpgsl",
+                        "value": 0.0
+                    }
+                ],
+                "volumeArn": "irehrnessidnuaej",
+                "volumeRecommendationOptions": [
+                    {
+                        "configuration": {
+                            "rootVolume": true,
+                            "volumeBaselineIOPS": 0,
+                            "volumeBaselineThroughput": 0,
+                            "volumeBurstIOPS": 0,
+                            "volumeBurstThroughput": 0,
+                            "volumeSize": 0,
+                            "volumeType": "nykulcwfmbugxgiz"
+                        },
+                        "performanceRisk": 0.0,
+                        "rank": 0,
+                        "savingsOpportunity": {
+                            "estimatedMonthlySavings": {
+                                "currency": "gakbttogyfnqzxap",
+                                "value": 0.0
+                            },
+                            "savingsOpportunityPercentage": 0.0
+                        },
+                        "savingsOpportunityAfterDiscounts": {
+                            "estimatedMonthlySavings": {
+                                "currency": "kdkpkzeecxjiheci",
+                                "value": 0.0
+                            },
+                            "savingsOpportunityPercentage": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "accountId": "njdptedfxdirrfdq",
+                "currentConfiguration": {
+                    "rootVolume": true,
+                    "volumeBaselineIOPS": 0,
+                    "volumeBaselineThroughput": 0,
+                    "volumeBurstIOPS": 0,
+                    "volumeBurstThroughput": 0,
+                    "volumeSize": 0,
+                    "volumeType": "nbzxxgzkjcsexbqr"
+                },
+                "currentPerformanceRisk": "ngsykrjredstkhjh",
+                "effectiveRecommendationPreferences": {
+                    "savingsEstimationMode": {
+                        "source": "boqjnroxyscikcrt"
+                    }
+                },
+                "finding": "relcymyytttpunqp",
+                "lastRefreshTimestamp": "fzpfhzhtfmpqfoim",
+                "lookBackPeriodInDays": 0.0,
+                "tags": [
+                    {
+                        "key": "tvyqmmuywhzuxptq",
+                        "value": "tavmzoakwjlpiepj"
+                    }
+                ],
+                "utilizationMetrics": [
+                    {
+                        "name": "brfpxiopkofxwlyu",
+                        "statistic": "mkifqrmxusipipir",
+                        "value": 0.0
+                    }
+                ],
+                "volumeArn": "cylbplbqiuemivxy",
+                "volumeRecommendationOptions": [
+                    {
+                        "configuration": {
+                            "rootVolume": true,
+                            "volumeBaselineIOPS": 0,
+                            "volumeBaselineThroughput": 0,
+                            "volumeBurstIOPS": 0,
+                            "volumeBurstThroughput": 0,
+                            "volumeSize": 0,
+                            "volumeType": "pbrpjbhjzdsedjkr"
+                        },
+                        "performanceRisk": 0.0,
+                        "rank": 0,
+                        "savingsOpportunity": {
+                            "estimatedMonthlySavings": {
+                                "currency": "qgbpwvmzduthpoom",
+                                "value": 0.0
+                            },
+                            "savingsOpportunityPercentage": 0.0
+                        },
+                        "savingsOpportunityAfterDiscounts": {
+                            "estimatedMonthlySavings": {
+                                "currency": "lrqpztpxxdiuwtcw",
+                                "value": 0.0
+                            },
+                            "savingsOpportunityPercentage": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "accountId": "dvinvhvrqeoqklyo",
+                "currentConfiguration": {
+                    "rootVolume": true,
+                    "volumeBaselineIOPS": 0,
+                    "volumeBaselineThroughput": 0,
+                    "volumeBurstIOPS": 0,
+                    "volumeBurstThroughput": 0,
+                    "volumeSize": 0,
+                    "volumeType": "wvuvkotfmnppqlah"
+                },
+                "currentPerformanceRisk": "xrgifxnzckmjhysv",
+                "effectiveRecommendationPreferences": {
+                    "savingsEstimationMode": {
+                        "source": "eqkhythtqmqybvfg"
+                    }
+                },
+                "finding": "mkvempyvxarslyyx",
+                "lastRefreshTimestamp": "lrinzqihugrusvtx",
+                "lookBackPeriodInDays": 0.0,
+                "tags": [
+                    {
+                        "key": "hceedepvurwabvzd",
+                        "value": "ifbsjkxmokbfripd"
+                    }
+                ],
+                "utilizationMetrics": [
+                    {
+                        "name": "sjxegwaoyrdznejz",
+                        "statistic": "kbseijyyadyxjuxx",
+                        "value": 0.0
+                    }
+                ],
+                "volumeArn": "ezejvrpxgegeokst",
+                "volumeRecommendationOptions": [
+                    {
+                        "configuration": {
+                            "rootVolume": true,
+                            "volumeBaselineIOPS": 0,
+                            "volumeBaselineThroughput": 0,
+                            "volumeBurstIOPS": 0,
+                            "volumeBurstThroughput": 0,
+                            "volumeSize": 0,
+                            "volumeType": "fklytzcpuhexleix"
+                        },
+                        "performanceRisk": 0.0,
+                        "rank": 0,
+                        "savingsOpportunity": {
+                            "estimatedMonthlySavings": {
+                                "currency": "meyacqzovqmuxblo",
+                                "value": 0.0
+                            },
+                            "savingsOpportunityPercentage": 0.0
+                        },
+                        "savingsOpportunityAfterDiscounts": {
+                            "estimatedMonthlySavings": {
+                                "currency": "fyooovdnnpigcbeu",
+                                "value": 0.0
+                            },
+                            "savingsOpportunityPercentage": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "accountId": "pxqoexgsrtgrlwlg",
+                "currentConfiguration": {
+                    "rootVolume": true,
+                    "volumeBaselineIOPS": 0,
+                    "volumeBaselineThroughput": 0,
+                    "volumeBurstIOPS": 0,
+                    "volumeBurstThroughput": 0,
+                    "volumeSize": 0,
+                    "volumeType": "ozkhwynercyvxgjo"
+                },
+                "currentPerformanceRisk": "tjgmnvdbofipmooi",
+                "effectiveRecommendationPreferences": {
+                    "savingsEstimationMode": {
+                        "source": "qsycfhxwiehtbhnm"
+                    }
+                },
+                "finding": "nsdooeuqbyjjepnn",
+                "lastRefreshTimestamp": "jryqwromewlsmvku",
+                "lookBackPeriodInDays": 0.0,
+                "tags": [
+                    {
+                        "key": "ezqplejhgxoelrkd",
+                        "value": "cvijcunmsmhdwpgt"
+                    }
+                ],
+                "utilizationMetrics": [
+                    {
+                        "name": "kwifkwfnpqsuelct",
+                        "statistic": "xqjyxmegynmyuibx",
+                        "value": 0.0
+                    }
+                ],
+                "volumeArn": "oetcbexoryniuyta",
+                "volumeRecommendationOptions": [
+                    {
+                        "configuration": {
+                            "rootVolume": true,
+                            "volumeBaselineIOPS": 0,
+                            "volumeBaselineThroughput": 0,
+                            "volumeBurstIOPS": 0,
+                            "volumeBurstThroughput": 0,
+                            "volumeSize": 0,
+                            "volumeType": "omyzxhczhesshnoh"
+                        },
+                        "performanceRisk": 0.0,
+                        "rank": 0,
+                        "savingsOpportunity": {
+                            "estimatedMonthlySavings": {
+                                "currency": "szutbvdnoyslsnmc",
+                                "value": 0.0
+                            },
+                            "savingsOpportunityPercentage": 0.0
+                        },
+                        "savingsOpportunityAfterDiscounts": {
+                            "estimatedMonthlySavings": {
+                                "currency": "uefztutwnlgfjtlh",
+                                "value": 0.0
+                            },
+                            "savingsOpportunityPercentage": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "accountId": "kggqvslxegxllzuq",
+                "currentConfiguration": {
+                    "rootVolume": true,
+                    "volumeBaselineIOPS": 0,
+                    "volumeBaselineThroughput": 0,
+                    "volumeBurstIOPS": 0,
+                    "volumeBurstThroughput": 0,
+                    "volumeSize": 0,
+                    "volumeType": "etoqpkmeejokeefc"
+                },
+                "currentPerformanceRisk": "kufcukaqkynfibtl",
+                "effectiveRecommendationPreferences": {
+                    "savingsEstimationMode": {
+                        "source": "dtctfwatknervapb"
+                    }
+                },
+                "finding": "kyhnqzverwcrrcfs",
+                "lastRefreshTimestamp": "bupvixktjbkmrsfc",
+                "lookBackPeriodInDays": 0.0,
+                "tags": [
+                    {
+                        "key": "sjzcmnckyfpbsdlh",
+                        "value": "tsguegrjfkvfsxky"
+                    }
+                ],
+                "utilizationMetrics": [
+                    {
+                        "name": "xsaxelkauhinxwcd",
+                        "statistic": "yoqqdbrtgmyxlcwd",
+                        "value": 0.0
+                    }
+                ],
+                "volumeArn": "oovvgewgnjjynclr",
+                "volumeRecommendationOptions": [
+                    {
+                        "configuration": {
+                            "rootVolume": true,
+                            "volumeBaselineIOPS": 0,
+                            "volumeBaselineThroughput": 0,
+                            "volumeBurstIOPS": 0,
+                            "volumeBurstThroughput": 0,
+                            "volumeSize": 0,
+                            "volumeType": "ibtmdxyyhtjdwocw"
+                        },
+                        "performanceRisk": 0.0,
+                        "rank": 0,
+                        "savingsOpportunity": {
+                            "estimatedMonthlySavings": {
+                                "currency": "zqtsgbyfpmtdvjbb",
+                                "value": 0.0
+                            },
+                            "savingsOpportunityPercentage": 0.0
+                        },
+                        "savingsOpportunityAfterDiscounts": {
+                            "estimatedMonthlySavings": {
+                                "currency": "txspcrglhtsrkpnn",
+                                "value": 0.0
+                            },
+                            "savingsOpportunityPercentage": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "accountId": "bflzqurkmwovuzey",
+                "currentConfiguration": {
+                    "rootVolume": true,
+                    "volumeBaselineIOPS": 0,
+                    "volumeBaselineThroughput": 0,
+                    "volumeBurstIOPS": 0,
+                    "volumeBurstThroughput": 0,
+                    "volumeSize": 0,
+                    "volumeType": "lolpvpaevclnwcby"
+                },
+                "currentPerformanceRisk": "rtxppegekoubudym",
+                "effectiveRecommendationPreferences": {
+                    "savingsEstimationMode": {
+                        "source": "rirdaymjnpcqyztg"
+                    }
+                },
+                "finding": "ynxjzayijyuclrly",
+                "lastRefreshTimestamp": "norvaextzqrcgudi",
+                "lookBackPeriodInDays": 0.0,
+                "tags": [
+                    {
+                        "key": "klfkgudrykssammv",
+                        "value": "eljmrjhjtsqohuhm"
+                    }
+                ],
+                "utilizationMetrics": [
+                    {
+                        "name": "ppcnxbuvkbdnnjhx",
+                        "statistic": "pgfcrvoqljejiwld",
+                        "value": 0.0
+                    }
+                ],
+                "volumeArn": "rmolkokqyjzwmbqv",
+                "volumeRecommendationOptions": [
+                    {
+                        "configuration": {
+                            "rootVolume": true,
+                            "volumeBaselineIOPS": 0,
+                            "volumeBaselineThroughput": 0,
+                            "volumeBurstIOPS": 0,
+                            "volumeBurstThroughput": 0,
+                            "volumeSize": 0,
+                            "volumeType": "pnvnnyidzptglzgn"
+                        },
+                        "performanceRisk": 0.0,
+                        "rank": 0,
+                        "savingsOpportunity": {
+                            "estimatedMonthlySavings": {
+                                "currency": "dfdnmubnkttzfaqa",
+                                "value": 0.0
+                            },
+                            "savingsOpportunityPercentage": 0.0
+                        },
+                        "savingsOpportunityAfterDiscounts": {
+                            "estimatedMonthlySavings": {
+                                "currency": "biyjhagqcjwmrgqf",
+                                "value": 0.0
+                            },
+                            "savingsOpportunityPercentage": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "accountId": "xzehucmamipkheel",
+                "currentConfiguration": {
+                    "rootVolume": true,
+                    "volumeBaselineIOPS": 0,
+                    "volumeBaselineThroughput": 0,
+                    "volumeBurstIOPS": 0,
+                    "volumeBurstThroughput": 0,
+                    "volumeSize": 0,
+                    "volumeType": "aeejrrsvsnaiklrc"
+                },
+                "currentPerformanceRisk": "kuaorpawazwyixkd",
+                "effectiveRecommendationPreferences": {
+                    "savingsEstimationMode": {
+                        "source": "zenmghueycmxyvsl"
+                    }
+                },
+                "finding": "glqtuxwhhxiebjfs",
+                "lastRefreshTimestamp": "ygdmdxtmpfdzxnii",
+                "lookBackPeriodInDays": 0.0,
+                "tags": [
+                    {
+                        "key": "bcruhmvnvblojdif",
+                        "value": "fucssjypzfuavxvu"
+                    }
+                ],
+                "utilizationMetrics": [
+                    {
+                        "name": "dgjdaymauegqbwlp",
+                        "statistic": "qmiihrnfrmyzekve",
+                        "value": 0.0
+                    }
+                ],
+                "volumeArn": "cqwskiqxmecvobxi",
+                "volumeRecommendationOptions": [
+                    {
+                        "configuration": {
+                            "rootVolume": true,
+                            "volumeBaselineIOPS": 0,
+                            "volumeBaselineThroughput": 0,
+                            "volumeBurstIOPS": 0,
+                            "volumeBurstThroughput": 0,
+                            "volumeSize": 0,
+                            "volumeType": "sypyvasbumzidwfl"
+                        },
+                        "performanceRisk": 0.0,
+                        "rank": 0,
+                        "savingsOpportunity": {
+                            "estimatedMonthlySavings": {
+                                "currency": "hgkdbpylsslugcvv",
+                                "value": 0.0
+                            },
+                            "savingsOpportunityPercentage": 0.0
+                        },
+                        "savingsOpportunityAfterDiscounts": {
+                            "estimatedMonthlySavings": {
+                                "currency": "uyxsxddaxfdwsxxk",
+                                "value": 0.0
+                            },
+                            "savingsOpportunityPercentage": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "accountId": "ysieuecptzikwhsa",
+                "currentConfiguration": {
+                    "rootVolume": true,
+                    "volumeBaselineIOPS": 0,
+                    "volumeBaselineThroughput": 0,
+                    "volumeBurstIOPS": 0,
+                    "volumeBurstThroughput": 0,
+                    "volumeSize": 0,
+                    "volumeType": "qhyyakydinolasha"
+                },
+                "currentPerformanceRisk": "ckadstxxpuhdcbde",
+                "effectiveRecommendationPreferences": {
+                    "savingsEstimationMode": {
+                        "source": "lwnallkeiswqbqbr"
+                    }
+                },
+                "finding": "jbiqvgimnxjvxehk",
+                "lastRefreshTimestamp": "iccofqdafhwpnoun",
+                "lookBackPeriodInDays": 0.0,
+                "tags": [
+                    {
+                        "key": "cufkvunggxanuron",
+                        "value": "mudtennfzkqysnse"
+                    }
+                ],
+                "utilizationMetrics": [
+                    {
+                        "name": "spaaimxldfcwtpij",
+                        "statistic": "ackfenrlqbqterll",
+                        "value": 0.0
+                    }
+                ],
+                "volumeArn": "xxmrvduwlouicztg",
+                "volumeRecommendationOptions": [
+                    {
+                        "configuration": {
+                            "rootVolume": true,
+                            "volumeBaselineIOPS": 0,
+                            "volumeBaselineThroughput": 0,
+                            "volumeBurstIOPS": 0,
+                            "volumeBurstThroughput": 0,
+                            "volumeSize": 0,
+                            "volumeType": "gdqrkfkbbyixxrzs"
+                        },
+                        "performanceRisk": 0.0,
+                        "rank": 0,
+                        "savingsOpportunity": {
+                            "estimatedMonthlySavings": {
+                                "currency": "tojvikkfmqfjaacv",
+                                "value": 0.0
+                            },
+                            "savingsOpportunityPercentage": 0.0
+                        },
+                        "savingsOpportunityAfterDiscounts": {
+                            "estimatedMonthlySavings": {
+                                "currency": "ofoeobzbcjkwqqte",
+                                "value": 0.0
+                            },
+                            "savingsOpportunityPercentage": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "accountId": "gfggzzvbropvnyot",
+                "currentConfiguration": {
+                    "rootVolume": true,
+                    "volumeBaselineIOPS": 0,
+                    "volumeBaselineThroughput": 0,
+                    "volumeBurstIOPS": 0,
+                    "volumeBurstThroughput": 0,
+                    "volumeSize": 0,
+                    "volumeType": "bxghhwngbdgzlnyy"
+                },
+                "currentPerformanceRisk": "tthahzrrrqcktiro",
+                "effectiveRecommendationPreferences": {
+                    "savingsEstimationMode": {
+                        "source": "jecjozqvvjqskknj"
+                    }
+                },
+                "finding": "eoxthyoqpxzpsztn",
+                "lastRefreshTimestamp": "muaidegojhsqnfzs",
+                "lookBackPeriodInDays": 0.0,
+                "tags": [
+                    {
+                        "key": "gukafypacjoawraj",
+                        "value": "scnuoykkhkqrrnvb"
+                    }
+                ],
+                "utilizationMetrics": [
+                    {
+                        "name": "edzwboalwcljxcen",
+                        "statistic": "szjwiktsxvgihsdo",
+                        "value": 0.0
+                    }
+                ],
+                "volumeArn": "dimgrqcfdezhimkr",
+                "volumeRecommendationOptions": [
+                    {
+                        "configuration": {
+                            "rootVolume": true,
+                            "volumeBaselineIOPS": 0,
+                            "volumeBaselineThroughput": 0,
+                            "volumeBurstIOPS": 0,
+                            "volumeBurstThroughput": 0,
+                            "volumeSize": 0,
+                            "volumeType": "zffufouelyvhwrsh"
+                        },
+                        "performanceRisk": 0.0,
+                        "rank": 0,
+                        "savingsOpportunity": {
+                            "estimatedMonthlySavings": {
+                                "currency": "xacfrnmzdstmxmgf",
+                                "value": 0.0
+                            },
+                            "savingsOpportunityPercentage": 0.0
+                        },
+                        "savingsOpportunityAfterDiscounts": {
+                            "estimatedMonthlySavings": {
+                                "currency": "grveepjqtrhdmcfx",
+                                "value": 0.0
+                            },
+                            "savingsOpportunityPercentage": 0.0
+                        }
+                    }
+                ]
+            }
+        ],
+        "result_key": "volumeRecommendations"
+    },
+    "meta": {
+        "start": 1711115458.358409,
+        "end": 1711115465.752084,
+        "duration": 7.39368200302124,
+        "service": "compute-optimizer",
+        "type": null
+    }
+}

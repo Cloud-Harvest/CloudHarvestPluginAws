@@ -1,0 +1,143 @@
+{
+    "input": {
+        "template": {
+            "AllocationIds": [
+                ""
+            ],
+            "Attribute": "domain-name",
+            "NextToken": "",
+            "MaxResults": 0,
+            "DryRun": true
+        },
+        "required": [],
+        "md5": "11024c3a5b705fabe2dae646d638b1d5",
+        "boto_command": "describe_addresses_attribute",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "PublicIp": "PublicIp",
+                "AllocationId": "AllocationId",
+                "PtrRecord": "PtrRecord",
+                "PtrRecordUpdate": {
+                    "Value": "Value",
+                    "Status": "Status",
+                    "Reason": "Reason"
+                }
+            }
+        ],
+        "required": [],
+        "md5": "860808eb79f36fe89fd709f6a2b7f37b",
+        "randomized": [
+            {
+                "AllocationId": "bxmdrfkluuhabhqa",
+                "PtrRecord": "dbopvrzlhdsliohb",
+                "PtrRecordUpdate": {
+                    "Reason": "csuvmcarfczouftk",
+                    "Status": "eegpbbcjwwfqsbxm",
+                    "Value": "kdwxrvrkvbtnwftq"
+                },
+                "PublicIp": "aeglfrjngdrcxsrj"
+            },
+            {
+                "AllocationId": "oqhomtefjnpsceig",
+                "PtrRecord": "ewwlofcnoajbzftb",
+                "PtrRecordUpdate": {
+                    "Reason": "ekntothmqppekbih",
+                    "Status": "ebbtodomfuhzosfz",
+                    "Value": "uohkdaawmwledcwm"
+                },
+                "PublicIp": "aewujilzpbzvucre"
+            },
+            {
+                "AllocationId": "sbliimxfoqwxqlxa",
+                "PtrRecord": "qicozcwqctepllmr",
+                "PtrRecordUpdate": {
+                    "Reason": "zfzobasnpcdnxagp",
+                    "Status": "tmbrrujepitkivwo",
+                    "Value": "hewltolktdotautk"
+                },
+                "PublicIp": "tpfvzfghbudzkpkk"
+            },
+            {
+                "AllocationId": "lyxqmqxgyavfjhbx",
+                "PtrRecord": "qhrpdvnvjxekyqqe",
+                "PtrRecordUpdate": {
+                    "Reason": "wqfusvbavaxqvkje",
+                    "Status": "pvtakpmzhfmgarem",
+                    "Value": "adobykmfthybxutr"
+                },
+                "PublicIp": "gyoguknakgybkodw"
+            },
+            {
+                "AllocationId": "njfsvwvnjlveeuwo",
+                "PtrRecord": "rkltyujgxsdbhowh",
+                "PtrRecordUpdate": {
+                    "Reason": "ixbikwjfxqetzwxj",
+                    "Status": "iclxrcrvkmrcghra",
+                    "Value": "qpnotbhfxsflytap"
+                },
+                "PublicIp": "lysesesbtxxmrgep"
+            },
+            {
+                "AllocationId": "hzfyzbgxyejoewqh",
+                "PtrRecord": "bbpcbnfsyukbxlfd",
+                "PtrRecordUpdate": {
+                    "Reason": "fowgiqyoguqqznaq",
+                    "Status": "ijdyilrevbnfsbgj",
+                    "Value": "qicpmpgfrkrjsbce"
+                },
+                "PublicIp": "opaotdipdsccgbee"
+            },
+            {
+                "AllocationId": "kumctxbagauibidr",
+                "PtrRecord": "cmieinqeijpjodux",
+                "PtrRecordUpdate": {
+                    "Reason": "tjieabgmlwbclvlo",
+                    "Status": "svsoifgcjkmmttzg",
+                    "Value": "jvqdgzorntqdtnbs"
+                },
+                "PublicIp": "wemkroiqzrzmraqc"
+            },
+            {
+                "AllocationId": "qwqluebxszbfrkxp",
+                "PtrRecord": "sfusvbtefqprvmpb",
+                "PtrRecordUpdate": {
+                    "Reason": "lrdhvdnehijnjctu",
+                    "Status": "jxrfpoukbpiudowz",
+                    "Value": "lysyrwnlhwxjgtas"
+                },
+                "PublicIp": "zclrddqpfxjkmrcv"
+            },
+            {
+                "AllocationId": "vwejwjfijifijprw",
+                "PtrRecord": "udadslamkhictrpq",
+                "PtrRecordUpdate": {
+                    "Reason": "zhhhznvmymzlpdrk",
+                    "Status": "hcjknqlpsogrxtkq",
+                    "Value": "xapjoorjrjhnutfo"
+                },
+                "PublicIp": "qrjacxdbciqmqdsk"
+            },
+            {
+                "AllocationId": "jffxllnwxcpnimgs",
+                "PtrRecord": "czaqgxrxavanciew",
+                "PtrRecordUpdate": {
+                    "Reason": "bjqrxtfyykuhlltl",
+                    "Status": "znwuaxxkwlkurrng",
+                    "Value": "zumiqwdmwkxqoznu"
+                },
+                "PublicIp": "ggkgnjtdcvoreyll"
+            }
+        ],
+        "result_key": "Addresses"
+    },
+    "meta": {
+        "start": 1711115608.74526,
+        "end": 1711115617.612256,
+        "duration": 8.867006063461304,
+        "service": "ec2",
+        "type": "addresses_attribute"
+    }
+}

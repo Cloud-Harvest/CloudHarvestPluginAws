@@ -1,0 +1,42 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0,
+            "Tags": {
+                "KeyName": ""
+            }
+        },
+        "required": [],
+        "md5": "572212bf957c91d14707ae87d766e494",
+        "boto_command": "list_dev_endpoints",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            "NameString"
+        ],
+        "required": [],
+        "md5": "317b1bbac450375253f8eed195e59c07",
+        "randomized": [
+            "yhrnxugwofpeayhn",
+            "vslfpoiawazosors",
+            "nirdrecfrwbxkjdv",
+            "ezaepjqftfoswafy",
+            "ykxopmeurkbdbnen",
+            "miyjkmnweswzcich",
+            "vyviqbpwkzukgpsj",
+            "bsktdhzkkulfvezu",
+            "ztkmsfkabkshsrkx",
+            "usfsuqtgnbdfxmpj"
+        ],
+        "result_key": "DevEndpointNames"
+    },
+    "meta": {
+        "start": 1711115837.141085,
+        "end": 1711115844.764458,
+        "duration": 7.623383045196533,
+        "service": "glue",
+        "type": "dev_endpoints"
+    }
+}

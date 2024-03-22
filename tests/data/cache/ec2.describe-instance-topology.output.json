@@ -1,0 +1,153 @@
+{
+    "input": {
+        "template": {
+            "DryRun": true,
+            "NextToken": "",
+            "MaxResults": 0,
+            "InstanceIds": [
+                ""
+            ],
+            "GroupNames": [
+                ""
+            ],
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ]
+        },
+        "required": [],
+        "md5": "d3ad82a491a1eb8689e0597dc0fa35fd",
+        "boto_command": "describe_instance_topology",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "InstanceId": "InstanceId",
+                "InstanceType": "InstanceType",
+                "GroupName": "GroupName",
+                "NetworkNodes": [
+                    "String"
+                ],
+                "AvailabilityZone": "AvailabilityZone",
+                "ZoneId": "ZoneId"
+            }
+        ],
+        "required": [],
+        "md5": "bfb52721d20c5a7a3258e06a9cbc9262",
+        "randomized": [
+            {
+                "AvailabilityZone": "njrtocoapsfgidzh",
+                "GroupName": "gfihfphgywmtdrbh",
+                "InstanceId": "zgxnjxqrkukuwzur",
+                "InstanceType": "wfwctejspjgurcib",
+                "NetworkNodes": [
+                    "yoxdsvozusdeitof"
+                ],
+                "ZoneId": "cfevuwdgidxbmgrr"
+            },
+            {
+                "AvailabilityZone": "upjoatgzkrpceroq",
+                "GroupName": "bnpyabetlodyakpg",
+                "InstanceId": "lzuaafkirzpbbmdk",
+                "InstanceType": "wjoyljgdvffdxppa",
+                "NetworkNodes": [
+                    "aemnlsivqoehkpff"
+                ],
+                "ZoneId": "salvrkqrrhunvfaf"
+            },
+            {
+                "AvailabilityZone": "atovmygdoblpvsvr",
+                "GroupName": "afdblsviwxctgpzy",
+                "InstanceId": "espgqmpibduheldv",
+                "InstanceType": "hllsktdcqjmgktjn",
+                "NetworkNodes": [
+                    "jzpjczxcvutnytpj"
+                ],
+                "ZoneId": "bglefrnnbaayicva"
+            },
+            {
+                "AvailabilityZone": "qkylnmczdlodqnid",
+                "GroupName": "euifoxxnznuknhyt",
+                "InstanceId": "pegytmsbmdigzbwq",
+                "InstanceType": "xawoekwgobblobdd",
+                "NetworkNodes": [
+                    "kbxoswllpxnfxsvx"
+                ],
+                "ZoneId": "eyroyaiotupftbbx"
+            },
+            {
+                "AvailabilityZone": "sjsvqilizqwfhghp",
+                "GroupName": "dirahfnzhbsvnyzy",
+                "InstanceId": "tryxmoawlxfxtaws",
+                "InstanceType": "kqoboueyjkzcyzyz",
+                "NetworkNodes": [
+                    "cswfmweswpsewoic"
+                ],
+                "ZoneId": "pnowcxuqqabvuejs"
+            },
+            {
+                "AvailabilityZone": "rllkzcnvrepqzhar",
+                "GroupName": "vcttvldgkpsruxcu",
+                "InstanceId": "rstgiozppjopbskn",
+                "InstanceType": "cfmytzaybugwxfuy",
+                "NetworkNodes": [
+                    "qjgkhwrgokydhvsf"
+                ],
+                "ZoneId": "baygkaxqkksdakgd"
+            },
+            {
+                "AvailabilityZone": "juswrvdlzfrauvgr",
+                "GroupName": "vgkvgrgtuhltddpw",
+                "InstanceId": "uudwymxhitjlgrdz",
+                "InstanceType": "nmvamdklsniztcdq",
+                "NetworkNodes": [
+                    "ueysstydtasynndz"
+                ],
+                "ZoneId": "etvwgyyyfmcmcoqd"
+            },
+            {
+                "AvailabilityZone": "aluoxskljpgxrmph",
+                "GroupName": "mkjkslyctwsixell",
+                "InstanceId": "jbihynmyhmqkwkfz",
+                "InstanceType": "quqlelvqtzedzrpz",
+                "NetworkNodes": [
+                    "pbggmilidnqymxgz"
+                ],
+                "ZoneId": "oybqcenzqkctiqbd"
+            },
+            {
+                "AvailabilityZone": "omnetacqsbdhptto",
+                "GroupName": "cyqujwfsqiedtyns",
+                "InstanceId": "dgurpqiqkmlpsnof",
+                "InstanceType": "idzsrdbhqhaxlwbi",
+                "NetworkNodes": [
+                    "ksnpqovorjeduqqb"
+                ],
+                "ZoneId": "mjbhzpdtnzykquen"
+            },
+            {
+                "AvailabilityZone": "cqikgaexhnnhvrzt",
+                "GroupName": "cjhtrwnlkqorvwat",
+                "InstanceId": "pblzeusvaaivcmdh",
+                "InstanceType": "yfbwcjkpnsrakgou",
+                "NetworkNodes": [
+                    "mpzqbdwlfgjzskgl"
+                ],
+                "ZoneId": "yffzxgatybrcgaxc"
+            }
+        ],
+        "result_key": "Instances"
+    },
+    "meta": {
+        "start": 1711115627.558855,
+        "end": 1711115633.937314,
+        "duration": 6.3784708976745605,
+        "service": "ec2",
+        "type": "instance_topology"
+    }
+}

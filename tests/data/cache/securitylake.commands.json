@@ -1,0 +1,11 @@
+[
+    "securitylake.get-data-lake-exception-subscription",
+    "securitylake.get-data-lake-organization-configuration",
+    "securitylake.get-data-lake-sources",
+    "securitylake.get-subscriber",
+    "securitylake.list-data-lake-exceptions",
+    "securitylake.list-data-lakes",
+    "securitylake.list-log-sources",
+    "securitylake.list-subscribers",
+    "securitylake.list-tags-for-resource"
+]

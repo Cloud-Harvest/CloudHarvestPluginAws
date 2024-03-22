@@ -1,0 +1,94 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "required": [],
+        "md5": "2620fedaf24e984a8f801d0beb17a6e7",
+        "boto_command": "list_packages",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "packageName": "packageName",
+                "defaultVersionName": "defaultVersionName",
+                "creationDate": "1970-01-01T00:00:00",
+                "lastModifiedDate": "1970-01-01T00:00:00"
+            }
+        ],
+        "required": [],
+        "md5": "88ebc8350e59602d6439bb61a000b6bd",
+        "randomized": [
+            {
+                "creationDate": "vvxazxwjgmyhazgz",
+                "defaultVersionName": "jshgcvmlcufppapx",
+                "lastModifiedDate": "mmoirjediewxuthk",
+                "packageName": "vkakvqhrrjxmkgqm"
+            },
+            {
+                "creationDate": "vlsvbejmpbzpjath",
+                "defaultVersionName": "swoiatvdilszself",
+                "lastModifiedDate": "dimythzrdtxjzttp",
+                "packageName": "fryypvjyuymuggkp"
+            },
+            {
+                "creationDate": "luytxflucytsfmfz",
+                "defaultVersionName": "znkalsrlgcgdvduc",
+                "lastModifiedDate": "iiwsooxuqwizjmmx",
+                "packageName": "blfknrtowmhhubgu"
+            },
+            {
+                "creationDate": "ingvwylewdwcvqna",
+                "defaultVersionName": "qozilkaipbaqcmkf",
+                "lastModifiedDate": "rxzswstyfrtfxuiv",
+                "packageName": "xmphkjmrtsfpsshw"
+            },
+            {
+                "creationDate": "pwjbkqoykzqxajze",
+                "defaultVersionName": "dfchricjkwuthspo",
+                "lastModifiedDate": "hkaxivyepkopthmm",
+                "packageName": "utlhcbckpjtzquzi"
+            },
+            {
+                "creationDate": "zvjmkogaxwaxjjyd",
+                "defaultVersionName": "vngjhiluvcaggvwn",
+                "lastModifiedDate": "wrsawfxsxeemxbkk",
+                "packageName": "zbvlcjlwimbgpvnm"
+            },
+            {
+                "creationDate": "jdbrbajofppxfprq",
+                "defaultVersionName": "nmkahtmisexiaeay",
+                "lastModifiedDate": "ovuafaaxlaeygyuv",
+                "packageName": "zpnjdyjhwblgbqjf"
+            },
+            {
+                "creationDate": "dlpmkekmaahjxajk",
+                "defaultVersionName": "uckdahnwvagfejjs",
+                "lastModifiedDate": "vxkbkzpeapayrrbv",
+                "packageName": "pbuagapyiupggbnl"
+            },
+            {
+                "creationDate": "funwtggnakzuseuc",
+                "defaultVersionName": "dexkhuekvikpossg",
+                "lastModifiedDate": "oqpjmijarnadxrnt",
+                "packageName": "ajhhinbcxkmezekl"
+            },
+            {
+                "creationDate": "trqobamnwzvvlypv",
+                "defaultVersionName": "sibytbzgddsomnwn",
+                "lastModifiedDate": "bkgnrlwaehhqtxts",
+                "packageName": "myyqzbjpqbefdhoi"
+            }
+        ],
+        "result_key": "packageSummaries"
+    },
+    "meta": {
+        "start": 1711115945.089122,
+        "end": 1711115951.72405,
+        "duration": 6.63493800163269,
+        "service": "iot",
+        "type": "packages"
+    }
+}

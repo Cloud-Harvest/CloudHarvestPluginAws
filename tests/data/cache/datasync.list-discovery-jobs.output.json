@@ -1,0 +1,73 @@
+{
+    "input": {
+        "template": {
+            "StorageSystemArn": "",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "0c26188ba4f7854c2afc7d5a977f71a4",
+        "boto_command": "list_discovery_jobs",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "DiscoveryJobArn": "DiscoveryJobArn",
+                "Status": "Status"
+            }
+        ],
+        "required": [],
+        "md5": "0ca6748ae799e0d9f1d03e47fef74b38",
+        "randomized": [
+            {
+                "DiscoveryJobArn": "rdrfbmeowkwduree",
+                "Status": "lmperkpddfrjtgex"
+            },
+            {
+                "DiscoveryJobArn": "xlhfazrdtxahkimj",
+                "Status": "rzgssssarxvecnyc"
+            },
+            {
+                "DiscoveryJobArn": "lotdpgbbigfxwivn",
+                "Status": "xurietlkqdmpdief"
+            },
+            {
+                "DiscoveryJobArn": "qhuuytyujjyvvoao",
+                "Status": "utktgswyxlrdfjjm"
+            },
+            {
+                "DiscoveryJobArn": "wquffobzrzmgflpn",
+                "Status": "kxwpvfylisweokep"
+            },
+            {
+                "DiscoveryJobArn": "tgtjppviaurqqhxz",
+                "Status": "rmptbighofelmlvr"
+            },
+            {
+                "DiscoveryJobArn": "nexezpbyfnowvamo",
+                "Status": "ocuihyaejumkgqeg"
+            },
+            {
+                "DiscoveryJobArn": "dekctkiulupcpyhh",
+                "Status": "cdybirzvyzxnzchj"
+            },
+            {
+                "DiscoveryJobArn": "nahbjlekpyqokdoh",
+                "Status": "izqcypoyaoedvxbo"
+            },
+            {
+                "DiscoveryJobArn": "puqvfhyofsuvvwed",
+                "Status": "xvrtgfkqraupksdi"
+            }
+        ],
+        "result_key": "DiscoveryJobs"
+    },
+    "meta": {
+        "start": 1711115525.527787,
+        "end": 1711115532.349993,
+        "duration": 6.8222150802612305,
+        "service": "datasync",
+        "type": "discovery_jobs"
+    }
+}

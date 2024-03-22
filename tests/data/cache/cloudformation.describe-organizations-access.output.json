@@ -1,0 +1,36 @@
+{
+    "input": {
+        "template": {
+            "CallAs": "SELF"
+        },
+        "required": [],
+        "md5": "2e638bdb7b10cb5cfeeec7704b5093dc",
+        "boto_command": "describe_organizations_access",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": "Status",
+        "required": [],
+        "md5": "e90e467c80f04a9cc386697f0a56f18e",
+        "randomized": [
+            "jobxkrruqadiowcy",
+            "rzbrpxkocqhdehnp",
+            "uskwqjdjpagudsvt",
+            "ktwsdbdrjsduomkw",
+            "hscxjutddbdlwzau",
+            "xlhuoeqguhwgukht",
+            "wgrvbnbotqyqlnre",
+            "biwzggsidaeggthh",
+            "hgxhtwuozgpfuwkt",
+            "pzihccxeargkexnc"
+        ],
+        "result_key": "Status"
+    },
+    "meta": {
+        "start": 1711115358.42835,
+        "end": 1711115366.317837,
+        "duration": 7.8894970417022705,
+        "service": "cloudformation",
+        "type": "organizations_access"
+    }
+}

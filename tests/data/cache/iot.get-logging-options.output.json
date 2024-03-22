@@ -1,0 +1,34 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "get_logging_options",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": "roleArn",
+        "required": [],
+        "md5": "7d23b605be6fe65b252a469e4c37e2cb",
+        "randomized": [
+            "hlvnaxxpwhsatagy",
+            "jnmetsbioczthkrn",
+            "fkjyfsgxacarewrb",
+            "ycbvhqjplvwauojl",
+            "ngqjbbkpppwycexl",
+            "jvrtgwpsgxbetvww",
+            "fqazpxlmtmmvliss",
+            "ikdolojqtkevdeeb",
+            "lgplswcqbilfytxb",
+            "hbvpjfaxqbayucik"
+        ],
+        "result_key": "roleArn"
+    },
+    "meta": {
+        "start": 1711115931.875391,
+        "end": 1711115940.059419,
+        "duration": 8.184037923812866,
+        "service": "iot",
+        "type": null
+    }
+}

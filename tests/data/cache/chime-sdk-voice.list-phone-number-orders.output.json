@@ -1,0 +1,182 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "9dece7f85fc1c3f944425b1f68a8e6e1",
+        "boto_command": "list_phone_number_orders",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "PhoneNumberOrderId": "PhoneNumberOrderId",
+                "ProductType": "ProductType",
+                "Status": "Status",
+                "OrderType": "OrderType",
+                "OrderedPhoneNumbers": [
+                    {
+                        "E164PhoneNumber": "E164PhoneNumber",
+                        "Status": "Status"
+                    }
+                ],
+                "CreatedTimestamp": "1970-01-01T00:00:00",
+                "UpdatedTimestamp": "1970-01-01T00:00:00"
+            }
+        ],
+        "required": [],
+        "md5": "756d88e73e0ee9167a84516e9ce785fa",
+        "randomized": [
+            {
+                "CreatedTimestamp": "laryotihzjxjtwst",
+                "OrderType": "vapddrclavotcmgv",
+                "OrderedPhoneNumbers": [
+                    {
+                        "E164PhoneNumber": "szluyyfchilbzway",
+                        "Status": "fhglwqxruernyspb"
+                    }
+                ],
+                "PhoneNumberOrderId": "ksswlkpxyozsloyc",
+                "ProductType": "szjpiuaamelzearm",
+                "Status": "porcsbwbqiurgyzo",
+                "UpdatedTimestamp": "nysdjuhnjmudngex"
+            },
+            {
+                "CreatedTimestamp": "ygchwfrcntatzhbm",
+                "OrderType": "qvfblccevgpmfmzk",
+                "OrderedPhoneNumbers": [
+                    {
+                        "E164PhoneNumber": "mmbnunadclsbrbsu",
+                        "Status": "ahahfpobmfuetetj"
+                    }
+                ],
+                "PhoneNumberOrderId": "tbqhpvfkxlshlxsd",
+                "ProductType": "kusxxcpyzsjqubwb",
+                "Status": "yaufomqdbzmiywme",
+                "UpdatedTimestamp": "nfvqtxoqkqfosvcx"
+            },
+            {
+                "CreatedTimestamp": "ktoqwphteovulfcb",
+                "OrderType": "ifmtcwlbqqsaadtw",
+                "OrderedPhoneNumbers": [
+                    {
+                        "E164PhoneNumber": "jufxvpcrtlaczumd",
+                        "Status": "kuythkqmqbamgaib"
+                    }
+                ],
+                "PhoneNumberOrderId": "igwxxtmsyvtsxrpn",
+                "ProductType": "pldpnzapvjbjvdqr",
+                "Status": "qcrqsxkbiglkrnte",
+                "UpdatedTimestamp": "eifebyvswbsnfolb"
+            },
+            {
+                "CreatedTimestamp": "bnwalplbrlziaukw",
+                "OrderType": "jjnxovhcrskgbveg",
+                "OrderedPhoneNumbers": [
+                    {
+                        "E164PhoneNumber": "qgkauzxqguoxyzmd",
+                        "Status": "bowepzpuvheuunzd"
+                    }
+                ],
+                "PhoneNumberOrderId": "wpygxajpbpimaemo",
+                "ProductType": "ykzevqkzcugvmmrd",
+                "Status": "nfdjlxojbqzrrghn",
+                "UpdatedTimestamp": "zfwvpzfizeythwsu"
+            },
+            {
+                "CreatedTimestamp": "hzsmngphmpyrmook",
+                "OrderType": "lcfnyggpzlitixrp",
+                "OrderedPhoneNumbers": [
+                    {
+                        "E164PhoneNumber": "oaauegpydbctfkab",
+                        "Status": "llhovbxsxnkvtrpu"
+                    }
+                ],
+                "PhoneNumberOrderId": "mhpkuijehhvxhfah",
+                "ProductType": "gawzjtnuxaejvcys",
+                "Status": "nzbibjjbeqvxuifh",
+                "UpdatedTimestamp": "ifinbqipagqygepk"
+            },
+            {
+                "CreatedTimestamp": "gtxyrxelxafquosu",
+                "OrderType": "runyqyvhvdlwydzi",
+                "OrderedPhoneNumbers": [
+                    {
+                        "E164PhoneNumber": "siylcwuimremwlcw",
+                        "Status": "bnvxqxrldhmvwugh"
+                    }
+                ],
+                "PhoneNumberOrderId": "udvdlpqleawfrkrz",
+                "ProductType": "nbrydpozyahrsnlb",
+                "Status": "jwgndvdpwqeeqjqy",
+                "UpdatedTimestamp": "yebxykpuycdogyrv"
+            },
+            {
+                "CreatedTimestamp": "rddkoehpadfdqhhy",
+                "OrderType": "krguaubcjhanqjfg",
+                "OrderedPhoneNumbers": [
+                    {
+                        "E164PhoneNumber": "xmxdtwicnfvfalbg",
+                        "Status": "iipzhnjjtcycddpi"
+                    }
+                ],
+                "PhoneNumberOrderId": "gamaqwmmbaorssoq",
+                "ProductType": "sszavwxakwneqmle",
+                "Status": "gxqsstkbnklmudrk",
+                "UpdatedTimestamp": "pttfvzaryzoqhzzv"
+            },
+            {
+                "CreatedTimestamp": "tymysarusqnlvihf",
+                "OrderType": "rwoiqyyavqcvclpy",
+                "OrderedPhoneNumbers": [
+                    {
+                        "E164PhoneNumber": "izjmvodugzzxslbz",
+                        "Status": "jhcotoekyytfhkjq"
+                    }
+                ],
+                "PhoneNumberOrderId": "pdxsbuvwqltzfimi",
+                "ProductType": "ouaalzjssodlrxul",
+                "Status": "yxnpbfiiimugyusy",
+                "UpdatedTimestamp": "lluwdkoisykrqyao"
+            },
+            {
+                "CreatedTimestamp": "snhnhsjkufubcfpx",
+                "OrderType": "vqrevujvlqqscjrs",
+                "OrderedPhoneNumbers": [
+                    {
+                        "E164PhoneNumber": "sozsvgymdnovulgz",
+                        "Status": "swxuqulxezggpopy"
+                    }
+                ],
+                "PhoneNumberOrderId": "wqldgwpefvhtjrzu",
+                "ProductType": "lythbqssvfxbxbrv",
+                "Status": "ctzoeouarkmxqsrz",
+                "UpdatedTimestamp": "ifoilcvwkeysgpsa"
+            },
+            {
+                "CreatedTimestamp": "ldbnexrbjcxtwbod",
+                "OrderType": "txqvbwtzgobvsfyl",
+                "OrderedPhoneNumbers": [
+                    {
+                        "E164PhoneNumber": "pabpptfkkutpmjrg",
+                        "Status": "obpfhaixppuhtrwv"
+                    }
+                ],
+                "PhoneNumberOrderId": "ootqjlnhddmeqbko",
+                "ProductType": "zlfgoujwwwcwwwal",
+                "Status": "ezidvvrbfaesovqe",
+                "UpdatedTimestamp": "xplfjzbkvjpchiro"
+            }
+        ],
+        "result_key": "PhoneNumberOrders"
+    },
+    "meta": {
+        "start": 1711115334.804846,
+        "end": 1711115342.315942,
+        "duration": 7.511106967926025,
+        "service": "chime-sdk-voice",
+        "type": "phone_number_orders"
+    }
+}

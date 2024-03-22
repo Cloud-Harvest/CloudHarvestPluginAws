@@ -1,0 +1,372 @@
+[
+    {
+        "CognitoConfig": {
+            "ClientId": "yztseptskjinpzlb",
+            "UserPool": "vuqkwmwtrrnyzqmc"
+        },
+        "CreateDate": "hsxsmyddsxsmyedk",
+        "FailureReason": "iilinjflscfgtgas",
+        "LastUpdatedDate": "rjvjngbqcrnflilk",
+        "OidcConfig": {
+            "AuthorizationEndpoint": "jktheznraxrhonef",
+            "ClientId": "mtzswqeiwctyouuj",
+            "Issuer": "eldbdumtqwphnlcu",
+            "JwksUri": "cscpjemiygagxugk",
+            "LogoutEndpoint": "zixgtsfntvusxtkx",
+            "TokenEndpoint": "bevvjeljnwntmait",
+            "UserInfoEndpoint": "prcffrqcfkdwukgx"
+        },
+        "SourceIpConfig": {
+            "Cidrs": [
+                "mupetwdhuvmdlvxe"
+            ]
+        },
+        "Status": "mjcqnicadwkncdwq",
+        "SubDomain": "bngbmoilywahxezi",
+        "WorkforceArn": "gazldbqqtpdvsvdb",
+        "WorkforceName": "eovgmnpdchsevilu",
+        "WorkforceVpcConfig": {
+            "SecurityGroupIds": [
+                "gnjiywbcqgyqpteg"
+            ],
+            "Subnets": [
+                "ivaimhhvfgbfiawl"
+            ],
+            "VpcEndpointId": "ltpjedtprnmdglzc",
+            "VpcId": "gzeiufeasuldgzzv"
+        }
+    },
+    {
+        "CognitoConfig": {
+            "ClientId": "hwmrqjrsphcsszqn",
+            "UserPool": "begsyqqruwkozyzr"
+        },
+        "CreateDate": "oadbokodjkbgnkan",
+        "FailureReason": "irfztjvbvfkwslky",
+        "LastUpdatedDate": "urlkwmevbkmolwhl",
+        "OidcConfig": {
+            "AuthorizationEndpoint": "ikicrrqktzanqfsr",
+            "ClientId": "omrufhworyedrlaq",
+            "Issuer": "qsdxbfnxobxzjsjl",
+            "JwksUri": "hpjekkjkytzwrxmk",
+            "LogoutEndpoint": "poaohycnlezjsfzx",
+            "TokenEndpoint": "akzkxvlrkitjzqib",
+            "UserInfoEndpoint": "jhcvdxfrmppmyfoj"
+        },
+        "SourceIpConfig": {
+            "Cidrs": [
+                "mhtgtuomqddswayp"
+            ]
+        },
+        "Status": "hlherfeljzgqrnkw",
+        "SubDomain": "uijhzhvpikyabcgj",
+        "WorkforceArn": "azxupjvpwdocyocz",
+        "WorkforceName": "dxyjerofpccqfwuz",
+        "WorkforceVpcConfig": {
+            "SecurityGroupIds": [
+                "lfwvmmnatlradkao"
+            ],
+            "Subnets": [
+                "yrlavrpclqijptyp"
+            ],
+            "VpcEndpointId": "xibankpvfsiurisa",
+            "VpcId": "hlstkrxftdcewwyk"
+        }
+    },
+    {
+        "CognitoConfig": {
+            "ClientId": "ykocrxumpokgppdc",
+            "UserPool": "hnzllbuzadregmka"
+        },
+        "CreateDate": "wszuysajgotlacrl",
+        "FailureReason": "rqdnkfightcsfcxp",
+        "LastUpdatedDate": "palxcvindgxqyrie",
+        "OidcConfig": {
+            "AuthorizationEndpoint": "dmtkojiqyoevxnwi",
+            "ClientId": "lklzxqvsnvnqcogb",
+            "Issuer": "ypmwgywkdtnbshex",
+            "JwksUri": "fzisiczvigjrxabq",
+            "LogoutEndpoint": "nlqdpvjgbafjjszf",
+            "TokenEndpoint": "mtuhaqgnsbhxyour",
+            "UserInfoEndpoint": "ngluulzwwsxumuwp"
+        },
+        "SourceIpConfig": {
+            "Cidrs": [
+                "ltkoktglwppaplyf"
+            ]
+        },
+        "Status": "baklfyhightrkpef",
+        "SubDomain": "dckqsvymzmgneynv",
+        "WorkforceArn": "edqybrunxyhixcmr",
+        "WorkforceName": "bppkyiitizhjvhfs",
+        "WorkforceVpcConfig": {
+            "SecurityGroupIds": [
+                "gmftcijmwptbgwgy"
+            ],
+            "Subnets": [
+                "kpvbpbjfqzvzmzun"
+            ],
+            "VpcEndpointId": "whodxecmjmbzecor",
+            "VpcId": "sxznxkmpkmeyaxmy"
+        }
+    },
+    {
+        "CognitoConfig": {
+            "ClientId": "dtqfmghhtqommjqq",
+            "UserPool": "tliuhygixnufmhlx"
+        },
+        "CreateDate": "eymceykokemvdosl",
+        "FailureReason": "zcjmaxxvtjfvhyye",
+        "LastUpdatedDate": "yydsjgnzubhzpbhr",
+        "OidcConfig": {
+            "AuthorizationEndpoint": "fptwvlznzplvyjfo",
+            "ClientId": "vkrxucgjgtnknort",
+            "Issuer": "xrdzkpyekuialmyx",
+            "JwksUri": "idevrbsnbfeaukhx",
+            "LogoutEndpoint": "kjrtgquzbywfrgud",
+            "TokenEndpoint": "hspoyjszpsujvdll",
+            "UserInfoEndpoint": "ewrrvntvdyoyifod"
+        },
+        "SourceIpConfig": {
+            "Cidrs": [
+                "iwxbkskcdgvjrmtq"
+            ]
+        },
+        "Status": "ixzabcyimeinbzlh",
+        "SubDomain": "xznhorqmyqdfwfwq",
+        "WorkforceArn": "dwlnuskbefkcnnhv",
+        "WorkforceName": "waatsmxlmcgjnbjb",
+        "WorkforceVpcConfig": {
+            "SecurityGroupIds": [
+                "dgtxfbczwdgxfllz"
+            ],
+            "Subnets": [
+                "wgbezfngwnefbltw"
+            ],
+            "VpcEndpointId": "deqxzuhqvnfjmtex",
+            "VpcId": "uapjrpafavowbsxt"
+        }
+    },
+    {
+        "CognitoConfig": {
+            "ClientId": "xfmfbvfuzdedrvnz",
+            "UserPool": "rrwwxcyewdwxcnso"
+        },
+        "CreateDate": "maabwucjghkkyexh",
+        "FailureReason": "aobxyxllxivskmdu",
+        "LastUpdatedDate": "eolnivlhitegwely",
+        "OidcConfig": {
+            "AuthorizationEndpoint": "ghbitxlfnanybjsf",
+            "ClientId": "ujlqujdjahlkmjoa",
+            "Issuer": "ihhoahikyeqqxlvr",
+            "JwksUri": "ihikhxsurlubkkjw",
+            "LogoutEndpoint": "rfckxycyvuygnjnd",
+            "TokenEndpoint": "vsehtcjpepadmyga",
+            "UserInfoEndpoint": "ezsyllntjijotgie"
+        },
+        "SourceIpConfig": {
+            "Cidrs": [
+                "ewudfowaofwuglgk"
+            ]
+        },
+        "Status": "ycyhedjhfrwnamnj",
+        "SubDomain": "xcvcvhdkwynjrjrs",
+        "WorkforceArn": "zliepkincfrhonem",
+        "WorkforceName": "ciihaznahmwjyjve",
+        "WorkforceVpcConfig": {
+            "SecurityGroupIds": [
+                "pototwnvfpsqeztb"
+            ],
+            "Subnets": [
+                "pbryblkkymbrhxgv"
+            ],
+            "VpcEndpointId": "ryanjwqshinxtdsr",
+            "VpcId": "jyyssivalvbknlds"
+        }
+    },
+    {
+        "CognitoConfig": {
+            "ClientId": "ykzaylksroyafpym",
+            "UserPool": "efyfyaqbdziodhjg"
+        },
+        "CreateDate": "cadiiagzdsmffnbh",
+        "FailureReason": "umeurjpxrjluesuh",
+        "LastUpdatedDate": "zgcshxrrjpqejdfx",
+        "OidcConfig": {
+            "AuthorizationEndpoint": "rqiagtgtpplimrhn",
+            "ClientId": "fqcfqtkmsefgzfkm",
+            "Issuer": "uqbyuwkpfjtvuisv",
+            "JwksUri": "xbndeprsdgiyspnz",
+            "LogoutEndpoint": "zmklentioxknydmw",
+            "TokenEndpoint": "pjlhtxbhpzomrhir",
+            "UserInfoEndpoint": "apugyiwllxyngoqm"
+        },
+        "SourceIpConfig": {
+            "Cidrs": [
+                "qhdyduyqufoouehv"
+            ]
+        },
+        "Status": "ubwqpokdnennouyt",
+        "SubDomain": "rwdjtkosryhrokhj",
+        "WorkforceArn": "pufgyguzdupirynt",
+        "WorkforceName": "icewgihjiskolhap",
+        "WorkforceVpcConfig": {
+            "SecurityGroupIds": [
+                "otjtkdwjtzokydji"
+            ],
+            "Subnets": [
+                "jvuieealnnokhhfb"
+            ],
+            "VpcEndpointId": "chxhuvujllgrnlmp",
+            "VpcId": "pnwmjhlbtjcvrfvi"
+        }
+    },
+    {
+        "CognitoConfig": {
+            "ClientId": "otbktlaibbiywjhv",
+            "UserPool": "fioiweghjmoshhdq"
+        },
+        "CreateDate": "rrzegssieedgwtyn",
+        "FailureReason": "wxkudfbmvymkgucl",
+        "LastUpdatedDate": "cjbkllwaktqdwrnn",
+        "OidcConfig": {
+            "AuthorizationEndpoint": "ochuaojputjtsjhw",
+            "ClientId": "bnydejomczzzlnhl",
+            "Issuer": "dcneguefrvfrbtsk",
+            "JwksUri": "lyrczbwtrnlkygxy",
+            "LogoutEndpoint": "zauoubujfrmydxht",
+            "TokenEndpoint": "uyoukuidhsfhujvn",
+            "UserInfoEndpoint": "rfcaldnosznhbpcq"
+        },
+        "SourceIpConfig": {
+            "Cidrs": [
+                "lrcwwssterfxpqys"
+            ]
+        },
+        "Status": "zlrkedgqjvctlfuh",
+        "SubDomain": "gakehlyargbmlcst",
+        "WorkforceArn": "llpvvudradiqzkyz",
+        "WorkforceName": "xlkflsiyzvlnrnxo",
+        "WorkforceVpcConfig": {
+            "SecurityGroupIds": [
+                "idlkgdlqmvmpfoxc"
+            ],
+            "Subnets": [
+                "yoeboojtgrdgyomz"
+            ],
+            "VpcEndpointId": "nspkfnhybqvzdijg",
+            "VpcId": "wyaxmoxvtybmmxkr"
+        }
+    },
+    {
+        "CognitoConfig": {
+            "ClientId": "gnihfhnbohsxtstp",
+            "UserPool": "efdyubspuwhhkntk"
+        },
+        "CreateDate": "eivekgxyeqjsxusi",
+        "FailureReason": "wgnkxtiuyvdzmfzw",
+        "LastUpdatedDate": "eijzaermngqdyqid",
+        "OidcConfig": {
+            "AuthorizationEndpoint": "djsbgejmsckzuxeo",
+            "ClientId": "mmayinkwppowdpww",
+            "Issuer": "iuuphyuwbeucvhzq",
+            "JwksUri": "jvqkrvgbsaiclrix",
+            "LogoutEndpoint": "rsriosxlzbulzdxc",
+            "TokenEndpoint": "nwubpxfhtawbhntm",
+            "UserInfoEndpoint": "qmyunwtmhvwjtiqz"
+        },
+        "SourceIpConfig": {
+            "Cidrs": [
+                "qvnqijnrvydxqlxl"
+            ]
+        },
+        "Status": "yvdifhsmwjwduqit",
+        "SubDomain": "jfxsftrvhlapthyo",
+        "WorkforceArn": "lhdgiebzciqfwyfy",
+        "WorkforceName": "gkyngqcuwmllycul",
+        "WorkforceVpcConfig": {
+            "SecurityGroupIds": [
+                "vbpkwphcrlnajqcy"
+            ],
+            "Subnets": [
+                "pqiqnyvmtzfblozh"
+            ],
+            "VpcEndpointId": "qpfgkvivmfztblnt",
+            "VpcId": "ngdhjikoppybmsky"
+        }
+    },
+    {
+        "CognitoConfig": {
+            "ClientId": "cnlsswfcxlvqrffu",
+            "UserPool": "quiawevwwduagitl"
+        },
+        "CreateDate": "uyvhvbloggbgthey",
+        "FailureReason": "bvvhxoxnfjphmnyh",
+        "LastUpdatedDate": "pqncmkvgpryoqbdg",
+        "OidcConfig": {
+            "AuthorizationEndpoint": "svujylegrtaingiy",
+            "ClientId": "vzwklgbfhlhglgef",
+            "Issuer": "ldyijmveybcyypdh",
+            "JwksUri": "ltxuxzzxagzdwdtk",
+            "LogoutEndpoint": "cftawqiwgkqytcgf",
+            "TokenEndpoint": "olpqxmrfxnrukvup",
+            "UserInfoEndpoint": "llszcthqajudwxzx"
+        },
+        "SourceIpConfig": {
+            "Cidrs": [
+                "lfercdmawcbpgdci"
+            ]
+        },
+        "Status": "wisrzxaoyffsrsiw",
+        "SubDomain": "zxdjlhbgqkjbkzvw",
+        "WorkforceArn": "zutatsktwbkmupqz",
+        "WorkforceName": "xqmcbwxgblievtew",
+        "WorkforceVpcConfig": {
+            "SecurityGroupIds": [
+                "qyuhwlouisdfschj"
+            ],
+            "Subnets": [
+                "zusxoobjyrahxvhq"
+            ],
+            "VpcEndpointId": "kyzjnwqxayknygzk",
+            "VpcId": "sgyrdlpraesgfcwu"
+        }
+    },
+    {
+        "CognitoConfig": {
+            "ClientId": "lvejrqgssshsghxd",
+            "UserPool": "xzypnbrxlshosjxj"
+        },
+        "CreateDate": "vddfzlpzedqxpaga",
+        "FailureReason": "usubxbfnfnacdbxz",
+        "LastUpdatedDate": "lsawichdfxooicsc",
+        "OidcConfig": {
+            "AuthorizationEndpoint": "fyhdfjlmocswbbit",
+            "ClientId": "wwgfsarrwnehfcly",
+            "Issuer": "akxpamllcnuteomh",
+            "JwksUri": "aihwcxjxvivspluk",
+            "LogoutEndpoint": "vwqpderenkufugnu",
+            "TokenEndpoint": "zeddmauotbahyabc",
+            "UserInfoEndpoint": "aovangpqwdvsorle"
+        },
+        "SourceIpConfig": {
+            "Cidrs": [
+                "kdhepdyaaccbkfum"
+            ]
+        },
+        "Status": "nnudyssojffkzyhp",
+        "SubDomain": "dfjwirjwqwhglyqm",
+        "WorkforceArn": "droerfrheyuwvfdu",
+        "WorkforceName": "rexjqpmlzxitvrtv",
+        "WorkforceVpcConfig": {
+            "SecurityGroupIds": [
+                "wnkypchtzbfjlsvo"
+            ],
+            "Subnets": [
+                "oabtrozavzvdylqr"
+            ],
+            "VpcEndpointId": "wcolypzojxbheecg",
+            "VpcId": "ztnazqgaiahgnglr"
+        }
+    }
+]

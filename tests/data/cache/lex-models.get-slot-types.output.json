@@ -1,0 +1,106 @@
+{
+    "input": {
+        "template": {
+            "nextToken": "",
+            "maxResults": 0,
+            "nameContains": ""
+        },
+        "required": [],
+        "md5": "4fd9f5c7e355d362583aa86484a16c13",
+        "boto_command": "get_slot_types",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "name": "name",
+                "description": "description",
+                "lastUpdatedDate": "1970-01-01T00:00:00",
+                "createdDate": "1970-01-01T00:00:00",
+                "version": "version"
+            }
+        ],
+        "required": [],
+        "md5": "1e9689e27c48943b5a214184956cf81f",
+        "randomized": [
+            {
+                "createdDate": "ffwvfwjtxllpiglz",
+                "description": "ohbijwunziuqxgis",
+                "lastUpdatedDate": "gzwlwzgmqkbpavkr",
+                "name": "irjqygswlnsdokxo",
+                "version": "fetleqzukucbvkbk"
+            },
+            {
+                "createdDate": "oovhouljxdpubkzm",
+                "description": "uxbznktcqfyrdymn",
+                "lastUpdatedDate": "iqmmrqgujwmojioi",
+                "name": "zyambheypuwurlaw",
+                "version": "fvuuftwbnyoscnkv"
+            },
+            {
+                "createdDate": "iojbpnxklajvtpss",
+                "description": "fzfrphtcpaxbttwu",
+                "lastUpdatedDate": "pqymmswpgrlnvkzd",
+                "name": "lhaoankjhwwxmqxt",
+                "version": "gqcwujxnmmcyvrrb"
+            },
+            {
+                "createdDate": "mhnkuccjuwizvvtk",
+                "description": "myyompxvtanvovds",
+                "lastUpdatedDate": "npnnwsyllfubywad",
+                "name": "bagstrdkwzmxpfiy",
+                "version": "xalramdlfgpakmbh"
+            },
+            {
+                "createdDate": "alqjhdawnhjeaffz",
+                "description": "plgzbirqvdmqgbfi",
+                "lastUpdatedDate": "humprqwmopliznnm",
+                "name": "plbnuhuaqletwrde",
+                "version": "wmpkpiwwzqryacwd"
+            },
+            {
+                "createdDate": "xkvgotuzeftpwcmc",
+                "description": "pcinmmmfugmbezym",
+                "lastUpdatedDate": "gtndydqhmvbuyhab",
+                "name": "vxfnxvuyradnozoz",
+                "version": "dbhjssgwchzwbewu"
+            },
+            {
+                "createdDate": "bfbxoalrbrkehnjn",
+                "description": "ripxkuvfghcaxpqc",
+                "lastUpdatedDate": "ilmgikbmawghxhwz",
+                "name": "xgsxnoeavuyqraqh",
+                "version": "xtvlvfjcckniuwfh"
+            },
+            {
+                "createdDate": "bsjknxbndfwcbjyl",
+                "description": "zsxgeilrggavxfkd",
+                "lastUpdatedDate": "yfqazujdivixhlhg",
+                "name": "gtfymjzgvnccjynz",
+                "version": "zijwyjcnwwhtyqat"
+            },
+            {
+                "createdDate": "vkemisgfdssbvlva",
+                "description": "oggmslkeuxukjsga",
+                "lastUpdatedDate": "akrlfpmtufffnnyx",
+                "name": "lxyfhjgipenjifjo",
+                "version": "wrbrcktgplwzccmy"
+            },
+            {
+                "createdDate": "raksbitehiiscgyg",
+                "description": "odhetkgttvfpbtur",
+                "lastUpdatedDate": "eofhyhvzqdwinpkn",
+                "name": "zhtydfcvdtbybeum",
+                "version": "pratdzyiyuyrrjji"
+            }
+        ],
+        "result_key": "slotTypes"
+    },
+    "meta": {
+        "start": 1711116066.780284,
+        "end": 1711116073.940608,
+        "duration": 7.160335063934326,
+        "service": "lex-models",
+        "type": null
+    }
+}

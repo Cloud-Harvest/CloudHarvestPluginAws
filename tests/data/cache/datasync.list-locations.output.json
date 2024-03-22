@@ -1,0 +1,81 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": "",
+            "Filters": [
+                {
+                    "Name": "LocationUri",
+                    "Values": [
+                        ""
+                    ],
+                    "Operator": "Equals"
+                }
+            ]
+        },
+        "required": [],
+        "md5": "00c04acbcc02f0229aeac6bdc636e5f4",
+        "boto_command": "list_locations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "LocationArn": "LocationArn",
+                "LocationUri": "LocationUri"
+            }
+        ],
+        "required": [],
+        "md5": "1c5cf4b05b88a70d95e1cfaf5e661274",
+        "randomized": [
+            {
+                "LocationArn": "btggtsmvktaaiiql",
+                "LocationUri": "xrvehzcahcjqxtgz"
+            },
+            {
+                "LocationArn": "wnqdegblnyhqxpwh",
+                "LocationUri": "wsqbhgfxijqmtheu"
+            },
+            {
+                "LocationArn": "npdeerkjhymtaovn",
+                "LocationUri": "meesdkaretxzcgkf"
+            },
+            {
+                "LocationArn": "hobrxbvdqtpkwvur",
+                "LocationUri": "lofnrkcxuwbwawkm"
+            },
+            {
+                "LocationArn": "wefmvbxmahxgrgyk",
+                "LocationUri": "gfmzsvchooirjepb"
+            },
+            {
+                "LocationArn": "btpjggfapwgjdmpr",
+                "LocationUri": "ibaitcnarbvikeor"
+            },
+            {
+                "LocationArn": "vontrbqanlkpwzxc",
+                "LocationUri": "zyqducmqawmhkdpn"
+            },
+            {
+                "LocationArn": "snscjusaynlrqaqk",
+                "LocationUri": "vjehowpusxmnppko"
+            },
+            {
+                "LocationArn": "sojpaocxsmsptldi",
+                "LocationUri": "gngolxvewwounfjy"
+            },
+            {
+                "LocationArn": "yyeyhpracdepdymu",
+                "LocationUri": "xksraomdkmezpfev"
+            }
+        ],
+        "result_key": "Locations"
+    },
+    "meta": {
+        "start": 1711115525.705398,
+        "end": 1711115532.991519,
+        "duration": 7.286130905151367,
+        "service": "datasync",
+        "type": "locations"
+    }
+}

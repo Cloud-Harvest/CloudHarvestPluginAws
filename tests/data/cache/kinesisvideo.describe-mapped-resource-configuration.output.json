@@ -1,0 +1,74 @@
+{
+    "input": {
+        "template": {
+            "StreamName": "",
+            "StreamARN": "",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "0d115448b81a7e6373a601f774a9d73e",
+        "boto_command": "describe_mapped_resource_configuration",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "Type": "Type",
+                "ARN": "ARN"
+            }
+        ],
+        "required": [],
+        "md5": "0bf51fa695effa181f7fb9a9c9ee05b8",
+        "randomized": [
+            {
+                "ARN": "atgglpjmtcaoisyt",
+                "Type": "oirqwzktugxprcul"
+            },
+            {
+                "ARN": "vuakynbhkwluurhy",
+                "Type": "axaapnxvsepwlvse"
+            },
+            {
+                "ARN": "odpqqrhmlzomgpwu",
+                "Type": "zdidfpnuiouxqofd"
+            },
+            {
+                "ARN": "fylkgyfficivlyie",
+                "Type": "rkfjujjzfppiqjrp"
+            },
+            {
+                "ARN": "yvvoxpaffgamclpm",
+                "Type": "mnrsvuubkzszwllb"
+            },
+            {
+                "ARN": "wkstpzkquuotjjru",
+                "Type": "qwhpipruqyjiaxxx"
+            },
+            {
+                "ARN": "dwvspfmgipxyswgq",
+                "Type": "jytakskkkpenkioa"
+            },
+            {
+                "ARN": "qowrstyckiyjcnys",
+                "Type": "xsudloxehrmvqowo"
+            },
+            {
+                "ARN": "qksnxuzrrzgzmhhq",
+                "Type": "fwzdmqneqfcmnioj"
+            },
+            {
+                "ARN": "pphutkfkesdhiltu",
+                "Type": "klqeftbfywdvpime"
+            }
+        ],
+        "result_key": "MappedResourceConfigurationList"
+    },
+    "meta": {
+        "start": 1711116038.669439,
+        "end": 1711116046.972973,
+        "duration": 8.303542852401733,
+        "service": "kinesisvideo",
+        "type": "mapped_resource_configuration"
+    }
+}

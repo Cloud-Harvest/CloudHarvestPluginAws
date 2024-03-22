@@ -1,0 +1,204 @@
+{
+    "input": {
+        "template": {
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "required": [],
+        "md5": "42475be96651ddb5d57c459989595380",
+        "boto_command": "list_transformers",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "transformerId": "transformerId",
+                "name": "name",
+                "fileFormat": "fileFormat",
+                "mappingTemplate": "mappingTemplate",
+                "status": "status",
+                "ediType": {
+                    "x12Details": {
+                        "transactionSet": "transactionSet",
+                        "version": "version"
+                    }
+                },
+                "sampleDocument": "sampleDocument",
+                "createdAt": "1970-01-01T00:00:00",
+                "modifiedAt": "1970-01-01T00:00:00"
+            }
+        ],
+        "required": [],
+        "md5": "ac2209793f801962997cb9b84051b254",
+        "randomized": [
+            {
+                "createdAt": "izhtsmkdbihxciue",
+                "ediType": {
+                    "x12Details": {
+                        "transactionSet": "jaszahkzyjfuecoe",
+                        "version": "ygbkhvujuflairfh"
+                    }
+                },
+                "fileFormat": "tkcklqpiwevjzehn",
+                "mappingTemplate": "cerixttikhituraf",
+                "modifiedAt": "mserjynbhobmnjst",
+                "name": "gokeqjqqbccnvbri",
+                "sampleDocument": "xddecwnjyzzbrche",
+                "status": "hezzcxctmrneaboo",
+                "transformerId": "mteayhmmtpafdfrj"
+            },
+            {
+                "createdAt": "jkbsmtsguymbmdzy",
+                "ediType": {
+                    "x12Details": {
+                        "transactionSet": "yjicikgkzimzicvx",
+                        "version": "kevqeqllhmaygypn"
+                    }
+                },
+                "fileFormat": "sydblacvpypxpzzk",
+                "mappingTemplate": "bnfzvqlcvlvzbtei",
+                "modifiedAt": "yitqnztetkajzame",
+                "name": "uwswgdjzfyqygnqo",
+                "sampleDocument": "xgmoilucxwhzwlhn",
+                "status": "iddakkpmvsettyar",
+                "transformerId": "rzlvkifhiaablglp"
+            },
+            {
+                "createdAt": "yswbetyrupbbixbl",
+                "ediType": {
+                    "x12Details": {
+                        "transactionSet": "crsgvtactikgbzhw",
+                        "version": "yrlfpwzqfcdflrxh"
+                    }
+                },
+                "fileFormat": "farbebeimhukgpom",
+                "mappingTemplate": "aibhvescikpepjar",
+                "modifiedAt": "ggklxdrsigesaazl",
+                "name": "ilttvsylpgiipywv",
+                "sampleDocument": "nnvylmkjjztehqgg",
+                "status": "vtmsgjtdkcnmynpw",
+                "transformerId": "woosnhhqoufcsayu"
+            },
+            {
+                "createdAt": "kytkwrhybsxhzuwp",
+                "ediType": {
+                    "x12Details": {
+                        "transactionSet": "titgfzrbfsjmxvlx",
+                        "version": "uusvxeagafvpvqsg"
+                    }
+                },
+                "fileFormat": "djozxkdlvshnvhqm",
+                "mappingTemplate": "mpwtklzhtoupohrc",
+                "modifiedAt": "cmfgyanhtimecujv",
+                "name": "xyboqkdjxlproquz",
+                "sampleDocument": "pjoqpdarloltehuw",
+                "status": "vrwajaeqfqnawjrf",
+                "transformerId": "btxiaovrbjcaicsi"
+            },
+            {
+                "createdAt": "xqejtzlbkfdtevmy",
+                "ediType": {
+                    "x12Details": {
+                        "transactionSet": "oxigxcxoswbehuow",
+                        "version": "ghwdgutbvfkltqaz"
+                    }
+                },
+                "fileFormat": "mjydstldjlzvkvoy",
+                "mappingTemplate": "bzowcrbvurrtgoxk",
+                "modifiedAt": "bspkkslufkedpeyw",
+                "name": "hukzxwqotgriuqoj",
+                "sampleDocument": "lsdciqyaxtavufqh",
+                "status": "algskgxpuvntptxc",
+                "transformerId": "wkhddvcdnmxutybu"
+            },
+            {
+                "createdAt": "nvbbvtnhuklmrcse",
+                "ediType": {
+                    "x12Details": {
+                        "transactionSet": "xgrqffiemvhjedus",
+                        "version": "zsduoptnyzpyyctx"
+                    }
+                },
+                "fileFormat": "luvrueqyvswlsinj",
+                "mappingTemplate": "klqsfdnipdkxummt",
+                "modifiedAt": "pgsqykwnysdciczx",
+                "name": "skikkpdruwqrlpxu",
+                "sampleDocument": "vfkmajvmshqacvnz",
+                "status": "wkjgykszitmolpwk",
+                "transformerId": "xqaitmufuvfghdfp"
+            },
+            {
+                "createdAt": "hezosoadwrpugpnt",
+                "ediType": {
+                    "x12Details": {
+                        "transactionSet": "xedgtlwrhfxcvump",
+                        "version": "efigriqwwufovlxi"
+                    }
+                },
+                "fileFormat": "jigahyqmrymkaxte",
+                "mappingTemplate": "fmvemcdtszlkuzzz",
+                "modifiedAt": "tzusunuxuedykoqo",
+                "name": "kxgkfqzjplwscibi",
+                "sampleDocument": "kiwddafrkchnqwky",
+                "status": "tvcogdhgewwbjopk",
+                "transformerId": "wezfwzmthupwqeya"
+            },
+            {
+                "createdAt": "xhycbyuoaosdklrb",
+                "ediType": {
+                    "x12Details": {
+                        "transactionSet": "zqqkweriruxlebbl",
+                        "version": "nzzsljqjqxqoamjb"
+                    }
+                },
+                "fileFormat": "uunonbjazlxgjozi",
+                "mappingTemplate": "qrlppcavgevnnsff",
+                "modifiedAt": "ytlmfgykhxbhlbop",
+                "name": "uvtfsmbvdcyeoxql",
+                "sampleDocument": "ctfqbvmyprskbsdw",
+                "status": "ssrtxsqgakelwbvh",
+                "transformerId": "mgnjjqprcqrnrwiy"
+            },
+            {
+                "createdAt": "zgdhtbampmyqrfzv",
+                "ediType": {
+                    "x12Details": {
+                        "transactionSet": "lyexlcdzqssgnkgl",
+                        "version": "aqnjgfohetjhppmx"
+                    }
+                },
+                "fileFormat": "tczxkwotpxujpkqv",
+                "mappingTemplate": "wfqkpxdexspbsmvy",
+                "modifiedAt": "vhivhkauzheapzlg",
+                "name": "izdqvebqusqxpzzc",
+                "sampleDocument": "etldptmgelkrwcvy",
+                "status": "ttbjuioioxcmwcat",
+                "transformerId": "qrcyglhjvgfmmaou"
+            },
+            {
+                "createdAt": "iujgsycbwlsokykr",
+                "ediType": {
+                    "x12Details": {
+                        "transactionSet": "hatruefeisuopebt",
+                        "version": "gngwxqgcwyudizdk"
+                    }
+                },
+                "fileFormat": "icbmsdxnwoultwsc",
+                "mappingTemplate": "vpzcnhciqdyayfin",
+                "modifiedAt": "sqnfluulgsrhilic",
+                "name": "wvoixypbenfnrkqs",
+                "sampleDocument": "bhyfkfegnfwarlqa",
+                "status": "vknnrjfgmrahixuf",
+                "transformerId": "oswsmvdxbyqltsdv"
+            }
+        ],
+        "result_key": "transformers"
+    },
+    "meta": {
+        "start": 1711115274.287011,
+        "end": 1711115280.421862,
+        "duration": 6.134862184524536,
+        "service": "b2bi",
+        "type": "transformers"
+    }
+}

@@ -1,0 +1,147 @@
+{
+    "input": {
+        "template": {
+            "DBShardGroupIdentifier": "",
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "Marker": "",
+            "MaxRecords": 0
+        },
+        "required": [],
+        "md5": "080bc4c978e1e4b05730e798d14559e4",
+        "boto_command": "describe_db_shard_groups",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "DBShardGroupResourceId": "DBShardGroupResourceId",
+                "DBShardGroupIdentifier": "DBShardGroupIdentifier",
+                "DBClusterIdentifier": "DBClusterIdentifier",
+                "MaxACU": 0.0,
+                "ComputeRedundancy": 0,
+                "Status": "Status",
+                "PubliclyAccessible": true,
+                "Endpoint": "Endpoint"
+            }
+        ],
+        "required": [],
+        "md5": "dc37b750311a3c7622a1eb6f83d75b5b",
+        "randomized": [
+            {
+                "ComputeRedundancy": 0,
+                "DBClusterIdentifier": "jpohwvawuwxvrbay",
+                "DBShardGroupIdentifier": "hscyvrxainmcfbsg",
+                "DBShardGroupResourceId": "qpbovehuzrnhwlki",
+                "Endpoint": "kpemfqtpzejxbneb",
+                "MaxACU": 0.0,
+                "PubliclyAccessible": true,
+                "Status": "azpkwimvmzwjjtsn"
+            },
+            {
+                "ComputeRedundancy": 0,
+                "DBClusterIdentifier": "xpflarkuuzfiqaqc",
+                "DBShardGroupIdentifier": "cznmimtuyodyfngw",
+                "DBShardGroupResourceId": "qmojrnqzzpxsokab",
+                "Endpoint": "umotbjdqdffnrbrp",
+                "MaxACU": 0.0,
+                "PubliclyAccessible": true,
+                "Status": "cftjikaetvnddvko"
+            },
+            {
+                "ComputeRedundancy": 0,
+                "DBClusterIdentifier": "jxdnrdlivxpncxya",
+                "DBShardGroupIdentifier": "wyrswkuuupkqogiw",
+                "DBShardGroupResourceId": "wtjkswsqchhkwaqz",
+                "Endpoint": "xzjxihwckseoapdt",
+                "MaxACU": 0.0,
+                "PubliclyAccessible": true,
+                "Status": "uswbwrtpwphxetmr"
+            },
+            {
+                "ComputeRedundancy": 0,
+                "DBClusterIdentifier": "zzsklmumydysgzrh",
+                "DBShardGroupIdentifier": "myhpoaulsijebekm",
+                "DBShardGroupResourceId": "lxgdqewxmfrqonhc",
+                "Endpoint": "wtmmzmstwzwlzksj",
+                "MaxACU": 0.0,
+                "PubliclyAccessible": true,
+                "Status": "blrripgxnfjqdmaj"
+            },
+            {
+                "ComputeRedundancy": 0,
+                "DBClusterIdentifier": "fzfwbjwcecnripls",
+                "DBShardGroupIdentifier": "ctrrftaxisqfudfw",
+                "DBShardGroupResourceId": "wmcadvjwahidzogo",
+                "Endpoint": "hiktwqogwtgingrx",
+                "MaxACU": 0.0,
+                "PubliclyAccessible": true,
+                "Status": "wjkxykfhspnujkdb"
+            },
+            {
+                "ComputeRedundancy": 0,
+                "DBClusterIdentifier": "gxnpfthpuiehiyvs",
+                "DBShardGroupIdentifier": "lmnxmgoctyknzbxt",
+                "DBShardGroupResourceId": "syqsokjtzpanpvce",
+                "Endpoint": "pjppmvryhiilhnwu",
+                "MaxACU": 0.0,
+                "PubliclyAccessible": true,
+                "Status": "xwvptiaaabriwlop"
+            },
+            {
+                "ComputeRedundancy": 0,
+                "DBClusterIdentifier": "pwyorrvmkicgfdxl",
+                "DBShardGroupIdentifier": "klddudxtjyugjtif",
+                "DBShardGroupResourceId": "xyxknehzqtnwicgw",
+                "Endpoint": "itulhhlnhlsstdeq",
+                "MaxACU": 0.0,
+                "PubliclyAccessible": true,
+                "Status": "vpnaomcamiltylfm"
+            },
+            {
+                "ComputeRedundancy": 0,
+                "DBClusterIdentifier": "fgznvwlemxhcylsb",
+                "DBShardGroupIdentifier": "zjeygnxfylerjcio",
+                "DBShardGroupResourceId": "swzvapvpmpiweque",
+                "Endpoint": "sdjhgvkihmnvacss",
+                "MaxACU": 0.0,
+                "PubliclyAccessible": true,
+                "Status": "gddkriwvhdawvlbs"
+            },
+            {
+                "ComputeRedundancy": 0,
+                "DBClusterIdentifier": "bdxbblksoivzvuvg",
+                "DBShardGroupIdentifier": "hbnbjwpnbfqsgdqo",
+                "DBShardGroupResourceId": "ppbaxrgbqnvkqsfk",
+                "Endpoint": "rhtgvthagnimgcvy",
+                "MaxACU": 0.0,
+                "PubliclyAccessible": true,
+                "Status": "sxrhxpkrauxhbkle"
+            },
+            {
+                "ComputeRedundancy": 0,
+                "DBClusterIdentifier": "rnbpmgcigubkeykk",
+                "DBShardGroupIdentifier": "svdbcvsnvtcreweg",
+                "DBShardGroupResourceId": "bbclzmikjadfynru",
+                "Endpoint": "kpktjbxmrecltggl",
+                "MaxACU": 0.0,
+                "PubliclyAccessible": true,
+                "Status": "gapjxgsjlxyhclov"
+            }
+        ],
+        "result_key": "DBShardGroups"
+    },
+    "meta": {
+        "start": 1711116411.721871,
+        "end": 1711116417.885165,
+        "duration": 6.163305997848511,
+        "service": "rds",
+        "type": "db_shard_groups"
+    }
+}

@@ -1,0 +1,11 @@
+[
+    "snow-device-management.describe-device",
+    "snow-device-management.describe-device-ec2-instances",
+    "snow-device-management.describe-execution",
+    "snow-device-management.describe-task",
+    "snow-device-management.list-device-resources",
+    "snow-device-management.list-devices",
+    "snow-device-management.list-executions",
+    "snow-device-management.list-tags-for-resource",
+    "snow-device-management.list-tasks"
+]

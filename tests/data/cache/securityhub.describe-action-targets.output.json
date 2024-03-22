@@ -1,0 +1,86 @@
+{
+    "input": {
+        "template": {
+            "ActionTargetArns": [
+                ""
+            ],
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "24fa6de34c434f7fa70af16064c90ffa",
+        "boto_command": "describe_action_targets",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "ActionTargetArn": "ActionTargetArn",
+                "Name": "Name",
+                "Description": "Description"
+            }
+        ],
+        "required": [],
+        "md5": "a3c0df93b431b027e057e98e7913e26c",
+        "randomized": [
+            {
+                "ActionTargetArn": "aasbepbxkprfszki",
+                "Description": "hgxktckfdqquzcrc",
+                "Name": "weydpqaaanmewyst"
+            },
+            {
+                "ActionTargetArn": "ifbgtoiylcletdtn",
+                "Description": "utfwkgnboeeukyoe",
+                "Name": "pwrhoceaoegrnxuc"
+            },
+            {
+                "ActionTargetArn": "exalsrqfxaikuetq",
+                "Description": "feqybcxjvjdullbi",
+                "Name": "vkxnuyhfoxohcvtt"
+            },
+            {
+                "ActionTargetArn": "mxrjusyxdhegkoqk",
+                "Description": "myedxvseovrzarim",
+                "Name": "zcywvribgzymsbyo"
+            },
+            {
+                "ActionTargetArn": "hidoatxpadgcelio",
+                "Description": "kkqwyhzxegpqnmlc",
+                "Name": "igwgoezcqzpcysvj"
+            },
+            {
+                "ActionTargetArn": "zbyahutmkvloachp",
+                "Description": "fqmliwmxxgoeeilr",
+                "Name": "bztklolnnaxzftof"
+            },
+            {
+                "ActionTargetArn": "fbijqinmsyjyrchh",
+                "Description": "zijhqmvcmzhgltqo",
+                "Name": "vguqvrkicyijnknw"
+            },
+            {
+                "ActionTargetArn": "wkzdzsbiozfzmkoh",
+                "Description": "cqhzxufubrjsrbqr",
+                "Name": "psabdxeuxxivnfbg"
+            },
+            {
+                "ActionTargetArn": "sjojnstetslhrvls",
+                "Description": "tjcfbcgiooewrscg",
+                "Name": "rvwkyrifiqmnwpuj"
+            },
+            {
+                "ActionTargetArn": "ncdihjswdvledrtg",
+                "Description": "orsqfpvdzwibubqi",
+                "Name": "tirlxpnjbndbubbv"
+            }
+        ],
+        "result_key": "ActionTargets"
+    },
+    "meta": {
+        "start": 1711116584.189757,
+        "end": 1711116591.207654,
+        "duration": 7.017906904220581,
+        "service": "securityhub",
+        "type": "action_targets"
+    }
+}

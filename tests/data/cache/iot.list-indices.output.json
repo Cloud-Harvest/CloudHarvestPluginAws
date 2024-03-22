@@ -1,0 +1,39 @@
+{
+    "input": {
+        "template": {
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "required": [],
+        "md5": "42475be96651ddb5d57c459989595380",
+        "boto_command": "list_indices",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            "IndexName"
+        ],
+        "required": [],
+        "md5": "11c536fa7d60c5e67b6c7d98d88065ca",
+        "randomized": [
+            "vuocydpcntvkzbtl",
+            "qdmrijmsirblkjgu",
+            "twhrmvwbtetfnjag",
+            "wosfsmigaobibwhv",
+            "fexyzcijvmiyiuva",
+            "pwqcbqrzkeqyilii",
+            "xedqyqjbzanksyqm",
+            "ynvglxpxzykaspaf",
+            "mnnjgvazgsbsyepm",
+            "mgznhyjzysguccsq"
+        ],
+        "result_key": "indexNames"
+    },
+    "meta": {
+        "start": 1711115941.12169,
+        "end": 1711115949.268365,
+        "duration": 8.146684885025024,
+        "service": "iot",
+        "type": "indices"
+    }
+}

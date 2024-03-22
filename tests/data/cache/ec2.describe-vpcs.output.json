@@ -1,0 +1,447 @@
+{
+    "input": {
+        "template": {
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "VpcIds": [
+                ""
+            ],
+            "DryRun": true,
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "e8eabe38249e87a78d3df9a7df6a91ae",
+        "boto_command": "describe_vpcs",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "CidrBlock": "CidrBlock",
+                "DhcpOptionsId": "DhcpOptionsId",
+                "State": "State",
+                "VpcId": "VpcId",
+                "OwnerId": "OwnerId",
+                "InstanceTenancy": "InstanceTenancy",
+                "Ipv6CidrBlockAssociationSet": [
+                    {
+                        "AssociationId": "AssociationId",
+                        "Ipv6CidrBlock": "Ipv6CidrBlock",
+                        "Ipv6CidrBlockState": {
+                            "State": "State",
+                            "StatusMessage": "StatusMessage"
+                        },
+                        "NetworkBorderGroup": "NetworkBorderGroup",
+                        "Ipv6Pool": "Ipv6Pool"
+                    }
+                ],
+                "CidrBlockAssociationSet": [
+                    {
+                        "AssociationId": "AssociationId",
+                        "CidrBlock": "CidrBlock",
+                        "CidrBlockState": {
+                            "State": "State",
+                            "StatusMessage": "StatusMessage"
+                        }
+                    }
+                ],
+                "IsDefault": true,
+                "Tags": [
+                    {
+                        "Key": "Key",
+                        "Value": "Value"
+                    }
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "5d7e0c4cdd7a45f3f1787c49cb3c9990",
+        "randomized": [
+            {
+                "CidrBlock": "zzcmyicnludxmimj",
+                "CidrBlockAssociationSet": [
+                    {
+                        "AssociationId": "emcazgoenpjpghil",
+                        "CidrBlock": "olbremwvtpvzkrgt",
+                        "CidrBlockState": {
+                            "State": "xrtcfmibabpdhuxs",
+                            "StatusMessage": "zttvhyhqcgdowrtb"
+                        }
+                    }
+                ],
+                "DhcpOptionsId": "moebfarbaygpvkmz",
+                "InstanceTenancy": "dgbcavuipkitsroe",
+                "Ipv6CidrBlockAssociationSet": [
+                    {
+                        "AssociationId": "oxfuxsvpimdmwhuq",
+                        "Ipv6CidrBlock": "ckytnsemddxihpyg",
+                        "Ipv6CidrBlockState": {
+                            "State": "wscvkgsmgjeunllg",
+                            "StatusMessage": "loeswpazrxsdzztj"
+                        },
+                        "Ipv6Pool": "fnesbhqopolvabtz",
+                        "NetworkBorderGroup": "xagknhuejftyvuvq"
+                    }
+                ],
+                "IsDefault": true,
+                "OwnerId": "kxgzvmlonbqfpcjm",
+                "State": "hjmpprcvwmbmkxgb",
+                "Tags": [
+                    {
+                        "Key": "arqjaiexveuihcbc",
+                        "Value": "rfgbwzvpyatfxdjp"
+                    }
+                ],
+                "VpcId": "slaxpzbqyjfvorid"
+            },
+            {
+                "CidrBlock": "xyrnmwfqxdiluyju",
+                "CidrBlockAssociationSet": [
+                    {
+                        "AssociationId": "otkflndqzcucfidi",
+                        "CidrBlock": "pyexqgeezrrmvpfo",
+                        "CidrBlockState": {
+                            "State": "pwjjsysgtapxoykt",
+                            "StatusMessage": "oxvbahbqjpcxrfbs"
+                        }
+                    }
+                ],
+                "DhcpOptionsId": "qxkvpwnzasnllxdd",
+                "InstanceTenancy": "uzkvezchgrrveazt",
+                "Ipv6CidrBlockAssociationSet": [
+                    {
+                        "AssociationId": "xqyanhjsgwswnvyi",
+                        "Ipv6CidrBlock": "rqaweihokjtbapyk",
+                        "Ipv6CidrBlockState": {
+                            "State": "ctwbmfjeducdxlac",
+                            "StatusMessage": "jknshwjdzeyjmxoc"
+                        },
+                        "Ipv6Pool": "zhcirsfbbqzdcabu",
+                        "NetworkBorderGroup": "hzcbrspxaelmqpod"
+                    }
+                ],
+                "IsDefault": true,
+                "OwnerId": "ephptemenzuppcyv",
+                "State": "shqsozdnaqvrqass",
+                "Tags": [
+                    {
+                        "Key": "zpwvhklcjomkesiy",
+                        "Value": "qfpnqxeiyifplocd"
+                    }
+                ],
+                "VpcId": "nndwlrlmcpkgavcm"
+            },
+            {
+                "CidrBlock": "abdirsbnsaslkwmp",
+                "CidrBlockAssociationSet": [
+                    {
+                        "AssociationId": "zabquarnkyrmyvyh",
+                        "CidrBlock": "weingcxbxplejxqq",
+                        "CidrBlockState": {
+                            "State": "lqgsxktylgffvqlb",
+                            "StatusMessage": "puhmxxemmwzcydku"
+                        }
+                    }
+                ],
+                "DhcpOptionsId": "odqijlskoqbammqr",
+                "InstanceTenancy": "bqagcixlnuyyswpa",
+                "Ipv6CidrBlockAssociationSet": [
+                    {
+                        "AssociationId": "jmylnxiptmekqowa",
+                        "Ipv6CidrBlock": "kehtjegbjjscuuvb",
+                        "Ipv6CidrBlockState": {
+                            "State": "cercinidvbcoupuo",
+                            "StatusMessage": "wmjpyixjivjdsjih"
+                        },
+                        "Ipv6Pool": "pcjvrhwfmgmzupya",
+                        "NetworkBorderGroup": "reyhltcgryksmblg"
+                    }
+                ],
+                "IsDefault": true,
+                "OwnerId": "rfdquzvfibspwupq",
+                "State": "dbadanaajfifxtdu",
+                "Tags": [
+                    {
+                        "Key": "kaqqrobagncdadcp",
+                        "Value": "vsilpawurrrygtxi"
+                    }
+                ],
+                "VpcId": "iubpqbbpavbfrquj"
+            },
+            {
+                "CidrBlock": "eikjidogpgmibrsu",
+                "CidrBlockAssociationSet": [
+                    {
+                        "AssociationId": "cohydufzokfgahlz",
+                        "CidrBlock": "dprphkajcbnysjwo",
+                        "CidrBlockState": {
+                            "State": "txxyutmuvicvnjqi",
+                            "StatusMessage": "uaxhvfolrjomiott"
+                        }
+                    }
+                ],
+                "DhcpOptionsId": "ohttalgwcszdtxxc",
+                "InstanceTenancy": "skxlufuatdiuvmzj",
+                "Ipv6CidrBlockAssociationSet": [
+                    {
+                        "AssociationId": "heubmqagxyeqldpp",
+                        "Ipv6CidrBlock": "csvjkisyuzcitqgc",
+                        "Ipv6CidrBlockState": {
+                            "State": "ekpnsimtuptgfbbi",
+                            "StatusMessage": "xnhdefaviaztcdrw"
+                        },
+                        "Ipv6Pool": "lddezvbzcnvjvozv",
+                        "NetworkBorderGroup": "iehijzefmcgsqhql"
+                    }
+                ],
+                "IsDefault": true,
+                "OwnerId": "rgcxczwyeiqacstp",
+                "State": "bhzytzxuedvqnzta",
+                "Tags": [
+                    {
+                        "Key": "bbrarcguyweihhaa",
+                        "Value": "qyaoyvujhmvsaock"
+                    }
+                ],
+                "VpcId": "kfbqtyocrafezxgc"
+            },
+            {
+                "CidrBlock": "useededlaywfqkaz",
+                "CidrBlockAssociationSet": [
+                    {
+                        "AssociationId": "zpjxhfnbxzdxdsue",
+                        "CidrBlock": "huutczexuoqiaazs",
+                        "CidrBlockState": {
+                            "State": "cfkgoccdhkcjmvjv",
+                            "StatusMessage": "aelkczxwehzewdgt"
+                        }
+                    }
+                ],
+                "DhcpOptionsId": "mdvjqmlfmjpiprcx",
+                "InstanceTenancy": "tubanblhatqufspl",
+                "Ipv6CidrBlockAssociationSet": [
+                    {
+                        "AssociationId": "nomlznvcvninbxsu",
+                        "Ipv6CidrBlock": "csboobxtvvmtdruq",
+                        "Ipv6CidrBlockState": {
+                            "State": "ehmuwtatkfsnfvsd",
+                            "StatusMessage": "hkewoaqlathfghgh"
+                        },
+                        "Ipv6Pool": "yxzodojrhqflxdjg",
+                        "NetworkBorderGroup": "cfcuxpsytmlvxehu"
+                    }
+                ],
+                "IsDefault": true,
+                "OwnerId": "lionexgvphqrcphk",
+                "State": "vqqgegipfzdjtxxd",
+                "Tags": [
+                    {
+                        "Key": "meacfknxggbfzluj",
+                        "Value": "wmdrcluyuhwmcoex"
+                    }
+                ],
+                "VpcId": "bpirtgizixugewcp"
+            },
+            {
+                "CidrBlock": "whdwnhebncqjnrlb",
+                "CidrBlockAssociationSet": [
+                    {
+                        "AssociationId": "fhqyeppdardqzkqw",
+                        "CidrBlock": "geerquckzocpjxjv",
+                        "CidrBlockState": {
+                            "State": "wvdmiqcaozhgnarb",
+                            "StatusMessage": "ejnwwdshrngyffpd"
+                        }
+                    }
+                ],
+                "DhcpOptionsId": "dgxvgcwjwyntopyk",
+                "InstanceTenancy": "ibvoalwpgxsraolv",
+                "Ipv6CidrBlockAssociationSet": [
+                    {
+                        "AssociationId": "pdgsqetnkpwiviug",
+                        "Ipv6CidrBlock": "efueqiyyedmoktxy",
+                        "Ipv6CidrBlockState": {
+                            "State": "arejkizewmybhcxf",
+                            "StatusMessage": "izgxjdydpzxbldim"
+                        },
+                        "Ipv6Pool": "qxbllsbpkrlnagsj",
+                        "NetworkBorderGroup": "jyrbdkelyzvclnwt"
+                    }
+                ],
+                "IsDefault": true,
+                "OwnerId": "nmgdmjsnlaffbrlq",
+                "State": "rbriyykzesqwxsqy",
+                "Tags": [
+                    {
+                        "Key": "ucluhcupoxthvuuk",
+                        "Value": "dnvsjxqdflsnnydg"
+                    }
+                ],
+                "VpcId": "mvycvgldgxuotqdg"
+            },
+            {
+                "CidrBlock": "imhvaiuaeniciuht",
+                "CidrBlockAssociationSet": [
+                    {
+                        "AssociationId": "rbnurixofdmxbbhg",
+                        "CidrBlock": "mzcihfblsamijbsm",
+                        "CidrBlockState": {
+                            "State": "tnpybgvvcgydeqvw",
+                            "StatusMessage": "kidxhemydwbpjgvn"
+                        }
+                    }
+                ],
+                "DhcpOptionsId": "ocwhxwawpamneseh",
+                "InstanceTenancy": "rthsisfeaocoizet",
+                "Ipv6CidrBlockAssociationSet": [
+                    {
+                        "AssociationId": "gojahpzzjynuvmta",
+                        "Ipv6CidrBlock": "zsdrsjytddptcppz",
+                        "Ipv6CidrBlockState": {
+                            "State": "bkuhnasyrqdrtnje",
+                            "StatusMessage": "djkipkudbmtfyehm"
+                        },
+                        "Ipv6Pool": "prqsednmfbdbwkiz",
+                        "NetworkBorderGroup": "zdtmvohtthkhfktq"
+                    }
+                ],
+                "IsDefault": true,
+                "OwnerId": "ghiwouxsawljssoz",
+                "State": "ozoktlvlqrqhlfxf",
+                "Tags": [
+                    {
+                        "Key": "qmbgypzpnivfjsps",
+                        "Value": "hktdoxsgylhwetax"
+                    }
+                ],
+                "VpcId": "rhfwxenakqgmdsjn"
+            },
+            {
+                "CidrBlock": "nvjlfsbasupiyomj",
+                "CidrBlockAssociationSet": [
+                    {
+                        "AssociationId": "lvrpcotazaubysrs",
+                        "CidrBlock": "dltcxyrtigrtivwb",
+                        "CidrBlockState": {
+                            "State": "hjyfpfmztmigrikz",
+                            "StatusMessage": "mefpzdzunwwsierv"
+                        }
+                    }
+                ],
+                "DhcpOptionsId": "zeexvgwinucwvext",
+                "InstanceTenancy": "cdpevkyxidefxiof",
+                "Ipv6CidrBlockAssociationSet": [
+                    {
+                        "AssociationId": "zkoyunqhorsvilng",
+                        "Ipv6CidrBlock": "bkxivujvtlewvmgl",
+                        "Ipv6CidrBlockState": {
+                            "State": "jfduwlpttqtkgnpa",
+                            "StatusMessage": "pbqddgcodxovyvme"
+                        },
+                        "Ipv6Pool": "jjecjmnedsotlqnn",
+                        "NetworkBorderGroup": "ylbspxygoxmaqonp"
+                    }
+                ],
+                "IsDefault": true,
+                "OwnerId": "auhwrvhjgpmnpjxq",
+                "State": "iistjfpxhzlnebsc",
+                "Tags": [
+                    {
+                        "Key": "vvjjxbvquwgicjnm",
+                        "Value": "nlvvhwwsdqvpaslo"
+                    }
+                ],
+                "VpcId": "nkjnxrwtxgcstxjb"
+            },
+            {
+                "CidrBlock": "khskytqfaqclptkp",
+                "CidrBlockAssociationSet": [
+                    {
+                        "AssociationId": "zgiotizdrcodbrua",
+                        "CidrBlock": "sqkxiakwasocfrtb",
+                        "CidrBlockState": {
+                            "State": "ffkqlmpxswvwkhfs",
+                            "StatusMessage": "lbzhhmssxtqeowlo"
+                        }
+                    }
+                ],
+                "DhcpOptionsId": "hxizlqafmkctscod",
+                "InstanceTenancy": "kvtqmclwkcfsyezn",
+                "Ipv6CidrBlockAssociationSet": [
+                    {
+                        "AssociationId": "aajoidesxcbsrhas",
+                        "Ipv6CidrBlock": "expgfswufqjwolyc",
+                        "Ipv6CidrBlockState": {
+                            "State": "hkkrvsyrowrpyhoz",
+                            "StatusMessage": "hhoqqiibiszaxopu"
+                        },
+                        "Ipv6Pool": "vgxusyucdidjrrma",
+                        "NetworkBorderGroup": "nmfdedqwfljfsgsc"
+                    }
+                ],
+                "IsDefault": true,
+                "OwnerId": "jrqxxrbirlhuwytv",
+                "State": "bfbxubdgaxmjnikw",
+                "Tags": [
+                    {
+                        "Key": "ivuudnqdkrovhjty",
+                        "Value": "vnavxpltkhpczawg"
+                    }
+                ],
+                "VpcId": "hrmlafwgepwcjyvv"
+            },
+            {
+                "CidrBlock": "uzzetnuhexscqwrl",
+                "CidrBlockAssociationSet": [
+                    {
+                        "AssociationId": "sedrpdxlufwnittq",
+                        "CidrBlock": "mrfuissxhbsakobb",
+                        "CidrBlockState": {
+                            "State": "afeodlkzjxzsolzt",
+                            "StatusMessage": "mkruvfmfhnzguwxs"
+                        }
+                    }
+                ],
+                "DhcpOptionsId": "mjxrynvgeedpuvwb",
+                "InstanceTenancy": "tmurvqfrmhhxciqz",
+                "Ipv6CidrBlockAssociationSet": [
+                    {
+                        "AssociationId": "ylavmhylxlybqeeq",
+                        "Ipv6CidrBlock": "tacqphbcccnyviex",
+                        "Ipv6CidrBlockState": {
+                            "State": "sdfihucuuodatqpl",
+                            "StatusMessage": "wqegohrxscpyotls"
+                        },
+                        "Ipv6Pool": "mnuryazeqmhzvygr",
+                        "NetworkBorderGroup": "cvetlsfiwuchdofw"
+                    }
+                ],
+                "IsDefault": true,
+                "OwnerId": "hrpetrztwclapmba",
+                "State": "feaqnmvtmvqjzizd",
+                "Tags": [
+                    {
+                        "Key": "avbehkbickfmjhkn",
+                        "Value": "ptmwpsfbezigyccu"
+                    }
+                ],
+                "VpcId": "rkeynufmlyyygapg"
+            }
+        ],
+        "result_key": "Vpcs"
+    },
+    "meta": {
+        "start": 1711115667.07016,
+        "end": 1711115673.02898,
+        "duration": 5.958830118179321,
+        "service": "ec2",
+        "type": "vpcs"
+    }
+}

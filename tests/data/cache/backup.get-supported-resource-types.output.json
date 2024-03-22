@@ -1,0 +1,36 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "get_supported_resource_types",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            "ResourceType"
+        ],
+        "required": [],
+        "md5": "587936bdee095d9b5e318e70fc5d9f5d",
+        "randomized": [
+            "javgknlxpyonocxr",
+            "karaspqtxjrcsnnf",
+            "sbpqpeuogbiqduww",
+            "chbspbpyuwkwgygw",
+            "ghgbstboezryfuwq",
+            "rlzrymsorcjjnuas",
+            "ttyiksacqekfjkih",
+            "aetsefgofkzducrp",
+            "mvbumgxiatqefrye",
+            "jlziuzonpcqnekjf"
+        ],
+        "result_key": "ResourceTypes"
+    },
+    "meta": {
+        "start": 1711115279.684548,
+        "end": 1711115287.260952,
+        "duration": 7.576409101486206,
+        "service": "backup",
+        "type": null
+    }
+}

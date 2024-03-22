@@ -1,0 +1,67 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "get_logging_options",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": {
+            "logType": "logType",
+            "logGroupName": "logGroupName"
+        },
+        "required": [],
+        "md5": "2e479bc0b5c74dd7e50262dff41fe1e3",
+        "randomized": [
+            {
+                "logGroupName": "onfsciscilijklnk",
+                "logType": "sjinfspzqzfmvmxx"
+            },
+            {
+                "logGroupName": "ulpcqufdfvatxims",
+                "logType": "qnbtsvzmmgtstuxn"
+            },
+            {
+                "logGroupName": "zhazrqjfohtodyjc",
+                "logType": "aupjvbogqjtxxuzs"
+            },
+            {
+                "logGroupName": "sjtvbxlkipktgtti",
+                "logType": "ocyayaennuxwrnqm"
+            },
+            {
+                "logGroupName": "gsagnqgtztfubhrl",
+                "logType": "qlecqmbrxxoppqdr"
+            },
+            {
+                "logGroupName": "cwavjwnlhonecncz",
+                "logType": "xrpciruoywutiqfd"
+            },
+            {
+                "logGroupName": "uumptjvzmktgatpg",
+                "logType": "rkkoaxgbbnpoateh"
+            },
+            {
+                "logGroupName": "llmjjrrstjiauyoc",
+                "logType": "zmcnqkbjbtakkotr"
+            },
+            {
+                "logGroupName": "kzsxyvrylxwqhftn",
+                "logType": "fjclbtwopwgjjloa"
+            },
+            {
+                "logGroupName": "sqogktyerwosbhtf",
+                "logType": "faadeugpfcfgfvlc"
+            }
+        ],
+        "result_key": "cloudWatchLogDelivery"
+    },
+    "meta": {
+        "start": 1711115970.162224,
+        "end": 1711115976.960953,
+        "duration": 6.7987380027771,
+        "service": "iotfleetwise",
+        "type": null
+    }
+}

@@ -1,0 +1,122 @@
+{
+    "input": {
+        "template": {
+            "BillingPeriod": "",
+            "MaxResults": 0,
+            "NextToken": "",
+            "Filters": {
+                "BillingGroupArns": [
+                    ""
+                ]
+            }
+        },
+        "required": [],
+        "md5": "ffd83f2eceb1d0e08cd92f68536511bb",
+        "boto_command": "list_billing_group_cost_reports",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "Arn": "Arn",
+                "AWSCost": "AWSCost",
+                "ProformaCost": "ProformaCost",
+                "Margin": "Margin",
+                "MarginPercentage": "MarginPercentage",
+                "Currency": "Currency"
+            }
+        ],
+        "required": [],
+        "md5": "229a6c49bd23c05bd06c4fc054a8a181",
+        "randomized": [
+            {
+                "AWSCost": "ifcrvlmmolsxfmkb",
+                "Arn": "podocglijoavvohw",
+                "Currency": "kymgzzpusxgiyazk",
+                "Margin": "uqehcnhxneayybnm",
+                "MarginPercentage": "vnhmubcefhikivus",
+                "ProformaCost": "rkuwfqjecmetvnfz"
+            },
+            {
+                "AWSCost": "hjeilzdgwliobnvv",
+                "Arn": "tjycunouyqszeqdn",
+                "Currency": "phtcrxmcviehtwqm",
+                "Margin": "akkrcmylfqfhevbv",
+                "MarginPercentage": "jgsjjzezkbualhap",
+                "ProformaCost": "eydlckiwywdoprmw"
+            },
+            {
+                "AWSCost": "syaqmbcetggtfbuj",
+                "Arn": "nbzzxqgnobngmprq",
+                "Currency": "dbqeelascoapuztn",
+                "Margin": "hzwaojvekvmrjkhu",
+                "MarginPercentage": "cokgbsaqzelagitn",
+                "ProformaCost": "jnwkdsxmnqqqgran"
+            },
+            {
+                "AWSCost": "kuhiuyoiatqyfwlt",
+                "Arn": "mjpcpgahktinxjly",
+                "Currency": "aotobvtgomsaluzl",
+                "Margin": "whvqiothkltvymnc",
+                "MarginPercentage": "pjvguwmbijlubjsb",
+                "ProformaCost": "fvijxirloovpqyes"
+            },
+            {
+                "AWSCost": "fsjncljzkvdgogec",
+                "Arn": "mpyappoahfbrytvn",
+                "Currency": "tytgilxdipjxlbrk",
+                "Margin": "goptnsrigjtcmzqb",
+                "MarginPercentage": "jpluoumephzigsqf",
+                "ProformaCost": "boaslcsvjehiphbl"
+            },
+            {
+                "AWSCost": "rcskgfkogwlbpism",
+                "Arn": "abbcndtkvfizecgl",
+                "Currency": "cydbuunmdmgsmypm",
+                "Margin": "vebhgisyefxwrllj",
+                "MarginPercentage": "werzlbxgpqqvkklw",
+                "ProformaCost": "kgyxqwnnatonfiqp"
+            },
+            {
+                "AWSCost": "gnklygnbzgbheqne",
+                "Arn": "dqiuefrifeqvfaed",
+                "Currency": "gpvfgelfdjysczsi",
+                "Margin": "pctbuelakhwrblkr",
+                "MarginPercentage": "qovvpamogeunrttn",
+                "ProformaCost": "swukoupyfidpdwto"
+            },
+            {
+                "AWSCost": "qufjgryzehfxuzre",
+                "Arn": "psuwpmlvrmsykloc",
+                "Currency": "dmxrwtkamzbixuak",
+                "Margin": "jqbhyryzzxtuoolo",
+                "MarginPercentage": "aijscnmgqdlswghw",
+                "ProformaCost": "rhlrlyzheopwrtov"
+            },
+            {
+                "AWSCost": "jscxpqsoyygxhkmx",
+                "Arn": "brkcfvnhkbeozqtm",
+                "Currency": "ufgvmaatdzmqmuhv",
+                "Margin": "kyyutmscpwtoferj",
+                "MarginPercentage": "hpgpkukpwmozrute",
+                "ProformaCost": "skhvuwrhdgzsbzuj"
+            },
+            {
+                "AWSCost": "vgmllghlzzfdyuoj",
+                "Arn": "eyjdxvmwnnwgtddz",
+                "Currency": "mlnwnrslwilecyxn",
+                "Margin": "ujnkxzozyxvwvprt",
+                "MarginPercentage": "bpyxpoasifpjdzzp",
+                "ProformaCost": "qghogmpqiyyaxway"
+            }
+        ],
+        "result_key": "BillingGroupCostReports"
+    },
+    "meta": {
+        "start": 1711115300.286399,
+        "end": 1711115307.895207,
+        "duration": 7.608818054199219,
+        "service": "billingconductor",
+        "type": "billing_group_cost_reports"
+    }
+}

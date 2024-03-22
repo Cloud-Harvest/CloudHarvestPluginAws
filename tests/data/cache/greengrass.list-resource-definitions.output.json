@@ -1,0 +1,160 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": "",
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "d0e08436e93a85ebb428b506f6d809dd",
+        "boto_command": "list_resource_definitions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "Arn": "Arn",
+                "CreationTimestamp": "CreationTimestamp",
+                "Id": "Id",
+                "LastUpdatedTimestamp": "LastUpdatedTimestamp",
+                "LatestVersion": "LatestVersion",
+                "LatestVersionArn": "LatestVersionArn",
+                "Name": "Name",
+                "Tags": {
+                    "KeyName": ""
+                }
+            }
+        ],
+        "required": [],
+        "md5": "6d1de489dd79ec546201be5c54feaebc",
+        "randomized": [
+            {
+                "Arn": "kbzraggwytsqzzmc",
+                "CreationTimestamp": "lqukxbrjugepagzg",
+                "Id": "lmyjqsctvioqcwaj",
+                "LastUpdatedTimestamp": "nsyghtuomevibdve",
+                "LatestVersion": "msopeowywhyvugjj",
+                "LatestVersionArn": "iyytfubkhuwrskgo",
+                "Name": "buxqeggirzrvlkvv",
+                "Tags": {
+                    "KeyName": "waabackumrltsxnq"
+                }
+            },
+            {
+                "Arn": "qkapluxenqkkgjyo",
+                "CreationTimestamp": "llefbokdqvjiafqd",
+                "Id": "wfiqhocmbctkrdft",
+                "LastUpdatedTimestamp": "khelidkyqzluqvwo",
+                "LatestVersion": "dpxmwyetmarbcchd",
+                "LatestVersionArn": "dmzcxvdulbmxpmwe",
+                "Name": "cqbmdbgakmzdtbur",
+                "Tags": {
+                    "KeyName": "nqfwxirrqqrlvelq"
+                }
+            },
+            {
+                "Arn": "idubymdkflhkfvzl",
+                "CreationTimestamp": "pioecapkbrkqufhf",
+                "Id": "dmwnrihkknbxbtoa",
+                "LastUpdatedTimestamp": "lriygaeohkcrshbc",
+                "LatestVersion": "xmqkbpadelpkgybc",
+                "LatestVersionArn": "zzajehpuaiitlkea",
+                "Name": "ozewboulqzugjnnf",
+                "Tags": {
+                    "KeyName": "fwwfrswqtjxqpixu"
+                }
+            },
+            {
+                "Arn": "ypzquzvzfgaxcpvv",
+                "CreationTimestamp": "vmyjxafevzwotzgp",
+                "Id": "bbphbbouifoandeq",
+                "LastUpdatedTimestamp": "cjyqzoqhwpqhcpuy",
+                "LatestVersion": "mpipwgxklvdzxiqi",
+                "LatestVersionArn": "vxvsmohfwkztuqex",
+                "Name": "rrtjehuhtzygkvzn",
+                "Tags": {
+                    "KeyName": "brceaomvasqbyigk"
+                }
+            },
+            {
+                "Arn": "vgxcvngjsytupdig",
+                "CreationTimestamp": "aivjbisehisavwom",
+                "Id": "pjldqeogpsalzzri",
+                "LastUpdatedTimestamp": "ohvfcfimxqxebpqe",
+                "LatestVersion": "mlysqkqxyltwteyn",
+                "LatestVersionArn": "odunfwcyevuwgvxl",
+                "Name": "xlrzctpfgdanmaqy",
+                "Tags": {
+                    "KeyName": "kgnuaashzswbhahl"
+                }
+            },
+            {
+                "Arn": "ukyxmztvocjctvxh",
+                "CreationTimestamp": "ejbqipuumptgglij",
+                "Id": "whvmiddsgmtkkysr",
+                "LastUpdatedTimestamp": "vaovherljtcibvyj",
+                "LatestVersion": "dhknrnkfhsgjozhk",
+                "LatestVersionArn": "qhqnhccvvluguqcj",
+                "Name": "rujmrdezhlezgptk",
+                "Tags": {
+                    "KeyName": "rffupyjnjjwwsyba"
+                }
+            },
+            {
+                "Arn": "dltlrhxtazottknt",
+                "CreationTimestamp": "zavrvhxbsdbtscem",
+                "Id": "bjepvrgxngzkycns",
+                "LastUpdatedTimestamp": "tnlkdegljxwlcvwd",
+                "LatestVersion": "pblbfbvadxnptadz",
+                "LatestVersionArn": "jkctejtzdndxdqrs",
+                "Name": "rwlcdcotkbptdejh",
+                "Tags": {
+                    "KeyName": "oihhhfpyyqpgvczo"
+                }
+            },
+            {
+                "Arn": "xbgpaecorrwmrpts",
+                "CreationTimestamp": "ktxlcgodfqpnokmt",
+                "Id": "bcxkpgzqqeuopxhp",
+                "LastUpdatedTimestamp": "oigbooxbrnuqnhco",
+                "LatestVersion": "dedmvvtvgvrrsqmk",
+                "LatestVersionArn": "lvhrbkbfqsotexcw",
+                "Name": "ycrssvdijneistnh",
+                "Tags": {
+                    "KeyName": "mdimqulsmavpvxuh"
+                }
+            },
+            {
+                "Arn": "lsaripfnvntaihbe",
+                "CreationTimestamp": "zzrqrtvrhelwztsy",
+                "Id": "ewrpuoklnlnrwfbe",
+                "LastUpdatedTimestamp": "bbvoqsniqxdllmrs",
+                "LatestVersion": "yqjdchngpmnkjfnj",
+                "LatestVersionArn": "zbokeoqwnzozjyde",
+                "Name": "ptryrhtyndnoopvq",
+                "Tags": {
+                    "KeyName": "lsodkbukutfyvptr"
+                }
+            },
+            {
+                "Arn": "vbaifyicwjhtacvu",
+                "CreationTimestamp": "wchsjkpmbwhnffuv",
+                "Id": "oltqsewtdzvrmvla",
+                "LastUpdatedTimestamp": "skmvrrqxhagsxvny",
+                "LatestVersion": "axbkommvjrrszghh",
+                "LatestVersionArn": "lnkogbggwhxsltzo",
+                "Name": "nftargwluyzhjjou",
+                "Tags": {
+                    "KeyName": "cztljboxmkrakckv"
+                }
+            }
+        ],
+        "result_key": "Definitions"
+    },
+    "meta": {
+        "start": 1711115853.868585,
+        "end": 1711115860.884963,
+        "duration": 7.016387939453125,
+        "service": "greengrass",
+        "type": "resource_definitions"
+    }
+}

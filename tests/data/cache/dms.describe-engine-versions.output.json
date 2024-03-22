@@ -1,0 +1,160 @@
+{
+    "input": {
+        "template": {
+            "MaxRecords": 0,
+            "Marker": ""
+        },
+        "required": [],
+        "md5": "a47b512f6b101d88382d9de54cd6b99a",
+        "boto_command": "describe_engine_versions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "Version": "Version",
+                "Lifecycle": "Lifecycle",
+                "ReleaseStatus": "ReleaseStatus",
+                "LaunchDate": "1970-01-01T00:00:00",
+                "AutoUpgradeDate": "1970-01-01T00:00:00",
+                "DeprecationDate": "1970-01-01T00:00:00",
+                "ForceUpgradeDate": "1970-01-01T00:00:00",
+                "AvailableUpgrades": [
+                    "String"
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "8578f0f1af564b0d0a4a5c8d9c025656",
+        "randomized": [
+            {
+                "AutoUpgradeDate": "ehtgkwhzmjzlbeaf",
+                "AvailableUpgrades": [
+                    "srdxuboxjiiiergj"
+                ],
+                "DeprecationDate": "chwouutngszspjro",
+                "ForceUpgradeDate": "flahbtwjbdncjclj",
+                "LaunchDate": "tofsmoodvzqrzwpv",
+                "Lifecycle": "ohvuyiombcvsamdm",
+                "ReleaseStatus": "pfnrzkrjdatigdqm",
+                "Version": "lukceritijscphai"
+            },
+            {
+                "AutoUpgradeDate": "fmjymogmylumqpiy",
+                "AvailableUpgrades": [
+                    "uwpewtjkakrcmend"
+                ],
+                "DeprecationDate": "otnbbipkzbenextb",
+                "ForceUpgradeDate": "jegqqshruraxsfym",
+                "LaunchDate": "unhivchlkgqdyugx",
+                "Lifecycle": "wwumbhujoovnwpol",
+                "ReleaseStatus": "xqppojfszjtlemqq",
+                "Version": "aygkrkfoayepxfbf"
+            },
+            {
+                "AutoUpgradeDate": "ypuaomlytoumywfr",
+                "AvailableUpgrades": [
+                    "zscbhybiotijhseq"
+                ],
+                "DeprecationDate": "ljjduuoataousoxt",
+                "ForceUpgradeDate": "wdqulwwyzuibuisw",
+                "LaunchDate": "zkachimjjkqlbkrf",
+                "Lifecycle": "kqdzvazturgprvth",
+                "ReleaseStatus": "kblckwyqjckkgwrw",
+                "Version": "aatfkmzdzbhqtoeo"
+            },
+            {
+                "AutoUpgradeDate": "lzysgmlddqevxrci",
+                "AvailableUpgrades": [
+                    "wlsfbaqgzzlorbwl"
+                ],
+                "DeprecationDate": "dozjfxodcrkrxyap",
+                "ForceUpgradeDate": "ksofuskitisdxhvs",
+                "LaunchDate": "oqzayegtjsxymheq",
+                "Lifecycle": "zxtcuopeheyffvjy",
+                "ReleaseStatus": "bbpfvjzwbyiutccp",
+                "Version": "ciukbqttapqqresp"
+            },
+            {
+                "AutoUpgradeDate": "tqjdpmkjjfdfsbcj",
+                "AvailableUpgrades": [
+                    "dpaoglgmmoeuvxer"
+                ],
+                "DeprecationDate": "rtukeyfdviopqtbn",
+                "ForceUpgradeDate": "xabdfvgjvnqgekfc",
+                "LaunchDate": "wnyybkhnsbdlhuas",
+                "Lifecycle": "kugqmzvxdqougboi",
+                "ReleaseStatus": "okwbckamoovvsdbk",
+                "Version": "bsxctzpmzfitizah"
+            },
+            {
+                "AutoUpgradeDate": "lzwvdlmnpdpvpdpb",
+                "AvailableUpgrades": [
+                    "hxjhwrrnexgkuyiy"
+                ],
+                "DeprecationDate": "gvetjhmikxyphlrk",
+                "ForceUpgradeDate": "igblourzwpcqxkfb",
+                "LaunchDate": "defoaoamsqejdrrc",
+                "Lifecycle": "jwpabcelbfbmsdyv",
+                "ReleaseStatus": "rhwfhmkxpjgpnflc",
+                "Version": "rjergjlmeeynlznj"
+            },
+            {
+                "AutoUpgradeDate": "ikscjvtgvmkfbssp",
+                "AvailableUpgrades": [
+                    "gbvuawbtqmycovkx"
+                ],
+                "DeprecationDate": "iwepqbftywgzxatb",
+                "ForceUpgradeDate": "cwmiktyqcrirrmwe",
+                "LaunchDate": "hygmrbbjslscttmg",
+                "Lifecycle": "gmnjkzgddabevelc",
+                "ReleaseStatus": "jvlsbnhfyqfidojp",
+                "Version": "busuwnjojstlnoer"
+            },
+            {
+                "AutoUpgradeDate": "jmbuhfmfvoizglyq",
+                "AvailableUpgrades": [
+                    "yugrxgvkcuqjffcx"
+                ],
+                "DeprecationDate": "zzwzlivjeivzxbpd",
+                "ForceUpgradeDate": "pzgopsntvyamdigj",
+                "LaunchDate": "bdojbspwyertocnd",
+                "Lifecycle": "zubzwitcujzvhtou",
+                "ReleaseStatus": "xbitpvehctypexdc",
+                "Version": "jbdfiwjgbbvwyoob"
+            },
+            {
+                "AutoUpgradeDate": "asioxjqwzmqrbezd",
+                "AvailableUpgrades": [
+                    "ntcbmssyrztovoyc"
+                ],
+                "DeprecationDate": "zaksatxhzzveioft",
+                "ForceUpgradeDate": "bciaxgiyvrlpdxyf",
+                "LaunchDate": "uqgactezdibtugdl",
+                "Lifecycle": "jcmcwxuqkeetxvwk",
+                "ReleaseStatus": "qtpdfedmfqmrgixz",
+                "Version": "ageawxrdpujlbssm"
+            },
+            {
+                "AutoUpgradeDate": "qnyjjbbkdzkskvvp",
+                "AvailableUpgrades": [
+                    "sxlnfyjsecmkqtqa"
+                ],
+                "DeprecationDate": "irgptzairslhddcg",
+                "ForceUpgradeDate": "gihkzjgcksolroog",
+                "LaunchDate": "lpyqjukqhlgyzaxl",
+                "Lifecycle": "bnhyjbiwdexnqylt",
+                "ReleaseStatus": "akpzqycttigykxhs",
+                "Version": "neecnitgaztebzpd"
+            }
+        ],
+        "result_key": "EngineVersions"
+    },
+    "meta": {
+        "start": 1711115574.252647,
+        "end": 1711115580.264579,
+        "duration": 6.011942148208618,
+        "service": "dms",
+        "type": "engine_versions"
+    }
+}

@@ -1,0 +1,109 @@
+{
+    "input": {
+        "template": {
+            "CreatedAfter": "1970-01-01T00:00:00",
+            "CreatedBefore": "1970-01-01T00:00:00",
+            "SortBy": "Name",
+            "SortOrder": "Ascending",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "b3fc3af052d5030e4215b935976bfcc2",
+        "boto_command": "list_lineage_groups",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "LineageGroupArn": "LineageGroupArn",
+                "LineageGroupName": "LineageGroupName",
+                "DisplayName": "DisplayName",
+                "CreationTime": "1970-01-01T00:00:00",
+                "LastModifiedTime": "1970-01-01T00:00:00"
+            }
+        ],
+        "required": [],
+        "md5": "b8fc8fccbb8c16e6d69ee1058cae65f5",
+        "randomized": [
+            {
+                "CreationTime": "dazyhekozvbosciq",
+                "DisplayName": "swrvdrsnflekvvnj",
+                "LastModifiedTime": "mwjxlmnrybtcoejw",
+                "LineageGroupArn": "upshwdfoxslaqhoe",
+                "LineageGroupName": "prkyvykatowgpyrj"
+            },
+            {
+                "CreationTime": "dntdebdbbjdjkxma",
+                "DisplayName": "xwccwgxkqpidrsbe",
+                "LastModifiedTime": "tgzgmuvzmswfuieb",
+                "LineageGroupArn": "tyskvwqednzndddp",
+                "LineageGroupName": "arxiwxkinkyjkfbq"
+            },
+            {
+                "CreationTime": "lsyhzogrpntmffsl",
+                "DisplayName": "saetqmsdfxogtvxc",
+                "LastModifiedTime": "kqiidjezwclwksay",
+                "LineageGroupArn": "vvklhztgybbwomqo",
+                "LineageGroupName": "twvdjupalszvpnkx"
+            },
+            {
+                "CreationTime": "tairvaoqqoaxswvl",
+                "DisplayName": "bxgyxbgkettmnjwp",
+                "LastModifiedTime": "kygksrpcmdfpsipw",
+                "LineageGroupArn": "keohbrfoiogjgtup",
+                "LineageGroupName": "splmqhllzhckjwgt"
+            },
+            {
+                "CreationTime": "uxooaezdbzmahilx",
+                "DisplayName": "vkehfjscfftnvwmk",
+                "LastModifiedTime": "ebshpyycqqmhlimo",
+                "LineageGroupArn": "mxynxvltbnrqlqzz",
+                "LineageGroupName": "ckwsnqbjecvhbmzx"
+            },
+            {
+                "CreationTime": "lmrhfedhjuxisnol",
+                "DisplayName": "zohmuwwgvoqkipmh",
+                "LastModifiedTime": "mmsocdhvgugkonml",
+                "LineageGroupArn": "sfeffvrlfnfmlhnb",
+                "LineageGroupName": "rsjozmwwvdhbjoia"
+            },
+            {
+                "CreationTime": "xxrujnzqbfnfutxq",
+                "DisplayName": "kgmahwqttplokgki",
+                "LastModifiedTime": "heusbhligbkwamxv",
+                "LineageGroupArn": "mrkgjbujwsyitfmp",
+                "LineageGroupName": "qblaavxoqvyaodlo"
+            },
+            {
+                "CreationTime": "wqgpqgwbmknbjpyk",
+                "DisplayName": "dgxtszogskxmiytt",
+                "LastModifiedTime": "jnzyfhqkyrcnolho",
+                "LineageGroupArn": "vxvdcpzgjvgzyrna",
+                "LineageGroupName": "wsntcekmbidihlof"
+            },
+            {
+                "CreationTime": "klrdpmnbgkavmqur",
+                "DisplayName": "qeapbsnqgpkddbnj",
+                "LastModifiedTime": "jnfrwjawoygahaku",
+                "LineageGroupArn": "lwzrqmmvhhfsqgxz",
+                "LineageGroupName": "qasghijmqtdkgpjg"
+            },
+            {
+                "CreationTime": "uhlbwurxipmsltow",
+                "DisplayName": "wxzgbanrogzvonvk",
+                "LastModifiedTime": "prrxtefyboedgsdw",
+                "LineageGroupArn": "koxeoivokjkwcdcf",
+                "LineageGroupName": "zgmlgfxiknsbzdtl"
+            }
+        ],
+        "result_key": "LineageGroupSummaries"
+    },
+    "meta": {
+        "start": 1711116558.838852,
+        "end": 1711116566.108357,
+        "duration": 7.269514083862305,
+        "service": "sagemaker",
+        "type": "lineage_groups"
+    }
+}

@@ -1,0 +1,225 @@
+{
+    "input": {
+        "template": {
+            "DBProxyName": "",
+            "DBProxyEndpointName": "",
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "Marker": "",
+            "MaxRecords": 0
+        },
+        "required": [],
+        "md5": "7ef3e10038b1c16f0b0966ed70168488",
+        "boto_command": "describe_db_proxy_endpoints",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "DBProxyEndpointName": "DBProxyEndpointName",
+                "DBProxyEndpointArn": "DBProxyEndpointArn",
+                "DBProxyName": "DBProxyName",
+                "Status": "Status",
+                "VpcId": "VpcId",
+                "VpcSecurityGroupIds": [
+                    "String"
+                ],
+                "VpcSubnetIds": [
+                    "String"
+                ],
+                "Endpoint": "Endpoint",
+                "CreatedDate": "1970-01-01T00:00:00",
+                "TargetRole": "TargetRole",
+                "IsDefault": true
+            }
+        ],
+        "required": [],
+        "md5": "ce6188a63b215e9555c0860e1921302f",
+        "randomized": [
+            {
+                "CreatedDate": "agcfdcikzuefbpnp",
+                "DBProxyEndpointArn": "piisourlkrociour",
+                "DBProxyEndpointName": "fnygrptfdktlkajo",
+                "DBProxyName": "oudhgmjhxttspdzh",
+                "Endpoint": "njiesakqfwgkwyuu",
+                "IsDefault": true,
+                "Status": "spbcheralygxpyxz",
+                "TargetRole": "rovqtugnnjvpphwm",
+                "VpcId": "kigbpooilddonwfv",
+                "VpcSecurityGroupIds": [
+                    "yhpzqueobzkkwlyr"
+                ],
+                "VpcSubnetIds": [
+                    "uiaylkhhrsekwcaz"
+                ]
+            },
+            {
+                "CreatedDate": "tozwikwejrsekypm",
+                "DBProxyEndpointArn": "nxfetqrmdlnfpmha",
+                "DBProxyEndpointName": "uaawdugdbigfqfjx",
+                "DBProxyName": "sydyvwpwbtdgauad",
+                "Endpoint": "nvleqyiczumkbcob",
+                "IsDefault": true,
+                "Status": "lnoykidsnzeduaub",
+                "TargetRole": "tedcvefjwgghcxrv",
+                "VpcId": "pncvzdzkyhlgmdug",
+                "VpcSecurityGroupIds": [
+                    "mptqduhaxfcevzmg"
+                ],
+                "VpcSubnetIds": [
+                    "ihgjgjfmztamynml"
+                ]
+            },
+            {
+                "CreatedDate": "ykwygvatglycqhcj",
+                "DBProxyEndpointArn": "qzuxlzyydjvhvufb",
+                "DBProxyEndpointName": "spvsurkowjwomkyh",
+                "DBProxyName": "buiifgjiihfvktii",
+                "Endpoint": "nvuhmoulzuvxnghr",
+                "IsDefault": true,
+                "Status": "qgmeqbjmvfpsecrg",
+                "TargetRole": "jothhzgpuvxnwmqu",
+                "VpcId": "ykxypgqfccoynvrp",
+                "VpcSecurityGroupIds": [
+                    "orpffxbdbtmwcpev"
+                ],
+                "VpcSubnetIds": [
+                    "mazpjhqdjmtgcric"
+                ]
+            },
+            {
+                "CreatedDate": "thpuxenigplaokpb",
+                "DBProxyEndpointArn": "wsuhuvtvkagiyxvv",
+                "DBProxyEndpointName": "uyzzpnkikgxhmdgw",
+                "DBProxyName": "cxdphsmwjqvposdr",
+                "Endpoint": "uxjpcnqpumfskaca",
+                "IsDefault": true,
+                "Status": "keytvyuakzdkoawm",
+                "TargetRole": "oowpnualvpapuzlc",
+                "VpcId": "tanmcctuxikhtxei",
+                "VpcSecurityGroupIds": [
+                    "xtehcajosrwialux"
+                ],
+                "VpcSubnetIds": [
+                    "pvjwokfermeqdkan"
+                ]
+            },
+            {
+                "CreatedDate": "hibabvefxanedrrn",
+                "DBProxyEndpointArn": "xjrkhzaqcdedkqip",
+                "DBProxyEndpointName": "qsowtfxqdqahaayo",
+                "DBProxyName": "yjjrdjyfkymrrupu",
+                "Endpoint": "msdsvosaulqxhmhc",
+                "IsDefault": true,
+                "Status": "nmmymrjurhbihqml",
+                "TargetRole": "lvguudcphenxezrp",
+                "VpcId": "jnlmidbasdwaeaqk",
+                "VpcSecurityGroupIds": [
+                    "zuoqyiikutkkoxfr"
+                ],
+                "VpcSubnetIds": [
+                    "rysfatexadnfzlnx"
+                ]
+            },
+            {
+                "CreatedDate": "sppavawxuhobqsfo",
+                "DBProxyEndpointArn": "hwdbabkklopfrunh",
+                "DBProxyEndpointName": "cqfexoqmsohjtpst",
+                "DBProxyName": "qqmxqezfrmchfskz",
+                "Endpoint": "kgiucywcvgqgzduf",
+                "IsDefault": true,
+                "Status": "gfdgvucpioxlltpw",
+                "TargetRole": "kubzbjhfzzhworsz",
+                "VpcId": "umxpuxuyrfyqppkx",
+                "VpcSecurityGroupIds": [
+                    "uenkgihfcxncrvuj"
+                ],
+                "VpcSubnetIds": [
+                    "eptjoxluihbakvgu"
+                ]
+            },
+            {
+                "CreatedDate": "cldzuatecianjqpi",
+                "DBProxyEndpointArn": "zntenxvfrfczhgwu",
+                "DBProxyEndpointName": "nftftrcwwevyzucr",
+                "DBProxyName": "yzmrwdcotdhxxudh",
+                "Endpoint": "nlngafpggsofqdmw",
+                "IsDefault": true,
+                "Status": "plpyvadwtnvvyefb",
+                "TargetRole": "fkzabqopsojoodkd",
+                "VpcId": "kgedxlbclzbmlurs",
+                "VpcSecurityGroupIds": [
+                    "sqrgkfxlqfridshr"
+                ],
+                "VpcSubnetIds": [
+                    "bdlltddvxuhbqiua"
+                ]
+            },
+            {
+                "CreatedDate": "gahuujpnytfrixcq",
+                "DBProxyEndpointArn": "vybftuvfuiqvuuft",
+                "DBProxyEndpointName": "hnshehosehoqktij",
+                "DBProxyName": "encdyctskpgyzukc",
+                "Endpoint": "rwcmzqunyfqracfu",
+                "IsDefault": true,
+                "Status": "rbeqlcepmhkbgaqr",
+                "TargetRole": "fjpefpfgencuctcu",
+                "VpcId": "taueqwyjwvkqswet",
+                "VpcSecurityGroupIds": [
+                    "yelfgknckvpvffpj"
+                ],
+                "VpcSubnetIds": [
+                    "issngivhzwyaiqtc"
+                ]
+            },
+            {
+                "CreatedDate": "qhkjjwjjkrlykrbv",
+                "DBProxyEndpointArn": "epgweitfnkvebsfo",
+                "DBProxyEndpointName": "jjldpjegsnxgvbrh",
+                "DBProxyName": "pmdatjtggeslwrow",
+                "Endpoint": "uyamyfktjgiofivz",
+                "IsDefault": true,
+                "Status": "kmsflzuvoxrakjvr",
+                "TargetRole": "pcloepsmfzcjmthn",
+                "VpcId": "vbxirhchxcdadbmc",
+                "VpcSecurityGroupIds": [
+                    "hoaktaupgzjvhxxz"
+                ],
+                "VpcSubnetIds": [
+                    "tcpjfmfkbwpjhwra"
+                ]
+            },
+            {
+                "CreatedDate": "crezlbgxdkrsoftp",
+                "DBProxyEndpointArn": "pxiyqttwnwzrhaxn",
+                "DBProxyEndpointName": "sprqcjqhxqsyofxd",
+                "DBProxyName": "aunvvaoxerxzpiua",
+                "Endpoint": "clgvzhtzlqhdfome",
+                "IsDefault": true,
+                "Status": "aeqkksoxdywgsnyd",
+                "TargetRole": "guxijxkivrtfquex",
+                "VpcId": "imbkvnjiidsjwxui",
+                "VpcSecurityGroupIds": [
+                    "zewatjinvkhikzeq"
+                ],
+                "VpcSubnetIds": [
+                    "ozwntqkwwbtlscop"
+                ]
+            }
+        ],
+        "result_key": "DBProxyEndpoints"
+    },
+    "meta": {
+        "start": 1711116409.531237,
+        "end": 1711116414.733523,
+        "duration": 5.202297210693359,
+        "service": "rds",
+        "type": "db_proxy_endpoints"
+    }
+}

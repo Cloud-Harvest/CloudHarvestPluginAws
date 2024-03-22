@@ -1,0 +1,83 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "9dece7f85fc1c3f944425b1f68a8e6e1",
+        "boto_command": "list_service_profiles",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "Arn": "Arn",
+                "Name": "Name",
+                "Id": "Id"
+            }
+        ],
+        "required": [],
+        "md5": "a557c6186d907223a0419dfd106a380c",
+        "randomized": [
+            {
+                "Arn": "fouddlihdezhfewb",
+                "Id": "klagvbyyjwjggwli",
+                "Name": "iimqnituqvtobpnn"
+            },
+            {
+                "Arn": "dgzvfbvzxawcjuyf",
+                "Id": "zsrqtobvcohrcdsy",
+                "Name": "zslahgqedsueqkoy"
+            },
+            {
+                "Arn": "entkcghjnbkwjpmo",
+                "Id": "dcbadflwxorffoit",
+                "Name": "iepwmjbefdnxydbf"
+            },
+            {
+                "Arn": "adtimhoocusscvpy",
+                "Id": "kopyucalewkzqwlc",
+                "Name": "vjzgwrkzddueiuyx"
+            },
+            {
+                "Arn": "ljygdqwuehrgvedp",
+                "Id": "piaojkxlzdifyqwt",
+                "Name": "blislukwrhqkpfne"
+            },
+            {
+                "Arn": "lajeuieljbxpvgmf",
+                "Id": "hkctohagbuznrsfm",
+                "Name": "cluztrhmtsuxoije"
+            },
+            {
+                "Arn": "nnhrdmwmwcknsuew",
+                "Id": "nicnubahoypfmjhy",
+                "Name": "wyzbovwoeymrgcvq"
+            },
+            {
+                "Arn": "zhgewtzywkcpbnaf",
+                "Id": "zydlofudmbmboggr",
+                "Name": "clihsptrdzkjwmxf"
+            },
+            {
+                "Arn": "roopnkpyqlvaywrt",
+                "Id": "slrmnyieqpcacjsc",
+                "Name": "fbeaczmrbeydkgxn"
+            },
+            {
+                "Arn": "ddnljzvbskkrrehy",
+                "Id": "aehgmhldmteejakk",
+                "Name": "vdizmqkdjlzsbpto"
+            }
+        ],
+        "result_key": "ServiceProfileList"
+    },
+    "meta": {
+        "start": 1711116002.705393,
+        "end": 1711116010.120509,
+        "duration": 7.415125846862793,
+        "service": "iotwireless",
+        "type": "service_profiles"
+    }
+}

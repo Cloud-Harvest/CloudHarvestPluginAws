@@ -1,0 +1,116 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "9dece7f85fc1c3f944425b1f68a8e6e1",
+        "boto_command": "list_datasets",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "DatasetArn": "DatasetArn",
+                "DatasetName": "DatasetName",
+                "DatasetType": "DatasetType",
+                "Domain": "Domain",
+                "CreationTime": "1970-01-01T00:00:00",
+                "LastModificationTime": "1970-01-01T00:00:00"
+            }
+        ],
+        "required": [],
+        "md5": "2c4262d233411365db8b00789671f283",
+        "randomized": [
+            {
+                "CreationTime": "yutxplqxnkcblwqr",
+                "DatasetArn": "zemfprwvbutfdicp",
+                "DatasetName": "aivqlzcxcckehtpq",
+                "DatasetType": "ofchyozumqnsjaoc",
+                "Domain": "gfcgdpbfyupgxznh",
+                "LastModificationTime": "uxvwhdyrcuiqiflh"
+            },
+            {
+                "CreationTime": "vouyierfxzngywit",
+                "DatasetArn": "xbeqidmormcbutbr",
+                "DatasetName": "phrvnvzlqcjfvbaf",
+                "DatasetType": "stfqqyzugozcbovn",
+                "Domain": "zgotkfiqjjroxiim",
+                "LastModificationTime": "icsvmtrrtqtdyixi"
+            },
+            {
+                "CreationTime": "thigljahqizjwjnp",
+                "DatasetArn": "pgonfruhxuefalgx",
+                "DatasetName": "ikinlaxhswfsszym",
+                "DatasetType": "crjedsagmiaocxhj",
+                "Domain": "iykjlpmygjkfquoi",
+                "LastModificationTime": "sptzlhbxdbommvei"
+            },
+            {
+                "CreationTime": "cczkglekbyfukihw",
+                "DatasetArn": "gtzgoadtcwpalveg",
+                "DatasetName": "zzvtaqegwwcyvvhy",
+                "DatasetType": "zqjuulkakvdicpib",
+                "Domain": "xzbymwvngnfafbbb",
+                "LastModificationTime": "aeolgyitvnodtwim"
+            },
+            {
+                "CreationTime": "thubktjdvbgehnlh",
+                "DatasetArn": "lxqxooybrlqxoeje",
+                "DatasetName": "lgxqlrjsdcpulpud",
+                "DatasetType": "jfafkzzpvomgzxnn",
+                "Domain": "iodnfgyndqaaxirk",
+                "LastModificationTime": "ihwmjbwljiiqwjgp"
+            },
+            {
+                "CreationTime": "fqutlhbfdxcvljxc",
+                "DatasetArn": "iqtfgzllxkopivfz",
+                "DatasetName": "ohdlavezahzcazkt",
+                "DatasetType": "anlegiqfhkhnuicn",
+                "Domain": "ifsinjvtecoxytxv",
+                "LastModificationTime": "jfmdgzbuhuumzdjv"
+            },
+            {
+                "CreationTime": "zerclaypqmuhyfqv",
+                "DatasetArn": "erowaxdyqemxlmws",
+                "DatasetName": "myeevmrzkasxuoha",
+                "DatasetType": "zxcrhhkkeydwggdd",
+                "Domain": "hildavpwkcomfcqz",
+                "LastModificationTime": "usaekjzvnvdtmrec"
+            },
+            {
+                "CreationTime": "fdyxjhnfjqwyicvn",
+                "DatasetArn": "hockxnzptptkxvej",
+                "DatasetName": "pgcosbebgeootplx",
+                "DatasetType": "bppssokmvccseikm",
+                "Domain": "tzslggwjxledprmk",
+                "LastModificationTime": "mcbsjexjlgsgdhpf"
+            },
+            {
+                "CreationTime": "hcrqxauqidxgbzli",
+                "DatasetArn": "jlolhhugpdztumnv",
+                "DatasetName": "crelfribgrulbeay",
+                "DatasetType": "gqcoijgvpyximqnq",
+                "Domain": "hburaksfechnbruv",
+                "LastModificationTime": "hwcsnmotmeopaupm"
+            },
+            {
+                "CreationTime": "bzswcwlimgvgcomk",
+                "DatasetArn": "vzvouedmvmvqqsce",
+                "DatasetName": "ukepqrjksoekzajf",
+                "DatasetType": "sqwrqkujvnvgniim",
+                "Domain": "ijmqopdqqixozzjm",
+                "LastModificationTime": "gfwbxcpwnygneqif"
+            }
+        ],
+        "result_key": "Datasets"
+    },
+    "meta": {
+        "start": 1711115780.264049,
+        "end": 1711115787.725305,
+        "duration": 7.461266994476318,
+        "service": "forecast",
+        "type": "datasets"
+    }
+}

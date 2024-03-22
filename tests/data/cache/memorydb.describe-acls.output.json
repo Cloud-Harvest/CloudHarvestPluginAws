@@ -1,0 +1,249 @@
+{
+    "input": {
+        "template": {
+            "ACLName": "",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "199c0a0fdf5aa630b88d2ef65f8383b3",
+        "boto_command": "describe_acls",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "Name": "Name",
+                "Status": "Status",
+                "UserNames": [
+                    "UserName"
+                ],
+                "MinimumEngineVersion": "MinimumEngineVersion",
+                "PendingChanges": {
+                    "UserNamesToRemove": [
+                        "UserName"
+                    ],
+                    "UserNamesToAdd": [
+                        "UserName"
+                    ]
+                },
+                "Clusters": [
+                    "String"
+                ],
+                "ARN": "ARN"
+            }
+        ],
+        "required": [],
+        "md5": "0cb3982a1d94223f5f5f97a0f93b3268",
+        "randomized": [
+            {
+                "ARN": "arowgcvwxrwtlgje",
+                "Clusters": [
+                    "zbabfjhrczlvfuuu"
+                ],
+                "MinimumEngineVersion": "whoflyxfbyreqrrh",
+                "Name": "ixqvvzestqekvvpw",
+                "PendingChanges": {
+                    "UserNamesToAdd": [
+                        "ukfxupoxvfplahqt"
+                    ],
+                    "UserNamesToRemove": [
+                        "nuhlgejksffbwubj"
+                    ]
+                },
+                "Status": "hsqpfppbdlwufkla",
+                "UserNames": [
+                    "qgwykurivcmqxcft"
+                ]
+            },
+            {
+                "ARN": "vvyaumaaojgufzaf",
+                "Clusters": [
+                    "lsftqqthbrhppxnn"
+                ],
+                "MinimumEngineVersion": "myddjxdqxiogkgkt",
+                "Name": "rojlaznashkkijhq",
+                "PendingChanges": {
+                    "UserNamesToAdd": [
+                        "odnpfbfrherxppao"
+                    ],
+                    "UserNamesToRemove": [
+                        "ntyxrtyxkfyfcnxp"
+                    ]
+                },
+                "Status": "uwdxbgxotcwbagtj",
+                "UserNames": [
+                    "ijrzocasgccawbzk"
+                ]
+            },
+            {
+                "ARN": "djxusfmbfxzwazyn",
+                "Clusters": [
+                    "brubaiekkmdgpury"
+                ],
+                "MinimumEngineVersion": "acltdkedijguzmhh",
+                "Name": "xswilheuivdsncuv",
+                "PendingChanges": {
+                    "UserNamesToAdd": [
+                        "hroijivkonwmnuqv"
+                    ],
+                    "UserNamesToRemove": [
+                        "zfuqmjomyqpxxxyk"
+                    ]
+                },
+                "Status": "uzygwdmwcbljguso",
+                "UserNames": [
+                    "wilaihkvkjlgdgox"
+                ]
+            },
+            {
+                "ARN": "epbcuugaiodcinrc",
+                "Clusters": [
+                    "legianauogwxykwz"
+                ],
+                "MinimumEngineVersion": "agubzsnzkjowsjri",
+                "Name": "vyhydctrrqfevada",
+                "PendingChanges": {
+                    "UserNamesToAdd": [
+                        "yuhifapxcavelrpe"
+                    ],
+                    "UserNamesToRemove": [
+                        "gmivtebckriafiyd"
+                    ]
+                },
+                "Status": "puytlseeetayklic",
+                "UserNames": [
+                    "ffwyhzfemcfpmxpv"
+                ]
+            },
+            {
+                "ARN": "fcnsxjmjolvwqobe",
+                "Clusters": [
+                    "riwvxhsqorkkyiex"
+                ],
+                "MinimumEngineVersion": "qhvverkrkikgpmsx",
+                "Name": "klrrchabootvohlt",
+                "PendingChanges": {
+                    "UserNamesToAdd": [
+                        "zbstkadjjynnhynx"
+                    ],
+                    "UserNamesToRemove": [
+                        "ynpowkvecnaxabxf"
+                    ]
+                },
+                "Status": "izkqrbhaipnkgczb",
+                "UserNames": [
+                    "acpfonenhgklmrjo"
+                ]
+            },
+            {
+                "ARN": "lbmmzstkjkovujcq",
+                "Clusters": [
+                    "ulvrjfjonvzwuflp"
+                ],
+                "MinimumEngineVersion": "bapwohphgwaexlwp",
+                "Name": "sbuzxsaxdjxazrjn",
+                "PendingChanges": {
+                    "UserNamesToAdd": [
+                        "nzvxxfalblybuzek"
+                    ],
+                    "UserNamesToRemove": [
+                        "amfyxjqictpnftlz"
+                    ]
+                },
+                "Status": "ofhfynapsgcsiqhu",
+                "UserNames": [
+                    "fsjbtlwyrydsbaxt"
+                ]
+            },
+            {
+                "ARN": "ppfcwggnlmnlavvm",
+                "Clusters": [
+                    "htsrchqcvcmlsnyv"
+                ],
+                "MinimumEngineVersion": "yoyaokvvivxofter",
+                "Name": "ydrfyyrjwbcqbnrm",
+                "PendingChanges": {
+                    "UserNamesToAdd": [
+                        "nnqsdmidyobaxnzo"
+                    ],
+                    "UserNamesToRemove": [
+                        "tfolabvpuxwamtik"
+                    ]
+                },
+                "Status": "yaicsjuafzxqdvjc",
+                "UserNames": [
+                    "wahzwmtxqkxxvmzl"
+                ]
+            },
+            {
+                "ARN": "ajolrslvqeozyvxf",
+                "Clusters": [
+                    "vwmjtdsflexqjlpy"
+                ],
+                "MinimumEngineVersion": "knrnoilhsxthmmzk",
+                "Name": "tupllzonrrrqkkxn",
+                "PendingChanges": {
+                    "UserNamesToAdd": [
+                        "aqtmgnkezixwkkhu"
+                    ],
+                    "UserNamesToRemove": [
+                        "ekdlwkkesfpygqdb"
+                    ]
+                },
+                "Status": "cyyvgbjzbmtglaxr",
+                "UserNames": [
+                    "pdgtipprxeggastw"
+                ]
+            },
+            {
+                "ARN": "aynusbtkostjteao",
+                "Clusters": [
+                    "iogdblciagdnbrqu"
+                ],
+                "MinimumEngineVersion": "obkwpouwxccaqjlj",
+                "Name": "uvvgnrxmlmngkyog",
+                "PendingChanges": {
+                    "UserNamesToAdd": [
+                        "drsfltbazfnskuqg"
+                    ],
+                    "UserNamesToRemove": [
+                        "omtvhcbzalbubnbr"
+                    ]
+                },
+                "Status": "qwxeqywrunbvffdi",
+                "UserNames": [
+                    "lifuzmeqdujyhanx"
+                ]
+            },
+            {
+                "ARN": "zkgjhjzhigvcelkv",
+                "Clusters": [
+                    "awsyywnhlychybgg"
+                ],
+                "MinimumEngineVersion": "oifcpgznjrkjocqe",
+                "Name": "xlyzhnksduhxswxp",
+                "PendingChanges": {
+                    "UserNamesToAdd": [
+                        "ztzznldnqawecnjb"
+                    ],
+                    "UserNamesToRemove": [
+                        "vhfynjuhzddvctij"
+                    ]
+                },
+                "Status": "qelhdoiegrakutyk",
+                "UserNames": [
+                    "ezmiqkjoyltkfvzk"
+                ]
+            }
+        ],
+        "result_key": "ACLs"
+    },
+    "meta": {
+        "start": 1711116193.704627,
+        "end": 1711116200.818779,
+        "duration": 7.114162921905518,
+        "service": "memorydb",
+        "type": "acls"
+    }
+}

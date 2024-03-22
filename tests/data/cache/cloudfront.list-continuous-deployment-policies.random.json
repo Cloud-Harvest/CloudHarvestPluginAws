@@ -1,0 +1,362 @@
+[
+    {
+        "Items": [
+            {
+                "ContinuousDeploymentPolicy": {
+                    "ContinuousDeploymentPolicyConfig": {
+                        "Enabled": true,
+                        "StagingDistributionDnsNames": {
+                            "Items": [
+                                "luqaqxrwtcjmehea"
+                            ],
+                            "Quantity": 0
+                        },
+                        "TrafficConfig": {
+                            "SingleHeaderConfig": {
+                                "Header": "vgdxsezhintruhdw",
+                                "Value": "qvinficdjhkpnugb"
+                            },
+                            "SingleWeightConfig": {
+                                "SessionStickinessConfig": {
+                                    "IdleTTL": 0,
+                                    "MaximumTTL": 0
+                                },
+                                "Weight": 0.0
+                            },
+                            "Type": "szdrguzfxijmowpj"
+                        }
+                    },
+                    "Id": "ipxbnundssusxwjm",
+                    "LastModifiedTime": "jyswvunhccuehbdu"
+                }
+            }
+        ],
+        "MaxItems": 0,
+        "NextMarker": "ifpliaxrlyzqunng",
+        "Quantity": 0
+    },
+    {
+        "Items": [
+            {
+                "ContinuousDeploymentPolicy": {
+                    "ContinuousDeploymentPolicyConfig": {
+                        "Enabled": true,
+                        "StagingDistributionDnsNames": {
+                            "Items": [
+                                "ucprvzwlxruriyqx"
+                            ],
+                            "Quantity": 0
+                        },
+                        "TrafficConfig": {
+                            "SingleHeaderConfig": {
+                                "Header": "wmaeqxycltwbvyvi",
+                                "Value": "crnkusxaadherwqo"
+                            },
+                            "SingleWeightConfig": {
+                                "SessionStickinessConfig": {
+                                    "IdleTTL": 0,
+                                    "MaximumTTL": 0
+                                },
+                                "Weight": 0.0
+                            },
+                            "Type": "bjgokrglgbgfxjfd"
+                        }
+                    },
+                    "Id": "eslluydtawrbyntq",
+                    "LastModifiedTime": "dlezlazmqseyfxip"
+                }
+            }
+        ],
+        "MaxItems": 0,
+        "NextMarker": "hlfyutjmwczusfiw",
+        "Quantity": 0
+    },
+    {
+        "Items": [
+            {
+                "ContinuousDeploymentPolicy": {
+                    "ContinuousDeploymentPolicyConfig": {
+                        "Enabled": true,
+                        "StagingDistributionDnsNames": {
+                            "Items": [
+                                "aloqpylhaarygfuz"
+                            ],
+                            "Quantity": 0
+                        },
+                        "TrafficConfig": {
+                            "SingleHeaderConfig": {
+                                "Header": "mpihcpzcthojzsrd",
+                                "Value": "zybaxtnbmdlolawl"
+                            },
+                            "SingleWeightConfig": {
+                                "SessionStickinessConfig": {
+                                    "IdleTTL": 0,
+                                    "MaximumTTL": 0
+                                },
+                                "Weight": 0.0
+                            },
+                            "Type": "alevrwyeuiigouhv"
+                        }
+                    },
+                    "Id": "fxgqyuaseusyiufj",
+                    "LastModifiedTime": "dyiqmwgwgzigyubn"
+                }
+            }
+        ],
+        "MaxItems": 0,
+        "NextMarker": "dxnsgkopoeddlwsx",
+        "Quantity": 0
+    },
+    {
+        "Items": [
+            {
+                "ContinuousDeploymentPolicy": {
+                    "ContinuousDeploymentPolicyConfig": {
+                        "Enabled": true,
+                        "StagingDistributionDnsNames": {
+                            "Items": [
+                                "eyniedrpdpbwiqql"
+                            ],
+                            "Quantity": 0
+                        },
+                        "TrafficConfig": {
+                            "SingleHeaderConfig": {
+                                "Header": "mxyqtfrsmvokfrnu",
+                                "Value": "urpxzylojylvjhgg"
+                            },
+                            "SingleWeightConfig": {
+                                "SessionStickinessConfig": {
+                                    "IdleTTL": 0,
+                                    "MaximumTTL": 0
+                                },
+                                "Weight": 0.0
+                            },
+                            "Type": "rafenjpjprnaaxaj"
+                        }
+                    },
+                    "Id": "zoapeqctkkwbcpif",
+                    "LastModifiedTime": "dhhopxrhrclykisn"
+                }
+            }
+        ],
+        "MaxItems": 0,
+        "NextMarker": "cxsqlifswkxmvogo",
+        "Quantity": 0
+    },
+    {
+        "Items": [
+            {
+                "ContinuousDeploymentPolicy": {
+                    "ContinuousDeploymentPolicyConfig": {
+                        "Enabled": true,
+                        "StagingDistributionDnsNames": {
+                            "Items": [
+                                "npqpeenkdplpylkt"
+                            ],
+                            "Quantity": 0
+                        },
+                        "TrafficConfig": {
+                            "SingleHeaderConfig": {
+                                "Header": "htwhaouykrdfvlqf",
+                                "Value": "vrhtswesbxfhosaf"
+                            },
+                            "SingleWeightConfig": {
+                                "SessionStickinessConfig": {
+                                    "IdleTTL": 0,
+                                    "MaximumTTL": 0
+                                },
+                                "Weight": 0.0
+                            },
+                            "Type": "wufzibamopgsfkxi"
+                        }
+                    },
+                    "Id": "frvujnkehjlmlwwl",
+                    "LastModifiedTime": "hnaftoafmqurvxys"
+                }
+            }
+        ],
+        "MaxItems": 0,
+        "NextMarker": "kpuhcfyrjdzgmxfm",
+        "Quantity": 0
+    },
+    {
+        "Items": [
+            {
+                "ContinuousDeploymentPolicy": {
+                    "ContinuousDeploymentPolicyConfig": {
+                        "Enabled": true,
+                        "StagingDistributionDnsNames": {
+                            "Items": [
+                                "frszfjnaoflbxabi"
+                            ],
+                            "Quantity": 0
+                        },
+                        "TrafficConfig": {
+                            "SingleHeaderConfig": {
+                                "Header": "ctuehxdcprxqrgkj",
+                                "Value": "jcvphqzdrmizectf"
+                            },
+                            "SingleWeightConfig": {
+                                "SessionStickinessConfig": {
+                                    "IdleTTL": 0,
+                                    "MaximumTTL": 0
+                                },
+                                "Weight": 0.0
+                            },
+                            "Type": "wlkvljwdepdkzlah"
+                        }
+                    },
+                    "Id": "ypnxbxcsmhcyyock",
+                    "LastModifiedTime": "whjqlqtejnfkzamz"
+                }
+            }
+        ],
+        "MaxItems": 0,
+        "NextMarker": "fwsmhzfjquajefjx",
+        "Quantity": 0
+    },
+    {
+        "Items": [
+            {
+                "ContinuousDeploymentPolicy": {
+                    "ContinuousDeploymentPolicyConfig": {
+                        "Enabled": true,
+                        "StagingDistributionDnsNames": {
+                            "Items": [
+                                "ercvsaoaxzpjpeik"
+                            ],
+                            "Quantity": 0
+                        },
+                        "TrafficConfig": {
+                            "SingleHeaderConfig": {
+                                "Header": "dvohegkhbxwfxeyf",
+                                "Value": "fdbqjczgsjliiwil"
+                            },
+                            "SingleWeightConfig": {
+                                "SessionStickinessConfig": {
+                                    "IdleTTL": 0,
+                                    "MaximumTTL": 0
+                                },
+                                "Weight": 0.0
+                            },
+                            "Type": "rcmpocvmjkvjhetc"
+                        }
+                    },
+                    "Id": "viurlcehkshofaaw",
+                    "LastModifiedTime": "fivglynefmwlrkdx"
+                }
+            }
+        ],
+        "MaxItems": 0,
+        "NextMarker": "blwroyubmbcmeugy",
+        "Quantity": 0
+    },
+    {
+        "Items": [
+            {
+                "ContinuousDeploymentPolicy": {
+                    "ContinuousDeploymentPolicyConfig": {
+                        "Enabled": true,
+                        "StagingDistributionDnsNames": {
+                            "Items": [
+                                "wpronyeobdkeaonu"
+                            ],
+                            "Quantity": 0
+                        },
+                        "TrafficConfig": {
+                            "SingleHeaderConfig": {
+                                "Header": "jnrmddomrekarmtr",
+                                "Value": "ewffxjdehbnihuul"
+                            },
+                            "SingleWeightConfig": {
+                                "SessionStickinessConfig": {
+                                    "IdleTTL": 0,
+                                    "MaximumTTL": 0
+                                },
+                                "Weight": 0.0
+                            },
+                            "Type": "fnsjlcsnyouzdbpj"
+                        }
+                    },
+                    "Id": "jcpewzdiifbghuuc",
+                    "LastModifiedTime": "bqdhndbrrgkmktif"
+                }
+            }
+        ],
+        "MaxItems": 0,
+        "NextMarker": "woigjnksrnlzwdqs",
+        "Quantity": 0
+    },
+    {
+        "Items": [
+            {
+                "ContinuousDeploymentPolicy": {
+                    "ContinuousDeploymentPolicyConfig": {
+                        "Enabled": true,
+                        "StagingDistributionDnsNames": {
+                            "Items": [
+                                "gbzcskymasqfvgby"
+                            ],
+                            "Quantity": 0
+                        },
+                        "TrafficConfig": {
+                            "SingleHeaderConfig": {
+                                "Header": "nxvgeptjmmadrwwj",
+                                "Value": "vwcdmiuaahvsoihp"
+                            },
+                            "SingleWeightConfig": {
+                                "SessionStickinessConfig": {
+                                    "IdleTTL": 0,
+                                    "MaximumTTL": 0
+                                },
+                                "Weight": 0.0
+                            },
+                            "Type": "etoqcqrmmgdusmlk"
+                        }
+                    },
+                    "Id": "vqkffumqnqmoeufa",
+                    "LastModifiedTime": "mutuenxgfvynzzyy"
+                }
+            }
+        ],
+        "MaxItems": 0,
+        "NextMarker": "tqxhwjyekvzbirij",
+        "Quantity": 0
+    },
+    {
+        "Items": [
+            {
+                "ContinuousDeploymentPolicy": {
+                    "ContinuousDeploymentPolicyConfig": {
+                        "Enabled": true,
+                        "StagingDistributionDnsNames": {
+                            "Items": [
+                                "kqclkkusprghynzi"
+                            ],
+                            "Quantity": 0
+                        },
+                        "TrafficConfig": {
+                            "SingleHeaderConfig": {
+                                "Header": "iuvrarjarooiiwag",
+                                "Value": "hojtzeylzwnhxdhb"
+                            },
+                            "SingleWeightConfig": {
+                                "SessionStickinessConfig": {
+                                    "IdleTTL": 0,
+                                    "MaximumTTL": 0
+                                },
+                                "Weight": 0.0
+                            },
+                            "Type": "jloiwwmgexpobzff"
+                        }
+                    },
+                    "Id": "wzqzgmmgjhmcwmlq",
+                    "LastModifiedTime": "ovkusizvcxlxbogz"
+                }
+            }
+        ],
+        "MaxItems": 0,
+        "NextMarker": "abypukptvqfvrlli",
+        "Quantity": 0
+    }
+]

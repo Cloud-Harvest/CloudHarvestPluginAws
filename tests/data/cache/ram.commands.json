@@ -1,0 +1,16 @@
+[
+    "ram.get-permission",
+    "ram.get-resource-policies",
+    "ram.get-resource-share-associations",
+    "ram.get-resource-share-invitations",
+    "ram.get-resource-shares",
+    "ram.list-pending-invitation-resources",
+    "ram.list-permission-associations",
+    "ram.list-permission-versions",
+    "ram.list-permissions",
+    "ram.list-principals",
+    "ram.list-replace-permission-associations-work",
+    "ram.list-resource-share-permissions",
+    "ram.list-resource-types",
+    "ram.list-resources"
+]

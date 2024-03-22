@@ -1,0 +1,182 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "031b56893c6f5a9d0ebe6017c5c080cb",
+        "boto_command": "list_core_networks",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "CoreNetworkId": "CoreNetworkId",
+                "CoreNetworkArn": "CoreNetworkArn",
+                "GlobalNetworkId": "GlobalNetworkId",
+                "OwnerAccountId": "OwnerAccountId",
+                "State": "State",
+                "Description": "Description",
+                "Tags": [
+                    {
+                        "Key": "Key",
+                        "Value": "Value"
+                    }
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "a5dc4cb52c76cd48e953795f48399463",
+        "randomized": [
+            {
+                "CoreNetworkArn": "cabnjkbpdlgbdmar",
+                "CoreNetworkId": "kigevvqtuvwvhwxv",
+                "Description": "jgjrqetdhmkjmcxf",
+                "GlobalNetworkId": "unkafjhvidnqttau",
+                "OwnerAccountId": "mhvkoogyfonvqnpr",
+                "State": "odbfnqryldljwiet",
+                "Tags": [
+                    {
+                        "Key": "uiysvkrfbbtdprsf",
+                        "Value": "twwdzwiljjycgirj"
+                    }
+                ]
+            },
+            {
+                "CoreNetworkArn": "hhpfkaewrbjcsziz",
+                "CoreNetworkId": "eibyfzvdesavxnrm",
+                "Description": "mymingxyfhjhwxrh",
+                "GlobalNetworkId": "sjrzwlkuwcilohsf",
+                "OwnerAccountId": "dghhfvefgdtaqtre",
+                "State": "altwilueycftkgyd",
+                "Tags": [
+                    {
+                        "Key": "nmzqxmaasieqnbot",
+                        "Value": "ivquudnmskeuvlae"
+                    }
+                ]
+            },
+            {
+                "CoreNetworkArn": "bnatbewxfddyeazk",
+                "CoreNetworkId": "mlxzjrhwlhuvsonp",
+                "Description": "wbbdmopinlylanjb",
+                "GlobalNetworkId": "xsdiwgxfoixcwxlj",
+                "OwnerAccountId": "uyahrykzmbomnjfh",
+                "State": "nijpauvgtrrqoibn",
+                "Tags": [
+                    {
+                        "Key": "fwsmdzzkctbthmsi",
+                        "Value": "eejttyejbhlivqhj"
+                    }
+                ]
+            },
+            {
+                "CoreNetworkArn": "xyuomketxyrmlsgl",
+                "CoreNetworkId": "sdfxseuyqdiuvcth",
+                "Description": "vdiaegsdvrqhupqj",
+                "GlobalNetworkId": "atdxyfpyssfmsqwy",
+                "OwnerAccountId": "qlmjtkgvasdrptvl",
+                "State": "telnqusonhuyebdk",
+                "Tags": [
+                    {
+                        "Key": "walbomthuokztmoh",
+                        "Value": "rurppkyiqdkmzhrm"
+                    }
+                ]
+            },
+            {
+                "CoreNetworkArn": "ymezoylolvezsckm",
+                "CoreNetworkId": "tgwqmklvgpqncmbd",
+                "Description": "xeoubyqkutgprawc",
+                "GlobalNetworkId": "uflzsbmdfxzppwgk",
+                "OwnerAccountId": "vswcdulmuppadjon",
+                "State": "swmoeysdptlepseh",
+                "Tags": [
+                    {
+                        "Key": "ypegxfoekvrhgyko",
+                        "Value": "lojollucsmkigxxk"
+                    }
+                ]
+            },
+            {
+                "CoreNetworkArn": "kgkfpingxfjshhsi",
+                "CoreNetworkId": "psfiwuxuajbvjzhv",
+                "Description": "yuotwqqoftginhmr",
+                "GlobalNetworkId": "tjxwfcdsrvcsvzrt",
+                "OwnerAccountId": "bbygccunmsarhxwn",
+                "State": "kvjznofggsojsemf",
+                "Tags": [
+                    {
+                        "Key": "arvxizftscvobfrd",
+                        "Value": "tndduxwfnavsahiq"
+                    }
+                ]
+            },
+            {
+                "CoreNetworkArn": "uczwvaslrerfhnfo",
+                "CoreNetworkId": "hkxbbbaflqvtokap",
+                "Description": "lkwqjuhnushaxmhw",
+                "GlobalNetworkId": "pgvmyglqtsuefaul",
+                "OwnerAccountId": "ovscivdvxwxwatak",
+                "State": "hurpftyajhrphpnm",
+                "Tags": [
+                    {
+                        "Key": "zxnlqqjhinjnonbk",
+                        "Value": "pckzxyfulgnacpht"
+                    }
+                ]
+            },
+            {
+                "CoreNetworkArn": "ekhyvairvjnzenpd",
+                "CoreNetworkId": "sdoiaqkibufpyohd",
+                "Description": "efnlmtsxnpugqpmq",
+                "GlobalNetworkId": "zphzagcaetvvyaty",
+                "OwnerAccountId": "bhorqxmxvczcpqgv",
+                "State": "lhfejcmobvjucjsu",
+                "Tags": [
+                    {
+                        "Key": "pszwfagnalssrpkn",
+                        "Value": "oullxqwbsejvttay"
+                    }
+                ]
+            },
+            {
+                "CoreNetworkArn": "ujcbnkikpxmvvvpm",
+                "CoreNetworkId": "cxruurrayqumqepm",
+                "Description": "bfroutxqlnvpydoa",
+                "GlobalNetworkId": "ianlnttnujwqbehb",
+                "OwnerAccountId": "yjbslydkaehpjgkf",
+                "State": "kfxetqwrfpknzarx",
+                "Tags": [
+                    {
+                        "Key": "ijstkyandmfphthr",
+                        "Value": "icvinaxfnisfepyb"
+                    }
+                ]
+            },
+            {
+                "CoreNetworkArn": "yqecyydmbefedbdi",
+                "CoreNetworkId": "vmpkdsvpamnnllav",
+                "Description": "krljaavdezxvahmf",
+                "GlobalNetworkId": "mtjymgwzyuziqlfq",
+                "OwnerAccountId": "wsqpgahnjexqjcws",
+                "State": "jnkvopebfhvhuayy",
+                "Tags": [
+                    {
+                        "Key": "wnyvotyipreltolp",
+                        "Value": "opxgdrotxqffdysx"
+                    }
+                ]
+            }
+        ],
+        "result_key": "CoreNetworks"
+    },
+    "meta": {
+        "start": 1711116251.379542,
+        "end": 1711116258.732489,
+        "duration": 7.3529579639434814,
+        "service": "networkmanager",
+        "type": "core_networks"
+    }
+}

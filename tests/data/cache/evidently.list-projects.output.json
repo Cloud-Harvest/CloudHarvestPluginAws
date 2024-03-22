@@ -1,0 +1,204 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "required": [],
+        "md5": "2620fedaf24e984a8f801d0beb17a6e7",
+        "boto_command": "list_projects",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "activeExperimentCount": 0,
+                "activeLaunchCount": 0,
+                "arn": "arn",
+                "createdTime": "1970-01-01T00:00:00",
+                "description": "description",
+                "experimentCount": 0,
+                "featureCount": 0,
+                "lastUpdatedTime": "1970-01-01T00:00:00",
+                "launchCount": 0,
+                "name": "name",
+                "status": "status",
+                "tags": {
+                    "KeyName": ""
+                }
+            }
+        ],
+        "required": [],
+        "md5": "72bd37c455a6a12d1801f8a65c216160",
+        "randomized": [
+            {
+                "activeExperimentCount": 0,
+                "activeLaunchCount": 0,
+                "arn": "jbaxpvgeziszesvp",
+                "createdTime": "mohwtjbbzweydmfc",
+                "description": "vieglbiqbdlcmddv",
+                "experimentCount": 0,
+                "featureCount": 0,
+                "lastUpdatedTime": "dffmfjvzfrvebmbv",
+                "launchCount": 0,
+                "name": "fqvgbjuruvuffnnd",
+                "status": "zatyjztecbtxmuoi",
+                "tags": {
+                    "KeyName": "uxqopbkaxxtouxwy"
+                }
+            },
+            {
+                "activeExperimentCount": 0,
+                "activeLaunchCount": 0,
+                "arn": "ebeuxyftexbminzo",
+                "createdTime": "dnierlzmxobxgacf",
+                "description": "wpddxtjahdxygxrz",
+                "experimentCount": 0,
+                "featureCount": 0,
+                "lastUpdatedTime": "asultlozgifumxin",
+                "launchCount": 0,
+                "name": "jxgbrgdgsaufrwfm",
+                "status": "fsmaszvzgetulwmt",
+                "tags": {
+                    "KeyName": "gzljvoylbmaabxvc"
+                }
+            },
+            {
+                "activeExperimentCount": 0,
+                "activeLaunchCount": 0,
+                "arn": "momfbopglethopzv",
+                "createdTime": "qtamucyrwclctczf",
+                "description": "hgdxljnrqrlvefnv",
+                "experimentCount": 0,
+                "featureCount": 0,
+                "lastUpdatedTime": "klkfsfswjvdcctut",
+                "launchCount": 0,
+                "name": "kzhahiqbqtubdzdy",
+                "status": "kjcygvwgvozfqwnd",
+                "tags": {
+                    "KeyName": "chipiaobbhaesddg"
+                }
+            },
+            {
+                "activeExperimentCount": 0,
+                "activeLaunchCount": 0,
+                "arn": "whsaqyiqvziojjyn",
+                "createdTime": "wubtrpjqmkwhxttt",
+                "description": "vuqfscaphkypzazs",
+                "experimentCount": 0,
+                "featureCount": 0,
+                "lastUpdatedTime": "fpdwdiifyjznsxbt",
+                "launchCount": 0,
+                "name": "rtbxmcnswoyqrffz",
+                "status": "krhpvljzbgyycnhh",
+                "tags": {
+                    "KeyName": "pxqpkuyryuooqzgm"
+                }
+            },
+            {
+                "activeExperimentCount": 0,
+                "activeLaunchCount": 0,
+                "arn": "lfjmxngifbqkvepd",
+                "createdTime": "gtuxhfmncjztwhqk",
+                "description": "iqzxxbmqgylghsvm",
+                "experimentCount": 0,
+                "featureCount": 0,
+                "lastUpdatedTime": "vqtjorkhqqrdbtxb",
+                "launchCount": 0,
+                "name": "lvdwnahjiwpcvbwd",
+                "status": "kqdiajwnrabjnhya",
+                "tags": {
+                    "KeyName": "ggejrmmjyzlwmztm"
+                }
+            },
+            {
+                "activeExperimentCount": 0,
+                "activeLaunchCount": 0,
+                "arn": "cfflwpwnjnervpij",
+                "createdTime": "xjcrsvofhjxbznvu",
+                "description": "wjrcposxohvwxqex",
+                "experimentCount": 0,
+                "featureCount": 0,
+                "lastUpdatedTime": "pnrcauymampqnnsy",
+                "launchCount": 0,
+                "name": "vlccstgwkmbyesec",
+                "status": "pjboyfsrquzjgdqy",
+                "tags": {
+                    "KeyName": "zjarcylhgwpikzvj"
+                }
+            },
+            {
+                "activeExperimentCount": 0,
+                "activeLaunchCount": 0,
+                "arn": "ijxrtxtrorsznrgo",
+                "createdTime": "wmbvtirffeoppiiw",
+                "description": "hkswtbqpoiyynsoh",
+                "experimentCount": 0,
+                "featureCount": 0,
+                "lastUpdatedTime": "khehzyukclrtlcvf",
+                "launchCount": 0,
+                "name": "koahrgfmszctzfyn",
+                "status": "jjezuffjlphmayfz",
+                "tags": {
+                    "KeyName": "garkeotuekxararh"
+                }
+            },
+            {
+                "activeExperimentCount": 0,
+                "activeLaunchCount": 0,
+                "arn": "xdjwylltiirkncri",
+                "createdTime": "vmplpoyrlrjetcio",
+                "description": "rsrfavphcvhzrkdv",
+                "experimentCount": 0,
+                "featureCount": 0,
+                "lastUpdatedTime": "xkzgxiaqwvfevrtp",
+                "launchCount": 0,
+                "name": "rejddaojhaxysyhp",
+                "status": "acrmmjtztggonqzb",
+                "tags": {
+                    "KeyName": "qbktjjyfriwvocxc"
+                }
+            },
+            {
+                "activeExperimentCount": 0,
+                "activeLaunchCount": 0,
+                "arn": "lpraesofxpeotsvg",
+                "createdTime": "txyptujbcezaknol",
+                "description": "puzeiargfqnvmxev",
+                "experimentCount": 0,
+                "featureCount": 0,
+                "lastUpdatedTime": "xnmogmezxyfapifj",
+                "launchCount": 0,
+                "name": "xfdzyisihfhyorgs",
+                "status": "wyqdlbbnltjblays",
+                "tags": {
+                    "KeyName": "tdibfkzhsbevuspk"
+                }
+            },
+            {
+                "activeExperimentCount": 0,
+                "activeLaunchCount": 0,
+                "arn": "wpwqlowuxobxtnij",
+                "createdTime": "wlcibzvsmrzaspdd",
+                "description": "ofrrfxhrrularxpq",
+                "experimentCount": 0,
+                "featureCount": 0,
+                "lastUpdatedTime": "bzkbryuawwokmwzj",
+                "launchCount": 0,
+                "name": "nuwhinlkorznigkl",
+                "status": "htlnubkniijxshrm",
+                "tags": {
+                    "KeyName": "wfjttrsolcvlwett"
+                }
+            }
+        ],
+        "result_key": "projects"
+    },
+    "meta": {
+        "start": 1711115759.826926,
+        "end": 1711115767.934115,
+        "duration": 8.107199907302856,
+        "service": "evidently",
+        "type": "projects"
+    }
+}

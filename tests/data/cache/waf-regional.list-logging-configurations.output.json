@@ -1,0 +1,160 @@
+{
+    "input": {
+        "template": {
+            "NextMarker": "",
+            "Limit": 0
+        },
+        "required": [],
+        "md5": "c73edf45b1374dc40afbfb6e5664028f",
+        "boto_command": "list_logging_configurations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "ResourceArn": "ResourceArn",
+                "LogDestinationConfigs": [
+                    "ResourceArn"
+                ],
+                "RedactedFields": [
+                    {
+                        "Type": "Type",
+                        "Data": "Data"
+                    }
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "4ba3a1dbd30abf336f1b44da4dfa93e6",
+        "randomized": [
+            {
+                "LogDestinationConfigs": [
+                    "degcybyqhramrvry"
+                ],
+                "RedactedFields": [
+                    {
+                        "Data": "hmrgfxgurdbcmntg",
+                        "Type": "iyeazxqaeffixlkg"
+                    }
+                ],
+                "ResourceArn": "pfobordihyiiquis"
+            },
+            {
+                "LogDestinationConfigs": [
+                    "qtcigjmajzfkexss"
+                ],
+                "RedactedFields": [
+                    {
+                        "Data": "tntgexnhowctxhfd",
+                        "Type": "knmssjamjlrrxnzx"
+                    }
+                ],
+                "ResourceArn": "oiewejxaiiyyexnu"
+            },
+            {
+                "LogDestinationConfigs": [
+                    "qplolihqohlzcurg"
+                ],
+                "RedactedFields": [
+                    {
+                        "Data": "fzeuxojjftaloktb",
+                        "Type": "ffmliamcnmbcbscz"
+                    }
+                ],
+                "ResourceArn": "hjbeagkcddlaiyoy"
+            },
+            {
+                "LogDestinationConfigs": [
+                    "sigfhuqmgccyhknc"
+                ],
+                "RedactedFields": [
+                    {
+                        "Data": "ojenuheyrkcvhjpy",
+                        "Type": "sreloiiuvzfwmzdx"
+                    }
+                ],
+                "ResourceArn": "sudmgdiuyxrrvawi"
+            },
+            {
+                "LogDestinationConfigs": [
+                    "jxxqsrqegcfksrdx"
+                ],
+                "RedactedFields": [
+                    {
+                        "Data": "leistckrhrouzqrm",
+                        "Type": "iikwadosndaxlyjk"
+                    }
+                ],
+                "ResourceArn": "ytscmxkdrpsasyro"
+            },
+            {
+                "LogDestinationConfigs": [
+                    "wkfpqnftaprimshe"
+                ],
+                "RedactedFields": [
+                    {
+                        "Data": "gxplhyhedsjxqyjt",
+                        "Type": "nplthknwgcwqdhwx"
+                    }
+                ],
+                "ResourceArn": "lcvvijzwcrlfyync"
+            },
+            {
+                "LogDestinationConfigs": [
+                    "gpocjhnlhqxykirt"
+                ],
+                "RedactedFields": [
+                    {
+                        "Data": "hzdhsrqdzfglnkzv",
+                        "Type": "neootmcjmgtwheth"
+                    }
+                ],
+                "ResourceArn": "gvzjlsomhupneslz"
+            },
+            {
+                "LogDestinationConfigs": [
+                    "gryiejhcaysbbsnt"
+                ],
+                "RedactedFields": [
+                    {
+                        "Data": "qtuvfnmdqrwdadqc",
+                        "Type": "lqmctbicvytgpnkt"
+                    }
+                ],
+                "ResourceArn": "oedihgjytljxvulp"
+            },
+            {
+                "LogDestinationConfigs": [
+                    "tnoevcmenqjzoazm"
+                ],
+                "RedactedFields": [
+                    {
+                        "Data": "yrjbspdqmopkftjx",
+                        "Type": "nczbwennhiworalu"
+                    }
+                ],
+                "ResourceArn": "mjjtlgkqltotqgvs"
+            },
+            {
+                "LogDestinationConfigs": [
+                    "igwnvxffdixgfabv"
+                ],
+                "RedactedFields": [
+                    {
+                        "Data": "csqtnoxwcbbikyeu",
+                        "Type": "ohlhyiwhsaffeoim"
+                    }
+                ],
+                "ResourceArn": "ldynzrlsduqnvjzo"
+            }
+        ],
+        "result_key": "LoggingConfigurations"
+    },
+    "meta": {
+        "start": 1711116770.27516,
+        "end": 1711116777.895112,
+        "duration": 7.619956970214844,
+        "service": "waf-regional",
+        "type": "logging_configurations"
+    }
+}

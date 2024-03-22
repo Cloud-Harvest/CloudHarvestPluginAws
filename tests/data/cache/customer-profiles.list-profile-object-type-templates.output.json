@@ -1,0 +1,83 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "9dece7f85fc1c3f944425b1f68a8e6e1",
+        "boto_command": "list_profile_object_type_templates",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "TemplateId": "TemplateId",
+                "SourceName": "SourceName",
+                "SourceObject": "SourceObject"
+            }
+        ],
+        "required": [],
+        "md5": "7b2cbbdde85f01981eb35c9b418c8f2b",
+        "randomized": [
+            {
+                "SourceName": "oomxzfleyaewhejd",
+                "SourceObject": "nsuyaferjisavfrs",
+                "TemplateId": "zzritxqyvklasqgm"
+            },
+            {
+                "SourceName": "scgbfjgyvkllbzto",
+                "SourceObject": "cbevvpikzjibvkxf",
+                "TemplateId": "vwklkgeviyadzvdc"
+            },
+            {
+                "SourceName": "rmaosqlozpaauamf",
+                "SourceObject": "dwgrwcjbxqiwuktc",
+                "TemplateId": "khnymyjtfeihstad"
+            },
+            {
+                "SourceName": "lnoaoszfmfwlrczp",
+                "SourceObject": "hlzwdrlopfrfymag",
+                "TemplateId": "lqdvymnexfausytb"
+            },
+            {
+                "SourceName": "tbqnecyjxwofobyi",
+                "SourceObject": "tdqitorwsoracpza",
+                "TemplateId": "btadtacotuxxlkua"
+            },
+            {
+                "SourceName": "etjknqfqgrlhcjry",
+                "SourceObject": "tmmcpmlxdppspeei",
+                "TemplateId": "fzozdeghlumyrekf"
+            },
+            {
+                "SourceName": "ginalwsdmdfheyuc",
+                "SourceObject": "mawatslcriacfukd",
+                "TemplateId": "phtdcwtojqwnueaa"
+            },
+            {
+                "SourceName": "fglqiovupbammydk",
+                "SourceObject": "gxwvanvflvomanny",
+                "TemplateId": "fekusmtyjuxtjzjn"
+            },
+            {
+                "SourceName": "bhiialrecywjtlid",
+                "SourceObject": "bpydnxdzhhlfsriq",
+                "TemplateId": "lmvnpbevbvmyvrui"
+            },
+            {
+                "SourceName": "uvmuuhyyysnaouhf",
+                "SourceObject": "nisgminlryohxlmo",
+                "TemplateId": "onwhflgolcefbmmo"
+            }
+        ],
+        "result_key": "Items"
+    },
+    "meta": {
+        "start": 1711115511.67401,
+        "end": 1711115519.227901,
+        "duration": 7.553900957107544,
+        "service": "customer-profiles",
+        "type": "profile_object_type_templates"
+    }
+}

@@ -1,0 +1,17 @@
+[
+    "lookoutmetrics.describe-alert",
+    "lookoutmetrics.describe-anomaly-detection-executions",
+    "lookoutmetrics.describe-anomaly-detector",
+    "lookoutmetrics.describe-metric-set",
+    "lookoutmetrics.get-anomaly-group",
+    "lookoutmetrics.get-data-quality-metrics",
+    "lookoutmetrics.get-feedback",
+    "lookoutmetrics.get-sample-data",
+    "lookoutmetrics.list-alerts",
+    "lookoutmetrics.list-anomaly-detectors",
+    "lookoutmetrics.list-anomaly-group-related-metrics",
+    "lookoutmetrics.list-anomaly-group-summaries",
+    "lookoutmetrics.list-anomaly-group-time-series",
+    "lookoutmetrics.list-metric-sets",
+    "lookoutmetrics.list-tags-for-resource"
+]

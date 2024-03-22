@@ -1,0 +1,22 @@
+[
+    "chime.get-account",
+    "chime.get-account-settings",
+    "chime.get-bot",
+    "chime.get-events-configuration",
+    "chime.get-global-settings",
+    "chime.get-phone-number",
+    "chime.get-phone-number-order",
+    "chime.get-phone-number-settings",
+    "chime.get-retention-settings",
+    "chime.get-room",
+    "chime.get-user",
+    "chime.get-user-settings",
+    "chime.list-accounts",
+    "chime.list-bots",
+    "chime.list-phone-number-orders",
+    "chime.list-phone-numbers",
+    "chime.list-room-memberships",
+    "chime.list-rooms",
+    "chime.list-supported-phone-number-countries",
+    "chime.list-users"
+]

@@ -1,0 +1,610 @@
+{
+    "input": {
+        "template": {
+            "pageToken": ""
+        },
+        "required": [],
+        "md5": "cd47ffa47286bc2470b22f744f7629ff",
+        "boto_command": "get_relational_databases",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "name": "name",
+                "arn": "arn",
+                "supportCode": "supportCode",
+                "createdAt": "1970-01-01T00:00:00",
+                "location": {
+                    "availabilityZone": "availabilityZone",
+                    "regionName": "regionName"
+                },
+                "resourceType": "resourceType",
+                "tags": [
+                    {
+                        "key": "key",
+                        "value": "value"
+                    }
+                ],
+                "relationalDatabaseBlueprintId": "relationalDatabaseBlueprintId",
+                "relationalDatabaseBundleId": "relationalDatabaseBundleId",
+                "masterDatabaseName": "masterDatabaseName",
+                "hardware": {
+                    "cpuCount": 0,
+                    "diskSizeInGb": 0,
+                    "ramSizeInGb": 0.0
+                },
+                "state": "state",
+                "secondaryAvailabilityZone": "secondaryAvailabilityZone",
+                "backupRetentionEnabled": true,
+                "pendingModifiedValues": {
+                    "masterUserPassword": "masterUserPassword",
+                    "engineVersion": "engineVersion",
+                    "backupRetentionEnabled": true
+                },
+                "engine": "engine",
+                "engineVersion": "engineVersion",
+                "latestRestorableTime": "1970-01-01T00:00:00",
+                "masterUsername": "masterUsername",
+                "parameterApplyStatus": "parameterApplyStatus",
+                "preferredBackupWindow": "preferredBackupWindow",
+                "preferredMaintenanceWindow": "preferredMaintenanceWindow",
+                "publiclyAccessible": true,
+                "masterEndpoint": {
+                    "port": 0,
+                    "address": "address"
+                },
+                "pendingMaintenanceActions": [
+                    {
+                        "action": "action",
+                        "description": "description",
+                        "currentApplyDate": "1970-01-01T00:00:00"
+                    }
+                ],
+                "caCertificateIdentifier": "caCertificateIdentifier"
+            }
+        ],
+        "required": [],
+        "md5": "faa7dce7cf2fe5e7a6083e93de4a6934",
+        "randomized": [
+            {
+                "arn": "llnmuundzmoogvch",
+                "backupRetentionEnabled": true,
+                "caCertificateIdentifier": "oitvysbiawbcgqqw",
+                "createdAt": "vflcbpwzzpvnuobg",
+                "engine": "dtidfhldbkbrhpnl",
+                "engineVersion": "decdahscaejegolp",
+                "hardware": {
+                    "cpuCount": 0,
+                    "diskSizeInGb": 0,
+                    "ramSizeInGb": 0.0
+                },
+                "latestRestorableTime": "fdljgwqnhyhievav",
+                "location": {
+                    "availabilityZone": "wyfmsypuqxxoxivy",
+                    "regionName": "lpuxbjoecfazxown"
+                },
+                "masterDatabaseName": "ymgdoqxqiykrbwkr",
+                "masterEndpoint": {
+                    "address": "pakhgknobkagxvpw",
+                    "port": 0
+                },
+                "masterUsername": "wgczdycyvdeoalxy",
+                "name": "byeoircphiltdloh",
+                "parameterApplyStatus": "berdnzdcvwfqepml",
+                "pendingMaintenanceActions": [
+                    {
+                        "action": "fjvfshllqroxpdxc",
+                        "currentApplyDate": "xfcecotpmyehagil",
+                        "description": "roehztevinmtkpzs"
+                    }
+                ],
+                "pendingModifiedValues": {
+                    "backupRetentionEnabled": true,
+                    "engineVersion": "nthsjqxcymwccamy",
+                    "masterUserPassword": "zozsriesgqagmvge"
+                },
+                "preferredBackupWindow": "gyckmdayaxawpgtu",
+                "preferredMaintenanceWindow": "ydgkobhnajcwkdvi",
+                "publiclyAccessible": true,
+                "relationalDatabaseBlueprintId": "ntprmorvyoyoyjfq",
+                "relationalDatabaseBundleId": "lczzrvlhlcyxyorh",
+                "resourceType": "hedwqubrvvbadvgs",
+                "secondaryAvailabilityZone": "jgfpcdxjazufimjj",
+                "state": "rzcnrkhicziaxgwg",
+                "supportCode": "gbbvdjsvifyglkjz",
+                "tags": [
+                    {
+                        "key": "uqdsjkfpclgmuvdl",
+                        "value": "iblkoofcenwkldgd"
+                    }
+                ]
+            },
+            {
+                "arn": "sptebbxxsffhqlgp",
+                "backupRetentionEnabled": true,
+                "caCertificateIdentifier": "vzppfkulvyqbxbgf",
+                "createdAt": "wnihischrkyplfip",
+                "engine": "iwdnbryhusywevte",
+                "engineVersion": "npksauqecjnblaxq",
+                "hardware": {
+                    "cpuCount": 0,
+                    "diskSizeInGb": 0,
+                    "ramSizeInGb": 0.0
+                },
+                "latestRestorableTime": "qcejecdvzegftypc",
+                "location": {
+                    "availabilityZone": "butrtzsqgkyqawzp",
+                    "regionName": "gekjyglzgczfvgym"
+                },
+                "masterDatabaseName": "pdvhcjcjafrqdvhp",
+                "masterEndpoint": {
+                    "address": "kindxoauisgvsldz",
+                    "port": 0
+                },
+                "masterUsername": "xjqmffuinykoiupz",
+                "name": "dqpxbzxfvpftrzus",
+                "parameterApplyStatus": "ncgxyjiaulctauic",
+                "pendingMaintenanceActions": [
+                    {
+                        "action": "lexzwrswpwsllgdk",
+                        "currentApplyDate": "kwtotkrotabmqkfp",
+                        "description": "yshnnpijyxwwiwia"
+                    }
+                ],
+                "pendingModifiedValues": {
+                    "backupRetentionEnabled": true,
+                    "engineVersion": "korclkfdwrykltvs",
+                    "masterUserPassword": "kfxzncecpqhfepvw"
+                },
+                "preferredBackupWindow": "kynymersxwjubwia",
+                "preferredMaintenanceWindow": "ojdxufrrnpyiipzo",
+                "publiclyAccessible": true,
+                "relationalDatabaseBlueprintId": "fdkhqknnhbafiplb",
+                "relationalDatabaseBundleId": "nbgcgurfroptdayz",
+                "resourceType": "qmaodubttgwietjb",
+                "secondaryAvailabilityZone": "kltfxjarshofwemq",
+                "state": "rhiqnlqqiontufhl",
+                "supportCode": "henwvbawatlcckxv",
+                "tags": [
+                    {
+                        "key": "apgxkvlbspbbaykf",
+                        "value": "xtupewgvjzvcvqrf"
+                    }
+                ]
+            },
+            {
+                "arn": "tzotyqltrhpnklhq",
+                "backupRetentionEnabled": true,
+                "caCertificateIdentifier": "ladleulxyhfjiwwl",
+                "createdAt": "nromneasaerznvhd",
+                "engine": "roxmuyfdnnihqgfn",
+                "engineVersion": "tmazwhgmkidcuwii",
+                "hardware": {
+                    "cpuCount": 0,
+                    "diskSizeInGb": 0,
+                    "ramSizeInGb": 0.0
+                },
+                "latestRestorableTime": "hnibwhkllluetonc",
+                "location": {
+                    "availabilityZone": "icblpevxjybfvhkj",
+                    "regionName": "hqfjzhliokxiewgs"
+                },
+                "masterDatabaseName": "ibbdfjbicizqtiqd",
+                "masterEndpoint": {
+                    "address": "eieexbkgioizlhlg",
+                    "port": 0
+                },
+                "masterUsername": "nshrifbalorefmwd",
+                "name": "joqfkhmkmcvaxqxr",
+                "parameterApplyStatus": "owlvgsuwimtffmcd",
+                "pendingMaintenanceActions": [
+                    {
+                        "action": "kcpqeqcocxykagxd",
+                        "currentApplyDate": "ecvwhepagumbdixe",
+                        "description": "tfcowtyxnckiuxkk"
+                    }
+                ],
+                "pendingModifiedValues": {
+                    "backupRetentionEnabled": true,
+                    "engineVersion": "gbuqlfmfprbiztns",
+                    "masterUserPassword": "fnxdylqbkkpamuwe"
+                },
+                "preferredBackupWindow": "hoykvwwyyzqkuosa",
+                "preferredMaintenanceWindow": "axjvvukhmjiqyvjo",
+                "publiclyAccessible": true,
+                "relationalDatabaseBlueprintId": "dixhpzcnbgkjkvqh",
+                "relationalDatabaseBundleId": "nagcodnhuvrirlna",
+                "resourceType": "iwohqsmrtwsembma",
+                "secondaryAvailabilityZone": "bwckrdawbpzlhawn",
+                "state": "bmygdofbmdfphooj",
+                "supportCode": "wmhqhurkbpyogkkd",
+                "tags": [
+                    {
+                        "key": "scqybxkjmzclqwvd",
+                        "value": "jivqpvxcdxfmiaaw"
+                    }
+                ]
+            },
+            {
+                "arn": "ikddvykxczpwybgi",
+                "backupRetentionEnabled": true,
+                "caCertificateIdentifier": "dfulcrzlntzanfsp",
+                "createdAt": "egqerydgiehscjkq",
+                "engine": "coijkywndqvtxhjy",
+                "engineVersion": "zeekltkuyqlmfrvq",
+                "hardware": {
+                    "cpuCount": 0,
+                    "diskSizeInGb": 0,
+                    "ramSizeInGb": 0.0
+                },
+                "latestRestorableTime": "teumkvmlcegkbkym",
+                "location": {
+                    "availabilityZone": "gujkangfceoiqvlk",
+                    "regionName": "ctpkpvgdcmjqidju"
+                },
+                "masterDatabaseName": "pepeqsyzwcpkxpii",
+                "masterEndpoint": {
+                    "address": "fnhurazcyghswdkx",
+                    "port": 0
+                },
+                "masterUsername": "peunmssfuljeylwr",
+                "name": "ugdtwfrnlwipjbab",
+                "parameterApplyStatus": "osvuzopluhguaeez",
+                "pendingMaintenanceActions": [
+                    {
+                        "action": "upalcocqzdqwpstu",
+                        "currentApplyDate": "ikmhiogrhimrvnbm",
+                        "description": "zvxyrwudwgddrpmi"
+                    }
+                ],
+                "pendingModifiedValues": {
+                    "backupRetentionEnabled": true,
+                    "engineVersion": "fmcawwuhudukkjbj",
+                    "masterUserPassword": "txxghpmuiqlehmye"
+                },
+                "preferredBackupWindow": "fjldisaiulgkieac",
+                "preferredMaintenanceWindow": "qncssvrqjvjnnism",
+                "publiclyAccessible": true,
+                "relationalDatabaseBlueprintId": "auxsrrhstizedqzb",
+                "relationalDatabaseBundleId": "ifpjzjgziibwrzue",
+                "resourceType": "qucfcrumelpvpmpj",
+                "secondaryAvailabilityZone": "igslahlcjjpujuxt",
+                "state": "bodbudzhamwofxbp",
+                "supportCode": "gpweclzkbeemochc",
+                "tags": [
+                    {
+                        "key": "fcgyfncgkzybeqvt",
+                        "value": "oakubuaawboustqu"
+                    }
+                ]
+            },
+            {
+                "arn": "pvcnghexthfbuhxv",
+                "backupRetentionEnabled": true,
+                "caCertificateIdentifier": "wmcactscjgyegwnm",
+                "createdAt": "ndxovkotveujbhkn",
+                "engine": "awgvyywssjojvgtf",
+                "engineVersion": "lhgkudiihzahwohm",
+                "hardware": {
+                    "cpuCount": 0,
+                    "diskSizeInGb": 0,
+                    "ramSizeInGb": 0.0
+                },
+                "latestRestorableTime": "tqtigydhxygnxivk",
+                "location": {
+                    "availabilityZone": "zbhkvzrtwbbcwvcg",
+                    "regionName": "vcbkvzzbbdsablcc"
+                },
+                "masterDatabaseName": "nbfxgiwwhxsscybl",
+                "masterEndpoint": {
+                    "address": "wubfkpkhqgcagdrm",
+                    "port": 0
+                },
+                "masterUsername": "doxtlxhpeoqmdcjo",
+                "name": "qwxpdcdnautiqvxv",
+                "parameterApplyStatus": "emrqwgpoptzooxrs",
+                "pendingMaintenanceActions": [
+                    {
+                        "action": "ukqqamohtetfobmr",
+                        "currentApplyDate": "xetueqqcvedrufkq",
+                        "description": "vpxckqddcongfmzt"
+                    }
+                ],
+                "pendingModifiedValues": {
+                    "backupRetentionEnabled": true,
+                    "engineVersion": "vuddhpznxrcffaxd",
+                    "masterUserPassword": "nfjypaqxdfhurxxy"
+                },
+                "preferredBackupWindow": "pgezlgcgrbenjonl",
+                "preferredMaintenanceWindow": "vhfeztqiqkbvjnfm",
+                "publiclyAccessible": true,
+                "relationalDatabaseBlueprintId": "loesdadqmyqeodup",
+                "relationalDatabaseBundleId": "kdrnvhuqrbonmfor",
+                "resourceType": "pghiwxmltryesyav",
+                "secondaryAvailabilityZone": "kaenvaactglrapdu",
+                "state": "ajzaywecfhyfhepo",
+                "supportCode": "ewjighyrjlcthadz",
+                "tags": [
+                    {
+                        "key": "gmpjgdtfoupjrrxl",
+                        "value": "pdcgvxevieyswylw"
+                    }
+                ]
+            },
+            {
+                "arn": "kvzzihwznpxkbaoz",
+                "backupRetentionEnabled": true,
+                "caCertificateIdentifier": "oicetgcdrlmglnxz",
+                "createdAt": "fgzrvguibzevysrq",
+                "engine": "wlbhuewgthxynzqb",
+                "engineVersion": "rhrhhlsnvkvyncoj",
+                "hardware": {
+                    "cpuCount": 0,
+                    "diskSizeInGb": 0,
+                    "ramSizeInGb": 0.0
+                },
+                "latestRestorableTime": "eopwukooozoveycb",
+                "location": {
+                    "availabilityZone": "rfdnuwepuqkrwasx",
+                    "regionName": "jwfsllnmwwtotlyx"
+                },
+                "masterDatabaseName": "bzfqhgghpqtifghw",
+                "masterEndpoint": {
+                    "address": "hgjvxjfxgjdxeeke",
+                    "port": 0
+                },
+                "masterUsername": "hondgmtazxrypztk",
+                "name": "pflpkncjudnxhwmw",
+                "parameterApplyStatus": "fgdwfikwdpoqrvub",
+                "pendingMaintenanceActions": [
+                    {
+                        "action": "ltdknaivbgtaldft",
+                        "currentApplyDate": "jotgusymutjbjjcs",
+                        "description": "doyjkhpigpsfcvoy"
+                    }
+                ],
+                "pendingModifiedValues": {
+                    "backupRetentionEnabled": true,
+                    "engineVersion": "ivnwgnobqtyiozet",
+                    "masterUserPassword": "vzgxsrvvrmwdncba"
+                },
+                "preferredBackupWindow": "vzvocksoduxoywqi",
+                "preferredMaintenanceWindow": "lbgrvoxpdfqdrqgl",
+                "publiclyAccessible": true,
+                "relationalDatabaseBlueprintId": "jtmsbwtcgkenasgx",
+                "relationalDatabaseBundleId": "mbscsiftfwioxkez",
+                "resourceType": "wleapozjmcgnosyr",
+                "secondaryAvailabilityZone": "mldmtnuixudbkhsr",
+                "state": "flkqeyanavayhdxg",
+                "supportCode": "tkarbwyflqqgmtzi",
+                "tags": [
+                    {
+                        "key": "loeujntiqrbjnzoq",
+                        "value": "yneouczwlwcuudgq"
+                    }
+                ]
+            },
+            {
+                "arn": "oejwznxdpktdgzpx",
+                "backupRetentionEnabled": true,
+                "caCertificateIdentifier": "hhydroavlyvbgbfe",
+                "createdAt": "votlehzyogwdsome",
+                "engine": "ruzqikbcyncifmwu",
+                "engineVersion": "xxzvabfmcmogxqsd",
+                "hardware": {
+                    "cpuCount": 0,
+                    "diskSizeInGb": 0,
+                    "ramSizeInGb": 0.0
+                },
+                "latestRestorableTime": "eimrzqbwvmqrjckf",
+                "location": {
+                    "availabilityZone": "pvtaxutfcvulfcdu",
+                    "regionName": "kovjauzxncwswwsh"
+                },
+                "masterDatabaseName": "fgffldtqnsvgkdwy",
+                "masterEndpoint": {
+                    "address": "rtvjurqfteneunqw",
+                    "port": 0
+                },
+                "masterUsername": "scjapbsdibtmfbhb",
+                "name": "reymeaglltepaahj",
+                "parameterApplyStatus": "scsltmjebhyjbuts",
+                "pendingMaintenanceActions": [
+                    {
+                        "action": "bnnarbjsoiduazod",
+                        "currentApplyDate": "daowmyqegrbjwklm",
+                        "description": "lnxzxkozollubpie"
+                    }
+                ],
+                "pendingModifiedValues": {
+                    "backupRetentionEnabled": true,
+                    "engineVersion": "ougodxnttekkyade",
+                    "masterUserPassword": "latbtwxzggpkdexa"
+                },
+                "preferredBackupWindow": "coxqimiuewyyhbol",
+                "preferredMaintenanceWindow": "naulvoyanounjjxf",
+                "publiclyAccessible": true,
+                "relationalDatabaseBlueprintId": "jakpzykqjwelswdw",
+                "relationalDatabaseBundleId": "hhwpudbioodhfcut",
+                "resourceType": "jftfdtmzdbeuaifb",
+                "secondaryAvailabilityZone": "cfcsokgsjonhryyd",
+                "state": "eyiegeqzjejruzic",
+                "supportCode": "qtqhsfmwpnuhfhby",
+                "tags": [
+                    {
+                        "key": "nsjhjciigmhrewxt",
+                        "value": "uvqhwzdlytffapit"
+                    }
+                ]
+            },
+            {
+                "arn": "meferqmgeexsydxp",
+                "backupRetentionEnabled": true,
+                "caCertificateIdentifier": "ouhdnvmswiwjhyee",
+                "createdAt": "duzaarjbowiwwkrc",
+                "engine": "khddfjrcaddjonhs",
+                "engineVersion": "cgddqdutsazhxvnu",
+                "hardware": {
+                    "cpuCount": 0,
+                    "diskSizeInGb": 0,
+                    "ramSizeInGb": 0.0
+                },
+                "latestRestorableTime": "icfqaimbjkjhlbqs",
+                "location": {
+                    "availabilityZone": "lssnyjsoofgnjqih",
+                    "regionName": "ydopbkvuxtxiczhe"
+                },
+                "masterDatabaseName": "kfpeuqdcxbvvwplv",
+                "masterEndpoint": {
+                    "address": "yfexkznbktfhbsfc",
+                    "port": 0
+                },
+                "masterUsername": "uwubmytnuscudndi",
+                "name": "enlzywhdrjnmgibk",
+                "parameterApplyStatus": "usodwipghzebgwwf",
+                "pendingMaintenanceActions": [
+                    {
+                        "action": "mxcdmygfbioubcph",
+                        "currentApplyDate": "xwhdfwbkvouskvam",
+                        "description": "oktcwsovplwmhwfx"
+                    }
+                ],
+                "pendingModifiedValues": {
+                    "backupRetentionEnabled": true,
+                    "engineVersion": "kqdeojkidiyuqznh",
+                    "masterUserPassword": "ezeckjuperjewhsu"
+                },
+                "preferredBackupWindow": "yuvzbqjjshjncrbq",
+                "preferredMaintenanceWindow": "iocljtvmzggcqhro",
+                "publiclyAccessible": true,
+                "relationalDatabaseBlueprintId": "gmoikrclzjfqpmlj",
+                "relationalDatabaseBundleId": "arfygxyetqadfbgm",
+                "resourceType": "gcfamhzarbauztfb",
+                "secondaryAvailabilityZone": "jykjfvcaiwgkwxyw",
+                "state": "ywyvyrjhdoeahlcb",
+                "supportCode": "sowmhswonjlzzbpb",
+                "tags": [
+                    {
+                        "key": "ynzsfgrshfganwlk",
+                        "value": "pthynlqvwwrkefhn"
+                    }
+                ]
+            },
+            {
+                "arn": "ioeldfxeyouyqrrx",
+                "backupRetentionEnabled": true,
+                "caCertificateIdentifier": "nappfoaqflrafpcw",
+                "createdAt": "gbpufaqnmxdwhgbk",
+                "engine": "bmbluixguhpibgle",
+                "engineVersion": "zvjrtizwtolwkihv",
+                "hardware": {
+                    "cpuCount": 0,
+                    "diskSizeInGb": 0,
+                    "ramSizeInGb": 0.0
+                },
+                "latestRestorableTime": "jsxzptjzexsyriop",
+                "location": {
+                    "availabilityZone": "uowauiabvekpyegh",
+                    "regionName": "nxfdwfifuzpjamqi"
+                },
+                "masterDatabaseName": "qsqmlcjrxpjwejrq",
+                "masterEndpoint": {
+                    "address": "aszyemyeobwoothg",
+                    "port": 0
+                },
+                "masterUsername": "qztrlqjvumhdutsl",
+                "name": "ldgkodkjbfdqoqjh",
+                "parameterApplyStatus": "dfcbzqgrsonxevbt",
+                "pendingMaintenanceActions": [
+                    {
+                        "action": "obumxhlgorwqfrke",
+                        "currentApplyDate": "xsantrrwpugjvruh",
+                        "description": "cpyuxvhjqgxtbpgd"
+                    }
+                ],
+                "pendingModifiedValues": {
+                    "backupRetentionEnabled": true,
+                    "engineVersion": "wmvmpmknwiywnick",
+                    "masterUserPassword": "ssgqyosybbgxzifi"
+                },
+                "preferredBackupWindow": "runxjcfkyhekojmp",
+                "preferredMaintenanceWindow": "nhwepuclihdzlwba",
+                "publiclyAccessible": true,
+                "relationalDatabaseBlueprintId": "ezsgbkprvmphzstk",
+                "relationalDatabaseBundleId": "tfnrjhduwbhxvdxs",
+                "resourceType": "dwsxptsuwstvdlyq",
+                "secondaryAvailabilityZone": "xpaypfzoykknewnr",
+                "state": "thkyrlohbniuzgre",
+                "supportCode": "plnckbhxuukbohvo",
+                "tags": [
+                    {
+                        "key": "zwcyqcllxhzlreaz",
+                        "value": "ybfgxcsqftswvvkm"
+                    }
+                ]
+            },
+            {
+                "arn": "jipkdzrhdvmbhwkv",
+                "backupRetentionEnabled": true,
+                "caCertificateIdentifier": "hcijizgvumxzbivs",
+                "createdAt": "akuvmndenfibafbl",
+                "engine": "mfcrgrtsbycoditf",
+                "engineVersion": "hzjbuhotelhszgcp",
+                "hardware": {
+                    "cpuCount": 0,
+                    "diskSizeInGb": 0,
+                    "ramSizeInGb": 0.0
+                },
+                "latestRestorableTime": "wyyfigyvubvywpxc",
+                "location": {
+                    "availabilityZone": "yqrdkxkjdhhmzjux",
+                    "regionName": "ampglcebljesiahx"
+                },
+                "masterDatabaseName": "oyfdukpinnkgghfw",
+                "masterEndpoint": {
+                    "address": "gpoxeyihbpliuwek",
+                    "port": 0
+                },
+                "masterUsername": "lqycacqgnwasgeti",
+                "name": "liqriwscnjwdxroj",
+                "parameterApplyStatus": "gopvdknocvghzynx",
+                "pendingMaintenanceActions": [
+                    {
+                        "action": "upqzxuokqwajcvsu",
+                        "currentApplyDate": "prnuwzkyqyvszkff",
+                        "description": "jkanoqqptgfdfvhg"
+                    }
+                ],
+                "pendingModifiedValues": {
+                    "backupRetentionEnabled": true,
+                    "engineVersion": "rpvzwmkagfxcyqgj",
+                    "masterUserPassword": "aqqemgeowoxouxig"
+                },
+                "preferredBackupWindow": "pkhbbsfjhkuhqyvu",
+                "preferredMaintenanceWindow": "slkhorpconcuhpat",
+                "publiclyAccessible": true,
+                "relationalDatabaseBlueprintId": "dwbclmlvuqcgjamf",
+                "relationalDatabaseBundleId": "riiknsmiawekfssw",
+                "resourceType": "dkyylovenwbupjxi",
+                "secondaryAvailabilityZone": "evpnspibzwojiakq",
+                "state": "njbqaxgeoozizmbd",
+                "supportCode": "wrogihzzvctfswgc",
+                "tags": [
+                    {
+                        "key": "usyokhokcljejkag",
+                        "value": "vimlzyetbiimaieq"
+                    }
+                ]
+            }
+        ],
+        "result_key": "relationalDatabases"
+    },
+    "meta": {
+        "start": 1711116110.174223,
+        "end": 1711116118.122743,
+        "duration": 7.948531150817871,
+        "service": "lightsail",
+        "type": null
+    }
+}

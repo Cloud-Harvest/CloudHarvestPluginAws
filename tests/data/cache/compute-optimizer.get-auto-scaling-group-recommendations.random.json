@@ -1,0 +1,1122 @@
+[
+    {
+        "accountId": "eduvqpgoohexyqab",
+        "autoScalingGroupArn": "bbcosbhocxseimlj",
+        "autoScalingGroupName": "czeektantufwchcg",
+        "currentConfiguration": {
+            "desiredCapacity": 0,
+            "instanceType": "aedkvzkzoetquocg",
+            "maxSize": 0,
+            "minSize": 0
+        },
+        "currentInstanceGpuInfo": {
+            "gpus": [
+                {
+                    "gpuCount": 0,
+                    "gpuMemorySizeInMiB": 0
+                }
+            ]
+        },
+        "currentPerformanceRisk": "lojbzlbtmgopxznx",
+        "effectiveRecommendationPreferences": {
+            "cpuVendorArchitectures": [
+                "qilrkydnnifodats"
+            ],
+            "enhancedInfrastructureMetrics": "dgjgxciaudvaqkdk",
+            "externalMetricsPreference": {
+                "source": "frmrhrubgmisrhun"
+            },
+            "inferredWorkloadTypes": "ixzsvetqetlkmcvy",
+            "lookBackPeriod": "uavvubmjkcbzcpel",
+            "preferredResources": [
+                {
+                    "effectiveIncludeList": [
+                        "zsgeoogowuzqxipa"
+                    ],
+                    "excludeList": [
+                        "yxqdbfojjazeeway"
+                    ],
+                    "includeList": [
+                        "bjpfxtsbiihslcbd"
+                    ],
+                    "name": "wqjwavtrrdzyahtc"
+                }
+            ],
+            "savingsEstimationMode": {
+                "source": "vakhyrlhgqkikknf"
+            },
+            "utilizationPreferences": [
+                {
+                    "metricName": "rjfoakogomgvhiva",
+                    "metricParameters": {
+                        "headroom": "ovyplugyelgkbfpr",
+                        "threshold": "aqynblsheolpylde"
+                    }
+                }
+            ]
+        },
+        "finding": "vetqraufohjhxope",
+        "inferredWorkloadTypes": [
+            "gbyqoveevgopaqjs"
+        ],
+        "lastRefreshTimestamp": "brxvnblfopuvdcji",
+        "lookBackPeriodInDays": 0.0,
+        "recommendationOptions": [
+            {
+                "configuration": {
+                    "desiredCapacity": 0,
+                    "instanceType": "hdknltztvsaqixea",
+                    "maxSize": 0,
+                    "minSize": 0
+                },
+                "instanceGpuInfo": {
+                    "gpus": [
+                        {
+                            "gpuCount": 0,
+                            "gpuMemorySizeInMiB": 0
+                        }
+                    ]
+                },
+                "migrationEffort": "mvbmqoommjeorooe",
+                "performanceRisk": 0.0,
+                "projectedUtilizationMetrics": [
+                    {
+                        "name": "cplznxcmjrlfekzr",
+                        "statistic": "cnjcxteungsqwvau",
+                        "value": 0.0
+                    }
+                ],
+                "rank": 0,
+                "savingsOpportunity": {
+                    "estimatedMonthlySavings": {
+                        "currency": "jrtbtnrhbxodslel",
+                        "value": 0.0
+                    },
+                    "savingsOpportunityPercentage": 0.0
+                },
+                "savingsOpportunityAfterDiscounts": {
+                    "estimatedMonthlySavings": {
+                        "currency": "xdantmoetdnqimhp",
+                        "value": 0.0
+                    },
+                    "savingsOpportunityPercentage": 0.0
+                }
+            }
+        ],
+        "utilizationMetrics": [
+            {
+                "name": "haqoutyxqsoolmcl",
+                "statistic": "ijaapeyqhxrdazhw",
+                "value": 0.0
+            }
+        ]
+    },
+    {
+        "accountId": "jjjfoeuqhtteaezh",
+        "autoScalingGroupArn": "umsiwwudqojsldxq",
+        "autoScalingGroupName": "eqagptjqdxlvskuu",
+        "currentConfiguration": {
+            "desiredCapacity": 0,
+            "instanceType": "bmdbtkmdqtmehlox",
+            "maxSize": 0,
+            "minSize": 0
+        },
+        "currentInstanceGpuInfo": {
+            "gpus": [
+                {
+                    "gpuCount": 0,
+                    "gpuMemorySizeInMiB": 0
+                }
+            ]
+        },
+        "currentPerformanceRisk": "vgfuummtojdqoqaz",
+        "effectiveRecommendationPreferences": {
+            "cpuVendorArchitectures": [
+                "cxgagkghnhwreikv"
+            ],
+            "enhancedInfrastructureMetrics": "buebblzpbuhibfak",
+            "externalMetricsPreference": {
+                "source": "rbkqhafblosmapaj"
+            },
+            "inferredWorkloadTypes": "kcqimhbkggqbtiwj",
+            "lookBackPeriod": "cdsdjlmkenmdtzhw",
+            "preferredResources": [
+                {
+                    "effectiveIncludeList": [
+                        "hbnbrdoyythstnse"
+                    ],
+                    "excludeList": [
+                        "wijnthcxnujphwpk"
+                    ],
+                    "includeList": [
+                        "gemzsndfzswdpuvz"
+                    ],
+                    "name": "boalmejthborhoma"
+                }
+            ],
+            "savingsEstimationMode": {
+                "source": "pwgjmmatvodvbgup"
+            },
+            "utilizationPreferences": [
+                {
+                    "metricName": "scdcuscnqjxopwjq",
+                    "metricParameters": {
+                        "headroom": "pfobetmdekfqcqnf",
+                        "threshold": "kotepvtbirudmepv"
+                    }
+                }
+            ]
+        },
+        "finding": "mdclaswlajnptmni",
+        "inferredWorkloadTypes": [
+            "ufvkyaalwjtlujvd"
+        ],
+        "lastRefreshTimestamp": "gjqkymangzsbvcme",
+        "lookBackPeriodInDays": 0.0,
+        "recommendationOptions": [
+            {
+                "configuration": {
+                    "desiredCapacity": 0,
+                    "instanceType": "dcyqtrbezzxhbxdf",
+                    "maxSize": 0,
+                    "minSize": 0
+                },
+                "instanceGpuInfo": {
+                    "gpus": [
+                        {
+                            "gpuCount": 0,
+                            "gpuMemorySizeInMiB": 0
+                        }
+                    ]
+                },
+                "migrationEffort": "whcddbxezwocykiw",
+                "performanceRisk": 0.0,
+                "projectedUtilizationMetrics": [
+                    {
+                        "name": "ltzohcweaqhfrxgc",
+                        "statistic": "cdzgplhucvayekob",
+                        "value": 0.0
+                    }
+                ],
+                "rank": 0,
+                "savingsOpportunity": {
+                    "estimatedMonthlySavings": {
+                        "currency": "wcugmqnvjdbvvsil",
+                        "value": 0.0
+                    },
+                    "savingsOpportunityPercentage": 0.0
+                },
+                "savingsOpportunityAfterDiscounts": {
+                    "estimatedMonthlySavings": {
+                        "currency": "rshwwrzdiurqbvfp",
+                        "value": 0.0
+                    },
+                    "savingsOpportunityPercentage": 0.0
+                }
+            }
+        ],
+        "utilizationMetrics": [
+            {
+                "name": "yjynhhgmedwfgypx",
+                "statistic": "cpqpmveribxyuptq",
+                "value": 0.0
+            }
+        ]
+    },
+    {
+        "accountId": "ohnyhwvhmhaqvnux",
+        "autoScalingGroupArn": "mfjowdwgfhralvut",
+        "autoScalingGroupName": "kzxrgbckjbcsrlik",
+        "currentConfiguration": {
+            "desiredCapacity": 0,
+            "instanceType": "bdaalsvhaqljpssm",
+            "maxSize": 0,
+            "minSize": 0
+        },
+        "currentInstanceGpuInfo": {
+            "gpus": [
+                {
+                    "gpuCount": 0,
+                    "gpuMemorySizeInMiB": 0
+                }
+            ]
+        },
+        "currentPerformanceRisk": "movhubbvgnkbxymi",
+        "effectiveRecommendationPreferences": {
+            "cpuVendorArchitectures": [
+                "prkmnfpflrceqpgb"
+            ],
+            "enhancedInfrastructureMetrics": "ksqxxvejxibiiarg",
+            "externalMetricsPreference": {
+                "source": "gliwixviigvhqlut"
+            },
+            "inferredWorkloadTypes": "fvfqkdotkomtnfhx",
+            "lookBackPeriod": "lyrbramqsxrihrcl",
+            "preferredResources": [
+                {
+                    "effectiveIncludeList": [
+                        "lttjngcsmmyiuari"
+                    ],
+                    "excludeList": [
+                        "xrunvngjfvcavifd"
+                    ],
+                    "includeList": [
+                        "deywefiamvylqtwb"
+                    ],
+                    "name": "reuqfurzqbbszrxn"
+                }
+            ],
+            "savingsEstimationMode": {
+                "source": "kajlazmzmlwiewxz"
+            },
+            "utilizationPreferences": [
+                {
+                    "metricName": "vwegrqjcdmrqtegf",
+                    "metricParameters": {
+                        "headroom": "pwgeohzvdwtsjpgy",
+                        "threshold": "uvjliiwpykbmydwc"
+                    }
+                }
+            ]
+        },
+        "finding": "szlargkqvlniwscn",
+        "inferredWorkloadTypes": [
+            "yatlnhbafhfdypun"
+        ],
+        "lastRefreshTimestamp": "aonufottlfddcnrp",
+        "lookBackPeriodInDays": 0.0,
+        "recommendationOptions": [
+            {
+                "configuration": {
+                    "desiredCapacity": 0,
+                    "instanceType": "txtdpczzomonhtcn",
+                    "maxSize": 0,
+                    "minSize": 0
+                },
+                "instanceGpuInfo": {
+                    "gpus": [
+                        {
+                            "gpuCount": 0,
+                            "gpuMemorySizeInMiB": 0
+                        }
+                    ]
+                },
+                "migrationEffort": "tvctuzblocyhnacj",
+                "performanceRisk": 0.0,
+                "projectedUtilizationMetrics": [
+                    {
+                        "name": "lmuyjgclsaykednc",
+                        "statistic": "lcmvqzqifwgqybqp",
+                        "value": 0.0
+                    }
+                ],
+                "rank": 0,
+                "savingsOpportunity": {
+                    "estimatedMonthlySavings": {
+                        "currency": "giakbdnfpzrytifm",
+                        "value": 0.0
+                    },
+                    "savingsOpportunityPercentage": 0.0
+                },
+                "savingsOpportunityAfterDiscounts": {
+                    "estimatedMonthlySavings": {
+                        "currency": "xwqshokxsyxcfmlc",
+                        "value": 0.0
+                    },
+                    "savingsOpportunityPercentage": 0.0
+                }
+            }
+        ],
+        "utilizationMetrics": [
+            {
+                "name": "aubofarmugpglnva",
+                "statistic": "korxupddapifxhiz",
+                "value": 0.0
+            }
+        ]
+    },
+    {
+        "accountId": "lxvafeunufvtneqi",
+        "autoScalingGroupArn": "wlbfcqvpltpaydxg",
+        "autoScalingGroupName": "exwufddiwqzczvey",
+        "currentConfiguration": {
+            "desiredCapacity": 0,
+            "instanceType": "tlkcrpphfocoxjkn",
+            "maxSize": 0,
+            "minSize": 0
+        },
+        "currentInstanceGpuInfo": {
+            "gpus": [
+                {
+                    "gpuCount": 0,
+                    "gpuMemorySizeInMiB": 0
+                }
+            ]
+        },
+        "currentPerformanceRisk": "hoxnnlpexngoummv",
+        "effectiveRecommendationPreferences": {
+            "cpuVendorArchitectures": [
+                "ysoytpqlheqbgrmk"
+            ],
+            "enhancedInfrastructureMetrics": "wwiucwpxpupumxyv",
+            "externalMetricsPreference": {
+                "source": "oapakibhwufmzmfw"
+            },
+            "inferredWorkloadTypes": "btlafiwudemyqcll",
+            "lookBackPeriod": "yfecughwnzblxgtz",
+            "preferredResources": [
+                {
+                    "effectiveIncludeList": [
+                        "ewywmnvgagmwujeb"
+                    ],
+                    "excludeList": [
+                        "smhdpqufcbhaupya"
+                    ],
+                    "includeList": [
+                        "tgmmbgmhetprzuag"
+                    ],
+                    "name": "vzwpmdtbebzkvztl"
+                }
+            ],
+            "savingsEstimationMode": {
+                "source": "hrkmlqhxfehnbydz"
+            },
+            "utilizationPreferences": [
+                {
+                    "metricName": "yqeaiolwcofkyflb",
+                    "metricParameters": {
+                        "headroom": "zadxzdcrgewwlkcm",
+                        "threshold": "bbftfslippyimqkp"
+                    }
+                }
+            ]
+        },
+        "finding": "lvlchclvtqtddjzy",
+        "inferredWorkloadTypes": [
+            "srcmvjabhptcmfph"
+        ],
+        "lastRefreshTimestamp": "rbggqysitzetvenx",
+        "lookBackPeriodInDays": 0.0,
+        "recommendationOptions": [
+            {
+                "configuration": {
+                    "desiredCapacity": 0,
+                    "instanceType": "npwrptlzbyyfwqdq",
+                    "maxSize": 0,
+                    "minSize": 0
+                },
+                "instanceGpuInfo": {
+                    "gpus": [
+                        {
+                            "gpuCount": 0,
+                            "gpuMemorySizeInMiB": 0
+                        }
+                    ]
+                },
+                "migrationEffort": "qqqtngzxeeiqoudh",
+                "performanceRisk": 0.0,
+                "projectedUtilizationMetrics": [
+                    {
+                        "name": "uuxnysxumynlloaw",
+                        "statistic": "odaiejgazugpfcln",
+                        "value": 0.0
+                    }
+                ],
+                "rank": 0,
+                "savingsOpportunity": {
+                    "estimatedMonthlySavings": {
+                        "currency": "kculsetagizysvrc",
+                        "value": 0.0
+                    },
+                    "savingsOpportunityPercentage": 0.0
+                },
+                "savingsOpportunityAfterDiscounts": {
+                    "estimatedMonthlySavings": {
+                        "currency": "fvqrtimiwdmxpuym",
+                        "value": 0.0
+                    },
+                    "savingsOpportunityPercentage": 0.0
+                }
+            }
+        ],
+        "utilizationMetrics": [
+            {
+                "name": "aspyyoougrlwhnzq",
+                "statistic": "bstftpjsbuuhmpvk",
+                "value": 0.0
+            }
+        ]
+    },
+    {
+        "accountId": "stcmqaybmnbdqqbo",
+        "autoScalingGroupArn": "lyvgbrekjfwouoey",
+        "autoScalingGroupName": "eikwpbvqxibxzztt",
+        "currentConfiguration": {
+            "desiredCapacity": 0,
+            "instanceType": "mczasacsjdtbqigf",
+            "maxSize": 0,
+            "minSize": 0
+        },
+        "currentInstanceGpuInfo": {
+            "gpus": [
+                {
+                    "gpuCount": 0,
+                    "gpuMemorySizeInMiB": 0
+                }
+            ]
+        },
+        "currentPerformanceRisk": "myhqyhwnqelkjmzd",
+        "effectiveRecommendationPreferences": {
+            "cpuVendorArchitectures": [
+                "jqllwyrxaccvheir"
+            ],
+            "enhancedInfrastructureMetrics": "ubxxzddcjqxfmody",
+            "externalMetricsPreference": {
+                "source": "zywrpsoigpokftua"
+            },
+            "inferredWorkloadTypes": "ecyuyejtvxccilca",
+            "lookBackPeriod": "mwmkxxpistdzroxu",
+            "preferredResources": [
+                {
+                    "effectiveIncludeList": [
+                        "wdesyavnclpktcqh"
+                    ],
+                    "excludeList": [
+                        "otsfhhqjpxbvimzl"
+                    ],
+                    "includeList": [
+                        "xtibwoalruggteul"
+                    ],
+                    "name": "bppriivepycjqckd"
+                }
+            ],
+            "savingsEstimationMode": {
+                "source": "oonkfsvadawlnazu"
+            },
+            "utilizationPreferences": [
+                {
+                    "metricName": "rofqvaosgptesdkr",
+                    "metricParameters": {
+                        "headroom": "vhvvyxydycakddvf",
+                        "threshold": "qnimtbsqjtbmowlo"
+                    }
+                }
+            ]
+        },
+        "finding": "bbdoblllicgguawg",
+        "inferredWorkloadTypes": [
+            "yagvwzjiturxjlsi"
+        ],
+        "lastRefreshTimestamp": "jtcdpynxpelddysd",
+        "lookBackPeriodInDays": 0.0,
+        "recommendationOptions": [
+            {
+                "configuration": {
+                    "desiredCapacity": 0,
+                    "instanceType": "ojftnlzywspnfrrg",
+                    "maxSize": 0,
+                    "minSize": 0
+                },
+                "instanceGpuInfo": {
+                    "gpus": [
+                        {
+                            "gpuCount": 0,
+                            "gpuMemorySizeInMiB": 0
+                        }
+                    ]
+                },
+                "migrationEffort": "kbrcsgpmbdejeoll",
+                "performanceRisk": 0.0,
+                "projectedUtilizationMetrics": [
+                    {
+                        "name": "skqtqgsuorohmrev",
+                        "statistic": "summgjzcsqdkesct",
+                        "value": 0.0
+                    }
+                ],
+                "rank": 0,
+                "savingsOpportunity": {
+                    "estimatedMonthlySavings": {
+                        "currency": "wrztkjkpvhljprmq",
+                        "value": 0.0
+                    },
+                    "savingsOpportunityPercentage": 0.0
+                },
+                "savingsOpportunityAfterDiscounts": {
+                    "estimatedMonthlySavings": {
+                        "currency": "dmkqzyxiwhpllqhw",
+                        "value": 0.0
+                    },
+                    "savingsOpportunityPercentage": 0.0
+                }
+            }
+        ],
+        "utilizationMetrics": [
+            {
+                "name": "ndpssxbxrrzzbxnn",
+                "statistic": "hughlylstxmeiehe",
+                "value": 0.0
+            }
+        ]
+    },
+    {
+        "accountId": "vxhlcyimgdxhepoh",
+        "autoScalingGroupArn": "dlfzjjtkuxmdyncc",
+        "autoScalingGroupName": "zdvgtxlzgzwrffgw",
+        "currentConfiguration": {
+            "desiredCapacity": 0,
+            "instanceType": "obmkfazfzjlgivsu",
+            "maxSize": 0,
+            "minSize": 0
+        },
+        "currentInstanceGpuInfo": {
+            "gpus": [
+                {
+                    "gpuCount": 0,
+                    "gpuMemorySizeInMiB": 0
+                }
+            ]
+        },
+        "currentPerformanceRisk": "tzkkkakayeflhbya",
+        "effectiveRecommendationPreferences": {
+            "cpuVendorArchitectures": [
+                "aksafvepeathefdl"
+            ],
+            "enhancedInfrastructureMetrics": "nhlhkuxrcedkylit",
+            "externalMetricsPreference": {
+                "source": "nlemiriuahcmsrry"
+            },
+            "inferredWorkloadTypes": "cioyuwrhasamucxz",
+            "lookBackPeriod": "hczcgaquljyzsyrl",
+            "preferredResources": [
+                {
+                    "effectiveIncludeList": [
+                        "rbljqtqzlzyiougr"
+                    ],
+                    "excludeList": [
+                        "kyrudhksbdzyhlzn"
+                    ],
+                    "includeList": [
+                        "aafpiaorakyoyixb"
+                    ],
+                    "name": "kbbgcbexsgzhlbnu"
+                }
+            ],
+            "savingsEstimationMode": {
+                "source": "rhrereproizfshnf"
+            },
+            "utilizationPreferences": [
+                {
+                    "metricName": "ttvlmynplcezcpcx",
+                    "metricParameters": {
+                        "headroom": "srqzylbjzduldffk",
+                        "threshold": "qlqcipfytvgzeecx"
+                    }
+                }
+            ]
+        },
+        "finding": "wimfqvqkuogatthv",
+        "inferredWorkloadTypes": [
+            "ubybkeotrbctprff"
+        ],
+        "lastRefreshTimestamp": "dxmhluujhtumtonp",
+        "lookBackPeriodInDays": 0.0,
+        "recommendationOptions": [
+            {
+                "configuration": {
+                    "desiredCapacity": 0,
+                    "instanceType": "ztpanvwptuuobxrh",
+                    "maxSize": 0,
+                    "minSize": 0
+                },
+                "instanceGpuInfo": {
+                    "gpus": [
+                        {
+                            "gpuCount": 0,
+                            "gpuMemorySizeInMiB": 0
+                        }
+                    ]
+                },
+                "migrationEffort": "mgkstlqacqfjdqpl",
+                "performanceRisk": 0.0,
+                "projectedUtilizationMetrics": [
+                    {
+                        "name": "pympsmvhgyshjzcb",
+                        "statistic": "kwgcnpsogmotelse",
+                        "value": 0.0
+                    }
+                ],
+                "rank": 0,
+                "savingsOpportunity": {
+                    "estimatedMonthlySavings": {
+                        "currency": "rovmatzkushxsvtv",
+                        "value": 0.0
+                    },
+                    "savingsOpportunityPercentage": 0.0
+                },
+                "savingsOpportunityAfterDiscounts": {
+                    "estimatedMonthlySavings": {
+                        "currency": "iyjpvieyscmpcrce",
+                        "value": 0.0
+                    },
+                    "savingsOpportunityPercentage": 0.0
+                }
+            }
+        ],
+        "utilizationMetrics": [
+            {
+                "name": "bwhrjdfvytwzrebv",
+                "statistic": "lltxtjwqvxzlrfte",
+                "value": 0.0
+            }
+        ]
+    },
+    {
+        "accountId": "qodndgoonpvdmtlf",
+        "autoScalingGroupArn": "jhxccrsgkgxhbxup",
+        "autoScalingGroupName": "lbkwymmwfguszoem",
+        "currentConfiguration": {
+            "desiredCapacity": 0,
+            "instanceType": "rewjqesqnefgptdk",
+            "maxSize": 0,
+            "minSize": 0
+        },
+        "currentInstanceGpuInfo": {
+            "gpus": [
+                {
+                    "gpuCount": 0,
+                    "gpuMemorySizeInMiB": 0
+                }
+            ]
+        },
+        "currentPerformanceRisk": "wottldsddmshwuac",
+        "effectiveRecommendationPreferences": {
+            "cpuVendorArchitectures": [
+                "nqorbfjnvbhhvzni"
+            ],
+            "enhancedInfrastructureMetrics": "baimtbwflaysugmm",
+            "externalMetricsPreference": {
+                "source": "ijryfifpzzvqluda"
+            },
+            "inferredWorkloadTypes": "mwjkvtvrqvswjmdh",
+            "lookBackPeriod": "onaeztcnlpjrkvvp",
+            "preferredResources": [
+                {
+                    "effectiveIncludeList": [
+                        "jnrveupruxthlhld"
+                    ],
+                    "excludeList": [
+                        "zcfnqvvzdbtjggva"
+                    ],
+                    "includeList": [
+                        "vtduukfpxtpodjae"
+                    ],
+                    "name": "rrifwlzcuyxlmmtb"
+                }
+            ],
+            "savingsEstimationMode": {
+                "source": "srnckqjnnpwblifk"
+            },
+            "utilizationPreferences": [
+                {
+                    "metricName": "ncfnwykbtanlvxpu",
+                    "metricParameters": {
+                        "headroom": "kjiimskqwhbshwrn",
+                        "threshold": "oflqzzsilmkvjksw"
+                    }
+                }
+            ]
+        },
+        "finding": "ampnmllsjdizwqtc",
+        "inferredWorkloadTypes": [
+            "kvbimsoxdegkkipb"
+        ],
+        "lastRefreshTimestamp": "pwchijqsmstiwagy",
+        "lookBackPeriodInDays": 0.0,
+        "recommendationOptions": [
+            {
+                "configuration": {
+                    "desiredCapacity": 0,
+                    "instanceType": "ruvaorakngxpmomm",
+                    "maxSize": 0,
+                    "minSize": 0
+                },
+                "instanceGpuInfo": {
+                    "gpus": [
+                        {
+                            "gpuCount": 0,
+                            "gpuMemorySizeInMiB": 0
+                        }
+                    ]
+                },
+                "migrationEffort": "dsmkysloekjenfry",
+                "performanceRisk": 0.0,
+                "projectedUtilizationMetrics": [
+                    {
+                        "name": "rkgkanyazgfaespa",
+                        "statistic": "fljtvqeoxawuopoo",
+                        "value": 0.0
+                    }
+                ],
+                "rank": 0,
+                "savingsOpportunity": {
+                    "estimatedMonthlySavings": {
+                        "currency": "fsuqeogtdblyfjxs",
+                        "value": 0.0
+                    },
+                    "savingsOpportunityPercentage": 0.0
+                },
+                "savingsOpportunityAfterDiscounts": {
+                    "estimatedMonthlySavings": {
+                        "currency": "wlwavvlvtedhtktb",
+                        "value": 0.0
+                    },
+                    "savingsOpportunityPercentage": 0.0
+                }
+            }
+        ],
+        "utilizationMetrics": [
+            {
+                "name": "loocxiaqevuefcaa",
+                "statistic": "ypkctgszovqdlasf",
+                "value": 0.0
+            }
+        ]
+    },
+    {
+        "accountId": "wlgzsjggxgkgwtnh",
+        "autoScalingGroupArn": "fodafaeuvmaqmlju",
+        "autoScalingGroupName": "dybkmkrrykkqshcv",
+        "currentConfiguration": {
+            "desiredCapacity": 0,
+            "instanceType": "ttfgbuoruwzcfotu",
+            "maxSize": 0,
+            "minSize": 0
+        },
+        "currentInstanceGpuInfo": {
+            "gpus": [
+                {
+                    "gpuCount": 0,
+                    "gpuMemorySizeInMiB": 0
+                }
+            ]
+        },
+        "currentPerformanceRisk": "rkhlxorzwxqluphn",
+        "effectiveRecommendationPreferences": {
+            "cpuVendorArchitectures": [
+                "stfuxtuosyakeqmd"
+            ],
+            "enhancedInfrastructureMetrics": "xjjdwidmyyfqzxpp",
+            "externalMetricsPreference": {
+                "source": "sqmzzlqagdeluiuj"
+            },
+            "inferredWorkloadTypes": "lejfyvcdguyzmqza",
+            "lookBackPeriod": "jiccalhguaiqszwb",
+            "preferredResources": [
+                {
+                    "effectiveIncludeList": [
+                        "hwrcfwcfkxfwdjrf"
+                    ],
+                    "excludeList": [
+                        "jraedtlhtqhrvdzf"
+                    ],
+                    "includeList": [
+                        "wilyltujcefxhokm"
+                    ],
+                    "name": "btjvbicqcbaibmon"
+                }
+            ],
+            "savingsEstimationMode": {
+                "source": "lwyywndawozwbpcl"
+            },
+            "utilizationPreferences": [
+                {
+                    "metricName": "hftxepnlqszlscwt",
+                    "metricParameters": {
+                        "headroom": "dqfucryefuvcoqkw",
+                        "threshold": "rsbffghfqcjzgtlz"
+                    }
+                }
+            ]
+        },
+        "finding": "xnicafczbtkxoztk",
+        "inferredWorkloadTypes": [
+            "bscoogwyarevfxrg"
+        ],
+        "lastRefreshTimestamp": "xlrhgdearxgqsuks",
+        "lookBackPeriodInDays": 0.0,
+        "recommendationOptions": [
+            {
+                "configuration": {
+                    "desiredCapacity": 0,
+                    "instanceType": "rtjwdmxzqxdprvmw",
+                    "maxSize": 0,
+                    "minSize": 0
+                },
+                "instanceGpuInfo": {
+                    "gpus": [
+                        {
+                            "gpuCount": 0,
+                            "gpuMemorySizeInMiB": 0
+                        }
+                    ]
+                },
+                "migrationEffort": "zcykfsfjiaflguja",
+                "performanceRisk": 0.0,
+                "projectedUtilizationMetrics": [
+                    {
+                        "name": "mbghsfpkyulewten",
+                        "statistic": "iaiycmgueixwdfti",
+                        "value": 0.0
+                    }
+                ],
+                "rank": 0,
+                "savingsOpportunity": {
+                    "estimatedMonthlySavings": {
+                        "currency": "jgjobqjjewqszenj",
+                        "value": 0.0
+                    },
+                    "savingsOpportunityPercentage": 0.0
+                },
+                "savingsOpportunityAfterDiscounts": {
+                    "estimatedMonthlySavings": {
+                        "currency": "pfdmgyhufidyhbga",
+                        "value": 0.0
+                    },
+                    "savingsOpportunityPercentage": 0.0
+                }
+            }
+        ],
+        "utilizationMetrics": [
+            {
+                "name": "zlgpytmmwlllkpmn",
+                "statistic": "pxslsqnulbxkrfao",
+                "value": 0.0
+            }
+        ]
+    },
+    {
+        "accountId": "yhdrsullmxqardmq",
+        "autoScalingGroupArn": "ypyherpftswhjdli",
+        "autoScalingGroupName": "xeyqggrefrjcffjs",
+        "currentConfiguration": {
+            "desiredCapacity": 0,
+            "instanceType": "grjjtdmgfyvijiyu",
+            "maxSize": 0,
+            "minSize": 0
+        },
+        "currentInstanceGpuInfo": {
+            "gpus": [
+                {
+                    "gpuCount": 0,
+                    "gpuMemorySizeInMiB": 0
+                }
+            ]
+        },
+        "currentPerformanceRisk": "rdfdsvhhubyxrqub",
+        "effectiveRecommendationPreferences": {
+            "cpuVendorArchitectures": [
+                "ryolgvjssxngbjil"
+            ],
+            "enhancedInfrastructureMetrics": "yttwwvuiiflqutqj",
+            "externalMetricsPreference": {
+                "source": "wolndcllazxgchii"
+            },
+            "inferredWorkloadTypes": "lmyvyzdudaftmjxq",
+            "lookBackPeriod": "ahzjmrrpnujzxcqd",
+            "preferredResources": [
+                {
+                    "effectiveIncludeList": [
+                        "otfbnylzhorddqec"
+                    ],
+                    "excludeList": [
+                        "rlijpgeowbwvwbgx"
+                    ],
+                    "includeList": [
+                        "vlkkwbychdnimyme"
+                    ],
+                    "name": "vgfdvxftonbnvzcg"
+                }
+            ],
+            "savingsEstimationMode": {
+                "source": "ezolpzmkqmgljpyl"
+            },
+            "utilizationPreferences": [
+                {
+                    "metricName": "mubflxoknwgyutkt",
+                    "metricParameters": {
+                        "headroom": "zylixqckdvhrgnww",
+                        "threshold": "zvfzpgigkaowbklp"
+                    }
+                }
+            ]
+        },
+        "finding": "hhzcahfzqfoxuyvb",
+        "inferredWorkloadTypes": [
+            "lfjgkitktghrwmou"
+        ],
+        "lastRefreshTimestamp": "doujidhgryyiyhpe",
+        "lookBackPeriodInDays": 0.0,
+        "recommendationOptions": [
+            {
+                "configuration": {
+                    "desiredCapacity": 0,
+                    "instanceType": "ibwthktauflruahi",
+                    "maxSize": 0,
+                    "minSize": 0
+                },
+                "instanceGpuInfo": {
+                    "gpus": [
+                        {
+                            "gpuCount": 0,
+                            "gpuMemorySizeInMiB": 0
+                        }
+                    ]
+                },
+                "migrationEffort": "przarfderfdbzapz",
+                "performanceRisk": 0.0,
+                "projectedUtilizationMetrics": [
+                    {
+                        "name": "ernyifkxcbulywkd",
+                        "statistic": "slldnwkllduwxdig",
+                        "value": 0.0
+                    }
+                ],
+                "rank": 0,
+                "savingsOpportunity": {
+                    "estimatedMonthlySavings": {
+                        "currency": "bzetmtlephndouik",
+                        "value": 0.0
+                    },
+                    "savingsOpportunityPercentage": 0.0
+                },
+                "savingsOpportunityAfterDiscounts": {
+                    "estimatedMonthlySavings": {
+                        "currency": "zvzoimpzbezkpxen",
+                        "value": 0.0
+                    },
+                    "savingsOpportunityPercentage": 0.0
+                }
+            }
+        ],
+        "utilizationMetrics": [
+            {
+                "name": "xmtxjqjdxiqhwmhi",
+                "statistic": "vnvoedjnfsqjgkpe",
+                "value": 0.0
+            }
+        ]
+    },
+    {
+        "accountId": "vrzrnuukmhdqrzep",
+        "autoScalingGroupArn": "kqwyuzngqsjxdfzf",
+        "autoScalingGroupName": "vxuggxumlspfbzzj",
+        "currentConfiguration": {
+            "desiredCapacity": 0,
+            "instanceType": "dpwopdkktimlxpwy",
+            "maxSize": 0,
+            "minSize": 0
+        },
+        "currentInstanceGpuInfo": {
+            "gpus": [
+                {
+                    "gpuCount": 0,
+                    "gpuMemorySizeInMiB": 0
+                }
+            ]
+        },
+        "currentPerformanceRisk": "mosiqvjsislqhlif",
+        "effectiveRecommendationPreferences": {
+            "cpuVendorArchitectures": [
+                "ubwjulauveufruyb"
+            ],
+            "enhancedInfrastructureMetrics": "divtgamknaiuthfc",
+            "externalMetricsPreference": {
+                "source": "jmylzkgtpinuujxf"
+            },
+            "inferredWorkloadTypes": "haqejvzovitiatjb",
+            "lookBackPeriod": "whssmvxohbwudzyw",
+            "preferredResources": [
+                {
+                    "effectiveIncludeList": [
+                        "lzxqvewnujkdevey"
+                    ],
+                    "excludeList": [
+                        "gyghjrbcaccdxakp"
+                    ],
+                    "includeList": [
+                        "wifipryiedmzxdkz"
+                    ],
+                    "name": "gpuungephabpgrhy"
+                }
+            ],
+            "savingsEstimationMode": {
+                "source": "oraypvipervxcede"
+            },
+            "utilizationPreferences": [
+                {
+                    "metricName": "lnvctaoulqrqldyj",
+                    "metricParameters": {
+                        "headroom": "rfjxvjtsdzoljkdu",
+                        "threshold": "itjxfuxixxoxkmls"
+                    }
+                }
+            ]
+        },
+        "finding": "yajgbeexyoqndest",
+        "inferredWorkloadTypes": [
+            "knoeklesxodxbojc"
+        ],
+        "lastRefreshTimestamp": "zgggemmclweuaftc",
+        "lookBackPeriodInDays": 0.0,
+        "recommendationOptions": [
+            {
+                "configuration": {
+                    "desiredCapacity": 0,
+                    "instanceType": "jthucizpbneszfnx",
+                    "maxSize": 0,
+                    "minSize": 0
+                },
+                "instanceGpuInfo": {
+                    "gpus": [
+                        {
+                            "gpuCount": 0,
+                            "gpuMemorySizeInMiB": 0
+                        }
+                    ]
+                },
+                "migrationEffort": "ygtupkyuiizioaoq",
+                "performanceRisk": 0.0,
+                "projectedUtilizationMetrics": [
+                    {
+                        "name": "lnxqvndasdcafxmc",
+                        "statistic": "fhlzmzgnhsgsojfc",
+                        "value": 0.0
+                    }
+                ],
+                "rank": 0,
+                "savingsOpportunity": {
+                    "estimatedMonthlySavings": {
+                        "currency": "xzudrrxquyigbxyh",
+                        "value": 0.0
+                    },
+                    "savingsOpportunityPercentage": 0.0
+                },
+                "savingsOpportunityAfterDiscounts": {
+                    "estimatedMonthlySavings": {
+                        "currency": "yipruldbmhpqqkmu",
+                        "value": 0.0
+                    },
+                    "savingsOpportunityPercentage": 0.0
+                }
+            }
+        ],
+        "utilizationMetrics": [
+            {
+                "name": "jtnyekmqxxcskoyv",
+                "statistic": "pxlktjujmonheneb",
+                "value": 0.0
+            }
+        ]
+    }
+]

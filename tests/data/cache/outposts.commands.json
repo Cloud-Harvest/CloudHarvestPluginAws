@@ -1,0 +1,15 @@
+[
+    "outposts.get-catalog-item",
+    "outposts.get-connection",
+    "outposts.get-order",
+    "outposts.get-outpost",
+    "outposts.get-outpost-instance-types",
+    "outposts.get-site",
+    "outposts.get-site-address",
+    "outposts.list-assets",
+    "outposts.list-catalog-items",
+    "outposts.list-orders",
+    "outposts.list-outposts",
+    "outposts.list-sites",
+    "outposts.list-tags-for-resource"
+]

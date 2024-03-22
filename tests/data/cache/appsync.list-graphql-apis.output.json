@@ -1,0 +1,833 @@
+{
+    "input": {
+        "template": {
+            "nextToken": "",
+            "maxResults": 0,
+            "apiType": "GRAPHQL",
+            "owner": "CURRENT_ACCOUNT"
+        },
+        "required": [],
+        "md5": "392ae62cc2e561f20c142a5853e9d0b4",
+        "boto_command": "list_graphql_apis",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "name": "name",
+                "apiId": "apiId",
+                "authenticationType": "authenticationType",
+                "logConfig": {
+                    "fieldLogLevel": "fieldLogLevel",
+                    "cloudWatchLogsRoleArn": "cloudWatchLogsRoleArn",
+                    "excludeVerboseContent": true
+                },
+                "userPoolConfig": {
+                    "userPoolId": "userPoolId",
+                    "awsRegion": "awsRegion",
+                    "defaultAction": "defaultAction",
+                    "appIdClientRegex": "appIdClientRegex"
+                },
+                "openIDConnectConfig": {
+                    "issuer": "issuer",
+                    "clientId": "clientId",
+                    "iatTTL": 0,
+                    "authTTL": 0
+                },
+                "arn": "arn",
+                "uris": {
+                    "KeyName": ""
+                },
+                "tags": {
+                    "KeyName": ""
+                },
+                "additionalAuthenticationProviders": [
+                    {
+                        "authenticationType": "authenticationType",
+                        "openIDConnectConfig": {
+                            "issuer": "issuer",
+                            "clientId": "clientId",
+                            "iatTTL": 0,
+                            "authTTL": 0
+                        },
+                        "userPoolConfig": {
+                            "userPoolId": "userPoolId",
+                            "awsRegion": "awsRegion",
+                            "appIdClientRegex": "appIdClientRegex"
+                        },
+                        "lambdaAuthorizerConfig": {
+                            "authorizerResultTtlInSeconds": 0,
+                            "authorizerUri": "authorizerUri",
+                            "identityValidationExpression": "identityValidationExpression"
+                        }
+                    }
+                ],
+                "xrayEnabled": true,
+                "wafWebAclArn": "wafWebAclArn",
+                "lambdaAuthorizerConfig": {
+                    "authorizerResultTtlInSeconds": 0,
+                    "authorizerUri": "authorizerUri",
+                    "identityValidationExpression": "identityValidationExpression"
+                },
+                "dns": {
+                    "KeyName": ""
+                },
+                "visibility": "visibility",
+                "apiType": "apiType",
+                "mergedApiExecutionRoleArn": "mergedApiExecutionRoleArn",
+                "owner": "owner",
+                "ownerContact": "ownerContact",
+                "introspectionConfig": "introspectionConfig",
+                "queryDepthLimit": 0,
+                "resolverCountLimit": 0,
+                "enhancedMetricsConfig": {
+                    "resolverLevelMetricsBehavior": "resolverLevelMetricsBehavior",
+                    "dataSourceLevelMetricsBehavior": "dataSourceLevelMetricsBehavior",
+                    "operationLevelMetricsConfig": "operationLevelMetricsConfig"
+                }
+            }
+        ],
+        "required": [],
+        "md5": "b3ee308ab15be493dcd35ccc742032f1",
+        "randomized": [
+            {
+                "additionalAuthenticationProviders": [
+                    {
+                        "authenticationType": "kvdoggpugbvbvzcn",
+                        "lambdaAuthorizerConfig": {
+                            "authorizerResultTtlInSeconds": 0,
+                            "authorizerUri": "eqqtlsxwinytudui",
+                            "identityValidationExpression": "lfeqiepzutrrnoqz"
+                        },
+                        "openIDConnectConfig": {
+                            "authTTL": 0,
+                            "clientId": "rorzlvzwgtqhnjeq",
+                            "iatTTL": 0,
+                            "issuer": "hkuxnkpbiyvqwryr"
+                        },
+                        "userPoolConfig": {
+                            "appIdClientRegex": "hslavvzkmgmjwenj",
+                            "awsRegion": "ovkbuzxmmcjhnzpd",
+                            "userPoolId": "jzikjfspcfexlilp"
+                        }
+                    }
+                ],
+                "apiId": "ygdxysikezmglebi",
+                "apiType": "lhdlgrdbkfjcanzd",
+                "arn": "ujqykxkqpmpfzlpg",
+                "authenticationType": "phurypbnrwxkhmdu",
+                "dns": {
+                    "KeyName": "dpafnqpdyxqhggko"
+                },
+                "enhancedMetricsConfig": {
+                    "dataSourceLevelMetricsBehavior": "yqztpdfwgvixurqv",
+                    "operationLevelMetricsConfig": "apvfhpousrbtdimc",
+                    "resolverLevelMetricsBehavior": "ueqakatwngdtkzjw"
+                },
+                "introspectionConfig": "rdjtejgqzgisflhb",
+                "lambdaAuthorizerConfig": {
+                    "authorizerResultTtlInSeconds": 0,
+                    "authorizerUri": "rcywlabnxdlcmbbm",
+                    "identityValidationExpression": "xkbwleceiscanwie"
+                },
+                "logConfig": {
+                    "cloudWatchLogsRoleArn": "pulsabahrqclczgq",
+                    "excludeVerboseContent": true,
+                    "fieldLogLevel": "phpaxvxspafubpab"
+                },
+                "mergedApiExecutionRoleArn": "gilvuemdtkdnqjcx",
+                "name": "uuzhvvytfsgkjchl",
+                "openIDConnectConfig": {
+                    "authTTL": 0,
+                    "clientId": "jcsmjnzfwhlxmtfg",
+                    "iatTTL": 0,
+                    "issuer": "klligqazzothjofz"
+                },
+                "owner": "hgauvngxasnfkaej",
+                "ownerContact": "xeqjqizhmhcyacun",
+                "queryDepthLimit": 0,
+                "resolverCountLimit": 0,
+                "tags": {
+                    "KeyName": "fjbqibflqmftjvgb"
+                },
+                "uris": {
+                    "KeyName": "azaknhhtimyqantb"
+                },
+                "userPoolConfig": {
+                    "appIdClientRegex": "mslaxthjzxtsbqtf",
+                    "awsRegion": "xlirueyxojidebgb",
+                    "defaultAction": "dpgkuwpzfyxtrwys",
+                    "userPoolId": "drqcorsvqefoerlr"
+                },
+                "visibility": "ksgrxmvfnslkxmve",
+                "wafWebAclArn": "zvtgfmlhclocdtzv",
+                "xrayEnabled": true
+            },
+            {
+                "additionalAuthenticationProviders": [
+                    {
+                        "authenticationType": "bnkwttcichhgjnkb",
+                        "lambdaAuthorizerConfig": {
+                            "authorizerResultTtlInSeconds": 0,
+                            "authorizerUri": "eoukaxpkvgzsnoat",
+                            "identityValidationExpression": "uzcipsfzldtqvatf"
+                        },
+                        "openIDConnectConfig": {
+                            "authTTL": 0,
+                            "clientId": "fsmsvycvjusypqbu",
+                            "iatTTL": 0,
+                            "issuer": "wkrbwxvvmdadpnul"
+                        },
+                        "userPoolConfig": {
+                            "appIdClientRegex": "iuhrkmsmvipmzptr",
+                            "awsRegion": "ejffgcdmnbzkmfjv",
+                            "userPoolId": "harzgbrfhlaguqrz"
+                        }
+                    }
+                ],
+                "apiId": "ztyfjkqhbgskglkl",
+                "apiType": "woabvafxuftpwchg",
+                "arn": "ekscjkmmyifzsqcp",
+                "authenticationType": "gzussgcvqkmuzyiy",
+                "dns": {
+                    "KeyName": "eadvqvfkeymsifpf"
+                },
+                "enhancedMetricsConfig": {
+                    "dataSourceLevelMetricsBehavior": "flekzydriopbbgwe",
+                    "operationLevelMetricsConfig": "foxvnuxspbakwbpv",
+                    "resolverLevelMetricsBehavior": "oxmzmjowbxegxhqs"
+                },
+                "introspectionConfig": "ghwyxjskvcdldhva",
+                "lambdaAuthorizerConfig": {
+                    "authorizerResultTtlInSeconds": 0,
+                    "authorizerUri": "fgbdljuhmbvmslcu",
+                    "identityValidationExpression": "marutontprlbrlmy"
+                },
+                "logConfig": {
+                    "cloudWatchLogsRoleArn": "fipbjqykkioplqvp",
+                    "excludeVerboseContent": true,
+                    "fieldLogLevel": "gtzprxuknmtsjolx"
+                },
+                "mergedApiExecutionRoleArn": "shuybzqfyogloapl",
+                "name": "efoolqbpifrjxhbd",
+                "openIDConnectConfig": {
+                    "authTTL": 0,
+                    "clientId": "bwrplzxsmavoaqbp",
+                    "iatTTL": 0,
+                    "issuer": "tueoruwgewviabut"
+                },
+                "owner": "cerhxmnuahbeevbk",
+                "ownerContact": "yyazxerykmqeppad",
+                "queryDepthLimit": 0,
+                "resolverCountLimit": 0,
+                "tags": {
+                    "KeyName": "aevjyqqnffpifsfu"
+                },
+                "uris": {
+                    "KeyName": "jboettrcanxtjeew"
+                },
+                "userPoolConfig": {
+                    "appIdClientRegex": "nvbzxqovszevokdm",
+                    "awsRegion": "fsifvncyrfmgfppg",
+                    "defaultAction": "bkrrhzuhzrahakdp",
+                    "userPoolId": "ygdrwjfmpwrnwnij"
+                },
+                "visibility": "lrhgsdakkdqrbfxy",
+                "wafWebAclArn": "lkkkjksxfjclcawe",
+                "xrayEnabled": true
+            },
+            {
+                "additionalAuthenticationProviders": [
+                    {
+                        "authenticationType": "jaxaognnewnxxete",
+                        "lambdaAuthorizerConfig": {
+                            "authorizerResultTtlInSeconds": 0,
+                            "authorizerUri": "dgwscadczbqavaxn",
+                            "identityValidationExpression": "hervztbbqtusvbnu"
+                        },
+                        "openIDConnectConfig": {
+                            "authTTL": 0,
+                            "clientId": "cfgvupylohakrnos",
+                            "iatTTL": 0,
+                            "issuer": "acnztuleedkyjlri"
+                        },
+                        "userPoolConfig": {
+                            "appIdClientRegex": "uhjwtxsmgamgrljz",
+                            "awsRegion": "jgbobssatrdsriku",
+                            "userPoolId": "zwgttlwmbfzbnbwj"
+                        }
+                    }
+                ],
+                "apiId": "cdcunukudgxfvpqw",
+                "apiType": "lebokfhndioatdyb",
+                "arn": "wnqxwmovmqisxtfv",
+                "authenticationType": "ltpuldmljxmnqmnq",
+                "dns": {
+                    "KeyName": "stnxbbyaklmdcwni"
+                },
+                "enhancedMetricsConfig": {
+                    "dataSourceLevelMetricsBehavior": "qxrejbfwktqzzubj",
+                    "operationLevelMetricsConfig": "cxykyljizzyqvzft",
+                    "resolverLevelMetricsBehavior": "tnozhhakqvmovtwy"
+                },
+                "introspectionConfig": "afxvsrckysfzbmjx",
+                "lambdaAuthorizerConfig": {
+                    "authorizerResultTtlInSeconds": 0,
+                    "authorizerUri": "jthajztoidertgcu",
+                    "identityValidationExpression": "liufgeoubsfesgfj"
+                },
+                "logConfig": {
+                    "cloudWatchLogsRoleArn": "xrcmlcbzuxwwzjaz",
+                    "excludeVerboseContent": true,
+                    "fieldLogLevel": "asueispvimgfhkhh"
+                },
+                "mergedApiExecutionRoleArn": "mmukpygdrrgivceh",
+                "name": "ofqmwtbfmvijfrir",
+                "openIDConnectConfig": {
+                    "authTTL": 0,
+                    "clientId": "jknyhlvhdcybnsyi",
+                    "iatTTL": 0,
+                    "issuer": "caihjcrpnqopcide"
+                },
+                "owner": "jntrsgiiavqiikhg",
+                "ownerContact": "puugmikhggyumuiq",
+                "queryDepthLimit": 0,
+                "resolverCountLimit": 0,
+                "tags": {
+                    "KeyName": "bpizqfhilcxdpkok"
+                },
+                "uris": {
+                    "KeyName": "zgafcgaljzycjqvn"
+                },
+                "userPoolConfig": {
+                    "appIdClientRegex": "stcfdzpuudbtijje",
+                    "awsRegion": "aincdnxiffcnroyz",
+                    "defaultAction": "erbszdkeohzaateg",
+                    "userPoolId": "kcobpzoifazamwlq"
+                },
+                "visibility": "wepbkqaxovcnurnj",
+                "wafWebAclArn": "wiuwkrojgtrgsbhx",
+                "xrayEnabled": true
+            },
+            {
+                "additionalAuthenticationProviders": [
+                    {
+                        "authenticationType": "wwlyolmbnyeeuwmv",
+                        "lambdaAuthorizerConfig": {
+                            "authorizerResultTtlInSeconds": 0,
+                            "authorizerUri": "qpxgbgpcfqaopfcc",
+                            "identityValidationExpression": "ewcojnsvjybmitjm"
+                        },
+                        "openIDConnectConfig": {
+                            "authTTL": 0,
+                            "clientId": "ptssdujfnueotvpu",
+                            "iatTTL": 0,
+                            "issuer": "ocalbvafdivlzfow"
+                        },
+                        "userPoolConfig": {
+                            "appIdClientRegex": "dmqcuksxvqfmkodt",
+                            "awsRegion": "kxdqvstqliozvzeg",
+                            "userPoolId": "jpcpfqadwofvhmlp"
+                        }
+                    }
+                ],
+                "apiId": "vrgnwsifwfprfboq",
+                "apiType": "obfagijandphtzjk",
+                "arn": "sgwabrkbwdptsgbc",
+                "authenticationType": "krascundlvmqqowx",
+                "dns": {
+                    "KeyName": "lezvbnbrftzjniln"
+                },
+                "enhancedMetricsConfig": {
+                    "dataSourceLevelMetricsBehavior": "lbdlvgfiylbbzefx",
+                    "operationLevelMetricsConfig": "wduqourzrdybbqmv",
+                    "resolverLevelMetricsBehavior": "jlzugeymnsdgseqh"
+                },
+                "introspectionConfig": "wbpkxawqshwgxyiz",
+                "lambdaAuthorizerConfig": {
+                    "authorizerResultTtlInSeconds": 0,
+                    "authorizerUri": "bwyysvqjcvwduaht",
+                    "identityValidationExpression": "dqnlgpvhgbrmbhiu"
+                },
+                "logConfig": {
+                    "cloudWatchLogsRoleArn": "lenxacnvcmzktcmg",
+                    "excludeVerboseContent": true,
+                    "fieldLogLevel": "tuqpnrjfaqwtslnb"
+                },
+                "mergedApiExecutionRoleArn": "crfbwvkjatufltom",
+                "name": "xnxejvzexsyfygth",
+                "openIDConnectConfig": {
+                    "authTTL": 0,
+                    "clientId": "qhginlhlmkdvpwxo",
+                    "iatTTL": 0,
+                    "issuer": "uiadedsbbcvlnyla"
+                },
+                "owner": "xivzxdjixglnftzh",
+                "ownerContact": "qztattxsnrxgucvj",
+                "queryDepthLimit": 0,
+                "resolverCountLimit": 0,
+                "tags": {
+                    "KeyName": "frnmkvhmvbwpmtuz"
+                },
+                "uris": {
+                    "KeyName": "lzwynmavgvpmhujp"
+                },
+                "userPoolConfig": {
+                    "appIdClientRegex": "quemdurnfqlwhjto",
+                    "awsRegion": "irdgntnfywmlnqix",
+                    "defaultAction": "kwaxizhpydcucbge",
+                    "userPoolId": "otlgykhgecsrzwlw"
+                },
+                "visibility": "buxrjdgvpyghiiax",
+                "wafWebAclArn": "udmsctjlwwfygvzj",
+                "xrayEnabled": true
+            },
+            {
+                "additionalAuthenticationProviders": [
+                    {
+                        "authenticationType": "ywqooykcqplcigfn",
+                        "lambdaAuthorizerConfig": {
+                            "authorizerResultTtlInSeconds": 0,
+                            "authorizerUri": "meghvkltbuuwelal",
+                            "identityValidationExpression": "zlcglrdammjceajq"
+                        },
+                        "openIDConnectConfig": {
+                            "authTTL": 0,
+                            "clientId": "bcaitkvpdgvdzgpy",
+                            "iatTTL": 0,
+                            "issuer": "wqhgpxgazcixehhc"
+                        },
+                        "userPoolConfig": {
+                            "appIdClientRegex": "dmmlahkavkjgpqol",
+                            "awsRegion": "pirqoijkpajprhpi",
+                            "userPoolId": "acvvakaekkpjwwty"
+                        }
+                    }
+                ],
+                "apiId": "csmtvdurpexfnikn",
+                "apiType": "ruekohpsthknippx",
+                "arn": "rzcvhonjixfcwnfw",
+                "authenticationType": "mdaanywlvgdbjmqr",
+                "dns": {
+                    "KeyName": "dbsohcbubvodwdid"
+                },
+                "enhancedMetricsConfig": {
+                    "dataSourceLevelMetricsBehavior": "neggkkvpzvrpqpap",
+                    "operationLevelMetricsConfig": "qacxdecjmpunwzcm",
+                    "resolverLevelMetricsBehavior": "djzfbrmiheiynekl"
+                },
+                "introspectionConfig": "inwifndamikmrsir",
+                "lambdaAuthorizerConfig": {
+                    "authorizerResultTtlInSeconds": 0,
+                    "authorizerUri": "qehpchbluveijqkh",
+                    "identityValidationExpression": "wwvrtfcmspzdxndf"
+                },
+                "logConfig": {
+                    "cloudWatchLogsRoleArn": "ubgqdyesuylauxvy",
+                    "excludeVerboseContent": true,
+                    "fieldLogLevel": "rfxcmilstwpgsgau"
+                },
+                "mergedApiExecutionRoleArn": "vxrfcoypgsqnurpm",
+                "name": "aeqhstzcxljmjzdp",
+                "openIDConnectConfig": {
+                    "authTTL": 0,
+                    "clientId": "qnkejfjzpqbyalfw",
+                    "iatTTL": 0,
+                    "issuer": "ocnsnxrgcnhftbxl"
+                },
+                "owner": "bcihcxnpatoxsqdr",
+                "ownerContact": "cwgyfwjtlbvmovuu",
+                "queryDepthLimit": 0,
+                "resolverCountLimit": 0,
+                "tags": {
+                    "KeyName": "mywengsdbggbmmft"
+                },
+                "uris": {
+                    "KeyName": "qsszpfipzqqvszkc"
+                },
+                "userPoolConfig": {
+                    "appIdClientRegex": "wxuvyvcajekailry",
+                    "awsRegion": "gyjfxiorbbawxcph",
+                    "defaultAction": "qusmcimbfchlnkdi",
+                    "userPoolId": "uvzqemdgtpxoagbf"
+                },
+                "visibility": "eyxlsnxavrolwfge",
+                "wafWebAclArn": "gabrvfmftkrpjgyh",
+                "xrayEnabled": true
+            },
+            {
+                "additionalAuthenticationProviders": [
+                    {
+                        "authenticationType": "wyrhflfcbaqkrrzh",
+                        "lambdaAuthorizerConfig": {
+                            "authorizerResultTtlInSeconds": 0,
+                            "authorizerUri": "grjzgitubosbgvfl",
+                            "identityValidationExpression": "wxuvtfxgnbqfwnhj"
+                        },
+                        "openIDConnectConfig": {
+                            "authTTL": 0,
+                            "clientId": "bumcgozgkfrcqhag",
+                            "iatTTL": 0,
+                            "issuer": "xfwxnmgtiwqtrhfg"
+                        },
+                        "userPoolConfig": {
+                            "appIdClientRegex": "xlranggnlrziftpv",
+                            "awsRegion": "sxrzmkkaeabaffkn",
+                            "userPoolId": "xcybbnsegdwdukwr"
+                        }
+                    }
+                ],
+                "apiId": "nrnneygxlaheswic",
+                "apiType": "zqxaupgarvdvrlpa",
+                "arn": "oksgjuaicjddcfzq",
+                "authenticationType": "nfbwiggzxqwvjzqt",
+                "dns": {
+                    "KeyName": "arerlybpbofjwihg"
+                },
+                "enhancedMetricsConfig": {
+                    "dataSourceLevelMetricsBehavior": "ffzekqzlotjyunqj",
+                    "operationLevelMetricsConfig": "trprefyayggejvvm",
+                    "resolverLevelMetricsBehavior": "rqhrykfjnhwwqahr"
+                },
+                "introspectionConfig": "kozamwocohekzhzz",
+                "lambdaAuthorizerConfig": {
+                    "authorizerResultTtlInSeconds": 0,
+                    "authorizerUri": "tgfkzirmalgknezy",
+                    "identityValidationExpression": "dptohmxjlawsfcfp"
+                },
+                "logConfig": {
+                    "cloudWatchLogsRoleArn": "qtsupryearkrzafj",
+                    "excludeVerboseContent": true,
+                    "fieldLogLevel": "ebpdckifebmlbwyj"
+                },
+                "mergedApiExecutionRoleArn": "huvfjdewaivnncqi",
+                "name": "vyipudgxsuwtdues",
+                "openIDConnectConfig": {
+                    "authTTL": 0,
+                    "clientId": "jppwaaqsjpkpcomm",
+                    "iatTTL": 0,
+                    "issuer": "djxrolyhjunxcqvk"
+                },
+                "owner": "dpzxfzsumekdxtqn",
+                "ownerContact": "fbhtxwbjmosugzge",
+                "queryDepthLimit": 0,
+                "resolverCountLimit": 0,
+                "tags": {
+                    "KeyName": "sbgpykyinsacbwwp"
+                },
+                "uris": {
+                    "KeyName": "vlkleathquyxipoe"
+                },
+                "userPoolConfig": {
+                    "appIdClientRegex": "zvxhtjlsphgdejwh",
+                    "awsRegion": "hbuzmwsvjftcgbgp",
+                    "defaultAction": "avznaymuirmlmjbb",
+                    "userPoolId": "ebpdlvqefdpikrdd"
+                },
+                "visibility": "uzuqbphntqrxnufl",
+                "wafWebAclArn": "cdlseuclwwtsqvnc",
+                "xrayEnabled": true
+            },
+            {
+                "additionalAuthenticationProviders": [
+                    {
+                        "authenticationType": "edpperwgkvfzzkmg",
+                        "lambdaAuthorizerConfig": {
+                            "authorizerResultTtlInSeconds": 0,
+                            "authorizerUri": "abipdtalolukiady",
+                            "identityValidationExpression": "utgmhcjexsegnxsj"
+                        },
+                        "openIDConnectConfig": {
+                            "authTTL": 0,
+                            "clientId": "hhmbfseqeyllgozm",
+                            "iatTTL": 0,
+                            "issuer": "nzbkywdhxnqdnokq"
+                        },
+                        "userPoolConfig": {
+                            "appIdClientRegex": "sokhcvjvvctyfvlf",
+                            "awsRegion": "avyvlamlvxirzivh",
+                            "userPoolId": "muimtqcaecjoacge"
+                        }
+                    }
+                ],
+                "apiId": "vnpxsxyjrxkppide",
+                "apiType": "vmxblrwwcvhenvxj",
+                "arn": "oseywibqxmfhhumx",
+                "authenticationType": "rvhvipishgdjlsvo",
+                "dns": {
+                    "KeyName": "ovujdncwnxajehrv"
+                },
+                "enhancedMetricsConfig": {
+                    "dataSourceLevelMetricsBehavior": "eebskbxyxgoopxjn",
+                    "operationLevelMetricsConfig": "rycdehkhzyaktnrn",
+                    "resolverLevelMetricsBehavior": "zxzuahgijoakgrtv"
+                },
+                "introspectionConfig": "qrtrhluycaabqxqs",
+                "lambdaAuthorizerConfig": {
+                    "authorizerResultTtlInSeconds": 0,
+                    "authorizerUri": "hfywdvuoeynwxdvw",
+                    "identityValidationExpression": "yxncshrbbuubeufc"
+                },
+                "logConfig": {
+                    "cloudWatchLogsRoleArn": "moliodyaewctywgd",
+                    "excludeVerboseContent": true,
+                    "fieldLogLevel": "mrgefbnfgbqcpnfn"
+                },
+                "mergedApiExecutionRoleArn": "uotniobhamljczpe",
+                "name": "mnewjvqmstaeiuym",
+                "openIDConnectConfig": {
+                    "authTTL": 0,
+                    "clientId": "tfptmbvrduxuiiqg",
+                    "iatTTL": 0,
+                    "issuer": "qnqtbgdphznwwkbr"
+                },
+                "owner": "txgdpczcibgjfzsq",
+                "ownerContact": "zpnafnorolvjwbte",
+                "queryDepthLimit": 0,
+                "resolverCountLimit": 0,
+                "tags": {
+                    "KeyName": "vzkvoqckqnzxirsy"
+                },
+                "uris": {
+                    "KeyName": "egqmraajbvumulkc"
+                },
+                "userPoolConfig": {
+                    "appIdClientRegex": "yxjkjaldxhmkohjz",
+                    "awsRegion": "pljqufzmbckulotn",
+                    "defaultAction": "gtpyyqjyujqsgkey",
+                    "userPoolId": "lyglhxsffdzsbdjn"
+                },
+                "visibility": "ebcfithudkgwnotm",
+                "wafWebAclArn": "mfssiibbuqhllaky",
+                "xrayEnabled": true
+            },
+            {
+                "additionalAuthenticationProviders": [
+                    {
+                        "authenticationType": "frcdictmejqeyyfa",
+                        "lambdaAuthorizerConfig": {
+                            "authorizerResultTtlInSeconds": 0,
+                            "authorizerUri": "jwbqetdbwsokqsus",
+                            "identityValidationExpression": "gctbqkssciianblc"
+                        },
+                        "openIDConnectConfig": {
+                            "authTTL": 0,
+                            "clientId": "jlutnxcobhkhrzxb",
+                            "iatTTL": 0,
+                            "issuer": "uyzdrbxpojupyhqg"
+                        },
+                        "userPoolConfig": {
+                            "appIdClientRegex": "skwmimaepufzsyvs",
+                            "awsRegion": "kszprxhadsninrpq",
+                            "userPoolId": "trdsndnjzdtxyqrp"
+                        }
+                    }
+                ],
+                "apiId": "pdtjyqtvrvljoctk",
+                "apiType": "lpjrswhnzocmkiem",
+                "arn": "zzednnyepzbdgsda",
+                "authenticationType": "wmjommfjfputrgyf",
+                "dns": {
+                    "KeyName": "uxzxkoiosluhbulv"
+                },
+                "enhancedMetricsConfig": {
+                    "dataSourceLevelMetricsBehavior": "zbtfdxmjftlmhnld",
+                    "operationLevelMetricsConfig": "dybyzlmccogaihwh",
+                    "resolverLevelMetricsBehavior": "mnznibjoavyxavzo"
+                },
+                "introspectionConfig": "dzccxybojxcakbpv",
+                "lambdaAuthorizerConfig": {
+                    "authorizerResultTtlInSeconds": 0,
+                    "authorizerUri": "uukeikijuddscnxd",
+                    "identityValidationExpression": "qizlssmhrmutwcij"
+                },
+                "logConfig": {
+                    "cloudWatchLogsRoleArn": "fzmycxviioozwcjb",
+                    "excludeVerboseContent": true,
+                    "fieldLogLevel": "smeptgixxqvvfdpy"
+                },
+                "mergedApiExecutionRoleArn": "wnnlwvipjtwvgdub",
+                "name": "afthxavrahitmhrj",
+                "openIDConnectConfig": {
+                    "authTTL": 0,
+                    "clientId": "xflivomhebrgmkio",
+                    "iatTTL": 0,
+                    "issuer": "vmbketkvwsgrewwh"
+                },
+                "owner": "worcbrnlyngfxdqh",
+                "ownerContact": "ekbnjnpavwfyvsie",
+                "queryDepthLimit": 0,
+                "resolverCountLimit": 0,
+                "tags": {
+                    "KeyName": "zcanxxrpeshhkkeg"
+                },
+                "uris": {
+                    "KeyName": "qxwmlxkugkpjobfw"
+                },
+                "userPoolConfig": {
+                    "appIdClientRegex": "aoobvihmfxygcxfz",
+                    "awsRegion": "hyvwlqobjpmrocoh",
+                    "defaultAction": "bydcgkwlszpybvtd",
+                    "userPoolId": "hvtjshnatshxlzdm"
+                },
+                "visibility": "ntvtygllpoksdswg",
+                "wafWebAclArn": "kcbillvbohflzjul",
+                "xrayEnabled": true
+            },
+            {
+                "additionalAuthenticationProviders": [
+                    {
+                        "authenticationType": "zqyrvjofduqpmvkh",
+                        "lambdaAuthorizerConfig": {
+                            "authorizerResultTtlInSeconds": 0,
+                            "authorizerUri": "qxmjkcdiqdayitry",
+                            "identityValidationExpression": "iisjtijzqkjelwby"
+                        },
+                        "openIDConnectConfig": {
+                            "authTTL": 0,
+                            "clientId": "gulrwasangzvszpw",
+                            "iatTTL": 0,
+                            "issuer": "atiwthunpbmnizqu"
+                        },
+                        "userPoolConfig": {
+                            "appIdClientRegex": "ctigveababfuipog",
+                            "awsRegion": "qpykqlphanznfjyk",
+                            "userPoolId": "yvzaizxxahgumeee"
+                        }
+                    }
+                ],
+                "apiId": "ipslvhbnalmrgweh",
+                "apiType": "tzgcnlfajshysbqp",
+                "arn": "efhpcxjzsrmmoxiq",
+                "authenticationType": "dljcegddslvxvkww",
+                "dns": {
+                    "KeyName": "xgaoibpwnkcgywqt"
+                },
+                "enhancedMetricsConfig": {
+                    "dataSourceLevelMetricsBehavior": "lfdlhcbzrkubdqbw",
+                    "operationLevelMetricsConfig": "xnyrmmepuljnulmk",
+                    "resolverLevelMetricsBehavior": "offywgqqspldjqze"
+                },
+                "introspectionConfig": "ecklkxoachfbsoyd",
+                "lambdaAuthorizerConfig": {
+                    "authorizerResultTtlInSeconds": 0,
+                    "authorizerUri": "mbqinwlosbthamai",
+                    "identityValidationExpression": "ubddnhrkwbhmigmh"
+                },
+                "logConfig": {
+                    "cloudWatchLogsRoleArn": "sjcmmuvvutozdbkm",
+                    "excludeVerboseContent": true,
+                    "fieldLogLevel": "drcqbebmotxvyqib"
+                },
+                "mergedApiExecutionRoleArn": "ikxglblihlaevwoe",
+                "name": "ngkrbjstflwskdhl",
+                "openIDConnectConfig": {
+                    "authTTL": 0,
+                    "clientId": "eikslaxifxxibgjz",
+                    "iatTTL": 0,
+                    "issuer": "mpgjornvmaadzcat"
+                },
+                "owner": "lvrkbmvpygkuexwp",
+                "ownerContact": "yoshsabtigixyirq",
+                "queryDepthLimit": 0,
+                "resolverCountLimit": 0,
+                "tags": {
+                    "KeyName": "rysttfewenobooqz"
+                },
+                "uris": {
+                    "KeyName": "oslglmxfqpbtdlvu"
+                },
+                "userPoolConfig": {
+                    "appIdClientRegex": "izwutprtklawlnjz",
+                    "awsRegion": "rfwvgvdesfzbbycr",
+                    "defaultAction": "hnklbvfeuhqotopi",
+                    "userPoolId": "ecosomeimgaaaanj"
+                },
+                "visibility": "hqelnfnaesyuadlq",
+                "wafWebAclArn": "uwqrkeseghcmodkg",
+                "xrayEnabled": true
+            },
+            {
+                "additionalAuthenticationProviders": [
+                    {
+                        "authenticationType": "ogwiyfbmksonebtw",
+                        "lambdaAuthorizerConfig": {
+                            "authorizerResultTtlInSeconds": 0,
+                            "authorizerUri": "sglnglpyjuhbeveo",
+                            "identityValidationExpression": "sjorhzulqfxifsho"
+                        },
+                        "openIDConnectConfig": {
+                            "authTTL": 0,
+                            "clientId": "eernnsoazaglveqt",
+                            "iatTTL": 0,
+                            "issuer": "wmvaupxzhmvgantv"
+                        },
+                        "userPoolConfig": {
+                            "appIdClientRegex": "xwpyytjlfzcpywsc",
+                            "awsRegion": "trivselnvuqmrddt",
+                            "userPoolId": "vusrbicpllvhghro"
+                        }
+                    }
+                ],
+                "apiId": "cahgfqjewjwgdnqo",
+                "apiType": "innwjjlmhqfsfpmk",
+                "arn": "zoxlmgodlkeazzca",
+                "authenticationType": "huvrxvvfixkusrhy",
+                "dns": {
+                    "KeyName": "imaibtgnbgdlxlto"
+                },
+                "enhancedMetricsConfig": {
+                    "dataSourceLevelMetricsBehavior": "ktzgcarasvhfvwte",
+                    "operationLevelMetricsConfig": "jdrwuiorlluihddn",
+                    "resolverLevelMetricsBehavior": "fgjovoixxqgykuby"
+                },
+                "introspectionConfig": "bytgbovmuhufyfpi",
+                "lambdaAuthorizerConfig": {
+                    "authorizerResultTtlInSeconds": 0,
+                    "authorizerUri": "xpflpegmvvbhjfkh",
+                    "identityValidationExpression": "oqfvnykdhcwuegob"
+                },
+                "logConfig": {
+                    "cloudWatchLogsRoleArn": "ejupzwkyutszvdzx",
+                    "excludeVerboseContent": true,
+                    "fieldLogLevel": "sqhyzxscxjvlyvpd"
+                },
+                "mergedApiExecutionRoleArn": "jfwziuyzmqkiyxkp",
+                "name": "qwavwrbbylozsbfg",
+                "openIDConnectConfig": {
+                    "authTTL": 0,
+                    "clientId": "kbldhxlzmeszcqwn",
+                    "iatTTL": 0,
+                    "issuer": "ydbkosqtulytudjs"
+                },
+                "owner": "jcpoqqoaoidpbcmg",
+                "ownerContact": "xsxknrlyrpcmmrak",
+                "queryDepthLimit": 0,
+                "resolverCountLimit": 0,
+                "tags": {
+                    "KeyName": "pocgmjicbkudiony"
+                },
+                "uris": {
+                    "KeyName": "vmmfvvjwxmcmjhar"
+                },
+                "userPoolConfig": {
+                    "appIdClientRegex": "twiczwqorljpoxff",
+                    "awsRegion": "dliomorvftkyumhp",
+                    "defaultAction": "mailvbriqmdzybhv",
+                    "userPoolId": "kgkmjygzoriqxzyy"
+                },
+                "visibility": "raukedrnlzejifts",
+                "wafWebAclArn": "hhhdjlklkgicjiic",
+                "xrayEnabled": true
+            }
+        ],
+        "result_key": "graphqlApis"
+    },
+    "meta": {
+        "start": 1711115245.895458,
+        "end": 1711115253.805686,
+        "duration": 7.910238027572632,
+        "service": "appsync",
+        "type": "graphql_apis"
+    }
+}

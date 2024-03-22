@@ -1,0 +1,103 @@
+{
+    "input": {
+        "template": {
+            "DBClusterParameterGroupName": "",
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxRecords": 0,
+            "Marker": ""
+        },
+        "required": [],
+        "md5": "cce0ac9c5d89765f74929741972568fb",
+        "boto_command": "describe_db_cluster_parameter_groups",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "DBClusterParameterGroupName": "DBClusterParameterGroupName",
+                "DBParameterGroupFamily": "DBParameterGroupFamily",
+                "Description": "Description",
+                "DBClusterParameterGroupArn": "DBClusterParameterGroupArn"
+            }
+        ],
+        "required": [],
+        "md5": "253242271819731c67e9359444d12655",
+        "randomized": [
+            {
+                "DBClusterParameterGroupArn": "lyqabmdzrpgyzfii",
+                "DBClusterParameterGroupName": "xmiapsgyrwfwzwjk",
+                "DBParameterGroupFamily": "wvagqjxrslutsjal",
+                "Description": "bgcopumyxujohtja"
+            },
+            {
+                "DBClusterParameterGroupArn": "pymwiqylhhmwcdxm",
+                "DBClusterParameterGroupName": "vkkwcczmsumtgypo",
+                "DBParameterGroupFamily": "ppxnmgtcidkbmmbu",
+                "Description": "xnjsjdjqhrfenncx"
+            },
+            {
+                "DBClusterParameterGroupArn": "kuutrtuuzrhhfzgq",
+                "DBClusterParameterGroupName": "dryeskecyuwjmfyw",
+                "DBParameterGroupFamily": "elfauookmaidiowm",
+                "Description": "igrgulxpjknvduoz"
+            },
+            {
+                "DBClusterParameterGroupArn": "lmporcjkktmdrddf",
+                "DBClusterParameterGroupName": "aekfomxcoxinpwoa",
+                "DBParameterGroupFamily": "vkbkomltkcmgyyhj",
+                "Description": "scnwvdnesrmoqbdp"
+            },
+            {
+                "DBClusterParameterGroupArn": "srpuqwduouxumcgk",
+                "DBClusterParameterGroupName": "ttlmebnwxachmnax",
+                "DBParameterGroupFamily": "hobyjbwwackdases",
+                "Description": "vplwrtdykzjdlggc"
+            },
+            {
+                "DBClusterParameterGroupArn": "ghqvxcjlevypacfl",
+                "DBClusterParameterGroupName": "sztpydygznaglgxr",
+                "DBParameterGroupFamily": "arqhruberxuqhkyk",
+                "Description": "plngxzelroehuycb"
+            },
+            {
+                "DBClusterParameterGroupArn": "vsajshxukzqbnqeo",
+                "DBClusterParameterGroupName": "qmywezmrqigyacnb",
+                "DBParameterGroupFamily": "rbjiezmuuxcugdyz",
+                "Description": "kxiyzdqgxuczdjjj"
+            },
+            {
+                "DBClusterParameterGroupArn": "udblkhgrfnccigcu",
+                "DBClusterParameterGroupName": "qrwxxnfumwbsyufv",
+                "DBParameterGroupFamily": "vybdxniwfcilmkit",
+                "Description": "pzlitpdalfacsenp"
+            },
+            {
+                "DBClusterParameterGroupArn": "tpervogdhlnbxrua",
+                "DBClusterParameterGroupName": "qzemetniazqgblxx",
+                "DBParameterGroupFamily": "hidlhvaududvzqqc",
+                "Description": "xofkhbxsociatkdv"
+            },
+            {
+                "DBClusterParameterGroupArn": "ludalarjgbdxyfgu",
+                "DBClusterParameterGroupName": "dopxkfztawjuiwri",
+                "DBParameterGroupFamily": "tqnoopnvngxenneh",
+                "Description": "fhkwfehgsczrjbqs"
+            }
+        ],
+        "result_key": "DBClusterParameterGroups"
+    },
+    "meta": {
+        "start": 1711115585.982663,
+        "end": 1711115592.935514,
+        "duration": 6.952861070632935,
+        "service": "docdb",
+        "type": "db_cluster_parameter_groups"
+    }
+}

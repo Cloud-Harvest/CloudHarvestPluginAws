@@ -1,0 +1,21 @@
+[
+    "finspace.get-kx-changeset",
+    "finspace.get-kx-cluster",
+    "finspace.get-kx-connection-string",
+    "finspace.get-kx-database",
+    "finspace.get-kx-dataview",
+    "finspace.get-kx-environment",
+    "finspace.get-kx-scaling-group",
+    "finspace.get-kx-user",
+    "finspace.get-kx-volume",
+    "finspace.list-kx-changesets",
+    "finspace.list-kx-cluster-nodes",
+    "finspace.list-kx-clusters",
+    "finspace.list-kx-databases",
+    "finspace.list-kx-dataviews",
+    "finspace.list-kx-environments",
+    "finspace.list-kx-scaling-groups",
+    "finspace.list-kx-users",
+    "finspace.list-kx-volumes",
+    "finspace.list-tags-for-resource"
+]

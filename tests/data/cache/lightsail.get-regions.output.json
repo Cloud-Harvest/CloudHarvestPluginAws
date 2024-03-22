@@ -1,0 +1,226 @@
+{
+    "input": {
+        "template": {
+            "includeAvailabilityZones": true,
+            "includeRelationalDatabaseAvailabilityZones": true
+        },
+        "required": [],
+        "md5": "db686b3382503be2c4a329f3d1651715",
+        "boto_command": "get_regions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "continentCode": "continentCode",
+                "description": "description",
+                "displayName": "displayName",
+                "name": "name",
+                "availabilityZones": [
+                    {
+                        "zoneName": "zoneName",
+                        "state": "state"
+                    }
+                ],
+                "relationalDatabaseAvailabilityZones": [
+                    {
+                        "zoneName": "zoneName",
+                        "state": "state"
+                    }
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "0f1757c1679e89acabdb53e37eb3aed8",
+        "randomized": [
+            {
+                "availabilityZones": [
+                    {
+                        "state": "zegbjdcupectckog",
+                        "zoneName": "obcuhjneahftjrtm"
+                    }
+                ],
+                "continentCode": "fhgxizqneuupuqzk",
+                "description": "wpgmzfltahrrcxlp",
+                "displayName": "fniigdkchypwxcyg",
+                "name": "aubrpicqqlgncdmy",
+                "relationalDatabaseAvailabilityZones": [
+                    {
+                        "state": "geiibjqvfhdnnkcx",
+                        "zoneName": "orxbthbaswhyscxm"
+                    }
+                ]
+            },
+            {
+                "availabilityZones": [
+                    {
+                        "state": "zztbwccbhazgxzwl",
+                        "zoneName": "crucgwqamoqbixun"
+                    }
+                ],
+                "continentCode": "tplqkxhfjurpdfcf",
+                "description": "dfviayhrjzwwtppu",
+                "displayName": "ybpxdywmwnidrkca",
+                "name": "awwzhadhpriutvoh",
+                "relationalDatabaseAvailabilityZones": [
+                    {
+                        "state": "rvfdgvsuiqdhlamh",
+                        "zoneName": "pwvsithaodwzrngu"
+                    }
+                ]
+            },
+            {
+                "availabilityZones": [
+                    {
+                        "state": "byotnawzbfidcbnv",
+                        "zoneName": "cmsddbuzqpzuzngs"
+                    }
+                ],
+                "continentCode": "ynpkjchcmpfppxnv",
+                "description": "piivyqwcowjbqfxj",
+                "displayName": "ppxnxajqqncjamaa",
+                "name": "ajxvritaoncvfkkl",
+                "relationalDatabaseAvailabilityZones": [
+                    {
+                        "state": "vggcpheofxnwrvgl",
+                        "zoneName": "arbaprsfrtzesmvb"
+                    }
+                ]
+            },
+            {
+                "availabilityZones": [
+                    {
+                        "state": "xwgecqmbxprfzcqv",
+                        "zoneName": "bigpmkawqbwdbyjb"
+                    }
+                ],
+                "continentCode": "ymsinokgjmtvktsc",
+                "description": "licjtboqishyiimp",
+                "displayName": "ybtgwcidapbxbhra",
+                "name": "kcfuddhnzfjmmofl",
+                "relationalDatabaseAvailabilityZones": [
+                    {
+                        "state": "yjvegcwlbpyqlpab",
+                        "zoneName": "rjhgpqocdebdtkpz"
+                    }
+                ]
+            },
+            {
+                "availabilityZones": [
+                    {
+                        "state": "ubycafunxevqlibb",
+                        "zoneName": "ezvalqnsbguepojz"
+                    }
+                ],
+                "continentCode": "pafqncrwbygchtnq",
+                "description": "ghbbelxqlcizvpxl",
+                "displayName": "kttczwqqvnufubta",
+                "name": "rbhteqrqlkoncaro",
+                "relationalDatabaseAvailabilityZones": [
+                    {
+                        "state": "myzszibpobiknwgl",
+                        "zoneName": "pvncyhntotadwxip"
+                    }
+                ]
+            },
+            {
+                "availabilityZones": [
+                    {
+                        "state": "khfgaqqwabvaucrw",
+                        "zoneName": "znzgoefkqvcdpycc"
+                    }
+                ],
+                "continentCode": "plmyttpbsutrrgmf",
+                "description": "icvlgkhjjnlyrtra",
+                "displayName": "rowmmwbbztnetkwu",
+                "name": "ezqgxxvvohciovtp",
+                "relationalDatabaseAvailabilityZones": [
+                    {
+                        "state": "wxghmbttjdgdjrjc",
+                        "zoneName": "quwbmvqyjxgqvvzh"
+                    }
+                ]
+            },
+            {
+                "availabilityZones": [
+                    {
+                        "state": "cegpqioaudfjsnuh",
+                        "zoneName": "cwbkagajvoczgabq"
+                    }
+                ],
+                "continentCode": "lrwcoajycmjiepuo",
+                "description": "gcntnfcvjcuveksv",
+                "displayName": "ffnyvjjpoqynbptw",
+                "name": "ueffokhxkbmrdsar",
+                "relationalDatabaseAvailabilityZones": [
+                    {
+                        "state": "gbmrayhndffxmvzm",
+                        "zoneName": "mlljjivwlprbnxvu"
+                    }
+                ]
+            },
+            {
+                "availabilityZones": [
+                    {
+                        "state": "wnjscmrpydfpavaq",
+                        "zoneName": "qbccrrdehlbsktzd"
+                    }
+                ],
+                "continentCode": "opvhjhvkzurxzxtc",
+                "description": "icfvdzbdablauhjf",
+                "displayName": "pompsgbtddmdhevj",
+                "name": "skumsrcrfosirxas",
+                "relationalDatabaseAvailabilityZones": [
+                    {
+                        "state": "esxrjnznssfqmkkd",
+                        "zoneName": "zfqtwdgfllvcapwh"
+                    }
+                ]
+            },
+            {
+                "availabilityZones": [
+                    {
+                        "state": "vslawezhjoliuwty",
+                        "zoneName": "swwqdzvmgbmlvomo"
+                    }
+                ],
+                "continentCode": "dopchfofpsvgbjzv",
+                "description": "ivcvcjsxknzbhabh",
+                "displayName": "xjcnodmjqqgcjuak",
+                "name": "bhnoymuintqmnqdl",
+                "relationalDatabaseAvailabilityZones": [
+                    {
+                        "state": "blduohawhbsfhqkd",
+                        "zoneName": "oglmjiovyqqbkhqs"
+                    }
+                ]
+            },
+            {
+                "availabilityZones": [
+                    {
+                        "state": "yllphnuchzlgzvyo",
+                        "zoneName": "hripatdchyymocso"
+                    }
+                ],
+                "continentCode": "zwkbcakqbbdjimqm",
+                "description": "vwtflsyfiwsfwigx",
+                "displayName": "cosjqwdntgioqrqv",
+                "name": "qdjykjlxxtpxnvtw",
+                "relationalDatabaseAvailabilityZones": [
+                    {
+                        "state": "errillhzfwnfftkm",
+                        "zoneName": "ewntsryjjolzowhc"
+                    }
+                ]
+            }
+        ],
+        "result_key": "regions"
+    },
+    "meta": {
+        "start": 1711116107.120709,
+        "end": 1711116113.906701,
+        "duration": 6.786002159118652,
+        "service": "lightsail",
+        "type": null
+    }
+}

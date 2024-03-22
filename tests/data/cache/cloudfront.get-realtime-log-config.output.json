@@ -1,0 +1,213 @@
+{
+    "input": {
+        "template": {
+            "Name": "",
+            "ARN": ""
+        },
+        "required": [],
+        "md5": "f5607530979793c4448a4b26de3971da",
+        "boto_command": "get_realtime_log_config",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": {
+            "ARN": "ARN",
+            "Name": "Name",
+            "SamplingRate": 0,
+            "EndPoints": [
+                {
+                    "StreamType": "StreamType",
+                    "KinesisStreamConfig": {
+                        "RoleARN": "RoleARN",
+                        "StreamARN": "StreamARN"
+                    }
+                }
+            ],
+            "Fields": [
+                "string"
+            ]
+        },
+        "required": [],
+        "md5": "783143b4d7295ce955b0c16cf9d098b8",
+        "randomized": [
+            {
+                "ARN": "eowkztxqkqwznmqx",
+                "EndPoints": [
+                    {
+                        "KinesisStreamConfig": {
+                            "RoleARN": "mxknaexwsmfhwiwb",
+                            "StreamARN": "ncbutectgskfaawb"
+                        },
+                        "StreamType": "xnxznjmbjmhfyraf"
+                    }
+                ],
+                "Fields": [
+                    "eofpvhxkgzzplivi"
+                ],
+                "Name": "wyzqydsvvmveblfq",
+                "SamplingRate": 0
+            },
+            {
+                "ARN": "hpdqsbrvyysmakmn",
+                "EndPoints": [
+                    {
+                        "KinesisStreamConfig": {
+                            "RoleARN": "mtaofyvxvunbjsvx",
+                            "StreamARN": "ucoocsreetqqzwot"
+                        },
+                        "StreamType": "payuhjxrpqeusjwl"
+                    }
+                ],
+                "Fields": [
+                    "wwhcfwzcatasjzwn"
+                ],
+                "Name": "enihhgtmqahcxseb",
+                "SamplingRate": 0
+            },
+            {
+                "ARN": "ogtyantqwsmmehti",
+                "EndPoints": [
+                    {
+                        "KinesisStreamConfig": {
+                            "RoleARN": "ylebrwxtwhxckbas",
+                            "StreamARN": "dyjkdgitbcjaotjo"
+                        },
+                        "StreamType": "inrcyghahphmythz"
+                    }
+                ],
+                "Fields": [
+                    "emcwspnafoudnwsv"
+                ],
+                "Name": "pzcqyulqgkhaodee",
+                "SamplingRate": 0
+            },
+            {
+                "ARN": "nsmvrxzecvddfbxw",
+                "EndPoints": [
+                    {
+                        "KinesisStreamConfig": {
+                            "RoleARN": "gbuxwbnzoqfzhgxr",
+                            "StreamARN": "zloqcfkhacgcrfty"
+                        },
+                        "StreamType": "klltllwwiowlvsju"
+                    }
+                ],
+                "Fields": [
+                    "mxawnkllhqgxtlfk"
+                ],
+                "Name": "jmrlztjhevsheoqt",
+                "SamplingRate": 0
+            },
+            {
+                "ARN": "imxuonfxodocbplg",
+                "EndPoints": [
+                    {
+                        "KinesisStreamConfig": {
+                            "RoleARN": "ozgqjukkcywbgdzs",
+                            "StreamARN": "zxiakwkbzvklldud"
+                        },
+                        "StreamType": "rgrdqnojsilugwrr"
+                    }
+                ],
+                "Fields": [
+                    "ahduqjbfnhxdexyf"
+                ],
+                "Name": "igxxdgvbmakzbkws",
+                "SamplingRate": 0
+            },
+            {
+                "ARN": "gbrypqxzhenesgoi",
+                "EndPoints": [
+                    {
+                        "KinesisStreamConfig": {
+                            "RoleARN": "jlboxwbsgaiksqik",
+                            "StreamARN": "aoigopnyojkgjodk"
+                        },
+                        "StreamType": "wqtukuwtgntqotiz"
+                    }
+                ],
+                "Fields": [
+                    "owcpvuppnszmqwcy"
+                ],
+                "Name": "mlimsgckcrithote",
+                "SamplingRate": 0
+            },
+            {
+                "ARN": "tgavqdximmsdrdot",
+                "EndPoints": [
+                    {
+                        "KinesisStreamConfig": {
+                            "RoleARN": "nowlvrgbwctptckt",
+                            "StreamARN": "vsnwnblnfobhehgy"
+                        },
+                        "StreamType": "qaqhnikdmbskgtav"
+                    }
+                ],
+                "Fields": [
+                    "mdqepsklcaopdmcf"
+                ],
+                "Name": "bpfzcuxhtponxfjy",
+                "SamplingRate": 0
+            },
+            {
+                "ARN": "dapyahiotjbrrews",
+                "EndPoints": [
+                    {
+                        "KinesisStreamConfig": {
+                            "RoleARN": "yvjebeekuglnysnt",
+                            "StreamARN": "comgcxpfgavikgpw"
+                        },
+                        "StreamType": "lyutafpddpkcidyz"
+                    }
+                ],
+                "Fields": [
+                    "qddfctjkdjxbveit"
+                ],
+                "Name": "bxqyjfzzieuqfgvl",
+                "SamplingRate": 0
+            },
+            {
+                "ARN": "akvdczlkwfalwlzd",
+                "EndPoints": [
+                    {
+                        "KinesisStreamConfig": {
+                            "RoleARN": "yglpmsjtstrdpmbm",
+                            "StreamARN": "izuyzfckqigwtsgk"
+                        },
+                        "StreamType": "cmcdxedeiyufwnbd"
+                    }
+                ],
+                "Fields": [
+                    "npxasucsjazojosl"
+                ],
+                "Name": "iahgnyczbgzawkjc",
+                "SamplingRate": 0
+            },
+            {
+                "ARN": "jdzrbdlrwleetmmq",
+                "EndPoints": [
+                    {
+                        "KinesisStreamConfig": {
+                            "RoleARN": "ghgtebjfvntphade",
+                            "StreamARN": "gagoamfkjclcoqpf"
+                        },
+                        "StreamType": "bswoxofyzsknxunx"
+                    }
+                ],
+                "Fields": [
+                    "fpobopzoqhhvnzlh"
+                ],
+                "Name": "xzyrcjuflhbijfjx",
+                "SamplingRate": 0
+            }
+        ],
+        "result_key": "RealtimeLogConfig"
+    },
+    "meta": {
+        "start": 1711115374.037035,
+        "end": 1711115381.534735,
+        "duration": 7.497709035873413,
+        "service": "cloudfront",
+        "type": null
+    }
+}

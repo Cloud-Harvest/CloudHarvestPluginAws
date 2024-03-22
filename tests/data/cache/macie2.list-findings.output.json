@@ -1,0 +1,62 @@
+{
+    "input": {
+        "template": {
+            "findingCriteria": {
+                "criterion": {
+                    "KeyName": {
+                        "eq": [
+                            ""
+                        ],
+                        "eqExactMatch": [
+                            ""
+                        ],
+                        "gt": 0,
+                        "gte": 0,
+                        "lt": 0,
+                        "lte": 0,
+                        "neq": [
+                            ""
+                        ]
+                    }
+                }
+            },
+            "maxResults": 0,
+            "nextToken": "",
+            "sortCriteria": {
+                "attributeName": "",
+                "orderBy": "ASC"
+            }
+        },
+        "required": [],
+        "md5": "62048a94d37901985239123949315b8f",
+        "boto_command": "list_findings",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            "__string"
+        ],
+        "required": [],
+        "md5": "9d108fe2581329d3d189bff2bf902117",
+        "randomized": [
+            "hsdpcecwnpzhdqbd",
+            "cylaxdaelpevxkfh",
+            "wefylnvbyuuutxpz",
+            "xecozihvyohwoobr",
+            "qizjnjyhreinjhse",
+            "ubhycewtyrdgjpdw",
+            "lxbsispwzntflica",
+            "lknpslpfytbbezzh",
+            "tasckqvmywxshdtf",
+            "nwrqyakrmsfqqoqg"
+        ],
+        "result_key": "findingIds"
+    },
+    "meta": {
+        "start": 1711116152.318918,
+        "end": 1711116160.453985,
+        "duration": 8.13507604598999,
+        "service": "macie2",
+        "type": "findings"
+    }
+}

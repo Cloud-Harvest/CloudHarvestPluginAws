@@ -1,0 +1,292 @@
+[
+    {
+        "CreateDate": "zczebvpqtbkklhgn",
+        "Description": "tzsqqqofqhyizaoc",
+        "LastUpdatedDate": "yjjokhepaiydnlcm",
+        "MemberDefinitions": [
+            {
+                "CognitoMemberDefinition": {
+                    "ClientId": "wejzntcwwtecwspx",
+                    "UserGroup": "lhbsrnbtlpsqyjiu",
+                    "UserPool": "ocnxxfgfpkemdfwt"
+                },
+                "OidcMemberDefinition": {
+                    "Groups": [
+                        "jicjrfcpmwmdohpz"
+                    ]
+                }
+            }
+        ],
+        "NotificationConfiguration": {
+            "NotificationTopicArn": "tijhuaqkkldkntxa"
+        },
+        "ProductListingIds": [
+            "ykgykiopqmhpyswo"
+        ],
+        "SubDomain": "invsvwchxwpuwmav",
+        "WorkforceArn": "wdgwuvmtkacnriug",
+        "WorkteamArn": "seuidxikjcpqnrgk",
+        "WorkteamName": "izptzzjztslidjlf"
+    },
+    {
+        "CreateDate": "ppkjqpbfzgneivrl",
+        "Description": "ztxkecnqlizfudat",
+        "LastUpdatedDate": "sbswtsxnjjzkyelz",
+        "MemberDefinitions": [
+            {
+                "CognitoMemberDefinition": {
+                    "ClientId": "xstlmaoytzrydfwd",
+                    "UserGroup": "zbwcspgqyvesuyzx",
+                    "UserPool": "tgbygyfaqsewkzlu"
+                },
+                "OidcMemberDefinition": {
+                    "Groups": [
+                        "qyfdwszrxzoquhto"
+                    ]
+                }
+            }
+        ],
+        "NotificationConfiguration": {
+            "NotificationTopicArn": "olsxiepfzfridpyk"
+        },
+        "ProductListingIds": [
+            "xikknaxqwsflgald"
+        ],
+        "SubDomain": "wuoqqpglnhlpmxyc",
+        "WorkforceArn": "vkcyahwrpyolqyfm",
+        "WorkteamArn": "sqdmumxehwwngqgw",
+        "WorkteamName": "uwzqmpumisniabxr"
+    },
+    {
+        "CreateDate": "crrxlclvyihbvmzn",
+        "Description": "ipbmmcbkkierldty",
+        "LastUpdatedDate": "qmyiydvigzofkmkk",
+        "MemberDefinitions": [
+            {
+                "CognitoMemberDefinition": {
+                    "ClientId": "szotorpbadzwussc",
+                    "UserGroup": "janbcxcqbjudhwrq",
+                    "UserPool": "ctcmxmkadwycvghr"
+                },
+                "OidcMemberDefinition": {
+                    "Groups": [
+                        "ojrwzbqjykibqiyj"
+                    ]
+                }
+            }
+        ],
+        "NotificationConfiguration": {
+            "NotificationTopicArn": "svpxitwmtjpfeyts"
+        },
+        "ProductListingIds": [
+            "nytzoncuidwdosjl"
+        ],
+        "SubDomain": "advrjbhcfopuephx",
+        "WorkforceArn": "vlnsnctmuqtxhvfs",
+        "WorkteamArn": "orvriaofgqfpvpzm",
+        "WorkteamName": "dpekawqaxwxesuem"
+    },
+    {
+        "CreateDate": "cfuhrsundqbaiuoq",
+        "Description": "xqkzrtsvjityybxd",
+        "LastUpdatedDate": "dgmllenxmkqfvbgc",
+        "MemberDefinitions": [
+            {
+                "CognitoMemberDefinition": {
+                    "ClientId": "xzixikilabxrdtrv",
+                    "UserGroup": "uswcpyscmswjaezx",
+                    "UserPool": "jwqbglrokyvdauln"
+                },
+                "OidcMemberDefinition": {
+                    "Groups": [
+                        "vorotcktielvgszr"
+                    ]
+                }
+            }
+        ],
+        "NotificationConfiguration": {
+            "NotificationTopicArn": "ejyvdydjyybtobef"
+        },
+        "ProductListingIds": [
+            "zlpdnuzcsbchiyod"
+        ],
+        "SubDomain": "uoqilzufddebiobl",
+        "WorkforceArn": "jglqnuqhvxrmzflh",
+        "WorkteamArn": "iqvdrlfiplgzuuks",
+        "WorkteamName": "tsacxdnpbcgmfivv"
+    },
+    {
+        "CreateDate": "hhozmhoielcatenj",
+        "Description": "gydwkxmufcmfnpik",
+        "LastUpdatedDate": "vfqzxxppmbpnwlqu",
+        "MemberDefinitions": [
+            {
+                "CognitoMemberDefinition": {
+                    "ClientId": "ivfmfunripaigifz",
+                    "UserGroup": "yzzukcasdlbkcmbo",
+                    "UserPool": "xhennevgxlewdhzg"
+                },
+                "OidcMemberDefinition": {
+                    "Groups": [
+                        "kpkhwrtrmdqrekzm"
+                    ]
+                }
+            }
+        ],
+        "NotificationConfiguration": {
+            "NotificationTopicArn": "vgofutfuxnouratm"
+        },
+        "ProductListingIds": [
+            "ocynwcasfbdfkbhp"
+        ],
+        "SubDomain": "qioaljbkijqlkojw",
+        "WorkforceArn": "ccjcwwjlhedtwunc",
+        "WorkteamArn": "jyrgusbihmyhqiqr",
+        "WorkteamName": "xbefdjnsfruwcgoo"
+    },
+    {
+        "CreateDate": "vqrcaheppqfcoynd",
+        "Description": "cpkezxemivritiyi",
+        "LastUpdatedDate": "vwlynujawfbmfhdy",
+        "MemberDefinitions": [
+            {
+                "CognitoMemberDefinition": {
+                    "ClientId": "ytslwjbgoeqibiex",
+                    "UserGroup": "gszrdlpjvolzzivd",
+                    "UserPool": "glsyyuxohoblpdpc"
+                },
+                "OidcMemberDefinition": {
+                    "Groups": [
+                        "qvibnijohnawjwmy"
+                    ]
+                }
+            }
+        ],
+        "NotificationConfiguration": {
+            "NotificationTopicArn": "dvljdxgfsakihjjg"
+        },
+        "ProductListingIds": [
+            "fjemaodrttxdjlcv"
+        ],
+        "SubDomain": "bdrxvrkidmsvkqoa",
+        "WorkforceArn": "fxwsukvfkvtntrfu",
+        "WorkteamArn": "daaveqzzsbrcvvss",
+        "WorkteamName": "ylmdnghhsjxdzfak"
+    },
+    {
+        "CreateDate": "yzribpigbposdqzk",
+        "Description": "nxicdzpsmjxeujnk",
+        "LastUpdatedDate": "qhowlbvbylfwysdm",
+        "MemberDefinitions": [
+            {
+                "CognitoMemberDefinition": {
+                    "ClientId": "mfqsuynjrekbprvs",
+                    "UserGroup": "uasyrzayagzfpklm",
+                    "UserPool": "pkprqkmaarzhotwj"
+                },
+                "OidcMemberDefinition": {
+                    "Groups": [
+                        "hrygmmhkwqddjozj"
+                    ]
+                }
+            }
+        ],
+        "NotificationConfiguration": {
+            "NotificationTopicArn": "fayeeqjbzxmyvrfs"
+        },
+        "ProductListingIds": [
+            "tyldrpiatufndfcf"
+        ],
+        "SubDomain": "vtqgudyapwuyyaub",
+        "WorkforceArn": "xqjwwxchwdhwgmwt",
+        "WorkteamArn": "ssevxpxxinfsrjhd",
+        "WorkteamName": "ylmuzbfiaxjqmbfd"
+    },
+    {
+        "CreateDate": "bxkmcsgqdhdtblee",
+        "Description": "jxmrjjhhcpuyyywn",
+        "LastUpdatedDate": "eybabcbidgixxdfz",
+        "MemberDefinitions": [
+            {
+                "CognitoMemberDefinition": {
+                    "ClientId": "ubracppmsttqypxz",
+                    "UserGroup": "pvwyzhbeoprfonjv",
+                    "UserPool": "tvjrbfrhindxykmo"
+                },
+                "OidcMemberDefinition": {
+                    "Groups": [
+                        "brlyyllcfxsvcmaq"
+                    ]
+                }
+            }
+        ],
+        "NotificationConfiguration": {
+            "NotificationTopicArn": "zhaniybijxcyvspj"
+        },
+        "ProductListingIds": [
+            "csvcjxzvrwsuletn"
+        ],
+        "SubDomain": "eymqfcaffbaapxed",
+        "WorkforceArn": "yrkwtepckmipsbqd",
+        "WorkteamArn": "kueuksuvsjpmccjo",
+        "WorkteamName": "nbsvekvhgvdcenoo"
+    },
+    {
+        "CreateDate": "regwbdcatykjxjlw",
+        "Description": "ipfkqqjitjcekzcf",
+        "LastUpdatedDate": "bqzdcvggfnhprovx",
+        "MemberDefinitions": [
+            {
+                "CognitoMemberDefinition": {
+                    "ClientId": "jrwhvdnwchbkbehc",
+                    "UserGroup": "fomyeauixxcyfreu",
+                    "UserPool": "ipmiegexhbubcmlp"
+                },
+                "OidcMemberDefinition": {
+                    "Groups": [
+                        "aqhjqpordjsxqhat"
+                    ]
+                }
+            }
+        ],
+        "NotificationConfiguration": {
+            "NotificationTopicArn": "dnhnewvndbtjzhkm"
+        },
+        "ProductListingIds": [
+            "fwlafylotkdyzvja"
+        ],
+        "SubDomain": "sqedmexlpvhedwve",
+        "WorkforceArn": "pxmhfpyhqlnkbcmk",
+        "WorkteamArn": "spifjtxsctdlvrwl",
+        "WorkteamName": "ldbrvokyyaechwwm"
+    },
+    {
+        "CreateDate": "fiatkypdyyyrtopa",
+        "Description": "cqdhykohfublhrny",
+        "LastUpdatedDate": "jpsrgywhtxlxpdyh",
+        "MemberDefinitions": [
+            {
+                "CognitoMemberDefinition": {
+                    "ClientId": "vqhvkybismncfcic",
+                    "UserGroup": "lyhknzpxeeasrpnq",
+                    "UserPool": "fymrvwloeudoudyh"
+                },
+                "OidcMemberDefinition": {
+                    "Groups": [
+                        "zzirjrnvggvltjlq"
+                    ]
+                }
+            }
+        ],
+        "NotificationConfiguration": {
+            "NotificationTopicArn": "tpjfpcsoqtadihqx"
+        },
+        "ProductListingIds": [
+            "tjqlaxvgtklqduth"
+        ],
+        "SubDomain": "vqawxlawtppazmsf",
+        "WorkforceArn": "wgmmotqjnqkeuewl",
+        "WorkteamArn": "ynabaecvdkelabyp",
+        "WorkteamName": "ytetsqgtoakenixq"
+    }
+]

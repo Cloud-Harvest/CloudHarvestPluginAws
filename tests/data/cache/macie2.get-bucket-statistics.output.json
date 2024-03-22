@@ -1,0 +1,36 @@
+{
+    "input": {
+        "template": {
+            "accountId": ""
+        },
+        "required": [],
+        "md5": "5108791223d7616439cf6c72ab032b06",
+        "boto_command": "get_bucket_statistics",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": 0,
+        "required": [],
+        "md5": "455fff98f89ec008b82aa11d52424780",
+        "randomized": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "result_key": "bucketCount"
+    },
+    "meta": {
+        "start": 1711116146.066581,
+        "end": 1711116152.318198,
+        "duration": 6.2516279220581055,
+        "service": "macie2",
+        "type": null
+    }
+}

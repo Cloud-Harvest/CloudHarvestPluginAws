@@ -1,0 +1,17 @@
+[
+    "drs.describe-job-log-items",
+    "drs.describe-jobs",
+    "drs.describe-launch-configuration-templates",
+    "drs.describe-recovery-instances",
+    "drs.describe-recovery-snapshots",
+    "drs.describe-replication-configuration-templates",
+    "drs.describe-source-networks",
+    "drs.describe-source-servers",
+    "drs.get-failback-replication-configuration",
+    "drs.get-launch-configuration",
+    "drs.get-replication-configuration",
+    "drs.list-extensible-source-servers",
+    "drs.list-launch-actions",
+    "drs.list-staging-accounts",
+    "drs.list-tags-for-resource"
+]

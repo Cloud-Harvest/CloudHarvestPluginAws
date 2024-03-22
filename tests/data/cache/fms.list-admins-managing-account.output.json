@@ -1,0 +1,39 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "9dece7f85fc1c3f944425b1f68a8e6e1",
+        "boto_command": "list_admins_managing_account",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            "AWSAccountId"
+        ],
+        "required": [],
+        "md5": "c7174cbe6abfa9c58177bac3d472448a",
+        "randomized": [
+            "lpauzhqknduhmxjb",
+            "rllxxckcrnlygzek",
+            "qzzjeyxxgjcjsurc",
+            "wfizycvawokiadyg",
+            "reqldnekktvhlwtb",
+            "gnfkpzlzhqyxufjc",
+            "tzmnafygzzdfqstp",
+            "lgzudjuzxvnbmwsd",
+            "mxxyewchzthwrkuq",
+            "xvgslrrmjgkfjcky"
+        ],
+        "result_key": "AdminAccounts"
+    },
+    "meta": {
+        "start": 1711115773.151793,
+        "end": 1711115780.25191,
+        "duration": 7.100126028060913,
+        "service": "fms",
+        "type": "admins_managing_account"
+    }
+}

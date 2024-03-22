@@ -1,0 +1,185 @@
+{
+    "input": {
+        "template": {
+            "filterByName": "",
+            "filterByPlaybackRestrictionPolicyArn": "",
+            "filterByRecordingConfigurationArn": "",
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "required": [],
+        "md5": "b5bd1a5308a34e17a61f9ea52a5822af",
+        "boto_command": "list_channels",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "arn": "arn",
+                "authorized": true,
+                "insecureIngest": true,
+                "latencyMode": "latencyMode",
+                "name": "name",
+                "playbackRestrictionPolicyArn": "playbackRestrictionPolicyArn",
+                "preset": "preset",
+                "recordingConfigurationArn": "recordingConfigurationArn",
+                "tags": {
+                    "KeyName": ""
+                },
+                "type": "type"
+            }
+        ],
+        "required": [],
+        "md5": "babc0d6bf1ea7859a973a54877c8af6a",
+        "randomized": [
+            {
+                "arn": "ibfkqhdvtvtnqomx",
+                "authorized": true,
+                "insecureIngest": true,
+                "latencyMode": "vezfecrvnxribglu",
+                "name": "xciuklntlrehjqej",
+                "playbackRestrictionPolicyArn": "qkkztdayxdouziea",
+                "preset": "nnopexkfwgcnaufe",
+                "recordingConfigurationArn": "ntxxgfnaodgjmipg",
+                "tags": {
+                    "KeyName": "ujfwuijgzsxtobfd"
+                },
+                "type": "zlcisscfvkrfqqqr"
+            },
+            {
+                "arn": "fmkrynxdlqjkdfvp",
+                "authorized": true,
+                "insecureIngest": true,
+                "latencyMode": "omyxuwvpjgmxwlni",
+                "name": "dfaaevpjjuaxeeuz",
+                "playbackRestrictionPolicyArn": "ncyabwhllddknmie",
+                "preset": "aebcdnsbkmiuuhkv",
+                "recordingConfigurationArn": "skcyiiyixpponjii",
+                "tags": {
+                    "KeyName": "jvulpgxjzgysxraa"
+                },
+                "type": "cnxxywelyacsekzg"
+            },
+            {
+                "arn": "hehbjlodvqxsksim",
+                "authorized": true,
+                "insecureIngest": true,
+                "latencyMode": "poqyouqszegicasu",
+                "name": "fekosgeawxtloqcz",
+                "playbackRestrictionPolicyArn": "qwmvwgxytsnwspjz",
+                "preset": "tnjtdivkkaxvqtig",
+                "recordingConfigurationArn": "qdmbbuysovjbjrgb",
+                "tags": {
+                    "KeyName": "ufjavzljnnweqoyg"
+                },
+                "type": "dgucbwbecmtzzbmd"
+            },
+            {
+                "arn": "pktvtlzbuwzgpjwy",
+                "authorized": true,
+                "insecureIngest": true,
+                "latencyMode": "czqpqmmaczxceftb",
+                "name": "ymcrahapvfnzvkqr",
+                "playbackRestrictionPolicyArn": "bwudghkbcnduckvy",
+                "preset": "rpbbkkaadcwdnbbi",
+                "recordingConfigurationArn": "czypyuneapcmhhil",
+                "tags": {
+                    "KeyName": "jbrrrpkohzlcfdmv"
+                },
+                "type": "grjlwjcpttzxfwap"
+            },
+            {
+                "arn": "ydjpbpcwaqgdbevr",
+                "authorized": true,
+                "insecureIngest": true,
+                "latencyMode": "uzpymrbrrpslwubm",
+                "name": "swnsnkozpguyxjqo",
+                "playbackRestrictionPolicyArn": "ehuetgpjlnzwvaze",
+                "preset": "qsbdgxhnqmekkupf",
+                "recordingConfigurationArn": "lzhtpnzahzuehuys",
+                "tags": {
+                    "KeyName": "dqjktvwrwjzbatgc"
+                },
+                "type": "lmvkkreqpxomszsb"
+            },
+            {
+                "arn": "kbsbczagrwiltkcn",
+                "authorized": true,
+                "insecureIngest": true,
+                "latencyMode": "gcvfhondblqfprse",
+                "name": "ulfwcgbblfwrwnoq",
+                "playbackRestrictionPolicyArn": "icnxpomepzdtwhqs",
+                "preset": "wsswikfffdawdygn",
+                "recordingConfigurationArn": "ktbwhkhfomlvmygg",
+                "tags": {
+                    "KeyName": "dubdfjbbtrvngqxj"
+                },
+                "type": "sggrkbutrvvbrzkn"
+            },
+            {
+                "arn": "trbvmuwivhrfvhgp",
+                "authorized": true,
+                "insecureIngest": true,
+                "latencyMode": "ytceapehyrhmbchx",
+                "name": "yweagwibkywqdfod",
+                "playbackRestrictionPolicyArn": "zzssstnpfzfjsdpq",
+                "preset": "kbkmalnjvwpzzxzv",
+                "recordingConfigurationArn": "bigcnqhvlzxecpth",
+                "tags": {
+                    "KeyName": "rqhmqqnlgpaabjez"
+                },
+                "type": "stznbytsyqqglaig"
+            },
+            {
+                "arn": "ydbjgzwuemtgxopu",
+                "authorized": true,
+                "insecureIngest": true,
+                "latencyMode": "imettjfmpgjkdzuu",
+                "name": "pjaloiomdrjeramm",
+                "playbackRestrictionPolicyArn": "ostvdhwmcyfvhafi",
+                "preset": "bznpslnlecoxxraq",
+                "recordingConfigurationArn": "ssjknxyifdtklfsy",
+                "tags": {
+                    "KeyName": "pjfgkswielflmwhe"
+                },
+                "type": "zqbgfnzsddslqsbd"
+            },
+            {
+                "arn": "jvdwarpyqrndqarc",
+                "authorized": true,
+                "insecureIngest": true,
+                "latencyMode": "aaaemjqnlzuajebt",
+                "name": "kdxftyhqprqinxaw",
+                "playbackRestrictionPolicyArn": "iwduftbbarlapvwc",
+                "preset": "oxhkotwyvzvraqev",
+                "recordingConfigurationArn": "jpriisvzinolqbcx",
+                "tags": {
+                    "KeyName": "vmhrovxoxlpbxmjc"
+                },
+                "type": "ddezhdyafsvhiwyn"
+            },
+            {
+                "arn": "byhshjujuhhczzck",
+                "authorized": true,
+                "insecureIngest": true,
+                "latencyMode": "fsenmbduehcvrrum",
+                "name": "idwsqvthkhqtstcw",
+                "playbackRestrictionPolicyArn": "dlsxguugejcujgmb",
+                "preset": "qbslphnfpbyztgwc",
+                "recordingConfigurationArn": "nmoyynbdwcbgbtzh",
+                "tags": {
+                    "KeyName": "crcdqeynszlhrrvu"
+                },
+                "type": "akvfeobblphguxub"
+            }
+        ],
+        "result_key": "channels"
+    },
+    "meta": {
+        "start": 1711116006.623475,
+        "end": 1711116013.437642,
+        "duration": 6.8141770362854,
+        "service": "ivs",
+        "type": "channels"
+    }
+}

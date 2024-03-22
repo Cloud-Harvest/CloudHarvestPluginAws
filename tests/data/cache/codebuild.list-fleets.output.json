@@ -1,0 +1,41 @@
+{
+    "input": {
+        "template": {
+            "nextToken": "",
+            "maxResults": 0,
+            "sortOrder": "ASCENDING",
+            "sortBy": "NAME"
+        },
+        "required": [],
+        "md5": "07ce05cf44d2574498acac846d50c493",
+        "boto_command": "list_fleets",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            "NonEmptyString"
+        ],
+        "required": [],
+        "md5": "73f2cbd481f883225b3d07fe82ad6bfb",
+        "randomized": [
+            "qfmupofyfbuyzifd",
+            "hqmozxtjlkkyquwf",
+            "ydmjmlqjwxfculqx",
+            "xdjuiumclsxyrnta",
+            "soufozygekovywug",
+            "iaqxthvlynrvktjf",
+            "izwmnmmdrwpgudud",
+            "vmnincjrrewfjlnw",
+            "tdfgaptqzrazbzuq",
+            "qvfhqmypunrecjei"
+        ],
+        "result_key": "fleets"
+    },
+    "meta": {
+        "start": 1711115403.11953,
+        "end": 1711115411.617172,
+        "duration": 8.497652053833008,
+        "service": "codebuild",
+        "type": "fleets"
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "get_sparql_statistics",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": "status",
+        "required": [],
+        "md5": "01c5a99dd7dd192e47f1e6972c0cf324",
+        "randomized": [
+            "orfzszmfvulhuglu",
+            "ilhviutmbtjqjzvt",
+            "mljjjqliosgbphyu",
+            "evndhigkpwywkedt",
+            "rjqpsbtdetvomfku",
+            "ufylrataxsvgdjtf",
+            "xdpyoypsjnytlhzf",
+            "ifdsjblcnykjjbsn",
+            "vzvstvhtfbldiydd",
+            "clsrclalwnpmugnm"
+        ],
+        "result_key": "status"
+    },
+    "meta": {
+        "start": 1711116237.481842,
+        "end": 1711116244.998913,
+        "duration": 7.51708197593689,
+        "service": "neptunedata",
+        "type": null
+    }
+}

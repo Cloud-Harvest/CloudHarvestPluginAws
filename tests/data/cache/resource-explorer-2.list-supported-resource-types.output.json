@@ -1,0 +1,72 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "031b56893c6f5a9d0ebe6017c5c080cb",
+        "boto_command": "list_supported_resource_types",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "ResourceType": "ResourceType",
+                "Service": "Service"
+            }
+        ],
+        "required": [],
+        "md5": "290f14a941f1db69d1a216f0326322ca",
+        "randomized": [
+            {
+                "ResourceType": "njgaubnsfegsupev",
+                "Service": "hhheatuezwqoiobv"
+            },
+            {
+                "ResourceType": "riqjwcwscxpxtyap",
+                "Service": "qunkhlheqootjwkn"
+            },
+            {
+                "ResourceType": "hyovssrswujgbvrz",
+                "Service": "dreuwvehwdjsqjfu"
+            },
+            {
+                "ResourceType": "ujcqiytltffmwkef",
+                "Service": "kzwemyjfqrcvafdd"
+            },
+            {
+                "ResourceType": "dhoypfyetunrzosf",
+                "Service": "diyyuqwvppcniwrw"
+            },
+            {
+                "ResourceType": "fiusvdxzjqqfbrlc",
+                "Service": "tytxfvpsasacurjn"
+            },
+            {
+                "ResourceType": "watbeqvmsossimbn",
+                "Service": "pzztldeffkyhizim"
+            },
+            {
+                "ResourceType": "xyhmpzvhfkzguspx",
+                "Service": "gqdomwqrpwsfjszs"
+            },
+            {
+                "ResourceType": "lxaewqpzukqbehre",
+                "Service": "ybwckhklibrohnxx"
+            },
+            {
+                "ResourceType": "ckzgbzagzsnsnfex",
+                "Service": "tjrptssxxcgzazdf"
+            }
+        ],
+        "result_key": "ResourceTypes"
+    },
+    "meta": {
+        "start": 1711116458.686579,
+        "end": 1711116465.98356,
+        "duration": 7.2969911098480225,
+        "service": "resource-explorer-2",
+        "type": "supported_resource_types"
+    }
+}

@@ -1,0 +1,124 @@
+{
+    "input": {
+        "template": {
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxRecords": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "96a5e8fa4d05ccf15ad822736c536170",
+        "boto_command": "describe_recommendation_limitations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "DatabaseId": "DatabaseId",
+                "EngineName": "EngineName",
+                "Name": "Name",
+                "Description": "Description",
+                "Impact": "Impact",
+                "Type": "Type"
+            }
+        ],
+        "required": [],
+        "md5": "dd9e33465ff00cff6714df6a2ae07ee6",
+        "randomized": [
+            {
+                "DatabaseId": "azzhfdhnefhmvtyq",
+                "Description": "qiebllrdchzigtrc",
+                "EngineName": "jktsifkvqmhbuvgr",
+                "Impact": "ehubnmsqgsvjgbkz",
+                "Name": "enzisykpwsdeguld",
+                "Type": "veqhsdgfmlkjnatc"
+            },
+            {
+                "DatabaseId": "yqrpnupsaxjspwbw",
+                "Description": "oszneigqukoglxfg",
+                "EngineName": "kixcdayupvijbeaj",
+                "Impact": "mzylmzlqsdpvasim",
+                "Name": "afzewyllqcetyrcr",
+                "Type": "kurjhrwugsyjgdhx"
+            },
+            {
+                "DatabaseId": "lmqoshmubezkbagi",
+                "Description": "svasmarruksnhvgr",
+                "EngineName": "nkcrzmhklujfewja",
+                "Impact": "hcyadzpqzjjbwzff",
+                "Name": "drmlnwjlztkuqupy",
+                "Type": "kjhevxkevlosicbw"
+            },
+            {
+                "DatabaseId": "reamsamlwwstfyeq",
+                "Description": "sntamknqgowconsj",
+                "EngineName": "nhnxzttykhoxrepf",
+                "Impact": "nkqbzksggwbzhgae",
+                "Name": "uqydbiptwaodhbtt",
+                "Type": "iurxbjwcencpcvau"
+            },
+            {
+                "DatabaseId": "tfibayncxuizofrc",
+                "Description": "xlupgbyrvnybqcjh",
+                "EngineName": "zimhzmubitounwih",
+                "Impact": "bzqnkgksjatnvlxd",
+                "Name": "wdkwegerpgvcjxee",
+                "Type": "gxwpdqecoeplaney"
+            },
+            {
+                "DatabaseId": "bhftlojakmqwjnqq",
+                "Description": "xrdkxvusibfgchlh",
+                "EngineName": "roefwvyocvavgdry",
+                "Impact": "bulkdyvpwtkkayuk",
+                "Name": "vfmcdnrjjodjebym",
+                "Type": "axfkxveilajyqjvx"
+            },
+            {
+                "DatabaseId": "hxynekesliblevjt",
+                "Description": "ibnbvsvyqvbwgoht",
+                "EngineName": "bqbbuyyrvpksacdy",
+                "Impact": "nfzuactkyuimdheg",
+                "Name": "vvjkpluymjksaubx",
+                "Type": "ldtymejyvasaealu"
+            },
+            {
+                "DatabaseId": "ljsmwgvklhisniph",
+                "Description": "rzymngddtudhqsze",
+                "EngineName": "egfygrvhkturquly",
+                "Impact": "blgvemrmbsxdybwy",
+                "Name": "htjeuwrjbgspcdgh",
+                "Type": "lyqdxynotosgswwb"
+            },
+            {
+                "DatabaseId": "vudfjanydywukajg",
+                "Description": "qpuwhcyslpxxuqto",
+                "EngineName": "eosthbhpgkpusjtv",
+                "Impact": "exlbrqyzxsohvqml",
+                "Name": "poupbeixynxwiuvc",
+                "Type": "gdmpddlncodurtzf"
+            },
+            {
+                "DatabaseId": "wogwcgqavaogyiwz",
+                "Description": "jkvppewyqpihhhln",
+                "EngineName": "zdxdduahpdoyfcsy",
+                "Impact": "mkxfxvvpnkumogtp",
+                "Name": "grwdrftqnjomadqq",
+                "Type": "lsvczmhfowaxiagp"
+            }
+        ],
+        "result_key": "Limitations"
+    },
+    "meta": {
+        "start": 1711115580.265841,
+        "end": 1711115586.33928,
+        "duration": 6.073446035385132,
+        "service": "dms",
+        "type": "recommendation_limitations"
+    }
+}

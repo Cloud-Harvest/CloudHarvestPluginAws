@@ -1,0 +1,11 @@
+[
+    "cognito-sync.describe-dataset",
+    "cognito-sync.describe-identity-pool-usage",
+    "cognito-sync.describe-identity-usage",
+    "cognito-sync.get-bulk-publish-details",
+    "cognito-sync.get-cognito-events",
+    "cognito-sync.get-identity-pool-configuration",
+    "cognito-sync.list-datasets",
+    "cognito-sync.list-identity-pool-usage",
+    "cognito-sync.list-records"
+]

@@ -1,0 +1,194 @@
+{
+    "input": {
+        "template": {
+            "PoolIds": [
+                ""
+            ],
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxResults": 0,
+            "NextToken": "",
+            "DryRun": true
+        },
+        "required": [],
+        "md5": "f5380000e813bc3504dd944b6579a9d3",
+        "boto_command": "describe_coip_pools",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "PoolId": "PoolId",
+                "PoolCidrs": [
+                    "String"
+                ],
+                "LocalGatewayRouteTableId": "LocalGatewayRouteTableId",
+                "Tags": [
+                    {
+                        "Key": "Key",
+                        "Value": "Value"
+                    }
+                ],
+                "PoolArn": "PoolArn"
+            }
+        ],
+        "required": [],
+        "md5": "7e539d88dfad746745e5ba323f5a4efb",
+        "randomized": [
+            {
+                "LocalGatewayRouteTableId": "xxkuisrpvoscycvz",
+                "PoolArn": "wjaxxxlrcemfdxly",
+                "PoolCidrs": [
+                    "iqxygijgqcgnwmfw"
+                ],
+                "PoolId": "bfduwexnmwepxrab",
+                "Tags": [
+                    {
+                        "Key": "lvqnnoctruucaohs",
+                        "Value": "ucenmqbdhllqltgl"
+                    }
+                ]
+            },
+            {
+                "LocalGatewayRouteTableId": "hbklnmkiyadeziry",
+                "PoolArn": "xuisnmzmahjdxisj",
+                "PoolCidrs": [
+                    "fyvuwbqrmybyavto"
+                ],
+                "PoolId": "zngjagoflmdldpfw",
+                "Tags": [
+                    {
+                        "Key": "ksqbzrghyyxcvkhr",
+                        "Value": "wvxffmcilcjlkapb"
+                    }
+                ]
+            },
+            {
+                "LocalGatewayRouteTableId": "wkpnlrjtwiywhajz",
+                "PoolArn": "jxbtmbaxlwyftixq",
+                "PoolCidrs": [
+                    "jemdqfbkozpuvzbj"
+                ],
+                "PoolId": "uctqtjovljngxont",
+                "Tags": [
+                    {
+                        "Key": "rzxgxatapodftzbt",
+                        "Value": "oqadfckevtcaavho"
+                    }
+                ]
+            },
+            {
+                "LocalGatewayRouteTableId": "heqwyebzstzsjgtu",
+                "PoolArn": "skkywavwykipxmre",
+                "PoolCidrs": [
+                    "kxxazhjhmrclaopt"
+                ],
+                "PoolId": "vgryzusijcwkzubl",
+                "Tags": [
+                    {
+                        "Key": "olzbvlpombhlogrs",
+                        "Value": "fprnbkpkcdwdxezm"
+                    }
+                ]
+            },
+            {
+                "LocalGatewayRouteTableId": "dbcnfvlmpftzwtqx",
+                "PoolArn": "ytsasznlsnnotuqs",
+                "PoolCidrs": [
+                    "rcjollmwozdrrxuo"
+                ],
+                "PoolId": "zutybxdsyerniuic",
+                "Tags": [
+                    {
+                        "Key": "gfoqxscjlppqmmcw",
+                        "Value": "wyuqphxpskghrdfb"
+                    }
+                ]
+            },
+            {
+                "LocalGatewayRouteTableId": "lucqhmdftbhpkxvs",
+                "PoolArn": "igijiboazhdzthgj",
+                "PoolCidrs": [
+                    "ubnhwsmtijixhzez"
+                ],
+                "PoolId": "gonzwrqasjkzitwo",
+                "Tags": [
+                    {
+                        "Key": "hogpywbghjwwmsus",
+                        "Value": "ibuqjqswaglujgbs"
+                    }
+                ]
+            },
+            {
+                "LocalGatewayRouteTableId": "vypmyttgplwmdwlh",
+                "PoolArn": "gnvburdsosotfthw",
+                "PoolCidrs": [
+                    "hopllixzntdldzxg"
+                ],
+                "PoolId": "ulmifgxtqmqnjxcm",
+                "Tags": [
+                    {
+                        "Key": "gzdwlzemxincqucg",
+                        "Value": "tbgzdxiczdmnozpp"
+                    }
+                ]
+            },
+            {
+                "LocalGatewayRouteTableId": "ekaplekirjwqplta",
+                "PoolArn": "cxftcqvscxmtcxus",
+                "PoolCidrs": [
+                    "gvdbugqpcjulzmkm"
+                ],
+                "PoolId": "vfdzhqndxewzniwd",
+                "Tags": [
+                    {
+                        "Key": "cqodklmyetnptqiw",
+                        "Value": "sryivvawvoenafjv"
+                    }
+                ]
+            },
+            {
+                "LocalGatewayRouteTableId": "dtduvaazwnqezdbx",
+                "PoolArn": "pfpftoygfuhmxnru",
+                "PoolCidrs": [
+                    "qjionywrxuxgdmwf"
+                ],
+                "PoolId": "vapinfjyglqxppvu",
+                "Tags": [
+                    {
+                        "Key": "qiwfebfgbiczimvo",
+                        "Value": "jywkottmolnfxrmr"
+                    }
+                ]
+            },
+            {
+                "LocalGatewayRouteTableId": "suegwmuztgpfypbo",
+                "PoolArn": "cxrftnjicbvkhcsx",
+                "PoolCidrs": [
+                    "ltwfapiuaiygpntm"
+                ],
+                "PoolId": "croqmcqvgyvvufnl",
+                "Tags": [
+                    {
+                        "Key": "vaudrlthcuzhjydy",
+                        "Value": "fkkdndmychgedsqd"
+                    }
+                ]
+            }
+        ],
+        "result_key": "CoipPools"
+    },
+    "meta": {
+        "start": 1711115614.870383,
+        "end": 1711115620.280497,
+        "duration": 5.410125970840454,
+        "service": "ec2",
+        "type": "coip_pools"
+    }
+}

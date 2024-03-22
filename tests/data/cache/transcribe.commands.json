@@ -1,0 +1,21 @@
+[
+    "transcribe.describe-language-model",
+    "transcribe.get-call-analytics-category",
+    "transcribe.get-call-analytics-job",
+    "transcribe.get-medical-scribe-job",
+    "transcribe.get-medical-transcription-job",
+    "transcribe.get-medical-vocabulary",
+    "transcribe.get-transcription-job",
+    "transcribe.get-vocabulary",
+    "transcribe.get-vocabulary-filter",
+    "transcribe.list-call-analytics-categories",
+    "transcribe.list-call-analytics-jobs",
+    "transcribe.list-language-models",
+    "transcribe.list-medical-scribe-jobs",
+    "transcribe.list-medical-transcription-jobs",
+    "transcribe.list-medical-vocabularies",
+    "transcribe.list-tags-for-resource",
+    "transcribe.list-transcription-jobs",
+    "transcribe.list-vocabularies",
+    "transcribe.list-vocabulary-filters"
+]

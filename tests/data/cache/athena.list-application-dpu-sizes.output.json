@@ -1,0 +1,94 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "031b56893c6f5a9d0ebe6017c5c080cb",
+        "boto_command": "list_application_dpu_sizes",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "ApplicationRuntimeId": "ApplicationRuntimeId",
+                "SupportedDPUSizes": [
+                    0
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "43318dd1331f70c6a6aa96f42241e104",
+        "randomized": [
+            {
+                "ApplicationRuntimeId": "zwizaqhfxdopbotp",
+                "SupportedDPUSizes": [
+                    0
+                ]
+            },
+            {
+                "ApplicationRuntimeId": "jyqjhnhtgisojpwe",
+                "SupportedDPUSizes": [
+                    0
+                ]
+            },
+            {
+                "ApplicationRuntimeId": "wwrfzvgztyjdozna",
+                "SupportedDPUSizes": [
+                    0
+                ]
+            },
+            {
+                "ApplicationRuntimeId": "ryeawgrmshpsichc",
+                "SupportedDPUSizes": [
+                    0
+                ]
+            },
+            {
+                "ApplicationRuntimeId": "dxyvbcefoeovvqdh",
+                "SupportedDPUSizes": [
+                    0
+                ]
+            },
+            {
+                "ApplicationRuntimeId": "xbyfcedsvqqbxhag",
+                "SupportedDPUSizes": [
+                    0
+                ]
+            },
+            {
+                "ApplicationRuntimeId": "civcrcdwemrnmfki",
+                "SupportedDPUSizes": [
+                    0
+                ]
+            },
+            {
+                "ApplicationRuntimeId": "idfjyixjkvsgnoir",
+                "SupportedDPUSizes": [
+                    0
+                ]
+            },
+            {
+                "ApplicationRuntimeId": "hbyjxbcmdrohiaer",
+                "SupportedDPUSizes": [
+                    0
+                ]
+            },
+            {
+                "ApplicationRuntimeId": "ihxjzpnrediwgalc",
+                "SupportedDPUSizes": [
+                    0
+                ]
+            }
+        ],
+        "result_key": "ApplicationDPUSizes"
+    },
+    "meta": {
+        "start": 1711115253.816509,
+        "end": 1711115262.213518,
+        "duration": 8.397020101547241,
+        "service": "athena",
+        "type": "application_dpu_sizes"
+    }
+}

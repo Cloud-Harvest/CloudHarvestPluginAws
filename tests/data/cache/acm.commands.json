@@ -1,0 +1,7 @@
+[
+    "acm.describe-certificate",
+    "acm.get-account-configuration",
+    "acm.get-certificate",
+    "acm.list-certificates",
+    "acm.list-tags-for-certificate"
+]

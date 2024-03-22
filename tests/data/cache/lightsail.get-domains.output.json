@@ -1,0 +1,456 @@
+{
+    "input": {
+        "template": {
+            "pageToken": ""
+        },
+        "required": [],
+        "md5": "cd47ffa47286bc2470b22f744f7629ff",
+        "boto_command": "get_domains",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "name": "name",
+                "arn": "arn",
+                "supportCode": "supportCode",
+                "createdAt": "1970-01-01T00:00:00",
+                "location": {
+                    "availabilityZone": "availabilityZone",
+                    "regionName": "regionName"
+                },
+                "resourceType": "resourceType",
+                "tags": [
+                    {
+                        "key": "key",
+                        "value": "value"
+                    }
+                ],
+                "domainEntries": [
+                    {
+                        "id": "id",
+                        "name": "name",
+                        "target": "target",
+                        "isAlias": true,
+                        "type": "type",
+                        "options": {
+                            "KeyName": ""
+                        }
+                    }
+                ],
+                "registeredDomainDelegationInfo": {
+                    "nameServersUpdateState": {
+                        "code": "code",
+                        "message": "message"
+                    },
+                    "r53HostedZoneDeletionState": {
+                        "code": "code",
+                        "message": "message"
+                    }
+                }
+            }
+        ],
+        "required": [],
+        "md5": "de2acc1523b38977b6a3129ab6ac76c5",
+        "randomized": [
+            {
+                "arn": "kitskzrabdlrpvcj",
+                "createdAt": "rgavdwnvioozirod",
+                "domainEntries": [
+                    {
+                        "id": "vfcszkkgxzyocgjq",
+                        "isAlias": true,
+                        "name": "uoehwawxsbxnvbst",
+                        "options": {
+                            "KeyName": "thgjfbhqfhywypwq"
+                        },
+                        "target": "boljnrrbidirhdwd",
+                        "type": "hwagdptegvfpiese"
+                    }
+                ],
+                "location": {
+                    "availabilityZone": "uhebadhjojslgqke",
+                    "regionName": "kbfkbpryxbharajx"
+                },
+                "name": "iocgbwvraczuxwcl",
+                "registeredDomainDelegationInfo": {
+                    "nameServersUpdateState": {
+                        "code": "gazxtmopmksigvep",
+                        "message": "iliuyezttiotvpsx"
+                    },
+                    "r53HostedZoneDeletionState": {
+                        "code": "uzngqzsqaohpcdhz",
+                        "message": "jwejfzgtadkshxjb"
+                    }
+                },
+                "resourceType": "nvqhgvgnzwkhnlhl",
+                "supportCode": "abusvvvujdbvsezr",
+                "tags": [
+                    {
+                        "key": "tejwbdkydsvojqjy",
+                        "value": "owqrxjfygnenkztd"
+                    }
+                ]
+            },
+            {
+                "arn": "kbncviaphvllekqb",
+                "createdAt": "vshhaaqevqnlrxnw",
+                "domainEntries": [
+                    {
+                        "id": "eqhapyqnukjatons",
+                        "isAlias": true,
+                        "name": "vlwnbwamsiwmrohj",
+                        "options": {
+                            "KeyName": "svgiysnpvsjbrprl"
+                        },
+                        "target": "eqlwmynrwbaezfwf",
+                        "type": "hxwydjetoveilrkw"
+                    }
+                ],
+                "location": {
+                    "availabilityZone": "stwcxpshugaxblgb",
+                    "regionName": "xogoifegnvpzpxsa"
+                },
+                "name": "tjxszjjmnfhbpfhm",
+                "registeredDomainDelegationInfo": {
+                    "nameServersUpdateState": {
+                        "code": "rasojrtqernnorlt",
+                        "message": "ifbpimeyimjerlbt"
+                    },
+                    "r53HostedZoneDeletionState": {
+                        "code": "bwwrzrnepeezhlsc",
+                        "message": "ptbkengklawsnnoq"
+                    }
+                },
+                "resourceType": "ecwbelhalimdlvft",
+                "supportCode": "ipuhzlfsrrcfktgs",
+                "tags": [
+                    {
+                        "key": "urbvgnmfyhgkdaov",
+                        "value": "tygtbhijsdoqlkxg"
+                    }
+                ]
+            },
+            {
+                "arn": "zswazuxktebumzlh",
+                "createdAt": "wwhpeqdksgqkvrzw",
+                "domainEntries": [
+                    {
+                        "id": "qnlzguxtvyhbzeco",
+                        "isAlias": true,
+                        "name": "cxdkegjnrktgpyqu",
+                        "options": {
+                            "KeyName": "tjinsjsjrigdrmer"
+                        },
+                        "target": "ahcdlyqjgqewgsrf",
+                        "type": "dtpzfzmnuifppbhk"
+                    }
+                ],
+                "location": {
+                    "availabilityZone": "wmsioqoiljjwbywr",
+                    "regionName": "kcunhlqzrhamhlgg"
+                },
+                "name": "mnmqvfockphpfime",
+                "registeredDomainDelegationInfo": {
+                    "nameServersUpdateState": {
+                        "code": "vtclwqxrgwphdlmr",
+                        "message": "stlaxfkumwcdmcqt"
+                    },
+                    "r53HostedZoneDeletionState": {
+                        "code": "zunmomgsdtxsipjs",
+                        "message": "mtnemdodsgopanaj"
+                    }
+                },
+                "resourceType": "fgznpxxermicmpyv",
+                "supportCode": "vdhsifjicvycwkhw",
+                "tags": [
+                    {
+                        "key": "bzwbpnpfjpoifpcb",
+                        "value": "cxozjpphssafmguy"
+                    }
+                ]
+            },
+            {
+                "arn": "cfvumuymlfypcpnt",
+                "createdAt": "gmtxcwzunlibeoue",
+                "domainEntries": [
+                    {
+                        "id": "sgfergxvmitpxggq",
+                        "isAlias": true,
+                        "name": "otzazvsclxhfdkue",
+                        "options": {
+                            "KeyName": "ofcscuebakmmsauu"
+                        },
+                        "target": "hojutlilywzdqbun",
+                        "type": "jmsnfscvzodojmxt"
+                    }
+                ],
+                "location": {
+                    "availabilityZone": "zigcrcezmkqywxdg",
+                    "regionName": "anbjoeqbqbnwkawi"
+                },
+                "name": "drkbkyljkdbduppa",
+                "registeredDomainDelegationInfo": {
+                    "nameServersUpdateState": {
+                        "code": "rwuyaccsyyrfbrxc",
+                        "message": "pxptxnpaneilqipv"
+                    },
+                    "r53HostedZoneDeletionState": {
+                        "code": "ucpeqwhauhhlbyoe",
+                        "message": "olaxtlnuxdmcsmgb"
+                    }
+                },
+                "resourceType": "ziwbsxbdzzdzkttx",
+                "supportCode": "zpcxjfmfherywkvp",
+                "tags": [
+                    {
+                        "key": "sxluvkkdezxojrno",
+                        "value": "cxzpioynpjntgwcx"
+                    }
+                ]
+            },
+            {
+                "arn": "cwnwrybgpdbzkkvf",
+                "createdAt": "qsicswujrijtcnex",
+                "domainEntries": [
+                    {
+                        "id": "tqcxnfpmrbgehhzy",
+                        "isAlias": true,
+                        "name": "mqzwgesbwkydwcjn",
+                        "options": {
+                            "KeyName": "rjpatbcycljkqlux"
+                        },
+                        "target": "mxjkhlvvlrwhqmar",
+                        "type": "lbhzpaoehvomwgga"
+                    }
+                ],
+                "location": {
+                    "availabilityZone": "huuocfeehpzlbyfn",
+                    "regionName": "ssdnigncaeacqarn"
+                },
+                "name": "ikxrhqlqwhlzfbre",
+                "registeredDomainDelegationInfo": {
+                    "nameServersUpdateState": {
+                        "code": "lklrbxzsohlmfexq",
+                        "message": "ijckwyotbjanjlyg"
+                    },
+                    "r53HostedZoneDeletionState": {
+                        "code": "yujiddpaobfdfqtx",
+                        "message": "vkzukoobtqumsphp"
+                    }
+                },
+                "resourceType": "kcsxzunxikjcqdlf",
+                "supportCode": "fangiwryfbhmyijj",
+                "tags": [
+                    {
+                        "key": "uwrzxdwaufxdkdet",
+                        "value": "tlfclojzvvrnfuvv"
+                    }
+                ]
+            },
+            {
+                "arn": "jubhwwgjchlnrvdg",
+                "createdAt": "bmrxgiomobgnbdng",
+                "domainEntries": [
+                    {
+                        "id": "grapqxzmshrslirl",
+                        "isAlias": true,
+                        "name": "jorpplldgyoojdtd",
+                        "options": {
+                            "KeyName": "pyhwauegsmyynbnf"
+                        },
+                        "target": "gjxzhkxtywtxnquk",
+                        "type": "ugrmnbmgrurxhqta"
+                    }
+                ],
+                "location": {
+                    "availabilityZone": "ovwjewtobjtupxfk",
+                    "regionName": "glgquaolpejcclkk"
+                },
+                "name": "uxuvakqirbojfwqb",
+                "registeredDomainDelegationInfo": {
+                    "nameServersUpdateState": {
+                        "code": "ozowkuzfkljvrqtw",
+                        "message": "ribxllocnvsddwbl"
+                    },
+                    "r53HostedZoneDeletionState": {
+                        "code": "ctlyblogmpqespff",
+                        "message": "wteckgvaoabgxela"
+                    }
+                },
+                "resourceType": "dkwzzwploziwqljz",
+                "supportCode": "gxviifwaepfcsbsd",
+                "tags": [
+                    {
+                        "key": "mzwcankrtcnqjeoc",
+                        "value": "jobzoqxcbkgczhzx"
+                    }
+                ]
+            },
+            {
+                "arn": "myesioimvkqyiijm",
+                "createdAt": "kdvmddexxqjhoqrw",
+                "domainEntries": [
+                    {
+                        "id": "ccvyolmatgyydunt",
+                        "isAlias": true,
+                        "name": "ttezvjnjxvslsgip",
+                        "options": {
+                            "KeyName": "ybfalzsdwfsrvapy"
+                        },
+                        "target": "pvjodcvdatzzywvj",
+                        "type": "ygjbuyssrqxxlvwx"
+                    }
+                ],
+                "location": {
+                    "availabilityZone": "bfotbnrsyoupilvm",
+                    "regionName": "tfysfzkxnfsgrtxs"
+                },
+                "name": "iborvllmoauzndpj",
+                "registeredDomainDelegationInfo": {
+                    "nameServersUpdateState": {
+                        "code": "mkwjqovyuezucabo",
+                        "message": "kpzymptzmpkgvbji"
+                    },
+                    "r53HostedZoneDeletionState": {
+                        "code": "yupuwrkpdcuqrtod",
+                        "message": "rmixmqfjesgvzvmr"
+                    }
+                },
+                "resourceType": "mmwiirdxqkfhqjkp",
+                "supportCode": "ncljoehpldfwxzbm",
+                "tags": [
+                    {
+                        "key": "qajgkfifponyhphl",
+                        "value": "yfvfxtdcfygugdnp"
+                    }
+                ]
+            },
+            {
+                "arn": "fzmrkucaangcfcxf",
+                "createdAt": "uvhnlsxzkuqemsfv",
+                "domainEntries": [
+                    {
+                        "id": "qmcldqkketvoqdri",
+                        "isAlias": true,
+                        "name": "dieqrdtmbzliufzj",
+                        "options": {
+                            "KeyName": "tbizzjjdlalxatyk"
+                        },
+                        "target": "egkisirdlhwidzyh",
+                        "type": "tatzgysbkwpgtxxt"
+                    }
+                ],
+                "location": {
+                    "availabilityZone": "glbpdtcyhpbeizgl",
+                    "regionName": "isglfzztexvzlnlh"
+                },
+                "name": "ysgjesqufvcwgpzu",
+                "registeredDomainDelegationInfo": {
+                    "nameServersUpdateState": {
+                        "code": "nbzxhyqagjhjsxwq",
+                        "message": "mipurdteptkrojlj"
+                    },
+                    "r53HostedZoneDeletionState": {
+                        "code": "niccfgdnbpxlxzrt",
+                        "message": "zukhorhefinmzzru"
+                    }
+                },
+                "resourceType": "xpbipgbuktmxuyuf",
+                "supportCode": "pgfdkswpqxdplggx",
+                "tags": [
+                    {
+                        "key": "tfsnpnzxjfxmbmxq",
+                        "value": "sxfscbhgqfhiurgk"
+                    }
+                ]
+            },
+            {
+                "arn": "uplbjkfoclrbnvhh",
+                "createdAt": "jkrmykfdlxvcbkut",
+                "domainEntries": [
+                    {
+                        "id": "etrvncsopyglekhi",
+                        "isAlias": true,
+                        "name": "tnpyqyzdtlsgxaef",
+                        "options": {
+                            "KeyName": "giytixlbchwxgimy"
+                        },
+                        "target": "nsljsnouiydyajdi",
+                        "type": "gwqnftfeitbgiyqy"
+                    }
+                ],
+                "location": {
+                    "availabilityZone": "tqjmuzdpzogjeejc",
+                    "regionName": "pmhzwklebntugqxk"
+                },
+                "name": "pskdjzhcikjmlkdm",
+                "registeredDomainDelegationInfo": {
+                    "nameServersUpdateState": {
+                        "code": "eviisqlgitppdnlc",
+                        "message": "ivoiuigpygiqhnxh"
+                    },
+                    "r53HostedZoneDeletionState": {
+                        "code": "rfbikynfhairefgo",
+                        "message": "yyaorlncxuapulxa"
+                    }
+                },
+                "resourceType": "sstbhiuwywdxgbry",
+                "supportCode": "rceymotvvdzuecny",
+                "tags": [
+                    {
+                        "key": "acdzvvcuemcsilyu",
+                        "value": "utjmlfnemhsnrjht"
+                    }
+                ]
+            },
+            {
+                "arn": "xgtdweuugallshfg",
+                "createdAt": "uiqcdoluzbyybtny",
+                "domainEntries": [
+                    {
+                        "id": "bnskayqctepevspv",
+                        "isAlias": true,
+                        "name": "zylzuktbpqhsvxdw",
+                        "options": {
+                            "KeyName": "vhqxcamchosvqyqf"
+                        },
+                        "target": "rcyizwwduzumnfbg",
+                        "type": "cybtubydxytyvupv"
+                    }
+                ],
+                "location": {
+                    "availabilityZone": "tsnksqjskwhcfmak",
+                    "regionName": "fmspdmpxzrmpeest"
+                },
+                "name": "dgnmugwiqxnzqxcd",
+                "registeredDomainDelegationInfo": {
+                    "nameServersUpdateState": {
+                        "code": "zvpznwcjirtfqnbu",
+                        "message": "isnlbgktbysfcfdo"
+                    },
+                    "r53HostedZoneDeletionState": {
+                        "code": "wtyfmrmcbnebgdtc",
+                        "message": "grzeigyjvrvvvkye"
+                    }
+                },
+                "resourceType": "bsecduciodpfpaxf",
+                "supportCode": "fhgitxczwckqdfol",
+                "tags": [
+                    {
+                        "key": "gbnpduutfdpcxmkv",
+                        "value": "pfelbbxjeuwsscvf"
+                    }
+                ]
+            }
+        ],
+        "result_key": "domains"
+    },
+    "meta": {
+        "start": 1711116100.771745,
+        "end": 1711116107.007589,
+        "duration": 6.235854148864746,
+        "service": "lightsail",
+        "type": null
+    }
+}

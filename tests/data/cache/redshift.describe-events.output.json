@@ -1,0 +1,154 @@
+{
+    "input": {
+        "template": {
+            "SourceIdentifier": "",
+            "SourceType": "cluster",
+            "StartTime": "1970-01-01T00:00:00",
+            "EndTime": "1970-01-01T00:00:00",
+            "Duration": 0,
+            "MaxRecords": 0,
+            "Marker": ""
+        },
+        "required": [],
+        "md5": "08ae08a473eaddb6ccb6526bb92924b7",
+        "boto_command": "describe_events",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "SourceIdentifier": "SourceIdentifier",
+                "SourceType": "SourceType",
+                "Message": "Message",
+                "EventCategories": [
+                    "String"
+                ],
+                "Severity": "Severity",
+                "Date": "1970-01-01T00:00:00",
+                "EventId": "EventId"
+            }
+        ],
+        "required": [],
+        "md5": "3df38e3a80f23d886879dc63b504df6a",
+        "randomized": [
+            {
+                "Date": "iugtwmlhvuxystyh",
+                "EventCategories": [
+                    "efdtvmcxpnhnccig"
+                ],
+                "EventId": "nektgvczyaspmhvy",
+                "Message": "xqgugrkogfaoxhuf",
+                "Severity": "wwtiuuekvxarbzhl",
+                "SourceIdentifier": "hxoelyqbbqncsvbr",
+                "SourceType": "zltmwcidnwfmabva"
+            },
+            {
+                "Date": "gtngvumbwctsrlio",
+                "EventCategories": [
+                    "vplqznukiikmjkja"
+                ],
+                "EventId": "hlloqnocorgxoarp",
+                "Message": "iqshwtqsiqsivofy",
+                "Severity": "yonxzpzfgumeldts",
+                "SourceIdentifier": "honogbhadsnsxrfd",
+                "SourceType": "jyczyahrvddeesfv"
+            },
+            {
+                "Date": "asgrphfxomkaocnt",
+                "EventCategories": [
+                    "qvtouvoohzcgitnz"
+                ],
+                "EventId": "oymeqfyxcmjjtlbd",
+                "Message": "qesoivdakqqicnvy",
+                "Severity": "yabsuevqilbisdqx",
+                "SourceIdentifier": "ryxllrsdqwjjfqgg",
+                "SourceType": "wiluhhdsmywoxhic"
+            },
+            {
+                "Date": "frfopijnxhioqbvy",
+                "EventCategories": [
+                    "lnfwcaqvtvyeawrj"
+                ],
+                "EventId": "yddrpslbzftxfgev",
+                "Message": "kyqmhmdrsaimclpa",
+                "Severity": "gmypoqhxuyclbvwt",
+                "SourceIdentifier": "krmmqclxrcmcktxf",
+                "SourceType": "ptswfkrelzlmjwrj"
+            },
+            {
+                "Date": "jvyvizcnekgmxmya",
+                "EventCategories": [
+                    "pspztqixbwendybv"
+                ],
+                "EventId": "ntoibpbbkvglwezk",
+                "Message": "reixstuctaxjulqn",
+                "Severity": "iagrytnlznopemph",
+                "SourceIdentifier": "knshamuioyhhvjap",
+                "SourceType": "mbmtflhpwmejbkso"
+            },
+            {
+                "Date": "ofbkxlpytpdgeobn",
+                "EventCategories": [
+                    "nqgqqghiypgudjju"
+                ],
+                "EventId": "vphqycqxqssgslys",
+                "Message": "vnpqyakynzefbrfi",
+                "Severity": "zoaoxsisjieddpng",
+                "SourceIdentifier": "lcphvqfjcmfzxwww",
+                "SourceType": "zlgderigvbrmhwdm"
+            },
+            {
+                "Date": "epfrextbpdlkowiv",
+                "EventCategories": [
+                    "scoubrbihjewucan"
+                ],
+                "EventId": "uskojdcdazjgrsrc",
+                "Message": "onprpkuhxvwxqtrb",
+                "Severity": "plxacacfjzwletcy",
+                "SourceIdentifier": "onryvryadudkrwvh",
+                "SourceType": "taxxintuqnuazxsp"
+            },
+            {
+                "Date": "isvgkqjkmpbidqrr",
+                "EventCategories": [
+                    "nhffuofngybjoybn"
+                ],
+                "EventId": "jbomfuaqozvkaejw",
+                "Message": "jyufgecxqkdncrnq",
+                "Severity": "wgdtyayuqfswlvns",
+                "SourceIdentifier": "nqirrmdhoiardoig",
+                "SourceType": "urmusawdcxzjahrz"
+            },
+            {
+                "Date": "sgustzkadnyheins",
+                "EventCategories": [
+                    "brbrpulwciupedlq"
+                ],
+                "EventId": "lgmwggfwhtdeilbx",
+                "Message": "gkbxbotnkpnevfwo",
+                "Severity": "ihycigchhbpylsry",
+                "SourceIdentifier": "mlsmwivuyjatqszo",
+                "SourceType": "buyxzwsydgwsygrf"
+            },
+            {
+                "Date": "nwbqpwkspbbviqjq",
+                "EventCategories": [
+                    "kbgqmaytvjqsxqyd"
+                ],
+                "EventId": "atwfdyuphtybntwy",
+                "Message": "jrhwpwmynzdkdbia",
+                "Severity": "xlkpvcpnhwakcqua",
+                "SourceIdentifier": "jnxlrufoocgxcjfj",
+                "SourceType": "ebijnuvvxqhkpgsw"
+            }
+        ],
+        "result_key": "Events"
+    },
+    "meta": {
+        "start": 1711116424.863646,
+        "end": 1711116431.126432,
+        "duration": 6.262796878814697,
+        "service": "redshift",
+        "type": "events"
+    }
+}

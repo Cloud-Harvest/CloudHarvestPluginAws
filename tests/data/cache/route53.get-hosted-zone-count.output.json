@@ -1,0 +1,34 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "get_hosted_zone_count",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": 0,
+        "required": [],
+        "md5": "36b2a693a60e69d61486e0a8f32f4d43",
+        "randomized": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "result_key": "HostedZoneCount"
+    },
+    "meta": {
+        "start": 1711116473.812882,
+        "end": 1711116480.140458,
+        "duration": 6.327587127685547,
+        "service": "route53",
+        "type": null
+    }
+}

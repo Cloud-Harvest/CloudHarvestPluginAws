@@ -1,0 +1,39 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "9dece7f85fc1c3f944425b1f68a8e6e1",
+        "boto_command": "list_collections",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            "CollectionId"
+        ],
+        "required": [],
+        "md5": "16364d0631c0a829c736a29639f208f2",
+        "randomized": [
+            "zslbovehjizfcdmp",
+            "jznjwmjoncavqzwm",
+            "zbnxyfhzbcuvgrcv",
+            "nkwvqudaivgaizxc",
+            "vjbkhmeldordwgit",
+            "jjofkjbdzmoceqga",
+            "pawtqmwbdstaycfo",
+            "rogifxybmudwalxu",
+            "yxyuvdbkngcymfiz",
+            "xaevxhbsedwqiowj"
+        ],
+        "result_key": "CollectionIds"
+    },
+    "meta": {
+        "start": 1711116447.235412,
+        "end": 1711116454.378913,
+        "duration": 7.143512010574341,
+        "service": "rekognition",
+        "type": "collections"
+    }
+}

@@ -1,0 +1,263 @@
+{
+    "input": {
+        "template": {
+            "DeviceAggregatedStatusFilter": "ERROR",
+            "MaxResults": 0,
+            "NameFilter": "",
+            "NextToken": "",
+            "SortBy": "DEVICE_ID",
+            "SortOrder": "ASCENDING"
+        },
+        "required": [],
+        "md5": "66bf4fad0af2dfbcead01202cf26ecdd",
+        "boto_command": "list_devices",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "Brand": "Brand",
+                "CreatedTime": "1970-01-01T00:00:00",
+                "CurrentSoftware": "CurrentSoftware",
+                "Description": "Description",
+                "DeviceAggregatedStatus": "DeviceAggregatedStatus",
+                "DeviceId": "DeviceId",
+                "LastUpdatedTime": "1970-01-01T00:00:00",
+                "LatestDeviceJob": {
+                    "ImageVersion": "ImageVersion",
+                    "JobType": "JobType",
+                    "Status": "Status"
+                },
+                "LeaseExpirationTime": "1970-01-01T00:00:00",
+                "Name": "Name",
+                "ProvisioningStatus": "ProvisioningStatus",
+                "Tags": {
+                    "KeyName": ""
+                },
+                "Type": "Type"
+            }
+        ],
+        "required": [],
+        "md5": "d97a869f0b92e7e9561dc33200b2b672",
+        "randomized": [
+            {
+                "Brand": "rvnjrrugdlihhsfu",
+                "CreatedTime": "mofservixinyydnc",
+                "CurrentSoftware": "gzxhmrrenykotamd",
+                "Description": "eqsiuenrpnarztms",
+                "DeviceAggregatedStatus": "swfqfsilnaoxmala",
+                "DeviceId": "hiybjmydgjkamlvu",
+                "LastUpdatedTime": "mjrmdlvsqyirdjor",
+                "LatestDeviceJob": {
+                    "ImageVersion": "kqngdqkecfcdftou",
+                    "JobType": "yhlxsidgibpxmxjq",
+                    "Status": "rthkstmbjehidhma"
+                },
+                "LeaseExpirationTime": "yxckvfsvyofxlcww",
+                "Name": "oiiczxgeedcwcqhz",
+                "ProvisioningStatus": "opiznxcpivctxdrb",
+                "Tags": {
+                    "KeyName": "brfzxytggdqsskpi"
+                },
+                "Type": "cnreikxmzkxcsicy"
+            },
+            {
+                "Brand": "nsfzszzaktayzhly",
+                "CreatedTime": "aeqsoflfxvzdtmgq",
+                "CurrentSoftware": "lrnhicxbvbekqnbi",
+                "Description": "yqrbczgjeuomdfog",
+                "DeviceAggregatedStatus": "ganitcnacxwymzam",
+                "DeviceId": "oqqpbrmxvmrsfefa",
+                "LastUpdatedTime": "akkygqwpwsdyujmc",
+                "LatestDeviceJob": {
+                    "ImageVersion": "cmsvjrfuzsjrbwbf",
+                    "JobType": "xzqalyurdqvridfb",
+                    "Status": "giknthctjozsdkjb"
+                },
+                "LeaseExpirationTime": "dlcntxgszauyqdih",
+                "Name": "naclrildaoekgawi",
+                "ProvisioningStatus": "yepraiksnjagyeez",
+                "Tags": {
+                    "KeyName": "tnwtyvakaycmqibx"
+                },
+                "Type": "jbsosisqovoskkgc"
+            },
+            {
+                "Brand": "xrjcyfoaglrpsurz",
+                "CreatedTime": "tluoyopjaguonipo",
+                "CurrentSoftware": "brlqyozupiezhzne",
+                "Description": "kusekenopahgcdmv",
+                "DeviceAggregatedStatus": "rxxcgawdkewzflqh",
+                "DeviceId": "iqxkqicydzgijsin",
+                "LastUpdatedTime": "jxrdqjwqcpgstgqs",
+                "LatestDeviceJob": {
+                    "ImageVersion": "kbbdqaspfqrtjvql",
+                    "JobType": "navhjudgoisxxmon",
+                    "Status": "kkirfdqddpgwghta"
+                },
+                "LeaseExpirationTime": "mddwvsqupmquxiaq",
+                "Name": "tzsweafaxdrxdvlg",
+                "ProvisioningStatus": "zbdigdqhmxnkkgae",
+                "Tags": {
+                    "KeyName": "elklxuoraqztjqsc"
+                },
+                "Type": "lkndlxhzvfdrcvkn"
+            },
+            {
+                "Brand": "veehklgkucirkqoa",
+                "CreatedTime": "suqfphlueocphhqc",
+                "CurrentSoftware": "htntdelusuellirj",
+                "Description": "lzoshakxjikwrzht",
+                "DeviceAggregatedStatus": "kcnrwmkwwoquceso",
+                "DeviceId": "cuvtkdmkigvwxrkw",
+                "LastUpdatedTime": "rvhtkmnkyotafsrd",
+                "LatestDeviceJob": {
+                    "ImageVersion": "ljaeyghbyricuiwh",
+                    "JobType": "zaexmtyqhlwqvjjq",
+                    "Status": "leqwgbmrgjciqbak"
+                },
+                "LeaseExpirationTime": "iukgdjrkjhengsfv",
+                "Name": "jomnmsqwhazfectx",
+                "ProvisioningStatus": "lmakfdwhojqrfwrc",
+                "Tags": {
+                    "KeyName": "wgjkleeclubfxuhm"
+                },
+                "Type": "jheiuznovbmlsmjy"
+            },
+            {
+                "Brand": "vjtajounlphjagqw",
+                "CreatedTime": "glijyjpgqengfpti",
+                "CurrentSoftware": "yahacevjzwifzgnu",
+                "Description": "ddruvghzdfmjgieq",
+                "DeviceAggregatedStatus": "vgkryztzgpxcrolo",
+                "DeviceId": "rvkfixzubxomujji",
+                "LastUpdatedTime": "jqkwfzuatydmpamz",
+                "LatestDeviceJob": {
+                    "ImageVersion": "hjwaflrujamxiaaz",
+                    "JobType": "szfxkjhgevzyfnux",
+                    "Status": "zobhbvwyrxmtzfjh"
+                },
+                "LeaseExpirationTime": "wengggkmxbjpxtdb",
+                "Name": "gekehidipovizplr",
+                "ProvisioningStatus": "nmxfnlzinhjqzdqb",
+                "Tags": {
+                    "KeyName": "vxbokjsdnlqukphf"
+                },
+                "Type": "okgjgxwimlcblmfi"
+            },
+            {
+                "Brand": "qmwxphxolohmzrnb",
+                "CreatedTime": "iiiwqvrbnhzhjlhf",
+                "CurrentSoftware": "ybanpauppxplrrwo",
+                "Description": "tcsbyolhfrglwhvi",
+                "DeviceAggregatedStatus": "hhqxpymgjgyrtdfm",
+                "DeviceId": "arvzbwgusljojveu",
+                "LastUpdatedTime": "pgorbybyermthynr",
+                "LatestDeviceJob": {
+                    "ImageVersion": "idmjwwopdymvfmsf",
+                    "JobType": "zaxnazhrmtwzliyv",
+                    "Status": "dyvwlguetzuhgjnh"
+                },
+                "LeaseExpirationTime": "umukjptverqpralg",
+                "Name": "jvjqzcnsdnbrgtel",
+                "ProvisioningStatus": "xccnhbtjmlurbfxh",
+                "Tags": {
+                    "KeyName": "lkugzfdldligvrll"
+                },
+                "Type": "qdzyypqcattoetnv"
+            },
+            {
+                "Brand": "tcxujkdmxcvxpjca",
+                "CreatedTime": "xhqulaxyhabqzfia",
+                "CurrentSoftware": "koswdqmrvrexywtm",
+                "Description": "mhtgxlrkjzbirqtb",
+                "DeviceAggregatedStatus": "vgjnwguytszoirvg",
+                "DeviceId": "mwdmbsxzxhztpsnl",
+                "LastUpdatedTime": "eweuiynqqiooojao",
+                "LatestDeviceJob": {
+                    "ImageVersion": "qlcnutpjaehsylrl",
+                    "JobType": "nedwevyggllicije",
+                    "Status": "eefdklugyblmweiq"
+                },
+                "LeaseExpirationTime": "vnimcrgrtyngtgsh",
+                "Name": "wvhfsznkgzabhofh",
+                "ProvisioningStatus": "pjufibnploeaexzm",
+                "Tags": {
+                    "KeyName": "nnacftjpitcazkyr"
+                },
+                "Type": "ubkmmkiwxvfhhigf"
+            },
+            {
+                "Brand": "jaxagpproqiqmrzh",
+                "CreatedTime": "wmfornoeegkxljyx",
+                "CurrentSoftware": "ppfplrtusnqelmcj",
+                "Description": "bewpqorbsmmrnion",
+                "DeviceAggregatedStatus": "emqkwtkogujmlvyt",
+                "DeviceId": "oufdvoeplvplmwkb",
+                "LastUpdatedTime": "tetzfkkxsfcifalr",
+                "LatestDeviceJob": {
+                    "ImageVersion": "kfdsslsvmajupeui",
+                    "JobType": "ttgefobcnvlygwvb",
+                    "Status": "lkgbwuimdprijtpc"
+                },
+                "LeaseExpirationTime": "jbttizxnarvjgoej",
+                "Name": "knlwivcujndoddou",
+                "ProvisioningStatus": "prgmjmyueuymymqy",
+                "Tags": {
+                    "KeyName": "cuyhhnsrxaovksbk"
+                },
+                "Type": "upzcszxkhllkkltt"
+            },
+            {
+                "Brand": "lymtxizfsdhxtegj",
+                "CreatedTime": "xdrbspdixxwgdkai",
+                "CurrentSoftware": "msqabkzadkhmfzot",
+                "Description": "jvahkqgnzxfcezsq",
+                "DeviceAggregatedStatus": "moiwncraeyhwxjgf",
+                "DeviceId": "waxcnuxhkthfozhu",
+                "LastUpdatedTime": "acqupchipkaxjcvd",
+                "LatestDeviceJob": {
+                    "ImageVersion": "rgqflpydcltkqhcv",
+                    "JobType": "gnoveggcnxzlssyf",
+                    "Status": "zbihbrdrtupiopgz"
+                },
+                "LeaseExpirationTime": "ahlvhoiamwdnkbhl",
+                "Name": "pcmwefyznvshysqp",
+                "ProvisioningStatus": "ihryedsevvtfzzcy",
+                "Tags": {
+                    "KeyName": "zlqqdeohjbgcxjdb"
+                },
+                "Type": "vddwrmpfjzycubnb"
+            },
+            {
+                "Brand": "smdeirwdknwdtflo",
+                "CreatedTime": "tzpgyvkylvufyteb",
+                "CurrentSoftware": "sjghczyjwkabueoh",
+                "Description": "owraceagwbwjartk",
+                "DeviceAggregatedStatus": "togcblvrpxemrvyc",
+                "DeviceId": "vaagqnzzbtdkrneu",
+                "LastUpdatedTime": "xpfnnsmhutvfjkul",
+                "LatestDeviceJob": {
+                    "ImageVersion": "ohfeftprbupjhktj",
+                    "JobType": "snhvyhrtjkcumkdp",
+                    "Status": "vbclwevoptgngasd"
+                },
+                "LeaseExpirationTime": "xxxysjxvugnvaxcy",
+                "Name": "weigvwxeawmjrcio",
+                "ProvisioningStatus": "rfixumsdjmuksozo",
+                "Tags": {
+                    "KeyName": "xdaaifmiokhvtqfa"
+                },
+                "Type": "qnhzusbuzvgfxqkm"
+            }
+        ],
+        "result_key": "Devices"
+    },
+    "meta": {
+        "start": 1711116305.598885,
+        "end": 1711116312.322678,
+        "duration": 6.723804950714111,
+        "service": "panorama",
+        "type": "devices"
+    }
+}

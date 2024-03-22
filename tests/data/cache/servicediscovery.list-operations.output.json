@@ -1,0 +1,81 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0,
+            "Filters": [
+                {
+                    "Name": "NAMESPACE_ID",
+                    "Values": [
+                        ""
+                    ],
+                    "Condition": "EQ"
+                }
+            ]
+        },
+        "required": [],
+        "md5": "50a69e837920facfa6ddfb20cd60f914",
+        "boto_command": "list_operations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "Id": "Id",
+                "Status": "Status"
+            }
+        ],
+        "required": [],
+        "md5": "71d3db8dfe759af5cfe38e2b043790b4",
+        "randomized": [
+            {
+                "Id": "wjuyhmaroqemaneu",
+                "Status": "ycyizyhpzbogzlcu"
+            },
+            {
+                "Id": "epnqsgzmldewqrrk",
+                "Status": "llxyugszqlehagtx"
+            },
+            {
+                "Id": "bcbbjngguqflsgza",
+                "Status": "glifxubzkuzmstzr"
+            },
+            {
+                "Id": "ybjrahzpvtygjfbw",
+                "Status": "jjtebjbxwsikasuj"
+            },
+            {
+                "Id": "xpjcjrtdkcebygzi",
+                "Status": "msvljotgcnkzocum"
+            },
+            {
+                "Id": "mywhaxephgpffzzq",
+                "Status": "zhettbbznkwptlwu"
+            },
+            {
+                "Id": "pomrrouaryfypibp",
+                "Status": "bkmxbudpbzjwovkw"
+            },
+            {
+                "Id": "imybfmlhtvrjczwb",
+                "Status": "uumfdyldbvfqfyjp"
+            },
+            {
+                "Id": "izglleujkwffqyyw",
+                "Status": "xngxwyzxblvfxijf"
+            },
+            {
+                "Id": "fymtcuqycyioinlp",
+                "Status": "pqyujrlvhfynmred"
+            }
+        ],
+        "result_key": "Operations"
+    },
+    "meta": {
+        "start": 1711116613.678573,
+        "end": 1711116621.120946,
+        "duration": 7.442383050918579,
+        "service": "servicediscovery",
+        "type": "operations"
+    }
+}

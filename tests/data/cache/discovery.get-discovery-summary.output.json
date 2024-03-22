@@ -1,0 +1,34 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "get_discovery_summary",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": 0,
+        "required": [],
+        "md5": "a83dec4735df6c53ecd07dce37334ed1",
+        "randomized": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "result_key": "servers"
+    },
+    "meta": {
+        "start": 1711115570.822148,
+        "end": 1711115576.230112,
+        "duration": 5.407972812652588,
+        "service": "discovery",
+        "type": null
+    }
+}

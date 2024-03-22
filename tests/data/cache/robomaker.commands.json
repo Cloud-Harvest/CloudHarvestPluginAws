@@ -1,0 +1,20 @@
+[
+    "robomaker.describe-robot-application",
+    "robomaker.describe-simulation-application",
+    "robomaker.describe-simulation-job",
+    "robomaker.describe-simulation-job-batch",
+    "robomaker.describe-world",
+    "robomaker.describe-world-export-job",
+    "robomaker.describe-world-generation-job",
+    "robomaker.describe-world-template",
+    "robomaker.get-world-template-body",
+    "robomaker.list-robot-applications",
+    "robomaker.list-simulation-applications",
+    "robomaker.list-simulation-job-batches",
+    "robomaker.list-simulation-jobs",
+    "robomaker.list-tags-for-resource",
+    "robomaker.list-world-export-jobs",
+    "robomaker.list-world-generation-jobs",
+    "robomaker.list-world-templates",
+    "robomaker.list-worlds"
+]

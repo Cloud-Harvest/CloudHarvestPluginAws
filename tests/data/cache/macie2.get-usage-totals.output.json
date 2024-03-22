@@ -1,0 +1,36 @@
+{
+    "input": {
+        "template": {
+            "timeRange": ""
+        },
+        "required": [],
+        "md5": "1b1c86ffa2bddfe3e2978e177cfc6e49",
+        "boto_command": "get_usage_totals",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": "timeRange",
+        "required": [],
+        "md5": "6b3a5060d54533cf8cdfd22b1dd85933",
+        "randomized": [
+            "dqvwcqlvsfxxtuqq",
+            "uqdtpthfikzauiwj",
+            "ponxfydfycigdmej",
+            "vjgucmcsxcwfupcp",
+            "fkhlvishgtyobpug",
+            "ocjlgsjtmqgmihiz",
+            "lkvdxndsbknmppyt",
+            "avxsovwprddewwgx",
+            "wifedydzjtqkulvk",
+            "zrttbixzvakkksew"
+        ],
+        "result_key": "timeRange"
+    },
+    "meta": {
+        "start": 1711116151.838214,
+        "end": 1711116158.264601,
+        "duration": 6.426397085189819,
+        "service": "macie2",
+        "type": null
+    }
+}

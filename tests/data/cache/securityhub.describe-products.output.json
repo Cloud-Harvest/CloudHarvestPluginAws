@@ -1,0 +1,194 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0,
+            "ProductArn": ""
+        },
+        "required": [],
+        "md5": "e3e71d2d857dc8dee19162f04e92e244",
+        "boto_command": "describe_products",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "ProductArn": "ProductArn",
+                "ProductName": "ProductName",
+                "CompanyName": "CompanyName",
+                "Description": "Description",
+                "Categories": [
+                    "NonEmptyString"
+                ],
+                "IntegrationTypes": [
+                    "IntegrationType"
+                ],
+                "MarketplaceUrl": "MarketplaceUrl",
+                "ActivationUrl": "ActivationUrl",
+                "ProductSubscriptionResourcePolicy": "ProductSubscriptionResourcePolicy"
+            }
+        ],
+        "required": [],
+        "md5": "a00bc0a88d224e268351314712ee218a",
+        "randomized": [
+            {
+                "ActivationUrl": "pxulhhizcatsophn",
+                "Categories": [
+                    "qihhiqsqzdzkpgjr"
+                ],
+                "CompanyName": "jvzhybagyztoadmq",
+                "Description": "yphvostrrpugggrs",
+                "IntegrationTypes": [
+                    "cczyykvqdltyjelr"
+                ],
+                "MarketplaceUrl": "znyeehotfpwbobpb",
+                "ProductArn": "ufzaxyrglkdebnzl",
+                "ProductName": "nkpqcjvyyzuaehss",
+                "ProductSubscriptionResourcePolicy": "ueptvfluhwgqnzek"
+            },
+            {
+                "ActivationUrl": "rsehvarwujqbrlwx",
+                "Categories": [
+                    "npfgyhyeiaswsxft"
+                ],
+                "CompanyName": "kqrpkpzsnjmmlrvg",
+                "Description": "hjfdiqtwzkphoypu",
+                "IntegrationTypes": [
+                    "yfhpnjesjxldqoqe"
+                ],
+                "MarketplaceUrl": "lthhklcwvwzztyhn",
+                "ProductArn": "pyoaxgsjjobazirs",
+                "ProductName": "kklvaurjyywocirl",
+                "ProductSubscriptionResourcePolicy": "lqqaqxmfjsuxpkgv"
+            },
+            {
+                "ActivationUrl": "ztzlgjsrioqupuzm",
+                "Categories": [
+                    "bzlktzqpfixhwykc"
+                ],
+                "CompanyName": "vzxnwiyluipgpknp",
+                "Description": "crzpsrjyyqosprps",
+                "IntegrationTypes": [
+                    "ezgadlcwptngmfgm"
+                ],
+                "MarketplaceUrl": "ufigucnzpszuujqa",
+                "ProductArn": "mpxciiwlmlbbbafn",
+                "ProductName": "qedabkmudbfapwft",
+                "ProductSubscriptionResourcePolicy": "nuwyhlpvebtputmx"
+            },
+            {
+                "ActivationUrl": "xlqpjdhxaybkohcs",
+                "Categories": [
+                    "igbvnhslvvrtrbrs"
+                ],
+                "CompanyName": "wavgpookdngxbmfy",
+                "Description": "nboaxwgkeypcwzce",
+                "IntegrationTypes": [
+                    "tyunzratllvczewh"
+                ],
+                "MarketplaceUrl": "zwhrsfppfjehgktv",
+                "ProductArn": "sorlnbebvgkmmibc",
+                "ProductName": "bxnixawykjhwdmkv",
+                "ProductSubscriptionResourcePolicy": "adxivmnktenlteok"
+            },
+            {
+                "ActivationUrl": "becaleoknwcbfxgb",
+                "Categories": [
+                    "cwwbalsvniadvfhe"
+                ],
+                "CompanyName": "chtoxuxcjjhrarxv",
+                "Description": "ysfgqngjmknsdjfo",
+                "IntegrationTypes": [
+                    "pegdpyweddgujuul"
+                ],
+                "MarketplaceUrl": "ukfnpcevpnbmbstj",
+                "ProductArn": "eegmjeojojfvqhlh",
+                "ProductName": "oivdlqrjteeglkpi",
+                "ProductSubscriptionResourcePolicy": "zvgbuffletfayvsj"
+            },
+            {
+                "ActivationUrl": "djxhndxzfxbwxuan",
+                "Categories": [
+                    "qgzzoayfhekqtgyl"
+                ],
+                "CompanyName": "ztczjliekdjqpcce",
+                "Description": "dgszcqjmpppztyhk",
+                "IntegrationTypes": [
+                    "rdvjyhoehztlintt"
+                ],
+                "MarketplaceUrl": "fhiijckebtnegmad",
+                "ProductArn": "bzdjdtpzspkojmih",
+                "ProductName": "gfcahixzrpitfdgq",
+                "ProductSubscriptionResourcePolicy": "zizvwxyzxgppzkbc"
+            },
+            {
+                "ActivationUrl": "sjwtglloofsdyiys",
+                "Categories": [
+                    "xaajkordmkzqmtdr"
+                ],
+                "CompanyName": "sonikygdvpzsexxd",
+                "Description": "pcklsoosbfkmzxuy",
+                "IntegrationTypes": [
+                    "osxmzvyhsdohjdpu"
+                ],
+                "MarketplaceUrl": "uitiujbwlwbnlpth",
+                "ProductArn": "mitqsipbvelusfbq",
+                "ProductName": "forgmpbmsweqfvos",
+                "ProductSubscriptionResourcePolicy": "sqweiptphtqhxikg"
+            },
+            {
+                "ActivationUrl": "nyjbwtfxedphible",
+                "Categories": [
+                    "drtxzkyvxztaucxv"
+                ],
+                "CompanyName": "snnqlbksjflbpffs",
+                "Description": "asnvgyinvndikgpz",
+                "IntegrationTypes": [
+                    "mrbfhenurwsglbsj"
+                ],
+                "MarketplaceUrl": "oziuackegmnaegfn",
+                "ProductArn": "gmsbmdvyuxuqbkxr",
+                "ProductName": "culvdjpzvltqusgu",
+                "ProductSubscriptionResourcePolicy": "qkjqxtdxncvnrneb"
+            },
+            {
+                "ActivationUrl": "nnlckeywdgclfbff",
+                "Categories": [
+                    "lbzqfkqwhtaudbnq"
+                ],
+                "CompanyName": "vbbkljfimcwnxemu",
+                "Description": "rfgukdcqpxjaozkx",
+                "IntegrationTypes": [
+                    "kmqpoafquevfbvjx"
+                ],
+                "MarketplaceUrl": "wquiftjrmfyjudul",
+                "ProductArn": "igkhsumglxnenuiu",
+                "ProductName": "njxeasfqlsdlfbza",
+                "ProductSubscriptionResourcePolicy": "vrmgfwhmfeppfjvb"
+            },
+            {
+                "ActivationUrl": "kxpdncrsurcuncps",
+                "Categories": [
+                    "utzbsejeocvijyya"
+                ],
+                "CompanyName": "owxzlgthcilhljen",
+                "Description": "biofgekabkaqjqul",
+                "IntegrationTypes": [
+                    "yhwpmnrqkayppldk"
+                ],
+                "MarketplaceUrl": "tmpxlqtfikwghhfx",
+                "ProductArn": "gnssrcvwhlowwdvm",
+                "ProductName": "ezxpbslimpubgefv",
+                "ProductSubscriptionResourcePolicy": "emyjdmfrhatglove"
+            }
+        ],
+        "result_key": "Products"
+    },
+    "meta": {
+        "start": 1711116585.499924,
+        "end": 1711116592.15932,
+        "duration": 6.659404039382935,
+        "service": "securityhub",
+        "type": "products"
+    }
+}

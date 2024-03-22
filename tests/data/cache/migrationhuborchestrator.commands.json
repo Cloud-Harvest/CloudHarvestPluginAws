@@ -1,0 +1,16 @@
+[
+    "migrationhuborchestrator.get-template",
+    "migrationhuborchestrator.get-template-step",
+    "migrationhuborchestrator.get-template-step-group",
+    "migrationhuborchestrator.get-workflow",
+    "migrationhuborchestrator.get-workflow-step",
+    "migrationhuborchestrator.get-workflow-step-group",
+    "migrationhuborchestrator.list-plugins",
+    "migrationhuborchestrator.list-tags-for-resource",
+    "migrationhuborchestrator.list-template-step-groups",
+    "migrationhuborchestrator.list-template-steps",
+    "migrationhuborchestrator.list-templates",
+    "migrationhuborchestrator.list-workflow-step-groups",
+    "migrationhuborchestrator.list-workflow-steps",
+    "migrationhuborchestrator.list-workflows"
+]

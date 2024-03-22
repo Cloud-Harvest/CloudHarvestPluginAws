@@ -1,0 +1,205 @@
+{
+    "input": {
+        "template": {
+            "LocalGatewayRouteTableVpcAssociationIds": [
+                ""
+            ],
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxResults": 0,
+            "NextToken": "",
+            "DryRun": true
+        },
+        "required": [],
+        "md5": "ef291060b04b74eb463d9ff85cf8c093",
+        "boto_command": "describe_local_gateway_route_table_vpc_associations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "LocalGatewayRouteTableVpcAssociationId": "LocalGatewayRouteTableVpcAssociationId",
+                "LocalGatewayRouteTableId": "LocalGatewayRouteTableId",
+                "LocalGatewayRouteTableArn": "LocalGatewayRouteTableArn",
+                "LocalGatewayId": "LocalGatewayId",
+                "VpcId": "VpcId",
+                "OwnerId": "OwnerId",
+                "State": "State",
+                "Tags": [
+                    {
+                        "Key": "Key",
+                        "Value": "Value"
+                    }
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "c93c4566097cffd645254dea362676c6",
+        "randomized": [
+            {
+                "LocalGatewayId": "wimnmfandwgvsnzb",
+                "LocalGatewayRouteTableArn": "gdvbsdxjzsxmbtof",
+                "LocalGatewayRouteTableId": "dznflltsijyialna",
+                "LocalGatewayRouteTableVpcAssociationId": "bjyndhngbvtqvgku",
+                "OwnerId": "egshzlqiwdaggnix",
+                "State": "afrtjrcmgqjwhork",
+                "Tags": [
+                    {
+                        "Key": "nxaquhninmdguksy",
+                        "Value": "wvjgukwbjmqlmnpi"
+                    }
+                ],
+                "VpcId": "nknxnvuhdnesnptu"
+            },
+            {
+                "LocalGatewayId": "ilbgsxcacoyfukvm",
+                "LocalGatewayRouteTableArn": "lzlxtfclxlqdvacz",
+                "LocalGatewayRouteTableId": "xapzorvergxuayqp",
+                "LocalGatewayRouteTableVpcAssociationId": "ykhsvjczhchsixbz",
+                "OwnerId": "ntrgrhjyzplxpipw",
+                "State": "yewmgzntsjrfbzei",
+                "Tags": [
+                    {
+                        "Key": "pyicblvytmdjtigt",
+                        "Value": "aexhgovuqxrblfuf"
+                    }
+                ],
+                "VpcId": "hhmsejnxwllbvkqh"
+            },
+            {
+                "LocalGatewayId": "cvliutliavilozun",
+                "LocalGatewayRouteTableArn": "qykacwxdjfgcgeqv",
+                "LocalGatewayRouteTableId": "ijutzxqhyluwukke",
+                "LocalGatewayRouteTableVpcAssociationId": "dhkregtillisjrjb",
+                "OwnerId": "dmqjegnnoreqsheh",
+                "State": "cajrjwfvewoixdps",
+                "Tags": [
+                    {
+                        "Key": "zfuwyphxaovmkaqi",
+                        "Value": "rdkuydawfdxxywwp"
+                    }
+                ],
+                "VpcId": "giosixyftmxzzqdi"
+            },
+            {
+                "LocalGatewayId": "eowajfyikxoeeeco",
+                "LocalGatewayRouteTableArn": "pdxabyiksdspauae",
+                "LocalGatewayRouteTableId": "fijqxuuceppendpi",
+                "LocalGatewayRouteTableVpcAssociationId": "jwsnexdhboxmvpmn",
+                "OwnerId": "uypknbjnaizpfoqu",
+                "State": "ifhempdgwcsemkgc",
+                "Tags": [
+                    {
+                        "Key": "gqxfklhbiubmvfjn",
+                        "Value": "ayxbjcffjyfdasxa"
+                    }
+                ],
+                "VpcId": "bpuytspvmswnxoif"
+            },
+            {
+                "LocalGatewayId": "biwzgdxltopjbarw",
+                "LocalGatewayRouteTableArn": "nvtpzpdemitdfjux",
+                "LocalGatewayRouteTableId": "ajcvoqgfssvxiiek",
+                "LocalGatewayRouteTableVpcAssociationId": "txhdazshogznasrw",
+                "OwnerId": "vwkefvqrfznldjjb",
+                "State": "brhkuycdqgqvbnfp",
+                "Tags": [
+                    {
+                        "Key": "ogxmmbstdvqpfadf",
+                        "Value": "hqhvidhstxykbgdn"
+                    }
+                ],
+                "VpcId": "ssrhpjyxhnncamnj"
+            },
+            {
+                "LocalGatewayId": "ujcikkyhqxiljkcp",
+                "LocalGatewayRouteTableArn": "yixkmigrdvcosaxb",
+                "LocalGatewayRouteTableId": "vvrqvcwqhelxxqdh",
+                "LocalGatewayRouteTableVpcAssociationId": "kadzedesuqjzzisv",
+                "OwnerId": "pbkhoohkviepovlm",
+                "State": "uneufiygtqclldes",
+                "Tags": [
+                    {
+                        "Key": "librszauuhpcjept",
+                        "Value": "gvacnoonzhtfnzpw"
+                    }
+                ],
+                "VpcId": "iegwlytrkwehsyiw"
+            },
+            {
+                "LocalGatewayId": "vxtenrgaqehsexrl",
+                "LocalGatewayRouteTableArn": "gpruyizadatiwlcp",
+                "LocalGatewayRouteTableId": "rghzroxwsxsjbxfb",
+                "LocalGatewayRouteTableVpcAssociationId": "xtxabgwjzjfpnwph",
+                "OwnerId": "mhtakdsmrykmiorm",
+                "State": "mekuqqdnbbcynmdj",
+                "Tags": [
+                    {
+                        "Key": "yzxsfhlzptdanogt",
+                        "Value": "aruplzjdnqnnpctu"
+                    }
+                ],
+                "VpcId": "jmxcjeecqbngitav"
+            },
+            {
+                "LocalGatewayId": "mbbakqowfnlfjzag",
+                "LocalGatewayRouteTableArn": "jasgongrmzextfnt",
+                "LocalGatewayRouteTableId": "ndjbginlvbbtdbvt",
+                "LocalGatewayRouteTableVpcAssociationId": "qwgkhnrbxvvesvbz",
+                "OwnerId": "onlwfekkhjqopqdt",
+                "State": "byebgsrvfkgczceg",
+                "Tags": [
+                    {
+                        "Key": "fsezmpzxhbpxemng",
+                        "Value": "gwywefqkdmxnsnvn"
+                    }
+                ],
+                "VpcId": "fzxhvmyqhrqnymgh"
+            },
+            {
+                "LocalGatewayId": "spjagsuggaxrupjr",
+                "LocalGatewayRouteTableArn": "fujoigtqstxjkgdc",
+                "LocalGatewayRouteTableId": "cpfsgfvcdualwwzl",
+                "LocalGatewayRouteTableVpcAssociationId": "lcoxgzotkuwyouxc",
+                "OwnerId": "ezyrabzhuddgytqh",
+                "State": "fmvifrumscvhcrbe",
+                "Tags": [
+                    {
+                        "Key": "hxtlryitprghmjrz",
+                        "Value": "hkhbzvdmgikjzgxl"
+                    }
+                ],
+                "VpcId": "bwbufsfuptobkany"
+            },
+            {
+                "LocalGatewayId": "qcbmjplylmhcfilh",
+                "LocalGatewayRouteTableArn": "ipfsqrjqsomnmowy",
+                "LocalGatewayRouteTableId": "jrxshkpvhotksxiz",
+                "LocalGatewayRouteTableVpcAssociationId": "uerhfhqrntbkcfcm",
+                "OwnerId": "ulrqqvgtnyylyvyd",
+                "State": "ourutztjdsgebfnw",
+                "Tags": [
+                    {
+                        "Key": "balbaqkzwrapmmsm",
+                        "Value": "defmrknsoyjvcuir"
+                    }
+                ],
+                "VpcId": "yvxtqwinmllkozvp"
+            }
+        ],
+        "result_key": "LocalGatewayRouteTableVpcAssociations"
+    },
+    "meta": {
+        "start": 1711115633.938487,
+        "end": 1711115641.2614,
+        "duration": 7.322922945022583,
+        "service": "ec2",
+        "type": "local_gateway_route_table_vpc_associations"
+    }
+}

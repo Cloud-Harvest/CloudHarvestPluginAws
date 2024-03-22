@@ -1,0 +1,341 @@
+{
+    "input": {
+        "template": {
+            "endTime": "1970-01-01T00:00:00",
+            "maxResults": 0,
+            "namespaceArn": "",
+            "namespaceName": "",
+            "nextToken": "",
+            "ownerAccount": "",
+            "startTime": "1970-01-01T00:00:00"
+        },
+        "required": [],
+        "md5": "351bed11ffe6ef4dd7c1988c9cc3a5e9",
+        "boto_command": "list_snapshots",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "accountsWithProvisionedRestoreAccess": [
+                    "String"
+                ],
+                "accountsWithRestoreAccess": [
+                    "String"
+                ],
+                "actualIncrementalBackupSizeInMegaBytes": 0.0,
+                "adminPasswordSecretArn": "adminPasswordSecretArn",
+                "adminPasswordSecretKmsKeyId": "adminPasswordSecretKmsKeyId",
+                "adminUsername": "adminUsername",
+                "backupProgressInMegaBytes": 0.0,
+                "currentBackupRateInMegaBytesPerSecond": 0.0,
+                "elapsedTimeInSeconds": 0,
+                "estimatedSecondsToCompletion": 0,
+                "kmsKeyId": "kmsKeyId",
+                "namespaceArn": "namespaceArn",
+                "namespaceName": "namespaceName",
+                "ownerAccount": "ownerAccount",
+                "snapshotArn": "snapshotArn",
+                "snapshotCreateTime": "1970-01-01T00:00:00",
+                "snapshotName": "snapshotName",
+                "snapshotRemainingDays": 0,
+                "snapshotRetentionPeriod": 0,
+                "snapshotRetentionStartTime": "1970-01-01T00:00:00",
+                "status": "status",
+                "totalBackupSizeInMegaBytes": 0.0
+            }
+        ],
+        "required": [],
+        "md5": "54f922053e197715ae3e38c6816d3397",
+        "randomized": [
+            {
+                "accountsWithProvisionedRestoreAccess": [
+                    "zxxcsdgwwkejwhug"
+                ],
+                "accountsWithRestoreAccess": [
+                    "wghdybepqoskwtaa"
+                ],
+                "actualIncrementalBackupSizeInMegaBytes": 0.0,
+                "adminPasswordSecretArn": "giifyxgvzdwxeenq",
+                "adminPasswordSecretKmsKeyId": "eqmeyighgognlodd",
+                "adminUsername": "duloytvuotoordgz",
+                "backupProgressInMegaBytes": 0.0,
+                "currentBackupRateInMegaBytesPerSecond": 0.0,
+                "elapsedTimeInSeconds": 0,
+                "estimatedSecondsToCompletion": 0,
+                "kmsKeyId": "zwmibvzxdqfaobyg",
+                "namespaceArn": "smflurmtndwaproo",
+                "namespaceName": "xyxocmxsrrflsvom",
+                "ownerAccount": "vupfxrnlkbgsfrgz",
+                "snapshotArn": "oklzqnedwukyqubc",
+                "snapshotCreateTime": "jxriiujhumidxlng",
+                "snapshotName": "fvrkwcmieyaxeocm",
+                "snapshotRemainingDays": 0,
+                "snapshotRetentionPeriod": 0,
+                "snapshotRetentionStartTime": "xavipnhrbntqpnfs",
+                "status": "xidrhwsioniodury",
+                "totalBackupSizeInMegaBytes": 0.0
+            },
+            {
+                "accountsWithProvisionedRestoreAccess": [
+                    "gbvlusegwsaeghbc"
+                ],
+                "accountsWithRestoreAccess": [
+                    "mtbbwrsjlmuevuuw"
+                ],
+                "actualIncrementalBackupSizeInMegaBytes": 0.0,
+                "adminPasswordSecretArn": "aphludbekvflnzmm",
+                "adminPasswordSecretKmsKeyId": "lpwwlvhblcrwtbfx",
+                "adminUsername": "fnuwesojmnafkkhn",
+                "backupProgressInMegaBytes": 0.0,
+                "currentBackupRateInMegaBytesPerSecond": 0.0,
+                "elapsedTimeInSeconds": 0,
+                "estimatedSecondsToCompletion": 0,
+                "kmsKeyId": "mceuiyxazrtupkha",
+                "namespaceArn": "xjeecakmlrwzlxsv",
+                "namespaceName": "qknzuodsjyqwtnmv",
+                "ownerAccount": "hewolhvgyurhtmwo",
+                "snapshotArn": "kgkreemwwikvfiue",
+                "snapshotCreateTime": "vmyktlsjzxnqicgw",
+                "snapshotName": "cymfyeyjvtsfjgpw",
+                "snapshotRemainingDays": 0,
+                "snapshotRetentionPeriod": 0,
+                "snapshotRetentionStartTime": "qaathmwsxkwlqifr",
+                "status": "lybfmchuwdsldbdf",
+                "totalBackupSizeInMegaBytes": 0.0
+            },
+            {
+                "accountsWithProvisionedRestoreAccess": [
+                    "tdmkkmdjbqgijrhk"
+                ],
+                "accountsWithRestoreAccess": [
+                    "jeynaqmvvewsoato"
+                ],
+                "actualIncrementalBackupSizeInMegaBytes": 0.0,
+                "adminPasswordSecretArn": "gtleqgdlmmpofdnc",
+                "adminPasswordSecretKmsKeyId": "mlacrvulzgxldogq",
+                "adminUsername": "samuzmjaoytnintc",
+                "backupProgressInMegaBytes": 0.0,
+                "currentBackupRateInMegaBytesPerSecond": 0.0,
+                "elapsedTimeInSeconds": 0,
+                "estimatedSecondsToCompletion": 0,
+                "kmsKeyId": "esowfdphjnzwkksa",
+                "namespaceArn": "ykmkscwiwjbrjdqg",
+                "namespaceName": "wxntbayyncakndct",
+                "ownerAccount": "evqouyhmtvnczkln",
+                "snapshotArn": "qkijfzkwfbsojqvc",
+                "snapshotCreateTime": "jcxpnmpjdoioxetb",
+                "snapshotName": "adhjcyvawmvuyvlj",
+                "snapshotRemainingDays": 0,
+                "snapshotRetentionPeriod": 0,
+                "snapshotRetentionStartTime": "wqtfirrcsedkcaoa",
+                "status": "zlfopkvqgvwuecui",
+                "totalBackupSizeInMegaBytes": 0.0
+            },
+            {
+                "accountsWithProvisionedRestoreAccess": [
+                    "fvohsjjeamyttxum"
+                ],
+                "accountsWithRestoreAccess": [
+                    "cbpuvvdmmczbxkyv"
+                ],
+                "actualIncrementalBackupSizeInMegaBytes": 0.0,
+                "adminPasswordSecretArn": "uzedurfwewvtulkw",
+                "adminPasswordSecretKmsKeyId": "jpwohnxmlvyoddlg",
+                "adminUsername": "qmejcrmsmvwadgsq",
+                "backupProgressInMegaBytes": 0.0,
+                "currentBackupRateInMegaBytesPerSecond": 0.0,
+                "elapsedTimeInSeconds": 0,
+                "estimatedSecondsToCompletion": 0,
+                "kmsKeyId": "qomyygsvvogaisbl",
+                "namespaceArn": "zjcbjnqcynehlkqd",
+                "namespaceName": "egnonibjbjpgggok",
+                "ownerAccount": "nsrjogzppzfokjac",
+                "snapshotArn": "sawyzlnfakstgkbo",
+                "snapshotCreateTime": "pvtknabwtgrlkjrf",
+                "snapshotName": "nvzhemodknxyckje",
+                "snapshotRemainingDays": 0,
+                "snapshotRetentionPeriod": 0,
+                "snapshotRetentionStartTime": "jgrcqhwknajojetc",
+                "status": "pkxrcjibgqhzodbo",
+                "totalBackupSizeInMegaBytes": 0.0
+            },
+            {
+                "accountsWithProvisionedRestoreAccess": [
+                    "jakqsymnaywnxjzb"
+                ],
+                "accountsWithRestoreAccess": [
+                    "wvcurredlelxbmss"
+                ],
+                "actualIncrementalBackupSizeInMegaBytes": 0.0,
+                "adminPasswordSecretArn": "lxkqoirmyenguukj",
+                "adminPasswordSecretKmsKeyId": "lfauxczqtcpqeffn",
+                "adminUsername": "nvelyluwohtbnjyc",
+                "backupProgressInMegaBytes": 0.0,
+                "currentBackupRateInMegaBytesPerSecond": 0.0,
+                "elapsedTimeInSeconds": 0,
+                "estimatedSecondsToCompletion": 0,
+                "kmsKeyId": "vxvxoggqzrscrwai",
+                "namespaceArn": "vncfymwjeutabeer",
+                "namespaceName": "tzvifnzcsjftooqi",
+                "ownerAccount": "htvqqqatmdjlsxus",
+                "snapshotArn": "pcusnjlillppaztb",
+                "snapshotCreateTime": "pxqulnozrjwfqcvd",
+                "snapshotName": "dmutqthidqbeslyx",
+                "snapshotRemainingDays": 0,
+                "snapshotRetentionPeriod": 0,
+                "snapshotRetentionStartTime": "tkmboawfmvujxvvx",
+                "status": "mpehxorlsycxwige",
+                "totalBackupSizeInMegaBytes": 0.0
+            },
+            {
+                "accountsWithProvisionedRestoreAccess": [
+                    "osbthunpogiqaccu"
+                ],
+                "accountsWithRestoreAccess": [
+                    "djekqqvoinvixhrd"
+                ],
+                "actualIncrementalBackupSizeInMegaBytes": 0.0,
+                "adminPasswordSecretArn": "iewdqzkepfrnuoxn",
+                "adminPasswordSecretKmsKeyId": "smnumuztrsbqsjnp",
+                "adminUsername": "vwcqodziwphccjax",
+                "backupProgressInMegaBytes": 0.0,
+                "currentBackupRateInMegaBytesPerSecond": 0.0,
+                "elapsedTimeInSeconds": 0,
+                "estimatedSecondsToCompletion": 0,
+                "kmsKeyId": "grcwdzhzoijxracp",
+                "namespaceArn": "yxztahgkoqktodyb",
+                "namespaceName": "llrpohfgknoeokpo",
+                "ownerAccount": "fhyyzldjuydgexse",
+                "snapshotArn": "rmiahpsflpsxvzum",
+                "snapshotCreateTime": "hyvtdyckuepbjabg",
+                "snapshotName": "gjylgbnhfsdabnut",
+                "snapshotRemainingDays": 0,
+                "snapshotRetentionPeriod": 0,
+                "snapshotRetentionStartTime": "jnewzwwcjvdyirnt",
+                "status": "dkweogzsujzmafaf",
+                "totalBackupSizeInMegaBytes": 0.0
+            },
+            {
+                "accountsWithProvisionedRestoreAccess": [
+                    "jfkhuoydrlasxayi"
+                ],
+                "accountsWithRestoreAccess": [
+                    "ziohxsiphobythss"
+                ],
+                "actualIncrementalBackupSizeInMegaBytes": 0.0,
+                "adminPasswordSecretArn": "fqvqniummyrpcagc",
+                "adminPasswordSecretKmsKeyId": "qtelmmkxmpugxmcj",
+                "adminUsername": "hgchvxwxwsijpezt",
+                "backupProgressInMegaBytes": 0.0,
+                "currentBackupRateInMegaBytesPerSecond": 0.0,
+                "elapsedTimeInSeconds": 0,
+                "estimatedSecondsToCompletion": 0,
+                "kmsKeyId": "apkhxmrjjlsggvgj",
+                "namespaceArn": "mwoamsdwwmowwlru",
+                "namespaceName": "dmbjanuazjmpicug",
+                "ownerAccount": "tdyafmtnuhtevdzm",
+                "snapshotArn": "cdmeobllkkhfdtjx",
+                "snapshotCreateTime": "ozrqezsbvphfgsnk",
+                "snapshotName": "qgmfjeypsxhkdhno",
+                "snapshotRemainingDays": 0,
+                "snapshotRetentionPeriod": 0,
+                "snapshotRetentionStartTime": "tgyanxzxmjsfmepf",
+                "status": "qbdihxkojltyypij",
+                "totalBackupSizeInMegaBytes": 0.0
+            },
+            {
+                "accountsWithProvisionedRestoreAccess": [
+                    "nxaawirdwytsutqi"
+                ],
+                "accountsWithRestoreAccess": [
+                    "jdtjotnmrkfkuyic"
+                ],
+                "actualIncrementalBackupSizeInMegaBytes": 0.0,
+                "adminPasswordSecretArn": "rvusjfscburelvce",
+                "adminPasswordSecretKmsKeyId": "btihpjjgdywfjwpq",
+                "adminUsername": "bfnzvkoxpispdmwm",
+                "backupProgressInMegaBytes": 0.0,
+                "currentBackupRateInMegaBytesPerSecond": 0.0,
+                "elapsedTimeInSeconds": 0,
+                "estimatedSecondsToCompletion": 0,
+                "kmsKeyId": "kwyketockqvdkltl",
+                "namespaceArn": "mrvmdfwncgxgeaio",
+                "namespaceName": "bwniwdjbdalxekwf",
+                "ownerAccount": "wegzgcjzcfpgkzer",
+                "snapshotArn": "obldfswzhihgzkgn",
+                "snapshotCreateTime": "dlsurnyxhtdhnkxi",
+                "snapshotName": "hbkvwuvkngprmuei",
+                "snapshotRemainingDays": 0,
+                "snapshotRetentionPeriod": 0,
+                "snapshotRetentionStartTime": "fpszuqadbuieillt",
+                "status": "yjtripyezcdqdqeg",
+                "totalBackupSizeInMegaBytes": 0.0
+            },
+            {
+                "accountsWithProvisionedRestoreAccess": [
+                    "ncxcuhehgojjbyba"
+                ],
+                "accountsWithRestoreAccess": [
+                    "lralyxrbewekuovk"
+                ],
+                "actualIncrementalBackupSizeInMegaBytes": 0.0,
+                "adminPasswordSecretArn": "iumiqefavmbxqctz",
+                "adminPasswordSecretKmsKeyId": "tqakjdiurmdlnbhd",
+                "adminUsername": "zbsgjjqihchibdyc",
+                "backupProgressInMegaBytes": 0.0,
+                "currentBackupRateInMegaBytesPerSecond": 0.0,
+                "elapsedTimeInSeconds": 0,
+                "estimatedSecondsToCompletion": 0,
+                "kmsKeyId": "humjazqrxvkkepgy",
+                "namespaceArn": "slohvgpdswzbcsxr",
+                "namespaceName": "spkwwxpvugnfcrzl",
+                "ownerAccount": "unqkzjcmfrhvbwvs",
+                "snapshotArn": "xonunuvzjpjtcoxh",
+                "snapshotCreateTime": "ugutqjsooteggjmf",
+                "snapshotName": "dfhwfheyoxpzlndy",
+                "snapshotRemainingDays": 0,
+                "snapshotRetentionPeriod": 0,
+                "snapshotRetentionStartTime": "vboaorbgdwnawpbk",
+                "status": "maagclsxlbjhvtdk",
+                "totalBackupSizeInMegaBytes": 0.0
+            },
+            {
+                "accountsWithProvisionedRestoreAccess": [
+                    "tlgnxgdgocdpkpiu"
+                ],
+                "accountsWithRestoreAccess": [
+                    "crfpzoswmomtsxlr"
+                ],
+                "actualIncrementalBackupSizeInMegaBytes": 0.0,
+                "adminPasswordSecretArn": "rulkgjtefdfkifgu",
+                "adminPasswordSecretKmsKeyId": "siewunjpxbjnmpdz",
+                "adminUsername": "agspfhybvgrvtuez",
+                "backupProgressInMegaBytes": 0.0,
+                "currentBackupRateInMegaBytesPerSecond": 0.0,
+                "elapsedTimeInSeconds": 0,
+                "estimatedSecondsToCompletion": 0,
+                "kmsKeyId": "wdcitvlyjcpaidyy",
+                "namespaceArn": "lsqrrbacvrukmtxv",
+                "namespaceName": "ibzikmanhbafuijo",
+                "ownerAccount": "cudytowuusegsrxa",
+                "snapshotArn": "qnhmtfpfijbbafqp",
+                "snapshotCreateTime": "hmzyyxzmlydzmffc",
+                "snapshotName": "pqltqqztilryutbu",
+                "snapshotRemainingDays": 0,
+                "snapshotRetentionPeriod": 0,
+                "snapshotRetentionStartTime": "ixrkvppicrfzenhu",
+                "status": "rnyxkmlohbxzbkny",
+                "totalBackupSizeInMegaBytes": 0.0
+            }
+        ],
+        "result_key": "snapshots"
+    },
+    "meta": {
+        "start": 1711116440.740692,
+        "end": 1711116448.533084,
+        "duration": 7.792396068572998,
+        "service": "redshift-serverless",
+        "type": "snapshots"
+    }
+}

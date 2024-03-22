@@ -1,0 +1,535 @@
+{
+    "input": {
+        "template": {
+            "replicationJobId": "",
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "required": [],
+        "md5": "bdd036d594088993ce776727ba352a3f",
+        "boto_command": "get_replication_jobs",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "replicationJobId": "replicationJobId",
+                "serverId": "serverId",
+                "serverType": "serverType",
+                "vmServer": {
+                    "vmServerAddress": {
+                        "vmManagerId": "vmManagerId",
+                        "vmId": "vmId"
+                    },
+                    "vmName": "vmName",
+                    "vmManagerName": "vmManagerName",
+                    "vmManagerType": "vmManagerType",
+                    "vmPath": "vmPath"
+                },
+                "seedReplicationTime": "1970-01-01T00:00:00",
+                "frequency": 0,
+                "runOnce": true,
+                "nextReplicationRunStartTime": "1970-01-01T00:00:00",
+                "licenseType": "licenseType",
+                "roleName": "roleName",
+                "latestAmiId": "latestAmiId",
+                "state": "state",
+                "statusMessage": "statusMessage",
+                "description": "description",
+                "numberOfRecentAmisToKeep": 0,
+                "encrypted": true,
+                "kmsKeyId": "kmsKeyId",
+                "replicationRunList": [
+                    {
+                        "replicationRunId": "replicationRunId",
+                        "state": "state",
+                        "type": "type",
+                        "stageDetails": {
+                            "stage": "stage",
+                            "stageProgress": "stageProgress"
+                        },
+                        "statusMessage": "statusMessage",
+                        "amiId": "amiId",
+                        "scheduledStartTime": "1970-01-01T00:00:00",
+                        "completedTime": "1970-01-01T00:00:00",
+                        "description": "description",
+                        "encrypted": true,
+                        "kmsKeyId": "kmsKeyId"
+                    }
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "9d9ab0789d7649e3485317f95cddd2c4",
+        "randomized": [
+            {
+                "description": "qjphuxkpkbrmxvzr",
+                "encrypted": true,
+                "frequency": 0,
+                "kmsKeyId": "xzepicdibvtzvhkq",
+                "latestAmiId": "sfcaaiagnsvnqycy",
+                "licenseType": "djxehzbvczqkytos",
+                "nextReplicationRunStartTime": "sligmwpluumbqzlg",
+                "numberOfRecentAmisToKeep": 0,
+                "replicationJobId": "nrrftdvealszdaob",
+                "replicationRunList": [
+                    {
+                        "amiId": "iipnenyaqnsvtdcn",
+                        "completedTime": "ffxqkcmzqqvzcpsg",
+                        "description": "xgpgnnalpubdaghx",
+                        "encrypted": true,
+                        "kmsKeyId": "fqvoehitfbdcfgdo",
+                        "replicationRunId": "updjdpfhwrpodykx",
+                        "scheduledStartTime": "vypdlpxjaawbxokw",
+                        "stageDetails": {
+                            "stage": "ifabdjztkoaukuof",
+                            "stageProgress": "waawcngvhzarllrh"
+                        },
+                        "state": "mjevkbtblmxefkso",
+                        "statusMessage": "jkvkadgsxzofgczm",
+                        "type": "clgeofgribvgkkfh"
+                    }
+                ],
+                "roleName": "nyxnbbsbmodacalp",
+                "runOnce": true,
+                "seedReplicationTime": "dzkrycyjhplxhaim",
+                "serverId": "nkeppypdxotgjqxk",
+                "serverType": "uizvfjavbzofayql",
+                "state": "xbrkpegdipylhsuh",
+                "statusMessage": "lwtbungmdkracpbe",
+                "vmServer": {
+                    "vmManagerName": "butnlhtszofqmvvv",
+                    "vmManagerType": "utlfnvbonwsmdniq",
+                    "vmName": "twuwjcejupafmwoc",
+                    "vmPath": "wigauvnzolwnzruk",
+                    "vmServerAddress": {
+                        "vmId": "uvntupnkvetzjrck",
+                        "vmManagerId": "rroydebujyfdlhyx"
+                    }
+                }
+            },
+            {
+                "description": "ngrwivnsrdzacadh",
+                "encrypted": true,
+                "frequency": 0,
+                "kmsKeyId": "acgnmqahbthbpgfe",
+                "latestAmiId": "aoxzmaflokoewyfn",
+                "licenseType": "dqaadmkpyqmvenlw",
+                "nextReplicationRunStartTime": "nbwgfyqhnoxyaebo",
+                "numberOfRecentAmisToKeep": 0,
+                "replicationJobId": "mdfyanacejhtmuvk",
+                "replicationRunList": [
+                    {
+                        "amiId": "lrdfqmweyybneqjc",
+                        "completedTime": "sbiyjmwcxzdrnhhr",
+                        "description": "zpgjetfgmjkzhjte",
+                        "encrypted": true,
+                        "kmsKeyId": "ctwvohpqrtovjltq",
+                        "replicationRunId": "kbsddiimsoiqouxp",
+                        "scheduledStartTime": "oqmmyiisghntqifd",
+                        "stageDetails": {
+                            "stage": "jdkphopiovpewxcq",
+                            "stageProgress": "vpsmdgntdsblnhnw"
+                        },
+                        "state": "pxmazenottxqotvb",
+                        "statusMessage": "wvrwrtwjllmegvku",
+                        "type": "zxmgzegwrpcowquk"
+                    }
+                ],
+                "roleName": "jcyjcmifzvnxryww",
+                "runOnce": true,
+                "seedReplicationTime": "ujrgkpbucngqvrhe",
+                "serverId": "krgjafsfvwsfrfrr",
+                "serverType": "koiyiliqqfkuckwv",
+                "state": "wgafknoxylkwjrsw",
+                "statusMessage": "mwbcrtkktgikcwyb",
+                "vmServer": {
+                    "vmManagerName": "tzylodxtvclrstbz",
+                    "vmManagerType": "bwzzrgankenpytay",
+                    "vmName": "qmhpwefbedofpckn",
+                    "vmPath": "tettxyoawrdczzch",
+                    "vmServerAddress": {
+                        "vmId": "nudstepanwludjkr",
+                        "vmManagerId": "qoeysgrwleyyxpni"
+                    }
+                }
+            },
+            {
+                "description": "bpmnergukzaobhhh",
+                "encrypted": true,
+                "frequency": 0,
+                "kmsKeyId": "zyxhvjdslmjfafza",
+                "latestAmiId": "vhytxhzerijurcad",
+                "licenseType": "jzhbswhaipyivolg",
+                "nextReplicationRunStartTime": "obekubggprznkuub",
+                "numberOfRecentAmisToKeep": 0,
+                "replicationJobId": "qyetljqyunulgyic",
+                "replicationRunList": [
+                    {
+                        "amiId": "dejbuxhyhqobredf",
+                        "completedTime": "ebivigqlfcwibhqs",
+                        "description": "cyenkgfagwfzxxtq",
+                        "encrypted": true,
+                        "kmsKeyId": "silrfmichzpxawyx",
+                        "replicationRunId": "xuugihwmiikjswts",
+                        "scheduledStartTime": "wmdalcojyumwieda",
+                        "stageDetails": {
+                            "stage": "gvhrnecrdlhofvri",
+                            "stageProgress": "xquhrcmhxlwbgoig"
+                        },
+                        "state": "tmgdoyfhkmeornif",
+                        "statusMessage": "nhqwpugtyyyfrtys",
+                        "type": "wywxpkiactchlvyj"
+                    }
+                ],
+                "roleName": "lyvmgyafniwednep",
+                "runOnce": true,
+                "seedReplicationTime": "gqyojnbumkncluud",
+                "serverId": "libnhmsmzluwdkaj",
+                "serverType": "fcnqmhauadjbgzhx",
+                "state": "rkddjicikftosnxp",
+                "statusMessage": "ifigmrnbowzaenmo",
+                "vmServer": {
+                    "vmManagerName": "ivowxxzbdcslcdxg",
+                    "vmManagerType": "fbylepihhvymfwhv",
+                    "vmName": "qxapvxoikyqenndh",
+                    "vmPath": "mfafzgmbcqwjggdo",
+                    "vmServerAddress": {
+                        "vmId": "nsfxzqietlqxksgc",
+                        "vmManagerId": "knfdjfshxqfadcju"
+                    }
+                }
+            },
+            {
+                "description": "pdufzaoalxhipwup",
+                "encrypted": true,
+                "frequency": 0,
+                "kmsKeyId": "bkagoycqhtnqlkgv",
+                "latestAmiId": "bokljrqtaxfketad",
+                "licenseType": "yhutvxuuclzlkffw",
+                "nextReplicationRunStartTime": "dxnpiihqcklmhcai",
+                "numberOfRecentAmisToKeep": 0,
+                "replicationJobId": "skuvbmjjwwrhgujr",
+                "replicationRunList": [
+                    {
+                        "amiId": "hghldnsofeljhscw",
+                        "completedTime": "louyegztymfpvlim",
+                        "description": "glvdpczpqbmwlaja",
+                        "encrypted": true,
+                        "kmsKeyId": "spoweleaejihgchm",
+                        "replicationRunId": "tatypppvmfbilnyy",
+                        "scheduledStartTime": "urzgbwwabpoyrxmo",
+                        "stageDetails": {
+                            "stage": "wyvwfntnvtqurzfl",
+                            "stageProgress": "kbvgifhyvrszgjvj"
+                        },
+                        "state": "aiedmrbtbptvqtlu",
+                        "statusMessage": "meywmrabvaefhemr",
+                        "type": "qevembriniohwsae"
+                    }
+                ],
+                "roleName": "rarghnnezmufkcqn",
+                "runOnce": true,
+                "seedReplicationTime": "nnxhaiyvnuceopyx",
+                "serverId": "ttghaoxmtlyzrscn",
+                "serverType": "ybzevigksqdzkjvf",
+                "state": "cuwgcqyttumgvbjo",
+                "statusMessage": "ugimjosazjhlbkma",
+                "vmServer": {
+                    "vmManagerName": "hywxdptubgzsfdgo",
+                    "vmManagerType": "wujhmkdempfatjec",
+                    "vmName": "vjdacjzpznigxqno",
+                    "vmPath": "xqwxjotlxhfgurmd",
+                    "vmServerAddress": {
+                        "vmId": "dvugsgbjoivbpvbq",
+                        "vmManagerId": "qijljcxjduhbnfbg"
+                    }
+                }
+            },
+            {
+                "description": "szdtmxnvltvbqcnf",
+                "encrypted": true,
+                "frequency": 0,
+                "kmsKeyId": "yhyktskvyvpgczcd",
+                "latestAmiId": "lfzuatkvvdxptkln",
+                "licenseType": "jbomatuspedgedcx",
+                "nextReplicationRunStartTime": "ytvztktwttdfpwms",
+                "numberOfRecentAmisToKeep": 0,
+                "replicationJobId": "uebcjproetkqmdpz",
+                "replicationRunList": [
+                    {
+                        "amiId": "oyitorvdoriwgmwh",
+                        "completedTime": "qcnnlehlnokobapb",
+                        "description": "cusyepdmxhnaznho",
+                        "encrypted": true,
+                        "kmsKeyId": "llreervlptddkrxg",
+                        "replicationRunId": "zohiwvlokkiucfdn",
+                        "scheduledStartTime": "ghepfmhakmwlbknt",
+                        "stageDetails": {
+                            "stage": "ribwsptfmvxsqrku",
+                            "stageProgress": "mdhkvhtkujwtzuds"
+                        },
+                        "state": "tfihgrvrnixxtrfa",
+                        "statusMessage": "rjxubrmixpwkdwwc",
+                        "type": "bhbyzpcglxnzehru"
+                    }
+                ],
+                "roleName": "sgezrqbxeyehqaru",
+                "runOnce": true,
+                "seedReplicationTime": "zcoaiwppeazlmjoc",
+                "serverId": "kwlmmyijggrnjikj",
+                "serverType": "adfeingzrlkwinwg",
+                "state": "nzroulclxbwndeni",
+                "statusMessage": "jqevfzkvhjdjogsj",
+                "vmServer": {
+                    "vmManagerName": "aesqhnfiaziuhddo",
+                    "vmManagerType": "pzimpguvdgncwqnf",
+                    "vmName": "xnaylaqbrlnutlym",
+                    "vmPath": "chtnutwjwurnnuho",
+                    "vmServerAddress": {
+                        "vmId": "klfxvwbabuselqou",
+                        "vmManagerId": "lbyhwfilwhxhekmf"
+                    }
+                }
+            },
+            {
+                "description": "cfbqiednainodifq",
+                "encrypted": true,
+                "frequency": 0,
+                "kmsKeyId": "vlfvhelxobokmmpu",
+                "latestAmiId": "dmivebjoyhsjhkra",
+                "licenseType": "unwslfzbxwlvqmzy",
+                "nextReplicationRunStartTime": "istxvcxlzklgyfgb",
+                "numberOfRecentAmisToKeep": 0,
+                "replicationJobId": "izjlxbvvptobqhgi",
+                "replicationRunList": [
+                    {
+                        "amiId": "ixtnhzmkvqmccmil",
+                        "completedTime": "cjlqdsoxanqzrkua",
+                        "description": "fxuqpovujwdxyhjf",
+                        "encrypted": true,
+                        "kmsKeyId": "kqozyugwtmkxulef",
+                        "replicationRunId": "nvlijqebapbhwbus",
+                        "scheduledStartTime": "kgyvriesqceemqlu",
+                        "stageDetails": {
+                            "stage": "mompxtmbwvfxhlxy",
+                            "stageProgress": "lbjfedrzojefgevw"
+                        },
+                        "state": "xoxenjifbpcshkif",
+                        "statusMessage": "leavzroxaowmozmq",
+                        "type": "eqglxabacyvzxwnn"
+                    }
+                ],
+                "roleName": "tbdhexapbjfauoqq",
+                "runOnce": true,
+                "seedReplicationTime": "xkpigkkfanwsznvu",
+                "serverId": "hjlymvumcjmupoih",
+                "serverType": "hmtcfavdybidahkd",
+                "state": "zfsjplosnwxsbenn",
+                "statusMessage": "wqldzmfelhqnbxkt",
+                "vmServer": {
+                    "vmManagerName": "otfjhvleefmpsibf",
+                    "vmManagerType": "gravmcbknsqachun",
+                    "vmName": "orjyognkdtoxkmxz",
+                    "vmPath": "avqrmmgugvlkpdsg",
+                    "vmServerAddress": {
+                        "vmId": "ejymsnsdtnrbtkhq",
+                        "vmManagerId": "apvtatngbfuznzgj"
+                    }
+                }
+            },
+            {
+                "description": "ueummlxzmitclfss",
+                "encrypted": true,
+                "frequency": 0,
+                "kmsKeyId": "gmqaiqrapxnhxgkh",
+                "latestAmiId": "vvbzlgneqnxmkxik",
+                "licenseType": "jzbzamztgfnpfyci",
+                "nextReplicationRunStartTime": "qxkljqbcqfqfxmrd",
+                "numberOfRecentAmisToKeep": 0,
+                "replicationJobId": "lwpzyrpiuctpjgep",
+                "replicationRunList": [
+                    {
+                        "amiId": "yfogmbhyimahbnwj",
+                        "completedTime": "wjxqkrawdpwqujaa",
+                        "description": "uvquxlzhngtslxbf",
+                        "encrypted": true,
+                        "kmsKeyId": "ylsnndboqgpqebvo",
+                        "replicationRunId": "vivmtfhjirtijaph",
+                        "scheduledStartTime": "iyjhutgqetcnkgjl",
+                        "stageDetails": {
+                            "stage": "uqrwuvakyjmzcobj",
+                            "stageProgress": "cxskwlswjmhqgpgl"
+                        },
+                        "state": "uoeisnsztndxeruo",
+                        "statusMessage": "agrvgnylviorbmgn",
+                        "type": "ejcllwavstrtgkbb"
+                    }
+                ],
+                "roleName": "pzmrezhlwgrticdi",
+                "runOnce": true,
+                "seedReplicationTime": "lhdniguttxnngddk",
+                "serverId": "ozzpjrndcricylfd",
+                "serverType": "cxtcbezxujieoqpe",
+                "state": "jofbyiymfrylrfxa",
+                "statusMessage": "gmkazddyhqtdpckh",
+                "vmServer": {
+                    "vmManagerName": "ukfqscygugpdpufd",
+                    "vmManagerType": "nvafjgcnxkmczjtw",
+                    "vmName": "hapyfptxnctqvdrc",
+                    "vmPath": "tzcwldruawsndwlf",
+                    "vmServerAddress": {
+                        "vmId": "nquubcrettpvxmmd",
+                        "vmManagerId": "xptaqqjaynhlcjwd"
+                    }
+                }
+            },
+            {
+                "description": "swqugrshhrrdnjug",
+                "encrypted": true,
+                "frequency": 0,
+                "kmsKeyId": "kkrvdnaywobjhkwt",
+                "latestAmiId": "rwqnkruxqxansqhq",
+                "licenseType": "nliwjduvuwkmcwkt",
+                "nextReplicationRunStartTime": "evdkvbbaenntrsho",
+                "numberOfRecentAmisToKeep": 0,
+                "replicationJobId": "exthuxhgmjfntvbt",
+                "replicationRunList": [
+                    {
+                        "amiId": "tkbrrmskrhposdfd",
+                        "completedTime": "pfciyqbjnbquszsu",
+                        "description": "kiqwkjxdciuzldbo",
+                        "encrypted": true,
+                        "kmsKeyId": "srjdwvknldnfrgld",
+                        "replicationRunId": "jdwkznignniqlmct",
+                        "scheduledStartTime": "kagwcpxymamdzbph",
+                        "stageDetails": {
+                            "stage": "bbidvlloxbbiwgrt",
+                            "stageProgress": "ssszfhdwayheiiyw"
+                        },
+                        "state": "uskmtlhqddsmqmjc",
+                        "statusMessage": "cantudsuahdokkvw",
+                        "type": "hqxikmzgyssswvfd"
+                    }
+                ],
+                "roleName": "yerfhejdjpbvhbjb",
+                "runOnce": true,
+                "seedReplicationTime": "ymthelrremdlyzek",
+                "serverId": "jfhbdnvavcjkcxwd",
+                "serverType": "rjdmfsjhxugamscc",
+                "state": "wvrmmizkgkquaczk",
+                "statusMessage": "apelbdpvwhitfbar",
+                "vmServer": {
+                    "vmManagerName": "fmrkvejuutwtjdhb",
+                    "vmManagerType": "zpsqduqgnjqkwkfr",
+                    "vmName": "koxaoqnvwseyeddf",
+                    "vmPath": "hkxhllitecsjjclw",
+                    "vmServerAddress": {
+                        "vmId": "ibpmjayvnpmwmjin",
+                        "vmManagerId": "cpegaphiuicjwipy"
+                    }
+                }
+            },
+            {
+                "description": "bykexuxwznniwrux",
+                "encrypted": true,
+                "frequency": 0,
+                "kmsKeyId": "gwyotcztlmexatto",
+                "latestAmiId": "cgcysmrehjowtbwt",
+                "licenseType": "ksiyzuzgskgfkaxg",
+                "nextReplicationRunStartTime": "rlhziirlinqwsnfj",
+                "numberOfRecentAmisToKeep": 0,
+                "replicationJobId": "buiwticddlvygjwx",
+                "replicationRunList": [
+                    {
+                        "amiId": "gewxjrmjvzsakpzl",
+                        "completedTime": "lqjnzzyrwvdifxng",
+                        "description": "exkejwvcxhwzewmn",
+                        "encrypted": true,
+                        "kmsKeyId": "exknigbaaynbipfc",
+                        "replicationRunId": "rbhslmdeeadkfyeu",
+                        "scheduledStartTime": "vxgvgmeoggllfsce",
+                        "stageDetails": {
+                            "stage": "pffuaadvmoqgegrd",
+                            "stageProgress": "fjcbcsuwaxxzudiw"
+                        },
+                        "state": "hcbrwfmowlfpaiqg",
+                        "statusMessage": "oawsudosgdfitlrf",
+                        "type": "hiscjjpjmcgrwyip"
+                    }
+                ],
+                "roleName": "jbybmwgkqtrbqrrl",
+                "runOnce": true,
+                "seedReplicationTime": "veomcfogrsamlbys",
+                "serverId": "lqamtzqbfaxobbqz",
+                "serverType": "bahosxsreqrhttui",
+                "state": "wvuvqpwrdkmqgkch",
+                "statusMessage": "rpyfcfwgxwytxkyd",
+                "vmServer": {
+                    "vmManagerName": "tfcpbxuwxrbhvjde",
+                    "vmManagerType": "lgeynvfxyhnuedge",
+                    "vmName": "cnhqavyhtlfumfbr",
+                    "vmPath": "ohqmqyctrwwmkpzu",
+                    "vmServerAddress": {
+                        "vmId": "lbjpljzokkcmphvc",
+                        "vmManagerId": "gynosjmvamjqvgur"
+                    }
+                }
+            },
+            {
+                "description": "fslofqhvvhvifnac",
+                "encrypted": true,
+                "frequency": 0,
+                "kmsKeyId": "vtwitfsdtktzcbon",
+                "latestAmiId": "gkzkscbuooupeywc",
+                "licenseType": "suzfbjqvbolxotvp",
+                "nextReplicationRunStartTime": "renyinqjpiklgrje",
+                "numberOfRecentAmisToKeep": 0,
+                "replicationJobId": "nhstnnlmafuzosqe",
+                "replicationRunList": [
+                    {
+                        "amiId": "txjlvssmepzudewn",
+                        "completedTime": "bbjuyecjvvnwxnya",
+                        "description": "zhoetbrriacrkuuy",
+                        "encrypted": true,
+                        "kmsKeyId": "ehqquoxxapioocak",
+                        "replicationRunId": "nmdvredtdmgifgcf",
+                        "scheduledStartTime": "qtpziivfbfsntevp",
+                        "stageDetails": {
+                            "stage": "aecrbqffpzxrdecz",
+                            "stageProgress": "oauirauzzkhmyaaz"
+                        },
+                        "state": "sfipqmfpsqfukqag",
+                        "statusMessage": "vfqxlsuahayzucod",
+                        "type": "aytfjzqdtomtgvow"
+                    }
+                ],
+                "roleName": "wfqjmkvoqeuquwzy",
+                "runOnce": true,
+                "seedReplicationTime": "lgleuppnlemwjfns",
+                "serverId": "lsopcaarwhjnxpae",
+                "serverType": "gzosimzhpsmvhcym",
+                "state": "ipldbqnsuzprvqeq",
+                "statusMessage": "hoyzextxcdjxqqsa",
+                "vmServer": {
+                    "vmManagerName": "qynrvukalyyawtgx",
+                    "vmManagerType": "ojvqhgueluxzsjkp",
+                    "vmName": "pvthesxpmzftcwgd",
+                    "vmPath": "gzpvgklwogxmwggt",
+                    "vmServerAddress": {
+                        "vmId": "nxwynamgobiuqaul",
+                        "vmManagerId": "xcbkvwhdqlgfnuab"
+                    }
+                }
+            }
+        ],
+        "result_key": "replicationJobList"
+    },
+    "meta": {
+        "start": 1711116640.853265,
+        "end": 1711116648.252977,
+        "duration": 7.399723052978516,
+        "service": "sms",
+        "type": null
+    }
+}

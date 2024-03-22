@@ -1,0 +1,322 @@
+{
+    "input": {
+        "template": {
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxRecords": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "96a5e8fa4d05ccf15ad822736c536170",
+        "boto_command": "describe_fleet_advisor_databases",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "DatabaseId": "DatabaseId",
+                "DatabaseName": "DatabaseName",
+                "IpAddress": "IpAddress",
+                "NumberOfSchemas": 0,
+                "Server": {
+                    "ServerId": "ServerId",
+                    "IpAddress": "IpAddress",
+                    "ServerName": "ServerName"
+                },
+                "SoftwareDetails": {
+                    "Engine": "Engine",
+                    "EngineVersion": "EngineVersion",
+                    "EngineEdition": "EngineEdition",
+                    "ServicePack": "ServicePack",
+                    "SupportLevel": "SupportLevel",
+                    "OsArchitecture": 0,
+                    "Tooltip": "Tooltip"
+                },
+                "Collectors": [
+                    {
+                        "CollectorReferencedId": "CollectorReferencedId",
+                        "CollectorName": "CollectorName"
+                    }
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "4e921d7dfe6b751b7c8b74566cd36b22",
+        "randomized": [
+            {
+                "Collectors": [
+                    {
+                        "CollectorName": "kmqbpuxptyixufoi",
+                        "CollectorReferencedId": "phwmpaemnlvwcqad"
+                    }
+                ],
+                "DatabaseId": "nqryxuhljlxhwvbh",
+                "DatabaseName": "xaqrywskwgxvnmvo",
+                "IpAddress": "teyqlcboyepvbdht",
+                "NumberOfSchemas": 0,
+                "Server": {
+                    "IpAddress": "qhkopswjwjadsvsq",
+                    "ServerId": "ndodeexbcjvxzkpi",
+                    "ServerName": "fywgurteopsmmvsg"
+                },
+                "SoftwareDetails": {
+                    "Engine": "uydojduiaqcvxokv",
+                    "EngineEdition": "nrvhddkqdwwnjlls",
+                    "EngineVersion": "bdpbybmqmultwmax",
+                    "OsArchitecture": 0,
+                    "ServicePack": "tyinjjxbluvnqrtl",
+                    "SupportLevel": "lbnenldtljvasotz",
+                    "Tooltip": "whfhsmzkueptqgwg"
+                }
+            },
+            {
+                "Collectors": [
+                    {
+                        "CollectorName": "arseynekavbqrgih",
+                        "CollectorReferencedId": "nzogihymsausrela"
+                    }
+                ],
+                "DatabaseId": "qxeelgnrapddiotz",
+                "DatabaseName": "rsilxctxcmbplrin",
+                "IpAddress": "vvjmlghrufinzwwt",
+                "NumberOfSchemas": 0,
+                "Server": {
+                    "IpAddress": "gtxqqwsscviilouh",
+                    "ServerId": "deyfakmhdmdovnyq",
+                    "ServerName": "fxlxaakblxfjyagz"
+                },
+                "SoftwareDetails": {
+                    "Engine": "ryykjuqsmbijylcw",
+                    "EngineEdition": "ixeleqmkdbgmdwug",
+                    "EngineVersion": "kayiqvlrqhftbqxp",
+                    "OsArchitecture": 0,
+                    "ServicePack": "hzpuimiltgbzwglh",
+                    "SupportLevel": "oofakramiqpdwihi",
+                    "Tooltip": "auntgrfohwrpmguy"
+                }
+            },
+            {
+                "Collectors": [
+                    {
+                        "CollectorName": "fknkxbaxsbysazlx",
+                        "CollectorReferencedId": "qmrmqsuqeyhhdhpz"
+                    }
+                ],
+                "DatabaseId": "zrlcelcqucquhwsx",
+                "DatabaseName": "ymrnwuyygrdgalkn",
+                "IpAddress": "kodtahacsonmqwir",
+                "NumberOfSchemas": 0,
+                "Server": {
+                    "IpAddress": "twdebtoytbsnqsoc",
+                    "ServerId": "rkwmkawconoxjpmi",
+                    "ServerName": "ghnwcpszbnsvvphw"
+                },
+                "SoftwareDetails": {
+                    "Engine": "krjrtruzdxezasdb",
+                    "EngineEdition": "pukwqkotimjxsxhw",
+                    "EngineVersion": "yozrotpnswouynog",
+                    "OsArchitecture": 0,
+                    "ServicePack": "jotvijjmdopptkza",
+                    "SupportLevel": "tjvhhtnvmnlmctdh",
+                    "Tooltip": "euebagfanppdgtry"
+                }
+            },
+            {
+                "Collectors": [
+                    {
+                        "CollectorName": "vyhhranvlamkzeyk",
+                        "CollectorReferencedId": "kyiqcvhiahbosost"
+                    }
+                ],
+                "DatabaseId": "ohwsecemxqycgfay",
+                "DatabaseName": "qzfroujfmsxqhies",
+                "IpAddress": "zetszmsujwvigatq",
+                "NumberOfSchemas": 0,
+                "Server": {
+                    "IpAddress": "nffaajkjuvsonxwo",
+                    "ServerId": "kyxxwbjqnxzqxbin",
+                    "ServerName": "yyiqmsifarpgjivl"
+                },
+                "SoftwareDetails": {
+                    "Engine": "kvykfaxpnqasyqtd",
+                    "EngineEdition": "wvdwkbfajraxuuuy",
+                    "EngineVersion": "kryikpmizddkbjjc",
+                    "OsArchitecture": 0,
+                    "ServicePack": "ywtvvotfaujpjrbk",
+                    "SupportLevel": "lpflvtezjjpywnwj",
+                    "Tooltip": "jyrmgimlblwdmyyz"
+                }
+            },
+            {
+                "Collectors": [
+                    {
+                        "CollectorName": "mngsqpapjwibltsq",
+                        "CollectorReferencedId": "hwbsifxrhuheymkd"
+                    }
+                ],
+                "DatabaseId": "ffppudbwjwdhlerl",
+                "DatabaseName": "tlrahxipeebqgxpm",
+                "IpAddress": "lzcwulgxxukaxjmz",
+                "NumberOfSchemas": 0,
+                "Server": {
+                    "IpAddress": "mxdjjdwlbdzujbar",
+                    "ServerId": "rrcfjtfopxesrlae",
+                    "ServerName": "asrnpztslehajtip"
+                },
+                "SoftwareDetails": {
+                    "Engine": "vqgdequzxlqfbxeh",
+                    "EngineEdition": "glutkfklddrvglbn",
+                    "EngineVersion": "fckuayoziuthkchs",
+                    "OsArchitecture": 0,
+                    "ServicePack": "qxydjvibwwnvdmkg",
+                    "SupportLevel": "rkgctogtiwefkate",
+                    "Tooltip": "qojbiekozgdqqrto"
+                }
+            },
+            {
+                "Collectors": [
+                    {
+                        "CollectorName": "lrefutifjgezubit",
+                        "CollectorReferencedId": "echljqheigdcpoyx"
+                    }
+                ],
+                "DatabaseId": "hviwcfyrwwhbvrpy",
+                "DatabaseName": "nzwlygcxsmyahwzb",
+                "IpAddress": "mkvpqfaxmvwpcdsc",
+                "NumberOfSchemas": 0,
+                "Server": {
+                    "IpAddress": "abvldunpyrnufgrf",
+                    "ServerId": "cjqjksaxqcwrviaf",
+                    "ServerName": "fvhhoxeoekjskqxc"
+                },
+                "SoftwareDetails": {
+                    "Engine": "gsubmaifnyvbcfks",
+                    "EngineEdition": "jnbbrrlihrsawtsy",
+                    "EngineVersion": "pyebdtcxyeghlxza",
+                    "OsArchitecture": 0,
+                    "ServicePack": "bzngjdwgumstvacc",
+                    "SupportLevel": "xgemsbdzfjpddyer",
+                    "Tooltip": "rteijclskulwuivm"
+                }
+            },
+            {
+                "Collectors": [
+                    {
+                        "CollectorName": "gazobxdwzcrtfnzd",
+                        "CollectorReferencedId": "rundktvwdxjwivwp"
+                    }
+                ],
+                "DatabaseId": "mhljvhanobblsqjh",
+                "DatabaseName": "qqfijgbjyrkzzakj",
+                "IpAddress": "gvszygcbrnpyjhfo",
+                "NumberOfSchemas": 0,
+                "Server": {
+                    "IpAddress": "njbrrteudrhpbdks",
+                    "ServerId": "rdfefkfbmukyrxvx",
+                    "ServerName": "xzrkgxedsuhwsmzc"
+                },
+                "SoftwareDetails": {
+                    "Engine": "xxbdhmgfyyemujbu",
+                    "EngineEdition": "jnapouycloxevyqo",
+                    "EngineVersion": "jurpccsxpsbejhzp",
+                    "OsArchitecture": 0,
+                    "ServicePack": "darlmqklpwwdjymk",
+                    "SupportLevel": "fmgkwnrfjktcynqp",
+                    "Tooltip": "yiifihsowvozjbbp"
+                }
+            },
+            {
+                "Collectors": [
+                    {
+                        "CollectorName": "vqluytbxxkddubyg",
+                        "CollectorReferencedId": "nugldirmsysjokqd"
+                    }
+                ],
+                "DatabaseId": "dmvascwnyjdnejqq",
+                "DatabaseName": "tnsdpyiqeahixblm",
+                "IpAddress": "pwqgzayxzsyohugr",
+                "NumberOfSchemas": 0,
+                "Server": {
+                    "IpAddress": "xeqbmdqtihdidnsc",
+                    "ServerId": "lfeenldiitbzeztz",
+                    "ServerName": "qismgjscdbynsshf"
+                },
+                "SoftwareDetails": {
+                    "Engine": "zgzajpdbusvvjars",
+                    "EngineEdition": "pwoetqjfjkzjzwvr",
+                    "EngineVersion": "xktrapaixuksiipm",
+                    "OsArchitecture": 0,
+                    "ServicePack": "cxhykjihfionayzk",
+                    "SupportLevel": "mhfnzfdnihoacejg",
+                    "Tooltip": "swnsbgkjswpbyafm"
+                }
+            },
+            {
+                "Collectors": [
+                    {
+                        "CollectorName": "cutihzmmhrdpaeal",
+                        "CollectorReferencedId": "fyrtthjspowhrhuw"
+                    }
+                ],
+                "DatabaseId": "vdjphdbjcpxcckuq",
+                "DatabaseName": "nfnxgcyotwunxxki",
+                "IpAddress": "zyxxwseyskcmwqmq",
+                "NumberOfSchemas": 0,
+                "Server": {
+                    "IpAddress": "gfxmimcdzqmvjgkg",
+                    "ServerId": "ieyzgsyvlmmmrmzt",
+                    "ServerName": "swazgvbedsisvomf"
+                },
+                "SoftwareDetails": {
+                    "Engine": "nwisvelvahkciphy",
+                    "EngineEdition": "bidhaipizefhayye",
+                    "EngineVersion": "nyfphqzjtoluulng",
+                    "OsArchitecture": 0,
+                    "ServicePack": "azofsjrbuktnkwjj",
+                    "SupportLevel": "ulkofigftbpwtupg",
+                    "Tooltip": "ymotcrhxegwflafw"
+                }
+            },
+            {
+                "Collectors": [
+                    {
+                        "CollectorName": "dmsmedrolpbznpwv",
+                        "CollectorReferencedId": "tsxfwpttzcnldzex"
+                    }
+                ],
+                "DatabaseId": "bdjrlyaugzutgege",
+                "DatabaseName": "kaziwtvhdcbukqpg",
+                "IpAddress": "rdpmkvgmfaatelxt",
+                "NumberOfSchemas": 0,
+                "Server": {
+                    "IpAddress": "dknyiwwlluzkzrpt",
+                    "ServerId": "ugaxffktqygxmjbu",
+                    "ServerName": "mqpwwwjbwrnnyxyu"
+                },
+                "SoftwareDetails": {
+                    "Engine": "rqinfdfboclgonor",
+                    "EngineEdition": "qpdgklwaokdvjcnm",
+                    "EngineVersion": "qcnlnnkljaatbyrj",
+                    "OsArchitecture": 0,
+                    "ServicePack": "jodoiotryjtardnd",
+                    "SupportLevel": "noxuisifmapfjzgf",
+                    "Tooltip": "ewiulnpxwdqdiupt"
+                }
+            }
+        ],
+        "result_key": "Databases"
+    },
+    "meta": {
+        "start": 1711115576.231296,
+        "end": 1711115583.277557,
+        "duration": 7.046270847320557,
+        "service": "dms",
+        "type": "fleet_advisor_databases"
+    }
+}

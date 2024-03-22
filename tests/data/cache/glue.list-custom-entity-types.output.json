@@ -1,0 +1,108 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0,
+            "Tags": {
+                "KeyName": ""
+            }
+        },
+        "required": [],
+        "md5": "572212bf957c91d14707ae87d766e494",
+        "boto_command": "list_custom_entity_types",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "Name": "Name",
+                "RegexString": "RegexString",
+                "ContextWords": [
+                    "NameString"
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "f6aec1fb7c21b41650e102af40db3f97",
+        "randomized": [
+            {
+                "ContextWords": [
+                    "jxjahujbzjamnqel"
+                ],
+                "Name": "damzgfanhlglsbvd",
+                "RegexString": "efaphvnyvhqqdpny"
+            },
+            {
+                "ContextWords": [
+                    "vxtucchuxkgioprx"
+                ],
+                "Name": "xbfejhszkpotmrpd",
+                "RegexString": "gwsrlkzcvwhfhwer"
+            },
+            {
+                "ContextWords": [
+                    "zcypkoczugmifzgo"
+                ],
+                "Name": "kzdzljwhtkkddfcj",
+                "RegexString": "rldcozkmgbygljqr"
+            },
+            {
+                "ContextWords": [
+                    "vmjfgpypdldxqukz"
+                ],
+                "Name": "awaazgggzejjzqzw",
+                "RegexString": "sormpkxzksdmodam"
+            },
+            {
+                "ContextWords": [
+                    "lpfgqtdipqcljczs"
+                ],
+                "Name": "tythosgbtgdtqdsy",
+                "RegexString": "ighwcxgqbdbokvoz"
+            },
+            {
+                "ContextWords": [
+                    "dhrqxpmflljpjpde"
+                ],
+                "Name": "tzqrnesdqkomnlpe",
+                "RegexString": "gwsnnapgnfjwghow"
+            },
+            {
+                "ContextWords": [
+                    "gdhdrunebkrfjgkc"
+                ],
+                "Name": "jhxkgfiemyetuqvm",
+                "RegexString": "guosrrqqfshtgrfp"
+            },
+            {
+                "ContextWords": [
+                    "zbqdqwrnvrjrqdrw"
+                ],
+                "Name": "ovlqfqeptdhlyaua",
+                "RegexString": "zypsqsuhqapblqby"
+            },
+            {
+                "ContextWords": [
+                    "mmncnhagthyrmtzz"
+                ],
+                "Name": "khifcjwqxkwqwoog",
+                "RegexString": "jzddfmkjxxysjghv"
+            },
+            {
+                "ContextWords": [
+                    "pexbkmfcsesjepaz"
+                ],
+                "Name": "bmabibmxxoceifoz",
+                "RegexString": "ttumhubhudpopeqc"
+            }
+        ],
+        "result_key": "CustomEntityTypes"
+    },
+    "meta": {
+        "start": 1711115835.687265,
+        "end": 1711115844.189035,
+        "duration": 8.501780986785889,
+        "service": "glue",
+        "type": "custom_entity_types"
+    }
+}

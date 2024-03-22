@@ -1,0 +1,171 @@
+{
+    "input": {
+        "template": {
+            "MaxRecords": 0,
+            "Marker": ""
+        },
+        "required": [],
+        "md5": "a47b512f6b101d88382d9de54cd6b99a",
+        "boto_command": "describe_orderable_replication_instances",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "EngineVersion": "EngineVersion",
+                "ReplicationInstanceClass": "ReplicationInstanceClass",
+                "StorageType": "StorageType",
+                "MinAllocatedStorage": 0,
+                "MaxAllocatedStorage": 0,
+                "DefaultAllocatedStorage": 0,
+                "IncludedAllocatedStorage": 0,
+                "AvailabilityZones": [
+                    "String"
+                ],
+                "ReleaseStatus": "ReleaseStatus"
+            }
+        ],
+        "required": [],
+        "md5": "57a77c471e8cf166443b479e5d305548",
+        "randomized": [
+            {
+                "AvailabilityZones": [
+                    "mvhiekcnwqwcdnvj"
+                ],
+                "DefaultAllocatedStorage": 0,
+                "EngineVersion": "joydxbtdgkgaxslp",
+                "IncludedAllocatedStorage": 0,
+                "MaxAllocatedStorage": 0,
+                "MinAllocatedStorage": 0,
+                "ReleaseStatus": "lkcdoqrfdvtylwek",
+                "ReplicationInstanceClass": "rwhwizoknlsdvexb",
+                "StorageType": "faweeyyouqiiwnit"
+            },
+            {
+                "AvailabilityZones": [
+                    "wayjxobxryfuehim"
+                ],
+                "DefaultAllocatedStorage": 0,
+                "EngineVersion": "ijssimheiahilvpt",
+                "IncludedAllocatedStorage": 0,
+                "MaxAllocatedStorage": 0,
+                "MinAllocatedStorage": 0,
+                "ReleaseStatus": "rcjytnmdkemqgfig",
+                "ReplicationInstanceClass": "djouncyauxlxvqom",
+                "StorageType": "mmepawojlsuzclhr"
+            },
+            {
+                "AvailabilityZones": [
+                    "wqmnctbjojwzvtlr"
+                ],
+                "DefaultAllocatedStorage": 0,
+                "EngineVersion": "dnooafktovdkaagf",
+                "IncludedAllocatedStorage": 0,
+                "MaxAllocatedStorage": 0,
+                "MinAllocatedStorage": 0,
+                "ReleaseStatus": "wxcfnqlvzicwbktz",
+                "ReplicationInstanceClass": "dltgfvquueemdiik",
+                "StorageType": "ohiliytlnujjqhei"
+            },
+            {
+                "AvailabilityZones": [
+                    "xzjlmlpiuaxatlfx"
+                ],
+                "DefaultAllocatedStorage": 0,
+                "EngineVersion": "wuzwioucrqichftx",
+                "IncludedAllocatedStorage": 0,
+                "MaxAllocatedStorage": 0,
+                "MinAllocatedStorage": 0,
+                "ReleaseStatus": "esnwcdrprhinpfqt",
+                "ReplicationInstanceClass": "mlctblxfjzupvqxj",
+                "StorageType": "boqmhytlpwfncpct"
+            },
+            {
+                "AvailabilityZones": [
+                    "ksyapmdhmxqmhhff"
+                ],
+                "DefaultAllocatedStorage": 0,
+                "EngineVersion": "crcjnovxahmvhyau",
+                "IncludedAllocatedStorage": 0,
+                "MaxAllocatedStorage": 0,
+                "MinAllocatedStorage": 0,
+                "ReleaseStatus": "qamowmbjtnwvbkmr",
+                "ReplicationInstanceClass": "bcvxtiqomhbumose",
+                "StorageType": "udbniveoycnfawrs"
+            },
+            {
+                "AvailabilityZones": [
+                    "imwxfntcdsezorst"
+                ],
+                "DefaultAllocatedStorage": 0,
+                "EngineVersion": "vcznoxnuvdefgmue",
+                "IncludedAllocatedStorage": 0,
+                "MaxAllocatedStorage": 0,
+                "MinAllocatedStorage": 0,
+                "ReleaseStatus": "jqisgqnhblyzdcce",
+                "ReplicationInstanceClass": "sikupiuarbeovvyd",
+                "StorageType": "cnpaqmbbeenhiztz"
+            },
+            {
+                "AvailabilityZones": [
+                    "wjmxfdjsdjeejuyv"
+                ],
+                "DefaultAllocatedStorage": 0,
+                "EngineVersion": "xvpgxbqcjlvbilku",
+                "IncludedAllocatedStorage": 0,
+                "MaxAllocatedStorage": 0,
+                "MinAllocatedStorage": 0,
+                "ReleaseStatus": "jqlmgprkdcgtmyve",
+                "ReplicationInstanceClass": "feowdfehgyspjczn",
+                "StorageType": "tdiqykednoyxzhur"
+            },
+            {
+                "AvailabilityZones": [
+                    "itqmmfmsnzyzplwv"
+                ],
+                "DefaultAllocatedStorage": 0,
+                "EngineVersion": "zytbqkdxehbmycld",
+                "IncludedAllocatedStorage": 0,
+                "MaxAllocatedStorage": 0,
+                "MinAllocatedStorage": 0,
+                "ReleaseStatus": "qamyudeufobejteo",
+                "ReplicationInstanceClass": "cjgshipmeipwsscw",
+                "StorageType": "xwizrejqpiwiovqw"
+            },
+            {
+                "AvailabilityZones": [
+                    "qvbtdnxsxbysbywx"
+                ],
+                "DefaultAllocatedStorage": 0,
+                "EngineVersion": "vinhahxipkpddaar",
+                "IncludedAllocatedStorage": 0,
+                "MaxAllocatedStorage": 0,
+                "MinAllocatedStorage": 0,
+                "ReleaseStatus": "ncooplxgzujalnns",
+                "ReplicationInstanceClass": "xxrphfzlcypvuict",
+                "StorageType": "kgtoezlyrbuhbhvc"
+            },
+            {
+                "AvailabilityZones": [
+                    "qftqfkygkscfnybk"
+                ],
+                "DefaultAllocatedStorage": 0,
+                "EngineVersion": "kketxqasgrycjigd",
+                "IncludedAllocatedStorage": 0,
+                "MaxAllocatedStorage": 0,
+                "MinAllocatedStorage": 0,
+                "ReleaseStatus": "luksufxvpkylshsm",
+                "ReplicationInstanceClass": "jybbjbkoqnmrteca",
+                "StorageType": "roxjtzmxqcolqqpr"
+            }
+        ],
+        "result_key": "OrderableReplicationInstances"
+    },
+    "meta": {
+        "start": 1711115580.237713,
+        "end": 1711115586.355445,
+        "duration": 6.1177380084991455,
+        "service": "dms",
+        "type": "orderable_replication_instances"
+    }
+}

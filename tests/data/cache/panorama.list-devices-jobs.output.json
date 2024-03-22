@@ -1,0 +1,106 @@
+{
+    "input": {
+        "template": {
+            "DeviceId": "",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "1f501914067e122f07abae6533d0151d",
+        "boto_command": "list_devices_jobs",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "CreatedTime": "1970-01-01T00:00:00",
+                "DeviceId": "DeviceId",
+                "DeviceName": "DeviceName",
+                "JobId": "JobId",
+                "JobType": "JobType"
+            }
+        ],
+        "required": [],
+        "md5": "d78b2500277985f49840ef1ab52a4135",
+        "randomized": [
+            {
+                "CreatedTime": "sngqvhrvfxmangnj",
+                "DeviceId": "gpqcgmxblxbquqxz",
+                "DeviceName": "qudigopvyjzxcmts",
+                "JobId": "rtvxdnwdgccbpcrq",
+                "JobType": "pdlgvqcyolhgsipg"
+            },
+            {
+                "CreatedTime": "eobshkkriintqibt",
+                "DeviceId": "hvvbrpzibdnicalp",
+                "DeviceName": "enoioqamzkbwzcdt",
+                "JobId": "ftshtqfjcbzmxrbn",
+                "JobType": "zodyggqfgsolthfy"
+            },
+            {
+                "CreatedTime": "vpvvhdivogxbagvs",
+                "DeviceId": "ljwfohnfnxiuzjgw",
+                "DeviceName": "jqjgvdmflxnnkkxo",
+                "JobId": "gceytixrotccingg",
+                "JobType": "bzwjwwawtofbgqek"
+            },
+            {
+                "CreatedTime": "eptkrfnsensaquus",
+                "DeviceId": "gpwocfpoxhdmtxfd",
+                "DeviceName": "pudqimasncbsvxqp",
+                "JobId": "vpxednnwdixdinqp",
+                "JobType": "donvnokekrmfhjvz"
+            },
+            {
+                "CreatedTime": "hxminzewvdnkyndl",
+                "DeviceId": "ahlkyloovkylhwdu",
+                "DeviceName": "ucnkmmyvthtqpswm",
+                "JobId": "cjeaopoypnazjuym",
+                "JobType": "nxzpddgtgbunspvh"
+            },
+            {
+                "CreatedTime": "engyxeexfbmqkyfk",
+                "DeviceId": "foqdynzjnphdtrgz",
+                "DeviceName": "cnihnnwqbebubxrf",
+                "JobId": "nfvsnspiedxxfabv",
+                "JobType": "okypwyignewedrnv"
+            },
+            {
+                "CreatedTime": "woysrjjimyczwmqc",
+                "DeviceId": "zrvvflozeczypjmm",
+                "DeviceName": "kjspjfybcfqxxtmb",
+                "JobId": "btqlyjrkgooiumux",
+                "JobType": "mmjvlfugekttqrge"
+            },
+            {
+                "CreatedTime": "hsmpokotumubuyrs",
+                "DeviceId": "dwfsptxhflofsbxy",
+                "DeviceName": "ligwthxsanrkcczx",
+                "JobId": "hpiwhkpwxblqxjio",
+                "JobType": "quurttqtmbnxlfwh"
+            },
+            {
+                "CreatedTime": "lsgeaqrmlokzumop",
+                "DeviceId": "fbuwnjzxmfkzncbw",
+                "DeviceName": "qiillmwynoamcvuc",
+                "JobId": "orinhgrtgabvmlty",
+                "JobType": "zlhpjufkpvnnhkfi"
+            },
+            {
+                "CreatedTime": "otmskqtesaicljma",
+                "DeviceId": "caqiufpjfggjpana",
+                "DeviceName": "obrsqdcsulldvxel",
+                "JobId": "vrvpobrhyqidtkto",
+                "JobType": "znoasyqjzweummjl"
+            }
+        ],
+        "result_key": "DeviceJobs"
+    },
+    "meta": {
+        "start": 1711116305.706207,
+        "end": 1711116313.267363,
+        "duration": 7.561166048049927,
+        "service": "panorama",
+        "type": "devices_jobs"
+    }
+}

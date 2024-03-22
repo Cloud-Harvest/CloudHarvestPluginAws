@@ -1,0 +1,84 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0,
+            "DeviceProfileType": "Sidewalk"
+        },
+        "required": [],
+        "md5": "5b1cc4af765fdff94405d147dd36ca87",
+        "boto_command": "list_device_profiles",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "Arn": "Arn",
+                "Name": "Name",
+                "Id": "Id"
+            }
+        ],
+        "required": [],
+        "md5": "d1021edf6be03fe351766c9971bb4b75",
+        "randomized": [
+            {
+                "Arn": "mzhpkzxopjorhwqx",
+                "Id": "oopbjpxsfckiabqu",
+                "Name": "vrlwcibeweiukmna"
+            },
+            {
+                "Arn": "osohvmchjybaikqx",
+                "Id": "xgnyxoytiwwicvla",
+                "Name": "jjecsqchpttswpha"
+            },
+            {
+                "Arn": "howqslruhrvqdyxg",
+                "Id": "yakwehvsmonsncol",
+                "Name": "ippcxrhrucnevbna"
+            },
+            {
+                "Arn": "enmhsahyqhjrfusx",
+                "Id": "lzlddqruilooyreh",
+                "Name": "goqqftlelttynhec"
+            },
+            {
+                "Arn": "uaswndacsggdpdjl",
+                "Id": "npphmhzgyjotsiki",
+                "Name": "rhubsewvhdwrrtwr"
+            },
+            {
+                "Arn": "xyqlyriqfgtvkxur",
+                "Id": "aurikonxsxupujtd",
+                "Name": "stjygyhknrcwekjw"
+            },
+            {
+                "Arn": "jyfjuwpitnjvgufh",
+                "Id": "bksixybiekdcjgkk",
+                "Name": "tvmkzoutneklsphl"
+            },
+            {
+                "Arn": "vjwaqhcerajenhpd",
+                "Id": "zqbgzlkmmkclileu",
+                "Name": "cljkxvwfrnbwqext"
+            },
+            {
+                "Arn": "dfjywsfxasizjjas",
+                "Id": "lkopihqvettniazv",
+                "Name": "fnazgzlsuwmgdmoo"
+            },
+            {
+                "Arn": "cvgmiqtixqekmdka",
+                "Id": "bvqmqpuiugllkywq",
+                "Name": "palgnhrxafgkmukh"
+            }
+        ],
+        "result_key": "DeviceProfileList"
+    },
+    "meta": {
+        "start": 1711115999.699331,
+        "end": 1711116007.226386,
+        "duration": 7.527065992355347,
+        "service": "iotwireless",
+        "type": "device_profiles"
+    }
+}

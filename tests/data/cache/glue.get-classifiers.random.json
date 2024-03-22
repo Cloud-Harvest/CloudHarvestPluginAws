@@ -1,0 +1,452 @@
+[
+    {
+        "CsvClassifier": {
+            "AllowSingleColumn": true,
+            "ContainsHeader": "kokudzovvykcgpew",
+            "CreationTime": "cjqynoqbzebtqkqj",
+            "CustomDatatypeConfigured": true,
+            "CustomDatatypes": [
+                "nsomqmbdmfygmnyv"
+            ],
+            "Delimiter": "xhbgkhrljvntnjmr",
+            "DisableValueTrimming": true,
+            "Header": [
+                "vqrtnmpvvljqkkmt"
+            ],
+            "LastUpdated": "cdpkxozmimftezvz",
+            "Name": "xnjnklsxlzyrtlgi",
+            "QuoteSymbol": "gukvfwtiwhxbrojj",
+            "Serde": "ziotonononuagbfv",
+            "Version": 0
+        },
+        "GrokClassifier": {
+            "Classification": "ftucibvkefoffdzq",
+            "CreationTime": "lbmpcmhxuhmwjsyj",
+            "CustomPatterns": "ifsztwresdgeaaml",
+            "GrokPattern": "potfzcsikipnjnep",
+            "LastUpdated": "rkssanaishiclrjv",
+            "Name": "mucoygehgzypqalw",
+            "Version": 0
+        },
+        "JsonClassifier": {
+            "CreationTime": "digwisfjwpfbkrhd",
+            "JsonPath": "fhuhzqjlmhywviwy",
+            "LastUpdated": "bgkuijdksqbbnvsd",
+            "Name": "tityvsgnhdfbvncj",
+            "Version": 0
+        },
+        "XMLClassifier": {
+            "Classification": "nxtfbxelycyuvwxx",
+            "CreationTime": "xsbcwelqihwzvfiv",
+            "LastUpdated": "uoytigosfbqulpxu",
+            "Name": "ntskdlecxcwklurl",
+            "RowTag": "ukgisonfkxxfhczq",
+            "Version": 0
+        }
+    },
+    {
+        "CsvClassifier": {
+            "AllowSingleColumn": true,
+            "ContainsHeader": "nztpgobrrathsiow",
+            "CreationTime": "gsfiuvrakrzjkght",
+            "CustomDatatypeConfigured": true,
+            "CustomDatatypes": [
+                "yckrdkmzvnsrtpsn"
+            ],
+            "Delimiter": "zubwttxxcsprnsqx",
+            "DisableValueTrimming": true,
+            "Header": [
+                "xtucfpmuaiwyslxj"
+            ],
+            "LastUpdated": "hvntuhvtteuqnlee",
+            "Name": "njygcurnmygubjrx",
+            "QuoteSymbol": "zvuskyxletwdhuif",
+            "Serde": "qcyuvnhaagkellcz",
+            "Version": 0
+        },
+        "GrokClassifier": {
+            "Classification": "yilctmzohnylgjhf",
+            "CreationTime": "idhhnlsqipjfihzc",
+            "CustomPatterns": "esngsdytabngvmjk",
+            "GrokPattern": "zoymsiekfzmmzwjy",
+            "LastUpdated": "jsvgaazuxjxhnlyz",
+            "Name": "ilqmoaccwzxyduig",
+            "Version": 0
+        },
+        "JsonClassifier": {
+            "CreationTime": "zoykpjneoitfwwpg",
+            "JsonPath": "rhejppzvyjdjeewt",
+            "LastUpdated": "twcddcqfltcpmlze",
+            "Name": "dveyaojzfokymiyg",
+            "Version": 0
+        },
+        "XMLClassifier": {
+            "Classification": "yowbvvvoijsnvgxp",
+            "CreationTime": "gcadasuoomiegbjw",
+            "LastUpdated": "akaafyndhzyfpdkv",
+            "Name": "mjfhcfjichkjgtyo",
+            "RowTag": "owxfgrajfhnptjjr",
+            "Version": 0
+        }
+    },
+    {
+        "CsvClassifier": {
+            "AllowSingleColumn": true,
+            "ContainsHeader": "ilgknrbenylpsttw",
+            "CreationTime": "hgnacmpscfxsimhr",
+            "CustomDatatypeConfigured": true,
+            "CustomDatatypes": [
+                "zowdhobvugaswhix"
+            ],
+            "Delimiter": "xqcgkpfqxlrrmmyp",
+            "DisableValueTrimming": true,
+            "Header": [
+                "oleprovgqcerywss"
+            ],
+            "LastUpdated": "blkkyeekscfoeoan",
+            "Name": "benfjqgacxyrlykd",
+            "QuoteSymbol": "dcimosyfrodvzoku",
+            "Serde": "uhrfxvwdqgashzho",
+            "Version": 0
+        },
+        "GrokClassifier": {
+            "Classification": "nzqlzagyqmjozmwm",
+            "CreationTime": "pdkwtpcysqiwapyd",
+            "CustomPatterns": "yxcgaqmndtzeqzjd",
+            "GrokPattern": "lssvjshwukppjsrv",
+            "LastUpdated": "lbfibdbwausyvvsz",
+            "Name": "xvqeymdznalpuvan",
+            "Version": 0
+        },
+        "JsonClassifier": {
+            "CreationTime": "wnlizxeojpoahttc",
+            "JsonPath": "tzfsbjxcwjtiycup",
+            "LastUpdated": "gkhreqrfdwogrtph",
+            "Name": "pxcuwuvhmmxipqmj",
+            "Version": 0
+        },
+        "XMLClassifier": {
+            "Classification": "oafpjfjxwptuxkuc",
+            "CreationTime": "quloxiaccacxciib",
+            "LastUpdated": "fvofpshdykwdlxzz",
+            "Name": "hbdlgieyfkjrbqki",
+            "RowTag": "ltminqrygksdwymt",
+            "Version": 0
+        }
+    },
+    {
+        "CsvClassifier": {
+            "AllowSingleColumn": true,
+            "ContainsHeader": "teofhelnhzbggxfe",
+            "CreationTime": "ottlnpqemwcflaua",
+            "CustomDatatypeConfigured": true,
+            "CustomDatatypes": [
+                "inioeiifhbaofxbl"
+            ],
+            "Delimiter": "zctfhchdpfltkupu",
+            "DisableValueTrimming": true,
+            "Header": [
+                "erhwzbfascfbuogm"
+            ],
+            "LastUpdated": "czfftetmbaufepmg",
+            "Name": "heshcktogjpgiggh",
+            "QuoteSymbol": "kaduifzwlyzochjj",
+            "Serde": "zcbnvybbtmbxlwli",
+            "Version": 0
+        },
+        "GrokClassifier": {
+            "Classification": "dchklkrptixojcig",
+            "CreationTime": "unvmdwdkcesicxsw",
+            "CustomPatterns": "kdgtvblvxlobztze",
+            "GrokPattern": "uzzmkreiyjnhlydw",
+            "LastUpdated": "uwmsqefqrqtdxpst",
+            "Name": "hbnjdcemxumryhmm",
+            "Version": 0
+        },
+        "JsonClassifier": {
+            "CreationTime": "nfqgwpzcnzbhqtfe",
+            "JsonPath": "zyomfcnsdtssfyng",
+            "LastUpdated": "futfsadcxpphtsht",
+            "Name": "wjhxcxmuvnzkxkqg",
+            "Version": 0
+        },
+        "XMLClassifier": {
+            "Classification": "vvgtkfkiqubgbnmo",
+            "CreationTime": "egjbindvjilwckrd",
+            "LastUpdated": "xgfoesdkposadksa",
+            "Name": "wirvzqblfxfpbgab",
+            "RowTag": "atseivuzstwxmhsi",
+            "Version": 0
+        }
+    },
+    {
+        "CsvClassifier": {
+            "AllowSingleColumn": true,
+            "ContainsHeader": "onsxcdagrffnstvu",
+            "CreationTime": "eotgnysghthshvif",
+            "CustomDatatypeConfigured": true,
+            "CustomDatatypes": [
+                "batktawgelrtxbhv"
+            ],
+            "Delimiter": "samwdhxanowlzlkt",
+            "DisableValueTrimming": true,
+            "Header": [
+                "nvodoftagameenxq"
+            ],
+            "LastUpdated": "erztmgzpphvvnnde",
+            "Name": "luodqdetmmvphtpj",
+            "QuoteSymbol": "ekllvyycbdzdhgkp",
+            "Serde": "bpybpewtuaxnjvlq",
+            "Version": 0
+        },
+        "GrokClassifier": {
+            "Classification": "kupedjztoospaafd",
+            "CreationTime": "ztfcfqqskdpkoeeu",
+            "CustomPatterns": "jwjhovmzaogcjcnu",
+            "GrokPattern": "bipsllqvkakwiskb",
+            "LastUpdated": "qiszrsvafsqgjwim",
+            "Name": "ivanhcofxfijtgql",
+            "Version": 0
+        },
+        "JsonClassifier": {
+            "CreationTime": "sztschprglfyfecp",
+            "JsonPath": "xmqsjmbrifhisyze",
+            "LastUpdated": "htcpcccrnevmcibm",
+            "Name": "iggbbbwqvonqrrqy",
+            "Version": 0
+        },
+        "XMLClassifier": {
+            "Classification": "kbraqzeluhpqtynh",
+            "CreationTime": "fszayjalgmgbbjjr",
+            "LastUpdated": "fqirontgtgzfdqzz",
+            "Name": "ihpotocfxhzxiaxm",
+            "RowTag": "lefccjrmleeomvcy",
+            "Version": 0
+        }
+    },
+    {
+        "CsvClassifier": {
+            "AllowSingleColumn": true,
+            "ContainsHeader": "rkunsofdtglrcycj",
+            "CreationTime": "wbqvdaonbsjwdyov",
+            "CustomDatatypeConfigured": true,
+            "CustomDatatypes": [
+                "zgbyouyfuvbbqpyq"
+            ],
+            "Delimiter": "qnvgxkdzxeqzjqel",
+            "DisableValueTrimming": true,
+            "Header": [
+                "zukadokrtlquvcwc"
+            ],
+            "LastUpdated": "dtszktgboadlyhhu",
+            "Name": "dfagwlxcxzfggebz",
+            "QuoteSymbol": "kbgpthuyuaaeppyq",
+            "Serde": "fujniztavxytjsix",
+            "Version": 0
+        },
+        "GrokClassifier": {
+            "Classification": "ilpdytmxhhmipqul",
+            "CreationTime": "kmxaazvsejsyqirx",
+            "CustomPatterns": "hlooqoyodqvijnzb",
+            "GrokPattern": "oyypuvqtdeujfyij",
+            "LastUpdated": "szntytbbtjmfsgly",
+            "Name": "bkzwpgygthzlyggx",
+            "Version": 0
+        },
+        "JsonClassifier": {
+            "CreationTime": "rjykgurjftnnwzng",
+            "JsonPath": "cazduupxsgoqdhbm",
+            "LastUpdated": "fzybiwomzhephqbb",
+            "Name": "wlimkyscfajjpjns",
+            "Version": 0
+        },
+        "XMLClassifier": {
+            "Classification": "agpoepgqhtclfenw",
+            "CreationTime": "uxgarxssfpovqhus",
+            "LastUpdated": "wficyvicbveqpanh",
+            "Name": "jurtujakdtyrhxlz",
+            "RowTag": "nthqmqifktkahxhx",
+            "Version": 0
+        }
+    },
+    {
+        "CsvClassifier": {
+            "AllowSingleColumn": true,
+            "ContainsHeader": "swoatmkiysnzszfo",
+            "CreationTime": "abcifigsiciqcsnt",
+            "CustomDatatypeConfigured": true,
+            "CustomDatatypes": [
+                "texfkhqbcpjuxaue"
+            ],
+            "Delimiter": "vsfkurlzvynrjhxd",
+            "DisableValueTrimming": true,
+            "Header": [
+                "tdosjtzhepsntvsd"
+            ],
+            "LastUpdated": "ktsfqmcjvsytncfa",
+            "Name": "wclaggliaqcfzonv",
+            "QuoteSymbol": "opzexvltoiewzapx",
+            "Serde": "araoernvboyfzaov",
+            "Version": 0
+        },
+        "GrokClassifier": {
+            "Classification": "txzjvjtttlmjllss",
+            "CreationTime": "ghfcmacipgbfcqev",
+            "CustomPatterns": "wluevwdkmiwkgfvl",
+            "GrokPattern": "raysniyuygcfqmlq",
+            "LastUpdated": "kxbycbzdezayeqdc",
+            "Name": "pdttgizvzxryjtmn",
+            "Version": 0
+        },
+        "JsonClassifier": {
+            "CreationTime": "zqoabkykppmlkwue",
+            "JsonPath": "ncogjxhbnvyrbwib",
+            "LastUpdated": "qbuxoidbovdcuset",
+            "Name": "qgfczyxzguiuuqsj",
+            "Version": 0
+        },
+        "XMLClassifier": {
+            "Classification": "ymgjnqbyoisztezr",
+            "CreationTime": "kvgsiuxxlqcipwmq",
+            "LastUpdated": "zynquwiezvdfnzbe",
+            "Name": "llizqypcperzovhh",
+            "RowTag": "xrjvvhdlfwetilaz",
+            "Version": 0
+        }
+    },
+    {
+        "CsvClassifier": {
+            "AllowSingleColumn": true,
+            "ContainsHeader": "etkyxmegbellkihu",
+            "CreationTime": "vjnaxulbyzzbajaz",
+            "CustomDatatypeConfigured": true,
+            "CustomDatatypes": [
+                "wmnbqrdrpsyxyxww"
+            ],
+            "Delimiter": "erfqfdipvvbtprwj",
+            "DisableValueTrimming": true,
+            "Header": [
+                "rqjlgihsfjbwdlzy"
+            ],
+            "LastUpdated": "akvyeuyxhegiznaq",
+            "Name": "cepisazyluolxufy",
+            "QuoteSymbol": "ftezitqjdltrvqpm",
+            "Serde": "eexlzcvyiszcoktu",
+            "Version": 0
+        },
+        "GrokClassifier": {
+            "Classification": "chatrqloottrukzf",
+            "CreationTime": "tomxyrenebrlwyqo",
+            "CustomPatterns": "cvympwjfzyxfjqum",
+            "GrokPattern": "ltugzhogiwguowvi",
+            "LastUpdated": "lpyfbbmyssptzmew",
+            "Name": "tdqhvjmwnlrlufmq",
+            "Version": 0
+        },
+        "JsonClassifier": {
+            "CreationTime": "tjmwlzftvrwxbleo",
+            "JsonPath": "awrhegmcbhteijhx",
+            "LastUpdated": "uzwmtblvcjwkhlyp",
+            "Name": "izszrymjhaskkpwf",
+            "Version": 0
+        },
+        "XMLClassifier": {
+            "Classification": "swfannylagyxgoly",
+            "CreationTime": "dmdzqgubrpiioyno",
+            "LastUpdated": "putiflscykyukesv",
+            "Name": "jutopgxkwsghgihl",
+            "RowTag": "mnmihruziuvursca",
+            "Version": 0
+        }
+    },
+    {
+        "CsvClassifier": {
+            "AllowSingleColumn": true,
+            "ContainsHeader": "bwcrncdzeuqnqfrn",
+            "CreationTime": "ebxvfievtrysawmq",
+            "CustomDatatypeConfigured": true,
+            "CustomDatatypes": [
+                "lkjvrvqdalczquia"
+            ],
+            "Delimiter": "zoagjnqwtfojicws",
+            "DisableValueTrimming": true,
+            "Header": [
+                "mgalyzfmollvspwh"
+            ],
+            "LastUpdated": "dvjrubyygcujgvcu",
+            "Name": "awectoypvorunhyz",
+            "QuoteSymbol": "mhqxyxlqkwbcnomd",
+            "Serde": "nwcckmwodhzufnfz",
+            "Version": 0
+        },
+        "GrokClassifier": {
+            "Classification": "gzojhwknfoyevbdy",
+            "CreationTime": "wohrynhzeceilwfd",
+            "CustomPatterns": "niypukaqgwcrhloy",
+            "GrokPattern": "ygyjvwmahxfgyorj",
+            "LastUpdated": "ljjcvvkubxjjdkfo",
+            "Name": "dsjkkcglzvmgrdqy",
+            "Version": 0
+        },
+        "JsonClassifier": {
+            "CreationTime": "jjggimqgpndevhik",
+            "JsonPath": "xucyeubsrzdeyett",
+            "LastUpdated": "nkgssqziobsghwrz",
+            "Name": "ztuvdbacwrdygxaj",
+            "Version": 0
+        },
+        "XMLClassifier": {
+            "Classification": "dmeottwcwxaujole",
+            "CreationTime": "koalgikajvcrogil",
+            "LastUpdated": "yzusvaobqjccvdme",
+            "Name": "tskbgfefvudlvtfh",
+            "RowTag": "jirpzqzjbtqnabyj",
+            "Version": 0
+        }
+    },
+    {
+        "CsvClassifier": {
+            "AllowSingleColumn": true,
+            "ContainsHeader": "zurbszfeadovnnim",
+            "CreationTime": "ppciftevmlhubseq",
+            "CustomDatatypeConfigured": true,
+            "CustomDatatypes": [
+                "khfwzeesqpijcqbq"
+            ],
+            "Delimiter": "icrvrlkjomlhfnrs",
+            "DisableValueTrimming": true,
+            "Header": [
+                "pppvkxrsnchreehn"
+            ],
+            "LastUpdated": "wegqsmctcxjencvm",
+            "Name": "hdnpfisrrniktxeo",
+            "QuoteSymbol": "dwtvvsthetqsrrhy",
+            "Serde": "acmeerhmmxjpbrbp",
+            "Version": 0
+        },
+        "GrokClassifier": {
+            "Classification": "cgqyxfqepjndikwm",
+            "CreationTime": "gnaofdwegjwakitt",
+            "CustomPatterns": "klwsnnsqmkdmpihu",
+            "GrokPattern": "tporilikidudheuq",
+            "LastUpdated": "ljwcerllbdddhqkg",
+            "Name": "mbrfudtiqtgfdqgc",
+            "Version": 0
+        },
+        "JsonClassifier": {
+            "CreationTime": "pmffoashlvcasjay",
+            "JsonPath": "tqqbmoznkomvswtw",
+            "LastUpdated": "ocxiqwkoyozmwaan",
+            "Name": "hbvkjlykaeizjmlh",
+            "Version": 0
+        },
+        "XMLClassifier": {
+            "Classification": "ouugasfxcehhinaz",
+            "CreationTime": "dwrnwxumggdxckzd",
+            "LastUpdated": "unueddswtsdnfkug",
+            "Name": "ifyrrlxcwzvjyvco",
+            "RowTag": "hxrayndohvkiajns",
+            "Version": 0
+        }
+    }
+]

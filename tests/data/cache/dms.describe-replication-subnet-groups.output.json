@@ -1,0 +1,234 @@
+{
+    "input": {
+        "template": {
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxRecords": 0,
+            "Marker": ""
+        },
+        "required": [],
+        "md5": "0aa6aa583558bbf076489f33024868a2",
+        "boto_command": "describe_replication_subnet_groups",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "ReplicationSubnetGroupIdentifier": "ReplicationSubnetGroupIdentifier",
+                "ReplicationSubnetGroupDescription": "ReplicationSubnetGroupDescription",
+                "VpcId": "VpcId",
+                "SubnetGroupStatus": "SubnetGroupStatus",
+                "Subnets": [
+                    {
+                        "SubnetIdentifier": "SubnetIdentifier",
+                        "SubnetAvailabilityZone": {
+                            "Name": "Name"
+                        },
+                        "SubnetStatus": "SubnetStatus"
+                    }
+                ],
+                "SupportedNetworkTypes": [
+                    "String"
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "97654d5d7ebe571b0c6b415cc39381fb",
+        "randomized": [
+            {
+                "ReplicationSubnetGroupDescription": "uadyarcpqazywvbd",
+                "ReplicationSubnetGroupIdentifier": "yqkeojxcpizibttz",
+                "SubnetGroupStatus": "imwkiqbzzzjrxhkk",
+                "Subnets": [
+                    {
+                        "SubnetAvailabilityZone": {
+                            "Name": "vcawhmzmiefsqnwk"
+                        },
+                        "SubnetIdentifier": "awvpikvazcvhxgyg",
+                        "SubnetStatus": "xkjyqtnhrdrgytyb"
+                    }
+                ],
+                "SupportedNetworkTypes": [
+                    "wcatpgxudjowwwtc"
+                ],
+                "VpcId": "wmlnkezlzozcgdxz"
+            },
+            {
+                "ReplicationSubnetGroupDescription": "zzhdbaakfgtvmgzc",
+                "ReplicationSubnetGroupIdentifier": "wlsremubmmmrwkrn",
+                "SubnetGroupStatus": "jqgpfwrpfrwtgdpe",
+                "Subnets": [
+                    {
+                        "SubnetAvailabilityZone": {
+                            "Name": "cuwkhnghdaicomus"
+                        },
+                        "SubnetIdentifier": "giystwindtuhidqo",
+                        "SubnetStatus": "vmkikcpkceshhuzv"
+                    }
+                ],
+                "SupportedNetworkTypes": [
+                    "olgjepbitcwajeif"
+                ],
+                "VpcId": "ojsjwoaxsmaelmtu"
+            },
+            {
+                "ReplicationSubnetGroupDescription": "wpryuvcfmonrptqq",
+                "ReplicationSubnetGroupIdentifier": "lqamxdbuqyzsmgqg",
+                "SubnetGroupStatus": "sixzszfdrvtdykqi",
+                "Subnets": [
+                    {
+                        "SubnetAvailabilityZone": {
+                            "Name": "ocrnfjjlqjjtqjjf"
+                        },
+                        "SubnetIdentifier": "qxbfieupgdrfoxic",
+                        "SubnetStatus": "dnuulrfmjuzibzus"
+                    }
+                ],
+                "SupportedNetworkTypes": [
+                    "wfdsncneigrghecx"
+                ],
+                "VpcId": "zpbmdxihxokqyrsf"
+            },
+            {
+                "ReplicationSubnetGroupDescription": "hrylaptpbccuqawg",
+                "ReplicationSubnetGroupIdentifier": "iurwitbuspuubujb",
+                "SubnetGroupStatus": "julbqrqncahjhmoz",
+                "Subnets": [
+                    {
+                        "SubnetAvailabilityZone": {
+                            "Name": "itkijbabbthfxqjj"
+                        },
+                        "SubnetIdentifier": "fcadyqxsqtmxocpu",
+                        "SubnetStatus": "qjpyfngeencdtzii"
+                    }
+                ],
+                "SupportedNetworkTypes": [
+                    "hiupgoomdhcouckg"
+                ],
+                "VpcId": "pdgqbvywoyrgtkms"
+            },
+            {
+                "ReplicationSubnetGroupDescription": "dkuhjudgoowfkcsz",
+                "ReplicationSubnetGroupIdentifier": "zypsmhvqdsrysyey",
+                "SubnetGroupStatus": "smrucqhcgebfffrv",
+                "Subnets": [
+                    {
+                        "SubnetAvailabilityZone": {
+                            "Name": "yiegrpqbeyjuekum"
+                        },
+                        "SubnetIdentifier": "ngvehcgnosgvqgev",
+                        "SubnetStatus": "bqprcqsmzheyzcni"
+                    }
+                ],
+                "SupportedNetworkTypes": [
+                    "stxknhxgnznroenv"
+                ],
+                "VpcId": "qxhthwxluhvesuks"
+            },
+            {
+                "ReplicationSubnetGroupDescription": "bpnbldwdfiwjjezg",
+                "ReplicationSubnetGroupIdentifier": "wmrqmgtgpseqpxxf",
+                "SubnetGroupStatus": "hqmxskajnplzkpis",
+                "Subnets": [
+                    {
+                        "SubnetAvailabilityZone": {
+                            "Name": "fmarcobqsctbuecb"
+                        },
+                        "SubnetIdentifier": "tkzwdtxhnrzmygch",
+                        "SubnetStatus": "pzqreanxlephmrrb"
+                    }
+                ],
+                "SupportedNetworkTypes": [
+                    "civenrudvkskamfp"
+                ],
+                "VpcId": "ocrskwkjztuvrxao"
+            },
+            {
+                "ReplicationSubnetGroupDescription": "dqhvoxnztdvsjszh",
+                "ReplicationSubnetGroupIdentifier": "glavfzbqsdgjksxe",
+                "SubnetGroupStatus": "fxlyqtelbpkmyxhy",
+                "Subnets": [
+                    {
+                        "SubnetAvailabilityZone": {
+                            "Name": "gwlswkphlwpwqzvx"
+                        },
+                        "SubnetIdentifier": "iubzkttnxrqgztsg",
+                        "SubnetStatus": "haktvwqvjvjjdezw"
+                    }
+                ],
+                "SupportedNetworkTypes": [
+                    "mjywyccbyrxjxvjs"
+                ],
+                "VpcId": "gtiykyefjyvcbpeu"
+            },
+            {
+                "ReplicationSubnetGroupDescription": "ytlsnyjmknvwbhiz",
+                "ReplicationSubnetGroupIdentifier": "zxlttnjpivjsyoxv",
+                "SubnetGroupStatus": "lhvvuyotywkziqha",
+                "Subnets": [
+                    {
+                        "SubnetAvailabilityZone": {
+                            "Name": "thybtzefjchzcygo"
+                        },
+                        "SubnetIdentifier": "yqrduvwdzllbsvuq",
+                        "SubnetStatus": "ldymuhngqmrmemen"
+                    }
+                ],
+                "SupportedNetworkTypes": [
+                    "teotbduwbohpmyld"
+                ],
+                "VpcId": "zqdvxdbgxhiuasio"
+            },
+            {
+                "ReplicationSubnetGroupDescription": "dilawappypwprbvu",
+                "ReplicationSubnetGroupIdentifier": "bbfuhmihrmpbwzun",
+                "SubnetGroupStatus": "iqtawejltcwovczj",
+                "Subnets": [
+                    {
+                        "SubnetAvailabilityZone": {
+                            "Name": "cvnrxvfkjpatmgyw"
+                        },
+                        "SubnetIdentifier": "bjanbrgdnqpdxalv",
+                        "SubnetStatus": "ttudjqyiubbvxcdr"
+                    }
+                ],
+                "SupportedNetworkTypes": [
+                    "shkfnlttwycczxue"
+                ],
+                "VpcId": "udzlbhlzibvqycmv"
+            },
+            {
+                "ReplicationSubnetGroupDescription": "yhaxmxdnhaaenjfq",
+                "ReplicationSubnetGroupIdentifier": "wxvsffqikhcyivjw",
+                "SubnetGroupStatus": "eqqnsmzkqgjskesb",
+                "Subnets": [
+                    {
+                        "SubnetAvailabilityZone": {
+                            "Name": "ramigdpnjzhjqbho"
+                        },
+                        "SubnetIdentifier": "aflfdrmogibwbxff",
+                        "SubnetStatus": "rpuvyxjvklkjjzjr"
+                    }
+                ],
+                "SupportedNetworkTypes": [
+                    "nrzwptrdchxqyceh"
+                ],
+                "VpcId": "yfirlclhztaibicj"
+            }
+        ],
+        "result_key": "ReplicationSubnetGroups"
+    },
+    "meta": {
+        "start": 1711115583.218507,
+        "end": 1711115589.418827,
+        "duration": 6.200330018997192,
+        "service": "dms",
+        "type": "replication_subnet_groups"
+    }
+}

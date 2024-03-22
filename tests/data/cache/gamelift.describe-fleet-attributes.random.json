@@ -1,0 +1,412 @@
+[
+    {
+        "AnywhereConfiguration": {
+            "Cost": "rrghyxnjwyamkyah"
+        },
+        "BuildArn": "spftzwafnucmsrrh",
+        "BuildId": "dxcymlbgxnzhndpy",
+        "CertificateConfiguration": {
+            "CertificateType": "jcvklmvwodpljbjm"
+        },
+        "ComputeType": "vkmzrcvgfuorshlg",
+        "CreationTime": "qrpekocqqnoxibnl",
+        "Description": "clgujclfumbupnpa",
+        "FleetArn": "nuhmjaekraltsoyi",
+        "FleetId": "enxhaoymybyrelgp",
+        "FleetType": "fipjpnertcfmuebl",
+        "InstanceRoleArn": "tiqwguvmrnzqruar",
+        "InstanceRoleCredentialsProvider": "hwkmloyfcrsnwvvm",
+        "InstanceType": "jqbsyxlhuljlzozi",
+        "LogPaths": [
+            "ugxopyuqaihoqdjk"
+        ],
+        "MetricGroups": [
+            "srhrbnnkwjwthywe"
+        ],
+        "Name": "ytdifrhaaqtrganj",
+        "NewGameSessionProtectionPolicy": "edeewqnyuehcjbjl",
+        "OperatingSystem": "fpyizjezhezxtirn",
+        "ResourceCreationLimitPolicy": {
+            "NewGameSessionsPerCreator": 0,
+            "PolicyPeriodInMinutes": 0
+        },
+        "ScriptArn": "fhwbhgbocdszidex",
+        "ScriptId": "aytexikhcomzlrep",
+        "ServerLaunchParameters": "ojsskwwojxwtyexc",
+        "ServerLaunchPath": "huyqlldqxbcoordb",
+        "Status": "jvfaflhftzbgyfgb",
+        "StoppedActions": [
+            "siqlfphlzqvcrmbd"
+        ],
+        "TerminationTime": "spzpoeisacndehgb"
+    },
+    {
+        "AnywhereConfiguration": {
+            "Cost": "mqtsaqoxhbnwexku"
+        },
+        "BuildArn": "llwtqvfleujcxohg",
+        "BuildId": "ctrvfzqmpzbicwfy",
+        "CertificateConfiguration": {
+            "CertificateType": "ckkbbmzknltybunl"
+        },
+        "ComputeType": "rlccuvseswbjvkro",
+        "CreationTime": "kmpzbaaiotaugaou",
+        "Description": "lvfjmkukmrnzvuxo",
+        "FleetArn": "iuyeznvecfvaeydl",
+        "FleetId": "spuzrphyvtvmqarf",
+        "FleetType": "nxuekwklvdwghrxj",
+        "InstanceRoleArn": "wxshuxgyjzqsjiok",
+        "InstanceRoleCredentialsProvider": "bzcaqazxhldtzlgu",
+        "InstanceType": "ulerpmvatzqegzcu",
+        "LogPaths": [
+            "ifkhctxdhlwzzapi"
+        ],
+        "MetricGroups": [
+            "bhguhwwzkdgudyxm"
+        ],
+        "Name": "yjfmygsheejourox",
+        "NewGameSessionProtectionPolicy": "jnekpyviovyptebk",
+        "OperatingSystem": "omgaohrddzutolhv",
+        "ResourceCreationLimitPolicy": {
+            "NewGameSessionsPerCreator": 0,
+            "PolicyPeriodInMinutes": 0
+        },
+        "ScriptArn": "mfoipzdhmsibyeqv",
+        "ScriptId": "idsjztofanalkabx",
+        "ServerLaunchParameters": "nskuaqbmkwsiaioo",
+        "ServerLaunchPath": "niaksemnzgxrmhfe",
+        "Status": "unzxqaexrzytrwdx",
+        "StoppedActions": [
+            "nparzhmphtiaelrf"
+        ],
+        "TerminationTime": "fgwlffdfezmmhdqn"
+    },
+    {
+        "AnywhereConfiguration": {
+            "Cost": "nxeraiogbmukypps"
+        },
+        "BuildArn": "ixleefalblggkpbm",
+        "BuildId": "hopofmjsstgmqqqh",
+        "CertificateConfiguration": {
+            "CertificateType": "katllemrqzlelbrk"
+        },
+        "ComputeType": "ajfatwsrhrpvucaz",
+        "CreationTime": "wzcgheaaydnsrwkg",
+        "Description": "qakwvubtpyshblwj",
+        "FleetArn": "iffeibxmabdmhpwg",
+        "FleetId": "xhxrelfpojuuihzz",
+        "FleetType": "qnggdhmkjsiptdeh",
+        "InstanceRoleArn": "hftnrygzuwwwainu",
+        "InstanceRoleCredentialsProvider": "lvlyoonvxyldrupf",
+        "InstanceType": "ayrxwofivynovuat",
+        "LogPaths": [
+            "ilrprtldnkwsoptb"
+        ],
+        "MetricGroups": [
+            "ibhhkqanefknhyfd"
+        ],
+        "Name": "gqvtbxgtgxoflmeu",
+        "NewGameSessionProtectionPolicy": "ttuunjwpdkkbhksh",
+        "OperatingSystem": "gyvykynluhpymfzd",
+        "ResourceCreationLimitPolicy": {
+            "NewGameSessionsPerCreator": 0,
+            "PolicyPeriodInMinutes": 0
+        },
+        "ScriptArn": "mzqiilcbthzkjhhi",
+        "ScriptId": "hhngskkmsqxmhpim",
+        "ServerLaunchParameters": "yfcdmfskirbazflo",
+        "ServerLaunchPath": "zivugnzfrgcauqfi",
+        "Status": "smjdftgatfkkntdk",
+        "StoppedActions": [
+            "eikvkvqtaomzlbtx"
+        ],
+        "TerminationTime": "tnkrrsbsqfhbhcvf"
+    },
+    {
+        "AnywhereConfiguration": {
+            "Cost": "dfoucmlbllfvcymv"
+        },
+        "BuildArn": "jqhzmeojjossekmw",
+        "BuildId": "psitnzkpuincudjv",
+        "CertificateConfiguration": {
+            "CertificateType": "qwadqbqotzuyjdnk"
+        },
+        "ComputeType": "qhptsrzqnyadurej",
+        "CreationTime": "eyqsodjwvbkgvhbh",
+        "Description": "ybsctakgfscsncnm",
+        "FleetArn": "uhaumppiubstdmsh",
+        "FleetId": "qfgwdsdkyxpqvsqt",
+        "FleetType": "plxzrulwskofxrwx",
+        "InstanceRoleArn": "wiwfuwegelpfktee",
+        "InstanceRoleCredentialsProvider": "xykauqsvkgnulcpb",
+        "InstanceType": "qimxmtcaooxxczpo",
+        "LogPaths": [
+            "ykbxuxpwwbfnrkvg"
+        ],
+        "MetricGroups": [
+            "elgmwhakodhkgghx"
+        ],
+        "Name": "hhuiekltrjyilmmr",
+        "NewGameSessionProtectionPolicy": "lztrgjuidyiooxzu",
+        "OperatingSystem": "rlfudxgaxpjhjobn",
+        "ResourceCreationLimitPolicy": {
+            "NewGameSessionsPerCreator": 0,
+            "PolicyPeriodInMinutes": 0
+        },
+        "ScriptArn": "usjwkokpuirkxcrc",
+        "ScriptId": "ordxsesqzjfvaftb",
+        "ServerLaunchParameters": "ghlzaogcslofdsqw",
+        "ServerLaunchPath": "scinseypmxttiwux",
+        "Status": "mhtqljasxwqmohqp",
+        "StoppedActions": [
+            "jkqoflgvzxrpsyga"
+        ],
+        "TerminationTime": "jeknsrajutulxcdm"
+    },
+    {
+        "AnywhereConfiguration": {
+            "Cost": "aqyfsfohbxdykdfd"
+        },
+        "BuildArn": "aoaaqotpbablvpjk",
+        "BuildId": "trmmesdagzsfwudm",
+        "CertificateConfiguration": {
+            "CertificateType": "uvcouhcmhignrxri"
+        },
+        "ComputeType": "iulhdzfioypxpyej",
+        "CreationTime": "xcjnmhxqkixytxav",
+        "Description": "wjlkjlpcwugncslt",
+        "FleetArn": "ymmyozmybwnmeuxm",
+        "FleetId": "itonwtvkooewxmva",
+        "FleetType": "ogksphhlogizpknf",
+        "InstanceRoleArn": "kqdbtwbvrxbnrues",
+        "InstanceRoleCredentialsProvider": "emkapfgkmkyigaqo",
+        "InstanceType": "emvygyqzebqrxfst",
+        "LogPaths": [
+            "qpcpkfvoepgfdapb"
+        ],
+        "MetricGroups": [
+            "luviekuuoeelixzu"
+        ],
+        "Name": "miauzaljaxcjbsvy",
+        "NewGameSessionProtectionPolicy": "iozgrtghfwprhhrl",
+        "OperatingSystem": "siomqagpsyobehsf",
+        "ResourceCreationLimitPolicy": {
+            "NewGameSessionsPerCreator": 0,
+            "PolicyPeriodInMinutes": 0
+        },
+        "ScriptArn": "mdgvietefiwgjqms",
+        "ScriptId": "elrqvvcmehcqrrdg",
+        "ServerLaunchParameters": "plrubaxlvzcgyjsn",
+        "ServerLaunchPath": "jrqqcrsxjeaiqujk",
+        "Status": "ybmkxdtwuctmdjna",
+        "StoppedActions": [
+            "jjqicxtgudrtsvrt"
+        ],
+        "TerminationTime": "mqzdsgbsqxxpwxeu"
+    },
+    {
+        "AnywhereConfiguration": {
+            "Cost": "vhsxmlxawdooiscf"
+        },
+        "BuildArn": "zsvjthuzakcyrpsl",
+        "BuildId": "dvbvizetxluibtby",
+        "CertificateConfiguration": {
+            "CertificateType": "vqptdgkvkdyirbre"
+        },
+        "ComputeType": "pylpgvhshubshsom",
+        "CreationTime": "cwgingxuxunqzgny",
+        "Description": "mblxhrntiiogbxop",
+        "FleetArn": "eotkgfpzjucgsdvg",
+        "FleetId": "olkgvjwgeacwsono",
+        "FleetType": "forxaodrrrkobcdf",
+        "InstanceRoleArn": "xebdywxjjbndvbsl",
+        "InstanceRoleCredentialsProvider": "jcmgcljczhmmtvzf",
+        "InstanceType": "xopzavllxsoqcrsd",
+        "LogPaths": [
+            "wylsrbqvucrjcbku"
+        ],
+        "MetricGroups": [
+            "szzvyimngzgofilk"
+        ],
+        "Name": "hhrtnkzumjgcevpv",
+        "NewGameSessionProtectionPolicy": "prystpsewdmawthc",
+        "OperatingSystem": "skztfmpjmbcgdiut",
+        "ResourceCreationLimitPolicy": {
+            "NewGameSessionsPerCreator": 0,
+            "PolicyPeriodInMinutes": 0
+        },
+        "ScriptArn": "fsehqwbhuguwefmt",
+        "ScriptId": "rwelrodskclnowih",
+        "ServerLaunchParameters": "digfsskddkdpxhkm",
+        "ServerLaunchPath": "rufansxaymumzjbp",
+        "Status": "sxiispyjzqicmegq",
+        "StoppedActions": [
+            "akxcorcympvqmoty"
+        ],
+        "TerminationTime": "voeozqkfinlhfygp"
+    },
+    {
+        "AnywhereConfiguration": {
+            "Cost": "mrpligqcdeqixpgl"
+        },
+        "BuildArn": "qbgbjqzumzeywnmd",
+        "BuildId": "imthoegczqtdlrqt",
+        "CertificateConfiguration": {
+            "CertificateType": "jfikwqgctlhjzizl"
+        },
+        "ComputeType": "oxjkyrwabuztmyde",
+        "CreationTime": "kswsrvlaffnafrra",
+        "Description": "yncuuumhgtienhfj",
+        "FleetArn": "ztxruntvmryhoqua",
+        "FleetId": "xobxufpfxibycjch",
+        "FleetType": "nlqyrckfmkemfdoz",
+        "InstanceRoleArn": "wqakypvkdmxbsbvd",
+        "InstanceRoleCredentialsProvider": "scnznktkgmbuufvr",
+        "InstanceType": "vapdxvnpvfhtcjzh",
+        "LogPaths": [
+            "ozjpzudyazcycqga"
+        ],
+        "MetricGroups": [
+            "mcqmekthyksgjyhw"
+        ],
+        "Name": "tajmjfgxhkfuyoxt",
+        "NewGameSessionProtectionPolicy": "guysolnqydhkiywn",
+        "OperatingSystem": "copulohbxtvzvqga",
+        "ResourceCreationLimitPolicy": {
+            "NewGameSessionsPerCreator": 0,
+            "PolicyPeriodInMinutes": 0
+        },
+        "ScriptArn": "nxddeyoceogijigo",
+        "ScriptId": "idqpkcjnlbnwuasn",
+        "ServerLaunchParameters": "lrytehnreajitclb",
+        "ServerLaunchPath": "bgtiguqvcvolrped",
+        "Status": "bibcixhusecnrfzs",
+        "StoppedActions": [
+            "zfwuciavtottwzzq"
+        ],
+        "TerminationTime": "zvjycnxsezqwpnxx"
+    },
+    {
+        "AnywhereConfiguration": {
+            "Cost": "pjkigcfwpnufildq"
+        },
+        "BuildArn": "bnzndymuvhzilnug",
+        "BuildId": "bmbkngjtqtzoyhku",
+        "CertificateConfiguration": {
+            "CertificateType": "isftxgzsfoqeyzdb"
+        },
+        "ComputeType": "lgtmqvbjrerysxns",
+        "CreationTime": "vvfrjtabzvyumpfp",
+        "Description": "dvstgphsgxnsxkwj",
+        "FleetArn": "tzaiqthmdzlaikme",
+        "FleetId": "fuwgymyhqtquhjnr",
+        "FleetType": "vzpxgajcpyhobqpl",
+        "InstanceRoleArn": "dxxtvdwsaujgoriv",
+        "InstanceRoleCredentialsProvider": "poixvcumwmskljap",
+        "InstanceType": "zwiiecusvksyqaxp",
+        "LogPaths": [
+            "bbjmlkcujvndnzem"
+        ],
+        "MetricGroups": [
+            "orjttralvlcrtuwp"
+        ],
+        "Name": "motvklskjwdggthy",
+        "NewGameSessionProtectionPolicy": "rgubtxchsefcqekd",
+        "OperatingSystem": "ojekghoozxybakxo",
+        "ResourceCreationLimitPolicy": {
+            "NewGameSessionsPerCreator": 0,
+            "PolicyPeriodInMinutes": 0
+        },
+        "ScriptArn": "uenykkzbuwfkwxqt",
+        "ScriptId": "pvtfwskfjoiiofng",
+        "ServerLaunchParameters": "bdyahwiotqydconi",
+        "ServerLaunchPath": "yxwdwtlbhkjrjfpj",
+        "Status": "nvqeoxwyywrerqlw",
+        "StoppedActions": [
+            "pcqbihlajlqbrjgp"
+        ],
+        "TerminationTime": "sndkkrbwxffqpdjs"
+    },
+    {
+        "AnywhereConfiguration": {
+            "Cost": "wbzhbruzmjtzvadv"
+        },
+        "BuildArn": "bkyyolhgtusaumrk",
+        "BuildId": "uibjshogenusatyd",
+        "CertificateConfiguration": {
+            "CertificateType": "nkpookgvkxutgwns"
+        },
+        "ComputeType": "shcquwpiwlisbags",
+        "CreationTime": "whxwvjnsopksytqg",
+        "Description": "uwonpjknqrzvilya",
+        "FleetArn": "zzkssgbivvdaksqc",
+        "FleetId": "muaiumkjktpxugex",
+        "FleetType": "jlrqwpzdmsbpxcke",
+        "InstanceRoleArn": "mzjrebrqqmznaean",
+        "InstanceRoleCredentialsProvider": "oyikoeyydrgzgils",
+        "InstanceType": "clrtmmstzlxqjiuf",
+        "LogPaths": [
+            "flbokjtmtkyljdzv"
+        ],
+        "MetricGroups": [
+            "sgpoqccmlshrgbzr"
+        ],
+        "Name": "ysjnrnkuevrcfjdq",
+        "NewGameSessionProtectionPolicy": "opcbunwiqofodqkl",
+        "OperatingSystem": "topopkcnkyhmgufb",
+        "ResourceCreationLimitPolicy": {
+            "NewGameSessionsPerCreator": 0,
+            "PolicyPeriodInMinutes": 0
+        },
+        "ScriptArn": "gzsqbuhrsfsqxfrt",
+        "ScriptId": "ecyppujfofhulxtf",
+        "ServerLaunchParameters": "gcghqipcdfcykovm",
+        "ServerLaunchPath": "fnvlpdrgmlnqbmdg",
+        "Status": "dwvlufwxhjlsyzdh",
+        "StoppedActions": [
+            "zfijdapiyjlicrvy"
+        ],
+        "TerminationTime": "ierpzprxqoksygvd"
+    },
+    {
+        "AnywhereConfiguration": {
+            "Cost": "bkspabdoqyxkzcjr"
+        },
+        "BuildArn": "bnirdxfkwdpkmkvw",
+        "BuildId": "snqtfknhmjfegxbp",
+        "CertificateConfiguration": {
+            "CertificateType": "sgcclzqmzgxdrizz"
+        },
+        "ComputeType": "guabpgleanlngrta",
+        "CreationTime": "agcwyyijgdfyeatb",
+        "Description": "ynimjagraczogmts",
+        "FleetArn": "pjmyyphehqvrgkws",
+        "FleetId": "zdurqvzsyzemejxv",
+        "FleetType": "edhcnlysxxxmwkni",
+        "InstanceRoleArn": "prljrrqortdjolwg",
+        "InstanceRoleCredentialsProvider": "ntzzxpzxkoswojjm",
+        "InstanceType": "tknppdbrlkytrhir",
+        "LogPaths": [
+            "qibqzzjengorpzgk"
+        ],
+        "MetricGroups": [
+            "wsqvwhvymwrjzbzc"
+        ],
+        "Name": "zwqforjostabhums",
+        "NewGameSessionProtectionPolicy": "xtgglnmcgwkcenpz",
+        "OperatingSystem": "igagxutihiblrbqz",
+        "ResourceCreationLimitPolicy": {
+            "NewGameSessionsPerCreator": 0,
+            "PolicyPeriodInMinutes": 0
+        },
+        "ScriptArn": "qixttskpskwfdabd",
+        "ScriptId": "fvroxwhcwyefmgpg",
+        "ServerLaunchParameters": "ypnlowxdcowjbkhe",
+        "ServerLaunchPath": "wseomxdlkprvolgi",
+        "Status": "fmqdgakorzmzzttb",
+        "StoppedActions": [
+            "zctnnvhwtcdkqnou"
+        ],
+        "TerminationTime": "guendgtptqobelru"
+    }
+]

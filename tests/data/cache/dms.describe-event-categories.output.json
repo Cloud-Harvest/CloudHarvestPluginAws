@@ -1,0 +1,101 @@
+{
+    "input": {
+        "template": {
+            "SourceType": "",
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ]
+        },
+        "required": [],
+        "md5": "bee90a698f6c05bbd4758fc80f922e63",
+        "boto_command": "describe_event_categories",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "SourceType": "SourceType",
+                "EventCategories": [
+                    "String"
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "f2abe5b4700140bb4e400d4d2fdf653b",
+        "randomized": [
+            {
+                "EventCategories": [
+                    "jzuoljpxwxsphhan"
+                ],
+                "SourceType": "bdqrcbjpdcindznx"
+            },
+            {
+                "EventCategories": [
+                    "cwsakkciuxppdset"
+                ],
+                "SourceType": "soqyrwhxyzcwcvhd"
+            },
+            {
+                "EventCategories": [
+                    "rtgmfcbfvbquqyob"
+                ],
+                "SourceType": "cvmcyhjoscaarpso"
+            },
+            {
+                "EventCategories": [
+                    "hyqomoqaqyasasup"
+                ],
+                "SourceType": "scekylfkayaizpac"
+            },
+            {
+                "EventCategories": [
+                    "qsrqspkejjgpmhax"
+                ],
+                "SourceType": "bdwwlbsywvrelqzj"
+            },
+            {
+                "EventCategories": [
+                    "pvkasyszooikdama"
+                ],
+                "SourceType": "oegxikwpfvehqpej"
+            },
+            {
+                "EventCategories": [
+                    "ramsvrhlqieimmcq"
+                ],
+                "SourceType": "xvfihuwmaivchovg"
+            },
+            {
+                "EventCategories": [
+                    "wshyqkvuflyetklf"
+                ],
+                "SourceType": "tokfoxqvnatnggko"
+            },
+            {
+                "EventCategories": [
+                    "yjnyrhndyvevdgrb"
+                ],
+                "SourceType": "gotqfujudbfljnil"
+            },
+            {
+                "EventCategories": [
+                    "qchqpgosexrsjaon"
+                ],
+                "SourceType": "ranxmuwjpemwsnwo"
+            }
+        ],
+        "result_key": "EventCategoryGroupList"
+    },
+    "meta": {
+        "start": 1711115574.739237,
+        "end": 1711115580.23587,
+        "duration": 5.496644020080566,
+        "service": "dms",
+        "type": "event_categories"
+    }
+}

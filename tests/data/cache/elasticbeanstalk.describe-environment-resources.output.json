@@ -1,0 +1,455 @@
+{
+    "input": {
+        "template": {
+            "EnvironmentId": "",
+            "EnvironmentName": ""
+        },
+        "required": [],
+        "md5": "7ee9defe3a4743e955cd96d44432388b",
+        "boto_command": "describe_environment_resources",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": {
+            "EnvironmentName": "EnvironmentName",
+            "AutoScalingGroups": [
+                {
+                    "Name": "Name"
+                }
+            ],
+            "Instances": [
+                {
+                    "Id": "Id"
+                }
+            ],
+            "LaunchConfigurations": [
+                {
+                    "Name": "Name"
+                }
+            ],
+            "LaunchTemplates": [
+                {
+                    "Id": "Id"
+                }
+            ],
+            "LoadBalancers": [
+                {
+                    "Name": "Name"
+                }
+            ],
+            "Triggers": [
+                {
+                    "Name": "Name"
+                }
+            ],
+            "Queues": [
+                {
+                    "Name": "Name",
+                    "URL": "URL"
+                }
+            ]
+        },
+        "required": [],
+        "md5": "307d2c33ca8b753be2bae523caf2c8ed",
+        "randomized": [
+            {
+                "AutoScalingGroups": [
+                    {
+                        "Name": "kntbtkjhdkxrpcwv"
+                    }
+                ],
+                "EnvironmentName": "wreqrqriibqctutc",
+                "Instances": [
+                    {
+                        "Id": "qtlfxyguxdnuwwzb"
+                    }
+                ],
+                "LaunchConfigurations": [
+                    {
+                        "Name": "pmisjdagoagswjgr"
+                    }
+                ],
+                "LaunchTemplates": [
+                    {
+                        "Id": "ifzhjxscjzpmvdtz"
+                    }
+                ],
+                "LoadBalancers": [
+                    {
+                        "Name": "oftpqpvqeoljjjwe"
+                    }
+                ],
+                "Queues": [
+                    {
+                        "Name": "otxjrtecjceorctw",
+                        "URL": "bbtytubkhtzxsjsb"
+                    }
+                ],
+                "Triggers": [
+                    {
+                        "Name": "xkmubpydluyjkryl"
+                    }
+                ]
+            },
+            {
+                "AutoScalingGroups": [
+                    {
+                        "Name": "csloifvwyoktcwsh"
+                    }
+                ],
+                "EnvironmentName": "yguywmarelarxryj",
+                "Instances": [
+                    {
+                        "Id": "gjnchpbnqmavmllv"
+                    }
+                ],
+                "LaunchConfigurations": [
+                    {
+                        "Name": "ezcprnqanseaojpb"
+                    }
+                ],
+                "LaunchTemplates": [
+                    {
+                        "Id": "lugzvourjndqufyk"
+                    }
+                ],
+                "LoadBalancers": [
+                    {
+                        "Name": "cksgfvcmtfsepqxz"
+                    }
+                ],
+                "Queues": [
+                    {
+                        "Name": "eujecwyoruowgwbm",
+                        "URL": "kjabxlrqhvjvqqcu"
+                    }
+                ],
+                "Triggers": [
+                    {
+                        "Name": "bbdvrompzmtlyepa"
+                    }
+                ]
+            },
+            {
+                "AutoScalingGroups": [
+                    {
+                        "Name": "wgobxzqzcpcvmrxm"
+                    }
+                ],
+                "EnvironmentName": "bzrmkcgfilkohtaq",
+                "Instances": [
+                    {
+                        "Id": "snrzkjbnoxvdfswl"
+                    }
+                ],
+                "LaunchConfigurations": [
+                    {
+                        "Name": "jueitimmtxnqdbjv"
+                    }
+                ],
+                "LaunchTemplates": [
+                    {
+                        "Id": "dngwyxjxwvaxqpoe"
+                    }
+                ],
+                "LoadBalancers": [
+                    {
+                        "Name": "xpnpeltytlgwaxia"
+                    }
+                ],
+                "Queues": [
+                    {
+                        "Name": "qqvponxmrfbblava",
+                        "URL": "jqwhkeaatdixqmiu"
+                    }
+                ],
+                "Triggers": [
+                    {
+                        "Name": "gdcopuzlgamwvoxy"
+                    }
+                ]
+            },
+            {
+                "AutoScalingGroups": [
+                    {
+                        "Name": "xdgxxgzkogztukin"
+                    }
+                ],
+                "EnvironmentName": "ryaqfhaiuavexadx",
+                "Instances": [
+                    {
+                        "Id": "aljzgnodfzjlxpit"
+                    }
+                ],
+                "LaunchConfigurations": [
+                    {
+                        "Name": "ckvslifopiouqrrf"
+                    }
+                ],
+                "LaunchTemplates": [
+                    {
+                        "Id": "gnesgsqhfntjxxnk"
+                    }
+                ],
+                "LoadBalancers": [
+                    {
+                        "Name": "sbakkcguwnuapzdh"
+                    }
+                ],
+                "Queues": [
+                    {
+                        "Name": "qzhqwymwbabluitf",
+                        "URL": "ffzddekqkkohuvqx"
+                    }
+                ],
+                "Triggers": [
+                    {
+                        "Name": "rluhjenlonulompv"
+                    }
+                ]
+            },
+            {
+                "AutoScalingGroups": [
+                    {
+                        "Name": "wzjfgbvqkfzlsknq"
+                    }
+                ],
+                "EnvironmentName": "xahvkdarqxbefqne",
+                "Instances": [
+                    {
+                        "Id": "kqdjhzozhwlgpxfq"
+                    }
+                ],
+                "LaunchConfigurations": [
+                    {
+                        "Name": "furfywldfjhihicj"
+                    }
+                ],
+                "LaunchTemplates": [
+                    {
+                        "Id": "eckpmbdoxwwuzxns"
+                    }
+                ],
+                "LoadBalancers": [
+                    {
+                        "Name": "cqwhkazwulhowafz"
+                    }
+                ],
+                "Queues": [
+                    {
+                        "Name": "gakhjzfqtuphnsxg",
+                        "URL": "dtofksagjbeomkmo"
+                    }
+                ],
+                "Triggers": [
+                    {
+                        "Name": "bfubtklduswnzbeu"
+                    }
+                ]
+            },
+            {
+                "AutoScalingGroups": [
+                    {
+                        "Name": "sfkcsblnlirgispz"
+                    }
+                ],
+                "EnvironmentName": "baqmfxuxwxveeyoh",
+                "Instances": [
+                    {
+                        "Id": "xeteaendorgapiut"
+                    }
+                ],
+                "LaunchConfigurations": [
+                    {
+                        "Name": "kjghevrlkpwzovlz"
+                    }
+                ],
+                "LaunchTemplates": [
+                    {
+                        "Id": "gbpozbxabzkpzcla"
+                    }
+                ],
+                "LoadBalancers": [
+                    {
+                        "Name": "vxeuhhferjlvmatp"
+                    }
+                ],
+                "Queues": [
+                    {
+                        "Name": "yzdflecexipyanza",
+                        "URL": "fgglkxruladfqxvs"
+                    }
+                ],
+                "Triggers": [
+                    {
+                        "Name": "tpfwvkxndhrpncgl"
+                    }
+                ]
+            },
+            {
+                "AutoScalingGroups": [
+                    {
+                        "Name": "jpfuomyxxopxggpm"
+                    }
+                ],
+                "EnvironmentName": "wfvyopvmkfjiqbvp",
+                "Instances": [
+                    {
+                        "Id": "fesmwvutsokwhore"
+                    }
+                ],
+                "LaunchConfigurations": [
+                    {
+                        "Name": "tnfhacucyyegcasn"
+                    }
+                ],
+                "LaunchTemplates": [
+                    {
+                        "Id": "kubrffaixxwacgjd"
+                    }
+                ],
+                "LoadBalancers": [
+                    {
+                        "Name": "envtgzrsuomlpmpe"
+                    }
+                ],
+                "Queues": [
+                    {
+                        "Name": "oupequzbyicjwqqb",
+                        "URL": "fhrahpytjkeiumsg"
+                    }
+                ],
+                "Triggers": [
+                    {
+                        "Name": "gkqehzybinoiuafq"
+                    }
+                ]
+            },
+            {
+                "AutoScalingGroups": [
+                    {
+                        "Name": "pnihjarbdmrqxsxc"
+                    }
+                ],
+                "EnvironmentName": "iewmffxktpojvnlu",
+                "Instances": [
+                    {
+                        "Id": "dtmaputwqnmdivnc"
+                    }
+                ],
+                "LaunchConfigurations": [
+                    {
+                        "Name": "ejnxguyumbbdzcwj"
+                    }
+                ],
+                "LaunchTemplates": [
+                    {
+                        "Id": "xhbzpjjuzsbvfucw"
+                    }
+                ],
+                "LoadBalancers": [
+                    {
+                        "Name": "hbwazpvirsjxqbkm"
+                    }
+                ],
+                "Queues": [
+                    {
+                        "Name": "lthnlawaltpkywxq",
+                        "URL": "nncqqgndjkeugruf"
+                    }
+                ],
+                "Triggers": [
+                    {
+                        "Name": "couzshdgjkgfooys"
+                    }
+                ]
+            },
+            {
+                "AutoScalingGroups": [
+                    {
+                        "Name": "lmwhagywlqrclvpd"
+                    }
+                ],
+                "EnvironmentName": "cdmtcnbxbfsxkhtu",
+                "Instances": [
+                    {
+                        "Id": "kjcgcchqgxbmbrzu"
+                    }
+                ],
+                "LaunchConfigurations": [
+                    {
+                        "Name": "sftkkulifgybgsra"
+                    }
+                ],
+                "LaunchTemplates": [
+                    {
+                        "Id": "ceodrflfzookqmbc"
+                    }
+                ],
+                "LoadBalancers": [
+                    {
+                        "Name": "rlihrondyolkwukk"
+                    }
+                ],
+                "Queues": [
+                    {
+                        "Name": "qdubuaaalmgdzbxn",
+                        "URL": "vhxljkijimasjkky"
+                    }
+                ],
+                "Triggers": [
+                    {
+                        "Name": "wwnvmbpbejfvebfv"
+                    }
+                ]
+            },
+            {
+                "AutoScalingGroups": [
+                    {
+                        "Name": "lruidzeyfctjswpw"
+                    }
+                ],
+                "EnvironmentName": "thvwzjknycjmgsnf",
+                "Instances": [
+                    {
+                        "Id": "ipvhgzuvluymzkhd"
+                    }
+                ],
+                "LaunchConfigurations": [
+                    {
+                        "Name": "obmjlblewrgyywmq"
+                    }
+                ],
+                "LaunchTemplates": [
+                    {
+                        "Id": "gjalbgcwaszgryuf"
+                    }
+                ],
+                "LoadBalancers": [
+                    {
+                        "Name": "pjfyrgiukhyyxvpw"
+                    }
+                ],
+                "Queues": [
+                    {
+                        "Name": "ffvoevpndswebkem",
+                        "URL": "awfamyoyosjwvelt"
+                    }
+                ],
+                "Triggers": [
+                    {
+                        "Name": "lcjtrtafdnwchimc"
+                    }
+                ]
+            }
+        ],
+        "result_key": "EnvironmentResources"
+    },
+    "meta": {
+        "start": 1711115716.829677,
+        "end": 1711115724.332088,
+        "duration": 7.502419948577881,
+        "service": "elasticbeanstalk",
+        "type": "environment_resources"
+    }
+}

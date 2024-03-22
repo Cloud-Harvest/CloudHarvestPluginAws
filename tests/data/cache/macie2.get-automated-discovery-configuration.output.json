@@ -1,0 +1,34 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "get_automated_discovery_configuration",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": "classificationScopeId",
+        "required": [],
+        "md5": "a98726fe086af33345cdbc11361708f2",
+        "randomized": [
+            "bjexrswhivvjzguc",
+            "rguxxpqgipozwhpk",
+            "ifqkmmifoyilwogr",
+            "fykkadtvsanrkoyb",
+            "lvxshzlftponlrpt",
+            "ywnqalkgdgmrcaum",
+            "wcsqauydbpbfobpd",
+            "idzpeznttjwowpti",
+            "yqcmncivgtrhdxuc",
+            "uhzrsqhekyddqkbh"
+        ],
+        "result_key": "classificationScopeId"
+    },
+    "meta": {
+        "start": 1711116146.022312,
+        "end": 1711116152.312625,
+        "duration": 6.29032301902771,
+        "service": "macie2",
+        "type": null
+    }
+}

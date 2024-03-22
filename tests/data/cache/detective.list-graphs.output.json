@@ -1,0 +1,72 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "9dece7f85fc1c3f944425b1f68a8e6e1",
+        "boto_command": "list_graphs",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "Arn": "Arn",
+                "CreatedTime": "1970-01-01T00:00:00"
+            }
+        ],
+        "required": [],
+        "md5": "278dc5c6b87c852f554ae17b2d1ecdea",
+        "randomized": [
+            {
+                "Arn": "jvgibhxjqslakwii",
+                "CreatedTime": "wzxntoezwxggymej"
+            },
+            {
+                "Arn": "umygtcpfrukuxgud",
+                "CreatedTime": "bmyifyfzwpgkwhhl"
+            },
+            {
+                "Arn": "vgtfsyxyqahwdnzv",
+                "CreatedTime": "ezauftakxidxypvx"
+            },
+            {
+                "Arn": "mjgxngdwkrgdgnuc",
+                "CreatedTime": "idlpsbpvcoqwydxq"
+            },
+            {
+                "Arn": "sniiydlnlocnnhyr",
+                "CreatedTime": "eiiqadqjclzvqxne"
+            },
+            {
+                "Arn": "cllsgzpmubqgaplb",
+                "CreatedTime": "ynblqrrwtcvksozi"
+            },
+            {
+                "Arn": "ohdvglewrxjasnvw",
+                "CreatedTime": "dfzwlhptuesgufqc"
+            },
+            {
+                "Arn": "qantiaizaiqidaqv",
+                "CreatedTime": "jwqwdikeljwypajb"
+            },
+            {
+                "Arn": "pravdgdrvkrhhmgm",
+                "CreatedTime": "drwlhccglcybuhud"
+            },
+            {
+                "Arn": "ixbbxfzozmeijjds",
+                "CreatedTime": "bojixlkopcjpvrou"
+            }
+        ],
+        "result_key": "GraphList"
+    },
+    "meta": {
+        "start": 1711115543.744166,
+        "end": 1711115549.746364,
+        "duration": 6.002209186553955,
+        "service": "detective",
+        "type": "graphs"
+    }
+}

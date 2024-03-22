@@ -1,0 +1,113 @@
+{
+    "input": {
+        "template": {
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxRecords": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "96a5e8fa4d05ccf15ad822736c536170",
+        "boto_command": "describe_fleet_advisor_schema_object_summary",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "SchemaId": "SchemaId",
+                "ObjectType": "ObjectType",
+                "NumberOfObjects": 0,
+                "CodeLineCount": 0,
+                "CodeSize": 0
+            }
+        ],
+        "required": [],
+        "md5": "f4ab8738c538fb4a55e22f4e377a62e0",
+        "randomized": [
+            {
+                "CodeLineCount": 0,
+                "CodeSize": 0,
+                "NumberOfObjects": 0,
+                "ObjectType": "rpfzynhvlrouodzw",
+                "SchemaId": "lepjcxmduwrrnmoq"
+            },
+            {
+                "CodeLineCount": 0,
+                "CodeSize": 0,
+                "NumberOfObjects": 0,
+                "ObjectType": "tfhpzkhrcbyigizt",
+                "SchemaId": "rbuxzidxaqkmmgsv"
+            },
+            {
+                "CodeLineCount": 0,
+                "CodeSize": 0,
+                "NumberOfObjects": 0,
+                "ObjectType": "lddguzzrkllmgfoh",
+                "SchemaId": "gjnbbwqbhogabqik"
+            },
+            {
+                "CodeLineCount": 0,
+                "CodeSize": 0,
+                "NumberOfObjects": 0,
+                "ObjectType": "shxpiabzqlavmkui",
+                "SchemaId": "ivbgdyoorkncrsno"
+            },
+            {
+                "CodeLineCount": 0,
+                "CodeSize": 0,
+                "NumberOfObjects": 0,
+                "ObjectType": "xcchtwsxyxptyogk",
+                "SchemaId": "rsunyrjcwnarsjzt"
+            },
+            {
+                "CodeLineCount": 0,
+                "CodeSize": 0,
+                "NumberOfObjects": 0,
+                "ObjectType": "ixahckokmirlwugc",
+                "SchemaId": "dxvxzcppuctahocx"
+            },
+            {
+                "CodeLineCount": 0,
+                "CodeSize": 0,
+                "NumberOfObjects": 0,
+                "ObjectType": "mifuwdensircwaho",
+                "SchemaId": "kjphyqactapmeuzu"
+            },
+            {
+                "CodeLineCount": 0,
+                "CodeSize": 0,
+                "NumberOfObjects": 0,
+                "ObjectType": "pqnwfihaixqmliiq",
+                "SchemaId": "pqsuygqhjtqzodgm"
+            },
+            {
+                "CodeLineCount": 0,
+                "CodeSize": 0,
+                "NumberOfObjects": 0,
+                "ObjectType": "tsuncwljbtsqnoyu",
+                "SchemaId": "afznffcyvikkbobq"
+            },
+            {
+                "CodeLineCount": 0,
+                "CodeSize": 0,
+                "NumberOfObjects": 0,
+                "ObjectType": "xdjbfgnmlokwqbpt",
+                "SchemaId": "dsygycquwyewnjsa"
+            }
+        ],
+        "result_key": "FleetAdvisorSchemaObjects"
+    },
+    "meta": {
+        "start": 1711115576.73004,
+        "end": 1711115583.54157,
+        "duration": 6.811539888381958,
+        "service": "dms",
+        "type": "fleet_advisor_schema_object_summary"
+    }
+}

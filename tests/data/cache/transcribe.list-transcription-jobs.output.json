@@ -1,0 +1,39 @@
+{
+    "input": {
+        "template": {
+            "Status": "QUEUED",
+            "JobNameContains": "",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "cacc495a39490f56295181b2b769c91e",
+        "boto_command": "list_transcription_jobs",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": "Status",
+        "required": [],
+        "md5": "9921ea6141a2eb2261eeffc769888392",
+        "randomized": [
+            "czlssigxmwcoacvv",
+            "huvoojwogtousgwx",
+            "bamplocrssyjitld",
+            "lkoklnfkdxtoijph",
+            "dptedwdhyhlyetig",
+            "ykhdnclgxehcxlta",
+            "lxlooiowscwjblpr",
+            "wmadjzvsrlwafqod",
+            "smoyaawaalvkcrmr",
+            "dcpsffxubtguumle"
+        ],
+        "result_key": "Status"
+    },
+    "meta": {
+        "start": 1711116732.331177,
+        "end": 1711116739.521138,
+        "duration": 7.189970970153809,
+        "service": "transcribe",
+        "type": "transcription_jobs"
+    }
+}

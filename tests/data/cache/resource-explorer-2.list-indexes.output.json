@@ -1,0 +1,87 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": "",
+            "Regions": [
+                ""
+            ],
+            "Type": "LOCAL"
+        },
+        "required": [],
+        "md5": "b3ad477ea5d50114362de8ebf92e7c46",
+        "boto_command": "list_indexes",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "Arn": "Arn",
+                "Region": "Region",
+                "Type": "Type"
+            }
+        ],
+        "required": [],
+        "md5": "50a9129e2aa7b3eb304b0b23d62c45d6",
+        "randomized": [
+            {
+                "Arn": "hxalyfyfllnsjivy",
+                "Region": "eevlecsboqbsrehg",
+                "Type": "uyimrqbftafaawfo"
+            },
+            {
+                "Arn": "lxdduafcifprzzny",
+                "Region": "vgqxmnwvdvdozahg",
+                "Type": "mpgkvzzlutlwpakw"
+            },
+            {
+                "Arn": "uakbdmvezvwlcrzn",
+                "Region": "zxbceoqvlpynuxev",
+                "Type": "aebszwhxvpofrwjb"
+            },
+            {
+                "Arn": "fortmdqrviyumwgx",
+                "Region": "ojiuldpctfwsgngm",
+                "Type": "bgnikdnrkozenjlj"
+            },
+            {
+                "Arn": "muuztlkrdeiwiahx",
+                "Region": "izxziftvgrkhaler",
+                "Type": "zdiwsfgosufxvqvy"
+            },
+            {
+                "Arn": "mtoctwmsecjdidbm",
+                "Region": "fcfnsfowbwcmkuyg",
+                "Type": "zgefdehtycdirhej"
+            },
+            {
+                "Arn": "eswojnostinsxlhg",
+                "Region": "eeyesxkicyuocemz",
+                "Type": "lnrdefokhwjvehhl"
+            },
+            {
+                "Arn": "btsgkfxyybpvmhaj",
+                "Region": "mjzqztgvihohramn",
+                "Type": "iwsqvzasdmvaqcyz"
+            },
+            {
+                "Arn": "huinnxigpeipnouu",
+                "Region": "vfrrkftybstkrpau",
+                "Type": "golsznbtnwvsjcym"
+            },
+            {
+                "Arn": "yizcrwlemlvesezj",
+                "Region": "uisjdlkfoskrwgnf",
+                "Type": "sicjenofrqolwftv"
+            }
+        ],
+        "result_key": "Indexes"
+    },
+    "meta": {
+        "start": 1711116458.475412,
+        "end": 1711116465.950703,
+        "duration": 7.475300073623657,
+        "service": "resource-explorer-2",
+        "type": "indexes"
+    }
+}

@@ -1,0 +1,139 @@
+{
+    "input": {
+        "template": {
+            "ImageIds": [
+                ""
+            ],
+            "DryRun": true,
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "9d2f840cc2aace623208b53e84212b06",
+        "boto_command": "describe_store_image_tasks",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "AmiId": "AmiId",
+                "TaskStartTime": "1970-01-01T00:00:00",
+                "Bucket": "Bucket",
+                "S3objectKey": "S3objectKey",
+                "ProgressPercentage": 0,
+                "StoreTaskState": "StoreTaskState",
+                "StoreTaskFailureReason": "StoreTaskFailureReason"
+            }
+        ],
+        "required": [],
+        "md5": "4ffe9b510e2c0d1b864c37e73ecd387d",
+        "randomized": [
+            {
+                "AmiId": "imyvhqakysytricd",
+                "Bucket": "ujlshwzbvzgsrmvj",
+                "ProgressPercentage": 0,
+                "S3objectKey": "dpadbqqtzcgkqjkw",
+                "StoreTaskFailureReason": "vxhgqpkqxobhghof",
+                "StoreTaskState": "jofxzxqevgwoobnu",
+                "TaskStartTime": "hyvwbnxivwzmeqjs"
+            },
+            {
+                "AmiId": "cdybvudmukkgexob",
+                "Bucket": "miizfjceijupklof",
+                "ProgressPercentage": 0,
+                "S3objectKey": "trmspyzovyhnwrjb",
+                "StoreTaskFailureReason": "olfvoldeijobtbgx",
+                "StoreTaskState": "iascargtmdbplxpt",
+                "TaskStartTime": "chnsdhtlmjwdzuha"
+            },
+            {
+                "AmiId": "lmzxllobvsyolyye",
+                "Bucket": "xwsxcfyxoujlmtkl",
+                "ProgressPercentage": 0,
+                "S3objectKey": "fptfunxommndajxu",
+                "StoreTaskFailureReason": "wmbnjfqyapksjraa",
+                "StoreTaskState": "ssgvulggcfeaeojc",
+                "TaskStartTime": "fjglyjokztxnfglq"
+            },
+            {
+                "AmiId": "kcndegnqroqxwzrk",
+                "Bucket": "tzxqqtqzhtwmgarp",
+                "ProgressPercentage": 0,
+                "S3objectKey": "ljrekuzebtnvszar",
+                "StoreTaskFailureReason": "vmzfekmfvoleegfo",
+                "StoreTaskState": "mtqjvcuccsmvkbgz",
+                "TaskStartTime": "frpiuqjhppojjzwe"
+            },
+            {
+                "AmiId": "ewowevwbeeccwhab",
+                "Bucket": "qfvxamtkqqacrivp",
+                "ProgressPercentage": 0,
+                "S3objectKey": "pporrmktdhzbfbbm",
+                "StoreTaskFailureReason": "owpkrnbqpjjqorof",
+                "StoreTaskState": "xqsimlcqdhipeszz",
+                "TaskStartTime": "razabxombtwiiorp"
+            },
+            {
+                "AmiId": "coutzilthdozgvnk",
+                "Bucket": "mptxondhkbvtycsw",
+                "ProgressPercentage": 0,
+                "S3objectKey": "lmbslkjldxqwqsli",
+                "StoreTaskFailureReason": "zyqywwietnwmiqua",
+                "StoreTaskState": "pzlculaelauipdao",
+                "TaskStartTime": "vysvywiqyovetige"
+            },
+            {
+                "AmiId": "tkuubamiwkivflxo",
+                "Bucket": "oslhcdfkwrlbspvv",
+                "ProgressPercentage": 0,
+                "S3objectKey": "ivoxbpbymhedytup",
+                "StoreTaskFailureReason": "fcpqivehjsngxmyl",
+                "StoreTaskState": "rakeasqmmaswvwvz",
+                "TaskStartTime": "vmfthkjajqibtkev"
+            },
+            {
+                "AmiId": "fgjagscsgkkgjzkz",
+                "Bucket": "mocwgrznmpqgoudl",
+                "ProgressPercentage": 0,
+                "S3objectKey": "hstfdpitclktrkgv",
+                "StoreTaskFailureReason": "pcdxzaaedeadihrv",
+                "StoreTaskState": "jyautnmmirfrsnol",
+                "TaskStartTime": "hyevdodepbhermrt"
+            },
+            {
+                "AmiId": "mbstxxghcnptkovt",
+                "Bucket": "iqpdjiucglrnnqcr",
+                "ProgressPercentage": 0,
+                "S3objectKey": "djzvlaxfxyrzsous",
+                "StoreTaskFailureReason": "lgbuhintkoahlvak",
+                "StoreTaskState": "bpgzakssombuwpqt",
+                "TaskStartTime": "ddwbkczjcfjhcemc"
+            },
+            {
+                "AmiId": "vnmlaialjrvqrhcg",
+                "Bucket": "gexnkwbiqauehzav",
+                "ProgressPercentage": 0,
+                "S3objectKey": "rjazmgbervcywynp",
+                "StoreTaskFailureReason": "egrjyopogkmviivd",
+                "StoreTaskState": "rghgscusihssjdjb",
+                "TaskStartTime": "tgvgazrkdcbprtjp"
+            }
+        ],
+        "result_key": "StoreImageTaskResults"
+    },
+    "meta": {
+        "start": 1711115651.158434,
+        "end": 1711115658.082723,
+        "duration": 6.924300193786621,
+        "service": "ec2",
+        "type": "store_image_tasks"
+    }
+}

@@ -1,0 +1,138 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "required": [],
+        "md5": "2620fedaf24e984a8f801d0beb17a6e7",
+        "boto_command": "list_bundles",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "bundleId": "bundleId",
+                "title": "title",
+                "version": "version",
+                "description": "description",
+                "iconUrl": "iconUrl",
+                "availablePlatforms": [
+                    "Platform"
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "c00b09462fc926daeda6d8bcfe5437c5",
+        "randomized": [
+            {
+                "availablePlatforms": [
+                    "umcagmedjoiqkrso"
+                ],
+                "bundleId": "bdmaqregkdpiqbxm",
+                "description": "rfszgywvarkrmrck",
+                "iconUrl": "rrhazpucouuwhwmd",
+                "title": "vhdrmvtuktcuhazn",
+                "version": "zggagdvpqshjpxny"
+            },
+            {
+                "availablePlatforms": [
+                    "rnnacepcsgpgnqqx"
+                ],
+                "bundleId": "yuiljvudgwmkxmnx",
+                "description": "rkxhcvniycwvsrjh",
+                "iconUrl": "gvkamnlswzuwxlun",
+                "title": "nsmbqidviktkodfx",
+                "version": "ijutgnextkdoutlh"
+            },
+            {
+                "availablePlatforms": [
+                    "qkfkpezsvqhdvwvt"
+                ],
+                "bundleId": "jvubygbnyjapmdaj",
+                "description": "peigobioeuuumtcg",
+                "iconUrl": "cwdbofgdwnjlbnvb",
+                "title": "wvvpvtdlksodjtlz",
+                "version": "ggodlfpebbljjbhg"
+            },
+            {
+                "availablePlatforms": [
+                    "lflqwgxyuhaiwqpa"
+                ],
+                "bundleId": "oojgimhqdkfcgkkj",
+                "description": "juqcdtdivhqjotbf",
+                "iconUrl": "mnikoeimmpivqnjz",
+                "title": "nqpqwdwbxbmlteaa",
+                "version": "yvlttcrznqzaauoe"
+            },
+            {
+                "availablePlatforms": [
+                    "rtkahiwqmwkazrkx"
+                ],
+                "bundleId": "pyecegxolsrvqoed",
+                "description": "xulgizhcgsgiagku",
+                "iconUrl": "fwrsatzzyblpwdio",
+                "title": "kdgnbfkfhydwmwvr",
+                "version": "ltwtgdqjrrbsfwac"
+            },
+            {
+                "availablePlatforms": [
+                    "sdtuyfkswtplpkmy"
+                ],
+                "bundleId": "etibxpvsejgguwoc",
+                "description": "vrqsydcipvyklmgn",
+                "iconUrl": "gtgvumbwbuirgnhv",
+                "title": "agmayoiqsphvqtlx",
+                "version": "gncekpuqxvpvdyee"
+            },
+            {
+                "availablePlatforms": [
+                    "qftysuimczfvofhb"
+                ],
+                "bundleId": "gcpimqmsqdwvbzay",
+                "description": "jvfhtvvffzzhdley",
+                "iconUrl": "wvcuwhlmkphtfcio",
+                "title": "wifztkxeruezxocj",
+                "version": "cpeqsdxxvkpsemwx"
+            },
+            {
+                "availablePlatforms": [
+                    "bufurjwggpwzrfcy"
+                ],
+                "bundleId": "allninakgidcbhst",
+                "description": "vxzzrpcaxpjhqlyb",
+                "iconUrl": "zsttfccgzqdrkzsf",
+                "title": "aomysqadjlleumhb",
+                "version": "vtobsdqkjqgrwnuc"
+            },
+            {
+                "availablePlatforms": [
+                    "boieoqraafknardy"
+                ],
+                "bundleId": "rzmdfluhdsveptko",
+                "description": "xxfwpmmmykwrmpci",
+                "iconUrl": "oqptynivknbqnbep",
+                "title": "fmjnddgdaznomdhq",
+                "version": "uuojzxpszcgpnjnd"
+            },
+            {
+                "availablePlatforms": [
+                    "naqzwbsijqjyvtcp"
+                ],
+                "bundleId": "srftiewhbiwrtahw",
+                "description": "vtbhgzcbwgnspsgt",
+                "iconUrl": "crevyncwzrdybsnz",
+                "title": "fttnahhsniqookbn",
+                "version": "gedeffutyastqhaf"
+            }
+        ],
+        "result_key": "bundleList"
+    },
+    "meta": {
+        "start": 1711116216.568482,
+        "end": 1711116222.743087,
+        "duration": 6.174615144729614,
+        "service": "mobile",
+        "type": "bundles"
+    }
+}

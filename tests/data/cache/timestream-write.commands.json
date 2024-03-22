@@ -1,0 +1,10 @@
+[
+    "timestream-write.describe-batch-load-task",
+    "timestream-write.describe-database",
+    "timestream-write.describe-endpoints",
+    "timestream-write.describe-table",
+    "timestream-write.list-batch-load-tasks",
+    "timestream-write.list-databases",
+    "timestream-write.list-tables",
+    "timestream-write.list-tags-for-resource"
+]

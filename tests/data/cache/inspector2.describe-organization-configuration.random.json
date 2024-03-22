@@ -1,0 +1,62 @@
+[
+    {
+        "ec2": true,
+        "ecr": true,
+        "lambda": true,
+        "lambdaCode": true
+    },
+    {
+        "ec2": true,
+        "ecr": true,
+        "lambda": true,
+        "lambdaCode": true
+    },
+    {
+        "ec2": true,
+        "ecr": true,
+        "lambda": true,
+        "lambdaCode": true
+    },
+    {
+        "ec2": true,
+        "ecr": true,
+        "lambda": true,
+        "lambdaCode": true
+    },
+    {
+        "ec2": true,
+        "ecr": true,
+        "lambda": true,
+        "lambdaCode": true
+    },
+    {
+        "ec2": true,
+        "ecr": true,
+        "lambda": true,
+        "lambdaCode": true
+    },
+    {
+        "ec2": true,
+        "ecr": true,
+        "lambda": true,
+        "lambdaCode": true
+    },
+    {
+        "ec2": true,
+        "ecr": true,
+        "lambda": true,
+        "lambdaCode": true
+    },
+    {
+        "ec2": true,
+        "ecr": true,
+        "lambda": true,
+        "lambdaCode": true
+    },
+    {
+        "ec2": true,
+        "ecr": true,
+        "lambda": true,
+        "lambdaCode": true
+    }
+]

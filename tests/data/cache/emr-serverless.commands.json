@@ -1,0 +1,8 @@
+[
+    "emr-serverless.get-application",
+    "emr-serverless.get-dashboard-for-job-run",
+    "emr-serverless.get-job-run",
+    "emr-serverless.list-applications",
+    "emr-serverless.list-job-runs",
+    "emr-serverless.list-tags-for-resource"
+]

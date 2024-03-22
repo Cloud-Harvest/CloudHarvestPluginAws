@@ -1,0 +1,128 @@
+{
+    "input": {
+        "template": {
+            "graphIdentifier": "",
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "required": [],
+        "md5": "e1f8a483a86af2c9f42acb92887cdb89",
+        "boto_command": "list_graph_snapshots",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "id": "id",
+                "name": "name",
+                "arn": "arn",
+                "sourceGraphId": "sourceGraphId",
+                "snapshotCreateTime": "1970-01-01T00:00:00",
+                "status": "status",
+                "kmsKeyIdentifier": "kmsKeyIdentifier"
+            }
+        ],
+        "required": [],
+        "md5": "27989b1206eb1affbaac8674c444ee99",
+        "randomized": [
+            {
+                "arn": "vzhysmhcuzyvliez",
+                "id": "bzgcoolxpzfkusgi",
+                "kmsKeyIdentifier": "gpfnjvavsxumzinl",
+                "name": "enebsgerhkotuxyy",
+                "snapshotCreateTime": "fmayuynzursmpimo",
+                "sourceGraphId": "gdcmrcyvbqnggcwq",
+                "status": "ydxjbomfxgmnovek"
+            },
+            {
+                "arn": "ylzvnttdzdshhyfj",
+                "id": "hcehcyysgwarohvp",
+                "kmsKeyIdentifier": "lpalvkawgwxwwtsh",
+                "name": "rhmytnhjrziucfjd",
+                "snapshotCreateTime": "efkrrljfhomcmwlo",
+                "sourceGraphId": "nsepcleswwcflcir",
+                "status": "jaktxyucqibmsvxk"
+            },
+            {
+                "arn": "pcbmllzxglgxestf",
+                "id": "uiboytrsaeapdgfv",
+                "kmsKeyIdentifier": "nrpjrmobznfkqknj",
+                "name": "ajhxbrfsymodbpld",
+                "snapshotCreateTime": "rqwoutxpznagriqb",
+                "sourceGraphId": "hmbfsvilzxqcpacr",
+                "status": "pnszkkfkdtcszaev"
+            },
+            {
+                "arn": "whiiuhskdgsloyyc",
+                "id": "htflhkfikltjveoo",
+                "kmsKeyIdentifier": "rwilblqpucabnybc",
+                "name": "jteijaybvgwsoont",
+                "snapshotCreateTime": "ebmnawnlrkaexnlb",
+                "sourceGraphId": "bhifqjxotxjdhhmd",
+                "status": "qttddyktjgbagqbi"
+            },
+            {
+                "arn": "lurijznmhvshjdiv",
+                "id": "rkevajdtvxkvskxm",
+                "kmsKeyIdentifier": "xujizakpzjvskkoo",
+                "name": "zjzfrnvauqygyvxv",
+                "snapshotCreateTime": "nnwuwrqsfbnjngni",
+                "sourceGraphId": "anahcfwipymnxczu",
+                "status": "tcbfifvxkvcutxvh"
+            },
+            {
+                "arn": "byitewrrjudtssgp",
+                "id": "pphagkntcrqknhxk",
+                "kmsKeyIdentifier": "zeopyivyvbfbtpyc",
+                "name": "sxhqbpcslzcrfphn",
+                "snapshotCreateTime": "krfjgzmagpaewpdt",
+                "sourceGraphId": "fyyfucjtejxkepzt",
+                "status": "oarwnxarpjtpehhj"
+            },
+            {
+                "arn": "horyyiubjlyzbjfh",
+                "id": "emhdarfywiisapee",
+                "kmsKeyIdentifier": "jdnqegjnhgrqqnnk",
+                "name": "gutokhvasuhkyeft",
+                "snapshotCreateTime": "nnwuwkejhmjgudwe",
+                "sourceGraphId": "grrohahasrzbtwvn",
+                "status": "kqpguqdmoarcwlgf"
+            },
+            {
+                "arn": "jlsjitukkyrrwfaz",
+                "id": "zwupzlnwweibisiu",
+                "kmsKeyIdentifier": "ljgiadcnopzuiggd",
+                "name": "eadfsqorllszhlom",
+                "snapshotCreateTime": "zlyrlcbwtacurukr",
+                "sourceGraphId": "psnqzhidlkvimfmh",
+                "status": "fhgmcsvudwoxqjap"
+            },
+            {
+                "arn": "lxzivegzsngwfbnx",
+                "id": "sujoeicegryvsspa",
+                "kmsKeyIdentifier": "ejvjyvopvucbowsi",
+                "name": "izbdnniziaczsonq",
+                "snapshotCreateTime": "labjvkxlkcsqkqwg",
+                "sourceGraphId": "hemnyhvfchuiihqk",
+                "status": "tgezhqebqxvxodwr"
+            },
+            {
+                "arn": "bepquxjrwsbmdxgo",
+                "id": "yraxjdwacknxzdle",
+                "kmsKeyIdentifier": "cpldomsdrpsmxbrj",
+                "name": "jdbhbrnhdnjkuebo",
+                "snapshotCreateTime": "fuiirxppvjgxpydg",
+                "sourceGraphId": "aqzoxipjeggopfof",
+                "status": "swmkloalvhowmmgs"
+            }
+        ],
+        "result_key": "graphSnapshots"
+    },
+    "meta": {
+        "start": 1711116233.258633,
+        "end": 1711116240.589969,
+        "duration": 7.331345081329346,
+        "service": "neptune-graph",
+        "type": "graph_snapshots"
+    }
+}

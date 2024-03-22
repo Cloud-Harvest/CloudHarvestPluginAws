@@ -1,0 +1,43 @@
+{
+    "input": {
+        "template": {
+            "filter": {
+                "status": "SUCCEEDED"
+            },
+            "maxResults": 0,
+            "sortOrder": "ASCENDING",
+            "nextToken": ""
+        },
+        "required": [],
+        "md5": "2c58f7608ee8761eb1aa44fd549efe7b",
+        "boto_command": "list_build_batches",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            "NonEmptyString"
+        ],
+        "required": [],
+        "md5": "69a38fbd73887ea2e12218c7f342ff60",
+        "randomized": [
+            "latcgxxlycorkykd",
+            "camwnmqdurdysbtn",
+            "uwstusyuccjswsqm",
+            "eaxjlelpkeljzixm",
+            "jnuqodngrotgnmkn",
+            "fteiercnajnvrssz",
+            "cvhreviwipintrfj",
+            "dosioqkctcvzvyii",
+            "wsgntuohztezsomh",
+            "kcznbrfgothghcjj"
+        ],
+        "result_key": "ids"
+    },
+    "meta": {
+        "start": 1711115401.322553,
+        "end": 1711115408.819226,
+        "duration": 7.496682167053223,
+        "service": "codebuild",
+        "type": "build_batches"
+    }
+}

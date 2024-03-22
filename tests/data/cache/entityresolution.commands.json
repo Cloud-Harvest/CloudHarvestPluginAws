@@ -1,0 +1,16 @@
+[
+    "entityresolution.get-id-mapping-job",
+    "entityresolution.get-id-mapping-workflow",
+    "entityresolution.get-match-id",
+    "entityresolution.get-matching-job",
+    "entityresolution.get-matching-workflow",
+    "entityresolution.get-provider-service",
+    "entityresolution.get-schema-mapping",
+    "entityresolution.list-id-mapping-jobs",
+    "entityresolution.list-id-mapping-workflows",
+    "entityresolution.list-matching-jobs",
+    "entityresolution.list-matching-workflows",
+    "entityresolution.list-provider-services",
+    "entityresolution.list-schema-mappings",
+    "entityresolution.list-tags-for-resource"
+]

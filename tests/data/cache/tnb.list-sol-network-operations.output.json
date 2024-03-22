@@ -1,0 +1,193 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "required": [],
+        "md5": "2620fedaf24e984a8f801d0beb17a6e7",
+        "boto_command": "list_sol_network_operations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "arn": "arn",
+                "error": {
+                    "detail": "detail",
+                    "title": "title"
+                },
+                "id": "id",
+                "lcmOperationType": "lcmOperationType",
+                "metadata": {
+                    "createdAt": "1970-01-01T00:00:00",
+                    "lastModified": "1970-01-01T00:00:00"
+                },
+                "nsInstanceId": "nsInstanceId",
+                "operationState": "operationState"
+            }
+        ],
+        "required": [],
+        "md5": "5866a46dc23485f7d63356bc10b9a5f7",
+        "randomized": [
+            {
+                "arn": "vspgmgkygyvfuqqj",
+                "error": {
+                    "detail": "oovbirqijebflpiv",
+                    "title": "ltdvryijcwnwkxjh"
+                },
+                "id": "lzgtovbssodbfzno",
+                "lcmOperationType": "oyjipovtvqjkiwyu",
+                "metadata": {
+                    "createdAt": "nrgwpycmzegvmuhn",
+                    "lastModified": "lbnnoimlyitsrcib"
+                },
+                "nsInstanceId": "exrylxswtelgyglu",
+                "operationState": "xaleozggrsgzcfix"
+            },
+            {
+                "arn": "cqvixdjbkujbhjig",
+                "error": {
+                    "detail": "cgnucjnrhlgyjauh",
+                    "title": "lyjcokhgnhyocisn"
+                },
+                "id": "kriiughaqfyrlmxh",
+                "lcmOperationType": "xpgjugjhwiywxbdd",
+                "metadata": {
+                    "createdAt": "efbkvomkkwrvfzap",
+                    "lastModified": "ttucroqotrsngmzo"
+                },
+                "nsInstanceId": "jgwzzsajttafyrkn",
+                "operationState": "uzpxldhrpfmegkdt"
+            },
+            {
+                "arn": "ucvmzwpdfrepiabc",
+                "error": {
+                    "detail": "qxwbdcktvhmfpgyn",
+                    "title": "brtkwqtngrrhcrtk"
+                },
+                "id": "bownspqmzcgxikop",
+                "lcmOperationType": "nxzrynxwwmppgtfe",
+                "metadata": {
+                    "createdAt": "oenfvejunecbuoev",
+                    "lastModified": "fdpzomagruzzjpat"
+                },
+                "nsInstanceId": "gkotchkjuvsdexso",
+                "operationState": "furbzwldmzmzutmx"
+            },
+            {
+                "arn": "aisdwqywalizzuui",
+                "error": {
+                    "detail": "jjlryclnvrxtovsc",
+                    "title": "xbpxdgwwdngbihaq"
+                },
+                "id": "kbvrgpsqpbmbyaam",
+                "lcmOperationType": "qcopzuplgbwcptae",
+                "metadata": {
+                    "createdAt": "xwrskypkkwjxlnck",
+                    "lastModified": "dhlhamjgrlggdmtd"
+                },
+                "nsInstanceId": "nrsdlcwisgkxxbla",
+                "operationState": "ijnbwvoomdofnzsa"
+            },
+            {
+                "arn": "fndqrchwidjgpbmf",
+                "error": {
+                    "detail": "tqthxqdorldgtccb",
+                    "title": "hvweoixzufzukair"
+                },
+                "id": "kyuaszzozwougprw",
+                "lcmOperationType": "rrgdmhspsbkbtpqe",
+                "metadata": {
+                    "createdAt": "mwwovmuhjskdiuzv",
+                    "lastModified": "ytgnqoxvwouvwrpn"
+                },
+                "nsInstanceId": "hesjlgocjscsyvvc",
+                "operationState": "fryurlbmafskamul"
+            },
+            {
+                "arn": "ukhgekwwxnrlwoji",
+                "error": {
+                    "detail": "herrqfcxpnmiesyx",
+                    "title": "ldptmntgesphvfiw"
+                },
+                "id": "zltfamvrwyovrffl",
+                "lcmOperationType": "ygvmanbegzyyhyvs",
+                "metadata": {
+                    "createdAt": "demoqpscutphuqwc",
+                    "lastModified": "egmlqstvenqfaquy"
+                },
+                "nsInstanceId": "ylafntoqedcklrcv",
+                "operationState": "kimiomubcaeqfwth"
+            },
+            {
+                "arn": "syhfykjaodsdmtff",
+                "error": {
+                    "detail": "zpokwlntblmnrhaf",
+                    "title": "nsjehqzdkowtuece"
+                },
+                "id": "xfhonwkxiegjtmxk",
+                "lcmOperationType": "tkvsiakkmwuoeret",
+                "metadata": {
+                    "createdAt": "fxmqsgpeytwogook",
+                    "lastModified": "vxaquokcjbrlautg"
+                },
+                "nsInstanceId": "hyefpcuhgxapfrwr",
+                "operationState": "nrcvtfvsvejvkxfr"
+            },
+            {
+                "arn": "jseffqnwgqudfswf",
+                "error": {
+                    "detail": "tjamqgvnjukrvubh",
+                    "title": "jpytzcmnybgzvkbr"
+                },
+                "id": "wkejbdximohlrynd",
+                "lcmOperationType": "edcwjnqwaeaeiafj",
+                "metadata": {
+                    "createdAt": "ktfyzjsingkevhkl",
+                    "lastModified": "htodoafoctvfuuzz"
+                },
+                "nsInstanceId": "zfgqaulxftptqsqs",
+                "operationState": "nomcvqlludwccjxw"
+            },
+            {
+                "arn": "ijhprnrfiyelilfz",
+                "error": {
+                    "detail": "orhwibuuuvvcpvvd",
+                    "title": "qascdouatnxrdqrj"
+                },
+                "id": "kavttxfuedllhyem",
+                "lcmOperationType": "vrlywaigpkmroqos",
+                "metadata": {
+                    "createdAt": "uvoagvnixhmgrekj",
+                    "lastModified": "icotmciecjvukacd"
+                },
+                "nsInstanceId": "ndayimkzfxvhzgii",
+                "operationState": "kdzwtlzwemwldlos"
+            },
+            {
+                "arn": "aqoxxfcrcvrlrgwj",
+                "error": {
+                    "detail": "prqqnchiqgcxokrl",
+                    "title": "wnhtpjjdjbpfzftp"
+                },
+                "id": "upaksquqefwqiibf",
+                "lcmOperationType": "ebtlkwfxtndbouer",
+                "metadata": {
+                    "createdAt": "golsesqqvdgimnid",
+                    "lastModified": "lfkmiepdrwxisorr"
+                },
+                "nsInstanceId": "eckmejgsqqqfgljo",
+                "operationState": "kupkzxomcnygbure"
+            }
+        ],
+        "result_key": "networkOperations"
+    },
+    "meta": {
+        "start": 1711116727.803981,
+        "end": 1711116734.206925,
+        "duration": 6.402953863143921,
+        "service": "tnb",
+        "type": "sol_network_operations"
+    }
+}

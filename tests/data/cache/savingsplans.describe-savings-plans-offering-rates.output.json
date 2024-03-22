@@ -1,0 +1,299 @@
+{
+    "input": {
+        "template": {
+            "savingsPlanOfferingIds": [
+                ""
+            ],
+            "savingsPlanPaymentOptions": [
+                "All Upfront"
+            ],
+            "savingsPlanTypes": [
+                "Compute"
+            ],
+            "products": [
+                "EC2"
+            ],
+            "serviceCodes": [
+                "AmazonEC2"
+            ],
+            "usageTypes": [
+                ""
+            ],
+            "operations": [
+                ""
+            ],
+            "filters": [
+                {
+                    "name": "region",
+                    "values": [
+                        ""
+                    ]
+                }
+            ],
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "required": [],
+        "md5": "11e2a1b3748842e565a3c970b98a1830",
+        "boto_command": "describe_savings_plans_offering_rates",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "savingsPlanOffering": {
+                    "offeringId": "offeringId",
+                    "paymentOption": "paymentOption",
+                    "planType": "planType",
+                    "durationSeconds": 0,
+                    "currency": "currency",
+                    "planDescription": "planDescription"
+                },
+                "rate": "rate",
+                "unit": "unit",
+                "productType": "productType",
+                "serviceCode": "serviceCode",
+                "usageType": "usageType",
+                "operation": "operation",
+                "properties": [
+                    {
+                        "name": "name",
+                        "value": "value"
+                    }
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "91ba48341aa83cd1c5b4368518705706",
+        "randomized": [
+            {
+                "operation": "hjhidkiobpqoogsj",
+                "productType": "zwvfqegpculywyxx",
+                "properties": [
+                    {
+                        "name": "nheiuverowdytpbp",
+                        "value": "ctaeyjqsalhleywc"
+                    }
+                ],
+                "rate": "fhuqdrhbrdklhtat",
+                "savingsPlanOffering": {
+                    "currency": "cushkqqzhncuocwh",
+                    "durationSeconds": 0,
+                    "offeringId": "rqscuhqyqkhhevhd",
+                    "paymentOption": "xneboybdqavgdcmn",
+                    "planDescription": "mcirhloyehcjcmpw",
+                    "planType": "tmnqikkzttxdjdya"
+                },
+                "serviceCode": "pbzjrkrmoynzcxyo",
+                "unit": "gyoovdnafmpudfdg",
+                "usageType": "tkhmqsllvqysbjyl"
+            },
+            {
+                "operation": "wndpogridqhzyqik",
+                "productType": "mcscvxathzoxnerg",
+                "properties": [
+                    {
+                        "name": "nhydxyanlextifun",
+                        "value": "pchrexzkknalpxvm"
+                    }
+                ],
+                "rate": "twfkftbvzwbfkpoz",
+                "savingsPlanOffering": {
+                    "currency": "aurgfpzpzunyodsx",
+                    "durationSeconds": 0,
+                    "offeringId": "gkswcfspmisixftr",
+                    "paymentOption": "tdczutcneucsvkih",
+                    "planDescription": "swuikhilpyagbqxx",
+                    "planType": "pnkqbbybwfdgtlfi"
+                },
+                "serviceCode": "yfuijjrxxlunbwgp",
+                "unit": "xiyffrzyvvityahr",
+                "usageType": "wzprmjluhbbjmfrg"
+            },
+            {
+                "operation": "vqbcpwlvwicfvwox",
+                "productType": "gyenqjbgcdzcnigs",
+                "properties": [
+                    {
+                        "name": "lyalvbyloupfvueh",
+                        "value": "cujeqtfjwezqsonk"
+                    }
+                ],
+                "rate": "keliowwnyytgcbbl",
+                "savingsPlanOffering": {
+                    "currency": "kptbsvpngszwurxs",
+                    "durationSeconds": 0,
+                    "offeringId": "skgrmexdtvbkopus",
+                    "paymentOption": "vudpcyakqupnphlz",
+                    "planDescription": "gdqrpnloxsnuulns",
+                    "planType": "pypbajniiogeogwc"
+                },
+                "serviceCode": "tqldhkadsehesprr",
+                "unit": "wpiwymoqeoqktkbn",
+                "usageType": "suoxxucqbcoqtyoj"
+            },
+            {
+                "operation": "xsguzxicpriraofq",
+                "productType": "hzmrbhptuazcwvtc",
+                "properties": [
+                    {
+                        "name": "cgfaiewzlgrizabd",
+                        "value": "lfpxrdezzujjqltm"
+                    }
+                ],
+                "rate": "xznxoydunefbxltc",
+                "savingsPlanOffering": {
+                    "currency": "btepixstxchmyuke",
+                    "durationSeconds": 0,
+                    "offeringId": "ylqasmqqlfphwgys",
+                    "paymentOption": "zwcihrtfaydruyds",
+                    "planDescription": "iubqhfqcydudfkll",
+                    "planType": "fvdeyfxtqzzcehac"
+                },
+                "serviceCode": "tvtfctauqbxhqghs",
+                "unit": "ydvvokqdolowbcuy",
+                "usageType": "jtsxrhzjgjylukzn"
+            },
+            {
+                "operation": "pzmgyploazcprffw",
+                "productType": "oszuwoppnhocxvrd",
+                "properties": [
+                    {
+                        "name": "xmxldsanewnvonml",
+                        "value": "rwftbfpfxpxgdfrq"
+                    }
+                ],
+                "rate": "tsazcxlrmxsfxkux",
+                "savingsPlanOffering": {
+                    "currency": "yopebfeokstjqvru",
+                    "durationSeconds": 0,
+                    "offeringId": "gxtpbnvzhhalbhjo",
+                    "paymentOption": "xijpzkbiqvxnbyxb",
+                    "planDescription": "lzpnhvqopfozychp",
+                    "planType": "igseastqqgexoghc"
+                },
+                "serviceCode": "nenhtntvjestpykw",
+                "unit": "zeyakjpuzifvatoj",
+                "usageType": "fcozlrjptmyncnzk"
+            },
+            {
+                "operation": "mmszvbuqwhofjosp",
+                "productType": "carmghgkiaibeeqz",
+                "properties": [
+                    {
+                        "name": "bhldvzlaxglsyzsq",
+                        "value": "fhklcfyndukblvrs"
+                    }
+                ],
+                "rate": "eiijuqppzqrxzzdz",
+                "savingsPlanOffering": {
+                    "currency": "sibiabtzqbhvudzt",
+                    "durationSeconds": 0,
+                    "offeringId": "ldlskhxvrefuqhav",
+                    "paymentOption": "elmnwpwnfvnfgmsb",
+                    "planDescription": "duonssuevlqxkxcb",
+                    "planType": "woikpbuwerxfnucf"
+                },
+                "serviceCode": "dsqyiysdznlhbebm",
+                "unit": "ixtvmxubwrdbsiat",
+                "usageType": "yeemqmzawtarxtfg"
+            },
+            {
+                "operation": "nmtbmbmkyiqlvooc",
+                "productType": "vfdhpnqexvollnti",
+                "properties": [
+                    {
+                        "name": "iqnetuxnhsrlesyb",
+                        "value": "ntabfimduqcuxksk"
+                    }
+                ],
+                "rate": "taawmteykoimwtjk",
+                "savingsPlanOffering": {
+                    "currency": "gaypkveybwjyropb",
+                    "durationSeconds": 0,
+                    "offeringId": "qokwilegdhldzxmf",
+                    "paymentOption": "cuxyukvfzsfrsjqx",
+                    "planDescription": "tbuxphnoowkamkmx",
+                    "planType": "youylyczrvjhbvue"
+                },
+                "serviceCode": "whqsmkanljzoqtxv",
+                "unit": "wzfdcikelvswolrh",
+                "usageType": "vgnpvkfdlwytxuuc"
+            },
+            {
+                "operation": "zzwiwebypnfuodtb",
+                "productType": "bxsodweldzfqglgl",
+                "properties": [
+                    {
+                        "name": "axlgnnakjqyljyus",
+                        "value": "bclhnxhkzdchrpxd"
+                    }
+                ],
+                "rate": "hxhmaitlxreqcdbq",
+                "savingsPlanOffering": {
+                    "currency": "hwojrtznuklnvbyd",
+                    "durationSeconds": 0,
+                    "offeringId": "jopuemnzaeabrlyp",
+                    "paymentOption": "xffyrudsghzbvxmr",
+                    "planDescription": "yhznwpytlomhbvrv",
+                    "planType": "pyvincaoasejiuej"
+                },
+                "serviceCode": "ihtgrsdudlyishxf",
+                "unit": "rhoucrcdtbtbpjvm",
+                "usageType": "naebwuvdnmgsyokl"
+            },
+            {
+                "operation": "gdefkuudrzbshvop",
+                "productType": "wiwynumjvgokscee",
+                "properties": [
+                    {
+                        "name": "hzbkaltwujsrkkwm",
+                        "value": "ihzetdouhgpeaihs"
+                    }
+                ],
+                "rate": "zocznbcbkfiapxcd",
+                "savingsPlanOffering": {
+                    "currency": "fpnxetsusrjkammz",
+                    "durationSeconds": 0,
+                    "offeringId": "busuogwgxncgqfda",
+                    "paymentOption": "zlxomfnlcsunccuv",
+                    "planDescription": "cjpphvobwdldowpx",
+                    "planType": "ttaftxlwuhmwgrnt"
+                },
+                "serviceCode": "ckbkbmowfzziwbcl",
+                "unit": "ydqxfkqgvttzolht",
+                "usageType": "rudkkwynumplvoby"
+            },
+            {
+                "operation": "smoaqucgpnlzfpes",
+                "productType": "dfjnyfzirteonmmv",
+                "properties": [
+                    {
+                        "name": "tdbhbldpngkywgjs",
+                        "value": "eswywkladgsderwo"
+                    }
+                ],
+                "rate": "exlolscmwodnbggw",
+                "savingsPlanOffering": {
+                    "currency": "rdxuikenyqcausmm",
+                    "durationSeconds": 0,
+                    "offeringId": "fhzktpaevyufkqct",
+                    "paymentOption": "amtujblduwiojzdr",
+                    "planDescription": "wuwpkzlygwwozhmz",
+                    "planType": "pwbasjoymeyexvcw"
+                },
+                "serviceCode": "efnwgycispxtlrfp",
+                "unit": "ztgbpwqvsstdsezs",
+                "usageType": "pkpefwzxnwgdlmoy"
+            }
+        ],
+        "result_key": "searchResults"
+    },
+    "meta": {
+        "start": 1711116576.639737,
+        "end": 1711116583.976772,
+        "duration": 7.337048053741455,
+        "service": "savingsplans",
+        "type": "savings_plans_offering_rates"
+    }
+}

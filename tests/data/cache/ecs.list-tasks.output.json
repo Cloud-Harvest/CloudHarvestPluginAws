@@ -1,0 +1,46 @@
+{
+    "input": {
+        "template": {
+            "cluster": "",
+            "containerInstance": "",
+            "family": "",
+            "nextToken": "",
+            "maxResults": 0,
+            "startedBy": "",
+            "serviceName": "",
+            "desiredStatus": "RUNNING",
+            "launchType": "EC2"
+        },
+        "required": [],
+        "md5": "e44f662c6e24cba30829bb933736ce46",
+        "boto_command": "list_tasks",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            "String"
+        ],
+        "required": [],
+        "md5": "6d9d2758a366630f1b3439cda5de1da5",
+        "randomized": [
+            "litdbinghttczppj",
+            "yvasrfjdqvfboopn",
+            "ebugtwapdyosvyar",
+            "wqillbimhigycanv",
+            "ksurwyfaqjzkasti",
+            "krpmurmhqmfchivk",
+            "pwpfjfjlnujudgbx",
+            "danwmqeqxfthfsav",
+            "waxdugxrbfumzmyg",
+            "lmrnkziwxzimqbpb"
+        ],
+        "result_key": "taskArns"
+    },
+    "meta": {
+        "start": 1711115694.308298,
+        "end": 1711115700.697774,
+        "duration": 6.389485836029053,
+        "service": "ecs",
+        "type": "tasks"
+    }
+}

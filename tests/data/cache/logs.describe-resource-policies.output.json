@@ -1,0 +1,83 @@
+{
+    "input": {
+        "template": {
+            "nextToken": "",
+            "limit": 0
+        },
+        "required": [],
+        "md5": "3b0c67236e96e920a798b0999ab7e0ff",
+        "boto_command": "describe_resource_policies",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "policyName": "policyName",
+                "policyDocument": "policyDocument",
+                "lastUpdatedTime": 0
+            }
+        ],
+        "required": [],
+        "md5": "cb57b5f6f0ecc037e74378c6409fdf4d",
+        "randomized": [
+            {
+                "lastUpdatedTime": 0,
+                "policyDocument": "msaselxacslfaaow",
+                "policyName": "faojoryuniwtvlen"
+            },
+            {
+                "lastUpdatedTime": 0,
+                "policyDocument": "ipmatfgjrfxcrvuw",
+                "policyName": "facvnractbdkgaoi"
+            },
+            {
+                "lastUpdatedTime": 0,
+                "policyDocument": "jsxqohypxvxlgugw",
+                "policyName": "ztnvxwgpcivqitlg"
+            },
+            {
+                "lastUpdatedTime": 0,
+                "policyDocument": "vgwftxqabuuqwokz",
+                "policyName": "ljtmcqdmnnkpxzhe"
+            },
+            {
+                "lastUpdatedTime": 0,
+                "policyDocument": "tjgxrmzqwbxkvbrh",
+                "policyName": "ntdqelzrfnteujlp"
+            },
+            {
+                "lastUpdatedTime": 0,
+                "policyDocument": "fqpfshoifnrfqmil",
+                "policyName": "ragztvgquhwxqwer"
+            },
+            {
+                "lastUpdatedTime": 0,
+                "policyDocument": "uslboljdgutopzuf",
+                "policyName": "qvqsmflubcklxdzp"
+            },
+            {
+                "lastUpdatedTime": 0,
+                "policyDocument": "wdzevgjctvnxihih",
+                "policyName": "mruhsfhaxejjkapz"
+            },
+            {
+                "lastUpdatedTime": 0,
+                "policyDocument": "iwdfzojmurnmylmw",
+                "policyName": "dgateqkvjgxjchex"
+            },
+            {
+                "lastUpdatedTime": 0,
+                "policyDocument": "tsyfjixnfasnhdwm",
+                "policyName": "upctnupnqcrjlqss"
+            }
+        ],
+        "result_key": "resourcePolicies"
+    },
+    "meta": {
+        "start": 1711116121.10833,
+        "end": 1711116126.1727,
+        "duration": 5.064379930496216,
+        "service": "logs",
+        "type": "resource_policies"
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "list_pipeline_blueprints",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "BlueprintName": "BlueprintName"
+            }
+        ],
+        "required": [],
+        "md5": "cc2ba78d15bd66578a5eb3f868c384be",
+        "randomized": [
+            {
+                "BlueprintName": "dvdfjiifbotglhse"
+            },
+            {
+                "BlueprintName": "pfcsayculuaqclma"
+            },
+            {
+                "BlueprintName": "vxmpdlnskhvqngeb"
+            },
+            {
+                "BlueprintName": "fkxzywmmhygpppqc"
+            },
+            {
+                "BlueprintName": "tqtmqtlgsxvxvion"
+            },
+            {
+                "BlueprintName": "dfpkzkxjmnsgdwqd"
+            },
+            {
+                "BlueprintName": "dvagzggkoqjrcewh"
+            },
+            {
+                "BlueprintName": "pdlaokzwhxqmomba"
+            },
+            {
+                "BlueprintName": "wszzdmlmpaeeqsro"
+            },
+            {
+                "BlueprintName": "uvyddfacjazrxdgj"
+            }
+        ],
+        "result_key": "Blueprints"
+    },
+    "meta": {
+        "start": 1711116298.547511,
+        "end": 1711116305.541464,
+        "duration": 6.993963956832886,
+        "service": "osis",
+        "type": "pipeline_blueprints"
+    }
+}

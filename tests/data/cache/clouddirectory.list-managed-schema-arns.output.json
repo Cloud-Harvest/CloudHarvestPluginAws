@@ -1,0 +1,40 @@
+{
+    "input": {
+        "template": {
+            "SchemaArn": "",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "5b7ddf93cf9bcbe7970e40dde0f1b1c8",
+        "boto_command": "list_managed_schema_arns",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            "Arn"
+        ],
+        "required": [],
+        "md5": "36bbe769477f5700840ac82fdaaecb1f",
+        "randomized": [
+            "havboulnjuniipgd",
+            "hqfyedtdthdyealc",
+            "ehvgykuzpkzfrpps",
+            "byrtnnxdfrqhywde",
+            "beetgnnvbxprzclv",
+            "jtjnrjpqpusffqjf",
+            "ryddyanvsxhtlmez",
+            "ootutuevfkzkxzyh",
+            "zgzhketxnprhfmgt",
+            "zzfeobsdfwaeyflf"
+        ],
+        "result_key": "SchemaArns"
+    },
+    "meta": {
+        "start": 1711115354.789109,
+        "end": 1711115361.946213,
+        "duration": 7.157114028930664,
+        "service": "clouddirectory",
+        "type": "managed_schema_arns"
+    }
+}

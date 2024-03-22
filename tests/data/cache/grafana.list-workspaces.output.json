@@ -1,0 +1,292 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "required": [],
+        "md5": "2620fedaf24e984a8f801d0beb17a6e7",
+        "boto_command": "list_workspaces",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "authentication": {
+                    "providers": [
+                        "AuthenticationProviderTypes"
+                    ],
+                    "samlConfigurationStatus": "samlConfigurationStatus"
+                },
+                "created": "1970-01-01T00:00:00",
+                "description": "description",
+                "endpoint": "endpoint",
+                "grafanaToken": "grafanaToken",
+                "grafanaVersion": "grafanaVersion",
+                "id": "id",
+                "licenseType": "licenseType",
+                "modified": "1970-01-01T00:00:00",
+                "name": "name",
+                "notificationDestinations": [
+                    "NotificationDestinationType"
+                ],
+                "status": "status",
+                "tags": {
+                    "KeyName": ""
+                }
+            }
+        ],
+        "required": [],
+        "md5": "18cdcca170929a032089c39713708fe4",
+        "randomized": [
+            {
+                "authentication": {
+                    "providers": [
+                        "xcpjcwwlsaamqass"
+                    ],
+                    "samlConfigurationStatus": "dvrtcmcvglllvbmk"
+                },
+                "created": "kcerqihgrsljwgfm",
+                "description": "kgduenvvyvvivldx",
+                "endpoint": "qgdbnapbjpsatcgj",
+                "grafanaToken": "ruutcqsjrdfgvecn",
+                "grafanaVersion": "hvkhevedpqmgcflk",
+                "id": "plubcvsboyexrppx",
+                "licenseType": "ijyqppqalfjrqqbq",
+                "modified": "konhhzychdductqz",
+                "name": "plzztplyssqiziea",
+                "notificationDestinations": [
+                    "iothfrqhhvsdgpkx"
+                ],
+                "status": "wqoaxaeaszxmtiru",
+                "tags": {
+                    "KeyName": "kntisyqmualxmgpl"
+                }
+            },
+            {
+                "authentication": {
+                    "providers": [
+                        "ainukjejvzpgbigk"
+                    ],
+                    "samlConfigurationStatus": "xtljmpasoszrzqht"
+                },
+                "created": "rckbdmsoglvmitnu",
+                "description": "jvygaazeosycftkk",
+                "endpoint": "oywhyfgedwtxzjia",
+                "grafanaToken": "cawrzxqisgpjkxbz",
+                "grafanaVersion": "ojzkrqerfxbdjihl",
+                "id": "bjpjfehtwnetdgta",
+                "licenseType": "osticegpbfxtytor",
+                "modified": "upuslwzixflsyffv",
+                "name": "zjvycifhejxiydmq",
+                "notificationDestinations": [
+                    "iidmibrwxxurhzrw"
+                ],
+                "status": "jdvxzchgxbnmfpob",
+                "tags": {
+                    "KeyName": "lponlklisauxqinr"
+                }
+            },
+            {
+                "authentication": {
+                    "providers": [
+                        "ptminqfyvtopsuvy"
+                    ],
+                    "samlConfigurationStatus": "hbrlkgkcqsewfsif"
+                },
+                "created": "chvhlsdazrzayswt",
+                "description": "qrecdgbbzrrktdml",
+                "endpoint": "vszzqlqkltmffupm",
+                "grafanaToken": "ntdkkysoglcewlye",
+                "grafanaVersion": "vndfdlpawuqnviqw",
+                "id": "pbfcmxfvdlqyeurs",
+                "licenseType": "xvuxozgcjsxjiyzm",
+                "modified": "fiedcxupglnimzdc",
+                "name": "cjyllnihoqegbqdx",
+                "notificationDestinations": [
+                    "ximglrytjxkvgnhh"
+                ],
+                "status": "jmtmwuehdxbdqknh",
+                "tags": {
+                    "KeyName": "weqnvykmjqmvipyv"
+                }
+            },
+            {
+                "authentication": {
+                    "providers": [
+                        "ofkjxyshkfwgfjgq"
+                    ],
+                    "samlConfigurationStatus": "etxvuehgauuyhykc"
+                },
+                "created": "pjxkznoiznylslsl",
+                "description": "eyfplbkeflyyhdlk",
+                "endpoint": "svkmuhvdpikqkrwu",
+                "grafanaToken": "ioajcwblunrzcclf",
+                "grafanaVersion": "fdzdawlkhkkaphkd",
+                "id": "qrgkebvoskygryrg",
+                "licenseType": "oruyoipjdvoctwjk",
+                "modified": "qdmvwfzsuhfhhxya",
+                "name": "spoibiltvywxioww",
+                "notificationDestinations": [
+                    "aicdnhrngwgmwvbq"
+                ],
+                "status": "wstxcprvgksesvor",
+                "tags": {
+                    "KeyName": "pqstipzqyjcevuda"
+                }
+            },
+            {
+                "authentication": {
+                    "providers": [
+                        "ebcvmkzznhffvvou"
+                    ],
+                    "samlConfigurationStatus": "zdwvfcvysiddmwwz"
+                },
+                "created": "gbvgehrmvpyjufpu",
+                "description": "ynnxytohqvhfbxla",
+                "endpoint": "mgwtsijdfsyoncdw",
+                "grafanaToken": "gpqnjpdsjcqfbxmw",
+                "grafanaVersion": "qicgjhdklrzknmoo",
+                "id": "vduiujnaimrgvtah",
+                "licenseType": "xunmyilzmlggvxpx",
+                "modified": "bhzxicqfdptnkrii",
+                "name": "oyuyjlybxhymqldk",
+                "notificationDestinations": [
+                    "qyalemqfnlpqalto"
+                ],
+                "status": "jmzyhclycwmcinok",
+                "tags": {
+                    "KeyName": "olfnsezyhxohroea"
+                }
+            },
+            {
+                "authentication": {
+                    "providers": [
+                        "dlefotdbhyudrjhf"
+                    ],
+                    "samlConfigurationStatus": "ulqclmikstxlfcbt"
+                },
+                "created": "dookmbfpndrknval",
+                "description": "jvowzppcrjzrzcwg",
+                "endpoint": "agtrrcseurpcmall",
+                "grafanaToken": "ciwgyegajvraxwbr",
+                "grafanaVersion": "xadhrukbmnswuxqv",
+                "id": "aqxpumykudftcfqk",
+                "licenseType": "twuptotmnnpagmjt",
+                "modified": "uyydzkmegwlrqqrn",
+                "name": "fgjpryakmqpktmge",
+                "notificationDestinations": [
+                    "wffrtnlaltkidnge"
+                ],
+                "status": "shnuwyzpfrjlnljp",
+                "tags": {
+                    "KeyName": "ptkhkzsmbhiupagy"
+                }
+            },
+            {
+                "authentication": {
+                    "providers": [
+                        "dijysgzqpgjoozzs"
+                    ],
+                    "samlConfigurationStatus": "cnjrltpezclpxysp"
+                },
+                "created": "gozvlrcyuncrbexb",
+                "description": "wmgzkmfzjeoxlqda",
+                "endpoint": "fwkgjmnqzbbnhxfb",
+                "grafanaToken": "mrfvdpzwntazuzye",
+                "grafanaVersion": "tnuaffbxkiwdsolj",
+                "id": "auyzkuwyskwimkir",
+                "licenseType": "uuexulxurwlrdwwt",
+                "modified": "nuayhfilibbmmcku",
+                "name": "dqlhdfuownjqrdvf",
+                "notificationDestinations": [
+                    "fcpbgxheytthlyta"
+                ],
+                "status": "iqukyqjbnrdgihwq",
+                "tags": {
+                    "KeyName": "armckvwasxfhpoxy"
+                }
+            },
+            {
+                "authentication": {
+                    "providers": [
+                        "ldudylmdwskcnxbq"
+                    ],
+                    "samlConfigurationStatus": "jycezthsisapoxww"
+                },
+                "created": "kydjlcrzohkfmnln",
+                "description": "mvpmtxuzcwjlhvzm",
+                "endpoint": "zamovpdndlzkrfyk",
+                "grafanaToken": "jynjhqxglcxxqsdl",
+                "grafanaVersion": "qnttocsdcfgwkiir",
+                "id": "gmgrtaljknhihjtd",
+                "licenseType": "zlsxrczrtqacvjvj",
+                "modified": "hpzmspsbzdigqbso",
+                "name": "becdigejcxgvhvfo",
+                "notificationDestinations": [
+                    "xkxmclreisuxvzjm"
+                ],
+                "status": "ijtcqzhccmestpfu",
+                "tags": {
+                    "KeyName": "dgffqmmnymmvjdvs"
+                }
+            },
+            {
+                "authentication": {
+                    "providers": [
+                        "qmhauqdkbxvqgzbq"
+                    ],
+                    "samlConfigurationStatus": "wwztbvxrmxjacaya"
+                },
+                "created": "rbdyjcudhfxybewn",
+                "description": "ptwcvvqbpbtatbeg",
+                "endpoint": "pwdiwduvaniebynh",
+                "grafanaToken": "hsxnmzsozsuauxal",
+                "grafanaVersion": "ylqyqppmmzxdivkr",
+                "id": "talsuhbbtmigeydk",
+                "licenseType": "gomijnqvsxwshvop",
+                "modified": "uyfawbvtokngckdh",
+                "name": "rlsrytbjklppsvsc",
+                "notificationDestinations": [
+                    "ylosuhyioftvfxqt"
+                ],
+                "status": "jnlfiyvpxbpmjyia",
+                "tags": {
+                    "KeyName": "kefqxsrdtxpjwtqs"
+                }
+            },
+            {
+                "authentication": {
+                    "providers": [
+                        "pyusabipsfgwzeiu"
+                    ],
+                    "samlConfigurationStatus": "emdocybixbraibll"
+                },
+                "created": "xjajdajqoumsbjxr",
+                "description": "grzymjliudtdqiow",
+                "endpoint": "zivvvadaqhimarye",
+                "grafanaToken": "rrrqhssxfsymyxuq",
+                "grafanaVersion": "gsoynckheosbkqsg",
+                "id": "zdniziuegusywaea",
+                "licenseType": "svoropcooaykphqk",
+                "modified": "dwaasrwzqrroascf",
+                "name": "rbuoaxuofwogwpyn",
+                "notificationDestinations": [
+                    "hxiqlncfjgcniqps"
+                ],
+                "status": "ulgquvnrwvqwcmwb",
+                "tags": {
+                    "KeyName": "hppnudlcodipmjrq"
+                }
+            }
+        ],
+        "result_key": "workspaces"
+    },
+    "meta": {
+        "start": 1711115843.363356,
+        "end": 1711115849.529147,
+        "duration": 6.165803909301758,
+        "service": "grafana",
+        "type": "workspaces"
+    }
+}

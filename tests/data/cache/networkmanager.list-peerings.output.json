@@ -1,0 +1,219 @@
+{
+    "input": {
+        "template": {
+            "CoreNetworkId": "",
+            "PeeringType": "TRANSIT_GATEWAY",
+            "EdgeLocation": "",
+            "State": "CREATING",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "82e30a8cf1f9fc4c6eeb29376b6a0f8b",
+        "boto_command": "list_peerings",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "CoreNetworkId": "CoreNetworkId",
+                "CoreNetworkArn": "CoreNetworkArn",
+                "PeeringId": "PeeringId",
+                "OwnerAccountId": "OwnerAccountId",
+                "PeeringType": "PeeringType",
+                "State": "State",
+                "EdgeLocation": "EdgeLocation",
+                "ResourceArn": "ResourceArn",
+                "Tags": [
+                    {
+                        "Key": "Key",
+                        "Value": "Value"
+                    }
+                ],
+                "CreatedAt": "1970-01-01T00:00:00"
+            }
+        ],
+        "required": [],
+        "md5": "b5489a9ea25c425b8dc017ae4f5cec69",
+        "randomized": [
+            {
+                "CoreNetworkArn": "wfwgbzzhjfulhixa",
+                "CoreNetworkId": "nktljgupkyyjuurg",
+                "CreatedAt": "zqngzpaiowatlekl",
+                "EdgeLocation": "suctwivfmxqjejdr",
+                "OwnerAccountId": "ttuhsdgzlhffoawq",
+                "PeeringId": "yogfbdwtswtwfpvx",
+                "PeeringType": "ovjacjntjrufhsoj",
+                "ResourceArn": "bzwhebdhjszmbdea",
+                "State": "dobmvkveojhnqujq",
+                "Tags": [
+                    {
+                        "Key": "qbyxnbrpmhzrptdx",
+                        "Value": "ghrsrcabkxjowmgq"
+                    }
+                ]
+            },
+            {
+                "CoreNetworkArn": "guztnxpnrxbmagnj",
+                "CoreNetworkId": "qskkzqtkyqhdfluh",
+                "CreatedAt": "wcogvjwlqtztlhwq",
+                "EdgeLocation": "cjihaijqdmfafrxc",
+                "OwnerAccountId": "obnjmppxgyhkgxvf",
+                "PeeringId": "qwhgvrhbvirzmchm",
+                "PeeringType": "wrcqazzrnfozrknw",
+                "ResourceArn": "qytfxhftpnyrfrmb",
+                "State": "ychfmgrrkbfpmhoi",
+                "Tags": [
+                    {
+                        "Key": "tgjqwruvmcgrjiwl",
+                        "Value": "blomjiimtxporsvl"
+                    }
+                ]
+            },
+            {
+                "CoreNetworkArn": "vtsgzesdgifjxdme",
+                "CoreNetworkId": "uuwyhfwlnzgpkbyq",
+                "CreatedAt": "fruwsrqgedlpzupg",
+                "EdgeLocation": "ottmoxbymjfgpjyp",
+                "OwnerAccountId": "ivvgckwrgwiqlbgq",
+                "PeeringId": "ylxhyofvyfsvksql",
+                "PeeringType": "tzobubwaonfbyozp",
+                "ResourceArn": "bacxrqqrqkxzjfvl",
+                "State": "iefpfmwllxfhpknh",
+                "Tags": [
+                    {
+                        "Key": "kdtykjaueqhzesib",
+                        "Value": "oyypytpfacscotmm"
+                    }
+                ]
+            },
+            {
+                "CoreNetworkArn": "sewcrtyxpmiiasbs",
+                "CoreNetworkId": "amczhlomqugykcok",
+                "CreatedAt": "hjhaxepwohfusous",
+                "EdgeLocation": "hyzgvvqthridwtix",
+                "OwnerAccountId": "nmcnnnpxvtvwdhuf",
+                "PeeringId": "mvzeifnrjoeukdgx",
+                "PeeringType": "vvwossfbkuecqnlh",
+                "ResourceArn": "ijyejiufnqxtgtrc",
+                "State": "vlwlgwiwzmtxtpal",
+                "Tags": [
+                    {
+                        "Key": "rfxlexsqtqnsgixt",
+                        "Value": "chtfzacwfdgwwrvl"
+                    }
+                ]
+            },
+            {
+                "CoreNetworkArn": "abppoiqedlmfehud",
+                "CoreNetworkId": "pjqzywvmalkvpeuu",
+                "CreatedAt": "otnfqrszqhpstxsz",
+                "EdgeLocation": "cjhilzokfbmtlpoe",
+                "OwnerAccountId": "mlxbmkmjrgxcjujo",
+                "PeeringId": "coxakrjthjonaaay",
+                "PeeringType": "ujymqlnvkdwvadct",
+                "ResourceArn": "dgkdasdepgsewgoz",
+                "State": "gccairgprlvgfhho",
+                "Tags": [
+                    {
+                        "Key": "dgajnbsheaezhgqm",
+                        "Value": "cgfuakhrwmpmrhoo"
+                    }
+                ]
+            },
+            {
+                "CoreNetworkArn": "smdpkkrfxoclpbpu",
+                "CoreNetworkId": "vpgtysxtvoehjdwj",
+                "CreatedAt": "htjjlcqhcjcqvujd",
+                "EdgeLocation": "osqrmkscmbhumfpw",
+                "OwnerAccountId": "xykjvkydabadyfhn",
+                "PeeringId": "gzrsuiqdvvqbatun",
+                "PeeringType": "wtapujznpebzgxuu",
+                "ResourceArn": "cdavycykqovxnvyw",
+                "State": "mtublajtnvlxqqze",
+                "Tags": [
+                    {
+                        "Key": "compnapfequupxru",
+                        "Value": "nexgsbueffebvzgi"
+                    }
+                ]
+            },
+            {
+                "CoreNetworkArn": "tlfcqyrbcfkyldsb",
+                "CoreNetworkId": "gmkzcuxcennfteyo",
+                "CreatedAt": "dlqfirklihpzwltx",
+                "EdgeLocation": "wjvvgebrkrclyjag",
+                "OwnerAccountId": "abqhtmvlqkndhfgf",
+                "PeeringId": "dxufptuakrjatotg",
+                "PeeringType": "cgjztzueizhryayi",
+                "ResourceArn": "xcxxlhuxnpzllgrs",
+                "State": "dwmszthussaojdqu",
+                "Tags": [
+                    {
+                        "Key": "fuoaexbkixtnmxqq",
+                        "Value": "xnyqngmbyusmozol"
+                    }
+                ]
+            },
+            {
+                "CoreNetworkArn": "knrsxbiknsetuwdf",
+                "CoreNetworkId": "ebqgniincrdzvetc",
+                "CreatedAt": "zvhviucjhszjiski",
+                "EdgeLocation": "lttqtoyorcgzsjoo",
+                "OwnerAccountId": "nbbzghnlxmowhivi",
+                "PeeringId": "uxpewzlbjrcftewg",
+                "PeeringType": "nycjlyktlitqefvc",
+                "ResourceArn": "dgbrtpcaibrbfwdp",
+                "State": "eeimbwpkugaolrsd",
+                "Tags": [
+                    {
+                        "Key": "mgmeluzjsmobzswa",
+                        "Value": "lviokrxqevdcsvrh"
+                    }
+                ]
+            },
+            {
+                "CoreNetworkArn": "ckqlyahzqguszqpa",
+                "CoreNetworkId": "budjvyrlildbxtjs",
+                "CreatedAt": "hfpzccqtyisdqxmo",
+                "EdgeLocation": "znuxxsylzrzqlzzs",
+                "OwnerAccountId": "ymbvogpumlhmcrvp",
+                "PeeringId": "nsmhqsvgdzxdjwiy",
+                "PeeringType": "vaanxolsjpqxqppq",
+                "ResourceArn": "gfshycijwspjizrh",
+                "State": "krobtynrugueopvm",
+                "Tags": [
+                    {
+                        "Key": "ixzyvuvavkclioze",
+                        "Value": "qahtersnozzmxlqy"
+                    }
+                ]
+            },
+            {
+                "CoreNetworkArn": "hpslkzdepopbhbif",
+                "CoreNetworkId": "lgxmsrzhlligjbhw",
+                "CreatedAt": "fuqwlzfuedttrcnc",
+                "EdgeLocation": "nmvgjnunoftjacbj",
+                "OwnerAccountId": "pgwtjhafpjeuxvoh",
+                "PeeringId": "ebbkpfkvsfktncqi",
+                "PeeringType": "jteyogeizlmolanf",
+                "ResourceArn": "vrzujivgnrmvglfa",
+                "State": "utuihhvmalmzklul",
+                "Tags": [
+                    {
+                        "Key": "zyzhbgmdcrkxdvvf",
+                        "Value": "cirrmgdwjwvvfkbr"
+                    }
+                ]
+            }
+        ],
+        "result_key": "Peerings"
+    },
+    "meta": {
+        "start": 1711116252.468088,
+        "end": 1711116260.003849,
+        "duration": 7.535772085189819,
+        "service": "networkmanager",
+        "type": "peerings"
+    }
+}

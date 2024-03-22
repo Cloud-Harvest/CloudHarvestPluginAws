@@ -1,0 +1,7 @@
+[
+    "datapipeline.describe-objects",
+    "datapipeline.describe-pipelines",
+    "datapipeline.get-pipeline-definition",
+    "datapipeline.list-pipelines",
+    "datapipeline.list-runs"
+]

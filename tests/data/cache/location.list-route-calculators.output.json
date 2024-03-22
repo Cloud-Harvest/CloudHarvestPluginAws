@@ -1,0 +1,116 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "031b56893c6f5a9d0ebe6017c5c080cb",
+        "boto_command": "list_route_calculators",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "CalculatorName": "CalculatorName",
+                "CreateTime": "1970-01-01T00:00:00",
+                "DataSource": "DataSource",
+                "Description": "Description",
+                "PricingPlan": "PricingPlan",
+                "UpdateTime": "1970-01-01T00:00:00"
+            }
+        ],
+        "required": [],
+        "md5": "13cda7a15510aee8d17efd35a6c734ca",
+        "randomized": [
+            {
+                "CalculatorName": "chgikbumwouebloe",
+                "CreateTime": "xlecxhywshzgliwe",
+                "DataSource": "ualbbanfzzhvmdrt",
+                "Description": "pzdtrfmrswbnzgeg",
+                "PricingPlan": "hthdxgbnutgwsnwy",
+                "UpdateTime": "tdsbrnvzbrggisfv"
+            },
+            {
+                "CalculatorName": "saffodyhwkmnpwyp",
+                "CreateTime": "rmmjreesghhhrhey",
+                "DataSource": "ezwyyvjlxskgzjqf",
+                "Description": "uzamhsstnmhfeioj",
+                "PricingPlan": "ykxjtanadqejdujt",
+                "UpdateTime": "ssbpiycrmvjamfsn"
+            },
+            {
+                "CalculatorName": "anzzkgtgplpgfgup",
+                "CreateTime": "fgmousfpjckktozf",
+                "DataSource": "ywuxyyamlycqpzgb",
+                "Description": "gxpwjipkhggmdwvz",
+                "PricingPlan": "xrgzssvrdvltdphk",
+                "UpdateTime": "hcxsrqlyhtozgljq"
+            },
+            {
+                "CalculatorName": "oioeqrcmmlusoftj",
+                "CreateTime": "ylnguuyguehfaogh",
+                "DataSource": "qruclclgesitiihr",
+                "Description": "uzjkobydcwatdxmz",
+                "PricingPlan": "ldztzpdcgsbrdjeb",
+                "UpdateTime": "knlcvonhfayfjspi"
+            },
+            {
+                "CalculatorName": "rzrblzhuoyhgkqkw",
+                "CreateTime": "tjsvjijcesvnxnln",
+                "DataSource": "rrbrxyxkrkcpmfmq",
+                "Description": "qsedzwjakliglwvm",
+                "PricingPlan": "xjvnzkoyejvltysg",
+                "UpdateTime": "ogqhtwrcokuinsde"
+            },
+            {
+                "CalculatorName": "lnaasanayznuiklu",
+                "CreateTime": "lqyamwklwggcakpc",
+                "DataSource": "platksdvuaqydtzi",
+                "Description": "vdtbxgwrpkgyumpn",
+                "PricingPlan": "whjihymvsnmivhaf",
+                "UpdateTime": "dsiclnbkamcdsxnu"
+            },
+            {
+                "CalculatorName": "fletjlkpgdcjezbd",
+                "CreateTime": "ucrdgbfxsnhokwwx",
+                "DataSource": "fpqzmjkygvcdizxa",
+                "Description": "ojpeznstthhofwwx",
+                "PricingPlan": "ihhhafvdnaptydal",
+                "UpdateTime": "dsqyticilslbalne"
+            },
+            {
+                "CalculatorName": "zggpinhuheydlizv",
+                "CreateTime": "uxbonpepjfxcxdmq",
+                "DataSource": "izkrwtmwfriladwu",
+                "Description": "ainfcsufvqrxxzmj",
+                "PricingPlan": "mrvewhkwyyhhzeui",
+                "UpdateTime": "ztvtpmriwgiydgbk"
+            },
+            {
+                "CalculatorName": "dtoztyhylvvbtgiw",
+                "CreateTime": "jqyailssrclvkbru",
+                "DataSource": "hxleiczfgvorpzaz",
+                "Description": "wptbrcscyeljywhn",
+                "PricingPlan": "lqwpypjojknexjte",
+                "UpdateTime": "prixqtorozyviwzm"
+            },
+            {
+                "CalculatorName": "vvgghkdwlxlupptr",
+                "CreateTime": "fpisvhshkbkntdrx",
+                "DataSource": "yvjqwqmhgdbzjdwr",
+                "Description": "ebbwfsdeutacnxkr",
+                "PricingPlan": "zaoawinodkwizezi",
+                "UpdateTime": "jsqulwpcnubynona"
+            }
+        ],
+        "result_key": "Entries"
+    },
+    "meta": {
+        "start": 1711116115.622153,
+        "end": 1711116124.604806,
+        "duration": 8.982662916183472,
+        "service": "location",
+        "type": "route_calculators"
+    }
+}

@@ -1,0 +1,116 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "required": [],
+        "md5": "2620fedaf24e984a8f801d0beb17a6e7",
+        "boto_command": "list_agents",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "agentId": "agentId",
+                "agentName": "agentName",
+                "agentStatus": "agentStatus",
+                "description": "description",
+                "updatedAt": "1970-01-01T00:00:00",
+                "latestAgentVersion": "latestAgentVersion"
+            }
+        ],
+        "required": [],
+        "md5": "66e2d6afd4367d6b2714a9f7289330c5",
+        "randomized": [
+            {
+                "agentId": "tidczcnhjqpkevzg",
+                "agentName": "hctesfkhbelkplam",
+                "agentStatus": "zkmqxxhyhbtpsgzj",
+                "description": "qvpiiiuynjgwpora",
+                "latestAgentVersion": "halqhoydimyknnyt",
+                "updatedAt": "uhrqrvrubtsueeje"
+            },
+            {
+                "agentId": "wahjbgpgadmaajkx",
+                "agentName": "iopsdyfdeqtusrzq",
+                "agentStatus": "txinsfcluvglhkim",
+                "description": "cadxlmkwuhtnuokj",
+                "latestAgentVersion": "fqpshgaypscnubpp",
+                "updatedAt": "vdkflxabuehqkahu"
+            },
+            {
+                "agentId": "yzslghaztcmhgpav",
+                "agentName": "gvpzrgvpczmxsbtq",
+                "agentStatus": "vzdyzjrrtaljwwmp",
+                "description": "flajaukpivvivddd",
+                "latestAgentVersion": "juslmdqqyisagqml",
+                "updatedAt": "mfdymqqhzmncebei"
+            },
+            {
+                "agentId": "kxdskgtvsugwhvav",
+                "agentName": "uzkjslqagfdbfdrf",
+                "agentStatus": "zbvgwoskkkkwwyvm",
+                "description": "zsjuaxolyckroawj",
+                "latestAgentVersion": "urbivwliszcgfpse",
+                "updatedAt": "smzdbgndxgweilcw"
+            },
+            {
+                "agentId": "bsfgdtadsgfmvgox",
+                "agentName": "wkioxuegzsncuohk",
+                "agentStatus": "tvfldyiuqzszbczb",
+                "description": "qwbqblblhqnmggll",
+                "latestAgentVersion": "byvtuctpwbtbdenb",
+                "updatedAt": "vgfdjchrjbntlxor"
+            },
+            {
+                "agentId": "pjqdjydebpwlmlhq",
+                "agentName": "intudqwjxqhezjxe",
+                "agentStatus": "fmhdqzrfxvajukfd",
+                "description": "gtltcrdkbdsvriib",
+                "latestAgentVersion": "ryeffwqviqqusewn",
+                "updatedAt": "cmhxkpfpmfgqlxcs"
+            },
+            {
+                "agentId": "wauztlxmoyspveiy",
+                "agentName": "stgfnmslcqcjrvqt",
+                "agentStatus": "zaisyppsbtlhihqe",
+                "description": "zbewystlmfbthcll",
+                "latestAgentVersion": "garfkrfntwkfvpoo",
+                "updatedAt": "jiaruuundunspglu"
+            },
+            {
+                "agentId": "pqigjirnusedgfbc",
+                "agentName": "kehvnhetsomgttyq",
+                "agentStatus": "plomptbsiospjfxb",
+                "description": "djekxgeymduhznho",
+                "latestAgentVersion": "fhtxzktyewvxvkrj",
+                "updatedAt": "nmxgxlycmaxlntsd"
+            },
+            {
+                "agentId": "qoqgecssssldlldp",
+                "agentName": "fvbzyjvdpyfumayt",
+                "agentStatus": "qrxvsynphfwpogev",
+                "description": "wtffvjwxuxanogfr",
+                "latestAgentVersion": "aaahbfqaxuabsrqx",
+                "updatedAt": "ybwokzzsnxmmdhfg"
+            },
+            {
+                "agentId": "rifyfzuqyahlghkt",
+                "agentName": "wlfmyakahnxoabbg",
+                "agentStatus": "xswwdhsutcegpuhs",
+                "description": "juxngzwmjkfewcsv",
+                "latestAgentVersion": "tokkfjqopjvpuakh",
+                "updatedAt": "fztdidvuzmpthysq"
+            }
+        ],
+        "result_key": "agentSummaries"
+    },
+    "meta": {
+        "start": 1711115298.690097,
+        "end": 1711115305.788238,
+        "duration": 7.098151922225952,
+        "service": "bedrock-agent",
+        "type": "agents"
+    }
+}

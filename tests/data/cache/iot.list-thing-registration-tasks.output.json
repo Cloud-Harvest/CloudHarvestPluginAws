@@ -1,0 +1,40 @@
+{
+    "input": {
+        "template": {
+            "nextToken": "",
+            "maxResults": 0,
+            "status": "InProgress"
+        },
+        "required": [],
+        "md5": "a0b46e3e1eb2edc35ae12075d1b17431",
+        "boto_command": "list_thing_registration_tasks",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            "TaskId"
+        ],
+        "required": [],
+        "md5": "d79506bf2c24a484dde929d21c3f0cd3",
+        "randomized": [
+            "txvslfslpcxspunk",
+            "nbakajwiwmobamty",
+            "seifzfknmbtcpenb",
+            "sngqtawitwbrakwe",
+            "fblmhsmfgsbsacnj",
+            "wpchqilnddsxcrky",
+            "vdajhizqpxfloivq",
+            "ynihfpbhmwgxephn",
+            "aoqcajmeqqnosjqo",
+            "ppoohfxrovdunrfb"
+        ],
+        "result_key": "taskIds"
+    },
+    "meta": {
+        "start": 1711115949.505982,
+        "end": 1711115958.00673,
+        "duration": 8.50075912475586,
+        "service": "iot",
+        "type": "thing_registration_tasks"
+    }
+}

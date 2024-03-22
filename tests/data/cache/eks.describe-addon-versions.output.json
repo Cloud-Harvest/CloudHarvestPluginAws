@@ -1,0 +1,347 @@
+{
+    "input": {
+        "template": {
+            "kubernetesVersion": "",
+            "maxResults": 0,
+            "nextToken": "",
+            "addonName": "",
+            "types": [
+                ""
+            ],
+            "publishers": [
+                ""
+            ],
+            "owners": [
+                ""
+            ]
+        },
+        "required": [],
+        "md5": "10cdcec9009e10843cdc2119290a04ad",
+        "boto_command": "describe_addon_versions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "addonName": "addonName",
+                "type": "type",
+                "addonVersions": [
+                    {
+                        "addonVersion": "addonVersion",
+                        "architecture": [
+                            "String"
+                        ],
+                        "compatibilities": [
+                            {
+                                "clusterVersion": "clusterVersion",
+                                "platformVersions": [
+                                    "String"
+                                ],
+                                "defaultVersion": true
+                            }
+                        ],
+                        "requiresConfiguration": true
+                    }
+                ],
+                "publisher": "publisher",
+                "owner": "owner",
+                "marketplaceInformation": {
+                    "productId": "productId",
+                    "productUrl": "productUrl"
+                }
+            }
+        ],
+        "required": [],
+        "md5": "9a75122fa02bbe5d24b5d35be62843dc",
+        "randomized": [
+            {
+                "addonName": "sshlougrnqxqgnvr",
+                "addonVersions": [
+                    {
+                        "addonVersion": "gcucupzfdwoigrjp",
+                        "architecture": [
+                            "ufgticnirdmngerf"
+                        ],
+                        "compatibilities": [
+                            {
+                                "clusterVersion": "lbpvagkkiyyycwtk",
+                                "defaultVersion": true,
+                                "platformVersions": [
+                                    "gmzzogteoxlshizv"
+                                ]
+                            }
+                        ],
+                        "requiresConfiguration": true
+                    }
+                ],
+                "marketplaceInformation": {
+                    "productId": "qzkpmtdsocxbstjz",
+                    "productUrl": "crikpxbafxdouqpz"
+                },
+                "owner": "lptiwibxkfytixqd",
+                "publisher": "tvmtmmgwxkpjqgrk",
+                "type": "ghbtjgoczjdlxjzx"
+            },
+            {
+                "addonName": "wjeymqrjxzwwblji",
+                "addonVersions": [
+                    {
+                        "addonVersion": "dafxlkybhpqvwzlj",
+                        "architecture": [
+                            "mauphsvbpipuhgpr"
+                        ],
+                        "compatibilities": [
+                            {
+                                "clusterVersion": "xcdqqnmoxziqhoaq",
+                                "defaultVersion": true,
+                                "platformVersions": [
+                                    "teywjtlwrdsfrovu"
+                                ]
+                            }
+                        ],
+                        "requiresConfiguration": true
+                    }
+                ],
+                "marketplaceInformation": {
+                    "productId": "rkoibccxhnrxgczx",
+                    "productUrl": "yjumpebcxfjwqwxy"
+                },
+                "owner": "isxuaiaaomqhsfpj",
+                "publisher": "wajahqpytijtlaop",
+                "type": "fxoabcwuvwbngfol"
+            },
+            {
+                "addonName": "bjvpcvmfrwudjlaz",
+                "addonVersions": [
+                    {
+                        "addonVersion": "vfstjycapafgyddk",
+                        "architecture": [
+                            "twwyfokdiextbmcq"
+                        ],
+                        "compatibilities": [
+                            {
+                                "clusterVersion": "tesfrsorefzrufkx",
+                                "defaultVersion": true,
+                                "platformVersions": [
+                                    "sqzacpwmsrrohkev"
+                                ]
+                            }
+                        ],
+                        "requiresConfiguration": true
+                    }
+                ],
+                "marketplaceInformation": {
+                    "productId": "bgopousljndjauxp",
+                    "productUrl": "ezgvbtoupbvjuwyo"
+                },
+                "owner": "zexmgtoctxdcdrgs",
+                "publisher": "ozkhrdnqaksplwru",
+                "type": "scydmtzkoleftnls"
+            },
+            {
+                "addonName": "jzzpubjcbzaskbfs",
+                "addonVersions": [
+                    {
+                        "addonVersion": "jhtegbyiqyplljue",
+                        "architecture": [
+                            "fkhuosswwqivwlcy"
+                        ],
+                        "compatibilities": [
+                            {
+                                "clusterVersion": "zuppvkmfpsejjuix",
+                                "defaultVersion": true,
+                                "platformVersions": [
+                                    "kwlubpwzpbslcjfi"
+                                ]
+                            }
+                        ],
+                        "requiresConfiguration": true
+                    }
+                ],
+                "marketplaceInformation": {
+                    "productId": "pqfngnnuxceboskr",
+                    "productUrl": "bsurqyqlixzvpvpn"
+                },
+                "owner": "rhuqodpcffdfahei",
+                "publisher": "ykmvgffbmjvgimtq",
+                "type": "shyruflcmgiuivqo"
+            },
+            {
+                "addonName": "alknglrcrmacagyn",
+                "addonVersions": [
+                    {
+                        "addonVersion": "rmmkmyntrsdkjtoq",
+                        "architecture": [
+                            "wwtepjqanelxokek"
+                        ],
+                        "compatibilities": [
+                            {
+                                "clusterVersion": "huakhexzjnvqmfce",
+                                "defaultVersion": true,
+                                "platformVersions": [
+                                    "sxrdffoprqqcdhbt"
+                                ]
+                            }
+                        ],
+                        "requiresConfiguration": true
+                    }
+                ],
+                "marketplaceInformation": {
+                    "productId": "ujlmrkuvadkmnlec",
+                    "productUrl": "hmaskzzgykkwdrpn"
+                },
+                "owner": "rpnxwrlpcwibtemg",
+                "publisher": "khxufuxvzjuqzknv",
+                "type": "qykkwynnzcguwsmo"
+            },
+            {
+                "addonName": "eykakdbtbxqmivur",
+                "addonVersions": [
+                    {
+                        "addonVersion": "lmxpcpqbforhffmz",
+                        "architecture": [
+                            "dgbygmdjwspfgikh"
+                        ],
+                        "compatibilities": [
+                            {
+                                "clusterVersion": "owgkzfkmvgxwjapb",
+                                "defaultVersion": true,
+                                "platformVersions": [
+                                    "jkutjcmfactftypp"
+                                ]
+                            }
+                        ],
+                        "requiresConfiguration": true
+                    }
+                ],
+                "marketplaceInformation": {
+                    "productId": "ztczxtewlmzvjgga",
+                    "productUrl": "mlstckohbkwvkadm"
+                },
+                "owner": "nqxgzgedjoujvbsk",
+                "publisher": "hgqtfoqhszndtydx",
+                "type": "mdyicyekabkrtucc"
+            },
+            {
+                "addonName": "hzbfiyizfspvwdhn",
+                "addonVersions": [
+                    {
+                        "addonVersion": "jzvkajhogahfhrno",
+                        "architecture": [
+                            "nlzvgpymcoeiefuc"
+                        ],
+                        "compatibilities": [
+                            {
+                                "clusterVersion": "lmyyoqziaxswoccj",
+                                "defaultVersion": true,
+                                "platformVersions": [
+                                    "yquaszobeawhsobv"
+                                ]
+                            }
+                        ],
+                        "requiresConfiguration": true
+                    }
+                ],
+                "marketplaceInformation": {
+                    "productId": "owpysaiqnqwsijzy",
+                    "productUrl": "teclgrcpvvxltgrz"
+                },
+                "owner": "lhemlwjlenygyumn",
+                "publisher": "getntoytcyirlqhd",
+                "type": "totzikhgtxjxcesv"
+            },
+            {
+                "addonName": "hujlflfuknblepvn",
+                "addonVersions": [
+                    {
+                        "addonVersion": "wjpducewzfmrzkrj",
+                        "architecture": [
+                            "qbpsabakjdigjkff"
+                        ],
+                        "compatibilities": [
+                            {
+                                "clusterVersion": "fjckeegfdnbeymwl",
+                                "defaultVersion": true,
+                                "platformVersions": [
+                                    "sewrulxczcqdjyle"
+                                ]
+                            }
+                        ],
+                        "requiresConfiguration": true
+                    }
+                ],
+                "marketplaceInformation": {
+                    "productId": "mfkykfzibyxlsphd",
+                    "productUrl": "lhapelbuefhhmzva"
+                },
+                "owner": "mbnnxfpaksfnmfuj",
+                "publisher": "ivzofnyihywwxtsw",
+                "type": "oovgrfdidrbzvkdl"
+            },
+            {
+                "addonName": "kijhlxvhiwzzdcfr",
+                "addonVersions": [
+                    {
+                        "addonVersion": "tqrnpejnwizedxqq",
+                        "architecture": [
+                            "oikadnqgemdjivua"
+                        ],
+                        "compatibilities": [
+                            {
+                                "clusterVersion": "isdlwpmpchqezrge",
+                                "defaultVersion": true,
+                                "platformVersions": [
+                                    "vywznimbwdccphfd"
+                                ]
+                            }
+                        ],
+                        "requiresConfiguration": true
+                    }
+                ],
+                "marketplaceInformation": {
+                    "productId": "mlsqjcluwpwyjogx",
+                    "productUrl": "imltujocssgstjpw"
+                },
+                "owner": "whpusjkplsjbqzso",
+                "publisher": "itdteysdxvzwaeji",
+                "type": "quiazxmakvfffmlt"
+            },
+            {
+                "addonName": "xplsjwoitudiackm",
+                "addonVersions": [
+                    {
+                        "addonVersion": "pbrkcmaurlteitsc",
+                        "architecture": [
+                            "qqfrgnmugmhkcdts"
+                        ],
+                        "compatibilities": [
+                            {
+                                "clusterVersion": "kniyvcyifsxonrpi",
+                                "defaultVersion": true,
+                                "platformVersions": [
+                                    "bjvblngqddkjxzaq"
+                                ]
+                            }
+                        ],
+                        "requiresConfiguration": true
+                    }
+                ],
+                "marketplaceInformation": {
+                    "productId": "wmuraisexqxkayfg",
+                    "productUrl": "jmozsongwjbjbjtp"
+                },
+                "owner": "tpjhhkygakyussnk",
+                "publisher": "nscuytzbeopplxca",
+                "type": "ajalnjxdhaohnccy"
+            }
+        ],
+        "result_key": "addons"
+    },
+    "meta": {
+        "start": 1711115698.539095,
+        "end": 1711115703.417499,
+        "duration": 4.878412961959839,
+        "service": "eks",
+        "type": "addon_versions"
+    }
+}

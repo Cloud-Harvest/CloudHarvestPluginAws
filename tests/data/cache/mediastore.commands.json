@@ -1,0 +1,9 @@
+[
+    "mediastore.describe-container",
+    "mediastore.get-container-policy",
+    "mediastore.get-cors-policy",
+    "mediastore.get-lifecycle-policy",
+    "mediastore.get-metric-policy",
+    "mediastore.list-containers",
+    "mediastore.list-tags-for-resource"
+]

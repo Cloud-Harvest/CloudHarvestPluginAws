@@ -1,0 +1,182 @@
+{
+    "input": {
+        "template": {
+            "TokenIds": [
+                ""
+            ],
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "eca4a9c9aee9e025d86f764418311fd2",
+        "boto_command": "list_tokens",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "TokenId": "TokenId",
+                "TokenType": "TokenType",
+                "LicenseArn": "LicenseArn",
+                "ExpirationTime": "ExpirationTime",
+                "TokenProperties": [
+                    "String"
+                ],
+                "RoleArns": [
+                    "Arn"
+                ],
+                "Status": "Status"
+            }
+        ],
+        "required": [],
+        "md5": "7d3f40b7eed41ca214936c70e1d5912a",
+        "randomized": [
+            {
+                "ExpirationTime": "commnxigjiigsoqh",
+                "LicenseArn": "xdtfqnibjzgknbtg",
+                "RoleArns": [
+                    "pqenahxbnorpfyge"
+                ],
+                "Status": "vtsrqvyiibodjnnn",
+                "TokenId": "qctwnzifkvpvilcd",
+                "TokenProperties": [
+                    "ibufglmyicqthmwa"
+                ],
+                "TokenType": "vdovaxuijicjyqoy"
+            },
+            {
+                "ExpirationTime": "clhohytweyyuouvn",
+                "LicenseArn": "kznxixouttqbubhf",
+                "RoleArns": [
+                    "jrrjtazuwhzhehum"
+                ],
+                "Status": "brnslztftbedccuu",
+                "TokenId": "tjqtuamoafwrhtbf",
+                "TokenProperties": [
+                    "wzbimywhbvssvlsv"
+                ],
+                "TokenType": "ignhkavdxhpryhlq"
+            },
+            {
+                "ExpirationTime": "fyndildkxabpfgut",
+                "LicenseArn": "ancoiimnejucgtki",
+                "RoleArns": [
+                    "fnulixwwwjzjotxb"
+                ],
+                "Status": "utlrcayliqvzvnvw",
+                "TokenId": "qlloarrsfswdqolj",
+                "TokenProperties": [
+                    "onxljzzzqrikldeq"
+                ],
+                "TokenType": "qyzizsrjrqvlndfw"
+            },
+            {
+                "ExpirationTime": "zzoplaergwyriyyw",
+                "LicenseArn": "anijtjpfdctmgobj",
+                "RoleArns": [
+                    "mbdxiafghhumowtm"
+                ],
+                "Status": "aletyngkoxpuiuag",
+                "TokenId": "mhzkoqtpojqhznvf",
+                "TokenProperties": [
+                    "smzncoycpurybovw"
+                ],
+                "TokenType": "axaqyxxkchyqpfrc"
+            },
+            {
+                "ExpirationTime": "efwzbbgpsmebvxth",
+                "LicenseArn": "fahcilrdzzqgkwwk",
+                "RoleArns": [
+                    "anvncojxebgguytt"
+                ],
+                "Status": "ygszssulkvbawniq",
+                "TokenId": "srtefmbyqcmjxkyq",
+                "TokenProperties": [
+                    "jtasolmdfuyavgeo"
+                ],
+                "TokenType": "addzexxbqelvzxcj"
+            },
+            {
+                "ExpirationTime": "bmpsuezgyemwxvfc",
+                "LicenseArn": "zpsbdkivujapzpnj",
+                "RoleArns": [
+                    "cbkcdfxmzcxpzxhk"
+                ],
+                "Status": "amdnhvsimgmhojnw",
+                "TokenId": "sqjucbvqgeykrymg",
+                "TokenProperties": [
+                    "rpdmeefxzmigfutl"
+                ],
+                "TokenType": "tcratekccycdbhdr"
+            },
+            {
+                "ExpirationTime": "qairtxbazaewljgq",
+                "LicenseArn": "ibtxivjyxkzjgmkw",
+                "RoleArns": [
+                    "uwazgkljljdetqis"
+                ],
+                "Status": "jigiqgfmialxwiqo",
+                "TokenId": "zzeehlfcgykksnry",
+                "TokenProperties": [
+                    "ahqsobstvbwxdfwe"
+                ],
+                "TokenType": "mwtnxhjhqcxycuhi"
+            },
+            {
+                "ExpirationTime": "dzryoxxerersiixu",
+                "LicenseArn": "yrxdsvudrcuyxpui",
+                "RoleArns": [
+                    "taradwbpiyzwlhef"
+                ],
+                "Status": "kqooqvvdmmbrvygp",
+                "TokenId": "ieoagbuwzgehaxmj",
+                "TokenProperties": [
+                    "fzpnwfvpvvcwvlpx"
+                ],
+                "TokenType": "blwhlmesuwlsivrx"
+            },
+            {
+                "ExpirationTime": "vaotqvlshrfffjeh",
+                "LicenseArn": "cinquobutlyisfwa",
+                "RoleArns": [
+                    "xrmonryimqyhxlsa"
+                ],
+                "Status": "dpxinvkmfmxuernp",
+                "TokenId": "ierhyjtmvqjxjyjl",
+                "TokenProperties": [
+                    "nduglnkgppsscjso"
+                ],
+                "TokenType": "roaoeqswlhxvbgqp"
+            },
+            {
+                "ExpirationTime": "unywaqpwlwmfbjll",
+                "LicenseArn": "vrasfufjjfrroelg",
+                "RoleArns": [
+                    "iiknhrsukugcxfkw"
+                ],
+                "Status": "tpiidyikmyiokkmu",
+                "TokenId": "aftrbizoktsyecgo",
+                "TokenProperties": [
+                    "wtgmlgswvjhfqcne"
+                ],
+                "TokenType": "zxvbvbrvcaslainq"
+            }
+        ],
+        "result_key": "Tokens"
+    },
+    "meta": {
+        "start": 1711116088.258007,
+        "end": 1711116095.406438,
+        "duration": 7.148442029953003,
+        "service": "license-manager",
+        "type": "tokens"
+    }
+}

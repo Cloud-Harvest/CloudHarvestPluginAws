@@ -1,0 +1,117 @@
+{
+    "input": {
+        "template": {
+            "detectorId": "",
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "required": [],
+        "md5": "60ddc677c83425dadaf2f46cc1dcb648",
+        "boto_command": "get_detectors",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "detectorId": "detectorId",
+                "description": "description",
+                "eventTypeName": "eventTypeName",
+                "lastUpdatedTime": "lastUpdatedTime",
+                "createdTime": "createdTime",
+                "arn": "arn"
+            }
+        ],
+        "required": [],
+        "md5": "3862f2dde4e5b86a0fe8a185e57a4118",
+        "randomized": [
+            {
+                "arn": "qsmhisjtxrdpekpf",
+                "createdTime": "iwumereutvkublva",
+                "description": "ymbvuyxxmeebjkxa",
+                "detectorId": "qeqdobinbvidpagt",
+                "eventTypeName": "jssoadmslvivfgvr",
+                "lastUpdatedTime": "yjvofdzgmdizyqjt"
+            },
+            {
+                "arn": "eohvjqyqoitjuvvj",
+                "createdTime": "svdoesaffecrlgde",
+                "description": "qhjaaawnuihvnvur",
+                "detectorId": "yghzjdelhwbglvmq",
+                "eventTypeName": "buwqswielusslqvi",
+                "lastUpdatedTime": "mvctwufmicataoyi"
+            },
+            {
+                "arn": "jqlongydffvqssox",
+                "createdTime": "qdhlgflznmuqcdge",
+                "description": "rvzfrmeltgbqwzuv",
+                "detectorId": "lavbckkdnzjwopxq",
+                "eventTypeName": "ihraivoagdoyvtkl",
+                "lastUpdatedTime": "jlyzjrjlofznrmvs"
+            },
+            {
+                "arn": "wsmxrmjvqpfoxxcf",
+                "createdTime": "kutwmfhbjesnajak",
+                "description": "divfrxmnhbmebpgy",
+                "detectorId": "fkmrjzxhgkrjomzg",
+                "eventTypeName": "npzxavdmiwvwiuqs",
+                "lastUpdatedTime": "ifezeijuqqhljpqw"
+            },
+            {
+                "arn": "eywmveyzfndmljta",
+                "createdTime": "wknauezltggyrkvm",
+                "description": "eftsmensvotnsnud",
+                "detectorId": "vezuauyeeoqwckut",
+                "eventTypeName": "zvrivmuypdwpiwnf",
+                "lastUpdatedTime": "rxdvnauxqaekreas"
+            },
+            {
+                "arn": "zxaggwhlgatnllwb",
+                "createdTime": "eppsbftexejxfujx",
+                "description": "bzsbsbmsxukotbai",
+                "detectorId": "kdemijtttsyvaqlr",
+                "eventTypeName": "ifhnyibcqmcqtzsb",
+                "lastUpdatedTime": "hiqfwhfkwuzrhseq"
+            },
+            {
+                "arn": "fwjufhppgbpxwcth",
+                "createdTime": "tyfmgyxfkhfsuyxy",
+                "description": "zavyqwtwxrvfsfoo",
+                "detectorId": "qxbidmhdgurkbnng",
+                "eventTypeName": "ekzqbuttltnvsvnr",
+                "lastUpdatedTime": "bylqzfqsorsvscij"
+            },
+            {
+                "arn": "tlgutfhlaxdnknpu",
+                "createdTime": "tiqfjcqewemvuzwz",
+                "description": "ciwegxkizqjnipjb",
+                "detectorId": "wogccfjzijxiakaf",
+                "eventTypeName": "smbcuovtjftdfipx",
+                "lastUpdatedTime": "unnpjvgmtkoqhuqz"
+            },
+            {
+                "arn": "tqwnkpfsxrqvzdcl",
+                "createdTime": "ioklgnrziuqmnnif",
+                "description": "pwbpurfpswsgswax",
+                "detectorId": "qaimivagzwcmfbki",
+                "eventTypeName": "iromdhoqjsjnncvx",
+                "lastUpdatedTime": "jejeksdorxgtfuaw"
+            },
+            {
+                "arn": "fmusrwfjczxcolyb",
+                "createdTime": "ulgxeldmdeebmfot",
+                "description": "ibnwkpuevgzqfpov",
+                "detectorId": "mtyeqzolewkycqts",
+                "eventTypeName": "mvzeplqufxcgsutf",
+                "lastUpdatedTime": "iupyaeeqnqxswaac"
+            }
+        ],
+        "result_key": "detectors"
+    },
+    "meta": {
+        "start": 1711115786.676207,
+        "end": 1711115792.8332,
+        "duration": 6.157002925872803,
+        "service": "frauddetector",
+        "type": null
+    }
+}

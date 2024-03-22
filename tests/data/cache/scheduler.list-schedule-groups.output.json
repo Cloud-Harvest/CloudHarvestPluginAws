@@ -1,0 +1,106 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NamePrefix": "",
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "cce734961239b437daf097cf0cf3e224",
+        "boto_command": "list_schedule_groups",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "Arn": "Arn",
+                "CreationDate": "1970-01-01T00:00:00",
+                "LastModificationDate": "1970-01-01T00:00:00",
+                "Name": "Name",
+                "State": "State"
+            }
+        ],
+        "required": [],
+        "md5": "e5909f379a01f8f50004699e41acc392",
+        "randomized": [
+            {
+                "Arn": "ufwzprpzslwtjtls",
+                "CreationDate": "sgxrdbhottogomct",
+                "LastModificationDate": "pfesitxsjpqoysck",
+                "Name": "uszvjnkgwsawgile",
+                "State": "gpgzocnmwstwjefu"
+            },
+            {
+                "Arn": "ukzgiptftjvwqcpc",
+                "CreationDate": "hwvjtjxeosrkmftz",
+                "LastModificationDate": "pyigrmgxlkpwuiql",
+                "Name": "yskklvqxarpeanuv",
+                "State": "uqnpuxomqtonmjhm"
+            },
+            {
+                "Arn": "dronjicapgymylfo",
+                "CreationDate": "tlqvbmxxdojeehwn",
+                "LastModificationDate": "pxtmzuiwnijijaxn",
+                "Name": "whxdnxsbvcqdyjmn",
+                "State": "cegfednohbdjcuvi"
+            },
+            {
+                "Arn": "puvxghrcootguqma",
+                "CreationDate": "iofwuikczvjprqml",
+                "LastModificationDate": "bltpeifffpoqogzf",
+                "Name": "tvfqpskbouvhtdmy",
+                "State": "pbvrhvpigcthxlpz"
+            },
+            {
+                "Arn": "zntborzukpngdirw",
+                "CreationDate": "iloooghouvirijce",
+                "LastModificationDate": "nfdpwsnzdojnkinl",
+                "Name": "ijtwzbentnyfqdde",
+                "State": "hnetbhlorrqmvdxm"
+            },
+            {
+                "Arn": "izwnfgsoxtqwgtbl",
+                "CreationDate": "ciaxurmxevoiotbd",
+                "LastModificationDate": "owmakjmqyyubjfpj",
+                "Name": "fditutvmobxvztrm",
+                "State": "wnpnsxcfnlsubeys"
+            },
+            {
+                "Arn": "wkvcvuwfaylwbgzc",
+                "CreationDate": "vglzvzhrnpzrgebu",
+                "LastModificationDate": "hkptbhdjkpatvyqo",
+                "Name": "cosgrqtwancrpnyh",
+                "State": "eysleadeoefqhmnx"
+            },
+            {
+                "Arn": "kzrkfovxppugzwdl",
+                "CreationDate": "qxowlccyieetlzkd",
+                "LastModificationDate": "vxqadcspuktetwox",
+                "Name": "vabziafjyhaazqeo",
+                "State": "ifyyyaxigugsahep"
+            },
+            {
+                "Arn": "luqggpvqvcmshjij",
+                "CreationDate": "vgcktdatjnsxeksn",
+                "LastModificationDate": "eaelkpwreuklenoa",
+                "Name": "doxcxyyzaocvoxoo",
+                "State": "tgiktghhqkfwffde"
+            },
+            {
+                "Arn": "bbftyacpuycfualj",
+                "CreationDate": "hsarboznuoupanix",
+                "LastModificationDate": "kchpnheftavlddcm",
+                "Name": "ybnrlosbpewxwwoz",
+                "State": "gpzxikbjwqqhlzyx"
+            }
+        ],
+        "result_key": "ScheduleGroups"
+    },
+    "meta": {
+        "start": 1711116578.476015,
+        "end": 1711116584.177897,
+        "duration": 5.701891899108887,
+        "service": "scheduler",
+        "type": "schedule_groups"
+    }
+}

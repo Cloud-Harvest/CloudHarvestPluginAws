@@ -1,0 +1,9 @@
+[
+    "codeguru-security.get-account-configuration",
+    "codeguru-security.get-findings",
+    "codeguru-security.get-metrics-summary",
+    "codeguru-security.get-scan",
+    "codeguru-security.list-findings-metrics",
+    "codeguru-security.list-scans",
+    "codeguru-security.list-tags-for-resource"
+]

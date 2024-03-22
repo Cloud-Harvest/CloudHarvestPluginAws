@@ -1,0 +1,72 @@
+{
+    "input": {
+        "template": {
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "required": [],
+        "md5": "42475be96651ddb5d57c459989595380",
+        "boto_command": "list_projects",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "projectId": "projectId",
+                "projectArn": "projectArn"
+            }
+        ],
+        "required": [],
+        "md5": "9c03f6b6ef4ac56a202a6a13b986c2de",
+        "randomized": [
+            {
+                "projectArn": "fbmzqfzixifetlnp",
+                "projectId": "zrltrzaqhghpradk"
+            },
+            {
+                "projectArn": "mpfsjqdomdhoikko",
+                "projectId": "jmvekbymsnltfapv"
+            },
+            {
+                "projectArn": "rwzdpkdmgvfjqgtb",
+                "projectId": "vdazpzwppmumanfn"
+            },
+            {
+                "projectArn": "rhfnbrnuiufognpy",
+                "projectId": "othwhmajmewfnqic"
+            },
+            {
+                "projectArn": "cyeoyrqcmtaroema",
+                "projectId": "grgcsljhmmiduzlv"
+            },
+            {
+                "projectArn": "ibepnjmkjoxnrnrc",
+                "projectId": "mannyhvenzzevtqr"
+            },
+            {
+                "projectArn": "yijjnlxflvagkxgn",
+                "projectId": "qsqikmtphgrkhopt"
+            },
+            {
+                "projectArn": "gfcvrhimjwrwljbm",
+                "projectId": "ucxfcfwzckxkmbsp"
+            },
+            {
+                "projectArn": "svsnifzxqwzfgjsb",
+                "projectId": "dgewkjfiaceileqs"
+            },
+            {
+                "projectArn": "xuwhhiuqssbgsvvq",
+                "projectId": "vlmzvknupsjhfmkd"
+            }
+        ],
+        "result_key": "projects"
+    },
+    "meta": {
+        "start": 1711115428.707428,
+        "end": 1711115435.990011,
+        "duration": 7.2825939655303955,
+        "service": "codestar",
+        "type": "projects"
+    }
+}

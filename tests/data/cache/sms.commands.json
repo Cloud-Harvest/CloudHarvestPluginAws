@@ -1,0 +1,12 @@
+[
+    "sms.get-app",
+    "sms.get-app-launch-configuration",
+    "sms.get-app-replication-configuration",
+    "sms.get-app-validation-configuration",
+    "sms.get-app-validation-output",
+    "sms.get-connectors",
+    "sms.get-replication-jobs",
+    "sms.get-replication-runs",
+    "sms.get-servers",
+    "sms.list-apps"
+]

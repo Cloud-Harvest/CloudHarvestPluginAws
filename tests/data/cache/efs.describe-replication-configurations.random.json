@@ -1,0 +1,152 @@
+[
+    {
+        "CreationTime": "rtsaesmjlsdlnfcn",
+        "Destinations": [
+            {
+                "FileSystemId": "jdeiflotxqbjpdsv",
+                "LastReplicatedTimestamp": "odfchhxtznquoidf",
+                "Region": "ujijuskmwghqbdre",
+                "Status": "zfxejohtwjemjkcy"
+            }
+        ],
+        "OriginalSourceFileSystemArn": "hingukotdbrslyoq",
+        "SourceFileSystemArn": "tsdwksukevgfoqlh",
+        "SourceFileSystemId": "psunpettaaydsjyg",
+        "SourceFileSystemRegion": "nhgmmnsamhkbioxu"
+    },
+    {
+        "CreationTime": "sadhzvhsyxnhjjhh",
+        "Destinations": [
+            {
+                "FileSystemId": "xkuirnyngjrjygxv",
+                "LastReplicatedTimestamp": "fnfxgzjcjvgvsllp",
+                "Region": "hcajbwbjafnujzzv",
+                "Status": "gwbkwmbumumrgvfl"
+            }
+        ],
+        "OriginalSourceFileSystemArn": "fwyznrayvfcibovm",
+        "SourceFileSystemArn": "ibldhsytmlvxvaya",
+        "SourceFileSystemId": "pbyrsfirthhngvsz",
+        "SourceFileSystemRegion": "bntpdnhhrpcqlfhw"
+    },
+    {
+        "CreationTime": "mxzylbvdbavrhkfs",
+        "Destinations": [
+            {
+                "FileSystemId": "afqskevqvkxbqoal",
+                "LastReplicatedTimestamp": "sdnstopjjwzyszoh",
+                "Region": "abxeiaqnlgeuxkdg",
+                "Status": "zpwmbfaugwusowfn"
+            }
+        ],
+        "OriginalSourceFileSystemArn": "ieawtlpycnibccwo",
+        "SourceFileSystemArn": "kafydvvroaqdhkte",
+        "SourceFileSystemId": "sjvirjrotoqojhou",
+        "SourceFileSystemRegion": "vtwkcjpdfgwiajqy"
+    },
+    {
+        "CreationTime": "vmbvnacagkbrzjic",
+        "Destinations": [
+            {
+                "FileSystemId": "ofurbifthtjimslz",
+                "LastReplicatedTimestamp": "bgubbuwmcghjrfbi",
+                "Region": "gntjcjfyqzxhfwgv",
+                "Status": "hzinfibbwlechfvn"
+            }
+        ],
+        "OriginalSourceFileSystemArn": "qgiwwivuxbqhskza",
+        "SourceFileSystemArn": "fxjqmhvtbmlujdtd",
+        "SourceFileSystemId": "xodpggpmdbhtbchq",
+        "SourceFileSystemRegion": "bmjpuvntnyoigsti"
+    },
+    {
+        "CreationTime": "jbzqxpxeebamepnz",
+        "Destinations": [
+            {
+                "FileSystemId": "sutbeusrdryjzays",
+                "LastReplicatedTimestamp": "zlayohxplzsqeodi",
+                "Region": "obcefwlvglrputap",
+                "Status": "rusglcebaauamiap"
+            }
+        ],
+        "OriginalSourceFileSystemArn": "eqpqbsrfceabklmu",
+        "SourceFileSystemArn": "fmsbijykgtelvrvc",
+        "SourceFileSystemId": "upevcnuwwtjaqnsv",
+        "SourceFileSystemRegion": "nqueugdjaqrmytdp"
+    },
+    {
+        "CreationTime": "brmfyywvbqldkela",
+        "Destinations": [
+            {
+                "FileSystemId": "oilccrsvdlqymvgd",
+                "LastReplicatedTimestamp": "phalrharqtmwanfq",
+                "Region": "nsjaunqbnpjdqwsi",
+                "Status": "ptucfoshcamkupdy"
+            }
+        ],
+        "OriginalSourceFileSystemArn": "sbucvvguphofmjpn",
+        "SourceFileSystemArn": "kvpvqdgxwvwcfzye",
+        "SourceFileSystemId": "vxquumrmlwpderal",
+        "SourceFileSystemRegion": "zfdehaqystirrfiz"
+    },
+    {
+        "CreationTime": "bmpwhtyfzfzpojmt",
+        "Destinations": [
+            {
+                "FileSystemId": "grzwxqluatoldmir",
+                "LastReplicatedTimestamp": "hmcanhryssvvzztl",
+                "Region": "etygpcmtmptnetxl",
+                "Status": "dpoqvpddnpmsmwyp"
+            }
+        ],
+        "OriginalSourceFileSystemArn": "clccfbcumytnykch",
+        "SourceFileSystemArn": "adofhxidssnaaxtl",
+        "SourceFileSystemId": "pamtmsikvyqnaqcy",
+        "SourceFileSystemRegion": "nwwmsizzrlfotxxa"
+    },
+    {
+        "CreationTime": "nejfpidvxstirkec",
+        "Destinations": [
+            {
+                "FileSystemId": "hsngsbigcfccgwnc",
+                "LastReplicatedTimestamp": "dntnvbhvsaqrgddy",
+                "Region": "atyhqqslifwjitwn",
+                "Status": "xkysdecbhqsoqjxc"
+            }
+        ],
+        "OriginalSourceFileSystemArn": "bgdjgcgilqsyudwx",
+        "SourceFileSystemArn": "kdtuavrustdgxwgw",
+        "SourceFileSystemId": "mkpweogigvgmmgdn",
+        "SourceFileSystemRegion": "ibmvrhxhtirmjbpe"
+    },
+    {
+        "CreationTime": "pimyixxmgpaveizu",
+        "Destinations": [
+            {
+                "FileSystemId": "ksjshtgiaqjfypxw",
+                "LastReplicatedTimestamp": "ajvkkioothlmpmhn",
+                "Region": "rndqymueewvritae",
+                "Status": "ruifeprwjypxsptq"
+            }
+        ],
+        "OriginalSourceFileSystemArn": "oxiilerxsyjsabex",
+        "SourceFileSystemArn": "hvikuqqrcwoaroel",
+        "SourceFileSystemId": "asvqslnvnanzands",
+        "SourceFileSystemRegion": "sgbmeowobfpqyxev"
+    },
+    {
+        "CreationTime": "mjckpqixbzxtrmlo",
+        "Destinations": [
+            {
+                "FileSystemId": "zrynezpnojlfxuur",
+                "LastReplicatedTimestamp": "sqruunehmzyivjzo",
+                "Region": "bmnmqkfizbfvjxja",
+                "Status": "lycievhwlfyvsvbo"
+            }
+        ],
+        "OriginalSourceFileSystemArn": "mlqgnpvapugirlys",
+        "SourceFileSystemArn": "ghxoxkhlwkjfrwee",
+        "SourceFileSystemId": "ioznpmcsokwwvmzb",
+        "SourceFileSystemRegion": "xeidvcvrggejlihr"
+    }
+]

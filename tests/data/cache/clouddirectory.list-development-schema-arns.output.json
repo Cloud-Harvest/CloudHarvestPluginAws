@@ -1,0 +1,39 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "9dece7f85fc1c3f944425b1f68a8e6e1",
+        "boto_command": "list_development_schema_arns",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            "Arn"
+        ],
+        "required": [],
+        "md5": "36bbe769477f5700840ac82fdaaecb1f",
+        "randomized": [
+            "ozzavmqawkmsnmat",
+            "ildttbkriyzqnrfi",
+            "nrdxbfmerrwfwgfw",
+            "mquhkluadypxmeyw",
+            "ogvzkmvtpyhkbgxt",
+            "vwmmneremnvptndy",
+            "iyxmsukmwbiswcat",
+            "ekiyeqdvrxmwtklz",
+            "mvvejinibhcqavnv",
+            "mhvuejodvgikolmj"
+        ],
+        "result_key": "SchemaArns"
+    },
+    "meta": {
+        "start": 1711115352.784689,
+        "end": 1711115361.208146,
+        "duration": 8.423465967178345,
+        "service": "clouddirectory",
+        "type": "development_schema_arns"
+    }
+}

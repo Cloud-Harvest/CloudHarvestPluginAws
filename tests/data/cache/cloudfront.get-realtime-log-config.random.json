@@ -1,0 +1,172 @@
+[
+    {
+        "ARN": "eowkztxqkqwznmqx",
+        "EndPoints": [
+            {
+                "KinesisStreamConfig": {
+                    "RoleARN": "mxknaexwsmfhwiwb",
+                    "StreamARN": "ncbutectgskfaawb"
+                },
+                "StreamType": "xnxznjmbjmhfyraf"
+            }
+        ],
+        "Fields": [
+            "eofpvhxkgzzplivi"
+        ],
+        "Name": "wyzqydsvvmveblfq",
+        "SamplingRate": 0
+    },
+    {
+        "ARN": "hpdqsbrvyysmakmn",
+        "EndPoints": [
+            {
+                "KinesisStreamConfig": {
+                    "RoleARN": "mtaofyvxvunbjsvx",
+                    "StreamARN": "ucoocsreetqqzwot"
+                },
+                "StreamType": "payuhjxrpqeusjwl"
+            }
+        ],
+        "Fields": [
+            "wwhcfwzcatasjzwn"
+        ],
+        "Name": "enihhgtmqahcxseb",
+        "SamplingRate": 0
+    },
+    {
+        "ARN": "ogtyantqwsmmehti",
+        "EndPoints": [
+            {
+                "KinesisStreamConfig": {
+                    "RoleARN": "ylebrwxtwhxckbas",
+                    "StreamARN": "dyjkdgitbcjaotjo"
+                },
+                "StreamType": "inrcyghahphmythz"
+            }
+        ],
+        "Fields": [
+            "emcwspnafoudnwsv"
+        ],
+        "Name": "pzcqyulqgkhaodee",
+        "SamplingRate": 0
+    },
+    {
+        "ARN": "nsmvrxzecvddfbxw",
+        "EndPoints": [
+            {
+                "KinesisStreamConfig": {
+                    "RoleARN": "gbuxwbnzoqfzhgxr",
+                    "StreamARN": "zloqcfkhacgcrfty"
+                },
+                "StreamType": "klltllwwiowlvsju"
+            }
+        ],
+        "Fields": [
+            "mxawnkllhqgxtlfk"
+        ],
+        "Name": "jmrlztjhevsheoqt",
+        "SamplingRate": 0
+    },
+    {
+        "ARN": "imxuonfxodocbplg",
+        "EndPoints": [
+            {
+                "KinesisStreamConfig": {
+                    "RoleARN": "ozgqjukkcywbgdzs",
+                    "StreamARN": "zxiakwkbzvklldud"
+                },
+                "StreamType": "rgrdqnojsilugwrr"
+            }
+        ],
+        "Fields": [
+            "ahduqjbfnhxdexyf"
+        ],
+        "Name": "igxxdgvbmakzbkws",
+        "SamplingRate": 0
+    },
+    {
+        "ARN": "gbrypqxzhenesgoi",
+        "EndPoints": [
+            {
+                "KinesisStreamConfig": {
+                    "RoleARN": "jlboxwbsgaiksqik",
+                    "StreamARN": "aoigopnyojkgjodk"
+                },
+                "StreamType": "wqtukuwtgntqotiz"
+            }
+        ],
+        "Fields": [
+            "owcpvuppnszmqwcy"
+        ],
+        "Name": "mlimsgckcrithote",
+        "SamplingRate": 0
+    },
+    {
+        "ARN": "tgavqdximmsdrdot",
+        "EndPoints": [
+            {
+                "KinesisStreamConfig": {
+                    "RoleARN": "nowlvrgbwctptckt",
+                    "StreamARN": "vsnwnblnfobhehgy"
+                },
+                "StreamType": "qaqhnikdmbskgtav"
+            }
+        ],
+        "Fields": [
+            "mdqepsklcaopdmcf"
+        ],
+        "Name": "bpfzcuxhtponxfjy",
+        "SamplingRate": 0
+    },
+    {
+        "ARN": "dapyahiotjbrrews",
+        "EndPoints": [
+            {
+                "KinesisStreamConfig": {
+                    "RoleARN": "yvjebeekuglnysnt",
+                    "StreamARN": "comgcxpfgavikgpw"
+                },
+                "StreamType": "lyutafpddpkcidyz"
+            }
+        ],
+        "Fields": [
+            "qddfctjkdjxbveit"
+        ],
+        "Name": "bxqyjfzzieuqfgvl",
+        "SamplingRate": 0
+    },
+    {
+        "ARN": "akvdczlkwfalwlzd",
+        "EndPoints": [
+            {
+                "KinesisStreamConfig": {
+                    "RoleARN": "yglpmsjtstrdpmbm",
+                    "StreamARN": "izuyzfckqigwtsgk"
+                },
+                "StreamType": "cmcdxedeiyufwnbd"
+            }
+        ],
+        "Fields": [
+            "npxasucsjazojosl"
+        ],
+        "Name": "iahgnyczbgzawkjc",
+        "SamplingRate": 0
+    },
+    {
+        "ARN": "jdzrbdlrwleetmmq",
+        "EndPoints": [
+            {
+                "KinesisStreamConfig": {
+                    "RoleARN": "ghgtebjfvntphade",
+                    "StreamARN": "gagoamfkjclcoqpf"
+                },
+                "StreamType": "bswoxofyzsknxunx"
+            }
+        ],
+        "Fields": [
+            "fpobopzoqhhvnzlh"
+        ],
+        "Name": "xzyrcjuflhbijfjx",
+        "SamplingRate": 0
+    }
+]

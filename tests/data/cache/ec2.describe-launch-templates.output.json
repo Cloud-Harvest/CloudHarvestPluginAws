@@ -1,0 +1,197 @@
+{
+    "input": {
+        "template": {
+            "DryRun": true,
+            "LaunchTemplateIds": [
+                ""
+            ],
+            "LaunchTemplateNames": [
+                ""
+            ],
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "0e2c48e46ba2add86a7780d47ff4704c",
+        "boto_command": "describe_launch_templates",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "LaunchTemplateId": "LaunchTemplateId",
+                "LaunchTemplateName": "LaunchTemplateName",
+                "CreateTime": "1970-01-01T00:00:00",
+                "CreatedBy": "CreatedBy",
+                "DefaultVersionNumber": 0,
+                "LatestVersionNumber": 0,
+                "Tags": [
+                    {
+                        "Key": "Key",
+                        "Value": "Value"
+                    }
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "38ce3dc8234d2ad8a7b24f9f1f1fa980",
+        "randomized": [
+            {
+                "CreateTime": "uvthfhrmzlpaczih",
+                "CreatedBy": "dqjauhstviaywqam",
+                "DefaultVersionNumber": 0,
+                "LatestVersionNumber": 0,
+                "LaunchTemplateId": "npxykbxyjpsqwoov",
+                "LaunchTemplateName": "pcixwwvmkpqgonbf",
+                "Tags": [
+                    {
+                        "Key": "sbxcsdnvrtecneix",
+                        "Value": "tjgqzxeicfrqeifz"
+                    }
+                ]
+            },
+            {
+                "CreateTime": "qosuhngvlkjhxxgx",
+                "CreatedBy": "zihzjnoxtqnnmyew",
+                "DefaultVersionNumber": 0,
+                "LatestVersionNumber": 0,
+                "LaunchTemplateId": "jimxzlgzkdilcqwz",
+                "LaunchTemplateName": "sngozggavboqjckv",
+                "Tags": [
+                    {
+                        "Key": "bzpclictpnibkpsi",
+                        "Value": "keellzzuaspceqhr"
+                    }
+                ]
+            },
+            {
+                "CreateTime": "stapedcrnixfvitl",
+                "CreatedBy": "qmzxwwqqwunvlkqy",
+                "DefaultVersionNumber": 0,
+                "LatestVersionNumber": 0,
+                "LaunchTemplateId": "hrhmtvnizpwzulhd",
+                "LaunchTemplateName": "wsfupoqgkaqkijhx",
+                "Tags": [
+                    {
+                        "Key": "ogwgyxekrldvzxum",
+                        "Value": "lzlgwibbrzowhzci"
+                    }
+                ]
+            },
+            {
+                "CreateTime": "myqyqmqtcdiwsepy",
+                "CreatedBy": "uqkoxtqnonzvpmnj",
+                "DefaultVersionNumber": 0,
+                "LatestVersionNumber": 0,
+                "LaunchTemplateId": "xuvpwnfnbhwgallj",
+                "LaunchTemplateName": "hemithiyncdflhey",
+                "Tags": [
+                    {
+                        "Key": "qwriuheirlhwusnt",
+                        "Value": "hffcuhpbfglkblbv"
+                    }
+                ]
+            },
+            {
+                "CreateTime": "zbthlfkapedveifs",
+                "CreatedBy": "cyoppxmkfchftzmt",
+                "DefaultVersionNumber": 0,
+                "LatestVersionNumber": 0,
+                "LaunchTemplateId": "ooqdqbuqxuglnedh",
+                "LaunchTemplateName": "uzsubijvthpfyies",
+                "Tags": [
+                    {
+                        "Key": "bmsdclcsodgyympx",
+                        "Value": "paxkmtrsydpvuefi"
+                    }
+                ]
+            },
+            {
+                "CreateTime": "fhkpiwsepyqurmxe",
+                "CreatedBy": "smtvnseuqpoifkpt",
+                "DefaultVersionNumber": 0,
+                "LatestVersionNumber": 0,
+                "LaunchTemplateId": "tampwafxljupwlla",
+                "LaunchTemplateName": "vyjvkhyevdemzclw",
+                "Tags": [
+                    {
+                        "Key": "cebiamfhzsikljml",
+                        "Value": "osgqlnhsaanqpakv"
+                    }
+                ]
+            },
+            {
+                "CreateTime": "ykmbbagyuygvqpoz",
+                "CreatedBy": "rikwfeqkbwwevrfw",
+                "DefaultVersionNumber": 0,
+                "LatestVersionNumber": 0,
+                "LaunchTemplateId": "kazpgiajosjlgkcb",
+                "LaunchTemplateName": "dtewlpshidsgzwzg",
+                "Tags": [
+                    {
+                        "Key": "epmsinvcfpxucalt",
+                        "Value": "bykpcqsfhjelaysk"
+                    }
+                ]
+            },
+            {
+                "CreateTime": "nbvnaebqsqxilevb",
+                "CreatedBy": "egfwvpspucowycwx",
+                "DefaultVersionNumber": 0,
+                "LatestVersionNumber": 0,
+                "LaunchTemplateId": "kdfvxfybkkproage",
+                "LaunchTemplateName": "utyxhqxucagzqwpe",
+                "Tags": [
+                    {
+                        "Key": "joklxqezlanofbey",
+                        "Value": "pfzkyfifrkpcfujc"
+                    }
+                ]
+            },
+            {
+                "CreateTime": "digzlbmvktzuiwxw",
+                "CreatedBy": "duwbsuqgdjgemhib",
+                "DefaultVersionNumber": 0,
+                "LatestVersionNumber": 0,
+                "LaunchTemplateId": "posrzodtcrfrvlgl",
+                "LaunchTemplateName": "yehpcvfxzgiicygz",
+                "Tags": [
+                    {
+                        "Key": "xqpfnjnylghekqoe",
+                        "Value": "unyqpdzzoqovcfxr"
+                    }
+                ]
+            },
+            {
+                "CreateTime": "zmxgskuxwaleueqq",
+                "CreatedBy": "uddgtzkkcvgnnead",
+                "DefaultVersionNumber": 0,
+                "LatestVersionNumber": 0,
+                "LaunchTemplateId": "bstbzjgghbksqiic",
+                "LaunchTemplateName": "bdmqdfxfcnbmxjwr",
+                "Tags": [
+                    {
+                        "Key": "hpcspzonynttnhwq",
+                        "Value": "ydbpvyehypwcllcx"
+                    }
+                ]
+            }
+        ],
+        "result_key": "LaunchTemplates"
+    },
+    "meta": {
+        "start": 1711115633.273413,
+        "end": 1711115638.380616,
+        "duration": 5.107213973999023,
+        "service": "ec2",
+        "type": "launch_templates"
+    }
+}

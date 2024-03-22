@@ -1,0 +1,84 @@
+{
+    "input": {
+        "template": {
+            "DirectoryId": "",
+            "NextToken": "",
+            "Limit": 0
+        },
+        "required": [],
+        "md5": "0fe12b1dae44180dfcd72cb4a0ea7c51",
+        "boto_command": "list_log_subscriptions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "DirectoryId": "DirectoryId",
+                "LogGroupName": "LogGroupName",
+                "SubscriptionCreatedDateTime": "1970-01-01T00:00:00"
+            }
+        ],
+        "required": [],
+        "md5": "44d6f3febf4c170e911c0d5c75f30f7f",
+        "randomized": [
+            {
+                "DirectoryId": "eatohupdjylysxva",
+                "LogGroupName": "eyjjdqtpxqnmjmza",
+                "SubscriptionCreatedDateTime": "lepaipmmpgndcfdc"
+            },
+            {
+                "DirectoryId": "ndvfycfoyikspxjs",
+                "LogGroupName": "mophhdfwcqvzavbj",
+                "SubscriptionCreatedDateTime": "dqzlehonrlnbobwu"
+            },
+            {
+                "DirectoryId": "cbwpvbiysiezzdcn",
+                "LogGroupName": "uuqnthfcxyvrexdz",
+                "SubscriptionCreatedDateTime": "rrbdpkeqdnfxlyka"
+            },
+            {
+                "DirectoryId": "rhoffzcxvbkwpbzw",
+                "LogGroupName": "qlcdtqbcbimwvqnv",
+                "SubscriptionCreatedDateTime": "gbnlyjrteutuptnh"
+            },
+            {
+                "DirectoryId": "dywqvurpnjyvdbgm",
+                "LogGroupName": "bfjywegrzwbeqvzo",
+                "SubscriptionCreatedDateTime": "lbujmepfymwfdssy"
+            },
+            {
+                "DirectoryId": "wymmowtmiliokevy",
+                "LogGroupName": "yanszpyeoqzhnaej",
+                "SubscriptionCreatedDateTime": "fwrtuydrktcotglp"
+            },
+            {
+                "DirectoryId": "hhlsjmbcxrmxewtt",
+                "LogGroupName": "gccdthyjeuokeary",
+                "SubscriptionCreatedDateTime": "ljuwyxdzwbzykjel"
+            },
+            {
+                "DirectoryId": "fmnzhgegwyjfhvua",
+                "LogGroupName": "ajkehngcpueyubzp",
+                "SubscriptionCreatedDateTime": "fpgqgdtiptjltsnr"
+            },
+            {
+                "DirectoryId": "btclrnunwxiztkrw",
+                "LogGroupName": "xvajxnsldditffja",
+                "SubscriptionCreatedDateTime": "eyrhhocictzeqkor"
+            },
+            {
+                "DirectoryId": "cahlkwrhoxifqutc",
+                "LogGroupName": "ahohhmbuyszwyaew",
+                "SubscriptionCreatedDateTime": "nzuzvqmuedpfnemn"
+            }
+        ],
+        "result_key": "LogSubscriptions"
+    },
+    "meta": {
+        "start": 1711115600.518956,
+        "end": 1711115607.625159,
+        "duration": 7.1062140464782715,
+        "service": "ds",
+        "type": "log_subscriptions"
+    }
+}

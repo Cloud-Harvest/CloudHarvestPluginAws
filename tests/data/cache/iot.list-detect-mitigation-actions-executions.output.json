@@ -1,0 +1,154 @@
+{
+    "input": {
+        "template": {
+            "taskId": "",
+            "violationId": "",
+            "thingName": "",
+            "startTime": "1970-01-01T00:00:00",
+            "endTime": "1970-01-01T00:00:00",
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "required": [],
+        "md5": "c0f77f8e8f25b5d8862582425c7adf61",
+        "boto_command": "list_detect_mitigation_actions_executions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "taskId": "taskId",
+                "violationId": "violationId",
+                "actionName": "actionName",
+                "thingName": "thingName",
+                "executionStartDate": "1970-01-01T00:00:00",
+                "executionEndDate": "1970-01-01T00:00:00",
+                "status": "status",
+                "errorCode": "errorCode",
+                "message": "message"
+            }
+        ],
+        "required": [],
+        "md5": "ba79075b410361d3cc8ff4d821bd8445",
+        "randomized": [
+            {
+                "actionName": "banxmdkfvlacxcsp",
+                "errorCode": "wnsesxfyhnbxphhm",
+                "executionEndDate": "wnfcgnlqidqvvpzq",
+                "executionStartDate": "xyqwlbjbupksefia",
+                "message": "cborchynfgqyzxsq",
+                "status": "welvscxftovdzpzi",
+                "taskId": "tlyghgngsbxbzzbi",
+                "thingName": "xwrnirkllbuwbljc",
+                "violationId": "mgopvpyuaseblgyl"
+            },
+            {
+                "actionName": "atpnsrewxdxnyigv",
+                "errorCode": "iijgdsvehacmbgii",
+                "executionEndDate": "eivxihgqfdvoumvc",
+                "executionStartDate": "uboonfkkiheoivez",
+                "message": "nupuliolvnllcaih",
+                "status": "tjqyibykcilrdvnv",
+                "taskId": "ohholwsqmxaoqmdw",
+                "thingName": "buwpufylmqlyobrk",
+                "violationId": "jzppxmzfobyjsjvj"
+            },
+            {
+                "actionName": "lupmypbgjbkysrqe",
+                "errorCode": "vfaxrudptdjkedsz",
+                "executionEndDate": "ybmgydxsfpxqfxkv",
+                "executionStartDate": "phhhlhgiitmpidct",
+                "message": "zdllxxcgiaktjeja",
+                "status": "aemnmqugmtrjpfur",
+                "taskId": "jrdvikknwpdqjnjg",
+                "thingName": "scbksogujeovkoxy",
+                "violationId": "nfnfnfydhvhsvqyn"
+            },
+            {
+                "actionName": "gdiruxlqzhnnbtpp",
+                "errorCode": "trgmvnpqhattjrva",
+                "executionEndDate": "eznntvoaoqgbxknp",
+                "executionStartDate": "nvtmerxekvxrzwbz",
+                "message": "oyxqzfgcdygliwqf",
+                "status": "loxkaocecshgivbo",
+                "taskId": "uiwtjjcyjvkbsqcx",
+                "thingName": "ccjgmpzoeuyckugy",
+                "violationId": "jlcfbjtdpssqicce"
+            },
+            {
+                "actionName": "qwvslkrkanfagktt",
+                "errorCode": "bszxepfxudciaztf",
+                "executionEndDate": "ljgzeosvnkeamujy",
+                "executionStartDate": "wkbugjadpcesxghu",
+                "message": "ozalhrlbmwxdiokb",
+                "status": "fbkyznfjbalzamcb",
+                "taskId": "mmxkemryiclaawgn",
+                "thingName": "dftsbfwditnbynpl",
+                "violationId": "yycypedzzipvdonx"
+            },
+            {
+                "actionName": "ckpdzdbridwqodnz",
+                "errorCode": "vuhgicpdpuyplmvn",
+                "executionEndDate": "agcwiebbqqdivdzn",
+                "executionStartDate": "avloabuhkkszenes",
+                "message": "mglbdzgulicfdojd",
+                "status": "xwpggdptnkcyyjsv",
+                "taskId": "bxhpfoswmzcgzgyu",
+                "thingName": "cfzwefxwfiuhgafq",
+                "violationId": "ymcsyurnqijelxln"
+            },
+            {
+                "actionName": "xqanwejdodbsicvu",
+                "errorCode": "zwrropwaeckpqqhi",
+                "executionEndDate": "eqopsisbaoyhhlat",
+                "executionStartDate": "rgesglbpxxmfaboq",
+                "message": "liyiswbygatlrstj",
+                "status": "bbftmrcqgkaovtsu",
+                "taskId": "yfhkwghqwgxsfmdq",
+                "thingName": "xcffbpatrbrvmtjv",
+                "violationId": "tfzwxzswrcjmidsm"
+            },
+            {
+                "actionName": "nefkvdezfuianmoe",
+                "errorCode": "ivwsitzerwgqllrm",
+                "executionEndDate": "kwayeyeohhzhgcsa",
+                "executionStartDate": "gixmhfmflnfkrgdd",
+                "message": "dnrmeiqmsbepbvdf",
+                "status": "vxedxdnmwvlzxvdb",
+                "taskId": "brfvevuojvzmyzyp",
+                "thingName": "xzvwrvuicyonjpmv",
+                "violationId": "sxspnzypasttrrjn"
+            },
+            {
+                "actionName": "xluigtkcaekddjru",
+                "errorCode": "nxmmbfibmunvtcku",
+                "executionEndDate": "zjzmtvalnaiifjqz",
+                "executionStartDate": "cvjfesqkhplhkgqh",
+                "message": "aiiiocguaiyipqyp",
+                "status": "qmzxuofgzvxzmrwu",
+                "taskId": "dqdcrblfzfpoibli",
+                "thingName": "zkvoccnohegkpixb",
+                "violationId": "vpuizjcwxmuabaue"
+            },
+            {
+                "actionName": "nrstjivapiduxmkf",
+                "errorCode": "obpuhccmowyoxrlt",
+                "executionEndDate": "esqdpqttofsbgeal",
+                "executionStartDate": "vddtrtppwvbnyzol",
+                "message": "nzulumijkizsudal",
+                "status": "xijiqyedocvaitya",
+                "taskId": "xmvmviliqorimoab",
+                "thingName": "mpwjjtveoogvfcsf",
+                "violationId": "rzvfzaffxtwgvvjy"
+            }
+        ],
+        "result_key": "actionsExecutions"
+    },
+    "meta": {
+        "start": 1711115939.626424,
+        "end": 1711115946.493347,
+        "duration": 6.866933822631836,
+        "service": "iot",
+        "type": "detect_mitigation_actions_executions"
+    }
+}

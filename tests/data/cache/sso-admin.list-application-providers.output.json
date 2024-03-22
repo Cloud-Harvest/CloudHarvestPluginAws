@@ -1,0 +1,215 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "031b56893c6f5a9d0ebe6017c5c080cb",
+        "boto_command": "list_application_providers",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "ApplicationProviderArn": "ApplicationProviderArn",
+                "DisplayData": {
+                    "Description": "Description",
+                    "DisplayName": "DisplayName",
+                    "IconUrl": "IconUrl"
+                },
+                "FederationProtocol": "FederationProtocol",
+                "ResourceServerConfig": {
+                    "Scopes": {
+                        "KeyName": {
+                            "DetailedTitle": "DetailedTitle",
+                            "LongDescription": "LongDescription"
+                        }
+                    }
+                }
+            }
+        ],
+        "required": [],
+        "md5": "9ef8934784918b3bda8da41d8fda239b",
+        "randomized": [
+            {
+                "ApplicationProviderArn": "qanzwpuhkcwbjwup",
+                "DisplayData": {
+                    "Description": "btuskpxzyrlqxofo",
+                    "DisplayName": "dmtoouqwuhdfbunq",
+                    "IconUrl": "vrxpgyvlmvvbmtab"
+                },
+                "FederationProtocol": "mbiqptngmubbdrpj",
+                "ResourceServerConfig": {
+                    "Scopes": {
+                        "KeyName": {
+                            "DetailedTitle": "tyjtduqyeppfeqal",
+                            "LongDescription": "nherbutybrtpejxd"
+                        }
+                    }
+                }
+            },
+            {
+                "ApplicationProviderArn": "qxscadpsfcmhrdyy",
+                "DisplayData": {
+                    "Description": "acarrbqctdpytjyd",
+                    "DisplayName": "fwirpxugofvrvxsh",
+                    "IconUrl": "hokbpbpgorybfjbj"
+                },
+                "FederationProtocol": "wcltfbgahobjvbbe",
+                "ResourceServerConfig": {
+                    "Scopes": {
+                        "KeyName": {
+                            "DetailedTitle": "taitzuufwymwbbxb",
+                            "LongDescription": "dvdalkzjxzkmjvwi"
+                        }
+                    }
+                }
+            },
+            {
+                "ApplicationProviderArn": "nsgiokcbrcgzngvv",
+                "DisplayData": {
+                    "Description": "ovofivoznncmqvaa",
+                    "DisplayName": "ixauyccvrhaadlxn",
+                    "IconUrl": "rzkvakhekeohudvi"
+                },
+                "FederationProtocol": "yyhuiyolyfbijjmj",
+                "ResourceServerConfig": {
+                    "Scopes": {
+                        "KeyName": {
+                            "DetailedTitle": "xbrabywsesecsvgu",
+                            "LongDescription": "gjepesjekzqedugt"
+                        }
+                    }
+                }
+            },
+            {
+                "ApplicationProviderArn": "worjpzlievuqosuh",
+                "DisplayData": {
+                    "Description": "nhmoqaaijxpbmifj",
+                    "DisplayName": "oefxqxokwbbfcxbf",
+                    "IconUrl": "mognwalyqwrreeme"
+                },
+                "FederationProtocol": "mqqlirpdkcrvbdit",
+                "ResourceServerConfig": {
+                    "Scopes": {
+                        "KeyName": {
+                            "DetailedTitle": "uvoenncudbnecmel",
+                            "LongDescription": "fsrdljjhtymrnfjf"
+                        }
+                    }
+                }
+            },
+            {
+                "ApplicationProviderArn": "erpqqpfuqwepyhbb",
+                "DisplayData": {
+                    "Description": "dlztrfpypkfzvxcq",
+                    "DisplayName": "utxnkmlzjuxpqfgk",
+                    "IconUrl": "lmxagutoaxikyxff"
+                },
+                "FederationProtocol": "pqbwhwkejaxbqyyn",
+                "ResourceServerConfig": {
+                    "Scopes": {
+                        "KeyName": {
+                            "DetailedTitle": "iqprcdgbqenrflhn",
+                            "LongDescription": "mfnlrxcicvuaxhlo"
+                        }
+                    }
+                }
+            },
+            {
+                "ApplicationProviderArn": "sqrqzusirwdpzlrf",
+                "DisplayData": {
+                    "Description": "eejdwykqpipfvlco",
+                    "DisplayName": "zftqmvvkmaxmbkqo",
+                    "IconUrl": "thawfainlddrolbm"
+                },
+                "FederationProtocol": "almdbspktrjxjiml",
+                "ResourceServerConfig": {
+                    "Scopes": {
+                        "KeyName": {
+                            "DetailedTitle": "caclspsagamrnkoa",
+                            "LongDescription": "sovjthlzjmoisako"
+                        }
+                    }
+                }
+            },
+            {
+                "ApplicationProviderArn": "cmgijvjczszulrpx",
+                "DisplayData": {
+                    "Description": "xogkkifwrxupeygj",
+                    "DisplayName": "fwvfujzkzqcathtw",
+                    "IconUrl": "efwrbfyqyiungnlm"
+                },
+                "FederationProtocol": "hpzukopvokxebhli",
+                "ResourceServerConfig": {
+                    "Scopes": {
+                        "KeyName": {
+                            "DetailedTitle": "yrpjmxskwubafyrg",
+                            "LongDescription": "nvvvmyvzirimmway"
+                        }
+                    }
+                }
+            },
+            {
+                "ApplicationProviderArn": "mebyfnijipaeyxtr",
+                "DisplayData": {
+                    "Description": "vigiwumrrejjyzgi",
+                    "DisplayName": "azunlufulmmdmomi",
+                    "IconUrl": "iefkktddcumvkdpo"
+                },
+                "FederationProtocol": "jrxtblmeopsztblb",
+                "ResourceServerConfig": {
+                    "Scopes": {
+                        "KeyName": {
+                            "DetailedTitle": "mufjfwmdxpiizkrt",
+                            "LongDescription": "yxsxcawwjoxolinc"
+                        }
+                    }
+                }
+            },
+            {
+                "ApplicationProviderArn": "lzqadivdkdbcqxkz",
+                "DisplayData": {
+                    "Description": "jjftiulhvkklrktf",
+                    "DisplayName": "nqvzqbnrelitidfu",
+                    "IconUrl": "jhtnhsjcwwohknne"
+                },
+                "FederationProtocol": "weiwtbxhrtvkvyxb",
+                "ResourceServerConfig": {
+                    "Scopes": {
+                        "KeyName": {
+                            "DetailedTitle": "ogcihxcgrlnrvmzq",
+                            "LongDescription": "juneimibgplahfzt"
+                        }
+                    }
+                }
+            },
+            {
+                "ApplicationProviderArn": "ryejhrjzzswsatvv",
+                "DisplayData": {
+                    "Description": "jdqdxuyercbzmiag",
+                    "DisplayName": "bxflsirpmairmqgu",
+                    "IconUrl": "layugqjmioaomvym"
+                },
+                "FederationProtocol": "dhngfnyquxpwufmo",
+                "ResourceServerConfig": {
+                    "Scopes": {
+                        "KeyName": {
+                            "DetailedTitle": "vnhvazwqdtztidvb",
+                            "LongDescription": "grlaamgxrzipaklx"
+                        }
+                    }
+                }
+            }
+        ],
+        "result_key": "ApplicationProviders"
+    },
+    "meta": {
+        "start": 1711116692.406338,
+        "end": 1711116700.500845,
+        "duration": 8.094517946243286,
+        "service": "sso-admin",
+        "type": "application_providers"
+    }
+}

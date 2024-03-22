@@ -1,0 +1,9 @@
+[
+    "kinesisanalyticsv2.describe-application",
+    "kinesisanalyticsv2.describe-application-snapshot",
+    "kinesisanalyticsv2.describe-application-version",
+    "kinesisanalyticsv2.list-application-snapshots",
+    "kinesisanalyticsv2.list-application-versions",
+    "kinesisanalyticsv2.list-applications",
+    "kinesisanalyticsv2.list-tags-for-resource"
+]

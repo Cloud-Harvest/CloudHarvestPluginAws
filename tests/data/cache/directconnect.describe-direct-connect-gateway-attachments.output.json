@@ -1,0 +1,129 @@
+{
+    "input": {
+        "template": {
+            "directConnectGatewayId": "",
+            "virtualInterfaceId": "",
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "required": [],
+        "md5": "65baa21486dd252101c09ef5b8cac71d",
+        "boto_command": "describe_direct_connect_gateway_attachments",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "directConnectGatewayId": "directConnectGatewayId",
+                "virtualInterfaceId": "virtualInterfaceId",
+                "virtualInterfaceRegion": "virtualInterfaceRegion",
+                "virtualInterfaceOwnerAccount": "virtualInterfaceOwnerAccount",
+                "attachmentState": "attachmentState",
+                "attachmentType": "attachmentType",
+                "stateChangeError": "stateChangeError"
+            }
+        ],
+        "required": [],
+        "md5": "a8743dec4f3bbfbd69016aff5c125c3a",
+        "randomized": [
+            {
+                "attachmentState": "jlqckwenuzqxwjkq",
+                "attachmentType": "dhppxegasipnpnyh",
+                "directConnectGatewayId": "rkfcbsnjtlgbtfpg",
+                "stateChangeError": "nljcyofvvdeqdooo",
+                "virtualInterfaceId": "vizxppbvbxvsqavy",
+                "virtualInterfaceOwnerAccount": "tvriiivlshsmzkcu",
+                "virtualInterfaceRegion": "syizftzckjqhuxrp"
+            },
+            {
+                "attachmentState": "ihfahacsfcosmfpb",
+                "attachmentType": "dejlbsrdtuoqbaxo",
+                "directConnectGatewayId": "oyyeskoeieaaaxru",
+                "stateChangeError": "fncsokcundlqegdi",
+                "virtualInterfaceId": "muelzuyaflqcjlgg",
+                "virtualInterfaceOwnerAccount": "mrujwsebfnlitghz",
+                "virtualInterfaceRegion": "tkmzbsflcudkngcd"
+            },
+            {
+                "attachmentState": "dyenylhefvdvxgxe",
+                "attachmentType": "qrakjomotbdzfdbo",
+                "directConnectGatewayId": "hsyygktaimjjrcwi",
+                "stateChangeError": "jncmteumbnuiixvb",
+                "virtualInterfaceId": "eceqfrgwiyhglvtl",
+                "virtualInterfaceOwnerAccount": "vhmdvngukdlzfsty",
+                "virtualInterfaceRegion": "lxtuqdgzziausued"
+            },
+            {
+                "attachmentState": "mfkfmehezdrhpegl",
+                "attachmentType": "nhefjmehvmkrgqac",
+                "directConnectGatewayId": "crxxgleeevdugwur",
+                "stateChangeError": "fadteupcfmtikyjt",
+                "virtualInterfaceId": "afmulgwnkwqopeqv",
+                "virtualInterfaceOwnerAccount": "vvwnrrrowhtslqfq",
+                "virtualInterfaceRegion": "mgyqpkesopgcafar"
+            },
+            {
+                "attachmentState": "knwbgscmywhrjhey",
+                "attachmentType": "ijphmmbxqyvkaeps",
+                "directConnectGatewayId": "goknwouoauiztyfj",
+                "stateChangeError": "nyqinnieadnvzgll",
+                "virtualInterfaceId": "ntxgtsojzmajdunh",
+                "virtualInterfaceOwnerAccount": "bvjxhdvkyivsjftz",
+                "virtualInterfaceRegion": "lojvtqjyijupfpgq"
+            },
+            {
+                "attachmentState": "otqomqzgdqoosqbt",
+                "attachmentType": "kdwbyekxetedgumi",
+                "directConnectGatewayId": "ielzocwdvotnawaw",
+                "stateChangeError": "sggyubwxadetgnxi",
+                "virtualInterfaceId": "yoqwkgkhqqfxeoto",
+                "virtualInterfaceOwnerAccount": "psbxuuscdqglsbmr",
+                "virtualInterfaceRegion": "gdxxmerpiuedltaz"
+            },
+            {
+                "attachmentState": "iuoamsczzeqfjnlt",
+                "attachmentType": "miaaxeqdynlxmjos",
+                "directConnectGatewayId": "rjzinkojleqphagi",
+                "stateChangeError": "hbonmpwgbsdzgqap",
+                "virtualInterfaceId": "vimvrylgxnuqpwoy",
+                "virtualInterfaceOwnerAccount": "msxwvncwbxemwksj",
+                "virtualInterfaceRegion": "eyttnifxjrvanelx"
+            },
+            {
+                "attachmentState": "amwwjrcsewxfydvt",
+                "attachmentType": "koiggjrfagzwctvz",
+                "directConnectGatewayId": "tnvujwkosojtvakh",
+                "stateChangeError": "hepdwqptuiwgxuvs",
+                "virtualInterfaceId": "iazzekfbwxfbbzbu",
+                "virtualInterfaceOwnerAccount": "henbqvcsvdbgerar",
+                "virtualInterfaceRegion": "lomcrqekatkwlknz"
+            },
+            {
+                "attachmentState": "ktohdrzidihtzzeb",
+                "attachmentType": "hakqitvsdmdiesxl",
+                "directConnectGatewayId": "kuxyevypnxtaeysg",
+                "stateChangeError": "kjvxqwtkyuldlbxp",
+                "virtualInterfaceId": "ikrypqpbcbxxbwqi",
+                "virtualInterfaceOwnerAccount": "grhvlijicsmvobtb",
+                "virtualInterfaceRegion": "tqqnahysfhvdbpcd"
+            },
+            {
+                "attachmentState": "echghngyvuqfzczx",
+                "attachmentType": "hnxushvgvwxrebdl",
+                "directConnectGatewayId": "wkfegmxuzpszvgiv",
+                "stateChangeError": "axsgphwlykrpubxi",
+                "virtualInterfaceId": "sbgpekjbwlridwxr",
+                "virtualInterfaceOwnerAccount": "dnrhxemlhwrwcgvd",
+                "virtualInterfaceRegion": "koiydtzwmebqadnc"
+            }
+        ],
+        "result_key": "directConnectGatewayAttachments"
+    },
+    "meta": {
+        "start": 1711115564.855717,
+        "end": 1711115572.455066,
+        "duration": 7.599359035491943,
+        "service": "directconnect",
+        "type": "direct_connect_gateway_attachments"
+    }
+}

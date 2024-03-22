@@ -1,0 +1,180 @@
+{
+    "input": {
+        "template": {
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxResults": 0,
+            "NextToken": "",
+            "DryRun": true
+        },
+        "required": [],
+        "md5": "af4f8b851253a944a288b6d919a64ef8",
+        "boto_command": "describe_fast_snapshot_restores",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "SnapshotId": "SnapshotId",
+                "AvailabilityZone": "AvailabilityZone",
+                "State": "State",
+                "StateTransitionReason": "StateTransitionReason",
+                "OwnerId": "OwnerId",
+                "OwnerAlias": "OwnerAlias",
+                "EnablingTime": "1970-01-01T00:00:00",
+                "OptimizingTime": "1970-01-01T00:00:00",
+                "EnabledTime": "1970-01-01T00:00:00",
+                "DisablingTime": "1970-01-01T00:00:00",
+                "DisabledTime": "1970-01-01T00:00:00"
+            }
+        ],
+        "required": [],
+        "md5": "445607caac984bff943c49335512e3ef",
+        "randomized": [
+            {
+                "AvailabilityZone": "lkfdzfnrcpzjkclo",
+                "DisabledTime": "agejomzhbxyetnge",
+                "DisablingTime": "tusbkenxxraztaud",
+                "EnabledTime": "ipdrgmqympfwclek",
+                "EnablingTime": "zxqhagugdkujxpyw",
+                "OptimizingTime": "ptneupnygofxuijg",
+                "OwnerAlias": "fryjoazatznuwhio",
+                "OwnerId": "ypvzqayvllfcsfig",
+                "SnapshotId": "ubpgbecyappuyhdq",
+                "State": "fmujxmjkrbybhoac",
+                "StateTransitionReason": "gpabzfmkrpzsykjp"
+            },
+            {
+                "AvailabilityZone": "wldmbjgvypgfmokf",
+                "DisabledTime": "bbfsggfjmgonnltc",
+                "DisablingTime": "ipwhrysorisymaew",
+                "EnabledTime": "kljgkgvttfqrkkoe",
+                "EnablingTime": "mcgtfvqgbugruldj",
+                "OptimizingTime": "kvmmjyluprqwlmab",
+                "OwnerAlias": "ikokcwpraahqpcbb",
+                "OwnerId": "dlgwpaflvvowswyw",
+                "SnapshotId": "samzfdnqaojfvanw",
+                "State": "pidjwsgbiiwzokxr",
+                "StateTransitionReason": "iwghnsgishyxszkw"
+            },
+            {
+                "AvailabilityZone": "osjavghvguhopykv",
+                "DisabledTime": "duxrcnplufyigbgu",
+                "DisablingTime": "qulkcqemvpfouzgd",
+                "EnabledTime": "jzogtbwwkgxeoqfb",
+                "EnablingTime": "ersxptdznfmwtlas",
+                "OptimizingTime": "scwgazeivinlvanu",
+                "OwnerAlias": "tfzlmtvgqvkmpdql",
+                "OwnerId": "mocyqwjolobgvqfb",
+                "SnapshotId": "mdqfdsyvhtrfzcwx",
+                "State": "gjdfdnjzylyuxrtp",
+                "StateTransitionReason": "msgfwjzoyclvaazn"
+            },
+            {
+                "AvailabilityZone": "syxhlmffwlhtnkdz",
+                "DisabledTime": "sswzpghfiaxpyruv",
+                "DisablingTime": "cbvozlmvfizvvbtt",
+                "EnabledTime": "eoskpwspqhgbqnpl",
+                "EnablingTime": "edtgvjlncwohppzx",
+                "OptimizingTime": "pukgzyldqmscvzow",
+                "OwnerAlias": "jjsesadyhqrtpjyy",
+                "OwnerId": "bjcvfnyktffsrtns",
+                "SnapshotId": "fijfaspfmxvgwybk",
+                "State": "uwtcdqcwkumuukbw",
+                "StateTransitionReason": "darzchjllkfymeki"
+            },
+            {
+                "AvailabilityZone": "laaysmjaitqutvli",
+                "DisabledTime": "ndqusmkwqdhgaaij",
+                "DisablingTime": "owwtpoefyjpjlknx",
+                "EnabledTime": "cnhzdknqkpnymdwe",
+                "EnablingTime": "aeytxcagiascqyte",
+                "OptimizingTime": "zccetbhvsbnpeybh",
+                "OwnerAlias": "tpjugbtvnfuqsiuh",
+                "OwnerId": "orxstsjnabqpoefb",
+                "SnapshotId": "vzoeiyluziwgpwsl",
+                "State": "wsdmcynkogtdcjjr",
+                "StateTransitionReason": "oguaduionrmpirsi"
+            },
+            {
+                "AvailabilityZone": "ykzknkxydlmpoxax",
+                "DisabledTime": "lngvzekfyduzxgge",
+                "DisablingTime": "vmlpzqofqzgumxlz",
+                "EnabledTime": "ujozhlydxmwmahtd",
+                "EnablingTime": "gtwciyqooddyuuoa",
+                "OptimizingTime": "wyyydfhgojqhlhnl",
+                "OwnerAlias": "yzpicqnjcxnvusyp",
+                "OwnerId": "uqzjoodzuwghrmjl",
+                "SnapshotId": "qwujadcgistlkwgr",
+                "State": "gonoufimskqhqkyg",
+                "StateTransitionReason": "rleneaxxvzwytsyz"
+            },
+            {
+                "AvailabilityZone": "craqnnewosxxdcgo",
+                "DisabledTime": "dfshxhjnpcskewvp",
+                "DisablingTime": "hwxwvkezjbtqlkye",
+                "EnabledTime": "nbzfhjswyursubkz",
+                "EnablingTime": "ialmlbbkcjnimswr",
+                "OptimizingTime": "odbejtqcqozltzoe",
+                "OwnerAlias": "rpywxwsfzymwglcb",
+                "OwnerId": "cviisgwiygketkbj",
+                "SnapshotId": "obadujjhdsmiqdym",
+                "State": "nyqlfinwtkpnzyar",
+                "StateTransitionReason": "tihxbzsvxhvzqfdj"
+            },
+            {
+                "AvailabilityZone": "wpxkclhmjecixxfo",
+                "DisabledTime": "yhnjiyoubfblauib",
+                "DisablingTime": "uwoswjtwredalswf",
+                "EnabledTime": "qfjwymkwlywgafeb",
+                "EnablingTime": "ygkrjhgisopejcyk",
+                "OptimizingTime": "twowwptntkhjffmt",
+                "OwnerAlias": "zzrsyikagaemzkda",
+                "OwnerId": "toehajvlggfswkqt",
+                "SnapshotId": "crpckevbjvvdyxsv",
+                "State": "tolheacltxtfsxsc",
+                "StateTransitionReason": "zgyckwkhapwzaaqm"
+            },
+            {
+                "AvailabilityZone": "khavpqvbvyojinrh",
+                "DisabledTime": "ehgaaahenfejnmpy",
+                "DisablingTime": "jpkwgmzyxsszetyd",
+                "EnabledTime": "kxltmsdasmbggwjz",
+                "EnablingTime": "oupefboboteirwii",
+                "OptimizingTime": "llqpkysebjitubzu",
+                "OwnerAlias": "ybqemtjwoqomveez",
+                "OwnerId": "mvezxjbqsotrmsoz",
+                "SnapshotId": "suklwgbyzrusryji",
+                "State": "qtcbwcefyyrqyojq",
+                "StateTransitionReason": "wppdzogfdcryxfyh"
+            },
+            {
+                "AvailabilityZone": "cpyrbumexthmjeud",
+                "DisabledTime": "npknhtrknamkpuhu",
+                "DisablingTime": "zymjcpohoizxlpge",
+                "EnabledTime": "bzbcsbddyqkdlwwf",
+                "EnablingTime": "cahrsxhcztcyjebj",
+                "OptimizingTime": "cncdlssfkhucnxhr",
+                "OwnerAlias": "oyhhobjkclzrrsdu",
+                "OwnerId": "bgtjwslihehpwnlz",
+                "SnapshotId": "mxwudvyrdmrxmlyu",
+                "State": "wlzsouulovkwsaus",
+                "StateTransitionReason": "vycwwlwtpcruncyo"
+            }
+        ],
+        "result_key": "FastSnapshotRestores"
+    },
+    "meta": {
+        "start": 1711115617.820111,
+        "end": 1711115625.866465,
+        "duration": 8.046370029449463,
+        "service": "ec2",
+        "type": "fast_snapshot_restores"
+    }
+}

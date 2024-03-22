@@ -1,0 +1,56 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "describe_account_configuration",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": {
+            "KmsKeyId": "KmsKeyId"
+        },
+        "required": [],
+        "md5": "d56d3cb70f7bec8a1610d0634b284ef3",
+        "randomized": [
+            {
+                "KmsKeyId": "gpseaupfvrmasqza"
+            },
+            {
+                "KmsKeyId": "pastiucebvmtlurw"
+            },
+            {
+                "KmsKeyId": "vyawtyaysjbsdtsi"
+            },
+            {
+                "KmsKeyId": "rubzuwuerwcduaoh"
+            },
+            {
+                "KmsKeyId": "rfwdqeknxlsirqvn"
+            },
+            {
+                "KmsKeyId": "wikwifxbseckmtfi"
+            },
+            {
+                "KmsKeyId": "wbibfatlqykxhiem"
+            },
+            {
+                "KmsKeyId": "fvmduqoluvcxtvuf"
+            },
+            {
+                "KmsKeyId": "yokucbvizjzztsva"
+            },
+            {
+                "KmsKeyId": "ctobuunflbwgvdmn"
+            }
+        ],
+        "result_key": "AccountConfiguration"
+    },
+    "meta": {
+        "start": 1711116171.218612,
+        "end": 1711116177.512111,
+        "duration": 6.293509006500244,
+        "service": "medialive",
+        "type": "account_configuration"
+    }
+}

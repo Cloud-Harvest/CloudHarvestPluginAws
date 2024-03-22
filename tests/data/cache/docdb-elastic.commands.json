@@ -1,0 +1,7 @@
+[
+    "docdb-elastic.get-cluster",
+    "docdb-elastic.get-cluster-snapshot",
+    "docdb-elastic.list-cluster-snapshots",
+    "docdb-elastic.list-clusters",
+    "docdb-elastic.list-tags-for-resource"
+]

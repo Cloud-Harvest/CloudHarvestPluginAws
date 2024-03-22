@@ -1,0 +1,241 @@
+{
+    "input": {
+        "template": {
+            "ApplicationName": "",
+            "VersionLabels": [
+                ""
+            ],
+            "MaxRecords": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "24aac250dc2fe1ee485078395ca64eaf",
+        "boto_command": "describe_application_versions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "ApplicationVersionArn": "ApplicationVersionArn",
+                "ApplicationName": "ApplicationName",
+                "Description": "Description",
+                "VersionLabel": "VersionLabel",
+                "SourceBuildInformation": {
+                    "SourceType": "SourceType",
+                    "SourceRepository": "SourceRepository",
+                    "SourceLocation": "SourceLocation"
+                },
+                "BuildArn": "BuildArn",
+                "SourceBundle": {
+                    "S3Bucket": "S3Bucket",
+                    "S3Key": "S3Key"
+                },
+                "DateCreated": "1970-01-01T00:00:00",
+                "DateUpdated": "1970-01-01T00:00:00",
+                "Status": "Status"
+            }
+        ],
+        "required": [],
+        "md5": "444e5ffb8a06b159962d3d04aeb919c4",
+        "randomized": [
+            {
+                "ApplicationName": "uddyxijhrutqepzt",
+                "ApplicationVersionArn": "qmflxncsnzgvlgfm",
+                "BuildArn": "goqgvifkqgtqcijw",
+                "DateCreated": "gfnpdvadxqzworls",
+                "DateUpdated": "wpdtcdkhbcgmdmyh",
+                "Description": "zguiotqjyyedtztc",
+                "SourceBuildInformation": {
+                    "SourceLocation": "yxpdfdgtbdkuplta",
+                    "SourceRepository": "jvrsibdssvobaqtg",
+                    "SourceType": "xclulmldydrvehru"
+                },
+                "SourceBundle": {
+                    "S3Bucket": "cteaxysvziymxfmt",
+                    "S3Key": "cjvmpxtrmbsynvjt"
+                },
+                "Status": "awmjyorikvsdpkkr",
+                "VersionLabel": "iqeoujmohtdaaiuk"
+            },
+            {
+                "ApplicationName": "bxyczpojsccxkapj",
+                "ApplicationVersionArn": "fghxtlealzdybuqd",
+                "BuildArn": "zhgqwhdaghcakpua",
+                "DateCreated": "zjrivlpdydcnmgei",
+                "DateUpdated": "qlycotqbbzwgbiam",
+                "Description": "cwyxeipdkseyfepk",
+                "SourceBuildInformation": {
+                    "SourceLocation": "iiigoxirbqcptzlh",
+                    "SourceRepository": "kbevkniqmjizxvts",
+                    "SourceType": "nrkchwuuydbrnepp"
+                },
+                "SourceBundle": {
+                    "S3Bucket": "zogbrfcdrqxfcyvd",
+                    "S3Key": "znmutspxzssaswfw"
+                },
+                "Status": "fdjvguvqswnbzeyh",
+                "VersionLabel": "klhrwuedbbafzpte"
+            },
+            {
+                "ApplicationName": "avjcphivdhlasknw",
+                "ApplicationVersionArn": "ktmpratslhbhvckp",
+                "BuildArn": "bgevfimeipfmszzr",
+                "DateCreated": "xgctssiqhcbnspur",
+                "DateUpdated": "goxocjgotlsxbqzj",
+                "Description": "crdupcjxvzlnolwp",
+                "SourceBuildInformation": {
+                    "SourceLocation": "cfwscakrjbmxlbti",
+                    "SourceRepository": "utneihyavavhcucc",
+                    "SourceType": "jdywgqfxjkgkwexw"
+                },
+                "SourceBundle": {
+                    "S3Bucket": "gmqeqwyuzxitxkss",
+                    "S3Key": "qrzzzjjyqbuifwmd"
+                },
+                "Status": "zjktmdixlivskwqj",
+                "VersionLabel": "powadsbzzzraclor"
+            },
+            {
+                "ApplicationName": "dycajydrwlnjunop",
+                "ApplicationVersionArn": "hyzhjtfpawttkntp",
+                "BuildArn": "dcgzrdzojuimgpba",
+                "DateCreated": "jzpavevublqqrprl",
+                "DateUpdated": "utxecympwqeciaaq",
+                "Description": "ffroyycozrpxjkdv",
+                "SourceBuildInformation": {
+                    "SourceLocation": "jdeplnkaiuzdoiib",
+                    "SourceRepository": "yciguzhbblfzcuwi",
+                    "SourceType": "tojjylpntjqmweny"
+                },
+                "SourceBundle": {
+                    "S3Bucket": "ljdftxtuxsqludzt",
+                    "S3Key": "wkjhghgppvdbxpzi"
+                },
+                "Status": "qttvstnmcwmqduwg",
+                "VersionLabel": "lgoqucdeubbztpdq"
+            },
+            {
+                "ApplicationName": "beclxpitqbwxoyqb",
+                "ApplicationVersionArn": "eujeembolyhdlwfb",
+                "BuildArn": "dngywcgfbawjgvks",
+                "DateCreated": "nrexfuzdtsbgbkmo",
+                "DateUpdated": "addqxuntogqvecgb",
+                "Description": "phrghxvbkwjagbpp",
+                "SourceBuildInformation": {
+                    "SourceLocation": "mfiguwrmaovnrnxz",
+                    "SourceRepository": "nokpcyvwxwsdhqht",
+                    "SourceType": "mecngufnhxoygtlq"
+                },
+                "SourceBundle": {
+                    "S3Bucket": "dhusplmrcinfljfw",
+                    "S3Key": "rxkoqnornpuyrnps"
+                },
+                "Status": "ggfwldlmwavodjtn",
+                "VersionLabel": "mcczhfhzsnhfboak"
+            },
+            {
+                "ApplicationName": "eyhyonpequzymzbi",
+                "ApplicationVersionArn": "nupzjnuvsvofjlvc",
+                "BuildArn": "wgexcgvupnclnyzk",
+                "DateCreated": "fxsfbynhhfjpgxwb",
+                "DateUpdated": "znauohhyotyygduj",
+                "Description": "evxkagynzleqnazs",
+                "SourceBuildInformation": {
+                    "SourceLocation": "nfndjciuzuveynzz",
+                    "SourceRepository": "gpfcqmclbgtebhof",
+                    "SourceType": "nifzszcencbqowhq"
+                },
+                "SourceBundle": {
+                    "S3Bucket": "pvxeyyevxbylzxkq",
+                    "S3Key": "blwangqvfqqtzqtl"
+                },
+                "Status": "wypttsolyvleeyxx",
+                "VersionLabel": "nladxieljkygeobz"
+            },
+            {
+                "ApplicationName": "biqficlmdopadnnd",
+                "ApplicationVersionArn": "lzkkyvahbikdrkgp",
+                "BuildArn": "qgnagnbhceutrika",
+                "DateCreated": "etgolvqgksvdrnlt",
+                "DateUpdated": "txvndbfuhuhplbji",
+                "Description": "dbdewtrximltlzbu",
+                "SourceBuildInformation": {
+                    "SourceLocation": "regbwaszeynlguuz",
+                    "SourceRepository": "ivunnkyzzxrbzpdg",
+                    "SourceType": "fcdafjzyjbjnfvdf"
+                },
+                "SourceBundle": {
+                    "S3Bucket": "vsjmediaxgsoppjv",
+                    "S3Key": "zelvajvfilncjtrm"
+                },
+                "Status": "xogzthmzqifmnzwi",
+                "VersionLabel": "hgdgzqugptrkouue"
+            },
+            {
+                "ApplicationName": "lcvuysgemhkdvxdu",
+                "ApplicationVersionArn": "rypbidnumrfvhrmc",
+                "BuildArn": "hewbuvrjsvixzspm",
+                "DateCreated": "dwyhifftxzusukug",
+                "DateUpdated": "mgcqqjyexyelmcyu",
+                "Description": "wkhvwzhtdupjlqcq",
+                "SourceBuildInformation": {
+                    "SourceLocation": "zhukfpdviiyiulth",
+                    "SourceRepository": "eafgxgtscvxztfhi",
+                    "SourceType": "ytauyllepvukzznu"
+                },
+                "SourceBundle": {
+                    "S3Bucket": "omsxlafdpawzcphe",
+                    "S3Key": "tqxesyfdncxnfumm"
+                },
+                "Status": "cuwmygvzkdnlllli",
+                "VersionLabel": "cykhlffcowpvvvgy"
+            },
+            {
+                "ApplicationName": "moqacggsbbtiilpi",
+                "ApplicationVersionArn": "jjdiacussfumfrlz",
+                "BuildArn": "kmgplcnwrfwasivn",
+                "DateCreated": "kkgytffmfuclwjfd",
+                "DateUpdated": "qokjrpfdfnofxktj",
+                "Description": "waleezseiklmxqyc",
+                "SourceBuildInformation": {
+                    "SourceLocation": "lccgdnvowuwyicdn",
+                    "SourceRepository": "wyxmuqbidguqziuq",
+                    "SourceType": "kaeivaobtuzflpif"
+                },
+                "SourceBundle": {
+                    "S3Bucket": "ilzgijjypybjfymi",
+                    "S3Key": "gubnzqkjrqwrvzjc"
+                },
+                "Status": "gvmbklixgjxshlvd",
+                "VersionLabel": "aodpfzniwhpyypzu"
+            },
+            {
+                "ApplicationName": "voloncoihvcoeguv",
+                "ApplicationVersionArn": "wxucpitazpbwrzod",
+                "BuildArn": "emodihosbxpzgrec",
+                "DateCreated": "jgpyxcstrrsebmxy",
+                "DateUpdated": "pyrtvklkutqctksb",
+                "Description": "qmeembwasiqnytsp",
+                "SourceBuildInformation": {
+                    "SourceLocation": "aywekgtdzghqutbv",
+                    "SourceRepository": "udeycvtuslesbpmy",
+                    "SourceType": "sclfqohkmhjogwzc"
+                },
+                "SourceBundle": {
+                    "S3Bucket": "rgoewjczyjmbdeae",
+                    "S3Key": "ssesqfvazvuawecf"
+                },
+                "Status": "muyimdnwzhrbjcyq",
+                "VersionLabel": "nxwahjxrkmsgrupp"
+            }
+        ],
+        "result_key": "ApplicationVersions"
+    },
+    "meta": {
+        "start": 1711115714.712984,
+        "end": 1711115721.519029,
+        "duration": 6.8060548305511475,
+        "service": "elasticbeanstalk",
+        "type": "application_versions"
+    }
+}

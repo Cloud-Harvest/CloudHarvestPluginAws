@@ -1,0 +1,36 @@
+{
+    "input": {
+        "template": {
+            "includeWaiting": true
+        },
+        "required": [],
+        "md5": "58a6860c81cdd2524870f56c0868f423",
+        "boto_command": "list_open_cypher_queries",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": 0,
+        "required": [],
+        "md5": "55e6d2ccb2eb0192e971f3bfddcc5a65",
+        "randomized": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "result_key": "acceptedQueryCount"
+    },
+    "meta": {
+        "start": 1711116239.499597,
+        "end": 1711116246.51446,
+        "duration": 7.014869928359985,
+        "service": "neptunedata",
+        "type": "open_cypher_queries"
+    }
+}

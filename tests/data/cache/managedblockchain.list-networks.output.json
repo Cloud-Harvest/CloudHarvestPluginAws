@@ -1,0 +1,141 @@
+{
+    "input": {
+        "template": {
+            "Name": "",
+            "Framework": "HYPERLEDGER_FABRIC",
+            "Status": "CREATING",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "486a80c9c6e500ab4a4e345a1a52988d",
+        "boto_command": "list_networks",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "Id": "Id",
+                "Name": "Name",
+                "Description": "Description",
+                "Framework": "Framework",
+                "FrameworkVersion": "FrameworkVersion",
+                "Status": "Status",
+                "CreationDate": "1970-01-01T00:00:00",
+                "Arn": "Arn"
+            }
+        ],
+        "required": [],
+        "md5": "db44e80ffc7866f2cd3335fbb6b608bb",
+        "randomized": [
+            {
+                "Arn": "ugesakhlterkwryw",
+                "CreationDate": "rcadfcoluuhyzrar",
+                "Description": "lqwtlpsdsmojvzju",
+                "Framework": "fsktzlammbhiacby",
+                "FrameworkVersion": "bxinvcxmdgsvhnig",
+                "Id": "zgwybeakyqfyshcb",
+                "Name": "pspaifzifxzlyxqr",
+                "Status": "wigtxebiyrnblhvw"
+            },
+            {
+                "Arn": "qtfvrykogoxpmhvc",
+                "CreationDate": "fxvwaimfiqugimhc",
+                "Description": "prcdeehmlbvmbsvb",
+                "Framework": "sjqhsjhpqpfayxba",
+                "FrameworkVersion": "bznygaxstzbjzjxm",
+                "Id": "jkuapjsafwacvbhi",
+                "Name": "xfhexhfhmkeevowm",
+                "Status": "hhurenzomlibccrb"
+            },
+            {
+                "Arn": "jrghhootfavokzmn",
+                "CreationDate": "ewlqexfonljptpzm",
+                "Description": "ffewvydkaufruoqa",
+                "Framework": "joaduvtyukbsuhfk",
+                "FrameworkVersion": "rklftfzftmqrramz",
+                "Id": "kaqxelikbowknbnl",
+                "Name": "wwjfxohgpldifasn",
+                "Status": "gmaoryiqaahcxvhj"
+            },
+            {
+                "Arn": "nluvwqmlmlywhakn",
+                "CreationDate": "uxmewawcihcurfjr",
+                "Description": "fsutezbepgavxgrk",
+                "Framework": "rsjirguwxomjftcg",
+                "FrameworkVersion": "ryrtmhsfuvisokzl",
+                "Id": "kkwgehybfskwguls",
+                "Name": "nzlslqzonxvamjmv",
+                "Status": "ealmltxvjurfgboo"
+            },
+            {
+                "Arn": "urwmszqjbbuovnbn",
+                "CreationDate": "ehxhoseufalsvohz",
+                "Description": "oyrigtpsjjemwxed",
+                "Framework": "wjkvcaorbmdyprth",
+                "FrameworkVersion": "ahkhiaoerjcdodch",
+                "Id": "dokloykkxglvdxjz",
+                "Name": "qagunyctxxuubpvy",
+                "Status": "vlkfykddajzhzlrx"
+            },
+            {
+                "Arn": "ubymtoyfegkxyxag",
+                "CreationDate": "ytagplwizhkbjyqq",
+                "Description": "fwpmivxbbnceompg",
+                "Framework": "acucqumimokuscsc",
+                "FrameworkVersion": "zpkxnhqntcxtuzrv",
+                "Id": "fktsnixcmhtdgmeo",
+                "Name": "tqpkxiofqdvjzccd",
+                "Status": "uuaossnrbzdanflw"
+            },
+            {
+                "Arn": "dtocxkoxezkbczsi",
+                "CreationDate": "xwrkaylciejhnsdo",
+                "Description": "xmpuqvojdulghalj",
+                "Framework": "fejwweoygeilyzzc",
+                "FrameworkVersion": "jjtdptdjeabtqggg",
+                "Id": "ptbyjdogvruomwmr",
+                "Name": "sigbuigqdwfysqoy",
+                "Status": "lkbbqimcljrzuywn"
+            },
+            {
+                "Arn": "tqzpilmxqftmpdot",
+                "CreationDate": "iylzzimgqazdxkue",
+                "Description": "wlthgydrjbzheyqr",
+                "Framework": "gqigcwuhymmdgugl",
+                "FrameworkVersion": "hdaysqyvnvcxuspq",
+                "Id": "pinxhearrmtfwmwa",
+                "Name": "ukirettyuqxptijp",
+                "Status": "ltypgiktvsaaztvh"
+            },
+            {
+                "Arn": "wappqgmazuhnxttp",
+                "CreationDate": "pizmcqpwkbrkutde",
+                "Description": "kaombcfhxuaayafr",
+                "Framework": "tbawpqgyobsrxyfq",
+                "FrameworkVersion": "pijyoalnewqjovpl",
+                "Id": "mqopdwarvymwrivz",
+                "Name": "ypblzcemcdxddfpp",
+                "Status": "lwfumnrscfmfzzrg"
+            },
+            {
+                "Arn": "pifpvdevgtlmcrzy",
+                "CreationDate": "mvuuenwftczfzxrv",
+                "Description": "gkczlvwmtqywunat",
+                "Framework": "ympzynlkgaesabpq",
+                "FrameworkVersion": "ohpwnnyoavtyvhbu",
+                "Id": "fecmcnnpdlojqcwt",
+                "Name": "bfjqfeeehiretvvn",
+                "Status": "ownludeevbvckhua"
+            }
+        ],
+        "result_key": "Networks"
+    },
+    "meta": {
+        "start": 1711116158.446535,
+        "end": 1711116165.063734,
+        "duration": 6.6172099113464355,
+        "service": "managedblockchain",
+        "type": "networks"
+    }
+}

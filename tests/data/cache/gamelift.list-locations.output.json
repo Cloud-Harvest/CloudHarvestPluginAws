@@ -1,0 +1,75 @@
+{
+    "input": {
+        "template": {
+            "Filters": [
+                "AWS"
+            ],
+            "Limit": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "a31f33c310c0725dc1ec5411216bf896",
+        "boto_command": "list_locations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "LocationName": "LocationName",
+                "LocationArn": "LocationArn"
+            }
+        ],
+        "required": [],
+        "md5": "5740430125792f255a30df9e4d37da8c",
+        "randomized": [
+            {
+                "LocationArn": "snycskgnyqjangim",
+                "LocationName": "kjlwsjjlqnnvzrmr"
+            },
+            {
+                "LocationArn": "wbbofpkrybscysmc",
+                "LocationName": "ckhzxvqsjqgdkltu"
+            },
+            {
+                "LocationArn": "bgultbkvcodhagvk",
+                "LocationName": "tvrznpoilzbnkvzq"
+            },
+            {
+                "LocationArn": "dnzxwlkqgizeimsz",
+                "LocationName": "ngddfjocatkkivos"
+            },
+            {
+                "LocationArn": "fslyrosatvixvrsl",
+                "LocationName": "gfzzztlpsozsffzm"
+            },
+            {
+                "LocationArn": "xnncrexyvmulects",
+                "LocationName": "jsfmoirwaupkcmpy"
+            },
+            {
+                "LocationArn": "vlslbmednpaeorgo",
+                "LocationName": "nwtrztoodwvgxluc"
+            },
+            {
+                "LocationArn": "pehyqixzihzfgqis",
+                "LocationName": "higttkjbumquumya"
+            },
+            {
+                "LocationArn": "chjebnhccgzsgubb",
+                "LocationName": "rjaxkyharvvyavwk"
+            },
+            {
+                "LocationArn": "uxomkbaqqpdfyxie",
+                "LocationName": "jaqjmurwpcmvvcqr"
+            }
+        ],
+        "result_key": "Locations"
+    },
+    "meta": {
+        "start": 1711115805.739906,
+        "end": 1711115813.380414,
+        "duration": 7.6405189037323,
+        "service": "gamelift",
+        "type": "locations"
+    }
+}

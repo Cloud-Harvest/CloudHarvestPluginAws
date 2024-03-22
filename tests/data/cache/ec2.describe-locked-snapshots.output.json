@@ -1,0 +1,161 @@
+{
+    "input": {
+        "template": {
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxResults": 0,
+            "NextToken": "",
+            "SnapshotIds": [
+                ""
+            ],
+            "DryRun": true
+        },
+        "required": [],
+        "md5": "80e7525a653d74ccf66b9bb56bb27337",
+        "boto_command": "describe_locked_snapshots",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "OwnerId": "OwnerId",
+                "SnapshotId": "SnapshotId",
+                "LockState": "LockState",
+                "LockDuration": 0,
+                "CoolOffPeriod": 0,
+                "CoolOffPeriodExpiresOn": "1970-01-01T00:00:00",
+                "LockCreatedOn": "1970-01-01T00:00:00",
+                "LockDurationStartTime": "1970-01-01T00:00:00",
+                "LockExpiresOn": "1970-01-01T00:00:00"
+            }
+        ],
+        "required": [],
+        "md5": "120384ee4ab70539edcdb69731c16ba3",
+        "randomized": [
+            {
+                "CoolOffPeriod": 0,
+                "CoolOffPeriodExpiresOn": "axptkpxrswvodlvd",
+                "LockCreatedOn": "kihtuhofljtboqdd",
+                "LockDuration": 0,
+                "LockDurationStartTime": "vjjhuzcbulywmfcy",
+                "LockExpiresOn": "zqzctjifhgkfmuii",
+                "LockState": "zrfkxvgwtehjktcv",
+                "OwnerId": "smvholiaxdpzjocq",
+                "SnapshotId": "lgxdongfxzyhjlrb"
+            },
+            {
+                "CoolOffPeriod": 0,
+                "CoolOffPeriodExpiresOn": "xbmhdorqtufvigpx",
+                "LockCreatedOn": "itipocfeeocunxmv",
+                "LockDuration": 0,
+                "LockDurationStartTime": "nogdnvgdoheejocz",
+                "LockExpiresOn": "zubqlxhvaojwjntf",
+                "LockState": "fbmpfrcsrgfyngwu",
+                "OwnerId": "tsjjnaebtcqikfma",
+                "SnapshotId": "snglkyiezwvemckz"
+            },
+            {
+                "CoolOffPeriod": 0,
+                "CoolOffPeriodExpiresOn": "rthfvoggcqbrbpqf",
+                "LockCreatedOn": "vntflbpgbxubotni",
+                "LockDuration": 0,
+                "LockDurationStartTime": "rckiozjahgpthzhx",
+                "LockExpiresOn": "shywxxzzznzyeyar",
+                "LockState": "ppddtqtiqqpmehxl",
+                "OwnerId": "ejbuowkziaiahjul",
+                "SnapshotId": "dbpuxrwtylcwuynm"
+            },
+            {
+                "CoolOffPeriod": 0,
+                "CoolOffPeriodExpiresOn": "bnmnyqixhbjxkktj",
+                "LockCreatedOn": "cmqsbkqnopbniuzm",
+                "LockDuration": 0,
+                "LockDurationStartTime": "gdygckbqruiswbmf",
+                "LockExpiresOn": "awfaqavvdgwlfdgl",
+                "LockState": "frszaagjbusrbvxl",
+                "OwnerId": "tpsllevfcrzrdguk",
+                "SnapshotId": "emifgpjbrlxjmwui"
+            },
+            {
+                "CoolOffPeriod": 0,
+                "CoolOffPeriodExpiresOn": "hisszzghcmulaojv",
+                "LockCreatedOn": "vbcqakkhxcebnsyn",
+                "LockDuration": 0,
+                "LockDurationStartTime": "yqdtyzoiiluluebq",
+                "LockExpiresOn": "gyarmkvmcsksbyzd",
+                "LockState": "qlysmjbimgfunddx",
+                "OwnerId": "xjpmmlnkiwtwcvan",
+                "SnapshotId": "xhrtmvapbajugrms"
+            },
+            {
+                "CoolOffPeriod": 0,
+                "CoolOffPeriodExpiresOn": "qrmzdrkebocyezkz",
+                "LockCreatedOn": "sprliykvyyjwdott",
+                "LockDuration": 0,
+                "LockDurationStartTime": "hpotlciulutcarxj",
+                "LockExpiresOn": "axeirhkzmwzxiise",
+                "LockState": "genpztxjkryssaqy",
+                "OwnerId": "rzsiaxmrgnzkdmyg",
+                "SnapshotId": "ddveoubfinmqpsvv"
+            },
+            {
+                "CoolOffPeriod": 0,
+                "CoolOffPeriodExpiresOn": "bbuoelwtyvnjeaoz",
+                "LockCreatedOn": "whcqyvdeoddrouqq",
+                "LockDuration": 0,
+                "LockDurationStartTime": "vkstloduzogpqzwv",
+                "LockExpiresOn": "alyzilnsxawbovml",
+                "LockState": "bxwynmukhyexvwyp",
+                "OwnerId": "hsznflsjgvvkyfrl",
+                "SnapshotId": "bhscyttixjpqdoan"
+            },
+            {
+                "CoolOffPeriod": 0,
+                "CoolOffPeriodExpiresOn": "wozbknvdqfnfovpu",
+                "LockCreatedOn": "evwsgibeyenxyefb",
+                "LockDuration": 0,
+                "LockDurationStartTime": "bgmnzkrbjifurrht",
+                "LockExpiresOn": "lijmzxlphplysdlk",
+                "LockState": "rscykgeyzsbsxfme",
+                "OwnerId": "veeskjnothgvqblp",
+                "SnapshotId": "vcjxsvhmqwmbadnb"
+            },
+            {
+                "CoolOffPeriod": 0,
+                "CoolOffPeriodExpiresOn": "fttujjvnybhbaqgr",
+                "LockCreatedOn": "kpmcvqqyuklcijxn",
+                "LockDuration": 0,
+                "LockDurationStartTime": "ucmkabqvdxnvlapq",
+                "LockExpiresOn": "qivqsghwqyendloi",
+                "LockState": "lhqfciydzixbzicf",
+                "OwnerId": "rivwsdulbrjdrego",
+                "SnapshotId": "carcierwkrdwlamq"
+            },
+            {
+                "CoolOffPeriod": 0,
+                "CoolOffPeriodExpiresOn": "exvyetvfsyxwibvp",
+                "LockCreatedOn": "kiphajsoxxxvsetn",
+                "LockDuration": 0,
+                "LockDurationStartTime": "jhsluofphdqqrgic",
+                "LockExpiresOn": "bkfjfznfvgtyivht",
+                "LockState": "ampjxxukrvsiepql",
+                "OwnerId": "kidszyhnkuxjduzo",
+                "SnapshotId": "dppbuygdvinllpcw"
+            }
+        ],
+        "result_key": "Snapshots"
+    },
+    "meta": {
+        "start": 1711115635.637194,
+        "end": 1711115642.101902,
+        "duration": 6.464715003967285,
+        "service": "ec2",
+        "type": "locked_snapshots"
+    }
+}

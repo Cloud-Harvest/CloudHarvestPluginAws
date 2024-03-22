@@ -1,0 +1,18 @@
+[
+    "directconnect.describe-connections",
+    "directconnect.describe-customer-metadata",
+    "directconnect.describe-direct-connect-gateway-association-proposals",
+    "directconnect.describe-direct-connect-gateway-associations",
+    "directconnect.describe-direct-connect-gateway-attachments",
+    "directconnect.describe-direct-connect-gateways",
+    "directconnect.describe-hosted-connections",
+    "directconnect.describe-interconnects",
+    "directconnect.describe-lags",
+    "directconnect.describe-loa",
+    "directconnect.describe-locations",
+    "directconnect.describe-router-configuration",
+    "directconnect.describe-tags",
+    "directconnect.describe-virtual-gateways",
+    "directconnect.describe-virtual-interfaces",
+    "directconnect.list-virtual-interface-test-history"
+]

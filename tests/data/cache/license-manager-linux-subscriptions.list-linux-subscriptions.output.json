@@ -1,0 +1,92 @@
+{
+    "input": {
+        "template": {
+            "Filters": [
+                {
+                    "Name": "",
+                    "Operator": "Equal",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "a470dc9d8c49d4d4f57242d4fc9427cb",
+        "boto_command": "list_linux_subscriptions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "InstanceCount": 0,
+                "Name": "Name",
+                "Type": "Type"
+            }
+        ],
+        "required": [],
+        "md5": "c4609ff9da9c2de7703430e53485a193",
+        "randomized": [
+            {
+                "InstanceCount": 0,
+                "Name": "klfskhtxkjzbmjrp",
+                "Type": "xpkhepbtywvltrni"
+            },
+            {
+                "InstanceCount": 0,
+                "Name": "gjdsmgrnuhsrdnjn",
+                "Type": "lwsbxrfyivhzjexf"
+            },
+            {
+                "InstanceCount": 0,
+                "Name": "ilalofxawxlgpotq",
+                "Type": "qwcwouhamcddjdpq"
+            },
+            {
+                "InstanceCount": 0,
+                "Name": "wabgviyqkekcfbjx",
+                "Type": "nmxwtnnsqjfogifl"
+            },
+            {
+                "InstanceCount": 0,
+                "Name": "ipxgjqhmhhlfwyzd",
+                "Type": "ewctksuiydvqehoo"
+            },
+            {
+                "InstanceCount": 0,
+                "Name": "lojvmpdutdpvwbup",
+                "Type": "zgcssnsjaiokwkpn"
+            },
+            {
+                "InstanceCount": 0,
+                "Name": "oyivwiyeyttyaxwe",
+                "Type": "kifgvqcmuthsbrlu"
+            },
+            {
+                "InstanceCount": 0,
+                "Name": "mfsyyoekttrgewkx",
+                "Type": "vnwzpudskbnehhyo"
+            },
+            {
+                "InstanceCount": 0,
+                "Name": "hnixwbdmvwmebptg",
+                "Type": "pszfttdnjdaengwu"
+            },
+            {
+                "InstanceCount": 0,
+                "Name": "flpuvafhscdamrcc",
+                "Type": "qdirvkghifkcfgbh"
+            }
+        ],
+        "result_key": "Subscriptions"
+    },
+    "meta": {
+        "start": 1711116090.70603,
+        "end": 1711116096.657681,
+        "duration": 5.951661109924316,
+        "service": "license-manager-linux-subscriptions",
+        "type": "linux_subscriptions"
+    }
+}

@@ -1,0 +1,204 @@
+{
+    "input": {
+        "template": {
+            "ApplicationIds": [
+                ""
+            ],
+            "ComputeTypeNames": [
+                "VALUE"
+            ],
+            "LicenseType": "LICENSED",
+            "OperatingSystemNames": [
+                "AMAZON_LINUX_2"
+            ],
+            "Owner": "",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "ff287248cbbb67fd72d8248737632196",
+        "boto_command": "describe_applications",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "ApplicationId": "ApplicationId",
+                "Created": "1970-01-01T00:00:00",
+                "Description": "Description",
+                "LicenseType": "LicenseType",
+                "Name": "Name",
+                "Owner": "Owner",
+                "State": "State",
+                "SupportedComputeTypeNames": [
+                    "Compute"
+                ],
+                "SupportedOperatingSystemNames": [
+                    "OperatingSystemName"
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "f96dc555f71c5c6f854ead42a5a7b02a",
+        "randomized": [
+            {
+                "ApplicationId": "rxawaymytlnbpjhc",
+                "Created": "tujcqdqrnkbvpmmq",
+                "Description": "lfpmdybvkkpxrxxu",
+                "LicenseType": "tfioravysblfarel",
+                "Name": "nahrbhdkafixgrmw",
+                "Owner": "kxwgyyxpxsixunqf",
+                "State": "cspqupocjhamjwlc",
+                "SupportedComputeTypeNames": [
+                    "yxfiwzieuswthxtg"
+                ],
+                "SupportedOperatingSystemNames": [
+                    "sxrpgnuhnaqdmiwk"
+                ]
+            },
+            {
+                "ApplicationId": "txheparpoqyjcdne",
+                "Created": "zdkedtinmnoyjhiu",
+                "Description": "uvquenhgrmjfrvwa",
+                "LicenseType": "bywstioegrwtaeas",
+                "Name": "jajumtqqfjhefwmw",
+                "Owner": "krhpjzgbalovxuwh",
+                "State": "jtwnohsxnigeqtzh",
+                "SupportedComputeTypeNames": [
+                    "pntplygjqnxhsoyf"
+                ],
+                "SupportedOperatingSystemNames": [
+                    "ssexbmfzxzegxhgi"
+                ]
+            },
+            {
+                "ApplicationId": "amrwqtcnpgsybljy",
+                "Created": "tirzfzvxlzvnvkyt",
+                "Description": "iekjfcnncqnslcth",
+                "LicenseType": "lkmbvxvznynxvhod",
+                "Name": "nilcjakwlkelutfn",
+                "Owner": "bijcuyqtdpcvhfsz",
+                "State": "lmxhfpgwnvlabtrp",
+                "SupportedComputeTypeNames": [
+                    "iyugeexflkmdcpqu"
+                ],
+                "SupportedOperatingSystemNames": [
+                    "bwcwwdwengfejkce"
+                ]
+            },
+            {
+                "ApplicationId": "rlcnizcxsgepiepn",
+                "Created": "isenqjaokqcfcdft",
+                "Description": "eygzczfidtnetbwy",
+                "LicenseType": "aslqbtpznezvrmyv",
+                "Name": "rbatyvmzbnkswwpb",
+                "Owner": "xwlkzpohlkisgrol",
+                "State": "ltvbkvzekbuaijta",
+                "SupportedComputeTypeNames": [
+                    "hupjtjlhuiegvooe"
+                ],
+                "SupportedOperatingSystemNames": [
+                    "djpjdaooccbioufx"
+                ]
+            },
+            {
+                "ApplicationId": "prifrplmripaylwk",
+                "Created": "oazpvyfbmzzisnup",
+                "Description": "kmnprlnofrpshpwt",
+                "LicenseType": "cyapvhmfafjtvyks",
+                "Name": "waxgvecjyhkgsrjg",
+                "Owner": "yhkydqstensqretg",
+                "State": "iciooxylnosiivyz",
+                "SupportedComputeTypeNames": [
+                    "abzbftxeonlenusz"
+                ],
+                "SupportedOperatingSystemNames": [
+                    "vnveynfqfiaklakl"
+                ]
+            },
+            {
+                "ApplicationId": "antjgtlkxnatjkyt",
+                "Created": "hbmgutpqymexpiui",
+                "Description": "lbzdngbjounuqwqu",
+                "LicenseType": "pamubhttaogxakew",
+                "Name": "qsngorbkppipgrxe",
+                "Owner": "jqilbnpjhmaqtkrj",
+                "State": "okuvfozchaqnkjzj",
+                "SupportedComputeTypeNames": [
+                    "yrqwwmqedkfswwbf"
+                ],
+                "SupportedOperatingSystemNames": [
+                    "fzqvbbkxuedcuxdc"
+                ]
+            },
+            {
+                "ApplicationId": "cxpngxqgnspkuhxx",
+                "Created": "umissbbeliosnadk",
+                "Description": "bfzzlznxampetskt",
+                "LicenseType": "fzsehshyqmtesdhd",
+                "Name": "jhlderygadugayzl",
+                "Owner": "gszfgsdrwwyhxsqu",
+                "State": "chtuauyusyjbgbtu",
+                "SupportedComputeTypeNames": [
+                    "tpoufquuamnwyypa"
+                ],
+                "SupportedOperatingSystemNames": [
+                    "hlgvpgyrzterzdel"
+                ]
+            },
+            {
+                "ApplicationId": "dqufgucefwqndzil",
+                "Created": "ziebslbirapuwoez",
+                "Description": "gdmiwsnyarxrsjin",
+                "LicenseType": "rrlxfqechxjsqwgg",
+                "Name": "arhvrpagoltomhwj",
+                "Owner": "zjnckrttqapwzegp",
+                "State": "hhoowmcbgwbtksro",
+                "SupportedComputeTypeNames": [
+                    "vapvoyufxuealfff"
+                ],
+                "SupportedOperatingSystemNames": [
+                    "wmireicvosksfpam"
+                ]
+            },
+            {
+                "ApplicationId": "zduqyqnxaikjnera",
+                "Created": "uhmpogsuhuwmswip",
+                "Description": "pdkoexibdcwisryy",
+                "LicenseType": "jbkgonarkidzwulg",
+                "Name": "vukutroqizewcrft",
+                "Owner": "vnlnjlpwzszorsui",
+                "State": "ttcnklswbydeubnt",
+                "SupportedComputeTypeNames": [
+                    "xumlwxzdvemccxfx"
+                ],
+                "SupportedOperatingSystemNames": [
+                    "jtjtrrcoibrfipft"
+                ]
+            },
+            {
+                "ApplicationId": "suuqulqacwxwnfgr",
+                "Created": "faepzttslqcwufdc",
+                "Description": "pxpxnjfadoglhspr",
+                "LicenseType": "qroerktfeaxanevh",
+                "Name": "rsmiqcpnlyrlthsn",
+                "Owner": "aehhwijniffrrfem",
+                "State": "zpecjorcvbaasdgd",
+                "SupportedComputeTypeNames": [
+                    "hfcjqyqeqvnsiybb"
+                ],
+                "SupportedOperatingSystemNames": [
+                    "icyxguklqhpxnmdw"
+                ]
+            }
+        ],
+        "result_key": "Applications"
+    },
+    "meta": {
+        "start": 1711116807.068692,
+        "end": 1711116814.437641,
+        "duration": 7.36896014213562,
+        "service": "workspaces",
+        "type": "applications"
+    }
+}

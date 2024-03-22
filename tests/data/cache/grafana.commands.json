@@ -1,0 +1,9 @@
+[
+    "grafana.describe-workspace",
+    "grafana.describe-workspace-authentication",
+    "grafana.describe-workspace-configuration",
+    "grafana.list-permissions",
+    "grafana.list-tags-for-resource",
+    "grafana.list-versions",
+    "grafana.list-workspaces"
+]

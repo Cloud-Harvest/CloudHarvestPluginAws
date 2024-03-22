@@ -1,0 +1,206 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "StackStatusFilter": [
+                "CREATE_IN_PROGRESS"
+            ]
+        },
+        "required": [],
+        "md5": "94c08b61f03d519db4567c85c3db3ae3",
+        "boto_command": "list_stacks",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "StackId": "StackId",
+                "StackName": "StackName",
+                "TemplateDescription": "TemplateDescription",
+                "CreationTime": "1970-01-01T00:00:00",
+                "LastUpdatedTime": "1970-01-01T00:00:00",
+                "DeletionTime": "1970-01-01T00:00:00",
+                "StackStatus": "StackStatus",
+                "StackStatusReason": "StackStatusReason",
+                "ParentId": "ParentId",
+                "RootId": "RootId",
+                "DriftInformation": {
+                    "StackDriftStatus": "StackDriftStatus",
+                    "LastCheckTimestamp": "1970-01-01T00:00:00"
+                }
+            }
+        ],
+        "required": [],
+        "md5": "ecc80b5d14ded68ae1abc6e6912d34b6",
+        "randomized": [
+            {
+                "CreationTime": "kssettcqazwaeyox",
+                "DeletionTime": "usajctdlbgzbrkja",
+                "DriftInformation": {
+                    "LastCheckTimestamp": "wspbmflnpcpdgskp",
+                    "StackDriftStatus": "pihacvxldyrhbvrj"
+                },
+                "LastUpdatedTime": "aaxwxjzpyaxlgkff",
+                "ParentId": "yrbxgkujovwtpbjo",
+                "RootId": "ijpjwxcthnheaeoh",
+                "StackId": "nlpsqsgykohvmuns",
+                "StackName": "prascebqpedoilrn",
+                "StackStatus": "hogvothqqjcxnbdo",
+                "StackStatusReason": "dsnwxwgwtcovdgdc",
+                "TemplateDescription": "zufonzifwcdociaw"
+            },
+            {
+                "CreationTime": "zaglnojwgixqxcws",
+                "DeletionTime": "ismtxafqpwlxzffa",
+                "DriftInformation": {
+                    "LastCheckTimestamp": "jxqnfvmanfhznhib",
+                    "StackDriftStatus": "vrilddfjuypkjucd"
+                },
+                "LastUpdatedTime": "boqqrprboyjdopeo",
+                "ParentId": "glupnxyruhvkyobi",
+                "RootId": "kuwghikqvjtfsvlj",
+                "StackId": "zccoxfqlovjmpnwu",
+                "StackName": "pvbmgwbbrfjbwhvt",
+                "StackStatus": "xqnwhuaojqfmhbjq",
+                "StackStatusReason": "qhmwhabacebbtyyq",
+                "TemplateDescription": "xwmanaspaflmodgc"
+            },
+            {
+                "CreationTime": "xmvgnmmgdfaoxtyf",
+                "DeletionTime": "cgdtuiccxadjjyfl",
+                "DriftInformation": {
+                    "LastCheckTimestamp": "rdvzoyoxmndhbmgy",
+                    "StackDriftStatus": "yqspsifyrrilhnnd"
+                },
+                "LastUpdatedTime": "gcwacldqqpizlejm",
+                "ParentId": "atwucwwjktkjbgtq",
+                "RootId": "hopzhjmzzsanoejv",
+                "StackId": "biqkumxkyzytdyoc",
+                "StackName": "ygwkfvakmpuvfcmm",
+                "StackStatus": "rknboafyrcwgdbrq",
+                "StackStatusReason": "lvjgqsydiakqywed",
+                "TemplateDescription": "zpdemxgbidvzfagt"
+            },
+            {
+                "CreationTime": "hgesrmejdzpklraz",
+                "DeletionTime": "oqcoljpstbqpdzfg",
+                "DriftInformation": {
+                    "LastCheckTimestamp": "fvqtpdesxgvxxvkg",
+                    "StackDriftStatus": "lgyxtuvzmefebsla"
+                },
+                "LastUpdatedTime": "dvyhseehnewqotod",
+                "ParentId": "howbaupirifoubsw",
+                "RootId": "bcgvcxkpredmrlll",
+                "StackId": "bzcvpfxicemrnako",
+                "StackName": "huhxipvhwlftzyas",
+                "StackStatus": "luseldbxnrrjnqku",
+                "StackStatusReason": "jaebkeapkfhldwqq",
+                "TemplateDescription": "asawdqhykwwwzggq"
+            },
+            {
+                "CreationTime": "onryedhvwyppxart",
+                "DeletionTime": "feeajxhvyjhboyfa",
+                "DriftInformation": {
+                    "LastCheckTimestamp": "eerjsdvxjnltecbl",
+                    "StackDriftStatus": "cqfwrwqtupmbpwzc"
+                },
+                "LastUpdatedTime": "crbwijiqdymogwzj",
+                "ParentId": "pjkwpnwwinvmkkvy",
+                "RootId": "ugouvlnvvgorruwu",
+                "StackId": "clhbhowwmvvgaxzw",
+                "StackName": "ztfgtnrqhihwujsh",
+                "StackStatus": "ejdkodngmpayechn",
+                "StackStatusReason": "uqnnnmeyiriqrfia",
+                "TemplateDescription": "ujtttmacjznmfuik"
+            },
+            {
+                "CreationTime": "orvupivqizekouwp",
+                "DeletionTime": "hujdvmtcmissxxpf",
+                "DriftInformation": {
+                    "LastCheckTimestamp": "jwmxlvawmjlcwflx",
+                    "StackDriftStatus": "ozrtncphhhtyzpqx"
+                },
+                "LastUpdatedTime": "nznycchzcrtueioo",
+                "ParentId": "yrvawconnwktvszt",
+                "RootId": "ojpoqjvnolmzwbty",
+                "StackId": "vmiqeyjxoilgdrwq",
+                "StackName": "imayuawxxmrmxbfj",
+                "StackStatus": "esabgdmeeqaljcnj",
+                "StackStatusReason": "ogmikogxbebigrdj",
+                "TemplateDescription": "kbwlvmbcnzqmilfu"
+            },
+            {
+                "CreationTime": "tavgahjylauiikom",
+                "DeletionTime": "jmnamklhxbcvddzl",
+                "DriftInformation": {
+                    "LastCheckTimestamp": "lldjxrxkurftnmfa",
+                    "StackDriftStatus": "ykydbnpvsgueueix"
+                },
+                "LastUpdatedTime": "sqandmmrvbunanuw",
+                "ParentId": "tppbuakcxecztqql",
+                "RootId": "icbepvyxhxtgqopd",
+                "StackId": "fpbdjvjatehabeuu",
+                "StackName": "hnclytrohsruostd",
+                "StackStatus": "nzbvnocjsykqvoyt",
+                "StackStatusReason": "uzcbazhyhaojjkpc",
+                "TemplateDescription": "htdhbiyqootbjiwx"
+            },
+            {
+                "CreationTime": "wwalokosmumiexox",
+                "DeletionTime": "mivnyssndhlxxrsk",
+                "DriftInformation": {
+                    "LastCheckTimestamp": "rrqgxuctnjpndflu",
+                    "StackDriftStatus": "dnzzbkdmmkxsdrmt"
+                },
+                "LastUpdatedTime": "jtjevviarebfqtzx",
+                "ParentId": "prpjywenghvdorzu",
+                "RootId": "zmdietjmgsznfqvf",
+                "StackId": "igwqdsjefolhmknh",
+                "StackName": "hmmpauxdvpmqksql",
+                "StackStatus": "bvnajtoydenjbemu",
+                "StackStatusReason": "ctgqzuspgkrdiycv",
+                "TemplateDescription": "baeblrqjknntfgps"
+            },
+            {
+                "CreationTime": "swpwmxyuiznvgpdx",
+                "DeletionTime": "niyszylghekutfog",
+                "DriftInformation": {
+                    "LastCheckTimestamp": "lgznnrsavufpzqoe",
+                    "StackDriftStatus": "elnxwdlqmlkgrvec"
+                },
+                "LastUpdatedTime": "bbcnrlzpzxlmqdrv",
+                "ParentId": "ksjssogmkynjneiw",
+                "RootId": "nmlurfxjqrkmrlwn",
+                "StackId": "wyibznczebchoddn",
+                "StackName": "zbhgiosvcnlptsnb",
+                "StackStatus": "oyfzsxzuwpnielon",
+                "StackStatusReason": "zouxnuuyxllltmpm",
+                "TemplateDescription": "mxtzgtcjtdnnbyqc"
+            },
+            {
+                "CreationTime": "yfvofopwttnvwevl",
+                "DeletionTime": "loqidfskgwuvzasn",
+                "DriftInformation": {
+                    "LastCheckTimestamp": "giaochfhcebkyvkk",
+                    "StackDriftStatus": "icvnmvcetiejvtuk"
+                },
+                "LastUpdatedTime": "gicsraorivzbyefj",
+                "ParentId": "yyurvhqmrusnqhpc",
+                "RootId": "igfjzhpqvztfaife",
+                "StackId": "vasxrpbpsbrlgxrd",
+                "StackName": "gjtwrixtdbuohdjz",
+                "StackStatus": "hmmjixlcgplqqllc",
+                "StackStatusReason": "eukxitequtomwxwl",
+                "TemplateDescription": "hxfunabupawjghad"
+            }
+        ],
+        "result_key": "StackSummaries"
+    },
+    "meta": {
+        "start": 1711115367.351611,
+        "end": 1711115374.54818,
+        "duration": 7.196580171585083,
+        "service": "cloudformation",
+        "type": "stacks"
+    }
+}

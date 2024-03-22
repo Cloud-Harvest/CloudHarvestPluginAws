@@ -1,0 +1,195 @@
+{
+    "input": {
+        "template": {
+            "CoreNetworkId": "",
+            "ConnectAttachmentId": "",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "required": [],
+        "md5": "402c229567f5614bb7b6f94a82698ced",
+        "boto_command": "list_connect_peers",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "CoreNetworkId": "CoreNetworkId",
+                "ConnectAttachmentId": "ConnectAttachmentId",
+                "ConnectPeerId": "ConnectPeerId",
+                "EdgeLocation": "EdgeLocation",
+                "ConnectPeerState": "ConnectPeerState",
+                "CreatedAt": "1970-01-01T00:00:00",
+                "Tags": [
+                    {
+                        "Key": "Key",
+                        "Value": "Value"
+                    }
+                ],
+                "SubnetArn": "SubnetArn"
+            }
+        ],
+        "required": [],
+        "md5": "123821adc6eab2a0d5bfbb553cc45625",
+        "randomized": [
+            {
+                "ConnectAttachmentId": "mjrdlrqxtcjzwpsg",
+                "ConnectPeerId": "fxnmfrdooxnezwgf",
+                "ConnectPeerState": "bdcnqofbsfpamtaf",
+                "CoreNetworkId": "ugzfetxdssihkqnf",
+                "CreatedAt": "bukyoqdkvmiokzkv",
+                "EdgeLocation": "zlrwjoaylwgtqbwz",
+                "SubnetArn": "tpnoqcremvrgiztd",
+                "Tags": [
+                    {
+                        "Key": "nzctscxuitojlnmn",
+                        "Value": "ixnreaqehjhdkcde"
+                    }
+                ]
+            },
+            {
+                "ConnectAttachmentId": "utcbmucafmkvpten",
+                "ConnectPeerId": "ntpztpisfbktamlh",
+                "ConnectPeerState": "ywwitwafzfgjyjrj",
+                "CoreNetworkId": "wrsstvcubqanwykc",
+                "CreatedAt": "uqbfyejsvahkzfdf",
+                "EdgeLocation": "goaadzdeefrxabtl",
+                "SubnetArn": "dmfuwdwiuxjtmzvi",
+                "Tags": [
+                    {
+                        "Key": "jovvhsltfnjxijcq",
+                        "Value": "wzsbmwfahhbrjsuv"
+                    }
+                ]
+            },
+            {
+                "ConnectAttachmentId": "cemyvnucbrapyiql",
+                "ConnectPeerId": "nptmplgsaeqanifc",
+                "ConnectPeerState": "whhpjkdkzjbyhpho",
+                "CoreNetworkId": "yehslayixqofchmv",
+                "CreatedAt": "jggmzbqznjkrctus",
+                "EdgeLocation": "utgqkrkjfpmnvcci",
+                "SubnetArn": "xkoyifhjwddwgrfv",
+                "Tags": [
+                    {
+                        "Key": "cmtgqzpbcivgfcit",
+                        "Value": "uwdtxtmjpkpjtmyd"
+                    }
+                ]
+            },
+            {
+                "ConnectAttachmentId": "zdjnmemrkbbittjt",
+                "ConnectPeerId": "blbyuyelspcxsqxl",
+                "ConnectPeerState": "jdqlpwjodcsynfmq",
+                "CoreNetworkId": "wbytrhqsdttxunvm",
+                "CreatedAt": "uxsgdlkfcijrvwdj",
+                "EdgeLocation": "jyybqgozrbagllkv",
+                "SubnetArn": "wapywehyprlahlbr",
+                "Tags": [
+                    {
+                        "Key": "qwtrjynzjrmfgrdw",
+                        "Value": "kcfskrrrlsvvluqb"
+                    }
+                ]
+            },
+            {
+                "ConnectAttachmentId": "atkvvuucqtilgjts",
+                "ConnectPeerId": "chevveosusndfeqx",
+                "ConnectPeerState": "xlzegjfsbyxtffrf",
+                "CoreNetworkId": "nojycdzfnmxhwdyg",
+                "CreatedAt": "ljibhgqskzjnmdnc",
+                "EdgeLocation": "qbeuverznpggvzme",
+                "SubnetArn": "ywvpbtlmanuhqplg",
+                "Tags": [
+                    {
+                        "Key": "nvunnqhlwcgopxxc",
+                        "Value": "aujzurpldxmavjbx"
+                    }
+                ]
+            },
+            {
+                "ConnectAttachmentId": "gyhaelmlvccxiiaw",
+                "ConnectPeerId": "mvuzxqutwemyefte",
+                "ConnectPeerState": "whwvjziuczlashtx",
+                "CoreNetworkId": "tdrpfnbssusxxdxe",
+                "CreatedAt": "olwivzfwenezspyu",
+                "EdgeLocation": "wnkwxedtqylduwne",
+                "SubnetArn": "colqyvsdyprkcwpk",
+                "Tags": [
+                    {
+                        "Key": "vaxmgnukotquzjkq",
+                        "Value": "wsnwoxhpothefndb"
+                    }
+                ]
+            },
+            {
+                "ConnectAttachmentId": "ctavvtvuhbjtcykf",
+                "ConnectPeerId": "oiyszvlmijkgobcr",
+                "ConnectPeerState": "kwvindnbsxhfvjwd",
+                "CoreNetworkId": "jzgwsbzdnhjuoufz",
+                "CreatedAt": "yatsbksckgduayxy",
+                "EdgeLocation": "gvmvcoplhntnqhay",
+                "SubnetArn": "gfsiqsrkvvblpkwt",
+                "Tags": [
+                    {
+                        "Key": "kutwymrpqbwrifmt",
+                        "Value": "upjsyajjtcfcpenp"
+                    }
+                ]
+            },
+            {
+                "ConnectAttachmentId": "qjncwyngtkpcbfnr",
+                "ConnectPeerId": "tvdjntjkzozzeylb",
+                "ConnectPeerState": "incqkcagqviufbgc",
+                "CoreNetworkId": "jtoukzgxjbxdjtqf",
+                "CreatedAt": "xlwfbgdlmvtfwmyt",
+                "EdgeLocation": "ilkpsxtbqbrjwmlb",
+                "SubnetArn": "zdvtbyeskwnpyhrf",
+                "Tags": [
+                    {
+                        "Key": "ehhwsxyzclpiugqr",
+                        "Value": "fugucooawwsqkcbw"
+                    }
+                ]
+            },
+            {
+                "ConnectAttachmentId": "nxsaffafkopqwpwu",
+                "ConnectPeerId": "kecaasqalcppwnor",
+                "ConnectPeerState": "ypkzonfccramvmsf",
+                "CoreNetworkId": "cloqwnbiziuddibu",
+                "CreatedAt": "yjiawfuclesegfwj",
+                "EdgeLocation": "oriygwaqiormizqq",
+                "SubnetArn": "txgnkdmovwpljhjf",
+                "Tags": [
+                    {
+                        "Key": "fxvnwkzdgectrgli",
+                        "Value": "tacnyplwprzranyo"
+                    }
+                ]
+            },
+            {
+                "ConnectAttachmentId": "vtfheshuvohqunxx",
+                "ConnectPeerId": "wldenrtkbcnmvxsl",
+                "ConnectPeerState": "svuoqitqrkpbjlvw",
+                "CoreNetworkId": "vmpbmzrwyybgegam",
+                "CreatedAt": "clenrfjmqyraybiv",
+                "EdgeLocation": "isivrmkbhvdgnrpn",
+                "SubnetArn": "oeimvlwjxmccgduz",
+                "Tags": [
+                    {
+                        "Key": "szfoojjjxybweifu",
+                        "Value": "yvuduesdwybdlcag"
+                    }
+                ]
+            }
+        ],
+        "result_key": "ConnectPeers"
+    },
+    "meta": {
+        "start": 1711116251.030868,
+        "end": 1711116258.826126,
+        "duration": 7.7952680587768555,
+        "service": "networkmanager",
+        "type": "connect_peers"
+    }
+}

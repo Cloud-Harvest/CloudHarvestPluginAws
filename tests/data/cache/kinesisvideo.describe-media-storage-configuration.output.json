@@ -1,0 +1,70 @@
+{
+    "input": {
+        "template": {
+            "ChannelName": "",
+            "ChannelARN": ""
+        },
+        "required": [],
+        "md5": "c171d4e2630823d0f01e6c06e7205270",
+        "boto_command": "describe_media_storage_configuration",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": {
+            "StreamARN": "StreamARN",
+            "Status": "Status"
+        },
+        "required": [],
+        "md5": "572b9aaa416577f4c3bb31fe381e57f9",
+        "randomized": [
+            {
+                "Status": "qyctygpucdgtkhlk",
+                "StreamARN": "cfxhkjsbgmdysqqw"
+            },
+            {
+                "Status": "dlymyetlylfrguya",
+                "StreamARN": "hwtuufildmnomhwr"
+            },
+            {
+                "Status": "oymspemesnchuzkc",
+                "StreamARN": "kbsbplnubrhdlufb"
+            },
+            {
+                "Status": "gcbbzlymhheppgqr",
+                "StreamARN": "makloadvlkkredhw"
+            },
+            {
+                "Status": "sgiisaguxuvnlwxk",
+                "StreamARN": "byyhhozypnsxofuu"
+            },
+            {
+                "Status": "obgcimvtneenjtva",
+                "StreamARN": "cadomvoiadrudlyc"
+            },
+            {
+                "Status": "cvzgsvqhddwyijsz",
+                "StreamARN": "ztjbfdzhqzjwejrp"
+            },
+            {
+                "Status": "mibcjxydwupzqlne",
+                "StreamARN": "gjymiqzdnluhzaib"
+            },
+            {
+                "Status": "avspkggdzlyguore",
+                "StreamARN": "fniqwaiqyehfusck"
+            },
+            {
+                "Status": "legsvyjsksipqczk",
+                "StreamARN": "rtjetcnhsdhytirg"
+            }
+        ],
+        "result_key": "MediaStorageConfiguration"
+    },
+    "meta": {
+        "start": 1711116038.761,
+        "end": 1711116046.953978,
+        "duration": 8.192989110946655,
+        "service": "kinesisvideo",
+        "type": "media_storage_configuration"
+    }
+}

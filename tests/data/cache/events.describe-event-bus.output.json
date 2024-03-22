@@ -1,0 +1,36 @@
+{
+    "input": {
+        "template": {
+            "Name": ""
+        },
+        "required": [],
+        "md5": "9a5e8d396da0fab7da29f55a4b0d41b3",
+        "boto_command": "describe_event_bus",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": "Name",
+        "required": [],
+        "md5": "ff0fd59f070cc9c9097ad259650f58d1",
+        "randomized": [
+            "fhruhyiodvovjpmi",
+            "ktgxhasmknfoeshh",
+            "jbwhzuirrfxquixr",
+            "alduuhqrfiaounkp",
+            "dqmjbxzhgidmgsbh",
+            "ebcuaujpkkafhwjv",
+            "mrwbwwfkknmgnbul",
+            "jstszxzrtanxinnv",
+            "yspqwwvpovbfcpik",
+            "meynwqonymfsrszx"
+        ],
+        "result_key": "Name"
+    },
+    "meta": {
+        "start": 1711115752.482074,
+        "end": 1711115759.726137,
+        "duration": 7.244072914123535,
+        "service": "events",
+        "type": "event_bus"
+    }
+}

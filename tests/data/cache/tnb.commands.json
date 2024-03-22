@@ -1,0 +1,17 @@
+[
+    "tnb.get-sol-function-instance",
+    "tnb.get-sol-function-package",
+    "tnb.get-sol-function-package-content",
+    "tnb.get-sol-function-package-descriptor",
+    "tnb.get-sol-network-instance",
+    "tnb.get-sol-network-operation",
+    "tnb.get-sol-network-package",
+    "tnb.get-sol-network-package-content",
+    "tnb.get-sol-network-package-descriptor",
+    "tnb.list-sol-function-instances",
+    "tnb.list-sol-function-packages",
+    "tnb.list-sol-network-instances",
+    "tnb.list-sol-network-operations",
+    "tnb.list-sol-network-packages",
+    "tnb.list-tags-for-resource"
+]

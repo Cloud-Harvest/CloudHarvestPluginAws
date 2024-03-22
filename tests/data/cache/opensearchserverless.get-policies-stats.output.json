@@ -1,0 +1,56 @@
+{
+    "input": {
+        "template": {},
+        "required": [],
+        "md5": "8a80554c91d9fca8acb82f023de02f11",
+        "boto_command": "get_policies_stats",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": {
+            "DataPolicyCount": 0
+        },
+        "required": [],
+        "md5": "eec374e85041fdfedc0b22971129f834",
+        "randomized": [
+            {
+                "DataPolicyCount": 0
+            },
+            {
+                "DataPolicyCount": 0
+            },
+            {
+                "DataPolicyCount": 0
+            },
+            {
+                "DataPolicyCount": 0
+            },
+            {
+                "DataPolicyCount": 0
+            },
+            {
+                "DataPolicyCount": 0
+            },
+            {
+                "DataPolicyCount": 0
+            },
+            {
+                "DataPolicyCount": 0
+            },
+            {
+                "DataPolicyCount": 0
+            },
+            {
+                "DataPolicyCount": 0
+            }
+        ],
+        "result_key": "AccessPolicyStats"
+    },
+    "meta": {
+        "start": 1711116279.844277,
+        "end": 1711116286.83413,
+        "duration": 6.989863157272339,
+        "service": "opensearchserverless",
+        "type": null
+    }
+}

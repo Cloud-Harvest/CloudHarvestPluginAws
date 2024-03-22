@@ -1,0 +1,84 @@
+{
+    "input": {
+        "template": {
+            "TableName": "",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "2a62462360a3af13a065172c8dbc07b9",
+        "boto_command": "list_contributor_insights",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "TableName": "TableName",
+                "IndexName": "IndexName",
+                "ContributorInsightsStatus": "ContributorInsightsStatus"
+            }
+        ],
+        "required": [],
+        "md5": "c0c183d6b56d857130f1dbbd7fcaade5",
+        "randomized": [
+            {
+                "ContributorInsightsStatus": "ibznmduxnpznxdtt",
+                "IndexName": "fehohbiuagjqbcor",
+                "TableName": "ksvmyuyqupcbhhdy"
+            },
+            {
+                "ContributorInsightsStatus": "yvbtaqmvivcnhppo",
+                "IndexName": "vwkyuxijbdicdhxl",
+                "TableName": "fxlxkbglssmwvmrx"
+            },
+            {
+                "ContributorInsightsStatus": "oczqonalhuhvytag",
+                "IndexName": "viywdjdaquorbrzh",
+                "TableName": "dscidbvidiruykyl"
+            },
+            {
+                "ContributorInsightsStatus": "dxovxhzdexljuuhv",
+                "IndexName": "ozotahcypfhuehma",
+                "TableName": "eolinejmozubxmxp"
+            },
+            {
+                "ContributorInsightsStatus": "jxdvgiubjecsgrmf",
+                "IndexName": "kpyozomjebrdaolh",
+                "TableName": "znylbmsrbvrexxob"
+            },
+            {
+                "ContributorInsightsStatus": "ugjribzmqkgultxg",
+                "IndexName": "pgymafqbwjyzfmqg",
+                "TableName": "lictueozozijddcc"
+            },
+            {
+                "ContributorInsightsStatus": "azmsordzecbrnyyl",
+                "IndexName": "dqpxibhkpiacwmdb",
+                "TableName": "lqedhpoevpayfaxl"
+            },
+            {
+                "ContributorInsightsStatus": "opghlxzrzfhiyhfl",
+                "IndexName": "rewfdaubpqrqfald",
+                "TableName": "yiqlxkljdyhcmeqm"
+            },
+            {
+                "ContributorInsightsStatus": "oonewpwtgosqogsq",
+                "IndexName": "umdjvwxdzrmkejof",
+                "TableName": "tyrgznarhvpbvmrd"
+            },
+            {
+                "ContributorInsightsStatus": "xhbkzchznzytbzmi",
+                "IndexName": "nkqpmbemdffabtgy",
+                "TableName": "fwwdmvxmezpximng"
+            }
+        ],
+        "result_key": "ContributorInsightsSummaries"
+    },
+    "meta": {
+        "start": 1711115604.281262,
+        "end": 1711115610.643799,
+        "duration": 6.362547159194946,
+        "service": "dynamodb",
+        "type": "contributor_insights"
+    }
+}

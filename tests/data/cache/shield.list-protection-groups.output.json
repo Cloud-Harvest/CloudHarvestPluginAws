@@ -1,0 +1,152 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0,
+            "InclusionFilters": {
+                "ProtectionGroupIds": [
+                    ""
+                ],
+                "Patterns": [
+                    "ALL"
+                ],
+                "ResourceTypes": [
+                    "CLOUDFRONT_DISTRIBUTION"
+                ],
+                "Aggregations": [
+                    "SUM"
+                ]
+            }
+        },
+        "required": [],
+        "md5": "4cc898f94d8540bbe47c4e9d0481d9fd",
+        "boto_command": "list_protection_groups",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "ProtectionGroupId": "ProtectionGroupId",
+                "Aggregation": "Aggregation",
+                "Pattern": "Pattern",
+                "ResourceType": "ResourceType",
+                "Members": [
+                    "ResourceArn"
+                ],
+                "ProtectionGroupArn": "ProtectionGroupArn"
+            }
+        ],
+        "required": [],
+        "md5": "7a2924c10dd183f22ccba21f8fbc5b81",
+        "randomized": [
+            {
+                "Aggregation": "uoklhyedteuclcwr",
+                "Members": [
+                    "dipfbfcdwykwlonk"
+                ],
+                "Pattern": "ufhavmroszdvelbz",
+                "ProtectionGroupArn": "eniznqhnfflginkn",
+                "ProtectionGroupId": "wzdrquotopjpnmvp",
+                "ResourceType": "hsbzjlbmbewsmbii"
+            },
+            {
+                "Aggregation": "zaqkcocikrzoltip",
+                "Members": [
+                    "aexhjcuyycejraqp"
+                ],
+                "Pattern": "khgqbnkxsrltqzxv",
+                "ProtectionGroupArn": "zsheodzmvtuwjjvf",
+                "ProtectionGroupId": "ogzcppyuaemahbxm",
+                "ResourceType": "ppenmprcwlheqzdx"
+            },
+            {
+                "Aggregation": "ysoibydazneufnqd",
+                "Members": [
+                    "taaelpirjtqaleup"
+                ],
+                "Pattern": "ixyuhqueukrcdnfi",
+                "ProtectionGroupArn": "suqwtmanledjxerg",
+                "ProtectionGroupId": "xfhezjgpapwrbtlw",
+                "ResourceType": "mdhlqrlzcivfugdo"
+            },
+            {
+                "Aggregation": "mexxcnubnwhplmtm",
+                "Members": [
+                    "nomlyliwgogdmyar"
+                ],
+                "Pattern": "mjygfgoslcdhaajv",
+                "ProtectionGroupArn": "zjeacnjmodnkievz",
+                "ProtectionGroupId": "ghwpsdljstklsiea",
+                "ResourceType": "fnmmjkgvcisbmfna"
+            },
+            {
+                "Aggregation": "rtwfocatihdysdrx",
+                "Members": [
+                    "dovjtlptqlpytqxb"
+                ],
+                "Pattern": "kjedryrlwxrjaeal",
+                "ProtectionGroupArn": "fptqllinejqlnhut",
+                "ProtectionGroupId": "mltawnrqkyjohoyw",
+                "ResourceType": "qkdisojprthyzrvc"
+            },
+            {
+                "Aggregation": "pftprnvvicibitsk",
+                "Members": [
+                    "emfegympunzofgfa"
+                ],
+                "Pattern": "zsucpcgwbymlumzv",
+                "ProtectionGroupArn": "olepvtsqtiauxjzf",
+                "ProtectionGroupId": "ptwjbkzptioyyxnw",
+                "ResourceType": "vbbexouqdytaobzn"
+            },
+            {
+                "Aggregation": "bnuwebfxrxbygfzu",
+                "Members": [
+                    "grjbjojaoqbwgpfa"
+                ],
+                "Pattern": "gznpcnhvqaohawis",
+                "ProtectionGroupArn": "hgflthawnomzqxnf",
+                "ProtectionGroupId": "dsksqmifcadalwfa",
+                "ResourceType": "zjzrdwdmorwtmqgc"
+            },
+            {
+                "Aggregation": "ytovkenzndgdmtzm",
+                "Members": [
+                    "ylkpnlzfdysozggs"
+                ],
+                "Pattern": "nrenxohashkwxeag",
+                "ProtectionGroupArn": "zeqerkzfsmirwzyq",
+                "ProtectionGroupId": "grvemwinpykifesm",
+                "ResourceType": "xrbuokabuimryuar"
+            },
+            {
+                "Aggregation": "fwkpnewziywuhcdk",
+                "Members": [
+                    "ihshtekhvxwrmkvh"
+                ],
+                "Pattern": "tisjgazzvqibjwxm",
+                "ProtectionGroupArn": "syustjbaxqzxiuyt",
+                "ProtectionGroupId": "hthofwnzhfqbuxai",
+                "ResourceType": "pzyozufxilazqffq"
+            },
+            {
+                "Aggregation": "qpkwjeccevdqvvtr",
+                "Members": [
+                    "flwbmkiblajaovsd"
+                ],
+                "Pattern": "ntwnzifsjfejqsya",
+                "ProtectionGroupArn": "bwxdpvquqvtwtbxb",
+                "ProtectionGroupId": "zxiwphagjfffjyxq",
+                "ResourceType": "adcckbhonkppwtvb"
+            }
+        ],
+        "result_key": "ProtectionGroups"
+    },
+    "meta": {
+        "start": 1711116635.299196,
+        "end": 1711116641.79884,
+        "duration": 6.49965500831604,
+        "service": "shield",
+        "type": "protection_groups"
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "input": {
+        "template": {
+            "PaginationToken": "",
+            "TagFilters": [
+                {
+                    "Key": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "ResourcesPerPage": 0,
+            "TagsPerPage": 0,
+            "ResourceTypeFilters": [
+                ""
+            ],
+            "IncludeComplianceDetails": true,
+            "ExcludeCompliantResources": true,
+            "ResourceARNList": [
+                ""
+            ]
+        },
+        "required": [],
+        "md5": "f4a7c33f21f047418c47f3700f8a7c43",
+        "boto_command": "get_resources",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": "PaginationToken",
+        "required": [],
+        "md5": "d0ce97e687a69c218721ce9e59e56264",
+        "randomized": [
+            "gpstprkbjnvxvyyy",
+            "zpwlwzjlensbxhey",
+            "lmaayqzdvjbulzxg",
+            "kpogvokcbvvpbfqk",
+            "yesiqiagxwlxcjit",
+            "ouahafnuudltlxem",
+            "eemihiumhusxfhec",
+            "bribtjywgrwqupxr",
+            "twtdgebweihcxlyj",
+            "iarrjfjgrskktczp"
+        ],
+        "result_key": "PaginationToken"
+    },
+    "meta": {
+        "start": 1711116464.291812,
+        "end": 1711116468.847466,
+        "duration": 4.5556640625,
+        "service": "resourcegroupstaggingapi",
+        "type": null
+    }
+}

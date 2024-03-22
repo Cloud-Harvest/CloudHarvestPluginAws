@@ -1,0 +1,181 @@
+{
+    "input": {
+        "template": {
+            "pageToken": ""
+        },
+        "required": [],
+        "md5": "cd47ffa47286bc2470b22f744f7629ff",
+        "boto_command": "get_static_ips",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "name": "name",
+                "arn": "arn",
+                "supportCode": "supportCode",
+                "createdAt": "1970-01-01T00:00:00",
+                "location": {
+                    "availabilityZone": "availabilityZone",
+                    "regionName": "regionName"
+                },
+                "resourceType": "resourceType",
+                "ipAddress": "ipAddress",
+                "attachedTo": "attachedTo",
+                "isAttached": true
+            }
+        ],
+        "required": [],
+        "md5": "50a25f965257b94c0f7f69d09c851e83",
+        "randomized": [
+            {
+                "arn": "vxsjoenmxjcucxnq",
+                "attachedTo": "zeahnghfrxvemuzf",
+                "createdAt": "xzvuyuxvzfgcvwre",
+                "ipAddress": "ccatbokurpgwxolz",
+                "isAttached": true,
+                "location": {
+                    "availabilityZone": "rggmmtevnbrjlhgy",
+                    "regionName": "crennoftodgyppiq"
+                },
+                "name": "azlxtdpsfowenaeu",
+                "resourceType": "svjfllqqnvfddlab",
+                "supportCode": "pgwgrosafxkwvlwt"
+            },
+            {
+                "arn": "ubyyxtittlkxlgdt",
+                "attachedTo": "awzxguglvocjgsyl",
+                "createdAt": "ajzkpwwtsqphsjoo",
+                "ipAddress": "jgnzlgygqvjycwhr",
+                "isAttached": true,
+                "location": {
+                    "availabilityZone": "llfjxpaakswusqfd",
+                    "regionName": "thguvfunbkmclezg"
+                },
+                "name": "jcpgiuylnugxsdns",
+                "resourceType": "clktvvxyyfkulfkk",
+                "supportCode": "xobnnomzzsfcwqup"
+            },
+            {
+                "arn": "pndakxlkfncfvgqr",
+                "attachedTo": "yrokuprhmuztexsf",
+                "createdAt": "jpirsappopvpyuvl",
+                "ipAddress": "sqwotgktxzseteju",
+                "isAttached": true,
+                "location": {
+                    "availabilityZone": "fqhvpasydkhxrkgh",
+                    "regionName": "sayyawqxhynorzpt"
+                },
+                "name": "qjxksbmvdzojbacc",
+                "resourceType": "tsfelfqrnuraozyc",
+                "supportCode": "wkoqrytqlzjvgljv"
+            },
+            {
+                "arn": "ubbkkelhpzwofvdl",
+                "attachedTo": "wfrqbgpkvpzbqxzs",
+                "createdAt": "mylihlhcvfcmgaeb",
+                "ipAddress": "qpfohhtjnummjzza",
+                "isAttached": true,
+                "location": {
+                    "availabilityZone": "bcpygfdjmthvpkhx",
+                    "regionName": "mppdavemiralsyiw"
+                },
+                "name": "nlpwzrdxfoaoslpp",
+                "resourceType": "jgyldhetubdmzltm",
+                "supportCode": "yaxlvnihwbcitpzz"
+            },
+            {
+                "arn": "glttaamrflrhncyx",
+                "attachedTo": "pxvzdzzvjkxzbugf",
+                "createdAt": "lfdzsdjmieevznzl",
+                "ipAddress": "bzbwrzgaaqlqcaqf",
+                "isAttached": true,
+                "location": {
+                    "availabilityZone": "mfmawwbwddlxsdeo",
+                    "regionName": "orhxqjndbvfcbsed"
+                },
+                "name": "szpuoolntjagvpmz",
+                "resourceType": "rmpgivoypxutesqn",
+                "supportCode": "ahsqdyqybjxnritc"
+            },
+            {
+                "arn": "oivysyqhqpkqmxgf",
+                "attachedTo": "mckpnaiklzfgnmnk",
+                "createdAt": "edxarwmybmluhlio",
+                "ipAddress": "qwbakkjrritefapy",
+                "isAttached": true,
+                "location": {
+                    "availabilityZone": "pbrrbnhurjaoblkg",
+                    "regionName": "ibiubdmjzjejczff"
+                },
+                "name": "tnwztwrgtvfjznye",
+                "resourceType": "epozpwnvvopvqzcn",
+                "supportCode": "oyuxovvststpkxdb"
+            },
+            {
+                "arn": "iijbhgngddjelwye",
+                "attachedTo": "wxxexuzqwrgqvowz",
+                "createdAt": "mewkqvqfzghvoasg",
+                "ipAddress": "hmtcvvceevwviest",
+                "isAttached": true,
+                "location": {
+                    "availabilityZone": "tkrifzgaceegvlrs",
+                    "regionName": "tsajuefhuiqbbohm"
+                },
+                "name": "axwxqqvucllanjuu",
+                "resourceType": "badfsnojyppfbrnm",
+                "supportCode": "ckqqgahaplxvspuz"
+            },
+            {
+                "arn": "ahguqxtrmpsqtxcl",
+                "attachedTo": "zjduaitjhmhfwkcz",
+                "createdAt": "piptvtwranhwofau",
+                "ipAddress": "qyfueumtlgyzwhbo",
+                "isAttached": true,
+                "location": {
+                    "availabilityZone": "lecgrinnzbnholwb",
+                    "regionName": "jzktxnpdfblsxkxa"
+                },
+                "name": "ejvkojyvjvdpycih",
+                "resourceType": "tnwtlrzqsrtkocdn",
+                "supportCode": "ahptrfyfbrvoniqs"
+            },
+            {
+                "arn": "vmaqmfewflkhngtf",
+                "attachedTo": "wvymwtlayromqixt",
+                "createdAt": "xsltpohsnnrxmeqz",
+                "ipAddress": "fyocthlmeejvoiky",
+                "isAttached": true,
+                "location": {
+                    "availabilityZone": "htjaigbtiuaifsei",
+                    "regionName": "jnqilrypseebazal"
+                },
+                "name": "lvghlievxmhaisrj",
+                "resourceType": "tlbnlqqxhazrvzbb",
+                "supportCode": "qshykoolszwkkhor"
+            },
+            {
+                "arn": "kyegcemjyavxrnbw",
+                "attachedTo": "jiuliibresyfwlsj",
+                "createdAt": "ewqnrdszcgegqtmg",
+                "ipAddress": "vtqhisytbamlghcz",
+                "isAttached": true,
+                "location": {
+                    "availabilityZone": "xshpgettitwgrtsd",
+                    "regionName": "uicopucjsnqxejno"
+                },
+                "name": "qhzlsqahjkvcujhz",
+                "resourceType": "imcmyxdtoqkhexpp",
+                "supportCode": "bsvypckwxmknarvx"
+            }
+        ],
+        "result_key": "staticIps"
+    },
+    "meta": {
+        "start": 1711116110.44154,
+        "end": 1711116116.983561,
+        "duration": 6.5420310497283936,
+        "service": "lightsail",
+        "type": null
+    }
+}

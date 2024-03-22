@@ -1,0 +1,119 @@
+{
+    "input": {
+        "template": {
+            "VerifiedDestinationNumberIds": [
+                ""
+            ],
+            "DestinationPhoneNumbers": [
+                ""
+            ],
+            "Filters": [
+                {
+                    "Name": "status",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "7775271782ab957ee435a65d83bebcf5",
+        "boto_command": "describe_verified_destination_numbers",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "VerifiedDestinationNumberArn": "VerifiedDestinationNumberArn",
+                "VerifiedDestinationNumberId": "VerifiedDestinationNumberId",
+                "DestinationPhoneNumber": "DestinationPhoneNumber",
+                "Status": "Status",
+                "CreatedTimestamp": "1970-01-01T00:00:00"
+            }
+        ],
+        "required": [],
+        "md5": "92de17065dab88b22cf4cbdf38a38623",
+        "randomized": [
+            {
+                "CreatedTimestamp": "mledtistuvtcvwrp",
+                "DestinationPhoneNumber": "wtxtahgeqfnsaioh",
+                "Status": "frmpxqgypirbugbk",
+                "VerifiedDestinationNumberArn": "bujkbzkwybmhmjuu",
+                "VerifiedDestinationNumberId": "pwcfoppvacnlykmq"
+            },
+            {
+                "CreatedTimestamp": "jrtngxsfzhrdwmhd",
+                "DestinationPhoneNumber": "fujedaqhbspcrszi",
+                "Status": "uvfjkafirunbnoyz",
+                "VerifiedDestinationNumberArn": "wtblgfsnqgfmgcas",
+                "VerifiedDestinationNumberId": "nuslxbyicyicchpf"
+            },
+            {
+                "CreatedTimestamp": "aufmyfgehiybjewa",
+                "DestinationPhoneNumber": "vyvaqdqctinfqaqb",
+                "Status": "mzwuscpopscupmjv",
+                "VerifiedDestinationNumberArn": "twlwjicvydimrwag",
+                "VerifiedDestinationNumberId": "iokvsbhisqzngiiq"
+            },
+            {
+                "CreatedTimestamp": "hbuetdzziuqvxtxt",
+                "DestinationPhoneNumber": "vshbzpamdanjtbgw",
+                "Status": "xmnhllnitiolhnan",
+                "VerifiedDestinationNumberArn": "nxdqyhjytwigalel",
+                "VerifiedDestinationNumberId": "zloplmrtendffdwx"
+            },
+            {
+                "CreatedTimestamp": "kitjfaxdsiaiuvab",
+                "DestinationPhoneNumber": "jmgfdjdpfvmkmijb",
+                "Status": "vplgfkvzfhtzdemy",
+                "VerifiedDestinationNumberArn": "kdqhjprnupndzdpz",
+                "VerifiedDestinationNumberId": "iyztcnsqihzvkqak"
+            },
+            {
+                "CreatedTimestamp": "jplfrhpnmpllmorc",
+                "DestinationPhoneNumber": "xhhyhrnwofpaatib",
+                "Status": "egbhtrlajsrbwdvk",
+                "VerifiedDestinationNumberArn": "jmijatfddhhyprqb",
+                "VerifiedDestinationNumberId": "wjimhkzerzljywrh"
+            },
+            {
+                "CreatedTimestamp": "ancrpcljgefruynt",
+                "DestinationPhoneNumber": "ronplgacfbqyqdtu",
+                "Status": "qgshwyhvbugdeeey",
+                "VerifiedDestinationNumberArn": "pkajducavqshjuio",
+                "VerifiedDestinationNumberId": "gccscuzobkgrxrwa"
+            },
+            {
+                "CreatedTimestamp": "oifuwxdtazncpgqz",
+                "DestinationPhoneNumber": "cbjjywghnroteycr",
+                "Status": "kurnsujxgvthfucz",
+                "VerifiedDestinationNumberArn": "xxgalulttedqepgn",
+                "VerifiedDestinationNumberId": "ixsndogkotdgkfgq"
+            },
+            {
+                "CreatedTimestamp": "kvmaazzarveltixj",
+                "DestinationPhoneNumber": "fvnvmuntwvaholkg",
+                "Status": "tzhtqcblpuhwbqno",
+                "VerifiedDestinationNumberArn": "dmahulgppnilwauz",
+                "VerifiedDestinationNumberId": "aqngvrhtouvulkpk"
+            },
+            {
+                "CreatedTimestamp": "ylgqyghzhobsppie",
+                "DestinationPhoneNumber": "wrqulbnawhdnzpvg",
+                "Status": "rfbqpmpgcwmcwdgg",
+                "VerifiedDestinationNumberArn": "ebdgylkdjfbnbbra",
+                "VerifiedDestinationNumberId": "vpbgdnqwjyajqsht"
+            }
+        ],
+        "result_key": "VerifiedDestinationNumbers"
+    },
+    "meta": {
+        "start": 1711116349.522291,
+        "end": 1711116356.325507,
+        "duration": 6.803225994110107,
+        "service": "pinpoint-sms-voice-v2",
+        "type": "verified_destination_numbers"
+    }
+}

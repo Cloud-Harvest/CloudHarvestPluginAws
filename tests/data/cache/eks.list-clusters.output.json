@@ -1,0 +1,42 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "nextToken": "",
+            "include": [
+                ""
+            ]
+        },
+        "required": [],
+        "md5": "527c1ef28ab7efda624cfaf122003c6d",
+        "boto_command": "list_clusters",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            "String"
+        ],
+        "required": [],
+        "md5": "de8a1b03a8cd66e8a7e6cb009509b6b0",
+        "randomized": [
+            "ptrxbslmhbdrljls",
+            "okipnnqsinlttbik",
+            "qohywekkvuckpbhr",
+            "bsaywkgrtltrhukx",
+            "qdrvucyknjmtmcnj",
+            "dyzjfvcsxnoqmcqm",
+            "qvsxcdtkmbnqfodc",
+            "khwwusxubdbasnfj",
+            "jtnzhoxdkjsoahdl",
+            "ylfhhgcgbaofwavh"
+        ],
+        "result_key": "clusters"
+    },
+    "meta": {
+        "start": 1711115701.579869,
+        "end": 1711115709.626773,
+        "duration": 8.046913862228394,
+        "service": "eks",
+        "type": "clusters"
+    }
+}

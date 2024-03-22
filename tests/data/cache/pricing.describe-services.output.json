@@ -1,0 +1,96 @@
+{
+    "input": {
+        "template": {
+            "ServiceCode": "",
+            "FormatVersion": "",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "required": [],
+        "md5": "b61bb38c1b0cf4995fe0255b73b0bada",
+        "boto_command": "describe_services",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "ServiceCode": "ServiceCode",
+                "AttributeNames": [
+                    "String"
+                ]
+            }
+        ],
+        "required": [],
+        "md5": "47643e1d5615a8e5938d7329a72e534e",
+        "randomized": [
+            {
+                "AttributeNames": [
+                    "pgvjihdmtxjynwqo"
+                ],
+                "ServiceCode": "ccpzppwqbbhzzwzm"
+            },
+            {
+                "AttributeNames": [
+                    "sxiohstsiggpvpgq"
+                ],
+                "ServiceCode": "psosngcjbeibimyy"
+            },
+            {
+                "AttributeNames": [
+                    "jkxylvvinlhggzur"
+                ],
+                "ServiceCode": "lpaiccntceqgdtow"
+            },
+            {
+                "AttributeNames": [
+                    "vlnzrsjuereetiyx"
+                ],
+                "ServiceCode": "jvgsirdxurjldwyb"
+            },
+            {
+                "AttributeNames": [
+                    "irmceiqqupsnxupv"
+                ],
+                "ServiceCode": "psuwycbtahmlnzqq"
+            },
+            {
+                "AttributeNames": [
+                    "lzaijtpagduqwfza"
+                ],
+                "ServiceCode": "aarjhyvhrwymwgwr"
+            },
+            {
+                "AttributeNames": [
+                    "zkdlmijgwnrzlnvi"
+                ],
+                "ServiceCode": "boloislftgwykmmf"
+            },
+            {
+                "AttributeNames": [
+                    "nkvwwxerkoueddsk"
+                ],
+                "ServiceCode": "unelzwtdvjmjpwwr"
+            },
+            {
+                "AttributeNames": [
+                    "vppipbamabrzwfdw"
+                ],
+                "ServiceCode": "aywenklbrpefeyii"
+            },
+            {
+                "AttributeNames": [
+                    "vqkldpthuscrtnfs"
+                ],
+                "ServiceCode": "uebwluihwlwnijul"
+            }
+        ],
+        "result_key": "Services"
+    },
+    "meta": {
+        "start": 1711116352.368379,
+        "end": 1711116359.896958,
+        "duration": 7.528589963912964,
+        "service": "pricing",
+        "type": "services"
+    }
+}

@@ -1,0 +1,117 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0,
+            "ResourceName": ""
+        },
+        "required": [],
+        "md5": "3cee7a9097e314fa617cf2036cddd707",
+        "boto_command": "list_migration_tasks",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "ProgressUpdateStream": "ProgressUpdateStream",
+                "MigrationTaskName": "MigrationTaskName",
+                "Status": "Status",
+                "ProgressPercent": 0,
+                "StatusDetail": "StatusDetail",
+                "UpdateDateTime": "1970-01-01T00:00:00"
+            }
+        ],
+        "required": [],
+        "md5": "e00940bcf4d898ad5301d21360e4ba16",
+        "randomized": [
+            {
+                "MigrationTaskName": "gecnywgulzzobbbq",
+                "ProgressPercent": 0,
+                "ProgressUpdateStream": "zyjonoyphgfargnp",
+                "Status": "vyuuvoxromjttbbr",
+                "StatusDetail": "qeqoroldfgrkfccd",
+                "UpdateDateTime": "gxhncxxfwdyichqw"
+            },
+            {
+                "MigrationTaskName": "wjrpqldhnjvidkhl",
+                "ProgressPercent": 0,
+                "ProgressUpdateStream": "achxyemlfvdxjerx",
+                "Status": "jaalxisifluuvlxo",
+                "StatusDetail": "buxmwdogprwpxgnt",
+                "UpdateDateTime": "ihpetoyatnuhewew"
+            },
+            {
+                "MigrationTaskName": "kwfrayftzwjcyhgi",
+                "ProgressPercent": 0,
+                "ProgressUpdateStream": "nrxvklfpwaskcrqv",
+                "Status": "hdmnwkavapqbonnm",
+                "StatusDetail": "poaaimfmkcxbwqei",
+                "UpdateDateTime": "zlxnqpvzegujcgpn"
+            },
+            {
+                "MigrationTaskName": "mvaoppphpybbfwsa",
+                "ProgressPercent": 0,
+                "ProgressUpdateStream": "vxptuouabskuaeld",
+                "Status": "jvjtibcdfkvpreaa",
+                "StatusDetail": "kgrkgucnhnemngro",
+                "UpdateDateTime": "piciocgszdzvmywe"
+            },
+            {
+                "MigrationTaskName": "fpmfzgehntibdbix",
+                "ProgressPercent": 0,
+                "ProgressUpdateStream": "mbdraxrlteeygaxf",
+                "Status": "ejkyhqjftzyolkbf",
+                "StatusDetail": "ribfvlxxddznbdtp",
+                "UpdateDateTime": "otavcfnffctmwsnn"
+            },
+            {
+                "MigrationTaskName": "lgxtysmtkzosqomu",
+                "ProgressPercent": 0,
+                "ProgressUpdateStream": "nuetlveagdtsajlq",
+                "Status": "autkixwnxyquyfyc",
+                "StatusDetail": "xgemryaghshzltyh",
+                "UpdateDateTime": "kjlchvyiglqufijx"
+            },
+            {
+                "MigrationTaskName": "uhhmgohkleoidlef",
+                "ProgressPercent": 0,
+                "ProgressUpdateStream": "dzxxncykjygiqtmu",
+                "Status": "jwdjfccuixzpimde",
+                "StatusDetail": "wehewooyvtudthef",
+                "UpdateDateTime": "uhbsrrhlnbhtvybr"
+            },
+            {
+                "MigrationTaskName": "zclgdynchnbuofuv",
+                "ProgressPercent": 0,
+                "ProgressUpdateStream": "rwzykiwuzemxxqhy",
+                "Status": "phohuefdhwykppyj",
+                "StatusDetail": "urredurcjvstlivr",
+                "UpdateDateTime": "hoogusloijssrbas"
+            },
+            {
+                "MigrationTaskName": "bpxhsaezkwpihgzk",
+                "ProgressPercent": 0,
+                "ProgressUpdateStream": "ywcsriowzlvfjwrd",
+                "Status": "vfgdzscyuuzkyfxz",
+                "StatusDetail": "xoovcmqabanimhgh",
+                "UpdateDateTime": "eyvzdwjuuglpwjud"
+            },
+            {
+                "MigrationTaskName": "pteaeewwjawrsibd",
+                "ProgressPercent": 0,
+                "ProgressUpdateStream": "gsiioajztaajloej",
+                "Status": "ncielxrrpimqltam",
+                "StatusDetail": "yqusetkybvliqkke",
+                "UpdateDateTime": "ydpcpkwejjnsnszy"
+            }
+        ],
+        "result_key": "MigrationTaskSummaryList"
+    },
+    "meta": {
+        "start": 1711116199.60645,
+        "end": 1711116205.969895,
+        "duration": 6.3634560108184814,
+        "service": "mgh",
+        "type": "migration_tasks"
+    }
+}

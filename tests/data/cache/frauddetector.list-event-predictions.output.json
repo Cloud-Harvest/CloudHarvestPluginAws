@@ -1,0 +1,132 @@
+{
+    "input": {
+        "template": {
+            "eventId": {
+                "value": ""
+            },
+            "eventType": {
+                "value": ""
+            },
+            "detectorId": {
+                "value": ""
+            },
+            "detectorVersionId": {
+                "value": ""
+            },
+            "predictionTimeRange": {
+                "startTime": "",
+                "endTime": ""
+            },
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "required": [],
+        "md5": "926d1c388ea69f8824db0800ce1a055e",
+        "boto_command": "list_event_predictions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": [
+            {
+                "eventId": "eventId",
+                "eventTypeName": "eventTypeName",
+                "eventTimestamp": "eventTimestamp",
+                "predictionTimestamp": "predictionTimestamp",
+                "detectorId": "detectorId",
+                "detectorVersionId": "detectorVersionId"
+            }
+        ],
+        "required": [],
+        "md5": "113fb47ba07f4df18c1c135014b14bc3",
+        "randomized": [
+            {
+                "detectorId": "regqvdqfycbukuun",
+                "detectorVersionId": "onbagbajgagcjeii",
+                "eventId": "zobsplykuqichfrb",
+                "eventTimestamp": "ubvfzqwcpodtziqm",
+                "eventTypeName": "bkdvmldsbicksapd",
+                "predictionTimestamp": "ltuyiaqqgtklysef"
+            },
+            {
+                "detectorId": "grpngzamhqzidkon",
+                "detectorVersionId": "jpvgivzgklixayxa",
+                "eventId": "wzfnfruclyuarnce",
+                "eventTimestamp": "vqrjvkrslbhcihkh",
+                "eventTypeName": "dibhkjqyxyandoyb",
+                "predictionTimestamp": "cpfagnamvmbtnfhe"
+            },
+            {
+                "detectorId": "qlsugziseleybylf",
+                "detectorVersionId": "tsmhflkhvhicnjbw",
+                "eventId": "vmossnnrubzxsees",
+                "eventTimestamp": "hpurchyidgheausd",
+                "eventTypeName": "zcahhwxdvjgddsre",
+                "predictionTimestamp": "gdvpmizniagwxsic"
+            },
+            {
+                "detectorId": "anlcsakbhjsltpjt",
+                "detectorVersionId": "grceouqahsuypimy",
+                "eventId": "vtlaftmcliqbhtcc",
+                "eventTimestamp": "ypuqihumxlmihhoi",
+                "eventTypeName": "iryttislodrlbtny",
+                "predictionTimestamp": "iwcnezsxyknrswpc"
+            },
+            {
+                "detectorId": "yymibihefywcsnua",
+                "detectorVersionId": "cphkpsgnuhhgxdso",
+                "eventId": "dtjxrzodfspjtzry",
+                "eventTimestamp": "ejdsprjomdfjfxvg",
+                "eventTypeName": "gtqnatuhcxfaboee",
+                "predictionTimestamp": "qjuoqgrgwrfxnkus"
+            },
+            {
+                "detectorId": "pkvkklcuvdftpdhe",
+                "detectorVersionId": "shxbqbrfmbuxywiq",
+                "eventId": "vryrrotuclooidxq",
+                "eventTimestamp": "ioofuyvsjpbbjkwb",
+                "eventTypeName": "dcsksggotwbijnok",
+                "predictionTimestamp": "lrnkdiiicobjrtaw"
+            },
+            {
+                "detectorId": "tblmjjecudgkaxrj",
+                "detectorVersionId": "siupeezffojnoqdy",
+                "eventId": "frxqsfwoajrgmqon",
+                "eventTimestamp": "ubxnyzltesczbxec",
+                "eventTypeName": "wywqkliafmqqeezd",
+                "predictionTimestamp": "vdaopheorbtrybfr"
+            },
+            {
+                "detectorId": "hximoyhcnsnlpoue",
+                "detectorVersionId": "dhlwzdlfvddhygfl",
+                "eventId": "lzbfscuhtlrvrklp",
+                "eventTimestamp": "togdpreijtjcgdxf",
+                "eventTypeName": "jkjwbolpuhdvnnkb",
+                "predictionTimestamp": "ahcfltaadeehsace"
+            },
+            {
+                "detectorId": "hjwnlkujdktdtyhk",
+                "detectorVersionId": "pvhizteyiopkrnjn",
+                "eventId": "luhnhwzbauijjswr",
+                "eventTimestamp": "uklgguufbsternnk",
+                "eventTypeName": "yrzjeiseasvkrcac",
+                "predictionTimestamp": "ktexaklrxooxlsbv"
+            },
+            {
+                "detectorId": "monwuhbsnnypwghq",
+                "detectorVersionId": "excwihklctfvznwl",
+                "eventId": "gbhtpleapakkkjkb",
+                "eventTimestamp": "oupxfrgelknsnzap",
+                "eventTypeName": "ztqwykkfgjcqinzs",
+                "predictionTimestamp": "oshmvyajxytygbus"
+            }
+        ],
+        "result_key": "eventPredictionSummaries"
+    },
+    "meta": {
+        "start": 1711115790.748654,
+        "end": 1711115797.286187,
+        "duration": 6.537543058395386,
+        "service": "frauddetector",
+        "type": "event_predictions"
+    }
+}
