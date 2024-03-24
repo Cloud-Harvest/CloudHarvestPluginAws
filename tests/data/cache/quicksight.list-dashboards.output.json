@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "AwsAccountId": "",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "AwsAccountId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_dashboards",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249895.479502,
+        "end": 1711249901.624231,
+        "duration": 6.144742012023926,
+        "service": "quicksight",
+        "type": "dashboards"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "Filter": [
+                "User"
+            ],
+            "MaxItems": 0,
+            "Marker": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "get_account_authorization_details",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248834.474116,
+        "end": 1711248842.48944,
+        "duration": 8.015333890914917,
+        "service": "iam",
+        "type": null
+    }
+}

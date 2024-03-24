@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "QualificationTypeId": "",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "QualificationTypeId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_hits_for_qualification_type",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249700.334147,
+        "end": 1711249706.811462,
+        "duration": 6.477330923080444,
+        "service": "mturk",
+        "type": "hits_for_qualification_type"
+    }
+}

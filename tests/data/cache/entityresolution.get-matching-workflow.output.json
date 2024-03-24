@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "workflowName": ""
+        },
+        "template_required_inputs": [
+            "workflowName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_matching_workflow",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248608.010544,
+        "end": 1711248616.152595,
+        "duration": 8.142061948776245,
+        "service": "entityresolution",
+        "type": null
+    }
+}

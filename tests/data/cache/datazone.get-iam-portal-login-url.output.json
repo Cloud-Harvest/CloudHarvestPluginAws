@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "domainIdentifier": ""
+        },
+        "template_required_inputs": [
+            "domainIdentifier"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_iam_portal_login_url",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248376.643356,
+        "end": 1711248382.043464,
+        "duration": 5.40012001991272,
+        "service": "datazone",
+        "type": null
+    }
+}

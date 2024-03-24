@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "DryRun": true,
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "describe_byoip_cidrs",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248491.708959,
+        "end": 1711248498.944243,
+        "duration": 7.235293865203857,
+        "service": "ec2",
+        "type": "byoip_cidrs"
+    }
+}

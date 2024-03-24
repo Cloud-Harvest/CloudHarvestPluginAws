@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0,
+            "DomainName": "",
+            "ProfileId": ""
+        },
+        "template_required_inputs": [
+            "DomainName",
+            "ProfileId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_calculated_attributes_for_profile",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248340.243995,
+        "end": 1711248346.032222,
+        "duration": 5.788238048553467,
+        "service": "customer-profiles",
+        "type": "calculated_attributes_for_profile"
+    }
+}

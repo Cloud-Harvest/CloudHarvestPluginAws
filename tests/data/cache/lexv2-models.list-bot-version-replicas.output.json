@@ -1,0 +1,33 @@
+{
+    "input": {
+        "template": {
+            "botId": "",
+            "replicaRegion": "",
+            "maxResults": 0,
+            "nextToken": "",
+            "sortBy": {
+                "attribute": "BotVersion",
+                "order": "Ascending"
+            }
+        },
+        "template_required_inputs": [
+            "botId",
+            "replicaRegion"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_bot_version_replicas",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249267.242017,
+        "end": 1711249274.583592,
+        "duration": 7.341584920883179,
+        "service": "lexv2-models",
+        "type": "bot_version_replicas"
+    }
+}

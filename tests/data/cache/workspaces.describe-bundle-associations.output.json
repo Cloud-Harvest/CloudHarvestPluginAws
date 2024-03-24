@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "BundleId": "",
+            "AssociatedResourceTypes": [
+                "APPLICATION"
+            ]
+        },
+        "template_required_inputs": [
+            "BundleId",
+            "AssociatedResourceTypes"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_bundle_associations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250358.708205,
+        "end": 1711250371.913465,
+        "duration": 13.205266952514648,
+        "service": "workspaces",
+        "type": "bundle_associations"
+    }
+}

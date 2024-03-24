@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "FlowArn": ""
+        },
+        "template_required_inputs": [
+            "FlowArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_flow_source_metadata",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249631.055583,
+        "end": 1711249637.657265,
+        "duration": 6.601691007614136,
+        "service": "mediaconnect",
+        "type": "flow_source_metadata"
+    }
+}

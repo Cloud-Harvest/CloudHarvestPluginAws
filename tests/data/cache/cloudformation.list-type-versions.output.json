@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "Type": "RESOURCE",
+            "TypeName": "",
+            "Arn": "",
+            "MaxResults": 0,
+            "NextToken": "",
+            "DeprecatedStatus": "LIVE",
+            "PublisherId": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_type_versions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248075.463751,
+        "end": 1711248084.250065,
+        "duration": 8.786327838897705,
+        "service": "cloudformation",
+        "type": "type_versions"
+    }
+}

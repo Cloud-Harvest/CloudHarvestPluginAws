@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "workloadName": ""
+        },
+        "template_required_inputs": [
+            "workloadName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_workload",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249242.190129,
+        "end": 1711249252.783176,
+        "duration": 10.593057870864868,
+        "service": "launch-wizard",
+        "type": null
+    }
+}

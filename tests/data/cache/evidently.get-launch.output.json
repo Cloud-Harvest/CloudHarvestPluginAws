@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "launch": "",
+            "project": ""
+        },
+        "template_required_inputs": [
+            "launch",
+            "project"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_launch",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248629.241139,
+        "end": 1711248635.601687,
+        "duration": 6.36056113243103,
+        "service": "evidently",
+        "type": null
+    }
+}

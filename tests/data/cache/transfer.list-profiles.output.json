@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": "",
+            "ProfileType": "LOCAL"
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_profiles",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250255.479039,
+        "end": 1711250263.840477,
+        "duration": 8.361449003219604,
+        "service": "transfer",
+        "type": "profiles"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "PoolARNs": [
+                ""
+            ],
+            "Marker": "",
+            "Limit": 0
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_tape_pools",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250210.816377,
+        "end": 1711250217.883873,
+        "duration": 7.067512035369873,
+        "service": "storagegateway",
+        "type": "tape_pools"
+    }
+}

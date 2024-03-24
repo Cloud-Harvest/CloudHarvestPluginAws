@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "JobId": ""
+        },
+        "template_required_inputs": [
+            "JobId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_pii_entities_detection_job",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248222.558999,
+        "end": 1711248230.993927,
+        "duration": 8.43494701385498,
+        "service": "comprehend",
+        "type": "pii_entities_detection_job"
+    }
+}

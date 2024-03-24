@@ -1,0 +1,76 @@
+{
+    "input": {
+        "template": {
+            "SearchString": "",
+            "TimePeriod": {
+                "Start": "",
+                "End": ""
+            },
+            "Dimension": "AZ",
+            "Context": "COST_AND_USAGE",
+            "Filter": {
+                "Or": [
+                    {}
+                ],
+                "And": [
+                    {}
+                ],
+                "Not": {},
+                "Dimensions": {
+                    "Key": "AZ",
+                    "Values": [
+                        ""
+                    ],
+                    "MatchOptions": [
+                        "EQUALS"
+                    ]
+                },
+                "Tags": {
+                    "Key": "",
+                    "Values": [
+                        ""
+                    ],
+                    "MatchOptions": [
+                        "EQUALS"
+                    ]
+                },
+                "CostCategories": {
+                    "Key": "",
+                    "Values": [
+                        ""
+                    ],
+                    "MatchOptions": [
+                        "EQUALS"
+                    ]
+                }
+            },
+            "SortBy": [
+                {
+                    "Key": "",
+                    "SortOrder": "ASCENDING"
+                }
+            ],
+            "MaxResults": 0,
+            "NextPageToken": ""
+        },
+        "template_required_inputs": [
+            "TimePeriod",
+            "Dimension"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_dimension_values",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247952.7203,
+        "end": 1711247969.209653,
+        "duration": 16.489362001419067,
+        "service": "ce",
+        "type": null
+    }
+}

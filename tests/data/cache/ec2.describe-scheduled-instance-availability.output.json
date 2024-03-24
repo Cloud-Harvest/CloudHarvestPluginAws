@@ -1,0 +1,51 @@
+{
+    "input": {
+        "template": {
+            "DryRun": true,
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "FirstSlotStartTimeRange": {
+                "EarliestTime": "1970-01-01T00:00:00",
+                "LatestTime": "1970-01-01T00:00:00"
+            },
+            "MaxResults": 0,
+            "MaxSlotDurationInHours": 0,
+            "MinSlotDurationInHours": 0,
+            "NextToken": "",
+            "Recurrence": {
+                "Frequency": "",
+                "Interval": 0,
+                "OccurrenceDays": [
+                    0
+                ],
+                "OccurrenceRelativeToEnd": true,
+                "OccurrenceUnit": ""
+            }
+        },
+        "template_required_inputs": [
+            "FirstSlotStartTimeRange",
+            "Recurrence"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_scheduled_instance_availability",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248499.030183,
+        "end": 1711248511.271856,
+        "duration": 12.241686820983887,
+        "service": "ec2",
+        "type": "scheduled_instance_availability"
+    }
+}

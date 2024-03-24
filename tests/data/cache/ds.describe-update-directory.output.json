@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "DirectoryId": "",
+            "UpdateType": "OS",
+            "RegionName": "",
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "DirectoryId",
+            "UpdateType"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_update_directory",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248476.081286,
+        "end": 1711248483.437868,
+        "duration": 7.356590032577515,
+        "service": "ds",
+        "type": "update_directory"
+    }
+}

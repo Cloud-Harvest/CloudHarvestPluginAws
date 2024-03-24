@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "CatalogId": "",
+            "ResourceArn": "",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "ResourceArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_effective_permissions_for_path",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249221.183075,
+        "end": 1711249225.893302,
+        "duration": 4.710247039794922,
+        "service": "lakeformation",
+        "type": null
+    }
+}

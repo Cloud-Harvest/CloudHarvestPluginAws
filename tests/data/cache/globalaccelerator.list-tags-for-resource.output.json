@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "ResourceArn": ""
+        },
+        "template_required_inputs": [
+            "ResourceArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_tags_for_resource",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248711.142282,
+        "end": 1711248719.260776,
+        "duration": 8.118503093719482,
+        "service": "globalaccelerator",
+        "type": "tags_for_resource"
+    }
+}

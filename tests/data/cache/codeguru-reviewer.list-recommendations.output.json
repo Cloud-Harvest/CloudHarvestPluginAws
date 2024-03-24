@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0,
+            "CodeReviewArn": ""
+        },
+        "template_required_inputs": [
+            "CodeReviewArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_recommendations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248166.540332,
+        "end": 1711248175.055244,
+        "duration": 8.514922857284546,
+        "service": "codeguru-reviewer",
+        "type": "recommendations"
+    }
+}

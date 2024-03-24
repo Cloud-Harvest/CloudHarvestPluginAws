@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "LedgerName": "",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "LedgerName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_journal_kinesis_streams_for_ledger",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249875.358411,
+        "end": 1711249881.691561,
+        "duration": 6.3331618309021,
+        "service": "qldb",
+        "type": "journal_kinesis_streams_for_ledger"
+    }
+}

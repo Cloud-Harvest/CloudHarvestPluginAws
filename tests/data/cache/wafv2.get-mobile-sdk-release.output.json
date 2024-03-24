@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "Platform": "IOS",
+            "ReleaseVersion": ""
+        },
+        "template_required_inputs": [
+            "Platform",
+            "ReleaseVersion"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_mobile_sdk_release",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250300.856996,
+        "end": 1711250309.032636,
+        "duration": 8.175647974014282,
+        "service": "wafv2",
+        "type": null
+    }
+}

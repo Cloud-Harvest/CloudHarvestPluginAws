@@ -1,0 +1,51 @@
+{
+    "input": {
+        "template": {
+            "ServiceType": "RDS",
+            "Identifier": "",
+            "MetricQueries": [
+                {
+                    "Metric": "",
+                    "GroupBy": {
+                        "Group": "",
+                        "Dimensions": [
+                            ""
+                        ],
+                        "Limit": 0
+                    },
+                    "Filter": {
+                        "KeyName": ""
+                    }
+                }
+            ],
+            "StartTime": "1970-01-01T00:00:00",
+            "EndTime": "1970-01-01T00:00:00",
+            "PeriodInSeconds": 0,
+            "MaxResults": 0,
+            "NextToken": "",
+            "PeriodAlignment": "END_TIME"
+        },
+        "template_required_inputs": [
+            "ServiceType",
+            "Identifier",
+            "MetricQueries",
+            "StartTime",
+            "EndTime"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_resource_metrics",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249806.442626,
+        "end": 1711249811.791517,
+        "duration": 5.3489038944244385,
+        "service": "pi",
+        "type": null
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "input": {
+        "template": {
+            "botId": "",
+            "startDateTime": "1970-01-01T00:00:00",
+            "endDateTime": "1970-01-01T00:00:00",
+            "metrics": [
+                {
+                    "name": "Count",
+                    "statistic": "Sum",
+                    "order": "Ascending"
+                }
+            ],
+            "binBy": [
+                {
+                    "name": "ConversationStartTime",
+                    "interval": "OneHour",
+                    "order": "Ascending"
+                }
+            ],
+            "groupBy": [
+                {
+                    "name": "UtteranceText"
+                }
+            ],
+            "attributes": [
+                {
+                    "name": "LastUsedIntent"
+                }
+            ],
+            "filters": [
+                {
+                    "name": "BotAliasId",
+                    "operator": "EQ",
+                    "values": [
+                        ""
+                    ]
+                }
+            ],
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [
+            "botId",
+            "startDateTime",
+            "endDateTime",
+            "metrics"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_utterance_metrics",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249447.099098,
+        "end": 1711249452.492966,
+        "duration": 5.3938820362091064,
+        "service": "lexv2-models",
+        "type": "utterance_metrics"
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "input": {
+        "template": {
+            "BackupVaultName": "",
+            "BackupVaultAccountId": "",
+            "NextToken": "",
+            "MaxResults": 0,
+            "ByResourceArn": "",
+            "ByResourceType": "",
+            "ByBackupPlanId": "",
+            "ByCreatedBefore": "1970-01-01T00:00:00",
+            "ByCreatedAfter": "1970-01-01T00:00:00",
+            "ByParentRecoveryPointArn": ""
+        },
+        "template_required_inputs": [
+            "BackupVaultName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_recovery_points_by_backup_vault",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247910.799247,
+        "end": 1711247919.664631,
+        "duration": 8.865412950515747,
+        "service": "backup",
+        "type": "recovery_points_by_backup_vault"
+    }
+}

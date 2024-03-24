@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "IndexId": "",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "IndexId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_data_sources",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249186.333564,
+        "end": 1711249195.167724,
+        "duration": 8.834168910980225,
+        "service": "kendra",
+        "type": "data_sources"
+    }
+}

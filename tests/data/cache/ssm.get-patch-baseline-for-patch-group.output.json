@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "PatchGroup": "",
+            "OperatingSystem": "WINDOWS"
+        },
+        "template_required_inputs": [
+            "PatchGroup"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_patch_baseline_for_patch_group",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250154.118936,
+        "end": 1711250160.893436,
+        "duration": 6.774521827697754,
+        "service": "ssm",
+        "type": null
+    }
+}

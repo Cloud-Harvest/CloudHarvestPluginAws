@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "DBClusterSnapshotIdentifier": ""
+        },
+        "template_required_inputs": [
+            "DBClusterSnapshotIdentifier"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_db_cluster_snapshot_attributes",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249915.420487,
+        "end": 1711249921.580134,
+        "duration": 6.159661054611206,
+        "service": "rds",
+        "type": "db_cluster_snapshot_attributes"
+    }
+}

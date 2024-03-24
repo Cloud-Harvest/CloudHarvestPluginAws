@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "spaceName": "",
+            "projectName": "",
+            "sourceRepositoryName": ""
+        },
+        "template_required_inputs": [
+            "spaceName",
+            "projectName",
+            "sourceRepositoryName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_source_repository_clone_urls",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248145.865217,
+        "end": 1711248152.646579,
+        "duration": 6.7813880443573,
+        "service": "codecatalyst",
+        "type": null
+    }
+}

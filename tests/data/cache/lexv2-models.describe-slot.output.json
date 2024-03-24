@@ -1,0 +1,33 @@
+{
+    "input": {
+        "template": {
+            "slotId": "",
+            "botId": "",
+            "botVersion": "",
+            "localeId": "",
+            "intentId": ""
+        },
+        "template_required_inputs": [
+            "slotId",
+            "botId",
+            "botVersion",
+            "localeId",
+            "intentId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_slot",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249259.076858,
+        "end": 1711249268.296389,
+        "duration": 9.219542026519775,
+        "service": "lexv2-models",
+        "type": "slot"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "ResourceArn": "",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "ResourceArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_resource_policies",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250154.160911,
+        "end": 1711250161.11362,
+        "duration": 6.952728986740112,
+        "service": "ssm",
+        "type": null
+    }
+}

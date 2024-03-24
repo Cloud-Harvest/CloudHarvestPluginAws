@@ -1,0 +1,32 @@
+{
+    "input": {
+        "template": {
+            "ClusterId": "",
+            "StepStates": [
+                "PENDING"
+            ],
+            "StepIds": [
+                ""
+            ],
+            "Marker": ""
+        },
+        "template_required_inputs": [
+            "ClusterId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_steps",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248597.184403,
+        "end": 1711248605.207393,
+        "duration": 8.022999048233032,
+        "service": "emr",
+        "type": "steps"
+    }
+}

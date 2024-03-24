@@ -1,0 +1,21 @@
+{
+    "input": {
+        "template": {},
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "get_map_tile",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249472.299293,
+        "end": 1711249478.728804,
+        "duration": 6.429527044296265,
+        "service": "location",
+        "type": null
+    }
+}

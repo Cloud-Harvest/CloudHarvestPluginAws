@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "assessmentRunArns": [
+                ""
+            ]
+        },
+        "template_required_inputs": [
+            "assessmentRunArns"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_assessment_runs",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248882.609445,
+        "end": 1711248893.385628,
+        "duration": 10.776192903518677,
+        "service": "inspector",
+        "type": "assessment_runs"
+    }
+}

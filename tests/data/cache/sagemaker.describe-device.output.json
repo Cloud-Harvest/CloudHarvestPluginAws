@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "DeviceName": "",
+            "DeviceFleetName": ""
+        },
+        "template_required_inputs": [
+            "DeviceName",
+            "DeviceFleetName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_device",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250028.705329,
+        "end": 1711250035.3428,
+        "duration": 6.63749098777771,
+        "service": "sagemaker",
+        "type": "device"
+    }
+}

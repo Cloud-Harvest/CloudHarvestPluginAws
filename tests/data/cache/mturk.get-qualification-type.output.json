@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "QualificationTypeId": ""
+        },
+        "template_required_inputs": [
+            "QualificationTypeId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_qualification_type",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249699.326353,
+        "end": 1711249705.823337,
+        "duration": 6.497004985809326,
+        "service": "mturk",
+        "type": null
+    }
+}

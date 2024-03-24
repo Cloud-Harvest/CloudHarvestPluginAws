@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "solutionVersionArn": ""
+        },
+        "template_required_inputs": [
+            "solutionVersionArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_solution_version",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249805.274133,
+        "end": 1711249811.62157,
+        "duration": 6.347449064254761,
+        "service": "personalize",
+        "type": "solution_version"
+    }
+}

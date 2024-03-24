@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "AwsAccountId": "",
+            "DataSetId": "",
+            "IngestionId": ""
+        },
+        "template_required_inputs": [
+            "AwsAccountId",
+            "DataSetId",
+            "IngestionId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_ingestion",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249887.816683,
+        "end": 1711249894.20529,
+        "duration": 6.3886189460754395,
+        "service": "quicksight",
+        "type": "ingestion"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "WorkspaceId": ""
+        },
+        "template_required_inputs": [
+            "WorkspaceId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_workspace_snapshots",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250365.681824,
+        "end": 1711250371.98969,
+        "duration": 6.307881116867065,
+        "service": "workspaces",
+        "type": "workspace_snapshots"
+    }
+}

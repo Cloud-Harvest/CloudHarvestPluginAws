@@ -1,0 +1,32 @@
+{
+    "input": {
+        "template": {
+            "CatalogId": "",
+            "DatabaseName": "",
+            "TableName": "",
+            "ColumnNames": [
+                ""
+            ]
+        },
+        "template_required_inputs": [
+            "DatabaseName",
+            "TableName",
+            "ColumnNames"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_column_statistics_for_table",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248712.49118,
+        "end": 1711248719.954652,
+        "duration": 7.463484048843384,
+        "service": "glue",
+        "type": null
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "input": {
+        "template": {
+            "projectArn": "",
+            "status": "ACTIVE",
+            "creationTimeAfter": "1970-01-01T00:00:00",
+            "creationTimeBefore": "1970-01-01T00:00:00",
+            "endTimeAfter": "1970-01-01T00:00:00",
+            "endTimeBefore": "1970-01-01T00:00:00",
+            "maxResult": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [
+            "projectArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_test_grid_sessions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248436.629011,
+        "end": 1711248442.150867,
+        "duration": 5.521866083145142,
+        "service": "devicefarm",
+        "type": "test_grid_sessions"
+    }
+}

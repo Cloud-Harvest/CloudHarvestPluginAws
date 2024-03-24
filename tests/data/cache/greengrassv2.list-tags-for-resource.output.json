@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "resourceArn": ""
+        },
+        "template_required_inputs": [
+            "resourceArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_tags_for_resource",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248798.597284,
+        "end": 1711248805.574365,
+        "duration": 6.977089881896973,
+        "service": "greengrassv2",
+        "type": "tags_for_resource"
+    }
+}

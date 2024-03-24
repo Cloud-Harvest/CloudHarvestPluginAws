@@ -1,0 +1,78 @@
+{
+    "input": {
+        "template": {
+            "InstanceId": "",
+            "SnapshotId": "",
+            "BaselineOverride": {
+                "OperatingSystem": "WINDOWS",
+                "GlobalFilters": {
+                    "PatchFilters": [
+                        {
+                            "Key": "ARCH",
+                            "Values": [
+                                ""
+                            ]
+                        }
+                    ]
+                },
+                "ApprovalRules": {
+                    "PatchRules": [
+                        {
+                            "PatchFilterGroup": {
+                                "PatchFilters": [
+                                    {
+                                        "Key": "ARCH",
+                                        "Values": [
+                                            ""
+                                        ]
+                                    }
+                                ]
+                            },
+                            "ComplianceLevel": "CRITICAL",
+                            "ApproveAfterDays": 0,
+                            "ApproveUntilDate": "",
+                            "EnableNonSecurity": true
+                        }
+                    ]
+                },
+                "ApprovedPatches": [
+                    ""
+                ],
+                "ApprovedPatchesComplianceLevel": "CRITICAL",
+                "RejectedPatches": [
+                    ""
+                ],
+                "RejectedPatchesAction": "ALLOW_AS_DEPENDENCY",
+                "ApprovedPatchesEnableNonSecurity": true,
+                "Sources": [
+                    {
+                        "Name": "",
+                        "Products": [
+                            ""
+                        ],
+                        "Configuration": ""
+                    }
+                ]
+            }
+        },
+        "template_required_inputs": [
+            "InstanceId",
+            "SnapshotId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_deployable_patch_snapshot_for_instance",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250148.052863,
+        "end": 1711250154.159551,
+        "duration": 6.106706142425537,
+        "service": "ssm",
+        "type": null
+    }
+}

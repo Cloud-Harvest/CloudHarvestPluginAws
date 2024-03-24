@@ -1,0 +1,24 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_voice_connector_groups",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248029.1004,
+        "end": 1711248036.887564,
+        "duration": 7.787186145782471,
+        "service": "chime-sdk-voice",
+        "type": "voice_connector_groups"
+    }
+}

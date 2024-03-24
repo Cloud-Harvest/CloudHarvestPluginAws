@@ -1,0 +1,31 @@
+{
+    "input": {
+        "template": {
+            "ServiceType": "RDS",
+            "Identifier": "",
+            "AnalysisReportId": "",
+            "TextFormat": "PLAIN_TEXT",
+            "AcceptLanguage": "EN_US"
+        },
+        "template_required_inputs": [
+            "ServiceType",
+            "Identifier",
+            "AnalysisReportId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_performance_analysis_report",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249806.372609,
+        "end": 1711249812.816816,
+        "duration": 6.444218158721924,
+        "service": "pi",
+        "type": null
+    }
+}

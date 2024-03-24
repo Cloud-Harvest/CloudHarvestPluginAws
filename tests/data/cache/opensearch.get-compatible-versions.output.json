@@ -1,0 +1,23 @@
+{
+    "input": {
+        "template": {
+            "DomainName": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "get_compatible_versions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249759.244458,
+        "end": 1711249766.490296,
+        "duration": 7.245854139328003,
+        "service": "opensearch",
+        "type": null
+    }
+}

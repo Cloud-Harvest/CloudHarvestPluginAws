@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "Domain": "",
+            "MaxResults": 0,
+            "NextToken": "",
+            "Simulation": ""
+        },
+        "template_required_inputs": [
+            "Simulation"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_apps",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250120.957289,
+        "end": 1711250127.045822,
+        "duration": 6.0885539054870605,
+        "service": "simspaceweaver",
+        "type": "apps"
+    }
+}

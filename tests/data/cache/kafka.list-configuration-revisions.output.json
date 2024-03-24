@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "Arn": "",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "Arn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_configuration_revisions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249174.419278,
+        "end": 1711249183.598834,
+        "duration": 9.179578065872192,
+        "service": "kafka",
+        "type": "configuration_revisions"
+    }
+}

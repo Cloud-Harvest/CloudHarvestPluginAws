@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "ConnectorDefinitionId": "",
+            "ConnectorDefinitionVersionId": "",
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "ConnectorDefinitionId",
+            "ConnectorDefinitionVersionId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_connector_definition_version",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248745.0697,
+        "end": 1711248753.185328,
+        "duration": 8.115637063980103,
+        "service": "greengrass",
+        "type": null
+    }
+}

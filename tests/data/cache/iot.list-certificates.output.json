@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "pageSize": 0,
+            "marker": "",
+            "ascendingOrder": true
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_certificates",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248929.816648,
+        "end": 1711248939.592385,
+        "duration": 9.775754928588867,
+        "service": "iot",
+        "type": "certificates"
+    }
+}

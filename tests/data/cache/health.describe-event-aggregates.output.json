@@ -1,0 +1,79 @@
+{
+    "input": {
+        "template": {
+            "filter": {
+                "eventArns": [
+                    ""
+                ],
+                "eventTypeCodes": [
+                    ""
+                ],
+                "services": [
+                    ""
+                ],
+                "regions": [
+                    ""
+                ],
+                "availabilityZones": [
+                    ""
+                ],
+                "startTimes": [
+                    {
+                        "from": "1970-01-01T00:00:00",
+                        "to": "1970-01-01T00:00:00"
+                    }
+                ],
+                "endTimes": [
+                    {
+                        "from": "1970-01-01T00:00:00",
+                        "to": "1970-01-01T00:00:00"
+                    }
+                ],
+                "lastUpdatedTimes": [
+                    {
+                        "from": "1970-01-01T00:00:00",
+                        "to": "1970-01-01T00:00:00"
+                    }
+                ],
+                "entityArns": [
+                    ""
+                ],
+                "entityValues": [
+                    ""
+                ],
+                "eventTypeCategories": [
+                    "issue"
+                ],
+                "tags": [
+                    {
+                        "KeyName": ""
+                    }
+                ],
+                "eventStatusCodes": [
+                    "open"
+                ]
+            },
+            "aggregateField": "eventTypeCategory",
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [
+            "aggregateField"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_event_aggregates",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248827.115526,
+        "end": 1711248834.447431,
+        "duration": 7.3319151401519775,
+        "service": "health",
+        "type": "event_aggregates"
+    }
+}

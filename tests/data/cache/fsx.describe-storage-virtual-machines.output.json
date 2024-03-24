@@ -1,0 +1,35 @@
+{
+    "input": {
+        "template": {
+            "StorageVirtualMachineIds": [
+                ""
+            ],
+            "Filters": [
+                {
+                    "Name": "file-system-id",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "describe_storage_virtual_machines",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248678.329841,
+        "end": 1711248688.879993,
+        "duration": 10.55016016960144,
+        "service": "fsx",
+        "type": "storage_virtual_machines"
+    }
+}

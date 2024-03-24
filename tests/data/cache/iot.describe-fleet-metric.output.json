@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "metricName": ""
+        },
+        "template_required_inputs": [
+            "metricName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_fleet_metric",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248911.117979,
+        "end": 1711248917.94626,
+        "duration": 6.828297853469849,
+        "service": "iot",
+        "type": "fleet_metric"
+    }
+}

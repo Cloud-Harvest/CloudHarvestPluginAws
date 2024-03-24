@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "id": ""
+        },
+        "template_required_inputs": [
+            "id"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_environment",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250371.911329,
+        "end": 1711250378.395158,
+        "duration": 6.48383903503418,
+        "service": "workspaces-thin-client",
+        "type": null
+    }
+}

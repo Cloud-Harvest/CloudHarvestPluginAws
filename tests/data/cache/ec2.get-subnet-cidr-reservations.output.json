@@ -1,0 +1,36 @@
+{
+    "input": {
+        "template": {
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "SubnetId": "",
+            "DryRun": true,
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "SubnetId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_subnet_cidr_reservations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248523.076998,
+        "end": 1711248534.160273,
+        "duration": 11.083287954330444,
+        "service": "ec2",
+        "type": null
+    }
+}

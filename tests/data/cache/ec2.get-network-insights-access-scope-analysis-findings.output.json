@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "NetworkInsightsAccessScopeAnalysisId": "",
+            "MaxResults": 0,
+            "NextToken": "",
+            "DryRun": true
+        },
+        "template_required_inputs": [
+            "NetworkInsightsAccessScopeAnalysisId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_network_insights_access_scope_analysis_findings",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248520.147633,
+        "end": 1711248531.508918,
+        "duration": 11.361295938491821,
+        "service": "ec2",
+        "type": null
+    }
+}

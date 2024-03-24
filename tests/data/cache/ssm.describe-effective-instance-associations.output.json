@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "InstanceId": "",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "InstanceId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_effective_instance_associations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250139.648792,
+        "end": 1711250146.388331,
+        "duration": 6.739548921585083,
+        "service": "ssm",
+        "type": "effective_instance_associations"
+    }
+}

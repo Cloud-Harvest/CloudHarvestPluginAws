@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "thingArn": "",
+            "certificateArn": "",
+            "deviceRoleArn": "",
+            "authenticationMethod": "X509ClientCertificate"
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "get_endpoint",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248955.824689,
+        "end": 1711248969.815647,
+        "duration": 13.990966081619263,
+        "service": "iotdeviceadvisor",
+        "type": null
+    }
+}

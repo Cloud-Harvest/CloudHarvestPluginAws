@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "resourceARN": ""
+        },
+        "template_required_inputs": [
+            "resourceARN"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_tags_for_resource",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247930.213258,
+        "end": 1711247938.307838,
+        "duration": 8.094605922698975,
+        "service": "bedrock",
+        "type": "tags_for_resource"
+    }
+}

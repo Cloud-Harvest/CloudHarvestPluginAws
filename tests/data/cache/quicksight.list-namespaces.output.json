@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "AwsAccountId": "",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "AwsAccountId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_namespaces",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249901.726348,
+        "end": 1711249908.042565,
+        "duration": 6.31623101234436,
+        "service": "quicksight",
+        "type": "namespaces"
+    }
+}

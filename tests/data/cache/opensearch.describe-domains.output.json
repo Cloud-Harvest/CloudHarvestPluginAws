@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "DomainNames": [
+                ""
+            ]
+        },
+        "template_required_inputs": [
+            "DomainNames"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_domains",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249756.17943,
+        "end": 1711249762.291443,
+        "duration": 6.11203408241272,
+        "service": "opensearch",
+        "type": "domains"
+    }
+}

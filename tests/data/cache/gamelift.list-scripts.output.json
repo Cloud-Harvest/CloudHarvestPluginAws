@@ -1,0 +1,24 @@
+{
+    "input": {
+        "template": {
+            "Limit": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_scripts",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248695.993687,
+        "end": 1711248703.577473,
+        "duration": 7.583796977996826,
+        "service": "gamelift",
+        "type": "scripts"
+    }
+}

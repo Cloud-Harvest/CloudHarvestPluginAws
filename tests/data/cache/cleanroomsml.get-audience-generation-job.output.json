@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "audienceGenerationJobArn": ""
+        },
+        "template_required_inputs": [
+            "audienceGenerationJobArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_audience_generation_job",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248043.844488,
+        "end": 1711248052.400483,
+        "duration": 8.556007146835327,
+        "service": "cleanroomsml",
+        "type": null
+    }
+}

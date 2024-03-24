@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "datasetExportJobArn": ""
+        },
+        "template_required_inputs": [
+            "datasetExportJobArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_dataset_export_job",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249800.176119,
+        "end": 1711249806.405369,
+        "duration": 6.229266881942749,
+        "service": "personalize",
+        "type": "dataset_export_job"
+    }
+}

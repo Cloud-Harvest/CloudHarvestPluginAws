@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "ModelNameBeginsWith": "",
+            "Status": "PENDING",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_retraining_schedulers",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249488.881649,
+        "end": 1711249496.106823,
+        "duration": 7.225188970565796,
+        "service": "lookoutequipment",
+        "type": "retraining_schedulers"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "FirewallRuleGroupId": "",
+            "Priority": 0,
+            "Action": "ALLOW",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "FirewallRuleGroupId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_firewall_rules",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249986.877567,
+        "end": 1711249992.364993,
+        "duration": 5.487437963485718,
+        "service": "route53resolver",
+        "type": "firewall_rules"
+    }
+}

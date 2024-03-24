@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": "",
+            "ResourceArn": ""
+        },
+        "template_required_inputs": [
+            "ResourceArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_alerts",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249662.451093,
+        "end": 1711249668.538162,
+        "duration": 6.087085008621216,
+        "service": "mediatailor",
+        "type": "alerts"
+    }
+}

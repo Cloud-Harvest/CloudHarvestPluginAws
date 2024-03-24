@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "Limit": 0,
+            "NextToken": "",
+            "RegistryName": "",
+            "SchemaName": ""
+        },
+        "template_required_inputs": [
+            "RegistryName",
+            "SchemaName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_schema_versions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250071.69357,
+        "end": 1711250076.682487,
+        "duration": 4.988929986953735,
+        "service": "schemas",
+        "type": "schema_versions"
+    }
+}

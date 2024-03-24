@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "metricAttributionArn": ""
+        },
+        "template_required_inputs": [
+            "metricAttributionArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_metric_attribution",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249803.35003,
+        "end": 1711249808.409754,
+        "duration": 5.05974006652832,
+        "service": "personalize",
+        "type": "metric_attribution"
+    }
+}

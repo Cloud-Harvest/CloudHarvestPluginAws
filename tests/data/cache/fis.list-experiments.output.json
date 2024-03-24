@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "nextToken": "",
+            "experimentTemplateId": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_experiments",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248648.81187,
+        "end": 1711248657.698055,
+        "duration": 8.886192798614502,
+        "service": "fis",
+        "type": "experiments"
+    }
+}

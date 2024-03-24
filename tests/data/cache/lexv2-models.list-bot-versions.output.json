@@ -1,0 +1,31 @@
+{
+    "input": {
+        "template": {
+            "botId": "",
+            "sortBy": {
+                "attribute": "BotVersion",
+                "order": "Ascending"
+            },
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [
+            "botId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_bot_versions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249268.316192,
+        "end": 1711249275.002052,
+        "duration": 6.6859331130981445,
+        "service": "lexv2-models",
+        "type": "bot_versions"
+    }
+}

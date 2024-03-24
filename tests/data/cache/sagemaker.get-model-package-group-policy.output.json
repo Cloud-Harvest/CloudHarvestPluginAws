@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "ModelPackageGroupName": ""
+        },
+        "template_required_inputs": [
+            "ModelPackageGroupName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_model_package_group_policy",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250049.216175,
+        "end": 1711250055.22418,
+        "duration": 6.008020877838135,
+        "service": "sagemaker",
+        "type": null
+    }
+}

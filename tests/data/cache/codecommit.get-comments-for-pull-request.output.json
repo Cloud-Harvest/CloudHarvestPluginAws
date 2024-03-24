@@ -1,0 +1,30 @@
+{
+    "input": {
+        "template": {
+            "pullRequestId": "",
+            "repositoryName": "",
+            "beforeCommitId": "",
+            "afterCommitId": "",
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "template_required_inputs": [
+            "pullRequestId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_comments_for_pull_request",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248154.109162,
+        "end": 1711248162.812231,
+        "duration": 8.703086853027344,
+        "service": "codecommit",
+        "type": null
+    }
+}

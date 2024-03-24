@@ -1,0 +1,44 @@
+{
+    "input": {
+        "template": {
+            "botId": "",
+            "botVersion": "",
+            "localeId": "",
+            "sortBy": {
+                "attribute": "IntentName",
+                "order": "Ascending"
+            },
+            "filters": [
+                {
+                    "name": "IntentName",
+                    "values": [
+                        ""
+                    ],
+                    "operator": "CO"
+                }
+            ],
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [
+            "botId",
+            "botVersion",
+            "localeId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_intents",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249272.54362,
+        "end": 1711249278.805727,
+        "duration": 6.262117862701416,
+        "service": "lexv2-models",
+        "type": "intents"
+    }
+}

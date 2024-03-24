@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "OrganizationId": "",
+            "UserId": "",
+            "DeviceId": "",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "OrganizationId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_mobile_device_access_overrides",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250352.073673,
+        "end": 1711250358.717958,
+        "duration": 6.644296884536743,
+        "service": "workmail",
+        "type": "mobile_device_access_overrides"
+    }
+}

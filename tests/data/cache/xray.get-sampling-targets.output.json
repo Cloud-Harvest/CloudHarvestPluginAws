@@ -1,0 +1,34 @@
+{
+    "input": {
+        "template": {
+            "SamplingStatisticsDocuments": [
+                {
+                    "RuleName": "",
+                    "ClientID": "",
+                    "Timestamp": "1970-01-01T00:00:00",
+                    "RequestCount": 0,
+                    "SampledCount": 0,
+                    "BorrowCount": 0
+                }
+            ]
+        },
+        "template_required_inputs": [
+            "SamplingStatisticsDocuments"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_sampling_targets",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250380.56039,
+        "end": 1711250389.138108,
+        "duration": 8.577728033065796,
+        "service": "xray",
+        "type": null
+    }
+}

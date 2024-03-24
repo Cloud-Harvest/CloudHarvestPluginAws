@@ -1,0 +1,33 @@
+{
+    "input": {
+        "template": {
+            "cluster": "",
+            "service": "",
+            "taskSets": [
+                ""
+            ],
+            "include": [
+                "TAGS"
+            ]
+        },
+        "template_required_inputs": [
+            "cluster",
+            "service"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_task_sets",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248542.152882,
+        "end": 1711248549.048006,
+        "duration": 6.895131826400757,
+        "service": "ecs",
+        "type": "task_sets"
+    }
+}

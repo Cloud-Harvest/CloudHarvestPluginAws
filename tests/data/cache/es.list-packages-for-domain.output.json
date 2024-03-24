@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "DomainName": "",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "DomainName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_packages_for_domain",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248617.481671,
+        "end": 1711248629.231636,
+        "duration": 11.749974012374878,
+        "service": "es",
+        "type": "packages_for_domain"
+    }
+}

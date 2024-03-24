@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "botId": "",
+            "botVersion": ""
+        },
+        "template_required_inputs": [
+            "botId",
+            "botVersion"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_bot_version",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249257.335602,
+        "end": 1711249267.120411,
+        "duration": 9.784817934036255,
+        "service": "lexv2-models",
+        "type": "bot_version"
+    }
+}

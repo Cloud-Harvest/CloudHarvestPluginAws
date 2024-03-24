@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "DirectoryId": ""
+        },
+        "template_required_inputs": [
+            "DirectoryId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_snapshot_limits",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248477.335692,
+        "end": 1711248484.066439,
+        "duration": 6.730756044387817,
+        "service": "ds",
+        "type": null
+    }
+}

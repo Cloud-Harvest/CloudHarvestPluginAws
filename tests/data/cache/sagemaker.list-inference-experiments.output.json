@@ -1,0 +1,33 @@
+{
+    "input": {
+        "template": {
+            "NameContains": "",
+            "Type": "ShadowMode",
+            "StatusEquals": "Creating",
+            "CreationTimeAfter": "1970-01-01T00:00:00",
+            "CreationTimeBefore": "1970-01-01T00:00:00",
+            "LastModifiedTimeAfter": "1970-01-01T00:00:00",
+            "LastModifiedTimeBefore": "1970-01-01T00:00:00",
+            "SortBy": "Name",
+            "SortOrder": "Ascending",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_inference_experiments",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250055.337914,
+        "end": 1711250063.400457,
+        "duration": 8.062557935714722,
+        "service": "sagemaker",
+        "type": "inference_experiments"
+    }
+}

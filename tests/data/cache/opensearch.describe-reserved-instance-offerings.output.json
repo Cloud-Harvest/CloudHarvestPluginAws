@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "ReservedInstanceOfferingId": "",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "describe_reserved_instance_offerings",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249758.985055,
+        "end": 1711249766.371659,
+        "duration": 7.386616945266724,
+        "service": "opensearch",
+        "type": "reserved_instance_offerings"
+    }
+}

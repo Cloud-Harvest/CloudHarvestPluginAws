@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "OrganizationId": "",
+            "Email": ""
+        },
+        "template_required_inputs": [
+            "OrganizationId",
+            "Email"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_entity",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250344.46808,
+        "end": 1711250351.192731,
+        "duration": 6.724660873413086,
+        "service": "workmail",
+        "type": "entity"
+    }
+}

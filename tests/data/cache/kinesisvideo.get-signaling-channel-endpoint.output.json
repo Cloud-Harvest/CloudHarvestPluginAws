@@ -1,0 +1,31 @@
+{
+    "input": {
+        "template": {
+            "ChannelARN": "",
+            "SingleMasterChannelEndpointConfiguration": {
+                "Protocols": [
+                    "WSS"
+                ],
+                "Role": "MASTER"
+            }
+        },
+        "template_required_inputs": [
+            "ChannelARN"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_signaling_channel_endpoint",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249208.221451,
+        "end": 1711249213.699714,
+        "duration": 5.478276014328003,
+        "service": "kinesisvideo",
+        "type": null
+    }
+}

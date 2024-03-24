@@ -1,0 +1,32 @@
+{
+    "input": {
+        "template": {
+            "ProductCode": "",
+            "Filter": {
+                "KeyName": [
+                    ""
+                ]
+            },
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "ProductCode"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_entitlements",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249630.035872,
+        "end": 1711249636.103353,
+        "duration": 6.067495107650757,
+        "service": "marketplace-entitlement",
+        "type": null
+    }
+}

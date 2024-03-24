@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "Arns": [
+                ""
+            ],
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "describe_applications",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247822.365342,
+        "end": 1711247839.608187,
+        "duration": 17.242863178253174,
+        "service": "appstream",
+        "type": "applications"
+    }
+}

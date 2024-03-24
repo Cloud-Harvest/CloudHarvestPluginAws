@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "portalArn": ""
+        },
+        "template_required_inputs": [
+            "portalArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_portal_service_provider_metadata",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250372.761718,
+        "end": 1711250379.068063,
+        "duration": 6.306362867355347,
+        "service": "workspaces-web",
+        "type": null
+    }
+}

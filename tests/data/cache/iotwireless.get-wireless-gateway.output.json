@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "Identifier": "",
+            "IdentifierType": "GatewayEui"
+        },
+        "template_required_inputs": [
+            "Identifier",
+            "IdentifierType"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_wireless_gateway",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249014.653697,
+        "end": 1711249022.948874,
+        "duration": 8.295186996459961,
+        "service": "iotwireless",
+        "type": null
+    }
+}

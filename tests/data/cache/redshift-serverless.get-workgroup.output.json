@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "workgroupName": ""
+        },
+        "template_required_inputs": [
+            "workgroupName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_workgroup",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249929.756399,
+        "end": 1711249934.819212,
+        "duration": 5.062834978103638,
+        "service": "redshift-serverless",
+        "type": null
+    }
+}

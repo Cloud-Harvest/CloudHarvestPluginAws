@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "template": ""
+        },
+        "template_required_inputs": [
+            "template"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_world_template",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249953.592901,
+        "end": 1711249959.630392,
+        "duration": 6.0375120639801025,
+        "service": "robomaker",
+        "type": "world_template"
+    }
+}

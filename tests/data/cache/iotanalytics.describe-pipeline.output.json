@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "pipelineName": ""
+        },
+        "template_required_inputs": [
+            "pipelineName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_pipeline",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248953.438911,
+        "end": 1711248959.18233,
+        "duration": 5.7434401512146,
+        "service": "iotanalytics",
+        "type": "pipeline"
+    }
+}

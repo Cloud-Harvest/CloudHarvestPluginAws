@@ -1,0 +1,32 @@
+{
+    "input": {
+        "template": {
+            "AnomalyDetectorArn": "",
+            "AnomalyGroupTimeSeriesFeedback": {
+                "AnomalyGroupId": "",
+                "TimeSeriesId": ""
+            },
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "AnomalyDetectorArn",
+            "AnomalyGroupTimeSeriesFeedback"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_feedback",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249490.940935,
+        "end": 1711249497.093288,
+        "duration": 6.152363061904907,
+        "service": "lookoutmetrics",
+        "type": null
+    }
+}

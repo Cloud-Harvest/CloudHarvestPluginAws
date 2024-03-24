@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "FileSystemId": ""
+        },
+        "template_required_inputs": [
+            "FileSystemId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_file_system_policy",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248544.554529,
+        "end": 1711248552.293303,
+        "duration": 7.738785028457642,
+        "service": "efs",
+        "type": "file_system_policy"
+    }
+}

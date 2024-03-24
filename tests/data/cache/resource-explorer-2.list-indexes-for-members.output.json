@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "AccountIdList": [
+                ""
+            ],
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "AccountIdList"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_indexes_for_members",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249952.272904,
+        "end": 1711249958.583546,
+        "duration": 6.3106529712677,
+        "service": "resource-explorer-2",
+        "type": "indexes_for_members"
+    }
+}

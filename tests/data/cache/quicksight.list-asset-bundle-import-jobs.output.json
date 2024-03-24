@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "AwsAccountId": "",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "AwsAccountId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_asset_bundle_import_jobs",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249895.397642,
+        "end": 1711249901.716513,
+        "duration": 6.318881034851074,
+        "service": "quicksight",
+        "type": "asset_bundle_import_jobs"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "FileCacheIds": [
+                ""
+            ],
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "describe_file_caches",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248676.331957,
+        "end": 1711248684.974176,
+        "duration": 8.642232894897461,
+        "service": "fsx",
+        "type": "file_caches"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "resourceArn": ""
+        },
+        "template_required_inputs": [
+            "resourceArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_tags_for_resource",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249940.019468,
+        "end": 1711249946.108818,
+        "duration": 6.0893638134002686,
+        "service": "repostspace",
+        "type": "tags_for_resource"
+    }
+}

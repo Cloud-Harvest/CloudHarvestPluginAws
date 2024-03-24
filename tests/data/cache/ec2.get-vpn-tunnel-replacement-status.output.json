@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "VpnConnectionId": "",
+            "VpnTunnelOutsideIpAddress": "",
+            "DryRun": true
+        },
+        "template_required_inputs": [
+            "VpnConnectionId",
+            "VpnTunnelOutsideIpAddress"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_vpn_tunnel_replacement_status",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248530.923628,
+        "end": 1711248538.918019,
+        "duration": 7.994401931762695,
+        "service": "ec2",
+        "type": null
+    }
+}

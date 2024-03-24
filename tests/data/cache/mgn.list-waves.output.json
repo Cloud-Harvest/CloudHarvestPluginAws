@@ -1,0 +1,31 @@
+{
+    "input": {
+        "template": {
+            "accountID": "",
+            "filters": {
+                "isArchived": true,
+                "waveIDs": [
+                    ""
+                ]
+            },
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_waves",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249678.774371,
+        "end": 1711249687.112413,
+        "duration": 8.33805799484253,
+        "service": "mgn",
+        "type": "waves"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "RegistryName": "",
+            "SchemaName": "",
+            "SchemaVersion": ""
+        },
+        "template_required_inputs": [
+            "RegistryName",
+            "SchemaName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_schema",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250069.657775,
+        "end": 1711250075.999836,
+        "duration": 6.342069149017334,
+        "service": "schemas",
+        "type": "schema"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "InstanceId": "",
+            "IntegrationAssociationId": "",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "InstanceId",
+            "IntegrationAssociationId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_use_cases",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248313.475582,
+        "end": 1711248321.703379,
+        "duration": 8.227806091308594,
+        "service": "connect",
+        "type": "use_cases"
+    }
+}

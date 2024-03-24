@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "recipeArn": ""
+        },
+        "template_required_inputs": [
+            "recipeArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_recipe",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249804.821884,
+        "end": 1711249810.716693,
+        "duration": 5.894818067550659,
+        "service": "personalize",
+        "type": "recipe"
+    }
+}

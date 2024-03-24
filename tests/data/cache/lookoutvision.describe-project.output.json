@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "ProjectName": ""
+        },
+        "template_required_inputs": [
+            "ProjectName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_project",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249495.058772,
+        "end": 1711249500.262124,
+        "duration": 5.203368902206421,
+        "service": "lookoutvision",
+        "type": "project"
+    }
+}

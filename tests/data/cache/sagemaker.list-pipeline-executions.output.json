@@ -1,0 +1,31 @@
+{
+    "input": {
+        "template": {
+            "PipelineName": "",
+            "CreatedAfter": "1970-01-01T00:00:00",
+            "CreatedBefore": "1970-01-01T00:00:00",
+            "SortBy": "CreationTime",
+            "SortOrder": "Ascending",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "PipelineName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_pipeline_executions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250061.431491,
+        "end": 1711250067.513435,
+        "duration": 6.081960201263428,
+        "service": "sagemaker",
+        "type": "pipeline_executions"
+    }
+}

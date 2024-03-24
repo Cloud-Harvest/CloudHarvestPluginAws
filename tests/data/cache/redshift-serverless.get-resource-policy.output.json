@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "resourceArn": ""
+        },
+        "template_required_inputs": [
+            "resourceArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_resource_policy",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249927.686519,
+        "end": 1711249933.785671,
+        "duration": 6.099160194396973,
+        "service": "redshift-serverless",
+        "type": null
+    }
+}

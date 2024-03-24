@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "connectInstanceId": ""
+        },
+        "template_required_inputs": [
+            "connectInstanceId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_instance_onboarding_job_status",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248318.432949,
+        "end": 1711248325.545416,
+        "duration": 7.11247992515564,
+        "service": "connectcampaigns",
+        "type": null
+    }
+}

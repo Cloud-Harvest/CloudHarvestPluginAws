@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": "",
+            "Name": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_extensions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247778.355624,
+        "end": 1711247787.631883,
+        "duration": 9.276270151138306,
+        "service": "appconfig",
+        "type": "extensions"
+    }
+}

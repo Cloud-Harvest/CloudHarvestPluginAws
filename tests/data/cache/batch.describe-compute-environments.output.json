@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "computeEnvironments": [
+                ""
+            ],
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "describe_compute_environments",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247924.22455,
+        "end": 1711247931.595501,
+        "duration": 7.370970964431763,
+        "service": "batch",
+        "type": "compute_environments"
+    }
+}

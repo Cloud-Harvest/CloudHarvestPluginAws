@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "securityProfileName": ""
+        },
+        "template_required_inputs": [
+            "securityProfileName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_security_profile",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248917.055252,
+        "end": 1711248925.91612,
+        "duration": 8.860877990722656,
+        "service": "iot",
+        "type": "security_profile"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "CertificateArn": "",
+            "DryRun": true
+        },
+        "template_required_inputs": [
+            "CertificateArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_associated_enclave_certificate_iam_roles",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248505.76503,
+        "end": 1711248515.796586,
+        "duration": 10.031565189361572,
+        "service": "ec2",
+        "type": null
+    }
+}

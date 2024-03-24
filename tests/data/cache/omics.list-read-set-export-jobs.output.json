@@ -1,0 +1,32 @@
+{
+    "input": {
+        "template": {
+            "sequenceStoreId": "",
+            "maxResults": 0,
+            "nextToken": "",
+            "filter": {
+                "status": "SUBMITTED",
+                "createdAfter": "1970-01-01T00:00:00",
+                "createdBefore": "1970-01-01T00:00:00"
+            }
+        },
+        "template_required_inputs": [
+            "sequenceStoreId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_read_set_export_jobs",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249746.858091,
+        "end": 1711249753.087905,
+        "duration": 6.229834794998169,
+        "service": "omics",
+        "type": "read_set_export_jobs"
+    }
+}

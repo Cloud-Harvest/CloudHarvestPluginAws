@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "DurationSeconds": 0,
+            "SerialNumber": "",
+            "TokenCode": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "get_session_token",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250213.775151,
+        "end": 1711250221.027621,
+        "duration": 7.252484083175659,
+        "service": "sts",
+        "type": null
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "input": {
+        "template": {
+            "registryId": "",
+            "repositoryName": "",
+            "imageIds": [
+                {
+                    "imageDigest": "",
+                    "imageTag": ""
+                }
+            ],
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "template_required_inputs": [
+            "repositoryName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_images",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248538.033016,
+        "end": 1711248544.565977,
+        "duration": 6.532974004745483,
+        "service": "ecr-public",
+        "type": "images"
+    }
+}

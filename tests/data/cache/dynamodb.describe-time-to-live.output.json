@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "TableName": ""
+        },
+        "template_required_inputs": [
+            "TableName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_time_to_live",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248484.073435,
+        "end": 1711248491.729873,
+        "duration": 7.656446933746338,
+        "service": "dynamodb",
+        "type": "time_to_live"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "majorVersion": "",
+            "minorVersion": "",
+            "templateName": ""
+        },
+        "template_required_inputs": [
+            "majorVersion",
+            "minorVersion",
+            "templateName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_service_template_version",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249850.921902,
+        "end": 1711249857.193514,
+        "duration": 6.271625995635986,
+        "service": "proton",
+        "type": null
+    }
+}

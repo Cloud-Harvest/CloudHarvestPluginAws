@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "Identifier": ""
+        },
+        "template_required_inputs": [
+            "Identifier"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_link",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249736.088848,
+        "end": 1711249742.873911,
+        "duration": 6.7850728034973145,
+        "service": "oam",
+        "type": null
+    }
+}

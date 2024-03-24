@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": "",
+            "NextToken": "",
+            "SubscriptionDefinitionId": ""
+        },
+        "template_required_inputs": [
+            "SubscriptionDefinitionId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_subscription_definition_versions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248760.202007,
+        "end": 1711248799.159716,
+        "duration": 38.95772099494934,
+        "service": "greengrass",
+        "type": "subscription_definition_versions"
+    }
+}

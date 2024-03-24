@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "componentArn": ""
+        },
+        "template_required_inputs": [
+            "componentArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_component_policy",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248870.067662,
+        "end": 1711248877.401811,
+        "duration": 7.334158897399902,
+        "service": "imagebuilder",
+        "type": null
+    }
+}

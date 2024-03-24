@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "Id": ""
+        },
+        "template_required_inputs": [
+            "Id"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_cache_policy_config",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248079.281176,
+        "end": 1711248086.420731,
+        "duration": 7.139575958251953,
+        "service": "cloudfront",
+        "type": null
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "input": {
+        "template": {
+            "botId": "",
+            "botAliasId": "",
+            "botVersion": "",
+            "localeId": "",
+            "aggregationDuration": {
+                "relativeAggregationDuration": {
+                    "timeDimension": "Hours",
+                    "timeValue": 0
+                }
+            },
+            "sortBy": {
+                "attribute": "HitCount",
+                "order": "Ascending"
+            },
+            "filters": [
+                {
+                    "name": "Utterance",
+                    "values": [
+                        ""
+                    ],
+                    "operator": "CO"
+                }
+            ],
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [
+            "botId",
+            "localeId",
+            "aggregationDuration"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_aggregated_utterances",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249262.403039,
+        "end": 1711249270.277097,
+        "duration": 7.874072074890137,
+        "service": "lexv2-models",
+        "type": "aggregated_utterances"
+    }
+}

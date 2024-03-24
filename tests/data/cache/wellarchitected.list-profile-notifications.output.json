@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "WorkloadId": "",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_profile_notifications",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250322.52453,
+        "end": 1711250329.673166,
+        "duration": 7.148666143417358,
+        "service": "wellarchitected",
+        "type": "profile_notifications"
+    }
+}

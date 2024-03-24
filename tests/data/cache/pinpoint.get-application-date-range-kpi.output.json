@@ -1,0 +1,31 @@
+{
+    "input": {
+        "template": {
+            "ApplicationId": "",
+            "EndTime": "1970-01-01T00:00:00",
+            "KpiName": "",
+            "NextToken": "",
+            "PageSize": "",
+            "StartTime": "1970-01-01T00:00:00"
+        },
+        "template_required_inputs": [
+            "ApplicationId",
+            "KpiName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_application_date_range_kpi",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249811.802139,
+        "end": 1711249817.967378,
+        "duration": 6.165574073791504,
+        "service": "pinpoint",
+        "type": null
+    }
+}

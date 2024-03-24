@@ -1,0 +1,46 @@
+{
+    "input": {
+        "template": {
+            "DetectorId": "",
+            "NextToken": "",
+            "MaxResults": 0,
+            "FilterCriteria": {
+                "FilterCriterion": [
+                    {
+                        "CriterionKey": "ACCOUNT_ID",
+                        "FilterCondition": {
+                            "Equals": [
+                                ""
+                            ],
+                            "NotEquals": [
+                                ""
+                            ]
+                        }
+                    }
+                ]
+            },
+            "SortCriteria": {
+                "AttributeName": "ACCOUNT_ID",
+                "OrderBy": "ASC"
+            }
+        },
+        "template_required_inputs": [
+            "DetectorId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_coverage",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248813.614153,
+        "end": 1711248827.446764,
+        "duration": 13.832624197006226,
+        "service": "guardduty",
+        "type": "coverage"
+    }
+}

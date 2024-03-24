@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "LoadBalancerArn": ""
+        },
+        "template_required_inputs": [
+            "LoadBalancerArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_load_balancer_attributes",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248585.373495,
+        "end": 1711248592.799144,
+        "duration": 7.4256579875946045,
+        "service": "elbv2",
+        "type": "load_balancer_attributes"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "KeyId": "",
+            "Limit": 0,
+            "Marker": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_aliases",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249212.770163,
+        "end": 1711249223.975377,
+        "duration": 11.205225944519043,
+        "service": "kms",
+        "type": "aliases"
+    }
+}

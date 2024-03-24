@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "connectorArn": ""
+        },
+        "template_required_inputs": [
+            "connectorArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_connector",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249179.457911,
+        "end": 1711249186.301689,
+        "duration": 6.843801021575928,
+        "service": "kafkaconnect",
+        "type": "connector"
+    }
+}

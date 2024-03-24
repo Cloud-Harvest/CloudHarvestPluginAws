@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "DomainId": "",
+            "JobId": ""
+        },
+        "template_required_inputs": [
+            "DomainId",
+            "JobId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_speaker_enrollment_job",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250267.864963,
+        "end": 1711250275.430604,
+        "duration": 7.565650939941406,
+        "service": "voice-id",
+        "type": "speaker_enrollment_job"
+    }
+}

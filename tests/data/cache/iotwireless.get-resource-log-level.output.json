@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "ResourceIdentifier": "",
+            "ResourceType": ""
+        },
+        "template_required_inputs": [
+            "ResourceIdentifier",
+            "ResourceType"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_resource_log_level",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249012.956054,
+        "end": 1711249022.438117,
+        "duration": 9.482072114944458,
+        "service": "iotwireless",
+        "type": null
+    }
+}

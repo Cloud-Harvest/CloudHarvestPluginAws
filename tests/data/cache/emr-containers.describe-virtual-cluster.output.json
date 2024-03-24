@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "id": ""
+        },
+        "template_required_inputs": [
+            "id"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_virtual_cluster",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248601.480243,
+        "end": 1711248608.009461,
+        "duration": 6.52922797203064,
+        "service": "emr-containers",
+        "type": "virtual_cluster"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "IndexId": "",
+            "Id": ""
+        },
+        "template_required_inputs": [
+            "IndexId",
+            "Id"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_access_control_configuration",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249179.714022,
+        "end": 1711249188.28696,
+        "duration": 8.57296109199524,
+        "service": "kendra",
+        "type": "access_control_configuration"
+    }
+}

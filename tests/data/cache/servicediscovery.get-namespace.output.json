@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "Id": ""
+        },
+        "template_required_inputs": [
+            "Id"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_namespace",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250102.162964,
+        "end": 1711250108.364894,
+        "duration": 6.201943874359131,
+        "service": "servicediscovery",
+        "type": null
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "applicationId": "",
+            "maxResults": 0,
+            "nextToken": "",
+            "prefix": ""
+        },
+        "template_required_inputs": [
+            "applicationId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_batch_job_definitions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249610.42044,
+        "end": 1711249616.575349,
+        "duration": 6.15491795539856,
+        "service": "m2",
+        "type": "batch_job_definitions"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0,
+            "OperatingAddressCountryCodeFilter": [
+                ""
+            ],
+            "OperatingAddressStateOrRegionFilter": [
+                ""
+            ],
+            "OperatingAddressCityFilter": [
+                ""
+            ]
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_sites",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249786.876703,
+        "end": 1711249794.010776,
+        "duration": 7.134088039398193,
+        "service": "outposts",
+        "type": "sites"
+    }
+}

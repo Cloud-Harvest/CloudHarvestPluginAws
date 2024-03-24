@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "domainId": "",
+            "templateId": ""
+        },
+        "template_required_inputs": [
+            "domainId",
+            "templateId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_template",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248322.161116,
+        "end": 1711248329.088027,
+        "duration": 6.926925182342529,
+        "service": "connectcases",
+        "type": null
+    }
+}

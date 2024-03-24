@@ -1,0 +1,46 @@
+{
+    "input": {
+        "template": {
+            "botId": "",
+            "botVersion": "",
+            "localeId": "",
+            "intentId": "",
+            "sortBy": {
+                "attribute": "SlotName",
+                "order": "Ascending"
+            },
+            "filters": [
+                {
+                    "name": "SlotName",
+                    "values": [
+                        ""
+                    ],
+                    "operator": "CO"
+                }
+            ],
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [
+            "botId",
+            "botVersion",
+            "localeId",
+            "intentId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_slots",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249274.900537,
+        "end": 1711249282.5981,
+        "duration": 7.697573900222778,
+        "service": "lexv2-models",
+        "type": "slots"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "DomainId": "",
+            "FraudsterId": ""
+        },
+        "template_required_inputs": [
+            "DomainId",
+            "FraudsterId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_fraudster",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250267.754079,
+        "end": 1711250275.496564,
+        "duration": 7.742499828338623,
+        "service": "voice-id",
+        "type": "fraudster"
+    }
+}

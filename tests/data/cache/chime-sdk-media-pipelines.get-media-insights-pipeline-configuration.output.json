@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "Identifier": ""
+        },
+        "template_required_inputs": [
+            "Identifier"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_media_insights_pipeline_configuration",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247989.277464,
+        "end": 1711247999.244322,
+        "duration": 9.966868162155151,
+        "service": "chime-sdk-media-pipelines",
+        "type": null
+    }
+}

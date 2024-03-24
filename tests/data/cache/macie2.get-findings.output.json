@@ -1,0 +1,31 @@
+{
+    "input": {
+        "template": {
+            "findingIds": [
+                ""
+            ],
+            "sortCriteria": {
+                "attributeName": "",
+                "orderBy": "ASC"
+            }
+        },
+        "template_required_inputs": [
+            "findingIds"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_findings",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249616.6843,
+        "end": 1711249622.988923,
+        "duration": 6.304631948471069,
+        "service": "macie2",
+        "type": null
+    }
+}

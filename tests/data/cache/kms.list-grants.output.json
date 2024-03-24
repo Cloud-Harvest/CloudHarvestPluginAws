@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "Limit": 0,
+            "Marker": "",
+            "KeyId": "",
+            "GrantId": "",
+            "GranteePrincipal": ""
+        },
+        "template_required_inputs": [
+            "KeyId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_grants",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249212.834036,
+        "end": 1711249223.788647,
+        "duration": 10.95461893081665,
+        "service": "kms",
+        "type": "grants"
+    }
+}

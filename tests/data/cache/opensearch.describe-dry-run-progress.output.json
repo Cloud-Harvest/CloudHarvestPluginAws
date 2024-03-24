@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "DomainName": "",
+            "DryRunId": "",
+            "LoadDryRunConfig": true
+        },
+        "template_required_inputs": [
+            "DomainName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_dry_run_progress",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249756.245081,
+        "end": 1711249762.343751,
+        "duration": 6.098685026168823,
+        "service": "opensearch",
+        "type": "dry_run_progress"
+    }
+}

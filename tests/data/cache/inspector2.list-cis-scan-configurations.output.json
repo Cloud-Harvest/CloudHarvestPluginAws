@@ -1,0 +1,47 @@
+{
+    "input": {
+        "template": {
+            "filterCriteria": {
+                "scanConfigurationArnFilters": [
+                    {
+                        "comparison": "EQUALS",
+                        "value": ""
+                    }
+                ],
+                "scanNameFilters": [
+                    {
+                        "comparison": "EQUALS",
+                        "value": ""
+                    }
+                ],
+                "targetResourceTagFilters": [
+                    {
+                        "comparison": "EQUALS",
+                        "key": "",
+                        "value": ""
+                    }
+                ]
+            },
+            "maxResults": 0,
+            "nextToken": "",
+            "sortBy": "SCAN_NAME",
+            "sortOrder": "ASC"
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_cis_scan_configurations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248895.146551,
+        "end": 1711248904.010063,
+        "duration": 8.863521099090576,
+        "service": "inspector2",
+        "type": "cis_scan_configurations"
+    }
+}

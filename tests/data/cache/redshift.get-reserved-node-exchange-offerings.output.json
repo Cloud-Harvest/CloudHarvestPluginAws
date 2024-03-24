@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "ReservedNodeId": "",
+            "MaxRecords": 0,
+            "Marker": ""
+        },
+        "template_required_inputs": [
+            "ReservedNodeId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_reserved_node_exchange_offerings",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249923.586781,
+        "end": 1711249929.48907,
+        "duration": 5.902307033538818,
+        "service": "redshift",
+        "type": null
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "DomainName": ""
+        },
+        "template_required_inputs": [
+            "DomainName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_domain_health",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249755.371913,
+        "end": 1711249761.628418,
+        "duration": 6.256515026092529,
+        "service": "opensearch",
+        "type": "domain_health"
+    }
+}

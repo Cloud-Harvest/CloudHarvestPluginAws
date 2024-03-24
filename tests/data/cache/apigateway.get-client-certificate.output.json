@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "clientCertificateId": ""
+        },
+        "template_required_inputs": [
+            "clientCertificateId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_client_certificate",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247736.945599,
+        "end": 1711247743.013093,
+        "duration": 6.067513942718506,
+        "service": "apigateway",
+        "type": null
+    }
+}

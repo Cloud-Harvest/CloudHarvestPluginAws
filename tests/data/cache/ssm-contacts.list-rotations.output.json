@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "RotationNamePrefix": "",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_rotations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250167.17214,
+        "end": 1711250175.124981,
+        "duration": 7.95285701751709,
+        "service": "ssm-contacts",
+        "type": "rotations"
+    }
+}

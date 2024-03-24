@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": "",
+            "Name": ""
+        },
+        "template_required_inputs": [
+            "Name"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_recipe_versions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248348.613529,
+        "end": 1711248356.336018,
+        "duration": 7.722502946853638,
+        "service": "databrew",
+        "type": "recipe_versions"
+    }
+}

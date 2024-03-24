@@ -1,0 +1,37 @@
+{
+    "input": {
+        "template": {
+            "inputIdentifier": {
+                "iotEventsInputIdentifier": {
+                    "inputName": ""
+                },
+                "iotSiteWiseInputIdentifier": {
+                    "iotSiteWiseAssetModelPropertyIdentifier": {
+                        "assetModelId": "",
+                        "propertyId": ""
+                    }
+                }
+            },
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [
+            "inputIdentifier"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_input_routings",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248962.576504,
+        "end": 1711248971.476853,
+        "duration": 8.900367021560669,
+        "service": "iotevents",
+        "type": "input_routings"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "ApiId": "",
+            "IntegrationId": "",
+            "IntegrationResponseId": ""
+        },
+        "template_required_inputs": [
+            "ApiId",
+            "IntegrationId",
+            "IntegrationResponseId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_integration_response",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247761.355517,
+        "end": 1711247771.099371,
+        "duration": 9.74386215209961,
+        "service": "apigatewayv2",
+        "type": null
+    }
+}

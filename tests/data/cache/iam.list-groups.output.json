@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "PathPrefix": "",
+            "Marker": "",
+            "MaxItems": 0
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_groups",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248854.04086,
+        "end": 1711248861.807295,
+        "duration": 7.766445159912109,
+        "service": "iam",
+        "type": "groups"
+    }
+}

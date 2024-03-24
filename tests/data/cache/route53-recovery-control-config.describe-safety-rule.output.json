@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "SafetyRuleArn": ""
+        },
+        "template_required_inputs": [
+            "SafetyRuleArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_safety_rule",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249971.937764,
+        "end": 1711249977.054946,
+        "duration": 5.1171979904174805,
+        "service": "route53-recovery-control-config",
+        "type": "safety_rule"
+    }
+}

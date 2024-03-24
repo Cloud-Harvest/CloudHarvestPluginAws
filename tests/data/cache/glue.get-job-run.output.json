@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "JobName": "",
+            "RunId": "",
+            "PredecessorsIncluded": true
+        },
+        "template_required_inputs": [
+            "JobName",
+            "RunId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_job_run",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248719.873286,
+        "end": 1711248727.472277,
+        "duration": 7.598999977111816,
+        "service": "glue",
+        "type": null
+    }
+}

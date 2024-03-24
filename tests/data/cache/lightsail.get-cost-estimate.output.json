@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "resourceName": "",
+            "startTime": "1970-01-01T00:00:00",
+            "endTime": "1970-01-01T00:00:00"
+        },
+        "template_required_inputs": [
+            "resourceName",
+            "startTime",
+            "endTime"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_cost_estimate",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249458.523909,
+        "end": 1711249464.913273,
+        "duration": 6.389382839202881,
+        "service": "lightsail",
+        "type": null
+    }
+}

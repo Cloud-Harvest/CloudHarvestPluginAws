@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "fileName": ""
+        },
+        "template_required_inputs": [
+            "fileName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_evidence_file_upload_url",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247868.658342,
+        "end": 1711247880.923862,
+        "duration": 12.26553201675415,
+        "service": "auditmanager",
+        "type": null
+    }
+}

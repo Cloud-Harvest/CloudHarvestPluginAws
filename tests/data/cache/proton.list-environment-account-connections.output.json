@@ -1,0 +1,31 @@
+{
+    "input": {
+        "template": {
+            "environmentName": "",
+            "maxResults": 0,
+            "nextToken": "",
+            "requestedBy": "MANAGEMENT_ACCOUNT",
+            "statuses": [
+                "PENDING"
+            ]
+        },
+        "template_required_inputs": [
+            "requestedBy"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_environment_account_connections",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249852.509418,
+        "end": 1711249858.65241,
+        "duration": 6.143013954162598,
+        "service": "proton",
+        "type": "environment_account_connections"
+    }
+}

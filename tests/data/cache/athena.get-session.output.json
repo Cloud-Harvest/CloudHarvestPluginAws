@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "SessionId": ""
+        },
+        "template_required_inputs": [
+            "SessionId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_session",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247853.466129,
+        "end": 1711247868.6196,
+        "duration": 15.15349292755127,
+        "service": "athena",
+        "type": null
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "contractIdentifier": {
+                "network": "ETHEREUM_MAINNET",
+                "contractAddress": ""
+            }
+        },
+        "template_required_inputs": [
+            "contractIdentifier"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_asset_contract",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249623.812868,
+        "end": 1711249629.995251,
+        "duration": 6.182398796081543,
+        "service": "managedblockchain-query",
+        "type": null
+    }
+}

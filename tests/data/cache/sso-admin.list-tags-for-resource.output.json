@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "InstanceArn": "",
+            "NextToken": "",
+            "ResourceArn": ""
+        },
+        "template_required_inputs": [
+            "ResourceArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_tags_for_resource",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250192.24141,
+        "end": 1711250199.46216,
+        "duration": 7.220787048339844,
+        "service": "sso-admin",
+        "type": "tags_for_resource"
+    }
+}

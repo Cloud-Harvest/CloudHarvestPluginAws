@@ -1,0 +1,24 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_user_pools",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248212.866971,
+        "end": 1711248219.897753,
+        "duration": 7.030795097351074,
+        "service": "cognito-idp",
+        "type": "user_pools"
+    }
+}

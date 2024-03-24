@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "StackName": "",
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "StackName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_stack_resources",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248074.769983,
+        "end": 1711248082.881377,
+        "duration": 8.111407041549683,
+        "service": "cloudformation",
+        "type": "stack_resources"
+    }
+}

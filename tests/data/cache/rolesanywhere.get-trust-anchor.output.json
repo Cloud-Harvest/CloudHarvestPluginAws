@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "trustAnchorId": ""
+        },
+        "template_required_inputs": [
+            "trustAnchorId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_trust_anchor",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249958.521523,
+        "end": 1711249964.552015,
+        "duration": 6.030502080917358,
+        "service": "rolesanywhere",
+        "type": null
+    }
+}

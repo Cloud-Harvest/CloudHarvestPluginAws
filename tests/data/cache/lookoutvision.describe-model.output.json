@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "ProjectName": "",
+            "ModelVersion": ""
+        },
+        "template_required_inputs": [
+            "ProjectName",
+            "ModelVersion"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_model",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249494.034858,
+        "end": 1711249499.680955,
+        "duration": 5.646115064620972,
+        "service": "lookoutvision",
+        "type": "model"
+    }
+}

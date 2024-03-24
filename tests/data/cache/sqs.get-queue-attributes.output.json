@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "QueueUrl": "",
+            "AttributeNames": [
+                "All"
+            ]
+        },
+        "template_required_inputs": [
+            "QueueUrl"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_queue_attributes",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250133.232608,
+        "end": 1711250139.728723,
+        "duration": 6.496124982833862,
+        "service": "sqs",
+        "type": null
+    }
+}

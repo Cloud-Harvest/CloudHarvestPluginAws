@@ -1,0 +1,30 @@
+{
+    "input": {
+        "template": {
+            "ChannelArn": "",
+            "MemberArn": "",
+            "ChimeBearer": "",
+            "SubChannelId": ""
+        },
+        "template_required_inputs": [
+            "ChannelArn",
+            "MemberArn",
+            "ChimeBearer"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_channel_membership",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247999.246786,
+        "end": 1711248006.070059,
+        "duration": 6.823286771774292,
+        "service": "chime-sdk-messaging",
+        "type": "channel_membership"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "Id": "",
+            "IndexId": "",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "Id",
+            "IndexId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_entity_personas",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249188.312696,
+        "end": 1711249199.020731,
+        "duration": 10.70804500579834,
+        "service": "kendra",
+        "type": "entity_personas"
+    }
+}

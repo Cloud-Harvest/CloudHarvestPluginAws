@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "DomainName": ""
+        },
+        "template_required_inputs": [
+            "DomainName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_upgrade_status",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249761.54422,
+        "end": 1711249767.502811,
+        "duration": 5.958611011505127,
+        "service": "opensearch",
+        "type": null
+    }
+}

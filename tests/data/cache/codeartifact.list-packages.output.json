@@ -1,0 +1,35 @@
+{
+    "input": {
+        "template": {
+            "domain": "",
+            "domainOwner": "",
+            "repository": "",
+            "format": "npm",
+            "namespace": "",
+            "packagePrefix": "",
+            "maxResults": 0,
+            "nextToken": "",
+            "publish": "ALLOW",
+            "upstream": "ALLOW"
+        },
+        "template_required_inputs": [
+            "domain",
+            "repository"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_packages",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248138.977389,
+        "end": 1711248146.79361,
+        "duration": 7.816232919692993,
+        "service": "codeartifact",
+        "type": "packages"
+    }
+}

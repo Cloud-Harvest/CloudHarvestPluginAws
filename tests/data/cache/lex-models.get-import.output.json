@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "importId": ""
+        },
+        "template_required_inputs": [
+            "importId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_import",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249250.279796,
+        "end": 1711249257.113155,
+        "duration": 6.833369016647339,
+        "service": "lex-models",
+        "type": null
+    }
+}

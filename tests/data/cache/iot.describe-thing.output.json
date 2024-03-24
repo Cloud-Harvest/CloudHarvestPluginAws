@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "thingName": ""
+        },
+        "template_required_inputs": [
+            "thingName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_thing",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248917.122264,
+        "end": 1711248925.770344,
+        "duration": 8.648087978363037,
+        "service": "iot",
+        "type": "thing"
+    }
+}

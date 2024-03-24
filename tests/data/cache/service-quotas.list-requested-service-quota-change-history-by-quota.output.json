@@ -1,0 +1,31 @@
+{
+    "input": {
+        "template": {
+            "ServiceCode": "",
+            "QuotaCode": "",
+            "Status": "PENDING",
+            "NextToken": "",
+            "MaxResults": 0,
+            "QuotaRequestedAtLevel": "ACCOUNT"
+        },
+        "template_required_inputs": [
+            "ServiceCode",
+            "QuotaCode"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_requested_service_quota_change_history_by_quota",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250086.312273,
+        "end": 1711250091.011849,
+        "duration": 4.6995909214019775,
+        "service": "service-quotas",
+        "type": "requested_service_quota_change_history_by_quota"
+    }
+}

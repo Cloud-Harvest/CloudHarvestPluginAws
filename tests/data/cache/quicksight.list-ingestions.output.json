@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "DataSetId": "",
+            "NextToken": "",
+            "AwsAccountId": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "DataSetId",
+            "AwsAccountId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_ingestions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249901.717711,
+        "end": 1711249908.048309,
+        "duration": 6.330610990524292,
+        "service": "quicksight",
+        "type": "ingestions"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "FileSystemId": ""
+        },
+        "template_required_inputs": [
+            "FileSystemId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_backup_policy",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248544.455783,
+        "end": 1711248552.002167,
+        "duration": 7.546393156051636,
+        "service": "efs",
+        "type": "backup_policy"
+    }
+}

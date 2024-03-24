@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "ApplicationId": ""
+        },
+        "template_required_inputs": [
+            "ApplicationId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_adm_channel",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249811.554767,
+        "end": 1711249817.955992,
+        "duration": 6.401238203048706,
+        "service": "pinpoint",
+        "type": null
+    }
+}

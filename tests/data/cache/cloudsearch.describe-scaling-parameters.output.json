@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "DomainName": ""
+        },
+        "template_required_inputs": [
+            "DomainName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_scaling_parameters",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248115.889081,
+        "end": 1711248125.513491,
+        "duration": 9.624425888061523,
+        "service": "cloudsearch",
+        "type": "scaling_parameters"
+    }
+}

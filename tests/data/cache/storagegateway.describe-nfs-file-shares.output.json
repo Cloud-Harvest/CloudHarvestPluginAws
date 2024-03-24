@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "FileShareARNList": [
+                ""
+            ]
+        },
+        "template_required_inputs": [
+            "FileShareARNList"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_nfs_file_shares",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250204.300772,
+        "end": 1711250210.816472,
+        "duration": 6.515721082687378,
+        "service": "storagegateway",
+        "type": "nfs_file_shares"
+    }
+}

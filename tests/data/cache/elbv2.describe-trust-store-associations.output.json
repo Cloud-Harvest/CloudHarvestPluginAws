@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "TrustStoreArn": "",
+            "Marker": "",
+            "PageSize": 0
+        },
+        "template_required_inputs": [
+            "TrustStoreArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_trust_store_associations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248589.085255,
+        "end": 1711248596.124652,
+        "duration": 7.039406061172485,
+        "service": "elbv2",
+        "type": "trust_store_associations"
+    }
+}

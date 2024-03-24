@@ -1,0 +1,32 @@
+{
+    "input": {
+        "template": {
+            "auditTaskId": "",
+            "findingId": "",
+            "taskStatus": "IN_PROGRESS",
+            "maxResults": 0,
+            "nextToken": "",
+            "startTime": "1970-01-01T00:00:00",
+            "endTime": "1970-01-01T00:00:00"
+        },
+        "template_required_inputs": [
+            "startTime",
+            "endTime"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_audit_mitigation_actions_tasks",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248927.366199,
+        "end": 1711248934.819552,
+        "duration": 7.453372955322266,
+        "service": "iot",
+        "type": "audit_mitigation_actions_tasks"
+    }
+}

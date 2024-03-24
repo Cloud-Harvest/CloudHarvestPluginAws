@@ -1,0 +1,24 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_user_access_logging_settings",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250379.061507,
+        "end": 1711250389.414599,
+        "duration": 10.353101015090942,
+        "service": "workspaces-web",
+        "type": "user_access_logging_settings"
+    }
+}

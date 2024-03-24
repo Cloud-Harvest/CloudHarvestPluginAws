@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "AcceleratorArn": ""
+        },
+        "template_required_inputs": [
+            "AcceleratorArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_custom_routing_accelerator",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248705.107924,
+        "end": 1711248712.016741,
+        "duration": 6.908824920654297,
+        "service": "globalaccelerator",
+        "type": "custom_routing_accelerator"
+    }
+}

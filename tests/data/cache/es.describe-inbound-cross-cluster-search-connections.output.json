@@ -1,0 +1,32 @@
+{
+    "input": {
+        "template": {
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "describe_inbound_cross_cluster_search_connections",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248614.108589,
+        "end": 1711248621.28381,
+        "duration": 7.175234079360962,
+        "service": "es",
+        "type": "inbound_cross_cluster_search_connections"
+    }
+}

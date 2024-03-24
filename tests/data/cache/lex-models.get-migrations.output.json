@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "sortByAttribute": "V1_BOT_NAME",
+            "sortByOrder": "ASCENDING",
+            "v1BotNameContains": "",
+            "migrationStatusEquals": "IN_PROGRESS",
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "get_migrations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249251.695731,
+        "end": 1711249259.045032,
+        "duration": 7.349313974380493,
+        "service": "lex-models",
+        "type": null
+    }
+}

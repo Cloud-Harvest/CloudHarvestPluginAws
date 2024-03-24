@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "DatasetName": "",
+            "NextToken": "",
+            "MaxResults": 0,
+            "Status": "IN_PROGRESS"
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_data_ingestion_jobs",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249484.656994,
+        "end": 1711249492.028578,
+        "duration": 7.371600866317749,
+        "service": "lookoutequipment",
+        "type": "data_ingestion_jobs"
+    }
+}

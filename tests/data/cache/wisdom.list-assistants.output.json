@@ -1,0 +1,24 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_assistants",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250331.740892,
+        "end": 1711250342.059556,
+        "duration": 10.318679094314575,
+        "service": "wisdom",
+        "type": "assistants"
+    }
+}

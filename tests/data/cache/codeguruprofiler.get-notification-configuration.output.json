@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "profilingGroupName": ""
+        },
+        "template_required_inputs": [
+            "profilingGroupName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_notification_configuration",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248168.641172,
+        "end": 1711248176.561144,
+        "duration": 7.919986009597778,
+        "service": "codeguruprofiler",
+        "type": null
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "AcceleratorArn": "",
+            "ResourceOwnerAwsAccountId": "",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "ResourceOwnerAwsAccountId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_cross_account_resources",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248706.746209,
+        "end": 1711248715.015292,
+        "duration": 8.26909613609314,
+        "service": "globalaccelerator",
+        "type": "cross_account_resources"
+    }
+}

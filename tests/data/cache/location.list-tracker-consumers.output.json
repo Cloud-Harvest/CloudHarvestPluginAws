@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": "",
+            "TrackerName": ""
+        },
+        "template_required_inputs": [
+            "TrackerName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_tracker_consumers",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249473.385488,
+        "end": 1711249478.733902,
+        "duration": 5.348433017730713,
+        "service": "location",
+        "type": "tracker_consumers"
+    }
+}

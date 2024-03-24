@@ -1,0 +1,35 @@
+{
+    "input": {
+        "template": {
+            "LicenseConfigurationArn": "",
+            "MaxResults": 0,
+            "NextToken": "",
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ]
+        },
+        "template_required_inputs": [
+            "LicenseConfigurationArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_usage_for_license_configuration",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249452.521437,
+        "end": 1711249458.611972,
+        "duration": 6.090551137924194,
+        "service": "license-manager",
+        "type": "usage_for_license_configuration"
+    }
+}

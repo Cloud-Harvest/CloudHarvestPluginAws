@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "ViewToken": "",
+            "ConnectionToken": ""
+        },
+        "template_required_inputs": [
+            "ViewToken",
+            "ConnectionToken"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_view",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248325.57676,
+        "end": 1711248332.311987,
+        "duration": 6.735235929489136,
+        "service": "connectparticipant",
+        "type": "view"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "StreamArn": "",
+            "Limit": 0,
+            "ExclusiveStartShardId": ""
+        },
+        "template_required_inputs": [
+            "StreamArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_stream",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248487.032996,
+        "end": 1711248495.72533,
+        "duration": 8.692343950271606,
+        "service": "dynamodbstreams",
+        "type": "stream"
+    }
+}

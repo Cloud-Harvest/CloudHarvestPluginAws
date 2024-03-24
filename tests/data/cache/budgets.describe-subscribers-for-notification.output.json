@@ -1,0 +1,37 @@
+{
+    "input": {
+        "template": {
+            "AccountId": "",
+            "BudgetName": "",
+            "Notification": {
+                "NotificationType": "ACTUAL",
+                "ComparisonOperator": "GREATER_THAN",
+                "Threshold": 0.0,
+                "ThresholdType": "PERCENTAGE",
+                "NotificationState": "OK"
+            },
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "AccountId",
+            "BudgetName",
+            "Notification"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_subscribers_for_notification",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247949.565796,
+        "end": 1711247961.428489,
+        "duration": 11.862712144851685,
+        "service": "budgets",
+        "type": "subscribers_for_notification"
+    }
+}

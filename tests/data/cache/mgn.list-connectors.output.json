@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "filters": {
+                "connectorIDs": [
+                    ""
+                ]
+            },
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_connectors",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249674.747187,
+        "end": 1711249681.870542,
+        "duration": 7.123371124267578,
+        "service": "mgn",
+        "type": "connectors"
+    }
+}

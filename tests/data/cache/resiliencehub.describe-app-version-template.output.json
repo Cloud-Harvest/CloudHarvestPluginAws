@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "appArn": "",
+            "appVersion": ""
+        },
+        "template_required_inputs": [
+            "appArn",
+            "appVersion"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_app_version_template",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249945.256825,
+        "end": 1711249951.424909,
+        "duration": 6.168092966079712,
+        "service": "resiliencehub",
+        "type": "app_version_template"
+    }
+}

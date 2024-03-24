@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "SecurityProfileId": "",
+            "InstanceId": ""
+        },
+        "template_required_inputs": [
+            "SecurityProfileId",
+            "InstanceId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_security_profile",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248274.007984,
+        "end": 1711248280.689227,
+        "duration": 6.6812520027160645,
+        "service": "connect",
+        "type": "security_profile"
+    }
+}

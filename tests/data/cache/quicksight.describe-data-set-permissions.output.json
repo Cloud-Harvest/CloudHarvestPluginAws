@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "AwsAccountId": "",
+            "DataSetId": ""
+        },
+        "template_required_inputs": [
+            "AwsAccountId",
+            "DataSetId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_data_set_permissions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249882.246583,
+        "end": 1711249888.937746,
+        "duration": 6.691177129745483,
+        "service": "quicksight",
+        "type": "data_set_permissions"
+    }
+}

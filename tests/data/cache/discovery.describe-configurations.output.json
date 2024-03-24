@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "configurationIds": [
+                ""
+            ]
+        },
+        "template_required_inputs": [
+            "configurationIds"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_configurations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248453.46769,
+        "end": 1711248459.628912,
+        "duration": 6.161231994628906,
+        "service": "discovery",
+        "type": "configurations"
+    }
+}

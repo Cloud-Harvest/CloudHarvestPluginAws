@@ -1,0 +1,30 @@
+{
+    "input": {
+        "template": {
+            "restApiId": "",
+            "position": "",
+            "limit": 0,
+            "embed": [
+                ""
+            ]
+        },
+        "template_required_inputs": [
+            "restApiId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_resources",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247747.325783,
+        "end": 1711247758.48517,
+        "duration": 11.159398078918457,
+        "service": "apigateway",
+        "type": null
+    }
+}

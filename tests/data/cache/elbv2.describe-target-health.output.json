@@ -1,0 +1,35 @@
+{
+    "input": {
+        "template": {
+            "TargetGroupArn": "",
+            "Targets": [
+                {
+                    "Id": "",
+                    "Port": 0,
+                    "AvailabilityZone": ""
+                }
+            ],
+            "Include": [
+                "AnomalyDetection"
+            ]
+        },
+        "template_required_inputs": [
+            "TargetGroupArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_target_health",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248589.066188,
+        "end": 1711248596.304368,
+        "duration": 7.238189935684204,
+        "service": "elbv2",
+        "type": "target_health"
+    }
+}

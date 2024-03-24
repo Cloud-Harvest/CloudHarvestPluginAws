@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "ContainerName": ""
+        },
+        "template_required_inputs": [
+            "ContainerName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_lifecycle_policy",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249656.299856,
+        "end": 1711249663.42917,
+        "duration": 7.129326105117798,
+        "service": "mediastore",
+        "type": null
+    }
+}

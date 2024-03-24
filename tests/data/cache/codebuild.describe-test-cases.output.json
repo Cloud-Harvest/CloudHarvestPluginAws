@@ -1,0 +1,31 @@
+{
+    "input": {
+        "template": {
+            "reportArn": "",
+            "nextToken": "",
+            "maxResults": 0,
+            "filter": {
+                "status": "",
+                "keyword": ""
+            }
+        },
+        "template_required_inputs": [
+            "reportArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_test_cases",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248141.344144,
+        "end": 1711248148.580114,
+        "duration": 7.235989809036255,
+        "service": "codebuild",
+        "type": "test_cases"
+    }
+}

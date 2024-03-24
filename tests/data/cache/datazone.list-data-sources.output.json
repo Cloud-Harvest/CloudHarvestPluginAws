@@ -1,0 +1,33 @@
+{
+    "input": {
+        "template": {
+            "domainIdentifier": "",
+            "environmentIdentifier": "",
+            "maxResults": 0,
+            "name": "",
+            "nextToken": "",
+            "projectIdentifier": "",
+            "status": "CREATING",
+            "type": ""
+        },
+        "template_required_inputs": [
+            "domainIdentifier",
+            "projectIdentifier"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_data_sources",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248380.700798,
+        "end": 1711248391.119809,
+        "duration": 10.419019937515259,
+        "service": "datazone",
+        "type": "data_sources"
+    }
+}

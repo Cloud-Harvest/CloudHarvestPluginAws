@@ -1,0 +1,35 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0,
+            "InclusionFilters": {
+                "ResourceArns": [
+                    ""
+                ],
+                "ProtectionNames": [
+                    ""
+                ],
+                "ResourceTypes": [
+                    "CLOUDFRONT_DISTRIBUTION"
+                ]
+            }
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_protections",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250114.843789,
+        "end": 1711250121.977459,
+        "duration": 7.133703947067261,
+        "service": "shield",
+        "type": "protections"
+    }
+}

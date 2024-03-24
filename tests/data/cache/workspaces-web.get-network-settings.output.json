@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "networkSettingsArn": ""
+        },
+        "template_required_inputs": [
+            "networkSettingsArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_network_settings",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250371.939906,
+        "end": 1711250378.626382,
+        "duration": 6.6864800453186035,
+        "service": "workspaces-web",
+        "type": null
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "ResourceArn": ""
+        },
+        "template_required_inputs": [
+            "ResourceArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_tags_for_resource",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249831.57975,
+        "end": 1711249837.625337,
+        "duration": 6.045601844787598,
+        "service": "pinpoint-email",
+        "type": "tags_for_resource"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "InstanceId": "",
+            "RoutingProfileId": ""
+        },
+        "template_required_inputs": [
+            "InstanceId",
+            "RoutingProfileId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_routing_profile",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248273.351197,
+        "end": 1711248280.822375,
+        "duration": 7.471189022064209,
+        "service": "connect",
+        "type": "routing_profile"
+    }
+}

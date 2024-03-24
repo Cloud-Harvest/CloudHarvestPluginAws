@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "OrganizationId": "",
+            "ImpersonationRoleId": "",
+            "TargetUser": ""
+        },
+        "template_required_inputs": [
+            "OrganizationId",
+            "ImpersonationRoleId",
+            "TargetUser"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_impersonation_role_effect",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250345.635807,
+        "end": 1711250352.070563,
+        "duration": 6.4347710609436035,
+        "service": "workmail",
+        "type": null
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "ControlPanelArn": "",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_routing_controls",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249971.900824,
+        "end": 1711249980.067657,
+        "duration": 8.16684603691101,
+        "service": "route53-recovery-cluster",
+        "type": "routing_controls"
+    }
+}

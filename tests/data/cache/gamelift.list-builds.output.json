@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "Status": "INITIALIZED",
+            "Limit": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_builds",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248694.215316,
+        "end": 1711248702.79747,
+        "duration": 8.582165956497192,
+        "service": "gamelift",
+        "type": "builds"
+    }
+}

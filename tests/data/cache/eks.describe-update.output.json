@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "name": "",
+            "updateId": "",
+            "nodegroupName": "",
+            "addonName": ""
+        },
+        "template_required_inputs": [
+            "name",
+            "updateId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_update",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248552.028701,
+        "end": 1711248558.896657,
+        "duration": 6.867965936660767,
+        "service": "eks",
+        "type": "update"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "caseId": "",
+            "domainId": "",
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [
+            "caseId",
+            "domainId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_case_audit_events",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248319.535471,
+        "end": 1711248326.252086,
+        "duration": 6.716628074645996,
+        "service": "connectcases",
+        "type": null
+    }
+}

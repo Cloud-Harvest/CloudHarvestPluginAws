@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "BlueprintName": ""
+        },
+        "template_required_inputs": [
+            "BlueprintName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_pipeline_blueprint",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249780.633755,
+        "end": 1711249786.839965,
+        "duration": 6.206223011016846,
+        "service": "osis",
+        "type": null
+    }
+}

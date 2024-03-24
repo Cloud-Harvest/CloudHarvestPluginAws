@@ -1,0 +1,31 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "nextToken": "",
+            "principalId": "",
+            "states": [
+                "CREATE_IN_PROGRESS"
+            ],
+            "studioId": ""
+        },
+        "template_required_inputs": [
+            "studioId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_launch_profiles",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249733.115277,
+        "end": 1711249740.121933,
+        "duration": 7.0066750049591064,
+        "service": "nimble",
+        "type": "launch_profiles"
+    }
+}

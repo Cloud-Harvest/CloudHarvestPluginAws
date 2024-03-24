@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "apiId": ""
+        },
+        "template_required_inputs": [
+            "apiId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_graphql_api",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247836.418395,
+        "end": 1711247842.758038,
+        "duration": 6.339666843414307,
+        "service": "appsync",
+        "type": null
+    }
+}

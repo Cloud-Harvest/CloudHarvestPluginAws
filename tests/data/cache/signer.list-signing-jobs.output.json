@@ -1,0 +1,31 @@
+{
+    "input": {
+        "template": {
+            "status": "InProgress",
+            "platformId": "",
+            "requestedBy": "",
+            "maxResults": 0,
+            "nextToken": "",
+            "isRevoked": true,
+            "signatureExpiresBefore": "1970-01-01T00:00:00",
+            "signatureExpiresAfter": "1970-01-01T00:00:00",
+            "jobInvoker": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_signing_jobs",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250120.90572,
+        "end": 1711250128.213125,
+        "duration": 7.307425022125244,
+        "service": "signer",
+        "type": "signing_jobs"
+    }
+}

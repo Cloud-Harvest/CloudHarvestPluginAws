@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "Id": ""
+        },
+        "template_required_inputs": [
+            "Id"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_cloud_front_origin_access_identity",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248079.359724,
+        "end": 1711248087.778609,
+        "duration": 8.418912887573242,
+        "service": "cloudfront",
+        "type": null
+    }
+}

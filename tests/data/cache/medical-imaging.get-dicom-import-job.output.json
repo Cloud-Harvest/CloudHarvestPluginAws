@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "datastoreId": "",
+            "jobId": ""
+        },
+        "template_required_inputs": [
+            "datastoreId",
+            "jobId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_dicom_import_job",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249665.518021,
+        "end": 1711249671.958273,
+        "duration": 6.440269947052002,
+        "service": "medical-imaging",
+        "type": null
+    }
+}

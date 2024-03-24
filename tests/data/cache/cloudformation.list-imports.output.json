@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "ExportName": "",
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "ExportName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_imports",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248072.05701,
+        "end": 1711248079.479539,
+        "duration": 7.42254114151001,
+        "service": "cloudformation",
+        "type": "imports"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "name": ""
+        },
+        "template_required_inputs": [
+            "name"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_environment_template",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249848.460616,
+        "end": 1711249854.045845,
+        "duration": 5.585241794586182,
+        "service": "proton",
+        "type": null
+    }
+}

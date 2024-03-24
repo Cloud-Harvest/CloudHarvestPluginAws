@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "RuleSetName": ""
+        },
+        "template_required_inputs": [
+            "RuleSetName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_receipt_rule_set",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250102.182381,
+        "end": 1711250108.345545,
+        "duration": 6.163173198699951,
+        "service": "ses",
+        "type": "receipt_rule_set"
+    }
+}

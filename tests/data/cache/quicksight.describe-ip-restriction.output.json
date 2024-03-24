@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "AwsAccountId": ""
+        },
+        "template_required_inputs": [
+            "AwsAccountId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_ip_restriction",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249888.191703,
+        "end": 1711249894.883809,
+        "duration": 6.69211483001709,
+        "service": "quicksight",
+        "type": "ip_restriction"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "pullRequestId": ""
+        },
+        "template_required_inputs": [
+            "pullRequestId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_pull_request",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248158.133521,
+        "end": 1711248166.57735,
+        "duration": 8.443846940994263,
+        "service": "codecommit",
+        "type": null
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "LicenseArn": "",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "LicenseArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_license_versions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249452.494786,
+        "end": 1711249458.588275,
+        "duration": 6.0934998989105225,
+        "service": "license-manager",
+        "type": "license_versions"
+    }
+}

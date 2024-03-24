@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "frameworkId": ""
+        },
+        "template_required_inputs": [
+            "frameworkId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_assessment_framework",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247867.880328,
+        "end": 1711247876.696779,
+        "duration": 8.816461086273193,
+        "service": "auditmanager",
+        "type": null
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "serverId": ""
+        },
+        "template_required_inputs": [
+            "serverId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_server_strategies",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249691.076564,
+        "end": 1711249699.035483,
+        "duration": 7.9589409828186035,
+        "service": "migrationhubstrategy",
+        "type": null
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "InstanceId": "",
+            "PromptId": ""
+        },
+        "template_required_inputs": [
+            "InstanceId",
+            "PromptId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_prompt_file",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248280.801115,
+        "end": 1711248300.721633,
+        "duration": 19.920527935028076,
+        "service": "connect",
+        "type": null
+    }
+}

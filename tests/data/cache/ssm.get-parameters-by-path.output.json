@@ -1,0 +1,38 @@
+{
+    "input": {
+        "template": {
+            "Path": "",
+            "Recursive": true,
+            "ParameterFilters": [
+                {
+                    "Key": "",
+                    "Option": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "WithDecryption": true,
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "Path"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_parameters_by_path",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250153.760547,
+        "end": 1711250160.146574,
+        "duration": 6.386041164398193,
+        "service": "ssm",
+        "type": null
+    }
+}

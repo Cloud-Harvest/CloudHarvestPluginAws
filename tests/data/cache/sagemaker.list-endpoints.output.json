@@ -1,0 +1,32 @@
+{
+    "input": {
+        "template": {
+            "SortBy": "Name",
+            "SortOrder": "Ascending",
+            "NextToken": "",
+            "MaxResults": 0,
+            "NameContains": "",
+            "CreationTimeBefore": "1970-01-01T00:00:00",
+            "CreationTimeAfter": "1970-01-01T00:00:00",
+            "LastModifiedTimeBefore": "1970-01-01T00:00:00",
+            "LastModifiedTimeAfter": "1970-01-01T00:00:00",
+            "StatusEquals": "OutOfService"
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_endpoints",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250055.180363,
+        "end": 1711250063.430466,
+        "duration": 8.250115156173706,
+        "service": "sagemaker",
+        "type": "endpoints"
+    }
+}

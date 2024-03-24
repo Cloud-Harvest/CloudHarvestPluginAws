@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "HumanLoopName": ""
+        },
+        "template_required_inputs": [
+            "HumanLoopName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_human_loop",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250063.433671,
+        "end": 1711250069.598116,
+        "duration": 6.164458990097046,
+        "service": "sagemaker-a2i-runtime",
+        "type": "human_loop"
+    }
+}

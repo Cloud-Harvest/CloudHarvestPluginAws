@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "name": ""
+        },
+        "template_required_inputs": [
+            "name"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_dimension",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248908.539683,
+        "end": 1711248917.121819,
+        "duration": 8.582145929336548,
+        "service": "iot",
+        "type": "dimension"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "datastoreId": "",
+            "jobStatus": "SUBMITTED",
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "template_required_inputs": [
+            "datastoreId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_dicom_import_jobs",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249666.562228,
+        "end": 1711249672.639442,
+        "duration": 6.077229022979736,
+        "service": "medical-imaging",
+        "type": "dicom_import_jobs"
+    }
+}

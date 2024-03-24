@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "LegalHoldId": "",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "LegalHoldId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_recovery_points_by_legal_hold",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247912.261822,
+        "end": 1711247919.866771,
+        "duration": 7.604996919631958,
+        "service": "backup",
+        "type": "recovery_points_by_legal_hold"
+    }
+}

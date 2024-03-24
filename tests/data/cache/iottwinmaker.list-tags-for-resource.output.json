@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "resourceARN": "",
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [
+            "resourceARN"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_tags_for_resource",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249008.520699,
+        "end": 1711249014.650026,
+        "duration": 6.129426002502441,
+        "service": "iottwinmaker",
+        "type": "tags_for_resource"
+    }
+}

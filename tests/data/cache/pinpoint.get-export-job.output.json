@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "ApplicationId": "",
+            "JobId": ""
+        },
+        "template_required_inputs": [
+            "ApplicationId",
+            "JobId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_export_job",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249817.969019,
+        "end": 1711249824.223248,
+        "duration": 6.2542431354522705,
+        "service": "pinpoint",
+        "type": null
+    }
+}

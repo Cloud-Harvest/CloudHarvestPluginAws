@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "appBundleIdentifier": ""
+        },
+        "template_required_inputs": [
+            "appBundleIdentifier"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_app_bundle",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247781.195201,
+        "end": 1711247788.318246,
+        "duration": 7.123057126998901,
+        "service": "appfabric",
+        "type": null
+    }
+}

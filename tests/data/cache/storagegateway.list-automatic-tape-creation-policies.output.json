@@ -1,0 +1,23 @@
+{
+    "input": {
+        "template": {
+            "GatewayARN": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_automatic_tape_creation_policies",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250208.724661,
+        "end": 1711250216.845756,
+        "duration": 8.121105909347534,
+        "service": "storagegateway",
+        "type": "automatic_tape_creation_policies"
+    }
+}

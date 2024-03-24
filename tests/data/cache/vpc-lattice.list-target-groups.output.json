@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "nextToken": "",
+            "targetGroupType": "IP",
+            "vpcIdentifier": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_target_groups",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250281.038193,
+        "end": 1711250288.780008,
+        "duration": 7.741830110549927,
+        "service": "vpc-lattice",
+        "type": "target_groups"
+    }
+}

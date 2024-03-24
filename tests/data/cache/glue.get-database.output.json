@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "CatalogId": "",
+            "Name": ""
+        },
+        "template_required_inputs": [
+            "Name"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_database",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248718.458152,
+        "end": 1711248726.872448,
+        "duration": 8.414304971694946,
+        "service": "glue",
+        "type": null
+    }
+}

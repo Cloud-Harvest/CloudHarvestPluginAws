@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "UserName": "",
+            "AwsAccountId": "",
+            "Namespace": ""
+        },
+        "template_required_inputs": [
+            "UserName",
+            "AwsAccountId",
+            "Namespace"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_user",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249895.312223,
+        "end": 1711249901.696816,
+        "duration": 6.3846070766448975,
+        "service": "quicksight",
+        "type": "user"
+    }
+}

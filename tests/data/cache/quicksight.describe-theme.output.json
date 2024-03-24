@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "AwsAccountId": "",
+            "ThemeId": "",
+            "VersionNumber": 0,
+            "AliasName": ""
+        },
+        "template_required_inputs": [
+            "AwsAccountId",
+            "ThemeId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_theme",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249889.099268,
+        "end": 1711249895.352286,
+        "duration": 6.25304102897644,
+        "service": "quicksight",
+        "type": "theme"
+    }
+}

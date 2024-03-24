@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "AuthenticationToken": ""
+        },
+        "template_required_inputs": [
+            "AuthenticationToken"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_current_user",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250338.076232,
+        "end": 1711250345.016701,
+        "duration": 6.940490961074829,
+        "service": "workdocs",
+        "type": null
+    }
+}

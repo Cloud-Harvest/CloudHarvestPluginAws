@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "vnfPkgId": ""
+        },
+        "template_required_inputs": [
+            "vnfPkgId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_sol_function_package",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250236.154071,
+        "end": 1711250242.80598,
+        "duration": 6.651927947998047,
+        "service": "tnb",
+        "type": null
+    }
+}

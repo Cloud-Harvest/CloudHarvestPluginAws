@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "StackDriftDetectionId": ""
+        },
+        "template_required_inputs": [
+            "StackDriftDetectionId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_stack_drift_detection_status",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248065.869023,
+        "end": 1711248074.928482,
+        "duration": 9.059472799301147,
+        "service": "cloudformation",
+        "type": "stack_drift_detection_status"
+    }
+}

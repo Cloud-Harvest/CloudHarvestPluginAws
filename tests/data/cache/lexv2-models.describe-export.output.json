@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "exportId": ""
+        },
+        "template_required_inputs": [
+            "exportId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_export",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249257.835804,
+        "end": 1711249266.880787,
+        "duration": 9.044991970062256,
+        "service": "lexv2-models",
+        "type": "export"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "DiscoveryJobArn": ""
+        },
+        "template_required_inputs": [
+            "DiscoveryJobArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_discovery_job",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248359.395205,
+        "end": 1711248366.544999,
+        "duration": 7.149803876876831,
+        "service": "datasync",
+        "type": "discovery_job"
+    }
+}

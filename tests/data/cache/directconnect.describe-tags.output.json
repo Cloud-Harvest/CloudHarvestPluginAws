@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "resourceArns": [
+                ""
+            ]
+        },
+        "template_required_inputs": [
+            "resourceArns"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_tags",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248450.830063,
+        "end": 1711248456.192573,
+        "duration": 5.36252498626709,
+        "service": "directconnect",
+        "type": "tags"
+    }
+}

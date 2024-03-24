@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "identifier": ""
+        },
+        "template_required_inputs": [
+            "identifier"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_room",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249037.718026,
+        "end": 1711249174.253535,
+        "duration": 136.53557014465332,
+        "service": "ivschat",
+        "type": null
+    }
+}

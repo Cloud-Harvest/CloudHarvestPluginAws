@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "id": ""
+        },
+        "template_required_inputs": [
+            "id"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_eks_anywhere_subscription",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248549.708905,
+        "end": 1711248555.116914,
+        "duration": 5.408019065856934,
+        "service": "eks",
+        "type": "eks_anywhere_subscription"
+    }
+}

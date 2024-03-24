@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "FunctionName": ""
+        },
+        "template_required_inputs": [
+            "FunctionName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_function_concurrency",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249225.89404,
+        "end": 1711249238.815897,
+        "duration": 12.921871900558472,
+        "service": "lambda",
+        "type": null
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_wireless_gateways",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249023.076801,
+        "end": 1711249037.69483,
+        "duration": 14.618108987808228,
+        "service": "iotwireless",
+        "type": "wireless_gateways"
+    }
+}

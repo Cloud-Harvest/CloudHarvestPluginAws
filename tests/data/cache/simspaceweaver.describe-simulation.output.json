@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "Simulation": ""
+        },
+        "template_required_inputs": [
+            "Simulation"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_simulation",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250120.932731,
+        "end": 1711250127.047039,
+        "duration": 6.114315986633301,
+        "service": "simspaceweaver",
+        "type": "simulation"
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "input": {
+        "template": {
+            "domainId": "",
+            "fieldId": "",
+            "maxResults": 0,
+            "nextToken": "",
+            "values": [
+                ""
+            ]
+        },
+        "template_required_inputs": [
+            "domainId",
+            "fieldId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_field_options",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248322.482226,
+        "end": 1711248329.15644,
+        "duration": 6.6742260456085205,
+        "service": "connectcases",
+        "type": "field_options"
+    }
+}

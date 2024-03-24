@@ -1,0 +1,24 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_workspaces",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249008.666362,
+        "end": 1711249016.78451,
+        "duration": 8.118165969848633,
+        "service": "iottwinmaker",
+        "type": "workspaces"
+    }
+}

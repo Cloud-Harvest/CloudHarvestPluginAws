@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "AccountId": "",
+            "AccessGrantsLocationId": ""
+        },
+        "template_required_inputs": [
+            "AccountId",
+            "AccessGrantsLocationId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_access_grants_location",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250010.072954,
+        "end": 1711250016.564444,
+        "duration": 6.491511106491089,
+        "service": "s3control",
+        "type": null
+    }
+}

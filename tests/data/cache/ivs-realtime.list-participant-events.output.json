@@ -1,0 +1,31 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "nextToken": "",
+            "participantId": "",
+            "sessionId": "",
+            "stageArn": ""
+        },
+        "template_required_inputs": [
+            "participantId",
+            "sessionId",
+            "stageArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_participant_events",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249035.060557,
+        "end": 1711249040.548372,
+        "duration": 5.4878270626068115,
+        "service": "ivs-realtime",
+        "type": "participant_events"
+    }
+}

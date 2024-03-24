@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "CertificateId": ""
+        },
+        "template_required_inputs": [
+            "CertificateId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_certificate",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250249.364756,
+        "end": 1711250255.504726,
+        "duration": 6.139992952346802,
+        "service": "transfer",
+        "type": "certificate"
+    }
+}

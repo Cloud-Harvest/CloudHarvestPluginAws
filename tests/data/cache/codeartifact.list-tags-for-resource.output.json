@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "resourceArn": ""
+        },
+        "template_required_inputs": [
+            "resourceArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_tags_for_resource",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248140.262125,
+        "end": 1711248147.950064,
+        "duration": 7.687952995300293,
+        "service": "codeartifact",
+        "type": "tags_for_resource"
+    }
+}

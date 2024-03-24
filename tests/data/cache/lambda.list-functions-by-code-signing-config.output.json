@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "CodeSigningConfigArn": "",
+            "Marker": "",
+            "MaxItems": 0
+        },
+        "template_required_inputs": [
+            "CodeSigningConfigArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_functions_by_code_signing_config",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249239.089779,
+        "end": 1711249251.149562,
+        "duration": 12.05979609489441,
+        "service": "lambda",
+        "type": "functions_by_code_signing_config"
+    }
+}

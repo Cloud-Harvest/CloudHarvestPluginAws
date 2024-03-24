@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "DirectoryArn": ""
+        },
+        "template_required_inputs": [
+            "DirectoryArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_directory",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248052.417675,
+        "end": 1711248060.226408,
+        "duration": 7.8087499141693115,
+        "service": "clouddirectory",
+        "type": null
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "describe_vcenter_clients",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249672.647474,
+        "end": 1711249680.853142,
+        "duration": 8.205680847167969,
+        "service": "mgn",
+        "type": "vcenter_clients"
+    }
+}

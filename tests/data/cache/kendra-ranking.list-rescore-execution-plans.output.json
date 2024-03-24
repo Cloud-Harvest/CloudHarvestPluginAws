@@ -1,0 +1,24 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_rescore_execution_plans",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249192.023247,
+        "end": 1711249202.850081,
+        "duration": 10.826855897903442,
+        "service": "kendra-ranking",
+        "type": "rescore_execution_plans"
+    }
+}

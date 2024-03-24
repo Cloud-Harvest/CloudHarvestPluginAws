@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "RepositoryLinkId": "",
+            "SyncType": "CFN_STACK_SYNC"
+        },
+        "template_required_inputs": [
+            "RepositoryLinkId",
+            "SyncType"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_repository_sync_definitions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248194.67837,
+        "end": 1711248202.021542,
+        "duration": 7.343185901641846,
+        "service": "codestar-connections",
+        "type": "repository_sync_definitions"
+    }
+}

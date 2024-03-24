@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "InsightId": "",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "InsightId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_anomalous_log_groups",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248441.932555,
+        "end": 1711248453.727162,
+        "duration": 11.794616937637329,
+        "service": "devops-guru",
+        "type": "anomalous_log_groups"
+    }
+}

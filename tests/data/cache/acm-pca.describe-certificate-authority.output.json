@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "CertificateAuthorityArn": ""
+        },
+        "template_required_inputs": [
+            "CertificateAuthorityArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_certificate_authority",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247695.306895,
+        "end": 1711247709.835203,
+        "duration": 14.52848505973816,
+        "service": "acm-pca",
+        "type": "certificate_authority"
+    }
+}

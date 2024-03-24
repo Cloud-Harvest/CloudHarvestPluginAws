@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "AwsAccountId": "",
+            "TemplateId": "",
+            "AliasName": ""
+        },
+        "template_required_inputs": [
+            "AwsAccountId",
+            "TemplateId",
+            "AliasName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_template_alias",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249889.070295,
+        "end": 1711249895.310352,
+        "duration": 6.240070819854736,
+        "service": "quicksight",
+        "type": "template_alias"
+    }
+}

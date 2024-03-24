@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "resourceArn": ""
+        },
+        "template_required_inputs": [
+            "resourceArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_tags_for_resource",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248957.506906,
+        "end": 1711248969.826396,
+        "duration": 12.319499015808105,
+        "service": "iotdeviceadvisor",
+        "type": "tags_for_resource"
+    }
+}

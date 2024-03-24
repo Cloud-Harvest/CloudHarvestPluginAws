@@ -1,0 +1,21 @@
+{
+    "input": {
+        "template": {},
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "get_object",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249657.401907,
+        "end": 1711249664.779364,
+        "duration": 7.37747597694397,
+        "service": "mediastore-data",
+        "type": null
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "ResourceArn": ""
+        },
+        "template_required_inputs": [
+            "ResourceArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_tags",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247766.235389,
+        "end": 1711247777.956815,
+        "duration": 11.721435070037842,
+        "service": "apigatewayv2",
+        "type": null
+    }
+}

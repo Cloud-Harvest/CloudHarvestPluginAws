@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "BillingPeriod": "",
+            "PricingRuleArn": "",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "PricingRuleArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_pricing_plans_associated_with_pricing_rule",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247940.247945,
+        "end": 1711247947.371782,
+        "duration": 7.123857021331787,
+        "service": "billingconductor",
+        "type": "pricing_plans_associated_with_pricing_rule"
+    }
+}

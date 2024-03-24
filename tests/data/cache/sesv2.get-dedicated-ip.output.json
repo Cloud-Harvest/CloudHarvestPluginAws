@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "Ip": ""
+        },
+        "template_required_inputs": [
+            "Ip"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_dedicated_ip",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250108.373461,
+        "end": 1711250114.767318,
+        "duration": 6.393868923187256,
+        "service": "sesv2",
+        "type": null
+    }
+}

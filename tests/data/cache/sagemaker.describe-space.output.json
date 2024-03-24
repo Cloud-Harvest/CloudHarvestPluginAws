@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "DomainId": "",
+            "SpaceName": ""
+        },
+        "template_required_inputs": [
+            "DomainId",
+            "SpaceName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_space",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250048.001372,
+        "end": 1711250054.245875,
+        "duration": 6.244515895843506,
+        "service": "sagemaker",
+        "type": "space"
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "input": {
+        "template": {
+            "organizationEventDetailFilters": [
+                {
+                    "eventArn": "",
+                    "awsAccountId": ""
+                }
+            ],
+            "locale": ""
+        },
+        "template_required_inputs": [
+            "organizationEventDetailFilters"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_event_details_for_organization",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248827.695475,
+        "end": 1711248834.473629,
+        "duration": 6.778163909912109,
+        "service": "health",
+        "type": "event_details_for_organization"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "DomainId": "",
+            "WatchlistId": ""
+        },
+        "template_required_inputs": [
+            "DomainId",
+            "WatchlistId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_watchlist",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250268.783386,
+        "end": 1711250275.430185,
+        "duration": 6.646809101104736,
+        "service": "voice-id",
+        "type": "watchlist"
+    }
+}

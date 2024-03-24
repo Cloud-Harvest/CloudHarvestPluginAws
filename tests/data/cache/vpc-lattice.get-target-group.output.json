@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "targetGroupIdentifier": ""
+        },
+        "template_required_inputs": [
+            "targetGroupIdentifier"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_target_group",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250276.451453,
+        "end": 1711250282.995402,
+        "duration": 6.543965101242065,
+        "service": "vpc-lattice",
+        "type": null
+    }
+}

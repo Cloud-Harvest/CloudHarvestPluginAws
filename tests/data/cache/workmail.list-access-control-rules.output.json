@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "OrganizationId": ""
+        },
+        "template_required_inputs": [
+            "OrganizationId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_access_control_rules",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250350.927088,
+        "end": 1711250357.648469,
+        "duration": 6.721390962600708,
+        "service": "workmail",
+        "type": "access_control_rules"
+    }
+}

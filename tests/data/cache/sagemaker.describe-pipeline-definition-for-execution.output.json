@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "PipelineExecutionArn": ""
+        },
+        "template_required_inputs": [
+            "PipelineExecutionArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_pipeline_definition_for_execution",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250043.084772,
+        "end": 1711250049.213726,
+        "duration": 6.128976821899414,
+        "service": "sagemaker",
+        "type": "pipeline_definition_for_execution"
+    }
+}

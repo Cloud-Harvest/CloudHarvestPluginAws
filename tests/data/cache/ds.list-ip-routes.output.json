@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "DirectoryId": "",
+            "NextToken": "",
+            "Limit": 0
+        },
+        "template_required_inputs": [
+            "DirectoryId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_ip_routes",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248477.957984,
+        "end": 1711248484.174188,
+        "duration": 6.216216087341309,
+        "service": "ds",
+        "type": "ip_routes"
+    }
+}

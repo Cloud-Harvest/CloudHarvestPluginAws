@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "regions": [
+                ""
+            ]
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_data_lakes",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250081.655682,
+        "end": 1711250089.451646,
+        "duration": 7.795975923538208,
+        "service": "securitylake",
+        "type": "data_lakes"
+    }
+}

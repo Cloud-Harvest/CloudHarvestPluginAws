@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "DomainName": "",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "DomainName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_profile_object_types",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248342.70567,
+        "end": 1711248348.613081,
+        "duration": 5.907421827316284,
+        "service": "customer-profiles",
+        "type": "profile_object_types"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "ModelCardName": "",
+            "ModelCardVersion": 0
+        },
+        "template_required_inputs": [
+            "ModelCardName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_model_card",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250041.870404,
+        "end": 1711250048.089775,
+        "duration": 6.219382047653198,
+        "service": "sagemaker",
+        "type": "model_card"
+    }
+}

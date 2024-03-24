@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "EventActionId": ""
+        },
+        "template_required_inputs": [
+            "EventActionId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_event_action",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248354.728875,
+        "end": 1711248362.536408,
+        "duration": 7.80754017829895,
+        "service": "dataexchange",
+        "type": null
+    }
+}

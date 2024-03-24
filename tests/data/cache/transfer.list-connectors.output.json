@@ -1,0 +1,24 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_connectors",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250253.36003,
+        "end": 1711250261.632471,
+        "duration": 8.272459983825684,
+        "service": "transfer",
+        "type": "connectors"
+    }
+}

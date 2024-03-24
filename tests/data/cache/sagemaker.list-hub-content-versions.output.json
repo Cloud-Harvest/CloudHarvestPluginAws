@@ -1,0 +1,37 @@
+{
+    "input": {
+        "template": {
+            "HubName": "",
+            "HubContentType": "Model",
+            "HubContentName": "",
+            "MinVersion": "",
+            "MaxSchemaVersion": "",
+            "CreationTimeBefore": "1970-01-01T00:00:00",
+            "CreationTimeAfter": "1970-01-01T00:00:00",
+            "SortBy": "HubContentName",
+            "SortOrder": "Ascending",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "HubName",
+            "HubContentType",
+            "HubContentName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_hub_content_versions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250055.237704,
+        "end": 1711250061.485563,
+        "duration": 6.2478718757629395,
+        "service": "sagemaker",
+        "type": "hub_content_versions"
+    }
+}

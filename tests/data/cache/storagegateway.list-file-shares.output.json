@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "GatewayARN": "",
+            "Limit": 0,
+            "Marker": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_file_shares",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250210.721414,
+        "end": 1711250217.857931,
+        "duration": 7.1365368366241455,
+        "service": "storagegateway",
+        "type": "file_shares"
+    }
+}

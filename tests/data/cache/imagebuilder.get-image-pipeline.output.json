@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "imagePipelineArn": ""
+        },
+        "template_required_inputs": [
+            "imagePipelineArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_image_pipeline",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248871.949477,
+        "end": 1711248879.310909,
+        "duration": 7.3614420890808105,
+        "service": "imagebuilder",
+        "type": null
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "CompilationJobName": ""
+        },
+        "template_required_inputs": [
+            "CompilationJobName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_compilation_job",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250028.676161,
+        "end": 1711250035.407612,
+        "duration": 6.731662034988403,
+        "service": "sagemaker",
+        "type": "compilation_job"
+    }
+}

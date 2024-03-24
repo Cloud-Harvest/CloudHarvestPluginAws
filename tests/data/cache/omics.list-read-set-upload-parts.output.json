@@ -1,0 +1,35 @@
+{
+    "input": {
+        "template": {
+            "sequenceStoreId": "",
+            "uploadId": "",
+            "partSource": "SOURCE1",
+            "maxResults": 0,
+            "nextToken": "",
+            "filter": {
+                "createdAfter": "1970-01-01T00:00:00",
+                "createdBefore": "1970-01-01T00:00:00"
+            }
+        },
+        "template_required_inputs": [
+            "sequenceStoreId",
+            "uploadId",
+            "partSource"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_read_set_upload_parts",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249749.183799,
+        "end": 1711249755.370911,
+        "duration": 6.187124967575073,
+        "service": "omics",
+        "type": "read_set_upload_parts"
+    }
+}

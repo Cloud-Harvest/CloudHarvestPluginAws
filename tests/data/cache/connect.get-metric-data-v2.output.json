@@ -1,0 +1,68 @@
+{
+    "input": {
+        "template": {
+            "ResourceArn": "",
+            "StartTime": "1970-01-01T00:00:00",
+            "EndTime": "1970-01-01T00:00:00",
+            "Interval": {
+                "TimeZone": "",
+                "IntervalPeriod": "FIFTEEN_MIN"
+            },
+            "Filters": [
+                {
+                    "FilterKey": "",
+                    "FilterValues": [
+                        ""
+                    ]
+                }
+            ],
+            "Groupings": [
+                ""
+            ],
+            "Metrics": [
+                {
+                    "Name": "",
+                    "Threshold": [
+                        {
+                            "Comparison": "",
+                            "ThresholdValue": 0.0
+                        }
+                    ],
+                    "MetricFilters": [
+                        {
+                            "MetricFilterKey": "",
+                            "MetricFilterValues": [
+                                ""
+                            ],
+                            "Negate": true
+                        }
+                    ]
+                }
+            ],
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "ResourceArn",
+            "StartTime",
+            "EndTime",
+            "Filters",
+            "Metrics"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_metric_data_v2",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248280.762551,
+        "end": 1711248302.640715,
+        "duration": 21.878173828125,
+        "service": "connect",
+        "type": null
+    }
+}

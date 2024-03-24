@@ -1,0 +1,24 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_pipelines",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249780.818947,
+        "end": 1711249787.866978,
+        "duration": 7.048310995101929,
+        "service": "osis",
+        "type": "pipelines"
+    }
+}

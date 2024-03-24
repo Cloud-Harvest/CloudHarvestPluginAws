@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "StackId": ""
+        },
+        "template_required_inputs": [
+            "StackId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_stack_summary",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249771.19212,
+        "end": 1711249777.251342,
+        "duration": 6.059298038482666,
+        "service": "opsworks",
+        "type": "stack_summary"
+    }
+}

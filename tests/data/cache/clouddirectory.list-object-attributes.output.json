@@ -1,0 +1,36 @@
+{
+    "input": {
+        "template": {
+            "DirectoryArn": "",
+            "ObjectReference": {
+                "Selector": ""
+            },
+            "NextToken": "",
+            "MaxResults": 0,
+            "ConsistencyLevel": "SERIALIZABLE",
+            "FacetFilter": {
+                "SchemaArn": "",
+                "FacetName": ""
+            }
+        },
+        "template_required_inputs": [
+            "DirectoryArn",
+            "ObjectReference"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_object_attributes",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248060.083574,
+        "end": 1711248066.611709,
+        "duration": 6.528157949447632,
+        "service": "clouddirectory",
+        "type": "object_attributes"
+    }
+}

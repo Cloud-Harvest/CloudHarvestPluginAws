@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "InstanceId": "",
+            "ContactId": ""
+        },
+        "template_required_inputs": [
+            "InstanceId",
+            "ContactId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_contact",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248265.341053,
+        "end": 1711248273.989213,
+        "duration": 8.648169994354248,
+        "service": "connect",
+        "type": "contact"
+    }
+}

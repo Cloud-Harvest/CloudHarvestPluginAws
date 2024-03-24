@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "EmailIdentity": ""
+        },
+        "template_required_inputs": [
+            "EmailIdentity"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_email_identity",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249831.22423,
+        "end": 1711249837.693144,
+        "duration": 6.468935012817383,
+        "service": "pinpoint-email",
+        "type": null
+    }
+}

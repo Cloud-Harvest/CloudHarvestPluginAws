@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "transactionHash": "",
+            "transactionId": "",
+            "network": "ETHEREUM_MAINNET"
+        },
+        "template_required_inputs": [
+            "network"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_transaction",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249624.832316,
+        "end": 1711249631.100322,
+        "duration": 6.268028020858765,
+        "service": "managedblockchain-query",
+        "type": null
+    }
+}

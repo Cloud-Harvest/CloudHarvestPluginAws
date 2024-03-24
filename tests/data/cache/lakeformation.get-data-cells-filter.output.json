@@ -1,0 +1,31 @@
+{
+    "input": {
+        "template": {
+            "TableCatalogId": "",
+            "DatabaseName": "",
+            "TableName": "",
+            "Name": ""
+        },
+        "template_required_inputs": [
+            "TableCatalogId",
+            "DatabaseName",
+            "TableName",
+            "Name"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_data_cells_filter",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249220.541626,
+        "end": 1711249225.719132,
+        "duration": 5.177523136138916,
+        "service": "lakeformation",
+        "type": null
+    }
+}

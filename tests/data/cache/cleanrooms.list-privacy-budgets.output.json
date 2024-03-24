@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "membershipIdentifier": "",
+            "privacyBudgetType": "DIFFERENTIAL_PRIVACY",
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "template_required_inputs": [
+            "membershipIdentifier",
+            "privacyBudgetType"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_privacy_budgets",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248041.509944,
+        "end": 1711248048.66473,
+        "duration": 7.154798984527588,
+        "service": "cleanrooms",
+        "type": "privacy_budgets"
+    }
+}

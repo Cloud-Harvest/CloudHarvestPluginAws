@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "mapRunArn": ""
+        },
+        "template_required_inputs": [
+            "mapRunArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_map_run",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250196.428005,
+        "end": 1711250204.28135,
+        "duration": 7.853363037109375,
+        "service": "stepfunctions",
+        "type": "map_run"
+    }
+}

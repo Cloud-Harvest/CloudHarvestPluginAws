@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "contentId": "",
+            "knowledgeBaseId": ""
+        },
+        "template_required_inputs": [
+            "contentId",
+            "knowledgeBaseId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_content_summary",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250329.633381,
+        "end": 1711250338.000779,
+        "duration": 8.367408037185669,
+        "service": "wisdom",
+        "type": null
+    }
+}

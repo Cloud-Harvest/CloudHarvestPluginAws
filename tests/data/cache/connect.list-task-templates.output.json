@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "InstanceId": "",
+            "NextToken": "",
+            "MaxResults": 0,
+            "Status": "ACTIVE",
+            "Name": ""
+        },
+        "template_required_inputs": [
+            "InstanceId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_task_templates",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248311.893093,
+        "end": 1711248318.597062,
+        "duration": 6.703977823257446,
+        "service": "connect",
+        "type": "task_templates"
+    }
+}

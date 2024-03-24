@@ -1,0 +1,37 @@
+{
+    "input": {
+        "template": {
+            "repositoryName": "",
+            "destinationCommitSpecifier": "",
+            "sourceCommitSpecifier": "",
+            "mergeOption": "FAST_FORWARD_MERGE",
+            "maxMergeHunks": 0,
+            "filePath": "",
+            "conflictDetailLevel": "FILE_LEVEL",
+            "conflictResolutionStrategy": "NONE",
+            "nextToken": ""
+        },
+        "template_required_inputs": [
+            "repositoryName",
+            "destinationCommitSpecifier",
+            "sourceCommitSpecifier",
+            "mergeOption",
+            "filePath"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_merge_conflicts",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248151.593511,
+        "end": 1711248158.637439,
+        "duration": 7.043950796127319,
+        "service": "codecommit",
+        "type": "merge_conflicts"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "alarmModelName": "",
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "template_required_inputs": [
+            "alarmModelName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_alarms",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248967.972995,
+        "end": 1711248973.774067,
+        "duration": 5.801092863082886,
+        "service": "iotevents-data",
+        "type": "alarms"
+    }
+}

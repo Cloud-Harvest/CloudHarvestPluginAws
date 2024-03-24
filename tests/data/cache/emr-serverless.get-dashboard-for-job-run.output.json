@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "applicationId": "",
+            "jobRunId": ""
+        },
+        "template_required_inputs": [
+            "applicationId",
+            "jobRunId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_dashboard_for_job_run",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248602.418518,
+        "end": 1711248609.248681,
+        "duration": 6.830173969268799,
+        "service": "emr-serverless",
+        "type": null
+    }
+}

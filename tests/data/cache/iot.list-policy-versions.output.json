@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "policyName": ""
+        },
+        "template_required_inputs": [
+            "policyName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_policy_versions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248933.977472,
+        "end": 1711248940.707235,
+        "duration": 6.729779958724976,
+        "service": "iot",
+        "type": "policy_versions"
+    }
+}

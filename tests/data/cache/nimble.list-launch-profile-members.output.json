@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "launchProfileId": "",
+            "maxResults": 0,
+            "nextToken": "",
+            "studioId": ""
+        },
+        "template_required_inputs": [
+            "launchProfileId",
+            "studioId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_launch_profile_members",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249732.801035,
+        "end": 1711249739.816373,
+        "duration": 7.015352010726929,
+        "service": "nimble",
+        "type": "launch_profile_members"
+    }
+}

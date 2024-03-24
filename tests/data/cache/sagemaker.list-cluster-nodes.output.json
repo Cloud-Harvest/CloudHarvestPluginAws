@@ -1,0 +1,32 @@
+{
+    "input": {
+        "template": {
+            "ClusterName": "",
+            "CreationTimeAfter": "1970-01-01T00:00:00",
+            "CreationTimeBefore": "1970-01-01T00:00:00",
+            "InstanceGroupNameContains": "",
+            "MaxResults": 0,
+            "NextToken": "",
+            "SortBy": "CREATION_TIME",
+            "SortOrder": "Ascending"
+        },
+        "template_required_inputs": [
+            "ClusterName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_cluster_nodes",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250054.193474,
+        "end": 1711250060.299098,
+        "duration": 6.105643033981323,
+        "service": "sagemaker",
+        "type": "cluster_nodes"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "InstanceArn": "",
+            "MaxResults": 0,
+            "NextToken": "",
+            "PermissionSetArn": ""
+        },
+        "template_required_inputs": [
+            "InstanceArn",
+            "PermissionSetArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_managed_policies_in_permission_set",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250191.624079,
+        "end": 1711250198.567223,
+        "duration": 6.9431610107421875,
+        "service": "sso-admin",
+        "type": "managed_policies_in_permission_set"
+    }
+}

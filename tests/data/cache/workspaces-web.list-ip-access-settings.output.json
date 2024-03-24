@@ -1,0 +1,24 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_ip_access_settings",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250378.403012,
+        "end": 1711250389.394015,
+        "duration": 10.991013050079346,
+        "service": "workspaces-web",
+        "type": "ip_access_settings"
+    }
+}

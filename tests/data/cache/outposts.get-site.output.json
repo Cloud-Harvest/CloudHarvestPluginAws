@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "SiteId": ""
+        },
+        "template_required_inputs": [
+            "SiteId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_site",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249783.911456,
+        "end": 1711249789.700631,
+        "duration": 5.789191007614136,
+        "service": "outposts",
+        "type": null
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "input": {
+        "template": {},
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "describe_local_gateway_route_table_virtual_interface_group_associa_",
+        "boto_command_matches": false
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248496.392293,
+        "end": 1711248509.389592,
+        "duration": 12.997308015823364,
+        "service": "ec2",
+        "type": "local_gateway_route_table_virtual_interface_group_associa_"
+    }
+}

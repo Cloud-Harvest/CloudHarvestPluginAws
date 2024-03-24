@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "AwsAccountId": "",
+            "TopicId": ""
+        },
+        "template_required_inputs": [
+            "AwsAccountId",
+            "TopicId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_topic",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249890.028977,
+        "end": 1711249896.338588,
+        "duration": 6.3096301555633545,
+        "service": "quicksight",
+        "type": "topic"
+    }
+}

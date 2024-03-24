@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "ProfileNamePrefix": "",
+            "ProfileOwnerType": "SELF",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_profiles",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250323.485725,
+        "end": 1711250331.739089,
+        "duration": 8.253384113311768,
+        "service": "wellarchitected",
+        "type": "profiles"
+    }
+}

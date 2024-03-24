@@ -1,0 +1,33 @@
+{
+    "input": {
+        "template": {
+            "accountID": "",
+            "filters": {
+                "actionIDs": [
+                    ""
+                ]
+            },
+            "maxResults": 0,
+            "nextToken": "",
+            "sourceServerID": ""
+        },
+        "template_required_inputs": [
+            "sourceServerID"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_source_server_actions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249676.199614,
+        "end": 1711249681.853413,
+        "duration": 5.65381383895874,
+        "service": "mgn",
+        "type": "source_server_actions"
+    }
+}

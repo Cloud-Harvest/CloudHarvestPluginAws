@@ -1,0 +1,31 @@
+{
+    "input": {
+        "template": {
+            "pipelineId": "",
+            "objectIds": [
+                ""
+            ],
+            "evaluateExpressions": true,
+            "marker": ""
+        },
+        "template_required_inputs": [
+            "pipelineId",
+            "objectIds"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_objects",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248356.479106,
+        "end": 1711248365.879111,
+        "duration": 9.400030136108398,
+        "service": "datapipeline",
+        "type": "objects"
+    }
+}

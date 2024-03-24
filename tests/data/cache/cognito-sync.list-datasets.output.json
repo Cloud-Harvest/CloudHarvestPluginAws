@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "IdentityPoolId": "",
+            "IdentityId": "",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "IdentityPoolId",
+            "IdentityId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_datasets",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248218.384529,
+        "end": 1711248224.930163,
+        "duration": 6.545647859573364,
+        "service": "cognito-sync",
+        "type": "datasets"
+    }
+}

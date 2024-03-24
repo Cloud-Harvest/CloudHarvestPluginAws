@@ -1,0 +1,31 @@
+{
+    "input": {
+        "template": {
+            "AccountId": "",
+            "InstanceArn": "",
+            "MaxResults": 0,
+            "NextToken": "",
+            "PermissionSetArn": ""
+        },
+        "template_required_inputs": [
+            "AccountId",
+            "InstanceArn",
+            "PermissionSetArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_account_assignments",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250188.824215,
+        "end": 1711250195.10412,
+        "duration": 6.279919147491455,
+        "service": "sso-admin",
+        "type": "account_assignments"
+    }
+}

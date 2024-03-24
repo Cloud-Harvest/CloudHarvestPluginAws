@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "nextToken": "",
+            "workloadName": ""
+        },
+        "template_required_inputs": [
+            "workloadName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_workload_deployment_patterns",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249244.271593,
+        "end": 1711249253.492823,
+        "duration": 9.221239805221558,
+        "service": "launch-wizard",
+        "type": "workload_deployment_patterns"
+    }
+}

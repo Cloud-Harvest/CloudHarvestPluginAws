@@ -1,0 +1,55 @@
+{
+    "input": {
+        "template": {
+            "DetectorId": "",
+            "FindingStatisticTypes": [
+                "COUNT_BY_SEVERITY"
+            ],
+            "FindingCriteria": {
+                "Criterion": {
+                    "KeyName": {
+                        "Eq": [
+                            ""
+                        ],
+                        "Neq": [
+                            ""
+                        ],
+                        "Gt": 0,
+                        "Gte": 0,
+                        "Lt": 0,
+                        "Lte": 0,
+                        "Equals": [
+                            ""
+                        ],
+                        "NotEquals": [
+                            ""
+                        ],
+                        "GreaterThan": 0,
+                        "GreaterThanOrEqual": 0,
+                        "LessThan": 0,
+                        "LessThanOrEqual": 0
+                    }
+                }
+            }
+        },
+        "template_required_inputs": [
+            "DetectorId",
+            "FindingStatisticTypes"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_findings_statistics",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248812.62196,
+        "end": 1711248819.715174,
+        "duration": 7.0932230949401855,
+        "service": "guardduty",
+        "type": null
+    }
+}

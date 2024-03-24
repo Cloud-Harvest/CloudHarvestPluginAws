@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "ActionType": "RESTORE",
+            "ResourceArn": ""
+        },
+        "template_required_inputs": [
+            "ResourceArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_resource_permission",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250172.858031,
+        "end": 1711250183.317424,
+        "duration": 10.459419965744019,
+        "service": "ssm-sap",
+        "type": null
+    }
+}

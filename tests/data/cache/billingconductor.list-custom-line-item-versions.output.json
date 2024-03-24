@@ -1,0 +1,33 @@
+{
+    "input": {
+        "template": {
+            "Arn": "",
+            "MaxResults": 0,
+            "NextToken": "",
+            "Filters": {
+                "BillingPeriodRange": {
+                    "StartBillingPeriod": "",
+                    "EndBillingPeriod": ""
+                }
+            }
+        },
+        "template_required_inputs": [
+            "Arn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_custom_line_item_versions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247939.348915,
+        "end": 1711247947.384449,
+        "duration": 8.03555178642273,
+        "service": "billingconductor",
+        "type": "custom_line_item_versions"
+    }
+}

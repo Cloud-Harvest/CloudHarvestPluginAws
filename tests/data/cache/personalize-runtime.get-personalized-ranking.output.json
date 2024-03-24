@@ -1,0 +1,43 @@
+{
+    "input": {
+        "template": {
+            "campaignArn": "",
+            "inputList": [
+                ""
+            ],
+            "userId": "",
+            "context": {
+                "KeyName": ""
+            },
+            "filterArn": "",
+            "filterValues": {
+                "KeyName": ""
+            },
+            "metadataColumns": {
+                "KeyName": [
+                    ""
+                ]
+            }
+        },
+        "template_required_inputs": [
+            "campaignArn",
+            "inputList",
+            "userId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_personalized_ranking",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249806.323477,
+        "end": 1711249811.775077,
+        "duration": 5.451611042022705,
+        "service": "personalize-runtime",
+        "type": null
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "input": {
+        "template": {
+            "CreationTimeAfter": "1970-01-01T00:00:00",
+            "CreationTimeBefore": "1970-01-01T00:00:00",
+            "MaxResults": 0,
+            "NameContains": "",
+            "ModelApprovalStatus": "Approved",
+            "ModelPackageGroupName": "",
+            "ModelPackageType": "Versioned",
+            "NextToken": "",
+            "SortBy": "Name",
+            "SortOrder": "Ascending"
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_model_packages",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250060.307441,
+        "end": 1711250067.629667,
+        "duration": 7.322237968444824,
+        "service": "sagemaker",
+        "type": "model_packages"
+    }
+}

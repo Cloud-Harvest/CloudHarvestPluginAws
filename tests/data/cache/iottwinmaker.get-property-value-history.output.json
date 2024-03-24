@@ -1,0 +1,68 @@
+{
+    "input": {
+        "template": {
+            "workspaceId": "",
+            "entityId": "",
+            "componentName": "",
+            "componentPath": "",
+            "componentTypeId": "",
+            "selectedProperties": [
+                ""
+            ],
+            "propertyFilters": [
+                {
+                    "propertyName": "",
+                    "operator": "",
+                    "value": {
+                        "booleanValue": true,
+                        "doubleValue": 0.0,
+                        "integerValue": 0,
+                        "longValue": 0,
+                        "stringValue": "",
+                        "listValue": [
+                            {}
+                        ],
+                        "mapValue": {
+                            "KeyName": {}
+                        },
+                        "relationshipValue": {
+                            "targetEntityId": "",
+                            "targetComponentName": ""
+                        },
+                        "expression": ""
+                    }
+                }
+            ],
+            "startDateTime": "1970-01-01T00:00:00",
+            "endDateTime": "1970-01-01T00:00:00",
+            "interpolation": {
+                "interpolationType": "LINEAR",
+                "intervalInSeconds": 0
+            },
+            "nextToken": "",
+            "maxResults": 0,
+            "orderByTime": "ASCENDING",
+            "startTime": "",
+            "endTime": ""
+        },
+        "template_required_inputs": [
+            "workspaceId",
+            "selectedProperties"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_property_value_history",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249001.474652,
+        "end": 1711249012.199671,
+        "duration": 10.725028038024902,
+        "service": "iottwinmaker",
+        "type": null
+    }
+}

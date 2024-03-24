@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "GroupId": "",
+            "MaxResults": "",
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "GroupId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_deployments",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248755.225609,
+        "end": 1711248795.821432,
+        "duration": 40.595839977264404,
+        "service": "greengrass",
+        "type": "deployments"
+    }
+}

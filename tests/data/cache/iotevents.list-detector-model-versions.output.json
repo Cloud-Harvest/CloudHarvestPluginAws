@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "detectorModelName": "",
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "template_required_inputs": [
+            "detectorModelName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_detector_model_versions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248962.254615,
+        "end": 1711248970.625916,
+        "duration": 8.371320009231567,
+        "service": "iotevents",
+        "type": "detector_model_versions"
+    }
+}

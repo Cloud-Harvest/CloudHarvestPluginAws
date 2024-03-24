@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "ResourceARN": ""
+        },
+        "template_required_inputs": [
+            "ResourceARN"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_tags_for_resource",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250114.912569,
+        "end": 1711250120.931812,
+        "duration": 6.01925802230835,
+        "service": "shield",
+        "type": "tags_for_resource"
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "input": {
+        "template": {
+            "WindowId": "",
+            "Targets": [
+                {
+                    "Key": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "ResourceType": "INSTANCE",
+            "Filters": [
+                {
+                    "Key": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "describe_maintenance_window_schedule",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250141.109721,
+        "end": 1711250149.361907,
+        "duration": 8.25220012664795,
+        "service": "ssm",
+        "type": "maintenance_window_schedule"
+    }
+}

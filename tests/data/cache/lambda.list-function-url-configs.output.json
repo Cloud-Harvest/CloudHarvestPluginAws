@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "FunctionName": "",
+            "Marker": "",
+            "MaxItems": 0
+        },
+        "template_required_inputs": [
+            "FunctionName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_function_url_configs",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249238.687701,
+        "end": 1711249250.361662,
+        "duration": 11.673972129821777,
+        "service": "lambda",
+        "type": "function_url_configs"
+    }
+}

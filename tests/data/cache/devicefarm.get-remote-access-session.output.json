@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "arn": ""
+        },
+        "template_required_inputs": [
+            "arn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_remote_access_session",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248407.245982,
+        "end": 1711248413.401106,
+        "duration": 6.155133962631226,
+        "service": "devicefarm",
+        "type": null
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "flowName": "",
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [
+            "flowName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_flow_execution_records",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247785.266085,
+        "end": 1711247798.705378,
+        "duration": 13.439301013946533,
+        "service": "appflow",
+        "type": "flow_execution_records"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "NotebookInstanceName": ""
+        },
+        "template_required_inputs": [
+            "NotebookInstanceName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_notebook_instance",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250042.905418,
+        "end": 1711250049.19454,
+        "duration": 6.2891411781311035,
+        "service": "sagemaker",
+        "type": "notebook_instance"
+    }
+}

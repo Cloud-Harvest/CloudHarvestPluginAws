@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "AccountId": "",
+            "RegionName": ""
+        },
+        "template_required_inputs": [
+            "RegionName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_region_opt_status",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247671.352134,
+        "end": 1711247695.224991,
+        "duration": 23.872864961624146,
+        "service": "account",
+        "type": null
+    }
+}

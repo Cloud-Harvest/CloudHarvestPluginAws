@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "jobId": "",
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "get_batch_import_jobs",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248668.079925,
+        "end": 1711248678.137854,
+        "duration": 10.057939052581787,
+        "service": "frauddetector",
+        "type": null
+    }
+}

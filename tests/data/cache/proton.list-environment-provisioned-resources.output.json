@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "environmentName": "",
+            "nextToken": ""
+        },
+        "template_required_inputs": [
+            "environmentName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_environment_provisioned_resources",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249856.031286,
+        "end": 1711249862.475604,
+        "duration": 6.444325923919678,
+        "service": "proton",
+        "type": "environment_provisioned_resources"
+    }
+}

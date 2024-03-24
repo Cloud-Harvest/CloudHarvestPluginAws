@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "nextToken": "",
+            "maxResults": 0,
+            "workflowId": "",
+            "stepGroupId": ""
+        },
+        "template_required_inputs": [
+            "workflowId",
+            "stepGroupId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_workflow_steps",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249688.01982,
+        "end": 1711249695.437305,
+        "duration": 7.417526006698608,
+        "service": "migrationhuborchestrator",
+        "type": "workflow_steps"
+    }
+}

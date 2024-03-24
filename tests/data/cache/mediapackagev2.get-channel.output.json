@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "ChannelGroupName": "",
+            "ChannelName": ""
+        },
+        "template_required_inputs": [
+            "ChannelGroupName",
+            "ChannelName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_channel",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249652.879313,
+        "end": 1711249659.401695,
+        "duration": 6.522402048110962,
+        "service": "mediapackagev2",
+        "type": null
+    }
+}

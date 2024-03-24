@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "AcceleratorArn": ""
+        },
+        "template_required_inputs": [
+            "AcceleratorArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_accelerator_attributes",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248702.880219,
+        "end": 1711248711.146054,
+        "duration": 8.26584506034851,
+        "service": "globalaccelerator",
+        "type": "accelerator_attributes"
+    }
+}

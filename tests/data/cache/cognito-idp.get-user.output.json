@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "AccessToken": ""
+        },
+        "template_required_inputs": [
+            "AccessToken"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_user",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248209.138705,
+        "end": 1711248216.448639,
+        "duration": 7.309952020645142,
+        "service": "cognito-idp",
+        "type": null
+    }
+}

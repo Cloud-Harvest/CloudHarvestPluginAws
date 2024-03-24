@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "AdapterId": ""
+        },
+        "template_required_inputs": [
+            "AdapterId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_adapter",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250226.086994,
+        "end": 1711250235.000934,
+        "duration": 8.91395616531372,
+        "service": "textract",
+        "type": null
+    }
+}

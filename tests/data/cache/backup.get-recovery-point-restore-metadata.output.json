@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "BackupVaultName": "",
+            "RecoveryPointArn": "",
+            "BackupVaultAccountId": ""
+        },
+        "template_required_inputs": [
+            "BackupVaultName",
+            "RecoveryPointArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_recovery_point_restore_metadata",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247899.348649,
+        "end": 1711247916.358511,
+        "duration": 17.009872913360596,
+        "service": "backup",
+        "type": null
+    }
+}

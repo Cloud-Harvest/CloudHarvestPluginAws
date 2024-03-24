@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "EngineName": "",
+            "MaxRecords": 0,
+            "Marker": ""
+        },
+        "template_required_inputs": [
+            "EngineName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_endpoint_settings",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248455.14306,
+        "end": 1711248465.255618,
+        "duration": 10.112564086914062,
+        "service": "dms",
+        "type": "endpoint_settings"
+    }
+}

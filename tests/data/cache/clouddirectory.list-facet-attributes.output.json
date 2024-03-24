@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "SchemaArn": "",
+            "Name": "",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "SchemaArn",
+            "Name"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_facet_attributes",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248058.141148,
+        "end": 1711248063.49612,
+        "duration": 5.3549909591674805,
+        "service": "clouddirectory",
+        "type": "facet_attributes"
+    }
+}

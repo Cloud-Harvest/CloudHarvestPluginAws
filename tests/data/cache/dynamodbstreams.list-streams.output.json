@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "TableName": "",
+            "Limit": 0,
+            "ExclusiveStartStreamArn": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_streams",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248488.438277,
+        "end": 1711248496.514296,
+        "duration": 8.076029062271118,
+        "service": "dynamodbstreams",
+        "type": "streams"
+    }
+}

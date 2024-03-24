@@ -1,0 +1,45 @@
+{
+    "input": {
+        "template": {
+            "policyStoreId": "",
+            "nextToken": "",
+            "maxResults": 0,
+            "filter": {
+                "principal": {
+                    "unspecified": true,
+                    "identifier": {
+                        "entityType": "",
+                        "entityId": ""
+                    }
+                },
+                "resource": {
+                    "unspecified": true,
+                    "identifier": {
+                        "entityType": "",
+                        "entityId": ""
+                    }
+                },
+                "policyType": "STATIC",
+                "policyTemplateId": ""
+            }
+        },
+        "template_required_inputs": [
+            "policyStoreId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_policies",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250266.852132,
+        "end": 1711250273.913927,
+        "duration": 7.061822891235352,
+        "service": "verifiedpermissions",
+        "type": "policies"
+    }
+}

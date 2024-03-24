@@ -1,0 +1,36 @@
+{
+    "input": {
+        "template": {
+            "CapacityReservationFleetIds": [
+                ""
+            ],
+            "NextToken": "",
+            "MaxResults": 0,
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "DryRun": true
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "describe_capacity_reservation_fleets",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248491.736653,
+        "end": 1711248501.21279,
+        "duration": 9.476146936416626,
+        "service": "ec2",
+        "type": "capacity_reservation_fleets"
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "input": {
+        "template": {
+            "WindowId": "",
+            "Filters": [
+                {
+                    "Key": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "WindowId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_maintenance_window_executions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250141.054862,
+        "end": 1711250147.069131,
+        "duration": 6.01429009437561,
+        "service": "ssm",
+        "type": "maintenance_window_executions"
+    }
+}

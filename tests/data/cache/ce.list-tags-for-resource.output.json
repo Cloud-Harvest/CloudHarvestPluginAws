@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "ResourceArn": ""
+        },
+        "template_required_inputs": [
+            "ResourceArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_tags_for_resource",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247965.378514,
+        "end": 1711247971.72481,
+        "duration": 6.3463099002838135,
+        "service": "ce",
+        "type": "tags_for_resource"
+    }
+}

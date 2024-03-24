@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "nextToken": "",
+            "serviceIdentifier": "",
+            "serviceNetworkIdentifier": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_service_network_service_associations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250277.06184,
+        "end": 1711250286.061488,
+        "duration": 8.999670028686523,
+        "service": "vpc-lattice",
+        "type": "service_network_service_associations"
+    }
+}

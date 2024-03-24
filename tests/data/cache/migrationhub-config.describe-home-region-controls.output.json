@@ -1,0 +1,30 @@
+{
+    "input": {
+        "template": {
+            "ControlId": "",
+            "HomeRegion": "",
+            "Target": {
+                "Type": "ACCOUNT",
+                "Id": ""
+            },
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "describe_home_region_controls",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249683.94579,
+        "end": 1711249691.075406,
+        "duration": 7.129631042480469,
+        "service": "migrationhub-config",
+        "type": "home_region_controls"
+    }
+}

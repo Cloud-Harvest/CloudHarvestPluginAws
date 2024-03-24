@@ -1,0 +1,42 @@
+{
+    "input": {
+        "template": {
+            "configurationType": "SERVER",
+            "filters": [
+                {
+                    "name": "",
+                    "values": [
+                        ""
+                    ],
+                    "condition": ""
+                }
+            ],
+            "maxResults": 0,
+            "nextToken": "",
+            "orderBy": [
+                {
+                    "fieldName": "",
+                    "sortOrder": "ASC"
+                }
+            ]
+        },
+        "template_required_inputs": [
+            "configurationType"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_configurations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248453.651469,
+        "end": 1711248461.712719,
+        "duration": 8.06125807762146,
+        "service": "discovery",
+        "type": "configurations"
+    }
+}

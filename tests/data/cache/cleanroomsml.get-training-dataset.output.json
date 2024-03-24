@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "trainingDatasetArn": ""
+        },
+        "template_required_inputs": [
+            "trainingDatasetArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_training_dataset",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248045.796227,
+        "end": 1711248052.434896,
+        "duration": 6.6386799812316895,
+        "service": "cleanroomsml",
+        "type": null
+    }
+}

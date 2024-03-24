@@ -1,0 +1,34 @@
+{
+    "input": {
+        "template": {
+            "Id": "",
+            "IndexId": "",
+            "NextToken": "",
+            "MaxResults": 0,
+            "StartTimeFilter": {
+                "StartTime": "1970-01-01T00:00:00",
+                "EndTime": "1970-01-01T00:00:00"
+            },
+            "StatusFilter": "FAILED"
+        },
+        "template_required_inputs": [
+            "Id",
+            "IndexId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_data_source_sync_jobs",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249186.30373,
+        "end": 1711249195.229374,
+        "duration": 8.92565393447876,
+        "service": "kendra",
+        "type": "data_source_sync_jobs"
+    }
+}

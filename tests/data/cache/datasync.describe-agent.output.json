@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "AgentArn": ""
+        },
+        "template_required_inputs": [
+            "AgentArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_agent",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248359.358502,
+        "end": 1711248366.531866,
+        "duration": 7.173380136489868,
+        "service": "datasync",
+        "type": "agent"
+    }
+}

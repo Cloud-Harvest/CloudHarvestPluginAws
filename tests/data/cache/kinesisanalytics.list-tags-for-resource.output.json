@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "ResourceARN": ""
+        },
+        "template_required_inputs": [
+            "ResourceARN"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_tags_for_resource",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249202.883854,
+        "end": 1711249208.576358,
+        "duration": 5.692519187927246,
+        "service": "kinesisanalytics",
+        "type": "tags_for_resource"
+    }
+}

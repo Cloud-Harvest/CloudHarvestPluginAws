@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": "",
+            "PlaybackConfigurationName": "",
+            "StreamId": ""
+        },
+        "template_required_inputs": [
+            "PlaybackConfigurationName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_prefetch_schedules",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249663.420331,
+        "end": 1711249669.590965,
+        "duration": 6.170860052108765,
+        "service": "mediatailor",
+        "type": "prefetch_schedules"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "WebACLArn": "",
+            "ResourceType": "APPLICATION_LOAD_BALANCER"
+        },
+        "template_required_inputs": [
+            "WebACLArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_resources_for_web_acl",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250310.202453,
+        "end": 1711250316.31975,
+        "duration": 6.117308139801025,
+        "service": "wafv2",
+        "type": "resources_for_web_acl"
+    }
+}

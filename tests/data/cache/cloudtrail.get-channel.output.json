@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "Channel": ""
+        },
+        "template_required_inputs": [
+            "Channel"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_channel",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248121.594038,
+        "end": 1711248127.011486,
+        "duration": 5.417481899261475,
+        "service": "cloudtrail",
+        "type": null
+    }
+}

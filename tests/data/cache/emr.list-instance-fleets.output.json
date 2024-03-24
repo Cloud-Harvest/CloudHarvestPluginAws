@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "ClusterId": "",
+            "Marker": ""
+        },
+        "template_required_inputs": [
+            "ClusterId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_instance_fleets",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248596.509952,
+        "end": 1711248602.418129,
+        "duration": 5.908185005187988,
+        "service": "emr",
+        "type": "instance_fleets"
+    }
+}

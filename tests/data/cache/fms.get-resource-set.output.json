@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "Identifier": ""
+        },
+        "template_required_inputs": [
+            "Identifier"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_resource_set",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248652.617817,
+        "end": 1711248658.075277,
+        "duration": 5.457468032836914,
+        "service": "fms",
+        "type": null
+    }
+}

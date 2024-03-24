@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "AwsAccountId": "",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "AwsAccountId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_data_sources",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249896.382626,
+        "end": 1711249902.729379,
+        "duration": 6.346765995025635,
+        "service": "quicksight",
+        "type": "data_sources"
+    }
+}

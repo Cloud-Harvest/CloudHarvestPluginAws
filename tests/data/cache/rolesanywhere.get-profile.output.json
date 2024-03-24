@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "profileId": ""
+        },
+        "template_required_inputs": [
+            "profileId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_profile",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249958.406573,
+        "end": 1711249964.1933,
+        "duration": 5.786738872528076,
+        "service": "rolesanywhere",
+        "type": null
+    }
+}

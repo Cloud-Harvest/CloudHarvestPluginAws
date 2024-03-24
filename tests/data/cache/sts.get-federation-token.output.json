@@ -1,0 +1,38 @@
+{
+    "input": {
+        "template": {
+            "Name": "",
+            "Policy": "",
+            "PolicyArns": [
+                {
+                    "arn": ""
+                }
+            ],
+            "DurationSeconds": 0,
+            "Tags": [
+                {
+                    "Key": "",
+                    "Value": ""
+                }
+            ]
+        },
+        "template_required_inputs": [
+            "Name"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_federation_token",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250213.256784,
+        "end": 1711250219.408395,
+        "duration": 6.15162992477417,
+        "service": "sts",
+        "type": null
+    }
+}

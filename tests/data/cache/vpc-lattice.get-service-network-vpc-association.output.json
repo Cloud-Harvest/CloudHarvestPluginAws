@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "serviceNetworkVpcAssociationIdentifier": ""
+        },
+        "template_required_inputs": [
+            "serviceNetworkVpcAssociationIdentifier"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_service_network_vpc_association",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250275.516407,
+        "end": 1711250282.171478,
+        "duration": 6.655090093612671,
+        "service": "vpc-lattice",
+        "type": null
+    }
+}

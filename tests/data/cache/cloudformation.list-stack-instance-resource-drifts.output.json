@@ -1,0 +1,37 @@
+{
+    "input": {
+        "template": {
+            "StackSetName": "",
+            "NextToken": "",
+            "MaxResults": 0,
+            "StackInstanceResourceDriftStatuses": [
+                "IN_SYNC"
+            ],
+            "StackInstanceAccount": "",
+            "StackInstanceRegion": "",
+            "OperationId": "",
+            "CallAs": "SELF"
+        },
+        "template_required_inputs": [
+            "StackSetName",
+            "StackInstanceAccount",
+            "StackInstanceRegion",
+            "OperationId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_stack_instance_resource_drifts",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248073.921579,
+        "end": 1711248083.074004,
+        "duration": 9.152435064315796,
+        "service": "cloudformation",
+        "type": "stack_instance_resource_drifts"
+    }
+}

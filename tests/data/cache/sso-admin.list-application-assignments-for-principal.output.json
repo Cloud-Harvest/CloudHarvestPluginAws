@@ -1,0 +1,34 @@
+{
+    "input": {
+        "template": {
+            "Filter": {
+                "ApplicationArn": ""
+            },
+            "InstanceArn": "",
+            "MaxResults": 0,
+            "NextToken": "",
+            "PrincipalId": "",
+            "PrincipalType": "USER"
+        },
+        "template_required_inputs": [
+            "InstanceArn",
+            "PrincipalId",
+            "PrincipalType"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_application_assignments_for_principal",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250190.068512,
+        "end": 1711250196.586392,
+        "duration": 6.5179009437561035,
+        "service": "sso-admin",
+        "type": "application_assignments_for_principal"
+    }
+}

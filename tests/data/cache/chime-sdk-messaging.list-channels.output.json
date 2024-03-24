@@ -1,0 +1,30 @@
+{
+    "input": {
+        "template": {
+            "AppInstanceArn": "",
+            "Privacy": "PUBLIC",
+            "MaxResults": 0,
+            "NextToken": "",
+            "ChimeBearer": ""
+        },
+        "template_required_inputs": [
+            "AppInstanceArn",
+            "ChimeBearer"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_channels",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248005.348486,
+        "end": 1711248014.585195,
+        "duration": 9.23672103881836,
+        "service": "chime-sdk-messaging",
+        "type": "channels"
+    }
+}

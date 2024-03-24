@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "ThirdPartyFirewall": "PALO_ALTO_NETWORKS_CLOUD_NGFW"
+        },
+        "template_required_inputs": [
+            "ThirdPartyFirewall"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_third_party_firewall_association_status",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248652.845777,
+        "end": 1711248660.42052,
+        "duration": 7.574753999710083,
+        "service": "fms",
+        "type": null
+    }
+}

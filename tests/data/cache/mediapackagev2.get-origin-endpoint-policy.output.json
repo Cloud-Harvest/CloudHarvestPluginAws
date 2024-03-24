@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "ChannelGroupName": "",
+            "ChannelName": "",
+            "OriginEndpointName": ""
+        },
+        "template_required_inputs": [
+            "ChannelGroupName",
+            "ChannelName",
+            "OriginEndpointName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_origin_endpoint_policy",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249653.097736,
+        "end": 1711249660.375815,
+        "duration": 7.278094053268433,
+        "service": "mediapackagev2",
+        "type": null
+    }
+}

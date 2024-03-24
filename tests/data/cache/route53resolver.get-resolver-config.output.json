@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "ResourceId": ""
+        },
+        "template_required_inputs": [
+            "ResourceId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_resolver_config",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249983.183928,
+        "end": 1711249989.427569,
+        "duration": 6.243649959564209,
+        "service": "route53resolver",
+        "type": null
+    }
+}

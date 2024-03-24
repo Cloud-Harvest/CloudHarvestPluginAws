@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "ExportArn": ""
+        },
+        "template_required_inputs": [
+            "ExportArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_export",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248480.619027,
+        "end": 1711248488.437166,
+        "duration": 7.818148136138916,
+        "service": "dynamodb",
+        "type": "export"
+    }
+}

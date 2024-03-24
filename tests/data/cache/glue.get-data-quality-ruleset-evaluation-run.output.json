@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "RunId": ""
+        },
+        "template_required_inputs": [
+            "RunId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_data_quality_ruleset_evaluation_run",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248715.997879,
+        "end": 1711248724.53653,
+        "duration": 8.538666009902954,
+        "service": "glue",
+        "type": null
+    }
+}

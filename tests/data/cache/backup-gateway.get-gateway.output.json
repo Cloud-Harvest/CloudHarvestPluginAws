@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "GatewayArn": ""
+        },
+        "template_required_inputs": [
+            "GatewayArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_gateway",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247916.427652,
+        "end": 1711247924.448917,
+        "duration": 8.021281003952026,
+        "service": "backup-gateway",
+        "type": null
+    }
+}

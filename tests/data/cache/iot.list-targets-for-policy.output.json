@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "policyName": "",
+            "marker": "",
+            "pageSize": 0
+        },
+        "template_required_inputs": [
+            "policyName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_targets_for_policy",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248936.437367,
+        "end": 1711248944.846679,
+        "duration": 8.409348011016846,
+        "service": "iot",
+        "type": "targets_for_policy"
+    }
+}

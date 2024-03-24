@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "taskId": "",
+            "reportType": "ERRORS",
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "template_required_inputs": [
+            "taskId",
+            "reportType"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_thing_registration_task_reports",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248939.642528,
+        "end": 1711248946.374254,
+        "duration": 6.731751918792725,
+        "service": "iot",
+        "type": "thing_registration_task_reports"
+    }
+}

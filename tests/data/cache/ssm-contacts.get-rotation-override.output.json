@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "RotationId": "",
+            "RotationOverrideId": ""
+        },
+        "template_required_inputs": [
+            "RotationId",
+            "RotationOverrideId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_rotation_override",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250161.031399,
+        "end": 1711250167.1945,
+        "duration": 6.163119077682495,
+        "service": "ssm-contacts",
+        "type": null
+    }
+}

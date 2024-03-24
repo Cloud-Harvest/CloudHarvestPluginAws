@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "assetModelId": "",
+            "nextToken": "",
+            "maxResults": 0,
+            "filter": "ALL"
+        },
+        "template_required_inputs": [
+            "assetModelId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_asset_model_properties",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248992.683801,
+        "end": 1711248998.844541,
+        "duration": 6.160755157470703,
+        "service": "iotsitewise",
+        "type": "asset_model_properties"
+    }
+}

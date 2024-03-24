@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "applicationId": "",
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [
+            "applicationId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_retrievers",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249863.612685,
+        "end": 1711249869.893634,
+        "duration": 6.280961990356445,
+        "service": "qbusiness",
+        "type": "retrievers"
+    }
+}

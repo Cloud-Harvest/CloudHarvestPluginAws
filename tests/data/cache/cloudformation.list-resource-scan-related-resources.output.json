@@ -1,0 +1,36 @@
+{
+    "input": {
+        "template": {
+            "ResourceScanId": "",
+            "Resources": [
+                {
+                    "ResourceType": "",
+                    "ResourceIdentifier": {
+                        "KeyName": ""
+                    }
+                }
+            ],
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "ResourceScanId",
+            "Resources"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_resource_scan_related_resources",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248072.19104,
+        "end": 1711248079.631002,
+        "duration": 7.439988851547241,
+        "service": "cloudformation",
+        "type": "resource_scan_related_resources"
+    }
+}

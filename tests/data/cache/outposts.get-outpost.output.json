@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "OutpostId": ""
+        },
+        "template_required_inputs": [
+            "OutpostId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_outpost",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249783.792229,
+        "end": 1711249789.526473,
+        "duration": 5.734256982803345,
+        "service": "outposts",
+        "type": null
+    }
+}

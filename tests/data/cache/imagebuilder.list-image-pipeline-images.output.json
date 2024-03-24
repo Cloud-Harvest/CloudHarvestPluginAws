@@ -1,0 +1,35 @@
+{
+    "input": {
+        "template": {
+            "imagePipelineArn": "",
+            "filters": [
+                {
+                    "name": "",
+                    "values": [
+                        ""
+                    ]
+                }
+            ],
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [
+            "imagePipelineArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_image_pipeline_images",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248878.596941,
+        "end": 1711248885.030272,
+        "duration": 6.433343887329102,
+        "service": "imagebuilder",
+        "type": "image_pipeline_images"
+    }
+}

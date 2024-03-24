@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "configuredTableIdentifier": ""
+        },
+        "template_required_inputs": [
+            "configuredTableIdentifier"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_configured_table",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248032.703212,
+        "end": 1711248039.852817,
+        "duration": 7.149616003036499,
+        "service": "cleanrooms",
+        "type": null
+    }
+}

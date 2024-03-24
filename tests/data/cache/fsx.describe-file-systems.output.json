@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "FileSystemIds": [
+                ""
+            ],
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "describe_file_systems",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248677.868848,
+        "end": 1711248691.639503,
+        "duration": 13.770663022994995,
+        "service": "fsx",
+        "type": "file_systems"
+    }
+}

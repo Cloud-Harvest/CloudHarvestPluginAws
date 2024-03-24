@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "PackageID": "",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "PackageID"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_domains_for_package",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249762.346898,
+        "end": 1711249768.525654,
+        "duration": 6.178771018981934,
+        "service": "opensearch",
+        "type": "domains_for_package"
+    }
+}

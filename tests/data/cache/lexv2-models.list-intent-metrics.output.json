@@ -1,0 +1,60 @@
+{
+    "input": {
+        "template": {
+            "botId": "",
+            "startDateTime": "1970-01-01T00:00:00",
+            "endDateTime": "1970-01-01T00:00:00",
+            "metrics": [
+                {
+                    "name": "Count",
+                    "statistic": "Sum",
+                    "order": "Ascending"
+                }
+            ],
+            "binBy": [
+                {
+                    "name": "ConversationStartTime",
+                    "interval": "OneHour",
+                    "order": "Ascending"
+                }
+            ],
+            "groupBy": [
+                {
+                    "name": "IntentName"
+                }
+            ],
+            "filters": [
+                {
+                    "name": "BotAliasId",
+                    "operator": "EQ",
+                    "values": [
+                        ""
+                    ]
+                }
+            ],
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [
+            "botId",
+            "startDateTime",
+            "endDateTime",
+            "metrics"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_intent_metrics",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249270.267602,
+        "end": 1711249278.222103,
+        "duration": 7.954513072967529,
+        "service": "lexv2-models",
+        "type": "intent_metrics"
+    }
+}

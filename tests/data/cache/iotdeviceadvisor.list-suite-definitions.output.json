@@ -1,0 +1,24 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_suite_definitions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248957.2355,
+        "end": 1711248970.793182,
+        "duration": 13.557699918746948,
+        "service": "iotdeviceadvisor",
+        "type": "suite_definitions"
+    }
+}

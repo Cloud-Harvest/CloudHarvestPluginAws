@@ -1,0 +1,30 @@
+{
+    "input": {
+        "template": {
+            "applicationId": "",
+            "dataSourceId": "",
+            "groupName": "",
+            "indexId": ""
+        },
+        "template_required_inputs": [
+            "applicationId",
+            "groupName",
+            "indexId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_group",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249857.195778,
+        "end": 1711249863.593246,
+        "duration": 6.397486209869385,
+        "service": "qbusiness",
+        "type": null
+    }
+}

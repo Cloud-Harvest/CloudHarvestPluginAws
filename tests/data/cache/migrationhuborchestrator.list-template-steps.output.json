@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "nextToken": "",
+            "templateId": "",
+            "stepGroupId": ""
+        },
+        "template_required_inputs": [
+            "templateId",
+            "stepGroupId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_template_steps",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249687.114112,
+        "end": 1711249693.158053,
+        "duration": 6.043956995010376,
+        "service": "migrationhuborchestrator",
+        "type": "template_steps"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "alarmName": "",
+            "pageToken": "",
+            "monitoredResourceName": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "get_alarms",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249454.562611,
+        "end": 1711249461.84417,
+        "duration": 7.281575918197632,
+        "service": "lightsail",
+        "type": null
+    }
+}

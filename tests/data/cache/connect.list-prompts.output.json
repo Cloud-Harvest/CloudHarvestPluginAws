@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "InstanceId": "",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "InstanceId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_prompts",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248305.339173,
+        "end": 1711248313.466066,
+        "duration": 8.126904964447021,
+        "service": "connect",
+        "type": "prompts"
+    }
+}

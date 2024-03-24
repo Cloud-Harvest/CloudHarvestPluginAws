@@ -1,0 +1,31 @@
+{
+    "input": {
+        "template": {
+            "AwsAccountId": "",
+            "UserName": "",
+            "NextToken": "",
+            "MaxResults": 0,
+            "Namespace": ""
+        },
+        "template_required_inputs": [
+            "AwsAccountId",
+            "UserName",
+            "Namespace"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_iam_policy_assignments_for_user",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249901.714219,
+        "end": 1711249908.101913,
+        "duration": 6.387709856033325,
+        "service": "quicksight",
+        "type": "iam_policy_assignments_for_user"
+    }
+}

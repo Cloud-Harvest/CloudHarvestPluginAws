@@ -1,0 +1,24 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_managed_resources",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247846.819558,
+        "end": 1711247853.95428,
+        "duration": 7.134750127792358,
+        "service": "arc-zonal-shift",
+        "type": "managed_resources"
+    }
+}

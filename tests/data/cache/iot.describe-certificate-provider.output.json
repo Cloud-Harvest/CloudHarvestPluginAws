@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "certificateProviderName": ""
+        },
+        "template_required_inputs": [
+            "certificateProviderName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_certificate_provider",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248908.447187,
+        "end": 1711248917.104713,
+        "duration": 8.657539129257202,
+        "service": "iot",
+        "type": "certificate_provider"
+    }
+}

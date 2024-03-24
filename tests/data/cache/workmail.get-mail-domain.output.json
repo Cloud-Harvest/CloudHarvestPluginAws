@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "OrganizationId": "",
+            "DomainName": ""
+        },
+        "template_required_inputs": [
+            "OrganizationId",
+            "DomainName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_mail_domain",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250345.730543,
+        "end": 1711250352.051679,
+        "duration": 6.321153163909912,
+        "service": "workmail",
+        "type": null
+    }
+}

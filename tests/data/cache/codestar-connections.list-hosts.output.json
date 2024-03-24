@@ -1,0 +1,24 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_hosts",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248194.320842,
+        "end": 1711248203.521661,
+        "duration": 9.200828075408936,
+        "service": "codestar-connections",
+        "type": "hosts"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "input": {
+        "template": {},
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "get_snapshot_block",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248488.538222,
+        "end": 1711248496.124859,
+        "duration": 7.586644887924194,
+        "service": "ebs",
+        "type": null
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "applicationId": "",
+            "dataSetName": ""
+        },
+        "template_required_inputs": [
+            "applicationId",
+            "dataSetName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_data_set_details",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249605.333818,
+        "end": 1711249611.496767,
+        "duration": 6.162966966629028,
+        "service": "m2",
+        "type": null
+    }
+}

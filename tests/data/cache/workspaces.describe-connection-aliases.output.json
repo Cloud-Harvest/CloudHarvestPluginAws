@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "AliasIds": [
+                ""
+            ],
+            "ResourceId": "",
+            "Limit": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "describe_connection_aliases",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250359.12864,
+        "end": 1711250372.760581,
+        "duration": 13.631978988647461,
+        "service": "workspaces",
+        "type": "connection_aliases"
+    }
+}

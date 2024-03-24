@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "datastoreId": ""
+        },
+        "template_required_inputs": [
+            "datastoreId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_datastore",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249664.780811,
+        "end": 1711249671.285727,
+        "duration": 6.504928827285767,
+        "service": "medical-imaging",
+        "type": null
+    }
+}

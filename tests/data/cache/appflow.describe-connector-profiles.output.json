@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "connectorProfileNames": [
+                ""
+            ],
+            "connectorType": "Salesforce",
+            "connectorLabel": "",
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "describe_connector_profiles",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247784.426722,
+        "end": 1711247801.327955,
+        "duration": 16.901241064071655,
+        "service": "appflow",
+        "type": "connector_profiles"
+    }
+}

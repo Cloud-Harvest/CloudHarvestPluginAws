@@ -1,0 +1,30 @@
+{
+    "input": {
+        "template": {
+            "workspaceId": "",
+            "entityId": "",
+            "componentPath": "",
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [
+            "workspaceId",
+            "entityId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_components",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249003.253056,
+        "end": 1711249012.996274,
+        "duration": 9.743259906768799,
+        "service": "iottwinmaker",
+        "type": "components"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "StatusEquals": "IN_PROGRESS",
+            "NameContains": "",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_language_models",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250247.240001,
+        "end": 1711250253.358565,
+        "duration": 6.1185829639434814,
+        "service": "transcribe",
+        "type": "language_models"
+    }
+}

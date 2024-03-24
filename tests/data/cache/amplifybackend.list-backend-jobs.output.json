@@ -1,0 +1,32 @@
+{
+    "input": {
+        "template": {
+            "AppId": "",
+            "BackendEnvironmentName": "",
+            "JobId": "",
+            "MaxResults": 0,
+            "NextToken": "",
+            "Operation": "",
+            "Status": ""
+        },
+        "template_required_inputs": [
+            "AppId",
+            "BackendEnvironmentName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_backend_jobs",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247724.740956,
+        "end": 1711247736.959758,
+        "duration": 12.218811988830566,
+        "service": "amplifybackend",
+        "type": "backend_jobs"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "OrganizationId": ""
+        },
+        "template_required_inputs": [
+            "OrganizationId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_email_monitoring_configuration",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250342.060294,
+        "end": 1711250347.1315,
+        "duration": 5.071221113204956,
+        "service": "workmail",
+        "type": "email_monitoring_configuration"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "nsInstanceId": ""
+        },
+        "template_required_inputs": [
+            "nsInstanceId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_sol_network_instance",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250240.800228,
+        "end": 1711250247.216907,
+        "duration": 6.416693925857544,
+        "service": "tnb",
+        "type": null
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "DistributionId": ""
+        },
+        "template_required_inputs": [
+            "DistributionId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_monitoring_subscription",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248085.187579,
+        "end": 1711248107.631916,
+        "duration": 22.44435214996338,
+        "service": "cloudfront",
+        "type": null
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "Id": ""
+        },
+        "template_required_inputs": [
+            "Id"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_job",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249635.117455,
+        "end": 1711249642.215746,
+        "duration": 7.098304986953735,
+        "service": "mediaconvert",
+        "type": null
+    }
+}

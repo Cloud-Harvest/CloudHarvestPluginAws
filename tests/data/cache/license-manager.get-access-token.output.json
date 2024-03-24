@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "Token": "",
+            "TokenProperties": [
+                ""
+            ]
+        },
+        "template_required_inputs": [
+            "Token"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_access_token",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249447.105869,
+        "end": 1711249452.485331,
+        "duration": 5.3794779777526855,
+        "service": "license-manager",
+        "type": null
+    }
+}

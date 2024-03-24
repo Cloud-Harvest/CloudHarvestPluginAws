@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "ApplicationInstanceId": "",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "ApplicationInstanceId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_application_instance_dependencies",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249789.702068,
+        "end": 1711249795.593647,
+        "duration": 5.891634941101074,
+        "service": "panorama",
+        "type": "application_instance_dependencies"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "InstanceId": "",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "InstanceId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_security_keys",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248308.095143,
+        "end": 1711248317.806606,
+        "duration": 9.711472988128662,
+        "service": "connect",
+        "type": "security_keys"
+    }
+}

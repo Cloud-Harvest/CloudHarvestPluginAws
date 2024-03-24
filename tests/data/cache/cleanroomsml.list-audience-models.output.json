@@ -1,0 +1,24 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_audience_models",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248048.666072,
+        "end": 1711248058.159823,
+        "duration": 9.493766069412231,
+        "service": "cleanroomsml",
+        "type": "audience_models"
+    }
+}

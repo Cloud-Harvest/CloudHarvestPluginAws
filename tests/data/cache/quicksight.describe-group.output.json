@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "GroupName": "",
+            "AwsAccountId": "",
+            "Namespace": ""
+        },
+        "template_required_inputs": [
+            "GroupName",
+            "AwsAccountId",
+            "Namespace"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_group",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249882.438988,
+        "end": 1711249888.969117,
+        "duration": 6.530143976211548,
+        "service": "quicksight",
+        "type": "group"
+    }
+}

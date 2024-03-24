@@ -1,0 +1,31 @@
+{
+    "input": {
+        "template": {
+            "startTime": "1970-01-01T00:00:00",
+            "endTime": "1970-01-01T00:00:00",
+            "taskType": "ON_DEMAND_AUDIT_TASK",
+            "taskStatus": "IN_PROGRESS",
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "template_required_inputs": [
+            "startTime",
+            "endTime"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_audit_tasks",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248929.737182,
+        "end": 1711248936.454106,
+        "duration": 6.71694016456604,
+        "service": "iot",
+        "type": "audit_tasks"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "input": {
+        "template": {
+            "OwnerDirectoryId": "",
+            "SharedDirectoryIds": [
+                ""
+            ],
+            "NextToken": "",
+            "Limit": 0
+        },
+        "template_required_inputs": [
+            "OwnerDirectoryId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_shared_directories",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248475.332623,
+        "end": 1711248483.681342,
+        "duration": 8.348730087280273,
+        "service": "ds",
+        "type": "shared_directories"
+    }
+}

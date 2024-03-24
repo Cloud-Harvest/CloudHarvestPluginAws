@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "domainIdentifier": "",
+            "type": "IAM",
+            "userIdentifier": ""
+        },
+        "template_required_inputs": [
+            "domainIdentifier",
+            "userIdentifier"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_user_profile",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248379.063597,
+        "end": 1711248385.803562,
+        "duration": 6.739995956420898,
+        "service": "datazone",
+        "type": null
+    }
+}

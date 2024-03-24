@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "ResourceScanId": ""
+        },
+        "template_required_inputs": [
+            "ResourceScanId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_resource_scan",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248065.757104,
+        "end": 1711248073.917963,
+        "duration": 8.160871982574463,
+        "service": "cloudformation",
+        "type": "resource_scan"
+    }
+}

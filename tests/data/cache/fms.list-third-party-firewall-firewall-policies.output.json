@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "ThirdPartyFirewall": "PALO_ALTO_NETWORKS_CLOUD_NGFW",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "ThirdPartyFirewall"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_third_party_firewall_firewall_policies",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248657.703354,
+        "end": 1711248664.512444,
+        "duration": 6.809100151062012,
+        "service": "fms",
+        "type": "third_party_firewall_firewall_policies"
+    }
+}

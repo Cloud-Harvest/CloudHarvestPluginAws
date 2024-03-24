@@ -1,0 +1,32 @@
+{
+    "input": {
+        "template": {
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "describe_outbound_connections",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249758.982857,
+        "end": 1711249765.386735,
+        "duration": 6.403894901275635,
+        "service": "opensearch",
+        "type": "outbound_connections"
+    }
+}

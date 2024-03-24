@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "AwsAccountId": "",
+            "FolderId": ""
+        },
+        "template_required_inputs": [
+            "AwsAccountId",
+            "FolderId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_folder",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249882.312713,
+        "end": 1711249889.123285,
+        "duration": 6.810588121414185,
+        "service": "quicksight",
+        "type": "folder"
+    }
+}

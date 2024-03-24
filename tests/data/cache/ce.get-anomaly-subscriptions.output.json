@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "SubscriptionArnList": [
+                ""
+            ],
+            "MonitorArn": "",
+            "NextPageToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "get_anomaly_subscriptions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247949.791458,
+        "end": 1711247965.377447,
+        "duration": 15.58600115776062,
+        "service": "ce",
+        "type": null
+    }
+}

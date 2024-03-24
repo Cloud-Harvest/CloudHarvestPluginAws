@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "HandshakeId": ""
+        },
+        "template_required_inputs": [
+            "HandshakeId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_handshake",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249774.650506,
+        "end": 1711249780.421966,
+        "duration": 5.771499872207642,
+        "service": "organizations",
+        "type": "handshake"
+    }
+}

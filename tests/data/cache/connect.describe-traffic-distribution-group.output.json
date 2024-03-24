@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "TrafficDistributionGroupId": ""
+        },
+        "template_required_inputs": [
+            "TrafficDistributionGroupId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_traffic_distribution_group",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248276.10411,
+        "end": 1711248281.75468,
+        "duration": 5.65057897567749,
+        "service": "connect",
+        "type": "traffic_distribution_group"
+    }
+}

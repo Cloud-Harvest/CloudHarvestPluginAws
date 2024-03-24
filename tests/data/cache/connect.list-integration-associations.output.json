@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "InstanceId": "",
+            "IntegrationType": "EVENT",
+            "NextToken": "",
+            "MaxResults": 0,
+            "IntegrationArn": ""
+        },
+        "template_required_inputs": [
+            "InstanceId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_integration_associations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248302.745681,
+        "end": 1711248309.056873,
+        "duration": 6.3112030029296875,
+        "service": "connect",
+        "type": "integration_associations"
+    }
+}

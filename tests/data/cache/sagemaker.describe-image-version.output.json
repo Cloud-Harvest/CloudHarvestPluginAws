@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "ImageName": "",
+            "Version": 0,
+            "Alias": ""
+        },
+        "template_required_inputs": [
+            "ImageName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_image_version",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250035.475768,
+        "end": 1711250041.869665,
+        "duration": 6.393909931182861,
+        "service": "sagemaker",
+        "type": "image_version"
+    }
+}

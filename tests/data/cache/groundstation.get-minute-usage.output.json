@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "month": 0,
+            "year": 0
+        },
+        "template_required_inputs": [
+            "month",
+            "year"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_minute_usage",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248799.80889,
+        "end": 1711248812.872516,
+        "duration": 13.063633918762207,
+        "service": "groundstation",
+        "type": null
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "connectorType": "Salesforce",
+            "connectorLabel": ""
+        },
+        "template_required_inputs": [
+            "connectorType"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_connector",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247783.808815,
+        "end": 1711247794.680358,
+        "duration": 10.871551990509033,
+        "service": "appflow",
+        "type": "connector"
+    }
+}

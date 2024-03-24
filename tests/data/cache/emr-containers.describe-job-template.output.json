@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "id": ""
+        },
+        "template_required_inputs": [
+            "id"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_job_template",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248597.743339,
+        "end": 1711248604.835135,
+        "duration": 7.091807842254639,
+        "service": "emr-containers",
+        "type": "job_template"
+    }
+}

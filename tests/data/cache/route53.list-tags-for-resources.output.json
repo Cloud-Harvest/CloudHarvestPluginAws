@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "ResourceType": "healthcheck",
+            "ResourceIds": [
+                ""
+            ]
+        },
+        "template_required_inputs": [
+            "ResourceType",
+            "ResourceIds"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_tags_for_resources",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249965.799523,
+        "end": 1711249971.920986,
+        "duration": 6.121478796005249,
+        "service": "route53",
+        "type": "tags_for_resources"
+    }
+}

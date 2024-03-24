@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "IdentityStoreId": "",
+            "UserId": ""
+        },
+        "template_required_inputs": [
+            "IdentityStoreId",
+            "UserId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_user",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248867.080651,
+        "end": 1711248873.744098,
+        "duration": 6.663455963134766,
+        "service": "identitystore",
+        "type": "user"
+    }
+}

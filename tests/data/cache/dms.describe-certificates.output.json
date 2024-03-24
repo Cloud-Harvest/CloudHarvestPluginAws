@@ -1,0 +1,32 @@
+{
+    "input": {
+        "template": {
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxRecords": 0,
+            "Marker": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "describe_certificates",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248453.790758,
+        "end": 1711248462.114616,
+        "duration": 8.323866128921509,
+        "service": "dms",
+        "type": "certificates"
+    }
+}

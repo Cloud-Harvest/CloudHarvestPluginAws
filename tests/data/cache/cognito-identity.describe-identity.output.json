@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "IdentityId": ""
+        },
+        "template_required_inputs": [
+            "IdentityId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_identity",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248196.806102,
+        "end": 1711248205.582119,
+        "duration": 8.776028871536255,
+        "service": "cognito-identity",
+        "type": "identity"
+    }
+}

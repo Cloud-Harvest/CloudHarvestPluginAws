@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "ConnectorId": ""
+        },
+        "template_required_inputs": [
+            "ConnectorId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_connector",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250249.377385,
+        "end": 1711250255.470979,
+        "duration": 6.09361720085144,
+        "service": "transfer",
+        "type": "connector"
+    }
+}

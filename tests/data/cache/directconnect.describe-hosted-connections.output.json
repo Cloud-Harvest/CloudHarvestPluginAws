@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "connectionId": ""
+        },
+        "template_required_inputs": [
+            "connectionId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_hosted_connections",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248450.414051,
+        "end": 1711248455.810155,
+        "duration": 5.3961169719696045,
+        "service": "directconnect",
+        "type": "hosted_connections"
+    }
+}

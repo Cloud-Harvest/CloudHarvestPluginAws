@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "ruleId": "",
+            "detectorId": "",
+            "ruleVersion": "",
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "template_required_inputs": [
+            "detectorId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_rules",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248675.137247,
+        "end": 1711248680.208902,
+        "duration": 5.071663856506348,
+        "service": "frauddetector",
+        "type": null
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "ResourceArn": ""
+        },
+        "template_required_inputs": [
+            "ResourceArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_tags_for_resource",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249654.539803,
+        "end": 1711249661.5135,
+        "duration": 6.973711967468262,
+        "service": "mediapackagev2",
+        "type": "tags_for_resource"
+    }
+}

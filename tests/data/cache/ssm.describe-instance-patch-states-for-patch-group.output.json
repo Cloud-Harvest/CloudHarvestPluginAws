@@ -1,0 +1,36 @@
+{
+    "input": {
+        "template": {
+            "PatchGroup": "",
+            "Filters": [
+                {
+                    "Key": "",
+                    "Values": [
+                        ""
+                    ],
+                    "Type": "Equal"
+                }
+            ],
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "PatchGroup"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_instance_patch_states_for_patch_group",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250139.970106,
+        "end": 1711250147.706443,
+        "duration": 7.7363550662994385,
+        "service": "ssm",
+        "type": "instance_patch_states_for_patch_group"
+    }
+}

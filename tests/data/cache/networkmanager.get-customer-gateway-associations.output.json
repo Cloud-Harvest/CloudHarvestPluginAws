@@ -1,0 +1,30 @@
+{
+    "input": {
+        "template": {
+            "GlobalNetworkId": "",
+            "CustomerGatewayArns": [
+                ""
+            ],
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "GlobalNetworkId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_customer_gateway_associations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249718.227315,
+        "end": 1711249724.333346,
+        "duration": 6.1060471534729,
+        "service": "networkmanager",
+        "type": null
+    }
+}

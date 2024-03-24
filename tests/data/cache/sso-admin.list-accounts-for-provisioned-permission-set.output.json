@@ -1,0 +1,30 @@
+{
+    "input": {
+        "template": {
+            "InstanceArn": "",
+            "MaxResults": 0,
+            "NextToken": "",
+            "PermissionSetArn": "",
+            "ProvisioningStatus": "LATEST_PERMISSION_SET_PROVISIONED"
+        },
+        "template_required_inputs": [
+            "InstanceArn",
+            "PermissionSetArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_accounts_for_provisioned_permission_set",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250190.045821,
+        "end": 1711250196.647596,
+        "duration": 6.601807117462158,
+        "service": "sso-admin",
+        "type": "accounts_for_provisioned_permission_set"
+    }
+}

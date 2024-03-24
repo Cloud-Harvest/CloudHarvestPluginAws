@@ -1,0 +1,37 @@
+{
+    "input": {
+        "template": {
+            "TransformId": "",
+            "NextToken": "",
+            "MaxResults": 0,
+            "Filter": {
+                "TaskRunType": "EVALUATION",
+                "Status": "STARTING",
+                "StartedBefore": "1970-01-01T00:00:00",
+                "StartedAfter": "1970-01-01T00:00:00"
+            },
+            "Sort": {
+                "Column": "TASK_RUN_TYPE",
+                "SortDirection": "DESCENDING"
+            }
+        },
+        "template_required_inputs": [
+            "TransformId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_ml_task_runs",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248722.085947,
+        "end": 1711248730.332581,
+        "duration": 8.246644973754883,
+        "service": "glue",
+        "type": null
+    }
+}

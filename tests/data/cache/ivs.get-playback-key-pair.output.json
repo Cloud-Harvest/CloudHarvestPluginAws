@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "arn": ""
+        },
+        "template_required_inputs": [
+            "arn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_playback_key_pair",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249023.178944,
+        "end": 1711249029.582191,
+        "duration": 6.403253793716431,
+        "service": "ivs",
+        "type": null
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "NotebookExecutionId": ""
+        },
+        "template_required_inputs": [
+            "NotebookExecutionId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_notebook_execution",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248592.183484,
+        "end": 1711248597.74285,
+        "duration": 5.559376955032349,
+        "service": "emr",
+        "type": "notebook_execution"
+    }
+}

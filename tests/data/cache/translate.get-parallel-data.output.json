@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "Name": ""
+        },
+        "template_required_inputs": [
+            "Name"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_parallel_data",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250259.585088,
+        "end": 1711250266.745499,
+        "duration": 7.160420894622803,
+        "service": "translate",
+        "type": null
+    }
+}

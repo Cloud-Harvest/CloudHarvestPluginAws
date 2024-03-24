@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "StandardsArn": "",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_security_control_definitions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250077.607896,
+        "end": 1711250086.624489,
+        "duration": 9.016611814498901,
+        "service": "securityhub",
+        "type": "security_control_definitions"
+    }
+}

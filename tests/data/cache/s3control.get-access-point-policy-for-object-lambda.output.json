@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "AccountId": "",
+            "Name": ""
+        },
+        "template_required_inputs": [
+            "AccountId",
+            "Name"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_access_point_policy_for_object_lambda",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250014.282659,
+        "end": 1711250019.625028,
+        "duration": 5.342383861541748,
+        "service": "s3control",
+        "type": null
+    }
+}

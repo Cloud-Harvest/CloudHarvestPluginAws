@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "Id": "",
+            "IndexId": "",
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "Id",
+            "IndexId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_experience_entities",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249188.355584,
+        "end": 1711249197.299423,
+        "duration": 8.943849086761475,
+        "service": "kendra",
+        "type": "experience_entities"
+    }
+}

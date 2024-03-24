@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "InstanceId": "",
+            "RoutingProfileId": "",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "InstanceId",
+            "RoutingProfileId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_routing_profile_queues",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248307.470177,
+        "end": 1711248314.956835,
+        "duration": 7.486667156219482,
+        "service": "connect",
+        "type": "routing_profile_queues"
+    }
+}

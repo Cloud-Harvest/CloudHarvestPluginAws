@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "KvsARN": "",
+            "Key": ""
+        },
+        "template_required_inputs": [
+            "KvsARN",
+            "Key"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_key",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248108.871541,
+        "end": 1711248121.548504,
+        "duration": 12.676971912384033,
+        "service": "cloudfront-keyvaluestore",
+        "type": null
+    }
+}

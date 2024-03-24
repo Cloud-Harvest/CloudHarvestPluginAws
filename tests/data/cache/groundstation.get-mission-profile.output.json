@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "missionProfileId": ""
+        },
+        "template_required_inputs": [
+            "missionProfileId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_mission_profile",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248799.809735,
+        "end": 1711248812.802207,
+        "duration": 12.992480039596558,
+        "service": "groundstation",
+        "type": null
+    }
+}

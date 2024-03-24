@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "appId": "",
+            "environmentName": ""
+        },
+        "template_required_inputs": [
+            "appId",
+            "environmentName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_metadata",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247725.209128,
+        "end": 1711247737.862982,
+        "duration": 12.653873205184937,
+        "service": "amplifyuibuilder",
+        "type": null
+    }
+}

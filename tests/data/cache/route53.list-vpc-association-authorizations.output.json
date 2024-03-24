@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "HostedZoneId": "",
+            "NextToken": "",
+            "MaxResults": ""
+        },
+        "template_required_inputs": [
+            "HostedZoneId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_vpc_association_authorizations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249970.500011,
+        "end": 1711249976.578982,
+        "duration": 6.07898211479187,
+        "service": "route53",
+        "type": "vpc_association_authorizations"
+    }
+}

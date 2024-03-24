@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "Format": "JSON",
+            "GeneratedTemplateName": ""
+        },
+        "template_required_inputs": [
+            "GeneratedTemplateName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_generated_template",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248070.415838,
+        "end": 1711248076.84987,
+        "duration": 6.434046983718872,
+        "service": "cloudformation",
+        "type": null
+    }
+}

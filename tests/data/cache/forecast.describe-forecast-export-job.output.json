@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "ForecastExportJobArn": ""
+        },
+        "template_required_inputs": [
+            "ForecastExportJobArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_forecast_export_job",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248660.406506,
+        "end": 1711248668.361273,
+        "duration": 7.954777002334595,
+        "service": "forecast",
+        "type": "forecast_export_job"
+    }
+}

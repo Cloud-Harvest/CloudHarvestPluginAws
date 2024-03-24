@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "name": "",
+            "startingToken": "",
+            "maxResults": 0
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_run_groups",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249751.01377,
+        "end": 1711249759.243476,
+        "duration": 8.229723930358887,
+        "service": "omics",
+        "type": "run_groups"
+    }
+}

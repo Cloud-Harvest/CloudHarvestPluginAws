@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "InstanceId": "",
+            "EvaluationId": ""
+        },
+        "template_required_inputs": [
+            "InstanceId",
+            "EvaluationId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_contact_evaluation",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248265.537978,
+        "end": 1711248276.097131,
+        "duration": 10.559162139892578,
+        "service": "connect",
+        "type": "contact_evaluation"
+    }
+}

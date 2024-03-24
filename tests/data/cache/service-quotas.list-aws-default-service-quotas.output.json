@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "ServiceCode": "",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "ServiceCode"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_aws_default_service_quotas",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250082.90884,
+        "end": 1711250089.146067,
+        "duration": 6.237236022949219,
+        "service": "service-quotas",
+        "type": "aws_default_service_quotas"
+    }
+}

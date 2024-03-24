@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "DatasetImportJobArn": ""
+        },
+        "template_required_inputs": [
+            "DatasetImportJobArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_dataset_import_job",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248658.038342,
+        "end": 1711248665.354253,
+        "duration": 7.315948963165283,
+        "service": "forecast",
+        "type": "dataset_import_job"
+    }
+}

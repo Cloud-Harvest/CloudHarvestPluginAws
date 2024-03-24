@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "recommendationId": ""
+        },
+        "template_required_inputs": [
+            "recommendationId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_recommendation",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248331.047341,
+        "end": 1711248337.654671,
+        "duration": 6.607342958450317,
+        "service": "cost-optimization-hub",
+        "type": null
+    }
+}

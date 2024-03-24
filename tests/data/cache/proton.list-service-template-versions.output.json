@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "majorVersion": "",
+            "maxResults": 0,
+            "nextToken": "",
+            "templateName": ""
+        },
+        "template_required_inputs": [
+            "templateName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_service_template_versions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249857.101535,
+        "end": 1711249863.695782,
+        "duration": 6.594266891479492,
+        "service": "proton",
+        "type": "service_template_versions"
+    }
+}

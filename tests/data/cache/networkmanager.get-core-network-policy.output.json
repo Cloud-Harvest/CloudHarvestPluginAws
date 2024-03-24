@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "CoreNetworkId": "",
+            "PolicyVersionId": 0,
+            "Alias": "LIVE"
+        },
+        "template_required_inputs": [
+            "CoreNetworkId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_core_network_policy",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249718.205709,
+        "end": 1711249724.442327,
+        "duration": 6.236638069152832,
+        "service": "networkmanager",
+        "type": null
+    }
+}

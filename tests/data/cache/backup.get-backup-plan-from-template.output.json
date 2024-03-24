@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "BackupPlanTemplateId": ""
+        },
+        "template_required_inputs": [
+            "BackupPlanTemplateId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_backup_plan_from_template",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247898.623167,
+        "end": 1711247915.68217,
+        "duration": 17.05901002883911,
+        "service": "backup",
+        "type": null
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "AccountId": "",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "AccountId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_budgets",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247947.385533,
+        "end": 1711247954.436021,
+        "duration": 7.050508975982666,
+        "service": "budgets",
+        "type": "budgets"
+    }
+}

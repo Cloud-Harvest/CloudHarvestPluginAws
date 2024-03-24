@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "InstanceId": "",
+            "ViewId": "",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "InstanceId",
+            "ViewId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_view_versions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248314.46623,
+        "end": 1711248322.476138,
+        "duration": 8.00991702079773,
+        "service": "connect",
+        "type": "view_versions"
+    }
+}

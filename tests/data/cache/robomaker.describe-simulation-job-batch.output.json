@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "batch": ""
+        },
+        "template_required_inputs": [
+            "batch"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_simulation_job_batch",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249953.457121,
+        "end": 1711249959.677387,
+        "duration": 6.220288991928101,
+        "service": "robomaker",
+        "type": "simulation_job_batch"
+    }
+}

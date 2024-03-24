@@ -1,0 +1,39 @@
+{
+    "input": {
+        "template": {
+            "ScalingPlanName": "",
+            "ScalingPlanVersion": 0,
+            "ServiceNamespace": "autoscaling",
+            "ResourceId": "",
+            "ScalableDimension": "autoscaling:autoScalingGroup:DesiredCapacity",
+            "ForecastDataType": "CapacityForecast",
+            "StartTime": "1970-01-01T00:00:00",
+            "EndTime": "1970-01-01T00:00:00"
+        },
+        "template_required_inputs": [
+            "ScalingPlanName",
+            "ScalingPlanVersion",
+            "ServiceNamespace",
+            "ResourceId",
+            "ScalableDimension",
+            "ForecastDataType",
+            "StartTime",
+            "EndTime"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_scaling_plan_resource_forecast_data",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247884.951266,
+        "end": 1711247897.847179,
+        "duration": 12.89594292640686,
+        "service": "autoscaling-plans",
+        "type": null
+    }
+}

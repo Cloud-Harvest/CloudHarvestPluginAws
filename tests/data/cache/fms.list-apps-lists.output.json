@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "DefaultLists": true,
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_apps_lists",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248652.919087,
+        "end": 1711248659.150696,
+        "duration": 6.231616973876953,
+        "service": "fms",
+        "type": "apps_lists"
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "input": {
+        "template": {
+            "StreamName": "",
+            "StreamARN": "",
+            "ImageSelectorType": "PRODUCER_TIMESTAMP",
+            "StartTimestamp": "1970-01-01T00:00:00",
+            "EndTimestamp": "1970-01-01T00:00:00",
+            "SamplingInterval": 0,
+            "Format": "JPEG",
+            "FormatConfig": {
+                "KeyName": ""
+            },
+            "WidthPixels": 0,
+            "HeightPixels": 0,
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "ImageSelectorType",
+            "StartTimestamp",
+            "EndTimestamp",
+            "Format"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_images",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249201.009675,
+        "end": 1711249208.090656,
+        "duration": 7.080991983413696,
+        "service": "kinesis-video-archived-media",
+        "type": null
+    }
+}

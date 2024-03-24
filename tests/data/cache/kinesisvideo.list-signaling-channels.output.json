@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": "",
+            "ChannelNameCondition": {
+                "ComparisonOperator": "BEGINS_WITH",
+                "ComparisonValue": ""
+            }
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_signaling_channels",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249208.552363,
+        "end": 1711249220.527785,
+        "duration": 11.97543215751648,
+        "service": "kinesisvideo",
+        "type": "signaling_channels"
+    }
+}

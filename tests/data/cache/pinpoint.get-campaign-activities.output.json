@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "ApplicationId": "",
+            "CampaignId": "",
+            "PageSize": "",
+            "Token": ""
+        },
+        "template_required_inputs": [
+            "ApplicationId",
+            "CampaignId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_campaign_activities",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249812.817506,
+        "end": 1711249819.029177,
+        "duration": 6.2116858959198,
+        "service": "pinpoint",
+        "type": null
+    }
+}

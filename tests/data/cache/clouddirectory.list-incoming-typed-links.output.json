@@ -1,0 +1,59 @@
+{
+    "input": {
+        "template": {
+            "DirectoryArn": "",
+            "ObjectReference": {
+                "Selector": ""
+            },
+            "FilterAttributeRanges": [
+                {
+                    "AttributeName": "",
+                    "Range": {
+                        "StartMode": "FIRST",
+                        "StartValue": {
+                            "StringValue": "",
+                            "BinaryValue": null,
+                            "BooleanValue": true,
+                            "NumberValue": "",
+                            "DatetimeValue": "1970-01-01T00:00:00"
+                        },
+                        "EndMode": "FIRST",
+                        "EndValue": {
+                            "StringValue": "",
+                            "BinaryValue": null,
+                            "BooleanValue": true,
+                            "NumberValue": "",
+                            "DatetimeValue": "1970-01-01T00:00:00"
+                        }
+                    }
+                }
+            ],
+            "FilterTypedLink": {
+                "SchemaArn": "",
+                "TypedLinkName": ""
+            },
+            "NextToken": "",
+            "MaxResults": 0,
+            "ConsistencyLevel": "SERIALIZABLE"
+        },
+        "template_required_inputs": [
+            "DirectoryArn",
+            "ObjectReference"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_incoming_typed_links",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248058.49168,
+        "end": 1711248065.865799,
+        "duration": 7.374140977859497,
+        "service": "clouddirectory",
+        "type": "incoming_typed_links"
+    }
+}

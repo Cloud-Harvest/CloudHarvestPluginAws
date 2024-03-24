@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "attachmentId": ""
+        },
+        "template_required_inputs": [
+            "attachmentId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_attachment",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250216.824882,
+        "end": 1711250222.978959,
+        "duration": 6.154088973999023,
+        "service": "support",
+        "type": "attachment"
+    }
+}

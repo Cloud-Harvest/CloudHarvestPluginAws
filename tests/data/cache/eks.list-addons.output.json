@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "clusterName": "",
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [
+            "clusterName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_addons",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248552.596122,
+        "end": 1711248559.4695,
+        "duration": 6.873386859893799,
+        "service": "eks",
+        "type": "addons"
+    }
+}

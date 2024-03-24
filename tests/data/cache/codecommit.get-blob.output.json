@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "repositoryName": "",
+            "blobId": ""
+        },
+        "template_required_inputs": [
+            "repositoryName",
+            "blobId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_blob",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248152.928275,
+        "end": 1711248160.964405,
+        "duration": 8.036143779754639,
+        "service": "codecommit",
+        "type": null
+    }
+}

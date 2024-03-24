@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "DeviceFleetName": ""
+        },
+        "template_required_inputs": [
+            "DeviceFleetName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_device_fleet",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250028.720692,
+        "end": 1711250035.461323,
+        "duration": 6.7406511306762695,
+        "service": "sagemaker",
+        "type": "device_fleet"
+    }
+}

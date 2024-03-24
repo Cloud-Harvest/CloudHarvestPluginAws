@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "CatalogId": "",
+            "DatabaseName": "",
+            "TableName": "",
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "DatabaseName",
+            "TableName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_partition_indexes",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248724.503182,
+        "end": 1711248731.649395,
+        "duration": 7.146222114562988,
+        "service": "glue",
+        "type": null
+    }
+}

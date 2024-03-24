@@ -1,0 +1,35 @@
+{
+    "input": {
+        "template": {
+            "DBParameterGroupFamily": "",
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxRecords": 0,
+            "Marker": ""
+        },
+        "template_required_inputs": [
+            "DBParameterGroupFamily"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_engine_default_parameters",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249704.757341,
+        "end": 1711249710.950632,
+        "duration": 6.193307161331177,
+        "service": "neptune",
+        "type": "engine_default_parameters"
+    }
+}

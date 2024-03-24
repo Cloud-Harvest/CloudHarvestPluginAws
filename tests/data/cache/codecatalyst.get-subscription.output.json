@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "spaceName": ""
+        },
+        "template_required_inputs": [
+            "spaceName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_subscription",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248146.797831,
+        "end": 1711248153.011524,
+        "duration": 6.213714838027954,
+        "service": "codecatalyst",
+        "type": null
+    }
+}

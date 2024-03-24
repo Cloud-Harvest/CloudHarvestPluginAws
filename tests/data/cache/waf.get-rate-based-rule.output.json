@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "RuleId": ""
+        },
+        "template_required_inputs": [
+            "RuleId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_rate_based_rule",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250283.124929,
+        "end": 1711250289.469638,
+        "duration": 6.344727039337158,
+        "service": "waf",
+        "type": null
+    }
+}

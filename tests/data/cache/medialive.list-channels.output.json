@@ -1,0 +1,24 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_channels",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249642.235401,
+        "end": 1711249654.301017,
+        "duration": 12.065639019012451,
+        "service": "medialive",
+        "type": "channels"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "applicationId": "",
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [
+            "applicationId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_web_experiences",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249863.687619,
+        "end": 1711249869.799736,
+        "duration": 6.11213493347168,
+        "service": "qbusiness",
+        "type": "web_experiences"
+    }
+}

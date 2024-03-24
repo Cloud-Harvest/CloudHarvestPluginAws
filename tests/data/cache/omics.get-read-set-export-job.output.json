@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "sequenceStoreId": "",
+            "id": ""
+        },
+        "template_required_inputs": [
+            "sequenceStoreId",
+            "id"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_read_set_export_job",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249740.011734,
+        "end": 1711249746.663536,
+        "duration": 6.651824951171875,
+        "service": "omics",
+        "type": null
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "OrganizationalUnitId": ""
+        },
+        "template_required_inputs": [
+            "OrganizationalUnitId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_organizational_unit",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249775.564246,
+        "end": 1711249780.814669,
+        "duration": 5.250439167022705,
+        "service": "organizations",
+        "type": "organizational_unit"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "DomainName": "",
+            "Deployed": true
+        },
+        "template_required_inputs": [
+            "DomainName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_service_access_policies",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248115.930248,
+        "end": 1711248125.764602,
+        "duration": 9.834374904632568,
+        "service": "cloudsearch",
+        "type": "service_access_policies"
+    }
+}

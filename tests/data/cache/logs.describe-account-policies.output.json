@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "policyType": "DATA_PROTECTION_POLICY",
+            "policyName": "",
+            "accountIdentifiers": [
+                ""
+            ]
+        },
+        "template_required_inputs": [
+            "policyType"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_account_policies",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249477.593737,
+        "end": 1711249483.795542,
+        "duration": 6.2018141746521,
+        "service": "logs",
+        "type": "account_policies"
+    }
+}

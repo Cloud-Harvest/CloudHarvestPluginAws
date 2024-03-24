@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "PipelineId": "",
+            "Ascending": "",
+            "PageToken": ""
+        },
+        "template_required_inputs": [
+            "PipelineId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_jobs_by_pipeline",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248559.37068,
+        "end": 1711248592.17032,
+        "duration": 32.79964995384216,
+        "service": "elastictranscoder",
+        "type": "jobs_by_pipeline"
+    }
+}

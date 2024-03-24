@@ -1,0 +1,39 @@
+{
+    "input": {
+        "template": {
+            "Engine": "",
+            "EngineVersion": "",
+            "DBInstanceClass": "",
+            "LicenseModel": "",
+            "Vpc": true,
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxRecords": 0,
+            "Marker": ""
+        },
+        "template_required_inputs": [
+            "Engine"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_orderable_db_instance_options",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249704.775608,
+        "end": 1711249711.05633,
+        "duration": 6.280735015869141,
+        "service": "neptune",
+        "type": "orderable_db_instance_options"
+    }
+}

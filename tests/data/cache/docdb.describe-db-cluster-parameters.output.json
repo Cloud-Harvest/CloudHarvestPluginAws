@@ -1,0 +1,36 @@
+{
+    "input": {
+        "template": {
+            "DBClusterParameterGroupName": "",
+            "Source": "",
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxRecords": 0,
+            "Marker": ""
+        },
+        "template_required_inputs": [
+            "DBClusterParameterGroupName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_db_cluster_parameters",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248461.848672,
+        "end": 1711248468.70307,
+        "duration": 6.854406118392944,
+        "service": "docdb",
+        "type": "db_cluster_parameters"
+    }
+}

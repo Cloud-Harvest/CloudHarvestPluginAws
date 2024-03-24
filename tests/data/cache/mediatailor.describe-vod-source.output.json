@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "SourceLocationName": "",
+            "VodSourceName": ""
+        },
+        "template_required_inputs": [
+            "SourceLocationName",
+            "VodSourceName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_vod_source",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249660.376919,
+        "end": 1711249666.755829,
+        "duration": 6.378926992416382,
+        "service": "mediatailor",
+        "type": "vod_source"
+    }
+}

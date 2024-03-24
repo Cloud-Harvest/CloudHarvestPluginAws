@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "BaselineId": ""
+        },
+        "template_required_inputs": [
+            "BaselineId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_patch_baseline",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250154.100493,
+        "end": 1711250160.961304,
+        "duration": 6.860826015472412,
+        "service": "ssm",
+        "type": null
+    }
+}

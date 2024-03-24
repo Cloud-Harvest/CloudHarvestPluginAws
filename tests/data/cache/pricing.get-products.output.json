@@ -1,0 +1,35 @@
+{
+    "input": {
+        "template": {
+            "ServiceCode": "",
+            "Filters": [
+                {
+                    "Type": "TERM_MATCH",
+                    "Field": "",
+                    "Value": ""
+                }
+            ],
+            "FormatVersion": "",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "ServiceCode"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_products",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249842.837847,
+        "end": 1711249848.459818,
+        "duration": 5.621983051300049,
+        "service": "pricing",
+        "type": null
+    }
+}

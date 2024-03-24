@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "LoadBalancerNames": [
+                ""
+            ],
+            "Marker": "",
+            "PageSize": 0
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "describe_load_balancers",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248560.799124,
+        "end": 1711248592.694909,
+        "duration": 31.895795106887817,
+        "service": "elb",
+        "type": "load_balancers"
+    }
+}

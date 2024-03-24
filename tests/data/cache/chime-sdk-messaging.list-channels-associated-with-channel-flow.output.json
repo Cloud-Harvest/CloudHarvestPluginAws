@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "ChannelFlowArn": "",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "ChannelFlowArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_channels_associated_with_channel_flow",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248005.559658,
+        "end": 1711248014.962324,
+        "duration": 9.402682065963745,
+        "service": "chime-sdk-messaging",
+        "type": "channels_associated_with_channel_flow"
+    }
+}

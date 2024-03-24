@@ -1,0 +1,23 @@
+{
+    "input": {
+        "template": {
+            "NextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_notification_channels",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248445.645189,
+        "end": 1711248453.851534,
+        "duration": 8.206356048583984,
+        "service": "devops-guru",
+        "type": "notification_channels"
+    }
+}

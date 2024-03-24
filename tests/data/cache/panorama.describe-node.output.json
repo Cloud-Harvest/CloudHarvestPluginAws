@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "NodeId": "",
+            "OwnerAccount": ""
+        },
+        "template_required_inputs": [
+            "NodeId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_node",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249787.874786,
+        "end": 1711249793.097263,
+        "duration": 5.222488164901733,
+        "service": "panorama",
+        "type": "node"
+    }
+}

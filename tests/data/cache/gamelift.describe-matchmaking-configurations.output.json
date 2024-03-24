@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "Names": [
+                ""
+            ],
+            "RuleSetName": "",
+            "Limit": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "describe_matchmaking_configurations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248690.928394,
+        "end": 1711248698.945546,
+        "duration": 8.017161846160889,
+        "service": "gamelift",
+        "type": "matchmaking_configurations"
+    }
+}

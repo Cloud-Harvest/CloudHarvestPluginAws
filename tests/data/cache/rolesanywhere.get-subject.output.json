@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "subjectId": ""
+        },
+        "template_required_inputs": [
+            "subjectId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_subject",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249958.515508,
+        "end": 1711249964.476195,
+        "duration": 5.960695028305054,
+        "service": "rolesanywhere",
+        "type": null
+    }
+}

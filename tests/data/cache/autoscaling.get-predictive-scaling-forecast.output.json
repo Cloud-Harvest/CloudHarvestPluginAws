@@ -1,0 +1,31 @@
+{
+    "input": {
+        "template": {
+            "AutoScalingGroupName": "",
+            "PolicyName": "",
+            "StartTime": "1970-01-01T00:00:00",
+            "EndTime": "1970-01-01T00:00:00"
+        },
+        "template_required_inputs": [
+            "AutoScalingGroupName",
+            "PolicyName",
+            "StartTime",
+            "EndTime"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_predictive_scaling_forecast",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247882.713104,
+        "end": 1711247894.140703,
+        "duration": 11.42760705947876,
+        "service": "autoscaling",
+        "type": null
+    }
+}

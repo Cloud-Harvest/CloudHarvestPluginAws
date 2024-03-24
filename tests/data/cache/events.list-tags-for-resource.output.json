@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "ResourceARN": ""
+        },
+        "template_required_inputs": [
+            "ResourceARN"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_tags_for_resource",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248627.599701,
+        "end": 1711248632.620134,
+        "duration": 5.02044415473938,
+        "service": "events",
+        "type": "tags_for_resource"
+    }
+}

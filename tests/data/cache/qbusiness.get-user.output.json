@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "applicationId": "",
+            "userId": ""
+        },
+        "template_required_inputs": [
+            "applicationId",
+            "userId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_user",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249862.476428,
+        "end": 1711249868.679832,
+        "duration": 6.203415870666504,
+        "service": "qbusiness",
+        "type": null
+    }
+}

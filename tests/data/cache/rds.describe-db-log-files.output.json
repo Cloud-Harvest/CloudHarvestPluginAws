@@ -1,0 +1,38 @@
+{
+    "input": {
+        "template": {
+            "DBInstanceIdentifier": "",
+            "FilenameContains": "",
+            "FileLastWritten": 0,
+            "FileSize": 0,
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxRecords": 0,
+            "Marker": ""
+        },
+        "template_required_inputs": [
+            "DBInstanceIdentifier"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_db_log_files",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249915.435268,
+        "end": 1711249921.477733,
+        "duration": 6.0424840450286865,
+        "service": "rds",
+        "type": "db_log_files"
+    }
+}

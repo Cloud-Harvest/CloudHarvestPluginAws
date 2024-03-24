@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "ApplicationId": ""
+        },
+        "template_required_inputs": [
+            "ApplicationId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_application_state",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249669.593574,
+        "end": 1711249675.970231,
+        "duration": 6.3766820430755615,
+        "service": "mgh",
+        "type": "application_state"
+    }
+}

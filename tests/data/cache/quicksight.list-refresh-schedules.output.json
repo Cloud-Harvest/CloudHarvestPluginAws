@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "AwsAccountId": "",
+            "DataSetId": ""
+        },
+        "template_required_inputs": [
+            "AwsAccountId",
+            "DataSetId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_refresh_schedules",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249901.728304,
+        "end": 1711249908.04758,
+        "duration": 6.319291114807129,
+        "service": "quicksight",
+        "type": "refresh_schedules"
+    }
+}

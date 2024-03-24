@@ -1,0 +1,33 @@
+{
+    "input": {
+        "template": {
+            "DirectoryArn": "",
+            "ObjectReference": {
+                "Selector": ""
+            },
+            "NextToken": "",
+            "MaxResults": 0,
+            "ConsistencyLevel": "SERIALIZABLE",
+            "IncludeAllLinksToEachParent": true
+        },
+        "template_required_inputs": [
+            "DirectoryArn",
+            "ObjectReference"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_object_parents",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248060.705911,
+        "end": 1711248068.219177,
+        "duration": 7.513293027877808,
+        "service": "clouddirectory",
+        "type": "object_parents"
+    }
+}

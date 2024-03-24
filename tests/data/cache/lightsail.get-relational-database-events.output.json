@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "relationalDatabaseName": "",
+            "durationInMinutes": 0,
+            "pageToken": ""
+        },
+        "template_required_inputs": [
+            "relationalDatabaseName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_relational_database_events",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249464.83762,
+        "end": 1711249471.637608,
+        "duration": 6.799998044967651,
+        "service": "lightsail",
+        "type": null
+    }
+}

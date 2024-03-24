@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "snapshotArn": ""
+        },
+        "template_required_inputs": [
+            "snapshotArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_cluster_snapshot",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248465.287346,
+        "end": 1711248472.067879,
+        "duration": 6.780544996261597,
+        "service": "docdb-elastic",
+        "type": null
+    }
+}

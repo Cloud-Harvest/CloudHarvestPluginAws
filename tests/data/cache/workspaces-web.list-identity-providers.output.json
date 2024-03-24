@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "nextToken": "",
+            "portalArn": ""
+        },
+        "template_required_inputs": [
+            "portalArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_identity_providers",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250378.39601,
+        "end": 1711250383.422927,
+        "duration": 5.0269269943237305,
+        "service": "workspaces-web",
+        "type": "identity_providers"
+    }
+}

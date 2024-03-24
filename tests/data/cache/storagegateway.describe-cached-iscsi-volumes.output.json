@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "VolumeARNs": [
+                ""
+            ]
+        },
+        "template_required_inputs": [
+            "VolumeARNs"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_cached_iscsi_volumes",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250202.553551,
+        "end": 1711250208.723505,
+        "duration": 6.169973134994507,
+        "service": "storagegateway",
+        "type": "cached_iscsi_volumes"
+    }
+}

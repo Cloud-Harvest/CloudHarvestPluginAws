@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "appId": ""
+        },
+        "template_required_inputs": [
+            "appId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_app",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247709.650829,
+        "end": 1711247724.550252,
+        "duration": 14.899432897567749,
+        "service": "amplify",
+        "type": null
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "ApplicationArn": "",
+            "Scope": ""
+        },
+        "template_required_inputs": [
+            "ApplicationArn",
+            "Scope"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_application_access_scope",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250183.318961,
+        "end": 1711250190.044268,
+        "duration": 6.725318193435669,
+        "service": "sso-admin",
+        "type": null
+    }
+}

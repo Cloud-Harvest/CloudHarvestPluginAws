@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "JobId": ""
+        },
+        "template_required_inputs": [
+            "JobId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_export_job",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250114.760942,
+        "end": 1711250121.002405,
+        "duration": 6.241470098495483,
+        "service": "sesv2",
+        "type": null
+    }
+}

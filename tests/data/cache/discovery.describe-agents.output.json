@@ -1,0 +1,36 @@
+{
+    "input": {
+        "template": {
+            "agentIds": [
+                ""
+            ],
+            "filters": [
+                {
+                    "name": "",
+                    "values": [
+                        ""
+                    ],
+                    "condition": ""
+                }
+            ],
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "describe_agents",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248453.125412,
+        "end": 1711248461.417708,
+        "duration": 8.292304039001465,
+        "service": "discovery",
+        "type": "agents"
+    }
+}

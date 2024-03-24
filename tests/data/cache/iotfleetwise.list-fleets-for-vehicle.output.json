@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "vehicleName": "",
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "template_required_inputs": [
+            "vehicleName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_fleets_for_vehicle",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248971.685851,
+        "end": 1711248984.971504,
+        "duration": 13.285666942596436,
+        "service": "iotfleetwise",
+        "type": "fleets_for_vehicle"
+    }
+}

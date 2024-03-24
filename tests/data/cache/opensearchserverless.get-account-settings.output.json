@@ -1,0 +1,21 @@
+{
+    "input": {
+        "template": {},
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "get_account_settings",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249766.417048,
+        "end": 1711249772.592132,
+        "duration": 6.1750969886779785,
+        "service": "opensearchserverless",
+        "type": null
+    }
+}

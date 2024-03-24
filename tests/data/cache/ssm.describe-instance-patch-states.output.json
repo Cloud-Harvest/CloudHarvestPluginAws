@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "InstanceIds": [
+                ""
+            ],
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "InstanceIds"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_instance_patch_states",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250139.896956,
+        "end": 1711250146.842148,
+        "duration": 6.945203065872192,
+        "service": "ssm",
+        "type": "instance_patch_states"
+    }
+}

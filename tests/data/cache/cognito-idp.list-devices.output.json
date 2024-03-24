@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "AccessToken": "",
+            "Limit": 0,
+            "PaginationToken": ""
+        },
+        "template_required_inputs": [
+            "AccessToken"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_devices",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248210.146089,
+        "end": 1711248218.717903,
+        "duration": 8.571825981140137,
+        "service": "cognito-idp",
+        "type": "devices"
+    }
+}

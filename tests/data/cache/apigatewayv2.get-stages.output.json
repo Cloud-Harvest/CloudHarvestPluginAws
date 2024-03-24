@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "ApiId": "",
+            "MaxResults": "",
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "ApiId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_stages",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247766.218337,
+        "end": 1711247778.327021,
+        "duration": 12.108693838119507,
+        "service": "apigatewayv2",
+        "type": null
+    }
+}

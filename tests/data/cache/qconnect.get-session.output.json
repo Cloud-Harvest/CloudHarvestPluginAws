@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "assistantId": "",
+            "sessionId": ""
+        },
+        "template_required_inputs": [
+            "assistantId",
+            "sessionId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_session",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249869.792905,
+        "end": 1711249875.927139,
+        "duration": 6.134251832962036,
+        "service": "qconnect",
+        "type": null
+    }
+}

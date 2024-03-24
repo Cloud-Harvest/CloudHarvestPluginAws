@@ -1,0 +1,33 @@
+{
+    "input": {
+        "template": {
+            "GlobalNetworkId": "",
+            "CoreNetworkId": "",
+            "RegisteredGatewayArn": "",
+            "AwsRegion": "",
+            "AccountId": "",
+            "ResourceType": "",
+            "ResourceArn": "",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "GlobalNetworkId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_network_telemetry",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249721.376128,
+        "end": 1711249727.430881,
+        "duration": 6.054769039154053,
+        "service": "networkmanager",
+        "type": null
+    }
+}

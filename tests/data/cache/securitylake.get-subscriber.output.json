@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "subscriberId": ""
+        },
+        "template_required_inputs": [
+            "subscriberId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_subscriber",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250077.693291,
+        "end": 1711250082.783111,
+        "duration": 5.08983302116394,
+        "service": "securitylake",
+        "type": null
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "input": {
+        "template": {
+            "GameServerGroupName": "",
+            "InstanceIds": [
+                ""
+            ],
+            "Limit": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "GameServerGroupName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_game_server_instances",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248686.285414,
+        "end": 1711248694.203763,
+        "duration": 7.918359041213989,
+        "service": "gamelift",
+        "type": "game_server_instances"
+    }
+}

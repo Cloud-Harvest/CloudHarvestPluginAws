@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "Catalog": "",
+            "EntityId": ""
+        },
+        "template_required_inputs": [
+            "Catalog",
+            "EntityId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_entity",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249629.09168,
+        "end": 1711249635.144716,
+        "duration": 6.0530500411987305,
+        "service": "marketplace-catalog",
+        "type": "entity"
+    }
+}

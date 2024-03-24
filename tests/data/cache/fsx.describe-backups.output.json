@@ -1,0 +1,35 @@
+{
+    "input": {
+        "template": {
+            "BackupIds": [
+                ""
+            ],
+            "Filters": [
+                {
+                    "Name": "file-system-id",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "describe_backups",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248675.580535,
+        "end": 1711248692.523618,
+        "duration": 16.943092107772827,
+        "service": "fsx",
+        "type": "backups"
+    }
+}

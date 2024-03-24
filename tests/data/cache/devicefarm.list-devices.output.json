@@ -1,0 +1,33 @@
+{
+    "input": {
+        "template": {
+            "arn": "",
+            "nextToken": "",
+            "filters": [
+                {
+                    "attribute": "ARN",
+                    "operator": "EQUALS",
+                    "values": [
+                        ""
+                    ]
+                }
+            ]
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_devices",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248412.394497,
+        "end": 1711248440.203219,
+        "duration": 27.808732986450195,
+        "service": "devicefarm",
+        "type": "devices"
+    }
+}

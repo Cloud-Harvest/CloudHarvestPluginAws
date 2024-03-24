@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "TransactionId": ""
+        },
+        "template_required_inputs": [
+            "TransactionId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_transaction",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249219.971981,
+        "end": 1711249225.504524,
+        "duration": 5.5325539112091064,
+        "service": "lakeformation",
+        "type": "transaction"
+    }
+}

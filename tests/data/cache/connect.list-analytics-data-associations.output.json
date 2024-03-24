@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "InstanceId": "",
+            "DataSetId": "",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "InstanceId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_analytics_data_associations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248283.116816,
+        "end": 1711248304.863036,
+        "duration": 21.746227979660034,
+        "service": "connect",
+        "type": "analytics_data_associations"
+    }
+}

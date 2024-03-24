@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "nextToken": "",
+            "resourceArn": ""
+        },
+        "template_required_inputs": [
+            "resourceArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_resource_policies",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250167.189855,
+        "end": 1711250172.941691,
+        "duration": 5.751853942871094,
+        "service": "ssm-incidents",
+        "type": null
+    }
+}

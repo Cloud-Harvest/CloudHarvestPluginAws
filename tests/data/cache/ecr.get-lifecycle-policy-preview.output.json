@@ -1,0 +1,37 @@
+{
+    "input": {
+        "template": {
+            "registryId": "",
+            "repositoryName": "",
+            "imageIds": [
+                {
+                    "imageDigest": "",
+                    "imageTag": ""
+                }
+            ],
+            "nextToken": "",
+            "maxResults": 0,
+            "filter": {
+                "tagStatus": "TAGGED"
+            }
+        },
+        "template_required_inputs": [
+            "repositoryName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_lifecycle_policy_preview",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248534.518547,
+        "end": 1711248542.272813,
+        "duration": 7.7542760372161865,
+        "service": "ecr",
+        "type": null
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "SerialNumber": "",
+            "Marker": "",
+            "MaxItems": 0
+        },
+        "template_required_inputs": [
+            "SerialNumber"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_mfa_device_tags",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248856.236595,
+        "end": 1711248861.794109,
+        "duration": 5.557548999786377,
+        "service": "iam",
+        "type": "mfa_device_tags"
+    }
+}

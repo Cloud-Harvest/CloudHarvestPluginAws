@@ -1,0 +1,33 @@
+{
+    "input": {
+        "template": {
+            "DatasetArn": "",
+            "ContainsLabels": [
+                ""
+            ],
+            "Labeled": true,
+            "SourceRefContains": "",
+            "HasErrors": true,
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "DatasetArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_dataset_entries",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249939.077918,
+        "end": 1711249945.277452,
+        "duration": 6.1995439529418945,
+        "service": "rekognition",
+        "type": "dataset_entries"
+    }
+}

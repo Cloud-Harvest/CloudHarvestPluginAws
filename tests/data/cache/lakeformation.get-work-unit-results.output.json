@@ -1,0 +1,21 @@
+{
+    "input": {
+        "template": {},
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "get_work_unit_results",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249223.977074,
+        "end": 1711249238.179177,
+        "duration": 14.202113151550293,
+        "service": "lakeformation",
+        "type": null
+    }
+}

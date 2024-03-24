@@ -1,0 +1,24 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_certificates",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250252.385462,
+        "end": 1711250261.180582,
+        "duration": 8.795140027999878,
+        "service": "transfer",
+        "type": "certificates"
+    }
+}

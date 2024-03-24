@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "CertificateAuthorityArn": "",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "CertificateAuthorityArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_tags",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247695.416092,
+        "end": 1711247709.684736,
+        "duration": 14.268656015396118,
+        "service": "acm-pca",
+        "type": "tags"
+    }
+}

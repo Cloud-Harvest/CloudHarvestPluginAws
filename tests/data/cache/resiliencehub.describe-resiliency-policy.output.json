@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "policyArn": ""
+        },
+        "template_required_inputs": [
+            "policyArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_resiliency_policy",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249945.77454,
+        "end": 1711249952.2711,
+        "duration": 6.496570110321045,
+        "service": "resiliencehub",
+        "type": "resiliency_policy"
+    }
+}

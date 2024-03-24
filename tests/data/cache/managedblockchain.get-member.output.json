@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "NetworkId": "",
+            "MemberId": ""
+        },
+        "template_required_inputs": [
+            "NetworkId",
+            "MemberId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_member",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249622.691866,
+        "end": 1711249629.079806,
+        "duration": 6.38795018196106,
+        "service": "managedblockchain",
+        "type": null
+    }
+}

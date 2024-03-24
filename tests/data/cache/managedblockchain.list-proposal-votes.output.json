@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "NetworkId": "",
+            "ProposalId": "",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "NetworkId",
+            "ProposalId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_proposal_votes",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249623.796103,
+        "end": 1711249629.974223,
+        "duration": 6.178141117095947,
+        "service": "managedblockchain",
+        "type": "proposal_votes"
+    }
+}

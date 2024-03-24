@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "arn": ""
+        },
+        "template_required_inputs": [
+            "arn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_storage_configuration",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249034.574206,
+        "end": 1711249039.930531,
+        "duration": 5.356338977813721,
+        "service": "ivs-realtime",
+        "type": null
+    }
+}

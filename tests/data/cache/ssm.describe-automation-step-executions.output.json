@@ -1,0 +1,36 @@
+{
+    "input": {
+        "template": {
+            "AutomationExecutionId": "",
+            "Filters": [
+                {
+                    "Key": "StartTimeBefore",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "NextToken": "",
+            "MaxResults": 0,
+            "ReverseOrder": true
+        },
+        "template_required_inputs": [
+            "AutomationExecutionId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_automation_step_executions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250139.491428,
+        "end": 1711250146.131997,
+        "duration": 6.640581130981445,
+        "service": "ssm",
+        "type": "automation_step_executions"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "meshName": "",
+            "meshOwner": "",
+            "virtualNodeName": ""
+        },
+        "template_required_inputs": [
+            "meshName",
+            "virtualNodeName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_virtual_node",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247807.433034,
+        "end": 1711247820.624926,
+        "duration": 13.191903114318848,
+        "service": "appmesh",
+        "type": "virtual_node"
+    }
+}

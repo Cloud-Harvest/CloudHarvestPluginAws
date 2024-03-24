@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "DeviceKey": "",
+            "AccessToken": ""
+        },
+        "template_required_inputs": [
+            "DeviceKey"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_device",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248206.607756,
+        "end": 1711248212.866199,
+        "duration": 6.258458137512207,
+        "service": "cognito-idp",
+        "type": null
+    }
+}

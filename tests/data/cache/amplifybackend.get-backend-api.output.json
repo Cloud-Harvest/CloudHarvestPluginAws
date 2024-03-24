@@ -1,0 +1,65 @@
+{
+    "input": {
+        "template": {
+            "AppId": "",
+            "BackendEnvironmentName": "",
+            "ResourceConfig": {
+                "AdditionalAuthTypes": [
+                    {
+                        "Mode": "API_KEY",
+                        "Settings": {
+                            "CognitoUserPoolId": "",
+                            "Description": "",
+                            "ExpirationTime": 0.0,
+                            "OpenIDAuthTTL": "",
+                            "OpenIDClientId": "",
+                            "OpenIDIatTTL": "",
+                            "OpenIDIssueURL": "",
+                            "OpenIDProviderName": ""
+                        }
+                    }
+                ],
+                "ApiName": "",
+                "ConflictResolution": {
+                    "ResolutionStrategy": "OPTIMISTIC_CONCURRENCY"
+                },
+                "DefaultAuthType": {
+                    "Mode": "API_KEY",
+                    "Settings": {
+                        "CognitoUserPoolId": "",
+                        "Description": "",
+                        "ExpirationTime": 0.0,
+                        "OpenIDAuthTTL": "",
+                        "OpenIDClientId": "",
+                        "OpenIDIatTTL": "",
+                        "OpenIDIssueURL": "",
+                        "OpenIDProviderName": ""
+                    }
+                },
+                "Service": "",
+                "TransformSchema": ""
+            },
+            "ResourceName": ""
+        },
+        "template_required_inputs": [
+            "AppId",
+            "BackendEnvironmentName",
+            "ResourceName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_backend_api",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247724.05453,
+        "end": 1711247731.538097,
+        "duration": 7.4835991859436035,
+        "service": "amplifybackend",
+        "type": null
+    }
+}

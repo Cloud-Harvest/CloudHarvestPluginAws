@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "DomainName": "",
+            "InstanceType": "m3.medium.search",
+            "EngineVersion": ""
+        },
+        "template_required_inputs": [
+            "InstanceType",
+            "EngineVersion"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_instance_type_limits",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249757.181833,
+        "end": 1711249763.405106,
+        "duration": 6.223286867141724,
+        "service": "opensearch",
+        "type": "instance_type_limits"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "DatasetArn": ""
+        },
+        "template_required_inputs": [
+            "DatasetArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_dataset",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248657.888431,
+        "end": 1711248665.461893,
+        "duration": 7.573469877243042,
+        "service": "forecast",
+        "type": "dataset"
+    }
+}

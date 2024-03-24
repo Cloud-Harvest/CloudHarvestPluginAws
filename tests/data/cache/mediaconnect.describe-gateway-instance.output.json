@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "GatewayInstanceArn": ""
+        },
+        "template_required_inputs": [
+            "GatewayInstanceArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_gateway_instance",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249631.117564,
+        "end": 1711249637.656674,
+        "duration": 6.539147138595581,
+        "service": "mediaconnect",
+        "type": "gateway_instance"
+    }
+}

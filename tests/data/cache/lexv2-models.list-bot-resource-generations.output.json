@@ -1,0 +1,35 @@
+{
+    "input": {
+        "template": {
+            "botId": "",
+            "botVersion": "",
+            "localeId": "",
+            "sortBy": {
+                "attribute": "creationStartTime",
+                "order": "Ascending"
+            },
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [
+            "botId",
+            "botVersion",
+            "localeId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_bot_resource_generations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249267.145208,
+        "end": 1711249274.894213,
+        "duration": 7.749030113220215,
+        "service": "lexv2-models",
+        "type": "bot_resource_generations"
+    }
+}

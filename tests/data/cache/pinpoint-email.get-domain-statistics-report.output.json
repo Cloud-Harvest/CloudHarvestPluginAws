@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "Domain": "",
+            "StartDate": "1970-01-01T00:00:00",
+            "EndDate": "1970-01-01T00:00:00"
+        },
+        "template_required_inputs": [
+            "Domain",
+            "StartDate",
+            "EndDate"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_domain_statistics_report",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249831.154742,
+        "end": 1711249837.606842,
+        "duration": 6.452120065689087,
+        "service": "pinpoint-email",
+        "type": null
+    }
+}

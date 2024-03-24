@@ -1,0 +1,36 @@
+{
+    "input": {
+        "template": {
+            "DryRun": true,
+            "ServiceId": "",
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "ServiceId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_vpc_endpoint_service_permissions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248505.26161,
+        "end": 1711248515.584304,
+        "duration": 10.322704076766968,
+        "service": "ec2",
+        "type": "vpc_endpoint_service_permissions"
+    }
+}

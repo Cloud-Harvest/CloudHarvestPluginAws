@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "FunctionName": "",
+            "Qualifier": ""
+        },
+        "template_required_inputs": [
+            "FunctionName",
+            "Qualifier"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_provisioned_concurrency_config",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249238.190884,
+        "end": 1711249245.025164,
+        "duration": 6.834289789199829,
+        "service": "lambda",
+        "type": null
+    }
+}

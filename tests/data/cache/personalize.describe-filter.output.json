@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "filterArn": ""
+        },
+        "template_required_inputs": [
+            "filterArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_filter",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249802.248,
+        "end": 1711249807.824459,
+        "duration": 5.576476097106934,
+        "service": "personalize",
+        "type": "filter"
+    }
+}

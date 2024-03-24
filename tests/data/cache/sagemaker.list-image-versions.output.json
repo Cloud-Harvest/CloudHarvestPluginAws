@@ -1,0 +1,33 @@
+{
+    "input": {
+        "template": {
+            "CreationTimeAfter": "1970-01-01T00:00:00",
+            "CreationTimeBefore": "1970-01-01T00:00:00",
+            "ImageName": "",
+            "LastModifiedTimeAfter": "1970-01-01T00:00:00",
+            "LastModifiedTimeBefore": "1970-01-01T00:00:00",
+            "MaxResults": 0,
+            "NextToken": "",
+            "SortBy": "CREATION_TIME",
+            "SortOrder": "ASCENDING"
+        },
+        "template_required_inputs": [
+            "ImageName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_image_versions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250055.283683,
+        "end": 1711250061.423394,
+        "duration": 6.139729976654053,
+        "service": "sagemaker",
+        "type": "image_versions"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "input": {
+        "template": {
+            "VendorName": "",
+            "Name": "",
+            "Scope": "CLOUDFRONT",
+            "VersionName": ""
+        },
+        "template_required_inputs": [
+            "VendorName",
+            "Name",
+            "Scope"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_managed_rule_group",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250300.853556,
+        "end": 1711250310.201189,
+        "duration": 9.347647190093994,
+        "service": "wafv2",
+        "type": "managed_rule_group"
+    }
+}

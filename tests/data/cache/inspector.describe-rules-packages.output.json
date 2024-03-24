@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "rulesPackageArns": [
+                ""
+            ],
+            "locale": "EN_US"
+        },
+        "template_required_inputs": [
+            "rulesPackageArns"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_rules_packages",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248885.032138,
+        "end": 1711248895.126534,
+        "duration": 10.094404935836792,
+        "service": "inspector",
+        "type": "rules_packages"
+    }
+}

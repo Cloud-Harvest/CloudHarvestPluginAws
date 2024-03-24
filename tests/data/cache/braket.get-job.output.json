@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "additionalAttributeNames": [
+                "QueueInfo"
+            ],
+            "jobArn": ""
+        },
+        "template_required_inputs": [
+            "jobArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_job",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247944.087274,
+        "end": 1711247950.299586,
+        "duration": 6.212325811386108,
+        "service": "braket",
+        "type": null
+    }
+}

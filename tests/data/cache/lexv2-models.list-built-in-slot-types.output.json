@@ -1,0 +1,31 @@
+{
+    "input": {
+        "template": {
+            "localeId": "",
+            "sortBy": {
+                "attribute": "SlotTypeSignature",
+                "order": "Ascending"
+            },
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [
+            "localeId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_built_in_slot_types",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249269.952632,
+        "end": 1711249278.167307,
+        "duration": 8.214684963226318,
+        "service": "lexv2-models",
+        "type": "built_in_slot_types"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "input": {
+        "template": {},
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "get_map_sprites",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249472.178301,
+        "end": 1711249478.585236,
+        "duration": 6.4069459438323975,
+        "service": "location",
+        "type": null
+    }
+}

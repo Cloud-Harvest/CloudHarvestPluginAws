@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "FlowDefinitionName": ""
+        },
+        "template_required_inputs": [
+            "FlowDefinitionName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_flow_definition",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250035.412183,
+        "end": 1711250042.007987,
+        "duration": 6.595814943313599,
+        "service": "sagemaker",
+        "type": "flow_definition"
+    }
+}

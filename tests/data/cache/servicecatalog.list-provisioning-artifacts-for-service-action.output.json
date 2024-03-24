@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "ServiceActionId": "",
+            "PageSize": 0,
+            "PageToken": "",
+            "AcceptLanguage": ""
+        },
+        "template_required_inputs": [
+            "ServiceActionId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_provisioning_artifacts_for_service_action",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250096.022166,
+        "end": 1711250102.136739,
+        "duration": 6.114585876464844,
+        "service": "servicecatalog",
+        "type": "provisioning_artifacts_for_service_action"
+    }
+}

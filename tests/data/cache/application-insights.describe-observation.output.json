@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "ObservationId": "",
+            "AccountId": ""
+        },
+        "template_required_inputs": [
+            "ObservationId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_observation",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247801.392672,
+        "end": 1711247807.432259,
+        "duration": 6.039612054824829,
+        "service": "application-insights",
+        "type": "observation"
+    }
+}

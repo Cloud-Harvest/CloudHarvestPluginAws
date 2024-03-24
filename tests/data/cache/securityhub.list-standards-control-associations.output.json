@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "SecurityControlId": "",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "SecurityControlId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_standards_control_associations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250077.608026,
+        "end": 1711250082.885366,
+        "duration": 5.277355909347534,
+        "service": "securityhub",
+        "type": "standards_control_associations"
+    }
+}

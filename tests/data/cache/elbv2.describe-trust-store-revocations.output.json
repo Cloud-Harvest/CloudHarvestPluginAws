@@ -1,0 +1,30 @@
+{
+    "input": {
+        "template": {
+            "TrustStoreArn": "",
+            "RevocationIds": [
+                0
+            ],
+            "Marker": "",
+            "PageSize": 0
+        },
+        "template_required_inputs": [
+            "TrustStoreArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_trust_store_revocations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248589.099001,
+        "end": 1711248596.503872,
+        "duration": 7.404880046844482,
+        "service": "elbv2",
+        "type": "trust_store_revocations"
+    }
+}

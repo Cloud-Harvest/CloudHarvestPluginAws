@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": "",
+            "NextToken": "",
+            "ResourceDefinitionId": ""
+        },
+        "template_required_inputs": [
+            "ResourceDefinitionId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_resource_definition_versions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248759.348992,
+        "end": 1711248799.526802,
+        "duration": 40.177820920944214,
+        "service": "greengrass",
+        "type": "resource_definition_versions"
+    }
+}

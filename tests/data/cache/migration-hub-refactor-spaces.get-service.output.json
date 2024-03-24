@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "ApplicationIdentifier": "",
+            "EnvironmentIdentifier": "",
+            "ServiceIdentifier": ""
+        },
+        "template_required_inputs": [
+            "ApplicationIdentifier",
+            "EnvironmentIdentifier",
+            "ServiceIdentifier"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_service",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249680.855536,
+        "end": 1711249687.108562,
+        "duration": 6.253040075302124,
+        "service": "migration-hub-refactor-spaces",
+        "type": null
+    }
+}

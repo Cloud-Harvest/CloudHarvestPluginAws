@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "UserPoolId": "",
+            "ClientId": ""
+        },
+        "template_required_inputs": [
+            "UserPoolId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_ui_customization",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248208.426872,
+        "end": 1711248215.57009,
+        "duration": 7.143233060836792,
+        "service": "cognito-idp",
+        "type": null
+    }
+}

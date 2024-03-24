@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "OwnerAccount": "",
+            "PackageId": "",
+            "PackageVersion": "",
+            "PatchVersion": ""
+        },
+        "template_required_inputs": [
+            "PackageId",
+            "PackageVersion"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_package_version",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249789.528455,
+        "end": 1711249795.341365,
+        "duration": 5.812924861907959,
+        "service": "panorama",
+        "type": "package_version"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "tunnelId": ""
+        },
+        "template_required_inputs": [
+            "tunnelId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_tunnel",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248976.152643,
+        "end": 1711248986.11739,
+        "duration": 9.964767932891846,
+        "service": "iotsecuretunneling",
+        "type": "tunnel"
+    }
+}

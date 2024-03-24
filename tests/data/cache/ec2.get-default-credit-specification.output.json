@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "DryRun": true,
+            "InstanceFamily": "t2"
+        },
+        "template_required_inputs": [
+            "InstanceFamily"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_default_credit_specification",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248511.306443,
+        "end": 1711248520.166775,
+        "duration": 8.860345125198364,
+        "service": "ec2",
+        "type": null
+    }
+}

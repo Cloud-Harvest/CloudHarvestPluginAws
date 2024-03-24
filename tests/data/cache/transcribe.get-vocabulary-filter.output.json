@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "VocabularyFilterName": ""
+        },
+        "template_required_inputs": [
+            "VocabularyFilterName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_vocabulary_filter",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250245.177344,
+        "end": 1711250252.20497,
+        "duration": 7.027638912200928,
+        "service": "transcribe",
+        "type": null
+    }
+}

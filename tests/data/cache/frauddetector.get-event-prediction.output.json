@@ -1,0 +1,49 @@
+{
+    "input": {
+        "template": {
+            "detectorId": "",
+            "detectorVersionId": "",
+            "eventId": "",
+            "eventTypeName": "",
+            "entities": [
+                {
+                    "entityType": "",
+                    "entityId": ""
+                }
+            ],
+            "eventTimestamp": "",
+            "eventVariables": {
+                "KeyName": ""
+            },
+            "externalModelEndpointDataBlobs": {
+                "KeyName": {
+                    "byteBuffer": null,
+                    "contentType": ""
+                }
+            }
+        },
+        "template_required_inputs": [
+            "detectorId",
+            "eventId",
+            "eventTypeName",
+            "entities",
+            "eventTimestamp",
+            "eventVariables"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_event_prediction",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248670.920535,
+        "end": 1711248679.70295,
+        "duration": 8.782423973083496,
+        "service": "frauddetector",
+        "type": null
+    }
+}

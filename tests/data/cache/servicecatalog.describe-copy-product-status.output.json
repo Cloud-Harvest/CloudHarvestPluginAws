@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "AcceptLanguage": "",
+            "CopyProductToken": ""
+        },
+        "template_required_inputs": [
+            "CopyProductToken"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_copy_product_status",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250089.146811,
+        "end": 1711250095.823155,
+        "duration": 6.676354885101318,
+        "service": "servicecatalog",
+        "type": "copy_product_status"
+    }
+}

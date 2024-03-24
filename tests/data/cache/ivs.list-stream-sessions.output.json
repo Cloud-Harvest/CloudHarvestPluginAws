@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "channelArn": "",
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [
+            "channelArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_stream_sessions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249026.430324,
+        "end": 1711249038.263666,
+        "duration": 11.833350896835327,
+        "service": "ivs",
+        "type": "stream_sessions"
+    }
+}

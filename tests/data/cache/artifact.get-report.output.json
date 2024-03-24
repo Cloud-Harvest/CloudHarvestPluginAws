@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "reportId": "",
+            "reportVersion": 0,
+            "termToken": ""
+        },
+        "template_required_inputs": [
+            "reportId",
+            "termToken"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_report",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247846.842037,
+        "end": 1711247853.464152,
+        "duration": 6.62213397026062,
+        "service": "artifact",
+        "type": null
+    }
+}

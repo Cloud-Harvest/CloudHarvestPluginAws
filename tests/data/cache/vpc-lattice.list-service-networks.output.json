@@ -1,0 +1,24 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_service_networks",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250279.275295,
+        "end": 1711250287.267985,
+        "duration": 7.992733001708984,
+        "service": "vpc-lattice",
+        "type": "service_networks"
+    }
+}

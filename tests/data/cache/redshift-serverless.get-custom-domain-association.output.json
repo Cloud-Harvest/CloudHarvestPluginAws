@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "customDomainName": "",
+            "workgroupName": ""
+        },
+        "template_required_inputs": [
+            "customDomainName",
+            "workgroupName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_custom_domain_association",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249927.614752,
+        "end": 1711249933.871336,
+        "duration": 6.256600856781006,
+        "service": "redshift-serverless",
+        "type": null
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "ListenerArn": "",
+            "Marker": "",
+            "PageSize": 0
+        },
+        "template_required_inputs": [
+            "ListenerArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_listener_certificates",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248584.108764,
+        "end": 1711248592.779212,
+        "duration": 8.670457124710083,
+        "service": "elbv2",
+        "type": "listener_certificates"
+    }
+}

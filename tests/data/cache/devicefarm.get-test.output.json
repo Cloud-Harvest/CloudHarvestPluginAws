@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "arn": ""
+        },
+        "template_required_inputs": [
+            "arn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_test",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248407.614652,
+        "end": 1711248414.18146,
+        "duration": 6.566819190979004,
+        "service": "devicefarm",
+        "type": null
+    }
+}

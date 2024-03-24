@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "id": "",
+            "neptuneIamRoleArn": ""
+        },
+        "template_required_inputs": [
+            "id"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_ml_data_processing_job",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249711.136817,
+        "end": 1711249717.221414,
+        "duration": 6.084607124328613,
+        "service": "neptunedata",
+        "type": null
+    }
+}

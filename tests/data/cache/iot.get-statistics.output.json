@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "indexName": "",
+            "queryString": "",
+            "aggregationField": "",
+            "queryVersion": ""
+        },
+        "template_required_inputs": [
+            "queryString"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_statistics",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248925.934086,
+        "end": 1711248931.088516,
+        "duration": 5.154448986053467,
+        "service": "iot",
+        "type": null
+    }
+}

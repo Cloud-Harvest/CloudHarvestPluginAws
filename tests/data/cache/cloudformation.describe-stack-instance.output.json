@@ -1,0 +1,30 @@
+{
+    "input": {
+        "template": {
+            "StackSetName": "",
+            "StackInstanceAccount": "",
+            "StackInstanceRegion": "",
+            "CallAs": "SELF"
+        },
+        "template_required_inputs": [
+            "StackSetName",
+            "StackInstanceAccount",
+            "StackInstanceRegion"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_stack_instance",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248065.919607,
+        "end": 1711248074.501822,
+        "duration": 8.582231998443604,
+        "service": "cloudformation",
+        "type": "stack_instance"
+    }
+}

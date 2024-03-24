@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "nextToken": "",
+            "filter": {
+                "name": "",
+                "createdAfter": "1970-01-01T00:00:00",
+                "createdBefore": "1970-01-01T00:00:00"
+            }
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_reference_stores",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249750.045534,
+        "end": 1711249757.18082,
+        "duration": 7.135303020477295,
+        "service": "omics",
+        "type": "reference_stores"
+    }
+}

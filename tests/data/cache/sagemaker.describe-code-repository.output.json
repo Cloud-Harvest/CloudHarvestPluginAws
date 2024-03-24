@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "CodeRepositoryName": ""
+        },
+        "template_required_inputs": [
+            "CodeRepositoryName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_code_repository",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250028.666463,
+        "end": 1711250035.342387,
+        "duration": 6.675939083099365,
+        "service": "sagemaker",
+        "type": "code_repository"
+    }
+}

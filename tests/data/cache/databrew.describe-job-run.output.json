@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "Name": "",
+            "RunId": ""
+        },
+        "template_required_inputs": [
+            "Name",
+            "RunId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_job_run",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248345.336511,
+        "end": 1711248355.060365,
+        "duration": 9.723863124847412,
+        "service": "databrew",
+        "type": "job_run"
+    }
+}

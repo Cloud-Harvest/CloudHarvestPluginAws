@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "graphIdentifier": "",
+            "mode": "BASIC"
+        },
+        "template_required_inputs": [
+            "graphIdentifier"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_graph_summary",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249706.793037,
+        "end": 1711249712.05203,
+        "duration": 5.25901198387146,
+        "service": "neptune-graph",
+        "type": null
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "Identifier": ""
+        },
+        "template_required_inputs": [
+            "Identifier"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_media_pipeline_kinesis_video_stream_pool",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247992.333842,
+        "end": 1711247999.429985,
+        "duration": 7.0961549282073975,
+        "service": "chime-sdk-media-pipelines",
+        "type": null
+    }
+}

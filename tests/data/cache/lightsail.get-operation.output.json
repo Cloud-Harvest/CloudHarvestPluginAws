@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "operationId": ""
+        },
+        "template_required_inputs": [
+            "operationId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_operation",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249464.785799,
+        "end": 1711249471.311568,
+        "duration": 6.525779962539673,
+        "service": "lightsail",
+        "type": null
+    }
+}

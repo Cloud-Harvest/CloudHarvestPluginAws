@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "ConfigurationSetName": "",
+            "ConfigurationSetAttributeNames": [
+                "eventDestinations"
+            ]
+        },
+        "template_required_inputs": [
+            "ConfigurationSetName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_configuration_set",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250102.176133,
+        "end": 1711250108.332738,
+        "duration": 6.156613111495972,
+        "service": "ses",
+        "type": "configuration_set"
+    }
+}

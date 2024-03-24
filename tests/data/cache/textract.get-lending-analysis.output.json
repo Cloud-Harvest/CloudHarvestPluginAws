@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "JobId": "",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "JobId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_lending_analysis",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250229.126699,
+        "end": 1711250235.178703,
+        "duration": 6.052025079727173,
+        "service": "textract",
+        "type": null
+    }
+}

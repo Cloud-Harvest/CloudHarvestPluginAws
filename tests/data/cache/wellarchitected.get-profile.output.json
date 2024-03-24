@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "ProfileArn": "",
+            "ProfileVersion": ""
+        },
+        "template_required_inputs": [
+            "ProfileArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_profile",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250316.356757,
+        "end": 1711250322.566075,
+        "duration": 6.209331035614014,
+        "service": "wellarchitected",
+        "type": null
+    }
+}

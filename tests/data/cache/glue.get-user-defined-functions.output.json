@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "CatalogId": "",
+            "DatabaseName": "",
+            "Pattern": "",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "Pattern"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_user_defined_functions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248734.935909,
+        "end": 1711248742.603754,
+        "duration": 7.667856931686401,
+        "service": "glue",
+        "type": null
+    }
+}

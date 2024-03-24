@@ -1,0 +1,36 @@
+{
+    "input": {
+        "template": {
+            "DryRun": true,
+            "MaxResults": 0,
+            "NextToken": "",
+            "FleetId": "",
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ]
+        },
+        "template_required_inputs": [
+            "FleetId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_fleet_instances",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248495.942788,
+        "end": 1711248505.24402,
+        "duration": 9.301242113113403,
+        "service": "ec2",
+        "type": "fleet_instances"
+    }
+}

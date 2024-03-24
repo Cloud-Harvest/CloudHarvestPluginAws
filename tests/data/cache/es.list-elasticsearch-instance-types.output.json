@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "ElasticsearchVersion": "",
+            "DomainName": "",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "ElasticsearchVersion"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_elasticsearch_instance_types",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248617.384438,
+        "end": 1711248628.161591,
+        "duration": 10.777160882949829,
+        "service": "es",
+        "type": "elasticsearch_instance_types"
+    }
+}

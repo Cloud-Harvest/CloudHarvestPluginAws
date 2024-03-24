@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "FleetId": "",
+            "Location": ""
+        },
+        "template_required_inputs": [
+            "FleetId",
+            "Location"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_fleet_location_capacity",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248680.20936,
+        "end": 1711248692.134313,
+        "duration": 11.92496109008789,
+        "service": "gamelift",
+        "type": "fleet_location_capacity"
+    }
+}

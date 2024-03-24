@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "ResourceARN": "",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "ResourceARN"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_tags_for_resource",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248679.217197,
+        "end": 1711248686.347617,
+        "duration": 7.130428075790405,
+        "service": "fsx",
+        "type": "tags_for_resource"
+    }
+}

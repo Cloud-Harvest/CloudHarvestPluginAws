@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "AccountId": "",
+            "Bucket": ""
+        },
+        "template_required_inputs": [
+            "AccountId",
+            "Bucket"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_bucket",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250015.337958,
+        "end": 1711250021.507395,
+        "duration": 6.169447898864746,
+        "service": "s3control",
+        "type": null
+    }
+}

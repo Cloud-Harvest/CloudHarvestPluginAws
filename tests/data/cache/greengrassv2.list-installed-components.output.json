@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "coreDeviceThingName": "",
+            "maxResults": 0,
+            "nextToken": "",
+            "topologyFilter": "ALL"
+        },
+        "template_required_inputs": [
+            "coreDeviceThingName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_installed_components",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248798.289578,
+        "end": 1711248804.863299,
+        "duration": 6.573730945587158,
+        "service": "greengrassv2",
+        "type": "installed_components"
+    }
+}

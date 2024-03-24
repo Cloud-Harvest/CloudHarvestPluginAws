@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "ApplicationArn": "",
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "ApplicationArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_application_grants",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250190.157114,
+        "end": 1711250196.398452,
+        "duration": 6.241363048553467,
+        "service": "sso-admin",
+        "type": "application_grants"
+    }
+}

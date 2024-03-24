@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "IndexName": "",
+            "Key": "",
+            "Language": "",
+            "PlaceId": ""
+        },
+        "template_required_inputs": [
+            "IndexName",
+            "PlaceId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_place",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249472.37802,
+        "end": 1711249478.712552,
+        "duration": 6.334544897079468,
+        "service": "location",
+        "type": null
+    }
+}

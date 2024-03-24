@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "VoiceConnectorId": "",
+            "Status": "Open",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "VoiceConnectorId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_proxy_sessions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248017.68821,
+        "end": 1711248032.701197,
+        "duration": 15.013000965118408,
+        "service": "chime-sdk-voice",
+        "type": "proxy_sessions"
+    }
+}

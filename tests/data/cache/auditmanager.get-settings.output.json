@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "attribute": "ALL"
+        },
+        "template_required_inputs": [
+            "attribute"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_settings",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247870.941681,
+        "end": 1711247882.56974,
+        "duration": 11.628071069717407,
+        "service": "auditmanager",
+        "type": null
+    }
+}

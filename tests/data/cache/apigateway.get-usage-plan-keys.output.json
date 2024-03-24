@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "usagePlanId": "",
+            "position": "",
+            "limit": 0,
+            "nameQuery": ""
+        },
+        "template_required_inputs": [
+            "usagePlanId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_usage_plan_keys",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247753.710515,
+        "end": 1711247762.08359,
+        "duration": 8.373085975646973,
+        "service": "apigateway",
+        "type": null
+    }
+}

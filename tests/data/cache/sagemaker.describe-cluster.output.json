@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "ClusterName": ""
+        },
+        "template_required_inputs": [
+            "ClusterName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_cluster",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250028.624512,
+        "end": 1711250036.029825,
+        "duration": 7.405328989028931,
+        "service": "sagemaker",
+        "type": "cluster"
+    }
+}

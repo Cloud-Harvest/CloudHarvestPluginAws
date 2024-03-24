@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "assistantAssociationId": "",
+            "assistantId": ""
+        },
+        "template_required_inputs": [
+            "assistantAssociationId",
+            "assistantId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_assistant_association",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249864.717454,
+        "end": 1711249869.81298,
+        "duration": 5.095732927322388,
+        "service": "qconnect",
+        "type": null
+    }
+}

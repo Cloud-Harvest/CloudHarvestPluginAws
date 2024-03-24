@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "EntityRecognizerArn": ""
+        },
+        "template_required_inputs": [
+            "EntityRecognizerArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_entity_recognizer",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248220.301899,
+        "end": 1711248228.70516,
+        "duration": 8.403268098831177,
+        "service": "comprehend",
+        "type": "entity_recognizer"
+    }
+}

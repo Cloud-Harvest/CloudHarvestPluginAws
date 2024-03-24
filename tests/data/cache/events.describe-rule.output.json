@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "Name": "",
+            "EventBusName": ""
+        },
+        "template_required_inputs": [
+            "Name"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_rule",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248623.119806,
+        "end": 1711248631.529488,
+        "duration": 8.409689903259277,
+        "service": "events",
+        "type": "rule"
+    }
+}

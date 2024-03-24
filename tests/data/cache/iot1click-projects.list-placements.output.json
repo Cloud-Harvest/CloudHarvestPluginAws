@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "projectName": "",
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "template_required_inputs": [
+            "projectName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_placements",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248946.376293,
+        "end": 1711248957.201792,
+        "duration": 10.825515985488892,
+        "service": "iot1click-projects",
+        "type": "placements"
+    }
+}

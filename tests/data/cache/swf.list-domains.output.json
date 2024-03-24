@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "nextPageToken": "",
+            "registrationStatus": "REGISTERED",
+            "maximumPageSize": 0,
+            "reverseOrder": true
+        },
+        "template_required_inputs": [
+            "registrationStatus"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_domains",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250222.980056,
+        "end": 1711250229.125354,
+        "duration": 6.145309925079346,
+        "service": "swf",
+        "type": "domains"
+    }
+}

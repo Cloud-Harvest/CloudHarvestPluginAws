@@ -1,0 +1,35 @@
+{
+    "input": {
+        "template": {
+            "imageVersionArn": "",
+            "filters": [
+                {
+                    "name": "",
+                    "values": [
+                        ""
+                    ]
+                }
+            ],
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [
+            "imageVersionArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_image_build_versions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248877.561831,
+        "end": 1711248884.932876,
+        "duration": 7.371063947677612,
+        "service": "imagebuilder",
+        "type": "image_build_versions"
+    }
+}

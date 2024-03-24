@@ -1,0 +1,30 @@
+{
+    "input": {
+        "template": {
+            "eventArns": [
+                ""
+            ],
+            "awsAccountIds": [
+                ""
+            ]
+        },
+        "template_required_inputs": [
+            "eventArns"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_entity_aggregates_for_organization",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248824.959305,
+        "end": 1711248829.87321,
+        "duration": 4.91391396522522,
+        "service": "health",
+        "type": "entity_aggregates_for_organization"
+    }
+}

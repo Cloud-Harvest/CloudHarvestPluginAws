@@ -1,0 +1,30 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "nextToken": "",
+            "resources": [
+                ""
+            ],
+            "type": "retention"
+        },
+        "template_required_inputs": [
+            "type"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_lifecycle_policies",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249767.724173,
+        "end": 1711249773.772926,
+        "duration": 6.0487658977508545,
+        "service": "opensearchserverless",
+        "type": "lifecycle_policies"
+    }
+}

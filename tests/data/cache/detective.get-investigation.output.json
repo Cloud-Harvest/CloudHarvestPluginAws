@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "GraphArn": "",
+            "InvestigationId": ""
+        },
+        "template_required_inputs": [
+            "GraphArn",
+            "InvestigationId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_investigation",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248396.678722,
+        "end": 1711248407.177724,
+        "duration": 10.499013185501099,
+        "service": "detective",
+        "type": null
+    }
+}

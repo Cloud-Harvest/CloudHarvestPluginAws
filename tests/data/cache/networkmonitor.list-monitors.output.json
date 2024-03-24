@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "nextToken": "",
+            "maxResults": 0,
+            "state": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_monitors",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249726.821284,
+        "end": 1711249733.569839,
+        "duration": 6.748572826385498,
+        "service": "networkmonitor",
+        "type": "monitors"
+    }
+}

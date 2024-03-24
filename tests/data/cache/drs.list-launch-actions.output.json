@@ -1,0 +1,32 @@
+{
+    "input": {
+        "template": {
+            "filters": {
+                "actionIds": [
+                    ""
+                ]
+            },
+            "maxResults": 0,
+            "nextToken": "",
+            "resourceId": ""
+        },
+        "template_required_inputs": [
+            "resourceId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_launch_actions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248471.909274,
+        "end": 1711248480.489877,
+        "duration": 8.580611944198608,
+        "service": "drs",
+        "type": "launch_actions"
+    }
+}

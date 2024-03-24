@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "streamId": ""
+        },
+        "template_required_inputs": [
+            "streamId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_stream",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248917.087463,
+        "end": 1711248925.972708,
+        "duration": 8.885256052017212,
+        "service": "iot",
+        "type": "stream"
+    }
+}

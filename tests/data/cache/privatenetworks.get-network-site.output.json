@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "networkSiteArn": ""
+        },
+        "template_required_inputs": [
+            "networkSiteArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_network_site",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249843.758057,
+        "end": 1711249849.940798,
+        "duration": 6.1828038692474365,
+        "service": "privatenetworks",
+        "type": null
+    }
+}

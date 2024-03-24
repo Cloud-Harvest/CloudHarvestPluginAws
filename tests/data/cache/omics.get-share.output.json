@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "shareId": ""
+        },
+        "template_required_inputs": [
+            "shareId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_share",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249744.752144,
+        "end": 1711249751.012241,
+        "duration": 6.260114908218384,
+        "service": "omics",
+        "type": null
+    }
+}

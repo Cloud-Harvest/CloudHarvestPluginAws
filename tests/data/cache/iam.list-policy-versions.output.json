@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "PolicyArn": "",
+            "Marker": "",
+            "MaxItems": 0
+        },
+        "template_required_inputs": [
+            "PolicyArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_policy_versions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248857.002783,
+        "end": 1711248864.440719,
+        "duration": 7.4379448890686035,
+        "service": "iam",
+        "type": "policy_versions"
+    }
+}

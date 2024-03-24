@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "EndpointName": ""
+        },
+        "template_required_inputs": [
+            "EndpointName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_dev_endpoint",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248718.815523,
+        "end": 1711248726.661381,
+        "duration": 7.8458662033081055,
+        "service": "glue",
+        "type": null
+    }
+}

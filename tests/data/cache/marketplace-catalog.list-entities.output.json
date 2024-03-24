@@ -1,0 +1,298 @@
+{
+    "input": {
+        "template": {
+            "Catalog": "",
+            "EntityType": "",
+            "FilterList": [
+                {
+                    "Name": "",
+                    "ValueList": [
+                        ""
+                    ]
+                }
+            ],
+            "Sort": {
+                "SortBy": "",
+                "SortOrder": "ASCENDING"
+            },
+            "NextToken": "",
+            "MaxResults": 0,
+            "OwnershipType": "SELF",
+            "EntityTypeFilters": {
+                "DataProductFilters": {
+                    "EntityId": {
+                        "ValueList": [
+                            ""
+                        ]
+                    },
+                    "ProductTitle": {
+                        "ValueList": [
+                            ""
+                        ],
+                        "WildCardValue": ""
+                    },
+                    "Visibility": {
+                        "ValueList": [
+                            "Limited"
+                        ]
+                    },
+                    "LastModifiedDate": {
+                        "DateRange": {
+                            "AfterValue": "",
+                            "BeforeValue": ""
+                        }
+                    }
+                },
+                "SaaSProductFilters": {
+                    "EntityId": {
+                        "ValueList": [
+                            ""
+                        ]
+                    },
+                    "ProductTitle": {
+                        "ValueList": [
+                            ""
+                        ],
+                        "WildCardValue": ""
+                    },
+                    "Visibility": {
+                        "ValueList": [
+                            "Limited"
+                        ]
+                    },
+                    "LastModifiedDate": {
+                        "DateRange": {
+                            "AfterValue": "",
+                            "BeforeValue": ""
+                        }
+                    }
+                },
+                "AmiProductFilters": {
+                    "EntityId": {
+                        "ValueList": [
+                            ""
+                        ]
+                    },
+                    "LastModifiedDate": {
+                        "DateRange": {
+                            "AfterValue": "",
+                            "BeforeValue": ""
+                        }
+                    },
+                    "ProductTitle": {
+                        "ValueList": [
+                            ""
+                        ],
+                        "WildCardValue": ""
+                    },
+                    "Visibility": {
+                        "ValueList": [
+                            "Limited"
+                        ]
+                    }
+                },
+                "OfferFilters": {
+                    "EntityId": {
+                        "ValueList": [
+                            ""
+                        ]
+                    },
+                    "Name": {
+                        "ValueList": [
+                            ""
+                        ],
+                        "WildCardValue": ""
+                    },
+                    "ProductId": {
+                        "ValueList": [
+                            ""
+                        ]
+                    },
+                    "ReleaseDate": {
+                        "DateRange": {
+                            "AfterValue": "",
+                            "BeforeValue": ""
+                        }
+                    },
+                    "AvailabilityEndDate": {
+                        "DateRange": {
+                            "AfterValue": "",
+                            "BeforeValue": ""
+                        }
+                    },
+                    "BuyerAccounts": {
+                        "WildCardValue": ""
+                    },
+                    "State": {
+                        "ValueList": [
+                            "Draft"
+                        ]
+                    },
+                    "Targeting": {
+                        "ValueList": [
+                            "BuyerAccounts"
+                        ]
+                    },
+                    "LastModifiedDate": {
+                        "DateRange": {
+                            "AfterValue": "",
+                            "BeforeValue": ""
+                        }
+                    }
+                },
+                "ContainerProductFilters": {
+                    "EntityId": {
+                        "ValueList": [
+                            ""
+                        ]
+                    },
+                    "LastModifiedDate": {
+                        "DateRange": {
+                            "AfterValue": "",
+                            "BeforeValue": ""
+                        }
+                    },
+                    "ProductTitle": {
+                        "ValueList": [
+                            ""
+                        ],
+                        "WildCardValue": ""
+                    },
+                    "Visibility": {
+                        "ValueList": [
+                            "Limited"
+                        ]
+                    }
+                },
+                "ResaleAuthorizationFilters": {
+                    "EntityId": {
+                        "ValueList": [
+                            ""
+                        ]
+                    },
+                    "Name": {
+                        "ValueList": [
+                            ""
+                        ],
+                        "WildCardValue": ""
+                    },
+                    "ProductId": {
+                        "ValueList": [
+                            ""
+                        ],
+                        "WildCardValue": ""
+                    },
+                    "CreatedDate": {
+                        "DateRange": {
+                            "AfterValue": "",
+                            "BeforeValue": ""
+                        },
+                        "ValueList": [
+                            ""
+                        ]
+                    },
+                    "AvailabilityEndDate": {
+                        "DateRange": {
+                            "AfterValue": "",
+                            "BeforeValue": ""
+                        },
+                        "ValueList": [
+                            ""
+                        ]
+                    },
+                    "ManufacturerAccountId": {
+                        "ValueList": [
+                            ""
+                        ],
+                        "WildCardValue": ""
+                    },
+                    "ProductName": {
+                        "ValueList": [
+                            ""
+                        ],
+                        "WildCardValue": ""
+                    },
+                    "ManufacturerLegalName": {
+                        "ValueList": [
+                            ""
+                        ],
+                        "WildCardValue": ""
+                    },
+                    "ResellerAccountID": {
+                        "ValueList": [
+                            ""
+                        ],
+                        "WildCardValue": ""
+                    },
+                    "ResellerLegalName": {
+                        "ValueList": [
+                            ""
+                        ],
+                        "WildCardValue": ""
+                    },
+                    "Status": {
+                        "ValueList": [
+                            "Draft"
+                        ]
+                    },
+                    "OfferExtendedStatus": {
+                        "ValueList": [
+                            ""
+                        ]
+                    },
+                    "LastModifiedDate": {
+                        "DateRange": {
+                            "AfterValue": "",
+                            "BeforeValue": ""
+                        }
+                    }
+                }
+            },
+            "EntityTypeSort": {
+                "DataProductSort": {
+                    "SortBy": "EntityId",
+                    "SortOrder": "ASCENDING"
+                },
+                "SaaSProductSort": {
+                    "SortBy": "EntityId",
+                    "SortOrder": "ASCENDING"
+                },
+                "AmiProductSort": {
+                    "SortBy": "EntityId",
+                    "SortOrder": "ASCENDING"
+                },
+                "OfferSort": {
+                    "SortBy": "EntityId",
+                    "SortOrder": "ASCENDING"
+                },
+                "ContainerProductSort": {
+                    "SortBy": "EntityId",
+                    "SortOrder": "ASCENDING"
+                },
+                "ResaleAuthorizationSort": {
+                    "SortBy": "EntityId",
+                    "SortOrder": "ASCENDING"
+                }
+            }
+        },
+        "template_required_inputs": [
+            "Catalog",
+            "EntityType"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_entities",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249629.975523,
+        "end": 1711249636.186478,
+        "duration": 6.210968017578125,
+        "service": "marketplace-catalog",
+        "type": "entities"
+    }
+}

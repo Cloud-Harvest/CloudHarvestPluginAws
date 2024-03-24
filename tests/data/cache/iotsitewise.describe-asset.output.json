@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "assetId": "",
+            "excludeProperties": true
+        },
+        "template_required_inputs": [
+            "assetId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_asset",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248983.663441,
+        "end": 1711248990.420951,
+        "duration": 6.757519960403442,
+        "service": "iotsitewise",
+        "type": "asset"
+    }
+}

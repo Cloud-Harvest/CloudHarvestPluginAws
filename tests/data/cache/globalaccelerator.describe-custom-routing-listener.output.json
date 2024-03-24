@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "ListenerArn": ""
+        },
+        "template_required_inputs": [
+            "ListenerArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_custom_routing_listener",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248705.871417,
+        "end": 1711248712.489798,
+        "duration": 6.618389844894409,
+        "service": "globalaccelerator",
+        "type": "custom_routing_listener"
+    }
+}

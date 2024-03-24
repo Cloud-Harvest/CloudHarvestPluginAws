@@ -1,0 +1,32 @@
+{
+    "input": {
+        "template": {
+            "InstanceId": "",
+            "ContactId": "",
+            "ReferenceTypes": [
+                "URL"
+            ],
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "InstanceId",
+            "ContactId",
+            "ReferenceTypes"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_contact_references",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248285.522486,
+        "end": 1711248305.980591,
+        "duration": 20.458116054534912,
+        "service": "connect",
+        "type": "contact_references"
+    }
+}

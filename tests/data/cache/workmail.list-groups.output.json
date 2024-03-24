@@ -1,0 +1,32 @@
+{
+    "input": {
+        "template": {
+            "OrganizationId": "",
+            "NextToken": "",
+            "MaxResults": 0,
+            "Filters": {
+                "NamePrefix": "",
+                "PrimaryEmailPrefix": "",
+                "State": "ENABLED"
+            }
+        },
+        "template_required_inputs": [
+            "OrganizationId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_groups",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250351.979835,
+        "end": 1711250358.673023,
+        "duration": 6.6932079792022705,
+        "service": "workmail",
+        "type": "groups"
+    }
+}

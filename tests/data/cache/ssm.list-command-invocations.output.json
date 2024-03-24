@@ -1,0 +1,33 @@
+{
+    "input": {
+        "template": {
+            "CommandId": "",
+            "InstanceId": "",
+            "MaxResults": 0,
+            "NextToken": "",
+            "Filters": [
+                {
+                    "key": "InvokedAfter",
+                    "value": ""
+                }
+            ],
+            "Details": true
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_command_invocations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250158.915204,
+        "end": 1711250167.27795,
+        "duration": 8.362764835357666,
+        "service": "ssm",
+        "type": "command_invocations"
+    }
+}

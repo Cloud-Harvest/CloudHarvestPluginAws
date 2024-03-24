@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "InstanceId": "",
+            "LanguageCode": "ar-AE",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "InstanceId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_default_vocabularies",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248299.736784,
+        "end": 1711248307.466877,
+        "duration": 7.730103015899658,
+        "service": "connect",
+        "type": "default_vocabularies"
+    }
+}

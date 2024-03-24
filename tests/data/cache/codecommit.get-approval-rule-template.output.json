@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "approvalRuleTemplateName": ""
+        },
+        "template_required_inputs": [
+            "approvalRuleTemplateName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_approval_rule_template",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248152.652252,
+        "end": 1711248160.522081,
+        "duration": 7.8698461055755615,
+        "service": "codecommit",
+        "type": null
+    }
+}

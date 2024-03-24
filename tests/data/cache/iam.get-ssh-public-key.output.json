@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "UserName": "",
+            "SSHPublicKeyId": "",
+            "Encoding": "SSH"
+        },
+        "template_required_inputs": [
+            "UserName",
+            "SSHPublicKeyId",
+            "Encoding"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_ssh_public_key",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248847.030213,
+        "end": 1711248856.675883,
+        "duration": 9.645678997039795,
+        "service": "iam",
+        "type": null
+    }
+}

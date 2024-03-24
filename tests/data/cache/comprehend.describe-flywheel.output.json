@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "FlywheelArn": ""
+        },
+        "template_required_inputs": [
+            "FlywheelArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_flywheel",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248220.347378,
+        "end": 1711248229.147733,
+        "duration": 8.800363063812256,
+        "service": "comprehend",
+        "type": "flywheel"
+    }
+}

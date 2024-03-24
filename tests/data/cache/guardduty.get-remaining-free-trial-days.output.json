@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "DetectorId": "",
+            "AccountIds": [
+                ""
+            ]
+        },
+        "template_required_inputs": [
+            "DetectorId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_remaining_free_trial_days",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248813.218969,
+        "end": 1711248827.09555,
+        "duration": 13.87658977508545,
+        "service": "guardduty",
+        "type": null
+    }
+}

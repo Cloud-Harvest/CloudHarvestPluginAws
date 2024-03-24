@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "CalculationExecutionId": ""
+        },
+        "template_required_inputs": [
+            "CalculationExecutionId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_calculation_execution_code",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247847.956285,
+        "end": 1711247853.984991,
+        "duration": 6.028740882873535,
+        "service": "athena",
+        "type": null
+    }
+}

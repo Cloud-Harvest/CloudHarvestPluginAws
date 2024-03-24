@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "LabelGroupName": "",
+            "LabelId": ""
+        },
+        "template_required_inputs": [
+            "LabelGroupName",
+            "LabelId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_label",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249483.879491,
+        "end": 1711249490.052061,
+        "duration": 6.1725828647613525,
+        "service": "lookoutequipment",
+        "type": "label"
+    }
+}

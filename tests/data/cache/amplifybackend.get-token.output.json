@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "AppId": "",
+            "SessionId": ""
+        },
+        "template_required_inputs": [
+            "AppId",
+            "SessionId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_token",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247724.739122,
+        "end": 1711247736.902784,
+        "duration": 12.163671016693115,
+        "service": "amplifybackend",
+        "type": null
+    }
+}

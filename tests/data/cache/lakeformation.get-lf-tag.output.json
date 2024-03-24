@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "CatalogId": "",
+            "TagKey": ""
+        },
+        "template_required_inputs": [
+            "TagKey"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_lf_tag",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249221.644706,
+        "end": 1711249227.148842,
+        "duration": 5.504151105880737,
+        "service": "lakeformation",
+        "type": null
+    }
+}

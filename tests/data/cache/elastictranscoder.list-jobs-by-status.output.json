@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "Status": "",
+            "Ascending": "",
+            "PageToken": ""
+        },
+        "template_required_inputs": [
+            "Status"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_jobs_by_status",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248559.470836,
+        "end": 1711248590.454349,
+        "duration": 30.983520984649658,
+        "service": "elastictranscoder",
+        "type": "jobs_by_status"
+    }
+}

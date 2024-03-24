@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "GlobalNetworkId": "",
+            "RouteAnalysisId": ""
+        },
+        "template_required_inputs": [
+            "GlobalNetworkId",
+            "RouteAnalysisId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_route_analysis",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249722.292901,
+        "end": 1711249727.485487,
+        "duration": 5.1926000118255615,
+        "service": "networkmanager",
+        "type": null
+    }
+}

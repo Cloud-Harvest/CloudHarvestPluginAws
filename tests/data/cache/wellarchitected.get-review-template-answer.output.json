@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "TemplateArn": "",
+            "LensAlias": "",
+            "QuestionId": ""
+        },
+        "template_required_inputs": [
+            "TemplateArn",
+            "LensAlias",
+            "QuestionId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_review_template_answer",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250316.620319,
+        "end": 1711250322.480522,
+        "duration": 5.860217094421387,
+        "service": "wellarchitected",
+        "type": null
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "FleetId": "",
+            "ComputeName": ""
+        },
+        "template_required_inputs": [
+            "FleetId",
+            "ComputeName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_compute_auth_token",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248693.480216,
+        "end": 1711248700.088925,
+        "duration": 6.608720064163208,
+        "service": "gamelift",
+        "type": null
+    }
+}

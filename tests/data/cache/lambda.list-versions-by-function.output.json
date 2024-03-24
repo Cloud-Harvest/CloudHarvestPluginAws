@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "FunctionName": "",
+            "Marker": "",
+            "MaxItems": 0
+        },
+        "template_required_inputs": [
+            "FunctionName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_versions_by_function",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249239.268328,
+        "end": 1711249248.827917,
+        "duration": 9.559597969055176,
+        "service": "lambda",
+        "type": "versions_by_function"
+    }
+}

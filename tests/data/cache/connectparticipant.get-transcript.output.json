@@ -1,0 +1,35 @@
+{
+    "input": {
+        "template": {
+            "ContactId": "",
+            "MaxResults": 0,
+            "NextToken": "",
+            "ScanDirection": "FORWARD",
+            "SortOrder": "DESCENDING",
+            "StartPosition": {
+                "Id": "",
+                "AbsoluteTime": "",
+                "MostRecent": 0
+            },
+            "ConnectionToken": ""
+        },
+        "template_required_inputs": [
+            "ConnectionToken"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_transcript",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248326.053976,
+        "end": 1711248332.487495,
+        "duration": 6.433527946472168,
+        "service": "connectparticipant",
+        "type": null
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "recoveryPointId": ""
+        },
+        "template_required_inputs": [
+            "recoveryPointId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_recovery_point",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249927.675574,
+        "end": 1711249933.785269,
+        "duration": 6.109710931777954,
+        "service": "redshift-serverless",
+        "type": null
+    }
+}

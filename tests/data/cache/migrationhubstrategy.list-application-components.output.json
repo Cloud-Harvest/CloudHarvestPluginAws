@@ -1,0 +1,33 @@
+{
+    "input": {
+        "template": {
+            "applicationComponentCriteria": "NOT_DEFINED",
+            "filterValue": "",
+            "groupIdFilter": [
+                {
+                    "name": "ExternalId",
+                    "value": ""
+                }
+            ],
+            "maxResults": 0,
+            "nextToken": "",
+            "sort": "ASC"
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_application_components",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249691.186476,
+        "end": 1711249700.332283,
+        "duration": 9.145823955535889,
+        "service": "migrationhubstrategy",
+        "type": "application_components"
+    }
+}

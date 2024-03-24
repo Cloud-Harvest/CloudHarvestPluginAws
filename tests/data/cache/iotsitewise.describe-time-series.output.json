@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "alias": "",
+            "assetId": "",
+            "propertyId": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "describe_time_series",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248986.344297,
+        "end": 1711248995.677953,
+        "duration": 9.333669185638428,
+        "service": "iotsitewise",
+        "type": "time_series"
+    }
+}

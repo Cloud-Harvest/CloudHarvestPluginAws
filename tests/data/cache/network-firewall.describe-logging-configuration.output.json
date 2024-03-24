@@ -1,0 +1,24 @@
+{
+    "input": {
+        "template": {
+            "FirewallArn": "",
+            "FirewallName": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "describe_logging_configuration",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249712.124702,
+        "end": 1711249719.207621,
+        "duration": 7.08293890953064,
+        "service": "network-firewall",
+        "type": "logging_configuration"
+    }
+}

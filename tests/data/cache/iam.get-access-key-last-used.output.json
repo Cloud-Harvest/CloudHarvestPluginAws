@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "AccessKeyId": ""
+        },
+        "template_required_inputs": [
+            "AccessKeyId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_access_key_last_used",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248834.467029,
+        "end": 1711248842.458676,
+        "duration": 7.991670846939087,
+        "service": "iam",
+        "type": null
+    }
+}

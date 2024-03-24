@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "eventId": "",
+            "eventTypeName": ""
+        },
+        "template_required_inputs": [
+            "eventId",
+            "eventTypeName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_event",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248669.785709,
+        "end": 1711248678.318467,
+        "duration": 8.532783031463623,
+        "service": "frauddetector",
+        "type": null
+    }
+}

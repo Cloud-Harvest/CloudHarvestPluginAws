@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "OrganizationId": ""
+        },
+        "template_required_inputs": [
+            "OrganizationId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_default_retention_policy",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250345.127371,
+        "end": 1711250352.031994,
+        "duration": 6.904639959335327,
+        "service": "workmail",
+        "type": null
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "spaceId": ""
+        },
+        "template_required_inputs": [
+            "spaceId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_space",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249940.008008,
+        "end": 1711249946.036205,
+        "duration": 6.028249979019165,
+        "service": "repostspace",
+        "type": null
+    }
+}

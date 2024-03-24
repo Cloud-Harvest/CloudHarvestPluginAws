@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "Name": ""
+        },
+        "template_required_inputs": [
+            "Name"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_app_monitor",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249991.032769,
+        "end": 1711249996.095161,
+        "duration": 5.062406063079834,
+        "service": "rum",
+        "type": null
+    }
+}

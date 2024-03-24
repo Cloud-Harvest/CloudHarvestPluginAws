@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "recommenderArn": ""
+        },
+        "template_required_inputs": [
+            "recommenderArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_recommender",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249805.079012,
+        "end": 1711249811.032244,
+        "duration": 5.953242063522339,
+        "service": "personalize",
+        "type": "recommender"
+    }
+}

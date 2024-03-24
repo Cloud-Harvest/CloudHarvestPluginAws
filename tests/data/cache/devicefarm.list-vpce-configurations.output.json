@@ -1,0 +1,24 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_vpce_configurations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248439.860346,
+        "end": 1711248453.648653,
+        "duration": 13.788314819335938,
+        "service": "devicefarm",
+        "type": "vpce_configurations"
+    }
+}

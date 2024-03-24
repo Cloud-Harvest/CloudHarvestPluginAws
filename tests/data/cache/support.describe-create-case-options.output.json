@@ -1,0 +1,31 @@
+{
+    "input": {
+        "template": {
+            "issueType": "",
+            "serviceCode": "",
+            "language": "",
+            "categoryCode": ""
+        },
+        "template_required_inputs": [
+            "issueType",
+            "serviceCode",
+            "language",
+            "categoryCode"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_create_case_options",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250216.832911,
+        "end": 1711250223.004863,
+        "duration": 6.171966075897217,
+        "service": "support",
+        "type": "create_case_options"
+    }
+}

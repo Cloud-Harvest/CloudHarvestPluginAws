@@ -1,0 +1,35 @@
+{
+    "input": {
+        "template": {
+            "DBParameterGroupFamily": "",
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxRecords": 0,
+            "Marker": ""
+        },
+        "template_required_inputs": [
+            "DBParameterGroupFamily"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_engine_default_cluster_parameters",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249920.273261,
+        "end": 1711249926.540114,
+        "duration": 6.266863822937012,
+        "service": "rds",
+        "type": "engine_default_cluster_parameters"
+    }
+}

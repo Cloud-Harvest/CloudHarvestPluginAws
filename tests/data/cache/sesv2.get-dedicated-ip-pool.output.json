@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "PoolName": ""
+        },
+        "template_required_inputs": [
+            "PoolName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_dedicated_ip_pool",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250108.417347,
+        "end": 1711250114.814096,
+        "duration": 6.3967671394348145,
+        "service": "sesv2",
+        "type": null
+    }
+}

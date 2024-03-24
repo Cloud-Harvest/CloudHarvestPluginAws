@@ -1,0 +1,31 @@
+{
+    "input": {
+        "template": {
+            "StorageJobId": "",
+            "StartingObjectName": "",
+            "StartingObjectPrefix": "",
+            "MaxResults": 0,
+            "NextToken": "",
+            "CreatedBefore": "1970-01-01T00:00:00",
+            "CreatedAfter": "1970-01-01T00:00:00"
+        },
+        "template_required_inputs": [
+            "StorageJobId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_objects",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247921.149133,
+        "end": 1711247929.745657,
+        "duration": 8.596539974212646,
+        "service": "backupstorage",
+        "type": "objects"
+    }
+}

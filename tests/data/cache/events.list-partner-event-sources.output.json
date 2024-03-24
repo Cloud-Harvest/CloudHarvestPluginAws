@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "NamePrefix": "",
+            "NextToken": "",
+            "Limit": 0
+        },
+        "template_required_inputs": [
+            "NamePrefix"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_partner_event_sources",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248625.974857,
+        "end": 1711248632.130216,
+        "duration": 6.155368804931641,
+        "service": "events",
+        "type": "partner_event_sources"
+    }
+}

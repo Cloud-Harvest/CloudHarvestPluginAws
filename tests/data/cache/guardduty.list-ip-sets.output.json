@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "DetectorId": "",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "DetectorId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_ip_sets",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248814.177632,
+        "end": 1711248828.634519,
+        "duration": 14.456894874572754,
+        "service": "guardduty",
+        "type": "ip_sets"
+    }
+}

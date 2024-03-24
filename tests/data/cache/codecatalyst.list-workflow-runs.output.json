@@ -1,0 +1,33 @@
+{
+    "input": {
+        "template": {
+            "spaceName": "",
+            "workflowId": "",
+            "projectName": "",
+            "nextToken": "",
+            "maxResults": 0,
+            "sortBy": [
+                {}
+            ]
+        },
+        "template_required_inputs": [
+            "spaceName",
+            "projectName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_workflow_runs",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248151.076895,
+        "end": 1711248157.963891,
+        "duration": 6.8870251178741455,
+        "service": "codecatalyst",
+        "type": "workflow_runs"
+    }
+}

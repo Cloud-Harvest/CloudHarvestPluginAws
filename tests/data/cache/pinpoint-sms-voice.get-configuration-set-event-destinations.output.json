@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "ConfigurationSetName": ""
+        },
+        "template_required_inputs": [
+            "ConfigurationSetName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_configuration_set_event_destinations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249832.523585,
+        "end": 1711249837.697612,
+        "duration": 5.174041986465454,
+        "service": "pinpoint-sms-voice",
+        "type": null
+    }
+}

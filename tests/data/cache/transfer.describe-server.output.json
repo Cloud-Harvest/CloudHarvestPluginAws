@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "ServerId": ""
+        },
+        "template_required_inputs": [
+            "ServerId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_server",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250252.125141,
+        "end": 1711250259.71433,
+        "duration": 7.589205980300903,
+        "service": "transfer",
+        "type": "server"
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "input": {
+        "template": {
+            "GlobalNetworkId": "",
+            "DeviceIds": [
+                ""
+            ],
+            "SiteId": "",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "GlobalNetworkId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_devices",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249719.209533,
+        "end": 1711249725.35196,
+        "duration": 6.142439126968384,
+        "service": "networkmanager",
+        "type": null
+    }
+}

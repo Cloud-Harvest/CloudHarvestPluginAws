@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "PhoneNumberId": ""
+        },
+        "template_required_inputs": [
+            "PhoneNumberId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_phone_number",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248011.217823,
+        "end": 1711248015.346448,
+        "duration": 4.1286399364471436,
+        "service": "chime-sdk-voice",
+        "type": null
+    }
+}

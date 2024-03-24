@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "DistributionId": "",
+            "Marker": "",
+            "MaxItems": ""
+        },
+        "template_required_inputs": [
+            "DistributionId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_invalidations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248108.546921,
+        "end": 1711248122.110422,
+        "duration": 13.56351089477539,
+        "service": "cloudfront",
+        "type": "invalidations"
+    }
+}

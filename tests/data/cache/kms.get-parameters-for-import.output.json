@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "KeyId": "",
+            "WrappingAlgorithm": "RSAES_PKCS1_V1_5",
+            "WrappingKeySpec": "RSA_2048"
+        },
+        "template_required_inputs": [
+            "KeyId",
+            "WrappingAlgorithm",
+            "WrappingKeySpec"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_parameters_for_import",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249211.110194,
+        "end": 1711249223.947195,
+        "duration": 12.837011098861694,
+        "service": "kms",
+        "type": null
+    }
+}

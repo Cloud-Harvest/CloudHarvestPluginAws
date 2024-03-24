@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "VerifiedAccessGroupId": "",
+            "DryRun": true
+        },
+        "template_required_inputs": [
+            "VerifiedAccessGroupId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_verified_access_group_policy",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248528.894301,
+        "end": 1711248538.505711,
+        "duration": 9.611420154571533,
+        "service": "ec2",
+        "type": null
+    }
+}

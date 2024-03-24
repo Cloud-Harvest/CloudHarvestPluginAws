@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "AwsAccountId": "",
+            "VPCConnectionId": ""
+        },
+        "template_required_inputs": [
+            "AwsAccountId",
+            "VPCConnectionId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_vpc_connection",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249895.346673,
+        "end": 1711249901.744791,
+        "duration": 6.398133993148804,
+        "service": "quicksight",
+        "type": "vpc_connection"
+    }
+}

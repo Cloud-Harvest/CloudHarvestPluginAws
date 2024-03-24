@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "UserPoolId": ""
+        },
+        "template_required_inputs": [
+            "UserPoolId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_user_pool_mfa_config",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248209.486467,
+        "end": 1711248216.751677,
+        "duration": 7.265222072601318,
+        "service": "cognito-idp",
+        "type": null
+    }
+}

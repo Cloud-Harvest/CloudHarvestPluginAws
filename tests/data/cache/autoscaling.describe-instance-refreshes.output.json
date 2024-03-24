@@ -1,0 +1,30 @@
+{
+    "input": {
+        "template": {
+            "AutoScalingGroupName": "",
+            "InstanceRefreshIds": [
+                ""
+            ],
+            "NextToken": "",
+            "MaxRecords": 0
+        },
+        "template_required_inputs": [
+            "AutoScalingGroupName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_instance_refreshes",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247882.090126,
+        "end": 1711247895.840889,
+        "duration": 13.750773906707764,
+        "service": "autoscaling",
+        "type": "instance_refreshes"
+    }
+}

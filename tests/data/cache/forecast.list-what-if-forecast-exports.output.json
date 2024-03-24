@@ -1,0 +1,31 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0,
+            "Filters": [
+                {
+                    "Key": "",
+                    "Value": "",
+                    "Condition": "IS"
+                }
+            ]
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_what_if_forecast_exports",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248667.166311,
+        "end": 1711248678.942844,
+        "duration": 11.77654504776001,
+        "service": "forecast",
+        "type": "what_if_forecast_exports"
+    }
+}

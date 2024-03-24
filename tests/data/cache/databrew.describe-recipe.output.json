@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "Name": "",
+            "RecipeVersion": ""
+        },
+        "template_required_inputs": [
+            "Name"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_recipe",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248345.872822,
+        "end": 1711248354.555382,
+        "duration": 8.68256688117981,
+        "service": "databrew",
+        "type": "recipe"
+    }
+}

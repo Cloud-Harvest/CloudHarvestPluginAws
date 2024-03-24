@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "ResourceId": "",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "ResourceId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_tags_for_resource",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248545.62288,
+        "end": 1711248552.607188,
+        "duration": 6.984328985214233,
+        "service": "efs",
+        "type": "tags_for_resource"
+    }
+}

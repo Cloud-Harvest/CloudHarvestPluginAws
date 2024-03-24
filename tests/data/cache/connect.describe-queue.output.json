@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "InstanceId": "",
+            "QueueId": ""
+        },
+        "template_required_inputs": [
+            "InstanceId",
+            "QueueId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_queue",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248272.383238,
+        "end": 1711248280.794443,
+        "duration": 8.411213874816895,
+        "service": "connect",
+        "type": "queue"
+    }
+}

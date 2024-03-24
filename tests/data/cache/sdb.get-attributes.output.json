@@ -1,0 +1,31 @@
+{
+    "input": {
+        "template": {
+            "DomainName": "",
+            "ItemName": "",
+            "AttributeNames": [
+                ""
+            ],
+            "ConsistentRead": true
+        },
+        "template_required_inputs": [
+            "DomainName",
+            "ItemName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_attributes",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250072.770182,
+        "end": 1711250077.598606,
+        "duration": 4.82843804359436,
+        "service": "sdb",
+        "type": null
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "OpenIDConnectProviderArn": ""
+        },
+        "template_required_inputs": [
+            "OpenIDConnectProviderArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_open_id_connect_provider",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248842.089277,
+        "end": 1711248852.022017,
+        "duration": 9.932746887207031,
+        "service": "iam",
+        "type": null
+    }
+}

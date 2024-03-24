@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "JobName": "",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "JobName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_job_runs",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248719.93935,
+        "end": 1711248727.442138,
+        "duration": 7.502800226211548,
+        "service": "glue",
+        "type": null
+    }
+}

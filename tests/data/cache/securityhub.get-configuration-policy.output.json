@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "Identifier": ""
+        },
+        "template_required_inputs": [
+            "Identifier"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_configuration_policy",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250076.000638,
+        "end": 1711250082.802116,
+        "duration": 6.801493883132935,
+        "service": "securityhub",
+        "type": null
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "input": {
+        "template": {
+            "ServiceName": "KUBERNETES",
+            "DependentServices": [
+                {
+                    "ServiceName": "KUBERNETES",
+                    "ServiceVersion": {
+                        "Version": ""
+                    }
+                }
+            ],
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "ServiceName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_service_versions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250128.232459,
+        "end": 1711250134.215809,
+        "duration": 5.983366966247559,
+        "service": "snowball",
+        "type": "service_versions"
+    }
+}

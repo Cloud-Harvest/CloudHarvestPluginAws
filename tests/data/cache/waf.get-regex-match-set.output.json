@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "RegexMatchSetId": ""
+        },
+        "template_required_inputs": [
+            "RegexMatchSetId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_regex_match_set",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250283.1541,
+        "end": 1711250290.434575,
+        "duration": 7.280526161193848,
+        "service": "waf",
+        "type": null
+    }
+}

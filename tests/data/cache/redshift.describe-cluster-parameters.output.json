@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "ParameterGroupName": "",
+            "Source": "",
+            "MaxRecords": 0,
+            "Marker": ""
+        },
+        "template_required_inputs": [
+            "ParameterGroupName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_cluster_parameters",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249921.47017,
+        "end": 1711249927.61201,
+        "duration": 6.141855001449585,
+        "service": "redshift",
+        "type": "cluster_parameters"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "MonitoringScheduleName": ""
+        },
+        "template_required_inputs": [
+            "MonitoringScheduleName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_monitoring_schedule",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250042.008631,
+        "end": 1711250049.189372,
+        "duration": 7.180758953094482,
+        "service": "sagemaker",
+        "type": "monitoring_schedule"
+    }
+}

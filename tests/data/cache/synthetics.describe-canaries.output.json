@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0,
+            "Names": [
+                ""
+            ]
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "describe_canaries",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250224.031971,
+        "end": 1711250232.241991,
+        "duration": 8.210031032562256,
+        "service": "synthetics",
+        "type": "canaries"
+    }
+}

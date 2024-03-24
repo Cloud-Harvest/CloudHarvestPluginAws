@@ -1,0 +1,33 @@
+{
+    "input": {
+        "template": {
+            "IdentityPoolId": "",
+            "IdentityId": "",
+            "DatasetName": "",
+            "LastSyncCount": 0,
+            "NextToken": "",
+            "MaxResults": 0,
+            "SyncSessionToken": ""
+        },
+        "template_required_inputs": [
+            "IdentityPoolId",
+            "IdentityId",
+            "DatasetName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_records",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248218.47507,
+        "end": 1711248225.2205,
+        "duration": 6.745441913604736,
+        "service": "cognito-sync",
+        "type": "records"
+    }
+}

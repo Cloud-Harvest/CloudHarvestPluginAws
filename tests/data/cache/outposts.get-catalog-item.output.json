@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "CatalogItemId": ""
+        },
+        "template_required_inputs": [
+            "CatalogItemId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_catalog_item",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249783.014804,
+        "end": 1711249787.874019,
+        "duration": 4.859228134155273,
+        "service": "outposts",
+        "type": null
+    }
+}

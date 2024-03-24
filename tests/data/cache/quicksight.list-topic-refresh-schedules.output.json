@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "AwsAccountId": "",
+            "TopicId": ""
+        },
+        "template_required_inputs": [
+            "AwsAccountId",
+            "TopicId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_topic_refresh_schedules",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249908.076391,
+        "end": 1711249914.339654,
+        "duration": 6.2632739543914795,
+        "service": "quicksight",
+        "type": "topic_refresh_schedules"
+    }
+}

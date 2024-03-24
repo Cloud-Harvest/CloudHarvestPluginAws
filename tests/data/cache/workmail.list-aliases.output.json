@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "OrganizationId": "",
+            "EntityId": "",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "OrganizationId",
+            "EntityId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_aliases",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250351.193606,
+        "end": 1711250357.5736,
+        "duration": 6.380005121231079,
+        "service": "workmail",
+        "type": "aliases"
+    }
+}

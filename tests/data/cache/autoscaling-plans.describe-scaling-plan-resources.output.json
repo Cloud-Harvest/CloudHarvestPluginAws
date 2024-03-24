@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "ScalingPlanName": "",
+            "ScalingPlanVersion": 0,
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "ScalingPlanName",
+            "ScalingPlanVersion"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_scaling_plan_resources",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247884.933694,
+        "end": 1711247898.92931,
+        "duration": 13.995639085769653,
+        "service": "autoscaling-plans",
+        "type": "scaling_plan_resources"
+    }
+}

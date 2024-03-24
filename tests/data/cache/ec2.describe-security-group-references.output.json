@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "DryRun": true,
+            "GroupId": [
+                ""
+            ]
+        },
+        "template_required_inputs": [
+            "GroupId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_security_group_references",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248499.232396,
+        "end": 1711248512.009698,
+        "duration": 12.77731204032898,
+        "service": "ec2",
+        "type": "security_group_references"
+    }
+}

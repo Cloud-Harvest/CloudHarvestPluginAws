@@ -1,0 +1,30 @@
+{
+    "input": {
+        "template": {
+            "Name": "",
+            "MaxResults": 0,
+            "SharedAwsAccountIds": [
+                ""
+            ],
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "Name"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_image_permissions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247822.583157,
+        "end": 1711247836.070696,
+        "duration": 13.487547874450684,
+        "service": "appstream",
+        "type": "image_permissions"
+    }
+}

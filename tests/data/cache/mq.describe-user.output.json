@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "BrokerId": "",
+            "Username": ""
+        },
+        "template_required_inputs": [
+            "BrokerId",
+            "Username"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_user",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249695.44274,
+        "end": 1711249702.367775,
+        "duration": 6.9250569343566895,
+        "service": "mq",
+        "type": "user"
+    }
+}

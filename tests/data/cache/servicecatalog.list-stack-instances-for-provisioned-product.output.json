@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "AcceptLanguage": "",
+            "ProvisionedProductId": "",
+            "PageToken": "",
+            "PageSize": 0
+        },
+        "template_required_inputs": [
+            "ProvisionedProductId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_stack_instances_for_provisioned_product",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250096.179222,
+        "end": 1711250102.167014,
+        "duration": 5.98780083656311,
+        "service": "servicecatalog",
+        "type": "stack_instances_for_provisioned_product"
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0,
+            "MonitorArn": "",
+            "Filters": [
+                {
+                    "Key": "",
+                    "Value": "",
+                    "Condition": "IS"
+                }
+            ]
+        },
+        "template_required_inputs": [
+            "MonitorArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_monitor_evaluations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248665.466016,
+        "end": 1711248672.356115,
+        "duration": 6.890110015869141,
+        "service": "forecast",
+        "type": "monitor_evaluations"
+    }
+}

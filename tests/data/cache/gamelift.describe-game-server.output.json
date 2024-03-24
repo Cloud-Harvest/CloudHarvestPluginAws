@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "GameServerGroupName": "",
+            "GameServerId": ""
+        },
+        "template_required_inputs": [
+            "GameServerGroupName",
+            "GameServerId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_game_server",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248684.382082,
+        "end": 1711248693.987779,
+        "duration": 9.605705976486206,
+        "service": "gamelift",
+        "type": "game_server"
+    }
+}

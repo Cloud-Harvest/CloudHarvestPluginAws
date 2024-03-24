@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "FleetId": "",
+            "InstanceId": "",
+            "Limit": 0,
+            "NextToken": "",
+            "Location": ""
+        },
+        "template_required_inputs": [
+            "FleetId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_instances",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248690.323975,
+        "end": 1711248695.944579,
+        "duration": 5.6206159591674805,
+        "service": "gamelift",
+        "type": "instances"
+    }
+}

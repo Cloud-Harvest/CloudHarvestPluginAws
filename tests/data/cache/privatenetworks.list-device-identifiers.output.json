@@ -1,0 +1,32 @@
+{
+    "input": {
+        "template": {
+            "filters": {
+                "KeyName": [
+                    ""
+                ]
+            },
+            "maxResults": 0,
+            "networkArn": "",
+            "startToken": ""
+        },
+        "template_required_inputs": [
+            "networkArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_device_identifiers",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249844.779804,
+        "end": 1711249850.917238,
+        "duration": 6.137448072433472,
+        "service": "privatenetworks",
+        "type": "device_identifiers"
+    }
+}

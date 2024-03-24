@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "membershipIdentifier": "",
+            "protectedQueryIdentifier": ""
+        },
+        "template_required_inputs": [
+            "membershipIdentifier",
+            "protectedQueryIdentifier"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_protected_query",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248034.997013,
+        "end": 1711248041.478452,
+        "duration": 6.4814558029174805,
+        "service": "cleanrooms",
+        "type": null
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "SyncType": "CFN_STACK_SYNC",
+            "ResourceName": ""
+        },
+        "template_required_inputs": [
+            "SyncType",
+            "ResourceName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_sync_blocker_summary",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248194.063173,
+        "end": 1711248199.704476,
+        "duration": 5.641326904296875,
+        "service": "codestar-connections",
+        "type": null
+    }
+}

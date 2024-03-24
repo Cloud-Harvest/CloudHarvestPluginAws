@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "agentId": "",
+            "agentAliasId": ""
+        },
+        "template_required_inputs": [
+            "agentId",
+            "agentAliasId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_agent_alias",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247933.872076,
+        "end": 1711247940.247158,
+        "duration": 6.375102996826172,
+        "service": "bedrock-agent",
+        "type": null
+    }
+}

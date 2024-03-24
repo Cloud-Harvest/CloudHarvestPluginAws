@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "LineageGroupName": ""
+        },
+        "template_required_inputs": [
+            "LineageGroupName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_lineage_group_policy",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250049.19634,
+        "end": 1711250055.179444,
+        "duration": 5.983125925064087,
+        "service": "sagemaker",
+        "type": null
+    }
+}

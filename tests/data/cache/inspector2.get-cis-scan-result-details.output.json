@@ -1,0 +1,65 @@
+{
+    "input": {
+        "template": {
+            "accountId": "",
+            "filterCriteria": {
+                "checkIdFilters": [
+                    {
+                        "comparison": "EQUALS",
+                        "value": ""
+                    }
+                ],
+                "findingArnFilters": [
+                    {
+                        "comparison": "EQUALS",
+                        "value": ""
+                    }
+                ],
+                "findingStatusFilters": [
+                    {
+                        "comparison": "EQUALS",
+                        "value": "PASSED"
+                    }
+                ],
+                "securityLevelFilters": [
+                    {
+                        "comparison": "EQUALS",
+                        "value": "LEVEL_1"
+                    }
+                ],
+                "titleFilters": [
+                    {
+                        "comparison": "EQUALS",
+                        "value": ""
+                    }
+                ]
+            },
+            "maxResults": 0,
+            "nextToken": "",
+            "scanArn": "",
+            "sortBy": "CHECK_ID",
+            "sortOrder": "ASC",
+            "targetResourceId": ""
+        },
+        "template_required_inputs": [
+            "accountId",
+            "scanArn",
+            "targetResourceId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_cis_scan_result_details",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248891.674874,
+        "end": 1711248897.31637,
+        "duration": 5.641511917114258,
+        "service": "inspector2",
+        "type": null
+    }
+}

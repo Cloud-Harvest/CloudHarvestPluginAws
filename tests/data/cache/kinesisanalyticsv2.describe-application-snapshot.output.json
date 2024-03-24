@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "ApplicationName": "",
+            "SnapshotName": ""
+        },
+        "template_required_inputs": [
+            "ApplicationName",
+            "SnapshotName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_application_snapshot",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249202.940982,
+        "end": 1711249211.109709,
+        "duration": 8.168739795684814,
+        "service": "kinesisanalyticsv2",
+        "type": "application_snapshot"
+    }
+}

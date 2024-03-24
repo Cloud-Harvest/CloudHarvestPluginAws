@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "environmentId": ""
+        },
+        "template_required_inputs": [
+            "environmentId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_environment",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249610.393802,
+        "end": 1711249616.671878,
+        "duration": 6.278087139129639,
+        "service": "m2",
+        "type": null
+    }
+}

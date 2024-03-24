@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "launchProfileId": "",
+            "studioId": ""
+        },
+        "template_required_inputs": [
+            "launchProfileId",
+            "studioId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_launch_profile_details",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249727.525652,
+        "end": 1711249733.457705,
+        "duration": 5.932067155838013,
+        "service": "nimble",
+        "type": null
+    }
+}

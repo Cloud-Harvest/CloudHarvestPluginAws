@@ -1,0 +1,30 @@
+{
+    "input": {
+        "template": {
+            "assessmentTemplateArn": "",
+            "previewToken": "",
+            "nextToken": "",
+            "maxResults": 0,
+            "locale": "EN_US"
+        },
+        "template_required_inputs": [
+            "assessmentTemplateArn",
+            "previewToken"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_exclusions_preview",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248886.22839,
+        "end": 1711248895.724436,
+        "duration": 9.496060132980347,
+        "service": "inspector",
+        "type": null
+    }
+}

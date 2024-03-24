@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "Name": ""
+        },
+        "template_required_inputs": [
+            "Name"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_ledger",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249869.894562,
+        "end": 1711249875.809809,
+        "duration": 5.915260076522827,
+        "service": "qldb",
+        "type": "ledger"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "ResourceARN": "",
+            "Marker": "",
+            "Limit": 0
+        },
+        "template_required_inputs": [
+            "ResourceARN"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_tags_for_resource",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250210.757539,
+        "end": 1711250216.830112,
+        "duration": 6.072583913803101,
+        "service": "storagegateway",
+        "type": "tags_for_resource"
+    }
+}

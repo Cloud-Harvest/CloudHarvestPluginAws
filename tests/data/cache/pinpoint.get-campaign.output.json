@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "ApplicationId": "",
+            "CampaignId": ""
+        },
+        "template_required_inputs": [
+            "ApplicationId",
+            "CampaignId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_campaign",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249811.908432,
+        "end": 1711249817.962466,
+        "duration": 6.054253101348877,
+        "service": "pinpoint",
+        "type": null
+    }
+}

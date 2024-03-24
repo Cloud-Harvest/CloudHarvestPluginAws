@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "CollectionName": ""
+        },
+        "template_required_inputs": [
+            "CollectionName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_geofence_collection",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249467.858286,
+        "end": 1711249473.383266,
+        "duration": 5.525037050247192,
+        "service": "location",
+        "type": "geofence_collection"
+    }
+}

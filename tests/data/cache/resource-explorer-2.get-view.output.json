@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "ViewArn": ""
+        },
+        "template_required_inputs": [
+            "ViewArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_view",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249951.428535,
+        "end": 1711249956.559962,
+        "duration": 5.131447076797485,
+        "service": "resource-explorer-2",
+        "type": null
+    }
+}

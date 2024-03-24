@@ -1,0 +1,30 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "nextToken": "",
+            "resource": [
+                ""
+            ],
+            "type": "encryption"
+        },
+        "template_required_inputs": [
+            "type"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_security_policies",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249768.458212,
+        "end": 1711249774.540782,
+        "duration": 6.082581996917725,
+        "service": "opensearchserverless",
+        "type": "security_policies"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "CollectionId": ""
+        },
+        "template_required_inputs": [
+            "CollectionId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_collection",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249932.794039,
+        "end": 1711249939.075742,
+        "duration": 6.281713008880615,
+        "service": "rekognition",
+        "type": "collection"
+    }
+}

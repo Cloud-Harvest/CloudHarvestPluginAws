@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "ProjectArn": "",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "ProjectArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_project_policies",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249939.960568,
+        "end": 1711249946.164363,
+        "duration": 6.203810930252075,
+        "service": "rekognition",
+        "type": "project_policies"
+    }
+}

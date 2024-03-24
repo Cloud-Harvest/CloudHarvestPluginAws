@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "apiId": "",
+            "typeName": "",
+            "format": "SDL"
+        },
+        "template_required_inputs": [
+            "apiId",
+            "typeName",
+            "format"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_type",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247839.591217,
+        "end": 1711247847.691321,
+        "duration": 8.10011601448059,
+        "service": "appsync",
+        "type": null
+    }
+}

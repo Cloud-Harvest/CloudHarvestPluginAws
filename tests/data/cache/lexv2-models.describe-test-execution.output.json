@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "testExecutionId": ""
+        },
+        "template_required_inputs": [
+            "testExecutionId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_test_execution",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249261.607053,
+        "end": 1711249269.785752,
+        "duration": 8.1787109375,
+        "service": "lexv2-models",
+        "type": "test_execution"
+    }
+}

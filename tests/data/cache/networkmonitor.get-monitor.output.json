@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "monitorName": ""
+        },
+        "template_required_inputs": [
+            "monitorName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_monitor",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249725.375492,
+        "end": 1711249731.535359,
+        "duration": 6.159878969192505,
+        "service": "networkmonitor",
+        "type": null
+    }
+}

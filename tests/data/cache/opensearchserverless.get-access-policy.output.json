@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "name": "",
+            "type": "data"
+        },
+        "template_required_inputs": [
+            "name",
+            "type"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_access_policy",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249766.372868,
+        "end": 1711249771.575108,
+        "duration": 5.202255964279175,
+        "service": "opensearchserverless",
+        "type": null
+    }
+}

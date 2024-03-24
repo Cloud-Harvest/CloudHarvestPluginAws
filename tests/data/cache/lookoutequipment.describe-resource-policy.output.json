@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "ResourceArn": ""
+        },
+        "template_required_inputs": [
+            "ResourceArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_resource_policy",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249484.522813,
+        "end": 1711249490.89175,
+        "duration": 6.368947982788086,
+        "service": "lookoutequipment",
+        "type": "resource_policy"
+    }
+}

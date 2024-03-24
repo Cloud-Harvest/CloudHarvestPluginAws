@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "ResourceId": ""
+        },
+        "template_required_inputs": [
+            "ResourceId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_client_branding",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250358.718629,
+        "end": 1711250371.924991,
+        "duration": 13.20637321472168,
+        "service": "workspaces",
+        "type": "client_branding"
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "input": {
+        "template": {
+            "sequenceStoreId": "",
+            "maxResults": 0,
+            "nextToken": "",
+            "filter": {
+                "status": "SUBMITTED",
+                "createdAfter": "1970-01-01T00:00:00",
+                "createdBefore": "1970-01-01T00:00:00"
+            }
+        },
+        "template_required_inputs": [
+            "sequenceStoreId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_read_set_activation_jobs",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249746.841713,
+        "end": 1711249753.119881,
+        "duration": 6.278181076049805,
+        "service": "omics",
+        "type": "read_set_activation_jobs"
+    }
+}

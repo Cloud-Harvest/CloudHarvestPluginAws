@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "VendorName": "",
+            "Scope": "CLOUDFRONT"
+        },
+        "template_required_inputs": [
+            "VendorName",
+            "Scope"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_managed_products_by_vendor",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250300.853465,
+        "end": 1711250309.03206,
+        "duration": 8.178606033325195,
+        "service": "wafv2",
+        "type": "managed_products_by_vendor"
+    }
+}

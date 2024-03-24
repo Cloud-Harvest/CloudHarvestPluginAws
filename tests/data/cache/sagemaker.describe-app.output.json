@@ -1,0 +1,31 @@
+{
+    "input": {
+        "template": {
+            "DomainId": "",
+            "UserProfileName": "",
+            "SpaceName": "",
+            "AppType": "JupyterServer",
+            "AppName": ""
+        },
+        "template_required_inputs": [
+            "DomainId",
+            "AppType",
+            "AppName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_app",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250027.58481,
+        "end": 1711250034.205981,
+        "duration": 6.621181011199951,
+        "service": "sagemaker",
+        "type": "app"
+    }
+}

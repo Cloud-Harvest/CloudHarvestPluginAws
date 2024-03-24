@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "CoreDefinitionId": "",
+            "CoreDefinitionVersionId": ""
+        },
+        "template_required_inputs": [
+            "CoreDefinitionId",
+            "CoreDefinitionVersionId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_core_definition_version",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248745.211624,
+        "end": 1711248752.988555,
+        "duration": 7.7769410610198975,
+        "service": "greengrass",
+        "type": null
+    }
+}

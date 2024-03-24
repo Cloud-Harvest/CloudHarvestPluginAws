@@ -1,0 +1,31 @@
+{
+    "input": {
+        "template": {
+            "CollectionId": "",
+            "NextToken": "",
+            "MaxResults": 0,
+            "UserId": "",
+            "FaceIds": [
+                ""
+            ]
+        },
+        "template_required_inputs": [
+            "CollectionId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_faces",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249939.328686,
+        "end": 1711249945.773672,
+        "duration": 6.444994926452637,
+        "service": "rekognition",
+        "type": "faces"
+    }
+}

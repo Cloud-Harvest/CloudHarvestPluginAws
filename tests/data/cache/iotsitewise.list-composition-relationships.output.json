@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "assetModelId": "",
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "template_required_inputs": [
+            "assetModelId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_composition_relationships",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248995.603327,
+        "end": 1711249001.503758,
+        "duration": 5.900444984436035,
+        "service": "iotsitewise",
+        "type": "composition_relationships"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "Role": "ADMIN",
+            "AwsAccountId": "",
+            "Namespace": ""
+        },
+        "template_required_inputs": [
+            "Role",
+            "AwsAccountId",
+            "Namespace"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_role_custom_permission",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249888.970975,
+        "end": 1711249895.477558,
+        "duration": 6.506601095199585,
+        "service": "quicksight",
+        "type": "role_custom_permission"
+    }
+}

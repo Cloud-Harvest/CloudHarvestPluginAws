@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "CodeReviewArn": "",
+            "RecommendationId": "",
+            "UserId": ""
+        },
+        "template_required_inputs": [
+            "CodeReviewArn",
+            "RecommendationId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_recommendation_feedback",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248163.046347,
+        "end": 1711248170.275225,
+        "duration": 7.228898048400879,
+        "service": "codeguru-reviewer",
+        "type": "recommendation_feedback"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "environmentId": "",
+            "databaseName": "",
+            "dataviewName": ""
+        },
+        "template_required_inputs": [
+            "environmentId",
+            "databaseName",
+            "dataviewName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_kx_dataview",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248633.804245,
+        "end": 1711248641.481659,
+        "duration": 7.67742395401001,
+        "service": "finspace",
+        "type": null
+    }
+}

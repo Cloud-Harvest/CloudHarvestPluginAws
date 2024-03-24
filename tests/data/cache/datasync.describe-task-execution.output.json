@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "TaskExecutionArn": ""
+        },
+        "template_required_inputs": [
+            "TaskExecutionArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_task_execution",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248366.532961,
+        "end": 1711248376.623868,
+        "duration": 10.090915203094482,
+        "service": "datasync",
+        "type": "task_execution"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "restApiId": "",
+            "position": "",
+            "limit": 0
+        },
+        "template_required_inputs": [
+            "restApiId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_documentation_versions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247738.815769,
+        "end": 1711247747.284585,
+        "duration": 8.46882700920105,
+        "service": "apigateway",
+        "type": null
+    }
+}

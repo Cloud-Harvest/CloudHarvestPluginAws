@@ -1,0 +1,33 @@
+{
+    "input": {
+        "template": {
+            "DryRun": true,
+            "Cidr": "",
+            "IpamScopeId": "",
+            "VpcId": "",
+            "StartTime": "1970-01-01T00:00:00",
+            "EndTime": "1970-01-01T00:00:00",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "Cidr",
+            "IpamScopeId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_ipam_address_history",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248514.773187,
+        "end": 1711248523.076585,
+        "duration": 8.303408145904541,
+        "service": "ec2",
+        "type": null
+    }
+}

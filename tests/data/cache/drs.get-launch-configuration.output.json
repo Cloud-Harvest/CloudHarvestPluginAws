@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "sourceServerID": ""
+        },
+        "template_required_inputs": [
+            "sourceServerID"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_launch_configuration",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248468.902622,
+        "end": 1711248475.30194,
+        "duration": 6.399329900741577,
+        "service": "drs",
+        "type": null
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "input": {
+        "template": {
+            "ServiceType": "RDS",
+            "Identifier": "",
+            "Metrics": [
+                ""
+            ],
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "ServiceType",
+            "Identifier",
+            "Metrics"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_available_resource_dimensions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249807.825419,
+        "end": 1711249812.910455,
+        "duration": 5.0850510597229,
+        "service": "pi",
+        "type": "available_resource_dimensions"
+    }
+}

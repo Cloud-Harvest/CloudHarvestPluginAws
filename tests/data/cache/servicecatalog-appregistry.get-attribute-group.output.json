@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "attributeGroup": ""
+        },
+        "template_required_inputs": [
+            "attributeGroup"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_attribute_group",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250096.247904,
+        "end": 1711250102.174305,
+        "duration": 5.926446914672852,
+        "service": "servicecatalog-appregistry",
+        "type": null
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "collaborationIdentifier": "",
+            "schemaType": "TABLE",
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "template_required_inputs": [
+            "collaborationIdentifier"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_schemas",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248043.77742,
+        "end": 1711248052.413463,
+        "duration": 8.636055946350098,
+        "service": "cleanrooms",
+        "type": "schemas"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "JobId": ""
+        },
+        "template_required_inputs": [
+            "JobId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_device_job",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249787.868109,
+        "end": 1711249793.051344,
+        "duration": 5.183248996734619,
+        "service": "panorama",
+        "type": "device_job"
+    }
+}

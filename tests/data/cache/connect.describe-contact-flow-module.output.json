@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "InstanceId": "",
+            "ContactFlowModuleId": ""
+        },
+        "template_required_inputs": [
+            "InstanceId",
+            "ContactFlowModuleId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_contact_flow_module",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248265.834879,
+        "end": 1711248276.467246,
+        "duration": 10.632376194000244,
+        "service": "connect",
+        "type": "contact_flow_module"
+    }
+}

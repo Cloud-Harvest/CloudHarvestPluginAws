@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "additionalAttributeNames": [
+                "QueueInfo"
+            ],
+            "quantumTaskArn": ""
+        },
+        "template_required_inputs": [
+            "quantumTaskArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_quantum_task",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247944.377926,
+        "end": 1711247950.312665,
+        "duration": 5.934751987457275,
+        "service": "braket",
+        "type": null
+    }
+}

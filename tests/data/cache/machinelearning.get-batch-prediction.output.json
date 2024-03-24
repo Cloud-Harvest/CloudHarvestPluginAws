@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "BatchPredictionId": ""
+        },
+        "template_required_inputs": [
+            "BatchPredictionId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_batch_prediction",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249611.513564,
+        "end": 1711249618.688664,
+        "duration": 7.175119876861572,
+        "service": "machinelearning",
+        "type": null
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "DatasetName": "",
+            "MaxResults": 0,
+            "NextToken": "",
+            "ProjectName": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_jobs",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248348.075715,
+        "end": 1711248356.693205,
+        "duration": 8.617501974105835,
+        "service": "databrew",
+        "type": "jobs"
+    }
+}

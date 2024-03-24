@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "workspaceId": "",
+            "sceneId": ""
+        },
+        "template_required_inputs": [
+            "workspaceId",
+            "sceneId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_scene",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249001.504524,
+        "end": 1711249011.521423,
+        "duration": 10.016911029815674,
+        "service": "iottwinmaker",
+        "type": null
+    }
+}

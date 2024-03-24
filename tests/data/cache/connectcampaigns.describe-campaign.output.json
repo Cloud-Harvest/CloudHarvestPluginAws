@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "id": ""
+        },
+        "template_required_inputs": [
+            "id"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_campaign",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248317.835141,
+        "end": 1711248323.593157,
+        "duration": 5.758023977279663,
+        "service": "connectcampaigns",
+        "type": "campaign"
+    }
+}

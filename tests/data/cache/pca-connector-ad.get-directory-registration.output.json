@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "DirectoryRegistrationArn": ""
+        },
+        "template_required_inputs": [
+            "DirectoryRegistrationArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_directory_registration",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249794.012883,
+        "end": 1711249800.324459,
+        "duration": 6.311589002609253,
+        "service": "pca-connector-ad",
+        "type": null
+    }
+}

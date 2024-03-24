@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "JobId": ""
+        },
+        "template_required_inputs": [
+            "JobId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_rx_norm_inference_job",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248234.939486,
+        "end": 1711248242.595315,
+        "duration": 7.655840873718262,
+        "service": "comprehendmedical",
+        "type": "rx_norm_inference_job"
+    }
+}

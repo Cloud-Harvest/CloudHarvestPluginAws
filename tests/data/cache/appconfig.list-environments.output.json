@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "ApplicationId": "",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "ApplicationId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_environments",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247778.13389,
+        "end": 1711247784.426026,
+        "duration": 6.292152166366577,
+        "service": "appconfig",
+        "type": "environments"
+    }
+}

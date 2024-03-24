@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "Arn": ""
+        },
+        "template_required_inputs": [
+            "Arn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_earth_observation_job",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250066.371896,
+        "end": 1711250071.686504,
+        "duration": 5.314625024795532,
+        "service": "sagemaker-geospatial",
+        "type": null
+    }
+}

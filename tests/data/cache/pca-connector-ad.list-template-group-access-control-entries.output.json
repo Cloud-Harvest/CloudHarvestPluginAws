@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": "",
+            "TemplateArn": ""
+        },
+        "template_required_inputs": [
+            "TemplateArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_template_group_access_control_entries",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249799.050087,
+        "end": 1711249805.078491,
+        "duration": 6.028414011001587,
+        "service": "pca-connector-ad",
+        "type": "template_group_access_control_entries"
+    }
+}

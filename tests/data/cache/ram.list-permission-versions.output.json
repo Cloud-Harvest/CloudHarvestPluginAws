@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "permissionArn": "",
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "template_required_inputs": [
+            "permissionArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_permission_versions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249914.076501,
+        "end": 1711249920.266259,
+        "duration": 6.189768075942993,
+        "service": "ram",
+        "type": "permission_versions"
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "input": {
+        "template": {
+            "TransitGatewayPolicyTableId": "",
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxResults": 0,
+            "NextToken": "",
+            "DryRun": true
+        },
+        "template_required_inputs": [
+            "TransitGatewayPolicyTableId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_transit_gateway_policy_table_associations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248526.000174,
+        "end": 1711248534.514384,
+        "duration": 8.514217853546143,
+        "service": "ec2",
+        "type": null
+    }
+}

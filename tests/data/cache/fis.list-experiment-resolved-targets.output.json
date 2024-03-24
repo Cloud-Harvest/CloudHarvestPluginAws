@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "experimentId": "",
+            "maxResults": 0,
+            "nextToken": "",
+            "targetName": ""
+        },
+        "template_required_inputs": [
+            "experimentId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_experiment_resolved_targets",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248645.400365,
+        "end": 1711248652.903706,
+        "duration": 7.503351926803589,
+        "service": "fis",
+        "type": "experiment_resolved_targets"
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "input": {
+        "template": {
+            "workbookId": "",
+            "tableId": "",
+            "rowIds": [
+                ""
+            ],
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [
+            "workbookId",
+            "tableId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_table_rows",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248829.188591,
+        "end": 1711248842.086009,
+        "duration": 12.8974289894104,
+        "service": "honeycode",
+        "type": "table_rows"
+    }
+}

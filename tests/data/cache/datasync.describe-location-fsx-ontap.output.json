@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "LocationArn": ""
+        },
+        "template_required_inputs": [
+            "LocationArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_location_fsx_ontap",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248363.107607,
+        "end": 1711248368.901144,
+        "duration": 5.793549060821533,
+        "service": "datasync",
+        "type": "location_fsx_ontap"
+    }
+}

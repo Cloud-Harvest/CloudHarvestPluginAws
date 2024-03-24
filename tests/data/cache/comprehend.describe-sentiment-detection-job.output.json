@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "JobId": ""
+        },
+        "template_required_inputs": [
+            "JobId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_sentiment_detection_job",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248222.688183,
+        "end": 1711248230.729273,
+        "duration": 8.041100025177002,
+        "service": "comprehend",
+        "type": "sentiment_detection_job"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "workerConfigurationArn": ""
+        },
+        "template_required_inputs": [
+            "workerConfigurationArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_worker_configuration",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249179.598023,
+        "end": 1711249186.332837,
+        "duration": 6.734832048416138,
+        "service": "kafkaconnect",
+        "type": "worker_configuration"
+    }
+}

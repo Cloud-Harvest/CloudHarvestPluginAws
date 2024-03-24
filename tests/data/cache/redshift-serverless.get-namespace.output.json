@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "namespaceName": ""
+        },
+        "template_required_inputs": [
+            "namespaceName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_namespace",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249927.674421,
+        "end": 1711249933.78492,
+        "duration": 6.110512018203735,
+        "service": "redshift-serverless",
+        "type": null
+    }
+}

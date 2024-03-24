@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "AppInstanceArn": ""
+        },
+        "template_required_inputs": [
+            "AppInstanceArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_app_instance_retention_settings",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247987.760707,
+        "end": 1711247995.196726,
+        "duration": 7.4360411167144775,
+        "service": "chime-sdk-identity",
+        "type": null
+    }
+}

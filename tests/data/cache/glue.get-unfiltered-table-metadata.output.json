@@ -1,0 +1,57 @@
+{
+    "input": {
+        "template": {
+            "Region": "",
+            "CatalogId": "",
+            "DatabaseName": "",
+            "Name": "",
+            "AuditContext": {
+                "AdditionalAuditContext": "",
+                "RequestedColumns": [
+                    ""
+                ],
+                "AllColumnsRequested": true
+            },
+            "SupportedPermissionTypes": [
+                "COLUMN_PERMISSION"
+            ],
+            "SupportedDialect": {
+                "Dialect": "REDSHIFT",
+                "DialectVersion": ""
+            },
+            "Permissions": [
+                "ALL"
+            ],
+            "QuerySessionContext": {
+                "QueryId": "",
+                "QueryStartTime": "1970-01-01T00:00:00",
+                "ClusterId": "",
+                "QueryAuthorizationId": "",
+                "AdditionalContext": {
+                    "KeyName": ""
+                }
+            }
+        },
+        "template_required_inputs": [
+            "CatalogId",
+            "DatabaseName",
+            "Name",
+            "SupportedPermissionTypes"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_unfiltered_table_metadata",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248734.502302,
+        "end": 1711248742.599506,
+        "duration": 8.097213983535767,
+        "service": "glue",
+        "type": null
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "ImageId": "",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "ImageId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_workspace_image_permissions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250363.196957,
+        "end": 1711250371.913481,
+        "duration": 8.716527938842773,
+        "service": "workspaces",
+        "type": "workspace_image_permissions"
+    }
+}

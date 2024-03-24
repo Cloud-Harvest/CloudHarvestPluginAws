@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "ReportId": ""
+        },
+        "template_required_inputs": [
+            "ReportId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_deliverability_test_report",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250108.438059,
+        "end": 1711250114.766361,
+        "duration": 6.328313827514648,
+        "service": "sesv2",
+        "type": null
+    }
+}

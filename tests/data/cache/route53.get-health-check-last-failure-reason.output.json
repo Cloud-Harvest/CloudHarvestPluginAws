@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "HealthCheckId": ""
+        },
+        "template_required_inputs": [
+            "HealthCheckId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_health_check_last_failure_reason",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249959.634058,
+        "end": 1711249965.776381,
+        "duration": 6.142338037490845,
+        "service": "route53",
+        "type": null
+    }
+}

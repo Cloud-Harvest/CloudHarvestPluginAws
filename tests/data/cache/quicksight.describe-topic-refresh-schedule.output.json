@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "AwsAccountId": "",
+            "TopicId": "",
+            "DatasetId": ""
+        },
+        "template_required_inputs": [
+            "AwsAccountId",
+            "TopicId",
+            "DatasetId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_topic_refresh_schedule",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249894.884678,
+        "end": 1711249901.617515,
+        "duration": 6.732852220535278,
+        "service": "quicksight",
+        "type": "topic_refresh_schedule"
+    }
+}

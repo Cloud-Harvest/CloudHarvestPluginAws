@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "ApplicationId": "",
+            "UserId": ""
+        },
+        "template_required_inputs": [
+            "ApplicationId",
+            "UserId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_user_endpoints",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249826.514928,
+        "end": 1711249832.601114,
+        "duration": 6.08620285987854,
+        "service": "pinpoint",
+        "type": null
+    }
+}

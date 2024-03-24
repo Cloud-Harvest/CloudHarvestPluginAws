@@ -1,0 +1,30 @@
+{
+    "input": {
+        "template": {
+            "ServiceId": "",
+            "Instances": [
+                ""
+            ],
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "ServiceId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_instances_health_status",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250102.137982,
+        "end": 1711250108.359702,
+        "duration": 6.221736192703247,
+        "service": "servicediscovery",
+        "type": null
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "input": {
+        "template": {
+            "name": "",
+            "maxResults": 0,
+            "nextToken": "",
+            "filter": {
+                "status": "CREATING"
+            }
+        },
+        "template_required_inputs": [
+            "name"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_annotation_store_versions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249746.649477,
+        "end": 1711249752.869378,
+        "duration": 6.219944000244141,
+        "service": "omics",
+        "type": "annotation_store_versions"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "Type": "MAX_HEALTH_CHECKS_BY_OWNER"
+        },
+        "template_required_inputs": [
+            "Type"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_account_limit",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249959.57735,
+        "end": 1711249965.793945,
+        "duration": 6.21661114692688,
+        "service": "route53",
+        "type": null
+    }
+}

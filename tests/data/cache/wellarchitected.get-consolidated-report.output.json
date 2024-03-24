@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "Format": "PDF",
+            "IncludeSharedResources": true,
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "Format"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_consolidated_report",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250314.27661,
+        "end": 1711250320.435424,
+        "duration": 6.158851146697998,
+        "service": "wellarchitected",
+        "type": null
+    }
+}

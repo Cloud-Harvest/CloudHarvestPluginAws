@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "CompatibleRuntime": "nodejs",
+            "LayerName": "",
+            "Marker": "",
+            "MaxItems": 0,
+            "CompatibleArchitecture": "x86_64"
+        },
+        "template_required_inputs": [
+            "LayerName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_layer_versions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249239.114943,
+        "end": 1711249250.025985,
+        "duration": 10.911051034927368,
+        "service": "lambda",
+        "type": "layer_versions"
+    }
+}

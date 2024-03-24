@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "templateName": ""
+        },
+        "template_required_inputs": [
+            "templateName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_provisioning_template",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248914.581601,
+        "end": 1711248921.351146,
+        "duration": 6.769565105438232,
+        "service": "iot",
+        "type": "provisioning_template"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "schemaArn": ""
+        },
+        "template_required_inputs": [
+            "schemaArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_schema",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249805.271643,
+        "end": 1711249811.554042,
+        "duration": 6.282409191131592,
+        "service": "personalize",
+        "type": "schema"
+    }
+}

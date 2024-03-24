@@ -1,0 +1,138 @@
+{
+    "input": {
+        "template": {
+            "IndexId": "",
+            "QueryText": "",
+            "MaxSuggestionsCount": 0,
+            "SuggestionTypes": [
+                "QUERY"
+            ],
+            "AttributeSuggestionsConfig": {
+                "SuggestionAttributes": [
+                    ""
+                ],
+                "AdditionalResponseAttributes": [
+                    ""
+                ],
+                "AttributeFilter": {
+                    "AndAllFilters": [
+                        {}
+                    ],
+                    "OrAllFilters": [
+                        {}
+                    ],
+                    "NotFilter": {},
+                    "EqualsTo": {
+                        "Key": "",
+                        "Value": {
+                            "StringValue": "",
+                            "StringListValue": [
+                                ""
+                            ],
+                            "LongValue": 0,
+                            "DateValue": "1970-01-01T00:00:00"
+                        }
+                    },
+                    "ContainsAll": {
+                        "Key": "",
+                        "Value": {
+                            "StringValue": "",
+                            "StringListValue": [
+                                ""
+                            ],
+                            "LongValue": 0,
+                            "DateValue": "1970-01-01T00:00:00"
+                        }
+                    },
+                    "ContainsAny": {
+                        "Key": "",
+                        "Value": {
+                            "StringValue": "",
+                            "StringListValue": [
+                                ""
+                            ],
+                            "LongValue": 0,
+                            "DateValue": "1970-01-01T00:00:00"
+                        }
+                    },
+                    "GreaterThan": {
+                        "Key": "",
+                        "Value": {
+                            "StringValue": "",
+                            "StringListValue": [
+                                ""
+                            ],
+                            "LongValue": 0,
+                            "DateValue": "1970-01-01T00:00:00"
+                        }
+                    },
+                    "GreaterThanOrEquals": {
+                        "Key": "",
+                        "Value": {
+                            "StringValue": "",
+                            "StringListValue": [
+                                ""
+                            ],
+                            "LongValue": 0,
+                            "DateValue": "1970-01-01T00:00:00"
+                        }
+                    },
+                    "LessThan": {
+                        "Key": "",
+                        "Value": {
+                            "StringValue": "",
+                            "StringListValue": [
+                                ""
+                            ],
+                            "LongValue": 0,
+                            "DateValue": "1970-01-01T00:00:00"
+                        }
+                    },
+                    "LessThanOrEquals": {
+                        "Key": "",
+                        "Value": {
+                            "StringValue": "",
+                            "StringListValue": [
+                                ""
+                            ],
+                            "LongValue": 0,
+                            "DateValue": "1970-01-01T00:00:00"
+                        }
+                    }
+                },
+                "UserContext": {
+                    "Token": "",
+                    "UserId": "",
+                    "Groups": [
+                        ""
+                    ],
+                    "DataSourceGroups": [
+                        {
+                            "GroupId": "",
+                            "DataSourceId": ""
+                        }
+                    ]
+                }
+            }
+        },
+        "template_required_inputs": [
+            "IndexId",
+            "QueryText"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_query_suggestions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249183.904042,
+        "end": 1711249192.086701,
+        "duration": 8.1826810836792,
+        "service": "kendra",
+        "type": null
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "Name": "",
+            "WorkGroup": ""
+        },
+        "template_required_inputs": [
+            "Name"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_data_catalog",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247851.317568,
+        "end": 1711247859.78757,
+        "duration": 8.470012903213501,
+        "service": "athena",
+        "type": null
+    }
+}

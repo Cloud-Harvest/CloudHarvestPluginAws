@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "domainName": ""
+        },
+        "template_required_inputs": [
+            "domainName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_api_association",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247826.939436,
+        "end": 1711247839.899182,
+        "duration": 12.959763050079346,
+        "service": "appsync",
+        "type": null
+    }
+}

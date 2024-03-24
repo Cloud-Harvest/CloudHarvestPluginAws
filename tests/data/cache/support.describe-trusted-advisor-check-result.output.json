@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "checkId": "",
+            "language": ""
+        },
+        "template_required_inputs": [
+            "checkId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_trusted_advisor_check_result",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250217.884744,
+        "end": 1711250224.052079,
+        "duration": 6.167500019073486,
+        "service": "support",
+        "type": "trusted_advisor_check_result"
+    }
+}

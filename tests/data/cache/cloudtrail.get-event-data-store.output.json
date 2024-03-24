@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "EventDataStore": ""
+        },
+        "template_required_inputs": [
+            "EventDataStore"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_event_data_store",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248122.121697,
+        "end": 1711248127.907166,
+        "duration": 5.785489082336426,
+        "service": "cloudtrail",
+        "type": null
+    }
+}

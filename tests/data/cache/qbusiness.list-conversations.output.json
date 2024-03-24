@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "applicationId": "",
+            "maxResults": 0,
+            "nextToken": "",
+            "userId": ""
+        },
+        "template_required_inputs": [
+            "applicationId",
+            "userId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_conversations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249862.594622,
+        "end": 1711249868.893593,
+        "duration": 6.298979997634888,
+        "service": "qbusiness",
+        "type": "conversations"
+    }
+}

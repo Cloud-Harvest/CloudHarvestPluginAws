@@ -1,0 +1,24 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_organization_admin_accounts",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248403.773403,
+        "end": 1711248410.647084,
+        "duration": 6.873694181442261,
+        "service": "detective",
+        "type": "organization_admin_accounts"
+    }
+}

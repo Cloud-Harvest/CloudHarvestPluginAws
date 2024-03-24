@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "ProductType": "VoiceConnector"
+        },
+        "template_required_inputs": [
+            "ProductType"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_supported_phone_number_countries",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248028.689543,
+        "end": 1711248033.645939,
+        "duration": 4.9564220905303955,
+        "service": "chime-sdk-voice",
+        "type": "supported_phone_number_countries"
+    }
+}

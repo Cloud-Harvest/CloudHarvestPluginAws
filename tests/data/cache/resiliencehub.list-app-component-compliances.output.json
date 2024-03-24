@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "assessmentArn": "",
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [
+            "assessmentArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_app_component_compliances",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249946.063847,
+        "end": 1711249952.385004,
+        "duration": 6.321164846420288,
+        "service": "resiliencehub",
+        "type": "app_component_compliances"
+    }
+}

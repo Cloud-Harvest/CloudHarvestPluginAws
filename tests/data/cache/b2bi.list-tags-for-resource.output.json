@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "ResourceARN": ""
+        },
+        "template_required_inputs": [
+            "ResourceARN"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_tags_for_resource",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247892.984046,
+        "end": 1711247899.272788,
+        "duration": 6.288762092590332,
+        "service": "b2bi",
+        "type": "tags_for_resource"
+    }
+}

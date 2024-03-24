@@ -1,0 +1,32 @@
+{
+    "input": {
+        "template": {
+            "Filters": [
+                {
+                    "Key": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "describe_maintenance_windows",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250146.133037,
+        "end": 1711250153.088955,
+        "duration": 6.955932855606079,
+        "service": "ssm",
+        "type": "maintenance_windows"
+    }
+}

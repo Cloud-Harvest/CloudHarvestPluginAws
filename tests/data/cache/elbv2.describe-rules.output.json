@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "ListenerArn": "",
+            "RuleArns": [
+                ""
+            ],
+            "Marker": "",
+            "PageSize": 0
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "describe_rules",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248585.396727,
+        "end": 1711248593.592026,
+        "duration": 8.195312976837158,
+        "service": "elbv2",
+        "type": "rules"
+    }
+}

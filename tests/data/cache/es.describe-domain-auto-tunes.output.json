@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "DomainName": "",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "DomainName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_domain_auto_tunes",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248610.184534,
+        "end": 1711248617.614908,
+        "duration": 7.430382013320923,
+        "service": "es",
+        "type": "domain_auto_tunes"
+    }
+}

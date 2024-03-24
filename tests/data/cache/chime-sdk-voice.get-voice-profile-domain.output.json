@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "VoiceProfileDomainId": ""
+        },
+        "template_required_inputs": [
+            "VoiceProfileDomainId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_voice_profile_domain",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248017.605154,
+        "end": 1711248032.801185,
+        "duration": 15.196045875549316,
+        "service": "chime-sdk-voice",
+        "type": null
+    }
+}

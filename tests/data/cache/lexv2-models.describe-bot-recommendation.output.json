@@ -1,0 +1,31 @@
+{
+    "input": {
+        "template": {
+            "botId": "",
+            "botVersion": "",
+            "localeId": "",
+            "botRecommendationId": ""
+        },
+        "template_required_inputs": [
+            "botId",
+            "botVersion",
+            "localeId",
+            "botRecommendationId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_bot_recommendation",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249257.115078,
+        "end": 1711249262.40242,
+        "duration": 5.287361145019531,
+        "service": "lexv2-models",
+        "type": "bot_recommendation"
+    }
+}

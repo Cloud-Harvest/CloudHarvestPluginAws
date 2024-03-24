@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "instanceIds": [
+                ""
+            ],
+            "managedDeviceId": ""
+        },
+        "template_required_inputs": [
+            "instanceIds",
+            "managedDeviceId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_device_ec2_instances",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250121.940961,
+        "end": 1711250128.231226,
+        "duration": 6.290285110473633,
+        "service": "snow-device-management",
+        "type": "device_ec2_instances"
+    }
+}

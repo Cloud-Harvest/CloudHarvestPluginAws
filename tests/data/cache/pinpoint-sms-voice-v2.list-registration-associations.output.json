@@ -1,0 +1,35 @@
+{
+    "input": {
+        "template": {
+            "RegistrationId": "",
+            "Filters": [
+                {
+                    "Name": "resource-type",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "RegistrationId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_registration_associations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249837.701851,
+        "end": 1711249843.732641,
+        "duration": 6.030800104141235,
+        "service": "pinpoint-sms-voice-v2",
+        "type": "registration_associations"
+    }
+}

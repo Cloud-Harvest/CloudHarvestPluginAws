@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "nextToken": "",
+            "onlyAssociated": true
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_members",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248897.251793,
+        "end": 1711248908.505561,
+        "duration": 11.253781080245972,
+        "service": "inspector2",
+        "type": "members"
+    }
+}

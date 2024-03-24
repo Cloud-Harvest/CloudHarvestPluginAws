@@ -1,0 +1,30 @@
+{
+    "input": {
+        "template": {
+            "Filter": {
+                "JobName": "",
+                "JobStatus": "SUBMITTED",
+                "SubmitTimeBefore": "1970-01-01T00:00:00",
+                "SubmitTimeAfter": "1970-01-01T00:00:00"
+            },
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_events_detection_jobs",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248229.164821,
+        "end": 1711248237.901847,
+        "duration": 8.737035036087036,
+        "service": "comprehend",
+        "type": "events_detection_jobs"
+    }
+}

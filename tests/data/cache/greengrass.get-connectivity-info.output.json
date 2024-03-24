@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "ThingName": ""
+        },
+        "template_required_inputs": [
+            "ThingName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_connectivity_info",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248743.43893,
+        "end": 1711248753.351584,
+        "duration": 9.912662982940674,
+        "service": "greengrass",
+        "type": null
+    }
+}

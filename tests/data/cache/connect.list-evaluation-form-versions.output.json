@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "InstanceId": "",
+            "EvaluationFormId": "",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "InstanceId",
+            "EvaluationFormId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_evaluation_form_versions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248299.79566,
+        "end": 1711248307.745224,
+        "duration": 7.949644088745117,
+        "service": "connect",
+        "type": "evaluation_form_versions"
+    }
+}

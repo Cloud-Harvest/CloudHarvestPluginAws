@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "DomainName": "",
+            "MaxResults": "",
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "DomainName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_api_mappings",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247756.236399,
+        "end": 1711247765.743183,
+        "duration": 9.506800174713135,
+        "service": "apigatewayv2",
+        "type": null
+    }
+}

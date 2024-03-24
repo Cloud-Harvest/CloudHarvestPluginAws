@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "KeyMaterialType": "TR34_KEY_BLOCK",
+            "WrappingKeyAlgorithm": "TDES_2KEY"
+        },
+        "template_required_inputs": [
+            "KeyMaterialType",
+            "WrappingKeyAlgorithm"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_parameters_for_import",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249792.984733,
+        "end": 1711249799.125008,
+        "duration": 6.140284776687622,
+        "service": "payment-cryptography",
+        "type": null
+    }
+}

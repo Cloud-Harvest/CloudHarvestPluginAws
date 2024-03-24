@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "DirectoryId": "",
+            "Type": "Client",
+            "NextToken": "",
+            "Limit": 0
+        },
+        "template_required_inputs": [
+            "DirectoryId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_ldaps_settings",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248474.183733,
+        "end": 1711248480.842235,
+        "duration": 6.65851092338562,
+        "service": "ds",
+        "type": "ldaps_settings"
+    }
+}

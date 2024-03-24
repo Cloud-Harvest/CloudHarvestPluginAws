@@ -1,0 +1,31 @@
+{
+    "input": {
+        "template": {
+            "botId": "",
+            "botAliasId": "",
+            "localeId": "",
+            "sessionId": ""
+        },
+        "template_required_inputs": [
+            "botId",
+            "botAliasId",
+            "localeId",
+            "sessionId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_session",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249447.105517,
+        "end": 1711249452.478544,
+        "duration": 5.373044013977051,
+        "service": "lexv2-runtime",
+        "type": null
+    }
+}

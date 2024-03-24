@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "arn": "",
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [
+            "arn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_component_versions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248795.836918,
+        "end": 1711248802.238393,
+        "duration": 6.401486873626709,
+        "service": "greengrassv2",
+        "type": "component_versions"
+    }
+}

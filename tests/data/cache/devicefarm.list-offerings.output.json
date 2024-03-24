@@ -1,0 +1,23 @@
+{
+    "input": {
+        "template": {
+            "nextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_offerings",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248414.173695,
+        "end": 1711248439.025148,
+        "duration": 24.851462841033936,
+        "service": "devicefarm",
+        "type": "offerings"
+    }
+}

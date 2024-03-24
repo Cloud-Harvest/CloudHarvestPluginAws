@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "ReleaseLabel": "",
+            "Marker": ""
+        },
+        "template_required_inputs": [
+            "ReleaseLabel"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_supported_instance_types",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248597.197869,
+        "end": 1711248605.199534,
+        "duration": 8.001674890518188,
+        "service": "emr",
+        "type": "supported_instance_types"
+    }
+}

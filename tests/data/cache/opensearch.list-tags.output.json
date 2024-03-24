@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "ARN": ""
+        },
+        "template_required_inputs": [
+            "ARN"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_tags",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249765.370478,
+        "end": 1711249771.190969,
+        "duration": 5.820505142211914,
+        "service": "opensearch",
+        "type": "tags"
+    }
+}

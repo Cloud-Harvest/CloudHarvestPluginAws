@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "assetId": "",
+            "hierarchyId": "",
+            "traversalDirection": "PARENT",
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "template_required_inputs": [
+            "assetId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_associated_assets",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248995.282378,
+        "end": 1711249001.745316,
+        "duration": 6.462949991226196,
+        "service": "iotsitewise",
+        "type": "associated_assets"
+    }
+}

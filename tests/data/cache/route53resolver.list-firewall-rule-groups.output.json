@@ -1,0 +1,24 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_firewall_rule_groups",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249986.876472,
+        "end": 1711249993.140253,
+        "duration": 6.263801097869873,
+        "service": "route53resolver",
+        "type": "firewall_rule_groups"
+    }
+}

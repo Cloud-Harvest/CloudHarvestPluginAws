@@ -1,0 +1,59 @@
+{
+    "input": {
+        "template": {
+            "DirectoryArn": "",
+            "RangesOnIndexedValues": [
+                {
+                    "AttributeKey": {
+                        "SchemaArn": "",
+                        "FacetName": "",
+                        "Name": ""
+                    },
+                    "Range": {
+                        "StartMode": "FIRST",
+                        "StartValue": {
+                            "StringValue": "",
+                            "BinaryValue": null,
+                            "BooleanValue": true,
+                            "NumberValue": "",
+                            "DatetimeValue": "1970-01-01T00:00:00"
+                        },
+                        "EndMode": "FIRST",
+                        "EndValue": {
+                            "StringValue": "",
+                            "BinaryValue": null,
+                            "BooleanValue": true,
+                            "NumberValue": "",
+                            "DatetimeValue": "1970-01-01T00:00:00"
+                        }
+                    }
+                }
+            ],
+            "IndexReference": {
+                "Selector": ""
+            },
+            "MaxResults": 0,
+            "NextToken": "",
+            "ConsistencyLevel": "SERIALIZABLE"
+        },
+        "template_required_inputs": [
+            "DirectoryArn",
+            "IndexReference"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_index",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248058.837389,
+        "end": 1711248065.912873,
+        "duration": 7.075508117675781,
+        "service": "clouddirectory",
+        "type": "index"
+    }
+}

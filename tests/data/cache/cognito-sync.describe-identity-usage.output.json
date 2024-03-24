@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "IdentityPoolId": "",
+            "IdentityId": ""
+        },
+        "template_required_inputs": [
+            "IdentityPoolId",
+            "IdentityId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_identity_usage",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248215.586375,
+        "end": 1711248221.052827,
+        "duration": 5.466460943222046,
+        "service": "cognito-sync",
+        "type": "identity_usage"
+    }
+}

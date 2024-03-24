@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "ResolverRuleId": ""
+        },
+        "template_required_inputs": [
+            "ResolverRuleId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_resolver_rule",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249985.781507,
+        "end": 1711249991.031763,
+        "duration": 5.250272989273071,
+        "service": "route53resolver",
+        "type": null
+    }
+}

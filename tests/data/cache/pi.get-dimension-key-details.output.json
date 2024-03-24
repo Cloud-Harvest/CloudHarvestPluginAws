@@ -1,0 +1,34 @@
+{
+    "input": {
+        "template": {
+            "ServiceType": "RDS",
+            "Identifier": "",
+            "Group": "",
+            "GroupIdentifier": "",
+            "RequestedDimensions": [
+                ""
+            ]
+        },
+        "template_required_inputs": [
+            "ServiceType",
+            "Identifier",
+            "Group",
+            "GroupIdentifier"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_dimension_key_details",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249806.326213,
+        "end": 1711249811.788014,
+        "duration": 5.461816072463989,
+        "service": "pi",
+        "type": null
+    }
+}

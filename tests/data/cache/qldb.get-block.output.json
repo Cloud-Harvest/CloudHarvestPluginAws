@@ -1,0 +1,32 @@
+{
+    "input": {
+        "template": {
+            "Name": "",
+            "BlockAddress": {
+                "IonText": ""
+            },
+            "DigestTipAddress": {
+                "IonText": ""
+            }
+        },
+        "template_required_inputs": [
+            "Name",
+            "BlockAddress"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_block",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249874.928447,
+        "end": 1711249880.167777,
+        "duration": 5.239345073699951,
+        "service": "qldb",
+        "type": null
+    }
+}

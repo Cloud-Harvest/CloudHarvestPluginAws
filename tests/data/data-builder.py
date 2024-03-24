@@ -33,7 +33,8 @@ def main(aws: str, count: int, max_workers: int, no_cache: bool):
     commands = []
     [commands.extend(f.result()) for f in futures]
 
-    with ThreadPoolExecutor(max_workers=max_workers) as pool:
+    from concurrent.futures import ProcessPoolExecutor
+    with ProcessPoolExecutor(max_workers=max_workers) as pool:
         futures = [pool.submit(get_outputs, aws, service_command, count, no_cache)
                    for service_command in commands
                    if any([service_command.split('.')[1].lower().startswith(s)
@@ -161,7 +162,7 @@ def get_outputs(aws: str, service_command: str, count: int, no_cache: bool) -> t
 
     if all([exists(command_output_file), exists(random_output_file)]) and no_cache is False:
         with open(command_output_file, 'r') as command_output_stream:
-            print(f'{service_command}: skipped (cached): {command_output_file}')
+            # print(f'{service_command}: skipped (cached): {command_output_file}')
             return loads(command_output_stream.read())
 
     else:
@@ -271,18 +272,19 @@ def get_outputs(aws: str, service_command: str, count: int, no_cache: bool) -> t
             print(f'{service_command}: ERROR: ' + ' '.join(ex.args))
 
         finally:
-            print(f'{service_command}: '
-                  f'{"WARN" if any([len(input_raw) == 0, 
-                                    len(output_raw) == 0,
-                                    result_key is None]) else "INFO"}: ' + \
-                  ' | '.join(
-                [
-                    str(len(input_raw)),
-                    str(len(output_raw)),
-                    result_key,
-                    f'done in {result["meta"]["duration"]} seconds -> {command_output_file}'
-                ])
-            )
+            pass
+            # print(f'{service_command}: '
+            #       f'{"WARN" if any([len(input_raw) == 0,
+            #                         len(output_raw) == 0,
+            #                         result_key is None]) else "INFO"}: ' + \
+            #       ' | '.join(
+            #     [
+            #         str(len(input_raw)),
+            #         str(len(output_raw)),
+            #         result_key,
+            #         f'done in {result["meta"]["duration"]} seconds -> {command_output_file}'
+            #     ])
+            # )
 
         return service_command, result
 
@@ -348,3 +350,4 @@ if __name__ == '__main__':
     aws_binary = expanduser(which('aws', path=environ.get('PATH')))
 
     main(aws=aws_binary, **arguments)
+

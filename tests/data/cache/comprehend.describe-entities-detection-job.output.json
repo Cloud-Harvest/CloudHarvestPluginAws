@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "JobId": ""
+        },
+        "template_required_inputs": [
+            "JobId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_entities_detection_job",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248220.084119,
+        "end": 1711248228.607343,
+        "duration": 8.523231983184814,
+        "service": "comprehend",
+        "type": "entities_detection_job"
+    }
+}

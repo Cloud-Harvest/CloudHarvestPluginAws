@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "nextToken": "",
+            "stagingAccountID": ""
+        },
+        "template_required_inputs": [
+            "stagingAccountID"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_extensible_source_servers",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248471.382668,
+        "end": 1711248477.957463,
+        "duration": 6.574805021286011,
+        "service": "drs",
+        "type": "extensible_source_servers"
+    }
+}

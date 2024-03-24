@@ -1,0 +1,32 @@
+{
+    "input": {
+        "template": {
+            "ServiceCode": "",
+            "EffectiveDate": "1970-01-01T00:00:00",
+            "RegionCode": "",
+            "CurrencyCode": "",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "ServiceCode",
+            "EffectiveDate",
+            "CurrencyCode"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_price_lists",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249843.730227,
+        "end": 1711249849.874173,
+        "duration": 6.143956899642944,
+        "service": "pricing",
+        "type": "price_lists"
+    }
+}

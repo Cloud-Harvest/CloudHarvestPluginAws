@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "ChangeToken": ""
+        },
+        "template_required_inputs": [
+            "ChangeToken"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_change_token_status",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250289.32503,
+        "end": 1711250300.453202,
+        "duration": 11.12818694114685,
+        "service": "waf-regional",
+        "type": null
+    }
+}

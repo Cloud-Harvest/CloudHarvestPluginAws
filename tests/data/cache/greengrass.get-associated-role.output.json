@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "GroupId": ""
+        },
+        "template_required_inputs": [
+            "GroupId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_associated_role",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248742.612719,
+        "end": 1711248751.535911,
+        "duration": 8.923200845718384,
+        "service": "greengrass",
+        "type": null
+    }
+}

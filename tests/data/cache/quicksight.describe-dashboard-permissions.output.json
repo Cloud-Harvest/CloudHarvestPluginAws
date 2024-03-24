@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "AwsAccountId": "",
+            "DashboardId": ""
+        },
+        "template_required_inputs": [
+            "AwsAccountId",
+            "DashboardId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_dashboard_permissions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249881.193222,
+        "end": 1711249887.816176,
+        "duration": 6.622962951660156,
+        "service": "quicksight",
+        "type": "dashboard_permissions"
+    }
+}

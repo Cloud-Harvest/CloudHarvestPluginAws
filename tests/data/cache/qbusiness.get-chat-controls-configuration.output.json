@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "applicationId": "",
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [
+            "applicationId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_chat_controls_configuration",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249857.177527,
+        "end": 1711249863.594513,
+        "duration": 6.4170050621032715,
+        "service": "qbusiness",
+        "type": null
+    }
+}

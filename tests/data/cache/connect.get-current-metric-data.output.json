@@ -1,0 +1,58 @@
+{
+    "input": {
+        "template": {
+            "InstanceId": "",
+            "Filters": {
+                "Queues": [
+                    ""
+                ],
+                "Channels": [
+                    "VOICE"
+                ],
+                "RoutingProfiles": [
+                    ""
+                ],
+                "RoutingStepExpressions": [
+                    ""
+                ]
+            },
+            "Groupings": [
+                "QUEUE"
+            ],
+            "CurrentMetrics": [
+                {
+                    "Name": "AGENTS_ONLINE",
+                    "Unit": "SECONDS"
+                }
+            ],
+            "NextToken": "",
+            "MaxResults": 0,
+            "SortCriteria": [
+                {
+                    "SortByMetric": "AGENTS_ONLINE",
+                    "SortOrder": "ASCENDING"
+                }
+            ]
+        },
+        "template_required_inputs": [
+            "InstanceId",
+            "Filters",
+            "CurrentMetrics"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_current_metric_data",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248278.551055,
+        "end": 1711248285.521683,
+        "duration": 6.97064208984375,
+        "service": "connect",
+        "type": null
+    }
+}

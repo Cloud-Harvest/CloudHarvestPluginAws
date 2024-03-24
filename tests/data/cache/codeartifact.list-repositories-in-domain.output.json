@@ -1,0 +1,30 @@
+{
+    "input": {
+        "template": {
+            "domain": "",
+            "domainOwner": "",
+            "administratorAccount": "",
+            "repositoryPrefix": "",
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [
+            "domain"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_repositories_in_domain",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248140.183874,
+        "end": 1711248147.966846,
+        "duration": 7.78298807144165,
+        "service": "codeartifact",
+        "type": "repositories_in_domain"
+    }
+}

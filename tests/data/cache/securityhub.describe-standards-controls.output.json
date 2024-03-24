@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "StandardsSubscriptionArn": "",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "StandardsSubscriptionArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_standards_controls",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250075.999226,
+        "end": 1711250082.422836,
+        "duration": 6.423618793487549,
+        "service": "securityhub",
+        "type": "standards_controls"
+    }
+}

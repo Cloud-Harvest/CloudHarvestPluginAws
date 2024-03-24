@@ -1,0 +1,33 @@
+{
+    "input": {
+        "template": {
+            "logGroupName": "",
+            "logGroupIdentifier": "",
+            "logStreamName": "",
+            "startTime": 0,
+            "endTime": 0,
+            "nextToken": "",
+            "limit": 0,
+            "startFromHead": true,
+            "unmask": true
+        },
+        "template_required_inputs": [
+            "logStreamName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_log_events",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249478.586462,
+        "end": 1711249484.743106,
+        "duration": 6.156656980514526,
+        "service": "logs",
+        "type": null
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "input": {
+        "template": {
+            "PoolId": "",
+            "Filters": [
+                {
+                    "Name": "iso-country-code",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "PoolId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_pool_origination_identities",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249837.701429,
+        "end": 1711249844.787613,
+        "duration": 7.086199998855591,
+        "service": "pinpoint-sms-voice-v2",
+        "type": "pool_origination_identities"
+    }
+}

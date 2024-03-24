@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "taskId": ""
+        },
+        "template_required_inputs": [
+            "taskId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_detect_mitigation_actions_task",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248908.527335,
+        "end": 1711248917.048729,
+        "duration": 8.521404027938843,
+        "service": "iot",
+        "type": "detect_mitigation_actions_task"
+    }
+}

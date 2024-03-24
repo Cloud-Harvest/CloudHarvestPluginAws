@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "OrganizationId": "",
+            "Marker": "",
+            "Limit": 0
+        },
+        "template_required_inputs": [
+            "OrganizationId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_notification_subscriptions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250338.004459,
+        "end": 1711250345.096249,
+        "duration": 7.091998100280762,
+        "service": "workdocs",
+        "type": "notification_subscriptions"
+    }
+}

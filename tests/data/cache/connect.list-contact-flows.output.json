@@ -1,0 +1,30 @@
+{
+    "input": {
+        "template": {
+            "InstanceId": "",
+            "ContactFlowTypes": [
+                "CONTACT_FLOW"
+            ],
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "InstanceId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_contact_flows",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248284.162905,
+        "end": 1711248306.395484,
+        "duration": 22.23258900642395,
+        "service": "connect",
+        "type": "contact_flows"
+    }
+}

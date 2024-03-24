@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "knowledgeBaseId": ""
+        },
+        "template_required_inputs": [
+            "knowledgeBaseId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_knowledge_base",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247936.840936,
+        "end": 1711247944.081683,
+        "duration": 7.240767955780029,
+        "service": "bedrock-agent",
+        "type": null
+    }
+}

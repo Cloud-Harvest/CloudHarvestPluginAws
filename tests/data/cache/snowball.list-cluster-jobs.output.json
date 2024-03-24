@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "ClusterId": "",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "ClusterId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_cluster_jobs",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250128.064913,
+        "end": 1711250134.322434,
+        "duration": 6.257535934448242,
+        "service": "snowball",
+        "type": "cluster_jobs"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "SettingId": ""
+        },
+        "template_required_inputs": [
+            "SettingId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_service_setting",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250154.267541,
+        "end": 1711250160.10052,
+        "duration": 5.833001136779785,
+        "service": "ssm",
+        "type": null
+    }
+}

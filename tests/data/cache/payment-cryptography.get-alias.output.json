@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "AliasName": ""
+        },
+        "template_required_inputs": [
+            "AliasName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_alias",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249792.772039,
+        "end": 1711249799.049488,
+        "duration": 6.277459144592285,
+        "service": "payment-cryptography",
+        "type": null
+    }
+}

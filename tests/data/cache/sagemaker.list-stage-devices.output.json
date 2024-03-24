@@ -1,0 +1,30 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0,
+            "EdgeDeploymentPlanName": "",
+            "ExcludeDevicesDeployedInOtherStage": true,
+            "StageName": ""
+        },
+        "template_required_inputs": [
+            "EdgeDeploymentPlanName",
+            "StageName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_stage_devices",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250061.490317,
+        "end": 1711250067.53511,
+        "duration": 6.04484486579895,
+        "service": "sagemaker",
+        "type": "stage_devices"
+    }
+}

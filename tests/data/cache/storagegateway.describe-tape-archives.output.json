@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "TapeARNs": [
+                ""
+            ],
+            "Marker": "",
+            "Limit": 0
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "describe_tape_archives",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250204.653774,
+        "end": 1711250213.773907,
+        "duration": 9.12014889717102,
+        "service": "storagegateway",
+        "type": "tape_archives"
+    }
+}

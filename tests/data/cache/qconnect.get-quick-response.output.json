@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "knowledgeBaseId": "",
+            "quickResponseId": ""
+        },
+        "template_required_inputs": [
+            "knowledgeBaseId",
+            "quickResponseId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_quick_response",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249869.119948,
+        "end": 1711249875.357835,
+        "duration": 6.237896203994751,
+        "service": "qconnect",
+        "type": null
+    }
+}

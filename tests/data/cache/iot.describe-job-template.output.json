@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "jobTemplateId": ""
+        },
+        "template_required_inputs": [
+            "jobTemplateId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_job_template",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248911.318,
+        "end": 1711248920.57243,
+        "duration": 9.254477977752686,
+        "service": "iot",
+        "type": "job_template"
+    }
+}

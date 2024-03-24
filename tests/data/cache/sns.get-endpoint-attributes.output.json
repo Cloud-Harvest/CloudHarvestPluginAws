@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "EndpointArn": ""
+        },
+        "template_required_inputs": [
+            "EndpointArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_endpoint_attributes",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250133.164263,
+        "end": 1711250139.595941,
+        "duration": 6.431689023971558,
+        "service": "sns",
+        "type": null
+    }
+}

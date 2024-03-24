@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "ArtifactArn": ""
+        },
+        "template_required_inputs": [
+            "ArtifactArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_artifact",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250028.142896,
+        "end": 1711250035.474763,
+        "duration": 7.33188009262085,
+        "service": "sagemaker",
+        "type": "artifact"
+    }
+}

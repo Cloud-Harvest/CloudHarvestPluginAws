@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "findingId": ""
+        },
+        "template_required_inputs": [
+            "findingId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_audit_finding",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248904.125507,
+        "end": 1711248911.216355,
+        "duration": 7.0908708572387695,
+        "service": "iot",
+        "type": "audit_finding"
+    }
+}

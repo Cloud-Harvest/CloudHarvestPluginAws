@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "JobId": "",
+            "OrganizationId": ""
+        },
+        "template_required_inputs": [
+            "JobId",
+            "OrganizationId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_mailbox_export_job",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250345.01881,
+        "end": 1711250352.072936,
+        "duration": 7.054138898849487,
+        "service": "workmail",
+        "type": "mailbox_export_job"
+    }
+}

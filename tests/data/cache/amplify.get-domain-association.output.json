@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "appId": "",
+            "domainName": ""
+        },
+        "template_required_inputs": [
+            "appId",
+            "domainName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_domain_association",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247709.760853,
+        "end": 1711247724.158443,
+        "duration": 14.3975989818573,
+        "service": "amplify",
+        "type": null
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "migrationId": ""
+        },
+        "template_required_inputs": [
+            "migrationId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_migration",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249251.568676,
+        "end": 1711249257.852876,
+        "duration": 6.284209966659546,
+        "service": "lex-models",
+        "type": null
+    }
+}

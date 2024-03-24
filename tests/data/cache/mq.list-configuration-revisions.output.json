@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "ConfigurationId": "",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "ConfigurationId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_configuration_revisions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249695.518784,
+        "end": 1711249702.420547,
+        "duration": 6.901799917221069,
+        "service": "mq",
+        "type": "configuration_revisions"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "thingName": "",
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "template_required_inputs": [
+            "thingName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_thing_groups_for_thing",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248936.962409,
+        "end": 1711248945.174885,
+        "duration": 8.212500095367432,
+        "service": "iot",
+        "type": "thing_groups_for_thing"
+    }
+}

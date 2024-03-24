@@ -1,0 +1,35 @@
+{
+    "input": {
+        "template": {
+            "indexName": "",
+            "queryString": "",
+            "aggregationField": "",
+            "queryVersion": "",
+            "bucketsAggregationType": {
+                "termsAggregation": {
+                    "maxBuckets": 0
+                }
+            }
+        },
+        "template_required_inputs": [
+            "queryString",
+            "aggregationField",
+            "bucketsAggregationType"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_buckets_aggregation",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248918.184296,
+        "end": 1711248926.547377,
+        "duration": 8.363090991973877,
+        "service": "iot",
+        "type": null
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "AwsAccountId": "",
+            "DashboardId": "",
+            "VersionNumber": 0,
+            "AliasName": ""
+        },
+        "template_required_inputs": [
+            "AwsAccountId",
+            "DashboardId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_dashboard_definition",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249880.168927,
+        "end": 1711249914.06792,
+        "duration": 33.89900207519531,
+        "service": "quicksight",
+        "type": "dashboard_definition"
+    }
+}

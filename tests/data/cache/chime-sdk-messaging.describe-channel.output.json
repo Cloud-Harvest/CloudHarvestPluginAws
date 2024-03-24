@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "ChannelArn": "",
+            "ChimeBearer": ""
+        },
+        "template_required_inputs": [
+            "ChannelArn",
+            "ChimeBearer"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_channel",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247998.454933,
+        "end": 1711248005.144317,
+        "duration": 6.68939995765686,
+        "service": "chime-sdk-messaging",
+        "type": "channel"
+    }
+}

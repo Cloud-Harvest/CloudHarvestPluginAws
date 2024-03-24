@@ -1,0 +1,60 @@
+{
+    "input": {
+        "template": {
+            "GlobalNetworkId": "",
+            "RouteTableIdentifier": {
+                "TransitGatewayRouteTableArn": "",
+                "CoreNetworkSegmentEdge": {
+                    "CoreNetworkId": "",
+                    "SegmentName": "",
+                    "EdgeLocation": ""
+                }
+            },
+            "ExactCidrMatches": [
+                ""
+            ],
+            "LongestPrefixMatches": [
+                ""
+            ],
+            "SubnetOfMatches": [
+                ""
+            ],
+            "SupernetOfMatches": [
+                ""
+            ],
+            "PrefixListIds": [
+                ""
+            ],
+            "States": [
+                "ACTIVE"
+            ],
+            "Types": [
+                "PROPAGATED"
+            ],
+            "DestinationFilters": {
+                "KeyName": [
+                    ""
+                ]
+            }
+        },
+        "template_required_inputs": [
+            "GlobalNetworkId",
+            "RouteTableIdentifier"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_network_routes",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249721.215152,
+        "end": 1711249727.222982,
+        "duration": 6.007848024368286,
+        "service": "networkmanager",
+        "type": null
+    }
+}

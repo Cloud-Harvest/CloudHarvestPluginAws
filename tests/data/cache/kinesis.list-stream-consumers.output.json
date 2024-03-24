@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "StreamARN": "",
+            "NextToken": "",
+            "MaxResults": 0,
+            "StreamCreationTimestamp": "1970-01-01T00:00:00"
+        },
+        "template_required_inputs": [
+            "StreamARN"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_stream_consumers",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249200.39774,
+        "end": 1711249207.199534,
+        "duration": 6.801805019378662,
+        "service": "kinesis",
+        "type": "stream_consumers"
+    }
+}

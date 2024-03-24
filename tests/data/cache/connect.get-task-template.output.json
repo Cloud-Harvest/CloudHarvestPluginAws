@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "InstanceId": "",
+            "TaskTemplateId": "",
+            "SnapshotVersion": ""
+        },
+        "template_required_inputs": [
+            "InstanceId",
+            "TaskTemplateId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_task_template",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248280.824041,
+        "end": 1711248300.733788,
+        "duration": 19.909754037857056,
+        "service": "connect",
+        "type": null
+    }
+}

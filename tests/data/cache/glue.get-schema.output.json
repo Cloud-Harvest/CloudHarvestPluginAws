@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "SchemaId": {
+                "SchemaArn": "",
+                "SchemaName": "",
+                "RegistryName": ""
+            }
+        },
+        "template_required_inputs": [
+            "SchemaId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_schema",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248726.940173,
+        "end": 1711248733.749399,
+        "duration": 6.809237003326416,
+        "service": "glue",
+        "type": null
+    }
+}

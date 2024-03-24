@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "ApplicationInstanceId": ""
+        },
+        "template_required_inputs": [
+            "ApplicationInstanceId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_application_instance",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249786.890436,
+        "end": 1711249792.77101,
+        "duration": 5.88058614730835,
+        "service": "panorama",
+        "type": "application_instance"
+    }
+}

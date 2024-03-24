@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "Scope": "CLOUDFRONT"
+        },
+        "template_required_inputs": [
+            "Scope"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_all_managed_products",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250300.853355,
+        "end": 1711250309.096528,
+        "duration": 8.24318814277649,
+        "service": "wafv2",
+        "type": "all_managed_products"
+    }
+}

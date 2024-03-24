@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "Name": ""
+        },
+        "template_required_inputs": [
+            "Name"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_trigger",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248732.170541,
+        "end": 1711248739.36736,
+        "duration": 7.196832895278931,
+        "service": "glue",
+        "type": null
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "CoreNetworkId": "",
+            "PolicyVersionId": 0,
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "CoreNetworkId",
+            "PolicyVersionId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_core_network_change_events",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249717.395818,
+        "end": 1711249723.870589,
+        "duration": 6.474790096282959,
+        "service": "networkmanager",
+        "type": null
+    }
+}

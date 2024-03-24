@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "Arn": "",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "Arn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_tags_for_resource",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250255.506295,
+        "end": 1711250261.6404,
+        "duration": 6.13411808013916,
+        "service": "transfer",
+        "type": "tags_for_resource"
+    }
+}

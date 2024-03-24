@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "id": "",
+            "export": [
+                "DEFINITION"
+            ]
+        },
+        "template_required_inputs": [
+            "id"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_run",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249743.732336,
+        "end": 1711249750.127368,
+        "duration": 6.3950488567352295,
+        "service": "omics",
+        "type": null
+    }
+}

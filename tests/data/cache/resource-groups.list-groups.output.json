@@ -1,0 +1,32 @@
+{
+    "input": {
+        "template": {
+            "Filters": [
+                {
+                    "Name": "resource-type",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_groups",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249952.388078,
+        "end": 1711249959.619097,
+        "duration": 7.231033086776733,
+        "service": "resource-groups",
+        "type": "groups"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "DeviceId": ""
+        },
+        "template_required_inputs": [
+            "DeviceId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_device",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248942.657182,
+        "end": 1711248953.370412,
+        "duration": 10.713238000869751,
+        "service": "iot1click-devices",
+        "type": "device"
+    }
+}

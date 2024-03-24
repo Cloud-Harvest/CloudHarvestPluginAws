@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "ResourceArn": "",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "ResourceArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_tags",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249771.577081,
+        "end": 1711249777.412136,
+        "duration": 5.8350670337677,
+        "service": "opsworks",
+        "type": "tags"
+    }
+}

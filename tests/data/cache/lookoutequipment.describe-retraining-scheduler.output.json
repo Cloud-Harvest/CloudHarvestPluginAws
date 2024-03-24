@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "ModelName": ""
+        },
+        "template_required_inputs": [
+            "ModelName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_retraining_scheduler",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249484.61968,
+        "end": 1711249490.744882,
+        "duration": 6.125211000442505,
+        "service": "lookoutequipment",
+        "type": "retraining_scheduler"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "ExecutionId": "",
+            "ExportArn": ""
+        },
+        "template_required_inputs": [
+            "ExecutionId",
+            "ExportArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_execution",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247924.502254,
+        "end": 1711247930.136435,
+        "duration": 5.634196996688843,
+        "service": "bcm-data-exports",
+        "type": null
+    }
+}

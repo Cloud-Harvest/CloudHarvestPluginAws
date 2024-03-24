@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "eulaIds": [
+                ""
+            ],
+            "nextToken": "",
+            "studioId": ""
+        },
+        "template_required_inputs": [
+            "studioId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_eula_acceptances",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249731.536318,
+        "end": 1711249737.951783,
+        "duration": 6.415482997894287,
+        "service": "nimble",
+        "type": "eula_acceptances"
+    }
+}

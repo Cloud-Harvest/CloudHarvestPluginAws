@@ -1,0 +1,61 @@
+{
+    "input": {
+        "template": {
+            "filter": {
+                "accountIds": [
+                    ""
+                ],
+                "actionTypes": [
+                    "Rightsize"
+                ],
+                "implementationEfforts": [
+                    "VeryLow"
+                ],
+                "recommendationIds": [
+                    ""
+                ],
+                "regions": [
+                    ""
+                ],
+                "resourceArns": [
+                    ""
+                ],
+                "resourceIds": [
+                    ""
+                ],
+                "resourceTypes": [
+                    "Ec2Instance"
+                ],
+                "restartNeeded": true,
+                "rollbackPossible": true,
+                "tags": [
+                    {
+                        "key": "",
+                        "value": ""
+                    }
+                ]
+            },
+            "groupBy": "",
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [
+            "groupBy"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_recommendation_summaries",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248331.133865,
+        "end": 1711248337.639276,
+        "duration": 6.505419969558716,
+        "service": "cost-optimization-hub",
+        "type": "recommendation_summaries"
+    }
+}

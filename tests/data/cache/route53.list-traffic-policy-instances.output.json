@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "HostedZoneIdMarker": "",
+            "TrafficPolicyInstanceNameMarker": "",
+            "TrafficPolicyInstanceTypeMarker": "SOA",
+            "MaxItems": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_traffic_policy_instances",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249967.352694,
+        "end": 1711249974.031277,
+        "duration": 6.678609848022461,
+        "service": "route53",
+        "type": "traffic_policy_instances"
+    }
+}

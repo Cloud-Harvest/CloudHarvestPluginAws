@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "EmailIdentity": ""
+        },
+        "template_required_inputs": [
+            "EmailIdentity"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_email_identity",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250109.381795,
+        "end": 1711250115.904926,
+        "duration": 6.523152112960815,
+        "service": "sesv2",
+        "type": null
+    }
+}

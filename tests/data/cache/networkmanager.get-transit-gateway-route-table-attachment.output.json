@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "AttachmentId": ""
+        },
+        "template_required_inputs": [
+            "AttachmentId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_transit_gateway_route_table_attachment",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249724.443671,
+        "end": 1711249730.51579,
+        "duration": 6.072129964828491,
+        "service": "networkmanager",
+        "type": null
+    }
+}

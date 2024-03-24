@@ -1,0 +1,30 @@
+{
+    "input": {
+        "template": {
+            "PolicyArn": "",
+            "EntityFilter": "User",
+            "PathPrefix": "",
+            "PolicyUsageFilter": "PermissionsPolicy",
+            "Marker": "",
+            "MaxItems": 0
+        },
+        "template_required_inputs": [
+            "PolicyArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_entities_for_policy",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248853.277594,
+        "end": 1711248858.812256,
+        "duration": 5.534674882888794,
+        "service": "iam",
+        "type": "entities_for_policy"
+    }
+}

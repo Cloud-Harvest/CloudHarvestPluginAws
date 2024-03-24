@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "JobId": "",
+            "MaxResults": 0,
+            "NextToken": "",
+            "SortBy": "ID"
+        },
+        "template_required_inputs": [
+            "JobId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_celebrity_recognition",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249933.78794,
+        "end": 1711249940.03604,
+        "duration": 6.248117923736572,
+        "service": "rekognition",
+        "type": null
+    }
+}

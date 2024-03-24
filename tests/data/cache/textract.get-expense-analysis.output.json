@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "JobId": "",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "JobId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_expense_analysis",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250227.211726,
+        "end": 1711250235.00118,
+        "duration": 7.789461135864258,
+        "service": "textract",
+        "type": null
+    }
+}

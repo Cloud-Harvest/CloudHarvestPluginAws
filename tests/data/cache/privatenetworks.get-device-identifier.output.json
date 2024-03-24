@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "deviceIdentifierArn": ""
+        },
+        "template_required_inputs": [
+            "deviceIdentifierArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_device_identifier",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249843.733642,
+        "end": 1711249849.876753,
+        "duration": 6.143117904663086,
+        "service": "privatenetworks",
+        "type": null
+    }
+}

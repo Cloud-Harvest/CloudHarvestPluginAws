@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "FleetId": ""
+        },
+        "template_required_inputs": [
+            "FleetId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_runtime_configuration",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248692.196281,
+        "end": 1711248699.195131,
+        "duration": 6.99885892868042,
+        "service": "gamelift",
+        "type": "runtime_configuration"
+    }
+}

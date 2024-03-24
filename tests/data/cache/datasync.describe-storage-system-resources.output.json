@@ -1,0 +1,37 @@
+{
+    "input": {
+        "template": {
+            "DiscoveryJobArn": "",
+            "ResourceType": "SVM",
+            "ResourceIds": [
+                ""
+            ],
+            "Filter": {
+                "KeyName": [
+                    ""
+                ]
+            },
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "DiscoveryJobArn",
+            "ResourceType"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_storage_system_resources",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248366.204272,
+        "end": 1711248377.586942,
+        "duration": 11.38267993927002,
+        "service": "datasync",
+        "type": "storage_system_resources"
+    }
+}

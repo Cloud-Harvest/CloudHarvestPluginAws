@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "eventId": "",
+            "incidentRecordArn": ""
+        },
+        "template_required_inputs": [
+            "eventId",
+            "incidentRecordArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_timeline_event",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250167.20101,
+        "end": 1711250172.865125,
+        "duration": 5.664122104644775,
+        "service": "ssm-incidents",
+        "type": null
+    }
+}

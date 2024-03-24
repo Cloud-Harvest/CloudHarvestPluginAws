@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "EventDataStore": "",
+            "QueryId": "",
+            "NextToken": "",
+            "MaxQueryResults": 0
+        },
+        "template_required_inputs": [
+            "QueryId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_query_results",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248123.218149,
+        "end": 1711248129.370313,
+        "duration": 6.152182102203369,
+        "service": "cloudtrail",
+        "type": null
+    }
+}

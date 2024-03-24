@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "FleetId": "",
+            "StartTime": "1970-01-01T00:00:00",
+            "EndTime": "1970-01-01T00:00:00",
+            "Limit": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "FleetId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_fleet_events",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248679.92585,
+        "end": 1711248690.916944,
+        "duration": 10.991103172302246,
+        "service": "gamelift",
+        "type": "fleet_events"
+    }
+}

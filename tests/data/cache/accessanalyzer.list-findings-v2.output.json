@@ -1,0 +1,45 @@
+{
+    "input": {
+        "template": {
+            "analyzerArn": "",
+            "filter": {
+                "KeyName": {
+                    "eq": [
+                        ""
+                    ],
+                    "neq": [
+                        ""
+                    ],
+                    "contains": [
+                        ""
+                    ],
+                    "exists": true
+                }
+            },
+            "maxResults": 0,
+            "nextToken": "",
+            "sort": {
+                "attributeName": "",
+                "orderBy": "ASC"
+            }
+        },
+        "template_required_inputs": [
+            "analyzerArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_findings_v2",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247671.301046,
+        "end": 1711247695.290536,
+        "duration": 23.989503145217896,
+        "service": "accessanalyzer",
+        "type": "findings_v2"
+    }
+}

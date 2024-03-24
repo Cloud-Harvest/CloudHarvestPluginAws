@@ -1,0 +1,231 @@
+{
+    "input": {
+        "template": {
+            "accountIds": [
+                {
+                    "comparison": "EQUALS",
+                    "value": ""
+                }
+            ],
+            "aggregationRequest": {
+                "accountAggregation": {
+                    "findingType": "NETWORK_REACHABILITY",
+                    "resourceType": "AWS_EC2_INSTANCE",
+                    "sortBy": "CRITICAL",
+                    "sortOrder": "ASC"
+                },
+                "amiAggregation": {
+                    "amis": [
+                        {
+                            "comparison": "EQUALS",
+                            "value": ""
+                        }
+                    ],
+                    "sortBy": "CRITICAL",
+                    "sortOrder": "ASC"
+                },
+                "awsEcrContainerAggregation": {
+                    "architectures": [
+                        {
+                            "comparison": "EQUALS",
+                            "value": ""
+                        }
+                    ],
+                    "imageShas": [
+                        {
+                            "comparison": "EQUALS",
+                            "value": ""
+                        }
+                    ],
+                    "imageTags": [
+                        {
+                            "comparison": "EQUALS",
+                            "value": ""
+                        }
+                    ],
+                    "repositories": [
+                        {
+                            "comparison": "EQUALS",
+                            "value": ""
+                        }
+                    ],
+                    "resourceIds": [
+                        {
+                            "comparison": "EQUALS",
+                            "value": ""
+                        }
+                    ],
+                    "sortBy": "CRITICAL",
+                    "sortOrder": "ASC"
+                },
+                "ec2InstanceAggregation": {
+                    "amis": [
+                        {
+                            "comparison": "EQUALS",
+                            "value": ""
+                        }
+                    ],
+                    "instanceIds": [
+                        {
+                            "comparison": "EQUALS",
+                            "value": ""
+                        }
+                    ],
+                    "instanceTags": [
+                        {
+                            "comparison": "EQUALS",
+                            "key": "",
+                            "value": ""
+                        }
+                    ],
+                    "operatingSystems": [
+                        {
+                            "comparison": "EQUALS",
+                            "value": ""
+                        }
+                    ],
+                    "sortBy": "NETWORK_FINDINGS",
+                    "sortOrder": "ASC"
+                },
+                "findingTypeAggregation": {
+                    "findingType": "NETWORK_REACHABILITY",
+                    "resourceType": "AWS_EC2_INSTANCE",
+                    "sortBy": "CRITICAL",
+                    "sortOrder": "ASC"
+                },
+                "imageLayerAggregation": {
+                    "layerHashes": [
+                        {
+                            "comparison": "EQUALS",
+                            "value": ""
+                        }
+                    ],
+                    "repositories": [
+                        {
+                            "comparison": "EQUALS",
+                            "value": ""
+                        }
+                    ],
+                    "resourceIds": [
+                        {
+                            "comparison": "EQUALS",
+                            "value": ""
+                        }
+                    ],
+                    "sortBy": "CRITICAL",
+                    "sortOrder": "ASC"
+                },
+                "lambdaFunctionAggregation": {
+                    "functionNames": [
+                        {
+                            "comparison": "EQUALS",
+                            "value": ""
+                        }
+                    ],
+                    "functionTags": [
+                        {
+                            "comparison": "EQUALS",
+                            "key": "",
+                            "value": ""
+                        }
+                    ],
+                    "resourceIds": [
+                        {
+                            "comparison": "EQUALS",
+                            "value": ""
+                        }
+                    ],
+                    "runtimes": [
+                        {
+                            "comparison": "EQUALS",
+                            "value": ""
+                        }
+                    ],
+                    "sortBy": "CRITICAL",
+                    "sortOrder": "ASC"
+                },
+                "lambdaLayerAggregation": {
+                    "functionNames": [
+                        {
+                            "comparison": "EQUALS",
+                            "value": ""
+                        }
+                    ],
+                    "layerArns": [
+                        {
+                            "comparison": "EQUALS",
+                            "value": ""
+                        }
+                    ],
+                    "resourceIds": [
+                        {
+                            "comparison": "EQUALS",
+                            "value": ""
+                        }
+                    ],
+                    "sortBy": "CRITICAL",
+                    "sortOrder": "ASC"
+                },
+                "packageAggregation": {
+                    "packageNames": [
+                        {
+                            "comparison": "EQUALS",
+                            "value": ""
+                        }
+                    ],
+                    "sortBy": "CRITICAL",
+                    "sortOrder": "ASC"
+                },
+                "repositoryAggregation": {
+                    "repositories": [
+                        {
+                            "comparison": "EQUALS",
+                            "value": ""
+                        }
+                    ],
+                    "sortBy": "CRITICAL",
+                    "sortOrder": "ASC"
+                },
+                "titleAggregation": {
+                    "findingType": "NETWORK_REACHABILITY",
+                    "resourceType": "AWS_EC2_INSTANCE",
+                    "sortBy": "CRITICAL",
+                    "sortOrder": "ASC",
+                    "titles": [
+                        {
+                            "comparison": "EQUALS",
+                            "value": ""
+                        }
+                    ],
+                    "vulnerabilityIds": [
+                        {
+                            "comparison": "EQUALS",
+                            "value": ""
+                        }
+                    ]
+                }
+            },
+            "aggregationType": "FINDING_TYPE",
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [
+            "aggregationType"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_finding_aggregations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248896.507957,
+        "end": 1711248904.138593,
+        "duration": 7.6306469440460205,
+        "service": "inspector2",
+        "type": "finding_aggregations"
+    }
+}

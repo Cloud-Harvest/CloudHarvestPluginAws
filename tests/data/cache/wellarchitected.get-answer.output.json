@@ -1,0 +1,30 @@
+{
+    "input": {
+        "template": {
+            "WorkloadId": "",
+            "LensAlias": "",
+            "QuestionId": "",
+            "MilestoneNumber": 0
+        },
+        "template_required_inputs": [
+            "WorkloadId",
+            "LensAlias",
+            "QuestionId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_answer",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250312.245514,
+        "end": 1711250320.4281,
+        "duration": 8.182602167129517,
+        "service": "wellarchitected",
+        "type": null
+    }
+}

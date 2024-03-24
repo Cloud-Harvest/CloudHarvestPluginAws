@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "templateName": "",
+            "templateType": "ENVIRONMENT"
+        },
+        "template_required_inputs": [
+            "templateName",
+            "templateType"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_template_sync_config",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249850.923766,
+        "end": 1711249857.099882,
+        "duration": 6.176133155822754,
+        "service": "proton",
+        "type": null
+    }
+}

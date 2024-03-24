@@ -1,0 +1,32 @@
+{
+    "input": {
+        "template": {
+            "RegistrationId": "",
+            "VersionNumber": 0,
+            "SectionPath": "",
+            "FieldPaths": [
+                ""
+            ],
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "RegistrationId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_registration_field_values",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249837.505028,
+        "end": 1711249843.741674,
+        "duration": 6.236654043197632,
+        "service": "pinpoint-sms-voice-v2",
+        "type": "registration_field_values"
+    }
+}

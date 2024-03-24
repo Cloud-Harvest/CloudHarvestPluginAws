@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "DetectorId": "",
+            "MaxResults": 0,
+            "NextToken": "",
+            "OnlyAssociated": ""
+        },
+        "template_required_inputs": [
+            "DetectorId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_members",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248814.637556,
+        "end": 1711248827.744591,
+        "duration": 13.107043981552124,
+        "service": "guardduty",
+        "type": "members"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "RuleGroupId": ""
+        },
+        "template_required_inputs": [
+            "RuleGroupId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_rule_group",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250294.767401,
+        "end": 1711250300.453574,
+        "duration": 5.686178922653198,
+        "service": "waf-regional",
+        "type": null
+    }
+}

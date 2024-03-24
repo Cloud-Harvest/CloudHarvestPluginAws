@@ -1,0 +1,31 @@
+{
+    "input": {
+        "template": {
+            "IndexId": "",
+            "Interval": "THIS_MONTH",
+            "MetricType": "QUERIES_BY_COUNT",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "IndexId",
+            "Interval",
+            "MetricType"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_snapshots",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249184.15525,
+        "end": 1711249191.160956,
+        "duration": 7.005722999572754,
+        "service": "kendra",
+        "type": null
+    }
+}

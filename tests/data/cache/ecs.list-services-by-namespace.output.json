@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "namespace": "",
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "template_required_inputs": [
+            "namespace"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_services_by_namespace",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248542.282904,
+        "end": 1711248551.505581,
+        "duration": 9.222686052322388,
+        "service": "ecs",
+        "type": "services_by_namespace"
+    }
+}

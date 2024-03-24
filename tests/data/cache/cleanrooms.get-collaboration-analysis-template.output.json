@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "collaborationIdentifier": "",
+            "analysisTemplateArn": ""
+        },
+        "template_required_inputs": [
+            "collaborationIdentifier",
+            "analysisTemplateArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_collaboration_analysis_template",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248032.056287,
+        "end": 1711248039.405779,
+        "duration": 7.349503993988037,
+        "service": "cleanrooms",
+        "type": null
+    }
+}

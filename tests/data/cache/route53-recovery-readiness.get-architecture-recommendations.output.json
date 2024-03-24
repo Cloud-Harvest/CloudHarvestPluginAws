@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": "",
+            "RecoveryGroupName": ""
+        },
+        "template_required_inputs": [
+            "RecoveryGroupName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_architecture_recommendations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249975.067288,
+        "end": 1711249980.184061,
+        "duration": 5.1167919635772705,
+        "service": "route53-recovery-readiness",
+        "type": null
+    }
+}

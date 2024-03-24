@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "transformerJobId": "",
+            "transformerId": ""
+        },
+        "template_required_inputs": [
+            "transformerJobId",
+            "transformerId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_transformer_job",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247888.979335,
+        "end": 1711247899.150527,
+        "duration": 10.171223878860474,
+        "service": "b2bi",
+        "type": null
+    }
+}

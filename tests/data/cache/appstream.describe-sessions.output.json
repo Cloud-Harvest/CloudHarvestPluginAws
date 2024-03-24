@@ -1,0 +1,32 @@
+{
+    "input": {
+        "template": {
+            "StackName": "",
+            "FleetName": "",
+            "UserId": "",
+            "NextToken": "",
+            "Limit": 0,
+            "AuthenticationType": "API",
+            "InstanceId": ""
+        },
+        "template_required_inputs": [
+            "StackName",
+            "FleetName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_sessions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247822.867011,
+        "end": 1711247835.169531,
+        "duration": 12.302527904510498,
+        "service": "appstream",
+        "type": "sessions"
+    }
+}

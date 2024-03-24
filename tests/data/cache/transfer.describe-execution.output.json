@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "ExecutionId": "",
+            "WorkflowId": ""
+        },
+        "template_required_inputs": [
+            "ExecutionId",
+            "WorkflowId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_execution",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250252.053435,
+        "end": 1711250259.722055,
+        "duration": 7.6686389446258545,
+        "service": "transfer",
+        "type": "execution"
+    }
+}

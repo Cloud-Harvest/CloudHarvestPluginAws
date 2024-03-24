@@ -1,0 +1,33 @@
+{
+    "input": {
+        "template": {
+            "ResourceName": "",
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ]
+        },
+        "template_required_inputs": [
+            "ResourceName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_tags_for_resource",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249705.744344,
+        "end": 1711249712.122592,
+        "duration": 6.378269910812378,
+        "service": "neptune",
+        "type": "tags_for_resource"
+    }
+}

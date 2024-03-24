@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "datastoreName": "",
+            "includeStatistics": true
+        },
+        "template_required_inputs": [
+            "datastoreName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_datastore",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248947.847407,
+        "end": 1711248957.542169,
+        "duration": 9.694772005081177,
+        "service": "iotanalytics",
+        "type": "datastore"
+    }
+}

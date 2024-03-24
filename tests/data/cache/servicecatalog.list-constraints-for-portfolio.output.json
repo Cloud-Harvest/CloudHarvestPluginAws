@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "AcceptLanguage": "",
+            "PortfolioId": "",
+            "ProductId": "",
+            "PageSize": 0,
+            "PageToken": ""
+        },
+        "template_required_inputs": [
+            "PortfolioId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_constraints_for_portfolio",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250090.085225,
+        "end": 1711250096.361575,
+        "duration": 6.276367902755737,
+        "service": "servicecatalog",
+        "type": "constraints_for_portfolio"
+    }
+}

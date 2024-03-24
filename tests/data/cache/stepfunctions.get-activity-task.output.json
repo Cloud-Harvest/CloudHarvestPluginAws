@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "activityArn": "",
+            "workerName": ""
+        },
+        "template_required_inputs": [
+            "activityArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_activity_task",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250196.602576,
+        "end": 1711250204.298582,
+        "duration": 7.696018934249878,
+        "service": "stepfunctions",
+        "type": null
+    }
+}

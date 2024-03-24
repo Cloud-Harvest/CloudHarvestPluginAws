@@ -1,0 +1,38 @@
+{
+    "input": {
+        "template": {
+            "VerifiedAccessEndpointIds": [
+                ""
+            ],
+            "VerifiedAccessInstanceId": "",
+            "VerifiedAccessGroupId": "",
+            "MaxResults": 0,
+            "NextToken": "",
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "DryRun": true
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "describe_verified_access_endpoints",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248501.286297,
+        "end": 1711248515.350074,
+        "duration": 14.063786029815674,
+        "service": "ec2",
+        "type": "verified_access_endpoints"
+    }
+}

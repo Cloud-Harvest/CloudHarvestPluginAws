@@ -1,0 +1,32 @@
+{
+    "input": {
+        "template": {
+            "filters": {
+                "actionIDs": [
+                    ""
+                ]
+            },
+            "launchConfigurationTemplateID": "",
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [
+            "launchConfigurationTemplateID"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_template_actions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249678.772654,
+        "end": 1711249684.071782,
+        "duration": 5.299152851104736,
+        "service": "mgn",
+        "type": "template_actions"
+    }
+}

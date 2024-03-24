@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "DetectorId": "",
+            "ThreatIntelSetId": ""
+        },
+        "template_required_inputs": [
+            "DetectorId",
+            "ThreatIntelSetId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_threat_intel_set",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248813.461241,
+        "end": 1711248827.984334,
+        "duration": 14.523101091384888,
+        "service": "guardduty",
+        "type": null
+    }
+}

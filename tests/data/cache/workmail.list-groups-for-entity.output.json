@@ -1,0 +1,32 @@
+{
+    "input": {
+        "template": {
+            "OrganizationId": "",
+            "EntityId": "",
+            "Filters": {
+                "GroupNamePrefix": ""
+            },
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "OrganizationId",
+            "EntityId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_groups_for_entity",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250351.980294,
+        "end": 1711250358.68464,
+        "duration": 6.704380035400391,
+        "service": "workmail",
+        "type": "groups_for_entity"
+    }
+}

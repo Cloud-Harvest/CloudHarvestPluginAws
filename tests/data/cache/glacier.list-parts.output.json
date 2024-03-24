@@ -1,0 +1,31 @@
+{
+    "input": {
+        "template": {
+            "accountId": "",
+            "vaultName": "",
+            "uploadId": "",
+            "marker": "",
+            "limit": ""
+        },
+        "template_required_inputs": [
+            "accountId",
+            "vaultName",
+            "uploadId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_parts",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248702.100097,
+        "end": 1711248707.751676,
+        "duration": 5.651587963104248,
+        "service": "glacier",
+        "type": "parts"
+    }
+}

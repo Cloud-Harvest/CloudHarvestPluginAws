@@ -1,0 +1,36 @@
+{
+    "input": {
+        "template": {
+            "workbookId": "",
+            "appId": "",
+            "screenId": "",
+            "variables": {
+                "KeyName": {
+                    "rawValue": ""
+                }
+            },
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [
+            "workbookId",
+            "appId",
+            "screenId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_screen_data",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248829.058857,
+        "end": 1711248841.959638,
+        "duration": 12.900789976119995,
+        "service": "honeycode",
+        "type": null
+    }
+}

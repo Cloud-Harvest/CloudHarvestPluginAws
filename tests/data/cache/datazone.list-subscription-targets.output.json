@@ -1,0 +1,31 @@
+{
+    "input": {
+        "template": {
+            "domainIdentifier": "",
+            "environmentIdentifier": "",
+            "maxResults": 0,
+            "nextToken": "",
+            "sortBy": "CREATED_AT",
+            "sortOrder": "ASCENDING"
+        },
+        "template_required_inputs": [
+            "domainIdentifier",
+            "environmentIdentifier"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_subscription_targets",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248384.89404,
+        "end": 1711248395.870054,
+        "duration": 10.976029872894287,
+        "service": "datazone",
+        "type": "subscription_targets"
+    }
+}

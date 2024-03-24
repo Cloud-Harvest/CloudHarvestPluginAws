@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "ResourceARN": "",
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "ResourceARN"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_tags_for_resource",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250389.139053,
+        "end": 1711250393.703716,
+        "duration": 4.564671993255615,
+        "service": "xray",
+        "type": "tags_for_resource"
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "input": {
+        "template": {
+            "DeviceId": "",
+            "FromTimeStamp": "1970-01-01T00:00:00",
+            "MaxResults": 0,
+            "NextToken": "",
+            "ToTimeStamp": "1970-01-01T00:00:00"
+        },
+        "template_required_inputs": [
+            "DeviceId",
+            "FromTimeStamp",
+            "ToTimeStamp"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_device_events",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248944.055226,
+        "end": 1711248955.023192,
+        "duration": 10.967976808547974,
+        "service": "iot1click-devices",
+        "type": "device_events"
+    }
+}

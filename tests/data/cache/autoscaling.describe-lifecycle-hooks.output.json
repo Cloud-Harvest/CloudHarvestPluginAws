@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "AutoScalingGroupName": "",
+            "LifecycleHookNames": [
+                ""
+            ]
+        },
+        "template_required_inputs": [
+            "AutoScalingGroupName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_lifecycle_hooks",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247882.139786,
+        "end": 1711247896.427382,
+        "duration": 14.287606000900269,
+        "service": "autoscaling",
+        "type": "lifecycle_hooks"
+    }
+}

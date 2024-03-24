@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "loggingConfigurationIdentifier": "",
+            "maxResults": 0,
+            "messageReviewHandlerUri": "",
+            "name": "",
+            "nextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_rooms",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249038.284848,
+        "end": 1711249179.471854,
+        "duration": 141.1870150566101,
+        "service": "ivschat",
+        "type": "rooms"
+    }
+}

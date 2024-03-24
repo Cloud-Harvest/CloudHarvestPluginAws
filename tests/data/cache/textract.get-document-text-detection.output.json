@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "JobId": "",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "JobId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_document_text_detection",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250226.253188,
+        "end": 1711250235.012899,
+        "duration": 8.759728193283081,
+        "service": "textract",
+        "type": null
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "WindowId": ""
+        },
+        "template_required_inputs": [
+            "WindowId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_maintenance_window",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250149.366439,
+        "end": 1711250155.057726,
+        "duration": 5.691307783126831,
+        "service": "ssm",
+        "type": null
+    }
+}

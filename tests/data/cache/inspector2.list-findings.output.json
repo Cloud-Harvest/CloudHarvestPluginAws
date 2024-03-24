@@ -1,0 +1,309 @@
+{
+    "input": {
+        "template": {
+            "filterCriteria": {
+                "awsAccountId": [
+                    {
+                        "comparison": "EQUALS",
+                        "value": ""
+                    }
+                ],
+                "codeVulnerabilityDetectorName": [
+                    {
+                        "comparison": "EQUALS",
+                        "value": ""
+                    }
+                ],
+                "codeVulnerabilityDetectorTags": [
+                    {
+                        "comparison": "EQUALS",
+                        "value": ""
+                    }
+                ],
+                "codeVulnerabilityFilePath": [
+                    {
+                        "comparison": "EQUALS",
+                        "value": ""
+                    }
+                ],
+                "componentId": [
+                    {
+                        "comparison": "EQUALS",
+                        "value": ""
+                    }
+                ],
+                "componentType": [
+                    {
+                        "comparison": "EQUALS",
+                        "value": ""
+                    }
+                ],
+                "ec2InstanceImageId": [
+                    {
+                        "comparison": "EQUALS",
+                        "value": ""
+                    }
+                ],
+                "ec2InstanceSubnetId": [
+                    {
+                        "comparison": "EQUALS",
+                        "value": ""
+                    }
+                ],
+                "ec2InstanceVpcId": [
+                    {
+                        "comparison": "EQUALS",
+                        "value": ""
+                    }
+                ],
+                "ecrImageArchitecture": [
+                    {
+                        "comparison": "EQUALS",
+                        "value": ""
+                    }
+                ],
+                "ecrImageHash": [
+                    {
+                        "comparison": "EQUALS",
+                        "value": ""
+                    }
+                ],
+                "ecrImagePushedAt": [
+                    {
+                        "endInclusive": "1970-01-01T00:00:00",
+                        "startInclusive": "1970-01-01T00:00:00"
+                    }
+                ],
+                "ecrImageRegistry": [
+                    {
+                        "comparison": "EQUALS",
+                        "value": ""
+                    }
+                ],
+                "ecrImageRepositoryName": [
+                    {
+                        "comparison": "EQUALS",
+                        "value": ""
+                    }
+                ],
+                "ecrImageTags": [
+                    {
+                        "comparison": "EQUALS",
+                        "value": ""
+                    }
+                ],
+                "epssScore": [
+                    {
+                        "lowerInclusive": 0.0,
+                        "upperInclusive": 0.0
+                    }
+                ],
+                "exploitAvailable": [
+                    {
+                        "comparison": "EQUALS",
+                        "value": ""
+                    }
+                ],
+                "findingArn": [
+                    {
+                        "comparison": "EQUALS",
+                        "value": ""
+                    }
+                ],
+                "findingStatus": [
+                    {
+                        "comparison": "EQUALS",
+                        "value": ""
+                    }
+                ],
+                "findingType": [
+                    {
+                        "comparison": "EQUALS",
+                        "value": ""
+                    }
+                ],
+                "firstObservedAt": [
+                    {
+                        "endInclusive": "1970-01-01T00:00:00",
+                        "startInclusive": "1970-01-01T00:00:00"
+                    }
+                ],
+                "fixAvailable": [
+                    {
+                        "comparison": "EQUALS",
+                        "value": ""
+                    }
+                ],
+                "inspectorScore": [
+                    {
+                        "lowerInclusive": 0.0,
+                        "upperInclusive": 0.0
+                    }
+                ],
+                "lambdaFunctionExecutionRoleArn": [
+                    {
+                        "comparison": "EQUALS",
+                        "value": ""
+                    }
+                ],
+                "lambdaFunctionLastModifiedAt": [
+                    {
+                        "endInclusive": "1970-01-01T00:00:00",
+                        "startInclusive": "1970-01-01T00:00:00"
+                    }
+                ],
+                "lambdaFunctionLayers": [
+                    {
+                        "comparison": "EQUALS",
+                        "value": ""
+                    }
+                ],
+                "lambdaFunctionName": [
+                    {
+                        "comparison": "EQUALS",
+                        "value": ""
+                    }
+                ],
+                "lambdaFunctionRuntime": [
+                    {
+                        "comparison": "EQUALS",
+                        "value": ""
+                    }
+                ],
+                "lastObservedAt": [
+                    {
+                        "endInclusive": "1970-01-01T00:00:00",
+                        "startInclusive": "1970-01-01T00:00:00"
+                    }
+                ],
+                "networkProtocol": [
+                    {
+                        "comparison": "EQUALS",
+                        "value": ""
+                    }
+                ],
+                "portRange": [
+                    {
+                        "beginInclusive": 0,
+                        "endInclusive": 0
+                    }
+                ],
+                "relatedVulnerabilities": [
+                    {
+                        "comparison": "EQUALS",
+                        "value": ""
+                    }
+                ],
+                "resourceId": [
+                    {
+                        "comparison": "EQUALS",
+                        "value": ""
+                    }
+                ],
+                "resourceTags": [
+                    {
+                        "comparison": "EQUALS",
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "resourceType": [
+                    {
+                        "comparison": "EQUALS",
+                        "value": ""
+                    }
+                ],
+                "severity": [
+                    {
+                        "comparison": "EQUALS",
+                        "value": ""
+                    }
+                ],
+                "title": [
+                    {
+                        "comparison": "EQUALS",
+                        "value": ""
+                    }
+                ],
+                "updatedAt": [
+                    {
+                        "endInclusive": "1970-01-01T00:00:00",
+                        "startInclusive": "1970-01-01T00:00:00"
+                    }
+                ],
+                "vendorSeverity": [
+                    {
+                        "comparison": "EQUALS",
+                        "value": ""
+                    }
+                ],
+                "vulnerabilityId": [
+                    {
+                        "comparison": "EQUALS",
+                        "value": ""
+                    }
+                ],
+                "vulnerabilitySource": [
+                    {
+                        "comparison": "EQUALS",
+                        "value": ""
+                    }
+                ],
+                "vulnerablePackages": [
+                    {
+                        "architecture": {
+                            "comparison": "EQUALS",
+                            "value": ""
+                        },
+                        "epoch": {
+                            "lowerInclusive": 0.0,
+                            "upperInclusive": 0.0
+                        },
+                        "name": {
+                            "comparison": "EQUALS",
+                            "value": ""
+                        },
+                        "release": {
+                            "comparison": "EQUALS",
+                            "value": ""
+                        },
+                        "sourceLambdaLayerArn": {
+                            "comparison": "EQUALS",
+                            "value": ""
+                        },
+                        "sourceLayerHash": {
+                            "comparison": "EQUALS",
+                            "value": ""
+                        },
+                        "version": {
+                            "comparison": "EQUALS",
+                            "value": ""
+                        }
+                    }
+                ]
+            },
+            "maxResults": 0,
+            "nextToken": "",
+            "sortCriteria": {
+                "field": "AWS_ACCOUNT_ID",
+                "sortOrder": "ASC"
+            }
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_findings",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248897.023276,
+        "end": 1711248908.24119,
+        "duration": 11.217930793762207,
+        "service": "inspector2",
+        "type": "findings"
+    }
+}

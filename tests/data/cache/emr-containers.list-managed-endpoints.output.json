@@ -1,0 +1,35 @@
+{
+    "input": {
+        "template": {
+            "virtualClusterId": "",
+            "createdBefore": "1970-01-01T00:00:00",
+            "createdAfter": "1970-01-01T00:00:00",
+            "types": [
+                ""
+            ],
+            "states": [
+                "CREATING"
+            ],
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [
+            "virtualClusterId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_managed_endpoints",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248601.925909,
+        "end": 1711248608.209328,
+        "duration": 6.283427000045776,
+        "service": "emr-containers",
+        "type": "managed_endpoints"
+    }
+}

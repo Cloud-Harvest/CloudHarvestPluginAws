@@ -1,0 +1,41 @@
+{
+    "input": {
+        "template": {
+            "assetId": "",
+            "propertyId": "",
+            "propertyAlias": "",
+            "startTimeInSeconds": 0,
+            "startTimeOffsetInNanos": 0,
+            "endTimeInSeconds": 0,
+            "endTimeOffsetInNanos": 0,
+            "quality": "GOOD",
+            "intervalInSeconds": 0,
+            "nextToken": "",
+            "maxResults": 0,
+            "type": "",
+            "intervalWindowInSeconds": 0
+        },
+        "template_required_inputs": [
+            "startTimeInSeconds",
+            "endTimeInSeconds",
+            "quality",
+            "intervalInSeconds",
+            "type"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_interpolated_asset_property_values",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248990.422114,
+        "end": 1711248997.636097,
+        "duration": 7.213993072509766,
+        "service": "iotsitewise",
+        "type": null
+    }
+}

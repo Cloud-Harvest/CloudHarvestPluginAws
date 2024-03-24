@@ -1,0 +1,34 @@
+{
+    "input": {
+        "template": {
+            "ContactListName": "",
+            "Filter": {
+                "FilteredStatus": "OPT_IN",
+                "TopicFilter": {
+                    "TopicName": "",
+                    "UseDefaultIfPreferenceUnavailable": true
+                }
+            },
+            "PageSize": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "ContactListName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_contacts",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250114.790096,
+        "end": 1711250120.905061,
+        "duration": 6.114977836608887,
+        "service": "sesv2",
+        "type": "contacts"
+    }
+}

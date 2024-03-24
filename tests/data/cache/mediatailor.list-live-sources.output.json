@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": "",
+            "SourceLocationName": ""
+        },
+        "template_required_inputs": [
+            "SourceLocationName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_live_sources",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249663.418248,
+        "end": 1711249669.620762,
+        "duration": 6.202533960342407,
+        "service": "mediatailor",
+        "type": "live_sources"
+    }
+}

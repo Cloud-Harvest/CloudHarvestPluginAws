@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "AuthenticationToken": "",
+            "Limit": 0,
+            "Marker": ""
+        },
+        "template_required_inputs": [
+            "AuthenticationToken"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_root_folders",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250338.016203,
+        "end": 1711250345.153247,
+        "duration": 7.1370849609375,
+        "service": "workdocs",
+        "type": "root_folders"
+    }
+}

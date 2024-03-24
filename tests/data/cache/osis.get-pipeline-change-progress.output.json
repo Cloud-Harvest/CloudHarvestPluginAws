@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "PipelineName": ""
+        },
+        "template_required_inputs": [
+            "PipelineName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_pipeline_change_progress",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249780.69225,
+        "end": 1711249786.888392,
+        "duration": 6.196156978607178,
+        "service": "osis",
+        "type": null
+    }
+}

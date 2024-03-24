@@ -1,0 +1,30 @@
+{
+    "input": {
+        "template": {
+            "GraphArn": "",
+            "InvestigationId": "",
+            "IndicatorType": "TTP_OBSERVED",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "GraphArn",
+            "InvestigationId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_indicators",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248398.30567,
+        "end": 1711248407.255823,
+        "duration": 8.950165033340454,
+        "service": "detective",
+        "type": "indicators"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "DiscovererId": ""
+        },
+        "template_required_inputs": [
+            "DiscovererId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_discoverer",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250069.599545,
+        "end": 1711250075.986886,
+        "duration": 6.387353897094727,
+        "service": "schemas",
+        "type": "discoverer"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "UserPoolId": "",
+            "Limit": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "UserPoolId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_groups",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248210.147022,
+        "end": 1711248218.895744,
+        "duration": 8.748733043670654,
+        "service": "cognito-idp",
+        "type": "groups"
+    }
+}

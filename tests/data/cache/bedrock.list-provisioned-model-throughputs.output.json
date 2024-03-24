@@ -1,0 +1,31 @@
+{
+    "input": {
+        "template": {
+            "creationTimeAfter": "1970-01-01T00:00:00",
+            "creationTimeBefore": "1970-01-01T00:00:00",
+            "statusEquals": "Creating",
+            "modelArnEquals": "",
+            "nameContains": "",
+            "maxResults": 0,
+            "nextToken": "",
+            "sortBy": "CreationTime",
+            "sortOrder": "Ascending"
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_provisioned_model_throughputs",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247930.209138,
+        "end": 1711247939.336495,
+        "duration": 9.127372980117798,
+        "service": "bedrock",
+        "type": "provisioned_model_throughputs"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "GroupId": "",
+            "MaxResults": "",
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "GroupId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_group_versions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248756.871788,
+        "end": 1711248798.088296,
+        "duration": 41.21651887893677,
+        "service": "greengrass",
+        "type": "group_versions"
+    }
+}

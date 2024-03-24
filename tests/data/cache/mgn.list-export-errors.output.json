@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "exportID": "",
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [
+            "exportID"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_export_errors",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249675.753849,
+        "end": 1711249681.863945,
+        "duration": 6.110105037689209,
+        "service": "mgn",
+        "type": "export_errors"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "FunctionName": "",
+            "Qualifier": ""
+        },
+        "template_required_inputs": [
+            "FunctionName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_function_event_invoke_config",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249230.155682,
+        "end": 1711249239.251767,
+        "duration": 9.09613299369812,
+        "service": "lambda",
+        "type": null
+    }
+}

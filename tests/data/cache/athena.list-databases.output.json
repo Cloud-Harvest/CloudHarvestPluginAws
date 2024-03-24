@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "CatalogName": "",
+            "NextToken": "",
+            "MaxResults": 0,
+            "WorkGroup": ""
+        },
+        "template_required_inputs": [
+            "CatalogName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_databases",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247858.219882,
+        "end": 1711247867.846546,
+        "duration": 9.626673936843872,
+        "service": "athena",
+        "type": "databases"
+    }
+}

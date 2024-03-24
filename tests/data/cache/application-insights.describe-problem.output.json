@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "ProblemId": "",
+            "AccountId": ""
+        },
+        "template_required_inputs": [
+            "ProblemId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_problem",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247801.51375,
+        "end": 1711247807.410127,
+        "duration": 5.89639687538147,
+        "service": "application-insights",
+        "type": "problem"
+    }
+}

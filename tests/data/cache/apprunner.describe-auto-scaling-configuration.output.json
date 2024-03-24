@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "AutoScalingConfigurationArn": ""
+        },
+        "template_required_inputs": [
+            "AutoScalingConfigurationArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_auto_scaling_configuration",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247818.972193,
+        "end": 1711247824.280032,
+        "duration": 5.307853937149048,
+        "service": "apprunner",
+        "type": "auto_scaling_configuration"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "Name": ""
+        },
+        "template_required_inputs": [
+            "Name"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_schedule",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248346.004949,
+        "end": 1711248354.653743,
+        "duration": 8.648801803588867,
+        "service": "databrew",
+        "type": "schedule"
+    }
+}

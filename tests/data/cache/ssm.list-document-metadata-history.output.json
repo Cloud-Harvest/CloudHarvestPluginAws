@@ -1,0 +1,30 @@
+{
+    "input": {
+        "template": {
+            "Name": "",
+            "DocumentVersion": "",
+            "Metadata": "DocumentReviews",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "Name",
+            "Metadata"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_document_metadata_history",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250159.805456,
+        "end": 1711250166.167382,
+        "duration": 6.361936092376709,
+        "service": "ssm",
+        "type": "document_metadata_history"
+    }
+}

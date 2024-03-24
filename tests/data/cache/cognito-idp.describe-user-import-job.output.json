@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "UserPoolId": "",
+            "JobId": ""
+        },
+        "template_required_inputs": [
+            "UserPoolId",
+            "JobId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_user_import_job",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248203.530837,
+        "end": 1711248210.128854,
+        "duration": 6.598039865493774,
+        "service": "cognito-idp",
+        "type": "user_import_job"
+    }
+}

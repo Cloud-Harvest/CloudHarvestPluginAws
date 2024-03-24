@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "nextToken": "",
+            "ownedBy": "",
+            "studioId": ""
+        },
+        "template_required_inputs": [
+            "studioId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_streaming_session_backups",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249733.459423,
+        "end": 1711249740.10994,
+        "duration": 6.65053391456604,
+        "service": "nimble",
+        "type": "streaming_session_backups"
+    }
+}

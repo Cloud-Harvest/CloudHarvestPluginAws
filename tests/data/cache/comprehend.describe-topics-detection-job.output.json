@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "JobId": ""
+        },
+        "template_required_inputs": [
+            "JobId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_topics_detection_job",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248225.221386,
+        "end": 1711248231.018032,
+        "duration": 5.796663045883179,
+        "service": "comprehend",
+        "type": "topics_detection_job"
+    }
+}

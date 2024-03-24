@@ -1,0 +1,33 @@
+{
+    "input": {
+        "template": {
+            "ApplicationId": "",
+            "CampaignId": "",
+            "EndTime": "1970-01-01T00:00:00",
+            "KpiName": "",
+            "NextToken": "",
+            "PageSize": "",
+            "StartTime": "1970-01-01T00:00:00"
+        },
+        "template_required_inputs": [
+            "ApplicationId",
+            "CampaignId",
+            "KpiName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_campaign_date_range_kpi",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249812.912257,
+        "end": 1711249818.963658,
+        "duration": 6.051411151885986,
+        "service": "pinpoint",
+        "type": null
+    }
+}

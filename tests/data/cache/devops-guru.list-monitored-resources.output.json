@@ -1,0 +1,30 @@
+{
+    "input": {
+        "template": {
+            "Filters": {
+                "ResourcePermission": "FULL_PERMISSION",
+                "ResourceTypeFilters": [
+                    "LOG_GROUPS"
+                ]
+            },
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_monitored_resources",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248442.617509,
+        "end": 1711248453.071463,
+        "duration": 10.453963041305542,
+        "service": "devops-guru",
+        "type": "monitored_resources"
+    }
+}

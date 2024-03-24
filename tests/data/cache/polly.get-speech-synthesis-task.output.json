@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "TaskId": ""
+        },
+        "template_required_inputs": [
+            "TaskId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_speech_synthesis_task",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249838.657246,
+        "end": 1711249844.946691,
+        "duration": 6.289464950561523,
+        "service": "polly",
+        "type": null
+    }
+}

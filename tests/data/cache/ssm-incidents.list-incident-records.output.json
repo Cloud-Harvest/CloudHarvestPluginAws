@@ -1,0 +1,41 @@
+{
+    "input": {
+        "template": {
+            "filters": [
+                {
+                    "condition": {
+                        "after": "1970-01-01T00:00:00",
+                        "before": "1970-01-01T00:00:00",
+                        "equals": {
+                            "integerValues": [
+                                0
+                            ],
+                            "stringValues": [
+                                ""
+                            ]
+                        }
+                    },
+                    "key": ""
+                }
+            ],
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_incident_records",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250167.279033,
+        "end": 1711250175.969061,
+        "duration": 8.690044164657593,
+        "service": "ssm-incidents",
+        "type": "incident_records"
+    }
+}

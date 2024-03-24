@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "launchConfigurationTemplateIDs": [
+                ""
+            ],
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "describe_launch_configuration_templates",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248465.690445,
+        "end": 1711248473.385644,
+        "duration": 7.695207118988037,
+        "service": "drs",
+        "type": "launch_configuration_templates"
+    }
+}

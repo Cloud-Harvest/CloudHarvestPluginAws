@@ -1,0 +1,31 @@
+{
+    "input": {
+        "template": {
+            "FeatureGroupName": "",
+            "RecordIdentifierValueAsString": "",
+            "FeatureNames": [
+                ""
+            ],
+            "ExpirationTimeResponse": "Enabled"
+        },
+        "template_required_inputs": [
+            "FeatureGroupName",
+            "RecordIdentifierValueAsString"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_record",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250063.529147,
+        "end": 1711250069.32652,
+        "duration": 5.797384977340698,
+        "service": "sagemaker-featurestore-runtime",
+        "type": null
+    }
+}

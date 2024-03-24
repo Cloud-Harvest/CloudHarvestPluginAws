@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "batchSegmentJobArn": ""
+        },
+        "template_required_inputs": [
+            "batchSegmentJobArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_batch_segment_job",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249800.154489,
+        "end": 1711249806.319139,
+        "duration": 6.164659023284912,
+        "service": "personalize",
+        "type": "batch_segment_job"
+    }
+}

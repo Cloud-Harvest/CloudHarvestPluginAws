@@ -1,0 +1,30 @@
+{
+    "input": {
+        "template": {
+            "gatewayRouteName": "",
+            "meshName": "",
+            "meshOwner": "",
+            "virtualGatewayName": ""
+        },
+        "template_required_inputs": [
+            "gatewayRouteName",
+            "meshName",
+            "virtualGatewayName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_gateway_route",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247805.209316,
+        "end": 1711247819.343293,
+        "duration": 14.13398790359497,
+        "service": "appmesh",
+        "type": "gateway_route"
+    }
+}

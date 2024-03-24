@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "resourceType": "AWS_EC2_INSTANCE",
+            "scanType": "NETWORK"
+        },
+        "template_required_inputs": [
+            "resourceType",
+            "scanType"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_encryption_key",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248894.096073,
+        "end": 1711248900.388092,
+        "duration": 6.2920310497283936,
+        "service": "inspector2",
+        "type": null
+    }
+}

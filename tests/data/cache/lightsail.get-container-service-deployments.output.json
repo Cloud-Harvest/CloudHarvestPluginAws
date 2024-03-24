@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "serviceName": ""
+        },
+        "template_required_inputs": [
+            "serviceName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_container_service_deployments",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249458.41496,
+        "end": 1711249464.883457,
+        "duration": 6.468506097793579,
+        "service": "lightsail",
+        "type": null
+    }
+}

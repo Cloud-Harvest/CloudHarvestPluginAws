@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "PolicyId": "",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "PolicyId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_targets_for_policy",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249780.49365,
+        "end": 1711249786.889589,
+        "duration": 6.395952939987183,
+        "service": "organizations",
+        "type": "targets_for_policy"
+    }
+}

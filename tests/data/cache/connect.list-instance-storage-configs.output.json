@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "InstanceId": "",
+            "ResourceType": "CHAT_TRANSCRIPTS",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "InstanceId",
+            "ResourceType"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_instance_storage_configs",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248302.651058,
+        "end": 1711248309.010304,
+        "duration": 6.359256029129028,
+        "service": "connect",
+        "type": "instance_storage_configs"
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "input": {
+        "template": {
+            "AccountId": "",
+            "Service": "",
+            "Filter": {
+                "Or": [
+                    {}
+                ],
+                "And": [
+                    {}
+                ],
+                "Not": {},
+                "Dimensions": {
+                    "Key": "AZ",
+                    "Values": [
+                        ""
+                    ],
+                    "MatchOptions": [
+                        "EQUALS"
+                    ]
+                },
+                "Tags": {
+                    "Key": "",
+                    "Values": [
+                        ""
+                    ],
+                    "MatchOptions": [
+                        "EQUALS"
+                    ]
+                },
+                "CostCategories": {
+                    "Key": "",
+                    "Values": [
+                        ""
+                    ],
+                    "MatchOptions": [
+                        "EQUALS"
+                    ]
+                }
+            },
+            "AccountScope": "PAYER",
+            "LookbackPeriodInDays": "SEVEN_DAYS",
+            "TermInYears": "ONE_YEAR",
+            "PaymentOption": "NO_UPFRONT",
+            "ServiceSpecification": {
+                "EC2Specification": {
+                    "OfferingClass": "STANDARD"
+                }
+            },
+            "PageSize": 0,
+            "NextPageToken": ""
+        },
+        "template_required_inputs": [
+            "Service"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_reservation_purchase_recommendation",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247953.606292,
+        "end": 1711247969.341675,
+        "duration": 15.735389947891235,
+        "service": "ce",
+        "type": null
+    }
+}

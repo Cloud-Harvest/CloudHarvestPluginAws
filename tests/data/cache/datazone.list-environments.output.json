@@ -1,0 +1,36 @@
+{
+    "input": {
+        "template": {
+            "awsAccountId": "",
+            "awsAccountRegion": "",
+            "domainIdentifier": "",
+            "environmentBlueprintIdentifier": "",
+            "environmentProfileIdentifier": "",
+            "maxResults": 0,
+            "name": "",
+            "nextToken": "",
+            "projectIdentifier": "",
+            "provider": "",
+            "status": "ACTIVE"
+        },
+        "template_required_inputs": [
+            "domainIdentifier",
+            "projectIdentifier"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_environments",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248381.075444,
+        "end": 1711248395.197004,
+        "duration": 14.121570110321045,
+        "service": "datazone",
+        "type": "environments"
+    }
+}

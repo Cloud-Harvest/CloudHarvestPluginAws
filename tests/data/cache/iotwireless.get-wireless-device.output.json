@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "Identifier": "",
+            "IdentifierType": "WirelessDeviceId"
+        },
+        "template_required_inputs": [
+            "Identifier",
+            "IdentifierType"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_wireless_device",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249013.196148,
+        "end": 1711249022.602053,
+        "duration": 9.405914068222046,
+        "service": "iotwireless",
+        "type": null
+    }
+}

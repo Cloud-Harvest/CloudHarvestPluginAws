@@ -1,0 +1,31 @@
+{
+    "input": {
+        "template": {
+            "ApplicationId": "",
+            "JourneyActivityId": "",
+            "JourneyId": "",
+            "NextToken": "",
+            "PageSize": ""
+        },
+        "template_required_inputs": [
+            "ApplicationId",
+            "JourneyActivityId",
+            "JourneyId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_journey_execution_activity_metrics",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249820.987476,
+        "end": 1711249826.985996,
+        "duration": 5.998531818389893,
+        "service": "pinpoint",
+        "type": null
+    }
+}

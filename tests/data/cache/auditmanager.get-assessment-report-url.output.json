@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "assessmentReportId": "",
+            "assessmentId": ""
+        },
+        "template_required_inputs": [
+            "assessmentReportId",
+            "assessmentId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_assessment_report_url",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247868.022413,
+        "end": 1711247876.456775,
+        "duration": 8.434371948242188,
+        "service": "auditmanager",
+        "type": null
+    }
+}

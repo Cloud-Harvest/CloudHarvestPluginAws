@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "DomainId": ""
+        },
+        "template_required_inputs": [
+            "DomainId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_domain",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250029.63463,
+        "end": 1711250037.173669,
+        "duration": 7.539055109024048,
+        "service": "sagemaker",
+        "type": "domain"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "profileName": "",
+            "nextToken": ""
+        },
+        "template_required_inputs": [
+            "profileName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_profile_permissions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250120.900022,
+        "end": 1711250127.103941,
+        "duration": 6.2039289474487305,
+        "service": "signer",
+        "type": "profile_permissions"
+    }
+}

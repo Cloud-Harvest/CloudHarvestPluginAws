@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "Arn": ""
+        },
+        "template_required_inputs": [
+            "Arn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_application",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247787.602044,
+        "end": 1711247801.061958,
+        "duration": 13.459922790527344,
+        "service": "appintegrations",
+        "type": null
+    }
+}

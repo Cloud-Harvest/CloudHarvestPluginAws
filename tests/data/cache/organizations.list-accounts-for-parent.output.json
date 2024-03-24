@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "ParentId": "",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "ParentId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_accounts_for_parent",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249777.33134,
+        "end": 1711249783.013442,
+        "duration": 5.6821160316467285,
+        "service": "organizations",
+        "type": "accounts_for_parent"
+    }
+}

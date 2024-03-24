@@ -1,0 +1,44 @@
+{
+    "input": {
+        "template": {
+            "botId": "",
+            "startDateTime": "1970-01-01T00:00:00",
+            "endDateTime": "1970-01-01T00:00:00",
+            "sortBy": {
+                "name": "UtteranceTimestamp",
+                "order": "Ascending"
+            },
+            "filters": [
+                {
+                    "name": "BotAliasId",
+                    "operator": "EQ",
+                    "values": [
+                        ""
+                    ]
+                }
+            ],
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [
+            "botId",
+            "startDateTime",
+            "endDateTime"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_utterance_analytics_data",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249447.0988,
+        "end": 1711249452.520694,
+        "duration": 5.421914100646973,
+        "service": "lexv2-models",
+        "type": "utterance_analytics_data"
+    }
+}

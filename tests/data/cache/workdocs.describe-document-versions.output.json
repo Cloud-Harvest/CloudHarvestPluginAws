@@ -1,0 +1,30 @@
+{
+    "input": {
+        "template": {
+            "AuthenticationToken": "",
+            "DocumentId": "",
+            "Marker": "",
+            "Limit": 0,
+            "Include": "",
+            "Fields": ""
+        },
+        "template_required_inputs": [
+            "DocumentId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_document_versions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250338.00373,
+        "end": 1711250345.125419,
+        "duration": 7.121705055236816,
+        "service": "workdocs",
+        "type": "document_versions"
+    }
+}

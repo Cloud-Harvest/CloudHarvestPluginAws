@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "HumanTaskUiName": ""
+        },
+        "template_required_inputs": [
+            "HumanTaskUiName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_human_task_ui",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250035.461234,
+        "end": 1711250041.874669,
+        "duration": 6.413451910018921,
+        "service": "sagemaker",
+        "type": "human_task_ui"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "sessionId": "",
+            "stageArn": ""
+        },
+        "template_required_inputs": [
+            "sessionId",
+            "stageArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_stage_session",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249031.141067,
+        "end": 1711249038.559045,
+        "duration": 7.417989015579224,
+        "service": "ivs-realtime",
+        "type": null
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "platformId": ""
+        },
+        "template_required_inputs": [
+            "platformId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_signing_platform",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250118.874154,
+        "end": 1711250124.000469,
+        "duration": 5.1263267993927,
+        "service": "signer",
+        "type": null
+    }
+}

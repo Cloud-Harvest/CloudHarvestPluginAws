@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "UUID": ""
+        },
+        "template_required_inputs": [
+            "UUID"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_event_source_mapping",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249225.505679,
+        "end": 1711249239.149193,
+        "duration": 13.64352822303772,
+        "service": "lambda",
+        "type": null
+    }
+}

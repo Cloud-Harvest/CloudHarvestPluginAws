@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "PredictorBacktestExportJobArn": ""
+        },
+        "template_required_inputs": [
+            "PredictorBacktestExportJobArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_predictor_backtest_export_job",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248661.439426,
+        "end": 1711248668.049008,
+        "duration": 6.60959005355835,
+        "service": "forecast",
+        "type": "predictor_backtest_export_job"
+    }
+}

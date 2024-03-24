@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "Identity": "",
+            "PolicyNames": [
+                ""
+            ]
+        },
+        "template_required_inputs": [
+            "Identity",
+            "PolicyNames"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_identity_policies",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250103.198091,
+        "end": 1711250109.441044,
+        "duration": 6.2430009841918945,
+        "service": "ses",
+        "type": null
+    }
+}

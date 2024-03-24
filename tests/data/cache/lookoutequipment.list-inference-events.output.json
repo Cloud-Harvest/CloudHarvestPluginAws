@@ -1,0 +1,31 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0,
+            "InferenceSchedulerName": "",
+            "IntervalStartTime": "1970-01-01T00:00:00",
+            "IntervalEndTime": "1970-01-01T00:00:00"
+        },
+        "template_required_inputs": [
+            "InferenceSchedulerName",
+            "IntervalStartTime",
+            "IntervalEndTime"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_inference_events",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249484.697293,
+        "end": 1711249490.926454,
+        "duration": 6.229171991348267,
+        "service": "lookoutequipment",
+        "type": "inference_events"
+    }
+}

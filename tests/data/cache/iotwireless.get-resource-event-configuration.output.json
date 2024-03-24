@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "Identifier": "",
+            "IdentifierType": "PartnerAccountId",
+            "PartnerType": "Sidewalk"
+        },
+        "template_required_inputs": [
+            "Identifier",
+            "IdentifierType"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_resource_event_configuration",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249012.856728,
+        "end": 1711249022.053993,
+        "duration": 9.197273015975952,
+        "service": "iotwireless",
+        "type": null
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "input": {
+        "template": {
+            "CrawlerName": "",
+            "MaxResults": 0,
+            "Filters": [
+                {
+                    "FieldName": "CRAWL_ID",
+                    "FilterOperator": "GT",
+                    "FieldValue": ""
+                }
+            ],
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "CrawlerName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_crawls",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248737.450391,
+        "end": 1711248745.075339,
+        "duration": 7.624958038330078,
+        "service": "glue",
+        "type": "crawls"
+    }
+}

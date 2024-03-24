@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "LoggerDefinitionId": "",
+            "MaxResults": "",
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "LoggerDefinitionId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_logger_definition_versions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248757.182883,
+        "end": 1711248798.694505,
+        "duration": 41.51163196563721,
+        "service": "greengrass",
+        "type": "logger_definition_versions"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "ApplicationId": "",
+            "SegmentId": ""
+        },
+        "template_required_inputs": [
+            "ApplicationId",
+            "SegmentId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_segment",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249824.200787,
+        "end": 1711249831.222996,
+        "duration": 7.022228002548218,
+        "service": "pinpoint",
+        "type": null
+    }
+}

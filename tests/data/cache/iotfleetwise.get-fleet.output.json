@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "fleetId": ""
+        },
+        "template_required_inputs": [
+            "fleetId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_fleet",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248970.849396,
+        "end": 1711248977.772669,
+        "duration": 6.9232869148254395,
+        "service": "iotfleetwise",
+        "type": null
+    }
+}

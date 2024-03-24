@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "resourceArn": ""
+        },
+        "template_required_inputs": [
+            "resourceArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_effective_recommendation_preferences",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248240.388509,
+        "end": 1711248246.001638,
+        "duration": 5.613138914108276,
+        "service": "compute-optimizer",
+        "type": null
+    }
+}

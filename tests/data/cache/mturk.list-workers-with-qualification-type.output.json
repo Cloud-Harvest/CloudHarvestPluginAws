@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "QualificationTypeId": "",
+            "Status": "Granted",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "QualificationTypeId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_workers_with_qualification_type",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249702.060211,
+        "end": 1711249708.404251,
+        "duration": 6.344051122665405,
+        "service": "mturk",
+        "type": "workers_with_qualification_type"
+    }
+}

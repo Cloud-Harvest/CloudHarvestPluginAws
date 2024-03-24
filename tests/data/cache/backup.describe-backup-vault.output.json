@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "BackupVaultName": "",
+            "BackupVaultAccountId": ""
+        },
+        "template_required_inputs": [
+            "BackupVaultName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_backup_vault",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247895.395751,
+        "end": 1711247901.990421,
+        "duration": 6.594712018966675,
+        "service": "backup",
+        "type": "backup_vault"
+    }
+}

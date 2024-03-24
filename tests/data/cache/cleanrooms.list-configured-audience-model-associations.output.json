@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "membershipIdentifier": "",
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "template_required_inputs": [
+            "membershipIdentifier"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_configured_audience_model_associations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248039.458999,
+        "end": 1711248045.835361,
+        "duration": 6.376394987106323,
+        "service": "cleanrooms",
+        "type": "configured_audience_model_associations"
+    }
+}

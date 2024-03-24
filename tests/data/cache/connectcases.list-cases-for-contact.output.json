@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "contactArn": "",
+            "domainId": "",
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [
+            "contactArn",
+            "domainId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_cases_for_contact",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248322.460976,
+        "end": 1711248329.17651,
+        "duration": 6.71554708480835,
+        "service": "connectcases",
+        "type": "cases_for_contact"
+    }
+}

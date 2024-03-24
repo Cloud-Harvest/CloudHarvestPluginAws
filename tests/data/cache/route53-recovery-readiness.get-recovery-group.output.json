@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "RecoveryGroupName": ""
+        },
+        "template_required_inputs": [
+            "RecoveryGroupName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_recovery_group",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249977.054417,
+        "end": 1711249983.346434,
+        "duration": 6.292030096054077,
+        "service": "route53-recovery-readiness",
+        "type": null
+    }
+}

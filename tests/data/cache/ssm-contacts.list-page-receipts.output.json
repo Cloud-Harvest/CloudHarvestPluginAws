@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "PageId": "",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "PageId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_page_receipts",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250161.120636,
+        "end": 1711250167.173362,
+        "duration": 6.052741050720215,
+        "service": "ssm-contacts",
+        "type": "page_receipts"
+    }
+}

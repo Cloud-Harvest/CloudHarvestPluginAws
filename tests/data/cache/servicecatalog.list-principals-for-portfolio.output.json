@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "AcceptLanguage": "",
+            "PortfolioId": "",
+            "PageSize": 0,
+            "PageToken": ""
+        },
+        "template_required_inputs": [
+            "PortfolioId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_principals_for_portfolio",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250095.8242,
+        "end": 1711250102.161263,
+        "duration": 6.337079048156738,
+        "service": "servicecatalog",
+        "type": "principals_for_portfolio"
+    }
+}

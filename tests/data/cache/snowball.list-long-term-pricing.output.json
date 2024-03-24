@@ -1,0 +1,24 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_long_term_pricing",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250128.123713,
+        "end": 1711250136.39231,
+        "duration": 8.268610954284668,
+        "service": "snowball",
+        "type": "long_term_pricing"
+    }
+}

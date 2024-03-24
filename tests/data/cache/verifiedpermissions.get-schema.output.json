@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "policyStoreId": ""
+        },
+        "template_required_inputs": [
+            "policyStoreId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_schema",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250266.675999,
+        "end": 1711250273.584929,
+        "duration": 6.908945083618164,
+        "service": "verifiedpermissions",
+        "type": null
+    }
+}

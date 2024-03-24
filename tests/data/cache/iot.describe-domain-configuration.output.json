@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "domainConfigurationName": ""
+        },
+        "template_required_inputs": [
+            "domainConfigurationName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_domain_configuration",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248911.072525,
+        "end": 1711248918.17968,
+        "duration": 7.107173919677734,
+        "service": "iot",
+        "type": "domain_configuration"
+    }
+}

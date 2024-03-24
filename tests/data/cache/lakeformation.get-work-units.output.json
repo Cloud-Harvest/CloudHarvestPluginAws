@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "PageSize": 0,
+            "QueryId": ""
+        },
+        "template_required_inputs": [
+            "QueryId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_work_units",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249224.006713,
+        "end": 1711249238.469589,
+        "duration": 14.462889194488525,
+        "service": "lakeformation",
+        "type": null
+    }
+}

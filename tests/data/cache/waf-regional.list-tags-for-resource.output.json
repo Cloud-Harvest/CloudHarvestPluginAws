@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "NextMarker": "",
+            "Limit": 0,
+            "ResourceARN": ""
+        },
+        "template_required_inputs": [
+            "ResourceARN"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_tags_for_resource",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250300.853192,
+        "end": 1711250307.052079,
+        "duration": 6.198896884918213,
+        "service": "waf-regional",
+        "type": "tags_for_resource"
+    }
+}

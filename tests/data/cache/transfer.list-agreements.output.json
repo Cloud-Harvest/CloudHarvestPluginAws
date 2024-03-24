@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": "",
+            "ServerId": ""
+        },
+        "template_required_inputs": [
+            "ServerId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_agreements",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250252.224522,
+        "end": 1711250259.652405,
+        "duration": 7.427908897399902,
+        "service": "transfer",
+        "type": "agreements"
+    }
+}

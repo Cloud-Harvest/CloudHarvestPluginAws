@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "AccountId": "",
+            "IdentityPoolId": "",
+            "Logins": {
+                "KeyName": ""
+            }
+        },
+        "template_required_inputs": [
+            "IdentityPoolId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_id",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248197.092115,
+        "end": 1711248206.117676,
+        "duration": 9.025575160980225,
+        "service": "cognito-identity",
+        "type": null
+    }
+}

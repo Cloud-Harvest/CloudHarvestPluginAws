@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "projectName": "",
+            "sortOrder": "ASCENDING",
+            "nextToken": ""
+        },
+        "template_required_inputs": [
+            "projectName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_builds_for_project",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248142.700065,
+        "end": 1711248150.999636,
+        "duration": 8.29958200454712,
+        "service": "codebuild",
+        "type": "builds_for_project"
+    }
+}

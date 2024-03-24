@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "WorkloadId": "",
+            "MilestoneNumber": 0,
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "WorkloadId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_lens_reviews",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250320.500831,
+        "end": 1711250326.547328,
+        "duration": 6.046509027481079,
+        "service": "wellarchitected",
+        "type": "lens_reviews"
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "input": {
+        "template": {
+            "FlywheelArn": "",
+            "Filter": {
+                "CreationTimeAfter": "1970-01-01T00:00:00",
+                "CreationTimeBefore": "1970-01-01T00:00:00"
+            },
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "FlywheelArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_flywheel_iteration_history",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248229.366048,
+        "end": 1711248237.612752,
+        "duration": 8.246712923049927,
+        "service": "comprehend",
+        "type": "flywheel_iteration_history"
+    }
+}

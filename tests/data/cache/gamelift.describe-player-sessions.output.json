@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "GameSessionId": "",
+            "PlayerId": "",
+            "PlayerSessionId": "",
+            "PlayerSessionStatusFilter": "",
+            "Limit": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "describe_player_sessions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248691.68184,
+        "end": 1711248699.70274,
+        "duration": 8.020912170410156,
+        "service": "gamelift",
+        "type": "player_sessions"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "project": ""
+        },
+        "template_required_inputs": [
+            "project"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_project",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248629.423388,
+        "end": 1711248637.08785,
+        "duration": 7.664474010467529,
+        "service": "evidently",
+        "type": null
+    }
+}

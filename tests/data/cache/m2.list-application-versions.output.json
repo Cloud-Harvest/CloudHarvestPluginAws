@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "applicationId": "",
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [
+            "applicationId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_application_versions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249610.398911,
+        "end": 1711249616.683515,
+        "duration": 6.284616947174072,
+        "service": "m2",
+        "type": "application_versions"
+    }
+}

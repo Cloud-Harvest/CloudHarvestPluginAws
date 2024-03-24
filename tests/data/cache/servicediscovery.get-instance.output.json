@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "ServiceId": "",
+            "InstanceId": ""
+        },
+        "template_required_inputs": [
+            "ServiceId",
+            "InstanceId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_instance",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250101.403299,
+        "end": 1711250107.539936,
+        "duration": 6.136645793914795,
+        "service": "servicediscovery",
+        "type": null
+    }
+}

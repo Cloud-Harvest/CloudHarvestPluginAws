@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "applicationId": "",
+            "taskId": ""
+        },
+        "template_required_inputs": [
+            "applicationId",
+            "taskId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_data_set_import_task",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249607.345849,
+        "end": 1711249613.112525,
+        "duration": 5.766700029373169,
+        "service": "m2",
+        "type": null
+    }
+}

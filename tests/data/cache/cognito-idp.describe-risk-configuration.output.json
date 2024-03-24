@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "UserPoolId": "",
+            "ClientId": ""
+        },
+        "template_required_inputs": [
+            "UserPoolId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_risk_configuration",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248203.522169,
+        "end": 1711248210.142943,
+        "duration": 6.620820999145508,
+        "service": "cognito-idp",
+        "type": "risk_configuration"
+    }
+}

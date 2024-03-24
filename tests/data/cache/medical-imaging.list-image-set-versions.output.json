@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "datastoreId": "",
+            "imageSetId": "",
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "template_required_inputs": [
+            "datastoreId",
+            "imageSetId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_image_set_versions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249666.757461,
+        "end": 1711249672.645797,
+        "duration": 5.888350009918213,
+        "service": "medical-imaging",
+        "type": "image_set_versions"
+    }
+}

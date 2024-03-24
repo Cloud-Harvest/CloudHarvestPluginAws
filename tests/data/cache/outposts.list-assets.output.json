@@ -1,0 +1,33 @@
+{
+    "input": {
+        "template": {
+            "OutpostIdentifier": "",
+            "HostIdFilter": [
+                ""
+            ],
+            "MaxResults": 0,
+            "NextToken": "",
+            "StatusFilter": [
+                "ACTIVE"
+            ]
+        },
+        "template_required_inputs": [
+            "OutpostIdentifier"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_assets",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249786.643163,
+        "end": 1711249792.515642,
+        "duration": 5.872489929199219,
+        "service": "outposts",
+        "type": "assets"
+    }
+}

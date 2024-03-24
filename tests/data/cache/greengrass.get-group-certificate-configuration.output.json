@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "GroupId": ""
+        },
+        "template_required_inputs": [
+            "GroupId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_group_certificate_configuration",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248750.704434,
+        "end": 1711248756.868915,
+        "duration": 6.164492130279541,
+        "service": "greengrass",
+        "type": null
+    }
+}

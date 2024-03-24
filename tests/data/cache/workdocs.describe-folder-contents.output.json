@@ -1,0 +1,32 @@
+{
+    "input": {
+        "template": {
+            "AuthenticationToken": "",
+            "FolderId": "",
+            "Sort": "DATE",
+            "Order": "ASCENDING",
+            "Limit": 0,
+            "Marker": "",
+            "Type": "ALL",
+            "Include": ""
+        },
+        "template_required_inputs": [
+            "FolderId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_folder_contents",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250338.004097,
+        "end": 1711250345.026803,
+        "duration": 7.022722959518433,
+        "service": "workdocs",
+        "type": "folder_contents"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "SerialNumber": "",
+            "UserName": ""
+        },
+        "template_required_inputs": [
+            "SerialNumber"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_mfa_device",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248841.985437,
+        "end": 1711248848.775504,
+        "duration": 6.790075063705444,
+        "service": "iam",
+        "type": null
+    }
+}

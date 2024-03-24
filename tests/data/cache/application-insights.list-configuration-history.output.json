@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "ResourceGroupName": "",
+            "StartTime": "1970-01-01T00:00:00",
+            "EndTime": "1970-01-01T00:00:00",
+            "EventStatus": "INFO",
+            "MaxResults": 0,
+            "NextToken": "",
+            "AccountId": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_configuration_history",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247804.051272,
+        "end": 1711247817.221451,
+        "duration": 13.170188188552856,
+        "service": "application-insights",
+        "type": "configuration_history"
+    }
+}

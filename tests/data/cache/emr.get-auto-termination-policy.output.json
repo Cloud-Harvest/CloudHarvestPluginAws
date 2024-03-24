@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "ClusterId": ""
+        },
+        "template_required_inputs": [
+            "ClusterId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_auto_termination_policy",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248592.79959,
+        "end": 1711248600.362319,
+        "duration": 7.562736988067627,
+        "service": "emr",
+        "type": null
+    }
+}

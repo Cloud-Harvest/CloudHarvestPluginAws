@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "PageId": ""
+        },
+        "template_required_inputs": [
+            "PageId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_page_resolutions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250164.234096,
+        "end": 1711250169.253408,
+        "duration": 5.0193259716033936,
+        "service": "ssm-contacts",
+        "type": "page_resolutions"
+    }
+}

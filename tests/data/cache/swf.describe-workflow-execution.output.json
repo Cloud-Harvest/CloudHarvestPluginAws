@@ -1,0 +1,30 @@
+{
+    "input": {
+        "template": {
+            "domain": "",
+            "execution": {
+                "workflowId": "",
+                "runId": ""
+            }
+        },
+        "template_required_inputs": [
+            "domain",
+            "execution"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_workflow_execution",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250219.409679,
+        "end": 1711250225.712299,
+        "duration": 6.302639007568359,
+        "service": "swf",
+        "type": "workflow_execution"
+    }
+}

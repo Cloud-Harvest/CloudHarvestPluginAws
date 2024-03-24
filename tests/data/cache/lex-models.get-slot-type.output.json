@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "name": "",
+            "version": ""
+        },
+        "template_required_inputs": [
+            "name"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_slot_type",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249252.790008,
+        "end": 1711249259.062502,
+        "duration": 6.272505044937134,
+        "service": "lex-models",
+        "type": null
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "input": {
+        "template": {
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_microsoft_teams_configured_teams",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247969.740286,
+        "end": 1711247986.790809,
+        "duration": 17.050532817840576,
+        "service": "chatbot",
+        "type": "microsoft_teams_configured_teams"
+    }
+}

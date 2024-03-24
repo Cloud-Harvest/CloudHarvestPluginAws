@@ -1,0 +1,30 @@
+{
+    "input": {
+        "template": {
+            "CatalogId": "",
+            "DatabaseName": "",
+            "Name": "",
+            "TransactionId": "",
+            "QueryAsOfTime": "1970-01-01T00:00:00"
+        },
+        "template_required_inputs": [
+            "DatabaseName",
+            "Name"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_table",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248730.436456,
+        "end": 1711248737.33898,
+        "duration": 6.902536153793335,
+        "service": "glue",
+        "type": null
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "accountId": "",
+            "vaultName": ""
+        },
+        "template_required_inputs": [
+            "accountId",
+            "vaultName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_vault_notifications",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248699.983225,
+        "end": 1711248706.644084,
+        "duration": 6.660868883132935,
+        "service": "glacier",
+        "type": null
+    }
+}

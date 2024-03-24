@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "resourceARN": ""
+        },
+        "template_required_inputs": [
+            "resourceARN"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_tags_for_resource",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249863.633733,
+        "end": 1711249869.791332,
+        "duration": 6.1576149463653564,
+        "service": "qbusiness",
+        "type": "tags_for_resource"
+    }
+}

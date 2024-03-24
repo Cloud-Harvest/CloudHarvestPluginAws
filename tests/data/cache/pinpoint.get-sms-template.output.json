@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "TemplateName": "",
+            "Version": ""
+        },
+        "template_required_inputs": [
+            "TemplateName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_sms_template",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249825.200843,
+        "end": 1711249831.48882,
+        "duration": 6.287986993789673,
+        "service": "pinpoint",
+        "type": null
+    }
+}

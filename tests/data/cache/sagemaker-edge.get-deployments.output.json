@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "DeviceName": "",
+            "DeviceFleetName": ""
+        },
+        "template_required_inputs": [
+            "DeviceName",
+            "DeviceFleetName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_deployments",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250063.434278,
+        "end": 1711250069.65678,
+        "duration": 6.222521066665649,
+        "service": "sagemaker-edge",
+        "type": null
+    }
+}

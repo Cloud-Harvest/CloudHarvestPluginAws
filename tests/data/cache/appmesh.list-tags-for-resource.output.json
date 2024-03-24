@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "limit": 0,
+            "nextToken": "",
+            "resourceArn": ""
+        },
+        "template_required_inputs": [
+            "resourceArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_tags_for_resource",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247813.169511,
+        "end": 1711247821.934284,
+        "duration": 8.76478385925293,
+        "service": "appmesh",
+        "type": "tags_for_resource"
+    }
+}

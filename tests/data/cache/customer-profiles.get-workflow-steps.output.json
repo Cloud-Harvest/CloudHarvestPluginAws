@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "DomainName": "",
+            "WorkflowId": "",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "DomainName",
+            "WorkflowId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_workflow_steps",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248339.098469,
+        "end": 1711248346.002982,
+        "duration": 6.904527902603149,
+        "service": "customer-profiles",
+        "type": null
+    }
+}

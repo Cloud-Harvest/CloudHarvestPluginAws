@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "resourceArn": "",
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "template_required_inputs": [
+            "resourceArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_tags_for_resource",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248176.599914,
+        "end": 1711248194.901407,
+        "duration": 18.301512002944946,
+        "service": "codepipeline",
+        "type": "tags_for_resource"
+    }
+}

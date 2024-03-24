@@ -1,0 +1,45 @@
+{
+    "input": {
+        "template": {
+            "DetectorId": "",
+            "UsageStatisticType": "SUM_BY_ACCOUNT",
+            "UsageCriteria": {
+                "AccountIds": [
+                    ""
+                ],
+                "DataSources": [
+                    "FLOW_LOGS"
+                ],
+                "Resources": [
+                    ""
+                ],
+                "Features": [
+                    "FLOW_LOGS"
+                ]
+            },
+            "Unit": "",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "DetectorId",
+            "UsageStatisticType",
+            "UsageCriteria"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_usage_statistics",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248813.509293,
+        "end": 1711248827.860569,
+        "duration": 14.351287841796875,
+        "service": "guardduty",
+        "type": null
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "browserSettingsArn": ""
+        },
+        "template_required_inputs": [
+            "browserSettingsArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_browser_settings",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250371.922869,
+        "end": 1711250378.626377,
+        "duration": 6.703516006469727,
+        "service": "workspaces-web",
+        "type": null
+    }
+}

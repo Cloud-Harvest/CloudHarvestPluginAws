@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "domain": "",
+            "domainOwner": ""
+        },
+        "template_required_inputs": [
+            "domain"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_domain",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248134.092084,
+        "end": 1711248140.179523,
+        "duration": 6.087457180023193,
+        "service": "codeartifact",
+        "type": "domain"
+    }
+}

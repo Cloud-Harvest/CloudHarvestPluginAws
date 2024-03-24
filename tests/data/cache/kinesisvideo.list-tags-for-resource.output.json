@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "ResourceARN": ""
+        },
+        "template_required_inputs": [
+            "ResourceARN"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_tags_for_resource",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249208.58338,
+        "end": 1711249213.888519,
+        "duration": 5.305154085159302,
+        "service": "kinesisvideo",
+        "type": "tags_for_resource"
+    }
+}

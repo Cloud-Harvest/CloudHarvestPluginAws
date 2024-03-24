@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "DistributionId": "",
+            "Alias": "",
+            "Marker": "",
+            "MaxItems": 0
+        },
+        "template_required_inputs": [
+            "DistributionId",
+            "Alias"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_conflicting_aliases",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248105.525125,
+        "end": 1711248112.532145,
+        "duration": 7.007030963897705,
+        "service": "cloudfront",
+        "type": "conflicting_aliases"
+    }
+}

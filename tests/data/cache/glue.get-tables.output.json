@@ -1,0 +1,31 @@
+{
+    "input": {
+        "template": {
+            "CatalogId": "",
+            "DatabaseName": "",
+            "Expression": "",
+            "NextToken": "",
+            "MaxResults": 0,
+            "TransactionId": "",
+            "QueryAsOfTime": "1970-01-01T00:00:00"
+        },
+        "template_required_inputs": [
+            "DatabaseName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_tables",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248731.789102,
+        "end": 1711248739.58872,
+        "duration": 7.799625873565674,
+        "service": "glue",
+        "type": null
+    }
+}

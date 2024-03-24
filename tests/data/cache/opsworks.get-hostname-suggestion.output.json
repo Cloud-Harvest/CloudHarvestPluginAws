@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "LayerId": ""
+        },
+        "template_required_inputs": [
+            "LayerId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_hostname_suggestion",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249771.490949,
+        "end": 1711249777.329748,
+        "duration": 5.838809967041016,
+        "service": "opsworks",
+        "type": null
+    }
+}

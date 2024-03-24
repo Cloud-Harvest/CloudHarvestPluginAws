@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "PredictorArn": ""
+        },
+        "template_required_inputs": [
+            "PredictorArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_predictor",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248660.485583,
+        "end": 1711248668.363752,
+        "duration": 7.8781819343566895,
+        "service": "forecast",
+        "type": "predictor"
+    }
+}

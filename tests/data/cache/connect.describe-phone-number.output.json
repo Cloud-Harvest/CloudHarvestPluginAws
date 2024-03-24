@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "PhoneNumberId": ""
+        },
+        "template_required_inputs": [
+            "PhoneNumberId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_phone_number",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248271.688132,
+        "end": 1711248279.350221,
+        "duration": 7.6620988845825195,
+        "service": "connect",
+        "type": "phone_number"
+    }
+}

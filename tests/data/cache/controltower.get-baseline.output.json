@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "baselineIdentifier": ""
+        },
+        "template_required_inputs": [
+            "baselineIdentifier"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_baseline",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248326.1237,
+        "end": 1711248332.995587,
+        "duration": 6.871899127960205,
+        "service": "controltower",
+        "type": null
+    }
+}

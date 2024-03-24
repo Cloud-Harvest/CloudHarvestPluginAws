@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "WorkGroup": "",
+            "StateFilter": "CREATING",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "WorkGroup"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_sessions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247865.653603,
+        "end": 1711247870.929142,
+        "duration": 5.275566816329956,
+        "service": "athena",
+        "type": "sessions"
+    }
+}

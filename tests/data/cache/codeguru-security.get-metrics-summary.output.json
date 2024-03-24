@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "date": "1970-01-01T00:00:00"
+        },
+        "template_required_inputs": [
+            "date"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_metrics_summary",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248167.323683,
+        "end": 1711248175.099764,
+        "duration": 7.776097059249878,
+        "service": "codeguru-security",
+        "type": null
+    }
+}

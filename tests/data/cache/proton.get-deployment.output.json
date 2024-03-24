@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "componentName": "",
+            "environmentName": "",
+            "id": "",
+            "serviceInstanceName": "",
+            "serviceName": ""
+        },
+        "template_required_inputs": [
+            "id"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_deployment",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249845.346525,
+        "end": 1711249850.950289,
+        "duration": 5.603778123855591,
+        "service": "proton",
+        "type": null
+    }
+}

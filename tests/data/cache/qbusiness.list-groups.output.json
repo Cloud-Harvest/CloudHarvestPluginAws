@@ -1,0 +1,32 @@
+{
+    "input": {
+        "template": {
+            "applicationId": "",
+            "dataSourceId": "",
+            "indexId": "",
+            "maxResults": 0,
+            "nextToken": "",
+            "updatedEarlierThan": "1970-01-01T00:00:00"
+        },
+        "template_required_inputs": [
+            "applicationId",
+            "indexId",
+            "updatedEarlierThan"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_groups",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249863.594406,
+        "end": 1711249869.808952,
+        "duration": 6.214611053466797,
+        "service": "qbusiness",
+        "type": "groups"
+    }
+}

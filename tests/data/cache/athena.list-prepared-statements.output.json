@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "WorkGroup": "",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "WorkGroup"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_prepared_statements",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247865.064104,
+        "end": 1711247869.976809,
+        "duration": 4.912729978561401,
+        "service": "athena",
+        "type": "prepared_statements"
+    }
+}

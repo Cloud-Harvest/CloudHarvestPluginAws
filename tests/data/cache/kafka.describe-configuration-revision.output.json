@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "Arn": "",
+            "Revision": 0
+        },
+        "template_required_inputs": [
+            "Arn",
+            "Revision"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_configuration_revision",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249039.932721,
+        "end": 1711249179.589789,
+        "duration": 139.65707898139954,
+        "service": "kafka",
+        "type": "configuration_revision"
+    }
+}

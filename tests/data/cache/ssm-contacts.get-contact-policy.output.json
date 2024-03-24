@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "ContactArn": ""
+        },
+        "template_required_inputs": [
+            "ContactArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_contact_policy",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250160.894408,
+        "end": 1711250167.166203,
+        "duration": 6.271810054779053,
+        "service": "ssm-contacts",
+        "type": null
+    }
+}

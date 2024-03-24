@@ -1,0 +1,21 @@
+{
+    "input": {
+        "template": {},
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "get_sol_network_package_content",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250241.976124,
+        "end": 1711250249.233061,
+        "duration": 7.256950855255127,
+        "service": "tnb",
+        "type": null
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "AcceptLanguage": "",
+            "Id": ""
+        },
+        "template_required_inputs": [
+            "Id"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_product_view",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250089.398523,
+        "end": 1711250096.183331,
+        "duration": 6.784818887710571,
+        "service": "servicecatalog",
+        "type": "product_view"
+    }
+}

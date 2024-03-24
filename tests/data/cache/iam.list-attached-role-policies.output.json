@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "RoleName": "",
+            "PathPrefix": "",
+            "Marker": "",
+            "MaxItems": 0
+        },
+        "template_required_inputs": [
+            "RoleName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_attached_role_policies",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248852.032969,
+        "end": 1711248857.038544,
+        "duration": 5.005584955215454,
+        "service": "iam",
+        "type": "attached_role_policies"
+    }
+}

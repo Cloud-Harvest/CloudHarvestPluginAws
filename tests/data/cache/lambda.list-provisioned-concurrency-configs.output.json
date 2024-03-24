@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "FunctionName": "",
+            "Marker": "",
+            "MaxItems": 0
+        },
+        "template_required_inputs": [
+            "FunctionName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_provisioned_concurrency_configs",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249239.172478,
+        "end": 1711249249.489438,
+        "duration": 10.316971063613892,
+        "service": "lambda",
+        "type": "provisioned_concurrency_configs"
+    }
+}

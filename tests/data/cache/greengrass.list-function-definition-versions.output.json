@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "FunctionDefinitionId": "",
+            "MaxResults": "",
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "FunctionDefinitionId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_function_definition_versions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248755.615199,
+        "end": 1711248798.272364,
+        "duration": 42.657174825668335,
+        "service": "greengrass",
+        "type": "function_definition_versions"
+    }
+}

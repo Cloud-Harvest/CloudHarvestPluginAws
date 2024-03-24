@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "CommandId": "",
+            "InstanceId": "",
+            "PluginName": ""
+        },
+        "template_required_inputs": [
+            "CommandId",
+            "InstanceId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_command_invocation",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250147.019495,
+        "end": 1711250153.081696,
+        "duration": 6.062212944030762,
+        "service": "ssm",
+        "type": null
+    }
+}

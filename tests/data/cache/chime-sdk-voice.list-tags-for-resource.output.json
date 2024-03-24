@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "ResourceARN": ""
+        },
+        "template_required_inputs": [
+            "ResourceARN"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_tags_for_resource",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248029.04373,
+        "end": 1711248034.964469,
+        "duration": 5.920762062072754,
+        "service": "chime-sdk-voice",
+        "type": "tags_for_resource"
+    }
+}

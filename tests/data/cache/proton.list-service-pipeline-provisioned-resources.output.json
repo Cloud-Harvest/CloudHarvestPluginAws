@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "nextToken": "",
+            "serviceName": ""
+        },
+        "template_required_inputs": [
+            "serviceName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_service_pipeline_provisioned_resources",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249857.084371,
+        "end": 1711249863.632265,
+        "duration": 6.5479209423065186,
+        "service": "proton",
+        "type": "service_pipeline_provisioned_resources"
+    }
+}

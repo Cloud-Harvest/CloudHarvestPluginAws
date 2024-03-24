@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "DomainName": "",
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "DomainName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_vpc_endpoints_for_domain",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248617.652675,
+        "end": 1711248627.56462,
+        "duration": 9.911954164505005,
+        "service": "es",
+        "type": "vpc_endpoints_for_domain"
+    }
+}

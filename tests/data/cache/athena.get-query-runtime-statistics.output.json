@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "QueryExecutionId": ""
+        },
+        "template_required_inputs": [
+            "QueryExecutionId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_query_runtime_statistics",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247853.134486,
+        "end": 1711247868.005758,
+        "duration": 14.871281147003174,
+        "service": "athena",
+        "type": null
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "GatewayARN": ""
+        },
+        "template_required_inputs": [
+            "GatewayARN"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_gateway_information",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250204.220723,
+        "end": 1711250210.719635,
+        "duration": 6.498931169509888,
+        "service": "storagegateway",
+        "type": "gateway_information"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "AccountId": "",
+            "Name": ""
+        },
+        "template_required_inputs": [
+            "AccountId",
+            "Name"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_multi_region_access_point",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250016.462162,
+        "end": 1711250023.15731,
+        "duration": 6.695159912109375,
+        "service": "s3control",
+        "type": null
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "workspaceId": "",
+            "componentTypeId": ""
+        },
+        "template_required_inputs": [
+            "workspaceId",
+            "componentTypeId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_component_type",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248998.204062,
+        "end": 1711249004.053794,
+        "duration": 5.849745988845825,
+        "service": "iottwinmaker",
+        "type": null
+    }
+}

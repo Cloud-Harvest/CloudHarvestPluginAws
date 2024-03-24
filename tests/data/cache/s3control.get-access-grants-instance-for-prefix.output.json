@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "AccountId": "",
+            "S3Prefix": ""
+        },
+        "template_required_inputs": [
+            "AccountId",
+            "S3Prefix"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_access_grants_instance_for_prefix",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250009.125222,
+        "end": 1711250015.428968,
+        "duration": 6.303763151168823,
+        "service": "s3control",
+        "type": null
+    }
+}

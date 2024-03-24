@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "accountId": ""
+        },
+        "template_required_inputs": [
+            "accountId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_provisioned_capacity",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248702.171481,
+        "end": 1711248707.781942,
+        "duration": 5.6104700565338135,
+        "service": "glacier",
+        "type": "provisioned_capacity"
+    }
+}

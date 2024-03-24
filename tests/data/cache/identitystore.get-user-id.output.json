@@ -1,0 +1,36 @@
+{
+    "input": {
+        "template": {
+            "IdentityStoreId": "",
+            "AlternateIdentifier": {
+                "ExternalId": {
+                    "Issuer": "",
+                    "Id": ""
+                },
+                "UniqueAttribute": {
+                    "AttributePath": "",
+                    "AttributeValue": {}
+                }
+            }
+        },
+        "template_required_inputs": [
+            "IdentityStoreId",
+            "AlternateIdentifier"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_user_id",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248867.165716,
+        "end": 1711248873.06571,
+        "duration": 5.900006055831909,
+        "service": "identitystore",
+        "type": null
+    }
+}

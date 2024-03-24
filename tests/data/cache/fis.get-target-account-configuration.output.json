@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "experimentTemplateId": "",
+            "accountId": ""
+        },
+        "template_required_inputs": [
+            "experimentTemplateId",
+            "accountId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_target_account_configuration",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248644.995178,
+        "end": 1711248652.612195,
+        "duration": 7.617058992385864,
+        "service": "fis",
+        "type": null
+    }
+}

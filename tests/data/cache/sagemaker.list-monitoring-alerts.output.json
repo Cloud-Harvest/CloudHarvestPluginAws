@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "MonitoringScheduleName": "",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "MonitoringScheduleName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_monitoring_alerts",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250061.403036,
+        "end": 1711250067.580396,
+        "duration": 6.177373886108398,
+        "service": "sagemaker",
+        "type": "monitoring_alerts"
+    }
+}

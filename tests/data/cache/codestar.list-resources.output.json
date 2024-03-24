@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "projectId": "",
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "template_required_inputs": [
+            "projectId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_resources",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248179.728465,
+        "end": 1711248196.985734,
+        "duration": 17.257280826568604,
+        "service": "codestar",
+        "type": "resources"
+    }
+}

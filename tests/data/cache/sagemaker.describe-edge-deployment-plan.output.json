@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "EdgeDeploymentPlanName": "",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "EdgeDeploymentPlanName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_edge_deployment_plan",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250029.849765,
+        "end": 1711250036.35573,
+        "duration": 6.5059778690338135,
+        "service": "sagemaker",
+        "type": "edge_deployment_plan"
+    }
+}

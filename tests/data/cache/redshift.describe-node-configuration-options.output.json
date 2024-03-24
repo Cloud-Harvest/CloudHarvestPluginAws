@@ -1,0 +1,40 @@
+{
+    "input": {
+        "template": {
+            "ActionType": "restore-cluster",
+            "ClusterIdentifier": "",
+            "SnapshotIdentifier": "",
+            "SnapshotArn": "",
+            "OwnerAccount": "",
+            "Filters": [
+                {
+                    "Name": "NodeType",
+                    "Operator": "eq",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "Marker": "",
+            "MaxRecords": 0
+        },
+        "template_required_inputs": [
+            "ActionType"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_node_configuration_options",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249921.500399,
+        "end": 1711249927.665726,
+        "duration": 6.1653618812561035,
+        "service": "redshift",
+        "type": "node_configuration_options"
+    }
+}

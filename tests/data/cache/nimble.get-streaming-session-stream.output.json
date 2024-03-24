@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "sessionId": "",
+            "streamId": "",
+            "studioId": ""
+        },
+        "template_required_inputs": [
+            "sessionId",
+            "streamId",
+            "studioId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_streaming_session_stream",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249730.618453,
+        "end": 1711249736.920745,
+        "duration": 6.302311897277832,
+        "service": "nimble",
+        "type": null
+    }
+}

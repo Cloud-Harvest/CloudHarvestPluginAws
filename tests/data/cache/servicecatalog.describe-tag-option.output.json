@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "Id": ""
+        },
+        "template_required_inputs": [
+            "Id"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_tag_option",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250089.499177,
+        "end": 1711250096.246928,
+        "duration": 6.74776291847229,
+        "service": "servicecatalog",
+        "type": "tag_option"
+    }
+}

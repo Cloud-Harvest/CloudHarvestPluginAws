@@ -1,0 +1,38 @@
+{
+    "input": {
+        "template": {
+            "CatalogId": "",
+            "DatabaseName": "",
+            "TableName": "",
+            "Expression": "",
+            "NextToken": "",
+            "Segment": {
+                "SegmentNumber": 0,
+                "TotalSegments": 0
+            },
+            "MaxResults": 0,
+            "ExcludeColumnSchema": true,
+            "TransactionId": "",
+            "QueryAsOfTime": "1970-01-01T00:00:00"
+        },
+        "template_required_inputs": [
+            "DatabaseName",
+            "TableName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_partitions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248724.537453,
+        "end": 1711248732.169927,
+        "duration": 7.6324851512908936,
+        "service": "glue",
+        "type": null
+    }
+}

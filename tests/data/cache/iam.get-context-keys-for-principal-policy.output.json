@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "PolicySourceArn": "",
+            "PolicyInputList": [
+                ""
+            ]
+        },
+        "template_required_inputs": [
+            "PolicySourceArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_context_keys_for_principal_policy",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248839.606909,
+        "end": 1711248845.236121,
+        "duration": 5.62923002243042,
+        "service": "iam",
+        "type": null
+    }
+}

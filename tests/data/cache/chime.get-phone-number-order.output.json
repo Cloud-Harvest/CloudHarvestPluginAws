@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "PhoneNumberOrderId": ""
+        },
+        "template_required_inputs": [
+            "PhoneNumberOrderId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_phone_number_order",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247974.925866,
+        "end": 1711247987.987205,
+        "duration": 13.061361074447632,
+        "service": "chime",
+        "type": null
+    }
+}

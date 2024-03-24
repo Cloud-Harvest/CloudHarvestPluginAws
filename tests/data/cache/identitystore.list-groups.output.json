@@ -1,0 +1,33 @@
+{
+    "input": {
+        "template": {
+            "IdentityStoreId": "",
+            "MaxResults": 0,
+            "NextToken": "",
+            "Filters": [
+                {
+                    "AttributePath": "",
+                    "AttributeValue": ""
+                }
+            ]
+        },
+        "template_required_inputs": [
+            "IdentityStoreId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_groups",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248868.124541,
+        "end": 1711248876.825879,
+        "duration": 8.701345920562744,
+        "service": "identitystore",
+        "type": "groups"
+    }
+}

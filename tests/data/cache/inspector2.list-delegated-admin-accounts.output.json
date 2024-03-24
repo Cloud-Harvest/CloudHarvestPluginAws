@@ -1,0 +1,24 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_delegated_admin_accounts",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248895.854921,
+        "end": 1711248908.175917,
+        "duration": 12.32100796699524,
+        "service": "inspector2",
+        "type": "delegated_admin_accounts"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "DomainNames": [
+                ""
+            ]
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "describe_domains",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248113.760729,
+        "end": 1711248125.761293,
+        "duration": 12.000576972961426,
+        "service": "cloudsearch",
+        "type": "domains"
+    }
+}

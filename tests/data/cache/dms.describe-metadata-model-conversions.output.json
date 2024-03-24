@@ -1,0 +1,35 @@
+{
+    "input": {
+        "template": {
+            "MigrationProjectIdentifier": "",
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "Marker": "",
+            "MaxRecords": 0
+        },
+        "template_required_inputs": [
+            "MigrationProjectIdentifier"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_metadata_model_conversions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248455.812119,
+        "end": 1711248465.359471,
+        "duration": 9.547360897064209,
+        "service": "dms",
+        "type": "metadata_model_conversions"
+    }
+}

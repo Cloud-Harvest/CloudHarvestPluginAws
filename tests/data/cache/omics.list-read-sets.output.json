@@ -1,0 +1,38 @@
+{
+    "input": {
+        "template": {
+            "sequenceStoreId": "",
+            "maxResults": 0,
+            "nextToken": "",
+            "filter": {
+                "name": "",
+                "status": "ARCHIVED",
+                "referenceArn": "",
+                "createdAfter": "1970-01-01T00:00:00",
+                "createdBefore": "1970-01-01T00:00:00",
+                "sampleId": "",
+                "subjectId": "",
+                "generatedFrom": "",
+                "creationType": "IMPORT"
+            }
+        },
+        "template_required_inputs": [
+            "sequenceStoreId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_read_sets",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249749.999738,
+        "end": 1711249756.177316,
+        "duration": 6.177596092224121,
+        "service": "omics",
+        "type": "read_sets"
+    }
+}

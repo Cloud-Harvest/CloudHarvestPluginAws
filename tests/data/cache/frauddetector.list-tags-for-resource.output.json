@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "resourceARN": "",
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "template_required_inputs": [
+            "resourceARN"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_tags_for_resource",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248675.486038,
+        "end": 1711248680.172792,
+        "duration": 4.6867640018463135,
+        "service": "frauddetector",
+        "type": "tags_for_resource"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "WorkloadNamePrefix": "",
+            "LensNamePrefix": "",
+            "ShareResourceType": "WORKLOAD",
+            "NextToken": "",
+            "MaxResults": 0,
+            "ProfileNamePrefix": "",
+            "TemplateNamePrefix": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_share_invitations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250324.951197,
+        "end": 1711250331.706487,
+        "duration": 6.755308151245117,
+        "service": "wellarchitected",
+        "type": "share_invitations"
+    }
+}

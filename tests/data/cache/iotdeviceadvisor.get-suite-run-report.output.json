@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "suiteDefinitionId": "",
+            "suiteRunId": ""
+        },
+        "template_required_inputs": [
+            "suiteDefinitionId",
+            "suiteRunId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_suite_run_report",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248957.019522,
+        "end": 1711248967.969281,
+        "duration": 10.94976806640625,
+        "service": "iotdeviceadvisor",
+        "type": null
+    }
+}

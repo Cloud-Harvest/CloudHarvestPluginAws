@@ -1,0 +1,30 @@
+{
+    "input": {
+        "template": {
+            "ids": [
+                ""
+            ],
+            "maxResults": 0,
+            "nextToken": "",
+            "filter": {
+                "status": "CREATING"
+            }
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_annotation_stores",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249746.665141,
+        "end": 1711249755.118491,
+        "duration": 8.453359842300415,
+        "service": "omics",
+        "type": "annotation_stores"
+    }
+}

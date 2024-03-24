@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "environmentId": "",
+            "clusterType": "HDB",
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [
+            "environmentId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_kx_clusters",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248637.397593,
+        "end": 1711248645.387263,
+        "duration": 7.989675998687744,
+        "service": "finspace",
+        "type": "kx_clusters"
+    }
+}

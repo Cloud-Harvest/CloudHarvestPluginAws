@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "botId": "",
+            "botVersion": "",
+            "localeId": ""
+        },
+        "template_required_inputs": [
+            "botId",
+            "botVersion",
+            "localeId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_custom_vocabulary_metadata",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249257.346353,
+        "end": 1711249267.143036,
+        "duration": 9.79671597480774,
+        "service": "lexv2-models",
+        "type": "custom_vocabulary_metadata"
+    }
+}

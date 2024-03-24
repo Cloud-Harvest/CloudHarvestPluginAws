@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "WorkforceName": ""
+        },
+        "template_required_inputs": [
+            "WorkforceName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_workforce",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250049.170579,
+        "end": 1711250055.273221,
+        "duration": 6.102663993835449,
+        "service": "sagemaker",
+        "type": "workforce"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "listenerIdentifier": "",
+            "maxResults": 0,
+            "nextToken": "",
+            "serviceIdentifier": ""
+        },
+        "template_required_inputs": [
+            "listenerIdentifier",
+            "serviceIdentifier"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_rules",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250277.000057,
+        "end": 1711250283.15166,
+        "duration": 6.151623010635376,
+        "service": "vpc-lattice",
+        "type": "rules"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "knowledgeBaseId": "",
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [
+            "knowledgeBaseId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_import_jobs",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249869.814615,
+        "end": 1711249875.801557,
+        "duration": 5.986955881118774,
+        "service": "qconnect",
+        "type": "import_jobs"
+    }
+}

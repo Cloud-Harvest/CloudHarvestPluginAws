@@ -1,0 +1,30 @@
+{
+    "input": {
+        "template": {
+            "HyperParameterTuningJobName": "",
+            "NextToken": "",
+            "MaxResults": 0,
+            "StatusEquals": "InProgress",
+            "SortBy": "Name",
+            "SortOrder": "Ascending"
+        },
+        "template_required_inputs": [
+            "HyperParameterTuningJobName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_training_jobs_for_hyper_parameter_tuning_job",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250063.404413,
+        "end": 1711250069.691565,
+        "duration": 6.287171125411987,
+        "service": "sagemaker",
+        "type": "training_jobs_for_hyper_parameter_tuning_job"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "input": {
+        "template": {
+            "category": "Source",
+            "owner": "",
+            "provider": "",
+            "version": ""
+        },
+        "template_required_inputs": [
+            "category",
+            "owner",
+            "provider"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_action_type",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248172.532334,
+        "end": 1711248179.81186,
+        "duration": 7.2795398235321045,
+        "service": "codepipeline",
+        "type": null
+    }
+}

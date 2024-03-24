@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "applicationId": ""
+        },
+        "template_required_inputs": [
+            "applicationId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_application",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249605.267344,
+        "end": 1711249611.537944,
+        "duration": 6.270620107650757,
+        "service": "m2",
+        "type": null
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "ResourceIdentifier": "",
+            "ExtensionIdentifier": "",
+            "ExtensionVersionNumber": 0,
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_extension_associations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247778.351338,
+        "end": 1711247787.596512,
+        "duration": 9.245187997817993,
+        "service": "appconfig",
+        "type": "extension_associations"
+    }
+}

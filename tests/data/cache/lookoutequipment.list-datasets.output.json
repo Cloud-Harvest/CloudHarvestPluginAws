@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0,
+            "DatasetNameBeginsWith": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_datasets",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249484.690204,
+        "end": 1711249492.020232,
+        "duration": 7.3300440311431885,
+        "service": "lookoutequipment",
+        "type": "datasets"
+    }
+}

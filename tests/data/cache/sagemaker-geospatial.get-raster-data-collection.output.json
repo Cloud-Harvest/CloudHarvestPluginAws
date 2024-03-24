@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "Arn": ""
+        },
+        "template_required_inputs": [
+            "Arn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_raster_data_collection",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250067.514491,
+        "end": 1711250072.860123,
+        "duration": 5.345649003982544,
+        "service": "sagemaker-geospatial",
+        "type": null
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "TypeName": "",
+            "TypeVersionId": "",
+            "RoleArn": "",
+            "Identifier": ""
+        },
+        "template_required_inputs": [
+            "TypeName",
+            "Identifier"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_resource",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248051.755086,
+        "end": 1711248058.490512,
+        "duration": 6.735440969467163,
+        "service": "cloudcontrol",
+        "type": null
+    }
+}

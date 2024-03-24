@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "CacheParameterGroupName": "",
+            "Source": "",
+            "MaxRecords": 0,
+            "Marker": ""
+        },
+        "template_required_inputs": [
+            "CacheParameterGroupName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_cache_parameters",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248557.869131,
+        "end": 1711248586.507177,
+        "duration": 28.638059854507446,
+        "service": "elasticache",
+        "type": "cache_parameters"
+    }
+}

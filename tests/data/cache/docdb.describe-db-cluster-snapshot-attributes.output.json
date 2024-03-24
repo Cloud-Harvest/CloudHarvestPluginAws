@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "DBClusterSnapshotIdentifier": ""
+        },
+        "template_required_inputs": [
+            "DBClusterSnapshotIdentifier"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_db_cluster_snapshot_attributes",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248461.849506,
+        "end": 1711248468.724321,
+        "duration": 6.874823093414307,
+        "service": "docdb",
+        "type": "db_cluster_snapshot_attributes"
+    }
+}

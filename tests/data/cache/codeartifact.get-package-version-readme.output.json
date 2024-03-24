@@ -1,0 +1,35 @@
+{
+    "input": {
+        "template": {
+            "domain": "",
+            "domainOwner": "",
+            "repository": "",
+            "format": "npm",
+            "namespace": "",
+            "package": "",
+            "packageVersion": ""
+        },
+        "template_required_inputs": [
+            "domain",
+            "repository",
+            "format",
+            "package",
+            "packageVersion"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_package_version_readme",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248135.502249,
+        "end": 1711248142.665221,
+        "duration": 7.16299295425415,
+        "service": "codeartifact",
+        "type": null
+    }
+}

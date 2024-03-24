@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "DomainName": "",
+            "ChangeId": ""
+        },
+        "template_required_inputs": [
+            "DomainName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_domain_change_progress",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249755.120623,
+        "end": 1711249761.332194,
+        "duration": 6.211582899093628,
+        "service": "opensearch",
+        "type": "domain_change_progress"
+    }
+}

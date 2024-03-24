@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "JobId": "",
+            "MaxItems": 0,
+            "Marker": ""
+        },
+        "template_required_inputs": [
+            "JobId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_service_last_accessed_details",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248844.458596,
+        "end": 1711248855.14528,
+        "duration": 10.686692953109741,
+        "service": "iam",
+        "type": null
+    }
+}

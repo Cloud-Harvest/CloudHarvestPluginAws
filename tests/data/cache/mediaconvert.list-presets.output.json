@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "Category": "",
+            "ListBy": "NAME",
+            "MaxResults": 0,
+            "NextToken": "",
+            "Order": "ASCENDING"
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_presets",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249636.188715,
+        "end": 1711249644.989497,
+        "duration": 8.800806045532227,
+        "service": "mediaconvert",
+        "type": "presets"
+    }
+}

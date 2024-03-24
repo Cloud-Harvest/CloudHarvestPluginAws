@@ -1,0 +1,36 @@
+{
+    "input": {
+        "template": {
+            "ClientVpnEndpointId": "",
+            "Filters": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "MaxResults": 0,
+            "NextToken": "",
+            "DryRun": true
+        },
+        "template_required_inputs": [
+            "ClientVpnEndpointId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_client_vpn_routes",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248493.243343,
+        "end": 1711248500.231291,
+        "duration": 6.987962961196899,
+        "service": "ec2",
+        "type": "client_vpn_routes"
+    }
+}

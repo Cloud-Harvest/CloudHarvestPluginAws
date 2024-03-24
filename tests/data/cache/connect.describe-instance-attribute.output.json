@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "InstanceId": "",
+            "AttributeType": "INBOUND_CALLS"
+        },
+        "template_required_inputs": [
+            "InstanceId",
+            "AttributeType"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_instance_attribute",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248267.468798,
+        "end": 1711248277.49937,
+        "duration": 10.030580997467041,
+        "service": "connect",
+        "type": "instance_attribute"
+    }
+}

@@ -1,0 +1,112 @@
+{
+    "input": {
+        "template": {
+            "filterCriteria": {
+                "accountId": [
+                    {
+                        "comparison": "EQUALS",
+                        "value": ""
+                    }
+                ],
+                "ec2InstanceTags": [
+                    {
+                        "comparison": "EQUALS",
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "ecrImageTags": [
+                    {
+                        "comparison": "EQUALS",
+                        "value": ""
+                    }
+                ],
+                "ecrRepositoryName": [
+                    {
+                        "comparison": "EQUALS",
+                        "value": ""
+                    }
+                ],
+                "imagePulledAt": [
+                    {
+                        "endInclusive": "1970-01-01T00:00:00",
+                        "startInclusive": "1970-01-01T00:00:00"
+                    }
+                ],
+                "lambdaFunctionName": [
+                    {
+                        "comparison": "EQUALS",
+                        "value": ""
+                    }
+                ],
+                "lambdaFunctionRuntime": [
+                    {
+                        "comparison": "EQUALS",
+                        "value": ""
+                    }
+                ],
+                "lambdaFunctionTags": [
+                    {
+                        "comparison": "EQUALS",
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "lastScannedAt": [
+                    {
+                        "endInclusive": "1970-01-01T00:00:00",
+                        "startInclusive": "1970-01-01T00:00:00"
+                    }
+                ],
+                "resourceId": [
+                    {
+                        "comparison": "EQUALS",
+                        "value": ""
+                    }
+                ],
+                "resourceType": [
+                    {
+                        "comparison": "EQUALS",
+                        "value": ""
+                    }
+                ],
+                "scanStatusCode": [
+                    {
+                        "comparison": "EQUALS",
+                        "value": ""
+                    }
+                ],
+                "scanStatusReason": [
+                    {
+                        "comparison": "EQUALS",
+                        "value": ""
+                    }
+                ],
+                "scanType": [
+                    {
+                        "comparison": "EQUALS",
+                        "value": ""
+                    }
+                ]
+            },
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_coverage",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248895.781879,
+        "end": 1711248908.442612,
+        "duration": 12.660758018493652,
+        "service": "inspector2",
+        "type": "coverage"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "loadId": "",
+            "details": true,
+            "errors": true,
+            "page": 0,
+            "errorsPerPage": 0
+        },
+        "template_required_inputs": [
+            "loadId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_loader_job_status",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249711.057379,
+        "end": 1711249716.177984,
+        "duration": 5.120621919631958,
+        "service": "neptunedata",
+        "type": null
+    }
+}

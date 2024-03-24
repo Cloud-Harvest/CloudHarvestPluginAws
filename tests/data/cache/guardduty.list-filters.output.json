@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "DetectorId": "",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "DetectorId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_filters",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248813.671576,
+        "end": 1711248827.681621,
+        "duration": 14.010053873062134,
+        "service": "guardduty",
+        "type": "filters"
+    }
+}

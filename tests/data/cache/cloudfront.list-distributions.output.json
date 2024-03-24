@@ -1,0 +1,24 @@
+{
+    "input": {
+        "template": {
+            "Marker": "",
+            "MaxItems": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_distributions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248105.545647,
+        "end": 1711248115.887071,
+        "duration": 10.34144902229309,
+        "service": "cloudfront",
+        "type": "distributions"
+    }
+}

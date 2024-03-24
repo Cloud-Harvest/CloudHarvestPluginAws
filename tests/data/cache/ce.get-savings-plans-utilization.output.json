@@ -1,0 +1,69 @@
+{
+    "input": {
+        "template": {
+            "TimePeriod": {
+                "Start": "",
+                "End": ""
+            },
+            "Granularity": "DAILY",
+            "Filter": {
+                "Or": [
+                    {}
+                ],
+                "And": [
+                    {}
+                ],
+                "Not": {},
+                "Dimensions": {
+                    "Key": "AZ",
+                    "Values": [
+                        ""
+                    ],
+                    "MatchOptions": [
+                        "EQUALS"
+                    ]
+                },
+                "Tags": {
+                    "Key": "",
+                    "Values": [
+                        ""
+                    ],
+                    "MatchOptions": [
+                        "EQUALS"
+                    ]
+                },
+                "CostCategories": {
+                    "Key": "",
+                    "Values": [
+                        ""
+                    ],
+                    "MatchOptions": [
+                        "EQUALS"
+                    ]
+                }
+            },
+            "SortBy": {
+                "Key": "",
+                "SortOrder": "ASCENDING"
+            }
+        },
+        "template_required_inputs": [
+            "TimePeriod"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_savings_plans_utilization",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247964.645686,
+        "end": 1711247971.776428,
+        "duration": 7.130763053894043,
+        "service": "ce",
+        "type": null
+    }
+}

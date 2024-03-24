@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "domainIdentifier": "",
+            "identifier": "",
+            "revision": ""
+        },
+        "template_required_inputs": [
+            "domainIdentifier",
+            "identifier"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_asset",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248367.390298,
+        "end": 1711248378.594685,
+        "duration": 11.204399108886719,
+        "service": "datazone",
+        "type": null
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "SAMLProviderArn": ""
+        },
+        "template_required_inputs": [
+            "SAMLProviderArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_saml_provider",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248842.489891,
+        "end": 1711248854.248996,
+        "duration": 11.759114980697632,
+        "service": "iam",
+        "type": null
+    }
+}

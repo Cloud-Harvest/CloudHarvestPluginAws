@@ -1,0 +1,31 @@
+{
+    "input": {
+        "template": {
+            "testExecutionId": "",
+            "resultFilterBy": {
+                "resultTypeFilter": "OverallTestResults",
+                "conversationLevelTestResultsFilterBy": {
+                    "endToEndResult": "Matched"
+                }
+            },
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_test_execution_result_items",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249277.54865,
+        "end": 1711249284.928831,
+        "duration": 7.380192041397095,
+        "service": "lexv2-models",
+        "type": "test_execution_result_items"
+    }
+}

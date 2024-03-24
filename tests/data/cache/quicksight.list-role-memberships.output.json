@@ -1,0 +1,31 @@
+{
+    "input": {
+        "template": {
+            "Role": "ADMIN",
+            "NextToken": "",
+            "MaxResults": 0,
+            "AwsAccountId": "",
+            "Namespace": ""
+        },
+        "template_required_inputs": [
+            "Role",
+            "AwsAccountId",
+            "Namespace"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_role_memberships",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249901.746192,
+        "end": 1711249908.075634,
+        "duration": 6.329455137252808,
+        "service": "quicksight",
+        "type": "role_memberships"
+    }
+}

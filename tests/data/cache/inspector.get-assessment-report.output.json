@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "assessmentRunArn": "",
+            "reportFileFormat": "HTML",
+            "reportType": "FINDING"
+        },
+        "template_required_inputs": [
+            "assessmentRunArn",
+            "reportFileFormat",
+            "reportType"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_assessment_report",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248885.732428,
+        "end": 1711248895.836269,
+        "duration": 10.103857040405273,
+        "service": "inspector",
+        "type": null
+    }
+}

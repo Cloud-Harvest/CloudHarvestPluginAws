@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "Name": "",
+            "StackName": "",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "StackName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_entitlements",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247822.52985,
+        "end": 1711247836.409191,
+        "duration": 13.87935209274292,
+        "service": "appstream",
+        "type": "entitlements"
+    }
+}

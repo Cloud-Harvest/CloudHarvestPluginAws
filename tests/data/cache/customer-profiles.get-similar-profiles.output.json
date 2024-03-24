@@ -1,0 +1,33 @@
+{
+    "input": {
+        "template": {
+            "NextToken": "",
+            "MaxResults": 0,
+            "DomainName": "",
+            "MatchType": "RULE_BASED_MATCHING",
+            "SearchKey": "",
+            "SearchValue": ""
+        },
+        "template_required_inputs": [
+            "DomainName",
+            "MatchType",
+            "SearchKey",
+            "SearchValue"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_similar_profiles",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248337.639799,
+        "end": 1711248345.333691,
+        "duration": 7.693904876708984,
+        "service": "customer-profiles",
+        "type": null
+    }
+}

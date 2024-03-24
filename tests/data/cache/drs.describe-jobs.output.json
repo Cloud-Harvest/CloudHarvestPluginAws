@@ -1,0 +1,31 @@
+{
+    "input": {
+        "template": {
+            "filters": {
+                "fromDate": "",
+                "jobIDs": [
+                    ""
+                ],
+                "toDate": ""
+            },
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "describe_jobs",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248465.483174,
+        "end": 1711248472.100649,
+        "duration": 6.617509841918945,
+        "service": "drs",
+        "type": "jobs"
+    }
+}

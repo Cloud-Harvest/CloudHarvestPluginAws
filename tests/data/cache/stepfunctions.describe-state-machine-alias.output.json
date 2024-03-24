@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "stateMachineAliasArn": ""
+        },
+        "template_required_inputs": [
+            "stateMachineAliasArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_state_machine_alias",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250196.54895,
+        "end": 1711250204.208964,
+        "duration": 7.66002893447876,
+        "service": "stepfunctions",
+        "type": "state_machine_alias"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "input": {
+        "template": {
+            "AccessToken": "",
+            "AttributeName": "",
+            "ClientMetadata": {
+                "KeyName": ""
+            }
+        },
+        "template_required_inputs": [
+            "AccessToken",
+            "AttributeName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_user_attribute_verification_code",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248209.203919,
+        "end": 1711248217.005344,
+        "duration": 7.801437139511108,
+        "service": "cognito-idp",
+        "type": null
+    }
+}

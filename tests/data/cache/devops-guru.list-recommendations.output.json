@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "InsightId": "",
+            "NextToken": "",
+            "Locale": "DE_DE",
+            "AccountId": ""
+        },
+        "template_required_inputs": [
+            "InsightId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_recommendations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248450.204552,
+        "end": 1711248455.29379,
+        "duration": 5.089249134063721,
+        "service": "devops-guru",
+        "type": "recommendations"
+    }
+}

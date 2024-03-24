@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "DatastoreId": ""
+        },
+        "template_required_inputs": [
+            "DatastoreId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_fhir_datastore",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248827.788718,
+        "end": 1711248840.383347,
+        "duration": 12.59463906288147,
+        "service": "healthlake",
+        "type": "fhir_datastore"
+    }
+}

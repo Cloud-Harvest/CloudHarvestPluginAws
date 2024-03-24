@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "environmentId": "",
+            "scalingGroupName": ""
+        },
+        "template_required_inputs": [
+            "environmentId",
+            "scalingGroupName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_kx_scaling_group",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248634.886516,
+        "end": 1711248644.359442,
+        "duration": 9.47293496131897,
+        "service": "finspace",
+        "type": null
+    }
+}

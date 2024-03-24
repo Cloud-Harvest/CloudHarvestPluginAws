@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "PackageID": "",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "PackageID"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_package_version_history",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248616.205349,
+        "end": 1711248623.118285,
+        "duration": 6.912945032119751,
+        "service": "es",
+        "type": null
+    }
+}

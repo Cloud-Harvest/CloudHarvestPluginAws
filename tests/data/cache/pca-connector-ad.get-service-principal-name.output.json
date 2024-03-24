@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "ConnectorArn": "",
+            "DirectoryRegistrationArn": ""
+        },
+        "template_required_inputs": [
+            "ConnectorArn",
+            "DirectoryRegistrationArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_service_principal_name",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249794.12995,
+        "end": 1711249800.154008,
+        "duration": 6.024066925048828,
+        "service": "pca-connector-ad",
+        "type": null
+    }
+}

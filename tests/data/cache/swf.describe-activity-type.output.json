@@ -1,0 +1,30 @@
+{
+    "input": {
+        "template": {
+            "domain": "",
+            "activityType": {
+                "name": "",
+                "version": ""
+            }
+        },
+        "template_required_inputs": [
+            "domain",
+            "activityType"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_activity_type",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250217.966873,
+        "end": 1711250224.037033,
+        "duration": 6.070183992385864,
+        "service": "swf",
+        "type": "activity_type"
+    }
+}

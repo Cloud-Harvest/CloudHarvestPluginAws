@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "GatewayARN": ""
+        },
+        "template_required_inputs": [
+            "GatewayARN"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_upload_buffer",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250205.757079,
+        "end": 1711250211.747346,
+        "duration": 5.990283012390137,
+        "service": "storagegateway",
+        "type": "upload_buffer"
+    }
+}

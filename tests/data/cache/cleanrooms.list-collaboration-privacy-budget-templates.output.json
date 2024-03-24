@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "collaborationIdentifier": "",
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "template_required_inputs": [
+            "collaborationIdentifier"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_collaboration_privacy_budget_templates",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248038.001555,
+        "end": 1711248044.105256,
+        "duration": 6.10371994972229,
+        "service": "cleanrooms",
+        "type": "collaboration_privacy_budget_templates"
+    }
+}

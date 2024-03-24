@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "ClusterOperationArn": ""
+        },
+        "template_required_inputs": [
+            "ClusterOperationArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_cluster_operation",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249038.511809,
+        "end": 1711249174.126357,
+        "duration": 135.6145579814911,
+        "service": "kafka",
+        "type": "cluster_operation"
+    }
+}

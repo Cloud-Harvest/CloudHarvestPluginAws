@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "Marker": "",
+            "MaxItems": "",
+            "ResponseHeadersPolicyId": ""
+        },
+        "template_required_inputs": [
+            "ResponseHeadersPolicyId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_distributions_by_response_headers_policy_id",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248108.161865,
+        "end": 1711248115.929331,
+        "duration": 7.767496109008789,
+        "service": "cloudfront",
+        "type": "distributions_by_response_headers_policy_id"
+    }
+}

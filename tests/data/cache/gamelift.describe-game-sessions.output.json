@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "FleetId": "",
+            "GameSessionId": "",
+            "AliasId": "",
+            "Location": "",
+            "StatusFilter": "",
+            "Limit": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "describe_game_sessions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248688.907349,
+        "end": 1711248695.971374,
+        "duration": 7.064038991928101,
+        "service": "gamelift",
+        "type": "game_sessions"
+    }
+}

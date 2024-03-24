@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "WorkloadId": "",
+            "SharedWithPrefix": "",
+            "NextToken": "",
+            "MaxResults": 0,
+            "Status": "ACCEPTED"
+        },
+        "template_required_inputs": [
+            "WorkloadId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_workload_shares",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250326.577682,
+        "end": 1711250332.742879,
+        "duration": 6.165217876434326,
+        "service": "wellarchitected",
+        "type": "workload_shares"
+    }
+}

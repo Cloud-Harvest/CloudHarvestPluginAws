@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "targetResourceType": "ASSET",
+            "targetResourceId": "",
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "template_required_inputs": [
+            "targetResourceType",
+            "targetResourceId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_actions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248990.897799,
+        "end": 1711248998.168498,
+        "duration": 7.2707109451293945,
+        "service": "iotsitewise",
+        "type": "actions"
+    }
+}

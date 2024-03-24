@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "Scope": "All",
+            "OnlyAttached": true,
+            "PathPrefix": "",
+            "PolicyUsageFilter": "PermissionsPolicy",
+            "Marker": "",
+            "MaxItems": 0
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_policies",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248856.853155,
+        "end": 1711248867.108958,
+        "duration": 10.255813121795654,
+        "service": "iam",
+        "type": "policies"
+    }
+}

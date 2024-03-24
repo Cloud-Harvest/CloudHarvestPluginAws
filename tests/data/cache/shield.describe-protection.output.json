@@ -1,0 +1,24 @@
+{
+    "input": {
+        "template": {
+            "ProtectionId": "",
+            "ResourceArn": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "describe_protection",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250114.820598,
+        "end": 1711250121.93993,
+        "duration": 7.119355201721191,
+        "service": "shield",
+        "type": "protection"
+    }
+}

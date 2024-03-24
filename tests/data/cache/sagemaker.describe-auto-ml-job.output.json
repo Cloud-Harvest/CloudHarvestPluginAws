@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "AutoMLJobName": ""
+        },
+        "template_required_inputs": [
+            "AutoMLJobName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_auto_ml_job",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250028.228066,
+        "end": 1711250035.473841,
+        "duration": 7.245794057846069,
+        "service": "sagemaker",
+        "type": "auto_ml_job"
+    }
+}

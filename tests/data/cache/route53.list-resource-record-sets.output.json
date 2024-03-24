@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "HostedZoneId": "",
+            "StartRecordName": "",
+            "StartRecordType": "SOA",
+            "StartRecordIdentifier": "",
+            "MaxItems": ""
+        },
+        "template_required_inputs": [
+            "HostedZoneId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_resource_record_sets",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249965.779278,
+        "end": 1711249971.936036,
+        "duration": 6.156775951385498,
+        "service": "route53",
+        "type": "resource_record_sets"
+    }
+}

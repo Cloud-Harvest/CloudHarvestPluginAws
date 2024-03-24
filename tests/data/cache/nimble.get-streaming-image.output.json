@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "streamingImageId": "",
+            "studioId": ""
+        },
+        "template_required_inputs": [
+            "streamingImageId",
+            "studioId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_streaming_image",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249729.710177,
+        "end": 1711249736.088247,
+        "duration": 6.378083944320679,
+        "service": "nimble",
+        "type": null
+    }
+}

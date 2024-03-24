@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "RegexMatchSetId": ""
+        },
+        "template_required_inputs": [
+            "RegexMatchSetId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_regex_match_set",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250292.358326,
+        "end": 1711250300.502942,
+        "duration": 8.144624948501587,
+        "service": "waf-regional",
+        "type": null
+    }
+}

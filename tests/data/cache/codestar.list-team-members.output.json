@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "projectId": "",
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "template_required_inputs": [
+            "projectId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_team_members",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248179.770475,
+        "end": 1711248196.789143,
+        "duration": 17.01867914199829,
+        "service": "codestar",
+        "type": "team_members"
+    }
+}

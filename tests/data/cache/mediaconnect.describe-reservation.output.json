@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "ReservationArn": ""
+        },
+        "template_required_inputs": [
+            "ReservationArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_reservation",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249633.192862,
+        "end": 1711249639.024863,
+        "duration": 5.832015037536621,
+        "service": "mediaconnect",
+        "type": "reservation"
+    }
+}

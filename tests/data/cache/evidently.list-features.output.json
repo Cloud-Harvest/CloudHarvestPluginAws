@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "nextToken": "",
+            "project": ""
+        },
+        "template_required_inputs": [
+            "project"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_features",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248630.985293,
+        "end": 1711248637.94758,
+        "duration": 6.962297201156616,
+        "service": "evidently",
+        "type": "features"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "WorkloadId": "",
+            "MilestoneNumber": 0
+        },
+        "template_required_inputs": [
+            "WorkloadId",
+            "MilestoneNumber"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_milestone",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250316.356459,
+        "end": 1711250322.497288,
+        "duration": 6.1408421993255615,
+        "service": "wellarchitected",
+        "type": null
+    }
+}

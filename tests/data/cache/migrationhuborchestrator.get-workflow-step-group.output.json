@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "id": "",
+            "workflowId": ""
+        },
+        "template_required_inputs": [
+            "id",
+            "workflowId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_workflow_step_group",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249686.139176,
+        "end": 1711249692.648127,
+        "duration": 6.508971214294434,
+        "service": "migrationhuborchestrator",
+        "type": null
+    }
+}

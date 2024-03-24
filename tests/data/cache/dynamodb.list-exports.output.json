@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "TableArn": "",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_exports",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248485.464174,
+        "end": 1711248496.019414,
+        "duration": 10.555248975753784,
+        "service": "dynamodb",
+        "type": "exports"
+    }
+}

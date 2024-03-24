@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "ConfigurationName": ""
+        },
+        "template_required_inputs": [
+            "ConfigurationName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_network_analyzer_configuration",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249012.205052,
+        "end": 1711249019.176191,
+        "duration": 6.9711480140686035,
+        "service": "iotwireless",
+        "type": null
+    }
+}

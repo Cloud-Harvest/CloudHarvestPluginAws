@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "ResourceIdList": [
+                ""
+            ],
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "ResourceIdList"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_tags",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248125.811842,
+        "end": 1711248133.832801,
+        "duration": 8.020970106124878,
+        "service": "cloudtrail",
+        "type": "tags"
+    }
+}

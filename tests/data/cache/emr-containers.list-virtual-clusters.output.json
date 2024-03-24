@@ -1,0 +1,31 @@
+{
+    "input": {
+        "template": {
+            "containerProviderId": "",
+            "containerProviderType": "EKS",
+            "createdAfter": "1970-01-01T00:00:00",
+            "createdBefore": "1970-01-01T00:00:00",
+            "states": [
+                "RUNNING"
+            ],
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_virtual_clusters",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248602.333581,
+        "end": 1711248610.184126,
+        "duration": 7.850554943084717,
+        "service": "emr-containers",
+        "type": "virtual_clusters"
+    }
+}

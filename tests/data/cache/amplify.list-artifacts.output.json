@@ -1,0 +1,31 @@
+{
+    "input": {
+        "template": {
+            "appId": "",
+            "branchName": "",
+            "jobId": "",
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "template_required_inputs": [
+            "appId",
+            "branchName",
+            "jobId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_artifacts",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247709.843196,
+        "end": 1711247724.71516,
+        "duration": 14.871976137161255,
+        "service": "amplify",
+        "type": "artifacts"
+    }
+}

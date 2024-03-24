@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "ClusterArn": ""
+        },
+        "template_required_inputs": [
+            "ClusterArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_cluster_policy",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249042.364471,
+        "end": 1711249179.751387,
+        "duration": 137.38692808151245,
+        "service": "kafka",
+        "type": null
+    }
+}

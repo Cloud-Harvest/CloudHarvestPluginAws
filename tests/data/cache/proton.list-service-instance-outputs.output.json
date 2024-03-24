@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "deploymentId": "",
+            "nextToken": "",
+            "serviceInstanceName": "",
+            "serviceName": ""
+        },
+        "template_required_inputs": [
+            "serviceInstanceName",
+            "serviceName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_service_instance_outputs",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249856.087748,
+        "end": 1711249862.544433,
+        "duration": 6.456692934036255,
+        "service": "proton",
+        "type": "service_instance_outputs"
+    }
+}

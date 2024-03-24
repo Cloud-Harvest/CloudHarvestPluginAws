@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "Identities": [
+                ""
+            ]
+        },
+        "template_required_inputs": [
+            "Identities"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_identity_verification_attributes",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250107.540833,
+        "end": 1711250113.699678,
+        "duration": 6.158853054046631,
+        "service": "ses",
+        "type": null
+    }
+}

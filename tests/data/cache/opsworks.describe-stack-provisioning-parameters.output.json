@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "StackId": ""
+        },
+        "template_required_inputs": [
+            "StackId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_stack_provisioning_parameters",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249771.15755,
+        "end": 1711249776.919725,
+        "duration": 5.762193918228149,
+        "service": "opsworks",
+        "type": "stack_provisioning_parameters"
+    }
+}

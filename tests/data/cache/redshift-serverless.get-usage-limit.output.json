@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "usageLimitId": ""
+        },
+        "template_required_inputs": [
+            "usageLimitId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_usage_limit",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249929.490639,
+        "end": 1711249934.848218,
+        "duration": 5.357593059539795,
+        "service": "redshift-serverless",
+        "type": null
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "sessionArn": "",
+            "type": "VIDEO",
+            "maxResult": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [
+            "sessionArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_test_grid_session_artifacts",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248436.323631,
+        "end": 1711248442.116018,
+        "duration": 5.7923970222473145,
+        "service": "devicefarm",
+        "type": "test_grid_session_artifacts"
+    }
+}

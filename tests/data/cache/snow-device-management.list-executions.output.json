@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "maxResults": 0,
+            "nextToken": "",
+            "state": "QUEUED",
+            "taskId": ""
+        },
+        "template_required_inputs": [
+            "taskId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_executions",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250127.040439,
+        "end": 1711250133.16735,
+        "duration": 6.126920223236084,
+        "service": "snow-device-management",
+        "type": "executions"
+    }
+}

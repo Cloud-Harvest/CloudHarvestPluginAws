@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "DomainId": "",
+            "JobStatus": "SUBMITTED",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "DomainId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_speaker_enrollment_jobs",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250271.89832,
+        "end": 1711250277.058321,
+        "duration": 5.160016059875488,
+        "service": "voice-id",
+        "type": "speaker_enrollment_jobs"
+    }
+}

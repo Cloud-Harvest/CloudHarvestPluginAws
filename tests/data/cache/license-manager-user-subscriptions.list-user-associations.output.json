@@ -1,0 +1,40 @@
+{
+    "input": {
+        "template": {
+            "Filters": [
+                {
+                    "Attribute": "",
+                    "Operation": "",
+                    "Value": ""
+                }
+            ],
+            "IdentityProvider": {
+                "ActiveDirectoryIdentityProvider": {
+                    "DirectoryId": ""
+                }
+            },
+            "InstanceId": "",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "IdentityProvider",
+            "InstanceId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_user_associations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249454.555553,
+        "end": 1711249460.686121,
+        "duration": 6.130583047866821,
+        "service": "license-manager-user-subscriptions",
+        "type": "user_associations"
+    }
+}

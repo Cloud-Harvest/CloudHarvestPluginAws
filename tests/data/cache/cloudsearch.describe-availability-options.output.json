@@ -1,0 +1,26 @@
+{
+    "input": {
+        "template": {
+            "DomainName": "",
+            "Deployed": true
+        },
+        "template_required_inputs": [
+            "DomainName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_availability_options",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248112.533305,
+        "end": 1711248125.757138,
+        "duration": 13.22386908531189,
+        "service": "cloudsearch",
+        "type": "availability_options"
+    }
+}

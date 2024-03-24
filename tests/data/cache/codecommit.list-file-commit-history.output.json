@@ -1,0 +1,30 @@
+{
+    "input": {
+        "template": {
+            "repositoryName": "",
+            "commitSpecifier": "",
+            "filePath": "",
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [
+            "repositoryName",
+            "filePath"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_file_commit_history",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248161.075175,
+        "end": 1711248168.348375,
+        "duration": 7.2732110023498535,
+        "service": "codecommit",
+        "type": "file_commit_history"
+    }
+}

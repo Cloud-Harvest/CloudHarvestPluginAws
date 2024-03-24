@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "ProjectName": "",
+            "NextToken": "",
+            "MaxResults": 0
+        },
+        "template_required_inputs": [
+            "ProjectName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_model_packaging_jobs",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249605.062003,
+        "end": 1711249610.449193,
+        "duration": 5.387202024459839,
+        "service": "lookoutvision",
+        "type": "model_packaging_jobs"
+    }
+}

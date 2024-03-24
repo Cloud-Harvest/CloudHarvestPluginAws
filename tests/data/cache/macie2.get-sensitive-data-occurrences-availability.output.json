@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "findingId": ""
+        },
+        "template_required_inputs": [
+            "findingId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_sensitive_data_occurrences_availability",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249617.794385,
+        "end": 1711249623.800353,
+        "duration": 6.005990982055664,
+        "service": "macie2",
+        "type": null
+    }
+}

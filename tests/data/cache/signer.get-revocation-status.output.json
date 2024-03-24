@@ -1,0 +1,35 @@
+{
+    "input": {
+        "template": {
+            "signatureTimestamp": "1970-01-01T00:00:00",
+            "platformId": "",
+            "profileVersionArn": "",
+            "jobArn": "",
+            "certificateHashes": [
+                ""
+            ]
+        },
+        "template_required_inputs": [
+            "signatureTimestamp",
+            "platformId",
+            "profileVersionArn",
+            "jobArn",
+            "certificateHashes"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_revocation_status",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250115.906313,
+        "end": 1711250121.923563,
+        "duration": 6.017264127731323,
+        "service": "signer",
+        "type": null
+    }
+}

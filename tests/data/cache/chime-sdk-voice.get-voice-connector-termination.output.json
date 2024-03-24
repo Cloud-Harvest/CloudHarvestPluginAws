@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "VoiceConnectorId": ""
+        },
+        "template_required_inputs": [
+            "VoiceConnectorId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_voice_connector_termination",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248015.168582,
+        "end": 1711248032.046061,
+        "duration": 16.877490043640137,
+        "service": "chime-sdk-voice",
+        "type": null
+    }
+}

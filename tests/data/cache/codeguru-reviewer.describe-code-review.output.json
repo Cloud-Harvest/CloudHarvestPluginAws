@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "CodeReviewArn": ""
+        },
+        "template_required_inputs": [
+            "CodeReviewArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_code_review",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248163.001713,
+        "end": 1711248170.346201,
+        "duration": 7.344510078430176,
+        "service": "codeguru-reviewer",
+        "type": "code_review"
+    }
+}

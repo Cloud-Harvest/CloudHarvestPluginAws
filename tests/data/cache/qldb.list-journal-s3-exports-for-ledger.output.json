@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "Name": "",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "Name"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_journal_s3_exports_for_ledger",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249875.798962,
+        "end": 1711249882.2449,
+        "duration": 6.445958852767944,
+        "service": "qldb",
+        "type": "journal_s3_exports_for_ledger"
+    }
+}

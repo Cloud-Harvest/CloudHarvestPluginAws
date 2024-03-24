@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "RequestId": ""
+        },
+        "template_required_inputs": [
+            "RequestId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_requested_service_quota_change",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250082.848245,
+        "end": 1711250089.497698,
+        "duration": 6.649473190307617,
+        "service": "service-quotas",
+        "type": null
+    }
+}

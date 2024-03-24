@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "ApplicationArn": "",
+            "AuthenticationMethodType": "IAM"
+        },
+        "template_required_inputs": [
+            "ApplicationArn",
+            "AuthenticationMethodType"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_application_authentication_method",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250184.502024,
+        "end": 1711250191.619848,
+        "duration": 7.117840051651001,
+        "service": "sso-admin",
+        "type": null
+    }
+}

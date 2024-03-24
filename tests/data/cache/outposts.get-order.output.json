@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "OrderId": ""
+        },
+        "template_required_inputs": [
+            "OrderId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_order",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249783.201307,
+        "end": 1711249789.03876,
+        "duration": 5.837713003158569,
+        "service": "outposts",
+        "type": null
+    }
+}

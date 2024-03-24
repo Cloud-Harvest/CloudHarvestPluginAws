@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "AccountId": "",
+            "BudgetName": "",
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [
+            "AccountId",
+            "BudgetName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_notifications_for_budget",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247949.392609,
+        "end": 1711247960.309298,
+        "duration": 10.916706085205078,
+        "service": "budgets",
+        "type": "notifications_for_budget"
+    }
+}

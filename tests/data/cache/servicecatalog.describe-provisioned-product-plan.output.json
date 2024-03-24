@@ -1,0 +1,28 @@
+{
+    "input": {
+        "template": {
+            "AcceptLanguage": "",
+            "PlanId": "",
+            "PageSize": 0,
+            "PageToken": ""
+        },
+        "template_required_inputs": [
+            "PlanId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_provisioned_product_plan",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250089.405472,
+        "end": 1711250096.075233,
+        "duration": 6.6697728633880615,
+        "service": "servicecatalog",
+        "type": "provisioned_product_plan"
+    }
+}

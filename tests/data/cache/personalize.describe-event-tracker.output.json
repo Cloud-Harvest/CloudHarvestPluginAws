@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "eventTrackerArn": ""
+        },
+        "template_required_inputs": [
+            "eventTrackerArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_event_tracker",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249800.244176,
+        "end": 1711249806.371328,
+        "duration": 6.127354145050049,
+        "service": "personalize",
+        "type": "event_tracker"
+    }
+}

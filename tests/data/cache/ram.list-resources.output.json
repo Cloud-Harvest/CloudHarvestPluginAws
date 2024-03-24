@@ -1,0 +1,36 @@
+{
+    "input": {
+        "template": {
+            "resourceOwner": "SELF",
+            "principal": "",
+            "resourceType": "",
+            "resourceArns": [
+                ""
+            ],
+            "resourceShareArns": [
+                ""
+            ],
+            "nextToken": "",
+            "maxResults": 0,
+            "resourceRegionScope": "ALL"
+        },
+        "template_required_inputs": [
+            "resourceOwner"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_resources",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249914.333887,
+        "end": 1711249920.391583,
+        "duration": 6.057706832885742,
+        "service": "ram",
+        "type": "resources"
+    }
+}

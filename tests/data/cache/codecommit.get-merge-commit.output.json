@@ -1,0 +1,31 @@
+{
+    "input": {
+        "template": {
+            "repositoryName": "",
+            "sourceCommitSpecifier": "",
+            "destinationCommitSpecifier": "",
+            "conflictDetailLevel": "FILE_LEVEL",
+            "conflictResolutionStrategy": "NONE"
+        },
+        "template_required_inputs": [
+            "repositoryName",
+            "sourceCommitSpecifier",
+            "destinationCommitSpecifier"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_merge_commit",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248157.476619,
+        "end": 1711248164.005945,
+        "duration": 6.529336929321289,
+        "service": "codecommit",
+        "type": null
+    }
+}

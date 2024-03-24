@@ -1,0 +1,31 @@
+{
+    "input": {
+        "template": {
+            "StartDate": "1970-01-01T00:00:00",
+            "EndDate": "1970-01-01T00:00:00",
+            "SubscribedDomain": "",
+            "NextToken": "",
+            "PageSize": 0
+        },
+        "template_required_inputs": [
+            "StartDate",
+            "EndDate",
+            "SubscribedDomain"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_domain_deliverability_campaigns",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249831.496344,
+        "end": 1711249838.198856,
+        "duration": 6.702524900436401,
+        "service": "pinpoint-email",
+        "type": "domain_deliverability_campaigns"
+    }
+}

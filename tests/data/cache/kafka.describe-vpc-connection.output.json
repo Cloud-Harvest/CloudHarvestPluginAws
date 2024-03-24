@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "Arn": ""
+        },
+        "template_required_inputs": [
+            "Arn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_vpc_connection",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249040.982791,
+        "end": 1711249179.778532,
+        "duration": 138.7957570552826,
+        "service": "kafka",
+        "type": "vpc_connection"
+    }
+}

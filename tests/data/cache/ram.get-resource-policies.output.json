@@ -1,0 +1,30 @@
+{
+    "input": {
+        "template": {
+            "resourceArns": [
+                ""
+            ],
+            "principal": "",
+            "nextToken": "",
+            "maxResults": 0
+        },
+        "template_required_inputs": [
+            "resourceArns"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_resource_policies",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249909.086952,
+        "end": 1711249915.381077,
+        "duration": 6.294137954711914,
+        "service": "ram",
+        "type": null
+    }
+}

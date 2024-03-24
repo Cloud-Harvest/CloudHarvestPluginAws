@@ -1,0 +1,30 @@
+{
+    "input": {
+        "template": {
+            "AssociationFilterList": [
+                {
+                    "key": "InstanceId",
+                    "value": ""
+                }
+            ],
+            "MaxResults": 0,
+            "NextToken": ""
+        },
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "list_associations",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250156.043004,
+        "end": 1711250164.232624,
+        "duration": 8.189640045166016,
+        "service": "ssm",
+        "type": "associations"
+    }
+}

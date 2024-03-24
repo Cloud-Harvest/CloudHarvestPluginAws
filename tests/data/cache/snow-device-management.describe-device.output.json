@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "managedDeviceId": ""
+        },
+        "template_required_inputs": [
+            "managedDeviceId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_device",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250121.933223,
+        "end": 1711250128.061323,
+        "duration": 6.128123044967651,
+        "service": "snow-device-management",
+        "type": "device"
+    }
+}

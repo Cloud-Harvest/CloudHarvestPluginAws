@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "projectId": ""
+        },
+        "template_required_inputs": [
+            "projectId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_project",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248986.132167,
+        "end": 1711248995.59801,
+        "duration": 9.465853929519653,
+        "service": "iotsitewise",
+        "type": "project"
+    }
+}

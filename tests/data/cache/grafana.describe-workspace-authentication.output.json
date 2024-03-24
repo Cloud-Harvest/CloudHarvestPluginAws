@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "workspaceId": ""
+        },
+        "template_required_inputs": [
+            "workspaceId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_workspace_authentication",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248740.501823,
+        "end": 1711248750.491985,
+        "duration": 9.990170001983643,
+        "service": "grafana",
+        "type": "workspace_authentication"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "ListenerArn": ""
+        },
+        "template_required_inputs": [
+            "ListenerArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_listener",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248706.118547,
+        "end": 1711248714.40328,
+        "duration": 8.284744024276733,
+        "service": "globalaccelerator",
+        "type": "listener"
+    }
+}

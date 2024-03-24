@@ -1,0 +1,29 @@
+{
+    "input": {
+        "template": {
+            "DomainName": "",
+            "SuggesterNames": [
+                ""
+            ],
+            "Deployed": true
+        },
+        "template_required_inputs": [
+            "DomainName"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_suggesters",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248120.03348,
+        "end": 1711248125.811116,
+        "duration": 5.777656078338623,
+        "service": "cloudsearch",
+        "type": "suggesters"
+    }
+}

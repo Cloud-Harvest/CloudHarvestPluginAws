@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "knowledgeBaseId": "",
+            "maxResults": 0,
+            "nextToken": ""
+        },
+        "template_required_inputs": [
+            "knowledgeBaseId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "list_import_jobs",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250332.809124,
+        "end": 1711250338.002227,
+        "duration": 5.193110942840576,
+        "service": "wisdom",
+        "type": "import_jobs"
+    }
+}

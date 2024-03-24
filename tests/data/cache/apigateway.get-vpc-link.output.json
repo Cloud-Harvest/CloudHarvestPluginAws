@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "vpcLinkId": ""
+        },
+        "template_required_inputs": [
+            "vpcLinkId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_vpc_link",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711247754.541255,
+        "end": 1711247762.127885,
+        "duration": 7.586648941040039,
+        "service": "apigateway",
+        "type": null
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "input": {
+        "template": {},
+        "template_required_inputs": [],
+        "required_cli_fields": [],
+        "boto_command": "get_image_frame",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249665.536161,
+        "end": 1711249671.980369,
+        "duration": 6.444226026535034,
+        "service": "medical-imaging",
+        "type": null
+    }
+}

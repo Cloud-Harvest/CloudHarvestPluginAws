@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "ImportArn": ""
+        },
+        "template_required_inputs": [
+            "ImportArn"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "describe_import",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711248480.947597,
+        "end": 1711248488.559829,
+        "duration": 7.61225700378418,
+        "service": "dynamodb",
+        "type": "import"
+    }
+}

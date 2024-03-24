@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "MessageId": ""
+        },
+        "template_required_inputs": [
+            "MessageId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_message_insights",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250114.767417,
+        "end": 1711250120.911516,
+        "duration": 6.144114017486572,
+        "service": "sesv2",
+        "type": null
+    }
+}

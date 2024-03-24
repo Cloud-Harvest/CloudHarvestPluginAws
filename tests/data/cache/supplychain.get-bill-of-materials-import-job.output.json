@@ -1,0 +1,27 @@
+{
+    "input": {
+        "template": {
+            "instanceId": "",
+            "jobId": ""
+        },
+        "template_required_inputs": [
+            "instanceId",
+            "jobId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_bill_of_materials_import_job",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711250213.790093,
+        "end": 1711250219.667663,
+        "duration": 5.877583980560303,
+        "service": "supplychain",
+        "type": null
+    }
+}

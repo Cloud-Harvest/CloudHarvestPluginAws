@@ -1,0 +1,25 @@
+{
+    "input": {
+        "template": {
+            "applicationComponentId": ""
+        },
+        "template_required_inputs": [
+            "applicationComponentId"
+        ],
+        "required_cli_fields": [],
+        "boto_command": "get_application_component_strategies",
+        "boto_command_matches": true
+    },
+    "output": {
+        "template": null,
+        "required": [],
+        "result_key": null
+    },
+    "meta": {
+        "start": 1711249688.142686,
+        "end": 1711249694.181618,
+        "duration": 6.038946151733398,
+        "service": "migrationhubstrategy",
+        "type": null
+    }
+}
