@@ -39,9 +39,30 @@ def main(aws: str, count: int, max_workers: int, no_cache: bool):
                    if any([service_command.split('.')[1].lower().startswith(s)
                            for s in _data_gathering_command_prefixes])]
 
-        wait(futures, return_when=ALL_COMPLETED)
+        from rich.progress import Progress, BarColumn, TimeElapsedColumn, TimeRemainingColumn, SpinnerColumn
+        config = (
+            SpinnerColumn(),
+            "[progress.description]{task.description}",
+            BarColumn(),
+            "[progress.percentage]{task.percentage:3.0f}%",
+            TimeElapsedColumn(),
+            "/",
+            TimeRemainingColumn(),
+            "[progress.completed]{task.completed}/[progress.total]{task.total}"
+        )
 
-    # results = {f.result()[0]: f.result()[1] for f in futures}
+        with Progress(*config) as progress:
+            task = progress.add_task('Data Harvest', total=len(futures))
+
+            while True:
+                from time import sleep
+                completed = len([f for f in futures if f.done()])
+                progress.update(task, completed=completed)
+                if completed == len(futures):
+                    break
+
+                else:
+                    sleep(1)
 
     end_time = datetime.now(tz=timezone.utc).timestamp()
 
@@ -138,14 +159,13 @@ def get_outputs(aws: str, service_command: str, count: int, no_cache: bool) -> t
     command_output_file = f'./cache/{service}.{command}.output.json'
     random_output_file = f'./cache/{service}.{command}.random.json'
 
-    if exists(command_output_file) and no_cache is False:
+    if all([exists(command_output_file), exists(random_output_file)]) and no_cache is False:
         with open(command_output_file, 'r') as command_output_stream:
             print(f'{service_command}: skipped (cached): {command_output_file}')
             return loads(command_output_stream.read())
 
     else:
         from json import loads
-        from hashlib import md5
 
         def run_command(*args) -> tuple:
             required = []
@@ -172,16 +192,37 @@ def get_outputs(aws: str, service_command: str, count: int, no_cache: bool) -> t
                 else:
                     return output_raw, required
 
-        input_raw, input_required = run_command(aws, service, command,
-                                                '--region=us-east-1', '--generate-cli-skeleton')
+        input_raw, input_required = run_command(aws, service, command, '--region=us-east-1', '--generate-cli-skeleton')
+        output_raw, output_required = run_command(aws, service, command, '--region=us-east-1', '--generate-cli-skeleton', 'output')
+        synopsis_raw, _ = run_command(aws, service, command, 'help')
 
-        output_raw, output_required = run_command(aws, service, command,
-                                                  '--region=us-east-1', '--generate-cli-skeleton', 'output')
+        def safe_loads(s: bytes) -> dict:
+            try:
+                return loads(s.decode('utf8'))
 
-        output_json = loads(output_raw.decode('utf8'))
+            except Exception as ex:
+                return {}
+
+        input_template = safe_loads(input_raw)
+        output_json = safe_loads(output_raw)
 
         result_key = [k for k in output_json.keys() if k.lower() not in _invalid_result_keys]
         result_key = result_key[0] if len(result_key) > 0 else None
+
+        synopsis = synopsis_raw.decode('utf8').split('\n')
+        template_required = []
+
+        synopsis_found = False
+        for line in synopsis:
+            if 'SYNOPSIS' in line:
+                synopsis_found = True
+
+            if synopsis_found:
+                if line.strip().startswith('--'):
+                    template_required.append(line.strip().split(' ')[0].replace('-', ''))
+
+                elif len(line.strip()) == 0:
+                    break
 
         boto_command = command.replace('-', '_')
         from boto3 import Session
@@ -191,25 +232,17 @@ def get_outputs(aws: str, service_command: str, count: int, no_cache: bool) -> t
         result = {}
 
         try:
-            input_template = loads(input_raw.decode('utf8'))
-
             result = {
                 'input': {
                     'template': input_template,
-                    'required': input_required,
-                    'md5': md5(input_raw).hexdigest(),
+                    'template_required_inputs': [k for k in input_template.keys() if k.lower() in template_required],
+                    'required_cli_fields': input_required,
                     'boto_command': boto_command,
                     'boto_command_matches': has_command
                 },
                 'output': {
                     'template': output_json.get(result_key),
                     'required': output_required,
-                    'md5': md5(output_raw).hexdigest(),
-                    'randomized': create_random_data(template=output_json[result_key],
-                                                     count=count,
-                                                     primary_template_identifier=input_template.get('primary_template_identifier'),
-                                                     service=service,
-                                                     service_type=type_from_command(command)) if result_key else [],
                     'result_key': result_key
                 },
                 'meta': {
@@ -226,7 +259,12 @@ def get_outputs(aws: str, service_command: str, count: int, no_cache: bool) -> t
                 command_output_stream.write('\n')
 
             with open(random_output_file, 'w') as random_output_stream:
-                random_output_stream.write(dumps(result['output']['randomized'], default=str, indent=4))
+                random_data = create_random_data(template=output_json[result_key],
+                                                 count=count,
+                                                 primary_template_identifier=input_template.get('primary_template_identifier'),
+                                                 service=service,
+                                                 service_type=type_from_command(command)) if result_key else []
+                random_output_stream.write(dumps(random_data, default=str, indent=4))
                 random_output_stream.write('\n')
 
         except Exception as ex:
