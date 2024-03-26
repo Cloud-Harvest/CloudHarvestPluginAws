@@ -1,9 +1,14 @@
 #!/bin/env python
 
 from subprocess import Popen, PIPE
+from typing import List
 
 _invalid_result_keys = [str(s).lower() for s in ('Marker', 'NextToken')]
 _data_gathering_command_prefixes = ('describe', 'get', 'list')
+
+_dummy_account_names = ['account1', 'account2', 'account3', 'account4', 'account5']
+_dummy_account_ids = ['123456789012', '234567890123', '345678901234', '456789012345', '567890123456']
+_dummy_region_names = ['us-east-1', 'us-west-2', 'eu-west-1', 'eu-central-1', 'ap-southeast-1']
 
 
 def main(aws: str, count: int, max_workers: int, no_cache: bool):
@@ -218,6 +223,7 @@ def get_outputs(aws: str, service_command: str, count: int, no_cache: bool) -> t
         template_required = []
 
         synopsis_found = False
+        template_required_inputs = []
         for line in synopsis:
             if 'SYNOPSIS' in line:
                 synopsis_found = True
@@ -225,6 +231,7 @@ def get_outputs(aws: str, service_command: str, count: int, no_cache: bool) -> t
             if synopsis_found:
                 if line.strip().startswith('--'):
                     template_required.append(line.strip().split(' ')[0].replace('-', ''))
+                    template_required_inputs =[k for k in input_template.keys() if k.lower() in template_required]
 
                 elif len(line.strip()) == 0:
                     break
@@ -232,7 +239,6 @@ def get_outputs(aws: str, service_command: str, count: int, no_cache: bool) -> t
         boto_command = command.replace('-', '_')
         from boto3 import Session
         session = Session(region_name='us-east-1')
-        has_command = hasattr(session.client(service_name=service), boto_command)
 
         result = {}
 
@@ -240,18 +246,16 @@ def get_outputs(aws: str, service_command: str, count: int, no_cache: bool) -> t
             result = {
                 'input': {
                     'template': input_template,
-                    'template_required_inputs': [k for k in input_template.keys() if k.lower() in template_required],
+                    'template_required_inputs': template_required_inputs,
                     'required_cli_fields': input_required,
-                    'boto_command': boto_command,
-                    'boto_command_matches': has_command
+                    'boto_command': boto_command if hasattr(session.client(service_name=service), boto_command) else 'unknown',
                 },
                 'output': {
-                    'template': output_json.get(result_key),
+                    'template': {} if result_key == 'error' else output_json.get(result_key),
                     'required': output_required,
                     'result_key': result_key
                 },
                 'meta': {
-                    'start': start_time,
                     'service': service,
                     'type': type_from_command(command)
                 }
@@ -262,11 +266,16 @@ def get_outputs(aws: str, service_command: str, count: int, no_cache: bool) -> t
                 command_output_stream.write('\n')
 
             with open(random_output_file, 'w') as random_output_stream:
-                random_data = create_random_data(template=output_json[result_key],
-                                                 count=count,
-                                                 primary_template_identifier=input_template.get('primary_template_identifier'),
-                                                 service=service,
-                                                 service_type=type_from_command(command)) if result_key else []
+                if result_key == 'error':
+                    random_data = output_json
+
+                else:
+                    random_data = create_random_data(template=output_json[result_key],
+                                                     count=count,
+                                                     primary_template_identifier=input_template.get('primary_template_identifier'),
+                                                     service=service,
+                                                     service_type=type_from_command(command)) if result_key != 'error' else []
+
                 random_output_stream.write(dumps(random_data, default=str, indent=4))
                 random_output_stream.write('\n')
 
@@ -312,9 +321,12 @@ def create_random_data(template: dict, count: int, service: str, service_type: s
             else:
                 r[k] = v
 
-        r['Harvest.Service'] = service
-        r['Harvest.Type'] = service_type
-        r['Harvest.Module.FilterCriteria.0'] = primary_template_identifier or ''
+        metadata = flatten(create_metadata(service=service,
+                                           type=service_type,
+                                           filter_criteria=[] if primary_template_identifier is None else [primary_template_identifier]),
+                           separator='.')
+
+        r.update({f'result.0.Harvest.{k}': v for k, v in metadata.items()})
 
         unflatten = unflatten_list(r, separator='.')['result']
 
@@ -331,6 +343,45 @@ def type_from_command(command: str) -> str:
     for prefix in ['list', 'describe']:
         if command.startswith(prefix):
             return command[len(prefix) + 1:].replace('-', '_')
+
+
+def create_metadata(service: str, type: str, account: str = None, region: str = None, filter_criteria: List[str] = None) -> dict:
+    def random_bool():
+        from random import choice
+        return choice([True, False])
+
+    def random_date():
+        from datetime import datetime
+        from random import randint
+        now_timestamp = int(datetime.now().timestamp())
+        six_months_ago = int(now_timestamp - (60 * 60 * 24 * 30 * 6))
+        return datetime.fromtimestamp(randint(six_months_ago, now_timestamp))
+
+    with open('../../version', 'r') as version_file:
+        version = version_file.read().strip()
+
+    import random
+
+    result = {
+        'Platform': 'aws',
+        'Service': service,
+        'Type': type,
+        'Account': account or random.choice(_dummy_account_names),    # so we don't have too many possible account names
+        'Region': region or random.choice(_dummy_region_names),       # so we don't have too many possible region names
+        'Module': {
+            'FilterCriteria': filter_criteria or [''],
+            'Name': 'harvest-client-cli',
+            'Repository': 'https://github.com/Cloud-Harvest/client-cli',
+            'Version': version
+        },
+        'Dates': {
+            'DeactivatedOn': '',
+            'LastSeen': random_date()
+        },
+        'Active': random_bool()
+    }
+
+    return result
 
 
 if __name__ == '__main__':
