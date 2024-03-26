@@ -1,9 +1,0 @@
-[
-    "mgh.describe-application-state",
-    "mgh.describe-migration-task",
-    "mgh.list-application-states",
-    "mgh.list-created-artifacts",
-    "mgh.list-discovered-resources",
-    "mgh.list-migration-tasks",
-    "mgh.list-progress-update-streams"
-]

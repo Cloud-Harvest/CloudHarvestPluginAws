@@ -1,9 +1,0 @@
-[
-    "elb.describe-account-limits",
-    "elb.describe-instance-health",
-    "elb.describe-load-balancer-attributes",
-    "elb.describe-load-balancer-policies",
-    "elb.describe-load-balancer-policy-types",
-    "elb.describe-load-balancers",
-    "elb.describe-tags"
-]

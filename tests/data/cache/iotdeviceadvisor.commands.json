@@ -1,9 +1,0 @@
-[
-    "iotdeviceadvisor.get-endpoint",
-    "iotdeviceadvisor.get-suite-definition",
-    "iotdeviceadvisor.get-suite-run",
-    "iotdeviceadvisor.get-suite-run-report",
-    "iotdeviceadvisor.list-suite-definitions",
-    "iotdeviceadvisor.list-suite-runs",
-    "iotdeviceadvisor.list-tags-for-resource"
-]

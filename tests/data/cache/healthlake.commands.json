@@ -1,9 +1,0 @@
-[
-    "healthlake.describe-fhir-datastore",
-    "healthlake.describe-fhir-export-job",
-    "healthlake.describe-fhir-import-job",
-    "healthlake.list-fhir-datastores",
-    "healthlake.list-fhir-export-jobs",
-    "healthlake.list-fhir-import-jobs",
-    "healthlake.list-tags-for-resource"
-]

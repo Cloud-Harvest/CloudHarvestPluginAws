@@ -1,9 +1,0 @@
-[
-    "dax.describe-clusters",
-    "dax.describe-default-parameters",
-    "dax.describe-events",
-    "dax.describe-parameter-groups",
-    "dax.describe-parameters",
-    "dax.describe-subnet-groups",
-    "dax.list-tags"
-]

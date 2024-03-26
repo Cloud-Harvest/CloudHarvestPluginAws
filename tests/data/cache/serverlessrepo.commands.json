@@ -1,8 +1,0 @@
-[
-    "serverlessrepo.get-application",
-    "serverlessrepo.get-application-policy",
-    "serverlessrepo.get-cloud-formation-template",
-    "serverlessrepo.list-application-dependencies",
-    "serverlessrepo.list-application-versions",
-    "serverlessrepo.list-applications"
-]

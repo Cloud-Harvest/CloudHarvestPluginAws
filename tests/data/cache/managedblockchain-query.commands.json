@@ -1,9 +1,0 @@
-[
-    "managedblockchain-query.get-asset-contract",
-    "managedblockchain-query.get-token-balance",
-    "managedblockchain-query.get-transaction",
-    "managedblockchain-query.list-asset-contracts",
-    "managedblockchain-query.list-token-balances",
-    "managedblockchain-query.list-transaction-events",
-    "managedblockchain-query.list-transactions"
-]

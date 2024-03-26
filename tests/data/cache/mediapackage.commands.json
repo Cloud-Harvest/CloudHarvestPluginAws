@@ -1,9 +1,0 @@
-[
-    "mediapackage.describe-channel",
-    "mediapackage.describe-harvest-job",
-    "mediapackage.describe-origin-endpoint",
-    "mediapackage.list-channels",
-    "mediapackage.list-harvest-jobs",
-    "mediapackage.list-origin-endpoints",
-    "mediapackage.list-tags-for-resource"
-]

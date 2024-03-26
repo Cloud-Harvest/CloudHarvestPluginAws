@@ -1,8 +1,0 @@
-[
-    "keyspaces.get-keyspace",
-    "keyspaces.get-table",
-    "keyspaces.get-table-auto-scaling-settings",
-    "keyspaces.list-keyspaces",
-    "keyspaces.list-tables",
-    "keyspaces.list-tags-for-resource"
-]

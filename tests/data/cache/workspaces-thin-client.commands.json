@@ -1,9 +1,0 @@
-[
-    "workspaces-thin-client.get-device",
-    "workspaces-thin-client.get-environment",
-    "workspaces-thin-client.get-software-set",
-    "workspaces-thin-client.list-devices",
-    "workspaces-thin-client.list-environments",
-    "workspaces-thin-client.list-software-sets",
-    "workspaces-thin-client.list-tags-for-resource"
-]

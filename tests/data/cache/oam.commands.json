@@ -1,9 +1,0 @@
-[
-    "oam.get-link",
-    "oam.get-sink",
-    "oam.get-sink-policy",
-    "oam.list-attached-links",
-    "oam.list-links",
-    "oam.list-sinks",
-    "oam.list-tags-for-resource"
-]

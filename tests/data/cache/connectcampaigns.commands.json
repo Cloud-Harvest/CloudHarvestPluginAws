@@ -1,9 +1,0 @@
-[
-    "connectcampaigns.describe-campaign",
-    "connectcampaigns.get-campaign-state",
-    "connectcampaigns.get-campaign-state-batch",
-    "connectcampaigns.get-connect-instance-config",
-    "connectcampaigns.get-instance-onboarding-job-status",
-    "connectcampaigns.list-campaigns",
-    "connectcampaigns.list-tags-for-resource"
-]

@@ -1,7 +1,0 @@
-[
-    "scheduler.get-schedule",
-    "scheduler.get-schedule-group",
-    "scheduler.list-schedule-groups",
-    "scheduler.list-schedules",
-    "scheduler.list-tags-for-resource"
-]

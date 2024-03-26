@@ -1,8 +1,0 @@
-[
-    "kinesis-video-archived-media.get-clip",
-    "kinesis-video-archived-media.get-dash-streaming-session-url",
-    "kinesis-video-archived-media.get-hls-streaming-session-url",
-    "kinesis-video-archived-media.get-images",
-    "kinesis-video-archived-media.get-media-for-fragment-list",
-    "kinesis-video-archived-media.list-fragments"
-]
