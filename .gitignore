@@ -131,4 +131,4 @@ dmypy.json
 *.tfstate
 *.terraform*
 .idea
-*.random.json
+tests/data/cache

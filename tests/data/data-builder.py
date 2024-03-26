@@ -149,6 +149,17 @@ def get_commands(service: str, no_cache: bool) -> list:
 
 
 def get_outputs(aws: str, service_command: str, count: int, no_cache: bool) -> tuple:
+    def safe_loads(s: (bytes, str)) -> dict:
+        try:
+            if isinstance(s, bytes):
+                return loads(s.decode('utf8'))
+
+            elif isinstance(s, str):
+                return loads(s)
+
+        except Exception as ex:
+            return {'error': ex.args, 'raw': s.decode('utf8')}
+
     service, command = service_command.split('.', maxsplit=1)
     from datetime import datetime, timezone
 
@@ -197,13 +208,6 @@ def get_outputs(aws: str, service_command: str, count: int, no_cache: bool) -> t
         output_raw, output_required = run_command(aws, service, command, '--region=us-east-1', '--generate-cli-skeleton', 'output')
         synopsis_raw, _ = run_command(aws, service, command, 'help')
 
-        def safe_loads(s: bytes) -> dict:
-            try:
-                return loads(s.decode('utf8'))
-
-            except Exception as ex:
-                return {}
-
         input_template = safe_loads(input_raw)
         output_json = safe_loads(output_raw)
 
@@ -248,8 +252,6 @@ def get_outputs(aws: str, service_command: str, count: int, no_cache: bool) -> t
                 },
                 'meta': {
                     'start': start_time,
-                    'end': datetime.now(tz=timezone.utc).timestamp(),
-                    'duration': datetime.now(tz=timezone.utc).timestamp() - start_time,
                     'service': service,
                     'type': type_from_command(command)
                 }
