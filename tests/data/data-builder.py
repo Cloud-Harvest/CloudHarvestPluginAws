@@ -224,7 +224,7 @@ def get_outputs(aws: str, service_command: str, count: int, no_cache: bool) -> t
             k for k in list(input_template.keys())
             if k not in ('Filters', 'MaxRecords', 'Marker')
         ]
-        possible_output_filter_key = [possible_output_filter_key[0]] if len(possible_output_filter_key) > 0 else ['']
+        possible_output_filter_key = possible_output_filter_key[0] if len(possible_output_filter_key) > 0 else ['']
 
         synopsis = synopsis_raw.decode('utf8').split('\n')
         template_required = []
@@ -335,7 +335,9 @@ def create_random_data(template: dict, count: int, service: str, service_type: s
 
         metadata = flatten(create_metadata(service=service,
                                            type=service_type,
-                                           filter_criteria=[] if primary_template_identifier is None else [primary_template_identifier]),
+                                           filter_criteria=[] if primary_template_identifier is None else [
+                                               primary_template_identifier
+                                           ]),
                            separator='.')
 
         r.update({f'result.0.Harvest.{k}': v for k, v in metadata.items()})
@@ -393,7 +395,7 @@ def create_metadata(service: str, type: str, account: str = None, region: str = 
         'Account': account or random.choice(_dummy_account_names),    # so we don't have too many possible account names
         'Region': region or random.choice(_dummy_region_names),       # so we don't have too many possible region names
         'Module': {
-            'FilterCriteria': filter_criteria or [''],
+            'FilterCriteria': list(set(['Account', 'Region'] + (filter_criteria or []))),  # Always include the account and geographic region here
             'Name': 'harvest-client-cli',
             'Repository': 'https://github.com/Cloud-Harvest/client-cli',
             'Version': version
