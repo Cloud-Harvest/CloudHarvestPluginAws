@@ -23,6 +23,7 @@ def main(aws: str, count: int, max_workers: int, no_cache: bool):
     from datetime import datetime, timezone
 
     start_time = datetime.now(tz=timezone.utc).timestamp()
+    print('starting...')
 
     from os.path import exists
     from os import mkdir
@@ -32,12 +33,13 @@ def main(aws: str, count: int, max_workers: int, no_cache: bool):
     from concurrent.futures import ThreadPoolExecutor, wait, ALL_COMPLETED
     with ThreadPoolExecutor(max_workers=max_workers) as pool:
         futures = [pool.submit(get_commands, service, no_cache) for service in get_services(no_cache=no_cache)]
-
+        print(f'generating commands for {len(futures)} services...')
         wait(futures, return_when=ALL_COMPLETED)
 
     commands = []
     [commands.extend(f.result()) for f in futures]
 
+    print('starting processes...')
     from concurrent.futures import ProcessPoolExecutor
     with ProcessPoolExecutor(max_workers=max_workers) as pool:
         futures = [pool.submit(get_outputs, aws, service_command, count, no_cache)
@@ -123,7 +125,7 @@ def get_commands(service: str, no_cache: bool) -> list:
     if exists(commands_cache_file) and no_cache is False:
         with open(commands_cache_file, 'r') as commands_cache:
             result = loads(commands_cache.read())
-            print(f'loaded: {commands_cache_file}')
+            # print(f'loaded: {commands_cache_file}')
 
     else:
         from subprocess import Popen, PIPE
@@ -141,7 +143,7 @@ def get_commands(service: str, no_cache: bool) -> list:
             elif read_commands is True and row != '' and not row.endswith('()'):
                 command = row.split(' ')[-1]
                 service_command = f'{service}.{command}'
-                print(service_command)
+                # print(service_command)
 
                 if any([command.startswith(s) for s in _data_gathering_command_prefixes]):
                     result.append(service_command)
@@ -280,7 +282,8 @@ def get_outputs(aws: str, service_command: str, count: int, no_cache: bool) -> t
                 random_output_stream.write('\n')
 
         except Exception as ex:
-            print(f'{service_command}: ERROR: ' + ' '.join(ex.args))
+            from traceback import format_exc
+            print(f'{service_command}: ERROR: ' + ' '.join(ex.args) + '\n' + format_exc())
 
         finally:
             pass
@@ -302,6 +305,9 @@ def get_outputs(aws: str, service_command: str, count: int, no_cache: bool) -> t
 
 def create_random_data(template: dict, count: int, service: str, service_type: str, primary_template_identifier: str = None) -> list:
     result = []
+
+    if len(template) == 0:
+        return [{}]
 
     import random
     import string
@@ -328,7 +334,19 @@ def create_random_data(template: dict, count: int, service: str, service_type: s
 
         r.update({f'result.0.Harvest.{k}': v for k, v in metadata.items()})
 
-        unflatten = unflatten_list(r, separator='.')['result']
+        # remove this top level object which breaks the unflatten process
+        for key in ['result', 'result.0']:
+            if r.get(key):
+                r.pop(key)
+
+        try:
+            unflatten = unflatten_list(r, separator='.')['result']
+
+        except Exception as ex:
+            print(f'ERROR: {ex.args}')
+            from pprint import pprint
+            pprint(r)
+            return [{}]
 
         if isinstance(unflatten, list):
             result.extend(unflatten)
