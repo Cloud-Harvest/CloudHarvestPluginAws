@@ -220,6 +220,11 @@ def get_outputs(aws: str, service_command: str, count: int, no_cache: bool) -> t
 
         result_key = [k for k in output_json.keys() if k.lower() not in _invalid_result_keys]
         result_key = result_key[0] if len(result_key) > 0 else None
+        possible_output_filter_key = [
+            k for k in list(input_template.keys())
+            if k not in ('Filters', 'MaxRecords', 'Marker')
+        ]
+        possible_output_filter_key = [possible_output_filter_key[0]] if len(possible_output_filter_key) > 0 else ['']
 
         synopsis = synopsis_raw.decode('utf8').split('\n')
         template_required = []
@@ -233,7 +238,7 @@ def get_outputs(aws: str, service_command: str, count: int, no_cache: bool) -> t
             if synopsis_found:
                 if line.strip().startswith('--'):
                     template_required.append(line.strip().split(' ')[0].replace('-', ''))
-                    template_required_inputs =[k for k in input_template.keys() if k.lower() in template_required]
+                    template_required_inputs = [k for k in input_template.keys() if k.lower() in template_required]
 
                 elif len(line.strip()) == 0:
                     break
@@ -255,7 +260,8 @@ def get_outputs(aws: str, service_command: str, count: int, no_cache: bool) -> t
                 'output': {
                     'template': {} if result_key == 'error' else output_json.get(result_key),
                     'required': output_required,
-                    'result_key': result_key
+                    'result_key': result_key,
+                    'possible_filter_key': possible_output_filter_key,
                 },
                 'meta': {
                     'service': service,
@@ -274,7 +280,7 @@ def get_outputs(aws: str, service_command: str, count: int, no_cache: bool) -> t
                 else:
                     random_data = create_random_data(template=output_json[result_key],
                                                      count=count,
-                                                     primary_template_identifier=input_template.get('primary_template_identifier'),
+                                                     primary_template_identifier=possible_output_filter_key or input_template.get('primary_template_identifier'),
                                                      service=service,
                                                      service_type=type_from_command(command)) if result_key != 'error' else []
 
@@ -306,7 +312,7 @@ def get_outputs(aws: str, service_command: str, count: int, no_cache: bool) -> t
 def create_random_data(template: dict, count: int, service: str, service_type: str, primary_template_identifier: str = None) -> list:
     result = []
 
-    if len(template) == 0:
+    if not isinstance(template, (dict, list)):
         return [{}]
 
     import random
