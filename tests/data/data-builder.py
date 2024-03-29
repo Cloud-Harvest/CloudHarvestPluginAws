@@ -11,9 +11,10 @@ _dummy_account_ids = ['123456789012', '234567890123', '345678901234', '456789012
 _dummy_region_names = ['us-east-1', 'us-west-2', 'eu-west-1', 'eu-central-1', 'ap-southeast-1']
 
 
-def main(aws: str, count: int, max_workers: int, no_cache: bool):
+def main(aws: str, count: int, max_workers: int, no_cache: bool, services: List[str] = []):
     """
     Converts API calls into test records and prints them to stdout.
+    :param services: AWS services to generate test records for
     :param aws: path to the aws cli tool
     :param count: the number of test records to create per service/type
     :param max_workers: maximum number of threads to run when creating test records
@@ -32,7 +33,7 @@ def main(aws: str, count: int, max_workers: int, no_cache: bool):
 
     from concurrent.futures import ThreadPoolExecutor, wait, ALL_COMPLETED
     with ThreadPoolExecutor(max_workers=max_workers) as pool:
-        futures = [pool.submit(get_commands, service, no_cache) for service in get_services(no_cache=no_cache)]
+        futures = [pool.submit(get_commands, service, no_cache) for service in services or get_services(no_cache=no_cache)]
         print(f'generating commands for {len(futures)} services...')
         wait(futures, return_when=ALL_COMPLETED)
 
@@ -187,19 +188,41 @@ def get_outputs(aws: str, service_command: str, count: int, no_cache: bool) -> t
         from json import loads
 
         def run_command(*args) -> tuple:
-            required = []
-            while True:
-                r = [f'{r}=""' for r in required]
-                c = ' '.join([*args, *r])
+            def build_required_parameters(r: str) -> str:
+                if any([True for s in ('count', 'hours', 'minutes', 'seconds') if r in s]):
+                    param_result = f'{r}=1'
 
-                process = Popen(args=[*args, *r], stdout=PIPE, stderr=PIPE)
-                output_raw = process.communicate()[0]
+                else:
+                    param_result = f'{r}=dummy'
+
+                return param_result
+
+            required = []
+            i = 0
+            while True:
+                i += 1
+                req_args = [
+                    build_required_parameters(r) for r in required
+                ]
+
+                merged_args = args + tuple(req_args)
+                c = ' '.join(merged_args)
+
+                process = Popen(args=merged_args, stdout=PIPE, stderr=PIPE)
+                output_raw = b'\n'.join(process.communicate())
+
+                if i >= 10:
+                    print(f'{c}: ERROR: too many retries')
+                    return b'', []
 
                 # RETRY: this command requires an input of some kind
                 if b'aws: error: the following arguments are required:' in output_raw:
                     from re import findall
-                    required = findall(b'--.*\\w', output_raw)
-                    print(f'{c}: WARN: added: {required}')
+                    required = [bytes(s).decode('utf8') for s in findall(b'--.*\\w', output_raw)]
+                    if required:
+                        required = [s.strip() for s in required[0].split(',')]
+
+                    # print(f'{c}: WARN: added: {required}')
                     continue
 
                 # ERROR: this command won't give us back a skeleton
@@ -386,28 +409,34 @@ def create_metadata(service: str, type: str, account: str = None, region: str = 
     with open('../../version', 'r') as version_file:
         version = version_file.read().strip()
 
-    import random
+    result = {}
+    try:
+        import random
 
-    result = {
-        'Platform': 'aws',
-        'Service': service,
-        'Type': type,
-        'Account': account or random.choice(_dummy_account_names),    # so we don't have too many possible account names
-        'Region': region or random.choice(_dummy_region_names),       # so we don't have too many possible region names
-        'Module': {
-            'FilterCriteria': list(set(['Account', 'Region'] + (filter_criteria or []))),  # Always include the account and geographic region here
-            'Name': 'harvest-client-cli',
-            'Repository': 'https://github.com/Cloud-Harvest/client-cli',
-            'Version': version
-        },
-        'Dates': {
-            'DeactivatedOn': '',
-            'LastSeen': random_date()
-        },
-        'Active': random_bool()
-    }
+        result = {
+            'Platform': 'aws',
+            'Service': service,
+            'Type': type,
+            'Account': account or random.choice(_dummy_account_names),
+            'Region': region or random.choice(_dummy_region_names),
+            'Module': {
+                # Always include the account and geographic region here
+                'FilterCriteria': list({'Harvest.Account', 'Harvest.Region', *filter_criteria}),
+                'Name': 'harvest-client-cli',
+                'Repository': 'https://github.com/Cloud-Harvest/client-cli',
+                'Version': version
+            },
+            'Dates': {
+                'DeactivatedOn': '',
+                'LastSeen': random_date()
+            },
+            'Active': random_bool()
+        }
+    except Exception as ex:
+        print(f'ERROR: {service}.{type}: {ex.args}')
 
-    return result
+    finally:
+        return result
 
 
 if __name__ == '__main__':
@@ -420,6 +449,7 @@ if __name__ == '__main__':
     parser.add_argument('-w', '--max-workers', default=16, type=int,
                         help='Number of data generation threads to run at once. (default: 16)')
     parser.add_argument('--no-cache', action='store_true', help='do not use the services or command cache')
+    parser.add_argument('--services', nargs='+', default=[], help='services to generate test data for, defaults to all')
 
     arguments = vars(parser.parse_args())
 
