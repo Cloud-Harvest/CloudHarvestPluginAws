@@ -192,6 +192,9 @@ def get_outputs(aws: str, service_command: str, count: int, no_cache: bool) -> t
                 if any([True for s in ('count', 'hours', 'minutes', 'seconds') if r in s]):
                     param_result = f'{r}=1'
 
+                elif 'arn' in r.lower():
+                    param_result = f'{r}=arn:aws:{service}:us-west-2:111122223333:dummy/dummy/dummy'
+
                 else:
                     param_result = f'{r}=dummy'
 
@@ -421,7 +424,7 @@ def create_metadata(service: str, type: str, account: str = None, region: str = 
             'Region': region or random.choice(_dummy_region_names),
             'Module': {
                 # Always include the account and geographic region here
-                'FilterCriteria': list({'Harvest.Account', 'Harvest.Region', *filter_criteria}),
+                'FilterCriteria': ['Harvest.Account', 'Harvest.Region'] + [f for f in filter_criteria],
                 'Name': 'harvest-client-cli',
                 'Repository': 'https://github.com/Cloud-Harvest/client-cli',
                 'Version': version
