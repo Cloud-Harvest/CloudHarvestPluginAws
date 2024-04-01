@@ -190,11 +190,13 @@ def get_outputs(aws: str, service_command: str, count: int, no_cache: bool) -> t
         def run_command(*args) -> tuple:
             def build_required_parameters(r: str) -> str:
                 if any([True for s in ('count', 'hours', 'minutes', 'seconds') if r in s]):
-                    param_result = f'{r}=1'
+                    param_result = f'{r}=60'
 
                 elif 'arn' in r.lower():
                     param_result = f'{r}=arn:aws:{service}:us-west-2:111122223333:dummy/dummy/dummy'
 
+                elif 'Time' in r:
+                    param_result = f'{r}=2020-01-01T00:00:00Z'
                 else:
                     param_result = f'{r}=dummy'
 
