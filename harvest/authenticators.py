@@ -1,4 +1,4 @@
-from tasks import BaseTask
+from tasks.base import BaseTask
 
 
 class AwsSamlAuthenticator(BaseTask):
