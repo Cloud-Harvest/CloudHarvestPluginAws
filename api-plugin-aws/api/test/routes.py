@@ -8,3 +8,4 @@ test_pb = Blueprint(
 @test_pb.route('/test/aws')
 def test_route():
     return jsonify('Successful Test Route')
+
