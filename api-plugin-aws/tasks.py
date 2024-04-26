@@ -1,4 +1,4 @@
-from tasks.base import BaseTask
+from core import BaseTask
 
 
 class AwsTask(BaseTask):
