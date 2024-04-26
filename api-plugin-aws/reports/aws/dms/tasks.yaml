@@ -1,2 +1,23 @@
 description: |
-  Describes the properties of DMS Tasks.
+  This report provides information on DMS Replication Tasks across all regions and accounts.
+
+tasks:
+  - cache_aggregate:
+      name: get dms replication tasks
+      result_as: result
+      collection: aws.dms.replication_tasks
+      headers:
+        - Active
+        - Account
+        - Region
+        - Task
+        - Status
+        - Created
+      pipeline:
+        - $project:
+            Active: "$Harvest.Active"
+            Account: "$Harvest.Account"
+            Region: "$Harvest.Region"
+            Task: "$ReplicationTaskIdentifier"
+            Status: "$Status"
+            Created: "$ReplicationTaskCreationDate"

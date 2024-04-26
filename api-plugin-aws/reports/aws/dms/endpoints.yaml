@@ -1,0 +1,25 @@
+description: |
+  This report provides information on DMS Endpoints across all regions and accounts.
+
+tasks:
+  - cache_aggregate:
+      name: get dms endpoints
+      result_as: result
+      collection: aws.dms.endpoints
+      headers:
+        - Active
+        - Account
+        - Region
+        - Endpoint
+        - EndpointType
+        - EngineName
+        - Status
+      pipeline:
+        - $project:
+            Active: "$Harvest.Active"
+            Account: "$Harvest.Account"
+            Region: "$Harvest.Region"
+            Endpoint: "$EndpointIdentifier"
+            EndpointType: "$EndpointType"
+            EngineName: "$EngineName"
+            Status: "$Status"

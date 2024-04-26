@@ -1,0 +1,25 @@
+description: |
+  This report provides information on RDS Events across all regions and accounts.
+
+tasks:
+  - cache_aggregate:
+      name: get rds events
+      result_as: result
+      collection: aws.rds.events
+      headers:
+        - Date
+        - Active
+        - Account
+        - Region
+        - SourceIdentifier
+        - SourceType
+        - Message
+      pipeline:
+        - $project:
+            Date: "$Date"
+            Active: "$Harvest.Active"
+            Account: "$Harvest.Account"
+            Region: "$Harvest.Region"
+            SourceIdentifier: "$SourceIdentifier"
+            SourceType: "$SourceType"
+            Message: "$Message"
