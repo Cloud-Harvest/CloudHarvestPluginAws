@@ -238,6 +238,7 @@ def get_first_file(*args) -> str:
     """
     Get the first file which exists from a list of paths.
     """
+
     from os.path import abspath, isfile, expanduser, exists
 
     for path in args:
@@ -249,6 +250,10 @@ def get_first_file(*args) -> str:
 
 
 def run_command(*args) -> List[str]:
+    """
+    Run a command and return the output as a list of lines.
+    """
+    
     from subprocess import run, PIPE
 
     result = run(args=args, stdout=PIPE, stderr=PIPE, text=True)
