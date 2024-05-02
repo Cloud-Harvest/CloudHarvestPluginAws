@@ -1,8 +1,7 @@
 boto3
-flask
 flatten-json
+pexpect
 pymongo
-pytest
 pyyaml
 rich
 rich-argparse
