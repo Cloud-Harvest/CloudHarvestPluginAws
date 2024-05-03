@@ -7,3 +7,5 @@ pymongo
 rich
 rich-argparse
 setuptools
+git+ssh://git@github.com/Cloud-Harvest/CloudHarvestCoreTasks.git
+git+ssh://git@github.com/Cloud-Harvest/CloudHarvestCoreDataModel.git
