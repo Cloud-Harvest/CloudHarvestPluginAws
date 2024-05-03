@@ -1,8 +1,8 @@
-# from core.tasks import BaseTask
+from cloud_harvest_core_tasks.base import BaseTask
 from botocore.exceptions import ClientError
 
 
-class AwsTask:
+class AwsTask(BaseTask):
     """
     AwsTask is a class for managing AWS tasks. It provides a way to interact with AWS services using boto3.
 

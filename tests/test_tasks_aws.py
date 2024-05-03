@@ -1,5 +1,5 @@
 import unittest
-from tasks import get_nested_values
+from cloud_harvest_plugin_aws.tasks import get_nested_values
 
 
 class TestGetNestedValues(unittest.TestCase):
