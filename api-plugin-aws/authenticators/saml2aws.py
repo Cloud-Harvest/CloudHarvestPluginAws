@@ -2,11 +2,12 @@
 from typing import List
 from logging import getLogger
 from concurrent.futures import ProcessPoolExecutor
+from authenticators.functions import write_credentials
 
 logger = getLogger('harvest')
 
 
-class AwsSamlAuthenticator:
+class AwsSamlAuthenticatorTask:
     """
     This class is used to authenticate with AWS using SAML.
 
@@ -31,7 +32,7 @@ class AwsSamlAuthenticator:
                  *args,
                  **kwargs):
         """
-        Initialize the AwsSamlAuthenticator.
+        Initialize the AwsSamlAuthenticatorTask.
 
         Args:
             binary_file (str): The path to the saml2aws binary.
@@ -67,7 +68,7 @@ class AwsSamlAuthenticator:
         if not all([self.username, self.password]):
             raise ValueError('Username and password are required for authentication.')
 
-    def __enter__(self):
+    def __enter__(self) -> 'AwsSamlAuthenticatorTask':
         """
         Enter context manager.
         """
@@ -95,16 +96,16 @@ class AwsSamlAuthenticator:
         from os.path import join
 
         file_locations = [
-            '~/.harvest/api/plugins/api-plugin-aws/saml2aws.conf',
-            '/etc/harvest.d/api/plugins/api-plugin-aws/saml2aws.conf',
-            f'{join(__file__, "..", "saml2aws.conf")}',
+            '~/.harvest/api/plugins/api-plugin-aws/saml2aws.config',
+            '/etc/harvest.d/api/plugins/api-plugin-aws/saml2aws.config',
+            f'{join(__file__, "..", "saml2aws.config")}',
         ]
 
         file_locations = args if args else [] + file_locations
 
         return get_first_file(*file_locations)
 
-    def _list_roles(self):
+    def _list_roles(self) -> List[str]:
         """
         List the roles that the user can assume.
 
@@ -123,13 +124,9 @@ class AwsSamlAuthenticator:
         roles = run_command(*args)
         return roles
 
-    def _login(self):
+    def _login(self) -> 'AwsSamlAuthenticatorTask':
         """
         Login to AWS and generate the tokens.
-
-        Args:
-            args (tuple): The arguments for the login command.
-            kwargs (dict): The keyword arguments for the login command.
         """
 
         def _generate_tokens_worker_thread(role: str) -> dict:
@@ -174,6 +171,9 @@ class AwsSamlAuthenticator:
                 role.split('/')[-1].lower()
             ])
 
+            from dateutil.parser import parse
+            saml2aws_output['Expiration'] = parse(saml2aws_output['Expiration']).isoformat()
+
             return saml2aws_output
 
         # Map the roles to the ProcessPoolExecutor
@@ -187,54 +187,20 @@ class AwsSamlAuthenticator:
 
         self.results = login_results
 
-        return self.results
+        return self
 
-    def _write_credentials(self):
-        """
-        Writes the AWS credentials to a specified output path.
-
-        This method takes a list of dictionaries containing AWS credentials and writes them to a file specified by the output_path attribute. Each dictionary in the list represents a set of credentials for a specific AWS profile.
-        """
-
-        from configparser import ConfigParser
-
-        # Create a new ConfigParser object
-        config = ConfigParser()
-
-        # Iterate over the login results
-        for result in self.results:
-            # Get the profile name from the result
-            profile = result['Profile']
-
-            # Add a new section to the ConfigParser for this profile
-            # and set the AWS credentials in this section
-            config[profile] = {
-                'aws_access_key_id': result['AccessKeyId'],
-                'aws_secret_access_key': result['SecretAccess'],
-                'aws_session_token': result['SessionToken'],
-                'expiration': result['Expiration'],
-            }
-
-        # Open the output file in write mode
-        with open(self.output_path, 'w') as configfile:
-            # Write the configuration to the file
-            config.write(configfile)
-
-        # Log the number of credentials written to the file
-        logger.debug(f'Wrote {len(self.results)} credentials to {self.output_path}')
-
-    def run(self):
+    def run(self) -> 'AwsSamlAuthenticatorTask':
         self._list_roles()
         self._login()
 
         if self.output_path:
             # Write the credentials to the output path
-            self._write_credentials()
+            write_credentials(self.results, self.output_path)
 
-        return self.results
+        return self
 
 
-def get_first_file(*args) -> str:
+def get_first_file(*args) -> str or None:
     """
     Get the first file which exists from a list of paths.
     """
@@ -255,7 +221,6 @@ def run_command(*args) -> List[str]:
     """
     
     from subprocess import run, PIPE
-
     result = run(args=args, stdout=PIPE, stderr=PIPE, text=True)
 
     return result.stdout.splitlines() or result.stderr.splitlines()
