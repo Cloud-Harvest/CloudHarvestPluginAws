@@ -1,0 +1,41 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "CloudHarvestPluginAws"
+version = "0.1.0"
+description = "This is the AWS Plugin for CloudHarvest."
+authors = ["Cloud Harvest", "Fiona June Leathers"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/Cloud-Harvest/CloudHarvestPluginAws"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.12",
+]
+
+[tool.poetry.urls]
+Source = "https://github.com/Cloud-Harvest/CloudHarvestPluginAws"
+
+[tool.poetry.scripts]
+cloudharvestpluginaws = "install_saml2aws:main"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+Flask = "*"
+PyYAML = "*"
+boto3 = "*"
+flatten-json = "*"
+pexpect = "*"
+pymongo = "*"
+requests = "*"
+rich = "*"
+rich-argparse = "*"
+setuptools = "*"
+CloudHarvestCoreTasks = { git = "https://github.com/Cloud-Harvest/CloudHarvestCoreTasks.git" }
+CloudHarvestCoreDataModel = { git = "https://github.com/Cloud-Harvest/CloudHarvestCoreDataModel.git" }
+
+[tool.poetry.dev-dependencies]
