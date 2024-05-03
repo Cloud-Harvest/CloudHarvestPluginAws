@@ -452,9 +452,9 @@ if __name__ == '__main__':
     parser.add_argument('-c', '--count', default=10,
                         help='Number of test records to create per service. (default: 10)')
     parser.add_argument('-w', '--max-workers', default=16, type=int,
-                        help='Number of data generation threads to run at once. (default: 16)')
+                        help='Number of simple_data generation threads to run at once. (default: 16)')
     parser.add_argument('--no-cache', action='store_true', help='do not use the services or command cache')
-    parser.add_argument('--services', nargs='+', default=[], help='services to generate test data for, defaults to all')
+    parser.add_argument('--services', nargs='+', default=[], help='services to generate test simple_data for, defaults to all')
 
     arguments = vars(parser.parse_args())
 
