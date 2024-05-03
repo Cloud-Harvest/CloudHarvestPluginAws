@@ -1,7 +1,8 @@
+PyYAML
 boto3
 flatten-json
 pexpect
 pymongo
-pyyaml
 rich
 rich-argparse
+setuptools
