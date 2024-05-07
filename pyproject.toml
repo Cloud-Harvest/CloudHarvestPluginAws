@@ -7,7 +7,7 @@ name = "CloudHarvestPluginAws"
 version = "0.1.0"
 description = "This is the AWS Plugin for CloudHarvest."
 authors = ["Cloud Harvest", "Fiona June Leathers"]
-license = "MIT"
+license = "CC Attribution-NonCommercial-ShareAlike 4.0 International"
 readme = "README.md"
 homepage = "https://github.com/Cloud-Harvest/CloudHarvestPluginAws"
 classifiers = [
@@ -17,6 +17,9 @@ classifiers = [
     "Programming Language :: Python :: 3.12",
 ]
 
+[[tool.poetry.packages]]
+include = "CloudHarvestPluginAws"
+
 [tool.poetry.urls]
 Source = "https://github.com/Cloud-Harvest/CloudHarvestPluginAws"
 
@@ -24,7 +27,7 @@ Source = "https://github.com/Cloud-Harvest/CloudHarvestPluginAws"
 cloudharvestpluginaws = "install_saml2aws:main"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = ">=3.10"
 Flask = "*"
 PyYAML = "*"
 boto3 = "*"
