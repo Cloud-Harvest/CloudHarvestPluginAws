@@ -1,4 +1,4 @@
-from cloud_harvest_core_tasks.base import BaseTask
+from CloudHarvestCoreTasks.base import BaseTask
 from botocore.exceptions import ClientError
 
 

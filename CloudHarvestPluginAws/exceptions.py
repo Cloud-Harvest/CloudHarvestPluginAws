@@ -1,4 +1,4 @@
-from cloud_harvest_core_tasks.exceptions import BaseHarvestException
+from CloudHarvestCoreTasks.exceptions import BaseHarvestException
 
 
 class HarvestAwsException(BaseHarvestException):
