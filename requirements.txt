@@ -1,0 +1,13 @@
+CloudHarvestCoreDataModel @ git+https://github.com/Cloud-Harvest/CloudHarvestCoreDataModel.git@main
+CloudHarvestCoreTasks @ git+https://github.com/Cloud-Harvest/CloudHarvestCoreTasks.git@main
+Flask
+PyYAML
+boto3
+flatten-json
+pexpect
+pymongo
+pytest
+requests
+rich
+rich-argparse
+setuptools
