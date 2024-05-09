@@ -1,28 +1,31 @@
-description: |
-  This report provides information on DMS instances across all regions and accounts.
+report:
+  description: |
+    This report provides information on DMS instances across all regions and accounts.
 
-tasks:
-  - cache_aggregate:
-      name: get dms instances
-      result_as: result
-      collection: aws.dms.instances
-      headers:
-        - Active
-        - Account
-        - Region
-        - Instance
-        - Engine
-        - EngineVersion
-        - Class
-        - Created
-      pipeline:
-        - $project:
-            Active: "$Harvest.Active"
-            Account: "$Harvest.Account"
-            Region: "$Harvest.Region"
-            Cluster: "$DBClusterIdentifier"
-            Instance: "DBInstanceIdentifier"
-            Engine: 1
-            EngineVersion: 1
-            Class: "$DBInstanceClass"
-            Created: "$InstanceCreateTime"
+  headers:
+    - Active
+    - Account
+    - Region
+    - Instance
+    - Engine
+    - EngineVersion
+    - Class
+    - Created
+
+  tasks:
+    - cache_aggregate:
+        name: get dms instances
+        result_as: result
+        collection: aws.dms.instances
+
+        pipeline:
+          - $project:
+              Active: "$Harvest.Active"
+              Account: "$Harvest.Account"
+              Region: "$Harvest.Region"
+              Cluster: "$DBClusterIdentifier"
+              Instance: "DBInstanceIdentifier"
+              Engine: 1
+              EngineVersion: 1
+              Class: "$DBInstanceClass"
+              Created: "$InstanceCreateTime"

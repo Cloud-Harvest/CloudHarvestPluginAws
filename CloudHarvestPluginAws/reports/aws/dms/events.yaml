@@ -1,24 +1,27 @@
-description: |
-  This report provides information on DMS Events across all regions and accounts.
+report:
+  description: |
+    This report provides information on DMS Events across all regions and accounts.
 
-tasks:
-  - cache_aggregate:
-      name: get dms events
-      result_as: result
-      collection: aws.dms.events
-      headers:
-        - Date
-        - Account
-        - Region
-        - SourceIdentifier
-        - SourceType
-        - Message
-      pipeline:
-        - $project:
-            Active: "$Harvest.Active"
-            Date: "$Date"
-            Account: "$Harvest.Account"
-            Region: "$Harvest.Region"
-            SourceIdentifier: "$SourceIdentifier"
-            SourceType: "$SourceType"
-            Message: "$Message"
+  headers:
+    - Date
+    - Account
+    - Region
+    - SourceIdentifier
+    - SourceType
+    - Message
+
+  tasks:
+    - cache_aggregate:
+        name: get dms events
+        result_as: result
+        collection: aws.dms.events
+
+        pipeline:
+          - $project:
+              Active: "$Harvest.Active"
+              Date: "$Date"
+              Account: "$Harvest.Account"
+              Region: "$Harvest.Region"
+              SourceIdentifier: "$SourceIdentifier"
+              SourceType: "$SourceType"
+              Message: "$Message"

@@ -1,28 +1,30 @@
-description: |
-  This report provides information on RDS clusters across all regions and accounts.
+report:
+  description: |
+    This report provides information on RDS clusters across all regions and accounts.
 
-tasks:
-  - cache_aggregate:
-      name: get rds clusters
-      result_as: result
-      collection: aws.rds.db_clusters
-      headers:
-        - Active
-        - Account
-        - Region
-        - Cluster
-        - Members
-        - Engine
-        - EngineVersion
-        - Created
-      pipeline:
-        - $project:
-            Active: "$Harvest.Active"
-            Account: "$Harvest.Account"
-            Region: "$Harvest.Region"
-            Cluster: "$DBClusterIdentifier"
-            Members:
-              $size: "$DBClusterMembers"
-            Engine: 1
-            EngineVersion: 1
-            Created: "$ClusterCreateTime"
+  headers:
+    - Active
+    - Account
+    - Region
+    - Cluster
+    - Members
+    - Engine
+    - EngineVersion
+    - Created
+
+  tasks:
+    - cache_aggregate:
+        name: get rds clusters
+        result_as: result
+        collection: aws.rds.db_clusters
+        pipeline:
+          - $project:
+              Active: "$Harvest.Active"
+              Account: "$Harvest.Account"
+              Region: "$Harvest.Region"
+              Cluster: "$DBClusterIdentifier"
+              Members:
+                $size: "$DBClusterMembers"
+              Engine: 1
+              EngineVersion: 1
+              Created: "$ClusterCreateTime"
