@@ -22,4 +22,10 @@ config = dict(name='CloudHarvestPluginAws',
                   ],
               })
 
-setup(**config)
+
+def main():
+    setup(**config)
+
+
+if __name__ == '__main__':
+    main()
