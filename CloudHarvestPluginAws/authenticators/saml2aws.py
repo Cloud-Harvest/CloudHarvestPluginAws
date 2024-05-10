@@ -2,7 +2,7 @@
 from typing import List
 from logging import getLogger
 from concurrent.futures import ProcessPoolExecutor
-from authenticators.functions import write_credentials
+from .functions import write_credentials
 
 logger = getLogger('harvest')
 
