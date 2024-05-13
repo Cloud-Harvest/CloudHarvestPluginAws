@@ -5,7 +5,8 @@ with open('requirements.txt') as f:
     requirements = f.read().splitlines()
 
 config = dict(packages=find_packages(include=['CloudHarvestPluginAws', 'CloudHarvestPluginAws.*']),
-              install_requires=requirements)
+              install_requires=requirements,
+              include_package_data=True)
 
 config = config | meta
 
