@@ -4,7 +4,7 @@ from CloudHarvestPluginAws.meta import meta
 with open('requirements.txt') as f:
     requirements = f.read().splitlines()
 
-config = dict(packages=find_packages(include=['CloudHarvestPluginAws']),
+config = dict(packages=find_packages(include=['CloudHarvestPluginAws', 'CloudHarvestPluginAws.*']),
               install_requires=requirements)
 
 config = config | meta
