@@ -69,7 +69,7 @@ class AwsTask(BaseTask):
         # Initialize parent class again
         super().__init__(*args, **kwargs)
 
-    def run(self):
+    def method(self):
         """
         Executes the command on the AWS service and stores the result.
 
