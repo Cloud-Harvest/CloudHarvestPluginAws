@@ -1,13 +1,18 @@
 from setuptools import setup, find_packages
-from CloudHarvestPluginAws.meta import meta
 
+# load the metadata from the meta.json file
+with open('meta.json') as meta_file_stream:
+    from json import load
+    meta = load(meta_file_stream)
+
+# load requirements from requirements.txt
 with open('requirements.txt') as f:
-    requirements = f.read().splitlines()
+    required = f.read().splitlines()
 
 config = dict(packages=find_packages(include=['CloudHarvestPluginAws', 'CloudHarvestPluginAws.*']),
-              install_requires=requirements,
               package_data={'CloudHarvestPluginAws': ['reports/**/*.yaml']},
-              include_package_data=True)
+              include_package_data=True,
+              install_requires=required)
 
 config = config | meta
 
