@@ -1,4 +1,5 @@
-# from core.tasks import BaseTask
+from CloudHarvestCoreTasks.base import BaseAuthenticationTask
+from CloudHarvestCorePluginManager.decorators import register_definition
 from typing import List
 from logging import getLogger
 from concurrent.futures import ProcessPoolExecutor
@@ -7,7 +8,8 @@ from .functions import write_credentials
 logger = getLogger('harvest')
 
 
-class AwsSamlAuthenticatorTask:
+@register_definition
+class AwsSamlAuthenticatorTask(BaseAuthenticationTask):
     """
     This class is used to authenticate with AWS using SAML.
 

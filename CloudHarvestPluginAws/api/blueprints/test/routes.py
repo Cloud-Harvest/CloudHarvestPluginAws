@@ -1,6 +1,8 @@
-from flask import Blueprint, jsonify
+from api.blueprints.base import HarvestBlueprint
+from flask import jsonify
 
-test_pb = Blueprint(
+
+test_pb = HarvestBlueprint(
     'test_bp', __name__
 )
 

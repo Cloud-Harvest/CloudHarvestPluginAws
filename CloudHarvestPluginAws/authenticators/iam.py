@@ -1,3 +1,5 @@
+from CloudHarvestCorePluginManager.decorators import register_definition
+
 class AssumedRoles:
     roles = {}
 
@@ -34,6 +36,7 @@ class AssumedRoles:
         AssumedRoles.roles = {}
 
 
+@register_definition
 class AssumeRoleTask:
     """
     This class is used to assume an AWS IAM role. It takes an account number, role name, profile, and region as inputs.

@@ -1,7 +1,9 @@
 from CloudHarvestCoreTasks.base import BaseTask
+from CloudHarvestCorePluginManager.decorators import register_definition
 from botocore.exceptions import ClientError
 
 
+@register_definition
 class AwsTask(BaseTask):
     """
     AwsTask is a class for managing AWS tasks. It provides a way to interact with AWS services using boto3.
