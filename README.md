@@ -6,41 +6,18 @@ This repository contains the AWS plugin for the CloudHarvest API. This plugin is
 - [Usage](#Usage)
 - [License](#License)
 
-# Usage
-```yaml
-task_chain:
-  
-  tasks:
-    # Stage 1: collect data from the BOTO3 API
-    - aws:
-        name: 'aws'
-        description: 'Get information about the AWS account'
-        result_as: boto_result
-        service: rds
-        command: describe_db_instances
-        arguments:
-          - DBInstanceIdentifier: 'mydbinstance'
-          - Filters:
-              - Name: 'db-instance-id'
-                Values:
-                  - 'mydbinstance'
+# Documentation
+In addition to the [CHANGELOG](CHANGELOG.md) and [LICENSE](LICENSE), this repository contains the following documentation:
 
-    # Stage 2: modify the data by converting it into a HarvestRecordSet
-    # RecordSetTask from https://github.com/Cloud-Harvest/CloudHarvestCoreDataModel/
-    - recordset:
-        name: 'recordset'
-        description: 'Modify the AWS data into a recordset'
-        result_as: recordset
-        recordset_name: boto_result
-        function: modify_records
-        arguments:
-          function: key_value_list_to_dict
-          arguments:
-            source_key: Tags
+| Topic                                                            | Description                                                          |
+|------------------------------------------------------------------|----------------------------------------------------------------------|
+| [API](CloudHarvestPluginAws/api/README.md)                       | Describes API endpoints provided by this plugin.                     |
+| [Authenticators](CloudHarvestPluginAws/authenticators/README.md) | Describes the authentication methods available for this plugin.      |
+| [Commands](CloudHarvestPluginAws/commands/README.md)             | Discusses the CLI command line arguments available for this plugin.  |
+| [Reports](CloudHarvestPluginAws/reports/README.md)               | Overview of the report format and how to write new reports.          |
+| [Services](CloudHarvestPluginAws/services/README.md)             | Describes the AWS services collected and how to author new services. |
 
-        
 
-```
 
 # License
 Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
