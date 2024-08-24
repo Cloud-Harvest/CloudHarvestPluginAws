@@ -10,7 +10,12 @@ with open('requirements.txt') as f:
     required = f.read().splitlines()
 
 config = dict(packages=find_packages(include=['CloudHarvestPluginAws', 'CloudHarvestPluginAws.*']),
-              package_data={'CloudHarvestPluginAws': ['reports/**/*.yaml']},
+              package_data={
+                  'CloudHarvestPluginAws': [
+                      'reports/**/*.yaml',
+                      'services/**/*.yaml',
+                  ]
+              },
               include_package_data=True,
               install_requires=required)
 

@@ -1,39 +1,56 @@
-from typing import List
 from logging import getLogger
+from typing import List
 
 logger = getLogger('harvest')
 
 
-def write_credentials(results: List[dict], output_path):
+
+
+
+def aws_role_arn_from_profile(profile: str) -> str:
     """
-    Writes the AWS credentials to a specified output path.
+    Get the AWS role ARN from the profile_name.
 
-    This method takes a list of dictionaries containing AWS credentials and writes them to a file specified by the output_path attribute. Each dictionary in the list represents a set of credentials for a specific AWS profile.
+    Args:
+        profile (str): The AWS profile_name profile_name.
     """
 
-    from configparser import ConfigParser
+    from boto3 import Session
 
-    # Create a new ConfigParser object
-    config = ConfigParser()
+    session = Session(profile_name=profile)
 
-    # Iterate over the login results
-    for result in results:
-        # Get the profile name from the result
-        profile = result['Profile']
+    client = session.client('sts')
+    response = client.get_caller_identity()
 
-        # Add a new section to the ConfigParser for this profile
-        # and set the AWS credentials in this section
-        config[profile] = {
-            'aws_access_key_id': result['AccessKeyId'],
-            'aws_secret_access_key': result['SecretAccess'],
-            'aws_session_token': result['SessionToken'],
-            'expiration': result['Expiration'],
-        }
+    return response['Arn']
 
-    # Open the output file in write mode
-    with open(output_path, 'w') as configfile:
-        # Write the configuration to the file
-        config.write(configfile)
 
-    # Log the number of credentials written to the file
-    logger.debug(f'Wrote {len(results)} credentials to {output_path}')
+
+
+
+def get_role_duration(requesting_profile: str, target_role_arn: str) -> int:
+    """
+    Get the role duration.
+
+    Args:
+        requesting_profile (dict): The requesting role.
+        target_role_arn (str): The target role ARN.
+
+    Example:
+        >>> get_role_duration(requesting_profile='harvest-role',
+        >>>                   target_role_arn='arn:aws:iam::123456789012:role/harvest-role')
+    """
+
+    from tasks import AwsTask
+    request = AwsTask(profile=requesting_profile,
+                      region=None,
+                      service='iam',
+                      command='get_role',
+                      arguments={
+                          'RoleName': target_role_arn.split('/')[-1]
+                      },
+                      result_key='Role')
+
+    response = request.run().data.get('MaxSessionDuration')
+
+    return response
