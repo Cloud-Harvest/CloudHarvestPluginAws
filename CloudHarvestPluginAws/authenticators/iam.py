@@ -26,9 +26,9 @@ class Credentials:
             override_profile_name (str, optional): The profile name to use instead of the credential's profile name. Default is None.
         """
 
-        # If the profile name is not set, look up the role ARN.
-        if not credential.profile_name:
-            credential.lookup_role_arn()
+        credential.lookup_role_arn()
+        credential.lookup_account_name()
+        credential.lookup_duration()
 
         # If the override_profile_name is not provided, use the credential's profile name.
         profile_name = override_profile_name or credential.profile_name
@@ -282,6 +282,32 @@ class Credential:
 
         finally:
             return None
+
+    def lookup_account_name(self, requestor: dict = None) -> str:
+        """
+            Returns an account's human-friendly name. If the account_name is already set, it will be returned. Otherwise,
+            the account name will be fetched from the AWS API.
+        """
+        if self.account_name:
+            return self.account_name
+
+        from boto3 import Session
+
+        session = Session(**self.boto_session_map or requestor)
+
+        client = session.client('iam')
+
+        try:
+            response = client.list_account_aliases()[0]
+
+        except Exception as e:
+            logger.error(f'Failed to get account name: {e}')
+            self.exception = e
+
+        else:
+            self.account_name = response
+
+        return self.account_name
 
     def lookup_credentials(self,
                            requesting_profile_name: str = None,
