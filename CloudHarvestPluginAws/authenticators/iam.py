@@ -34,8 +34,13 @@ class Credentials:
         profile_name = override_profile_name or credential.profile_name
 
         Credentials.index['by_profile_name'][profile_name] = credential
-        Credentials.index['by_account_id'][credential.account_id] = credential
         Credentials.index['by_arn'][credential.aws_role_arn] = credential
+
+        if credential.account_id not in Credentials.index['by_account_id'].get(credential.account_id, []):
+            Credentials.index['by_account_id'][credential.account_id] = []
+
+        Credentials.index['by_account_id'][credential.account_id].append(credential)
+
 
     @staticmethod
     def clear():
@@ -75,9 +80,10 @@ class Credentials:
             del Credentials.index['by_arn'][credential.aws_role_arn]
 
     @staticmethod
-    def get(profile_name: str = None, account_id: str = None, arn: str = None) -> 'Credential':
+    def get(profile_name: str = None, account_id: str = None, arn: str = None) -> 'Credential' or List['Credential']:
         """
-        Get a credential from the index.
+        Get a credential from the index. Calls to this function using `profile_name` or `arn` will return a single
+        credential. Calls using `account_id` will return a list of all credentials for that account.
 
         Args:
             profile_name (str, optional): The profile name. Default is None.
