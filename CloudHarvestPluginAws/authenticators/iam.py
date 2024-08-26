@@ -344,7 +344,7 @@ class Credential:
                 return self.boto_session_map
 
 
-    def lookup_duration(self, requestor: dict) -> int:
+    def lookup_duration(self, requestor: dict = None) -> int:
         """
         Look up the role duration. If the role duration is not set, the duration is fetched from the AWS API and set.
         """
@@ -353,7 +353,7 @@ class Credential:
         if not self.aws_role_duration_seconds:
             try:
                 from boto3 import Session
-                session = Session(**Credentials.get(**requestor).boto_session_map)
+                session = Session(**Credentials.get(**requestor or self.boto_session_map).boto_session_map)
                 client = session.client('iam')
                 result = client.get_role(RoleName=self.role_name).get('Role').get('MaxSessionDuration')
 
