@@ -4,6 +4,7 @@ import os
 from configparser import ConfigParser
 from ..CloudHarvestPluginAws.authenticators.file import read_aws_configuration_file, write_aws_configuration_file
 
+
 class TestAWSConfigurationFunctions(unittest.TestCase):
 
     def setUp(self):
@@ -72,7 +73,7 @@ class TestAWSConfigurationFunctions(unittest.TestCase):
         }
 
         # Write the modified data to the temporary file
-        write_aws_configuration_file(self.temp_file.name, modified_data)
+        write_aws_configuration_file(aws_config=modified_data, aws_config_file=self.temp_file.name)
 
         # Read the configuration from the temporary file
         config = read_aws_configuration_file(self.temp_file.name)

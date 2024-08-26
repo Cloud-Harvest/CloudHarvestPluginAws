@@ -1,4 +1,7 @@
-def read_aws_configuration_file(aws_config_file: str, profile_regex: str = None) -> dict:
+from os.path import abspath
+
+
+def read_aws_configuration_file(aws_config_file: str = '~/.aws/credentials', profile_regex: str = None) -> dict:
     """
     Read the AWS configuration file and return the configuration as a dictionary.
 
@@ -7,22 +10,26 @@ def read_aws_configuration_file(aws_config_file: str, profile_regex: str = None)
         profile_regex (str, optional): A regular expression to filter the profiles. If not provided, all profiles are returned.
     """
 
+    from os.path import abspath, expanduser
     from configparser import ConfigParser
+
     config = ConfigParser()
-    config.read(aws_config_file)
+    config.read(abspath(expanduser(aws_config_file)))
+
+    config_dict = {section: dict(config.items(section)) for section in config.sections()}
 
     if profile_regex:
         from re import compile
         regex = compile(profile_regex)
-        result = {k:v for k, v in config.items() if regex.match(k)}
+        result = {k: v for k, v in config_dict.items() if regex.match(k)}
 
     else:
-        result = config
+        result = config_dict
 
     return result
 
 
-def write_aws_configuration_file(aws_config_file: str, aws_config: dict, preserve_other_credentials: bool = True):
+def write_aws_configuration_file(aws_config: dict, aws_config_file: str = '~/.aws/credentials', preserve_other_credentials: bool = True):
     """
     Write the AWS configuration to the configuration file.
 
@@ -38,9 +45,10 @@ def write_aws_configuration_file(aws_config_file: str, aws_config: dict, preserv
     else:
         output_config = {k: v for k, v in aws_config.items() if k.startswith('harvest_') or k == 'default'}
 
+    from os.path import abspath, expanduser
     from configparser import ConfigParser
     config = ConfigParser()
     config.read_dict(output_config)
 
-    with open(aws_config_file, 'w') as file:
+    with open(abspath(expanduser(aws_config_file)), 'w') as file:
         config.write(file)

@@ -364,7 +364,7 @@ class Credential:
         return self.account_id
 
 
-def lookup_assumable_roles(profile_name = 'default') -> List[str]:
+def lookup_assumable_roles(profile_name='default') -> List[str]:
     """
     Look up the assumable roles for a profile. This function is intended to work with the default role attached to an
     EC2 instance or similar AWS service which can assume roles. Once the assumable roles are found, use the
