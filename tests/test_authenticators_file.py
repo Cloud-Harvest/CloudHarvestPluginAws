@@ -2,7 +2,7 @@ import unittest
 import tempfile
 import os
 from configparser import ConfigParser
-from ..CloudHarvestPluginAws.authenticators.functions import read_aws_configuration_file, write_aws_configuration_file
+from ..CloudHarvestPluginAws.authenticators.file import read_aws_configuration_file, write_aws_configuration_file
 
 class TestAWSConfigurationFunctions(unittest.TestCase):
 
