@@ -203,7 +203,12 @@ class Credential:
 
     @property
     def has_credentials(self) -> bool:
-        return self.aws_access_key_id and self.aws_secret_access_key
+        """
+        Check if the credentials have been set. The credentials are considered set if the aws_access_key_id and
+        aws_secret_access_key are set.
+        """
+
+        return bool(self.aws_access_key_id and self.aws_secret_access_key)
 
     @property
     def is_expired(self) -> bool or None:
@@ -222,6 +227,10 @@ class Credential:
 
         elif self.aws_role_duration_seconds and self.token_create_datetime:
             return self.token_create_datetime + self.aws_role_duration_seconds < datetime.now(timezone.utc)
+
+        elif self.exception:
+            # When an exception is set, the credentials are considered expired.
+            return True
 
         else:
             return False
@@ -303,6 +312,9 @@ class Credential:
                 response = client.assume_role(RoleArn=self.aws_role_arn,
                                               RoleSessionName='harvest-session',
                                               DurationSeconds=self.aws_role_duration_seconds or i_max_seconds)
+
+                #
+                self.exception = None
 
             except Exception as e:
                 logger.error(f'Failed to assume role: {e}')
