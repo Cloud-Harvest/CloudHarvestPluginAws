@@ -163,6 +163,8 @@ class Credential:
         self.requestor = None
         self.auto_refresh = False
 
+        self.exception = None
+
         # Set the attributes from the keyword arguments.
         for key, value in kwargs.items():
             if hasattr(self, key):
@@ -309,6 +311,10 @@ class Credential:
                 i += 1
                 i_max_seconds = max_duration_seconds / (i * 3600)
 
+                if i == retries:
+                    self.exception = e
+                    break
+
                 # Wait before retrying to mitigate rate limiting.
                 from time import sleep
                 sleep(.5)
@@ -333,14 +339,20 @@ class Credential:
 
         # Only look up the role duration if it is not set.
         if not self.aws_role_duration_seconds:
-            from boto3 import Session
-            session = Session(**Credentials.get(**requestor).boto_session_map)
-            client = session.client('iam')
-            result = client.get_role(RoleName=self.role_name).get('Role').get('MaxSessionDuration')
+            try:
+                from boto3 import Session
+                session = Session(**Credentials.get(**requestor).boto_session_map)
+                client = session.client('iam')
+                result = client.get_role(RoleName=self.role_name).get('Role').get('MaxSessionDuration')
 
-            self.aws_role_duration_seconds = result
+                self.aws_role_duration_seconds = result
 
-        return self.aws_role_duration_seconds
+            except Exception as e:
+                logger.error(f'Failed to get role duration: {e}')
+                self.exception = e
+
+            finally:
+                return self.aws_role_duration_seconds
 
     def lookup_role_arn(self) -> str:
         """
@@ -356,10 +368,17 @@ class Credential:
         session = Session(**self.boto_session_map)
 
         client = session.client('sts')
-        response = client.get_caller_identity()
 
-        self.account_id = response['Account']
-        self.aws_role_arn = response['Arn']
+        try:
+            response = client.get_caller_identity()
+
+        except Exception as e:
+            logger.error(f'Failed to get role ARN: {e}')
+            self.exception = e
+
+        else:
+            self.account_id = response['Account']
+            self.aws_role_arn = response['Arn']
 
         return self.account_id
 
