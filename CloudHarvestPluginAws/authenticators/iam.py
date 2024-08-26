@@ -26,10 +26,6 @@ class Credentials:
             override_profile_name (str, optional): The profile name to use instead of the credential's profile name. Default is None.
         """
 
-        credential.lookup_role_arn()
-        credential.lookup_account_name()
-        credential.lookup_duration()
-
         # If the override_profile_name is not provided, use the credential's profile name.
         profile_name = override_profile_name or credential.profile_name
 
@@ -375,7 +371,12 @@ class Credential:
                 self.aws_secret_access_key = response['Credentials']['SecretAccessKey']
                 self.aws_secret_expiration = response['Credentials']['Expiration']
                 self.token_create_datetime = datetime.now(timezone.utc)
-                self.requestor = requesting_profile_name
+                self.requestor = Credentials.get(profile_name=requesting_profile_name)
+
+                # Gather additional information about the role.
+                self.lookup_role_arn()
+                self.lookup_account_name()
+                self.lookup_duration()
 
                 return self.boto_session_map
 
