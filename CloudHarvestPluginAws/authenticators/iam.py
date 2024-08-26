@@ -33,13 +33,17 @@ class Credentials:
         # If the override_profile_name is not provided, use the credential's profile name.
         profile_name = override_profile_name or credential.profile_name
 
-        Credentials.index['by_profile_name'][profile_name] = credential
-        Credentials.index['by_arn'][credential.aws_role_arn] = credential
+        if profile_name:
+            Credentials.index['by_profile_name'][profile_name] = credential
 
-        if credential.account_id not in Credentials.index['by_account_id'].get(credential.account_id, []):
-            Credentials.index['by_account_id'][credential.account_id] = []
+        if credential.aws_role_arn:
+            Credentials.index['by_arn'][credential.aws_role_arn] = credential
 
-        Credentials.index['by_account_id'][credential.account_id].append(credential)
+        if credential.account_id:
+            if credential.account_id not in Credentials.index['by_account_id'].get(credential.account_id, []):
+                Credentials.index['by_account_id'][credential.account_id] = []
+
+            Credentials.index['by_account_id'][credential.account_id].append(credential)
 
 
     @staticmethod
