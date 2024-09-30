@@ -1,8 +1,6 @@
 from logging import getLogger
 from typing import List
 
-from pygments.lexers.sql import name_between_bracket_re
-
 logger = getLogger('harvest')
 
 class Credentials:
