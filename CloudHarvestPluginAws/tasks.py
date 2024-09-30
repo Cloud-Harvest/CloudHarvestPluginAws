@@ -3,13 +3,13 @@ from CloudHarvestCorePluginManager.decorators import register_definition
 from botocore.exceptions import ClientError
 
 
-@register_definition
+@register_definition(name='aws')
 class AwsTask(BaseTask):
     """
     AwsTask is a class for managing AWS tasks. It provides a way to interact with AWS services using boto3.
 
     Attributes:
-        profile (str): The AWS profile to use for the session.
+        credentials (str): The AWS profile_name to use for the session.
         region (str): The AWS region to use for the session.
         service (str): The AWS service to interact with.
         command (str): The command to execute on the AWS service.
@@ -27,8 +27,8 @@ class AwsTask(BaseTask):
     """
 
     def __init__(self,
-                 profile: str,
-                 region: str,
+                 credentials: dict,
+                 region: str or None,
                  service: str,
                  command: str,
                  arguments: dict,
@@ -41,8 +41,8 @@ class AwsTask(BaseTask):
         Constructs all the necessary attributes for the AwsTask object.
 
         Args:
-            profile (str): The AWS profile to use for the session.
-            region (str): The AWS region to use for the session.
+            profile (dict): Either the `{profile_name: 'profile_name'}` or `{access_key: 'aws_access_key_id', aws_secret_access_key, 'aws_session_token'}`.
+            region (str): The AWS region to use for the session. Sometimes None when the service does not require a region.
             service (str): The AWS service to interact with.
             command (str): The command to execute on the AWS service.
             arguments (dict): The arguments to pass to the command.
@@ -53,8 +53,8 @@ class AwsTask(BaseTask):
         # Initialize parent class
         super().__init__(*args, **kwargs)
 
-        # Set the AWS profile, region, service, command, and arguments
-        self.profile = profile
+        # Set the AWS profile_name, region, service, command, and arguments
+        self.credentials = credentials
         self.region = region
         self.service = service
         self.command = command
@@ -84,8 +84,9 @@ class AwsTask(BaseTask):
         # Import the Session class from boto3
         from boto3 import Session
 
-        # Create a new session with the specified profile
-        session = Session(profile_name=self.profile)
+        # Create a new session with either the `{profile_name: 'profile_name'}` (for credentials already provisioned) or
+        # `{access_key: 'aws_access_key_id', aws_secret_access_key, 'aws_session_token'}` (for temporary credentials)
+        session = Session(**self.credentials)
 
         # Create a client for the specified service in the specified region
         client = session.client(service_name=self.service, region_name=self.region)
@@ -159,6 +160,23 @@ class AwsTask(BaseTask):
         self.result = result
 
         # Return the instance of the AwsTask
+        return self
+
+    def on_complete(self) -> 'BaseTask':
+        """
+        This method is called when the task is completed. It returns the instance of the task.
+
+        Returns:
+            BaseTask: Returns the instance of the task.
+        """
+
+        # Convert the result to a HarvestRecordSet (for further modification)
+        from CloudHarvestCoreTasks.data_model.recordset import HarvestRecordSet
+        self.result = HarvestRecordSet(self.result)
+
+        # Call the parent class on_complete() to set status and runtime completion
+        super().on_complete()
+
         return self
 
 

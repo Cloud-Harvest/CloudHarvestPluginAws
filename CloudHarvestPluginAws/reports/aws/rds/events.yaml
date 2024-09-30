@@ -12,10 +12,12 @@ report:
     - Message
 
   tasks:
-    - cache_aggregate:
+    - auger:
         name: get rds events
         result_as: result
         collection: aws.rds.events
+        user_filters:
+          accepted: '*'
 
         pipeline:
           - $project:

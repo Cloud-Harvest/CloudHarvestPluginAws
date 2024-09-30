@@ -12,10 +12,12 @@ report:
     - Status
 
   tasks:
-    - cache_aggregate:
+    - mongo:
         name: get dms endpoints
         result_as: result
         collection: aws.dms.endpoints
+        user_filters:
+          accepted: '*'
 
         pipeline:
           - $project:

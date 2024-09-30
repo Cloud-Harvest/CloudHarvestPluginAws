@@ -11,10 +11,12 @@ report:
     - Created
 
   tasks:
-    - cache_aggregate:
+    - mongo:
         name: get dms replication tasks
         result_as: result
         collection: aws.dms.replication_tasks
+        user_filters:
+          accepted: '*'
 
         pipeline:
           - $project:

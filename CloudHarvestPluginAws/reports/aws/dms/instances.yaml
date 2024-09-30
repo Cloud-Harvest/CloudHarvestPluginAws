@@ -13,10 +13,12 @@ report:
     - Created
 
   tasks:
-    - cache_aggregate:
+    - mongo:
         name: get dms instances
         result_as: result
         collection: aws.dms.instances
+        user_filters:
+          accepted: '*'
 
         pipeline:
           - $project:
