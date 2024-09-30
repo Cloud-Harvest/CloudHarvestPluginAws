@@ -11,10 +11,12 @@ report:
     - Message
 
   tasks:
-    - cache_aggregate:
+    - mongo:
         name: get dms events
         result_as: result
         collection: aws.dms.events
+        user_filters:
+          accepted: '*'
 
         pipeline:
           - $project:

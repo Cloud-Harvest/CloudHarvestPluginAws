@@ -9,7 +9,7 @@ class AwsTask(BaseTask):
     AwsTask is a class for managing AWS tasks. It provides a way to interact with AWS services using boto3.
 
     Attributes:
-        profile (str): The AWS profile_name to use for the session.
+        credentials (str): The AWS profile_name to use for the session.
         region (str): The AWS region to use for the session.
         service (str): The AWS service to interact with.
         command (str): The command to execute on the AWS service.
@@ -27,7 +27,7 @@ class AwsTask(BaseTask):
     """
 
     def __init__(self,
-                 profile: str,
+                 credentials: dict,
                  region: str or None,
                  service: str,
                  command: str,
@@ -41,7 +41,7 @@ class AwsTask(BaseTask):
         Constructs all the necessary attributes for the AwsTask object.
 
         Args:
-            profile (str): The AWS profile_name to use for the session.
+            profile (dict): Either the `{profile_name: 'profile_name'}` or `{access_key: 'aws_access_key_id', aws_secret_access_key, 'aws_session_token'}`.
             region (str): The AWS region to use for the session. Sometimes None when the service does not require a region.
             service (str): The AWS service to interact with.
             command (str): The command to execute on the AWS service.
@@ -54,7 +54,7 @@ class AwsTask(BaseTask):
         super().__init__(*args, **kwargs)
 
         # Set the AWS profile_name, region, service, command, and arguments
-        self.profile = profile
+        self.credentials = credentials
         self.region = region
         self.service = service
         self.command = command
@@ -84,8 +84,9 @@ class AwsTask(BaseTask):
         # Import the Session class from boto3
         from boto3 import Session
 
-        # Create a new session with the specified profile_name
-        session = Session(profile_name=self.profile)
+        # Create a new session with either the `{profile_name: 'profile_name'}` (for credentials already provisioned) or
+        # `{access_key: 'aws_access_key_id', aws_secret_access_key, 'aws_session_token'}` (for temporary credentials)
+        session = Session(**self.credentials)
 
         # Create a client for the specified service in the specified region
         client = session.client(service_name=self.service, region_name=self.region)

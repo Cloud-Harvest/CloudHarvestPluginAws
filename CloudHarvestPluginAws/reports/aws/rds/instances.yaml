@@ -14,10 +14,13 @@ report:
     - Created
 
   tasks:
-    - cache_aggregate:
+    - auger:
         name: get rds instances
         result_as: result
         collection: aws.rds.db_instances
+        user_filters:
+          accepted: '*'
+
         pipeline:
           - $project:
               Active: "$Harvest.Active"

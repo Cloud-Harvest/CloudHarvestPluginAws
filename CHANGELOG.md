@@ -1,3 +1,8 @@
+# 0.1.4
+- Updates to conform to CloudHarvestCoreTasks 4.0
+- Implemented AWS IAM authentication
+- `AwsTask` now accepts `credentials`
+
 # 0.1.3
 - Update to conform with 
   - CloudHarvestCorePluginManager 0.2.4

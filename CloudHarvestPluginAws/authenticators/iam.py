@@ -1,11 +1,13 @@
 from logging import getLogger
 from typing import List
 
+from pygments.lexers.sql import name_between_bracket_re
+
 logger = getLogger('harvest')
 
 class Credentials:
     """
-    An index of AwsCredentials. The index is used to quickly find credentials by profile name, account ID, or ARN.
+    An index of AwsCredentials. The index is used to quickly find credentials by credentials name, account ID, or ARN.
     """
 
     index = {
@@ -23,10 +25,10 @@ class Credentials:
 
         Args:
             credential (Credential): The credential to add.
-            override_profile_name (str, optional): The profile name to use instead of the credential's profile name. Default is None.
+            override_profile_name (str, optional): The credentials name to use instead of the credential's credentials name. Default is None.
         """
 
-        # If the override_profile_name is not provided, use the credential's profile name.
+        # If the override_profile_name is not provided, use the credential's credentials name.
         profile_name = override_profile_name or credential.profile_name
 
         if profile_name:
@@ -59,7 +61,7 @@ class Credentials:
         Delete a credential from all indexes.
 
         Args:
-            profile_name (str, optional): The profile name. Default is None.
+            profile_name (str, optional): The credentials name. Default is None.
             account_id (str, optional): The account ID. Default is None.
             arn (str, optional): The ARN. Default is None.
         """
@@ -86,13 +88,13 @@ class Credentials:
         credential. Calls using `account_id` will return a list of all credentials for that account.
 
         Args:
-            profile_name (str, optional): The profile name. Default is None.
+            profile_name (str, optional): The credentials name. Default is None.
             account_id (str, optional): The account ID. Default is None.
             arn (str, optional): The ARN. Default is None.
         """
 
         result = None
-        # Look up the credential by profile name, account ID, or ARN. Return the first matching index.
+        # Look up the credential by credentials name, account ID, or ARN. Return the first matching index.
         if profile_name and Credentials.index['by_profile_name'].get(profile_name):
             result = Credentials.index['by_profile_name'].get(profile_name)
 
@@ -147,7 +149,7 @@ class Credential:
         boto_session_map (dict): The Boto3 session map for the credentials.
         has_credentials (bool): Check if the credentials have been set.
         is_expired (bool): Check if the credentials are expired.
-        profile_name (str): The profile name for the credentials.
+        profile_name (str): The credentials name for the credentials.
         role_name (str): The role name for the credentials.
     """
     def __init__(self, **kwargs):
@@ -244,7 +246,7 @@ class Credential:
     @property
     def profile_name(self) -> str or None:
         """
-        The profile name for the credentials is generated from a lowercase representation of the account name and role ARN.
+        The credentials name for the credentials is generated from a lowercase representation of the account name and role ARN.
 
         If the account_name or aws_role_arn is not set, the profile_name is None.
 
@@ -254,7 +256,7 @@ class Credential:
             >>> credential.account_name = 'MyAccount'
             >>> credential.aws_role_arn = 'arn:aws:iam::123456789012:role/MyRole'
             >>>
-            >>> # Get the profile name.
+            >>> # Get the credentials name.
             >>> credential.profile_name
             >>> 'harvest-myaccount-myrole'
         """
@@ -311,11 +313,11 @@ class Credential:
                            max_duration_seconds: int = 43200,
                            retries: int = 12) -> dict:
         """
-        Get the role credentials. When no requesting profile or credentials are provided, the default profile / system IAM
+        Get the role credentials. When no requesting credentials or credentials are provided, the default credentials / system IAM
         role is used.
 
         Args:
-            requesting_profile_name (str, optional): The requesting profile name. Default is None.
+            requesting_profile_name (str, optional): The requesting credentials name. Default is None.
             requesting_credentials (Credential, optional): The requesting credentials. Default is None.
             max_duration_seconds (int, optional): The maximum duration in seconds. Default is 43200.
             retries (int, optional): The number of retries. Default is 12.
@@ -323,23 +325,22 @@ class Credential:
 
         from boto3 import Session
 
-        # Make the request using a profile stored in the AWS configuration file.
-        if requesting_profile_name:
-            session = Session(profile_name=requesting_profile_name)
+        session_credentials = {'profile_name': requesting_profile_name} or requesting_credentials.boto_session_map
 
-        # Make the request using the provided credentials.
-        elif requesting_credentials:
-            session = Session(**requesting_credentials.boto_session_map)
+        for key, value in session_credentials.items():
+            if getattr(self, key) == value:
+                return self.boto_session_map
 
-        # Make the request using the default profile.
-        else:
-            session = Session()
+        session = Session(**session_credentials)
 
         i = 0
         i_max_seconds = max_duration_seconds
 
         while i < retries:
             try:
+                if not self.aws_role_arn:
+                    break
+
                 client = session.client('sts')
                 response = client.assume_role(RoleArn=self.aws_role_arn,
                                               RoleSessionName='harvest-session',
@@ -353,7 +354,7 @@ class Credential:
 
                 # Increment the retry counter and calculate the new duration to attempt.
                 i += 1
-                i_max_seconds = max_duration_seconds / (i * 3600)
+                i_max_seconds = int((retries - i)  * 3600)
 
                 if i == retries:
                     self.exception = e
@@ -434,12 +435,12 @@ class Credential:
 
 def lookup_assumable_roles(profile_name='default') -> List[str]:
     """
-    Look up the assumable roles for a profile. This function is intended to work with the default role attached to an
+    Look up the assumable roles for a credentials. This function is intended to work with the default role attached to an
     EC2 instance or similar AWS service which can assume roles. Once the assumable roles are found, use the
     lookup_credentials method to assume the role and get the tokens.
 
     Args:
-        profile_name (str, optional): The profile name. Default is 'default'.
+        profile_name (str, optional): The credentials name. Default is 'default'.
 
     Example:
         >>> # This example follows the code chain necessary to get the credentials from an EC2 instance, then assume
