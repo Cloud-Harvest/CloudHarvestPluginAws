@@ -1,3 +1,7 @@
+# 0.1.5
+- Updated to CloudHarvestCorePluginManager 0.3.1
+- Updates to conform to CloudHarvestCoreTasks 4.1
+
 # 0.1.4
 - Updates to conform to CloudHarvestCoreTasks 4.0
 - Implemented AWS IAM authentication
