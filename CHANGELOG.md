@@ -1,6 +1,6 @@
 # 0.1.5
 - Updated to CloudHarvestCorePluginManager 0.3.1
-- Updates to conform to CloudHarvestCoreTasks 4.1
+- Updates to conform to CloudHarvestCoreTasks 4.2
 
 # 0.1.4
 - Updates to conform to CloudHarvestCoreTasks 4.0

@@ -5,12 +5,11 @@ harvest:
   collection: clusters
 
   # tasks to collect all clusters
-  all:
-    tasks:
+  tasks:
+    all:
       - aws: &describe_db_clusters
           name: Retrieve RDS Clusters
           description: Retrieve all RDS clusters
-          service: rds
           command: describe_db_clusters
           result_as: clusters
 
@@ -26,11 +25,10 @@ harvest:
                 target_key: Tags
                 preserve_original: False
 
+    # tasks to collect a single cluster
+    single:
+      - <<: *describe_db_clusters
+        arguments:
+          DBClusterIdentifier: var.DBClusterIdentifier
 
-  # tasks to collect a single cluster
-  single:
-    - <<: *describe_db_clusters
-      arguments:
-        DBClusterIdentifier: "{{ DBClusterIdentifier }}"
-
-    - <<: *update_tags
+      - <<: *update_tags

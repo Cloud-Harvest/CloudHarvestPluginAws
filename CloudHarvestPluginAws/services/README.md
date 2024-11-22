@@ -1,14 +1,51 @@
-# Cloud Harvest Plugin AWS - Services
-In this documentation, the services provided by the Cloud Harvest Plugin AWS are described as well as the method of creating new Service Tasks.
+# Services
 
-# License
-Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+# File Format
+For file names, use the following format: `provider.service.type.py`.  As an example, `aws.ec2.instances.py` would be 
+the file name for a service that interacts with AWS EC2 instances.
 
-This work is licensed under a
-[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
+# Service File Structure
+Each service file should begin with the `harvest` keyword and a description of the service, followed by the configurations
+for that service.
 
-[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+```yaml
+harvest:
+  name: AWS EC2 Instances
+  description: This service harvests data from AWS EC2 instances
+  platform: aws
+  service: ec2
+  type: instances
+  
+  tasks:
+    all:
+      # Gather the ec2 instances from AWS
+      - aws:  &describe_instances
+          name: Retrieve Instances 
+          command: describe_instances
+          result_key: Reservations
+          result_as: describe_instances_result
+          unique_identifier_keys: 
+              - InstanceId
 
-[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
-[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
-[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
+      - recordset:  &modify_records
+          name: Modify Records
+          description: Change the records to a more usable format
+          result_as: unwound_instances
+          stages:
+              # Creates one record for each instance
+              - unwind:
+                  source_key: Instances
+            
+              # Convert the tags to a dict
+              - key_value_list_to_dict:
+                  source_key: Tags
+
+    single:  
+      - <<: *describe_instances
+        arguments:
+            instance_ids: 
+                - var.record.InstanceId
+
+      - <<: *modify_records
+
+```
