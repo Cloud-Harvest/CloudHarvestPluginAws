@@ -1,1 +1,1 @@
-from aws.commandset import AwsCommand
+from CloudHarvestPluginAws.commands.aws.commandset import AwsCommand

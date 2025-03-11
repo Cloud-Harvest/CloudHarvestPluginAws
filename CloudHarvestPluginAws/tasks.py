@@ -132,7 +132,7 @@ class AwsTask(BaseTask):
 
         # If a result key is specified, extract the result using the key
         if self.result_key:
-            from CloudHarvestCoreTasks.helpers import get_nested_values
+            from CloudHarvestCoreTasks.functions import get_nested_values
             result = get_nested_values(self.result_key, result)
 
         # Otherwise, extract the result using the first key that is not 'Marker' or 'NextToken'

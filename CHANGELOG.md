@@ -1,3 +1,8 @@
+# 0.2.0
+- Updated to conform with CloudHarvestCoreTasks 0.6.0
+- Updated standard which places all report/service templates into the 'templates' directory
+- Imports are now absolute
+
 # 0.1.5
 - Updated to CloudHarvestCorePluginManager 0.3.1
 - Updates to conform to CloudHarvestCoreTasks 4.2

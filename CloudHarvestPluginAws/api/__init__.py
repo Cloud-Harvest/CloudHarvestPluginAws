@@ -1,1 +1,1 @@
-from blueprints.test.routes import test_pb
+from CloudHarvestPluginAws.api.blueprints.test.routes import test_pb

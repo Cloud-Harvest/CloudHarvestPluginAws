@@ -14,10 +14,8 @@ In addition to the [CHANGELOG](CHANGELOG.md) and [LICENSE](LICENSE), this reposi
 | [API](CloudHarvestPluginAws/api/README.md)                       | Describes API endpoints provided by this plugin.                     |
 | [Authenticators](CloudHarvestPluginAws/authenticators/README.md) | Describes the authentication methods available for this plugin.      |
 | [Commands](CloudHarvestPluginAws/commands/README.md)             | Discusses the CLI command line arguments available for this plugin.  |
-| [Reports](CloudHarvestPluginAws/reports/README.md)               | Overview of the report format and how to write new reports.          |
-| [Services](CloudHarvestPluginAws/services/README.md)             | Describes the AWS services collected and how to author new services. |
-
-
+| [Reports](CloudHarvestPluginAws/templates/reports/README.md)     | Overview of the report format and how to write new reports.          |
+| [Services](CloudHarvestPluginAws/templates/services/README.md)   | Describes the AWS services collected and how to author new services. |
 
 # License
 Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
