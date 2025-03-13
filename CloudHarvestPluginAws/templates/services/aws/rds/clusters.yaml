@@ -1,5 +1,5 @@
 harvest:
-  name: Retrieve RDS Clusters
+  name: RDS Clusters
   description: Retrieve information about RDS clusters
   service: rds
   collection: clusters
@@ -13,17 +13,16 @@ harvest:
           command: describe_db_clusters
           result_as: clusters
 
-      - recordset: &update_tags
+      - dataset: &update_tags
           name: Update Tags
           description: Update the tags to use a dict format
           data: var.clusters
           stages:
-            - key_value_list_to_dict:
+            - convert_list_of_dict_to_dict:
                 source_key: TagList
-                name_key: Name
-                value_key: Value
                 target_key: Tags
-                preserve_original: False
+#                name_key: Name       # Default value
+#                value_key: Value     # Default value
 
     # tasks to collect a single cluster
     single:

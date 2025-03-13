@@ -1,10 +1,8 @@
 # CloudHarvestPluginAws
 This repository contains the AWS plugin for the CloudHarvest API. This plugin is responsible for interfacing with the AWS API and providing data to the CloudHarvest API.
 
-# Table of Contents
-- [CloudHarvestPluginAws](#CloudHarvestPluginAws)
-- [Usage](#Usage)
-- [License](#License)
+- [Documentation](#documentation)
+- [License](#license)
 
 # Documentation
 In addition to the [CHANGELOG](CHANGELOG.md) and [LICENSE](LICENSE), this repository contains the following documentation:
