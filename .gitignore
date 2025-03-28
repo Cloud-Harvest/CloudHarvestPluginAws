@@ -132,3 +132,4 @@ dmypy.json
 *.terraform*
 tests/data/cache
 poetry.lock
+.idea/
