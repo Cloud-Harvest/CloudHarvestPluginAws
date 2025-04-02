@@ -1,69 +1,56 @@
 from CloudHarvestCoreTasks.tasks import BaseTask
 from CloudHarvestCorePluginManager.decorators import register_definition
+
 from botocore.exceptions import ClientError
 
 
 @register_definition(name='aws', category='task')
 class AwsTask(BaseTask):
-    """
-    AwsTask is a class for managing AWS tasks. It provides a way to interact with AWS services using boto3.
-
-    Attributes:
-        credentials (str): The AWS profile_name to use for the session.
-        region (str): The AWS region to use for the session.
-        service (str): The AWS service to interact with.
-        command (str): The command to execute on the AWS service.
-        arguments (dict): The arguments to pass to the command.
-        result_key (str, optional): The key to use to extract the result from the response. If a period-delimited key is
-                                    provided, the function get_nested_values will be used to extract the desired subkey.
-                                    When not provided, the first key that is not 'Marker' or 'NextToken' will be used.
-        list_result_as_key (str, optional): When the result is a list, each list item will be transformed into a
-                                            dictionary with this key.
-        max_retries (int, optional): The maximum number of retries for the command. Defaults to 10.
-        result: The result of the command execution.
-
-    Methods:
-        run(): Executes the command on the AWS service and stores the result.
-    """
-
     def __init__(self,
-                 credentials: dict,
-                 region: str or None,
                  service: str,
+                 type: str,
+                 account: str,
+                 region: str or None,
                  command: str,
                  arguments: dict,
-                 result_key: str = None,
+                 result_path: str = None,
                  list_result_as_key: str = None,
                  max_retries: int = 10,
+                 role: str = None,
                  *args,
                  **kwargs):
         """
         Constructs all the necessary attributes for the AwsTask object.
 
         Args:
-            profile (dict): Either the `{profile_name: 'profile_name'}` or `{access_key: 'aws_access_key_id', aws_secret_access_key, 'aws_session_token'}`.
+            service (str): The AWS service to interact with (e.g., 's3', 'ec2').
+            type (str): The type of the AWS service (e.g., 's3', 'ec2').
+            account (str): The AWS number to use for the session.
             region (str): The AWS region to use for the session. Sometimes None when the service does not require a region.
-            service (str): The AWS service to interact with.
+            role (str): The AWS role to use for the session.
             command (str): The command to execute on the AWS service.
             arguments (dict): The arguments to pass to the command.
-            result_key (str, optional): The key to use to extract the result from the response.
-            list_result_as_key (str, optional): The key to use to list the result if the result is a list.
+            result_path (str, optional): Path to the results. When not provided, the path is the first key that is not 'Marker' or 'NextToken'.
+            list_result_as_key (str, optional): Converts a list result into a dictionary whose key is the value of this argument for each item.
             max_retries (int, optional): The maximum number of retries for the command. Defaults to 10.
         """
         # Initialize parent class
         super().__init__(*args, **kwargs)
 
         # Set the AWS profile_name, region, service, command, and arguments
-        self.credentials = credentials
-        self.region = region
         self.service = service
+        self.type = type
+        self.account = account
+        self.region = region
+        self.role = role
         self.command = command
         self.arguments = arguments or {}
-
-        # Set the result key, list result as key, and max retries
-        self.result_key = result_key
+        self.result_path = result_path
         self.list_result_as_key = list_result_as_key
         self.max_retries = max_retries
+
+        # Programmatic attributes
+        self.account_alias = None
 
         # Initialize parent class again
         super().__init__(*args, **kwargs)
@@ -78,19 +65,28 @@ class AwsTask(BaseTask):
         Returns:
             self: Returns the instance of the AwsTask.
         """
+
+        from CloudHarvestPluginAws.credentials import CachedProfiles, get_credentials
+
         # Import the Session class from boto3
         from boto3 import Session
 
         # Create a new session with either the `{profile_name: 'profile_name'}` (for credentials already provisioned) or
         # `{access_key: 'aws_access_key_id', aws_secret_access_key, 'aws_session_token'}` (for temporary credentials)
-        session = Session(**self.credentials)
+        session = Session(**get_credentials(account_number=self.account, role_name=self.role))
+
+        # Set the account_alias attribute
+        self.account_alias = CachedProfiles.profiles[self.account]['account_alias']
 
         # Create a client for the specified service in the specified region
         client = session.client(service_name=self.service, region_name=self.region)
 
         # Initialize the result and attempt counter
-        result = None
         attempt = 0
+
+        # Make sure the command exists in the client before making any attempts
+        if not hasattr(client, self.command):
+            raise Exception(f'Command `{self.command}` not found in service `{self.service}`')
 
         # Start a loop to execute the command
         while True:
@@ -123,17 +119,17 @@ class AwsTask(BaseTask):
 
                 # If the error is due to any other reason, raise it
                 else:
-                    raise
+                    raise e.args
 
-            # After the try/except block, check if a result was returned
-            finally:
-                if result is None:
-                    raise Exception('No result returned')
+            # # After the try/except block, check if a result was returned
+            # finally:
+            #     if result is None:
+            #         raise Exception('No result returned')
 
         # If a result key is specified, extract the result using the key
-        if self.result_key:
-            from CloudHarvestCoreTasks.functions import get_nested_values
-            result = get_nested_values(self.result_key, result)
+        if self.result_path:
+            from CloudHarvestCoreTasks.dataset import WalkableDict
+            result = WalkableDict(result).walk(self.result_path)
 
         # Otherwise, extract the result using the first key that is not 'Marker' or 'NextToken'
         else:
