@@ -1,0 +1,25 @@
+harvest:
+  name: LightSail Instances
+  description: Retrieve information about LightSail instances
+  service: rds
+  collection: instances
+
+  # tasks to collect all instances
+  tasks:
+    all:
+      - aws:
+          name: Retrieve LightSail instances
+          description: Retrieve all LightSail instances
+          command: get_instances
+          result_as: instances
+
+
+    # tasks to collect a single instance
+    single:
+      - aws:
+          name: Retrieve LightSail instance
+          description: Retrieve a single LightSail instance
+          command: get_instance
+          result_as: instance
+          arguments:
+            DBInstanceIdentifier: var.DBInstanceIdentifier
