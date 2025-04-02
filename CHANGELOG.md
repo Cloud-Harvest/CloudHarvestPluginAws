@@ -1,13 +1,12 @@
-# 0.3.0
-- Removed the `authenticators` directory and its files to avoid confusion pending future implementation
-- Updated the `AwsTask` to accept a true `PSTAR` configuration and self-populate/cache credentials
-- Added the `credentials` file which performs `sts-assume-role` operations and caches profile information
-- Added some `lightsail` reports/services to the `templates` directory
-
 # 0.2.0
 - Updated to conform with CloudHarvestCoreTasks 0.6.0
 - Updated standard which places all report/service templates into the 'templates' directory
 - Imports are now absolute
+- Removed the `authenticators` directory and its files to avoid confusion pending future implementation
+- Updated the `AwsTask` to accept a true `PSTAR` configuration and self-populate/cache credentials
+- Added the `credentials` file which performs `sts-assume-role` operations and caches profile information
+- Added some `lightsail` reports/services to the `templates` directory
+- Added `tests`
 
 # 0.1.5
 - Updated to CloudHarvestCorePluginManager 0.3.1
