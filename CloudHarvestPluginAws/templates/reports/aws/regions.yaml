@@ -1,0 +1,25 @@
+report:
+  description: Generates a list of all AWS regions
+  headers:
+    - Region
+    - Status
+
+  tasks:
+    - aws:
+        name: Retrieve information on AWS regions
+        result_as: aws_regions
+        service: account
+        type: regions
+        account: var.account
+        role: env.platforms.aws.accounts.role
+        command: list_regions
+
+    - dataset:
+        name: modify the result
+        data: var.aws_regions
+        result_as: result
+        stages:
+          - rename_keys:
+              mapping:
+                RegionName: Region
+                RegionOptStatus: Status

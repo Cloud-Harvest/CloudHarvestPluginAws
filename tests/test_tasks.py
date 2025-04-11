@@ -23,11 +23,11 @@ class TestAwsTask(unittest.TestCase):
         task = AwsTask(
             name='Test AwsTask',
             description='Test AwsTask',
-            service='iam',
-            type='role',
+            service='account',
+            type='region',
             account=self.account_number,
             region=self.account_region,
-            command='list_roles',
+            command='list_regions',
             arguments={},
             role=self.account_role
     )
