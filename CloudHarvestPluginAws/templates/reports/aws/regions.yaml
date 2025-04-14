@@ -11,7 +11,7 @@ report:
         service: account
         type: regions
         account: var.account
-        role: env.platforms.aws.accounts.role
+        role: env.platforms.aws.accounts.role_name
         command: list_regions
 
     - dataset:
