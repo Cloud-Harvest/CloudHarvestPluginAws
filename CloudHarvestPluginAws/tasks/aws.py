@@ -155,7 +155,7 @@ class AwsTask(BaseTask):
             ]
 
         # Store the result
-        self.data = result
+        self.result = result
 
         # Return the instance of the AwsTask
         return self
