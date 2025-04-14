@@ -11,8 +11,8 @@ class AwsTask(BaseTask):
                  type: str,
                  account: str,
                  command: str,
-                 arguments: dict,
                  role: str,
+                 arguments: dict = None,
                  region: str = None,
                  result_path: str = None,
                  list_result_as_key: str = None,
@@ -27,8 +27,8 @@ class AwsTask(BaseTask):
             type (str): The type of the AWS service (e.g., 's3', 'ec2').
             account (str): The AWS number to use for the session.
             command (str): The command to execute on the AWS service.
-            arguments (dict): The arguments to pass to the command.
             role (str): The AWS role to use for the session.
+            arguments (dict): The arguments to pass to the command. Defaults to empty dictionary.
             region (str, optional): The AWS region to use for the session. None is supported as not all AWS services require a region.
             result_path (str, optional): Path to the results. When not provided, the path is the first key that is not 'Marker' or 'NextToken'.
             list_result_as_key (str, optional): Converts a list result into a dictionary whose key is the value of this argument for each item.
