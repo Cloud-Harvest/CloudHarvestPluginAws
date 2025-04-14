@@ -18,6 +18,7 @@ report:
         name: modify the result
         data: var.aws_regions
         result_as: result
+        filters: '.*'
         stages:
           - rename_keys:
               mapping:
