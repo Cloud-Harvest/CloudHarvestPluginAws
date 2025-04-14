@@ -63,6 +63,8 @@ def get_credentials(account_number: str, role_name: str) -> dict:
     role_name (str): The AWS role name.
     """
 
+    returnable_keys = ('aws_access_key_id', 'aws_secret_access_key', 'aws_session_token')
+
     # Check if the profile is already cached
     if account_number in CachedProfiles.profiles:
         # Check if the cached credentials are still valid
@@ -70,7 +72,10 @@ def get_credentials(account_number: str, role_name: str) -> dict:
         if CachedProfiles.profiles[account_number]['expiration'] > datetime.now(timezone.utc):
 
             # Return the cached credentials
-            return CachedProfiles.profiles[account_number]
+            return {k:v
+                for k, v in CachedProfiles.profiles[account_number].items()
+                if k in returnable_keys
+            }
 
         return CachedProfiles.profiles[account_number]
 
@@ -84,7 +89,7 @@ def get_credentials(account_number: str, role_name: str) -> dict:
     return {
         key: value
         for key, value in credentials.items()
-        if key in ('aws_access_key_id', 'aws_secret_access_key', 'aws_session_token')
+        if key in returnable_keys
     }
 
 
