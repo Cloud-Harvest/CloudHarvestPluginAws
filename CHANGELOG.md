@@ -1,3 +1,8 @@
+# 0.3.0
+- Updated to conform with CloudHarvestCoreTasks 0.6.3
+- Added `kms` report/services to the `templates` directory
+- Updated some reports/services
+
 # 0.2.0
 - Updated to conform with CloudHarvestCoreTasks 0.6.0
 - Updated standard which places all report/service templates into the 'templates' directory

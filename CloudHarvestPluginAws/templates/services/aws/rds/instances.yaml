@@ -28,6 +28,6 @@ harvest:
     single:
       - <<: *describe_db_instances
         arguments:
-          DBInstanceIdentifier: var.DBInstanceIdentifier
+          DBInstanceIdentifier: var.identifier
 
       - <<: *update_tags

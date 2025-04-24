@@ -1,8 +1,6 @@
 harvest:
   name: LightSail Instances
   description: Retrieve information about LightSail instances
-  service: rds
-  collection: instances
 
   # tasks to collect all instances
   tasks:
@@ -13,13 +11,13 @@ harvest:
           command: get_instances
           result_as: instances
 
+      - dataset:
+          name: Update Tags
+          description: Update the tags to use a dict format
+          data: var.instances
+          stages:
+            - convert_list_of_dict_to_dict:
+                source_key: tags
 
-    # tasks to collect a single instance
-    single:
-      - aws:
-          name: Retrieve LightSail instance
-          description: Retrieve a single LightSail instance
-          command: get_instance
-          result_as: instance
-          arguments:
-            DBInstanceIdentifier: var.DBInstanceIdentifier
+    # get_instances does not offer a way to filter by instance; therefore, we will always update
+    # all records for this service/type

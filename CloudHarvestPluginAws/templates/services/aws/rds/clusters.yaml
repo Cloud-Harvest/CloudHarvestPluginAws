@@ -28,6 +28,6 @@ harvest:
     single:
       - <<: *describe_db_clusters
         arguments:
-          DBClusterIdentifier: var.DBClusterIdentifier
+          DBClusterIdentifier: var.identifier
 
       - <<: *update_tags
