@@ -1,8 +1,7 @@
 harvest:
   name: KMS Keys
   description: Retrieve information about KMS Keys
-
-  # tasks to collect all instances
+  unique_identifier_keys: KeyArn
   tasks:
     all:
       - aws:

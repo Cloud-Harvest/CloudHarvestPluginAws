@@ -1,6 +1,7 @@
 harvest:
   name: LightSail Instances
   description: Retrieve information about LightSail instances
+  unique_identifier_keys: arn
 
   # tasks to collect all instances
   tasks:

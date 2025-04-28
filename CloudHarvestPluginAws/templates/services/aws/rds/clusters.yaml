@@ -1,10 +1,8 @@
 harvest:
   name: RDS Clusters
   description: Retrieve information about RDS clusters
-  service: rds
-  collection: clusters
+  unique_identifier_keys: DBClusterArn
 
-  # tasks to collect all clusters
   tasks:
     all:
       - aws: &describe_db_clusters

@@ -1,8 +1,7 @@
 harvest:
   name: RDS Instances
   description: Retrieve information about RDS instances including Non-Aurora instances
-  service: rds
-  collection: instances
+  unique_identifier_keys: DBInstanceArn
 
   # tasks to collect all instances
   tasks:
@@ -21,8 +20,6 @@ harvest:
             - convert_list_of_dict_to_dict:
                 source_key: TagList
                 target_key: Tags
-#                name_key: Name       # Default value
-#                value_key: Value     # Default value
 
     # tasks to collect a single cluster
     single:
