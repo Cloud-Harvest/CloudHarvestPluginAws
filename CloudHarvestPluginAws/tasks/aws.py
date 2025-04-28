@@ -7,12 +7,12 @@ from botocore.exceptions import ClientError
 @register_definition(name='aws', category='task')
 class AwsTask(BaseTask):
     def __init__(self,
-                 service: str,
-                 type: str,
-                 account: str,
                  command: str,
-                 role: str,
                  arguments: dict = None,
+                 service: str = None,
+                 type: str = None,
+                 account: str = None,
+                 role: str = None,
                  region: str = None,
                  result_path: str = None,
                  list_result_as_key: str = None,
@@ -23,13 +23,13 @@ class AwsTask(BaseTask):
         Constructs all the necessary attributes for the AwsTask object.
 
         Args:
-            service (str): The AWS service to interact with (e.g., 's3', 'ec2').
-            type (str): The type of the AWS service (e.g., 's3', 'ec2').
-            account (str): The AWS number to use for the session.
             command (str): The command to execute on the AWS service.
-            role (str): The AWS role to use for the session.
             arguments (dict): The arguments to pass to the command. Defaults to empty dictionary.
-            region (str, optional): The AWS region to use for the session. None is supported as not all AWS services require a region.
+            service (str, optional): The AWS service to interact with (e.g., 's3', 'ec2'). If not specified, the default is pulled from the task chain variables.
+            type (str, optional): The type of the AWS service (e.g., 's3', 'ec2'). If not specified, the default is pulled from the task chain variables.
+            account (str, optional): The AWS number to use for the session. If not specified, the default is pulled from the task chain variables.
+            role (str, optional): The AWS role to use for the session. If not specified, the default is pulled from the environment variables.
+            region (str, optional): The AWS region to use for the session. None is supported as not all AWS services require a region. If not specified, the default is pulled from the task chain variables.
             result_path (str, optional): Path to the results. When not provided, the path is the first key that is not 'Marker' or 'NextToken'.
             list_result_as_key (str, optional): Converts a list result into a dictionary whose key is the value of this argument for each item.
             max_retries (int, optional): The maximum number of retries for the command. Defaults to 10.
@@ -38,13 +38,14 @@ class AwsTask(BaseTask):
         super().__init__(*args, **kwargs)
 
         # Set STAR: Service, Type, Account, Region
-        self.service = service
-        self.type = type
-        self.account = account
-        self.region = region
+        self.service = service or self.task_chain.variables.get('service')
+        self.type = type or self.task_chain.variables.get('type')
+        self.account = account or self.task_chain.variables.get('account')
+        self.region = region or self.task_chain.variables.get('region')
 
         # boto3 session and client inputs
-        self.role = role
+        from CloudHarvestCoreTasks.environment import Environment
+        self.role = role or Environment.get(name='env.platforms.aws.role_name')
         self.command = command
         self.arguments = arguments or {}
         self.max_retries = max_retries
