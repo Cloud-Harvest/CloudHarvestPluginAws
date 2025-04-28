@@ -16,8 +16,9 @@ report:
   tasks:
     - mongo:
         name: get lightsail instances
-        result_as: result
         collection: aws.lightsail.instance
+        result_as: result
+        silo: harvest-core
         user_filters:
           accepted: '*'
 
