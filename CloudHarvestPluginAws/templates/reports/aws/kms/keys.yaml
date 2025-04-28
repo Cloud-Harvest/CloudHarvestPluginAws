@@ -17,8 +17,8 @@ report:
 
   tasks:
     - mongo:
-        name: get lightsail instances
-        collection: aws.lightsail.instances
+        name: get KMS keys
+        collection: aws.kms.keys
         result_as: result
         silo: harvest-core
         user_filters:
