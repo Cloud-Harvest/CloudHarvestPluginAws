@@ -1,0 +1,41 @@
+report:
+  description: Describes LightSail Instances
+
+  headers:
+    - Active
+    - Account
+    - Region
+    - Alias
+    - Key
+    - State
+    - Origin
+    - Manager
+    - LastUpdated
+    - MultiRegion
+    - DeletionWindowDays
+    - Created
+
+  tasks:
+    - mongo:
+        name: get lightsail instances
+        collection: aws.lightsail.instances
+        result_as: result
+        silo: harvest-core
+        user_filters:
+          accepted: '*'
+
+        arguments:
+          pipeline:
+            - $project:
+                Active: "$Harvest.Active"
+                Account: "$Harvest.Account"
+                Region: "$Harvest.Region"
+                Alias: "$AliasName"
+                Key: "$KeyId"
+                State: "$KeyState"
+                Origin: "$Origin"
+                Manager: "$KeyManager"
+                LastUpdated: "$LastUpdatedDate"
+                MultiRegion: "$MultiRegion"
+                DeletionWindowDays: "$PendingDeletionWindowInDays"
+                Created: "$CreationDate"
