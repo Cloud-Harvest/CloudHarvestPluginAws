@@ -7,12 +7,10 @@ report:
   tasks:
     - aws:
         name: Retrieve information on AWS regions
-        result_as: aws_regions
-        service: account
-        type: regions
-        account: var.account
-        role: env.platforms.aws.role_name
         command: list_regions
+        type: regions
+        region: global
+        result_as: aws_regions
 
     - dataset:
         name: modify the result
