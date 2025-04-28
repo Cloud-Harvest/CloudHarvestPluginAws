@@ -16,21 +16,22 @@ report:
   tasks:
     - mongo:
         name: get lightsail instances
-        collection: aws.lightsail.instance
+        collection: aws.lightsail.instances
         result_as: result
         silo: harvest-core
         user_filters:
           accepted: '*'
 
-        pipeline:
-          - $project:
-              Active: "$Harvest.Active"
-              Account: "$Harvest.Account"
-              Region: "$Harvest.Region"
-              Instance: "$name"
-              Type: "$resourceType"
-              BluePrint: "$blueprintName"
-              State: "$state.name"
-              Cpu: "$hardware.cpu"
-              Memory: "$hardware.ramSizeInGb"
-              Created: "$createdAt"
+        arguments:
+          pipeline:
+            - $project:
+                Active: "$Harvest.Active"
+                Account: "$Harvest.Account"
+                Region: "$Harvest.Region"
+                Instance: "$name"
+                Type: "$resourceType"
+                BluePrint: "$blueprintName"
+                State: "$state.name"
+                Cpu: "$hardware.cpu"
+                Memory: "$hardware.ramSizeInGb"
+                Created: "$createdAt"
