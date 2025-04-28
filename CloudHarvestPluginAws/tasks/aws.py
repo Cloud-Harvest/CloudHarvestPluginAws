@@ -126,11 +126,6 @@ class AwsTask(BaseTask):
                 else:
                     raise e.args
 
-            # # After the try/except block, check if a result was returned
-            # finally:
-            #     if result is None:
-            #         raise Exception('No result returned')
-
         # If a result key is specified, extract the result using the key
         if self.result_path:
             from CloudHarvestCoreTasks.dataset import WalkableDict
@@ -154,6 +149,18 @@ class AwsTask(BaseTask):
                 }
                 for r in result
             ]
+
+        # Add starting metadata to the result
+        if isinstance(result, list):
+            for record in result:
+                record['Harvest']['AccountId'] = self.account
+                record['Harvest']['AccountName'] = self.account_alias
+
+        elif isinstance(result, dict):
+            result['Harvest'] = {
+                'AccountId': self.account,
+                'AccountName': self.account_alias
+            }
 
         # Store the result
         self.result = result
