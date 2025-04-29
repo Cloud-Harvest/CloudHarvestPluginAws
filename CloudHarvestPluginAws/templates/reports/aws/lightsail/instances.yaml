@@ -32,6 +32,6 @@ report:
                 Type: "$resourceType"
                 BluePrint: "$blueprintName"
                 State: "$state.name"
-                Cpu: "$hardware.cpu"
+                Cpu: "$hardware.cpuCount"
                 Memory: "$hardware.ramSizeInGb"
                 Created: "$createdAt"
