@@ -29,16 +29,15 @@ report:
                 Family: "$DBParameterGroupFamily"
                 Description: "$Description"
 
-    - mongo:
-        <<: *cluster
-        name: Instance Parameter Groups
-        collection: aws.rds.parameters-instance
-        result_as: instance_parameter_groups
-        arguments:
-          pipeline:
-            - <<: *projection
-              Type: "instance"
-              Name: "$DBParameterGroupName"
+    - <<: *cluster
+      name: Instance Parameter Groups
+      collection: aws.rds.parameters-instance
+      result_as: instance_parameter_groups
+      arguments:
+        pipeline:
+          - <<: *projection
+            Type: "instance"
+            Name: "$DBParameterGroupName"
 
     - dataset:
         name: Combine Parameter Groups
