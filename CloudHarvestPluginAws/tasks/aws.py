@@ -14,9 +14,9 @@ class AwsTask(BaseTask):
                  account: str = None,
                  role: str = None,
                  region: str = None,
-                 result_path: str = None,
-                 list_result_as_key: str = None,
+                 include_metadata: bool = True,
                  max_retries: int = 10,
+                 result_path: str = None,
                  *args,
                  **kwargs):
         """
@@ -30,10 +30,11 @@ class AwsTask(BaseTask):
             account (str, optional): The AWS number to use for the session. If not specified, the default is pulled from the task chain variables.
             role (str, optional): The AWS role to use for the session. If not specified, the default is pulled from the environment variables.
             region (str, optional): The AWS region to use for the session. None is supported as not all AWS services require a region. If not specified, the default is pulled from the task chain variables.
-            result_path (str, optional): Path to the results. When not provided, the path is the first key that is not 'Marker' or 'NextToken'.
-            list_result_as_key (str, optional): Converts a list result into a dictionary whose key is the value of this argument for each item.
+            include_metadata (bool, optional): When True, some 'Harvest' metadata fields are added to the result. Defaults to True.
             max_retries (int, optional): The maximum number of retries for the command. Defaults to 10.
+            result_path (str, optional): Path to the results. When not provided, the path is the first key that is not 'Marker' or 'NextToken'.
         """
+
         # Initialize parent class
         super().__init__(*args, **kwargs)
 
@@ -51,8 +52,8 @@ class AwsTask(BaseTask):
         self.max_retries = max_retries
 
         # Output manipulation
+        self.include_metadata = include_metadata
         self.result_path = result_path
-        self.list_result_as_key = list_result_as_key
 
         # Programmatic attributes
         self.account_alias = None
@@ -138,29 +139,21 @@ class AwsTask(BaseTask):
                     result = result[key]
                     break
 
-        # If a list result as key is specified and the result is a list, transform the result
-        if self.list_result_as_key and isinstance(result, list):
-            result = [
-                {
-                    self.list_result_as_key: r
-                }
-                for r in result
-            ]
-
         # Add starting metadata to the result
-        if isinstance(result, list):
-            for record in result:
-                if isinstance(record, dict):
-                    record['Harvest'] = {
-                        'AccountId': self.account,
-                        'AccountName': self.account_alias
-                    }
+        if self.include_metadata:
+            if isinstance(result, list):
+                for record in result:
+                    if isinstance(record, dict):
+                        record['Harvest'] = {
+                            'AccountId': self.account,
+                            'AccountName': self.account_alias
+                        }
 
-        elif isinstance(result, dict):
-            result['Harvest'] = {
-                'AccountId': self.account,
-                'AccountName': self.account_alias
-            }
+            elif isinstance(result, dict):
+                result['Harvest'] = {
+                    'AccountId': self.account,
+                    'AccountName': self.account_alias
+                }
 
         # Store the result
         self.result = result
