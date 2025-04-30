@@ -21,9 +21,10 @@ harvest:
           iterate: var.parameter_groups
           result_as:
             name: parameters
-            mode: extend
+            mode: append
             include:
               DBClusterParameterGroupArn: item.DBClusterParameterGroupArn
+          result_to_dict_key: Parameters
 
       - dataset: &merge_parameters_into_clusters
           name: Merge Parameters into Clusters
@@ -35,7 +36,6 @@ harvest:
                   - DBClusterParameterGroupArn
                 right_keys:
                   - DBClusterParameterGroupArn
-                target_key: Parameters
 
     single:
         - <<: *describe_db_cluster_parameters
