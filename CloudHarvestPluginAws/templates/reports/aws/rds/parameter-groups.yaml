@@ -1,0 +1,51 @@
+report:
+  name: RDS Parameter Groups
+  description: Retrieve information about RDS Cluster and Instance parameter groups
+
+  headers:
+    - Active
+    - Account
+    - Region
+    - Type
+    - Name
+    - Family
+
+  tasks:
+    - mongo:
+        name: Cluster Parameter Groups
+        collection: aws.rds.parameters-cluster
+        silo: harvest-core
+        filters: '.*'
+        result_as: cluster_parameter_groups
+        arguments:
+          pipeline:
+            - $project:
+                Active: "$Harvest.Active"
+                Account: "$Harvest.Account"
+                Region: "$Harvest.Region"
+                Type: "Cluster"
+                Name: "$DBClusterParameterGroupName"
+                Family: "$DBParameterGroupFamily"
+
+    - mongo:
+        name: Instance Parameter Groups
+        collection: aws.rds.parameters-instance
+        silo: harvest-core
+        filters: '.*'
+        result_as: instance_parameter_groups
+        arguments:
+          pipeline:
+            - $project:
+                Active: "$Harvest.Active"
+                Account: "$Harvest.Account"
+                Region: "$Harvest.Region"
+                Type: "Instance"
+                Name: "$DBParameterGroupName"
+                Family: "$DBParameterGroupFamily"
+
+    - dataset:
+        name: Combine Parameter Groups
+        data: var.cluster_parameter_groups
+        stages:
+          - add_records:
+              records: var.instance_parameter_groups
