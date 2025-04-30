@@ -122,7 +122,7 @@ class AwsTask(BaseTask):
 
                 # If the error is due to any other reason, raise it
                 else:
-                    raise e.args
+                    raise e
 
         # If a result key is specified, extract the result using the key
         if self.result_path:
