@@ -9,6 +9,7 @@ report:
     - Type
     - Name
     - Family
+    - Description
 
   tasks:
     - mongo:
@@ -26,6 +27,7 @@ report:
                 Type: "Cluster"
                 Name: "$DBClusterParameterGroupName"
                 Family: "$DBParameterGroupFamily"
+                Description: "$Description"
 
     - mongo:
         name: Instance Parameter Groups
@@ -42,6 +44,7 @@ report:
                 Type: "Instance"
                 Name: "$DBParameterGroupName"
                 Family: "$DBParameterGroupFamily"
+                Description: "$Description"
 
     - dataset:
         name: Combine Parameter Groups
