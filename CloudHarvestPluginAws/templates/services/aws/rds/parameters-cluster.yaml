@@ -8,15 +8,16 @@ harvest:
       - aws: &describe_db_cluster_parameters
           name: Retrieve RDS Cluster Parameters
           description: Retrieve all RDS cluster parameters
-          command: describe_db_cluster_parameters
+          command: describe_db_cluster_parameter_groups
           result_as: parameter_groups
 
       - aws: &get_parameters
           name: Get Parameters
           description: Retrieve all parameters for a specific DB cluster parameter group
-          command: describe_db_parameters
+          command: describe_db_cluster_parameters
           arguments:
-            DBClusterParameterGroupName: item.DBClusterParameterGroupArn
+            DBClusterParameterGroupName: item.DBClusterParameterGroupName
+          include_metadata: false
           iterate: var.parameter_groups
           result_as:
             name: parameters
