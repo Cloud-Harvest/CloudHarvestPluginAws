@@ -1,0 +1,23 @@
+harvest:
+  name: RDS Engines
+  description: Describes the available database engine versions and their valid upgrade targets
+  unique_identifier_keys: DBEngineVersionArn
+
+  tasks:
+    all:
+      - aws:  &describe_db_engine_versions
+          name: Describe RDS Engines
+          description: Retrieve all RDS engines
+          command: describe_db_engine_versions
+          arguments:
+            IncludeAll: True
+          result_as: result
+
+      - dataset:  &update_tags
+          name: Update Tags
+          description: Update the tags to use a dict format
+          data: var.result
+          stages:
+            - convert_list_of_dict_to_dict:
+                source_key: TagList
+                target_key: Tags
