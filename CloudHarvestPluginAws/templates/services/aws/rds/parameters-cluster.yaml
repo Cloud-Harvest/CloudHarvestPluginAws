@@ -26,7 +26,7 @@ harvest:
               DBClusterParameterGroupArn: item.DBClusterParameterGroupArn
           result_to_dict_key: Parameters
 
-      - dataset: &merge_parameters_into_clusters
+      - dataset: &merge_parameters_into_parameter_groups
           name: Merge Parameters into Clusters
           data: var.parameter_groups
           stages:
@@ -43,4 +43,4 @@ harvest:
             DBClusterParameterGroupName: var.identifier
 
         - <<: *get_parameters
-        - <<: *merge_parameters_into_clusters
+        - <<: *merge_parameters_into_parameter_groups
