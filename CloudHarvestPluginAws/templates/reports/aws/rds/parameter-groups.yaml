@@ -12,7 +12,7 @@ report:
     - Description
 
   tasks:
-    - mongo:
+    - mongo: &cluster
         name: Cluster Parameter Groups
         collection: aws.rds.parameters-cluster
         silo: harvest-core
@@ -20,31 +20,25 @@ report:
         result_as: cluster_parameter_groups
         arguments:
           pipeline:
-            - $project:
+            - $project: &projection
                 Active: "$Harvest.Active"
                 Account: "$Harvest.Account"
                 Region: "$Harvest.Region"
-                Type: "Cluster"
+                Type: "cluster"
                 Name: "$DBClusterParameterGroupName"
                 Family: "$DBParameterGroupFamily"
                 Description: "$Description"
 
     - mongo:
+        <<: *cluster
         name: Instance Parameter Groups
         collection: aws.rds.parameters-instance
-        silo: harvest-core
-        filters: '.*'
         result_as: instance_parameter_groups
         arguments:
           pipeline:
-            - $project:
-                Active: "$Harvest.Active"
-                Account: "$Harvest.Account"
-                Region: "$Harvest.Region"
-                Type: "Instance"
-                Name: "$DBParameterGroupName"
-                Family: "$DBParameterGroupFamily"
-                Description: "$Description"
+            - <<: *projection
+              Type: "instance"
+              Name: "$DBParameterGroupName"
 
     - dataset:
         name: Combine Parameter Groups

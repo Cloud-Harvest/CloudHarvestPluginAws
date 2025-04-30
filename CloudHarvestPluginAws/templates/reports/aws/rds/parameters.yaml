@@ -31,7 +31,7 @@ report:
                 Active: "$Harvest.Active"
                 Account: "$Harvest.Account"
                 Region: "$Harvest.Region"
-                Type: "Cluster"
+                Type: "cluster"
                 Name: "$DBClusterParameterGroupName"
                 Family: "$DBParameterGroupFamily"
                 Parameter: "$Parameters.ParameterName"
@@ -47,6 +47,7 @@ report:
         pipeline:
           - <<: *unwind
           - <<: *projection
+            Type: "instance"
             Name: "$DBParameterGroupName"
 
     - dataset:
