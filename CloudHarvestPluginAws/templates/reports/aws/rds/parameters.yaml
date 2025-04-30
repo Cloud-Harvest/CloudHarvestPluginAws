@@ -39,20 +39,25 @@ report:
                 Source: "$Parameters.Source"
                 ApplyMethod: "$Parameters.ApplyMethod"
 
-    - <<: *cluster
-      name: Instance Parameter Groups
-      collection: aws.rds.parameters-instance
-      result_as: instance_parameter_groups
-      arguments:
-        pipeline:
-          - <<: *unwind
-          - <<: *projection
-            Type: "instance"
-            Name: "$DBParameterGroupName"
+    - mongo:
+        <<: *cluster
+        name: Instance Parameter Groups
+        collection: aws.rds.parameters-instance
+        result_as: instance_parameter_groups
+        arguments:
+          pipeline:
+            - $unwind:
+                <<: *unwind
+
+            - $project:
+                <<: *projection
+                Type: "instance"
+                Name: "$DBParameterGroupName"
 
     - dataset:
         name: Combine Parameter Groups
         data: var.cluster_parameter_groups
+        filters: 'limit'
         stages:
           - add_records:
               records: var.instance_parameter_groups
