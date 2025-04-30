@@ -7,13 +7,13 @@ This repository contains the AWS plugin for the CloudHarvest API. This plugin is
 # Documentation
 In addition to the [CHANGELOG](CHANGELOG.md) and [LICENSE](LICENSE), this repository contains the following documentation:
 
-| Topic                                                            | Description                                                          |
-|------------------------------------------------------------------|----------------------------------------------------------------------|
-| [API](CloudHarvestPluginAws/api/README.md)                       | Describes API endpoints provided by this plugin.                     |
-| [Authenticators](CloudHarvestPluginAws/authenticators/README.md) | Describes the authentication methods available for this plugin.      |
-| [Commands](CloudHarvestPluginAws/commands/README.md)             | Discusses the CLI command line arguments available for this plugin.  |
-| [Reports](CloudHarvestPluginAws/templates/reports/README.md)     | Overview of the report format and how to write new reports.          |
-| [Services](CloudHarvestPluginAws/templates/services/README.md)   | Describes the AWS services collected and how to author new services. |
+| Topic                                                          | Description                                                          |
+|----------------------------------------------------------------|----------------------------------------------------------------------|
+| [API](CloudHarvestPluginAws/api/README.md)                     | Describes API endpoints provided by this plugin.                     |
+| [Commands](CloudHarvestPluginAws/commands/README.md)           | Discusses the CLI command line arguments available for this plugin.  |
+| [Reports](CloudHarvestPluginAws/templates/reports/README.md)   | Overview of the report format and how to write new reports.          |
+| [Services](CloudHarvestPluginAws/templates/services/README.md) | Describes the AWS services collected and how to author new services. |
+| [Tasks](CloudHarvestPluginAws/tasks/README.md)                 | Coverts the new Tasks associated with this plugin.                   |
 
 # License
 Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
