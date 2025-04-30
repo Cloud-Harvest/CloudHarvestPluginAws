@@ -71,17 +71,14 @@ class AwsTask(BaseTask):
             self: Returns the instance of the AwsTask.
         """
 
-        from CloudHarvestPluginAws.credentials import CachedProfiles, get_credentials
+        from CloudHarvestPluginAws.credentials import get_profile
+        profile = get_profile(account_number=self.account, role_name=self.role)
 
-        # Import the Session class from boto3
         from boto3 import Session
-
-        # Create a new session with either the `{profile_name: 'profile_name'}` (for credentials already provisioned) or
-        # `{access_key: 'aws_access_key_id', aws_secret_access_key, 'aws_session_token'}` (for temporary credentials)
-        session = Session(**get_credentials(account_number=self.account, role_name=self.role))
+        session = Session(**profile.credentials)
 
         # Set the account_alias attribute
-        self.account_alias = CachedProfiles.profiles[self.account]['account_alias']
+        self.account_alias = profile.account_alias
 
         # Create a client for the specified service in the specified region
         client = session.client(service_name=self.service, region_name=self.region)
@@ -153,8 +150,11 @@ class AwsTask(BaseTask):
         # Add starting metadata to the result
         if isinstance(result, list):
             for record in result:
-                record['Harvest']['AccountId'] = self.account
-                record['Harvest']['AccountName'] = self.account_alias
+                if isinstance(record, dict):
+                    record['Harvest'] = {
+                        'AccountId': self.account,
+                        'AccountName': self.account_alias
+                    }
 
         elif isinstance(result, dict):
             result['Harvest'] = {

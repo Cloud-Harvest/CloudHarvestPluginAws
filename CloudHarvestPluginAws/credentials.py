@@ -7,125 +7,154 @@ Required AWS Permissions:
 - organizations:DescribeAccount
 
 """
+from boto3 import Session
+from botocore.exceptions import ClientError
+from logging import getLogger
 
+logger = getLogger('harvest')
 
 class CachedProfiles:
     profiles = {}
 
 
-def assume_role(account_number: str, role_name: str) -> dict:
-    """
-    Retrieves temporary credentials for a given AWS account and role.
+class Profile:
+    def __init__(self, account_number: str, role_name: str):
+        """
+        Initializes a new Profile instance.
 
-    Arguments
-    account_number (str): The AWS account number.
-    role_name (str): The AWS role name.
-    """
+        Arguments
+        account_number (str): The AWS account number.
+        role_name (str): The AWS role name.
+        """
 
-    from boto3 import Session
-    from botocore.exceptions import ClientError
+        self.account_number = account_number
+        self.role_name = role_name
 
-    session = Session()
-    client = session.client('sts')
-    try:
-        # Assume the role in the specified account
-        response = client.assume_role(
-            RoleArn=f'arn:aws:iam::{account_number}:role/{role_name}',
-            RoleSessionName='CloudHarvest'
-        )
+        # Temporary session credentials
+        self.aws_access_key_id = None
+        self.aws_secret_access_key = None
+        self.aws_session_token = None
 
-        # Extract the temporary credentials from the response
-        credentials = {
-            'aws_access_key_id': response['Credentials']['AccessKeyId'],
-            'aws_secret_access_key': response['Credentials']['SecretAccessKey'],
-            'aws_session_token': response['Credentials']['SessionToken'],
-            'expiration': response['Credentials']['Expiration'],
-            'account_number': account_number,
-            'role_name': role_name,
-            'role_arn': f'arn:aws:iam::{account_number}:role/{role_name}'
+        self.account_alias = None
+        self.expiration = None
+        self.role_arn = None
+
+    @property
+    def is_expired(self):
+        """
+        Check if the profile is expired.
+        """
+        from datetime import datetime, timezone
+        return self.expiration < datetime.now(timezone.utc)
+
+    @property
+    def credentials(self) -> dict:
+        """
+        Returns the credentials for the profile in a format acceptable to the boto3 Session.
+        Returns:
+            dict: A dictionary containing the AWS credentials.
+        """
+
+        return {
+            'aws_access_key_id': self.aws_access_key_id,
+            'aws_secret_access_key': self.aws_secret_access_key,
+            'aws_session_token': self.aws_session_token
         }
 
-    except ClientError as e:
-        # Handle errors related to assuming the role
-        raise e
+    def refresh_credentials(self) -> 'Profile':
+        """
+        Refreshes the credentials for the profile.
+        """
 
-    else:
-        # Return the temporary credentials
-        return credentials
+        session = Session()
+        client = session.client('sts')
+        while True:
+            try:
+                # Assume the role in the specified account
+                response = client.assume_role(
+                    RoleArn=f'arn:aws:iam::{self.account_number}:role/{self.role_name}',
+                    RoleSessionName='CloudHarvest'
+                )
+
+                # Extract the temporary credentials from the response
+                self.aws_access_key_id = response['Credentials']['AccessKeyId']
+                self.aws_secret_access_key = response['Credentials']['SecretAccessKey']
+                self.aws_session_token = response['Credentials']['SessionToken']
+                self.expiration = response['Credentials']['Expiration']
+                self.role_arn = f'arn:aws:iam::{self.account_number}:role/{self.role_name}'
+
+            except ClientError as e:
+                # If throttling, sleep for a while and then retry
+                if e.response['Error']['Code'] == 'Throttling':
+                    from time import sleep
+                    sleep(1)
+
+                else:
+                    logger.error(f'failed to get credentials for AWS account number {self.account_number}/{self.role_name}: {e.response}')
+                    raise e
+
+            else:
+                if self.account_alias is None:
+                    # If the account alias is not set, try to get it
+                    self.get_account_name()
+                    break
+
+        return self
+
+    def get_account_name(self):
+        """
+        Looks up the account alias for a given account number. Assumes the account is part of an organization. If it is not,
+        or an error is encountered, the provided account number will be returned.
+        """
+        from boto3 import Session
+        while True:
+            try:
+                session = Session(**self.credentials)
+                client = session.client('organizations')
+
+                response = client.describe_account(AccountId=self.account_number)
+                self.account_alias = response['Account']['Name']
+
+            except ClientError as e:
+                # If throttling, sleep for a while and then retry
+                if e.response['Error']['Code'] == 'Throttling':
+                    from time import sleep
+                    sleep(1)
+
+                else:
+                    logger.error(f'failed to get account name for AWS account number {self.account_number}/{self.role_name}: {e.response}')
+                    raise e
+
+            else:
+                break
+
+        return self
 
 
-def get_credentials(account_number: str, role_name: str) -> dict:
+def get_profile(account_number: str, role_name: str, force_refresh: bool = False) -> Profile:
     """
-    Retrieves temporary credentials for a given AWS account and role.
+    Creates or retrieves a profile for a given AWS account and role. If the profile already exists and is not expired, it will
+    be returned. If it is expired, the credentials will be refreshed. If the profile does not exist, a new one will be created.
+    This function caches the profiles to avoid repeatedly assuming the role.
 
     Arguments
     account_number (str): The AWS account number.
     role_name (str): The AWS role name.
+    force_refresh (bool): If True, forces a refresh of the credentials even if they are not expired.
     """
 
-    returnable_keys = ('aws_access_key_id', 'aws_secret_access_key', 'aws_session_token')
-
-    # Check if the profile is already cached
+    # Check if the profile already exists
     if account_number in CachedProfiles.profiles:
-        # Check if the cached credentials are still valid
-        from datetime import datetime, timezone
-        if CachedProfiles.profiles[account_number]['expiration'] > datetime.now(timezone.utc):
+        profile = CachedProfiles.profiles[account_number]
 
-            # Return the cached credentials
-            return {k:v
-                for k, v in CachedProfiles.profiles[account_number].items()
-                if k in returnable_keys
-            }
+        # If the profile is expired, refresh the credentials
+        if profile.is_expired or force_refresh:
+            profile.refresh_credentials()
 
-        return CachedProfiles.profiles[account_number]
+    else:
+        # Create a new profile and refresh the credentials
+        profile = Profile(account_number=account_number, role_name=role_name)
+        profile.refresh_credentials()
+        CachedProfiles.profiles[account_number] = profile
 
-    # If not, assume the role and cache the credentials
-    credentials = assume_role(account_number=account_number, role_name=role_name)
-    CachedProfiles.profiles[account_number] = credentials
-    CachedProfiles.profiles[account_number]['account_alias'] = lookup_account_name(account_number)
-
-    # We have to restrict the return keys to only those accepted by the boto3 Session. Other keys, such as
-    # 'expiration' are not accepted and will raise an error.
-    return {
-        key: value
-        for key, value in credentials.items()
-        if key in returnable_keys
-    }
-
-
-def lookup_account_name(account_number: str) -> str:
-    """
-    Looks up the account alias for a given account number. Assumes the account is part of an organization. If it is not,
-    or an error is encountered, the provided account number will be returned.
-
-    Arguments:
-        account_number (str): The AWS account number.
-
-    Returns:
-        str: The account name.
-    """
-    from boto3 import Session
-
-    name = None
-
-    try:
-        # Create a session and client for IAM
-        cached_account = CachedProfiles.profiles[account_number]
-
-        session = Session(
-            aws_access_key_id=cached_account['aws_access_key_id'],
-            aws_secret_access_key=cached_account['aws_secret_access_key'],
-            aws_session_token=cached_account['aws_session_token'],
-        )
-
-        client = session.client('organizations')
-
-        response = client.describe_account(AccountId=account_number)
-        name = response['Account']['Name']
-
-    except Exception as ex:
-        pass
-
-    finally:
-        # Return the name or the account number if the name is not found
-        return name or account_number
+    return profile

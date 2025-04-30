@@ -2,6 +2,7 @@ harvest:
   name: KMS Keys
   description: Retrieve information about KMS Keys
   unique_identifier_keys: Arn
+
   tasks:
     all:
       - aws:
@@ -32,7 +33,11 @@ harvest:
           arguments:
             KeyId: item.KeyId
           iterate: var.kms_keys
-          result_as: tags
+          result_as:
+            name: tags
+            mode: extend
+            include:
+              KeyId: item.KeyId
 
       - dataset:  &format_tags
           name: Update Tags
