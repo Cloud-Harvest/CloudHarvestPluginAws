@@ -1,5 +1,5 @@
 # 0.3.0
-- Updated to conform with CloudHarvestCoreTasks 0.6.3
+- Updated to conform with CloudHarvestCoreTasks 0.6.4
 - Added reports/services
 - Updated reports/services
 - 
