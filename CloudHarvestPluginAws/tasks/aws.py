@@ -41,7 +41,7 @@ class AwsTask(BaseTask):
         # Set STAR: Service, Type, Account, Region
         self.service = service or self.task_chain.variables.get('service')
         self.type = type or self.task_chain.variables.get('type')
-        self.account = account or self.task_chain.variables.get('account')
+        self.account = str(account or self.task_chain.variables.get('account')).zfill(12)   # AWS Account Numbers are 12 digit strings with leading zeros
         self.region = region or self.task_chain.variables.get('region')
 
         # boto3 session and client inputs
