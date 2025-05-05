@@ -2,7 +2,7 @@
 - Updated to conform with CloudHarvestCoreTasks 0.6.4
 - Added reports/services
 - Updated reports/services
-- 
+- Fixed an issue where an AWS account number could be passed as int with an incorrect number of leading zeros
 
 # 0.2.0
 - Updated to conform with CloudHarvestCoreTasks 0.6.0
