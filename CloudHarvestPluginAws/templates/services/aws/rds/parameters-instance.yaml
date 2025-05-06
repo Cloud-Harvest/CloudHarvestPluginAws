@@ -1,7 +1,7 @@
 harvest:
   name: RDS Instance Parameters
   description: Retrieve information about RDS instance parameters
-  unique_identifier_keys: DBParameterGroupName
+  unique_identifier_keys: DBParameterGroupArn
 
   tasks:
     all:

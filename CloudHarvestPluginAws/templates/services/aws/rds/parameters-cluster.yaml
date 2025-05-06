@@ -1,7 +1,7 @@
 harvest:
   name: RDS Cluster Parameters
   description: Retrieve information about RDS cluster parameters
-  unique_identifier_keys: DBClusterParameterGroupName
+  unique_identifier_keys: DBClusterParameterGroupArn
 
   tasks:
     all:
