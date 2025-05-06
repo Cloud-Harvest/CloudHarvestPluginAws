@@ -1,0 +1,44 @@
+report:
+  name: AWS RDS Engines
+  description: |
+    This report returns information about the RDS engines available in the AWS account. It also includes the unwound
+    ValidUpgradeTarget field which indicates what version the left-hand engine can upgrade to.
+
+  headers:
+    - Active
+    - Account
+    - Region
+    - Engine
+    - Version
+    - DBParameterGroupFamily
+    - Status
+    - TargetEngine
+    - TargetVersion
+    - AutoUpgrade
+    - IsMajorVersionUpgrade
+
+  tasks:
+    - mongo:
+        name: Get RDS engines
+        collection: rds_engines
+        filters: '.*'
+        silo: harvest-aws
+
+        $unwind:
+          path: "$ValidUpgradeTarget"
+          preserveNullAndEmptyArrays: true
+
+        arguments:
+          pipeline:
+            - $project:
+                Active: "$Active"
+                Account: "$Account"
+                Region: "$Region"
+                Engine: "$Engine"
+                Version: "$Version"
+                DBParameterGroupFamily: "$DBParameterGroupFamily"
+                Status: "$Status"
+                TargetEngine: "$TargetEngine"
+                TargetVersion: "$TargetVersion"
+                AutoUpgrade: "$AutoUpgrade"
+                IsMajorVersionUpgrade: "$IsMajorVersionUpgrade"
