@@ -2,11 +2,11 @@ harvest:
   name: RDS Engines
   description: Describes the available database engine versions and their valid upgrade targets
   unique_identifier_keys:
-    - Platform
-    - Service
-    - Type
-    - Account
-    - Region
+    - Harvest.Platform
+    - Harvest.Service
+    - Harvest.Type
+    - Harvest.AccountId
+    - Harvest.Region
     - Engine
     - EngineVersion
 
