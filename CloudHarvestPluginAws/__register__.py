@@ -1,4 +1,3 @@
-from .api import *
-from .authenticators import *
-from .commands import *
-from .tasks import AwsTask
+from CloudHarvestPluginAws.api import *
+from CloudHarvestPluginAws.commands import *
+from CloudHarvestPluginAws.tasks import *

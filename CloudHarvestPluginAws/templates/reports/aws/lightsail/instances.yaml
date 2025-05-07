@@ -1,0 +1,37 @@
+report:
+  description: Describes LightSail Instances
+
+  headers:
+    - Active
+    - Account
+    - Region
+    - Instance      # name
+    - Type          # resourceType
+    - BluePrint     # blueprintName
+    - State         # state.name
+    - Cpu           # hardware.cpu
+    - Memory        # hardware.ramSizeInGb
+    - Created       # createdAt
+
+  tasks:
+    - mongo:
+        name: get lightsail instances
+        collection: aws.lightsail.instances
+        result_as: result
+        silo: harvest-core
+        user_filters:
+          accepted: '*'
+
+        arguments:
+          pipeline:
+            - $project:
+                Active: "$Harvest.Active"
+                Account: "$Harvest.Account"
+                Region: "$Harvest.Region"
+                Instance: "$name"
+                Type: "$resourceType"
+                BluePrint: "$blueprintName"
+                State: "$state.name"
+                Cpu: "$hardware.cpuCount"
+                Memory: "$hardware.ramSizeInGb"
+                Created: "$createdAt"

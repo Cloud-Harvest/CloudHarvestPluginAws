@@ -1,0 +1,91 @@
+harvest:
+  name: KMS Keys
+  description: Retrieve information about KMS Keys
+  unique_identifier_keys: Arn
+
+  tasks:
+    all:
+      - aws:
+          name: List KMS keys
+          description: Retrieves a list of all KMS keys
+          command: list_keys
+          result_as: kms_keys
+
+      - aws:
+          name: Describe KMS keys
+          description: Retrieves detailed information about KMS keys
+          command: describe_key
+          arguments:
+            KeyId: item.KeyId
+          iterate: var.kms_keys
+          result_as: result
+
+      - aws: &get_aliases
+          name: List KMS key aliases
+          description: Retrieves a list of all KMS key aliases
+          command: list_aliases
+          result_as: kms_aliases
+
+      - aws:  &get_tags
+          name: Get Tags
+          description: Retrieves tags for KMS keys
+          command: list_resource_tags
+          arguments:
+            KeyId: item.KeyId
+          iterate: var.kms_keys
+          result_as:
+            name: tags
+            mode: extend
+            include:
+              KeyId: item.KeyId
+
+      - dataset:  &format_tags
+          name: Update Tags
+          description: Update the tags to use a dict format
+          data: var.tags
+          stages:
+            - convert_list_of_dict_to_dict:
+                source_key: TagKey
+                target_key: TagValue
+
+      - dataset: &join_tags_and_aliases
+          name: Merge Tags
+          description: Merges the tags into the KMS keys
+          data: var.result
+          stages:
+            - join:
+                data: var.tags
+                left_keys:
+                  - KeyId
+                right_keys:
+                  - KeyId
+            - join:
+                data: var.kms_aliases
+                left_keys:
+                  - KeyId
+                right_keys:
+                  - TargetKeyId
+
+          result_as: result
+
+    # tasks to collect a single instance
+    single:
+      - aws:
+          name: Describe KMS keys
+          description: Retrieves detailed information about KMS keys
+          command: describe_key
+          arguments:
+            KeyId: var.identifier
+          result_as: kms_keys
+
+      - <<: *get_aliases
+        arguments:
+          KeyId: var.identifier
+
+      - <<: *get_tags
+        arguments:
+          KeyId: var.identifier
+        iterate: # nullify the iterate directive defined in the "all" task
+
+      - <<: *format_tags
+      - <<: *join_tags_and_aliases

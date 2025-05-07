@@ -1,0 +1,46 @@
+harvest:
+  name: RDS Cluster Parameters
+  description: Retrieve information about RDS cluster parameters
+  unique_identifier_keys: DBClusterParameterGroupArn
+
+  tasks:
+    all:
+      - aws: &describe_db_cluster_parameters
+          name: Retrieve RDS Cluster Parameters
+          description: Retrieve all RDS cluster parameters
+          command: describe_db_cluster_parameter_groups
+          result_as: parameter_groups
+
+      - aws: &get_parameters
+          name: Get Parameters
+          description: Retrieve all parameters for a specific DB cluster parameter group
+          command: describe_db_cluster_parameters
+          arguments:
+            DBClusterParameterGroupName: item.DBClusterParameterGroupName
+          include_metadata: false
+          iterate: var.parameter_groups
+          result_as:
+            name: parameters
+            mode: append
+            include:
+              DBClusterParameterGroupArn: item.DBClusterParameterGroupArn
+          result_to_dict_key: Parameters
+
+      - dataset: &merge_parameters_into_parameter_groups
+          name: Merge Parameters into Clusters
+          data: var.parameter_groups
+          stages:
+            - join:
+                data: var.parameters
+                left_keys:
+                  - DBClusterParameterGroupArn
+                right_keys:
+                  - DBClusterParameterGroupArn
+
+    single:
+        - <<: *describe_db_cluster_parameters
+          arguments:
+            DBClusterParameterGroupName: var.identifier
+
+        - <<: *get_parameters
+        - <<: *merge_parameters_into_parameter_groups

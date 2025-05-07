@@ -1,0 +1,30 @@
+harvest:
+  name: RDS Instances
+  description: Retrieve information about RDS instances including Non-Aurora instances
+  unique_identifier_keys: DBInstanceArn
+
+  # tasks to collect all instances
+  tasks:
+    all:
+      - aws: &describe_db_instances
+          name: Retrieve RDS instances
+          description: Retrieve all RDS instances
+          command: describe_db_instances
+          result_as: instances
+
+      - dataset: &update_tags
+          name: Update Tags
+          description: Update the tags to use a dict format
+          data: var.instances
+          stages:
+            - convert_list_of_dict_to_dict:
+                source_key: TagList
+                target_key: Tags
+
+    # tasks to collect a single cluster
+    single:
+      - <<: *describe_db_instances
+        arguments:
+          DBInstanceIdentifier: var.identifier
+
+      - <<: *update_tags

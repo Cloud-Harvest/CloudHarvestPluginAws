@@ -1,0 +1,31 @@
+harvest:
+  name: RDS Clusters
+  description: Retrieve information about RDS clusters
+  unique_identifier_keys: DBClusterArn
+
+  tasks:
+    all:
+      - aws: &describe_db_clusters
+          name: Retrieve RDS Clusters
+          description: Retrieve all RDS clusters
+          command: describe_db_clusters
+          result_as: clusters
+
+      - dataset: &update_tags
+          name: Update Tags
+          description: Update the tags to use a dict format
+          data: var.clusters
+          stages:
+            - convert_list_of_dict_to_dict:
+                source_key: TagList
+                target_key: Tags
+#                name_key: Name       # Default value
+#                value_key: Value     # Default value
+
+    # tasks to collect a single cluster
+    single:
+      - <<: *describe_db_clusters
+        arguments:
+          DBClusterIdentifier: var.identifier
+
+      - <<: *update_tags

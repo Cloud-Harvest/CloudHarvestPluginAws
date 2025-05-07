@@ -1,0 +1,46 @@
+harvest:
+  name: RDS Instance Parameters
+  description: Retrieve information about RDS instance parameters
+  unique_identifier_keys: DBParameterGroupArn
+
+  tasks:
+    all:
+      - aws: &describe_db_parameters
+          name: Retrieve RDS Instance Parameters
+          description: Retrieve all RDS instance parameters
+          command: describe_db_parameter_groups
+          result_as: parameter_groups
+
+      - aws: &get_parameters
+          name: Get Parameters
+          description: Retrieve all parameters for a specific DB instance parameter group
+          command: describe_db_parameters
+          arguments:
+            DBParameterGroupName: item.DBParameterGroupName
+          include_metadata: false
+          iterate: var.parameter_groups
+          result_as:
+            name: parameters
+            mode: append
+            include:
+              DBParameterGroupArn: item.DBParameterGroupArn
+          result_to_dict_key: Parameters
+
+      - dataset: &merge_parameters_into_parameter_groups
+          name: Merge Parameters into Parameter Groups
+          data: var.parameter_groups
+          stages:
+            - join:
+                data: var.parameters
+                left_keys:
+                  - DBParameterGroupArn
+                right_keys:
+                  - DBParameterGroupArn
+
+    single:
+        - <<: *describe_db_parameters
+          arguments:
+            DBParameterGroupName: var.identifier
+
+        - <<: *get_parameters
+        - <<: *merge_parameters_into_parameter_groups

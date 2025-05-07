@@ -1,0 +1,24 @@
+harvest:
+  name: LightSail Instances
+  description: Retrieve information about LightSail instances
+  unique_identifier_keys: arn
+
+  # tasks to collect all instances
+  tasks:
+    all:
+      - aws:
+          name: Retrieve LightSail instances
+          description: Retrieve all LightSail instances
+          command: get_instances
+          result_as: instances
+
+      - dataset:
+          name: Update Tags
+          description: Update the tags to use a dict format
+          data: var.instances
+          stages:
+            - convert_list_of_dict_to_dict:
+                source_key: tags
+
+    # get_instances does not offer a way to filter by instance; therefore, we will always update
+    # all records for this service/type

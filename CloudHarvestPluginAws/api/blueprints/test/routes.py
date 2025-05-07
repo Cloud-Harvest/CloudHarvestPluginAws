@@ -1,8 +1,8 @@
-from api.blueprints.base import HarvestBlueprint
+from CloudHarvestCoreTasks.blueprints import HarvestApiBlueprint
 from flask import jsonify
 
 
-test_pb = HarvestBlueprint(
+test_pb = HarvestApiBlueprint(
     'test_bp', __name__
 )
 
