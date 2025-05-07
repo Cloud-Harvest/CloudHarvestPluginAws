@@ -20,25 +20,25 @@ report:
   tasks:
     - mongo:
         name: Get RDS engines
-        collection: rds_engines
+        silo: harvest-core
+        collection: aws.rds.engines
         filters: '.*'
-        silo: harvest-aws
-
-        $unwind:
-          path: "$ValidUpgradeTarget"
-          preserveNullAndEmptyArrays: true
 
         arguments:
           pipeline:
+            - $unwind:
+                path: "$ValidUpgradeTarget"
+                preserveNullAndEmptyArrays: true
+
             - $project:
-                Active: "$Active"
-                Account: "$Account"
-                Region: "$Region"
+                Active: "$Harvest.Active"
+                Account: "$Harvest.Account"
+                Region: "$Harvest.Region"
                 Engine: "$Engine"
-                Version: "$Version"
+                Version: "$EngineVersion"
                 DBParameterGroupFamily: "$DBParameterGroupFamily"
                 Status: "$Status"
-                TargetEngine: "$TargetEngine"
-                TargetVersion: "$TargetVersion"
-                AutoUpgrade: "$AutoUpgrade"
-                IsMajorVersionUpgrade: "$IsMajorVersionUpgrade"
+                TargetEngine: "$ValidUpgradeTarget.Engine"
+                TargetVersion: "$ValidUpgradeTarget.EngineVersion"
+                AutoUpgrade: "$ValidUpgradeTarget.AutoUpgrade"
+                IsMajorVersionUpgrade: "$ValidUpgradeTarget.IsMajorVersionUpgrade"
