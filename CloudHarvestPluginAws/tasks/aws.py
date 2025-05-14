@@ -46,7 +46,7 @@ class AwsTask(BaseTask):
 
         # boto3 session and client inputs
         from CloudHarvestCoreTasks.environment import Environment
-        self.role = role or Environment.get(name='env.platforms.aws.role_name')
+        self.role = role or Environment.get(name=f'platforms.aws.accounts.{self.account}.role') or Environment.get('platforms.aws.default_role')
         self.command = command
         self.arguments = arguments or {}
         self.max_retries = max_retries

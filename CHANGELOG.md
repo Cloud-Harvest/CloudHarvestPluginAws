@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## 0.3.2
+- [Platform configuration needs to allow different role names per account](https://github.com/Cloud-Harvest/CloudHarvestAgent/issues/10)
+- Updated to conform with CloudHarvestCoreTasks 0.6.6
+
+## 0.3.1
+- Updated to conform with CloudHarvestCoreTasks 0.6.5
+
 ## 0.3.0
 - Updated to conform with CloudHarvestCoreTasks 0.6.4
 - Added reports/services
