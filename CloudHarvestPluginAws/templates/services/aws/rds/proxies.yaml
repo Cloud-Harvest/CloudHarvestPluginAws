@@ -1,0 +1,19 @@
+harvest:
+  name: RDS Proxies
+  description: Retrieve information about RDS Proxies
+  unique_identifier_keys: DBProxyArn
+
+  # tasks to collect all proxies
+  tasks:
+    all:
+      - aws: &describe_db_proxies
+          name: Retrieve RDS Proxies
+          description: Retrieve all RDS Proxies
+          command: describe_db_proxies
+          result_as: proxies
+
+    # tasks to collect a single proxy
+    single:
+      - <<: *describe_db_proxies
+        arguments:
+          DBProxyName: var.identifier

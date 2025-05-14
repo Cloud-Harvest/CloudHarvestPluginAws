@@ -1,0 +1,78 @@
+report:
+  name: AWS RDS Snapshots
+  description: This report returns AWS RDS snapshots.
+
+  headers:
+    - Account
+    - Region
+    - Type
+    - Identifier
+    - Resource
+    - Status
+    - SnapshotType
+    - Created
+
+  tasks:
+    - mongo:
+        name: Get RDS snapshots
+        collection: rds-snapshots
+        filters: '.*'
+        silo: harvest-aws
+
+        arguments:
+          pipeline:
+            # Lookup cluster snapshots
+            - "$lookup":
+                from: aws.rds.snapshots-cluster
+                pipeline:
+                  - "$project":
+                      Account: "$Harvest.Account"
+                      Region: "$Harvest.Region"
+                      Type: "Cluster"
+                      Identifier: "$DBClusterSnapshotIdentifier"
+                      Resource: "$DBClusterIdentifier"
+                      Status: 1
+                      SnapshotType: 1
+                      Created: "$SnapshotCreateTime"
+                as: cluster_snapshots
+
+            # Lookup instance snapshots
+            - "$lookup":
+                from: aws.rds.snapshots-instance
+                pipeline:
+                  - "$project":
+                      Account: "$Harvest.Account"
+                      Region: "$Harvest.Region"
+                      Type: "Instance"
+                      Identifier: "$DBSnapshotIdentifier"
+                      Resource: "$DBInstanceIdentifier"
+                      Status: 1
+                      SnapshotType: 1
+                      Created: "$SnapshotCreateTime"
+                as: instance_snapshots
+
+            # Combine cluster and instance snapshots into a single array
+            - "$set":
+                all_snapshots: { "$concatArrays": ["$cluster_snapshots", "$instance_snapshots"] }
+
+            # Unwind the combined snapshots
+            - "$unwind":
+                path: "$all_snapshots"
+                preserveNullAndEmptyArrays: true
+
+            # Populate fields based on the presence of keys
+            - "$set":
+                Account: "$all_snapshots.Account"
+                Region: "$all_snapshots.Region"
+                Type: "$all_snapshots.Type"
+                Identifier: "$all_snapshots.Identifier"
+                Resource: "$all_snapshots.Resource"
+                Status: "$all_snapshots.Status"
+                SnapshotType: "$all_snapshots.SnapshotType"
+                Created: "$all_snapshots.Created"
+
+            # Optionally project the final fields
+            - "$project":
+                cluster_snapshots: 0
+                instance_snapshots: 0
+                all_snapshots: 0

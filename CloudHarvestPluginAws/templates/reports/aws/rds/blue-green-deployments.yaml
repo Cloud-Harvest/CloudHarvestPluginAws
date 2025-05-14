@@ -1,0 +1,46 @@
+report:
+  name: RDS Blue-Green Deployments
+  description: This report returns information about RDS Blue-Green Deployments.
+
+  headers:
+    - Account
+    - Region
+    - Identifier
+    - Name
+    - Status
+    - Source
+    - Target
+    - Created
+
+  tasks:
+    - mongo:
+        name: Get Blue-Green Deployments
+        collection: aws.rds.blue-green-deployments
+        filters: '.*'
+        silo: harvest-core
+
+        arguments:
+          pipeline:
+            - "$lookup":
+                from: aws.rds.clusters
+                localField: SwitchoverDetails.SourceDBClusterArn
+                foreignField: DBClusterArn
+                as: SourceDBCluster
+
+            - "$lookup":
+                from: aws.rds.clusters
+                localField: SwitchoverDetails.TargetDBClusterArn
+                foreignField: DBClusterArn
+                as: TargetDBCluster
+
+            - "$project":
+                Account: Harvest.Account
+                Region: Harvest.Region
+                Identifier: BlueGreenDeploymentIdentifier
+                Name: BlueGreenDeploymentName
+                Status: Status
+                Source: "$SwitchoverDetails.SourceDBClusterArn"
+                SourceStatus: "$SourceDBCluster.Status"
+                Target: "$SwitchoverDetails.TargetDBClusterArn"
+                TargetStatus: "$TargetDBCluster.Status"
+                Created: CreatedAt

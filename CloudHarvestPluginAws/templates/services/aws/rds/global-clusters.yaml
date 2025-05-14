@@ -1,0 +1,30 @@
+harvest:
+  name: RDS Global Databases
+  description: Retrieve information about RDS Global Databases
+  unique_identifier_keys: GlobalClusterArn
+
+  # tasks to collect all global databases
+  tasks:
+    all:
+      - aws: &describe_global_clusters
+          name: Retrieve RDS Global Databases
+          description: Retrieve all RDS Global Databases
+          command: describe_global_clusters
+          result_as: global_clusters
+
+      - dataset: &update_tags
+          name: Update Tags
+          description: Update the tags to use a dict format
+          data: var.global_clusters
+          stages:
+            - convert_list_of_dict_to_dict:
+                source_key: TagList
+                target_key: Tags
+
+    # tasks to collect a single global database
+    single:
+      - <<: *describe_global_clusters
+        arguments:
+          GlobalClusterArn: var.identifier
+
+      - <<: *update_tags
