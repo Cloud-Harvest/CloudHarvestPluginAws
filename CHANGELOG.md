@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 0.4.0
+- [get_credentials() will check the AWS credentials file for profiles](https://github.com/Cloud-Harvest/CloudHarvestPluginAws/issues/20)
+  - Added the `platforms.aws.credentials_source` configuration option; when `file`, the AWS credentials file will be checked for profiles
+  - The `Profile` class can now write to the AWS credentials file
+  - `get_credentials()` may now check the AWS credentials file for profiles
+
 ## 0.3.2
 - [Platform configuration needs to allow different role names per account](https://github.com/Cloud-Harvest/CloudHarvestAgent/issues/10)
 - Updated to conform with CloudHarvestCoreTasks 0.6.6
