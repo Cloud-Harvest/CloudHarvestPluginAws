@@ -1,39 +1,38 @@
 report:
-    name: AWS RDS Global Clusters
-    description: This report returns information about AWS RDS Global Clusters.
+  name: AWS RDS Global Clusters
+  description: This report returns information about AWS RDS Global Clusters.
 
-    headers:
-        - Account
-        - Region
-        - Identifier
-        - Status
-        - Engine
-        - EngineVersion
-        - FailoverStatus
+  headers:
+    - Account
+    - Region
+    - Identifier
+    - Status
+    - Engine
+    - EngineVersion
+    - FailoverStatus
 
+  tasks:
+    - mongo:
+        name: Get AWS RDS Proxies
+        collection: rds-proxies
+        filters: '.*'
+        silo: cloud-harvest-aws
 
-    tasks:
-        - mongo:
-            name: Get AWS RDS Proxies
-            collection: rds-proxies
-            filters: '.*'
-            silo: cloud-harvest-aws
+        arguments:
+          pipeline:
+            - "$unwind":
+                path: "$GlobalClusterMembers"
+                preserveNullAndEmptyArrays: true
 
-            arguments:
-              pipeline:
-                - "$unwind":
-                    path: "$GlobalClusterMembers"
-                    preserveNullAndEmptyArrays: true
+            - "$match":
+                GlobalClusterMembers.IsWriter:
+                  "$in": [ null, True]
 
-                - "$match":
-                    GlobalClusterMembers.IsWriter:
-                      "$in":[ null, True]
-
-                - "$project":
-                    Account: "$Harvest.Account"
-                    Region: "$Harvest.Region"
-                    Identifier: "$GlobalClusterIdentifier"
-                    Status: 1
-                    Engine: 1
-                    EngineVersion: 1
-                    FailoverStatus: "$FailoverState.Status"
+            - "$project":
+                Account: "$Harvest.Account"
+                Region: "$Harvest.Region"
+                Identifier: "$GlobalClusterIdentifier"
+                Status: 1
+                Engine: 1
+                EngineVersion: 1
+                FailoverStatus: "$FailoverState.Status"
