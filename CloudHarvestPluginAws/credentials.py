@@ -214,6 +214,8 @@ def read_credentials_file(path: str = None) -> dict:
     profiles = {}
 
     # For each section (profile name), read all the keys and values and set the keys to lower case
+    logger.debug(f'Found {len(config.sections())} profiles in {path}')
+
     for section in config.sections():
         profiles[section] = {
             k.lower(): v
@@ -222,6 +224,8 @@ def read_credentials_file(path: str = None) -> dict:
 
         # Only attempt to add the profile if it is not already in the cache
         if not CachedProfiles.profiles.get(section) and section != 'default':
+            logger.debug(f'Building profile for {section}')
+
             try:
                 credentials = {
                     key: profiles[section].get(key)
