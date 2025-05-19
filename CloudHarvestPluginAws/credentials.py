@@ -123,21 +123,21 @@ class Profile:
             Path(path).touch()
 
         # Read the existing file into a dictionary
-        with ConfigParser() as config:
-            config.read(path)
+        config = ConfigParser()
+        config.read(path)
 
-            # Check if the profile already exists
-            if not config.has_section(self.name):
-                # Create a new section for the profile
-                config.add_section(self.name)
+        # Check if the profile already exists
+        if not config.has_section(self.name):
+            # Create a new section for the profile
+            config.add_section(self.name)
 
-            # Write the credentials to the file
-            for key, value in self.credentials.items():
-                config.set(self.name, key, value)
+        # Write the credentials to the file
+        for key, value in self.credentials.items():
+            config.set(self.name, key, value)
 
-            # Write the file back to disk
-            with open(path, 'w') as configfile:
-                config.write(configfile)
+        # Write the file back to disk
+        with open(path, 'w') as configfile:
+            config.write(configfile)
 
         logger.debug(f'wrote {self.name} to {path}')
 
@@ -205,41 +205,41 @@ def read_credentials_file(path: str = None) -> dict:
 
     # Read the credentials file
     from configparser import ConfigParser
-    with ConfigParser() as config:
-        config.read(path)
+    config = ConfigParser()
+    config.read(path)
 
-        # Parse the profiles and their credentials
-        profiles = {}
+    # Parse the profiles and their credentials
+    profiles = {}
 
-        # For each section (profile name), read all the keys and values and set the keys to lower case
-        for section in config.sections():
-            profiles[section] = {
-                k.lower(): v
-                for k, v in config.items(section)
+    # For each section (profile name), read all the keys and values and set the keys to lower case
+    for section in config.sections():
+        profiles[section] = {
+            k.lower(): v
+            for k, v in config.items(section)
+        }
+
+        # Only attempt to add the profile if it is not already in the cache
+        if not CachedProfiles.profiles.get(section):
+            credentials = {
+                'aws_access_key_id': profiles[section].get('aws_access_key_id'),
+                'aws_secret_access_key': profiles[section].get('aws_secret_access_key'),
+                'aws_session_token': profiles[section].get('aws_session_token')
             }
 
-            # Only attempt to add the profile if it is not already in the cache
-            if not CachedProfiles.profiles.get(section):
-                credentials = {
-                    'aws_access_key_id': profiles[section].get('aws_access_key_id'),
-                    'aws_secret_access_key': profiles[section].get('aws_secret_access_key'),
-                    'aws_session_token': profiles[section].get('aws_session_token')
-                }
+            try:
+                identity = get_caller_identity(credentials)
+                profile = Profile(
+                    account_number=identity['Account'],
+                    role_name=identity['Arn'].split('/')[1],
+                    sourced_from_file=True
+                )
+                profile.account_alias = get_account_name(profile.account_number, credentials)
+                profile.aws_access_key_id = credentials.get('aws_access_key_id')
+                profile.aws_secret_access_key = credentials.get('aws_secret_access_key')
+                profile.aws_session_token = credentials.get('aws_session_token')
 
-                try:
-                    identity = get_caller_identity(credentials)
-                    profile = Profile(
-                        account_number=identity['Account'],
-                        role_name=identity['Arn'].split('/')[1],
-                        sourced_from_file=True
-                    )
-                    profile.account_alias = get_account_name(profile.account_number, credentials)
-                    profile.aws_access_key_id = credentials.get('aws_access_key_id')
-                    profile.aws_secret_access_key = credentials.get('aws_secret_access_key')
-                    profile.aws_session_token = credentials.get('aws_session_token')
-
-                except Exception as e:
-                    logger.warning(f'Failed to get credentials for {section}: {e}')
+            except Exception as e:
+                logger.warning(f'Failed to get credentials for {section}: {e}')
 
     return results
 
