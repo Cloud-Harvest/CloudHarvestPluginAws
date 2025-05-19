@@ -203,7 +203,10 @@ def query_aws(service: str,
                 continue
 
             else:
-                result = WalkableDict(result[key])
+                result = result[key]
+                if isinstance(result, dict):
+                    result = WalkableDict(result)
+
                 break
 
     return result
