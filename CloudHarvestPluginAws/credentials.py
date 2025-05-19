@@ -72,7 +72,7 @@ class Profile:
         Returns a profile name in the format of account_alias-role_name.
         """
 
-        return f'{self.account_alias or self.account_number}-{self.role_name}'
+        return f'{str(self.account_alias or self.account_number)}-{str(self.role_name)}'
 
     def refresh_credentials(self) -> 'Profile':
         """
