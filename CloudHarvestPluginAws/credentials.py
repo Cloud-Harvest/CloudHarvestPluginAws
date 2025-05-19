@@ -219,7 +219,7 @@ def read_credentials_file(path: str = None) -> dict:
         }
 
         # Only attempt to add the profile if it is not already in the cache
-        if not CachedProfiles.profiles.get(section):
+        if not CachedProfiles.profiles.get(section) and section != 'default':
             credentials = {
                 'aws_access_key_id': profiles[section].get('aws_access_key_id'),
                 'aws_secret_access_key': profiles[section].get('aws_secret_access_key'),
