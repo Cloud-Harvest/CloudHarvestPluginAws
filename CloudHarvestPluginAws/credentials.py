@@ -281,21 +281,58 @@ def get_account_name(account_number: str, credentials: dict) -> str or None:
     Returns
         str or None: The account alias if found, otherwise None.
     """
-
     from CloudHarvestPluginAws.tasks.aws import query_aws
-    response = query_aws(
-        service='organizations',
-        command='describe_account',
-        arguments={
-            'AccountId': account_number
-        },
-        credentials=credentials
-    )
 
+    #
+    result = None
+
+    # First pass, try the organizations service
     try:
-        return response.get('Name')
 
-    except AttributeError:
+        response = query_aws(
+            service='organizations',
+            command='describe_account',
+            arguments={
+                'AccountId': account_number
+            },
+            credentials=credentials
+        )
+
+    except Exception:
         pass
 
-    return None
+    else:
+        return response.get('Name')
+
+    # Second pass, try the IAM service
+    try:
+        response = query_aws(
+            service='iam',
+            command='list_account_aliases',
+            arguments={},
+            credentials=credentials
+        )
+
+        if response.get('AccountAliases'):
+            # If there are multiple aliases, return the first one that does not contain the account number
+            for alias in response.get('AccountAliases'):
+                if account_number not in alias:
+                    result = alias
+                    break
+
+    except Exception:
+        pass
+
+    else:
+        if result:
+            return result
+
+    # If no alias is found, try to get one from the environment
+    from CloudHarvestCoreTasks.environment import Environment
+    result = Environment.get(f'platforms.aws.{account_number}.alias')
+
+    if result:
+        return result
+
+    # If no alias is found, return the account number
+    return account_number
