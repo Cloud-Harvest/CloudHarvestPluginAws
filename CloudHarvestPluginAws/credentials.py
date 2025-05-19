@@ -313,9 +313,9 @@ def get_account_name(account_number: str, credentials: dict) -> str or None:
             credentials=credentials
         )
 
-        if response.get('AccountAliases'):
+        if response:
             # If there are multiple aliases, return the first one that does not contain the account number
-            for alias in response.get('AccountAliases'):
+            for alias in response:
                 if account_number not in alias:
                     result = alias
                     break
