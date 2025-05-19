@@ -238,6 +238,8 @@ def read_credentials_file(path: str = None) -> dict:
                 profile.aws_secret_access_key = credentials.get('aws_secret_access_key')
                 profile.aws_session_token = credentials.get('aws_session_token')
 
+                results[profile.account_number] = profile
+
             except Exception as e:
                 logger.warning(f'Failed to get credentials for {section}: {e}')
 
