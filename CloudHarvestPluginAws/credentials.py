@@ -197,6 +197,8 @@ def read_credentials_file(path: str = None) -> dict:
     from os.path import abspath, exists, expanduser
     path = abspath(expanduser(path or '~/.aws/credentials'))
 
+    logger.debug(f'Reading credentials from {path}')
+
     # Return an empty dictionary if the file does not exist
     if not exists(path):
         return {}
@@ -220,25 +222,41 @@ def read_credentials_file(path: str = None) -> dict:
 
         # Only attempt to add the profile if it is not already in the cache
         if not CachedProfiles.profiles.get(section) and section != 'default':
-            credentials = {
-                'aws_access_key_id': profiles[section].get('aws_access_key_id'),
-                'aws_secret_access_key': profiles[section].get('aws_secret_access_key'),
-                'aws_session_token': profiles[section].get('aws_session_token')
-            }
-
             try:
-                identity = get_caller_identity(credentials)
+                credentials = {
+                    key: profiles[section].get(key)
+                    for key in ('aws_access_key_id', 'aws_secret_access_key', 'aws_session_token')
+                }
+
+                logger.debug(f'Retrieving caller identity for {section}')
+                from CloudHarvestPluginAws.tasks.aws import query_aws
+                identity = query_aws(
+                    service='sts',
+                    command='get_caller_identity',
+                    arguments={},
+                    credentials=credentials,
+                    result_path=(
+                        'UserId',
+                        'Account',
+                        'Arn'
+                    )
+                )
+
+                logger.debug(f'Creating profile for {section}')
                 profile = Profile(
-                    account_number=identity['Account'],
-                    role_name=identity['Arn'].split('/')[1],
+                    account_number=identity.get('Account'),
+                    role_name=str(identity.get('Arn') or '').split('/', maxsplit=1)[1],    # Sometimes a role will include a / after the account number
                     sourced_from_file=True
                 )
+
                 profile.account_alias = get_account_name(profile.account_number, credentials)
                 profile.aws_access_key_id = credentials.get('aws_access_key_id')
                 profile.aws_secret_access_key = credentials.get('aws_secret_access_key')
                 profile.aws_session_token = credentials.get('aws_session_token')
 
                 results[profile.account_number] = profile
+
+                logger.debug(f'Created profile {profile.name} for {section}')
 
             except Exception as e:
                 logger.warning(f'Failed to get credentials for {section}: {e}')
@@ -276,29 +294,3 @@ def get_account_name(account_number: str, credentials: dict) -> str or None:
         pass
 
     return None
-
-
-def get_caller_identity(credentials: dict) -> dict:
-    """
-    Retrieves the caller identity for the provided credentials.
-
-    Arguments
-        credentials (dict): The AWS credentials to use for the session. When not provided, boto3 will attempt to use the default credentials.
-
-    Returns
-        dict: A dictionary containing the caller identity.
-    """
-
-    from CloudHarvestPluginAws.tasks.aws import query_aws
-    
-    return query_aws(
-        service='sts',
-        command='get_caller_identity',
-        arguments={},
-        credentials=credentials,
-        result_path=(
-            'UserId',
-            'Account',
-            'Arn'
-        )
-    )
