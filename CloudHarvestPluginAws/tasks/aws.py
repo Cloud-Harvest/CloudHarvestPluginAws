@@ -136,6 +136,7 @@ def query_aws(service: str,
     """
     # Make sure the credentials is a dictionary
     credentials = credentials or {}
+    max_retries = max_retries or 10
 
     from boto3 import Session
     session = Session(**credentials)
