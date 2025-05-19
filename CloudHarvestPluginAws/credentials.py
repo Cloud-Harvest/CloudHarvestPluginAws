@@ -298,8 +298,8 @@ def get_account_name(account_number: str, credentials: dict) -> str or None:
             credentials=credentials
         )
 
-    except Exception:
-        pass
+    except Exception as e:
+        logger.debug(f'Failed to get account name for {account_number} using organizations: {e}')
 
     else:
         return response.get('Name')
@@ -320,8 +320,8 @@ def get_account_name(account_number: str, credentials: dict) -> str or None:
                     result = alias
                     break
 
-    except Exception:
-        pass
+    except Exception as e:
+        logger.debug(f'Failed to get account name for {account_number} using iam: {e}')
 
     else:
         if result:
@@ -333,6 +333,9 @@ def get_account_name(account_number: str, credentials: dict) -> str or None:
 
     if result:
         return result
+
+    else:
+        logger.debug(f'Failed to get account name for {account_number} using environment. An alias was not defined at `platforms.aws.{account_number}.alias`')
 
     # If no alias is found, return the account number
     return account_number
