@@ -75,6 +75,9 @@ class AwsTask(BaseTask):
         from CloudHarvestPluginAws.credentials import Profile, get_profile
         profile: Profile = get_profile(account_number=self.account, role_name=self.role)
 
+        if not profile:
+            raise Exception(f'No profile found for account {self.account} and role {self.role}')
+
         # Set the account_alias attribute
         self.account_alias = profile.account_alias
 
