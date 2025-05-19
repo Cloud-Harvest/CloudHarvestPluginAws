@@ -3,6 +3,7 @@
 ## 0.4.0
 - [get_credentials() will check the AWS credentials file for profiles](https://github.com/Cloud-Harvest/CloudHarvestPluginAws/issues/20)
   - Added the `platforms.aws.credentials_source` configuration option; when `file`, the AWS credentials file will be checked for profiles
+  - Added the `platforms.aws.credentials_file` configuration option to specify the path to the AWS credentials file
   - The `Profile` class can now write to the AWS credentials file
   - `get_credentials()` may now check the AWS credentials file for profiles
 

@@ -194,8 +194,9 @@ def read_credentials_file(path: str = None) -> dict:
         dict: A dictionary containing the profiles and their corresponding credentials.
     """
 
+    from CloudHarvestCoreTasks.environment import Environment
     from os.path import abspath, exists, expanduser
-    path = abspath(expanduser(path or '~/.aws/credentials'))
+    path = abspath(expanduser(path or Environment.get('platforms.aws.credentials_file') or '~/.aws/credentials'))
 
     logger.debug(f'Reading credentials from {path}')
 
