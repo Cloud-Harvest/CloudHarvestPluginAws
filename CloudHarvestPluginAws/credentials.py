@@ -334,7 +334,7 @@ def get_account_name(account_number: str, credentials: dict) -> str or None:
         return result
 
     else:
-        logger.debug(f'Failed to get account name for {account_number} using environment. An alias was not defined at `platforms.aws.{account_number}.alias`')
+        logger.debug(f'Failed to get account name for {account_number} using environment. An alias was not defined at `platforms.aws.accounts.{account_number}.alias`')
 
     # If no alias is found, return the account number
     return account_number
