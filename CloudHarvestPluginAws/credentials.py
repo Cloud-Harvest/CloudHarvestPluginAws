@@ -156,9 +156,13 @@ def get_profile(account_number: str, role_name: str, force_refresh: bool = False
     force_refresh (bool): If True, forces a refresh of the credentials even if they are not expired.
     """
 
+    # Make sure incoming account numbers are properly formatted
+    account_number = str(account_number).zfill(12)
 
     # Check if the profile already exists
     if account_number in CachedProfiles.profiles:
+        logger.debug(f'Found profile for {account_number} in cache')
+
         profile = CachedProfiles.profiles[account_number]
 
         if isinstance(profile, Profile):
@@ -166,19 +170,18 @@ def get_profile(account_number: str, role_name: str, force_refresh: bool = False
             if not profile.sourced_from_file and (profile.is_expired or force_refresh):
                 profile.refresh_credentials()
 
-        return profile
-
-    from CloudHarvestCoreTasks.environment import Environment
-    if Environment.get('platforms.aws.credentials_source') == 'file':
-        # Read the credentials file and return the profile
-        CachedProfiles.profiles |= read_credentials_file()
-        profile = CachedProfiles.profiles.get(account_number)
-
     else:
-        # Create a new profile and refresh the credentials
-        profile = Profile(account_number=account_number, role_name=role_name)
-        profile.refresh_credentials()
-        CachedProfiles.profiles[account_number] = profile
+        from CloudHarvestCoreTasks.environment import Environment
+        if Environment.get('platforms.aws.credentials_source') == 'file' and account_number:
+            # Read the credentials file and return the profile
+            CachedProfiles.profiles |= read_credentials_file()
+            profile = CachedProfiles.profiles.get(account_number)
+
+        else:
+            # Create a new profile and refresh the credentials
+            profile = Profile(account_number=account_number, role_name=role_name)
+            profile.refresh_credentials()
+            CachedProfiles.profiles[account_number] = profile
 
     return profile
 
@@ -224,7 +227,7 @@ def read_credentials_file(path: str = None) -> dict:
         }
 
         # Only attempt to add the profile if it is not already in the cache
-        if not CachedProfiles.profiles.get(section) and section != 'default':
+        if section != 'default':
             logger.debug(f'Building profile for {section}')
 
             try:
@@ -253,6 +256,11 @@ def read_credentials_file(path: str = None) -> dict:
                     role_name=str(identity.get('Arn') or '').split('/', maxsplit=1)[1],    # Sometimes a role will include a / after the account number
                     sourced_from_file=True
                 )
+
+                # Continue if the profile is already in the cache. This can happen when multiple jobs are attempting to
+                # read the credentials file at the same time.
+                if profile.account_number in CachedProfiles.profiles.keys():
+                    continue
 
                 profile.account_alias = get_account_name(profile.account_number, credentials)
                 profile.aws_access_key_id = credentials.get('aws_access_key_id')
@@ -287,7 +295,6 @@ def get_account_name(account_number: str, credentials: dict) -> str or None:
 
     # First pass, try the organizations service
     try:
-
         response = query_aws(
             service='organizations',
             command='describe_account',
@@ -325,6 +332,9 @@ def get_account_name(account_number: str, credentials: dict) -> str or None:
     else:
         if result:
             return result
+
+        else:
+            logger.debug(f'Failed to get account name for {account_number} using iam because no appropriate alias was found')
 
     # If no alias is found, try to get one from the environment
     from CloudHarvestCoreTasks.environment import Environment
