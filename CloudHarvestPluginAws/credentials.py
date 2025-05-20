@@ -26,7 +26,7 @@ class Profile:
         sourced_from_file (bool, optional): Indicates if the profile was sourced from the credentials file. Defaults to False.
         """
 
-        self.account_number = account_number
+        self.account_number = str(account_number).zfill(12)
         self.role_name = role_name
         self.sourced_from_file = sourced_from_file
 
@@ -283,7 +283,6 @@ def get_account_name(account_number: str, credentials: dict) -> str or None:
     """
     from CloudHarvestPluginAws.tasks.aws import query_aws
 
-    #
     result = None
 
     # First pass, try the organizations service
