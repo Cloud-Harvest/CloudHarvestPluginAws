@@ -13,6 +13,7 @@ config = dict(packages=find_packages(include=['CloudHarvestPluginAws', 'CloudHar
               package_data={
                   'CloudHarvestPluginAws': [
                       'templates/**/*.yaml',
+                      'meta.json'
                   ]
               },
               include_package_data=True,
