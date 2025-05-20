@@ -328,7 +328,7 @@ def get_account_name(account_number: str, credentials: dict) -> str or None:
 
     # If no alias is found, try to get one from the environment
     from CloudHarvestCoreTasks.environment import Environment
-    result = Environment.get(f'platforms.aws.{account_number}.alias')
+    result = Environment.get(f'platforms.aws.accounts.{account_number}.alias')
 
     if result:
         return result
