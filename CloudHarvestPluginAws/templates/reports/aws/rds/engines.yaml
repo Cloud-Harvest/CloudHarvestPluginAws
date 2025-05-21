@@ -16,6 +16,9 @@ report:
     - TargetVersion
     - AutoUpgrade
     - IsMajorVersionUpgrade
+    - LifecycleName
+    - LifecycleStart
+    - LifecycleEnd
 
   tasks:
     - mongo:
@@ -30,6 +33,29 @@ report:
                 path: "$ValidUpgradeTarget"
                 preserveNullAndEmptyArrays: true
 
+            - $lookup:
+                from: "aws.rds.major-engine-versions"
+                let:
+                  service: "$Harvest.Service"
+                  account: "$Harvest.Account"
+                  region: "$Harvest.Region"
+                  engine: "$Engine"
+                  engineVersion: "$EngineVersion"
+                pipeline:
+                  - $match:
+                      $expr:
+                        $and:
+                          - { $eq: ["$Harvest.Service", "$$service"] }
+                          - { $eq: ["$Harvest.Account", "$$account"] }
+                          - { $eq: ["$Harvest.Region", "$$region"] }
+                          - { $eq: ["$Engine", "$$engine"] }
+                          - { $eq: ["$MajorEngineVersion", "$$engineVersion"] }
+                as: "MajorEngineVersionDetails"
+
+            - $unwind:
+                path: "$MajorEngineVersionDetails"
+                preserveNullAndEmptyArrays: true
+
             - $project:
                 Active: "$Harvest.Active"
                 Account: "$Harvest.Account"
@@ -42,3 +68,6 @@ report:
                 TargetVersion: "$ValidUpgradeTarget.EngineVersion"
                 AutoUpgrade: "$ValidUpgradeTarget.AutoUpgrade"
                 IsMajorVersionUpgrade: "$ValidUpgradeTarget.IsMajorVersionUpgrade"
+                LifecycleName: "$MajorEngineVersionDetails.SupportedEngineLifecycles.LifecycleSupportName"
+                LifecycleStart: "$MajorEngineVersionDetails.SupportedEngineLifecycles.LifecycleSupportStartDate"
+                LifecycleEnd: "$MajorEngineVersionDetails.SupportedEngineLifecycles.LifecycleSupportEndDate"

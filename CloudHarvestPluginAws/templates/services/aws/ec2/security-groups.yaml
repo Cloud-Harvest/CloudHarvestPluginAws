@@ -1,0 +1,31 @@
+harvest:
+  name: services.aws.ec2.security-groups
+  description: Retrieve information about EC2 security_groups
+  unique_identifier_keys: SecurityGroupArn
+
+  tasks:
+    all:
+      - aws: &describe_db_security_groups
+          name: Retrieve EC2 Security Groups
+          description: Retrieve all EC2 security_groups
+          command: describe_security_groups
+          result_as: security_groups
+
+      - dataset: &update_tags
+          name: Format Tags
+          description: Converts tags from list of dicts to dict
+          data: var.security_groups
+          stages:
+            - convert_list_of_dict_to_dict:
+                source_key: Tags
+                name_key: Key
+                value_key: Value
+
+    # tasks to collect a single resource
+    single:
+      - <<: *describe_db_security_groups
+        arguments:
+          GroupIds:
+            - var.identifier
+
+      - <<: *update_tags

@@ -1,0 +1,31 @@
+report:
+  name: reports.aws.ec2.vpcs
+  description: This report provides information on EC2 vpcs across all regions and accounts.
+
+  headers:
+    - Active
+    - Account
+    - Region
+    - Vpc
+    - State
+    - EncryptionMode
+    - EncryptionStatus
+    - CidrBlock
+    - Default
+
+  tasks:
+    - mongo:
+        name: get ec2 vpcs
+        result_as: result
+        collection: aws.ec2.vpcs
+        filters: '.*'
+
+        pipeline:
+          - $project:
+              Active: "$Harvest.Active"
+              Account: "$Harvest.Account"
+              Region: "$Harvest.Region"
+              Vpc: "$VpcId"
+              State: 1
+              EncryptionMode: "$EncryptionControl.Mode"
+              EncryptionStatus: "$EncryptionControl.State"

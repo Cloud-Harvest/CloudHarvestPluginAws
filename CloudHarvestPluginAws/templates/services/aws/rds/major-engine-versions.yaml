@@ -1,0 +1,18 @@
+harvest:
+  name: RDS Major Engine Versions
+  description: Describes support life cycle for RDS major engine versions
+  unique_identifier_keys:
+    - Harvest.Platform
+    - Harvest.Service
+    - Harvest.Type
+    - Harvest.AccountId
+    - Harvest.Region
+    - Engine
+    - EngineVersion
+
+  tasks:
+    all:
+      - aws:  &describe_rds_major_engine_versions
+          name: Get Major Engine Versions
+          description: Describes support life cycle for RDS major engine versions
+          command: describe_db_major_engine_versions

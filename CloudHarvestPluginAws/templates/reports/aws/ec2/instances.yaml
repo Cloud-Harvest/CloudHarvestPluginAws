@@ -1,0 +1,33 @@
+report:
+  name: reports.aws.ec2.instances
+  description: This report provides information on EC2 instances across all regions and accounts.
+
+  headers:
+    - Active
+    - Account
+    - Region
+    - Instance
+    - Architecture
+    - Platform
+    - Class
+    - Status
+    - Created
+
+  tasks:
+    - mongo:
+        name: get ec2 instances
+        result_as: result
+        collection: aws.ec2.instances
+        filters: '.*'
+
+        pipeline:
+          - $project:
+              Active: "$Harvest.Active"
+              Account: "$Harvest.Account"
+              Region: "$Harvest.Region"
+              Instance: "InstanceId"
+              Architecture: 1
+              Platform: 1
+              Class: "$InstanceType"
+              Status: "$State.Name"
+              Created: "$LaunchTime"

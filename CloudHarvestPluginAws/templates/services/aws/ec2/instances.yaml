@@ -1,0 +1,40 @@
+harvest:
+  name: services.aws.ec2.instances
+  description: Retrieve information about EC2 instances
+  unique_identifier_keys:
+    - Harvest.Platform
+    - Harvest.Service
+    - Harvest.Type
+    - Harvest.Account
+    - Harvest.Region
+    - InstanceId
+
+  tasks:
+    all:
+      - aws: &describe_db_instances
+          name: Retrieve EC2 Instances
+          description: Retrieve all EC2 instances
+          command: describe_instances
+          result_as: instances
+
+      - dataset: &format_records
+          name: Format EC2 Instances
+          description: Unwinds "Instances" and formats the tags
+          data: var.instances
+          stages:
+            - unwind:
+                source_key: Instances
+                preserve_null_and_empty_keys: true
+            - convert_list_of_dict_to_dict:
+                source_key: Tags
+                name_key: Key
+                value_key: Value
+
+    # tasks to collect a single resource
+    single:
+      - <<: *describe_db_instances
+        arguments:
+          InstanceIds:
+            - var.identifier
+
+      - <<: *format_records

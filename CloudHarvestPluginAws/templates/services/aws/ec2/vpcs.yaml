@@ -1,0 +1,37 @@
+harvest:
+  name: services.aws.ec2.vpcs
+  description: Retrieve information about EC2 vpcs
+  unique_identifier_keys:
+    - Harvest.Platform
+    - Harvest.Service
+    - Harvest.Type
+    - Harvest.Region
+    - Harvest.Account
+    - VpcId
+
+  tasks:
+    all:
+      - aws: &describe_db_vpcs
+          name: Retrieve EC2 VPCs
+          description: Retrieve all EC2 vpcs
+          command: describe_vpcs
+          result_as: vpcs
+
+      - dataset: &update_tags
+          name: Format Tags
+          description: Converts tags from list of dicts to dict
+          data: var.vpcs
+          stages:
+            - convert_list_of_dict_to_dict:
+                source_key: Tags
+                name_key: Key
+                value_key: Value
+
+    # tasks to collect a single resource
+    single:
+      - <<: *describe_db_vpcs
+        arguments:
+          GroupIds:
+            - var.identifier
+
+      - <<: *update_tags

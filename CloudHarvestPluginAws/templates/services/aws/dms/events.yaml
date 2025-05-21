@@ -2,6 +2,10 @@ harvest:
   name: services.aws.dms.events
   description: Retrieve information about DMS events
   unique_identifier_keys:
+    - Harvest.Service
+    - Harvest.Type
+    - Harvest.Account
+    - Harvest.Region
     - Date
     - SourceIdentifier
     - SourceType

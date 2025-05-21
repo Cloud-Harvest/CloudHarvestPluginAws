@@ -4,6 +4,7 @@
 - Template improvements
 - Added
   - `DMS` service
+  - `EC2` service
 
 ## 0.4.0
 - [get_credentials() will check the AWS credentials file for profiles](https://github.com/Cloud-Harvest/CloudHarvestPluginAws/issues/20)
