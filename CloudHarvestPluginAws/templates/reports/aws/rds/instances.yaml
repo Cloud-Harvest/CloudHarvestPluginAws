@@ -16,7 +16,7 @@ report:
   tasks:
     - mongo:
         name: get rds instances
-        result_as: result
+        silo: harvest-core
         collection: aws.rds.db_instances
         filters: '.*'
 

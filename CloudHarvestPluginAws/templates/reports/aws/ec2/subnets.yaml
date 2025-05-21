@@ -17,7 +17,7 @@ report:
   tasks:
     - mongo:
         name: get ec2 security groups
-        result_as: result
+        silo: harvest-core
         collection: aws.ec2.subnets
         filters: '.*'
 

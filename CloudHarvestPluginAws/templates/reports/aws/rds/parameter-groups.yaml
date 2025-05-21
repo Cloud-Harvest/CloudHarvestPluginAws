@@ -14,8 +14,8 @@ report:
   tasks:
     - mongo: &cluster
         name: Cluster Parameter Groups
-        collection: aws.rds.parameters-cluster
         silo: harvest-core
+        collection: aws.rds.parameters-cluster
         filters: '.*'
         result_as: cluster_parameter_groups
         arguments:

@@ -15,7 +15,7 @@ report:
   tasks:
     - mongo:
         name: get dms instances
-        result_as: result
+        silo: harvest-core
         collection: aws.dms.instances
         filters: '.*'
 

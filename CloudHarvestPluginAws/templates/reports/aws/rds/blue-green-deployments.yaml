@@ -15,9 +15,9 @@ report:
   tasks:
     - mongo:
         name: Get Blue-Green Deployments
+        silo: harvest-core
         collection: aws.rds.blue-green-deployments
         filters: '.*'
-        silo: harvest-core
 
         arguments:
           pipeline:

@@ -14,6 +14,7 @@ report:
   tasks:
     - mongo:
         name: Get AWS RDS Proxies
+        silo: harvest-core
         collection: aws.rds.global-clusters
         filters: '.*'
 

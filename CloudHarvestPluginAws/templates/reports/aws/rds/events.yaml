@@ -14,7 +14,7 @@ report:
   tasks:
     - auger:
         name: get rds events
-        result_as: result
+        silo: harvest-core
         collection: aws.rds.events
         filters: '.*'
 

@@ -13,7 +13,7 @@ report:
   tasks:
     - mongo:
         name: get dms replication tasks
-        result_as: result
+        silo: harvest-core
         collection: aws.dms.replication_tasks
         filters: '.*'
 

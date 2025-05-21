@@ -17,9 +17,9 @@ report:
   tasks:
       - mongo:
           name: Get AWS RDS Proxies
+          silo: harvest-core
           collection: aws.rds.proxies
           filters: '.*'
-          silo: harvest-core
 
           arguments:
             pipeline:

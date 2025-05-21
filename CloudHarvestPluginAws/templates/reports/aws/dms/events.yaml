@@ -13,7 +13,7 @@ report:
   tasks:
     - mongo:
         name: get dms events
-        result_as: result
+        silo: harvest-core
         collection: aws.dms.events
         filters: '.*'
 

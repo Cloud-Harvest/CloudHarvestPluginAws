@@ -15,6 +15,7 @@ report:
   tasks:
     - mongo:
         name: Get RDS snapshots
+        silo: harvest-core
         collection: aws.rds.snapshots-cluster
         filters: '.*'
 
