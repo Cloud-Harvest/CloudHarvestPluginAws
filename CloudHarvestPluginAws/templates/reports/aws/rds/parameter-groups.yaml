@@ -1,5 +1,5 @@
 report:
-  name: RDS Parameter Groups
+  name: reports.aws.rds.parameter-groups
   description: Retrieve information about RDS Cluster and Instance parameter groups
 
   headers:

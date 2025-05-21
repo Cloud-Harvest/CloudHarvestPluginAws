@@ -1,6 +1,6 @@
 report:
-  description: |
-    This report provides information on DMS Replication Tasks across all regions and accounts.
+  name: reports.aws.dms.tasks
+  description: This report provides information on DMS Replication Tasks across all regions and accounts.
 
   headers:
     - Active
@@ -15,8 +15,7 @@ report:
         name: get dms replication tasks
         result_as: result
         collection: aws.dms.replication_tasks
-        user_filters:
-          accepted: '*'
+        filters: '.*'
 
         pipeline:
           - $project:

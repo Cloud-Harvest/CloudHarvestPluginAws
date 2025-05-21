@@ -1,0 +1,66 @@
+harvest:
+  name: services.aws.dms.endpoints
+  description: Retrieve information about DMS endpoints
+  unique_identifier_keys: EndpointArn
+
+  tasks:
+    all:
+      - aws: &describe_db_clusters
+          name: Retrieve RDS Clusters
+          description: Retrieve all RDS clusters
+          command: describe_endpoints
+          result_as: endpoints
+
+      - aws:  &get_tags
+          name: Get Tags
+          description: Retrieves tags for KMS keys
+          command: list_resource_tags
+          arguments:
+            ResourceArn: item.EndpointArn
+          iterate: var.endpoints
+          result_as:
+            name: tags
+            mode: extend
+            include:
+              EndpointArn: item.EndpointArn
+
+      - dataset:  &format_tags
+          name: Update Tags
+          description: Update the tags to use a dict format
+          data: var.tags
+          stages:
+            - convert_list_of_dict_to_dict:
+                source_key: Key
+                target_key: Value
+
+      - dataset: &join_tags_and_aliases
+          name: Merge Tags
+          description: Merges the tags into the KMS keys
+          data: var.result
+          result_as: result
+          stages:
+            - join:
+                data: var.tags
+                left_keys:
+                  - EndpointArn
+                right_keys:
+                  - EndpointArn
+            - join:
+                data: var.endpoints
+                left_keys:
+                  - EndpointArn
+                right_keys:
+                  - EndpointArn
+
+    # tasks to collect a single cluster
+    single:
+      - <<: *describe_db_clusters
+        arguments:
+          Filters:
+            Name: endpoint-arn
+            Values:
+              - var.identifier
+
+      - <<: *get_tags
+      - <<: *format_tags
+      - <<: *join_tags_and_aliases

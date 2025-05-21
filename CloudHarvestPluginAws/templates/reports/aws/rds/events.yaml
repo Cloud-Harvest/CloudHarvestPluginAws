@@ -1,6 +1,6 @@
 report:
-  description: |
-    This report provides information on RDS Events across all regions and accounts.
+  name: reports.aws.rds.events
+  description: This report provides information on RDS Events across all regions and accounts.
 
   headers:
     - Date
@@ -16,8 +16,7 @@ report:
         name: get rds events
         result_as: result
         collection: aws.rds.events
-        user_filters:
-          accepted: '*'
+        filters: '.*'
 
         pipeline:
           - $project:

@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 0.4.1
+- Template improvements
+- Added
+  - `DMS` service
+
 ## 0.4.0
 - [get_credentials() will check the AWS credentials file for profiles](https://github.com/Cloud-Harvest/CloudHarvestPluginAws/issues/20)
   - Added the `platforms.aws.credentials_source` configuration option; when `file`, the AWS credentials file will be checked for profiles

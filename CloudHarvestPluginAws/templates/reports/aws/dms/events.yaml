@@ -1,6 +1,6 @@
 report:
-  description: |
-    This report provides information on DMS Events across all regions and accounts.
+  name: reports.aws.dms.events
+  description: This report provides information on DMS Events across all regions and accounts.
 
   headers:
     - Date
@@ -15,8 +15,7 @@ report:
         name: get dms events
         result_as: result
         collection: aws.dms.events
-        user_filters:
-          accepted: '*'
+        filters: '.*'
 
         pipeline:
           - $project:

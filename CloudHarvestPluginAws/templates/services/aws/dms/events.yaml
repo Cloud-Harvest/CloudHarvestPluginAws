@@ -1,0 +1,20 @@
+harvest:
+  name: services.aws.dms.events
+  description: Retrieve information about DMS events
+  unique_identifier_keys:
+    - Date
+    - SourceIdentifier
+    - SourceType
+
+  tasks:
+    all:
+      - aws: &describe_db_clusters
+          name: Retrieve RDS Clusters
+          description: Retrieve all RDS clusters
+          command: describe_events
+
+    # tasks to collect a single cluster
+    single:
+      - <<: *describe_db_clusters
+        arguments:
+          SourceIdentifier: var.identifier

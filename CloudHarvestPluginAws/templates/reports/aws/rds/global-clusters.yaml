@@ -1,5 +1,5 @@
 report:
-  name: AWS RDS Global Clusters
+  name: reports.aws RDS Global Clusters
   description: This report returns information about AWS RDS Global Clusters.
 
   headers:
@@ -14,9 +14,8 @@ report:
   tasks:
     - mongo:
         name: Get AWS RDS Proxies
-        collection: rds-proxies
+        collection: aws.rds.global-clusters
         filters: '.*'
-        silo: cloud-harvest-aws
 
         arguments:
           pipeline:

@@ -1,6 +1,6 @@
 report:
-  name: AWS RDS Snapshots
-  description: This report returns AWS RDS snapshots.
+  name: reports.aws.rds.snapshots
+  description: This reports information on all AWS RDS snapshots.
 
   headers:
     - Account
@@ -15,9 +15,8 @@ report:
   tasks:
     - mongo:
         name: Get RDS snapshots
-        collection: rds-snapshots
+        collection: aws.rds.snapshots-cluster
         filters: '.*'
-        silo: harvest-aws
 
         arguments:
           pipeline:

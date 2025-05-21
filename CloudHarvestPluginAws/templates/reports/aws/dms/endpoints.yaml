@@ -1,6 +1,6 @@
 report:
-  description: |
-    This report provides information on DMS Endpoints across all regions and accounts.
+  name: reports.aws.dms.endpoints
+  description: This report provides information on DMS Endpoints across all regions and accounts.
 
   headers:
     - Active
@@ -16,8 +16,7 @@ report:
         name: get dms endpoints
         result_as: result
         collection: aws.dms.endpoints
-        user_filters:
-          accepted: '*'
+        filters: '.*'
 
         pipeline:
           - $project:

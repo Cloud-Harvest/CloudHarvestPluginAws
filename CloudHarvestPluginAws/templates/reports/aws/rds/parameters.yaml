@@ -1,5 +1,5 @@
 report:
-  name: RDS Parameters
+  name: reports.aws.rds.parameters
   description: Retrieve information about RDS Cluster and Instance parameters.
 
   headers:

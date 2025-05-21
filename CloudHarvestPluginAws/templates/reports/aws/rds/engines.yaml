@@ -1,5 +1,5 @@
 report:
-  name: AWS RDS Engines
+  name: reports.aws.rds.engines
   description: |
     This report returns information about the RDS engines available in the AWS account. It also includes the unwound
     ValidUpgradeTarget field which indicates what version the left-hand engine can upgrade to.

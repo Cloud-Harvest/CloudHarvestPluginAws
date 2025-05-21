@@ -1,7 +1,6 @@
 report:
-  name: AWS RDS Proxies
-  description: |
-      This report returns information about AWS RDS Proxies.
+  name: reports.aws.rds.proxies
+  description: This report returns information about AWS RDS Proxies.
 
   headers:
       - Account

@@ -1,4 +1,5 @@
 report:
+  name: reports.aws.lightsail.instances
   description: Describes LightSail Instances
 
   headers:
@@ -19,8 +20,7 @@ report:
         collection: aws.lightsail.instances
         result_as: result
         silo: harvest-core
-        user_filters:
-          accepted: '*'
+        filters: '.*'
 
         arguments:
           pipeline:

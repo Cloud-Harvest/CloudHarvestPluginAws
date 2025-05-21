@@ -1,5 +1,5 @@
 report:
-  name: RDS Blue-Green Deployments
+  name: reports.aws.rds.blue-green-deployments
   description: This report returns information about RDS Blue-Green Deployments.
 
   headers:

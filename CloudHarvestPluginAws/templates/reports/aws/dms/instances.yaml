@@ -1,6 +1,6 @@
 report:
-  description: |
-    This report provides information on DMS instances across all regions and accounts.
+  name: reports.aws.dms.instances
+  description: This report provides information on DMS instances across all regions and accounts.
 
   headers:
     - Active
@@ -17,8 +17,7 @@ report:
         name: get dms instances
         result_as: result
         collection: aws.dms.instances
-        user_filters:
-          accepted: '*'
+        filters: '.*'
 
         pipeline:
           - $project:
