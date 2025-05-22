@@ -1,0 +1,39 @@
+report:
+  name: reports.aws.rds.pending-maintenance-actions
+
+  headers:
+    - Active
+    - Account
+    - Region
+    - Resource
+    - Action
+    - AutoAppliedAfterDate
+    - ForcedApplyDate
+    - OptInStatus
+    - CurrentApplyDate
+    - Description
+
+  tasks:
+    - mongo:
+        name: get rds pending maintenance actions
+        silo: harvest-core
+        collection: aws.rds.pending-maintenance-actions
+        filters: '.*'
+
+        arguments:
+          pipeline:
+            - $unwind:
+                path: "$PendingMaintenanceActions"
+                preserveNullAndEmptyArrays: true
+
+            - $project:
+                Active: "$Harvest.Active"
+                Account: "$Harvest.Account"
+                Region: "$Harvest.Region"
+                Resource: "$ResourceIdentifier"
+                Action: "$PendingMaintenanceAction.Action"
+                AutoAppliedAfterDate: "$PendingMaintenanceAction.AutoAppliedAfterDate"
+                ForcedApplyDate: "$PendingMaintenanceAction.ForcedApplyDate"
+                OptInStatus: "$PendingMaintenanceAction.OptInStatus"
+                CurrentApplyDate: "$PendingMaintenanceAction.CurrentApplyDate"
+                Description: "$PendingMaintenanceAction.Description"
