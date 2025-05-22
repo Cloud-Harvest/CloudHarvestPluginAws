@@ -14,7 +14,7 @@ harvest:
       - aws:  &get_tags
           name: Get Tags
           description: Retrieves tags for KMS keys
-          command: list_resource_tags
+          command: list_tags_for_resource
           arguments:
             ResourceArn: item.EndpointArn
           iterate: var.endpoints
