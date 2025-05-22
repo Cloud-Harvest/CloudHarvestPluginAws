@@ -33,4 +33,4 @@ report:
                 Encrypted: 1
                 SizeBytes: "$FullSnapshotSizeInBytes"
                 Start: "$StartTime"
-                Complete: "$EndTime"
+                Complete: "$CompletionTime"

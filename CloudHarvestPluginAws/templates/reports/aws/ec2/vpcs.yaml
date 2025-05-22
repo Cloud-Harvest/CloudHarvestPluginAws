@@ -8,8 +8,6 @@ report:
     - Region
     - Vpc
     - State
-    - EncryptionMode
-    - EncryptionStatus
     - CidrBlock
     - Default
 
@@ -28,7 +26,5 @@ report:
                 Region: "$Harvest.Region"
                 Vpc: "$VpcId"
                 State: 1
-                EncryptionMode: "$EncryptionControl.Mode"
-                EncryptionStatus: "$EncryptionControl.State"
                 CidrBlock: 1
                 Default: "$IsDefault"

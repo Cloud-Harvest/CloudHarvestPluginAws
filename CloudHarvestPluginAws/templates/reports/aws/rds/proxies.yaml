@@ -12,7 +12,7 @@ report:
       - RequireTLS
       - IdleClientTimeout
       - Created
-      - Modified
+      - Updated
 
   tasks:
       - mongo:
@@ -32,5 +32,5 @@ report:
                   EngineFamily: 1
                   RequireTLS: 1
                   IdleClientTimeout: 1
-                  Created: "$CreatedAt"
-                  Modified: "$UpdatedAt"
+                  Created: "$CreatedDate"
+                  Updated: "$UpdatedDate"

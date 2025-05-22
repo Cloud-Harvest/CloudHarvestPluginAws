@@ -10,7 +10,6 @@ harvest:
           name: Retrieve RDS Global Databases
           description: Retrieve all RDS Global Databases
           command: describe_global_clusters
-          region: global
           result_as: global_clusters
 
       - dataset: &update_tags

@@ -3,12 +3,11 @@ report:
   description: This report provides information on RDS Events across all regions and accounts.
 
   headers:
-    - Date
-    - Active
     - Account
     - Region
-    - SourceIdentifier
-    - SourceType
+    - Date
+    - Resource
+    - EventType
     - Message
 
   tasks:
@@ -21,10 +20,9 @@ report:
         arguments:
           pipeline:
             - $project:
-                Date: "$Date"
-                Active: "$Harvest.Active"
                 Account: "$Harvest.Account"
                 Region: "$Harvest.Region"
-                SourceIdentifier: "$SourceIdentifier"
-                SourceType: "$SourceType"
+                Date: 1
+                Resource: "$SourceIdentifier"
+                EventType: "$SourceType"
                 Message: "$Message"

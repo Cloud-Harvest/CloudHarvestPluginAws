@@ -16,9 +16,8 @@ report:
     - TargetVersion
     - AutoUpgrade
     - IsMajorVersionUpgrade
-    - LifecycleName
-    - LifecycleStart
-    - LifecycleEnd
+    - ExtendedStart
+    - ExtendedEnd
 
   tasks:
     - mongo:
@@ -50,6 +49,7 @@ report:
                           - { $eq: ["$Harvest.Region", "$$region"] }
                           - { $eq: ["$Engine", "$$engine"] }
                           - { $eq: ["$MajorEngineVersion", "$$engineVersion"] }
+                          - { $eq: ["LifecycleSupportName", "open-source-extended-support"] }
                 as: "MajorEngineVersionDetails"
 
             - $unwind:
@@ -68,6 +68,5 @@ report:
                 TargetVersion: "$ValidUpgradeTarget.EngineVersion"
                 AutoUpgrade: "$ValidUpgradeTarget.AutoUpgrade"
                 IsMajorVersionUpgrade: "$ValidUpgradeTarget.IsMajorVersionUpgrade"
-                LifecycleName: "$MajorEngineVersionDetails.SupportedEngineLifecycles.LifecycleSupportName"
-                LifecycleStart: "$MajorEngineVersionDetails.SupportedEngineLifecycles.LifecycleSupportStartDate"
-                LifecycleEnd: "$MajorEngineVersionDetails.SupportedEngineLifecycles.LifecycleSupportEndDate"
+                ExtendedStart: "$MajorEngineVersionDetails.SupportedEngineLifecycles.LifecycleSupportStartDate"
+                ExtendedEnd: "$MajorEngineVersionDetails.SupportedEngineLifecycles.LifecycleSupportEndDate"

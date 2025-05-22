@@ -6,6 +6,7 @@ report:
     - Active
     - Account
     - Region
+    - Name
     - Instance
     - Architecture
     - Platform
@@ -26,6 +27,7 @@ report:
                 Active: "$Harvest.Active"
                 Account: "$Harvest.Account"
                 Region: "$Harvest.Region"
+                Name: "$Tags.Name"
                 Instance: "InstanceId"
                 Architecture: 1
                 Platform: "$PlatformDetails"
