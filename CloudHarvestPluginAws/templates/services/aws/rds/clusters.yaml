@@ -19,8 +19,8 @@ harvest:
             - convert_list_of_dict_to_dict:
                 source_key: TagList
                 target_key: Tags
-#                name_key: Name       # Default value
-#                value_key: Value     # Default value
+                name_key: Key
+                value_key: Value
 
     # tasks to collect a single cluster
     single:

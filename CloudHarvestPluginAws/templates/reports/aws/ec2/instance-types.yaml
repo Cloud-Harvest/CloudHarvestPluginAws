@@ -23,17 +23,18 @@ report:
         collection: aws.ec2.instance-types
         filters: '.*'
 
-        pipeline:
-          - $project:
-              Active: "$Harvest.Active"
-              Account: "$Harvest.Account"
-              Region: "$Harvest.Region"
-              Class: "$InstanceType"
-              CurrentGeneration: 1
-              FreeTierEligible: 1
-              SupportedArchitectures: "$ProcessorInfo.SupportedArchitectures"     # Returns list
-              ClockSpeed: "$ProcessorInfo.SustainedClockSpeedInGhz"
-              Cores: "$VCpuInfo.ValidCores"
-              Threads: "$VCpuInfo.ValidThreadsPerCore"
-              MemoryMiB: "$MemoryInfo.SizeInMiB"
-              Burstable: "$BurstablePerformanceSupported"
+        arguments:
+          pipeline:
+            - $project:
+                Active: "$Harvest.Active"
+                Account: "$Harvest.Account"
+                Region: "$Harvest.Region"
+                Class: "$InstanceType"
+                CurrentGeneration: 1
+                FreeTierEligible: 1
+                Architectures: "$ProcessorInfo.SupportedArchitectures"     # Returns list
+                ClockSpeed: "$ProcessorInfo.SustainedClockSpeedInGhz"
+                Cores: "$VCpuInfo.DefaultCores"
+                Threads: "$VCpuInfo.DefaultThreadsPerCore"
+                MemoryMiB: "$MemoryInfo.SizeInMiB"
+                Burstable: "$BurstablePerformanceSupported"

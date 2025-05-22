@@ -26,21 +26,22 @@ report:
         collection: aws.ec2.security-groups
         filters: '.*'
 
-        pipeline:
-          - $project:
-              Active: "$Harvest.Active"
-              Account: "$Harvest.Account"
-              Region: "$Harvest.Region"
-              Group: "$SecurityGroupName"
-              Vpc: "$VpcId"
-              EgressProtocol: "$IpPermissionsEgress.IpProtocol"
-              EgressFrom: "$IpPermissionsEgress.FromPort"
-              EgressTo: "$IpPermissionsEgress.ToPort"
-              EgressIp4: "$IpPermissionsEgress.IpRanges"      # Returns a list
-              EgressIp6: "$IpPermissionsEgress.Ipv6Ranges"    # Returns a list
-              IngressProtocol: "$IpPermissions.IpProtocol"
-              IngressFrom: "$IpPermissions.FromPort"
-              IngressTo: "$IpPermissions.ToPort"
-              IngressIp4: "$IpPermissions.IpRanges"           # Returns a list
-              IngressIp6: "$IpPermissions.Ipv6Ranges"         # Returns a list
-
+        arguments:
+          pipeline:
+            - $project:
+                Active: "$Harvest.Active"
+                Account: "$Harvest.Account"
+                Region: "$Harvest.Region"
+                Group: "$GroupId"
+                Name: "$GroupName"
+                Vpc: "$VpcId"
+                EgressProtocol: "$IpPermissionsEgress.IpProtocol"
+                EgressFrom: "$IpPermissionsEgress.FromPort"
+                EgressTo: "$IpPermissionsEgress.ToPort"
+                EgressIp4: "$IpPermissionsEgress.IpRanges.CidrIp"         # Returns a list
+                EgressIp6: "$IpPermissionsEgress.Ipv6Ranges.CidrIpv6"     # Returns a list
+                IngressProtocol: "$IpPermissions.IpProtocol"
+                IngressFrom: "$IpPermissions.FromPort"
+                IngressTo: "$IpPermissions.ToPort"
+                IngressIp4: "$IpPermissions.IpRanges.CidrIp"              # Returns a list
+                IngressIp6: "$IpPermissions.Ipv6Ranges.CidrIpv6"          # Returns a list

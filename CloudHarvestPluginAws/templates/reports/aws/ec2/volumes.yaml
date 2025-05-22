@@ -21,15 +21,16 @@ report:
         collection: aws.ec2.volumes
         filters: '.*'
 
-        pipeline:
-          - $project:
-              Active: "$Harvest.Active"
-              Account: "$Harvest.Account"
-              Region: "$Harvest.Region"
-              Volume: "$VolumeId"
-              VolumeType: 1
-              Size: 1
-              State: 1
-              AttachedTo: "$Attachments.InstanceId"     # Returns a list
-              Encrypted: 1
-              Created: "$CreateTime"
+        arguments:
+          pipeline:
+            - $project:
+                Active: "$Harvest.Active"
+                Account: "$Harvest.Account"
+                Region: "$Harvest.Region"
+                Volume: "$VolumeId"
+                VolumeType: 1
+                Size: 1
+                State: 1
+                AttachedTo: "$Attachments.InstanceId"     # Returns a list
+                Encrypted: 1
+                Created: "$CreateTime"

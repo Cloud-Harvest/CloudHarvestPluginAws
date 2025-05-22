@@ -20,12 +20,15 @@ report:
         collection: aws.ec2.vpcs
         filters: '.*'
 
-        pipeline:
-          - $project:
-              Active: "$Harvest.Active"
-              Account: "$Harvest.Account"
-              Region: "$Harvest.Region"
-              Vpc: "$VpcId"
-              State: 1
-              EncryptionMode: "$EncryptionControl.Mode"
-              EncryptionStatus: "$EncryptionControl.State"
+        arguments:
+          pipeline:
+            - $project:
+                Active: "$Harvest.Active"
+                Account: "$Harvest.Account"
+                Region: "$Harvest.Region"
+                Vpc: "$VpcId"
+                State: 1
+                EncryptionMode: "$EncryptionControl.Mode"
+                EncryptionStatus: "$EncryptionControl.State"
+                CidrBlock: 1
+                Default: "$IsDefault"

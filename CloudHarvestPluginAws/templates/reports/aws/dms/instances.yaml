@@ -19,14 +19,15 @@ report:
         collection: aws.dms.instances
         filters: '.*'
 
-        pipeline:
-          - $project:
-              Active: "$Harvest.Active"
-              Account: "$Harvest.Account"
-              Region: "$Harvest.Region"
-              Cluster: "$DBClusterIdentifier"
-              Instance: "DBInstanceIdentifier"
-              Engine: 1
-              EngineVersion: 1
-              Class: "$DBInstanceClass"
-              Created: "$InstanceCreateTime"
+        arguments:
+          pipeline:
+            - $project:
+                Active: "$Harvest.Active"
+                Account: "$Harvest.Account"
+                Region: "$Harvest.Region"
+                Cluster: "$DBClusterIdentifier"
+                Instance: "DBInstanceIdentifier"
+                Engine: 1
+                EngineVersion: 1
+                Class: "$DBInstanceClass"
+                Created: "$InstanceCreateTime"

@@ -19,6 +19,8 @@ harvest:
           stages:
             - convert_list_of_dict_to_dict:
                 source_key: tags
+                key_name: key
+                key_value: value
 
     # get_instances does not offer a way to filter by instance; therefore, we will always update
     # all records for this service/type

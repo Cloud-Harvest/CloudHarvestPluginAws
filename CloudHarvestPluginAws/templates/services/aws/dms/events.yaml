@@ -2,6 +2,7 @@ harvest:
   name: services.aws.dms.events
   description: Retrieve information about DMS events
   unique_identifier_keys:
+    - Harvest.Platform
     - Harvest.Service
     - Harvest.Type
     - Harvest.Account
@@ -13,8 +14,7 @@ harvest:
   tasks:
     all:
       - aws: &describe_db_clusters
-          name: Retrieve RDS Clusters
-          description: Retrieve all RDS clusters
+          name: Retrieve DMS Events
           command: describe_events
 
     # tasks to collect a single cluster

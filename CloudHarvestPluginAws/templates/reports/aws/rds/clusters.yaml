@@ -16,17 +16,18 @@ report:
     - mongo:
         name: get rds clusters
         silo: harvest-core
-        collection: aws.rds.db_clusters
+        collection: aws.rds.clusters
         filters: '.*'
 
-        pipeline:
-          - $project:
-              Active: "$Harvest.Active"
-              Account: "$Harvest.Account"
-              Region: "$Harvest.Region"
-              Cluster: "$DBClusterIdentifier"
-              Members:
-                $size: "$DBClusterMembers"
-              Engine: 1
-              EngineVersion: 1
-              Created: "$ClusterCreateTime"
+        arguments:
+          pipeline:
+            - $project:
+                Active: "$Harvest.Active"
+                Account: "$Harvest.Account"
+                Region: "$Harvest.Region"
+                Cluster: "$DBClusterIdentifier"
+                Members:
+                  $size: "$DBClusterMembers"
+                Engine: 1
+                EngineVersion: 1
+                Created: "$ClusterCreateTime"

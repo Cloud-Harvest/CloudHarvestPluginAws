@@ -17,12 +17,13 @@ report:
         collection: aws.dms.events
         filters: '.*'
 
-        pipeline:
-          - $project:
-              Active: "$Harvest.Active"
-              Date: "$Date"
-              Account: "$Harvest.Account"
-              Region: "$Harvest.Region"
-              SourceIdentifier: "$SourceIdentifier"
-              SourceType: "$SourceType"
-              Message: "$Message"
+        arguments:
+          pipeline:
+            - $project:
+                Active: "$Harvest.Active"
+                Date: "$Date"
+                Account: "$Harvest.Account"
+                Region: "$Harvest.Region"
+                SourceIdentifier: "$SourceIdentifier"
+                SourceType: "$SourceType"
+                Message: "$Message"

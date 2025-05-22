@@ -21,6 +21,8 @@ harvest:
               - convert_list_of_dict_to_dict:
                   source_key: TagList
                   target_key: Tags
+                  name_key: Key
+                  value_key: Value
 
     single:
       - <<: *describe_instance_snapshots

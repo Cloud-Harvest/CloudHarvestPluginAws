@@ -30,8 +30,10 @@ harvest:
           data: var.tags
           stages:
             - convert_list_of_dict_to_dict:
-                source_key: Key
-                target_key: Value
+                source_key: TagList
+                target_key: Tags
+                name_key: Key
+                value_key: Value
 
       - dataset: &join_tags_and_aliases
           name: Merge Tags

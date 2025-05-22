@@ -4,11 +4,13 @@ report:
 
   headers:
     - Account
-    - Region
     - Identifier
     - Status
     - Engine
     - EngineVersion
+    - PrimaryRegion
+    - PrimaryCluster
+    - PrimaryStatus
     - FailoverStatus
 
   tasks:
@@ -28,11 +30,19 @@ report:
                 GlobalClusterMembers.IsWriter:
                   "$in": [ null, True]
 
+            - "$lookup":
+                from: aws.rds.clusters
+                localField: "GlobalClusterMembers.DBClusterArn"
+                foreignField: "DBClusterArn"
+                as: "DBCluster"
+
             - "$project":
                 Account: "$Harvest.Account"
-                Region: "$Harvest.Region"
                 Identifier: "$GlobalClusterIdentifier"
                 Status: 1
                 Engine: 1
                 EngineVersion: 1
+                PrimaryRegion: "$DBCluster.Harvest.Region"
+                PrimaryCluster: "$DBCluster.DBClusterIdentifier"
+                PrimaryStatus: "$DBCluster.Status"
                 FailoverStatus: "$FailoverState.Status"

@@ -18,12 +18,13 @@ report:
         collection: aws.rds.events
         filters: '.*'
 
-        pipeline:
-          - $project:
-              Date: "$Date"
-              Active: "$Harvest.Active"
-              Account: "$Harvest.Account"
-              Region: "$Harvest.Region"
-              SourceIdentifier: "$SourceIdentifier"
-              SourceType: "$SourceType"
-              Message: "$Message"
+        arguments:
+          pipeline:
+            - $project:
+                Date: "$Date"
+                Active: "$Harvest.Active"
+                Account: "$Harvest.Account"
+                Region: "$Harvest.Region"
+                SourceIdentifier: "$SourceIdentifier"
+                SourceType: "$SourceType"
+                Message: "$Message"

@@ -18,12 +18,13 @@ report:
         collection: aws.dms.endpoints
         filters: '.*'
 
-        pipeline:
-          - $project:
-              Active: "$Harvest.Active"
-              Account: "$Harvest.Account"
-              Region: "$Harvest.Region"
-              Endpoint: "$EndpointIdentifier"
-              EndpointType: "$EndpointType"
-              EngineName: "$EngineName"
-              Status: "$Status"
+        arguments:
+          pipeline:
+            - $project:
+                Active: "$Harvest.Active"
+                Account: "$Harvest.Account"
+                Region: "$Harvest.Region"
+                Endpoint: "$EndpointIdentifier"
+                EndpointType: "$EndpointType"
+                EngineName: "$EngineName"
+                Status: "$Status"

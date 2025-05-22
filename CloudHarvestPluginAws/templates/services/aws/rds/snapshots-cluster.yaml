@@ -16,11 +16,13 @@ harvest:
       - dataset: &format_tags
             name: Format the tags
             description:
-            data: var.instance_snapshots
+            data: var.cluster_snapshots
             stages:
               - convert_list_of_dict_to_dict:
                   source_key: TagList
                   target_key: Tags
+                  name_key: Key
+                  value_key: Value
 
     single:
       - <<: *describe_cluster_snapshots

@@ -16,20 +16,21 @@ report:
 
   tasks:
     - mongo:
-        name: get ec2 security groups
+        name: get ec2 subnets
         silo: harvest-core
         collection: aws.ec2.subnets
         filters: '.*'
 
-        pipeline:
-          - $project:
-              Active: "$Harvest.Active"
-              Account: "$Harvest.Account"
-              Region: "$Harvest.Region"
-              Subnet: "$SubnetId"
-              State: "$State"
-              Vpc: "$VpcId"
-              CidrBlock: 1
-              Ipv6Native: 1
-              AvailabilityZone: "$AvailabilityZoneId"
-              AzDefault: "$DefaultForAz"
+        arguments:
+          pipeline:
+            - $project:
+                Active: "$Harvest.Active"
+                Account: "$Harvest.Account"
+                Region: "$Harvest.Region"
+                Subnet: "$SubnetId"
+                State: "$State"
+                Vpc: "$VpcId"
+                CidrBlock: 1
+                Ipv6Native: 1
+                AvailabilityZone: "$AvailabilityZoneId"
+                AzDefault: "$DefaultForAz"

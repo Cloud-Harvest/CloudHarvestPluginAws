@@ -20,14 +20,15 @@ report:
         collection: aws.ec2.instances
         filters: '.*'
 
-        pipeline:
-          - $project:
-              Active: "$Harvest.Active"
-              Account: "$Harvest.Account"
-              Region: "$Harvest.Region"
-              Instance: "InstanceId"
-              Architecture: 1
-              Platform: 1
-              Class: "$InstanceType"
-              Status: "$State.Name"
-              Created: "$LaunchTime"
+        arguments:
+          pipeline:
+            - $project:
+                Active: "$Harvest.Active"
+                Account: "$Harvest.Account"
+                Region: "$Harvest.Region"
+                Instance: "InstanceId"
+                Architecture: 1
+                Platform: 1
+                Class: "$InstanceType"
+                Status: "$State.Name"
+                Created: "$LaunchTime"

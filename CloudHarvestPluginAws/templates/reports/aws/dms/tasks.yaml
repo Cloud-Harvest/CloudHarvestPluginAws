@@ -14,14 +14,15 @@ report:
     - mongo:
         name: get dms replication tasks
         silo: harvest-core
-        collection: aws.dms.replication_tasks
+        collection: aws.dms.tasks
         filters: '.*'
 
-        pipeline:
-          - $project:
-              Active: "$Harvest.Active"
-              Account: "$Harvest.Account"
-              Region: "$Harvest.Region"
-              Task: "$ReplicationTaskIdentifier"
-              Status: "$Status"
-              Created: "$ReplicationTaskCreationDate"
+        arguments:
+          pipeline:
+            - $project:
+                Active: "$Harvest.Active"
+                Account: "$Harvest.Account"
+                Region: "$Harvest.Region"
+                Task: "$ReplicationTaskIdentifier"
+                Status: "$Status"
+                Created: "$ReplicationTaskCreationDate"
