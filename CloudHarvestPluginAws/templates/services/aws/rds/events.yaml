@@ -1,0 +1,24 @@
+harvest:
+  name: services.aws.rds.events
+  description: Retrieve information about RDS events
+  unique_identifier_keys:
+    - Harvest.Platform
+    - Harvest.Service
+    - Harvest.Type
+    - Harvest.Account
+    - Harvest.Region
+    - Date
+    - SourceIdentifier
+    - SourceType
+
+  tasks:
+    all:
+      - aws: &describe_db_clusters
+          name: Retrieve RDS Events
+          command: describe_events
+
+    # tasks to collect a single cluster
+    single:
+      - <<: *describe_db_clusters
+        arguments:
+          SourceIdentifier: var.identifier
