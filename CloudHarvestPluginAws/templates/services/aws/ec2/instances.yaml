@@ -22,7 +22,10 @@ harvest:
           description: Unwinds "Instances" and formats the tags
           data: var.instances
           stages:
-            - merge:                    # Moves the values of the "Instances" key to the root level
+            - unwind:
+                source_key: Instances
+                preserve_null_and_empty_keys: true
+            - merge_keys:                    # Moves the values of the "Instances" key to the root level
                 source_keys: Instances
             - convert_list_of_dict_to_dict:
                 source_key: Tags
