@@ -291,7 +291,17 @@ def get_account_name(account_number: str, credentials: dict) -> str or None:
     """
     from CloudHarvestPluginAws.tasks.aws import query_aws
 
-    result = None
+    # If an alias is defined in the environment, use that. This is useful for environments where the role cannot access
+    # the organization service and the IAM service does not contain a useful alias. Further, some organizations may not
+    # want to expose the account name to all users; therefore, a custom alias can be defined in the environment.
+    from CloudHarvestCoreTasks.environment import Environment
+    result = Environment.get(f'platforms.aws.accounts.{account_number}.alias')
+
+    if result:
+        return result
+
+    else:
+        logger.debug(f'Failed to get account name for {account_number} using environment. An alias was not defined at `platforms.aws.accounts.{account_number}.alias`')
 
     # First pass, try the organizations service
     try:
@@ -335,16 +345,6 @@ def get_account_name(account_number: str, credentials: dict) -> str or None:
 
         else:
             logger.debug(f'Failed to get account name for {account_number} using iam because no appropriate alias was found')
-
-    # If no alias is found, try to get one from the environment
-    from CloudHarvestCoreTasks.environment import Environment
-    result = Environment.get(f'platforms.aws.accounts.{account_number}.alias')
-
-    if result:
-        return result
-
-    else:
-        logger.debug(f'Failed to get account name for {account_number} using environment. An alias was not defined at `platforms.aws.accounts.{account_number}.alias`')
 
     # If no alias is found, return the account number
     return account_number
