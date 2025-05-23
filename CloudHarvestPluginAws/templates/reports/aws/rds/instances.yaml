@@ -8,6 +8,7 @@ report:
     - Region
     - Cluster
     - Instance
+    - Status
     - Engine
     - EngineVersion
     - Class
@@ -28,6 +29,7 @@ report:
                 Region: "$Harvest.Region"
                 Cluster: "$DBClusterIdentifier"
                 Instance: "$DBInstanceIdentifier"
+                Status: "$DBInstanceStatus"
                 Engine: 1
                 EngineVersion: 1
                 Class: "$DBInstanceClass"

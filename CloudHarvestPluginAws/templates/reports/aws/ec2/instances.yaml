@@ -28,7 +28,7 @@ report:
                 Account: "$Harvest.Account"
                 Region: "$Harvest.Region"
                 Name: "$Tags.Name"
-                Instance: "InstanceId"
+                Instance: "$InstanceId"
                 Architecture: 1
                 Platform: "$PlatformDetails"
                 Class: "$InstanceType"
