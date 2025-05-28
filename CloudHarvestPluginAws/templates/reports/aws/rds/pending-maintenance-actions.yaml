@@ -58,7 +58,9 @@ report:
                 Cluster:
                   $ifNull:
                     - "$ClusterDetails.DBClusterIdentifier"
-                    - null
+                    - $ifNull:
+                        - "$InstanceDetails.DBClusterIdentifier"
+                        - null
                 Instance:
                   $ifNull:
                     - "$InstanceDetails.DBInstanceIdentifier"
