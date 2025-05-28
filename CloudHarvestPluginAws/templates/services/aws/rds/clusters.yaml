@@ -4,14 +4,8 @@ harvest:
   unique_identifier_keys: DBClusterArn
 
   indexes:
-    aws.rds.clusters:
-      - unique: true
-        keys:
-          - DBClusterArn
-      - keys:
-        - DBClusterIdentifier
-      - keys:
-        - Engine
+    - keys: DBClusterIdentifier
+    - keys: Engine
 
   tasks:
     all:
