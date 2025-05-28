@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 0.5.0
+- Updated to conform with CloudHarvestCoreTasks 0.7.0
+
 ## 0.4.1
 - Template improvements
 - Added
