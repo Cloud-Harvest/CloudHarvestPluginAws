@@ -5,7 +5,8 @@ report:
     - Active
     - Account
     - Region
-    - Resource
+    - Cluster
+    - Instance
     - Action
     - AutoAppliedAfterDate
     - ForcedApplyDate
@@ -26,11 +27,42 @@ report:
                 path: "$PendingMaintenanceActionDetails"
                 preserveNullAndEmptyArrays: true
 
+            - $lookup:
+                from: aws.rds.instances
+                localField: "ResourceIdentifier"
+                foreignField: "DBInstanceArn"
+                as: "InstanceDetails"
+
+            - $lookup:
+                from: aws.rds.clusters
+                localField: "ResourceIdentifier"
+                foreignField: "DBClusterArn"
+                as: "ClusterDetails"
+
+            # Ensure we have at least one instance or cluster detail. We only take the first element because arns are
+            # unique, so there should only be one match, but we use $ifNull to handle cases where there are no matches.
+            - $set:
+                InstanceDetails:
+                  $ifNull:
+                    - { $arrayElemAt: ["$InstanceDetails", 0] }
+                    - null
+                ClusterDetails:
+                  $ifNull:
+                    - { $arrayElemAt: ["$ClusterDetails", 0] }
+                    - null
+
             - $project:
                 Active: "$Harvest.Active"
                 Account: "$Harvest.Account"
                 Region: "$Harvest.Region"
-                Resource: "$ResourceIdentifier"
+                Cluster:
+                  $ifNull:
+                    - "$ClusterDetails.DBClusterIdentifier"
+                    - null
+                Instance:
+                  $ifNull:
+                    - "$InstanceDetails.DBInstanceIdentifier"
+                    - null
                 Action: "$PendingMaintenanceActionDetails.Action"
                 AutoAppliedAfterDate: "$PendingMaintenanceActionDetails.AutoAppliedAfterDate"
                 ForcedApplyDate: "$PendingMaintenanceActionDetails.ForcedApplyDate"
