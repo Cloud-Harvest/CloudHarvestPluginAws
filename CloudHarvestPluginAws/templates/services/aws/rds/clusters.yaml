@@ -3,6 +3,16 @@ harvest:
   description: Retrieve information about RDS clusters
   unique_identifier_keys: DBClusterArn
 
+  indexes:
+    aws.rds.clusters:
+      - unique: true
+        keys:
+          - DBClusterArn
+      - keys:
+        - DBClusterIdentifier
+      - keys:
+        - Engine
+
   tasks:
     all:
       - aws: &describe_db_clusters
