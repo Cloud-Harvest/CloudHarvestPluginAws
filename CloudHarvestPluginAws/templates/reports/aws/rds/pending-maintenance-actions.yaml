@@ -23,7 +23,7 @@ report:
         arguments:
           pipeline:
             - $unwind:
-                path: "$PendingMaintenanceActions"
+                path: "$PendingMaintenanceActionDetails"
                 preserveNullAndEmptyArrays: true
 
             - $project:
@@ -31,9 +31,9 @@ report:
                 Account: "$Harvest.Account"
                 Region: "$Harvest.Region"
                 Resource: "$ResourceIdentifier"
-                Action: "$PendingMaintenanceActions.Action"
-                AutoAppliedAfterDate: "$PendingMaintenanceActions.AutoAppliedAfterDate"
-                ForcedApplyDate: "$PendingMaintenanceActions.ForcedApplyDate"
-                OptInStatus: "$PendingMaintenanceActions.OptInStatus"
-                CurrentApplyDate: "$PendingMaintenanceActions.CurrentApplyDate"
-                Description: "$PendingMaintenanceActions.Description"
+                Action: "$PendingMaintenanceActionDetails.Action"
+                AutoAppliedAfterDate: "$PendingMaintenanceActionDetails.AutoAppliedAfterDate"
+                ForcedApplyDate: "$PendingMaintenanceActionDetails.ForcedApplyDate"
+                OptInStatus: "$PendingMaintenanceActionDetails.OptInStatus"
+                CurrentApplyDate: "$PendingMaintenanceActionDetails.CurrentApplyDate"
+                Description: "$PendingMaintenanceActionDetails.Description"
