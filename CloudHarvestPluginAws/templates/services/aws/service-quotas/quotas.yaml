@@ -6,6 +6,7 @@ harvest:
   indexes:
     - keys: ServiceName
     - keys: QuotaName
+    - keys: QuotaCode
 
   tasks:
     all:
