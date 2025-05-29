@@ -31,7 +31,7 @@ harvest:
           iterate: var.hosted_zones
           result_as:
             name: resource_record_sets
-            mode: extend
+            mode: append
             include:
               HostedZoneId: item.Id
           result_to_dict_key: ResourceRecordSets
