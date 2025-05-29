@@ -17,4 +17,3 @@ harvest:
       - aws: &list_s3_buckets
           name: List S3 Buckets
           command: list_buckets
-          result_as: buckets
