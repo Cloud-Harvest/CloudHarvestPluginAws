@@ -23,7 +23,7 @@ harvest:
             QuotaAppliedAtLevel: ALL
           iterate: var.services
           result_as:
-            name: quotas
+            name: result
             mode: extend
 
     single:
