@@ -10,7 +10,7 @@ report:
     - ServiceName
     - QuotaCode
     - QuotaName
-    - QuotaValue
+    - Value
     - Unit
     - Adjustable
     - ApplyLevel
@@ -32,7 +32,7 @@ report:
                 ServiceName: 1
                 QuotaCode: 1
                 QuotaName: 1
-                QuotaValue: 1
+                Value: 1
                 Unit: 1
                 Adjustable: 1
                 ApplyLevel: "$QuotaAppliedAtLevel"
