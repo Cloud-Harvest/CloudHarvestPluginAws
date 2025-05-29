@@ -1,0 +1,63 @@
+harvest:
+  name: services.aws.s3.buckets
+  description: Retrieve information about S3 buckets
+  unique_identifier_keys:
+    - Harvest.Platform
+    - Harvest.Service
+    - Harvest.Type
+    - Harvest.Region
+    - Harvest.AccountId
+    - Name
+
+  indexes:
+    - keys: Name
+
+  tasks:
+    all:
+      - aws: &list_s3_buckets
+        name: List S3 Buckets
+        command: list_buckets
+        result_as: buckets
+
+      - aws:  &get_tags
+          name: Get Tags
+          description: Retrieves tags for KMS keys
+          command: get_bucket_tagging
+          arguments:
+            Name: item.Name
+            ExpectedBucketOwner: item.Owner.ID
+          iterate: var.buckets
+          result_as:
+            name: tags
+            mode: extend
+            include:
+              Name: item.Name
+
+      - dataset:  &format_tags
+          name: Update Tags
+          description: Update the tags to use a dict format
+          data: var.tags
+          stages:
+            - convert_list_of_dict_to_dict:
+                source_key: TagSet
+                key_name: Key
+                key_value: Value
+
+      - dataset: &join_tags_and_aliases
+          name: Merge Tags
+          description: Merges the tags into the KMS keys
+          data: var.result
+          stages:
+            - join:
+                data: var.tags
+                left_keys:
+                  - Name
+                right_keys:
+                  - Name
+            - join:
+                data: var.kms_aliases
+                left_keys:
+                  - Name
+                right_keys:
+                  - Name
+          result_as: result

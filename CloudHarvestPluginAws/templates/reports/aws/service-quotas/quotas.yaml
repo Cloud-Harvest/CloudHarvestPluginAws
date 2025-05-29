@@ -1,0 +1,38 @@
+report:
+  name: reports.aws.service-quotas.quotas
+  description: Report on AWS Service Quotas
+
+  headers:
+    - Active
+    - Account
+    - Region
+    - ServiceCode
+    - ServiceName
+    - QuotaCode
+    - QuotaName
+    - QuotaValue
+    - Unit
+    - Adjustable
+    - ApplyLevel
+
+  tasks:
+    - mongo:
+        name: Get Service Quotas
+        silo: harvest-core
+        collection: aws.service-quotas.quotas
+        filters: '.*'
+
+        arguments:
+          pipeline:
+            - $project:
+                Active: "$Harvest.Active"
+                Account: "$Harvest.Account"
+                Region: "$Harvest.Region"
+                ServiceCode: 1
+                ServiceName: 1
+                QuotaCode: 1
+                QuotaName: 1
+                QuotaValue: 1
+                Unit: 1
+                Adjustable: 1
+                ApplyLevel: "$QuotaAppliedAtLevel"

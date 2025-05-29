@@ -1,0 +1,34 @@
+harvest:
+  name: services.service-quotas.quotas
+  description: Retrieve information about AWS service quotas
+  unique_identifier_keys: QuotaArn
+
+  indexes:
+    - keys: ServiceName
+    - keys: QuotaName
+
+  tasks:
+    all:
+      - aws: &list_service_quotas
+          name: List Service Quotas
+          command: list_services
+          result_as: services
+
+      - aws: &get_service_quotas
+          name: Get Service Quotas
+          command: list_service_quotas
+          arguments:
+            ServiceCode: item.ServiceCode
+            QuotaAppliedAtLevel: ALL
+          iterate: services
+          result_as:
+            name: quotas
+            mode: extend
+
+    single:
+      - aws:
+          name: Get Service Quotas
+          command: list_service_quotas
+          arguments:
+            ServiceCode: var.identifier
+            QuotaAppliedAtLevel: ALL

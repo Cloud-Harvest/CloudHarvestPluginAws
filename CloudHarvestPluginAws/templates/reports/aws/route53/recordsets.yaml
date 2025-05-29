@@ -1,0 +1,40 @@
+report:
+  name: reports.aws.route53.recordsets
+  description: Report on AWS Route53 Record Sets
+
+  headers:
+    - Active
+    - Account
+    - Region
+    - HostedZone
+    - Name
+    - Type
+    - TTL
+    - Record
+
+  tasks:
+    - mongo:
+        name: Get Record Sets
+        silo: harvest-core
+        collection: aws.route53.hosted-zones
+        filters: '.*'
+
+        arguments:
+          pipeline:
+            - $unwind:
+                path: '$ResourceRecordSets'
+                preserveNullAndEmptyArrays: true
+
+            - $unwind:
+                path: '$ResourceRecordSets.ResourceRecords'
+                preserveNullAndEmptyArrays: true
+
+            - $project:
+                Active: "$Harvest.Active"
+                Account: "$Harvest.AccountId"
+                Region: "$Harvest.Region"
+                HostedZone: "$Name"
+                Name: "$ResourceRecordSets.Name"
+                Type: "$ResourceRecordSets.Type"
+                TTL: "$ResourceRecordSets.TTL"
+                Record: "$ResourceRecordSets.ResourceRecords.Value"

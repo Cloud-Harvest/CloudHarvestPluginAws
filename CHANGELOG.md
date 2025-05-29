@@ -2,6 +2,11 @@
 
 ## 0.5.0
 - Updated to conform with CloudHarvestCoreTasks 0.7.0
+- Added indexes to all existing services
+- Added services and reports for the following AWS services:
+  - `Route53`
+  - `S3`
+  - `ServiceQuotas`
 
 ## 0.4.1
 - Template improvements
