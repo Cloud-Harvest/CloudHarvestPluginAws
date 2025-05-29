@@ -31,7 +31,7 @@ report:
 
             - $project:
                 Active: "$Harvest.Active"
-                Account: "$Harvest.AccountId"
+                Account: "$Harvest.Account"
                 Region: "$Harvest.Region"
                 HostedZone: "$Name"
                 Name: "$ResourceRecordSets.Name"
