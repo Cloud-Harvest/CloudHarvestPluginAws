@@ -35,6 +35,7 @@ harvest:
             include:
               HostedZoneId: item.Id
           result_to_dict_key: ResourceRecordSets
+          include_metadata: false
 
       - dataset: &merge_resource_record_sets_into_hosted_zones
           name: Merge Resource Record Sets
