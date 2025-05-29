@@ -21,7 +21,7 @@ harvest:
           arguments:
             ServiceCode: item.ServiceCode
             QuotaAppliedAtLevel: ALL
-          iterate: services
+          iterate: var.services
           result_as:
             name: quotas
             mode: extend
