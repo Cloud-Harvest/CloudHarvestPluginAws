@@ -1,0 +1,40 @@
+report:
+  name: reports.aws.ec2.instance-types
+  description: This report provides information on EC2 instance-types across all regions and accounts.
+
+  headers:
+    - Active
+    - Account
+    - Region
+    - Class
+    - CurrentGeneration
+    - FreeTierEligible
+    - Architectures
+    - ClockSpeed
+    - Cores
+    - Threads
+    - MemoryMiB
+    - Burstable
+
+  tasks:
+    - mongo:
+        name: get ec2 instance-types
+        silo: harvest-core
+        collection: aws.ec2.instance-types
+        filters: '.*'
+
+        arguments:
+          pipeline:
+            - $project:
+                Active: "$Harvest.Active"
+                Account: "$Harvest.Account"
+                Region: "$Harvest.Region"
+                Class: "$InstanceType"
+                CurrentGeneration: 1
+                FreeTierEligible: 1
+                Architectures: "$ProcessorInfo.SupportedArchitectures"     # Returns list
+                ClockSpeed: "$ProcessorInfo.SustainedClockSpeedInGhz"
+                Cores: "$VCpuInfo.DefaultCores"
+                Threads: "$VCpuInfo.DefaultThreadsPerCore"
+                MemoryMiB: "$MemoryInfo.SizeInMiB"
+                Burstable: "$BurstablePerformanceSupported"

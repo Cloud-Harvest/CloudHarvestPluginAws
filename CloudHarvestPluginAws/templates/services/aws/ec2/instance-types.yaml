@@ -1,0 +1,21 @@
+harvest:
+  name: services.aws.ec2.instance-types
+  description: Retrieve information about EC2 instance-types
+  unique_identifier_keys:
+    - Harvest.Platform
+    - Harvest.Service
+    - Harvest.Type
+    - Harvest.Account
+    - Harvest.Region
+    - InstanceType
+
+  indexes:
+    - keys: InstanceType
+
+  tasks:
+    all:
+      - aws:
+          name: Retrieve EC2 Instance Types
+          description: Retrieve all EC2 instance-types
+          command: describe_instance_types
+          result_as: instance-types

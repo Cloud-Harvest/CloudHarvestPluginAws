@@ -1,3 +1,4 @@
+from CloudHarvestCoreTasks.dataset import WalkableDict
 from CloudHarvestCoreTasks.tasks import BaseTask
 from CloudHarvestCorePluginManager.decorators import register_definition
 
@@ -16,7 +17,7 @@ class AwsTask(BaseTask):
                  region: str = None,
                  include_metadata: bool = True,
                  max_retries: int = 10,
-                 result_path: str = None,
+                 result_path: str or list or tuple = None,
                  *args,
                  **kwargs):
         """
@@ -71,73 +72,25 @@ class AwsTask(BaseTask):
         Returns:
             self: Returns the instance of the AwsTask.
         """
+        from CloudHarvestPluginAws.credentials import Profile, get_profile
+        profile: Profile = get_profile(account_number=self.account, role_name=self.role)
 
-        from CloudHarvestPluginAws.credentials import get_profile
-        profile = get_profile(account_number=self.account, role_name=self.role)
-
-        from boto3 import Session
-        session = Session(**profile.credentials)
+        if not profile:
+            raise Exception(f'No profile found for account {self.account} and role {self.role}')
 
         # Set the account_alias attribute
         self.account_alias = profile.account_alias
 
-        # Create a client for the specified service in the specified region
-        client = session.client(service_name=self.service, region_name=self.region)
-
-        # Initialize the result and attempt counter
-        attempt = 0
-
-        # Make sure the command exists in the client before making any attempts
-        if not hasattr(client, self.command):
-            raise Exception(f'Command `{self.command}` not found in service `{self.service}`')
-
-        # Start a loop to execute the command
-        while True:
-            # Increment the attempt counter
-            attempt += 1
-
-            try:
-                # If the maximum number of retries is exceeded, raise an exception
-                if attempt > self.max_retries:
-                    raise Exception('Max retries exceeded')
-
-                # If the command can be paginated, get a paginator and build the full result
-                if client.can_paginate(self.command):
-                    paginator = client.get_paginator(self.command)
-                    result = paginator.paginate(**self.arguments).build_full_result()
-
-                # Otherwise, execute the command directly
-                else:
-                    result = getattr(client, self.command)(**self.arguments)
-
-                # Break the loop if the command was executed successfully
-                break
-
-            # If a ClientError is raised, handle it
-            except ClientError as e:
-                # If the error is due to throttling, sleep for a while and then retry
-                if e.response['Error']['Code'] == 'Throttling':
-                    from time import sleep
-                    sleep(2 * attempt)
-
-                # If the error is due to any other reason, raise it
-                else:
-                    raise e
-
-        # If a result key is specified, extract the result using the key
-        if self.result_path:
-            from CloudHarvestCoreTasks.dataset import WalkableDict
-            result = WalkableDict(result).walk(self.result_path)
-
-        # Otherwise, extract the result using the first key that is not 'Marker' or 'NextToken'
-        else:
-            for key in result.keys():
-                if key in ['Marker', 'NextToken']:
-                    continue
-
-                else:
-                    result = result[key]
-                    break
+        # Execute the AWS query
+        result = query_aws(
+            service=self.service,
+            region=self.region,
+            command=self.command,
+            arguments=self.arguments,
+            credentials=profile.credentials,
+            max_retries=self.max_retries,
+            result_path=self.result_path
+        )
 
         # Add starting metadata to the result
         if self.include_metadata:
@@ -160,3 +113,103 @@ class AwsTask(BaseTask):
 
         # Return the instance of the AwsTask
         return self
+
+
+def query_aws(service: str,
+              command: str,
+              arguments: dict,
+              credentials: dict = None,
+              max_retries: int = None,
+              region: str = None,
+              result_path: str or list or tuple = None) -> WalkableDict:
+    """
+    Queries AWS for the specified service and command.
+
+    Arguments
+        service (str): The AWS service to query (e.g., 's3', 'ec2').
+        command (str): The command to execute on the AWS service.
+        arguments (dict): The arguments to pass to the command.
+        credentials (dict, optional): The AWS credentials to use for the session. When not provided, boto3 will attempt to use the default credentials.
+        max_retries (int, optional): The maximum number of retries for the command. Defaults to 10.
+        region (str, optional): The AWS region to use for the session. None is supported as not all AWS services require a region.
+        result_path (str, optional): Path to the results. When not provided, the path is the first key that is not 'Marker' or 'NextToken'.
+
+    Returns:
+        Any: The result of the AWS query.
+    """
+    # Make sure the credentials is a dictionary
+    credentials = credentials or {}
+    max_retries = max_retries or 10
+
+    from boto3 import Session
+    session = Session(**credentials)
+
+    # Create a client for the specified service in the specified region
+    client = session.client(service_name=service, region_name=region)
+
+    # Initialize the result and attempt counter
+    attempt = 0
+
+    # Make sure the command exists in the client before making any attempts
+    if not hasattr(client, command):
+        raise Exception(f'Command `{command}` not found in service `{service}`')
+
+    # Start a loop to execute the command
+    while True:
+        # Increment the attempt counter
+        attempt += 1
+
+        try:
+            # If the maximum number of retries is exceeded, raise an exception
+            if attempt > max_retries:
+                raise Exception('Max retries exceeded')
+
+            # If the command can be paginated, get a paginator and build the full result
+            if client.can_paginate(command):
+                paginator = client.get_paginator(command)
+                result = paginator.paginate(**arguments).build_full_result()
+
+            # Otherwise, execute the command directly
+            else:
+                result = getattr(client, command)(**arguments)
+
+            # Break the loop if the command was executed successfully
+            break
+
+        # If a ClientError is raised, handle it
+        except ClientError as e:
+            # If the error is due to throttling, sleep for a while and then retry
+            if e.response['Error']['Code'] == 'Throttling':
+                from time import sleep
+                sleep(2 * attempt)
+
+            # If the error is due to any other reason, raise it
+            else:
+                raise e
+
+    result = WalkableDict(result)
+
+    # If a result key is specified, extract the result using the key
+    if isinstance(result_path, str):
+        result = result.walk(result_path)
+
+    elif isinstance(result_path, (list, tuple)):
+        result = {
+            path: result.walk(path)
+            for path in result_path
+        }
+
+    # Otherwise, extract the result using the first key that is not 'Marker' or 'NextToken'
+    else:
+        for key in result.keys():
+            if key in ['Marker', 'NextToken']:
+                continue
+
+            else:
+                result = result[key]
+                if isinstance(result, dict):
+                    result = WalkableDict(result)
+
+                break
+
+    return result

@@ -10,6 +10,15 @@ harvest:
     - Engine
     - EngineVersion
 
+  indexes:
+    - keys: DBParameterGroupFamily
+    - keys:
+        - Engine
+        - EngineVersion
+    - keys:
+        - ValidUpgradeTarget.Engine
+        - ValidUpgradeTarget.EngineVersion
+
   tasks:
     all:
       - aws:  &describe_db_engine_versions

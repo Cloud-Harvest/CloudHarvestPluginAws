@@ -1,0 +1,35 @@
+harvest:
+  name: services.aws.ec2.subnets
+  description: Retrieve information about EC2 subnets
+  unique_identifier_keys: SubnetArn
+
+  indexes:
+    - keys: SubnetId
+    - keys: VpcId
+
+  tasks:
+    all:
+      - aws: &describe_db_subnets
+          name: Retrieve EC2 Subnets
+          description: Retrieve all EC2 subnets
+          command: describe_subnets
+          result_as: subnets
+
+      - dataset: &update_tags
+          name: Format Tags
+          description: Converts tags from list of dicts to dict
+          data: var.subnets
+          stages:
+            - convert_list_of_dict_to_dict:
+                source_key: Tags
+                name_key: Key
+                value_key: Value
+
+    # tasks to collect a single resource
+    single:
+      - <<: *describe_db_subnets
+        arguments:
+          GroupIds:
+            - var.identifier
+
+      - <<: *update_tags

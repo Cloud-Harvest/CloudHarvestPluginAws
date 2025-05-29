@@ -1,0 +1,38 @@
+harvest:
+  name: RDS Snapshots
+  description: Retrieves RDS Instance Snapshots
+  unique_identifier_keys: DBSnapshotArn
+
+  indexes:
+    - keys: DBSnapshotIdentifier
+    - keys: DBInstanceIdentifier
+
+  tasks:
+    all:
+      - aws: &describe_instance_snapshots
+          name: Instance Snapshots
+          command: describe_db_snapshots
+          arguments:
+            IncludeShared: True
+            IncludePublic: True
+          result_as: instance_snapshots
+
+      - dataset: &format_tags
+            name: Format the tags
+            description:
+            data: var.instance_snapshots
+            stages:
+              - convert_list_of_dict_to_dict:
+                  source_key: TagList
+                  target_key: Tags
+                  name_key: Key
+                  value_key: Value
+
+    single:
+      - <<: *describe_instance_snapshots
+        arguments:
+          IncludeShared: True
+          IncludePublic: True
+          DBSnapshotIdentifier: var.identifier
+
+      - <<: *format_tags

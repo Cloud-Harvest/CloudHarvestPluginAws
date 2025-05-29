@@ -3,6 +3,11 @@ harvest:
   description: Retrieve information about RDS instance parameters
   unique_identifier_keys: DBParameterGroupArn
 
+  indexes:
+    - keys: DBParameterGroupName
+    - keys: DBParameterGroupFamily
+    - keys: Parameters.ParameterName
+
   tasks:
     all:
       - aws: &describe_db_parameters

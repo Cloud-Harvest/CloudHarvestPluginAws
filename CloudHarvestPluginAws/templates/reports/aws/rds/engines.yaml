@@ -1,5 +1,5 @@
 report:
-  name: AWS RDS Engines
+  name: reports.aws.rds.engines
   description: |
     This report returns information about the RDS engines available in the AWS account. It also includes the unwound
     ValidUpgradeTarget field which indicates what version the left-hand engine can upgrade to.
@@ -16,6 +16,8 @@ report:
     - TargetVersion
     - AutoUpgrade
     - IsMajorVersionUpgrade
+    - ExtendedStart
+    - ExtendedEnd
 
   tasks:
     - mongo:
@@ -30,6 +32,30 @@ report:
                 path: "$ValidUpgradeTarget"
                 preserveNullAndEmptyArrays: true
 
+            - $lookup:
+                from: "aws.rds.major-engine-versions"
+                let:
+                  service: "$Harvest.Service"
+                  account: "$Harvest.Account"
+                  region: "$Harvest.Region"
+                  engine: "$Engine"
+                  engineVersion: "$EngineVersion"
+                pipeline:
+                  - $match:
+                      $expr:
+                        $and:
+                          - { $eq: ["$Harvest.Service", "$$service"] }
+                          - { $eq: ["$Harvest.Account", "$$account"] }
+                          - { $eq: ["$Harvest.Region", "$$region"] }
+                          - { $eq: ["$Engine", "$$engine"] }
+                          - { $eq: ["$MajorEngineVersion", "$$engineVersion"] }
+                          - { $eq: ["LifecycleSupportName", "open-source-extended-support"] }
+                as: "MajorEngineVersionDetails"
+
+            - $unwind:
+                path: "$MajorEngineVersionDetails"
+                preserveNullAndEmptyArrays: true
+
             - $project:
                 Active: "$Harvest.Active"
                 Account: "$Harvest.Account"
@@ -42,3 +68,5 @@ report:
                 TargetVersion: "$ValidUpgradeTarget.EngineVersion"
                 AutoUpgrade: "$ValidUpgradeTarget.AutoUpgrade"
                 IsMajorVersionUpgrade: "$ValidUpgradeTarget.IsMajorVersionUpgrade"
+                ExtendedStart: "$MajorEngineVersionDetails.SupportedEngineLifecycles.LifecycleSupportStartDate"
+                ExtendedEnd: "$MajorEngineVersionDetails.SupportedEngineLifecycles.LifecycleSupportEndDate"

@@ -1,0 +1,59 @@
+harvest:
+  name: services.aws.route53.hosted-zones
+  unique_identifier_keys:
+    - Harvest.Platform
+    - Harvest.Service
+    - Harvest.Type
+    - Harvest.Region
+    - Harvest.AccountId
+    - Id
+
+  indexes:
+    - keys: Id
+    - keys: Name
+    - keys: ResourceRecordSets.Name
+    - keys: ResourceRecordSets.Type
+    - keys: ResourceRecordSets.Region
+    - keys: ResourceRecordSets.ResourceRecords.Value
+
+  tasks:
+    all:
+      - aws: &list_hosted_zones
+          name: Get Hosted Zones
+          command: list_hosted_zones
+          result_as: hosted_zones
+
+      - aws: &list_resource_record_sets
+          name: Get Resource Record Sets
+          command: list_resource_record_sets
+          arguments:
+              HostedZoneId: item.Id
+          iterate: var.hosted_zones
+          result_as:
+            name: resource_record_sets
+            mode: append
+            include:
+              HostedZoneId: item.Id
+          result_to_dict_key: ResourceRecordSets
+          include_metadata: false
+
+      - dataset: &merge_resource_record_sets_into_hosted_zones
+          name: Merge Resource Record Sets
+          data: var.hosted_zones
+          stages:
+            - join:
+                data: var.resource_record_sets
+                left_keys:
+                  - Id
+                right_keys:
+                  - HostedZoneId
+
+    single:
+      - <<: *list_hosted_zones
+        command: get_hosted_zone
+        arguments:
+          Id: var.identifier
+
+      - <<: *list_resource_record_sets
+
+      - <<: *merge_resource_record_sets_into_hosted_zones

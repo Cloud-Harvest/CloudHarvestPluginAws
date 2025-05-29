@@ -8,27 +8,29 @@ report:
     - Region
     - Cluster
     - Instance
+    - Status
     - Engine
     - EngineVersion
     - Class
     - Created
 
   tasks:
-    - auger:
+    - mongo:
         name: get rds instances
-        result_as: result
-        collection: aws.rds.db_instances
-        user_filters:
-          accepted: '*'
+        silo: harvest-core
+        collection: aws.rds.instances
+        filters: '.*'
 
-        pipeline:
-          - $project:
-              Active: "$Harvest.Active"
-              Account: "$Harvest.Account"
-              Region: "$Harvest.Region"
-              Cluster: "$DBClusterIdentifier"
-              Instance: "DBInstanceIdentifier"
-              Engine: 1
-              EngineVersion: 1
-              Class: "$DBInstanceClass"
-              Created: "$InstanceCreateTime"
+        arguments:
+          pipeline:
+            - $project:
+                Active: "$Harvest.Active"
+                Account: "$Harvest.Account"
+                Region: "$Harvest.Region"
+                Cluster: "$DBClusterIdentifier"
+                Instance: "$DBInstanceIdentifier"
+                Status: "$DBInstanceStatus"
+                Engine: 1
+                EngineVersion: 1
+                Class: "$DBInstanceClass"
+                Created: "$InstanceCreateTime"

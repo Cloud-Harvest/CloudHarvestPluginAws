@@ -1,0 +1,36 @@
+report:
+  name: reports.aws.ec2.volumes
+  description: This report provides information on EC2 volumes across all regions and accounts.
+
+  headers:
+    - Active
+    - Account
+    - Region
+    - Volume
+    - VolumeType
+    - Size
+    - State
+    - AttachedTo
+    - Encrypted
+    - Created
+
+  tasks:
+    - mongo:
+        name: get ec2 volumes
+        silo: harvest-core
+        collection: aws.ec2.volumes
+        filters: '.*'
+
+        arguments:
+          pipeline:
+            - $project:
+                Active: "$Harvest.Active"
+                Account: "$Harvest.Account"
+                Region: "$Harvest.Region"
+                Volume: "$VolumeId"
+                VolumeType: 1
+                Size: 1
+                State: 1
+                AttachedTo: "$Attachments.InstanceId"     # Returns a list
+                Encrypted: 1
+                Created: "$CreateTime"

@@ -1,6 +1,6 @@
 report:
-  description: |
-    This report provides information on DMS Replication Tasks across all regions and accounts.
+  name: reports.aws.dms.tasks
+  description: This report provides information on DMS Replication Tasks across all regions and accounts.
 
   headers:
     - Active
@@ -13,16 +13,16 @@ report:
   tasks:
     - mongo:
         name: get dms replication tasks
-        result_as: result
-        collection: aws.dms.replication_tasks
-        user_filters:
-          accepted: '*'
+        silo: harvest-core
+        collection: aws.dms.tasks
+        filters: '.*'
 
-        pipeline:
-          - $project:
-              Active: "$Harvest.Active"
-              Account: "$Harvest.Account"
-              Region: "$Harvest.Region"
-              Task: "$ReplicationTaskIdentifier"
-              Status: "$Status"
-              Created: "$ReplicationTaskCreationDate"
+        arguments:
+          pipeline:
+            - $project:
+                Active: "$Harvest.Active"
+                Account: "$Harvest.Account"
+                Region: "$Harvest.Region"
+                Task: "$ReplicationTaskIdentifier"
+                Status: "$Status"
+                Created: "$ReplicationTaskCreationDate"

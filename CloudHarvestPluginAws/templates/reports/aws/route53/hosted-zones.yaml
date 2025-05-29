@@ -1,0 +1,30 @@
+report:
+  name: report.aws.route53.hosted-zones
+  description: Report on AWS Route53 Hosted Zones
+
+  headers:
+    - Active
+    - Account
+    - Region
+    - Id
+    - Name
+    - Private
+    - Records
+
+  tasks:
+    - mongo:
+        name: Get Hosted Zones
+        silo: harvest-core
+        collection: aws.route53.hosted-zones
+        filters: '.*'
+
+        arguments:
+          pipeline:
+            - $project:
+                Active: "$Harvest.Active"
+                Account: "$Harvest.Account"
+                Region: "$Harvest.Region"
+                Id: 1
+                Name: 1
+                Private: "$Config.PrivateZone"
+                Records: "$ResourceRecordSetCount"

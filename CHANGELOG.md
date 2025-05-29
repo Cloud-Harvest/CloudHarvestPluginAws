@@ -1,5 +1,28 @@
 # CHANGELOG
 
+## 0.5.0
+- Updated to conform with CloudHarvestCoreTasks 0.7.0
+- Added indexes to all existing services
+- Added services and reports for the following AWS services:
+  - `Route53`
+  - `S3`
+  - `ServiceQuotas`
+
+## 0.4.1
+- Template improvements
+- Added
+  - `DMS` service
+  - `EC2` service
+
+## 0.4.0
+- [get_credentials() will check the AWS credentials file for profiles](https://github.com/Cloud-Harvest/CloudHarvestPluginAws/issues/20)
+  - Added the `platforms.aws.credentials_source` configuration option; when `file`, the AWS credentials file will be checked for profiles
+  - Added the `platforms.aws.credentials_file` configuration option to specify the path to the AWS credentials file
+  - Added the `platforms.aws.<account-number>.alias` configuration option to specify a name for the AWS account when it cannot be retrieved using the `describe_account` API call
+  - Added more resiliency when attempting to fetch the account alias as some orgs lock down the `organizations` API service
+  - The `Profile` class can now write to the AWS credentials file
+  - `get_credentials()` may now check the AWS credentials file for profiles
+
 ## 0.3.2
 - [Platform configuration needs to allow different role names per account](https://github.com/Cloud-Harvest/CloudHarvestAgent/issues/10)
 - Updated to conform with CloudHarvestCoreTasks 0.6.6

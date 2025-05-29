@@ -1,0 +1,25 @@
+harvest:
+  name: services.aws.rds.pending-maintenance-actions
+  description: Retrieve information about RDS pending maintenance actions
+  unique_identifier_keys:
+    - Harvest.Platform
+    - Harvest.Service
+    - Harvest.Type
+    - Harvest.Account
+    - Harvest.Region
+    - ResourceIdentifier
+
+  indexes:
+    - keys: ResourceIdentifier
+
+  tasks:
+    all:
+      - aws: &describe_db_clusters
+          name: Retrieve RDS Events
+          command: describe_pending_maintenance_actions
+
+    # tasks to collect a single cluster
+    single:
+      - <<: *describe_db_clusters
+        arguments:
+          ResourceIdentifier: var.identifier

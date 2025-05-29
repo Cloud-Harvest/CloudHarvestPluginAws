@@ -1,6 +1,6 @@
 report:
-  description: |
-    This report provides information on DMS Events across all regions and accounts.
+  name: reports.aws.dms.events
+  description: This report provides information on DMS Events across all regions and accounts.
 
   headers:
     - Date
@@ -13,17 +13,17 @@ report:
   tasks:
     - mongo:
         name: get dms events
-        result_as: result
+        silo: harvest-core
         collection: aws.dms.events
-        user_filters:
-          accepted: '*'
+        filters: '.*'
 
-        pipeline:
-          - $project:
-              Active: "$Harvest.Active"
-              Date: "$Date"
-              Account: "$Harvest.Account"
-              Region: "$Harvest.Region"
-              SourceIdentifier: "$SourceIdentifier"
-              SourceType: "$SourceType"
-              Message: "$Message"
+        arguments:
+          pipeline:
+            - $project:
+                Active: "$Harvest.Active"
+                Date: "$Date"
+                Account: "$Harvest.Account"
+                Region: "$Harvest.Region"
+                SourceIdentifier: "$SourceIdentifier"
+                SourceType: "$SourceType"
+                Message: "$Message"

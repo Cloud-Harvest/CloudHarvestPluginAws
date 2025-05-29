@@ -3,6 +3,14 @@ harvest:
   description: Retrieve information about RDS clusters
   unique_identifier_keys: DBClusterArn
 
+  indexes:
+    - keys: DBClusterIdentifier
+    - keys: Engine
+    - keys: Endpoint
+    - keys: ReaderEndpoint
+    - keys: DBClusterMembers.DBInstanceIdentifier
+    - keys: KmsKeyId
+
   tasks:
     all:
       - aws: &describe_db_clusters
@@ -19,8 +27,8 @@ harvest:
             - convert_list_of_dict_to_dict:
                 source_key: TagList
                 target_key: Tags
-#                name_key: Name       # Default value
-#                value_key: Value     # Default value
+                name_key: Key
+                value_key: Value
 
     # tasks to collect a single cluster
     single:

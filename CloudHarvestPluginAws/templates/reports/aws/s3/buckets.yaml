@@ -1,0 +1,28 @@
+report:
+  name: reports.aws.s3.buckets
+  description: This report provides information on S3 buckets across all regions and accounts.
+
+  headers:
+    - Active
+    - Account
+    - Region
+    - Name
+    - Owner
+    - Created
+
+  tasks:
+    - mongo:
+        name: get s3 buckets
+        silo: harvest-core
+        collection: aws.s3.buckets
+        filters: '.*'
+
+        arguments:
+          pipeline:
+            - $project:
+                Active: "$Harvest.Active"
+                Account: "$Harvest.Account"
+                Region: "$Harvest.Region"
+                Name: 1
+                Owner: "$Owner.DisplayName"
+                Created: "$CreationDate"

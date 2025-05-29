@@ -1,0 +1,30 @@
+report:
+  name: reports.aws.ec2.vpcs
+  description: This report provides information on EC2 vpcs across all regions and accounts.
+
+  headers:
+    - Active
+    - Account
+    - Region
+    - Vpc
+    - State
+    - CidrBlock
+    - Default
+
+  tasks:
+    - mongo:
+        name: get ec2 vpcs
+        silo: harvest-core
+        collection: aws.ec2.vpcs
+        filters: '.*'
+
+        arguments:
+          pipeline:
+            - $project:
+                Active: "$Harvest.Active"
+                Account: "$Harvest.Account"
+                Region: "$Harvest.Region"
+                Vpc: "$VpcId"
+                State: 1
+                CidrBlock: 1
+                Default: "$IsDefault"

@@ -1,4 +1,5 @@
 report:
+  name: reports.aws.kms.keys
   description: Describes LightSail Instances
 
   headers:
@@ -21,8 +22,7 @@ report:
         collection: aws.kms.keys
         result_as: result
         silo: harvest-core
-        user_filters:
-          accepted: '*'
+        filters: '.*'
 
         arguments:
           pipeline:

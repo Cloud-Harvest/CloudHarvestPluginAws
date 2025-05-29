@@ -1,0 +1,73 @@
+report:
+  name: reports.aws.rds.pending-maintenance-actions
+
+  headers:
+    - Active
+    - Account
+    - Region
+    - Cluster
+    - Instance
+    - Action
+    - AutoAppliedAfterDate
+    - ForcedApplyDate
+    - OptInStatus
+    - CurrentApplyDate
+    - Description
+
+  tasks:
+    - mongo:
+        name: get rds pending maintenance actions
+        silo: harvest-core
+        collection: aws.rds.pending-maintenance-actions
+        filters: '.*'
+
+        arguments:
+          pipeline:
+            - $unwind:
+                path: "$PendingMaintenanceActionDetails"
+                preserveNullAndEmptyArrays: true
+
+            - $lookup:
+                from: aws.rds.instances
+                localField: "ResourceIdentifier"
+                foreignField: "DBInstanceArn"
+                as: "InstanceDetails"
+
+            - $lookup:
+                from: aws.rds.clusters
+                localField: "ResourceIdentifier"
+                foreignField: "DBClusterArn"
+                as: "ClusterDetails"
+
+            # Ensure we have at least one instance or cluster detail. We only take the first element because arns are
+            # unique, so there should only be one match, but we use $ifNull to handle cases where there are no matches.
+            - $set:
+                InstanceDetails:
+                  $ifNull:
+                    - { $arrayElemAt: ["$InstanceDetails", 0] }
+                    - null
+                ClusterDetails:
+                  $ifNull:
+                    - { $arrayElemAt: ["$ClusterDetails", 0] }
+                    - null
+
+            - $project:
+                Active: "$Harvest.Active"
+                Account: "$Harvest.Account"
+                Region: "$Harvest.Region"
+                Cluster:
+                  $ifNull:
+                    - "$ClusterDetails.DBClusterIdentifier"
+                    - $ifNull:
+                        - "$InstanceDetails.DBClusterIdentifier"
+                        - null
+                Instance:
+                  $ifNull:
+                    - "$InstanceDetails.DBInstanceIdentifier"
+                    - null
+                Action: "$PendingMaintenanceActionDetails.Action"
+                AutoAppliedAfterDate: "$PendingMaintenanceActionDetails.AutoAppliedAfterDate"
+                ForcedApplyDate: "$PendingMaintenanceActionDetails.ForcedApplyDate"
+                OptInStatus: "$PendingMaintenanceActionDetails.OptInStatus"
+                CurrentApplyDate: "$PendingMaintenanceActionDetails.CurrentApplyDate"
+                Description: "$PendingMaintenanceActionDetails.Description"

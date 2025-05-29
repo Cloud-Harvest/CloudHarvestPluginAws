@@ -3,6 +3,14 @@ harvest:
   description: Retrieve information about RDS instances including Non-Aurora instances
   unique_identifier_keys: DBInstanceArn
 
+  indexes:
+    - keys: DBInstanceIdentifier
+    - keys: DBClusterIdentifier
+    - keys:
+        - Engine
+        - EngineVersion
+    - keys: Endpoint
+
   # tasks to collect all instances
   tasks:
     all:
@@ -20,6 +28,8 @@ harvest:
             - convert_list_of_dict_to_dict:
                 source_key: TagList
                 target_key: Tags
+                name_key: Key
+                value_key: Value
 
     # tasks to collect a single cluster
     single:

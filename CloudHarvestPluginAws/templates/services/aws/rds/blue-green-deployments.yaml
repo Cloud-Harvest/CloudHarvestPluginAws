@@ -1,0 +1,43 @@
+harvest:
+  name: RDS Blue-Green Deployments
+  description: Retrieve information about RDS Blue-Green Deployments
+  unique_identifier_keys:
+    - Harvest.Platform
+    - Harvest.Service
+    - Harvest.Type
+    - Harvest.AccountId
+    - Harvest.Region
+    - BlueGreenDeploymentIdentifier
+
+  indexes:
+    - keys: BlueGreenDeploymentIdentifier
+    - keys: Source
+    - keys: Target
+
+  # tasks to collect all blue-green deployments
+  tasks:
+      all:
+      - aws: &describe_blue_green_deployments
+          name: Retrieve RDS Blue-Green Deployments
+          description: Retrieve all RDS Blue-Green Deployments
+          command: describe_blue_green_deployments
+          result_as: blue_green_deployments
+
+      - dataset: &update_tags
+          name: Update Tags
+          description: Update the tags to use a dict format
+          data: var.blue_green_deployments
+          stages:
+              - convert_list_of_dict_to_dict:
+                  source_key: TagList
+                  target_key: Tags
+                  name_key: Key
+                  value_key: Value
+
+      # tasks to collect a single blue-green deployment
+      single:
+      - <<: *describe_blue_green_deployments
+        arguments:
+          DBClusterArn: var.identifier
+
+      - <<: *update_tags

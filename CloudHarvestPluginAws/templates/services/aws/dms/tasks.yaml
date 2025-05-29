@@ -1,0 +1,75 @@
+harvest:
+  name: services.aws.dms.tasks
+  description: Retrieve information about DMS tasks
+  unique_identifier_keys: ReplicationTaskArn
+
+  indexes:
+    - keys: ReplicationTaskIdentifier
+    - keys: SourceEndpointArn
+    - keys: TargetEndpointArn
+    - keys: ReplicationInstanceArn
+    - keys: TargetReplicationInstanceArn
+
+  tasks:
+    all:
+      - aws: &describe_db_clusters
+          name: Retrieve RDS Clusters
+          description: Retrieve all RDS clusters
+          command: describe_replication_tasks
+          result_as: tasks
+
+      - aws:  &get_tags
+          name: Get Tags
+          description: Retrieves tags for KMS keys
+          command: list_tags_for_resource
+          arguments:
+            ResourceArn: item.ReplicationTaskArn
+          iterate: var.tasks
+          result_as:
+            name: tags
+            mode: extend
+            include:
+              ReplicationTaskArn: item.ReplicationTaskArn
+
+      - dataset:  &format_tags
+          name: Update Tags
+          description: Update the tags to use a dict format
+          data: var.tags
+          stages:
+            - convert_list_of_dict_to_dict:
+                source_key: TagList
+                target_key: Tags
+                name_key: Key
+                value_key: Value
+
+      - dataset: &join_tags_and_aliases
+          name: Merge Tags
+          description: Merges the tags into the KMS keys
+          data: var.result
+          result_as: result
+          stages:
+            - join:
+                data: var.tags
+                left_keys:
+                  - ReplicationTaskArn
+                right_keys:
+                  - ReplicationTaskArn
+            - join:
+                data: var.tasks
+                left_keys:
+                  - ReplicationTaskArn
+                right_keys:
+                  - ReplicationTaskArn
+
+    # tasks to collect a single cluster
+    single:
+      - <<: *describe_db_clusters
+        arguments:
+          Filters:
+            Name: replication-task-arn
+            Values:
+              - var.identifier
+
+      - <<: *get_tags
+      - <<: *format_tags
+      - <<: *join_tags_and_aliases

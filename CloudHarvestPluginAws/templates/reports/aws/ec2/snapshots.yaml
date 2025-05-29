@@ -1,0 +1,36 @@
+report:
+  name: reports.aws.ec2.snapshots
+  description: This report provides information on EC2 snapshots across all regions and accounts.
+
+  headers:
+    - Active
+    - Account
+    - Region
+    - Snapshot
+    - Volume
+    - Status
+    - Encrypted
+    - SizeBytes
+    - Start
+    - Complete
+
+  tasks:
+    - mongo:
+        name: get ec2 snapshots
+        silo: harvest-core
+        collection: aws.ec2.snapshots
+        filters: '.*'
+
+        arguments:
+          pipeline:
+            - $project:
+                Active: "$Harvest.Active"
+                Account: "$Harvest.Account"
+                Region: "$Harvest.Region"
+                Snapshot: "$SnapshotId"
+                Volume: "$VolumeId"
+                Status: "$State"
+                Encrypted: 1
+                SizeBytes: "$FullSnapshotSizeInBytes"
+                Start: "$StartTime"
+                Complete: "$CompletionTime"

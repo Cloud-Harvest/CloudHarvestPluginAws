@@ -1,0 +1,90 @@
+report:
+  name: reports.aws.ec2.security_groups
+  description: This report provides information on EC2 security_groups across all regions and accounts.
+
+  headers:
+    - Active
+    - Account
+    - Region
+    - Group
+    - Vpc
+    - EgressProtocol
+    - EgressFrom
+    - EgressTo
+    - EgressIp4
+    - EgressIp6
+    - IngressProtocol
+    - IngressFrom
+    - IngressTo
+    - IngressIp4
+    - IngressIp6
+
+  tasks:
+    - mongo:
+        name: get ec2 security groups
+        silo: harvest-core
+        collection: aws.ec2.security-groups
+        filters: '.*'
+        result_as: security_groups
+
+        arguments:
+          pipeline:
+            - $project:
+                Active: "$Harvest.Active"
+                Account: "$Harvest.Account"
+                Region: "$Harvest.Region"
+                Group: "$GroupId"
+                Name: "$GroupName"
+                Vpc: "$VpcId"
+                EgressProtocol: "$IpPermissionsEgress.IpProtocol"
+                EgressFrom: "$IpPermissionsEgress.FromPort"
+                EgressTo: "$IpPermissionsEgress.ToPort"
+                EgressIp4: "$IpPermissionsEgress.IpRanges.CidrIp"
+                EgressIp6: "$IpPermissionsEgress.Ipv6Ranges.CidrIpv6"
+                IngressProtocol: "$IpPermissions.IpProtocol"
+                IngressFrom: "$IpPermissions.FromPort"
+                IngressTo: "$IpPermissions.ToPort"
+                IngressIp4: "$IpPermissions.IpRanges.CidrIp"
+                IngressIp6: "$IpPermissions.Ipv6Ranges.CidrIpv6"
+
+            # Unwind the Egress and Ingress fields to flatten the structure. This allows us to filter the ranges more
+            # easily as their native state is to exist as array elements.
+            - $unwind:
+                path: "$EgressIp4"
+                preserveNullAndEmptyArrays: true
+
+            - $unwind:
+                path: "$EgressIp6"
+                preserveNullAndEmptyArrays: true
+
+            - $unwind:
+                path: "$IngressIp4"
+                preserveNullAndEmptyArrays: true
+
+            - $unwind:
+                path: "$IngressIp6"
+                preserveNullAndEmptyArrays: true
+
+    # We wind the IP ranges to make them easier to work with. The wind stage will take the IP ranges and convert them
+    # into a list of strings. Subsequent stages will convert the list of strings into a single new-line delimited string
+    # for easier visibility in the report.
+    - dataset:
+        name: Wind the IP ranges
+        data: var.security_groups
+        stages:
+          - wind:
+              source_key: EgressIp4
+          - wind:
+              source_key: EgressIp6
+          - wind:
+              source_key: IngressIp4
+          - wind:
+              source_key: IngressIp6
+          - convert_list_to_string:
+              source_key: EgressIp4
+          - convert_list_to_string:
+              source_key: EgressIp6
+          - convert_list_to_string:
+              source_key: IngressIp4
+          - convert_list_to_string:
+              source_key: IngressIp6

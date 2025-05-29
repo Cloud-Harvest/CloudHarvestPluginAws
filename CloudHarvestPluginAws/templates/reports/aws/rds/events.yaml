@@ -1,30 +1,28 @@
 report:
-  description: |
-    This report provides information on RDS Events across all regions and accounts.
+  name: reports.aws.rds.events
+  description: This report provides information on RDS Events across all regions and accounts.
 
   headers:
-    - Date
-    - Active
     - Account
     - Region
-    - SourceIdentifier
-    - SourceType
+    - Date
+    - Resource
+    - EventType
     - Message
 
   tasks:
     - auger:
         name: get rds events
-        result_as: result
+        silo: harvest-core
         collection: aws.rds.events
-        user_filters:
-          accepted: '*'
+        filters: '.*'
 
-        pipeline:
-          - $project:
-              Date: "$Date"
-              Active: "$Harvest.Active"
-              Account: "$Harvest.Account"
-              Region: "$Harvest.Region"
-              SourceIdentifier: "$SourceIdentifier"
-              SourceType: "$SourceType"
-              Message: "$Message"
+        arguments:
+          pipeline:
+            - $project:
+                Account: "$Harvest.Account"
+                Region: "$Harvest.Region"
+                Date: 1
+                Resource: "$SourceIdentifier"
+                EventType: "$SourceType"
+                Message: "$Message"

@@ -1,0 +1,96 @@
+report:
+  name: reports.aws.ec2.network
+  description: Describes network vpcs, subnets, and security groups, and their respective ingress and egress rules.
+
+  headers:
+    - Active
+    - Account
+    - Region
+    - Vpc
+    - Subnet
+    - SecurityGroup
+    - Cidr
+    - IngressProtocol
+    - IngressFrom
+    - IngressTo
+    - IngressIp4
+    - IngressIp6
+    - EgressProtocol
+    - EgressFrom
+    - EgressTo
+    - EgressIp4
+    - EgressIp6
+
+  tasks:
+    - mongo:
+        name: get ec2 vpcs
+        silo: harvest-core
+        collection: aws.ec2.vpcs
+        filters: '.*'
+
+        arguments:
+          pipeline:
+            # Step 1: Process VPCs
+            - $lookup:
+                from: "aws.ec2.subnets"
+                let:
+                  service: "$Harvest.Service"
+                  account: "$Harvest.Account"
+                  region: "$Harvest.Region"
+                  vpcId: "$VpcId"
+                pipeline:
+                  - $match:
+                      $expr:
+                        $and:
+                          - { $eq: ["$Harvest.Service", "$$service"] }
+                          - { $eq: ["$Harvest.Account", "$$account"] }
+                          - { $eq: ["$Harvest.Region", "$$region"] }
+                          - { $eq: ["$VpcId", "$$vpcId"] }
+                as: "Subnets"
+
+            # Step 2: Process Subnets
+            - $unwind:
+                path: "$Subnets"
+                preserveNullAndEmptyArrays: true
+
+            - $lookup:
+                from: "aws.ec2.security-groups"
+                let:
+                  service: "$Harvest.Service"
+                  account: "$Harvest.Account"
+                  region: "$Harvest.Region"
+                  subnetId: "$Subnets.SubnetId"
+                pipeline:
+                  - $match:
+                      $expr:
+                        $and:
+                          - { $eq: ["$Harvest.Service", "$$service"] }
+                          - { $eq: ["$Harvest.Account", "$$account"] }
+                          - { $eq: ["$Harvest.Region", "$$region"] }
+                          - { $in: ["$$subnetId", "$AssociatedSubnets"] }
+                as: "SecurityGroups"
+
+            # Step 3: Process Security Groups
+            - $unwind:
+                path: "$SecurityGroups"
+                preserveNullAndEmptyArrays: true
+
+            # Step 4: Project the final output
+            - $project:
+                Active: "$Harvest.Active"
+                Account: "$Harvest.Account"
+                Region: "$Harvest.Region"
+                Vpc: "$VpcId"
+                Subnet: "$Subnets.SubnetId"
+                SecurityGroup: "$SecurityGroups.GroupId"
+                Cidr: "$Subnets.CidrBlock"
+                IngressProtocol: "$SecurityGroups.IpPermissions.IpProtocol"
+                IngressFrom: "$SecurityGroups.IpPermissions.FromPort"
+                IngressTo: "$SecurityGroups.IpPermissions.ToPort"
+                IngressIp4: "$SecurityGroups.IpPermissions.IpRanges.CidrIp"
+                IngressIp6: "$SecurityGroups.IpPermissions.Ipv6Ranges.CidrIpv6"
+                EgressProtocol: "$SecurityGroups.IpPermissionsEgress.IpProtocol"
+                EgressFrom: "$SecurityGroups.IpPermissionsEgress.FromPort"
+                EgressTo: "$SecurityGroups.IpPermissionsEgress.ToPort"
+                EgressIp4: "$SecurityGroups.IpPermissionsEgress.IpRanges.CidrIp"
+                EgressIp6: "$SecurityGroups.IpPermissionsEgress.Ipv6Ranges.CidrIpv6"

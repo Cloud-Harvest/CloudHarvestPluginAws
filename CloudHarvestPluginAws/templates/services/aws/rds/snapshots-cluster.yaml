@@ -1,0 +1,38 @@
+harvest:
+  name: RDS Snapshots
+  description: Retrieves RDS Cluster snapshots
+  unique_identifier_keys: DBClusterSnapshotArn
+
+  indexes:
+    - keys: DBClusterIdentifier
+    - keys: DBClusterSnapshotIdentifier
+
+  tasks:
+    all:
+      - aws: &describe_cluster_snapshots
+          name: Cluster Snapshots
+          command: describe_db_cluster_snapshots
+          result_as: cluster_snapshots
+          arguments:
+            IncludeShared: True
+            IncludePublic: True
+
+      - dataset: &format_tags
+            name: Format the tags
+            description:
+            data: var.cluster_snapshots
+            stages:
+              - convert_list_of_dict_to_dict:
+                  source_key: TagList
+                  target_key: Tags
+                  name_key: Key
+                  value_key: Value
+
+    single:
+      - <<: *describe_cluster_snapshots
+        arguments:
+          IncludeShared: True
+          IncludePublic: True
+          DBClusterSnapshotIdentifier: var.identifier
+
+      - <<: *format_tags

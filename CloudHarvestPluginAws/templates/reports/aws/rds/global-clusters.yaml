@@ -1,0 +1,48 @@
+report:
+  name: reports.aws RDS Global Clusters
+  description: This report returns information about AWS RDS Global Clusters.
+
+  headers:
+    - Account
+    - Identifier
+    - Status
+    - Engine
+    - EngineVersion
+    - PrimaryRegion
+    - PrimaryCluster
+    - PrimaryStatus
+    - FailoverStatus
+
+  tasks:
+    - mongo:
+        name: Get AWS RDS Proxies
+        silo: harvest-core
+        collection: aws.rds.global-clusters
+        filters: '.*'
+
+        arguments:
+          pipeline:
+            - "$unwind":
+                path: "$GlobalClusterMembers"
+                preserveNullAndEmptyArrays: true
+
+            - "$match":
+                GlobalClusterMembers.IsWriter:
+                  "$in": [ null, True]
+
+            - "$lookup":
+                from: aws.rds.clusters
+                localField: "GlobalClusterMembers.DBClusterArn"
+                foreignField: "DBClusterArn"
+                as: "DBCluster"
+
+            - "$project":
+                Account: "$Harvest.Account"
+                Identifier: "$GlobalClusterIdentifier"
+                Status: 1
+                Engine: 1
+                EngineVersion: 1
+                PrimaryRegion: "$DBCluster.Harvest.Region"
+                PrimaryCluster: "$DBCluster.DBClusterIdentifier"
+                PrimaryStatus: "$DBCluster.Status"
+                FailoverStatus: "$FailoverState.Status"

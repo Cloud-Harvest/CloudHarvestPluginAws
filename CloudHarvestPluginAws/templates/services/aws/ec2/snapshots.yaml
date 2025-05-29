@@ -1,0 +1,41 @@
+harvest:
+  name: services.aws.ec2.snapshots
+  description: Retrieve information about EC2 snapshots
+  unique_identifier_keys:
+    - Harvest.Platform
+    - Harvest.Service
+    - Harvest.Type
+    - Harvest.Account
+    - Harvest.Region
+    - SnapshotId
+
+  indexes:
+    - keys: SnapshotId
+    - keys: VolumeId
+
+  tasks:
+    all:
+      - aws: &describe_db_snapshots
+          name: Retrieve EC2 Snapshots
+          description: Retrieve all EC2 snapshots
+          command: describe_snapshots
+          result_as: snapshots
+
+      - dataset: &update_tags
+          name: Format Tags
+          description: Converts tags from list of dicts to dict
+          data: var.snapshots
+          stages:
+            - convert_list_of_dict_to_dict:
+                source_key: Tags
+                name_key: Key
+                value_key: Value
+
+    # tasks to collect a single resource
+    single:
+      - <<: *describe_db_snapshots
+        arguments:
+          GroupIds:
+            - var.identifier
+
+      - <<: *update_tags

@@ -1,0 +1,36 @@
+report:
+  name: reports.aws.ec2.subnets
+  description: This report provides information on EC2 subnets across all regions and accounts.
+
+  headers:
+    - Active
+    - Account
+    - Region
+    - Subnet
+    - State
+    - Vpc
+    - CidrBlock
+    - Ipv6Native
+    - AvailabilityZone
+    - AzDefault
+
+  tasks:
+    - mongo:
+        name: get ec2 subnets
+        silo: harvest-core
+        collection: aws.ec2.subnets
+        filters: '.*'
+
+        arguments:
+          pipeline:
+            - $project:
+                Active: "$Harvest.Active"
+                Account: "$Harvest.Account"
+                Region: "$Harvest.Region"
+                Subnet: "$SubnetId"
+                State: "$State"
+                Vpc: "$VpcId"
+                CidrBlock: 1
+                Ipv6Native: 1
+                AvailabilityZone: "$AvailabilityZoneId"
+                AzDefault: "$DefaultForAz"

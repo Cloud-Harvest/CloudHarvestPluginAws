@@ -1,0 +1,36 @@
+report:
+  name: reports.aws.rds.proxies
+  description: This report returns information about AWS RDS Proxies.
+
+  headers:
+      - Account
+      - Region
+      - Name
+      - Endpoint
+      - Status
+      - EngineFamily
+      - RequireTLS
+      - IdleClientTimeout
+      - Created
+      - Updated
+
+  tasks:
+      - mongo:
+          name: Get AWS RDS Proxies
+          silo: harvest-core
+          collection: aws.rds.proxies
+          filters: '.*'
+
+          arguments:
+            pipeline:
+              - "$project":
+                  Account: "$Harvest.Account"
+                  Region: "$Harvest.Region"
+                  Name: "$DBProxyName"
+                  Endpoint: 1
+                  Status: 1
+                  EngineFamily: 1
+                  RequireTLS: 1
+                  IdleClientTimeout: 1
+                  Created: "$CreatedDate"
+                  Updated: "$UpdatedDate"

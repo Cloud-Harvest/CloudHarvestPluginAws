@@ -1,6 +1,6 @@
 report:
-  description: |
-    This report provides information on DMS Endpoints across all regions and accounts.
+  name: reports.aws.dms.endpoints
+  description: This report provides information on DMS Endpoints across all regions and accounts.
 
   headers:
     - Active
@@ -14,17 +14,17 @@ report:
   tasks:
     - mongo:
         name: get dms endpoints
-        result_as: result
+        silo: harvest-core
         collection: aws.dms.endpoints
-        user_filters:
-          accepted: '*'
+        filters: '.*'
 
-        pipeline:
-          - $project:
-              Active: "$Harvest.Active"
-              Account: "$Harvest.Account"
-              Region: "$Harvest.Region"
-              Endpoint: "$EndpointIdentifier"
-              EndpointType: "$EndpointType"
-              EngineName: "$EngineName"
-              Status: "$Status"
+        arguments:
+          pipeline:
+            - $project:
+                Active: "$Harvest.Active"
+                Account: "$Harvest.Account"
+                Region: "$Harvest.Region"
+                Endpoint: "$EndpointIdentifier"
+                EndpointType: "$EndpointType"
+                EngineName: "$EngineName"
+                Status: "$Status"

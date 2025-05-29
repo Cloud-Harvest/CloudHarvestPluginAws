@@ -1,0 +1,19 @@
+harvest:
+  name: services.aws.s3.buckets
+  description: Retrieve information about S3 buckets
+  unique_identifier_keys:
+    - Harvest.Platform
+    - Harvest.Service
+    - Harvest.Type
+    - Harvest.Region
+    - Harvest.AccountId
+    - Name
+
+  indexes:
+    - keys: Name
+
+  tasks:
+    all:
+      - aws: &list_s3_buckets
+          name: List S3 Buckets
+          command: list_buckets
