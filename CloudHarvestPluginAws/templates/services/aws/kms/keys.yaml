@@ -3,6 +3,10 @@ harvest:
   description: Retrieve information about KMS Keys
   unique_identifier_keys: Arn
 
+  indexes:
+    - keys: KeyId
+    - keys: Enabled
+
   tasks:
     all:
       - aws:

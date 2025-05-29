@@ -9,6 +9,10 @@ harvest:
     - Harvest.Region
     - SnapshotId
 
+  indexes:
+    - keys: SnapshotId
+    - keys: VolumeId
+
   tasks:
     all:
       - aws: &describe_db_snapshots

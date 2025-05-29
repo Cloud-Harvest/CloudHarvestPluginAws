@@ -3,6 +3,10 @@ harvest:
   description: Retrieves RDS Instance Snapshots
   unique_identifier_keys: DBSnapshotArn
 
+  indexes:
+    - keys: DBSnapshotIdentifier
+    - keys: DBInstanceIdentifier
+
   tasks:
     all:
       - aws: &describe_instance_snapshots

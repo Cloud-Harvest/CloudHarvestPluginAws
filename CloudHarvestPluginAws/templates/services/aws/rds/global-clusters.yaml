@@ -3,6 +3,14 @@ harvest:
   description: Retrieve information about RDS Global Databases
   unique_identifier_keys: GlobalClusterArn
 
+  indexes:
+    - keys: GlobalClusterIdentifier
+    - keys:
+        - Engine
+        - EngineVersion
+    - keys: GlobalClusterMembers.DBClusterArn
+    - keys: Endpoint
+
   # tasks to collect all global databases
   tasks:
     all:

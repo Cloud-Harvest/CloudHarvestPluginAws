@@ -9,6 +9,11 @@ harvest:
     - Harvest.Account
     - VpcId
 
+  indexes:
+    - keys: VpcId
+    - keys: CidrBlock
+    - keys: IsDefault
+
   tasks:
     all:
       - aws: &describe_db_vpcs

@@ -3,6 +3,9 @@ harvest:
   description: Retrieve information about DMS endpoints
   unique_identifier_keys: EndpointArn
 
+  indexes:
+    - keys: EndpointIdentifier
+
   tasks:
     all:
       - aws: &describe_db_clusters

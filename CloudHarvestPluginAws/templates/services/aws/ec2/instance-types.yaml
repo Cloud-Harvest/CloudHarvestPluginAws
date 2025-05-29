@@ -9,6 +9,9 @@ harvest:
     - Harvest.Region
     - InstanceType
 
+  indexes:
+    - keys: InstanceType
+
   tasks:
     all:
       - aws:

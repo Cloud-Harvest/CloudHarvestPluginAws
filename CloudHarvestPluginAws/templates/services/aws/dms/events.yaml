@@ -11,6 +11,9 @@ harvest:
     - SourceIdentifier
     - SourceType
 
+  indexes:
+    - keys: SourceIdentifier
+
   tasks:
     all:
       - aws: &describe_db_clusters

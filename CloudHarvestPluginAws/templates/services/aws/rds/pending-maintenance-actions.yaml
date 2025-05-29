@@ -9,6 +9,9 @@ harvest:
     - Harvest.Region
     - ResourceIdentifier
 
+  indexes:
+    - keys: ResourceIdentifier
+
   tasks:
     all:
       - aws: &describe_db_clusters

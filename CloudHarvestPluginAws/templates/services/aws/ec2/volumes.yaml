@@ -9,6 +9,11 @@ harvest:
     - Harvest.Account
     - VolumeId
 
+  indexes:
+    - keys: VolumeId
+    - keys: VolumeType
+    - keys: SnapshotId
+
   tasks:
     all:
       - aws: &describe_db_volumes

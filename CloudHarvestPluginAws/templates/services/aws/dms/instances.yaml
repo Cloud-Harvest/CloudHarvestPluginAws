@@ -3,6 +3,9 @@ harvest:
   description: Retrieve information about DMS instances
   unique_identifier_keys: ReplicationInstanceArn
 
+  indexes:
+    - keys: ReplicationInstanceIdentifier
+
   tasks:
     all:
       - aws: &describe_db_clusters

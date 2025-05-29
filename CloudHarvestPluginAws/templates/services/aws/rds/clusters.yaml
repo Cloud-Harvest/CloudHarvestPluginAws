@@ -6,6 +6,10 @@ harvest:
   indexes:
     - keys: DBClusterIdentifier
     - keys: Engine
+    - keys: Endpoint
+    - keys: ReaderEndpoint
+    - keys: DBClusterMembers.DBInstanceIdentifier
+    - keys: KmsKeyId
 
   tasks:
     all:

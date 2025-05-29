@@ -3,6 +3,10 @@ harvest:
   description: Retrieves RDS Cluster snapshots
   unique_identifier_keys: DBClusterSnapshotArn
 
+  indexes:
+    - keys: DBClusterIdentifier
+    - keys: DBClusterSnapshotIdentifier
+
   tasks:
     all:
       - aws: &describe_cluster_snapshots

@@ -10,6 +10,11 @@ harvest:
     - Engine
     - EngineVersion
 
+  indexes:
+    - keys:
+        - Engine
+        - MajorEngineVersion
+
   tasks:
     all:
       - aws:  &describe_rds_major_engine_versions

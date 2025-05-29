@@ -9,6 +9,11 @@ harvest:
     - Harvest.Region
     - InstanceId
 
+  indexes:
+    - keys: InstanceId
+    - keys: InstanceType
+    - keys: Tags.Name
+
   tasks:
     all:
       - aws: &describe_db_instances

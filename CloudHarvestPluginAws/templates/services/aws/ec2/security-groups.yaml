@@ -3,6 +3,11 @@ harvest:
   description: Retrieve information about EC2 security_groups
   unique_identifier_keys: SecurityGroupArn
 
+  indexes:
+    - keys: GroupId
+    - keys: GroupName
+    - keys: VpcId
+
   tasks:
     all:
       - aws: &describe_db_security_groups

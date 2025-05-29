@@ -9,6 +9,11 @@ harvest:
     - Harvest.Region
     - BlueGreenDeploymentIdentifier
 
+  indexes:
+    - keys: BlueGreenDeploymentIdentifier
+    - keys: Source
+    - keys: Target
+
   # tasks to collect all blue-green deployments
   tasks:
       all:

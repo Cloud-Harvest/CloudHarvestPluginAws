@@ -3,6 +3,10 @@ harvest:
   description: Retrieve information about EC2 subnets
   unique_identifier_keys: SubnetArn
 
+  indexes:
+    - keys: SubnetId
+    - keys: VpcId
+
   tasks:
     all:
       - aws: &describe_db_subnets
