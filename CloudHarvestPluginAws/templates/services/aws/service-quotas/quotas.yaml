@@ -13,6 +13,7 @@ harvest:
           name: List Service Quotas
           command: list_services
           result_as: services
+          include_metadata: false
 
       - aws: &get_service_quotas
           name: Get Service Quotas
