@@ -29,9 +29,10 @@ harvest:
           iterate: var.buckets
           result_as:
             name: tags
-            mode: extend
+            mode: append
             include:
               Name: item.Name
+          result_to_dict_key: Tags
 
       - dataset:  &format_tags
           name: Update Tags
@@ -39,8 +40,7 @@ harvest:
           data: var.tags
           stages:
             - convert_list_of_dict_to_dict:
-                source_key: TagSet
-                target_key: Tags
+                source_key: Tags
                 key_name: Key
                 key_value: Value
 
