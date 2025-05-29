@@ -24,7 +24,7 @@ harvest:
           description: Retrieves tags for KMS keys
           command: get_bucket_tagging
           arguments:
-            Name: item.Name
+            Bucket: item.Name
             ExpectedBucketOwner: item.Owner.ID
           iterate: var.buckets
           result_as:
