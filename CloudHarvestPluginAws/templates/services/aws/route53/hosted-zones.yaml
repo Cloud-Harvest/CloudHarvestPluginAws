@@ -1,5 +1,6 @@
 harvest:
   name: services.aws.route53.hosted-zones
+  global: true
   unique_identifier_keys:
     - Harvest.Platform
     - Harvest.Service
