@@ -28,10 +28,6 @@ report:
 
         arguments:
           pipeline:
-            - $unwind:
-                path: "$ValidUpgradeTarget"
-                preserveNullAndEmptyArrays: true
-
             - $lookup:
                 from: "aws.rds.major-engine-versions"
                 let:
@@ -49,11 +45,15 @@ report:
                           - { $eq: ["$Harvest.Region", "$$region"] }
                           - { $eq: ["$Engine", "$$engine"] }
                           - { $eq: ["$MajorEngineVersion", "$$engineVersion"] }
-                          - { $eq: ["LifecycleSupportName", "open-source-extended-support"] }
+                          - { $eq: ["$LifecycleSupportName", "open-source-extended-support"] }
                 as: "MajorEngineVersionDetails"
 
             - $unwind:
                 path: "$MajorEngineVersionDetails"
+                preserveNullAndEmptyArrays: true
+
+            - $unwind:
+                path: "$ValidUpgradeTarget"
                 preserveNullAndEmptyArrays: true
 
             - $project:
