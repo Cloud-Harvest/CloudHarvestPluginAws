@@ -45,12 +45,14 @@ report:
                           - { $eq: ["$Harvest.Region", "$$region"] }
                           - { $eq: ["$Engine", "$$engine"] }
                           - { $eq: ["$MajorEngineVersion", "$$engineVersion"] }
-                          - { $eq: ["$LifecycleSupportName", "open-source-extended-support"] }
+                          - { $eq: ["$SupportedEngineLifecycles.LifecycleSupportName", "open-source-extended-support"] }
                 as: "MajorEngineVersionDetails"
 
-            - $unwind:
-                path: "$MajorEngineVersionDetails"
-                preserveNullAndEmptyArrays: true
+            - $set:
+                MajorEngineVersionDetails:
+                  $ifNull:
+                    - { $arrayElemAt: ["$MajorEngineVersionDetails", 0] }
+                    - null
 
             - $unwind:
                 path: "$ValidUpgradeTarget"
