@@ -37,15 +37,19 @@ report:
                   engine: "$Engine"
                   engineVersion: "$EngineVersion"
                 pipeline:
+                  - $unwind:
+                      path: "$SupportedEngineLifecycles.LifecycleSupportName"
+                      preserveNullAndEmptyArrays: true
+
                   - $match:
                       $expr:
                         $and:
-                          - { $eq: ["$Harvest.Service", "$$service"] }
                           - { $eq: ["$Harvest.Account", "$$account"] }
                           - { $eq: ["$Harvest.Region", "$$region"] }
                           - { $eq: ["$Engine", "$$engine"] }
                           - { $eq: ["$MajorEngineVersion", "$$engineVersion"] }
                           - { $eq: ["$SupportedEngineLifecycles.LifecycleSupportName", "open-source-extended-support"] }
+
                 as: "MajorEngineVersionDetails"
 
             - $set:
@@ -70,5 +74,11 @@ report:
                 TargetVersion: "$ValidUpgradeTarget.EngineVersion"
                 AutoUpgrade: "$ValidUpgradeTarget.AutoUpgrade"
                 IsMajorVersionUpgrade: "$ValidUpgradeTarget.IsMajorVersionUpgrade"
-                ExtendedStart: "$MajorEngineVersionDetails.SupportedEngineLifecycles.LifecycleSupportStartDate"
-                ExtendedEnd: "$MajorEngineVersionDetails.SupportedEngineLifecycles.LifecycleSupportEndDate"
+                ExtendedStart:
+                  $dateToString:
+                    format: "%Y-%m-%d"
+                    date: "$MajorEngineVersionDetails.SupportedEngineLifecycles.LifecycleSupportStartDate"
+                ExtendedEnd:
+                  $dateToString:
+                    format: "%Y-%m-%d"
+                    date: "$MajorEngineVersionDetails.SupportedEngineLifecycles.LifecycleSupportEndDate"
