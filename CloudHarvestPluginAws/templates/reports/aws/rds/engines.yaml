@@ -31,7 +31,6 @@ report:
             - $lookup:
                 from: "aws.rds.major-engine-versions"
                 let:
-                  service: "$Harvest.Service"
                   account: "$Harvest.Account"
                   region: "$Harvest.Region"
                   engine: "$Engine"
