@@ -34,7 +34,8 @@ report:
                 Resource: "$DBClusterIdentifier"
                 Status: "$Status"
                 SnapshotType: "$SnapshotType"
-                Created: "$SnapshotCreateTime"
+                Created:
+                  $dateToString: "$SnapshotCreateTime"
 
     - mongo:
         name: Get Instance snapshots
@@ -53,7 +54,8 @@ report:
                 Resource: "$DBInstanceIdentifier"
                 Status: "$Status"
                 SnapshotType: "$SnapshotType"
-                Created: "$SnapshotCreateTime"
+                Created:
+                  $dateToString: "$SnapshotCreateTime"
 
     - dataset:
         name: Merge results

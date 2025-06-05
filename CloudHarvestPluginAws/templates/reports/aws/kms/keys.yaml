@@ -35,7 +35,9 @@ report:
                 State: "$KeyState"
                 Origin: "$Origin"
                 Manager: "$KeyManager"
-                LastUpdated: "$LastUpdatedDate"
+                LastUpdated:
+                  $dateToString: "$LastUpdatedDate"
                 MultiRegion: "$MultiRegion"
                 DeletionWindowDays: "$PendingDeletionWindowInDays"
-                Created: "$CreationDate"
+                Created:
+                  $dateToString: "$CreationDate"

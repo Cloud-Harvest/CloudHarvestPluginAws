@@ -21,7 +21,8 @@ report:
           pipeline:
             - $project:
                 Active: "$Harvest.Active"
-                Date: "$Date"
+                Date:
+                  $dateToString: "$Date"
                 Account: "$Harvest.Account"
                 Region: "$Harvest.Region"
                 SourceIdentifier: "$SourceIdentifier"

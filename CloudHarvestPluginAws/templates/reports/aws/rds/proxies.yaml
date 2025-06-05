@@ -32,5 +32,7 @@ report:
                   EngineFamily: 1
                   RequireTLS: 1
                   IdleClientTimeout: 1
-                  Created: "$CreatedDate"
-                  Updated: "$UpdatedDate"
+                  Created:
+                    $dateToString: "$CreatedDate"
+                  Updated:
+                    $dateToString: "$UpdatedDate"

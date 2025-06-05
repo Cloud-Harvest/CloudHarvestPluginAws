@@ -25,4 +25,5 @@ report:
                 Region: "$Harvest.Region"
                 Name: 1
                 Owner: "$Owner.DisplayName"
-                Created: "$CreationDate"
+                Created:
+                  $dateToString: "$CreationDate"

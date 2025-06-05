@@ -43,4 +43,5 @@ report:
                 SourceStatus: "$SourceDBCluster.Status"
                 Target: "$SwitchoverDetails.TargetDBClusterArn"
                 TargetStatus: "$TargetDBCluster.Status"
-                Created: CreatedAt
+                Created:
+                  $dateToString: CreatedAt
