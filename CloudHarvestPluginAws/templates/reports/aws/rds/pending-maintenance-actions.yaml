@@ -67,10 +67,13 @@ report:
                     - null
                 Action: "$PendingMaintenanceActionDetails.Action"
                 AutoAppliedAfterDate:
-                  $dateToString: "$PendingMaintenanceActionDetails.AutoAppliedAfterDate"
+                  $dateToString: 
+                    date: "$PendingMaintenanceActionDetails.AutoAppliedAfterDate"
                 ForcedApplyDate:
-                  $dateToString: "$PendingMaintenanceActionDetails.ForcedApplyDate"
+                  $dateToString: 
+                    date: "$PendingMaintenanceActionDetails.ForcedApplyDate"
                 OptInStatus: "$PendingMaintenanceActionDetails.OptInStatus"
                 CurrentApplyDate:
-                  $dateToString: "$PendingMaintenanceActionDetails.CurrentApplyDate"
+                  $dateToString: 
+                    date: "$PendingMaintenanceActionDetails.CurrentApplyDate"
                 Description: "$PendingMaintenanceActionDetails.Description"

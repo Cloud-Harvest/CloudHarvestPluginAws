@@ -26,4 +26,5 @@ report:
                 Task: "$ReplicationTaskIdentifier"
                 Status: "$Status"
                 Created:
-                  $dateToString: "$ReplicationTaskCreationDate"
+                  $dateToString: 
+                    date: "$ReplicationTaskCreationDate"

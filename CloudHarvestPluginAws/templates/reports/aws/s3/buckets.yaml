@@ -26,4 +26,5 @@ report:
                 Name: 1
                 Owner: "$Owner.DisplayName"
                 Created:
-                  $dateToString: "$CreationDate"
+                  $dateToString: 
+                    date: "$CreationDate"

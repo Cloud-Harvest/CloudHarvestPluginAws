@@ -34,4 +34,5 @@ report:
                 EngineVersion: 1
                 Class: "$DBInstanceClass"
                 Created:
-                  $dateToString: "$InstanceCreateTime"
+                  $dateToString: 
+                    date: "$InstanceCreateTime"

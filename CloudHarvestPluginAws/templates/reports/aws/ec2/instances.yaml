@@ -34,4 +34,5 @@ report:
                 Class: "$InstanceType"
                 Status: "$State.Name"
                 Created:
-                  $dateToString: "$LaunchTime"
+                  $dateToString: 
+                    date: "$LaunchTime"

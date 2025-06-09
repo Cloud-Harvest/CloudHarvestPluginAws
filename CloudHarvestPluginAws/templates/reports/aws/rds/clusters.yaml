@@ -31,4 +31,5 @@ report:
                 Engine: 1
                 EngineVersion: 1
                 Created:
-                  $dateToString: "$ClusterCreateTime"
+                  $dateToString: 
+                    date: "$ClusterCreateTime"

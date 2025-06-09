@@ -23,7 +23,8 @@ report:
                 Account: "$Harvest.Account"
                 Region: "$Harvest.Region"
                 Date:
-                  $dateToString: "$Date"
+                  $dateToString: 
+                    date: "$Date"
                 Resource: "$SourceIdentifier"
                 EventType: "$SourceType"
                 Message: "$Message"

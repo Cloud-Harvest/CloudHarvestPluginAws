@@ -34,4 +34,5 @@ report:
                 AttachedTo: "$Attachments.InstanceId"     # Returns a list
                 Encrypted: 1
                 Created:
-                  $dateToString: "$CreateTime"
+                  $dateToString: 
+                    date: "$CreateTime"

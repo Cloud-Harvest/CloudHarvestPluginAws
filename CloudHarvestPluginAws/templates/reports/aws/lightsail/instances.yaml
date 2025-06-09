@@ -35,4 +35,5 @@ report:
                 Cpu: "$hardware.cpuCount"
                 Memory: "$hardware.ramSizeInGb"
                 Created:
-                  $dateToString: "$createdAt"
+                  $dateToString: 
+                    date: "$createdAt"

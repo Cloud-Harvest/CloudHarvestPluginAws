@@ -22,7 +22,8 @@ report:
             - $project:
                 Active: "$Harvest.Active"
                 Date:
-                  $dateToString: "$Date"
+                  $dateToString:
+                    date: "$Date"
                 Account: "$Harvest.Account"
                 Region: "$Harvest.Region"
                 SourceIdentifier: "$SourceIdentifier"

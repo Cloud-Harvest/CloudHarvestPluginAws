@@ -44,4 +44,5 @@ report:
                 Target: "$SwitchoverDetails.TargetDBClusterArn"
                 TargetStatus: "$TargetDBCluster.Status"
                 Created:
-                  $dateToString: CreatedAt
+                  $dateToString:
+                    date: "$CreatedAt"

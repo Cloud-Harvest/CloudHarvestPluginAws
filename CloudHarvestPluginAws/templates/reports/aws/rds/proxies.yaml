@@ -33,6 +33,8 @@ report:
                   RequireTLS: 1
                   IdleClientTimeout: 1
                   Created:
-                    $dateToString: "$CreatedDate"
+                    $dateToString: 
+                      date: "$CreatedDate"
                   Updated:
-                    $dateToString: "$UpdatedDate"
+                    $dateToString: 
+                      date: "$UpdatedDate"

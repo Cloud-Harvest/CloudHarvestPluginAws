@@ -35,7 +35,8 @@ report:
                 Status: "$Status"
                 SnapshotType: "$SnapshotType"
                 Created:
-                  $dateToString: "$SnapshotCreateTime"
+                  $dateToString: 
+                    date: "$SnapshotCreateTime"
 
     - mongo:
         name: Get Instance snapshots
@@ -55,7 +56,8 @@ report:
                 Status: "$Status"
                 SnapshotType: "$SnapshotType"
                 Created:
-                  $dateToString: "$SnapshotCreateTime"
+                  $dateToString: 
+                    date: "$SnapshotCreateTime"
 
     - dataset:
         name: Merge results

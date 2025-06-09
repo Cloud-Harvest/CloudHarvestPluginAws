@@ -34,4 +34,5 @@ report:
                 SizeBytes: "$FullSnapshotSizeInBytes"
                 Start: "$StartTime"
                 Complete:
-                  $dateToString: "$CompletionTime"
+                  $dateToString: 
+                    date: "$CompletionTime"

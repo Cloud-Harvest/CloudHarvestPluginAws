@@ -36,8 +36,10 @@ report:
                 Origin: "$Origin"
                 Manager: "$KeyManager"
                 LastUpdated:
-                  $dateToString: "$LastUpdatedDate"
+                  $dateToString: 
+                    date: "$LastUpdatedDate"
                 MultiRegion: "$MultiRegion"
                 DeletionWindowDays: "$PendingDeletionWindowInDays"
                 Created:
-                  $dateToString: "$CreationDate"
+                  $dateToString: 
+                    date: "$CreationDate"
