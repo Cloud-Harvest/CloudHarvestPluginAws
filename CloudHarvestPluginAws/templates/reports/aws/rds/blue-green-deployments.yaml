@@ -3,13 +3,15 @@ report:
   description: This report returns information about RDS Blue-Green Deployments.
 
   headers:
+    - Active
     - Account
     - Region
-    - Identifier
     - Name
     - Status
     - Source
+    - SourceStatus
     - Target
+    - TargetStatus
     - Created
 
   tasks:
@@ -39,9 +41,9 @@ report:
                 TargetDBCluster: { $ifNull: [ { $arrayElemAt: [ "$TargetDBCluster", 0 ] }, null ] }
 
             - "$project":
+                Active: "$Harvest.Active"
                 Account: "$Harvest.Account"
                 Region: "$Harvest.Region"
-                Identifier: "$BlueGreenDeploymentIdentifier"
                 Name: "$BlueGreenDeploymentName"
                 Status: 1
                 Source: "$SourceDBCluster.DBClusterIdentifier"
