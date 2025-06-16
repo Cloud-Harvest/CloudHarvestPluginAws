@@ -1,0 +1,79 @@
+harvest:
+  name: DynamoDb Tables
+  description: Retrieve information about DynamoDb Tables
+  unique_identifier_keys: TableArn
+
+  indexes:
+    - keys: TableId
+
+  tasks:
+    all:
+      - aws:
+          name: List DynamoDb Tables
+          description: Retrieves a list of all DynamoDb Tables
+          command: list_tables
+          result_as: dynamodb_tables
+          result_to_list_with_key: TableName
+
+      - aws:
+          name: Describe DynamoDb Tables
+          description: Retrieves detailed information about DynamoDb Tables
+          command: describe_table
+          arguments:
+            TableName: item.TableName
+          iterate: var.dynamodb_tables
+          result_as: result
+
+      - aws:  &get_tags
+          name: Get Tags
+          description: Retrieves tags for DynamoDb Tables
+          command: list_tags_of_resource
+          arguments:
+            ResourceArn: item.TableArn
+          iterate: var.result
+          result_as:
+            name: tags
+            mode: extend
+            include:
+              TableArn: item.TableArn
+
+      - dataset:  &format_tags
+          name: Update Tags
+          description: Update the tags to use a dict format
+          data: var.tags
+          stages:
+            - convert_list_of_dict_to_dict:
+                source_key: Tags
+                key_name: Key
+                key_value: Value
+
+      - dataset: &join_tags_and_aliases
+          name: Merge Tags
+          description: Merges the tags into the DynamoDb Tables
+          data: var.result
+          result_as: result
+          stages:
+            - join:
+                data: var.tags
+                left_keys:
+                  - TableArn
+                right_keys:
+                  - TableArn
+
+    # tasks to collect a single instance
+    single:
+      - aws:
+          name: Describe DynamoDb Tables
+          description: Retrieves detailed information about DynamoDb Tables
+          command: describe_key
+          arguments:
+            TableName: var.identifier
+          result_as: dynamodb_tables
+
+      - <<: *get_tags
+        arguments:
+          TableArn: var.dynamodb_tables.0.TableArn
+        iterate: # nullify the iterate directive defined in the "all" task
+
+      - <<: *format_tags
+      - <<: *join_tags_and_aliases

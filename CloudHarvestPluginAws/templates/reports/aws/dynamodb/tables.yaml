@@ -1,0 +1,36 @@
+report:
+  name: aws.dynamodb.tables
+
+  headers:
+    - Active
+    - Account
+    - Region
+    - Name
+    - ItemCount
+    - SizeBytes
+    - Status
+    - ReadCapacity
+    - WriteCapacity
+    - CreationDateTime
+
+  tasks:
+    - mongo:
+        name: Get DynamoDb Tables
+        silo: harvest-core
+        collection: aws.dynamodb.tables
+        filters: '.*'
+        arguments:
+          pipeline:
+            - $project:
+                Active: "$Harvest.Active"
+                Account: "$Harvest.Account"
+                Region: "$Harvest.Region"
+                Name: "$TableName"
+                ItemCount: 1
+                SizeBytes: 1
+                Status: 1
+                ReadCapacity: "$ProvisionedThroughput.ReadCapacityUnits"
+                WriteCapacity: "$ProvisionedThroughput.WriteCapacityUnits"
+                CreationDateTime:
+                  $dateToString:
+                    date: "$CreationDateTime"

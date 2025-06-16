@@ -1,0 +1,62 @@
+report:
+  name: aws.dynamodb.indexes
+  description: This report provides information on DynamoDB indexes across all regions and accounts.
+
+  headers:
+    - Active
+    - Account
+    - Region
+    - Table
+    - Index
+    - Type
+    - Projection
+    - SizeBytes
+    - ItemCount
+    - Status
+
+  tasks:
+    - mongo:
+        name: Get DynamoDB Indexes
+        silo: harvest-core
+        collection: aws.dynamodb.tables
+        filters: '.*'
+        arguments:
+          pipeline:
+            - $unwind:
+                path: "$LocalSecondaryIndexes"
+                preserveNullAndEmptyArrays: true
+
+            - $unwind:
+                path: "$GlobalSecondaryIndexes"
+                preserveNullAndEmptyArrays: true
+
+            - $project:
+                Active: "$Harvest.Active"
+                Account: "$Harvest.Account"
+                Region: "$Harvest.Region"
+                Table: "$TableName"
+                Index:
+                  $ifNull:
+                    - "$GlobalSecondaryIndexes.IndexName"
+                    - "$LocalSecondaryIndexes.IndexName"
+                Type:
+                  $cond:
+                    if: { $ne: ["$GlobalSecondaryIndexes.IndexName", null] }
+                    then: "Global"
+                    else: "Local"
+                Projection:
+                  $ifNull:
+                    - "$GlobalSecondaryIndexes.Projection.ProjectionType"
+                    - "$LocalSecondaryIndexes.Projection.ProjectionType"
+                SizeBytes:
+                  $ifNull:
+                    - "$GlobalSecondaryIndexes.IndexSizeBytes"
+                    - "$LocalSecondaryIndexes.IndexSizeBytes"
+                ItemCount:
+                  $ifNull:
+                    - "$GlobalSecondaryIndexes.ItemCount"
+                    - "$LocalSecondaryIndexes.ItemCount"
+                Status:
+                  $ifNull:
+                    - "$GlobalSecondaryIndexes.IndexStatus"
+                    - "$LocalSecondaryIndexes.IndexStatus"
