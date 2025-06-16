@@ -23,25 +23,30 @@ report:
           pipeline:
             - "$lookup":
                 from: aws.rds.clusters
-                localField: SwitchoverDetails.SourceDBClusterArn
+                localField: Source
                 foreignField: DBClusterArn
                 as: SourceDBCluster
 
             - "$lookup":
                 from: aws.rds.clusters
-                localField: SwitchoverDetails.TargetDBClusterArn
+                localField: Target
                 foreignField: DBClusterArn
                 as: TargetDBCluster
 
+            # Set the SourceDBCluster and TargetDBCluster to null if not found
+            - "$set":
+                SourceDBCluster: { $ifNull: [ { $arrayElemAt: [ "$SourceDBCluster", 0 ] }, null ] }
+                TargetDBCluster: { $ifNull: [ { $arrayElemAt: [ "$TargetDBCluster", 0 ] }, null ] }
+
             - "$project":
-                Account: Harvest.Account
-                Region: Harvest.Region
-                Identifier: BlueGreenDeploymentIdentifier
-                Name: BlueGreenDeploymentName
-                Status: Status
-                Source: "$SwitchoverDetails.SourceDBClusterArn"
+                Account: "$Harvest.Account"
+                Region: "$Harvest.Region"
+                Identifier: "$BlueGreenDeploymentIdentifier"
+                Name: "$BlueGreenDeploymentName"
+                Status: 1
+                Source: "$SourceDBCluster.DBClusterIdentifier"
                 SourceStatus: "$SourceDBCluster.Status"
-                Target: "$SwitchoverDetails.TargetDBClusterArn"
+                Target: "$TargetDBCluster.DBClusterIdentifier"
                 TargetStatus: "$TargetDBCluster.Status"
                 Created:
                   $dateToString:
