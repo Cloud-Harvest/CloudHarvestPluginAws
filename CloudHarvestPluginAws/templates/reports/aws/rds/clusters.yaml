@@ -9,7 +9,8 @@ report:
     - Cluster
     - Members
     - Engine
-    - EngineVersion
+    - Version
+    - Status
     - Created
 
   tasks:
@@ -29,7 +30,8 @@ report:
                 Members:
                   $size: "$DBClusterMembers"
                 Engine: 1
-                EngineVersion: 1
+                Version: "$EngineVersion"
+                Status: 1
                 Created:
                   $dateToString: 
                     date: "$ClusterCreateTime"
