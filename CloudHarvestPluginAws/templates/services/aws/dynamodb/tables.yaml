@@ -24,7 +24,7 @@ harvest:
           iterate: var.dynamodb_tables
           result_as:
             name: result
-            mode: extend
+            mode: append
 
 #      - aws:  &get_tags
 #          name: Get Tags
