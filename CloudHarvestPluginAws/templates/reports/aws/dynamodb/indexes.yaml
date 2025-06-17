@@ -1,5 +1,5 @@
 report:
-  name: aws.dynamodb.indexes
+  name: reports.aws.dynamodb.indexes
   description: This report provides information on DynamoDB indexes across all regions and accounts.
 
   headers:

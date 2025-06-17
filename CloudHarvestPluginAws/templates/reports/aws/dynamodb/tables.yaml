@@ -1,5 +1,5 @@
 report:
-  name: aws.dynamodb.tables
+  name: reports.aws.dynamodb.tables
 
   headers:
     - Active

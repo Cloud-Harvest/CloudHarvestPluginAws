@@ -1,5 +1,5 @@
 harvest:
-  name: DynamoDb Tables
+  name: services.aws.dynamodb.tables
   description: Retrieve information about DynamoDb Tables
   unique_identifier_keys: TableArn
 
