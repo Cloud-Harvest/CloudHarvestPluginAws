@@ -10,6 +10,8 @@ harvest:
         - Engine
         - EngineVersion
     - keys: Endpoint
+    - keys: Logs.LogFileName
+    - keys: Logs.LastWritten
 
   # tasks to collect all instances
   tasks:
@@ -31,6 +33,32 @@ harvest:
                 name_key: Key
                 value_key: Value
 
+      - aws: &describe_db_log_files
+          name: Retrieve RDS log file descriptors
+          command: describe_db_log_files
+          arguments:
+            DBInstanceIdentifier: item.DBInstanceIdentifier
+          include_metadata: false
+          iterate: var.instances
+          result_dict_to_keys: Logs
+          result_as:
+            name: log_files
+            mode: append
+            include:
+              DBInstanceIdentifier: item.DBInstanceIdentifier
+
+      - dataset:  &merge_log_files
+          name: Merge Log Files
+          data: var.instances
+          result_as: result
+          stages:
+            - join:
+                data: var.log_files
+                left_keys:
+                  - DBInstanceIdentifier
+                right_keys:
+                  - DBInstanceIdentifier
+
     # tasks to collect a single cluster
     single:
       - <<: *describe_db_instances
@@ -38,3 +66,5 @@ harvest:
           DBInstanceIdentifier: var.identifier
 
       - <<: *update_tags
+      - <<: *describe_db_log_files
+      - <<: *merge_log_files
