@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 0.5.2
+- Updated to conform with CloudHarvestCoreTasks 0.8.0
+
 ## 0.5.1
 - Fixed some reports
 - Added `DynamoDB` service
