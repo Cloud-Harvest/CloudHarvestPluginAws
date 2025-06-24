@@ -2,6 +2,7 @@
 
 ## 0.5.2
 - Updated to conform with CloudHarvestCoreTasks 0.8.0
+- Added the `globa_service` directive
 
 ## 0.5.1
 - Fixed some reports

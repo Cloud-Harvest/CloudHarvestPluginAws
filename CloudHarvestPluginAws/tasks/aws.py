@@ -16,6 +16,7 @@ class AwsTask(BaseTask):
                  role: str = None,
                  region: str = None,
                  include_metadata: bool = True,
+                 global_service: bool = False,
                  max_retries: int = 10,
                  result_path: str or list or tuple = None,
                  *args,
@@ -32,6 +33,7 @@ class AwsTask(BaseTask):
             role (str, optional): The AWS role to use for the session. If not specified, the default is pulled from the environment variables.
             region (str, optional): The AWS region to use for the session. None is supported as not all AWS services require a region. If not specified, the default is pulled from the task chain variables.
             include_metadata (bool, optional): When True, some 'Harvest' metadata fields are added to the result. Defaults to True.
+            global_service (bool, optional): If True, the service is considered a global service (e.g., IAM). Negates the 'region' input. Defaults to False.
             max_retries (int, optional): The maximum number of retries for the command. Defaults to 10.
             result_path (str, optional): Path to the results. When not provided, the path is the first key that is not 'Marker' or 'NextToken'.
         """
@@ -43,7 +45,7 @@ class AwsTask(BaseTask):
         self.service = service or self.task_chain.variables.get('service')
         self.type = type or self.task_chain.variables.get('type')
         self.account = str(account or self.task_chain.variables.get('account')).zfill(12)   # AWS Account Numbers are 12 digit strings with leading zeros
-        self.region = region or self.task_chain.variables.get('region')
+        self.region = None if global_service else region or self.task_chain.variables.get('region')
 
         # boto3 session and client inputs
         from CloudHarvestCoreTasks.environment import Environment
