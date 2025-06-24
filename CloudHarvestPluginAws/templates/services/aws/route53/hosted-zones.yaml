@@ -4,7 +4,6 @@ harvest:
     - Harvest.Platform
     - Harvest.Service
     - Harvest.Type
-    - Harvest.Region
     - Harvest.AccountId
     - Id
 
