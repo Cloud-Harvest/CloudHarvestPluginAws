@@ -68,23 +68,23 @@ report:
     # We wind the IP ranges to make them easier to work with. The wind stage will take the IP ranges and convert them
     # into a list of strings. Subsequent stages will convert the list of strings into a single new-line delimited string
     # for easier visibility in the report.
-    - dataset:
-        name: Wind the IP ranges
-        data: var.security_groups
-        stages:
-          - wind:
-              source_key: EgressIp4
-          - wind:
-              source_key: EgressIp6
-          - wind:
-              source_key: IngressIp4
-          - wind:
-              source_key: IngressIp6
-          - convert_list_to_string:
-              source_key: EgressIp4
-          - convert_list_to_string:
-              source_key: EgressIp6
-          - convert_list_to_string:
-              source_key: IngressIp4
-          - convert_list_to_string:
-              source_key: IngressIp6
+#    - dataset:
+#        name: Wind the IP ranges
+#        data: var.security_groups
+#        stages:
+#          - wind:
+#              source_key: EgressIp4
+#          - wind:
+#              source_key: EgressIp6
+#          - wind:
+#              source_key: IngressIp4
+#          - wind:
+#              source_key: IngressIp6
+#          - convert_list_to_string:
+#              source_key: EgressIp4
+#          - convert_list_to_string:
+#              source_key: EgressIp6
+#          - convert_list_to_string:
+#              source_key: IngressIp4
+#          - convert_list_to_string:
+#              source_key: IngressIp6
