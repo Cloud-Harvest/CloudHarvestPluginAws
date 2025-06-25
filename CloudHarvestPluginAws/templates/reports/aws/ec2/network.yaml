@@ -67,7 +67,14 @@ report:
                           - { $eq: ["$Harvest.Service", "$$service"] }
                           - { $eq: ["$Harvest.Account", "$$account"] }
                           - { $eq: ["$Harvest.Region", "$$region"] }
-                          - { $in: ["$$subnetId", "$AssociatedSubnets"] }
+                          - $in:
+                              - "$$subnetId"
+                              - $cond:
+                                - $isArray: "$AssociatedSubnets"
+                                - "$AssociatedSubnets"
+                                - $ifNull:
+                                    - "$AssociatedSubnets"
+                                    - []
                 as: "SecurityGroups"
 
             # Step 3: Process Security Groups
