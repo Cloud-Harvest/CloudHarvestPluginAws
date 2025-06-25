@@ -1,5 +1,5 @@
 harvest:
-  name: RDS Proxies
+  name: services.aws.rds.proxies
   description: Retrieve information about RDS Proxies
   unique_identifier_keys: DBProxyArn
 

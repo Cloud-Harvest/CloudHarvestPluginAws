@@ -6,7 +6,6 @@ harvest:
     - Harvest.Platform
     - Harvest.Service
     - Harvest.Type
-    - Harvest.Region
     - Harvest.AccountId
     - Name
 
@@ -18,3 +17,4 @@ harvest:
       - aws: &list_s3_buckets
           name: List S3 Buckets
           command: list_buckets
+          global_service: true

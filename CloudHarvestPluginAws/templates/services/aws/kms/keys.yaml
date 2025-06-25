@@ -1,5 +1,5 @@
 harvest:
-  name: KMS Keys
+  name: services.aws.kms.keys
   description: Retrieve information about KMS Keys
   unique_identifier_keys: Arn
 

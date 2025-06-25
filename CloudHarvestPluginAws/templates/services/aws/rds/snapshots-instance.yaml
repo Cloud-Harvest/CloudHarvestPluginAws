@@ -1,5 +1,5 @@
 harvest:
-  name: RDS Snapshots
+  name: services.aws.rds.snapshots-instance
   description: Retrieves RDS Instance Snapshots
   unique_identifier_keys: DBSnapshotArn
 

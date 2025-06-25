@@ -1,5 +1,5 @@
 harvest:
-  name: RDS Engines
+  name: services.aws.rds.engines
   description: Describes the available database engine versions and their valid upgrade targets
   unique_identifier_keys:
     - Harvest.Platform

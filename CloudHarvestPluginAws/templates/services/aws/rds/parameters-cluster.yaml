@@ -1,5 +1,5 @@
 harvest:
-  name: RDS Cluster Parameters
+  name: services.aws.rds.parameters-cluster
   description: Retrieve information about RDS cluster parameters
   unique_identifier_keys: DBClusterParameterGroupArn
 

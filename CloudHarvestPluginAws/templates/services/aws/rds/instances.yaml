@@ -1,5 +1,5 @@
 harvest:
-  name: RDS Instances
+  name: services.aws.rds.instances
   description: Retrieve information about RDS instances including Non-Aurora instances
   unique_identifier_keys: DBInstanceArn
 

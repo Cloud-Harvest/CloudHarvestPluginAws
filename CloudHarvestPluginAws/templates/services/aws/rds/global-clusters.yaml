@@ -1,5 +1,5 @@
 harvest:
-  name: RDS Global Databases
+  name: services.aws.rds.global-clusters
   description: Retrieve information about RDS Global Databases
   unique_identifier_keys: GlobalClusterArn
 

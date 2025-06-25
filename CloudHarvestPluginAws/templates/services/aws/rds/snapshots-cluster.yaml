@@ -1,5 +1,5 @@
 harvest:
-  name: RDS Snapshots
+  name: services.aws.rds.snapshots-cluster
   description: Retrieves RDS Cluster snapshots
   unique_identifier_keys: DBClusterSnapshotArn
 
