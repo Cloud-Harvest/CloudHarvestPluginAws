@@ -10,7 +10,7 @@ report:
     - Instance
     - Status
     - Engine
-    - EngineVersion
+    - Version
     - Class
     - Created
 
@@ -31,7 +31,7 @@ report:
                 Instance: "$DBInstanceIdentifier"
                 Status: "$DBInstanceStatus"
                 Engine: 1
-                EngineVersion: 1
+                Version: "$EngineVersion"
                 Class: "$DBInstanceClass"
                 Created:
                   $dateToString: 

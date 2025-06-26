@@ -7,7 +7,7 @@ report:
     - Account
     - Region
     - Type
-    - Name
+    - Group
     - Family
     - Parameter
     - Value
@@ -32,7 +32,7 @@ report:
                 Account: "$Harvest.Account"
                 Region: "$Harvest.Region"
                 Type: "cluster"
-                Name: "$DBClusterParameterGroupName"
+                Group: "$DBClusterParameterGroupName"
                 Family: "$DBParameterGroupFamily"
                 Parameter: "$Parameters.ParameterName"
                 Value: "$Parameters.ParameterValue"
@@ -52,7 +52,7 @@ report:
             - $project:
                 <<: *projection
                 Type: "instance"
-                Name: "$DBParameterGroupName"
+                Group: "$DBParameterGroupName"
 
     - dataset:
         name: Combine Parameter Groups

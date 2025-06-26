@@ -6,8 +6,8 @@ report:
     - Date
     - Account
     - Region
-    - SourceIdentifier
-    - SourceType
+    - Identifier
+    - Type
     - Message
 
   tasks:
@@ -26,6 +26,6 @@ report:
                     date: "$Date"
                 Account: "$Harvest.Account"
                 Region: "$Harvest.Region"
-                SourceIdentifier: "$SourceIdentifier"
-                SourceType: "$SourceType"
-                Message: "$Message"
+                Identifier: "$SourceIdentifier"
+                Type: "$SourceType"
+                Message: 1
