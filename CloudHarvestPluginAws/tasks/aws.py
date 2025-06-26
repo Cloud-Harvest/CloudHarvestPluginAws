@@ -156,6 +156,9 @@ def query_aws(service: str,
     if not hasattr(client, command):
         raise Exception(f'Command `{command}` not found in service `{service}`')
 
+    # Initialize the result dictionary
+    result = {}
+
     # Start a loop to execute the command
     while True:
         # Increment the attempt counter
