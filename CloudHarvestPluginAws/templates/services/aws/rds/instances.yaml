@@ -45,7 +45,7 @@ harvest:
             name: log_files
             mode: append
             include:
-              DBInstanceIdentifier: item.DBInstanceIdentifier
+              DBInstanceArn: item.DBInstanceArn
 
       - dataset:  &merge_log_files
           name: Merge Log Files
@@ -55,9 +55,9 @@ harvest:
             - join:
                 data: var.log_files
                 left_keys:
-                  - DBInstanceIdentifier
+                  - DBInstanceArn
                 right_keys:
-                  - DBInstanceIdentifier
+                  - DBInstanceArn
 
     # tasks to collect a single cluster
     single:
