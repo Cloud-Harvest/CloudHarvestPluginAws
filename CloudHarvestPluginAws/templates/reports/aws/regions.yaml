@@ -10,7 +10,7 @@ report:
         name: Retrieve information on AWS regions
         command: list_regions
         type: regions
-        region: global
+        global_service: true
         result_as: aws_regions
 
     - dataset:

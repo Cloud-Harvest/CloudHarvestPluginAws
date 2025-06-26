@@ -1,7 +1,6 @@
 harvest:
   name: services.aws.s3.buckets
   description: Retrieve information about S3 buckets
-  global: true
   unique_identifier_keys:
     - Harvest.Platform
     - Harvest.Service
