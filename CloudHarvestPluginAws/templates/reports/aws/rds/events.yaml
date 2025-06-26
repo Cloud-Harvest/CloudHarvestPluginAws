@@ -11,7 +11,7 @@ report:
     - Message
 
   tasks:
-    - auger:
+    - mongo:
         name: get rds events
         silo: harvest-core
         collection: aws.rds.events
