@@ -16,6 +16,7 @@ report:
   tasks:
     - mongo:
         name: Retrieve RDS log descriptors
+        silo: harvest-core
         collection: aws.rds.instances
         filters: '.*'
 
