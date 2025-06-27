@@ -15,7 +15,6 @@ harvest:
           result_as: cluster_snapshots
           arguments:
             IncludeShared: True
-            IncludePublic: True
 
       - dataset: &format_tags
             name: Format the tags
