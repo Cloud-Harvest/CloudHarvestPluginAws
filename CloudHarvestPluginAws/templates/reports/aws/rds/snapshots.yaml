@@ -7,6 +7,7 @@ report:
   # using the dataset.add_records directive.
 
   headers:
+    - Active
     - Account
     - Region
     - Type
@@ -22,11 +23,12 @@ report:
         silo: harvest-core
         collection: aws.rds.snapshots-cluster
         filters: '.*'
-        result_as: cluster_snapshots
+        result_as: result
 
         arguments:
           pipeline:
             - "$project":
+                Active: "$Harvest.Active"
                 Account: "$Harvest.Account"
                 Region: "$Harvest.Region"
                 Type: "cluster"
@@ -43,11 +45,14 @@ report:
         silo: harvest-core
         collection: aws.rds.snapshots-instance
         filters: '.*'
-        result_as: instance_snapshots
+        result_as: 
+          name: result
+          mode: extend
 
         arguments:
           pipeline:
             - "$project":
+                Active: "$Harvest.Active"
                 Account: "$Harvest.Account"
                 Region: "$Harvest.Region"
                 Type: "instance"
@@ -58,12 +63,11 @@ report:
                 Created:
                   $dateToString: 
                     date: "$SnapshotCreateTime"
-
-    - dataset:
-        name: Merge results
-        result_as: result
-        stages:
-          - add_records:
-              records: var.cluster_snapshots
-          - add_records:
-              records: var.instance_snapshots
+    # - dataset:
+    #     name: Merge results
+    #     result_as: result
+    #     stages:
+    #       - add_records:
+    #           records: var.cluster_snapshots
+    #       - add_records:
+    #           records: var.instance_snapshots
