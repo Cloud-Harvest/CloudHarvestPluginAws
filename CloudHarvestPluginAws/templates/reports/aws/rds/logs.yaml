@@ -9,9 +9,8 @@ report:
     - Cluster
     - Instance
     - LastWritten
-    - Log
+    - FileName
     - Size
-
 
   tasks:
     - mongo:
@@ -36,5 +35,5 @@ report:
                   $dateToString:
                     date:
                       $toDate: "$Logs.LastWritten"
-                Log: "$Logs.LogFileName"
+                FileName: "$Logs.LogFileName"
                 Size: "$Logs.Size"
