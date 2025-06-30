@@ -26,6 +26,7 @@ harvest:
           name: Update Tags
           description: Update the tags to use a dict format
           data: var.instances
+          result_as: instances
           stages:
             - convert_list_of_dict_to_dict:
                 source_key: TagList
@@ -40,7 +41,7 @@ harvest:
             DBInstanceIdentifier: item.DBInstanceIdentifier
           include_metadata: false
           iterate: var.instances
-          result_dict_to_keys: Logs
+          result_to_dict_key: Logs
           result_as:
             name: log_files
             mode: append

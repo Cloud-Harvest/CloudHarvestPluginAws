@@ -23,6 +23,7 @@ harvest:
           name: Update Tags
           description: Update the tags to use a dict format
           data: var.clusters
+          result_as: clusters
           stages:
             - convert_list_of_dict_to_dict:
                 source_key: TagList
