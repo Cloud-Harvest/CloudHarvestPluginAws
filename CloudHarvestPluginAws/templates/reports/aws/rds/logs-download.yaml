@@ -48,7 +48,7 @@ report:
           mode: append
           include:
             Active: item.Active
-            Account: item.Account
+            Account: item.AccountId
             Region: item.Region
             Cluster: item.Cluster
             Instance: item.Instance
