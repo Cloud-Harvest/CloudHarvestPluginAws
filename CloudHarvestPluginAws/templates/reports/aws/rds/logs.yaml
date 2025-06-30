@@ -32,6 +32,9 @@ report:
                 Region: "$Harvest.Region"
                 Cluster: "$DBClusterIdentifier"
                 Instance: "$DBInstanceIdentifier"
-                LastWritten: "$Logs.LastWritten"
+                LastWritten:
+                  $dateToString:
+                    date:
+                      $toDate: "$Logs.LastWritten"
                 Log: "$Logs.LogFileName"
                 Size: "$Logs.Size"
