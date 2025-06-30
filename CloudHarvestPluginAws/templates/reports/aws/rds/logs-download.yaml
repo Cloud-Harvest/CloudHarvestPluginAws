@@ -18,8 +18,25 @@ report:
         silo: harvest-core
         collection: aws.rds.instances
         filters: '.*'
+        filterable_fields:
+          - Active
+          - Account
+          - Region
+          - Cluster
+          - Instance
+          - LastWritten
+          - FileName
+        headers:
+          - Active
+          - Account
+          - AccountId
+          - Region
+          - Cluster
+          - Instance
+          - DBInstanceArn
+          - LastWritten
+          - FileName
         result_as: log_file_descriptors
-
         arguments:
           pipeline:
             - $unwind:
@@ -29,9 +46,11 @@ report:
             - $project:
                 Active: "$Harvest.Active"
                 Account: "$Harvest.Account"
+                AccountId: "$Harvest.AccountId"
                 Region: "$Harvest.Region"
                 Cluster: "$DBClusterIdentifier"
                 Instance: "$DBInstanceIdentifier"
+                DBInstanceArn: 1
                 LastWritten:
                   $dateToString:
                     date:
@@ -43,19 +62,35 @@ report:
         template: aws.rds._get_logs
         iterate: var.log_file_descriptors
         include_metadata: false
+#        blocking: false
         result_as:
-          name: result
+          name: downloaded_logs
           mode: append
           include:
-            Active: item.Active
-            Account: item.AccountId
-            Region: item.Region
-            Cluster: item.Cluster
-            Instance: item.Instance
-            LastWritten: item.LastWritten
-            FileName: item.FileName
+            DBInstanceArn: item.DBInstanceArn
         variables:
-          account: item.Account
+          account: item.AccountId
           region: item.Region
           instance: item.Instance
           log_file: item.FileName
+
+#    - wait:
+#        name: Wait for all log downloads to complete
+#        when_all_previous_async_tasks_complete: true
+
+    - dataset:
+        name: Merge Log Files
+        data: var.log_file_descriptors
+        filters: '.*'
+        filterable_fields:
+          - Log
+        result_as: result
+        stages:
+          - join:
+              data: var.downloaded_logs
+              left_keys:
+                - DBInstanceArn
+                - FileName
+              right_keys:
+                - DBInstanceArn
+                - LogFileName

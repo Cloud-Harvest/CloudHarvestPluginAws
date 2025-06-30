@@ -19,3 +19,9 @@ report:
           DBInstanceIdentifier: var.instance
           LogFileName: var.log_file
         include_metadata: false
+        result_to_dict_key: Log
+        result_as:
+          name: result
+          include:
+            DBInstanceArn: var.instance
+            LogFileName: var.log_file
