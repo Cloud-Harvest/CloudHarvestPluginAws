@@ -62,7 +62,7 @@ report:
         template: aws.rds._get_logs
         iterate: var.log_file_descriptors
         include_metadata: false
-#        blocking: false
+        blocking: false
         result_as:
           name: downloaded_logs
           mode: append
@@ -74,9 +74,9 @@ report:
           instance: item.Instance
           log_file: item.FileName
 
-#    - wait:
-#        name: Wait for all log downloads to complete
-#        when_all_previous_async_tasks_complete: true
+    - wait:
+        name: Wait for all log downloads to complete
+        when_all_previous_async_tasks_complete: true
 
     - dataset:
         name: Merge Log Files
