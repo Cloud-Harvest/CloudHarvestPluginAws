@@ -1,0 +1,21 @@
+report:
+  name: reports.aws.rds._get_logs
+  description: Hidden helper report to retrieve logs for RDS instances
+
+  variables:
+    - account
+    - region
+    - instance
+    - log_file
+
+  tasks:
+    - aws:
+        name: Download RDS log file
+        service: rds
+        account: var.account
+        region: var.region
+        command: download_db_log_file_portion
+        arguments:
+          DBInstanceIdentifier: var.instance
+          LogFileName: var.log_file
+        include_metadata: false
