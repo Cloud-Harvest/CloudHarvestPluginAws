@@ -17,6 +17,6 @@ authors = [ "Cloud Harvest", "Fiona June Leathers" ]
 classifiers = [ "Programming Language :: Python :: 3.13" ]
 description = "This is the AWS Plugin for CloudHarvest."
 homepage = "https://github.com/Cloud-Harvest/CloudHarvestPluginAws"
-license = "CC Attribution-NonCommercial-ShareAlike 4.0 International"
+license = { file = "LICENSE" }
 name = "CloudHarvestPluginAws"
 version = "0.5.3"
