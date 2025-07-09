@@ -20,7 +20,6 @@ classifiers = [
     "Programming Language :: Python :: 3.13",
     "Intended Audience :: Site Reliability Engineers",
 ]
-[project]
 dependencies = [
     "CloudHarvestCoreTasks @ git+https://github.com/Cloud-Harvest/CloudHarvestCoreTasks.git@0.8.1",
     "cmd2",
