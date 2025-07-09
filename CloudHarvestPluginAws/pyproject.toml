@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["."]
+
+[tool.setuptools.package-data]
+CloudHarvestPluginAws = [
+    "templates/**/*.yaml",
+    "pyproject.toml",
+]
+
+[project]
+authors = [ { name = "Cloud Harvest" } ]
+classifiers = [
+    "Programming Language :: Python :: 3.13",
+    "Intended Audience :: Site Reliability Engineers",
+]
+[project]
+dependencies = [
+    "CloudHarvestCoreTasks @ git+https://github.com/Cloud-Harvest/CloudHarvestCoreTasks.git@0.8.1",
+    "cmd2",
+    "configparser",
+    "Flask",
+    "PyYAML",
+    "boto3",
+    "botocore",
+    "flatten-json",
+    "pexpect",
+    "pymongo",
+    "pytest",
+    "requests",
+    "rich",
+    "rich-argparse",
+    "setuptools"
+]
+description = "This is the AWS Plugin for CloudHarvest."
+name = "CloudHarvestPluginAws"
+version = "0.5.3"
+
+[project.license]
+license = "CC-BY-NC-SA-4.0"
+file = "LICENSE"
+
+[project.urls]
+homepage = "https://github.com/Cloud-Harvest/CloudHarvestPluginAws"
