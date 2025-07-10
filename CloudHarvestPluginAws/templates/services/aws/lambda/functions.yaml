@@ -29,6 +29,12 @@ harvest:
           arguments:
               FunctionName: item.FunctionArn
           iterate: var.functions
+          result_path:
+            - Configuration
+            - Code
+            - Tags
+            - TagsError
+            - Concurrency
           result_as:
               name: result
               mode: append
@@ -38,6 +44,12 @@ harvest:
           command: get_function
           arguments:
             FunctionName: var.identifier
+          result_path:
+            - Configuration
+            - Code
+            - Tags
+            - TagsError
+            - Concurrency
           result_as: function
 
       - dataset:
