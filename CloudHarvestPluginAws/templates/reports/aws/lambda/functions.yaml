@@ -32,6 +32,4 @@ report:
                 Timeout: "$Configuration.Timeout"
                 State: "$Configuration.State"
                 Concurrency: "$Concurrency.ReservedConcurrentExecutions"
-                Modified:
-                  $dateToString:
-                    date: "$Configuration.LastModified"
+                Modified: "$Configuration.LastModified"

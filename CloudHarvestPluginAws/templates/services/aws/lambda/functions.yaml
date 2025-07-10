@@ -28,6 +28,7 @@ harvest:
           command: get_function
           arguments:
               FunctionName: item.FunctionArn
+          blocking: false
           iterate: var.functions
           result_path:
             - Configuration
@@ -38,6 +39,10 @@ harvest:
           result_as:
               name: result
               mode: append
+
+      - wait:
+          name: Wait for all log downloads to complete
+          when_all_previous_async_tasks_complete: true
 
     single:
       - aws:
