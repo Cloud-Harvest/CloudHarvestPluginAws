@@ -2,6 +2,7 @@
 
 ## 0.5.3
 - Removed `meta.json` in favor of using `pyproject.toml`
+- Added `support` AWS Service
 
 ## 0.5.2
 - Updated to conform with CloudHarvestCoreTasks 0.8.0

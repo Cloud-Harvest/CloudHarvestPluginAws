@@ -1,0 +1,28 @@
+harvest:
+  name: services.aws.support.cases
+  description: Retrieve information about AWS Support Cases
+  unique_identifier_keys:
+    - Harvest.Platform
+    - Harvest.Service
+    - Harvest.Region
+    - Harvest.AccountId
+    - caseId
+
+  indexes:
+    - keys: caseId
+    - keys: displayId
+    - keys: subject
+
+  tasks:
+    all:
+      - aws: &describe_cases
+          name: Describe support cases
+          command: describe_cases
+          arguments:
+            IncludeResolvedCases: true
+            includeCommunications: true
+
+    single:
+      - <<: *describe_cases
+        arguments:
+          caseId: var.identifier

@@ -1,0 +1,36 @@
+report:
+  name: reports.aws.support.cases
+  description: Retrieve information about AWS Support Cases
+
+  headers:
+    - Active
+    - Account
+    - Region
+    - DisplayId
+    - Subject
+    - Severity
+    - Status
+    - SubmittedBy
+    - Created
+    - Updated
+
+  tasks:
+    - mongo:
+        name: Get AWS Support Cases
+        silo: harvest-core
+        collection: aws.support.cases
+        filters: '.*'
+
+        arguments:
+          pipeline:
+            - $project:
+                Active: "$Harvest.Active"
+                Account: "$Harvest.Account"
+                Region: "$Harvest.Region"
+                DisplayId: "$displayId"
+                Subject: "$subject"
+                Severity: "$severity"
+                Status: "$status"
+                SubmittedBy: "$submittedBy"
+                Created: "$createdTime"
+                Updated: "$lastUpdatedTime"

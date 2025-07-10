@@ -1,0 +1,45 @@
+report:
+  name: reports.aws.support.cases
+  description: Retrieve information about AWS Support Cases
+
+  headers:
+    - Active
+    - Account
+    - Region
+    - DisplayId
+    - Subject
+    - Status
+    - MessageCreated
+    - MessageSender
+    - MessageBody
+
+  tasks:
+    - mongo:
+        name: Get AWS Support Cases
+        silo: harvest-core
+        collection: aws.support.cases
+        filters: '.*'
+
+        arguments:
+          pipeline:
+            - $unwind:
+                path: "$recentCommunications.communications"
+                preserveNullAndEmptyArrays: true
+
+            - $project:
+                Active: "$Harvest.Active"
+                Account: "$Harvest.Account"
+                Region: "$Harvest.Region"
+                DisplayId: "$displayId"
+                Subject: "$subject"
+                Status: "$status"
+                MessageCreated: "$recentCommunications.communications.createdTime"
+                MessageSender: "$recentCommunications.communications.sender"
+                MessageBody: "$recentCommunications.communications.body"
+
+            - $sort:
+                Active: 1
+                Account: 1
+                Region: 1
+                DisplayId: 1
+                MessageCreated: -1
