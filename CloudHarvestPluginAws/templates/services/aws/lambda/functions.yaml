@@ -27,7 +27,7 @@ harvest:
           description: Retrieve details for a specific Lambda function
           command: get_function
           arguments:
-              FunctionName: item.Configuration.FunctionArn
+              FunctionName: item.FunctionArn
           iterate: var.functions
           result_as:
               name: result
