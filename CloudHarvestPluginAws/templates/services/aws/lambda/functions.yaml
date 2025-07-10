@@ -1,0 +1,36 @@
+harvest:
+  name: services.aws.lambda.functions
+  description: Retrieves AWS Lambda function metadata.
+  unique_identifier_keys: Configuration.FunctionArn
+
+  indexes:
+    - keys: Configuration.FunctionName
+    - keys: Configuration.Runtime
+
+  tasks:
+    all:
+      - aws:
+          name: Retrieve Lambda functions
+          description: Retrieve all AWS Lambda functions
+          command: list_functions
+          include_metadata: false
+          result_as: functions
+
+      - aws: &get_function
+          name: Get Function
+          description: Retrieve details for a specific Lambda function
+          command: get_function
+          arguments:
+              FunctionName: item.Configuration.FunctionArn
+          iterate: var.functions
+          result_as:
+              name: results
+              mode: append
+              include:
+              FunctionArn: item.Configuration.FunctionArn
+
+    single:
+      - aws:
+          command: get_function
+          arguments:
+            FunctionName: var.identifier

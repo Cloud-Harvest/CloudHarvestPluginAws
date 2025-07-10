@@ -1,0 +1,37 @@
+report:
+  name: reports.aws.lambda.functions
+  description: Report on AWS Lambda functions
+
+  headers:
+    - Active
+    - Account
+    - Region
+    - Function
+    - Version
+    - Runtime
+    - Timeout
+    - State
+    - Concurrency
+    - Modified
+
+  tasks:
+    - mongo:
+        name: Retrieve Lambda Functions
+        silo: harvest-core
+        collection: aws.lambda.functions
+        filters: '.*'
+        arguments:
+          pipeline:
+            - $project:
+                Active: "$Harvest.Active"
+                Account: "$Harvest.Account"
+                Region: "$Harvest.Region"
+                Function: "$Configuration.FunctionName"
+                Version: "$Configuration.Version"
+                Runtime: "$Configuration.Runtime"
+                Timeout: "$Configuration.Timeout"
+                State: "$Configuration.State"
+                Concurrency: "$Concurrency.ReservedConcurrentExecutions"
+                Modified:
+                  $dateToString:
+                    date: "$Configuration.LastModified"
