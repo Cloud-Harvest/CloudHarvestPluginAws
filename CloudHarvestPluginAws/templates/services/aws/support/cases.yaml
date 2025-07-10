@@ -4,7 +4,6 @@ harvest:
   unique_identifier_keys:
     - Harvest.Platform
     - Harvest.Service
-    - Harvest.Region
     - Harvest.AccountId
     - caseId
 
@@ -17,6 +16,7 @@ harvest:
     all:
       - aws: &describe_cases
           name: Describe support cases
+          global_service: true
           command: describe_cases
           arguments:
             IncludeResolvedCases: true

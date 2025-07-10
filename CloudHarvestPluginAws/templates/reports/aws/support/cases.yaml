@@ -5,7 +5,6 @@ report:
   headers:
     - Active
     - Account
-    - Region
     - DisplayId
     - Subject
     - Severity
@@ -26,7 +25,6 @@ report:
             - $project:
                 Active: "$Harvest.Active"
                 Account: "$Harvest.Account"
-                Region: "$Harvest.Region"
                 DisplayId: "$displayId"
                 Subject: "$subject"
                 Severity: "$severity"
