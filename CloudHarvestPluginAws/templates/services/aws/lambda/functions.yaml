@@ -16,6 +16,12 @@ harvest:
           include_metadata: false
           result_as: functions
 
+      - dataset:
+          name: Convert to dataset
+          data: var.functions
+          stages: []
+          result_as: functions
+
       - aws: &get_function
           name: Get Function
           description: Retrieve details for a specific Lambda function
@@ -24,13 +30,18 @@ harvest:
               FunctionName: item.Configuration.FunctionArn
           iterate: var.functions
           result_as:
-              name: results
+              name: result
               mode: append
-              include:
-              FunctionArn: item.Configuration.FunctionArn
 
     single:
       - aws:
           command: get_function
           arguments:
             FunctionName: var.identifier
+          result_as: function
+
+      - dataset:
+          name: Convert to Dataset
+          data: var.function
+          stages: []
+          result_as: result
