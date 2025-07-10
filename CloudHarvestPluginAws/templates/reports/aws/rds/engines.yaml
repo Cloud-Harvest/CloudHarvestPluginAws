@@ -28,32 +28,37 @@ report:
 
         arguments:
           pipeline:
-            - $unwind:
-                path: "$ValidUpgradeTarget"
-                preserveNullAndEmptyArrays: true
-
             - $lookup:
                 from: "aws.rds.major-engine-versions"
                 let:
-                  service: "$Harvest.Service"
                   account: "$Harvest.Account"
                   region: "$Harvest.Region"
                   engine: "$Engine"
                   engineVersion: "$EngineVersion"
                 pipeline:
+                  - $unwind:
+                      path: "$SupportedEngineLifecycles.LifecycleSupportName"
+                      preserveNullAndEmptyArrays: true
+
                   - $match:
                       $expr:
                         $and:
-                          - { $eq: ["$Harvest.Service", "$$service"] }
                           - { $eq: ["$Harvest.Account", "$$account"] }
                           - { $eq: ["$Harvest.Region", "$$region"] }
                           - { $eq: ["$Engine", "$$engine"] }
                           - { $eq: ["$MajorEngineVersion", "$$engineVersion"] }
-                          - { $eq: ["LifecycleSupportName", "open-source-extended-support"] }
+                          - { $eq: ["$SupportedEngineLifecycles.LifecycleSupportName", "open-source-extended-support"] }
+
                 as: "MajorEngineVersionDetails"
 
+            - $set:
+                MajorEngineVersionDetails:
+                  $ifNull:
+                    - { $arrayElemAt: ["$MajorEngineVersionDetails", 0] }
+                    - null
+
             - $unwind:
-                path: "$MajorEngineVersionDetails"
+                path: "$ValidUpgradeTarget"
                 preserveNullAndEmptyArrays: true
 
             - $project:
@@ -68,5 +73,11 @@ report:
                 TargetVersion: "$ValidUpgradeTarget.EngineVersion"
                 AutoUpgrade: "$ValidUpgradeTarget.AutoUpgrade"
                 IsMajorVersionUpgrade: "$ValidUpgradeTarget.IsMajorVersionUpgrade"
-                ExtendedStart: "$MajorEngineVersionDetails.SupportedEngineLifecycles.LifecycleSupportStartDate"
-                ExtendedEnd: "$MajorEngineVersionDetails.SupportedEngineLifecycles.LifecycleSupportEndDate"
+                ExtendedStart:
+                  $dateToString:
+                    format: "%Y-%m-%d"
+                    date: "$MajorEngineVersionDetails.SupportedEngineLifecycles.LifecycleSupportStartDate"
+                ExtendedEnd:
+                  $dateToString:
+                    format: "%Y-%m-%d"
+                    date: "$MajorEngineVersionDetails.SupportedEngineLifecycles.LifecycleSupportEndDate"

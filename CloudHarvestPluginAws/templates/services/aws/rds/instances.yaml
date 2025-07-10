@@ -1,5 +1,5 @@
 harvest:
-  name: RDS Instances
+  name: services.aws.rds.instances
   description: Retrieve information about RDS instances including Non-Aurora instances
   unique_identifier_keys: DBInstanceArn
 
@@ -10,6 +10,8 @@ harvest:
         - Engine
         - EngineVersion
     - keys: Endpoint
+    - keys: Logs.LogFileName
+    - keys: Logs.LastWritten
 
   # tasks to collect all instances
   tasks:
@@ -24,12 +26,39 @@ harvest:
           name: Update Tags
           description: Update the tags to use a dict format
           data: var.instances
+          result_as: instances
           stages:
             - convert_list_of_dict_to_dict:
                 source_key: TagList
                 target_key: Tags
                 name_key: Key
                 value_key: Value
+
+      - aws: &describe_db_log_files
+          name: Retrieve RDS log file descriptors
+          command: describe_db_log_files
+          arguments:
+            DBInstanceIdentifier: item.DBInstanceIdentifier
+          include_metadata: false
+          iterate: var.instances
+          result_to_dict_key: Logs
+          result_as:
+            name: log_files
+            mode: append
+            include:
+              DBInstanceArn: item.DBInstanceArn
+
+      - dataset:  &merge_log_files
+          name: Merge Log Files
+          data: var.instances
+          result_as: result
+          stages:
+            - join:
+                data: var.log_files
+                left_keys:
+                  - DBInstanceArn
+                right_keys:
+                  - DBInstanceArn
 
     # tasks to collect a single cluster
     single:
@@ -38,3 +67,5 @@ harvest:
           DBInstanceIdentifier: var.identifier
 
       - <<: *update_tags
+      - <<: *describe_db_log_files
+      - <<: *merge_log_files

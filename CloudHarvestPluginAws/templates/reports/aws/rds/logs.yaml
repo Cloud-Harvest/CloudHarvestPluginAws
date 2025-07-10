@@ -1,0 +1,39 @@
+report:
+  name: reports.aws.rds.logs
+  description: Retrieve log descriptors for RDS instances
+
+  headers:
+    - Active
+    - Account
+    - Region
+    - Cluster
+    - Instance
+    - LastWritten
+    - FileName
+    - Size
+
+  tasks:
+    - mongo:
+        name: Retrieve RDS log descriptors
+        silo: harvest-core
+        collection: aws.rds.instances
+        filters: '.*'
+
+        arguments:
+          pipeline:
+            - $unwind:
+                path: '$Logs'
+                preserveNullAndEmptyArrays: true
+
+            - $project:
+                Active: "$Harvest.Active"
+                Account: "$Harvest.Account"
+                Region: "$Harvest.Region"
+                Cluster: "$DBClusterIdentifier"
+                Instance: "$DBInstanceIdentifier"
+                LastWritten:
+                  $dateToString:
+                    date:
+                      $toDate: "$Logs.LastWritten"
+                FileName: "$Logs.LogFileName"
+                Size: "$Logs.Size"

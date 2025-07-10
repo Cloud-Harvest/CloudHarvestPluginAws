@@ -66,8 +66,14 @@ report:
                     - "$InstanceDetails.DBInstanceIdentifier"
                     - null
                 Action: "$PendingMaintenanceActionDetails.Action"
-                AutoAppliedAfterDate: "$PendingMaintenanceActionDetails.AutoAppliedAfterDate"
-                ForcedApplyDate: "$PendingMaintenanceActionDetails.ForcedApplyDate"
+                AutoAppliedAfterDate:
+                  $dateToString: 
+                    date: "$PendingMaintenanceActionDetails.AutoAppliedAfterDate"
+                ForcedApplyDate:
+                  $dateToString: 
+                    date: "$PendingMaintenanceActionDetails.ForcedApplyDate"
                 OptInStatus: "$PendingMaintenanceActionDetails.OptInStatus"
-                CurrentApplyDate: "$PendingMaintenanceActionDetails.CurrentApplyDate"
+                CurrentApplyDate:
+                  $dateToString: 
+                    date: "$PendingMaintenanceActionDetails.CurrentApplyDate"
                 Description: "$PendingMaintenanceActionDetails.Description"

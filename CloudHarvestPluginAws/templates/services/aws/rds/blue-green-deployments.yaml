@@ -1,5 +1,5 @@
 harvest:
-  name: RDS Blue-Green Deployments
+  name: services.aws.rds.blue-green-deployments
   description: Retrieve information about RDS Blue-Green Deployments
   unique_identifier_keys:
     - Harvest.Platform

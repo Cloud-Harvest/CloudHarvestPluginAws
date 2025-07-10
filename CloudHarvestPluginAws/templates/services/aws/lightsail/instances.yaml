@@ -1,5 +1,5 @@
 harvest:
-  name: LightSail Instances
+  name: services.aws.lightsail.instances
   description: Retrieve information about LightSail instances
   unique_identifier_keys: arn
 

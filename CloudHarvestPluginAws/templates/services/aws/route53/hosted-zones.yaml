@@ -4,7 +4,6 @@ harvest:
     - Harvest.Platform
     - Harvest.Service
     - Harvest.Type
-    - Harvest.Region
     - Harvest.AccountId
     - Id
 
@@ -21,6 +20,7 @@ harvest:
       - aws: &list_hosted_zones
           name: Get Hosted Zones
           command: list_hosted_zones
+          global_service: true
           result_as: hosted_zones
 
       - aws: &list_resource_record_sets
@@ -28,6 +28,7 @@ harvest:
           command: list_resource_record_sets
           arguments:
               HostedZoneId: item.Id
+          global_service: true
           iterate: var.hosted_zones
           result_as:
             name: resource_record_sets

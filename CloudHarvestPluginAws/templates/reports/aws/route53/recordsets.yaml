@@ -5,7 +5,6 @@ report:
   headers:
     - Active
     - Account
-    - Region
     - HostedZone
     - Name
     - Type

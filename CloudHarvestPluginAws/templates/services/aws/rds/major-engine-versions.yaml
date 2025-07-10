@@ -1,5 +1,5 @@
 harvest:
-  name: RDS Major Engine Versions
+  name: services.aws.rds.major-engine-versions
   description: Describes support life cycle for RDS major engine versions
   unique_identifier_keys:
     - Harvest.Platform

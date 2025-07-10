@@ -1,5 +1,16 @@
 # CHANGELOG
 
+## 0.5.3
+- Removed `meta.json` in favor of using `pyproject.toml`
+
+## 0.5.2
+- Updated to conform with CloudHarvestCoreTasks 0.8.0
+- Added the `globa_service` directive
+
+## 0.5.1
+- Fixed some reports
+- Added `DynamoDB` service
+
 ## 0.5.0
 - Updated to conform with CloudHarvestCoreTasks 0.7.0
 - Added indexes to all existing services

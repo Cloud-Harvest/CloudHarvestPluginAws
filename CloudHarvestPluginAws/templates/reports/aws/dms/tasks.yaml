@@ -25,4 +25,6 @@ report:
                 Region: "$Harvest.Region"
                 Task: "$ReplicationTaskIdentifier"
                 Status: "$Status"
-                Created: "$ReplicationTaskCreationDate"
+                Created:
+                  $dateToString: 
+                    date: "$ReplicationTaskCreationDate"

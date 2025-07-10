@@ -1,5 +1,5 @@
 harvest:
-  name: RDS Snapshots
+  name: services.aws.rds.snapshots-cluster
   description: Retrieves RDS Cluster snapshots
   unique_identifier_keys: DBClusterSnapshotArn
 
@@ -15,7 +15,6 @@ harvest:
           result_as: cluster_snapshots
           arguments:
             IncludeShared: True
-            IncludePublic: True
 
       - dataset: &format_tags
             name: Format the tags

@@ -34,4 +34,6 @@ report:
                 State: "$state.name"
                 Cpu: "$hardware.cpuCount"
                 Memory: "$hardware.ramSizeInGb"
-                Created: "$createdAt"
+                Created:
+                  $dateToString: 
+                    date: "$createdAt"

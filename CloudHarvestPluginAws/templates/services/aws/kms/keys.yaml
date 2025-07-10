@@ -1,5 +1,5 @@
 harvest:
-  name: KMS Keys
+  name: services.aws.kms.keys
   description: Retrieve information about KMS Keys
   unique_identifier_keys: Arn
 
@@ -50,8 +50,8 @@ harvest:
           stages:
             - convert_list_of_dict_to_dict:
                 source_key: Tags
-                key_name: TagKey
-                key_value: TagValue
+                name_key: TagKey
+                value_key: TagValue
 
       - dataset: &join_tags_and_aliases
           name: Merge Tags

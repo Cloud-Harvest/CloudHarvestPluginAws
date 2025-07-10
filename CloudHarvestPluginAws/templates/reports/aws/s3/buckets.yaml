@@ -5,7 +5,6 @@ report:
   headers:
     - Active
     - Account
-    - Region
     - Name
     - Owner
     - Created
@@ -22,7 +21,8 @@ report:
             - $project:
                 Active: "$Harvest.Active"
                 Account: "$Harvest.Account"
-                Region: "$Harvest.Region"
                 Name: 1
                 Owner: "$Owner.DisplayName"
-                Created: "$CreationDate"
+                Created:
+                  $dateToString: 
+                    date: "$CreationDate"

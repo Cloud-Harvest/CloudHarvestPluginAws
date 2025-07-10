@@ -33,4 +33,6 @@ report:
                 Platform: "$PlatformDetails"
                 Class: "$InstanceType"
                 Status: "$State.Name"
-                Created: "$LaunchTime"
+                Created:
+                  $dateToString: 
+                    date: "$LaunchTime"
