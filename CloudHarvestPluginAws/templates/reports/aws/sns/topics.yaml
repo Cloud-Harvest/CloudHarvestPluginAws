@@ -25,7 +25,7 @@ report:
                 Account: "$Harvest.Account"
                 Region: "$Harvest.Region"
                 Name:
-                  ifNull:
+                  $ifNull:
                     - "$DisplayName"
                     - "$TopicArn"
                 SubscriptionsPending: 1
