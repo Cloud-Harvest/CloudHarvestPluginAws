@@ -54,14 +54,12 @@ harvest:
                   - SubscriptionArn
                 right_keys:
                   - SubscriptionArn
-                result_as: merged_subscriptions
             - join:
                 data: var.tags
                 left_keys:
                   - SubscriptionArn
                 right_keys:
                   - SubscriptionArn
-                result_as: merged_subscriptions
             - convert_list_of_dict_to_dict:
                 source_key: Tags
                 target_key: Tags
