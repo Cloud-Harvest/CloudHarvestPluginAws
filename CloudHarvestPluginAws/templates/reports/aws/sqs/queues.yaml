@@ -13,7 +13,6 @@ report:
     - Modified
     - Created
 
-
   tasks:
     - mongo:
         name: Get SQS queues
