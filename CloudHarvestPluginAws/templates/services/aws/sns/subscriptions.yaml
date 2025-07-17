@@ -72,10 +72,6 @@ harvest:
 #                target_key: Tags
 #                name_key: Key
 #                value_key: Value
-            - deserialize_key:
-                source_key: Policy
-            - deserialize_key:
-                source_key: EffectiveDeliveryPolicy
 
     single:
       - <<: *get_subscription_attributes
