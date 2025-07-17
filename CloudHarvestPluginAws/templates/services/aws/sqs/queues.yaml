@@ -11,7 +11,6 @@ harvest:
       - aws:
           name: List SQS Queues
           command: list_queues
-          include_metadata: false
           result_to_list_with_key: QueueUrl
           result_as: queue_urls
 
@@ -23,7 +22,9 @@ harvest:
             QueueUrl: item.QueueUrl
             AttributeNames:
               - All
+          blocking: false
           iterate: var.queue_urls
+          include_metadata: false
           result_as:
             name: queues
             mode: append
@@ -35,20 +36,32 @@ harvest:
           command: list_queue_tags
           arguments:
             QueueUrl: item.QueueUrl
+          blocking: false
           include_metadata: false
-          iterate: var.queues
+          iterate: var.queue_urls
           result_to_dict_key: Tags
           result_as:
             name: queues
             mode: append
             include:
-              QueueArn: item.QueueArn
+              QueueUrl: item.QueueUrl
+
+      # Awaits collection of attributes and tags
+      - wait: &wait_for_async_tasks
+          name: Wait for all log downloads to complete
+          when_all_previous_async_tasks_complete: true
 
       - dataset: &merge_tags
-            name: Merge Tags
-            data: var.queues
+            name: Merge attributes and tags
+            data: var.queue_urls
             result_as: result
             stages:
+                - join:
+                    data: var.queues
+                    left_keys:
+                      - QueueUrl
+                    right_keys:
+                      - QueueUrl
                 - join:
                     data: var.tags
                     left_keys:
@@ -62,4 +75,5 @@ harvest:
           QueueUrl: var.identifier
 
       - <<: *get_queue_tags
+      - <<: *wait_for_async_tasks
       - <<: *merge_tags
