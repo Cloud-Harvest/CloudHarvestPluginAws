@@ -25,9 +25,11 @@ report:
                 Account: "$Harvest.Account"
                 Region: "$Harvest.Region"
                 Name:
-                  $ifNull:
-                    - "$DisplayName"
-                    - "$TopicArn"
+                  $cond:
+                    if:
+                      $ne: [ "$DisplayName", "" ]
+                    then: "$DisplayName"
+                    else: "$TopicArn"
                 SubscriptionsPending: 1
                 SubscriptionsConfirmed: 1
                 SubscriptionsDeleted: 1
