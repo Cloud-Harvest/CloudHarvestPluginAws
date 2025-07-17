@@ -41,7 +41,7 @@ harvest:
           iterate: var.queue_urls
           result_to_dict_key: Tags
           result_as:
-            name: queues
+            name: tags
             mode: append
             include:
               QueueUrl: item.QueueUrl
