@@ -19,6 +19,7 @@ harvest:
           command: get_subscription_attributes
           arguments:
             SubscriptionArn: item.SubscriptionArn
+          blocking: false
           include_metadata: false
           iterate: var.subscriptions
           result_to_dict_key: Attributes
@@ -27,6 +28,10 @@ harvest:
             mode: append
             include:
               SubscriptionArn: item.SubscriptionArn
+
+      - wait:
+          name: Wait for all log downloads to complete
+          when_all_previous_async_tasks_complete: true
 
 #      # Tagging not supported for subscriptions at this time
 #      - aws:  &get_subscription_tags
