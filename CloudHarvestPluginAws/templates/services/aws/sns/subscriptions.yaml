@@ -28,21 +28,22 @@ harvest:
             include:
               SubscriptionArn: item.SubscriptionArn
 
-      - aws:  &get_subscription_tags
-          name: Get SNS subscription tags
-          command: list_tags_for_resource
-          arguments:
-            ResourceArn: item.SubscriptionArn
-          iterate: var.subscriptions
-          include_metadata: false
-          result_to_dict_key: Tags
-          result_as:
-            name: tags
-            mode: append
-            include:
-              SubscriptionArn: item.SubscriptionArn
+#      # Tagging not supported for subscriptions at this time
+#      - aws:  &get_subscription_tags
+#          name: Get SNS subscription tags
+#          command: list_tags_for_resource
+#          arguments:
+#            ResourceArn: item.SubscriptionArn
+#          iterate: var.subscriptions
+#          include_metadata: false
+#          result_to_dict_key: Tags
+#          result_as:
+#            name: tags
+#            mode: append
+#            include:
+#              SubscriptionArn: item.SubscriptionArn
 
-      - dataset:  &merge_subscriptions_with_tags
+      - dataset:  &merge_data
           name: Merge and prepare data
           description: Merge the SNS subscriptions with their tags and deserialize the attributes.
           data: var.subscriptions
@@ -54,17 +55,18 @@ harvest:
                   - SubscriptionArn
                 right_keys:
                   - SubscriptionArn
-            - join:
-                data: var.tags
-                left_keys:
-                  - SubscriptionArn
-                right_keys:
-                  - SubscriptionArn
-            - convert_list_of_dict_to_dict:
-                source_key: Tags
-                target_key: Tags
-                name_key: Key
-                value_key: Value
+#            # Tagging not supported for subscriptions at this time
+#            - join:
+#                data: var.tags
+#                left_keys:
+#                  - SubscriptionArn
+#                right_keys:
+#                  - SubscriptionArn
+#            - convert_list_of_dict_to_dict:
+#                source_key: Tags
+#                target_key: Tags
+#                name_key: Key
+#                value_key: Value
             - deserialize_key:
                 source_key: Policy
             - deserialize_key:
@@ -75,5 +77,5 @@ harvest:
         arguments:
           SubscriptionArn: var.identifier
 
-      - <<: *get_subscription_tags
-      - <<: *merge_subscriptions_with_tags
+#      - <<: *get_subscription_tags
+      - <<: *merge_data
