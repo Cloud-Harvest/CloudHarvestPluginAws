@@ -23,6 +23,7 @@ harvest:
           command: get_topic_attributes
           arguments:
             TopicArn: item.TopicArn
+          blocking: false
           iterate: var.topics_list
           result_as:
             name: topics
@@ -33,7 +34,7 @@ harvest:
           command: list_tags_for_resource
           arguments:
             ResourceArn: item.TopicArn
-          iterate: var.topics
+          iterate: var.topics_list
           include_metadata: false
           result_to_dict_key: Tags
           result_as:
@@ -41,6 +42,11 @@ harvest:
             mode: append
             include:
               TopicArn: item.TopicArn
+
+      # Awaits collection of attributes and tags
+      - wait:
+          name: Wait for all log downloads to complete
+          when_all_previous_async_tasks_complete: true
 
       - dataset:  &merge_topics_with_tags
           name: Merge and prepare data
@@ -54,7 +60,6 @@ harvest:
                   - TopicArn
                 right_keys:
                   - TopicArn
-                result_as: merged_topics
             - convert_list_of_dict_to_dict:
                 source_key: Tags
                 target_key: Tags
