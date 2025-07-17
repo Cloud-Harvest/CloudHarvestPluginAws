@@ -34,9 +34,9 @@ report:
                   $dateToString:
                     date:
                       $toDate:
-                        $multiply: [ "$LastModifiedTimestamp", 1000 ]
+                        $multiply: [ { $toInt: "$LastModifiedTimestamp" }, 1000 ]
                 Created:
                     $dateToString:
                       date:
                         $toDate:
-                          $multiply: [ "$CreatedTimestamp", 1000 ]
+                          $multiply: [ { $toInt: "$CreatedTimestamp" }, 1000 ]
