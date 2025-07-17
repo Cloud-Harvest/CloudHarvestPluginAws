@@ -44,7 +44,7 @@ harvest:
               TopicArn: item.TopicArn
 
       # Awaits collection of attributes and tags
-      - wait:
+      - wait: &wait_for_async_tasks
           name: Wait for all log downloads to complete
           when_all_previous_async_tasks_complete: true
 
@@ -76,4 +76,5 @@ harvest:
           TopicArn: var.identifier
 
       - <<: *get_topic_tags
+      - <<: *wait_for_async_tasks
       - <<: *merge_topics_with_tags

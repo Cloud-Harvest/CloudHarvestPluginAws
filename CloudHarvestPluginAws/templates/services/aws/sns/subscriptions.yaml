@@ -29,7 +29,7 @@ harvest:
             include:
               SubscriptionArn: item.SubscriptionArn
 
-      - wait:
+      - wait: &wait_for_async_tasks
           name: Wait for all log downloads to complete
           when_all_previous_async_tasks_complete: true
 
@@ -79,4 +79,5 @@ harvest:
           SubscriptionArn: var.identifier
 
 #      - <<: *get_subscription_tags
+      - <<: *wait_for_async_tasks
       - <<: *merge_data
