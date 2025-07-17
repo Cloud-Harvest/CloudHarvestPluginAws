@@ -1,0 +1,81 @@
+harvest:
+  name: services.aws.sns.subscriptions
+  description: Collects information about AWS SNS subscriptions.
+  unique_identifier_keys: SubscriptionArn
+
+  indexes:
+    - keys: TopicArn
+
+  tasks:
+    all:
+      - aws:
+          name: List the SNS subscriptions
+          description: Retrieve all SNS subscriptions.
+          command: list_subscriptions
+          result_as: subscriptions
+
+      - aws: &get_subscription_attributes
+          name: Get SNS subscription attributes
+          command: get_subscription_attributes
+          arguments:
+            SubscriptionArn: item.SubscriptionArn
+          include_metadata: false
+          iterate: var.subscriptions
+          result_to_dict_key: Attributes
+          result_as:
+            name: subscription_attributes
+            mode: append
+            include:
+              SubscriptionArn: item.SubscriptionArn
+
+      - aws:  &get_subscription_tags
+          name: Get SNS subscription tags
+          command: list_tags_for_resource
+          arguments:
+            ResourceArn: item.SubscriptionArn
+          iterate: var.subscriptions
+          include_metadata: false
+          result_to_dict_key: Tags
+          result_as:
+            name: tags
+            mode: append
+            include:
+              SubscriptionArn: item.SubscriptionArn
+
+      - dataset:  &merge_subscriptions_with_tags
+          name: Merge and prepare data
+          description: Merge the SNS subscriptions with their tags and deserialize the attributes.
+          data: var.subscriptions
+          result_as: result
+          stages:
+            - join:
+                data: var.subscription_attributes
+                left_keys:
+                  - SubscriptionArn
+                right_keys:
+                  - SubscriptionArn
+                result_as: merged_subscriptions
+            - join:
+                data: var.tags
+                left_keys:
+                  - SubscriptionArn
+                right_keys:
+                  - SubscriptionArn
+                result_as: merged_subscriptions
+            - convert_list_of_dict_to_dict:
+                source_key: Tags
+                target_key: Tags
+                name_key: Key
+                value_key: Value
+            - deserialize_key:
+                source_key: Policy
+            - deserialize_key:
+                source_key: EffectiveDeliveryPolicy
+
+    single:
+      - <<: *get_subscription_attributes
+        arguments:
+          SubscriptionArn: var.identifier
+
+      - <<: *get_subscription_tags
+      - <<: *merge_subscriptions_with_tags

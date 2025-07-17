@@ -1,0 +1,65 @@
+harvest:
+  name: aws.sqs.queues
+  description: Retrieve information about SQS queues
+  unique_identifier_keys: QueueArn
+
+  indexes:
+    - keys: QueueUrl
+
+  tasks:
+    all:
+      - aws:
+          name: List SQS Queues
+          command: list_queues
+          include_metadata: false
+          result_to_list_with_key: QueueUrl
+          result_as: queue_urls
+
+      - aws:  &get_queue_attributes
+          name: Get SQS Queue Attributes
+          description: Retrieve attributes for each SQS queue. This will become the actual record we store.
+          command: get_queue_attributes
+          arguments:
+            QueueUrl: item.QueueUrl
+            AttributeNames:
+              - All
+          iterate: var.queue_urls
+          result_as:
+            name: queues
+            mode: append
+            include:
+              QueueUrl: item.QueueUrl
+
+      - aws:  &get_queue_tags
+          name: Get tags
+          command: list_queue_tags
+          arguments:
+            QueueUrl: item.QueueUrl
+          include_metadata: false
+          iterate: var.queues
+          result_to_dict_key: Tags
+          result_as:
+            name: queues
+            mode: append
+            include:
+              QueueArn: item.QueueArn
+
+      - dataset: &merge_tags
+            name: Merge Tags
+            data: var.queues
+            result_as: result
+            stages:
+                - join:
+                    data: var.tags
+                    left_keys:
+                      - QueueArn
+                    right_keys:
+                      - QueueArn
+
+    single:
+      - <<: *get_queue_attributes
+        arguments:
+          QueueUrl: var.identifier
+
+      - <<: *get_queue_tags
+      - <<: *merge_tags

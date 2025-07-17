@@ -1,0 +1,30 @@
+report:
+  name: reports.aws.sns.topics
+  description: List of SNS topics in the AWS account.
+
+  headers:
+    - Active
+    - Account
+    - Region
+    - Name
+    - SubscriptionsPending
+    - SubscriptionsConfirmed
+    - SubscriptionsDeleted
+
+
+  tasks:
+    - mongo:
+        name: Fetch SNS topics from MongoDB
+        silo: harvest-core
+        collection: aws.sns.topics
+        filters: '.*'
+        arguments:
+          pipeline:
+            - $project:
+                Active: "$Harvest.Active"
+                Account: "$Harvest.Account"
+                Region: "$Harvest.Region"
+                Name: "$DisplayName"
+                SubscriptionsPending: 1
+                SubscriptionsConfirmed: 1
+                SubscriptionsDeleted: 1

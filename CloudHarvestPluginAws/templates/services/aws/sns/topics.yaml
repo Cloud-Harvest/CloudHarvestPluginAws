@@ -1,0 +1,74 @@
+harvest:
+  name: services.aws.sns.topics
+  description: Collects information about AWS SNS topics.
+  unique_identifier_keys: TopicArn
+
+  indexes:
+    - keys: TopicArn
+
+  tasks:
+    all:
+      - aws:
+          name: List the SNS topics
+          description: |
+            Retrieve all SNS topics. 
+            This stage is required to collect the topics before fetching their attributes. The attributes and tags
+            will be the stored records.
+          command: list_topics
+          include_metadata: false
+          result_as: topics_list
+
+      - aws: &get_topic_attributes
+          name: Get SNS topic attributes
+          command: get_topic_attributes
+          arguments:
+            TopicArn: item.TopicArn
+          iterate: var.topics_list
+          result_as:
+            name: topics
+            mode: append
+
+      - aws:  &get_topic_tags
+          name: Get SNS topic tags
+          command: list_tags_for_resource
+          arguments:
+            ResourceArn: item.TopicArn
+          iterate: var.topics
+          include_metadata: false
+          result_to_dict_key: Tags
+          result_as:
+            name: tags
+            mode: append
+            include:
+              TopicArn: item.TopicArn
+
+      - dataset:  &merge_topics_with_tags
+          name: Merge and prepare data
+          description: Merge the SNS topics with their tags and deserialize the attributes.
+          data: var.topics
+          result_as: result
+          stages:
+            - join:
+                data: var.tags
+                left_keys:
+                  - TopicArn
+                right_keys:
+                  - TopicArn
+                result_as: merged_topics
+            - convert_list_of_dict_to_dict:
+                source_key: Tags
+                target_key: Tags
+                name_key: Key
+                value_key: Value
+            - deserialize_key:
+                source_key: Policy
+            - deserialize_key:
+                source_key: EffectiveDeliveryPolicy
+
+    single:
+      - <<: *get_topic_attributes
+        arguments:
+          TopicArn: var.identifier
+
+      - <<: *get_topic_tags
+      - <<: *merge_topics_with_tags

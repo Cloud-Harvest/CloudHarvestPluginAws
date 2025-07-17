@@ -1,0 +1,46 @@
+report:
+  name: reports.aws.sns.subscriptions
+  description: Displays information about AWS SNS subscriptions.
+
+  headers:
+    - Active
+    - Account
+    - Region
+    - SubscriptionArn
+    - TopicArn
+    - Endpoint
+    - Protocol
+    - RawMessages
+    - PendingConfirmation
+    - ConfirmationWasAuthenticated
+
+  tasks:
+    - mongo:
+        name: Get SNS subscriptions
+        silo: harvest-core
+        collection: aws.sns.subscriptions
+        filters: '.*'
+        arguments:
+          pipeline:
+            - $lookup:
+                from: aws.sns.topics
+                localField: Attributes.TopicArn
+                foreignField: TopicArn
+                as: topics
+
+            - $unwind:
+                path: "$topics"
+                preserveNullAndEmptyArrays: true
+
+            - $project:
+                Active: "$Harvest.Active"
+                Account: "$Harvest.Account"
+                Region: "$Harvest.Region"
+                SubscriptionArn: 1
+                TopicName: "$topics.DisplayName"
+                TopicArn: "$Attributes.TopicArn"
+                Endpoint: 1
+                Protocol: 1
+                RawMessages: "$Attributes.RawMessageDelivery"
+                PendingConfirmation: "$Attributes.PendingConfirmation"
+                ConfirmationWasAuthenticated: "$Attributes.ConfirmationWasAuthenticated"

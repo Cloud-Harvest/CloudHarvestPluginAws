@@ -1,0 +1,41 @@
+report:
+  name: reports.aws.sqs.queues
+
+  headers:
+    - Active
+    - Account
+    - Region
+    - Url
+    - MaxSizeBytes
+    - RetentionSeconds
+    - DelaySeconds
+    - SseEnabled
+    - Modified
+    - Created
+
+
+  tasks:
+    - mongo:
+        name: Get SQS queues
+        silo: harvest-core
+        collection: aws.sqs.queues
+        filters: '.*'
+        arguments:
+          pipeline:
+            - $project:
+                Active: "$Harvest.Active"
+                Account: "$Harvest.Account"
+                Region: "$Harvest.Region"
+                Url: "$QueueUrl"
+                MaxSizeBytes: "$MaximumMessageSize"
+                RetentionSeconds: "$MessageRetentionPeriod"
+                DelaySeconds: 1
+                SseEnabled: "$SqsManagedSseEnabled"
+                Modified:
+                  $dateToString:
+                    date:
+                      $toDate: "$LastModifiedTimestamp"
+                Created:
+                    $dateToString:
+                      date:
+                        $toDate: "$CreatedTimestamp"

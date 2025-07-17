@@ -5,6 +5,8 @@
 - Added AWS Services:
   - `support`
   - `lambda`
+  - `sns`
+  - `sqs`
 
 ## 0.5.2
 - Updated to conform with CloudHarvestCoreTasks 0.8.0
