@@ -26,8 +26,6 @@ report:
         collection: aws.rds.engines
         filters: '.*'
 
-        # ??? Construct engine family and lookup on that ???
-
         arguments:
           pipeline:
             - $lookup:
@@ -38,10 +36,6 @@ report:
                   engine: "$Engine"
                   majorEngineVersion: "$MajorEngineVersion"
                 pipeline:
-                  - $unwind:
-                      path: "$SupportedEngineLifecycles.LifecycleSupportName"
-                      preserveNullAndEmptyArrays: true
-
                   - $match:
                       $expr:
                         $and:
@@ -49,7 +43,17 @@ report:
                           - { $eq: ["$Harvest.Region", "$$region"] }
                           - { $eq: ["$Engine", "$$engine"] }
                           - { $eq: ["$MajorEngineVersion", "$$majorEngineVersion"] }
-                          - { $eq: ["$SupportedEngineLifecycles.LifecycleSupportName", "open-source-extended-support"] }
+
+                  - $unwind:
+                      path: "$SupportedEngineLifecycles"
+                      preserveNullAndEmptyArrays: false
+
+                  - $match:
+                      SupportedEngineLifecycles.LifecycleSupportName: "open-source-rds-extended-support"
+
+                  - $project:
+                      ExtendedStart: "$SupportedEngineLifecycles.LifecycleSupportStartDate"
+                      ExtendedEnd: "$SupportedEngineLifecycles.LifecycleSupportEndDate"
 
                 as: "MajorEngineVersionDetails"
 
@@ -78,8 +82,8 @@ report:
                 ExtendedStart:
                   $dateToString:
                     format: "%Y-%m-%d"
-                    date: "$MajorEngineVersionDetails.SupportedEngineLifecycles.LifecycleSupportStartDate"
+                    date: "$MajorEngineVersionDetails.ExtendedStart"
                 ExtendedEnd:
                   $dateToString:
                     format: "%Y-%m-%d"
-                    date: "$MajorEngineVersionDetails.SupportedEngineLifecycles.LifecycleSupportEndDate"
+                    date: "$MajorEngineVersionDetails.ExtendedEnd"
