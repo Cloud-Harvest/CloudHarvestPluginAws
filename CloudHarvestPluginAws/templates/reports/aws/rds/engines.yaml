@@ -26,6 +26,8 @@ report:
         collection: aws.rds.engines
         filters: '.*'
 
+        # ??? Construct engine family and lookup on that ???
+
         arguments:
           pipeline:
             - $lookup:
@@ -34,7 +36,7 @@ report:
                   account: "$Harvest.Account"
                   region: "$Harvest.Region"
                   engine: "$Engine"
-                  engineVersion: "$EngineVersion"
+                  majorEngineVersion: "$MajorEngineVersion"
                 pipeline:
                   - $unwind:
                       path: "$SupportedEngineLifecycles.LifecycleSupportName"
@@ -46,7 +48,7 @@ report:
                           - { $eq: ["$Harvest.Account", "$$account"] }
                           - { $eq: ["$Harvest.Region", "$$region"] }
                           - { $eq: ["$Engine", "$$engine"] }
-                          - { $eq: ["$MajorEngineVersion", "$$engineVersion"] }
+                          - { $eq: ["$MajorEngineVersion", "$$majorEngineVersion"] }
                           - { $eq: ["$SupportedEngineLifecycles.LifecycleSupportName", "open-source-extended-support"] }
 
                 as: "MajorEngineVersionDetails"

@@ -8,7 +8,7 @@ harvest:
     - Harvest.AccountId
     - Harvest.Region
     - Engine
-    - EngineVersion
+    - MajorEngineVersion
 
   indexes:
     - keys:
