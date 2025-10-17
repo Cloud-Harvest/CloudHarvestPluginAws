@@ -36,6 +36,12 @@ report:
                 foreignField: "DBClusterArn"
                 as: "DBCluster"
 
+            - "$addFields":
+                DBCluster:
+                  "$arrayElemAt":
+                    - "$DBCluster"
+                    - 0
+
             - "$project":
                 Account: "$Harvest.Account"
                 Identifier: "$GlobalClusterIdentifier"
