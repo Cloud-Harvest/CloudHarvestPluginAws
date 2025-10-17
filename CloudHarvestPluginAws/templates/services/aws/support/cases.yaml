@@ -1,6 +1,7 @@
 harvest:
   name: services.aws.support.cases
   description: Retrieve information about AWS Support Cases
+  global: true
   unique_identifier_keys:
     - Harvest.Platform
     - Harvest.Service
