@@ -1,6 +1,7 @@
 # CHANGELOG
 
 ## 0.5.3
+- AwsTask will now retry on `TooManyRequestsException`
 - Removed `meta.json` in favor of using `pyproject.toml`
 - Added AWS Services:
   - `support`

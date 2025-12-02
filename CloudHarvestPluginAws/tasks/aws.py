@@ -184,7 +184,7 @@ def query_aws(service: str,
         # If a ClientError is raised, handle it
         except ClientError as e:
             # If the error is due to throttling, sleep for a while and then retry
-            if e.response['Error']['Code'] == 'Throttling':
+            if ('Throttling', 'TooManyRequestsException') in e.response['Error']['Code']:
                 from time import sleep
                 sleep(2 * attempt)
 
