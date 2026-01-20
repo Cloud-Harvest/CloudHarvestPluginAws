@@ -3,6 +3,7 @@ report:
   description: This report returns information about AWS RDS Global Clusters.
 
   headers:
+    - Active
     - Account
     - Identifier
     - Status
@@ -37,6 +38,7 @@ report:
                 as: "DBCluster"
 
             - "$project":
+                Active: "Harvest.Active"
                 Account: "$Harvest.Account"
                 Identifier: "$GlobalClusterIdentifier"
                 Status: 1
