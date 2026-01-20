@@ -29,7 +29,7 @@ report:
 
             - "$match":
                 GlobalClusterMembers.IsWriter:
-                  "$in": [ null, True]
+                  "$in": [ null, True ]
 
             - "$lookup":
                 from: aws.rds.clusters
@@ -37,8 +37,12 @@ report:
                 foreignField: "DBClusterArn"
                 as: "DBCluster"
 
+            - "$set":
+                DBCluster:
+                  $firstElemArray: "$DBCluster"
+
             - "$project":
-                Active: "Harvest.Active"
+                Active: "$Harvest.Active"
                 Account: "$Harvest.Account"
                 Identifier: "$GlobalClusterIdentifier"
                 Status: 1
