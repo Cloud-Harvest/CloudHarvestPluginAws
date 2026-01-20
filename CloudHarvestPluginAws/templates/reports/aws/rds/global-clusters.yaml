@@ -39,7 +39,7 @@ report:
 
             - "$set":
                 DBCluster:
-                  $firstElemArray: "$DBCluster"
+                  $arrayElemAt: [ "$DBCluster", 0 ]
 
             - "$project":
                 Active: "$Harvest.Active"
