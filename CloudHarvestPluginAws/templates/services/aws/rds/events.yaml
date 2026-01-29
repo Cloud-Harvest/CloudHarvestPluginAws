@@ -17,9 +17,22 @@ harvest:
 
   tasks:
     all:
+      - set:
+          identifier: now_datetime
+          value: '{{ filter_datetime_now().isoformat() }}'
+          cast: datetime
+
+      - set:
+          identifier: past_datetime
+          value: '{{ filter_datetime_ago(days=13, hours=23, minutes=50).isoformat() }}'
+          cast: datetime
+
       - aws: &describe_db_clusters
           name: Retrieve RDS Events
           command: describe_events
+          arguments:
+            StartTime: var.past_datetime
+            EndTime: var.now_datetime
 
     # tasks to collect a single cluster
     single:

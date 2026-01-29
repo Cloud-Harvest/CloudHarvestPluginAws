@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.6.0
+- Updated to conform with CloudHarvestCoreTasks 0.9.0
+- Fixed some reports
+
 ## 0.5.3
 - AwsTask will now retry on `TooManyRequestsException`
 - Removed `meta.json` in favor of using `pyproject.toml`
