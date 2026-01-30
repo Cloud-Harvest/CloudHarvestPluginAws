@@ -18,11 +18,13 @@ harvest:
   tasks:
     all:
       - set:
+          name: Set the EndTime
           identifier: now_datetime
           value: '{{ filter_datetime_now().isoformat() }}'
           cast: datetime
 
       - set:
+          name: Set the StartTime
           identifier: past_datetime
           value: '{{ filter_datetime_ago(days=13, hours=23, minutes=50).isoformat() }}'
           cast: datetime
