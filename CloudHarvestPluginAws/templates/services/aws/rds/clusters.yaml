@@ -35,6 +35,6 @@ harvest:
     single:
       - <<: *describe_db_clusters
         arguments:
-          DBClusterIdentifier: var.identifier
+          DBClusterIdentifier: var.DBClusterArn
 
       - <<: *update_tags
