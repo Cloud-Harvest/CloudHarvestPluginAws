@@ -8,6 +8,9 @@ harvest:
     - Harvest.AccountId
     - caseId
 
+  singleton_keys:
+    - caseId
+
   indexes:
     - keys: caseId
     - keys: displayId
@@ -26,4 +29,5 @@ harvest:
     single:
       - <<: *describe_cases
         arguments:
-          caseId: var.identifier
+          caseIdList:
+            - var.caseId

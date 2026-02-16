@@ -73,7 +73,7 @@ harvest:
     single:
       - <<: *get_topic_attributes
         arguments:
-          TopicArn: var.identifier
+          TopicArn: var.TopicArn
 
       - <<: *get_topic_tags
       - <<: *wait_for_async_tasks

@@ -8,6 +8,9 @@ harvest:
     - Harvest.AccountId
     - Id
 
+  singleton_keys:
+    - Id
+
   indexes:
     - keys: Id
     - keys: Name
@@ -54,7 +57,7 @@ harvest:
       - <<: *list_hosted_zones
         command: get_hosted_zone
         arguments:
-          Id: var.identifier
+          Id: var.Id
 
       - <<: *list_resource_record_sets
 

@@ -3,6 +3,9 @@ harvest:
   description: Retrieve information about RDS cluster parameters
   unique_identifier_keys: DBClusterParameterGroupArn
 
+  singleton_keys:
+    - DBClusterParameterGroupName
+
   indexes:
     - keys: DBClusterParameterGroupName
     - keys: DBParameterGroupFamily
@@ -45,7 +48,7 @@ harvest:
     single:
         - <<: *describe_db_cluster_parameters
           arguments:
-            DBClusterParameterGroupName: var.identifier
+            DBClusterParameterGroupName: var.DBClusterParameterGroupName
 
         - <<: *get_parameters
         - <<: *merge_parameters_into_parameter_groups

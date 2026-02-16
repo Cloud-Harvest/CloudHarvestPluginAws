@@ -64,7 +64,7 @@ harvest:
     single:
       - <<: *describe_db_instances
         arguments:
-          DBInstanceIdentifier: var.identifier
+          DBInstanceIdentifier: var.DBInstanceArn
 
       - <<: *update_tags
       - <<: *describe_db_log_files

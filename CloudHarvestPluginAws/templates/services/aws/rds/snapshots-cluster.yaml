@@ -3,6 +3,9 @@ harvest:
   description: Retrieves RDS Cluster snapshots
   unique_identifier_keys: DBClusterSnapshotArn
 
+  singleton_keys:
+    - DBClusterSnapshotIdentifier
+
   indexes:
     - keys: DBClusterIdentifier
     - keys: DBClusterSnapshotIdentifier
@@ -31,7 +34,6 @@ harvest:
       - <<: *describe_cluster_snapshots
         arguments:
           IncludeShared: True
-          IncludePublic: True
-          DBClusterSnapshotIdentifier: var.identifier
+          DBClusterSnapshotIdentifier: var.DBClusterSnapshotIdentifier
 
       - <<: *format_tags

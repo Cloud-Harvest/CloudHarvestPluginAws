@@ -76,7 +76,8 @@ harvest:
     single:
       - <<: *get_subscription_attributes
         arguments:
-          SubscriptionArn: var.identifier
+          SubscriptionArn: var.SubscriptionArn
+        iterate:  # Remove the iteration to get the attributes for the single subscription
 
 #      - <<: *get_subscription_tags
       - <<: *wait_for_async_tasks

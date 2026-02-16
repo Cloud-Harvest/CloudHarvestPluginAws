@@ -9,6 +9,9 @@ harvest:
     - Harvest.Account
     - VolumeId
 
+  singleton_keys:
+    - VolumeId
+
   indexes:
     - keys: VolumeId
     - keys: VolumeType
@@ -36,7 +39,7 @@ harvest:
     single:
       - <<: *describe_db_volumes
         arguments:
-          GroupIds:
-            - var.identifier
+          VolumeIds:
+            - var.VolumeId
 
       - <<: *update_tags

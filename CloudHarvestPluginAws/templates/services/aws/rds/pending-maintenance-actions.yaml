@@ -9,6 +9,9 @@ harvest:
     - Harvest.Region
     - ResourceIdentifier
 
+  singleton_keys:
+    - ResourceIdentifier
+
   indexes:
     - keys: ResourceIdentifier
 
@@ -22,4 +25,4 @@ harvest:
     single:
       - <<: *describe_db_clusters
         arguments:
-          ResourceIdentifier: var.identifier
+          ResourceIdentifier: var.ResourceIdentifier

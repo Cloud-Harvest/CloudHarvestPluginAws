@@ -64,7 +64,7 @@ harvest:
           Filters:
             Name: endpoint-arn
             Values:
-              - var.identifier
+              - var.EndpointArn
 
       - <<: *get_tags
       - <<: *format_tags

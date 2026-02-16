@@ -9,6 +9,9 @@ harvest:
     - Harvest.Region
     - InstanceId
 
+  singleton_keys:
+    - InstanceId
+
   indexes:
     - keys: InstanceId
     - keys: InstanceType
@@ -42,6 +45,6 @@ harvest:
       - <<: *describe_db_instances
         arguments:
           InstanceIds:
-            - var.identifier
+            - var.InstanceId
 
       - <<: *format_records

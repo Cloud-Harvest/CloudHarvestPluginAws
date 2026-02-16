@@ -10,6 +10,10 @@ harvest:
     - Engine
     - EngineVersion
 
+  singleton_keys:
+    - Engine
+    - EngineVersion
+
   indexes:
     - keys: DBParameterGroupFamily
     - keys:
@@ -37,3 +41,12 @@ harvest:
             - convert_list_of_dict_to_dict:
                 source_key: TagList
                 target_key: Tags
+
+    single:
+      - <<: *describe_db_engine_versions
+        arguments:
+          Engine: var.Engine
+          EngineVersion: var.EngineVersion
+          IncludeAll: True
+
+      - <<: *update_tags

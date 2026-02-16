@@ -3,6 +3,9 @@ harvest:
   description: Retrieves AWS Lambda function metadata.
   unique_identifier_keys: Configuration.FunctionArn
 
+  singleton_keys:
+    - Configuration.FunctionName
+
   indexes:
     - keys: Configuration.FunctionName
     - keys: Configuration.Runtime
@@ -48,7 +51,7 @@ harvest:
       - aws:
           command: get_function
           arguments:
-            FunctionName: var.identifier
+            FunctionName: var.Configuration.FunctionName
           result_path:
             - Configuration
             - Code

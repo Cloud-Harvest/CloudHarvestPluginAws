@@ -3,6 +3,9 @@ harvest:
   description: Retrieve information about RDS Global Databases
   unique_identifier_keys: GlobalClusterArn
 
+  singleton_keys:
+    - GlobalClusterIdentifier
+
   indexes:
     - keys: GlobalClusterIdentifier
     - keys:
@@ -35,6 +38,6 @@ harvest:
     single:
       - <<: *describe_global_clusters
         arguments:
-          GlobalClusterArn: var.identifier
+          GlobalClusterIdentifier: var.GlobalClusterIdentifier
 
       - <<: *update_tags

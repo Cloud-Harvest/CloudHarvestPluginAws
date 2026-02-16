@@ -3,6 +3,9 @@ harvest:
   description: Retrieve information about DynamoDb Tables
   unique_identifier_keys: TableArn
 
+  singleton_keys:
+    - TableName
+
   indexes:
     - keys: TableId
 
@@ -69,7 +72,7 @@ harvest:
           description: Retrieves detailed information about DynamoDb Tables
           command: describe_key
           arguments:
-            TableName: var.identifier
+            TableName: var.TableName
           result_as: dynamodb_tables
 
       - <<: *get_tags

@@ -3,6 +3,9 @@ harvest:
   description: Retrieve information about SQS queues
   unique_identifier_keys: QueueArn
 
+  singleton_keys:
+    - QueueUrl
+
   indexes:
     - keys: QueueUrl
 
@@ -72,7 +75,7 @@ harvest:
     single:
       - <<: *get_queue_attributes
         arguments:
-          QueueUrl: var.identifier
+          QueueUrl: var.QueueUrl
 
       - <<: *get_queue_tags
       - <<: *wait_for_async_tasks

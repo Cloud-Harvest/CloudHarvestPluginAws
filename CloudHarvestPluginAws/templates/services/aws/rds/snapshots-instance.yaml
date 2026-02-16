@@ -3,6 +3,9 @@ harvest:
   description: Retrieves RDS Instance Snapshots
   unique_identifier_keys: DBSnapshotArn
 
+  singleton_keys:
+    - DBSnapshotIdentifier
+
   indexes:
     - keys: DBSnapshotIdentifier
     - keys: DBInstanceIdentifier
@@ -31,7 +34,6 @@ harvest:
       - <<: *describe_instance_snapshots
         arguments:
           IncludeShared: True
-          IncludePublic: True
-          DBSnapshotIdentifier: var.identifier
+          DBSnapshotIdentifier: var.DBSnapshotIdentifier
 
       - <<: *format_tags

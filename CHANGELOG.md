@@ -3,6 +3,8 @@
 ## 0.6.0
 - Updated to conform with CloudHarvestCoreTasks 0.9.0
 - Fixed some reports
+- Added `singleton_keys` to service templates which use keys other than the `UniqueIdentifier`
+- Updated `single` service template values to the values defined in `singleton_keys` or the `UniqueIdentifier`
 
 ## 0.5.3
 - AwsTask will now retry on `TooManyRequestsException`

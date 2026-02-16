@@ -9,6 +9,9 @@ harvest:
     - Harvest.Region
     - SnapshotId
 
+  singleton_keys:
+    - SnapshotId
+
   indexes:
     - keys: SnapshotId
     - keys: VolumeId
@@ -35,7 +38,7 @@ harvest:
     single:
       - <<: *describe_db_snapshots
         arguments:
-          GroupIds:
-            - var.identifier
+          SnapshotIds:
+            - var.SnapshotId
 
       - <<: *update_tags

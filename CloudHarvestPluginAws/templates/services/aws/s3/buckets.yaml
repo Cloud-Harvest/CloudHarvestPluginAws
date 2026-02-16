@@ -9,6 +9,9 @@ harvest:
     - Harvest.AccountId
     - Name
 
+  singleton_keys:
+    - Name
+
   indexes:
     - keys: Name
 
@@ -18,3 +21,12 @@ harvest:
           name: List S3 Buckets
           command: list_buckets
           global_service: true
+
+    # S3 only provides the 'prefix' filter for listing objects. Therefore, a singleton call may return multiple buckets
+    # if the prefix is not unique.
+
+    single:
+        - <<: *list_s3_buckets
+          command: get_bucket_location
+          arguments:
+            Prefix: var.Name

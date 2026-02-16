@@ -3,6 +3,10 @@ harvest:
   description: Retrieve information about AWS service quotas
   unique_identifier_keys: QuotaArn
 
+  singleton_keys:
+    - ServiceCode
+    - QuotaCode
+
   indexes:
     - keys: ServiceName
     - keys: QuotaName
@@ -32,5 +36,6 @@ harvest:
           name: Get Service Quotas
           command: list_service_quotas
           arguments:
-            ServiceCode: var.identifier
+            ServiceCode: var.ServiceCode
+            QuotaCode: var.QuotaCode
             QuotaAppliedAtLevel: ALL

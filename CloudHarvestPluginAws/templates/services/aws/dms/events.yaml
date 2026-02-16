@@ -11,17 +11,37 @@ harvest:
     - SourceIdentifier
     - SourceType
 
+  single_identifier_keys:
+    - SourceIdentifier
+
   indexes:
     - keys: SourceIdentifier
 
   tasks:
     all:
+      - set: &set_end_time_range
+          name: Set the EndTime
+          identifier: now_datetime
+          value: '{{ datetime_now().isoformat() }}'
+          cast: datetime
+
+      - set: &set_start_time_range
+          name: Set the StartTime
+          identifier: past_datetime
+          value: '{{ datetime_ago(days=13, hours=23, minutes=50).isoformat() }}'
+          cast: datetime
+
       - aws: &describe_db_clusters
           name: Retrieve DMS Events
           command: describe_events
 
     # tasks to collect a single cluster
     single:
+      - <<: *set_end_time_range
+      - <<: *set_start_time_range
       - <<: *describe_db_clusters
         arguments:
-          SourceIdentifier: var.identifier
+          SourceIdentifier: var.SourceIdentifier
+          SourceType: var.SourceType
+          StartTime: var.past_datetime
+          EndTime: var.now_datetime

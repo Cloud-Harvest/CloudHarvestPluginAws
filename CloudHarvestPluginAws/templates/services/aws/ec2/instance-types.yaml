@@ -9,13 +9,22 @@ harvest:
     - Harvest.Region
     - InstanceType
 
+  singleton_keys:
+    - InstanceType
+
   indexes:
     - keys: InstanceType
 
   tasks:
     all:
-      - aws:
+      - aws:  &ec2_describe_instance_types
           name: Retrieve EC2 Instance Types
           description: Retrieve all EC2 instance-types
           command: describe_instance_types
           result_as: instance-types
+
+    single:
+      - <<: *ec2_describe_instance_types
+        arguments:
+          InstanceTypes:
+            - var.InstanceType
