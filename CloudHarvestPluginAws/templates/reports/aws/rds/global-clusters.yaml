@@ -29,7 +29,7 @@ report:
 
             - "$match":
                 GlobalClusterMembers.IsWriter:
-                  "$in": [ null, True]
+                  "$in": [ null, True ]
 
             - "$lookup":
                 from: aws.rds.clusters
