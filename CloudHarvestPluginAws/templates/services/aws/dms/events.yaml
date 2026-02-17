@@ -11,7 +11,7 @@ harvest:
     - SourceIdentifier
     - SourceType
 
-  single_identifier_keys:
+  singleton_keys:
     - SourceIdentifier
 
   indexes:

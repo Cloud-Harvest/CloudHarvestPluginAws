@@ -74,7 +74,12 @@ harvest:
       - <<: *get_topic_attributes
         arguments:
           TopicArn: var.TopicArn
+        iterate:    # In single mode, the attributes task is executed for a single topic, so no need to iterate over a list of topics.
 
       - <<: *get_topic_tags
+        arguments:
+          ResourceArn: var.TopicArn
+        iterate:    # In single mode, the tags task is executed for a single topic, so no need to iterate over a list of topics.
+
       - <<: *wait_for_async_tasks
       - <<: *merge_topics_with_tags

@@ -80,5 +80,5 @@ harvest:
         iterate:  # Remove the iteration to get the attributes for the single subscription
 
 #      - <<: *get_subscription_tags
-      - <<: *wait_for_async_tasks
-      - <<: *merge_data
+#      - <<: *wait_for_async_tasks
+#      - <<: *merge_data

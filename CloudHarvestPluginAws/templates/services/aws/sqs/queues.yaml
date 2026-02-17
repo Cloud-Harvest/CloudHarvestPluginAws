@@ -78,5 +78,9 @@ harvest:
           QueueUrl: var.QueueUrl
 
       - <<: *get_queue_tags
+        arguments:
+          QueueUrl: item.QueueUrl
+        iterate:  # Removes the iteration for the single task, but keeps the same command and result processing
+
       - <<: *wait_for_async_tasks
       - <<: *merge_tags

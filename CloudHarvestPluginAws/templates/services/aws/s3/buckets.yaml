@@ -27,6 +27,6 @@ harvest:
 
     single:
         - <<: *list_s3_buckets
-          command: get_bucket_location
+          command: list_buckets
           arguments:
             Prefix: var.Name
