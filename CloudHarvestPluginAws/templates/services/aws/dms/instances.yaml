@@ -64,7 +64,7 @@ harvest:
           Filters:
             Name: replication-instance-arn
             Values:
-              - var.identifier
+              - var.ReplicationInstanceArn
 
       - <<: *get_tags
       - <<: *format_tags

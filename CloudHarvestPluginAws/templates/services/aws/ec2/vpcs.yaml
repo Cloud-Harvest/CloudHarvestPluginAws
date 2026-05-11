@@ -9,6 +9,9 @@ harvest:
     - Harvest.Account
     - VpcId
 
+  singleton_keys:
+    - VpcId
+
   indexes:
     - keys: VpcId
     - keys: CidrBlock
@@ -36,7 +39,7 @@ harvest:
     single:
       - <<: *describe_db_vpcs
         arguments:
-          GroupIds:
-            - var.identifier
+          VpcIds:
+            - var.VpcId
 
       - <<: *update_tags

@@ -3,6 +3,9 @@ harvest:
   description: Retrieve information about RDS instance parameters
   unique_identifier_keys: DBParameterGroupArn
 
+  singleton_keys:
+    - DBParameterGroupName
+
   indexes:
     - keys: DBParameterGroupName
     - keys: DBParameterGroupFamily
@@ -45,7 +48,7 @@ harvest:
     single:
         - <<: *describe_db_parameters
           arguments:
-            DBParameterGroupName: var.identifier
+            DBParameterGroupName: var.DBParameterGroupName
 
         - <<: *get_parameters
         - <<: *merge_parameters_into_parameter_groups

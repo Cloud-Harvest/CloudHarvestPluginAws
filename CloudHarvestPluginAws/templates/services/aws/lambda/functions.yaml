@@ -1,0 +1,67 @@
+harvest:
+  name: services.aws.lambda.functions
+  description: Retrieves AWS Lambda function metadata.
+  unique_identifier_keys: Configuration.FunctionArn
+
+  singleton_keys:
+    - Configuration.FunctionName
+
+  indexes:
+    - keys: Configuration.FunctionName
+    - keys: Configuration.Runtime
+
+  tasks:
+    all:
+      - aws:
+          name: Retrieve Lambda functions
+          description: Retrieve all AWS Lambda functions
+          command: list_functions
+          include_metadata: false
+          result_as: functions
+
+      - dataset:
+          name: Convert to dataset
+          data: var.functions
+          stages: []
+          result_as: functions
+
+      - aws: &get_function
+          name: Get Function
+          description: Retrieve details for a specific Lambda function
+          command: get_function
+          arguments:
+              FunctionName: item.FunctionArn
+          blocking: false
+          iterate: var.functions
+          result_path:
+            - Configuration
+            - Code
+            - Tags
+            - TagsError
+            - Concurrency
+          result_as:
+              name: result
+              mode: append
+
+      - wait:
+          name: Wait for all log downloads to complete
+          when_all_previous_async_tasks_complete: true
+
+    single:
+      - aws:
+          command: get_function
+          arguments:
+            FunctionName: var.Configuration.FunctionName
+          result_path:
+            - Configuration
+            - Code
+            - Tags
+            - TagsError
+            - Concurrency
+          result_as: function
+
+      - dataset:
+          name: Convert to Dataset
+          data: var.function
+          stages: []
+          result_as: result

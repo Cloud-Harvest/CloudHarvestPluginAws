@@ -37,9 +37,11 @@ report:
                 foreignField: "DBClusterArn"
                 as: "DBCluster"
 
-            - "$set":
+            - "$addFields":
                 DBCluster:
-                  $arrayElemAt: [ "$DBCluster", 0 ]
+                  "$arrayElemAt":
+                    - "$DBCluster"
+                    - 0
 
             - "$project":
                 Active: "$Harvest.Active"

@@ -3,6 +3,9 @@ harvest:
   description: Retrieve information about KMS Keys
   unique_identifier_keys: Arn
 
+  singleton_keys:
+    - KeyId
+
   indexes:
     - keys: KeyId
     - keys: Enabled
@@ -80,16 +83,16 @@ harvest:
           description: Retrieves detailed information about KMS keys
           command: describe_key
           arguments:
-            KeyId: var.identifier
+            KeyId: var.KeyId
           result_as: kms_keys
 
       - <<: *get_aliases
         arguments:
-          KeyId: var.identifier
+          KeyId: var.KeyId
 
       - <<: *get_tags
         arguments:
-          KeyId: var.identifier
+          KeyId: var.KeyId
         iterate: # nullify the iterate directive defined in the "all" task
 
       - <<: *format_tags

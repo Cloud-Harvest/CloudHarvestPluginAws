@@ -3,6 +3,9 @@ harvest:
   description: Retrieve information about EC2 subnets
   unique_identifier_keys: SubnetArn
 
+  singleton_keys:
+    - SubnetId
+
   indexes:
     - keys: SubnetId
     - keys: VpcId
@@ -29,7 +32,7 @@ harvest:
     single:
       - <<: *describe_db_subnets
         arguments:
-          GroupIds:
-            - var.identifier
+          SubnetIds:
+            - var.SubnetId
 
       - <<: *update_tags

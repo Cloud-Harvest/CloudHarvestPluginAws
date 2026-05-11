@@ -68,7 +68,7 @@ harvest:
           Filters:
             Name: replication-task-arn
             Values:
-              - var.identifier
+              - var.ReplicationTaskArn
 
       - <<: *get_tags
       - <<: *format_tags

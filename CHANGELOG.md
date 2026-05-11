@@ -1,9 +1,19 @@
 # CHANGELOG
 
+## 0.6.0
+- Updated to conform with CloudHarvestCoreTasks 0.9.0
+- Fixed some reports
+- Added `singleton_keys` to service templates which use keys other than the `UniqueIdentifier`
+- Updated `single` service template values to the values defined in `singleton_keys` or the `UniqueIdentifier`
+
 ## 0.5.3
+- AwsTask will now retry on `TooManyRequestsException`
 - Removed `meta.json` in favor of using `pyproject.toml`
-- Fixed some reports that were not working correctly
-- Updated to conform with CloudHarvestCoreTasks 0.8.2
+- Added AWS Services:
+  - `support`
+  - `lambda`
+  - `sns`
+  - `sqs`
 
 ## 0.5.2
 - Updated to conform with CloudHarvestCoreTasks 0.8.0

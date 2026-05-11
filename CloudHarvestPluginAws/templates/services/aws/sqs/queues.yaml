@@ -1,0 +1,86 @@
+harvest:
+  name: aws.sqs.queues
+  description: Retrieve information about SQS queues
+  unique_identifier_keys: QueueArn
+
+  singleton_keys:
+    - QueueUrl
+
+  indexes:
+    - keys: QueueUrl
+
+  tasks:
+    all:
+      - aws:
+          name: List SQS Queues
+          command: list_queues
+          result_to_list_with_key: QueueUrl
+          result_as: queue_urls
+
+      - aws:  &get_queue_attributes
+          name: Get SQS Queue Attributes
+          description: Retrieve attributes for each SQS queue. This will become the actual record we store.
+          command: get_queue_attributes
+          arguments:
+            QueueUrl: item.QueueUrl
+            AttributeNames:
+              - All
+          blocking: false
+          iterate: var.queue_urls
+          include_metadata: false
+          result_as:
+            name: queues
+            mode: append
+            include:
+              QueueUrl: item.QueueUrl
+
+      - aws:  &get_queue_tags
+          name: Get tags
+          command: list_queue_tags
+          arguments:
+            QueueUrl: item.QueueUrl
+          blocking: false
+          include_metadata: false
+          iterate: var.queue_urls
+          result_to_dict_key: Tags
+          result_as:
+            name: tags
+            mode: append
+            include:
+              QueueUrl: item.QueueUrl
+
+      # Awaits collection of attributes and tags
+      - wait: &wait_for_async_tasks
+          name: Wait for all log downloads to complete
+          when_all_previous_async_tasks_complete: true
+
+      - dataset: &merge_tags
+            name: Merge attributes and tags
+            data: var.queue_urls
+            result_as: result
+            stages:
+                - join:
+                    data: var.queues
+                    left_keys:
+                      - QueueUrl
+                    right_keys:
+                      - QueueUrl
+                - join:
+                    data: var.tags
+                    left_keys:
+                      - QueueArn
+                    right_keys:
+                      - QueueArn
+
+    single:
+      - <<: *get_queue_attributes
+        arguments:
+          QueueUrl: var.QueueUrl
+
+      - <<: *get_queue_tags
+        arguments:
+          QueueUrl: item.QueueUrl
+        iterate:  # Removes the iteration for the single task, but keeps the same command and result processing
+
+      - <<: *wait_for_async_tasks
+      - <<: *merge_tags

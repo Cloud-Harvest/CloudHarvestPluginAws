@@ -3,6 +3,9 @@ harvest:
   description: Retrieve information about RDS Proxies
   unique_identifier_keys: DBProxyArn
 
+  singleton_keys:
+    - DBProxyName
+
   indexes:
     - keys: DBProxyName
     - keys: EngineFamily
@@ -21,4 +24,4 @@ harvest:
     single:
       - <<: *describe_db_proxies
         arguments:
-          DBProxyName: var.identifier
+          DBProxyName: var.DBProxyName

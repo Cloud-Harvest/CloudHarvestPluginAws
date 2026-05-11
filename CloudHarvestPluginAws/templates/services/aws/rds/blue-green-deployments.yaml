@@ -9,6 +9,9 @@ harvest:
     - Harvest.Region
     - BlueGreenDeploymentIdentifier
 
+  singleton_keys:
+    - BlueGreenDeploymentIdentifier
+
   indexes:
     - keys: BlueGreenDeploymentIdentifier
     - keys: Source
@@ -38,6 +41,6 @@ harvest:
       single:
       - <<: *describe_blue_green_deployments
         arguments:
-          DBClusterArn: var.identifier
+          BlueGreenDeploymentIdentifier: var.BlueGreenDeploymentIdentifier
 
       - <<: *update_tags

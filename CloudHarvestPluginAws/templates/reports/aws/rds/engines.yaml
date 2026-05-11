@@ -34,20 +34,26 @@ report:
                   account: "$Harvest.Account"
                   region: "$Harvest.Region"
                   engine: "$Engine"
-                  engineVersion: "$EngineVersion"
+                  majorEngineVersion: "$MajorEngineVersion"
                 pipeline:
-                  - $unwind:
-                      path: "$SupportedEngineLifecycles.LifecycleSupportName"
-                      preserveNullAndEmptyArrays: true
-
                   - $match:
                       $expr:
                         $and:
                           - { $eq: ["$Harvest.Account", "$$account"] }
                           - { $eq: ["$Harvest.Region", "$$region"] }
                           - { $eq: ["$Engine", "$$engine"] }
-                          - { $eq: ["$MajorEngineVersion", "$$engineVersion"] }
-                          - { $eq: ["$SupportedEngineLifecycles.LifecycleSupportName", "open-source-extended-support"] }
+                          - { $eq: ["$MajorEngineVersion", "$$majorEngineVersion"] }
+
+                  - $unwind:
+                      path: "$SupportedEngineLifecycles"
+                      preserveNullAndEmptyArrays: false
+
+                  - $match:
+                      SupportedEngineLifecycles.LifecycleSupportName: "open-source-rds-extended-support"
+
+                  - $project:
+                      ExtendedStart: "$SupportedEngineLifecycles.LifecycleSupportStartDate"
+                      ExtendedEnd: "$SupportedEngineLifecycles.LifecycleSupportEndDate"
 
                 as: "MajorEngineVersionDetails"
 
@@ -76,8 +82,8 @@ report:
                 ExtendedStart:
                   $dateToString:
                     format: "%Y-%m-%d"
-                    date: "$MajorEngineVersionDetails.SupportedEngineLifecycles.LifecycleSupportStartDate"
+                    date: "$MajorEngineVersionDetails.ExtendedStart"
                 ExtendedEnd:
                   $dateToString:
                     format: "%Y-%m-%d"
-                    date: "$MajorEngineVersionDetails.SupportedEngineLifecycles.LifecycleSupportEndDate"
+                    date: "$MajorEngineVersionDetails.ExtendedEnd"

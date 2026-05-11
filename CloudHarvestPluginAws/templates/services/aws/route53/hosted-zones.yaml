@@ -1,10 +1,14 @@
 harvest:
   name: services.aws.route53.hosted-zones
+  global: true
   unique_identifier_keys:
     - Harvest.Platform
     - Harvest.Service
     - Harvest.Type
     - Harvest.AccountId
+    - Id
+
+  singleton_keys:
     - Id
 
   indexes:
@@ -53,7 +57,7 @@ harvest:
       - <<: *list_hosted_zones
         command: get_hosted_zone
         arguments:
-          Id: var.identifier
+          Id: var.Id
 
       - <<: *list_resource_record_sets
 

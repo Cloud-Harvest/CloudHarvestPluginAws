@@ -3,6 +3,9 @@ harvest:
   description: Retrieve information about EC2 security_groups
   unique_identifier_keys: SecurityGroupArn
 
+  singleton_keys:
+    - GroupId
+
   indexes:
     - keys: GroupId
     - keys: GroupName
@@ -31,6 +34,6 @@ harvest:
       - <<: *describe_db_security_groups
         arguments:
           GroupIds:
-            - var.identifier
+            - var.GroupId
 
       - <<: *update_tags
