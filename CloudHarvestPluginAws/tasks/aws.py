@@ -14,6 +14,7 @@ class AwsTask(BaseTask):
                  type: str = None,
                  account: str = None,
                  role: str = None,
+                 profile: str = None,
                  region: str = None,
                  include_metadata: bool = True,
                  global_service: bool = False,
@@ -31,6 +32,7 @@ class AwsTask(BaseTask):
             type (str, optional): The type of the AWS service (e.g., 's3', 'ec2'). If not specified, the default is pulled from the task chain variables.
             account (str, optional): The AWS number to use for the session. If not specified, the default is pulled from the task chain variables.
             role (str, optional): The AWS role to use for the session. If not specified, the default is pulled from the environment variables.
+            profile (str, optional): The AWS profile to use for the session. If not specified, the default is pulled from the environment variables.
             region (str, optional): The AWS region to use for the session. None is supported as not all AWS services require a region. If not specified, the default is pulled from the task chain variables.
             include_metadata (bool, optional): When True, some 'Harvest' metadata fields are added to the result. Defaults to True.
             global_service (bool, optional): If True, the service is considered a global service (e.g., IAM). Negates the 'region' input. Defaults to False.
@@ -50,6 +52,7 @@ class AwsTask(BaseTask):
         # boto3 session and client inputs
         from CloudHarvestCoreTasks.environment import Environment
         self.role = role or Environment.get(name=f'platforms.aws.accounts.{self.account}.role') or Environment.get('platforms.aws.default_role')
+        self.profile = profile or Environment.get(name=f'platforms.aws.accounts.{self.account}.profile') or Environment.get('platforms.aws.default_profile')
         self.command = command
         self.arguments = arguments or {}
         self.max_retries = max_retries
@@ -75,7 +78,7 @@ class AwsTask(BaseTask):
             self: Returns the instance of the AwsTask.
         """
         from CloudHarvestPluginAws.credentials import Profile, get_profile
-        profile: Profile = get_profile(account_number=self.account, role_name=self.role)
+        profile: Profile = get_profile(account_number=self.account, role_name=self.role, profile_name=self.profile)
 
         if not profile:
             raise Exception(f'No profile found for account {self.account} and role {self.role}')

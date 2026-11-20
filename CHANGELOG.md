@@ -5,6 +5,7 @@
 - Fixed some reports
 - Added `singleton_keys` to service templates which use keys other than the `UniqueIdentifier`
 - Updated `single` service template values to the values defined in `singleton_keys` or the `UniqueIdentifier`
+- Added support to pass an explicit AWS profile for an account
 
 ## 0.5.3
 - AwsTask will now retry on `TooManyRequestsException`

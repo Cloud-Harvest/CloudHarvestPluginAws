@@ -144,7 +144,7 @@ class Profile:
         return None
 
 
-def get_profile(account_number: str, role_name: str, force_refresh: bool = False) -> Profile:
+def get_profile(account_number: str, role_name: str, profile_name:str = None, force_refresh: bool = False) -> Profile:
     """
     Creates or retrieves a profile for a given AWS account and role. If the profile already exists and is not expired, it will
     be returned. If it is expired, the credentials will be refreshed. If the profile does not exist, a new one will be created.
@@ -153,6 +153,7 @@ def get_profile(account_number: str, role_name: str, force_refresh: bool = False
     Arguments
     account_number (str): The AWS account number.
     role_name (str): The AWS role name.
+    profile_name (str, optional): The AWS profile name.
     force_refresh (bool): If True, forces a refresh of the credentials even if they are not expired.
     """
 
@@ -172,6 +173,68 @@ def get_profile(account_number: str, role_name: str, force_refresh: bool = False
 
     else:
         from CloudHarvestCoreTasks.environment import Environment
+
+        if Environment.get('platforms.aws.credentials_source') == 'file' and profile_name:
+            logger.debug(f'Will use profile {profile_name} for account {account_number}.')
+
+            import botocore.session
+            session = botocore.session.Session()
+            profiles_config = session.full_config.get("profiles", {})
+
+            if profile_name in profiles_config:
+                profile = Profile(account_number=account_number, role_name=role_name, sourced_from_file=True)
+                profile.aws_access_key_id = profiles_config[profile_name].get("aws_access_key_id")
+                profile.aws_secret_access_key = profiles_config[profile_name].get("aws_secret_access_key")
+                profile.aws_session_token = profiles_config[profile_name].get("aws_session_token")
+                profile.expiration = profiles_config[profile_name].get("expiration")
+
+                # Attempt to get the account alias using this session
+                profile.account_alias = get_account_name(account_number=account_number, credentials=profile.credentials)
+
+                # Identify the role name from the profile credentials
+                if not profile.role_name:
+                    from CloudHarvestPluginAws.tasks.aws import query_aws
+                    identity = query_aws(
+                        service='sts',
+                        command='get_caller_identity',
+                        arguments={},
+                        credentials=profile.credentials,
+                        result_path=(
+                            'UserId',
+                            'Account',
+                            'Arn'
+                        )
+                    )
+                    try:
+                        profile.role_name = str(identity.get('Arn') or '').split('/', maxsplit=1)[1]  # Sometimes a role will include a / after the account number
+
+                    except Exception as exc:
+                        logger.warning(f'Failed to identify role name for profile {profile_name} in account {account_number}: {exc}')
+
+                # Try to identify an expiration for the profile if it was not set.
+                if not profile.expiration:
+                    from CloudHarvestPluginAws.tasks.aws import query_aws
+                    try:
+                        response = query_aws(
+                            service='sts',
+                            command='get_session_token',
+                            arguments={},
+                            credentials=profile.credentials,
+                            result_path=(
+                                'Credentials',
+                                'Expiration'
+                            )
+                        )
+                        profile.expiration = response.get('Expiration')
+
+                    except Exception as exc:
+                        logger.warning(f'Failed to identify expiration for profile {profile_name} in account {account_number}: {exc}')
+
+                CachedProfiles.profiles[account_number] = profile
+
+            else:
+                raise Exception(f'Profile {profile_name} not found in AWS credentials file for account {account_number}.')
+
         if Environment.get('platforms.aws.credentials_source') == 'file' and account_number:
             # Read the credentials file and return the profile
             CachedProfiles.profiles |= read_credentials_file()
