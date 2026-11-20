@@ -235,7 +235,7 @@ def get_profile(account_number: str, role_name: str, profile_name:str = None, fo
             else:
                 raise Exception(f'Profile {profile_name} not found in AWS credentials file for account {account_number}.')
 
-        if Environment.get('platforms.aws.credentials_source') == 'file' and account_number:
+        elif Environment.get('platforms.aws.credentials_source') == 'file' and account_number:
             # Read the credentials file and return the profile
             CachedProfiles.profiles |= read_credentials_file()
             profile = CachedProfiles.profiles.get(account_number)
