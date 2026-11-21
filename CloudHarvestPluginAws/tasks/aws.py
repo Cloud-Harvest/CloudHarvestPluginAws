@@ -84,7 +84,7 @@ class AwsTask(BaseTask):
             raise Exception(f'No profile found for account {self.account} and role {self.role}')
 
         # Set the account_alias attribute
-        self.account_alias = profile.account_alias
+        self.account_alias = profile.get('account_alias')
 
         # Execute the AWS query
         result = query_aws(
@@ -92,7 +92,7 @@ class AwsTask(BaseTask):
             region=self.region,
             command=self.command,
             arguments=self.arguments,
-            credentials=profile.credentials,
+            credentials=profile.get('credentials'),
             max_retries=self.max_retries,
             result_path=self.result_path
         )

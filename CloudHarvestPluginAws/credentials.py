@@ -15,97 +15,7 @@ class CachedProfiles:
     profiles = {}
 
 
-class Profile:
-    def __init__(self, account_number: str, role_name: str, sourced_from_file: bool = False):
-        """
-        Initializes a new Profile instance.
-
-        Arguments
-        account_number (str): The AWS account number.
-        role_name (str): The AWS role name.
-        sourced_from_file (bool, optional): Indicates if the profile was sourced from the credentials file. Defaults to False.
-        """
-
-        self.account_number = str(account_number).zfill(12)
-        self.role_name = role_name
-        self.sourced_from_file = sourced_from_file
-
-        # Temporary session credentials
-        self.aws_access_key_id = None
-        self.aws_secret_access_key = None
-        self.aws_session_token = None
-
-        self.account_alias = None
-        self.expiration = None
-        self.role_arn = None
-
-    @property
-    def is_expired(self):
-        """
-        Check if the profile is expired.
-        """
-        from datetime import datetime, timezone
-        if not self.sourced_from_file and self.expiration:
-            return self.expiration < datetime.now(timezone.utc)
-
-        # Credentials sourced from files are not expected to contain expiration information
-        else:
-            return False
-
-    @property
-    def credentials(self) -> dict:
-        """
-        Returns the credentials for the profile in a format acceptable to the boto3 Session.
-        Returns:
-            dict: A dictionary containing the AWS credentials.
-        """
-
-        return {
-            'aws_access_key_id': self.aws_access_key_id,
-            'aws_secret_access_key': self.aws_secret_access_key,
-            'aws_session_token': self.aws_session_token
-        }
-
-    @property
-    def name(self) -> str:
-        """
-        Returns a profile name in the format of account_alias-role_name.
-        """
-
-        return f'{str(self.account_alias or self.account_number)}-{str(self.role_name)}'
-
-    def refresh_credentials(self) -> 'Profile':
-        """
-        Refreshes the credentials for the profile.
-        """
-        from CloudHarvestPluginAws.tasks.aws import query_aws
-
-        # Assume the role in the specified account
-        response = query_aws(
-            service='sts',
-            command='assume_role',
-            arguments={
-                'RoleArn': f'arn:aws:iam::{self.account_number}:role/{self.role_name}',
-                'RoleSessionName': 'CloudHarvest'
-            },
-            region='us-east-1',
-        )
-
-        # Extract the temporary credentials from the response
-        self.aws_access_key_id = response['AccessKeyId']
-        self.aws_secret_access_key = response['SecretAccessKey']
-        self.aws_session_token = response['SessionToken']
-        self.expiration = response['Expiration']
-        self.role_arn = f'arn:aws:iam::{self.account_number}:role/{self.role_name}'
-
-        if self.account_alias is None:
-            # If the account alias is not set, try to get it
-            self.account_alias = get_account_name(account_number=self.account_number, credentials=self.credentials)
-
-        return self
-
-
-def get_profile(account_number: str, role_name: str, profile_name:str = None, force_refresh: bool = False) -> Profile | None:
+def get_profile(account_number: str, role_name: str, profile_name:str = None) -> dict:
     """
     Creates or retrieves a profile for a given AWS account and role. If the profile already exists and is not expired, it will
     be returned. If it is expired, the credentials will be refreshed. If the profile does not exist, a new one will be created.
@@ -115,12 +25,14 @@ def get_profile(account_number: str, role_name: str, profile_name:str = None, fo
     account_number (str): The AWS account number.
     role_name (str): The AWS role name.
     profile_name (str, optional): The AWS profile name.
-    force_refresh (bool): If True, forces a refresh of the credentials even if they are not expired.
     """
     from CloudHarvestCoreTasks.environment import Environment
-
     # Make sure incoming account numbers are properly formatted
     account_number = str(account_number).zfill(12)
+    profile = {
+        'account_number': account_number,
+        'role_name': role_name,
+    }
 
     # Determine the credentials file path from the environment or use the default
     from os.path import expanduser, abspath
@@ -135,10 +47,6 @@ def get_profile(account_number: str, role_name: str, profile_name:str = None, fo
     # The profile already exists in the cache, so return it
     if account_number in CachedProfiles.profiles.keys():
         profile = CachedProfiles.profiles[account_number]
-
-        if profile.is_expired or force_refresh:
-            profile.refresh_credentials()
-
         return profile
 
     else:
@@ -146,42 +54,41 @@ def get_profile(account_number: str, role_name: str, profile_name:str = None, fo
 
         # Handle cases where we're sourcing from a file
         if credentials_source == 'file' and profile_name:
+            profile['sourced_from_file'] = True
+
             logger.debug(f'Retrieving profile `{profile_name}` from {credentials_file_path}.')
             session = Session(profile_name=profile_name)
 
             # Pull the credentials using sts
             credentials = session.get_credentials()
-            profile = Profile(account_number=account_number, role_name=role_name, sourced_from_file=True)
 
         # Here we pull directly from the environment, which is the default behavior
         else:
             logger.debug('Retrieving credentials from the environment.')
             session = Session()
             credentials = session.get_credentials()
-            profile = Profile(account_number=account_number, role_name=role_name, sourced_from_file=False)
+            profile['sourced_from_file'] = False
 
     # If a profile is found we will do some extra steps, cache it, and return it.
     if profile and credentials and session:
-        profile.aws_access_key_id = credentials.access_key
-        profile.aws_secret_access_key = credentials.secret_key
-        profile.aws_session_token = credentials.token
+        profile['credentials'] = {
+            'aws_access_key_id': credentials.access_key,
+            'aws_secret_access_key': credentials.secret_key,
+            'aws_session_token': credentials.token
+        }
 
         # Get the role name sts
-        profile.role_arn = session.client('sts').get_caller_identity().get('Arn')
+        profile['role_arn'] = session.client('sts').get_caller_identity().get('Arn')
 
         # Apply the role name to the profile from the arn
-        profile.role_name = profile.role_arn.split('/')[-1]
+        profile['role_name'] = profile['role_arn'].split('/')[-1]
         # Get the account alias using the credentials we have for this account
-        profile.account_alias = get_account_name(account_number=account_number, credentials=profile.credentials)
+        profile['account_alias'] = get_account_name(account_number=account_number, credentials=profile['credentials'])
 
         # Cache the profile for future use
         CachedProfiles.profiles[account_number] = profile
-        return profile
 
-    else:
-        # If we reach this point, it means we were unable to retrieve credentials either from the environment or from
-        # the credentials file.
-        return None
+    return profile
 
 
 def get_account_name(account_number: str, credentials: dict) -> str | None:
