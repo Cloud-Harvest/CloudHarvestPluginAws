@@ -124,10 +124,11 @@ def get_profile(account_number: str, role_name: str, profile_name:str = None, fo
 
     # Determine the credentials file path from the environment or use the default
     from os.path import expanduser, abspath
-    credentials_file_path = abspath(expanduser(Environment.get(f'platforms.aws.accounts.credentials_file') or '~/.aws/credentials'))
+    credentials_source = Environment.get(f'platforms.aws.credentials_source')
+    credentials_file_path = abspath(expanduser(Environment.get(f'platforms.aws.credentials_file') or '~/.aws/credentials'))
 
     # Credentials are to be read from a source file like ~/.aws/credentials
-    if Environment.get(f'platforms.aws.accounts.credentials_source') == 'file':
+    if credentials_source == 'file':
         from os import environ
         environ['AWS_SHARED_CREDENTIALS_FILE'] = credentials_file_path
 
@@ -144,7 +145,7 @@ def get_profile(account_number: str, role_name: str, profile_name:str = None, fo
         from boto3 import Session
 
         # Handle cases where we're sourcing from a file
-        if Environment.get(f'platforms.aws.accounts.credentials_source') == 'file' and profile_name:
+        if credentials_source == 'file' and profile_name:
             logger.debug(f'Retrieving profile `{profile_name}` from {credentials_file_path}.')
             session = Session(profile_name=profile_name)
 
@@ -163,7 +164,7 @@ def get_profile(account_number: str, role_name: str, profile_name:str = None, fo
     if profile and credentials and session:
         profile.aws_access_key_id = credentials.access_key
         profile.aws_secret_access_key = credentials.secret_key
-        profile.aws_session_token = credentials.session_token
+        profile.aws_session_token = credentials.token
 
         # Get the role name sts
         profile.role_arn = session.client('sts').get_caller_identity().get('Arn')
