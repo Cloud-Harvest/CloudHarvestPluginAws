@@ -105,7 +105,7 @@ class Profile:
         return self
 
 
-def get_profile(account_number: str, role_name: str, profile_name:str = None, force_refresh: bool = False) -> Profile:
+def get_profile(account_number: str, role_name: str, profile_name:str = None, force_refresh: bool = False) -> Profile | None:
     """
     Creates or retrieves a profile for a given AWS account and role. If the profile already exists and is not expired, it will
     be returned. If it is expired, the credentials will be refreshed. If the profile does not exist, a new one will be created.
@@ -122,21 +122,20 @@ def get_profile(account_number: str, role_name: str, profile_name:str = None, fo
     # Make sure incoming account numbers are properly formatted
     account_number = str(account_number).zfill(12)
 
-    # Log the final result
-    profile: Profile = None
-    credentials = None
-    session = None
+    # Determine the credentials file path from the environment or use the default
+    from os.path import expanduser, abspath
+    credentials_file_path = abspath(expanduser(Environment.get(f'platforms.aws.accounts.credentials_file') or '~/.aws/credentials'))
 
     # Credentials are to be read from a source file like ~/.aws/credentials
     if Environment.get(f'platforms.aws.accounts.credentials_source') == 'file':
         from os import environ
-        environ['AWS_SHARED_CREDENTIALS_FILE'] = Environment.get(f'platforms.aws.accounts.credentials_file') or '~/.aws/credentials'
+        environ['AWS_SHARED_CREDENTIALS_FILE'] = credentials_file_path
 
     # The profile already exists in the cache, so return it
     if account_number in CachedProfiles.profiles.keys():
         profile = CachedProfiles.profiles[account_number]
 
-        if profile.is_expired:
+        if profile.is_expired or force_refresh:
             profile.refresh_credentials()
 
         return profile
@@ -146,6 +145,7 @@ def get_profile(account_number: str, role_name: str, profile_name:str = None, fo
 
         # Handle cases where we're sourcing from a file
         if Environment.get(f'platforms.aws.accounts.credentials_source') == 'file' and profile_name:
+            logger.debug(f'Retrieving profile `{profile_name}` from {credentials_file_path}.')
             session = Session(profile_name=profile_name)
 
             # Pull the credentials using sts
@@ -154,6 +154,7 @@ def get_profile(account_number: str, role_name: str, profile_name:str = None, fo
 
         # Here we pull directly from the environment, which is the default behavior
         else:
+            logger.debug('Retrieving credentials from the environment.')
             session = Session()
             credentials = session.get_credentials()
             profile = Profile(account_number=account_number, role_name=role_name, sourced_from_file=False)
@@ -174,11 +175,15 @@ def get_profile(account_number: str, role_name: str, profile_name:str = None, fo
 
         # Cache the profile for future use
         CachedProfiles.profiles[account_number] = profile
+        return profile
 
-    return profile
+    else:
+        # If we reach this point, it means we were unable to retrieve credentials either from the environment or from
+        # the credentials file.
+        return None
 
 
-def get_account_name(account_number: str, credentials: dict) -> str or None:
+def get_account_name(account_number: str, credentials: dict) -> str | None:
     """
     Looks up the account alias for a given account number. Assumes the account is part of an organization. If it is not,
     or an error is encountered, the provided account number will be returned.

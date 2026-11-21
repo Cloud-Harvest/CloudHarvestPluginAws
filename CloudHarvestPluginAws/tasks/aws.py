@@ -77,8 +77,8 @@ class AwsTask(BaseTask):
         Returns:
             self: Returns the instance of the AwsTask.
         """
-        from CloudHarvestPluginAws.credentials import Profile, get_profile
-        profile: Profile = get_profile(account_number=self.account, role_name=self.role, profile_name=self.profile)
+        from CloudHarvestPluginAws.credentials import get_profile
+        profile = get_profile(account_number=self.account, role_name=self.role, profile_name=self.profile)
 
         if not profile:
             raise Exception(f'No profile found for account {self.account} and role {self.role}')
