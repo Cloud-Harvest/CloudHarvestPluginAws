@@ -45,7 +45,7 @@ class Profile:
         Check if the profile is expired.
         """
         from datetime import datetime, timezone
-        if not self.sourced_from_file:
+        if not self.sourced_from_file and self.expiration:
             return self.expiration < datetime.now(timezone.utc)
 
         # Credentials sourced from files are not expected to contain expiration information
@@ -104,45 +104,6 @@ class Profile:
 
         return self
 
-    def write_to_credentials_file(self, path: str = None):
-        """
-        Writes the profile to the AWS credentials file.
-        """
-
-        from os.path import abspath, exists, expanduser
-        from configparser import ConfigParser
-
-        path = abspath(expanduser(path or '~/.aws/credentials'))
-
-        if not exists(path):
-            # Create the credentials file and directory if it does not exist
-            from pathlib import Path
-            Path(path).parent.mkdir(parents=True, exist_ok=True)
-
-            # Touch the file
-            Path(path).touch()
-
-        # Read the existing file into a dictionary
-        config = ConfigParser()
-        config.read(path)
-
-        # Check if the profile already exists
-        if not config.has_section(self.name):
-            # Create a new section for the profile
-            config.add_section(self.name)
-
-        # Write the credentials to the file
-        for key, value in self.credentials.items():
-            config.set(self.name, key, value)
-
-        # Write the file back to disk
-        with open(path, 'w') as configfile:
-            config.write(configfile)
-
-        logger.debug(f'wrote {self.name} to {path}')
-
-        return None
-
 
 def get_profile(account_number: str, role_name: str, profile_name:str = None, force_refresh: bool = False) -> Profile:
     """
@@ -156,188 +117,65 @@ def get_profile(account_number: str, role_name: str, profile_name:str = None, fo
     profile_name (str, optional): The AWS profile name.
     force_refresh (bool): If True, forces a refresh of the credentials even if they are not expired.
     """
+    from CloudHarvestCoreTasks.environment import Environment
 
     # Make sure incoming account numbers are properly formatted
     account_number = str(account_number).zfill(12)
 
-    # Check if the profile already exists
-    if account_number in CachedProfiles.profiles:
-        logger.debug(f'Found profile for {account_number} in cache')
+    # Log the final result
+    profile: Profile = None
+    credentials = None
+    session = None
 
+    # Credentials are to be read from a source file like ~/.aws/credentials
+    if Environment.get(f'platforms.aws.accounts.credentials_source') == 'file':
+        from os import environ
+        environ['AWS_SHARED_CREDENTIALS_FILE'] = Environment.get(f'platforms.aws.accounts.credentials_file') or '~/.aws/credentials'
+
+    # The profile already exists in the cache, so return it
+    if account_number in CachedProfiles.profiles.keys():
         profile = CachedProfiles.profiles[account_number]
 
-        if isinstance(profile, Profile):
-            # If the profile is expired, refresh the credentials, unless it was sourced from a file
-            if not profile.sourced_from_file and (profile.is_expired or force_refresh):
-                profile.refresh_credentials()
+        if profile.is_expired:
+            profile.refresh_credentials()
+
+        return profile
 
     else:
-        from CloudHarvestCoreTasks.environment import Environment
+        from boto3 import Session
 
-        if Environment.get('platforms.aws.credentials_source') == 'file' and profile_name:
-            logger.debug(f'Will use profile {profile_name} for account {account_number}.')
+        # Handle cases where we're sourcing from a file
+        if Environment.get(f'platforms.aws.accounts.credentials_source') == 'file' and profile_name:
+            session = Session(profile_name=profile_name)
 
-            import botocore.session
-            session = botocore.session.Session()
-            profiles_config = session.full_config.get("profiles", {})
+            # Pull the credentials using sts
+            credentials = session.get_credentials()
+            profile = Profile(account_number=account_number, role_name=role_name, sourced_from_file=True)
 
-            if profile_name in profiles_config:
-                profile = Profile(account_number=account_number, role_name=role_name, sourced_from_file=True)
-                profile.aws_access_key_id = profiles_config[profile_name].get("aws_access_key_id")
-                profile.aws_secret_access_key = profiles_config[profile_name].get("aws_secret_access_key")
-                profile.aws_session_token = profiles_config[profile_name].get("aws_session_token")
-                profile.expiration = profiles_config[profile_name].get("expiration")
-
-                # Attempt to get the account alias using this session
-                profile.account_alias = get_account_name(account_number=account_number, credentials=profile.credentials)
-
-                # Identify the role name from the profile credentials
-                if not profile.role_name:
-                    from CloudHarvestPluginAws.tasks.aws import query_aws
-                    identity = query_aws(
-                        service='sts',
-                        command='get_caller_identity',
-                        arguments={},
-                        credentials=profile.credentials,
-                        result_path=(
-                            'UserId',
-                            'Account',
-                            'Arn'
-                        )
-                    )
-                    try:
-                        profile.role_name = str(identity.get('Arn') or '').split('/', maxsplit=1)[1]  # Sometimes a role will include a / after the account number
-
-                    except Exception as exc:
-                        logger.warning(f'Failed to identify role name for profile {profile_name} in account {account_number}: {exc}')
-
-                # Try to identify an expiration for the profile if it was not set.
-                if not profile.expiration:
-                    from CloudHarvestPluginAws.tasks.aws import query_aws
-                    try:
-                        response = query_aws(
-                            service='sts',
-                            command='get_session_token',
-                            arguments={},
-                            credentials=profile.credentials,
-                            result_path=(
-                                'Credentials',
-                                'Expiration'
-                            )
-                        )
-                        profile.expiration = response.get('Expiration')
-
-                    except Exception as exc:
-                        logger.warning(f'Failed to identify expiration for profile {profile_name} in account {account_number}: {exc}')
-
-                CachedProfiles.profiles[account_number] = profile
-
-            else:
-                raise Exception(f'Profile {profile_name} not found in AWS credentials file for account {account_number}.')
-
-        elif Environment.get('platforms.aws.credentials_source') == 'file' and account_number:
-            # Read the credentials file and return the profile
-            CachedProfiles.profiles |= read_credentials_file()
-            profile = CachedProfiles.profiles.get(account_number)
-
+        # Here we pull directly from the environment, which is the default behavior
         else:
-            # Create a new profile and refresh the credentials
-            profile = Profile(account_number=account_number, role_name=role_name)
-            profile.refresh_credentials()
-            CachedProfiles.profiles[account_number] = profile
+            session = Session()
+            credentials = session.get_credentials()
+            profile = Profile(account_number=account_number, role_name=role_name, sourced_from_file=False)
+
+    # If a profile is found we will do some extra steps, cache it, and return it.
+    if profile and credentials and session:
+        profile.aws_access_key_id = credentials.access_key
+        profile.aws_secret_access_key = credentials.secret_key
+        profile.aws_session_token = credentials.session_token
+
+        # Get the role name sts
+        profile.role_arn = session.client('sts').get_caller_identity().get('Arn')
+
+        # Apply the role name to the profile from the arn
+        profile.role_name = profile.role_arn.split('/')[-1]
+        # Get the account alias using the credentials we have for this account
+        profile.account_alias = get_account_name(account_number=account_number, credentials=profile.credentials)
+
+        # Cache the profile for future use
+        CachedProfiles.profiles[account_number] = profile
 
     return profile
-
-
-def read_credentials_file(path: str = None) -> dict:
-    """
-    Reads the AWS credentials file and returns a dictionary of profiles.
-
-    Arguments
-        path (str, optional): The path to the AWS credentials file. Defaults to '~/.aws/credentials'.
-
-    Returns
-        dict: A dictionary containing the profiles and their corresponding credentials.
-    """
-
-    from CloudHarvestCoreTasks.environment import Environment
-    from os.path import abspath, exists, expanduser
-    path = abspath(expanduser(path or Environment.get('platforms.aws.credentials_file') or '~/.aws/credentials'))
-
-    logger.debug(f'Reading credentials from {path}')
-
-    # Return an empty dictionary if the file does not exist
-    if not exists(path):
-        return {}
-
-    results = {}
-
-    # Read the credentials file
-    from configparser import ConfigParser
-    config = ConfigParser()
-    config.read(path)
-
-    # Parse the profiles and their credentials
-    profiles = {}
-
-    # For each section (profile name), read all the keys and values and set the keys to lower case
-    logger.debug(f'Found {len(config.sections())} profiles in {path}')
-
-    for section in config.sections():
-        profiles[section] = {
-            k.lower(): v
-            for k, v in config.items(section)
-        }
-
-        # Only attempt to add the profile if it is not already in the cache
-        if section != 'default':
-            logger.debug(f'Building profile for {section}')
-
-            try:
-                credentials = {
-                    key: profiles[section].get(key)
-                    for key in ('aws_access_key_id', 'aws_secret_access_key', 'aws_session_token')
-                }
-
-                logger.debug(f'Retrieving caller identity for {section}')
-                from CloudHarvestPluginAws.tasks.aws import query_aws
-                identity = query_aws(
-                    service='sts',
-                    command='get_caller_identity',
-                    arguments={},
-                    credentials=credentials,
-                    result_path=(
-                        'UserId',
-                        'Account',
-                        'Arn'
-                    )
-                )
-
-                logger.debug(f'Creating profile for {section}')
-                profile = Profile(
-                    account_number=identity.get('Account'),
-                    role_name=str(identity.get('Arn') or '').split('/', maxsplit=1)[1],    # Sometimes a role will include a / after the account number
-                    sourced_from_file=True
-                )
-
-                # Continue if the profile is already in the cache. This can happen when multiple jobs are attempting to
-                # read the credentials file at the same time.
-                if profile.account_number in CachedProfiles.profiles.keys():
-                    continue
-
-                profile.account_alias = get_account_name(profile.account_number, credentials)
-                profile.aws_access_key_id = credentials.get('aws_access_key_id')
-                profile.aws_secret_access_key = credentials.get('aws_secret_access_key')
-                profile.aws_session_token = credentials.get('aws_session_token')
-
-                results[profile.account_number] = profile
-
-                logger.debug(f'Created profile {profile.name} for {section}')
-
-            except Exception as e:
-                logger.warning(f'Failed to get credentials for {section}: {e}')
-
-    return results
 
 
 def get_account_name(account_number: str, credentials: dict) -> str or None:

@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.7.0
+- Rewrote `get_profile()` to use environment variables for custom credential file path and profile name
+- Updated to conform with CloudHarvestCoreTasks 0.10.0
+- 
 ## 0.6.0
 - Updated to conform with CloudHarvestCoreTasks 0.9.0
 - Fixed some reports
